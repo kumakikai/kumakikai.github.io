@@ -1,0 +1,43 @@
+/* ===== Global font size tuning (PaperMod) ===== */
+
+body {
+  font-size: 14.5px;   /* 全体を一段小さく */
+  line-height: 1.65;
+}
+
+/* PaperModで本文に使われる代表クラスをまとめて対象化 */
+.post-content,
+.entry-content,
+.page-content {
+  font-size: 0.92rem;
+}
+
+/* トップ/セクション見出し（FAQ / How to Use のタイトルなど） */
+.page-header h1,
+.page-header h2 {
+  font-size: 1.6rem;
+}
+
+/* 記事タイトル（カード一覧や単ページ） */
+.post-title,
+.entry-header h2,
+.entry-header h1 {
+  font-size: 1.25rem;
+}
+
+/* 本文見出し（FAQの Q 見出しなど） */
+.post-content h1, .entry-content h1, .page-content h1 { font-size: 1.5rem; }
+.post-content h2, .entry-content h2, .page-content h2 { font-size: 1.25rem; }
+.post-content h3, .entry-content h3, .page-content h3 { font-size: 1.1rem; }
+.post-content h4, .entry-content h4, .page-content h4 { font-size: 1.0rem; }
+
+/* ナビ/フッター */
+.nav { font-size: 0.9rem; }
+.footer { font-size: 0.8rem; }
+
+/* Hide recent posts / updates list on the home page */
+.home .post-entry,
+.home .first-entry,
+.home .pagination {
+  display: none !important;
+}
