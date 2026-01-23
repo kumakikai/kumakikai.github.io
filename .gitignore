@@ -1,0 +1,5 @@
+cat >> .gitignore <<'EOF'
+# Hugo build output
+/public/
+/resources/
+/.hugo_build.lock
