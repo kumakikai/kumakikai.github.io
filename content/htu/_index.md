@@ -6,7 +6,7 @@ title: "How to Use"
 
 反映が完了するまでの間は、これまで note で公開していた以下の記事をご参照ください。
 
-- [画面付きでの使い方解説（note）](https://note.com/gamble_pnl/n/n7dbfd85fadc5)
+- [画面付きでの使い方解説（note）](https://note.com/gamble_pnl/n/nd98d6750868a)
 
 ---
 
