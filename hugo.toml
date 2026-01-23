@@ -1,0 +1,30 @@
+baseURL = "https://kumakikai.github.io/"
+languageCode = "ja"
+title = "Balance Calendar"
+enableRobotsTXT = true
+theme = "PaperMod"
+
+# GitHub Pages向け
+canonifyURLs = true
+relativeURLs = false
+
+[params]
+  description = "Official site for Gamble Calendar app."
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Updates"
+    url = "/updates/"
+    weight = 2
+  [[menu.main]]
+    name = "How to Use"
+    url = "/htu/"
+    weight = 3
+  [[menu.main]]
+    name = "FAQ"
+    url = "/faq/"
+    weight = 4

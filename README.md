@@ -1,1 +1,0 @@
-# kumakikai.github.io
