@@ -68,4 +68,4 @@ Balance Calendar は**意図的にやっていません**。
 - [更新情報](/updates/)
 - [使い方](/htu/)
 - [FAQ](/faq/)
-- お問い合わせ：gamcare.app@gmail.com
+- [お問い合わせ](mailto:gamcare.app@gmail.com)
