@@ -41,6 +41,8 @@ title: "Privacy Policy"
 ## 6. お問い合わせ
 
 本ポリシーに関するお問い合わせは、以下までご連絡ください。
-	•	メールアドレス：gamcare.app@gmail.com
+
+- メールアドレス：
+  [gamcare.app@gmail.com](mailto:gamcare.app@gmail.com)
 
 最終更新日：2026-01-23
