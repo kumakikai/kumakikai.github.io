@@ -5,13 +5,25 @@ enableRobotsTXT = true
 theme = "PaperMod"
 timeZone = "Asia/Tokyo"
 
+[pagination]
+  pagerSize = 3
+
 # GitHub Pages向け
 canonifyURLs = true
 relativeURLs = false
 
 [params]
   description = "ギャンカレの公式サイトです。 ／ Official site for Balance Calendar app."
-  mainSections = ["__none__"]
+
+  # ホーム表示調整
+  ShowPostSummary = true
+  ShowBreadCrumbs = false
+  ShowReadingTime = false
+
+  # カスタムCSS読み込み（トップ区切り線・タイル調整用）
+  customCSS = ["css/custom.css"]
+
+  mainSections = ["notes"]
 
 [menu]
   [[menu.main]]

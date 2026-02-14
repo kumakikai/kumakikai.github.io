@@ -35,9 +35,27 @@ body {
 .nav { font-size: 0.9rem; }
 .footer { font-size: 0.8rem; }
 
-/* Hide recent posts / updates list on the home page */
-.home .post-entry,
-.home .first-entry,
-.home .pagination {
-  display: none !important;
+
+/* ===== Home page: section divider under intro/links (PaperMod home-info) ===== */
+.home .home-info {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Dark mode divider */
+.dark .home .home-info {
+  border-bottom-color: rgba(255, 255, 255, 0.16);
+}
+
+/* ===== Home page: clear end-of-intro divider (hr) ===== */
+.home .home-divider {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.12);
+  margin: 2rem 0 3rem;
+}
+
+.dark .home .home-divider {
+  background: rgba(255, 255, 255, 0.16);
 }
