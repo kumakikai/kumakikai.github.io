@@ -1,9 +1,13 @@
 ---
-title: "Balance Calendar"
-description: "日々の収支を、感情や感覚ではなく「事実」として残すための記録アプリ"
+title: "Apps"
+description: "個人開発アプリ一覧"
 ---
 
-# ギャンカレ
+# Apps
+
+---
+
+## ギャンカレ（Balance Calendar）
 
 *日々の収支を、感情や感覚ではなく「事実」として残すための記録アプリ*
 
@@ -15,14 +19,31 @@ description: "日々の収支を、感情や感覚ではなく「事実」とし
 実際に何が起きていたかを  
 静かに確認することに特化しています。
 
----
-
 ### Links
 
 - [App Store](https://apps.apple.com/jp/app/id6757731648)
 - Google Play（現在開発中）
-- [プライバシーポリシー](/privacy/)
+- [プライバシーポリシー](/privacy/balance-calendar/)
 - [お問い合わせ](mailto:gamcare.app@gmail.com)
 
 ---
 
+## SIGNAL
+
+*個人発信を中心にしたニュースフィードアプリ*
+
+SIGNALは、  
+note、Qiita、Zenn、はてなブックマークなどの  
+個人発信を主軸に構成されたニュースアプリです。
+
+広告なし・通知なし・ログイン不要。  
+学習は端末内で完結します。
+
+### Links
+
+- App Store（準備中）
+- Google Play（未定）
+- [プライバシーポリシー](/privacy/signal/)
+- [お問い合わせ](mailto:gamcare.app@gmail.com)
+
+---
