@@ -43,6 +43,6 @@ title: "Privacy Policy (SIGNAL)"
 本ポリシーに関するお問い合わせは、以下までご連絡ください。
 
 - メールアドレス:
-  [gamcare.app@gmail.com](mailto:gamcare.app@gmail.com)
+  [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
 最終更新日：2026-02-22

@@ -56,6 +56,6 @@ date: 2026-01-23
 
 For support or feedback, please contact:
 
-📩 **[gamcare.app@gmail.com](mailto:gamcare.app@gmail.com)**
+📩 **[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)**
 
 ---

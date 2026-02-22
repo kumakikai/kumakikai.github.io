@@ -15,6 +15,6 @@ description: "アプリ別のプライバシーポリシー一覧"
 共通のお問い合わせ先:
 
 - メールアドレス:
-  [gamcare.app@gmail.com](mailto:gamcare.app@gmail.com)
+  [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
 最終更新日：2026-02-22

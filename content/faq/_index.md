@@ -91,4 +91,4 @@ title: "FAQ"
 ご意見・ご質問は、以下のメールアドレスまでご連絡ください。  
 ※ 個人開発のため、即時対応できない場合があります。
 
-gamcare.app@gmail.com
+kumakikai.apps@gmail.com
