@@ -23,7 +23,11 @@ description: "個人開発アプリ一覧"
 
 - [App Store](https://apps.apple.com/jp/app/id6757731648)
 - Google Play（現在開発中）
+- [更新履歴](/updates/balance-calendar/)
+- [使い方](/htu/balance-calendar/)
+- [FAQ](/faq/balance-calendar/)
 - [プライバシーポリシー](/privacy/balance-calendar/)
+- [お問い合わせ](mailto:kumakikai.apps@gmail.com)
 
 ---
 
@@ -42,6 +46,10 @@ note、Qiita、Zenn、はてなブックマークなどの
 
 - App Store（準備中）
 - Google Play（未定）
+- [更新履歴](/updates/signal/)
+- [使い方](/htu/signal/)
+- [FAQ](/faq/signal/)
 - [プライバシーポリシー](/privacy/signal/)
+- [お問い合わせ](mailto:kumakikai.apps@gmail.com)
 
 ---
