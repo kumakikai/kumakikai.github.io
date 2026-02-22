@@ -54,6 +54,4 @@ note、Qiita、Zenn、はてなブックマークなどの
 
 ## Contact
 
-お問い合わせ（共通）:
-
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
