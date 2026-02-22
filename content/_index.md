@@ -27,7 +27,6 @@ description: "個人開発アプリ一覧"
 - [使い方](/htu/balance-calendar/)
 - [FAQ](/faq/balance-calendar/)
 - [プライバシーポリシー](/privacy/balance-calendar/)
-- [お問い合わせ](mailto:kumakikai.apps@gmail.com)
 
 ---
 
@@ -50,6 +49,11 @@ note、Qiita、Zenn、はてなブックマークなどの
 - [使い方](/htu/signal/)
 - [FAQ](/faq/signal/)
 - [プライバシーポリシー](/privacy/signal/)
-- [お問い合わせ](mailto:kumakikai.apps@gmail.com)
 
 ---
+
+## Contact
+
+お問い合わせ（共通）:
+
+- [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
