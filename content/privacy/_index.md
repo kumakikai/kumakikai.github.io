@@ -9,6 +9,7 @@ description: "アプリ別のプライバシーポリシー一覧"
 
 - [ギャンカレ（Balance Calendar）](/privacy/balance-calendar/)
 - [SIGNAL](/privacy/signal/)
+- [大学ノート - Uni:Note](/privacy/uni-note/)
 
 ---
 
@@ -17,4 +18,4 @@ description: "アプリ別のプライバシーポリシー一覧"
 - メールアドレス:
   [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-最終更新日：2026-02-22
+最終更新日：2026-03-13
