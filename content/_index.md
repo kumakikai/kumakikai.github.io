@@ -52,6 +52,25 @@ note、Qiita、Zenn、はてなブックマークなどの
 
 ---
 
+## Uni:Note - 大学ノートアプリ
+
+*紙の大学ノートを、そのまま iPad に持ち込む手書きノートアプリ*
+
+Uni:Note は、  
+Apple Pencil での手書きに集中するための  
+**iPad専用ノートアプリ**です。
+
+教科ごとに整理し、  
+講義ごとにノートを分けながら、  
+紙の大学ノートに近い感覚で使えます。
+
+### Links
+
+- App Store（公開準備中）
+- [使い方](/htu/uni-note/)
+
+---
+
 ## Contact
 
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
