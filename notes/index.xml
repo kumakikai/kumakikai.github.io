@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Notes on KUMAKIKAI</title><link>https://kumakikai.github.io/notes/</link><description>Recent content in Notes on KUMAKIKAI</description><generator>Hugo -- 0.154.5</generator><language>ja</language><lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://kumakikai.github.io/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>赤字でも、まだ作り続けている</title><link>https://kumakikai.github.io/notes/2026-03-13-blog/</link><pubDate>Fri, 13 Mar 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/notes/2026-03-13-blog/</guid><description>&lt;h1 id="赤字でもまだ作り続けている"&gt;赤字でも、まだ作り続けている&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Notes on KUMAKIKAI</title><link>https://kumakikai.github.io/notes/</link><description>Recent content in Notes on KUMAKIKAI</description><generator>Hugo -- 0.154.5</generator><language>ja</language><lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://kumakikai.github.io/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>すわなびについて</title><link>https://kumakikai.github.io/notes/2026-03-21-smokeless/</link><pubDate>Sat, 21 Mar 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/notes/2026-03-21-smokeless/</guid><description>&lt;p&gt;禁煙カウンターアプリ &lt;strong&gt;「すわなび」&lt;/strong&gt; は、
+喫煙している友人からの要望をきっかけに作ったアプリです。&lt;/p&gt;
+&lt;p&gt;私は普段たばこを吸わないため、
+最初はどこに需要があるのか、どんな機能が本当に必要なのか、正直あまりよく分かっていませんでした。&lt;/p&gt;
+&lt;p&gt;ただ、話を聞いてみると、&lt;/p&gt;
+&lt;p&gt;「今日は何本吸ったのか」
+「どれだけ我慢できたのか」
+「たばこにいくら使ったのか」&lt;/p&gt;
+&lt;p&gt;を、思ったより手軽に記録・確認できるアプリが少ないことが分かりました。&lt;/p&gt;
+&lt;p&gt;そこで、必要なことをすぐ記録できるように、
+できるだけ迷わず使える形で、すわなびを作り始めました。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;すわなびは、
+&lt;strong&gt;喫煙した回数&lt;/strong&gt; と &lt;strong&gt;吸いたいと思ったけど吸わずに済んだ回数（我慢）&lt;/strong&gt; を記録して、
+本数や金額の変化を見えるようにするアプリです。&lt;/p&gt;
+&lt;p&gt;ベースになっているのは、以前作っていた記録アプリ「ギャンカレ」です。
+その構成を土台にしながら、禁煙や喫煙管理に合うように内容を整理して、
+必要な部分に絞ってサクッと組み直しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「喫煙」と「我慢」をすぐ記録できること&lt;/li&gt;
+&lt;li&gt;日別 / 月別 / 年別で振り返れること&lt;/li&gt;
+&lt;li&gt;週 / 月 / 3か月の変化を見やすく確認できること&lt;/li&gt;
+&lt;li&gt;本数だけでなく、使った金額や節約できた金額も把握できること&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を重視しています。&lt;/p&gt;
+&lt;p&gt;機能を増やしすぎるより、
+その場で記録できて、あとから見返しやすいことを優先しています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="このアプリについて"&gt;このアプリについて&lt;/h2&gt;
+&lt;p&gt;すわなびは、現在のところ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ログイン不要&lt;/li&gt;
+&lt;li&gt;記録はシンプルに2種類&lt;/li&gt;
+&lt;li&gt;本数と金額を見える化&lt;/li&gt;
+&lt;li&gt;データは端末内保存&lt;/li&gt;
+&lt;li&gt;ウィジェット対応&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という方針で作っています。&lt;/p&gt;
+&lt;p&gt;禁煙の補助として使うこともできますし、
+今どれくらい吸っているか、どれくらいお金を使っているかを把握するための記録アプリとして使うこともできます。&lt;/p&gt;
+&lt;p&gt;使い方を決めつけすぎず、
+それぞれのペースで続けやすい形を目指しています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="このページについて"&gt;このページについて&lt;/h2&gt;
+&lt;p&gt;このページは、
+禁煙カウンターアプリ「すわなび」の &lt;strong&gt;サポート窓口&lt;/strong&gt; も兼ねています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;アプリについての質問&lt;/li&gt;
+&lt;li&gt;不具合の報告&lt;/li&gt;
+&lt;li&gt;改善提案&lt;/li&gt;
+&lt;li&gt;ご意見・ご感想&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;などがあれば、下記メールアドレスまでご連絡ください。&lt;/p&gt;
+&lt;p&gt;使い方については、こちらのページもご確認ください。&lt;br&gt;
+&lt;a href="https://kumakikai.github.io/htu/smoke-less/"&gt;How to Use (すわなび)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;プライバシーポリシーはこちらです。&lt;br&gt;
+&lt;a href="https://kumakikai.github.io/privacy/smoke-less/"&gt;Privacy Policy (すわなび)&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="contact"&gt;Contact&lt;/h2&gt;
+&lt;p&gt;For support or feedback, please contact:&lt;/p&gt;</description></item><item><title>赤字でも、まだ作り続けている</title><link>https://kumakikai.github.io/notes/2026-03-13-blog/</link><pubDate>Fri, 13 Mar 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/notes/2026-03-13-blog/</guid><description>&lt;h1 id="赤字でもまだ作り続けている"&gt;赤字でも、まだ作り続けている&lt;/h1&gt;
 &lt;p&gt;相変わらず、数字はかなり厳しいです。&lt;/p&gt;
 &lt;p&gt;ダウンロードは伸びない。
 レビューもつかない。
