@@ -25,6 +25,7 @@ description: "個人開発アプリ一覧"
 ### Links
 
 - App Store（公開準備中）
+- [更新履歴](/updates/smokeless/)
 - [使い方](/htu/smokeless/)
 - [FAQ](/faq/smokeless/)
 - [プライバシーポリシー](/privacy/smokeless/)
