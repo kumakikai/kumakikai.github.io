@@ -7,6 +7,7 @@ description: "アプリ別の使い方"
 
 対象アプリ:
 
+- [すわなび - 禁煙カウンターアプリ](/htu/smokeless/)
 - [ギャンカレ（Balance Calendar）](/htu/balance-calendar/)
 - [SIGNAL](/htu/signal/)
 - [大学ノート - Uni:Note](/htu/uni-note/)

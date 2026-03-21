@@ -7,5 +7,6 @@ description: "アプリ別FAQ"
 
 対象アプリ:
 
+- [すわなび - 禁煙カウンターアプリ](/faq/smokeless/)
 - [ギャンカレ（Balance Calendar）](/faq/balance-calendar/)
 - [SIGNAL](/faq/signal/)
