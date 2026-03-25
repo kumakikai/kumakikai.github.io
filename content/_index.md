@@ -91,7 +91,6 @@ note、Qiita、Zenn、はてなブックマークなどの
 ### Links
 
 - [App Store](https://apps.apple.com/jp/app/id6759493613)
-- Google Play（未定）
 - [更新履歴](/updates/signal/)
 - [使い方](/htu/signal/)
 - [FAQ](/faq/signal/)
