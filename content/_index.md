@@ -24,7 +24,7 @@ Apple Pencil での手書きに集中するための
 - [App Store](https://apps.apple.com/jp/app/id6760258084)
 - [更新履歴](/updates/uni-note/)
 - [使い方](/htu/uni-note/)
-- [サポート](/notes/2026-03-12-uni-note/)
+- FAQ (準備中)
 - [プライバシーポリシー](/privacy/uni-note/)
 
 ---
