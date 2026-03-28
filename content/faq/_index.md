@@ -7,6 +7,7 @@ description: "アプリ別FAQ"
 
 対象アプリ:
 
+- [大学ノート - Uni:Note](/faq/uni-note/)
 - [すわなび - 禁煙カウンターアプリ](/faq/smokeless/)
 - [ギャンカレ（Balance Calendar）](/faq/balance-calendar/)
 - [SIGNAL](/faq/signal/)
