@@ -91,10 +91,9 @@ title: "使い方 (ギャンカレ)"
 
 ---
 
-よくある質問:
+ご不明な点がある場合は、まずはよくある質問ページをご確認ください。
 
-- [よくある質問 (ギャンカレ)](/faq/balance-calendar/)
+[よくある質問（ギャンカレ）](/faq/balance-calendar/)
 
-お問い合わせ:
-
-- [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+解決しない場合は、以下までご連絡ください。
+[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)

@@ -155,10 +155,9 @@ Uni:Note（大学ノート）は、**Apple Pencilで手書きするための iPa
 
 設定の **サポート** から、**使い方** ページと **お問い合わせ・ご要望** を開けます。
 
-よくある質問:
+ご不明な点がある場合は、まずはよくある質問ページをご確認ください。
 
-- [よくある質問 (Uni:Note)](/faq/uni-note/)
+[よくある質問（Uni:Note）](/faq/uni-note/)
 
-お問い合わせ:
-
-- [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+解決しない場合は、以下までご連絡ください。
+[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
