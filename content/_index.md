@@ -47,7 +47,7 @@ Apple Pencil での手書きに集中するための
 - Google Play（現在開発中）
 - [更新履歴](/updates/balance-calendar/)
 - [使い方](/htu/balance-calendar/)
-- [FAQ](/faq/balance-calendar/)
+- [よくある質問](/faq/balance-calendar/)
 - [プライバシーポリシー](/privacy/balance-calendar/)
 
 ---
@@ -72,7 +72,7 @@ Apple Pencil での手書きに集中するための
 - [App Store](https://apps.apple.com/jp/app/id6760842941)
 - [更新履歴](/updates/smokeless/)
 - [使い方](/htu/smokeless/)
-- [FAQ](/faq/smokeless/)
+- [よくある質問](/faq/smokeless/)
 - [プライバシーポリシー](/privacy/smokeless/)
 
 ---
@@ -93,7 +93,7 @@ note、Qiita、Zenn、はてなブックマークなどの
 - [App Store](https://apps.apple.com/jp/app/id6759493613)
 - [更新履歴](/updates/signal/)
 - [使い方](/htu/signal/)
-- [FAQ](/faq/signal/)
+- [よくある質問](/faq/signal/)
 - [プライバシーポリシー](/privacy/signal/)
 
 ---

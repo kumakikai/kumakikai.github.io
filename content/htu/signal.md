@@ -60,4 +60,10 @@ SIGNALは、表示したい配信源を選びながら、`CREATORS` / `TODAY` / 
 
 ---
 
-ご不明点がある場合は、FAQページもあわせてご確認ください。
+よくある質問:
+
+- [よくある質問 (SIGNAL)](/faq/signal/)
+
+お問い合わせ:
+
+- [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
