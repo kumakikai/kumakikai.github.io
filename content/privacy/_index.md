@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "プライバシーポリシー"
 description: "アプリ別のプライバシーポリシー一覧"
 ---
 
@@ -8,7 +8,7 @@ description: "アプリ別のプライバシーポリシー一覧"
 対象アプリ:
 
 - [すわなび - 禁煙カウンターアプリ](/privacy/smokeless/)
-- [ギャンカレ（Balance Calendar）](/privacy/balance-calendar/)
+- [ギャンカレ](/privacy/balance-calendar/)
 - [SIGNAL](/privacy/signal/)
 - [大学ノート - Uni:Note](/privacy/uni-note/)
 

@@ -1,5 +1,5 @@
 ---
-title: "How to Use (Uni:Note)"
+title: "使い方 (Uni:Note)"
 ---
 
 Uni:Note（大学ノート）は、**Apple Pencilで手書きするための iPad ノートアプリ**です。  
@@ -157,7 +157,7 @@ Uni:Note（大学ノート）は、**Apple Pencilで手書きするための iPa
 
 よくある質問:
 
-- [FAQ (Uni:Note)](/faq/uni-note/)
+- [よくある質問 (Uni:Note)](/faq/uni-note/)
 
 お問い合わせ:
 

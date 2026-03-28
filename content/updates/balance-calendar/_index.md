@@ -1,7 +1,7 @@
 ---
-title: "Updates (Balance Calendar)"
-description: "ギャンカレ（Balance Calendar）の更新履歴"
+title: "更新履歴 (ギャンカレ)"
+description: "ギャンカレの更新履歴"
 ---
 
-ギャンカレ（Balance Calendar）の更新履歴です。  
+ギャンカレの更新履歴です。  
 機能追加よりも「迷わず使えること」を優先して調整しています。

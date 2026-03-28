@@ -1,5 +1,5 @@
 ---
-title: "FAQ (SIGNAL)"
+title: "よくある質問 (SIGNAL)"
 ---
 
 ## 基本

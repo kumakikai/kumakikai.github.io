@@ -1,13 +1,13 @@
 ---
-title: "FAQ"
-description: "アプリ別FAQ"
+title: "よくある質問"
+description: "アプリ別のよくある質問"
 ---
 
-このページでは、各アプリのFAQを案内しています。
+このページでは、各アプリのよくある質問を案内しています。
 
 対象アプリ:
 
 - [大学ノート - Uni:Note](/faq/uni-note/)
 - [すわなび - 禁煙カウンターアプリ](/faq/smokeless/)
-- [ギャンカレ（Balance Calendar）](/faq/balance-calendar/)
+- [ギャンカレ](/faq/balance-calendar/)
 - [SIGNAL](/faq/signal/)

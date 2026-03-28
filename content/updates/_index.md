@@ -1,5 +1,5 @@
 ---
-title: "Updates"
+title: "更新履歴"
 description: "アプリ別の更新履歴"
 ---
 
@@ -7,6 +7,6 @@ description: "アプリ別の更新履歴"
 
 対象アプリ:
 
-- [ギャンカレ（Balance Calendar）](/updates/balance-calendar/)
+- [ギャンカレ](/updates/balance-calendar/)
 - [SIGNAL](/updates/signal/)
 - [Uni:Note](/updates/uni-note/)

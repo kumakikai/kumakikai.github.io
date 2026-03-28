@@ -1,9 +1,9 @@
 ---
-title: "Apps"
+title: "アプリ一覧"
 description: "個人開発アプリ一覧"
 ---
 
-# Apps
+# アプリ一覧
 
 ---
 
@@ -19,12 +19,12 @@ Apple Pencil での手書きに集中するための
 講義ごとにノートを分けながら、  
 紙の大学ノートに近い感覚で使えます。
 
-### Links
+### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6760258084)
 - [更新履歴](/updates/uni-note/)
 - [使い方](/htu/uni-note/)
-- FAQ (準備中)
+- [よくある質問](/faq/uni-note/)
 - [プライバシーポリシー](/privacy/uni-note/)
 
 ---
@@ -41,7 +41,7 @@ Apple Pencil での手書きに集中するための
 実際に何が起きていたかを  
 静かに確認することに特化しています。
 
-### Links
+### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6757731648)
 - Google Play（現在開発中）
@@ -67,7 +67,7 @@ Apple Pencil での手書きに集中するための
 日別 / 月別 / 年別の一覧や、週 / 月 / 3か月のグラフで変化を確認できます。  
 `1箱の本数` と `1箱の金額` を設定すれば、金額換算もできます。
 
-### Links
+### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6760842941)
 - [更新履歴](/updates/smokeless/)
@@ -88,7 +88,7 @@ note、Qiita、Zenn、はてなブックマークなどの
 広告なし・通知なし・ログイン不要。  
 学習は端末内で完結します。
 
-### Links
+### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6759493613)
 - [更新履歴](/updates/signal/)
@@ -98,6 +98,6 @@ note、Qiita、Zenn、はてなブックマークなどの
 
 ---
 
-## Contact
+## お問い合わせ
 
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)

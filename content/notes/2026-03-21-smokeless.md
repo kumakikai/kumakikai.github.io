@@ -75,16 +75,16 @@ date: 2026-03-21
 などがあれば、下記メールアドレスまでご連絡ください。
 
 使い方については、こちらのページもご確認ください。  
-[How to Use (すわなび)](/htu/smoke-less/)
+[使い方 (すわなび)](/htu/smoke-less/)
 
 プライバシーポリシーはこちらです。  
-[Privacy Policy (すわなび)](/privacy/smoke-less/)
+[プライバシーポリシー (すわなび)](/privacy/smoke-less/)
 
 ---
 
-## Contact
+## お問い合わせ
 
-For support or feedback, please contact:
+サポートやご意見は、以下までご連絡ください。
 
 📩 **[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)**
 

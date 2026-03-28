@@ -1,5 +1,5 @@
 ---
-title: "How to Use (SIGNAL)"
+title: "使い方 (SIGNAL)"
 ---
 
 SIGNALは、表示したい配信源を選びながら、`CREATORS` / `TODAY` / `NEWS` の3タブで記事を追うニュースフィードアプリです。

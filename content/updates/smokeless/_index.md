@@ -1,5 +1,5 @@
 ---
-title: "Updates (すわなび)"
+title: "更新履歴 (すわなび)"
 description: "すわなびの更新履歴"
 ---
 

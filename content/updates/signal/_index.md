@@ -1,5 +1,5 @@
 ---
-title: "Updates (SIGNAL)"
+title: "更新履歴 (SIGNAL)"
 description: "SIGNALの更新履歴"
 ---
 

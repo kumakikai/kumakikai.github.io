@@ -1,5 +1,5 @@
 ---
-title: "FAQ (Uni:Note)"
+title: "よくある質問 (Uni:Note)"
 ---
 
 ## 基本
