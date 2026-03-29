@@ -1,9 +1,60 @@
 baseURL = "https://kumakikai.github.io/"
-languageCode = "ja"
+languageCode = "ja-JP"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
 title = "KUMAKIKAI"
 enableRobotsTXT = true
 theme = "PaperMod"
 timeZone = "Asia/Tokyo"
+
+[languages]
+  [languages.ja]
+    languageCode = "ja-JP"
+    languageName = "日本語"
+    title = "KUMAKIKAI"
+    weight = 1
+    [languages.ja.params]
+      description = "KUMAKIKAIの公式サイトです。"
+
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    title = "KUMAKIKAI"
+    weight = 2
+    [languages.en.params]
+      description = "Official site for KUMAKIKAI apps."
+
+  [languages.ko]
+    languageCode = "ko-KR"
+    languageName = "한국어"
+    title = "KUMAKIKAI"
+    weight = 3
+    [languages.ko.params]
+      description = "KUMAKIKAI 앱 공식 사이트입니다."
+
+  [languages.de]
+    languageCode = "de-DE"
+    languageName = "Deutsch"
+    title = "KUMAKIKAI"
+    weight = 4
+    [languages.de.params]
+      description = "Offizielle Website der KUMAKIKAI-Apps."
+
+  [languages."zh-hant"]
+    languageCode = "zh-Hant"
+    languageName = "繁體中文"
+    title = "KUMAKIKAI"
+    weight = 5
+    [languages."zh-hant".params]
+      description = "KUMAKIKAI 應用程式官方網站。"
+
+  [languages.fr]
+    languageCode = "fr-FR"
+    languageName = "Français"
+    title = "KUMAKIKAI"
+    weight = 6
+    [languages.fr.params]
+      description = "Site officiel des applications KUMAKIKAI."
 
 [pagination]
   pagerSize = 3

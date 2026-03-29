@@ -35,6 +35,18 @@ body {
 .nav { font-size: 0.9rem; }
 .footer { font-size: 0.8rem; }
 
+.lang-switch a,
+.lang-switch .active {
+  font-size: 0.8rem;
+}
+
+.lang-switch .active {
+  display: block;
+  margin: auto 3px;
+  font-weight: 700;
+  border-bottom: 2px solid currentColor;
+}
+
 
 /* ===== Home page: section divider under intro/links (PaperMod home-info) ===== */
 .home .home-info {
