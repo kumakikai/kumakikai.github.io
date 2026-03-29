@@ -26,6 +26,7 @@ Sur l'écran central `Saisie`, vous pouvez noter en un geste le bouton vert `Év
 
 - Le bouton vert enregistre 1 cigarette évitée
 - Le bouton rouge enregistre 1 cigarette fumée
+- Si plusieurs marques sont enregistrées, vous pouvez choisir la marque avant d'enregistrer
 - En haut de l'écran, vous pouvez voir le nombre du jour, la conversion monétaire et le temps écoulé depuis le dernier enregistrement
 
 ---
@@ -65,9 +66,9 @@ Vous pouvez vérifier les changements récents en regardant `Fumée`, `Évitée`
 
 ## 6. Utilisez le widget d'accueil
 
-Depuis le widget d'accueil, vous pouvez noter `Fumée` ou `Évitée` en un geste et voir le total du jour d'un coup d'oeil.
+Ajoutez le widget d'accueil pour consulter le total du jour de `Fumée` / `Évitée` depuis l'écran d'accueil.
 
-Vous pouvez également ouvrir directement le flux de saisie depuis le widget.
+Vous pouvez aussi enregistrer directement depuis le widget.
 
 ---
 
@@ -80,6 +81,8 @@ Dans `Réglages`, vous pouvez principalement modifier :
 - `Devise des économies`
 - `Cigarettes par paquet`
 - `Prix du paquet`
+- Réglages des marques (jusqu'à 4)
+- `Alerte de surconsommation`
 - `Supprimer les pubs`
 - `Relancer le tutoriel`
 - `Contact et demandes`

@@ -26,6 +26,7 @@ On the center `Log` screen, you can record the green `Avoided` and red `Smoked` 
 
 - The green button records 1 avoided cigarette
 - The red button records 1 smoked cigarette
+- If you added multiple brands, you can switch the brand before logging
 - At the top, you can check today's counts, money conversion, and the elapsed time since the previous record
 
 ---
@@ -65,9 +66,9 @@ You can review recent changes while looking at `Smoked`, `Avoided`, and `Smoked 
 
 ## 6. Use the home widget
 
-From the home widget, you can log `Smoked` or `Avoided` in one tap and see today's totals at a glance.
+Add the home widget to check today's `Smoked` / `Avoided` totals from the home screen.
 
-You can also open the logging flow directly from the widget.
+You can also log directly from the widget.
 
 ---
 
@@ -80,6 +81,8 @@ In `Settings`, you can mainly change:
 - `Savings currency`
 - `Cigarettes per pack`
 - `Price per pack`
+- Brand settings (up to 4 brands)
+- `Over-smoking alert`
 - `Remove ads`
 - `Restart tutorial`
 - `Support`

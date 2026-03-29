@@ -51,7 +51,13 @@ No. You can use it without login or membership.
 ## Features
 
 ### Is there a home widget?
-Yes. The app supports a home widget that can log `Smoked` / `Avoided` and open the logging flow.
+Yes. The app supports a home widget that shows today's `Smoked` / `Avoided` counts and lets you log directly.
+
+### Can I add multiple brands?
+Yes. You can add up to 4 brands.
+
+### Is there an `Over-smoking alert`?
+Yes. You can use the `Over-smoking alert` from `Settings`.
 
 ### Where are ads shown?
 A banner ad is shown on the `Log` screen.  

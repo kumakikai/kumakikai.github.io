@@ -51,7 +51,13 @@ Non. Vous pouvez utiliser l'application sans connexion ni inscription.
 ## Fonctions
 
 ### Existe-t-il un widget d'accueil ?
-Oui. L'application prend en charge un widget d'accueil qui permet de noter `Fumée` / `Évitée` et d'ouvrir le flux de saisie.
+Oui. L'application prend en charge un widget d'accueil qui affiche le nombre du jour pour `Fumée` / `Évitée` et permet d'enregistrer directement.
+
+### Puis-je ajouter plusieurs marques ?
+Oui. Vous pouvez ajouter jusqu'à 4 marques.
+
+### Existe-t-il une `Alerte de surconsommation` ?
+Oui. Vous pouvez utiliser l'`Alerte de surconsommation` depuis `Réglages`.
 
 ### Où les publicités sont-elles affichées ?
 Une bannière est affichée sur l'écran `Saisie`.  
