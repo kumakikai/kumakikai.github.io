@@ -96,7 +96,7 @@ Sie können in den Einstellungen eine Sicherungsdatei erstellen und sie über di
 
 ### Kann ich die App direkt nach einer Wiederherstellung verwenden?
 Schließen Sie die App nach der Wiederherstellung einmal und öffnen Sie sie erneut.  
-Beim nächsten Start wird der Home-Bildschirm geöffnet.
+Beim nächsten Start erscheint das Regal.
 
 ---
 
@@ -117,17 +117,17 @@ Die Erstellungslimits für Fächer und Notizen werden aufgehoben.
 Sie können hauptsächlich Folgendes ändern:
 
 - Vorlage für neue Notizen
-- Bildschirm, der beim Start geöffnet wird
-- Begriffe auf der Startseite (`Fach` / `Heft` / `Gruppe` / `Kategorie`)
+- Beim Start öffnen
+- Fachbezeichnung (`Fach` / `Heft` / `Gruppe` / `Kategorie`)
 - Biometrie zum Aufheben des Schutzes
 - Linkshänder-Modus
 - Sichtbarkeit von Kopf- und Fußzeile
-- PDF-Export
+- PDF-Hintergrundfarbe
 - Sprache
 
-### Kann ich die Bezeichnung "Fach" auf der Startseite ändern?
+### Kann ich die Fachbezeichnung ändern?
 Ja.  
-In den Einstellungen können Sie für die Startseite zwischen **Fach / Heft / Gruppe / Kategorie** wählen.
+In den Einstellungen können Sie unter `Fachbezeichnung` zwischen **Fach / Heft / Gruppe / Kategorie** wählen.
 
 ### Was kann ich im Linkshänder-Modus ändern?
 Sie können die Anfangsposition der Werkzeugleiste, die Position der roten Randlinie auf linierten Seiten und die Einfügeposition von PDFs anpassen.

@@ -96,7 +96,7 @@ Vous pouvez créer un fichier de sauvegarde depuis Réglages et l'enregistrer vi
 
 ### Puis-je utiliser l'application immédiatement après une restauration ?
 Après la restauration, fermez l'application une fois puis rouvrez-la.  
-Au prochain lancement, l'écran d'accueil s'ouvrira.
+Au prochain lancement, la bibliothèque sera affichée.
 
 ---
 
@@ -117,17 +117,17 @@ Les limites de création pour les matières et les notes sont supprimées.
 Vous pouvez principalement modifier les éléments suivants :
 
 - Modèle de nouvelle note
-- Écran ouvert au lancement
-- Terminologie sur l'accueil (`matière` / `cahier` / `groupe` / `catégorie`)
+- Écran au démarrage
+- Libellé des matières (`matière` / `cahier` / `groupe` / `catégorie`)
 - Exiger la biométrie pour retirer la protection
 - Mode gaucher
 - Affichage de l'en-tête / du pied de page
-- Export PDF
+- Couleur de fond du PDF
 - Langue
 
-### Puis-je changer l'intitulé "Matière" affiché sur l'accueil ?
+### Puis-je changer le `Libellé des matières` ?
 Oui.  
-Dans Réglages, vous pouvez choisir **matière / cahier / groupe / catégorie** pour le libellé affiché sur l'accueil.
+Dans Réglages, sous `Libellé des matières`, vous pouvez choisir **matière / cahier / groupe / catégorie**.
 
 ### Que puis-je modifier dans le Mode gaucher ?
 Vous pouvez ajuster la position initiale de la barre d'outils, la position de la marge rouge sur le papier ligné et la position d'insertion des PDF.

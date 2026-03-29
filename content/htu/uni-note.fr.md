@@ -120,7 +120,7 @@ Vous pouvez exporter :
 - cette note uniquement
 - toute la matière
 
-Dans `Export PDF`, vous pouvez changer l'arrière-plan en `Papier` ou `Blanc`.
+Dans `Couleur de fond du PDF`, vous pouvez changer l'arrière-plan en `Papier` ou `Blanc`.
 
 ---
 
@@ -140,16 +140,16 @@ Dans `Export PDF`, vous pouvez changer l'arrière-plan en `Papier` ou `Blanc`.
 Dans `Réglages`, vous pouvez principalement modifier :
 
 - `Modèle des nouvelles notes`
-- l'écran ouvert au lancement
-- la terminologie de l'accueil (`matière` / `cahier` / `groupe` / `catégorie`)
+- `Écran au démarrage`
+- `Libellé des matières` (`matière` / `cahier` / `groupe` / `catégorie`)
 - `Exiger la biométrie pour retirer la protection`
 - `Mode gaucher`
 - `En-tête / Pied de page`
-- `Export PDF`
+- `Couleur de fond du PDF`
 - `Langue`
 
 Dans la sauvegarde, vous pouvez `Créer` et `Restaurer` les données de l'application via l'app Fichiers.
-Après une restauration, fermez puis rouvrez l'app. Au prochain lancement, l'accueil s'ouvre.
+Après une restauration, fermez puis rouvrez l'app. Au prochain lancement, la bibliothèque sera affichée.
 
 Depuis `Assistance`, vous pouvez ouvrir `Mode d’emploi` et `Contact et demandes`.
 

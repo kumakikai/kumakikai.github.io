@@ -120,7 +120,7 @@ Sie können exportieren:
 - nur diese Notiz
 - das gesamte Fach
 
-Im Bereich `PDF-Export` lässt sich der Hintergrund auf `Papier` oder `Weiß` setzen.
+Bei `PDF-Hintergrundfarbe` lässt sich der Hintergrund auf `Papier` oder `Weiß` setzen.
 
 ---
 
@@ -140,16 +140,16 @@ Im Bereich `PDF-Export` lässt sich der Hintergrund auf `Papier` oder `Weiß` se
 In `Einstellungen` können Sie vor allem Folgendes ändern:
 
 - `Standardvorlage`
-- den Bildschirm beim Start
-- Begriffe auf Home (`Fach` / `Heft` / `Gruppe` / `Kategorie`)
+- `Beim Start öffnen`
+- `Fachbezeichnung` (`Fach` / `Heft` / `Gruppe` / `Kategorie`)
 - Biometrie beim Aufheben des Schutzes
 - `Linkshänder-Modus`
 - `Kopf- / Fußzeile`
-- `PDF-Export`
+- `PDF-Hintergrundfarbe`
 - `Sprache`
 
 Im Backup-Bereich können Sie App-Daten über die Dateien-App `Erstellen` und `Wiederherstellen`.
-Nach einer Wiederherstellung schließen Sie die App einmal und öffnen sie erneut. Beim nächsten Start erscheint Home.
+Nach einer Wiederherstellung schließen Sie die App einmal und öffnen sie erneut. Beim nächsten Start erscheint das Regal.
 
 Unter `Support` können Sie `Anleitung` und `Feedback & Kontakt` öffnen.
 

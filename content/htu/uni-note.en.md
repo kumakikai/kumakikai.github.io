@@ -120,7 +120,7 @@ You can export:
 - this note only
 - the entire subject
 
-In `PDF Export`, you can change the background to `Paper` or `White`.
+In `PDF Background Color`, you can change the background to `Paper` or `White`.
 
 ---
 
@@ -140,16 +140,16 @@ In `PDF Export`, you can change the background to `Paper` or `White`.
 In `Settings`, you can mainly change:
 
 - `Default Template`
-- the screen opened at launch
-- Home terminology (`Subject` / `Notebook` / `Group` / `Category`)
+- `Open On Launch`
+- `Subject Name` (`Subject` / `Notebook` / `Group` / `Category`)
 - `Require Biometrics to Remove Protection`
 - `Left-Handed Mode`
 - `Header / Footer`
-- `PDF Export`
+- `PDF Background Color`
 - `Language`
 
 From backup, you can `Create` and `Restore` app data files through the Files app.
-After restoring, close and reopen the app once. The next launch opens Home.
+After restoring, close and reopen the app once. The next launch will show the shelf.
 
 From `Support`, you can open `How to Use` and `Feedback & Support`.
 

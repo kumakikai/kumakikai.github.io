@@ -96,7 +96,7 @@ You can create a backup file from Settings and save it through the Files app. Re
 
 ### Can I use the app immediately after restoring?
 After restoring, close the app once and open it again.  
-The next launch opens the Home screen.
+The next launch will show the shelf.
 
 ---
 
@@ -117,17 +117,17 @@ The creation limits for subjects and notes are removed.
 You can mainly change the following:
 
 - Default Template
-- Screen opened at launch
-- Home terminology (`Subject` / `Notebook` / `Group` / `Category`)
+- Open On Launch
+- Subject Name (`Subject` / `Notebook` / `Group` / `Category`)
 - Require Biometrics to Remove Protection
 - Left-Handed Mode
 - Header / footer visibility
-- PDF Export
+- PDF Background Color
 - Language
 
-### Can I change the label shown as "Subject" on Home?
+### Can I change the subject label?
 Yes.  
-In Settings, you can choose **Subject / Notebook / Group / Category** for the label shown on Home.
+In Settings, under `Subject Name`, you can choose **Subject / Notebook / Group / Category**.
 
 ### What can I change in Left-Handed Mode?
 You can adjust the initial toolbar position, the red margin line position on ruled paper, and the PDF insertion position.
