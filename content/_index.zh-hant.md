@@ -37,7 +37,14 @@ Uni:Memo 會匯入 Uni:Note 建立的備份，
 ### 狀態
 
 - 發布準備中
-- App Store 頁面與支援頁面將於正式公開後補上
+
+### 連結
+
+- App Store（準備中）
+- [更新紀錄]({{< relref "/updates/uni-memo/" >}})
+- [使用方式]({{< relref "/htu/uni-memo/" >}})
+- [常見問題]({{< relref "/faq/uni-memo/" >}})
+- [隱私權政策]({{< relref "/privacy/uni-memo/" >}})
 
 ## Balance Calendar
 

@@ -37,7 +37,14 @@ Uni:Memo는 Uni:Note에서 만든 백업을 가져와
 ### 상태
 
 - 출시 준비 중
-- App Store 공개 전이라 배포 페이지와 지원 페이지는 아직 없습니다
+
+### 링크
+
+- App Store (출시 준비 중)
+- [업데이트 기록]({{< relref "/updates/uni-memo/" >}})
+- [사용 방법]({{< relref "/htu/uni-memo/" >}})
+- [FAQ]({{< relref "/faq/uni-memo/" >}})
+- [개인정보 처리방침]({{< relref "/privacy/uni-memo/" >}})
 
 ## 밸런스 캘린더
 

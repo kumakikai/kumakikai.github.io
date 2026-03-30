@@ -31,7 +31,14 @@ It is designed as a read-only companion focused on notebook browsing, page viewi
 ### Status
 
 - Preparing for release
-- App Store and support pages will be added after the public release
+
+### Links
+
+- App Store (coming soon)
+- [Release Notes]({{< relref "/updates/uni-memo/" >}})
+- [How to Use]({{< relref "/htu/uni-memo/" >}})
+- [FAQ]({{< relref "/faq/uni-memo/" >}})
+- [Privacy Policy]({{< relref "/privacy/uni-memo/" >}})
 
 ## Balance Calendar
 

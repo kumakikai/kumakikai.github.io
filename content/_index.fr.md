@@ -31,7 +31,14 @@ L’application est conçue comme un compagnon en lecture seule, centré sur la 
 ### Statut
 
 - Préparation de la sortie
-- La fiche App Store et les pages d’assistance seront ajoutées après la sortie publique
+
+### Liens
+
+- App Store (bientôt disponible)
+- [Historique des versions]({{< relref "/updates/uni-memo/" >}})
+- [Guide d’utilisation]({{< relref "/htu/uni-memo/" >}})
+- [FAQ]({{< relref "/faq/uni-memo/" >}})
+- [Politique de confidentialité]({{< relref "/privacy/uni-memo/" >}})
 
 ## Balance Calendar
 

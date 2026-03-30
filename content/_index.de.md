@@ -31,7 +31,14 @@ Geplant ist eine reine Lese-App mit Fokus auf Notizübersicht, Seitenansicht und
 ### Status
 
 - In Vorbereitung
-- App-Store-Eintrag und Support-Seiten folgen erst nach dem öffentlichen Release
+
+### Links
+
+- App Store (in Vorbereitung)
+- [Versionshinweise]({{< relref "/updates/uni-memo/" >}})
+- [Anleitung]({{< relref "/htu/uni-memo/" >}})
+- [FAQ]({{< relref "/faq/uni-memo/" >}})
+- [Datenschutzerklärung]({{< relref "/privacy/uni-memo/" >}})
 
 ## Balance Calendar
 

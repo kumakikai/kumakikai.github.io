@@ -45,7 +45,14 @@ Uni:Note で作成したバックアップを取り込み、
 ### ステータス
 
 - リリース準備中
-- App Store 公開前のため、配布ページとサポートページはまだありません
+
+### リンク
+
+- App Store（公開準備中）
+- [更新履歴](/updates/uni-memo/)
+- [使い方](/htu/uni-memo/)
+- [よくある質問](/faq/uni-memo/)
+- [プライバシーポリシー](/privacy/uni-memo/)
 
 ---
 
