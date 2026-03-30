@@ -220,7 +220,7 @@
 ノート数と教科数には制限がありますが、お試しとして触ることはできます。&lt;/p&gt;</description></item><item><title>Uni:Noteについて</title><link>https://kumakikai.github.io/notes/2026-03-12-uni-note/</link><pubDate>Thu, 12 Mar 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/notes/2026-03-12-uni-note/</guid><description>&lt;p&gt;iPad向けの手書きノートアプリ &lt;strong&gt;「Uni:Note」&lt;/strong&gt; を、開発しています。&lt;/p&gt;
 &lt;p&gt;iPad向けのペンアプリは高機能なものが多い一方で、&lt;br&gt;
 大学ノートや勉強ノートに特化したアプリは、意外となかなか見つかりませんでした。&lt;/p&gt;
-&lt;p&gt;「講義ごとに分けたい」&lt;br&gt;
+&lt;p&gt;「ノートごとに分けたい」&lt;br&gt;
 「すぐ開いて、そのまま書きたい」&lt;br&gt;
 「余計な機能より、ノートとして使いやすい方が大事」&lt;/p&gt;
 &lt;p&gt;そういうアプリが欲しくて、Uni:Note を作り始めました。&lt;/p&gt;
@@ -232,7 +232,7 @@
 &lt;p&gt;Apple Pencil で書くことを中心にしていて、&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;教科ごとに整理できること&lt;/li&gt;
-&lt;li&gt;講義ごとにノートを分けられること&lt;/li&gt;
+&lt;li&gt;ノートごとに分けて使えること&lt;/li&gt;
 &lt;li&gt;すぐ開いて、すぐ書き始められること&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;を大事にしています。&lt;/p&gt;
@@ -731,7 +731,10 @@ iCloud Drive 等の外部保存先を利用する場合は、当該サービス�
 &lt;h3 id="個人情報やアカウント情報は必要ですか"&gt;個人情報やアカウント情報は必要ですか？&lt;/h3&gt;
 &lt;p&gt;アカウント登録やプロフィール登録の仕組みはありません。ログインなしで利用できます。&lt;/p&gt;
 &lt;h3 id="テーマや文字サイズは変えられますか"&gt;テーマや文字サイズは変えられますか？&lt;/h3&gt;
-&lt;p&gt;はい。&lt;code&gt;設定&lt;/code&gt; からテーマと記事の文字サイズを変更できます。&lt;/p&gt;</description></item><item><title>よくある質問 (Uni:Note)</title><link>https://kumakikai.github.io/faq/uni-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/faq/uni-note/</guid><description>&lt;h2 id="基本"&gt;基本&lt;/h2&gt;
+&lt;p&gt;はい。&lt;code&gt;設定&lt;/code&gt; からテーマと記事の文字サイズを変更できます。&lt;/p&gt;</description></item><item><title>よくある質問 (Uni:Note)</title><link>https://kumakikai.github.io/faq/uni-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/faq/uni-note/</guid><description>&lt;p&gt;※ このFAQページはまだ正式公開前の開発中です。&lt;br&gt;
+内容は今後変更される場合があります。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="基本"&gt;基本&lt;/h2&gt;
 &lt;h3 id="uninoteはどんなアプリですか"&gt;Uni:Noteはどんなアプリですか？&lt;/h3&gt;
 &lt;p&gt;iPad向けの手書きノートアプリです。&lt;br&gt;
 Apple Pencilで書くことを中心にして、教科ごとにノートを分けて使えます。&lt;/p&gt;
@@ -782,11 +785,7 @@ PDFファイルを選び、その中の1ページを現在開いているペー�
 &lt;p&gt;すでにPDFが貼られているページでは、差し替え確認が表示されます。&lt;/p&gt;
 &lt;h3 id="pdfを書き出せますか"&gt;PDFを書き出せますか？&lt;/h3&gt;
 &lt;p&gt;はい。&lt;br&gt;
-&lt;strong&gt;このノートのみ&lt;/strong&gt; または &lt;strong&gt;教科全体&lt;/strong&gt; をPDF出力できます。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="データと保存"&gt;データと保存&lt;/h2&gt;
-&lt;h3 id="データはどこに保存されますか"&gt;データはどこに保存されますか？&lt;/h3&gt;
-&lt;p&gt;アプリ内に保存されます。&lt;/p&gt;</description></item><item><title>よくある質問 (ギャンカレ)</title><link>https://kumakikai.github.io/faq/balance-calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/faq/balance-calendar/</guid><description>&lt;h2 id="基本"&gt;基本&lt;/h2&gt;
+&lt;strong&gt;このノートのみ&lt;/strong&gt; または &lt;strong&gt;教科全体&lt;/strong&gt; をPDF出力できます。&lt;/p&gt;</description></item><item><title>よくある質問 (ギャンカレ)</title><link>https://kumakikai.github.io/faq/balance-calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/faq/balance-calendar/</guid><description>&lt;h2 id="基本"&gt;基本&lt;/h2&gt;
 &lt;h3 id="ギャンカレはどんなアプリですか"&gt;ギャンカレはどんなアプリですか？&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;収入&lt;/code&gt; / &lt;code&gt;支出&lt;/code&gt; を短い操作で記録し、あとから &lt;code&gt;日別&lt;/code&gt; / &lt;code&gt;月別&lt;/code&gt; / &lt;code&gt;カテゴリ別&lt;/code&gt; で振り返るためのアプリです。&lt;/p&gt;
 &lt;h3 id="ギャンブル以外の用途でも使えますか"&gt;ギャンブル以外の用途でも使えますか？&lt;/h3&gt;
@@ -892,7 +891,7 @@ PDFファイルを選び、その中の1ページを現在開いているペー�
 &lt;hr&gt;
 &lt;h2 id="5-設定-を調整する"&gt;5. &lt;code&gt;設定&lt;/code&gt; を調整する&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;設定&lt;/code&gt; では主に以下を変更できます。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note)</title><link>https://kumakikai.github.io/htu/uni-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/uni-note/</guid><description>&lt;p&gt;Uni:Note（大学ノート）は、&lt;strong&gt;Apple Pencilで手書きするための iPad ノートアプリ&lt;/strong&gt;です。&lt;br&gt;
-教科ごとに分けて、ノートごとに講義を整理しながら使えます。&lt;/p&gt;
+教科ごとに分けて、ノートごとに整理しながら使えます。&lt;/p&gt;
 &lt;p&gt;対応環境:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;iPad専用&lt;/li&gt;
