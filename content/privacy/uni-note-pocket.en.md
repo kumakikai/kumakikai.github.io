@@ -1,9 +1,11 @@
 ---
-title: "Privacy Policy (Uni:Memo)"
-description: "Privacy policy for Uni:Memo."
+title: "Privacy Policy (Uni:Note Pocket)"
+description: "Privacy policy for Uni:Note Pocket."
+aliases:
+  - /en/privacy/uni-memo/
 ---
 
-This privacy policy explains how user information is handled in Uni:Memo ("the App") and on this official website.
+This privacy policy explains how user information is handled in Uni:Note Pocket ("the App") and on this official website.
 
 ## 1. Information we collect
 

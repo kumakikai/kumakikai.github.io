@@ -24,11 +24,11 @@ Uni:Note 是一款專注於 Apple Pencil 手寫體驗的
 - [常見問題]({{< relref "/faq/uni-note/" >}})
 - [隱私權政策]({{< relref "/privacy/uni-note/" >}})
 
-## Uni:Memo
+## Uni:Note Pocket
 
 *用來在 iPhone 上重新查看 Uni:Note 備份的 companion app*
 
-Uni:Memo 會匯入 Uni:Note 建立的備份，  
+Uni:Note Pocket 會匯入 Uni:Note 建立的備份，  
 讓你可以**在 iPhone 上安全地重新查看內容**。
 
 它以唯讀 companion app 為前提，  
@@ -41,10 +41,10 @@ Uni:Memo 會匯入 Uni:Note 建立的備份，
 ### 連結
 
 - App Store（準備中）
-- [更新紀錄]({{< relref "/updates/uni-memo/" >}})
-- [使用方式]({{< relref "/htu/uni-memo/" >}})
-- [常見問題]({{< relref "/faq/uni-memo/" >}})
-- [隱私權政策]({{< relref "/privacy/uni-memo/" >}})
+- [更新紀錄]({{< relref "/updates/uni-note-pocket/" >}})
+- [使用方式]({{< relref "/htu/uni-note-pocket/" >}})
+- [常見問題]({{< relref "/faq/uni-note-pocket/" >}})
+- [隱私權政策]({{< relref "/privacy/uni-note-pocket/" >}})
 
 ## Balance Calendar
 

@@ -21,11 +21,11 @@ Fächer und Notizbücher lassen sich ordentlich strukturieren, ohne das Schreibg
 - [FAQ]({{< relref "/faq/uni-note/" >}})
 - [Datenschutzerklärung]({{< relref "/privacy/uni-note/" >}})
 
-## Uni:Memo
+## Uni:Note Pocket
 
 *Eine iPhone-Companion-App zum Nachschlagen von Uni:Note-Backups.*
 
-Uni:Memo importiert Backups aus Uni:Note und macht sie **sicher auf dem iPhone durchsuchbar**.
+Uni:Note Pocket importiert Backups aus Uni:Note und macht sie **sicher auf dem iPhone durchsuchbar**.
 Geplant ist eine reine Lese-App mit Fokus auf Notizübersicht, Seitenansicht und Umschalten der Lernmaske.
 
 ### Status
@@ -35,10 +35,10 @@ Geplant ist eine reine Lese-App mit Fokus auf Notizübersicht, Seitenansicht und
 ### Links
 
 - App Store (in Vorbereitung)
-- [Versionshinweise]({{< relref "/updates/uni-memo/" >}})
-- [Anleitung]({{< relref "/htu/uni-memo/" >}})
-- [FAQ]({{< relref "/faq/uni-memo/" >}})
-- [Datenschutzerklärung]({{< relref "/privacy/uni-memo/" >}})
+- [Versionshinweise]({{< relref "/updates/uni-note-pocket/" >}})
+- [Anleitung]({{< relref "/htu/uni-note-pocket/" >}})
+- [FAQ]({{< relref "/faq/uni-note-pocket/" >}})
+- [Datenschutzerklärung]({{< relref "/privacy/uni-note-pocket/" >}})
 
 ## Balance Calendar
 

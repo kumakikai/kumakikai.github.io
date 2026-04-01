@@ -21,11 +21,11 @@ It helps you organize subjects and notebooks while keeping the experience close 
 - [FAQ]({{< relref "/faq/uni-note/" >}})
 - [Privacy Policy]({{< relref "/privacy/uni-note/" >}})
 
-## Uni:Memo
+## Uni:Note Pocket
 
 *An iPhone companion app for reviewing Uni:Note backups.*
 
-Uni:Memo imports backups created in Uni:Note and lets you **browse them safely on iPhone**.
+Uni:Note Pocket imports backups created in Uni:Note and lets you **browse them safely on iPhone**.
 It is designed as a read-only companion focused on notebook browsing, page viewing, and memorization layer toggles.
 
 ### Status
@@ -35,10 +35,10 @@ It is designed as a read-only companion focused on notebook browsing, page viewi
 ### Links
 
 - App Store (coming soon)
-- [Release Notes]({{< relref "/updates/uni-memo/" >}})
-- [How to Use]({{< relref "/htu/uni-memo/" >}})
-- [FAQ]({{< relref "/faq/uni-memo/" >}})
-- [Privacy Policy]({{< relref "/privacy/uni-memo/" >}})
+- [Release Notes]({{< relref "/updates/uni-note-pocket/" >}})
+- [How to Use]({{< relref "/htu/uni-note-pocket/" >}})
+- [FAQ]({{< relref "/faq/uni-note-pocket/" >}})
+- [Privacy Policy]({{< relref "/privacy/uni-note-pocket/" >}})
 
 ## Balance Calendar
 

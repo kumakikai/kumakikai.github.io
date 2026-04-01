@@ -21,11 +21,11 @@ Elle permet d’organiser les matières et les cahiers tout en conservant une se
 - [FAQ]({{< relref "/faq/uni-note/" >}})
 - [Politique de confidentialité]({{< relref "/privacy/uni-note/" >}})
 
-## Uni:Memo
+## Uni:Note Pocket
 
 *Une application compagnon iPhone pour relire les sauvegardes Uni:Note.*
 
-Uni:Memo importe les sauvegardes créées dans Uni:Note et permet de les **consulter en toute sécurité sur iPhone**.
+Uni:Note Pocket importe les sauvegardes créées dans Uni:Note et permet de les **consulter en toute sécurité sur iPhone**.
 L’application est conçue comme un compagnon en lecture seule, centré sur la navigation dans les cahiers, l’affichage des pages et le basculement des calques de mémorisation.
 
 ### Statut
@@ -35,10 +35,10 @@ L’application est conçue comme un compagnon en lecture seule, centré sur la 
 ### Liens
 
 - App Store (bientôt disponible)
-- [Historique des versions]({{< relref "/updates/uni-memo/" >}})
-- [Guide d’utilisation]({{< relref "/htu/uni-memo/" >}})
-- [FAQ]({{< relref "/faq/uni-memo/" >}})
-- [Politique de confidentialité]({{< relref "/privacy/uni-memo/" >}})
+- [Historique des versions]({{< relref "/updates/uni-note-pocket/" >}})
+- [Guide d’utilisation]({{< relref "/htu/uni-note-pocket/" >}})
+- [FAQ]({{< relref "/faq/uni-note-pocket/" >}})
+- [Politique de confidentialité]({{< relref "/privacy/uni-note-pocket/" >}})
 
 ## Balance Calendar
 

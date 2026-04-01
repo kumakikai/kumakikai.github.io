@@ -31,11 +31,11 @@ Apple Pencil での手書きに集中するための
 
 ---
 
-## Uni:Memo
+## Uni:Note Pocket
 
 *Uni:Note のバックアップを iPhone で見返すための companion app*
 
-Uni:Memo は、  
+Uni:Note Pocket は、  
 Uni:Note で作成したバックアップを取り込み、  
 **iPhone で安全に見返すための閲覧専用アプリ**です。
 
@@ -49,10 +49,10 @@ Uni:Note で作成したバックアップを取り込み、
 ### リンク
 
 - App Store（公開準備中）
-- [更新履歴](/updates/uni-memo/)
-- [使い方](/htu/uni-memo/)
-- [よくある質問](/faq/uni-memo/)
-- [プライバシーポリシー](/privacy/uni-memo/)
+- [更新履歴](/updates/uni-note-pocket/)
+- [使い方](/htu/uni-note-pocket/)
+- [よくある質問](/faq/uni-note-pocket/)
+- [プライバシーポリシー](/privacy/uni-note-pocket/)
 
 ---
 

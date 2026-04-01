@@ -24,11 +24,11 @@ Uni:Note는 Apple Pencil 손글씨에 집중하기 위한
 - [FAQ]({{< relref "/faq/uni-note/" >}})
 - [개인정보 처리방침]({{< relref "/privacy/uni-note/" >}})
 
-## Uni:Memo
+## Uni:Note Pocket
 
 *Uni:Note 백업을 iPhone에서 다시 보기 위한 companion app*
 
-Uni:Memo는 Uni:Note에서 만든 백업을 가져와  
+Uni:Note Pocket은 Uni:Note에서 만든 백업을 가져와  
 **iPhone에서 안전하게 다시 볼 수 있도록 만든 읽기 전용 앱**입니다.
 
 노트 목록, 페이지 열람, 암기 레이어 표시 전환에 집중하고,  
@@ -41,10 +41,10 @@ Uni:Memo는 Uni:Note에서 만든 백업을 가져와
 ### 링크
 
 - App Store (출시 준비 중)
-- [업데이트 기록]({{< relref "/updates/uni-memo/" >}})
-- [사용 방법]({{< relref "/htu/uni-memo/" >}})
-- [FAQ]({{< relref "/faq/uni-memo/" >}})
-- [개인정보 처리방침]({{< relref "/privacy/uni-memo/" >}})
+- [업데이트 기록]({{< relref "/updates/uni-note-pocket/" >}})
+- [사용 방법]({{< relref "/htu/uni-note-pocket/" >}})
+- [FAQ]({{< relref "/faq/uni-note-pocket/" >}})
+- [개인정보 처리방침]({{< relref "/privacy/uni-note-pocket/" >}})
 
 ## 밸런스 캘린더
 

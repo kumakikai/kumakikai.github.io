@@ -1,9 +1,11 @@
 ---
-title: "プライバシーポリシー (Uni:Memo)"
-description: "Uni:Memoのプライバシーポリシー"
+title: "プライバシーポリシー (Uni:Note Pocket)"
+description: "Uni:Note Pocketのプライバシーポリシー"
+aliases:
+  - /privacy/uni-memo/
 ---
 
-本プライバシーポリシーは、Uni:Memo（以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。
+本プライバシーポリシーは、Uni:Note Pocket（以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。
 
 ## 1. 取得する情報について
 
