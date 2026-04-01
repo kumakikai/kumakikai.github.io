@@ -87,11 +87,7 @@ title: "使い方 (すわなび)"
 
 ---
 
-ご不明な点がある場合は、まずはよくある質問ページをご確認ください。
+関連ページ:
 
-[よくある質問（すわなび）](/faq/smokeless/)
-
-`サポート` から、`使い方` と `お問合せ・ご要望` を開けます。
-
-ご質問、ご要望、バグ報告などがあれば、以下までご連絡ください。
-[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+- [よくある質問 (すわなび)]({{< relref "/faq/smokeless/" >}})
+- [プライバシーポリシー (すわなび)]({{< relref "/privacy/smokeless/" >}})

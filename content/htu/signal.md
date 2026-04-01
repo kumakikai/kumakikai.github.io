@@ -60,9 +60,7 @@ SIGNALは、表示したい配信源を選びながら、`CREATORS` / `TODAY` / 
 
 ---
 
-ご不明な点がある場合は、まずはよくある質問ページをご確認ください。
+関連ページ:
 
-[よくある質問（SIGNAL）](/faq/signal/)
-
-解決しない場合は、以下までご連絡ください。
-[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+- [よくある質問 (SIGNAL)]({{< relref "/faq/signal/" >}})
+- [プライバシーポリシー (SIGNAL)]({{< relref "/privacy/signal/" >}})

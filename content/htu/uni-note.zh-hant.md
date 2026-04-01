@@ -151,10 +151,7 @@ Uni:Note 的設計重點是打開筆記後就能直接開始寫。
 在備份功能中，可透過檔案 App `建立` 與 `還原` App 資料。
 還原後請先關閉 App 再重新開啟，下次啟動會顯示書架。
 
-從 `支援` 可開啟 `使用說明` 與 `意見與聯絡`。
+相關頁面：
 
-## 支援
-
-- 感謝你一直使用 Uni:Note。小事也沒關係。若有建議、錯誤或想詢問的事，歡迎隨時告訴我們。
-- 聯絡方式：[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
-- FAQ：[FAQ (Uni:Note)]({{< relref "/faq/uni-note" >}})
+- [FAQ (Uni:Note)]({{< relref "/faq/uni-note/" >}})
+- [隱私權政策 (Uni:Note)]({{< relref "/privacy/uni-note/" >}})

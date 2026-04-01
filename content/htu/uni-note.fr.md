@@ -151,10 +151,7 @@ Dans `Réglages`, vous pouvez principalement modifier :
 Dans la sauvegarde, vous pouvez `Créer` et `Restaurer` les données de l'application via l'app Fichiers.
 Après une restauration, fermez puis rouvrez l'app. Au prochain lancement, la bibliothèque sera affichée.
 
-Depuis `Assistance`, vous pouvez ouvrir `Mode d’emploi` et `Contact et demandes`.
+Pages liées :
 
-## Assistance
-
-- Merci d’utiliser Uni:Note. Même un petit retour nous aide. N’hésitez pas à nous écrire pour une demande, un bug ou une question.
-- Contact : [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
-- FAQ : [FAQ (Uni:Note)]({{< relref "/faq/uni-note" >}})
+- [FAQ (Uni:Note)]({{< relref "/faq/uni-note/" >}})
+- [Politique de confidentialité (Uni:Note)]({{< relref "/privacy/uni-note/" >}})

@@ -89,11 +89,7 @@ In `Settings`, you can mainly change:
 
 ---
 
-From `Support`, you can open `How to use` and `Contact & feedback`.
+Related pages:
 
-Thanks for using the app. Feel free to send questions, feedback, or bug reports.
-
-[FAQ (Smokeless)]({{< relref "/faq/smokeless" >}})
-
-If that does not solve the issue, please contact:
-[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+- [FAQ (Smokeless)]({{< relref "/faq/smokeless/" >}})
+- [Privacy Policy (Smokeless)]({{< relref "/privacy/smokeless/" >}})

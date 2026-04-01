@@ -151,10 +151,7 @@ In `Settings`, you can mainly change:
 From backup, you can `Create` and `Restore` app data files through the Files app.
 After restoring, close and reopen the app once. The next launch will show the shelf.
 
-From `Support`, you can open `How to Use` and `Feedback & Support`.
+Related pages:
 
-## Support
-
-- Thank you for using Uni:Note. Even small things are welcome. Please feel free to reach out with feedback, bug reports, or questions.
-- Contact: [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
-- FAQ: [FAQ (Uni:Note)]({{< relref "/faq/uni-note" >}})
+- [FAQ (Uni:Note)]({{< relref "/faq/uni-note/" >}})
+- [Privacy Policy (Uni:Note)]({{< relref "/privacy/uni-note/" >}})

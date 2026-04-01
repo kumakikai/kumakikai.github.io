@@ -151,10 +151,7 @@ In `Einstellungen` können Sie vor allem Folgendes ändern:
 Im Backup-Bereich können Sie App-Daten über die Dateien-App `Erstellen` und `Wiederherstellen`.
 Nach einer Wiederherstellung schließen Sie die App einmal und öffnen sie erneut. Beim nächsten Start erscheint das Regal.
 
-Unter `Support` können Sie `Anleitung` und `Feedback & Kontakt` öffnen.
+Verwandte Seiten:
 
-## Support
-
-- Danke, dass du Uni:Note nutzt. Auch Kleinigkeiten sind willkommen. Teile uns Wünsche, Fehler oder Fragen gern mit.
-- Kontakt: [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
-- FAQ: [FAQ (Uni:Note)]({{< relref "/faq/uni-note" >}})
+- [FAQ (Uni:Note)]({{< relref "/faq/uni-note/" >}})
+- [Datenschutzerklärung (Uni:Note)]({{< relref "/privacy/uni-note/" >}})

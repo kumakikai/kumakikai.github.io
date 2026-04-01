@@ -150,10 +150,7 @@ Uni:Note는 Apple Pencil 손글씨에 맞춰 설계된 iPad 노트 앱입니다.
 백업에서는 파일 앱을 통해 앱 데이터 `생성` 과 `복원` 을 할 수 있습니다.
 복원 후에는 앱을 한 번 닫았다가 다시 열어 주세요. 다음 실행 시 책장이 열립니다.
 
-`지원`에서 `사용 방법`과 `문의 및 의견 보내기`를 열 수 있습니다.
+관련 페이지:
 
-## 지원
-
-- 항상 이용해 주셔서 감사합니다. 사소한 내용도 괜찮습니다. 요청, 버그, 문의가 있다면 부담 없이 알려 주세요.
-- 문의: [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
-- FAQ: [FAQ (Uni:Note)]({{< relref "/faq/uni-note" >}})
+- [FAQ (Uni:Note)]({{< relref "/faq/uni-note/" >}})
+- [개인정보 처리방침 (Uni:Note)]({{< relref "/privacy/uni-note/" >}})

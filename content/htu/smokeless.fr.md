@@ -89,11 +89,7 @@ Dans `Réglages`, vous pouvez principalement modifier :
 
 ---
 
-Depuis `Contact et demandes`, vous pouvez ouvrir `Mode d'emploi` et `Contact et demandes`.
+Pages liées :
 
-Merci d'utiliser l'app. Questions, demandes ou bugs : écrivez-nous.
-
-[FAQ (Smokeless)]({{< relref "/faq/smokeless" >}})
-
-Si cela ne résout pas le problème, veuillez contacter :
-[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+- [FAQ (Smokeless)]({{< relref "/faq/smokeless/" >}})
+- [Politique de confidentialité (Smokeless)]({{< relref "/privacy/smokeless/" >}})

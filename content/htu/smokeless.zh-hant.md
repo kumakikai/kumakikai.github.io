@@ -89,11 +89,7 @@ Smokeless 是一款可快速記錄 `記錄吸菸` 與 `記錄忍住`，並在之
 
 ---
 
-在 `聯絡與需求` 中可開啟 `使用說明` 與 `聯絡與需求`。
+相關頁面：
 
-感謝你的使用。如果有問題、需求或錯誤，歡迎告訴我們。
-
-[FAQ (Smokeless)]({{< relref "/faq/smokeless" >}})
-
-若仍未解決，請聯絡：
-[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+- [FAQ (Smokeless)]({{< relref "/faq/smokeless/" >}})
+- [隱私權政策 (Smokeless)]({{< relref "/privacy/smokeless/" >}})

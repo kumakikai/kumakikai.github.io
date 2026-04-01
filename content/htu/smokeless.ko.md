@@ -89,11 +89,7 @@ Smokeless는 `흡연 기록` 과 `참음 기록` 을 빠르게 기록하고, 나
 
 ---
 
-`문의 / 요청`에서 `사용 방법`과 `문의 / 요청`을 열 수 있습니다.
+관련 페이지:
 
-이용해 주셔서 감사합니다. 문의나 요청, 버그 제보를 보내 주세요.
-
-[FAQ (Smokeless)]({{< relref "/faq/smokeless" >}})
-
-해결되지 않으면 아래로 연락해 주세요.
-[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+- [FAQ (Smokeless)]({{< relref "/faq/smokeless/" >}})
+- [개인정보 처리방침 (Smokeless)]({{< relref "/privacy/smokeless/" >}})
