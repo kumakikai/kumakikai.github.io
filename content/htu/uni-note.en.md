@@ -12,6 +12,9 @@ Supported setup:
 - Handwriting is designed for Apple Pencil
 - Finger input is mainly for scrolling and moving photos
 
+The current App Store version is v2.0.0.  
+This page also includes features planned for v2.3.0, and those sections are marked clearly.
+
 ---
 
 ## 1. Create a subject on Home
@@ -98,6 +101,16 @@ Open the `...` menu and choose `Attach Photo`.
 - Double-tap to `Lock Photo` or `Unlock Photo`
 - Press and hold to delete it
 
+### Attach Photo as Document (Planned for v2.3.0)
+
+This is not included in the current App Store version v2.0.0.
+
+Choose `Attach Photo as Document` from the `...` menu to correct a photo from Camera or Library and place it on the page as a document.
+
+- Choose a photo from Camera or Library
+- Adjust the document area in the correction UI and confirm
+- The corrected document is saved and stays available when you open the note again
+
 ---
 
 ## 8. Attach a PDF and export a PDF
@@ -135,18 +148,36 @@ In `PDF Background Color`, you can change the background to `Paper` or `White`.
 
 ---
 
-## 10. Settings, backup, and support
+## 10. Use Memorization Mode (Planned for v2.3.0)
+
+This is not included in the current App Store version v2.0.0.
+
+First, turn on `Memorization Feature` in `Settings > Memorization`.
+
+When enabled, `Memory Tools` appears in the floating toolbar on the note screen.
+
+- Trace the parts you want to hide with `Memory Marker`
+- Remove them with `Memory Marker Eraser`
+- Use the eye button at the top-right to open or close the memorization mask
+- Editing is disabled while the memorization mask is closed
+
+---
+
+## 11. Settings and backup
 
 In `Settings`, you can mainly change:
 
 - `Default Template`
 - `Open On Launch`
+- `Memorization Feature` (planned for v2.3.0)
 - `Subject Name` (`Subject` / `Notebook` / `Group` / `Category`)
 - `Require Biometrics to Remove Protection`
 - `Left-Handed Mode`
 - `Header / Footer`
 - `PDF Background Color`
 - `Language`
+
+v2.3.0 is also planned to expand language support and start availability in regions outside Japan.
 
 From backup, you can `Create` and `Restore` app data files through the Files app.
 After restoring, close and reopen the app once. The next launch will show the shelf.

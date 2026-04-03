@@ -3,6 +3,9 @@ title: "FAQ (Uni:Note)"
 description: "Frequently asked questions about Uni:Note."
 ---
 
+The current App Store version is v2.0.0.  
+This FAQ also includes features planned for v2.3.0, and those answers are marked clearly.
+
 ## Basics
 
 ### What kind of app is Uni:Note?
@@ -18,6 +21,10 @@ Finger input is mainly used for scrolling and moving photos.
 
 ### Do I need to log in or create an account?
 No.
+
+### Which version is currently live?
+The version currently available on the App Store is v2.0.0.  
+The next release is planned as v2.3.0, skipping v2.1 and v2.2, with multilingual support, availability outside Japan, Memorization Mode, and `Attach Photo as Document`.
 
 ---
 
@@ -69,6 +76,10 @@ Deleted pages do not go to Trash and are removed immediately.
 Yes.  
 You can insert photos one at a time with **Attach Photo**. After inserting, you can move or resize them, and double-tap to **Lock Photo** or **Unlock Photo**.
 
+### Can I attach a photo as a document?
+This is planned for v2.3.0.  
+You will be able to choose a photo from Camera or Library, adjust it in the correction UI, and place it on the page as a document.
+
 ### Can I insert PDFs?
 Yes.  
 You can choose **Attach PDF** and place one page from a PDF file onto the page you are currently viewing.
@@ -100,14 +111,18 @@ The next launch will show the shelf.
 
 ---
 
-## Limits and pricing
+## Memorization Mode (Planned for v2.3.0)
 
-### Are there limits in the free version?
-Yes.  
-In the free version, you can create up to 5 subjects and up to 3 notes in each subject.
+### What is Memorization Mode?
+It is a feature planned for v2.3.0.  
+When you turn on `Memorization Feature`, you can hide parts of your note with `Memory Tools` and open or close the memorization mask from the eye button.
 
-### What changes in the premium version?
-The creation limits for subjects and notes are removed.
+### Where can I turn on Memorization Mode?
+You will be able to turn it on from `Settings > Memorization`.
+
+### Can I edit while the memorization mask is closed?
+No.  
+Editing is disabled while the memorization mask is closed.
 
 ---
 
@@ -118,12 +133,15 @@ You can mainly change the following:
 
 - Default Template
 - Open On Launch
+- Memorization Feature (planned for v2.3.0)
 - Subject Name (`Subject` / `Notebook` / `Group` / `Category`)
 - Require Biometrics to Remove Protection
 - Left-Handed Mode
 - Header / footer visibility
 - PDF Background Color
 - Language
+
+v2.3.0 is also planned to expand language support and start availability in regions outside Japan.
 
 ### Can I change the subject label?
 Yes.  

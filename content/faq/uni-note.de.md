@@ -3,6 +3,9 @@ title: "FAQ (Uni:Note)"
 description: "Häufig gestellte Fragen zu Uni:Note."
 ---
 
+Die aktuell im App Store verfügbare Version ist v2.0.0.  
+Diese FAQ enthält auch Funktionen, die für v2.3.0 geplant sind. Solche Antworten sind entsprechend markiert.
+
 ## Grundlagen
 
 ### Was für eine App ist Uni:Note?
@@ -18,6 +21,10 @@ Fingerbedienung wird hauptsächlich für das Scrollen und das Bewegen von Fotos 
 
 ### Muss ich mich anmelden oder ein Konto erstellen?
 Nein.
+
+### Welche Version ist derzeit veröffentlicht?
+Aktuell ist im App Store v2.0.0 verfügbar.  
+Die nächste Version ist als v2.3.0 geplant, wobei v2.1 und v2.2 übersprungen werden. Vorgesehen sind mehr Sprachen, Verfügbarkeit außerhalb Japans, der Lernmodus und `Foto als Dokument anheften`.
 
 ---
 
@@ -69,6 +76,10 @@ Gelöschte Seiten landen nicht im Papierkorb, sondern werden sofort entfernt.
 Ja.  
 Sie können Fotos einzeln mit **Foto einfügen** einfügen. Danach können Sie sie verschieben oder skalieren sowie per Doppeltipp **Foto sperren** oder **Foto entsperren**.
 
+### Kann ich ein Foto als Dokument anheften?
+Das ist für v2.3.0 geplant.  
+Sie sollen dann ein Foto aus Kamera oder Mediathek auswählen, in der Korrekturansicht anpassen und als Dokument auf der Seite ablegen können.
+
 ### Kann ich PDFs einfügen?
 Ja.  
 Sie können **PDF einfügen** wählen und eine Seite aus einer PDF-Datei auf der aktuell geöffneten Seite platzieren.
@@ -100,14 +111,18 @@ Beim nächsten Start erscheint das Regal.
 
 ---
 
-## Einschränkungen und Bezahlung
+## Lernmodus (Geplant für v2.3.0)
 
-### Gibt es Einschränkungen in der kostenlosen Version?
-Ja.  
-In der kostenlosen Version können Sie bis zu 5 Fächer und bis zu 3 Notizen pro Fach erstellen.
+### Was ist der Lernmodus?
+Das ist eine für v2.3.0 geplante Funktion.  
+Wenn Sie die `Lernfunktion` aktivieren, können Sie Bereiche in einer Notiz mit den `Lernwerkzeugen` verdecken und die Lernmaske über die Taste mit dem Auge öffnen oder schließen.
 
-### Was ändert sich in der Premium-Version?
-Die Erstellungslimits für Fächer und Notizen werden aufgehoben.
+### Wo kann ich den Lernmodus einschalten?
+Er wird unter `Einstellungen > Lernen` aktiviert werden.
+
+### Kann ich bearbeiten, während die Lernmaske geschlossen ist?
+Nein.  
+Solange die Lernmaske geschlossen ist, ist das Bearbeiten deaktiviert.
 
 ---
 
@@ -118,12 +133,15 @@ Sie können hauptsächlich Folgendes ändern:
 
 - Vorlage für neue Notizen
 - Beim Start öffnen
+- Lernfunktion (geplant für v2.3.0)
 - Fachbezeichnung (`Fach` / `Heft` / `Gruppe` / `Kategorie`)
 - Biometrie zum Aufheben des Schutzes
 - Linkshänder-Modus
 - Sichtbarkeit von Kopf- und Fußzeile
 - PDF-Hintergrundfarbe
 - Sprache
+
+Für v2.3.0 sind außerdem erweiterte Sprachunterstützung und der Start in Regionen außerhalb Japans geplant.
 
 ### Kann ich die Fachbezeichnung ändern?
 Ja.  

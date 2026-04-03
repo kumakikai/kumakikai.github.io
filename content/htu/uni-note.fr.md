@@ -12,6 +12,9 @@ Environnement pris en charge :
 - L'écriture manuscrite est pensée pour l'Apple Pencil
 - Le doigt sert surtout au défilement et au déplacement des photos
 
+La version actuellement disponible sur l’App Store est la v2.0.0.  
+Cette page inclut aussi des fonctions prévues pour la v2.3.0, et ces sections sont indiquées clairement.
+
 ---
 
 ## 1. Créer une matière sur l'accueil
@@ -98,6 +101,16 @@ Ouvrez le menu `...` puis choisissez `Coller une photo`.
 - Double toucher pour `Verrouiller la photo` / `Déverrouiller la photo`
 - Appui long pour supprimer
 
+### Coller une photo comme document (prévu pour la v2.3.0)
+
+Cette fonction n’est pas encore incluse dans la version App Store actuelle v2.0.0.
+
+Choisissez `Coller une photo comme document` dans le menu `...` pour corriger une photo depuis l’appareil photo ou la photothèque et l’ajouter à la page comme document.
+
+- Choisissez une photo depuis l’appareil photo ou la photothèque
+- Ajustez la zone du document dans l’interface de correction puis validez
+- Le document corrigé est enregistré et reste disponible lorsque vous rouvrez la note
+
 ---
 
 ## 8. Coller un PDF et exporter un PDF
@@ -135,18 +148,36 @@ Dans `Couleur de fond du PDF`, vous pouvez changer l'arrière-plan en `Papier` o
 
 ---
 
-## 10. Réglages, sauvegarde et assistance
+## 10. Utiliser le mode mémorisation (prévu pour la v2.3.0)
+
+Cette fonction n’est pas encore incluse dans la version App Store actuelle v2.0.0.
+
+Commencez par activer la `Fonction de mémorisation` dans `Réglages > Mémorisation`.
+
+Une fois activés, les `Outils mémo` apparaissent dans la barre d’outils flottante de la note.
+
+- Passez le `Marqueur mémo` sur les zones à cacher
+- Effacez-les avec la `Gomme du marqueur mémo`
+- Utilisez le bouton en forme d’œil en haut à droite pour ouvrir ou fermer le masque de mémorisation
+- La modification est désactivée tant que le masque de mémorisation est fermé
+
+---
+
+## 11. Réglages et sauvegarde
 
 Dans `Réglages`, vous pouvez principalement modifier :
 
 - `Modèle des nouvelles notes`
 - `Écran au démarrage`
+- `Fonction de mémorisation` (prévue pour la v2.3.0)
 - `Libellé des matières` (`matière` / `cahier` / `groupe` / `catégorie`)
 - `Exiger la biométrie pour retirer la protection`
 - `Mode gaucher`
 - `En-tête / Pied de page`
 - `Couleur de fond du PDF`
 - `Langue`
+
+La v2.3.0 doit également étendre les langues prises en charge et lancer la distribution hors du Japon.
 
 Dans la sauvegarde, vous pouvez `Créer` et `Restaurer` les données de l'application via l'app Fichiers.
 Après une restauration, fermez puis rouvrez l'app. Au prochain lancement, la bibliothèque sera affichée.

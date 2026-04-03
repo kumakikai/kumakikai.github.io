@@ -3,6 +3,9 @@ title: "FAQ (Uni:Note)"
 description: "Questions fréquentes sur Uni:Note."
 ---
 
+La version actuellement disponible sur l’App Store est la v2.0.0.  
+Cette FAQ inclut aussi des fonctions prévues pour la v2.3.0, et ces réponses sont indiquées clairement.
+
 ## Généralités
 
 ### Quel type d'application est Uni:Note ?
@@ -18,6 +21,10 @@ Le doigt est utilisé principalement pour le défilement et le déplacement des 
 
 ### Dois-je me connecter ou créer un compte ?
 Non.
+
+### Quelle version est actuellement publiée ?
+La version disponible actuellement sur l’App Store est la v2.0.0.  
+La prochaine version est prévue en v2.3.0, en sautant les v2.1 et v2.2, avec davantage de langues, la disponibilité hors du Japon, le mode mémorisation et `Coller une photo comme document`.
 
 ---
 
@@ -69,6 +76,10 @@ Les pages supprimées ne vont pas dans la corbeille et sont supprimées immédia
 Oui.  
 Vous pouvez les insérer une par une avec **Coller une photo**. Après insertion, vous pouvez les déplacer, les redimensionner et **Verrouiller la photo** ou **Déverrouiller la photo** par double toucher.
 
+### Puis-je coller une photo comme document ?
+Cette fonction est prévue pour la v2.3.0.  
+Vous pourrez choisir une photo depuis l’appareil photo ou la photothèque, l’ajuster dans l’interface de correction puis l’ajouter à la page comme document.
+
 ### Puis-je insérer des PDF ?
 Oui.  
 Vous pouvez choisir **Coller un PDF** et placer l'une des pages du fichier sur la page que vous consultez actuellement.
@@ -100,14 +111,18 @@ Au prochain lancement, la bibliothèque sera affichée.
 
 ---
 
-## Limites et paiement
+## Mode mémorisation (prévu pour la v2.3.0)
 
-### Existe-t-il des limites dans la version gratuite ?
-Oui.  
-Dans la version gratuite, vous pouvez créer jusqu'à 5 matières et jusqu'à 3 notes par matière.
+### Qu’est-ce que le mode mémorisation ?
+Il s’agit d’une fonction prévue pour la v2.3.0.  
+En activant la `Fonction de mémorisation`, vous pourrez masquer certaines zones avec les `Outils mémo` et ouvrir ou fermer le masque avec le bouton en forme d’œil.
 
-### Qu'est-ce qui change dans la version premium ?
-Les limites de création pour les matières et les notes sont supprimées.
+### Où pourrai-je activer le mode mémorisation ?
+Il pourra être activé depuis `Réglages > Mémorisation`.
+
+### Puis-je modifier une note lorsque le masque est fermé ?
+Non.  
+La modification est désactivée tant que le masque de mémorisation est fermé.
 
 ---
 
@@ -118,12 +133,15 @@ Vous pouvez principalement modifier les éléments suivants :
 
 - Modèle de nouvelle note
 - Écran au démarrage
+- Fonction de mémorisation (prévue pour la v2.3.0)
 - Libellé des matières (`matière` / `cahier` / `groupe` / `catégorie`)
 - Exiger la biométrie pour retirer la protection
 - Mode gaucher
 - Affichage de l'en-tête / du pied de page
 - Couleur de fond du PDF
 - Langue
+
+La v2.3.0 doit également étendre les langues prises en charge et lancer la distribution hors du Japon.
 
 ### Puis-je changer le `Libellé des matières` ?
 Oui.  
