@@ -32,15 +32,11 @@ Uni:Note Pocket은 Uni:Note에서 만든 백업을 가져와
 **iPhone에서 안전하게 다시 볼 수 있도록 만든 읽기 전용 앱**입니다.
 
 노트 목록, 페이지 열람, 암기 레이어 표시 전환에 집중하고,  
-작성이나 편집 기능은 포함하지 않는 최소 구성으로 설계하고 있습니다.
-
-### 상태
-
-- 출시 준비 중
+작성이나 편집 기능은 포함하지 않는 최소 구성으로 설계했습니다.
 
 ### 링크
 
-- App Store (출시 준비 중)
+- [App Store](https://apps.apple.com/jp/app/id6761449487)
 - [업데이트 기록]({{< relref "/updates/uni-note-pocket/" >}})
 - [사용 방법]({{< relref "/htu/uni-note-pocket/" >}})
 - [FAQ]({{< relref "/faq/uni-note-pocket/" >}})

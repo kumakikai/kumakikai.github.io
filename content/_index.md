@@ -42,13 +42,9 @@ Uni:Note で作成したバックアップを取り込み、
 ノート一覧、ページ閲覧、暗記レイヤーの表示切替に絞り、  
 書く・編集する責務を持ち込まない最小構成で設計しています。
 
-### ステータス
-
-- リリース準備中
-
 ### リンク
 
-- App Store（公開準備中）
+- [App Store](https://apps.apple.com/jp/app/id6761449487)
 - [更新履歴](/updates/uni-note-pocket/)
 - [使い方](/htu/uni-note-pocket/)
 - [よくある質問](/faq/uni-note-pocket/)

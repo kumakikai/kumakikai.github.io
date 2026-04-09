@@ -26,15 +26,11 @@ Fächer und Notizbücher lassen sich ordentlich strukturieren, ohne das Schreibg
 *Eine iPhone-Companion-App zum Nachschlagen von Uni:Note-Backups.*
 
 Uni:Note Pocket importiert Backups aus Uni:Note und macht sie **sicher auf dem iPhone durchsuchbar**.
-Geplant ist eine reine Lese-App mit Fokus auf Notizübersicht, Seitenansicht und Umschalten der Lernmaske.
-
-### Status
-
-- In Vorbereitung
+Es ist als reine Lese-App mit Fokus auf Notizübersicht, Seitenansicht und Umschalten der Lernmaske konzipiert.
 
 ### Links
 
-- App Store (in Vorbereitung)
+- [App Store](https://apps.apple.com/jp/app/id6761449487)
 - [Versionshinweise]({{< relref "/updates/uni-note-pocket/" >}})
 - [Anleitung]({{< relref "/htu/uni-note-pocket/" >}})
 - [FAQ]({{< relref "/faq/uni-note-pocket/" >}})

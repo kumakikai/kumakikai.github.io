@@ -28,13 +28,9 @@ It helps you organize subjects and notebooks while keeping the experience close 
 Uni:Note Pocket imports backups created in Uni:Note and lets you **browse them safely on iPhone**.
 It is designed as a read-only companion focused on notebook browsing, page viewing, and memorization layer toggles.
 
-### Status
-
-- Preparing for release
-
 ### Links
 
-- App Store (coming soon)
+- [App Store](https://apps.apple.com/jp/app/id6761449487)
 - [Release Notes]({{< relref "/updates/uni-note-pocket/" >}})
 - [How to Use]({{< relref "/htu/uni-note-pocket/" >}})
 - [FAQ]({{< relref "/faq/uni-note-pocket/" >}})

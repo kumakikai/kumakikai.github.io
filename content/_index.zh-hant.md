@@ -34,13 +34,9 @@ Uni:Note Pocket 會匯入 Uni:Note 建立的備份，
 它以唯讀 companion app 為前提，  
 聚焦在筆記列表、頁面瀏覽與記憶遮罩顯示切換，不加入書寫與編輯功能。
 
-### 狀態
-
-- 發布準備中
-
 ### 連結
 
-- App Store（準備中）
+- [App Store](https://apps.apple.com/jp/app/id6761449487)
 - [更新紀錄]({{< relref "/updates/uni-note-pocket/" >}})
 - [使用方式]({{< relref "/htu/uni-note-pocket/" >}})
 - [常見問題]({{< relref "/faq/uni-note-pocket/" >}})

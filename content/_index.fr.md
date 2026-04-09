@@ -28,13 +28,9 @@ Elle permet d’organiser les matières et les cahiers tout en conservant une se
 Uni:Note Pocket importe les sauvegardes créées dans Uni:Note et permet de les **consulter en toute sécurité sur iPhone**.
 L’application est conçue comme un compagnon en lecture seule, centré sur la navigation dans les cahiers, l’affichage des pages et le basculement des calques de mémorisation.
 
-### Statut
-
-- Préparation de la sortie
-
 ### Liens
 
-- App Store (bientôt disponible)
+- [App Store](https://apps.apple.com/jp/app/id6761449487)
 - [Historique des versions]({{< relref "/updates/uni-note-pocket/" >}})
 - [Guide d’utilisation]({{< relref "/htu/uni-note-pocket/" >}})
 - [FAQ]({{< relref "/faq/uni-note-pocket/" >}})
