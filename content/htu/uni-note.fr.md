@@ -163,7 +163,6 @@ La fonction prend en charge les problemes de calcul et les questions courtes dan
 Choisissez `Creer un lot d'exercices` dans `Plus`.
 
 - utilisez `Choisir les pages` pour definir la plage
-- choisissez `Question/Reponse` ou `Texte a trous`
 - lancez `Creer le lot`
 - verifiez les propositions avec `Ajouter` et `Rejeter`
 - enregistrez avec `Enregistrer le lot`

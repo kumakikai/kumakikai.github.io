@@ -163,7 +163,6 @@ Unterstützt werden Formelaufgaben und kurze Fragen in PDFs oder Bildern. Lange 
 Wähle `Aufgabenset erstellen` aus `Mehr`.
 
 - nutze `Seiten auswählen`, um die Zielseiten festzulegen
-- wähle `Frage/Antwort` oder `Lückentext`
 - starte mit `Aufgabenset erstellen`
 - prüfe Vorschläge mit `Hinzufügen` und `Verwerfen`
 - speichere mit `Aufgabenset speichern`

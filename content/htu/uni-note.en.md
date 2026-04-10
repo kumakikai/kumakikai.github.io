@@ -163,7 +163,6 @@ It supports formula questions and short questions inside PDFs or images. Long re
 Choose `Create Practice Set` from `More`.
 
 - Use `Choose Pages` to pick the target pages
-- Choose `Q&A` or `Fill Blank`
 - Start with `Create Practice Set`
 - Review candidates with `Add` and `Reject`
 - Save them with `Save Practice Set`
