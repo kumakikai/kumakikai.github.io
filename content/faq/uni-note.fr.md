@@ -3,8 +3,6 @@ title: "FAQ (Uni:Note)"
 description: "Questions fréquentes sur Uni:Note."
 ---
 
-La version actuellement disponible sur l'App Store est `v2.4.0`.
-
 ## Generalites
 
 ### Quel type d'application est Uni:Note ?
@@ -20,14 +18,6 @@ Le doigt sert surtout au defilement et au deplacement des photos.
 
 ### Dois-je me connecter ou creer un compte ?
 Non.
-
-### Quelle version est actuellement publiee ?
-La version actuellement disponible sur l'App Store est `v2.4.0`. Les principales nouveautes sont :
-
-- `Assistant de resolution`
-- `Creer un lot d'exercices`
-- `Couleur du papier`
-- `Sauvegarde facile`
 
 ---
 

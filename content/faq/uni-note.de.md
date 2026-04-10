@@ -3,8 +3,6 @@ title: "FAQ (Uni:Note)"
 description: "Häufig gestellte Fragen zu Uni:Note."
 ---
 
-Die aktuell im App Store verfügbare Version ist `v2.4.0`.
-
 ## Grundlagen
 
 ### Was für eine App ist Uni:Note?
@@ -20,14 +18,6 @@ Fingerbedienung wird hauptsächlich für das Scrollen und das Bewegen von Fotos 
 
 ### Muss ich mich anmelden oder ein Konto erstellen?
 Nein.
-
-### Welche Version ist derzeit veröffentlicht?
-Aktuell ist im App Store `v2.4.0` verfügbar. Die wichtigsten Neuerungen sind:
-
-- `Aufgabenassistent`
-- `Aufgabenset erstellen`
-- `Papierfarbe`
-- `Easy Backup`
 
 ---
 

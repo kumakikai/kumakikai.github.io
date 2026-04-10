@@ -3,8 +3,6 @@ title: "FAQ (Uni:Note)"
 description: "Frequently asked questions about Uni:Note."
 ---
 
-The current App Store version is `v2.4.0`.
-
 ## Basics
 
 ### What kind of app is Uni:Note?
@@ -20,14 +18,6 @@ Finger input is mainly used for scrolling and moving photos.
 
 ### Do I need to log in or create an account?
 No.
-
-### Which version is currently live?
-The version currently available on the App Store is `v2.4.0`. Main additions in this release are:
-
-- `Problem Solver Assistant`
-- `Create Practice Set`
-- `Paper Color`
-- `Easy Backup`
 
 ---
 
