@@ -14,8 +14,6 @@ Uni:Note Pocket은 **Uni:Note 백업을 iPhone에서 다시 보기 위한 보조
 - Uni:Note에서 만든 백업 zip 필요
 - 편집이나 동기화가 아니라 열람과 복습이 중심
 
-현재 App Store에 공개 중인 버전은 `v1.1.0`입니다.
-
 ---
 
 ## 1. 처음 안내를 확인합니다

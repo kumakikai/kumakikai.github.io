@@ -14,8 +14,6 @@ Requirements:
 - a backup zip created in Uni:Note
 - focused on viewing and review, not editing or sync
 
-The current App Store version is `v1.1.0`.
-
 ---
 
 ## 1. Read the first companion notice

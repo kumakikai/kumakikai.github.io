@@ -14,8 +14,6 @@ Uni:Note Pocket 是一款**用來在 iPhone 上重新查看 Uni:Note 備份的�
 - 需要由 Uni:Note 建立的備份 zip
 - 重點是瀏覽與複習，不提供編輯或同步
 
-目前 App Store 上公開中的版本是 `v1.1.0`。
-
 ---
 
 ## 1. 先閱讀第一次顯示的說明

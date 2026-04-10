@@ -14,8 +14,6 @@ Pre-requis :
 - un fichier zip de sauvegarde cree dans Uni:Note
 - usage centre sur la consultation et la relecture, pas sur l'edition ni la synchronisation
 
-La version actuellement disponible sur l'App Store est `v1.1.0`.
-
 ---
 
 ## 1. Lire le premier message d'information

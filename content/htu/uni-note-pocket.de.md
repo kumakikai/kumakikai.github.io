@@ -14,8 +14,6 @@ Voraussetzungen:
 - ein in Uni:Note erstelltes Backup-ZIP
 - Fokus auf Ansicht und Wiederholung, nicht auf Bearbeitung oder Sync
 
-Die aktuell im App Store verfügbare Version ist `v1.1.0`.
-
 ---
 
 ## 1. Den ersten Hinweis lesen
