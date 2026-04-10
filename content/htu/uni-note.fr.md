@@ -12,8 +12,6 @@ Environnement pris en charge :
 - ecriture manuscrite pensee pour l'Apple Pencil
 - le doigt sert surtout au defilement et au deplacement des photos
 
-La version actuellement disponible sur l'App Store est `v2.4.0`.
-
 ---
 
 ## 1. Creer une matiere sur l'accueil

@@ -12,8 +12,6 @@ Supported setup:
 - Handwriting is designed for Apple Pencil
 - Finger input is mainly for scrolling and moving photos
 
-The current App Store version is `v2.4.0`.
-
 ---
 
 ## 1. Create a subject on Home

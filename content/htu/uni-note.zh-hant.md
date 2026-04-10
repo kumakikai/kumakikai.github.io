@@ -12,8 +12,6 @@ Uni:Note 是一款為 Apple Pencil 手寫體驗設計的 iPad 筆記應用程式
 - 手寫功能以 Apple Pencil 為前提設計
 - 手指操作主要用於捲動與移動照片
 
-目前 App Store 上公開中的版本是 `v2.4.0`。
-
 ---
 
 ## 1. 在首頁建立科目

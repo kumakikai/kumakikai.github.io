@@ -12,8 +12,6 @@ Unterstützte Nutzung:
 - Handschrift ist auf den Apple Pencil ausgelegt
 - Fingerbedienung wird hauptsächlich für Scrollen und das Bewegen von Fotos verwendet
 
-Die aktuell im App Store verfügbare Version ist `v2.4.0`.
-
 ---
 
 ## 1. Ein Fach auf Home erstellen
