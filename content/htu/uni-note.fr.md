@@ -3,53 +3,53 @@ title: "Mode d’emploi (Uni:Note)"
 description: "Mode d’emploi pour Uni:Note."
 ---
 
-Uni:Note est une application de prise de notes sur iPad conçue pour l'écriture manuscrite avec l'Apple Pencil.
-Vous pouvez séparer vos contenus par matière et organiser chaque cours dans une note distincte.
+Uni:Note est une application iPad concue pour l'ecriture manuscrite avec l'Apple Pencil.  
+Vous pouvez separer vos contenus par matiere et organiser chaque cours dans une note distincte.
 
 Environnement pris en charge :
 
 - iPad uniquement
-- L'écriture manuscrite est pensée pour l'Apple Pencil
-- Le doigt sert surtout au défilement et au déplacement des photos
+- ecriture manuscrite pensee pour l'Apple Pencil
+- le doigt sert surtout au defilement et au deplacement des photos
 
-La version actuellement disponible sur l’App Store est la v2.0.0.  
-Cette page inclut aussi des fonctions prévues pour la v2.3.0, et ces sections sont indiquées clairement.
+La version actuellement disponible sur l'App Store est `v2.4.0`.
 
 ---
 
-## 1. Créer une matière sur l'accueil
+## 1. Creer une matiere sur l'accueil
 
-Créez une nouvelle matière depuis le bouton `+` de l'accueil.
+Creez une nouvelle matiere depuis le bouton `+` de l'accueil.
 
-- Nom de la matière
-- Type de papier : ligné / quadrillé / vierge
-- Couleur de couverture
+- nom de la matiere
+- type de papier : ligne / quadrille / vierge
+- `Couleur du papier`
+- couleur de couverture
 
-La matière est ajoutée à l'accueil.
+La matiere est ajoutee a l'accueil.  
 Touchez-la pour ouvrir ses notes.
 
 ---
 
-## 2. Ouvrir la première note
+## 2. Ouvrir la premiere note
 
-Lorsque vous ouvrez une nouvelle matière pour la première fois, Uni:Note affiche le champ du titre de la première note.
+Lorsque vous ouvrez une nouvelle matiere pour la premiere fois, Uni:Note affiche le champ du titre de la premiere note.
 
-- Commencez avec `OK` ou `Écrire maintenant`
-- Le titre est facultatif
-- Si vous laissez vide, la date sera utilisée comme titre
-- Si vous revenez en arrière sans rien valider, la première note n'est pas conservée
+- commencez avec `OK` ou `Ecrire maintenant`
+- le titre est facultatif
+- si vous laissez vide, la date sera utilisee comme titre
+- si vous revenez en arriere sans rien valider, la premiere note n'est pas conservee
 
-Ensuite, la matière rouvre la note sur laquelle vous écriviez en dernier.
+Ensuite, la matiere rouvre la derniere note utilisee.
 
 ---
 
-## 3. Écrire avec l'Apple Pencil
+## 3. Ecrire avec l'Apple Pencil
 
-- L'écriture manuscrite est conçue pour l'Apple Pencil
-- Les pages s'affichent en continu à la verticale
-- Quand vous commencez à écrire sur la dernière page, la page suivante est ajoutée automatiquement
+- l'ecriture manuscrite est concue pour l'Apple Pencil
+- les pages s'affichent en continu a la verticale
+- quand vous commencez a ecrire sur la derniere page, la page suivante est ajoutee automatiquement
 
-L'application est pensée pour ouvrir une note et écrire tout de suite.
+L'application est pensee pour ouvrir une note et ecrire tout de suite.
 
 ---
 
@@ -61,128 +61,155 @@ Depuis la barre d'outils flottante, vous pouvez passer entre :
 - `Surligneur`
 - `Gomme trait` / `Gomme pixel`
 - `Annuler`
-- `Rétablir`
+- `Retablir`
 
 Remarques :
 
-- La barre d'outils peut être déplacée par glisser-déposer
-- Le stylo permet d'ajuster le style, la couleur et l'épaisseur
-- En `Mode gaucher`, vous pouvez modifier la position initiale de la barre d'outils
+- la barre d'outils peut etre deplacee par glisser-deposer
+- le stylo permet d'ajuster le style, la couleur et l'epaisseur
+- en mode gaucher, vous pouvez modifier la position initiale de la barre d'outils
 
 ---
 
-## 5. Changer de note
+## 5. Utiliser `Liste des notes` et `Liste des pages`
 
-Ouvrez la liste des notes avec le bouton de liste en haut à gauche.
+Ouvrez **Liste des notes** depuis le coin superieur gauche.
 
-- Ajoutez une note dans la même matière avec `Nouvelle note`
-- Le titre de la nouvelle note est lui aussi facultatif
-- Si vous laissez vide, la date devient le titre
-- Dans la liste des notes, glissez vers la gauche pour renommer, `Protéger` ou supprimer
+- ajoutez une note dans la meme matiere avec `Nouvelle note`
+- le titre d'une nouvelle note est aussi facultatif
+- si vous laissez vide, la date devient le titre
+- dans la liste, glissez vers la gauche pour renommer, `Proteger` ou supprimer
 
----
+Ouvrez **Liste des pages** pour verifier les miniatures de la note en cours.
 
-## 6. Naviguer avec `Liste des pages`
+- touchez une miniature pour aller a cette page
+- maintenez une page appuyee pour la supprimer
 
-Ouvrez `Liste des pages` depuis le bouton du haut.
-
-- Touchez une miniature pour aller à cette page
-- Maintenez une page appuyée pour la supprimer
-
-Si la note ne contient qu'une seule page, seule son contenu est effacé.
+Si la note ne contient qu'une seule page, seule son contenu est efface.
 
 ---
 
-## 7. Coller une photo
+## 6. Utiliser `Plus`
 
-Ouvrez le menu `...` puis choisissez `Coller une photo`.
+Le menu `Plus` contient les actions suivantes :
 
-- Déplacer / redimensionner avec les doigts
-- Double toucher pour `Verrouiller la photo` / `Déverrouiller la photo`
-- Appui long pour supprimer
-
-### Coller une photo comme document (prévu pour la v2.3.0)
-
-Cette fonction n’est pas encore incluse dans la version App Store actuelle v2.0.0.
-
-Choisissez `Coller une photo comme document` dans le menu `...` pour corriger une photo depuis l’appareil photo ou la photothèque et l’ajouter à la page comme document.
-
-- Choisissez une photo depuis l’appareil photo ou la photothèque
-- Ajustez la zone du document dans l’interface de correction puis validez
-- Le document corrigé est enregistré et reste disponible lorsque vous rouvrez la note
+- `Coller une photo`
+- `Coller une photo comme document`
+- `Coller un PDF`
+- `Exporter en PDF`
+- `Creer un lot d'exercices`
 
 ---
 
-## 8. Coller un PDF et exporter un PDF
+## 7. Utiliser photos et PDF
 
-### Coller un PDF
+Choisissez `Coller une photo` dans `Plus`.
 
-Ouvrez le menu `...` puis choisissez `Coller un PDF`.
+- deplacez ou redimensionnez la photo avec les doigts
+- double touchez pour `Verrouiller la photo` ou `Deverrouiller la photo`
+- maintenez appuye pour la supprimer
 
-- Sélectionnez une page dans le fichier PDF
-- Placez-la sur la page actuellement affichée
-- Si cette page contient déjà un PDF, Uni:Note demande s'il faut le remplacer
-- Dans les réglages, vous pouvez modifier la position du PDF collé à gauche ou à droite
+Choisissez `Coller une photo comme document` dans `Plus`.
 
-### Exporter un PDF
+- choisissez une photo depuis l'appareil photo ou la phototheque
+- ajustez la zone du document dans l'interface de correction puis validez
+- le document corrige est enregistre et reste disponible lorsque vous rouvrez la note
 
-Ouvrez le menu `...` puis choisissez `Exporter en PDF`.
+Choisissez `Coller un PDF` dans `Plus`.
+
+- selectionnez une page du fichier PDF
+- placez-la sur la page actuellement affichee
+- si cette page contient deja un PDF, Uni:Note demande s'il faut le remplacer
+- dans les reglages, vous pouvez modifier la position du PDF colle a gauche ou a droite
+
+Choisissez `Exporter en PDF` dans `Plus`.
 
 Vous pouvez exporter :
 
-- cette note uniquement
-- toute la matière
+- **Cette note seulement**
+- toute la matiere
 
-Dans `Couleur de fond du PDF`, vous pouvez changer l'arrière-plan en `Papier` ou `Blanc`.
-
----
-
-## 9. Protéger les notes et utiliser la corbeille
-
-- Si vous choisissez `Protéger` dans la liste des notes, elle devient en lecture seule
-- Dans les réglages, vous pouvez `Exiger la biométrie pour retirer la protection`
-- La corbeille de l'accueil regroupe les éléments supprimés par matière
-- Vous pouvez restaurer une matière entière ou seulement certaines notes
-- Les pages supprimées ne vont pas dans la corbeille et sont retirées immédiatement
-- Les éléments supprimés définitivement depuis la corbeille sont irréversibles
+Dans `Couleur de fond de l'export PDF`, vous pouvez changer l'arriere-plan.
 
 ---
 
-## 10. Utiliser le mode mémorisation (prévu pour la v2.3.0)
+## 8. Utiliser `Fonction de memorisation`
 
-Cette fonction n’est pas encore incluse dans la version App Store actuelle v2.0.0.
+Commencez par activer `Fonction de memorisation` dans `Reglages > Memorisation`.
 
-Commencez par activer la `Fonction de mémorisation` dans `Réglages > Mémorisation`.
+Une fois activee, `Outils memo` apparait dans la barre d'outils flottante de l'ecran de note.
 
-Une fois activés, les `Outils mémo` apparaissent dans la barre d’outils flottante de la note.
-
-- Passez le `Marqueur mémo` sur les zones à cacher
-- Effacez-les avec la `Gomme du marqueur mémo`
-- Utilisez le bouton en forme d’œil en haut à droite pour ouvrir ou fermer le masque de mémorisation
-- La modification est désactivée tant que le masque de mémorisation est fermé
+- passez `Marqueur memo` sur les zones a cacher
+- effacez-les avec `Gomme du marqueur memo`
+- utilisez le bouton en forme d'oeil en haut a droite pour ouvrir ou fermer le masque de memorisation
+- la modification est desactivee tant que le masque de memorisation est ferme
 
 ---
 
-## 11. Réglages et sauvegarde
+## 9. Utiliser `Assistant de resolution`
 
-Dans `Réglages`, vous pouvez principalement modifier :
+Activez d'abord `Assistant de resolution` dans `Reglages > Aide a l'etude`.
 
-- `Modèle des nouvelles notes`
-- `Écran au démarrage`
-- `Fonction de mémorisation` (prévue pour la v2.3.0)
-- `Libellé des matières` (`matière` / `cahier` / `groupe` / `catégorie`)
-- `Exiger la biométrie pour retirer la protection`
-- `Mode gaucher`
-- `En-tête / Pied de page`
-- `Couleur de fond du PDF`
+Ensuite, choisissez `Assistant de resolution` dans la barre d'outils flottante de la note.
+
+- entourez le probleme avec un contour ferme
+- verifiez la zone selectionnee
+- executez `Resoudre`
+
+La fonction prend en charge les problemes de calcul et les questions courtes dans les PDF ou les images. Les longs textes, les reponses libres et les questions tres dependantes de schemas ne sont pas pris en charge.
+
+---
+
+## 10. Utiliser `Creer un lot d'exercices`
+
+Choisissez `Creer un lot d'exercices` dans `Plus`.
+
+- utilisez `Choisir les pages` pour definir la plage
+- choisissez `Question/Reponse` ou `Texte a trous`
+- lancez `Creer le lot`
+- verifiez les propositions avec `Ajouter` et `Rejeter`
+- enregistrez avec `Enregistrer le lot`
+
+Apres l'enregistrement, vous pouvez continuer avec `Reviser maintenant`. Vous pouvez aussi les rouvrir plus tard depuis `Lots enregistres`.
+
+---
+
+## 11. Proteger les notes et utiliser `Corbeille`
+
+- si vous choisissez `Proteger` dans `Liste des notes`, la note devient en lecture seule
+- dans les reglages, vous pouvez exiger la biometrie pour retirer la protection
+- `Corbeille` sur l'accueil regroupe les elements supprimes par matiere
+- vous pouvez restaurer une matiere entiere ou seulement certaines notes
+- les pages supprimees ne vont pas dans `Corbeille` et sont retirees immediatement
+- les elements supprimes definitivement depuis `Corbeille` sont irreversibles
+
+---
+
+## 12. Reglages et sauvegarde
+
+Dans `Reglages`, vous pouvez principalement modifier :
+
+- `Modele des nouvelles notes`
+- `Ouvrir la derniere note`
+- `Fonction de memorisation`
+- `Assistant de resolution`
+- `Libelle des matieres`
+- biometrie pour retirer la protection
+- mode gaucher
+- `En-tete / Pied de page`
+- `Couleur de fond de l'export PDF`
 - `Langue`
 
-La v2.3.0 doit également étendre les langues prises en charge et lancer la distribution hors du Japon.
+Dans `Reglages > Sauvegarde`, vous pouvez utiliser :
 
-Dans la sauvegarde, vous pouvez `Créer` et `Restaurer` les données de l'application via l'app Fichiers.
-Après une restauration, fermez puis rouvrez l'app. Au prochain lancement, la bibliothèque sera affichée.
+- `Mettre a jour la sauvegarde facile`
+- `Restaurer depuis la sauvegarde facile`
+- `Exporter la sauvegarde`
+- `Restaurer depuis un fichier`
 
-Pages liées :
+Apres une restauration, fermez puis rouvrez l'application une fois.
+
+Pages liees :
 
 - [FAQ (Uni:Note)]({{< relref "/faq/uni-note/" >}})
-- [Politique de confidentialité (Uni:Note)]({{< relref "/privacy/uni-note/" >}})
+- [Politique de confidentialite (Uni:Note)]({{< relref "/privacy/uni-note/" >}})

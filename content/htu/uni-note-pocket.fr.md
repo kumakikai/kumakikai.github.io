@@ -1,54 +1,69 @@
 ---
-title: "Guide d’utilisation (Uni:Note Pocket)"
-description: "Comment utiliser Uni:Note Pocket."
+title: "Mode d’emploi (Uni:Note Pocket)"
+description: "Mode d’emploi pour Uni:Note Pocket."
 aliases:
   - /fr/htu/uni-memo/
 ---
 
 Uni:Note Pocket est une **application compagnon pour relire les sauvegardes Uni:Note sur iPhone**.  
-Ce n’est pas une application d’écriture. Avec **Importer** en haut à droite, vous chargez les sauvegardes puis relisez les notes en lecture seule.
+Ce n'est pas une application d'ecriture. Son role est de charger des sauvegardes et de vous laisser relire les notes et les `Lots` en lecture seule.
 
-Pré-requis :
+Pre-requis :
 
 - iPhone uniquement
-- un fichier zip de sauvegarde créé dans Uni:Note
-- conçu pour la consultation et les calques de mémorisation, pas pour l’édition ni la synchronisation
+- un fichier zip de sauvegarde cree dans Uni:Note
+- usage centre sur la consultation et la relecture, pas sur l'edition ni la synchronisation
+
+La version actuellement disponible sur l'App Store est `v1.1.0`.
 
 ---
 
-## 1. Lire le premier message d’information
+## 1. Lire le premier message d'information
 
-Au premier lancement, l’application affiche **À propos de Uni:Note Pocket**.  
-Ce message explique que Uni:Note Pocket est une app compagnon de Uni:Note et qu’une sauvegarde Uni:Note est nécessaire.
-
----
-
-## 2. Choisir une sauvegarde depuis Importer
-
-Utilisez **Importer** en haut à droite, puis sélectionnez un zip de sauvegarde Uni:Note.
-
-- choisir le zip
-- laisser l’application vérifier son contenu
-- terminer l’import si tout est valide
-
-Si rien n’a encore été importé, l’app affiche **Importez une sauvegarde pour commencer** avec le bouton **Choisir une sauvegarde**.
+Au premier lancement, l'application affiche **A propos de Uni:Note Pocket**.  
+Ce message explique que Uni:Note Pocket est une app compagnon de Uni:Note et qu'une sauvegarde Uni:Note est necessaire.
 
 ---
 
-## 3. Vérifier les matières et les notes récentes
+## 2. Choisir une sauvegarde depuis `Importer`
 
-Après l’import, l’écran principal affiche :
+Utilisez **Importer** en haut a droite, puis selectionnez un zip de sauvegarde Uni:Note.
 
-- les matières de niveau supérieur avec leur nombre de notes
-- **Notes récentes** pour reprendre rapidement
-
-Le nom du niveau supérieur dépend du réglage **Libellé des matières**.
+- choisissez le zip
+- laissez l'application verifier son contenu
+- terminez l'import si tout est valide
 
 ---
 
-## 4. Ouvrir les notes et consulter les pages
+## 3. Utiliser `Sauvegarde rapide`
 
-Quand vous ouvrez une matière, vous arrivez dans la liste **Notes** et pouvez choisir ce que vous voulez relire.
+Si cet iPhone contient deja une `Sauvegarde rapide` de Uni:Note, l'application peut proposer de la charger immediatement.
+
+Dans `Reglages > Sauvegarde rapide`, vous pouvez verifier :
+
+- **Derniere mise a jour**
+- **Chargement auto au demarrage**
+- **Charger manuellement**
+
+Lorsque **Chargement auto au demarrage** est active, l'application charge automatiquement uniquement lorsqu'une `Sauvegarde rapide` exploitable est disponible sur cet iPhone.
+
+---
+
+## 4. Verifier la liste de niveau superieur, `Notes recentes` et `Lots`
+
+Apres l'import, l'ecran principal affiche :
+
+- les elements de niveau superieur avec leur nombre de notes
+- une section **Notes recentes** pour reprendre rapidement
+- une section **Lots** lorsque la sauvegarde importee contient des lots enregistres
+
+Le nom du niveau superieur depend du reglage **Libelle des matieres**.
+
+---
+
+## 5. Ouvrir `Notes` et relire les pages
+
+Quand vous ouvrez un element de niveau superieur, vous arrivez dans la liste **Notes** et pouvez choisir ce que vous voulez relire.
 
 - ouvrir la liste des notes
 - choisir une note
@@ -58,53 +73,63 @@ Uni:Note Pocket est en lecture seule et ne renomme donc pas les notes ni ne modi
 
 ---
 
-## 5. Zoomer et lire dans l’écran de page
+## 6. Zoomer et lire dans l'ecran de page
 
-Dans l’écran de page, vous pouvez vous concentrer sur le contenu importé.
+Dans l'ecran de page, vous pouvez vous concentrer sur le contenu importe.
 
-- pincer pour zoomer ou dézoomer
+- pincer pour zoomer ou dezoomer
 - double appui pour zoomer
-- défilement vertical pour changer de page
+- defilement vertical pour changer de page
 
-L’application privilégie une relecture sûre et simple, même pour des notes plus lourdes.
-
----
-
-## 6. Afficher ou masquer le calque de mémorisation
-
-Utilisez le bouton œil à droite pour basculer le calque de mémorisation de la page.
-
-- **Afficher le calque de mémorisation**
-- **Masquer le calque de mémorisation**
-
-Uni:Note Pocket ne modifie pas le masque de mémorisation lui-même.
+L'application privilegie une relecture simple et sure, meme pour des notes plus lourdes.
 
 ---
 
-## 7. Ajuster les réglages
+## 7. Relire les `Lots`
 
-Dans Réglages, vous pouvez principalement modifier :
+Si la sauvegarde importee inclut des `Lots` enregistres dans Uni:Note, vous pouvez les ouvrir depuis **Lots** sur l'accueil.
+
+- relire questions et reponses
+- parcourir les contenus enregistres au meme endroit
+- garder la creation et l'edition du cote de Uni:Note
+
+---
+
+## 8. Afficher ou masquer le calque de memorisation
+
+Utilisez le bouton oeil a droite pour basculer le calque de memorisation de la page.
+
+- **Afficher le calque de memorisation**
+- **Masquer le calque de memorisation**
+
+Uni:Note Pocket ne modifie pas le masque de memorisation lui-meme.
+
+---
+
+## 9. Ajuster les reglages
+
+Dans `Reglages`, vous pouvez principalement modifier :
 
 - **Langue**
-- **Thème**
+- **Theme**
 - **Reprendre au dernier emplacement**
-- **Limiter le décalage horizontal**
-- **Libellé des matières**
+- **Limiter le decalage horizontal**
+- **Libelle des matieres**
+- **Sauvegarde rapide**
 
-Avec **Libellé des matières**, vous pouvez renommer le niveau supérieur en **Matière / Note / Groupe / Catégorie**.
-
----
-
-## 8. Importer plus tard une sauvegarde plus récente
-
-Lorsque vous créez une sauvegarde plus récente dans Uni:Note, relancez **Importer** dans Uni:Note Pocket.
-
-L’application ne bascule vers la nouvelle version qu’après validation du nouveau zip.  
-Si la validation échoue, les données précédentes restent en place et seule une erreur s’affiche.
+Avec **Libelle des matieres**, vous pouvez renommer le niveau superieur en **Matiere / Note / Groupe / Categorie**.
 
 ---
 
-Pages liées :
+## 10. Importer plus tard une sauvegarde plus recente
+
+Lorsque vous creez une sauvegarde plus recente dans Uni:Note, relancez **Importer** dans Uni:Note Pocket.  
+Si vous utilisez `Sauvegarde rapide`, vous pouvez aussi la charger depuis `Reglages > Sauvegarde rapide > Charger manuellement`.
+
+L'application ne bascule vers la nouvelle version qu'apres validation du nouveau zip.  
+Si la validation echoue, les donnees precedentes restent en place et seule une erreur s'affiche.
+
+Pages liees :
 
 - [FAQ (Uni:Note Pocket)]({{< relref "/faq/uni-note-pocket/" >}})
-- [Politique de confidentialité (Uni:Note Pocket)]({{< relref "/privacy/uni-note-pocket/" >}})
+- [Politique de confidentialite (Uni:Note Pocket)]({{< relref "/privacy/uni-note-pocket/" >}})

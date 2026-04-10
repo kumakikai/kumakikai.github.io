@@ -6,4 +6,5 @@ aliases:
 ---
 
 Cette page regroupe l’historique des versions de Uni:Note Pocket.  
-Les informations de sortie publique y seront publiées après le lancement.
+La version actuellement disponible sur l’App Store est `v1.0.1`.  
+La `v1.1.0` est en preparation.

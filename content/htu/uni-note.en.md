@@ -12,8 +12,7 @@ Supported setup:
 - Handwriting is designed for Apple Pencil
 - Finger input is mainly for scrolling and moving photos
 
-The current App Store version is v2.0.0.  
-This page also includes features planned for v2.3.0, and those sections are marked clearly.
+The current App Store version is `v2.4.0`.
 
 ---
 
@@ -23,6 +22,7 @@ Create a new subject from the `+` button on Home.
 
 - Subject name
 - Paper style: ruled / grid / plain
+- `Paper Color`
 - Cover color
 
 The subject is added to Home.
@@ -71,20 +71,16 @@ Notes:
 
 ---
 
-## 5. Switch notes
+## 5. Use `Note List` and `Pages`
 
-Open the note list from the list button at the top-left.
+Open **Note List** from the top-left.
 
 - Add another note in the same subject with `New Note`
 - The title for a new note is also optional
 - If left blank, the date is used as the title
 - Swipe left in the note list to rename, `Protect`, or delete a note
 
----
-
-## 6. Move with `Pages`
-
-Open `Pages` from the button at the top.
+Open **Pages** to check thumbnails inside the current note.
 
 - Tap a thumbnail to move to that page
 - Press and hold a page to delete it
@@ -93,64 +89,51 @@ If the note has only one page, only the content is cleared and the page itself s
 
 ---
 
-## 7. Attach a photo
+## 6. Use `More`
 
-Open the `...` menu and choose `Attach Photo`.
+The `More` menu includes the following actions:
+
+- `Attach Photo`
+- `Attach Photo as Document`
+- `Attach PDF`
+- `Export PDF`
+- `Create Practice Set`
+
+---
+
+## 7. Use photos and PDFs
+
+Choose `Attach Photo` from `More`.
 
 - Move or resize the photo with your fingers
 - Double-tap to `Lock Photo` or `Unlock Photo`
 - Press and hold to delete it
 
-### Attach Photo as Document (Planned for v2.3.0)
-
-This is not included in the current App Store version v2.0.0.
-
-Choose `Attach Photo as Document` from the `...` menu to correct a photo from Camera or Library and place it on the page as a document.
+Choose `Attach Photo as Document` from `More` to correct a photo from Camera or Library and place it on the page as a document.
 
 - Choose a photo from Camera or Library
 - Adjust the document area in the correction UI and confirm
 - The corrected document is saved and stays available when you open the note again
 
----
-
-## 8. Attach a PDF and export a PDF
-
-### Attach a PDF
-
-Open the `...` menu and choose `Attach PDF`.
+Choose `Attach PDF` from `More`.
 
 - Select one page from the PDF file
 - Place it on the page you are currently viewing
 - If that page already has a PDF, Uni:Note asks whether to replace it
 - In Settings, you can change the PDF attachment position to left or right
 
-### Export a PDF
-
-Open the `...` menu and choose `Export PDF`.
+Choose `Export PDF` from `More`.
 
 You can export:
 
-- this note only
+- `This Note Only`
 - the entire subject
 
-In `PDF Background Color`, you can change the background to `Paper` or `White`.
+In `PDF Export Background`, you can change the background to `Paper` or `White`.
 
 ---
 
-## 9. Protect notes and use Trash
-
-- If you `Protect` a note from the note list, it becomes read only
-- In Settings, you can `Require Biometrics to Remove Protection`
-- Trash on Home groups deleted items by subject
-- You can restore a whole subject or only specific notes
-- Deleted pages do not go to Trash and are removed immediately
-- Items deleted permanently from Trash cannot be undone
-
----
-
-## 10. Use Memorization Mode (Planned for v2.3.0)
-
-This is not included in the current App Store version v2.0.0.
+## 8. Use `Memorization Feature`
 
 First, turn on `Memorization Feature` in `Settings > Memorization`.
 
@@ -163,23 +146,67 @@ When enabled, `Memory Tools` appears in the floating toolbar on the note screen.
 
 ---
 
-## 11. Settings and backup
+## 9. Use `Problem Solver Assistant`
+
+First, turn on `Problem Solver Assistant` in `Settings > Study Support`.
+
+Then choose `Problem Solver Assistant` from the floating toolbar on the note screen.
+
+- Circle the problem with a closed outline
+- Review the selected range
+- Tap `Solve`
+
+It supports formula questions and short questions inside PDFs or images. Long reading comprehension, open-ended writing, and diagram-heavy questions are not supported.
+
+---
+
+## 10. Use `Create Practice Set`
+
+Choose `Create Practice Set` from `More`.
+
+- Use `Choose Pages` to pick the target pages
+- Choose `Q&A` or `Fill Blank`
+- Start with `Create Practice Set`
+- Review candidates with `Add` and `Reject`
+- Save them with `Save Practice Set`
+
+After saving, you can continue from `Review now`. You can also reopen them later from `Saved Practice Sets`.
+
+---
+
+## 11. Protect notes and use `Trash`
+
+- If you choose `Protect` from `Note List`, the note becomes read-only
+- In Settings, you can `Require Biometrics to Remove Protection`
+- `Trash` on Home groups deleted items by subject
+- You can restore a whole subject or only specific notes
+- Deleted pages do not go to Trash and are removed immediately
+- Items deleted permanently from `Trash` cannot be undone
+
+---
+
+## 12. Settings and backup
 
 In `Settings`, you can mainly change:
 
 - `Default Template`
-- `Open On Launch`
-- `Memorization Feature` (planned for v2.3.0)
-- `Subject Name` (`Subject` / `Notebook` / `Group` / `Category`)
+- `Open Previous Notebook`
+- `Memorization Feature`
+- `Problem Solver Assistant`
+- `Subject Name`
 - `Require Biometrics to Remove Protection`
 - `Left-Handed Mode`
 - `Header / Footer`
-- `PDF Background Color`
+- `PDF Export Background`
 - `Language`
 
-v2.3.0 is also planned to expand language support and start availability in regions outside Japan.
+In `Settings > Backup`, you can use:
 
-From backup, you can `Create` and `Restore` app data files through the Files app.
+- `Update Easy Backup`
+- `Restore from Easy Backup`
+- `Export Backup`
+- `Restore from File`
+
 After restoring, close and reopen the app once. The next launch will show the shelf.
 
 Related pages:

@@ -3,28 +3,31 @@ title: "FAQ (Uni:Note)"
 description: "Questions fréquentes sur Uni:Note."
 ---
 
-La version actuellement disponible sur l’App Store est la v2.0.0.  
-Cette FAQ inclut aussi des fonctions prévues pour la v2.3.0, et ces réponses sont indiquées clairement.
+La version actuellement disponible sur l'App Store est `v2.4.0`.
 
-## Généralités
+## Generalites
 
 ### Quel type d'application est Uni:Note ?
 Uni:Note est une application de prise de notes manuscrites pour iPad.  
-Elle est conçue autour de l'écriture avec l'Apple Pencil et permet d'organiser les notes par matière.
+Elle est concue pour l'ecriture avec l'Apple Pencil et l'organisation des notes par matiere.
 
 ### Quels appareils sont pris en charge ?
 iPad uniquement.
 
-### L'Apple Pencil est-il nécessaire ?
-L'écriture manuscrite est pensée pour l'Apple Pencil.  
-Le doigt est utilisé principalement pour le défilement et le déplacement des photos.
+### L'Apple Pencil est-il necessaire ?
+L'ecriture manuscrite est pensee pour l'Apple Pencil.  
+Le doigt sert surtout au defilement et au deplacement des photos.
 
-### Dois-je me connecter ou créer un compte ?
+### Dois-je me connecter ou creer un compte ?
 Non.
 
-### Quelle version est actuellement publiée ?
-La version disponible actuellement sur l’App Store est la v2.0.0.  
-La prochaine version est prévue en v2.3.0, en sautant les v2.1 et v2.2, avec davantage de langues, la disponibilité hors du Japon, le mode mémorisation et `Coller une photo comme document`.
+### Quelle version est actuellement publiee ?
+La version actuellement disponible sur l'App Store est `v2.4.0`. Les principales nouveautes sont :
+
+- `Assistant de resolution`
+- `Creer un lot d'exercices`
+- `Couleur du papier`
+- `Sauvegarde facile`
 
 ---
 
@@ -32,123 +35,154 @@ La prochaine version est prévue en v2.3.0, en sautant les v2.1 et v2.2, avec da
 
 ### Le titre d'une note est-il obligatoire ?
 Non.  
-Si vous créez une note sans titre, la date du jour est utilisée comme nom de note.
+Si vous laissez le titre vide, la date du jour devient le nom de la note.
 
-### À quoi correspond le champ de titre affiché lors de la première ouverture d'une nouvelle matière ?
-Il s'agit du titre de la première note.  
-Si vous le laissez vide puis choisissez **OK** ou **Écrire maintenant**, la date du jour devient le titre.
+### Que represente la saisie du titre affichee lors de la premiere ouverture d'une nouvelle matiere ?
+Il s'agit du titre de la premiere note.  
+Si vous laissez ce champ vide et choisissez **OK** ou **Ecrire maintenant**, la date du jour devient le titre.
 
-Si vous revenez en arrière sans rien valider, la première note en cours de création n'est pas conservée.
+Si vous revenez en arriere sans rien confirmer, cette premiere note en cours de creation n'est pas conservee.
 
-### Puis-je séparer plusieurs notes dans une même matière ?
+### Que puis-je choisir lors de la creation d'une matiere ?
+Vous pouvez choisir les elements suivants :
+
+- nom de la matiere
+- type de papier
+- `Couleur du papier`
+- couleur de couverture
+
+### Puis-je separer plusieurs notes dans une meme matiere ?
 Oui.  
-Vous pouvez en ajouter une depuis **Nouvelle note** dans la liste des notes.
+Vous pouvez en ajouter une depuis **Nouvelle note** dans **Liste des notes**.
 
-### Comment de nouvelles pages sont-elles ajoutées ?
-Lorsque vous commencez à écrire sur la dernière page, la page suivante est ajoutée automatiquement.
+### Comment de nouvelles pages sont-elles ajoutees ?
+Quand vous commencez a ecrire sur la derniere page, la page suivante est ajoutee automatiquement.
 
 ### Puis-je supprimer une page ?
 Oui.  
-Maintenez la page concernée dans **Liste des pages** pour la supprimer.
+Maintenez la page concernee dans **Liste des pages** pour la supprimer.
 
-Cependant, si une note ne comporte qu'une seule page, la page elle-même reste et seul son contenu est effacé.
+Si la note ne contient qu'une seule page, la page elle-meme reste et seul son contenu est efface.
 
-### Puis-je protéger une note ?
+### Puis-je proteger une note ?
 Oui.  
-Si vous choisissez **Protéger** dans la liste des notes, elle devient en lecture seule. Vous pouvez aussi exiger la biométrie pour retirer la protection.
+Si vous choisissez **Proteger** dans **Liste des notes**, la note devient en lecture seule. Vous pouvez aussi exiger la biometrie pour retirer la protection.
 
-### Puis-je renommer une matière ?
+### Puis-je renommer une matiere ?
 Pas pour le moment.  
-En revanche, le titre d'une note peut être modifié depuis la liste des notes.
+Le titre d'une note peut en revanche etre modifie depuis **Liste des notes**.
 
 ### Que peut-on restaurer depuis la corbeille ?
-Les matières et les notes présentes dans la liste des notes.  
-La corbeille regroupe les éléments supprimés par matière, et en touchant une matière vous pouvez voir les notes qu'elle contient.
+Les matieres et les notes.  
+**Corbeille** regroupe les elements supprimes par matiere, et en touchant une matiere vous pouvez voir les notes qu'elle contient.
 
-Même si une matière a été supprimée, vous pouvez restaurer toute la matière ou seulement certaines notes.  
-Les pages supprimées ne vont pas dans la corbeille et sont supprimées immédiatement.
+Meme si une matiere a ete supprimee, vous pouvez restaurer toute la matiere ou seulement certaines notes.  
+Les pages supprimees ne vont pas dans la corbeille et sont retirees immediatement.
 
 ---
 
 ## Photos et PDF
 
-### Puis-je insérer des photos ?
+### Puis-je coller des photos ?
 Oui.  
-Vous pouvez les insérer une par une avec **Coller une photo**. Après insertion, vous pouvez les déplacer, les redimensionner et **Verrouiller la photo** ou **Déverrouiller la photo** par double toucher.
+Depuis `Plus > Coller une photo`, vous pouvez ajouter une image de la phototheque. Apres insertion, vous pouvez la deplacer, la redimensionner et la `Verrouiller la photo` ou `Deverrouiller la photo` par double toucher.
 
 ### Puis-je coller une photo comme document ?
-Cette fonction est prévue pour la v2.3.0.  
-Vous pourrez choisir une photo depuis l’appareil photo ou la photothèque, l’ajuster dans l’interface de correction puis l’ajouter à la page comme document.
-
-### Puis-je insérer des PDF ?
 Oui.  
-Vous pouvez choisir **Coller un PDF** et placer l'une des pages du fichier sur la page que vous consultez actuellement.
+Depuis `Plus > Coller une photo comme document`, vous pouvez choisir une photo depuis l'appareil photo ou la phototheque, l'ajuster dans l'interface de correction et la placer sur la page comme document.
 
-Si un PDF est déjà présent sur cette page, l'application vous demande si vous souhaitez le remplacer.
+### Puis-je coller un PDF ?
+Oui.  
+Depuis `Plus > Coller un PDF`, vous pouvez choisir une page d'un fichier PDF et la placer sur la page actuellement affichee.
+
+Si un PDF est deja present sur cette page, l'application demande s'il faut le remplacer.
 
 ### Puis-je exporter en PDF ?
 Oui.  
-Vous pouvez choisir **Exporter en PDF** et exporter **cette note uniquement** ou **toute la matière** en PDF.
+Depuis `Plus > Exporter en PDF`, vous pouvez exporter **Cette note seulement** ou toute la matiere.
 
 ---
 
-## Données et stockage
+## Aide a l'etude
 
-### Où sont stockées mes données ?
+### Qu'est-ce que `Fonction de memorisation` ?
+Si vous activez `Fonction de memorisation` dans `Reglages > Memorisation`, `Outils memo` devient disponible dans l'ecran de note.
+
+- Cachez les zones voulues avec `Marqueur memo`
+- Retirez-les avec `Gomme du marqueur memo`
+- Utilisez le bouton en forme d'oeil pour ouvrir ou fermer le masque de memorisation
+
+### Puis-je modifier une note lorsque le masque de memorisation est ferme ?
+Non.  
+La modification est desactivee tant que le masque de memorisation est ferme.
+
+### Comment utiliser `Assistant de resolution` ?
+Activez d'abord `Assistant de resolution` dans `Reglages > Aide a l'etude`.  
+Ensuite, choisissez `Assistant de resolution` dans la barre d'outils flottante, entourez la zone du probleme avec un contour ferme, puis executez **Resoudre**.
+
+La fonction prend en charge les problemes de calcul et les questions courtes dans les PDF ou les images. Les longs textes, les reponses libres et les questions tres dependantes de schemas ne sont pas pris en charge.
+
+### Comment utiliser `Creer un lot d'exercices` ?
+Ouvrez `Plus > Creer un lot d'exercices`.
+
+- Choisissez les pages avec **Choisir les pages**
+- Selectionnez **Question/Reponse** ou **Texte a trous**
+- Lancez **Creer le lot**
+- Verifiez les propositions avec **Ajouter** et **Rejeter**
+- Enregistrez avec **Enregistrer le lot**
+
+Apres l'enregistrement, vous pouvez continuer avec **Reviser maintenant**. Les contenus enregistres peuvent aussi etre rouverts depuis **Lots enregistres**.
+
+---
+
+## Donnees et sauvegarde
+
+### Ou sont stockees mes donnees ?
 Dans l'application sur votre appareil.
 
 ### Une synchronisation automatique est-elle disponible ?
 Pas pour le moment.  
-Si nécessaire, utilisez Sauvegarde / Restauration dans Réglages.
+Si necessaire, utilisez `Reglages > Sauvegarde`.
 
-### Une fonction de sauvegarde est-elle disponible ?
+### Une sauvegarde est-elle disponible ?
 Oui.  
-Vous pouvez créer un fichier de sauvegarde depuis Réglages et l'enregistrer via l'app Fichiers. La restauration est également disponible depuis Réglages.
+Dans `Reglages > Sauvegarde`, vous pouvez utiliser :
 
-### Puis-je utiliser l'application immédiatement après une restauration ?
-Après la restauration, fermez l'application une fois puis rouvrez-la.  
-Au prochain lancement, la bibliothèque sera affichée.
+- `Mettre a jour la sauvegarde facile`
+- `Restaurer depuis la sauvegarde facile`
+- `Exporter la sauvegarde`
+- `Restaurer depuis un fichier`
+
+`Sauvegarde facile` utilise iCloud. La sauvegarde basee sur des fichiers reste egalement disponible.
+
+### Puis-je utiliser l'application immediatement apres une restauration ?
+Apres la restauration, fermez l'application une fois puis rouvrez-la.  
+Au prochain lancement, la bibliotheque sera affichee.
 
 ---
 
-## Mode mémorisation (prévu pour la v2.3.0)
+## Reglages
 
-### Qu’est-ce que le mode mémorisation ?
-Il s’agit d’une fonction prévue pour la v2.3.0.  
-En activant la `Fonction de mémorisation`, vous pourrez masquer certaines zones avec les `Outils mémo` et ouvrir ou fermer le masque avec le bouton en forme d’œil.
+### Quels reglages sont disponibles ?
+Vous pouvez principalement modifier les elements suivants :
 
-### Où pourrai-je activer le mode mémorisation ?
-Il pourra être activé depuis `Réglages > Mémorisation`.
+- `Modele des nouvelles notes`
+- `Ouvrir la derniere note`
+- `Fonction de memorisation`
+- `Assistant de resolution`
+- `Libelle des matieres` (`matiere` / `cahier` / `groupe` / `categorie`)
+- biometrie pour retirer la protection
+- mode gaucher
+- `En-tete / Pied de page`
+- `Couleur de fond de l'export PDF`
+- `Langue`
 
-### Puis-je modifier une note lorsque le masque est fermé ?
-Non.  
-La modification est désactivée tant que le masque de mémorisation est fermé.
-
----
-
-## Réglages
-
-### Quels réglages sont disponibles ?
-Vous pouvez principalement modifier les éléments suivants :
-
-- Modèle de nouvelle note
-- Écran au démarrage
-- Fonction de mémorisation (prévue pour la v2.3.0)
-- Libellé des matières (`matière` / `cahier` / `groupe` / `catégorie`)
-- Exiger la biométrie pour retirer la protection
-- Mode gaucher
-- Affichage de l'en-tête / du pied de page
-- Couleur de fond du PDF
-- Langue
-
-La v2.3.0 doit également étendre les langues prises en charge et lancer la distribution hors du Japon.
-
-### Puis-je changer le `Libellé des matières` ?
+### Puis-je changer le `Libelle des matieres` ?
 Oui.  
-Dans Réglages, sous `Libellé des matières`, vous pouvez choisir **matière / cahier / groupe / catégorie**.
+Dans `Reglages`, sous `Libelle des matieres`, vous pouvez choisir **matiere / cahier / groupe / categorie**.
 
-### Que puis-je modifier dans le Mode gaucher ?
-Vous pouvez ajuster la position initiale de la barre d'outils, la position de la marge rouge sur le papier ligné et la position d'insertion des PDF.
+### Que puis-je modifier dans le mode gaucher ?
+Vous pouvez ajuster la position initiale de la barre d'outils, la position de la marge rouge sur le papier ligne et la position d'insertion des PDF.
 
-### Où puis-je ouvrir la page de mode d’emploi ?
-Ouvrez **Mode d’emploi** depuis **Support** dans **Réglages**.
+### Ou puis-je ouvrir la page `Mode d'emploi` ?
+Ouvrez `Reglages > Assistance > Mode d'emploi`.

@@ -6,4 +6,5 @@ aliases:
 ---
 
 This page lists release notes for Uni:Note Pocket.  
-Public release information will be posted here after launch.
+The current App Store version is `v1.0.1`.  
+`v1.1.0` is in preparation.

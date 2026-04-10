@@ -3,8 +3,8 @@ title: "Anleitung (Uni:Note)"
 description: "Anleitung für Uni:Note."
 ---
 
-Uni:Note ist eine iPad-Notiz-App, die für handschriftliche Eingaben mit dem Apple Pencil entwickelt wurde.
-Sie können Inhalte nach Fächern trennen und jede Lehrveranstaltung in einer eigenen Notiz organisieren.
+Uni:Note ist eine iPad-Notiz-App, die für handschriftliche Eingaben mit dem Apple Pencil entwickelt wurde.  
+Du kannst Inhalte nach Fächern trennen und jede Lehrveranstaltung in einer eigenen Notiz organisieren.
 
 Unterstützte Nutzung:
 
@@ -12,34 +12,34 @@ Unterstützte Nutzung:
 - Handschrift ist auf den Apple Pencil ausgelegt
 - Fingerbedienung wird hauptsächlich für Scrollen und das Bewegen von Fotos verwendet
 
-Die aktuell im App Store verfügbare Version ist v2.0.0.  
-Diese Seite enthält auch Funktionen, die für v2.3.0 geplant sind. Diese Abschnitte sind entsprechend markiert.
+Die aktuell im App Store verfügbare Version ist `v2.4.0`.
 
 ---
 
 ## 1. Ein Fach auf Home erstellen
 
-Erstellen Sie über die Schaltfläche `+` auf Home ein neues Fach.
+Erstelle über die Schaltfläche `+` auf Home ein neues Fach.
 
 - Fachname
 - Papierstil: liniert / kariert / blanko
+- `Papierfarbe`
 - Coverfarbe
 
-Das Fach wird auf Home hinzugefügt.
-Tippen Sie darauf, um seine Notizen zu öffnen.
+Das Fach wird auf Home hinzugefügt.  
+Tippe darauf, um seine Notizen zu öffnen.
 
 ---
 
 ## 2. Die erste Notiz öffnen
 
-Wenn Sie ein neues Fach zum ersten Mal öffnen, erscheint die Eingabe für den Titel der ersten Notiz.
+Wenn du ein neues Fach zum ersten Mal öffnest, erscheint die Eingabe für den Titel der ersten Notiz.
 
-- Starten Sie mit `OK` oder `Direkt schreiben`
-- Der Titel ist optional
-- Wenn Sie nichts eingeben, wird das Datum als Titel verwendet
-- Wenn Sie ohne Bestätigung zurückgehen, wird die erste Notiz nicht behalten
+- starte mit `OK` oder `Direkt schreiben`
+- der Titel ist optional
+- wenn du nichts eingibst, wird das Datum als Titel verwendet
+- wenn du ohne Bestätigung zurückgehst, wird die erste Notiz nicht behalten
 
-Danach öffnet das Fach wieder die Notiz, an der Sie zuletzt geschrieben haben.
+Danach öffnet das Fach wieder die letzte Notiz, an der du geschrieben hast.
 
 ---
 
@@ -47,7 +47,7 @@ Danach öffnet das Fach wieder die Notiz, an der Sie zuletzt geschrieben haben.
 
 - Handschrift ist für den Apple Pencil gedacht
 - Seiten werden vertikal als fortlaufender Ablauf angezeigt
-- Wenn Sie auf der letzten Seite zu schreiben beginnen, wird automatisch die nächste Seite hinzugefügt
+- wenn du auf der letzten Seite zu schreiben beginnst, wird automatisch die nächste Seite hinzugefügt
 
 Die App ist dafür ausgelegt, eine Notiz zu öffnen und direkt loszuschreiben.
 
@@ -55,7 +55,7 @@ Die App ist dafür ausgelegt, eine Notiz zu öffnen und direkt loszuschreiben.
 
 ## 4. Werkzeuge wechseln
 
-In der schwebenden Werkzeugleiste können Sie wechseln zwischen:
+In der schwebenden Werkzeugleiste kannst du wechseln zwischen:
 
 - `Stift`
 - `Textmarker`
@@ -65,122 +65,149 @@ In der schwebenden Werkzeugleiste können Sie wechseln zwischen:
 
 Hinweise:
 
-- Die Werkzeugleiste lässt sich per Drag bewegen
-- Beim Stift können Stil, Farbe und Stärke angepasst werden
-- Im `Linkshänder-Modus` können Sie die Standardposition der Werkzeugleiste ändern
+- die Werkzeugleiste lässt sich per Drag bewegen
+- beim Stift können Stil, Farbe und Stärke angepasst werden
+- im Linkshänder-Modus kannst du die Standardposition der Werkzeugleiste ändern
 
 ---
 
-## 5. Notizen wechseln
+## 5. `Notizliste` und `Seiten` verwenden
 
-Öffnen Sie die Notizliste über die Listenschaltfläche oben links.
+Öffne **Notizliste** oben links.
 
-- Mit `Neue Notiz` fügen Sie im selben Fach eine weitere Notiz hinzu
-- Auch hier ist ein Titel optional
-- Wenn das Feld leer bleibt, wird das Datum als Titel verwendet
-- Durch Wischen nach links in der Notizliste können Sie umbenennen, `Schützen` oder löschen
+- mit `Neue Notiz` fügst du im selben Fach eine weitere Notiz hinzu
+- auch hier ist ein Titel optional
+- wenn das Feld leer bleibt, wird das Datum als Titel verwendet
+- durch Wischen nach links kannst du umbenennen, `Schützen` oder löschen
 
----
+Öffne **Seiten**, um die Miniaturen der aktuellen Notiz zu prüfen.
 
-## 6. Mit `Seiten` navigieren
-
-Öffnen Sie oben `Seiten`.
-
-- Tippen Sie auf ein Vorschaubild, um zu dieser Seite zu springen
-- Halten Sie eine Seite gedrückt, um sie zu löschen
+- tippe auf eine Miniatur, um zu dieser Seite zu springen
+- halte eine Seite gedrückt, um sie zu löschen
 
 Wenn die Notiz nur eine Seite hat, bleibt die Seite bestehen und nur der Inhalt wird gelöscht.
 
 ---
 
-## 7. Ein Foto einfügen
+## 6. `Mehr` verwenden
 
-Öffnen Sie das Menü `...` und wählen Sie `Foto einfügen`.
+Das Menü `Mehr` enthält die folgenden Aktionen:
 
-- Mit den Fingern verschieben oder skalieren
-- Per Doppeltipp `Foto sperren` / `Foto entsperren`
-- Zum Löschen gedrückt halten
-
-### Foto als Dokument anheften (Geplant für v2.3.0)
-
-Diese Funktion ist in der aktuellen App-Store-Version v2.0.0 noch nicht enthalten.
-
-Wählen Sie im Menü `...` `Foto als Dokument anheften`, um ein Foto aus Kamera oder Mediathek zu korrigieren und als Dokument auf der Seite abzulegen.
-
-- Wählen Sie ein Foto aus Kamera oder Mediathek
-- Passen Sie den Dokumentbereich in der Korrekturansicht an und bestätigen Sie
-- Das korrigierte Dokument wird gespeichert und bleibt auch nach dem erneuten Öffnen erhalten
+- `Foto einfügen`
+- `Foto als Dokument anheften`
+- `PDF einfügen`
+- `PDF exportieren`
+- `Aufgabenset erstellen`
 
 ---
 
-## 8. PDF einfügen und PDF exportieren
+## 7. Fotos und PDFs verwenden
 
-### PDF einfügen
+Wähle `Foto einfügen` aus `Mehr`.
 
-Öffnen Sie das Menü `...` und wählen Sie `PDF einfügen`.
+- verschiebe oder skaliere das Foto mit den Fingern
+- per Doppeltipp `Foto sperren` oder `Foto entsperren`
+- zum Löschen gedrückt halten
 
-- Wählen Sie eine Seite aus der PDF-Datei
-- Platzieren Sie sie auf der aktuell geöffneten Seite
-- Wenn dort bereits eine PDF liegt, fragt Uni:Note nach einem Ersetzen
-- In den Einstellungen können Sie die Position der PDF-Anheftung links oder rechts festlegen
+Wähle `Foto als Dokument anheften` aus `Mehr`.
 
-### PDF exportieren
+- wähle ein Foto aus Kamera oder Mediathek
+- passe den Dokumentbereich in der Korrekturansicht an und bestätige
+- das korrigierte Dokument wird gespeichert und bleibt auch nach dem erneuten Öffnen erhalten
 
-Öffnen Sie das Menü `...` und wählen Sie `PDF exportieren`.
+Wähle `PDF einfügen` aus `Mehr`.
 
-Sie können exportieren:
+- wähle eine Seite aus der PDF-Datei
+- platziere sie auf der aktuell geöffneten Seite
+- wenn dort bereits eine PDF liegt, fragt Uni:Note nach einem Ersetzen
+- in den Einstellungen kannst du die Position der PDF-Anheftung links oder rechts festlegen
 
-- nur diese Notiz
+Wähle `PDF exportieren` aus `Mehr`.
+
+Du kannst exportieren:
+
+- **Nur diese Notiz**
 - das gesamte Fach
 
-Bei `PDF-Hintergrundfarbe` lässt sich der Hintergrund auf `Papier` oder `Weiß` setzen.
+Bei `PDF-Export-Hintergrundfarbe` lässt sich der Hintergrund ändern.
 
 ---
 
-## 9. Notizen schützen und den Papierkorb nutzen
+## 8. `Lernfunktion` verwenden
 
-- Wenn Sie eine Notiz in der Notizliste `Schützen`, wird sie schreibgeschützt
-- In den Einstellungen können Sie Biometrie zum Aufheben des Schutzes verlangen
-- Der Papierkorb auf Home gruppiert gelöschte Elemente nach Fach
-- Sie können ein ganzes Fach oder nur einzelne Notizen wiederherstellen
-- Gelöschte Seiten landen nicht im Papierkorb und werden sofort entfernt
-- Endgültig gelöschte Elemente aus dem Papierkorb können nicht wiederhergestellt werden
+Aktiviere zuerst `Lernfunktion` unter `Einstellungen > Lernen`.
 
----
+Danach erscheinen `Lernwerkzeuge` in der schwebenden Werkzeugleiste der Notizansicht.
 
-## 10. Lernmodus verwenden (Geplant für v2.3.0)
-
-Diese Funktion ist in der aktuellen App-Store-Version v2.0.0 noch nicht enthalten.
-
-Aktivieren Sie zuerst die `Lernfunktion` unter `Einstellungen > Lernen`.
-
-Danach erscheinen die `Lernwerkzeuge` in der schwebenden Werkzeugleiste der Notizansicht.
-
-- Markieren Sie die Stellen, die Sie verdecken möchten, mit dem `Lernmarker`
-- Entfernen Sie sie mit dem `Lernmarker-Radierer`
-- Mit der Taste oben rechts können Sie die Lernmaske öffnen oder schließen
-- Solange die Lernmaske geschlossen ist, ist das Bearbeiten deaktiviert
+- markiere die Stellen, die du verdecken möchtest, mit `Lernmarker`
+- entferne sie mit `Lernmarker-Radierer`
+- mit der Taste oben rechts kannst du die Lernmaske öffnen oder schließen
+- solange die Lernmaske geschlossen ist, ist das Bearbeiten deaktiviert
 
 ---
 
-## 11. Einstellungen und Backup
+## 9. `Aufgabenassistent` verwenden
 
-In `Einstellungen` können Sie vor allem Folgendes ändern:
+Aktiviere zuerst `Aufgabenassistent` unter `Einstellungen > Lernhilfe`.
+
+Dann wähle `Aufgabenassistent` in der schwebenden Werkzeugleiste der Notizansicht.
+
+- markiere die Aufgabe mit einem geschlossenen Umriss
+- prüfe den ausgewählten Bereich
+- tippe auf `Lösen`
+
+Unterstützt werden Formelaufgaben und kurze Fragen in PDFs oder Bildern. Lange Lesetexte, freie Antworten und stark diagrammabhängige Aufgaben werden nicht unterstützt.
+
+---
+
+## 10. `Aufgabenset erstellen` verwenden
+
+Wähle `Aufgabenset erstellen` aus `Mehr`.
+
+- nutze `Seiten auswählen`, um die Zielseiten festzulegen
+- wähle `Frage/Antwort` oder `Lückentext`
+- starte mit `Aufgabenset erstellen`
+- prüfe Vorschläge mit `Hinzufügen` und `Verwerfen`
+- speichere mit `Aufgabenset speichern`
+
+Nach dem Speichern kannst du mit `Jetzt lernen` weitermachen. Du kannst sie später auch über `Gespeicherte Aufgabensets` erneut öffnen.
+
+---
+
+## 11. Notizen schützen und `Papierkorb` verwenden
+
+- wenn du in `Notizliste` `Schützen` wählst, wird die Notiz schreibgeschützt
+- in den Einstellungen kannst du Biometrie zum Aufheben des Schutzes verlangen
+- `Papierkorb` auf Home gruppiert gelöschte Elemente nach Fach
+- du kannst ein ganzes Fach oder nur einzelne Notizen wiederherstellen
+- gelöschte Seiten landen nicht im `Papierkorb` und werden sofort entfernt
+- endgültig gelöschte Elemente aus `Papierkorb` können nicht wiederhergestellt werden
+
+---
+
+## 12. Einstellungen und Backup
+
+In `Einstellungen` kannst du vor allem Folgendes ändern:
 
 - `Standardvorlage`
-- `Beim Start öffnen`
-- `Lernfunktion` (geplant für v2.3.0)
-- `Fachbezeichnung` (`Fach` / `Heft` / `Gruppe` / `Kategorie`)
-- Biometrie beim Aufheben des Schutzes
-- `Linkshänder-Modus`
+- `Vorheriges Heft öffnen`
+- `Lernfunktion`
+- `Aufgabenassistent`
+- `Fachbezeichnung`
+- Biometrie zum Aufheben des Schutzes
+- Linkshänder-Modus
 - `Kopf- / Fußzeile`
-- `PDF-Hintergrundfarbe`
+- `PDF-Export-Hintergrundfarbe`
 - `Sprache`
 
-Für v2.3.0 sind außerdem erweiterte Sprachunterstützung und der Start in Regionen außerhalb Japans geplant.
+In `Einstellungen > Backup` kannst du Folgendes verwenden:
 
-Im Backup-Bereich können Sie App-Daten über die Dateien-App `Erstellen` und `Wiederherstellen`.
-Nach einer Wiederherstellung schließen Sie die App einmal und öffnen sie erneut. Beim nächsten Start erscheint das Regal.
+- `Easy Backup aktualisieren`
+- `Aus Easy Backup wiederherstellen`
+- `Backup exportieren`
+- `Aus Datei wiederherstellen`
+
+Nach einer Wiederherstellung schließe die App einmal und öffne sie erneut.
 
 Verwandte Seiten:
 

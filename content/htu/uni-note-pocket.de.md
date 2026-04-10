@@ -6,13 +6,15 @@ aliases:
 ---
 
 Uni:Note Pocket ist eine **Begleit-App, um Uni:Note-Backups auf dem iPhone anzusehen**.  
-Sie ist keine Schreib-App. Über **Importieren** oben rechts lädst du Backup-Daten und prüfst Notizen anschließend schreibgeschützt.
+Sie ist keine Schreib-App. Ihre Aufgabe ist es, Backups zu laden und dich Notizen und `Fragensets` schreibgeschützt ansehen zu lassen.
 
 Voraussetzungen:
 
-- nur für iPhone
+- nur iPhone
 - ein in Uni:Note erstelltes Backup-ZIP
-- Fokus auf Ansicht und Lernmasken, nicht auf Bearbeitung oder Sync
+- Fokus auf Ansicht und Wiederholung, nicht auf Bearbeitung oder Sync
+
+Die aktuell im App Store verfügbare Version ist `v1.1.0`.
 
 ---
 
@@ -23,7 +25,7 @@ Dort wird erklärt, dass Uni:Note Pocket eine Begleit-App zu Uni:Note ist und ei
 
 ---
 
-## 2. Backup über Importieren auswählen
+## 2. Backup über `Importieren` auswählen
 
 Nutze oben rechts **Importieren** und wähle ein Backup-ZIP aus Uni:Note aus.
 
@@ -31,24 +33,37 @@ Nutze oben rechts **Importieren** und wähle ein Backup-ZIP aus Uni:Note aus.
 - Inhalte prüfen lassen
 - bei Erfolg Import abschließen
 
-Wenn noch nichts importiert wurde, zeigt die App **Importiere ein Backup, um loszulegen** mit der Taste **Backup wählen** an.
+---
+
+## 3. `Einfaches Backup` verwenden
+
+Wenn dieses iPhone bereits ein `Einfaches Backup` von Uni:Note enthält, kann die App fragen, ob du es sofort laden möchtest.
+
+In `Einstellungen > Einfaches Backup` kannst du Folgendes prüfen:
+
+- **Zuletzt aktualisiert**
+- **Beim Start automatisch laden**
+- **Manuell laden**
+
+Wenn **Beim Start automatisch laden** eingeschaltet ist, lädt die App nur dann automatisch, wenn auf diesem iPhone ein nutzbares `Einfaches Backup` vorhanden ist.
 
 ---
 
-## 3. Fächer und zuletzt verwendete Notizen prüfen
+## 4. Oberste Liste, `Zuletzt verwendete Notizen` und `Fragensets` prüfen
 
 Nach dem Import zeigt der Hauptbildschirm:
 
-- oberste Fächer mit Notizzahl
-- **Zuletzt verwendete Notizen** zum schnellen Fortsetzen
+- die oberste Liste mit Notizzahlen
+- eine **Zuletzt verwendete Notizen**-Sektion zum schnellen Fortsetzen
+- eine **Fragensets**-Sektion, wenn das importierte Backup gespeicherte Sets enthält
 
 Die Bezeichnung der obersten Ebene richtet sich nach **Fachbezeichnung** in den Einstellungen.
 
 ---
 
-## 4. Notizen öffnen und Seiten ansehen
+## 5. `Notizen` öffnen und Seiten ansehen
 
-Wenn du ein Fach öffnest, gelangst du in die Liste **Notizen** und kannst auswählen, was du ansehen möchtest.
+Wenn du einen Eintrag der obersten Ebene öffnest, gelangst du in die Liste **Notizen** und kannst auswählen, was du ansehen möchtest.
 
 - Notizliste öffnen
 - Notiz auswählen
@@ -58,7 +73,7 @@ Uni:Note Pocket ist schreibgeschützt und benennt daher keine Notizen um und bea
 
 ---
 
-## 5. In der Seitenansicht zoomen und lesen
+## 6. In der Seitenansicht zoomen und lesen
 
 In der Seitenansicht konzentrierst du dich auf die importierten Inhalte.
 
@@ -70,7 +85,17 @@ Die App ist darauf ausgelegt, auch größere Notizen sicher und einfach nachzule
 
 ---
 
-## 6. Lernmaske anzeigen oder ausblenden
+## 7. `Fragensets` wiederholen
+
+Wenn das importierte Backup in Uni:Note gespeicherte `Fragensets` enthält, kannst du sie über **Fragensets** auf Home öffnen.
+
+- gespeicherte Fragen und Antworten ansehen
+- den gespeicherten Satz an einer Stelle durchgehen
+- Erstellung und Bearbeitung auf der Uni:Note-Seite lassen
+
+---
+
+## 8. Lernmaske anzeigen oder ausblenden
 
 Mit der Augen-Schaltfläche auf der rechten Seite schaltest du die seitenbezogene Lernmaske um.
 
@@ -81,28 +106,28 @@ Uni:Note Pocket bearbeitet die Lernmaske selbst nicht.
 
 ---
 
-## 7. Einstellungen anpassen
+## 9. Einstellungen anpassen
 
-In den Einstellungen kannst du vor allem Folgendes ändern:
+In `Einstellungen` kannst du vor allem Folgendes ändern:
 
 - **Sprache**
 - **Thema**
 - **An letzter Stelle fortsetzen**
 - **Seitliches Verrutschen verhindern**
 - **Fachbezeichnung**
+- **Einfaches Backup**
 
 Mit **Fachbezeichnung** stellst du die oberste Bezeichnung auf **Fach / Notiz / Gruppe / Kategorie** um.
 
 ---
 
-## 8. Später ein neueres Backup importieren
+## 10. Später ein neueres Backup laden
 
-Wenn du in Uni:Note ein neueres Backup erstellt hast, führe in Uni:Note Pocket erneut **Importieren** aus.
+Wenn du in Uni:Note ein neueres Backup erstellt hast, führe in Uni:Note Pocket erneut **Importieren** aus.  
+Wenn du `Einfaches Backup` nutzt, kannst du auch `Einstellungen > Einfaches Backup > Manuell laden` verwenden.
 
-Erst wenn die neue ZIP-Datei die Prüfung besteht, wird auf den neuen Stand gewechselt.  
+Die App wechselt nur dann auf die neue Version, wenn die neue ZIP-Datei die Prüfung besteht.  
 Falls die Prüfung scheitert, bleiben die bisherigen Daten erhalten und es erscheint nur ein Fehler.
-
----
 
 Verwandte Seiten:
 
