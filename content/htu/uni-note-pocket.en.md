@@ -6,7 +6,7 @@ aliases:
 ---
 
 Uni:Note Pocket is a **companion app for reviewing Uni:Note backups on iPhone**.  
-It is not a writing app. Its job is to load backup data and let you review notes and `Question Sets` in read-only mode.
+It is not a writing app. Its job is to load backup data and let you review notes and `Question Sets` (In Preparation / planned for v1.1.0) in read-only mode.
 
 Requirements:
 
@@ -33,27 +33,29 @@ Use **Import** in the top right and select a backup zip from Uni:Note.
 
 ---
 
-## 3. Use `Easy Backup`
+## 3. Use `Easy Backup` (In Preparation / planned for v1.1.0)
 
-If this iPhone already has a Uni:Note `Easy Backup`, the app can ask whether you want to load it right away.
+This feature is in preparation and planned for v1.1.0.
 
-In `Settings > Easy Backup`, you can check:
+If this iPhone already has a Uni:Note `Easy Backup` (In Preparation / planned for v1.1.0), the app can ask whether you want to load it right away.
+
+In `Settings > Easy Backup` (In Preparation / planned for v1.1.0), you can check:
 
 - **Last Updated**
-- **Auto Load on Launch**
-- **Load Manually**
+- **Auto Load on Launch** (In Preparation / planned for v1.1.0)
+- **Load Manually** (In Preparation / planned for v1.1.0)
 
-When **Auto Load on Launch** is on, the app loads automatically only when a usable Uni:Note `Easy Backup` is available on this iPhone.
+When **Auto Load on Launch** is on, the app loads automatically only when a usable Uni:Note `Easy Backup` (In Preparation / planned for v1.1.0) is available on this iPhone.
 
 ---
 
-## 4. Check subjects, `Recent Notes`, and `Question Sets`
+## 4. Check subjects, `Recent Notes`, and `Question Sets` (In Preparation / planned for v1.1.0)
 
 After import, the main screen shows:
 
 - top-level subjects with note counts
 - a **Recent Notes** section for quick resume
-- a **Question Sets** section when the imported backup includes saved sets
+- a **Question Sets** section (In Preparation / planned for v1.1.0) when the imported backup includes saved sets
 
 The top-level label changes according to **Subject Name** in Settings.
 
@@ -83,9 +85,11 @@ The app is designed to keep review simple and safe even for heavier notes.
 
 ---
 
-## 7. Review `Question Sets`
+## 7. Review `Question Sets` (In Preparation / planned for v1.1.0)
 
-If the imported backup includes `Question Sets` saved in Uni:Note, you can open them from **Question Sets** on Home.
+This feature is in preparation and planned for v1.1.0.
+
+If the imported backup includes `Question Sets` (In Preparation / planned for v1.1.0) saved in Uni:Note, you can open them from **Question Sets** (In Preparation / planned for v1.1.0) on Home.
 
 - review saved questions and answers
 - move through the saved set in one place
@@ -113,7 +117,7 @@ In Settings, you can mainly change:
 - **Resume Last Location**
 - **Prevent Horizontal Drift**
 - **Subject Name**
-- **Easy Backup**
+- **Easy Backup** (In Preparation / planned for v1.1.0)
 
 **Subject Name** lets you rename the top-level label to **Subject / Note / Group / Category**.
 
@@ -122,7 +126,7 @@ In Settings, you can mainly change:
 ## 10. Import a newer backup later
 
 When you create a newer backup in Uni:Note, run **Import** again in Uni:Note Pocket.
-If you use `Easy Backup`, you can also refresh it from `Settings > Easy Backup > Load Manually`.
+If you use `Easy Backup` (In Preparation / planned for v1.1.0), you can also refresh it from `Settings > Easy Backup > Load Manually`.
 
 The app switches only after the new zip passes validation.  
 If validation fails, the previous imported data stays in place and the app shows an error.

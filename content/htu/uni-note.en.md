@@ -20,7 +20,7 @@ Create a new subject from the `+` button on Home.
 
 - Subject name
 - Paper style: ruled / grid / plain
-- `Paper Color`
+- `Paper Color` (In Preparation / planned for v2.4.0)
 - Cover color
 
 The subject is added to Home.
@@ -95,7 +95,7 @@ The `More` menu includes the following actions:
 - `Attach Photo as Document`
 - `Attach PDF`
 - `Export PDF`
-- `Create Practice Set`
+- `Create Practice Set` (In Preparation / planned for v2.4.0)
 
 ---
 
@@ -144,11 +144,13 @@ When enabled, `Memory Tools` appears in the floating toolbar on the note screen.
 
 ---
 
-## 9. Use `Problem Solver Assistant`
+## 9. Use `Problem Solver Assistant` (In Preparation / planned for v2.4.0)
 
-First, turn on `Problem Solver Assistant` in `Settings > Study Support`.
+This feature is in preparation and planned for v2.4.0.
 
-Then choose `Problem Solver Assistant` from the floating toolbar on the note screen.
+First, turn on `Problem Solver Assistant` (In Preparation / planned for v2.4.0) in `Settings > Study Support`.
+
+Then choose `Problem Solver Assistant` (In Preparation / planned for v2.4.0) from the floating toolbar on the note screen.
 
 - Circle the problem with a closed outline
 - Review the selected range
@@ -158,12 +160,14 @@ It supports formula questions and short questions inside PDFs or images. Long re
 
 ---
 
-## 10. Use `Create Practice Set`
+## 10. Use `Create Practice Set` (In Preparation / planned for v2.4.0)
 
-Choose `Create Practice Set` from `More`.
+This feature is in preparation and planned for v2.4.0.
+
+Choose `Create Practice Set` (In Preparation / planned for v2.4.0) from `More`.
 
 - Use `Choose Pages` to pick the target pages
-- Start with `Create Practice Set`
+- Start with `Create Practice Set` (In Preparation / planned for v2.4.0)
 - Review candidates with `Add` and `Reject`
 - Save them with `Save Practice Set`
 
@@ -189,7 +193,7 @@ In `Settings`, you can mainly change:
 - `Default Template`
 - `Open Previous Notebook`
 - `Memorization Feature`
-- `Problem Solver Assistant`
+- `Problem Solver Assistant` (In Preparation / planned for v2.4.0)
 - `Subject Name`
 - `Require Biometrics to Remove Protection`
 - `Left-Handed Mode`
@@ -199,8 +203,8 @@ In `Settings`, you can mainly change:
 
 In `Settings > Backup`, you can use:
 
-- `Update Easy Backup`
-- `Restore from Easy Backup`
+- `Update Easy Backup` (In Preparation / planned for v2.4.0)
+- `Restore from Easy Backup` (In Preparation / planned for v2.4.0)
 - `Export Backup`
 - `Restore from File`
 

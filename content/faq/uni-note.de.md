@@ -38,7 +38,7 @@ Du kannst Folgendes auswählen:
 
 - Fachname
 - Papierstil
-- `Papierfarbe`
+- `Papierfarbe` (In Vorbereitung / fuer v2.4.0 geplant)
 - Coverfarbe
 
 ### Kann ich innerhalb desselben Fachs mehrere Notizen anlegen?
@@ -106,17 +106,19 @@ Wenn du `Lernfunktion` in `Einstellungen > Lernen` aktivierst, werden `Lernwerkz
 Nein.  
 Solange die Lernmaske geschlossen ist, ist das Bearbeiten deaktiviert.
 
-### Wie verwende ich `Aufgabenassistent`?
-Aktiviere zuerst `Aufgabenassistent` in `Einstellungen > Lernhilfe`.  
-Wähle danach `Aufgabenassistent` in der schwebenden Werkzeugleiste, markiere den Aufgabenbereich mit einem geschlossenen Umriss und tippe auf **Lösen**.
+### Wie verwende ich `Aufgabenassistent`? (In Vorbereitung / fuer v2.4.0 geplant)
+Diese Funktion ist in Vorbereitung und fuer v2.4.0 geplant.  
+Aktiviere zuerst `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant) in `Einstellungen > Lernhilfe`.  
+Wähle danach `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant) in der schwebenden Werkzeugleiste, markiere den Aufgabenbereich mit einem geschlossenen Umriss und tippe auf **Lösen**.
 
 Unterstützt werden Formelaufgaben und kurze Fragen in PDFs oder Bildern. Längere Lesetexte, freie Antworten und stark diagrammabhängige Aufgaben werden nicht unterstützt.
 
-### Wie verwende ich `Aufgabenset erstellen`?
-Öffne `Mehr > Aufgabenset erstellen`.
+### Wie verwende ich `Aufgabenset erstellen`? (In Vorbereitung / fuer v2.4.0 geplant)
+Diese Funktion ist in Vorbereitung und fuer v2.4.0 geplant.  
+Öffne `Mehr > Aufgabenset erstellen` (In Vorbereitung / fuer v2.4.0 geplant).
 
 - Wähle die Seiten mit **Seiten auswählen**
-- Starte mit **Aufgabenset erstellen**
+- Starte mit **Aufgabenset erstellen** (In Vorbereitung / fuer v2.4.0 geplant)
 - Prüfe Vorschläge mit **Hinzufügen** und **Verwerfen**
 - Speichere mit **Aufgabenset speichern**
 
@@ -137,12 +139,12 @@ Falls nötig, verwende `Einstellungen > Backup`.
 Ja.  
 In `Einstellungen > Backup` kannst du Folgendes verwenden:
 
-- `Easy Backup aktualisieren`
-- `Aus Easy Backup wiederherstellen`
+- `Easy Backup aktualisieren` (In Vorbereitung / fuer v2.4.0 geplant)
+- `Aus Easy Backup wiederherstellen` (In Vorbereitung / fuer v2.4.0 geplant)
 - `Backup exportieren`
 - `Aus Datei wiederherstellen`
 
-`Easy Backup` nutzt iCloud. Die dateibasierte Sicherung bleibt ebenfalls verfügbar.
+`Easy Backup` (In Vorbereitung / fuer v2.4.0 geplant) nutzt iCloud. Die dateibasierte Sicherung bleibt ebenfalls verfügbar.
 
 ### Kann ich die App direkt nach einer Wiederherstellung verwenden?
 Schließe die App nach der Wiederherstellung einmal und öffne sie erneut.  
@@ -158,7 +160,7 @@ Du kannst hauptsächlich Folgendes ändern:
 - `Standardvorlage`
 - `Vorheriges Heft öffnen`
 - `Lernfunktion`
-- `Aufgabenassistent`
+- `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant)
 - `Fachbezeichnung` (`Fach` / `Heft` / `Gruppe` / `Kategorie`)
 - Biometrie zum Aufheben des Schutzes
 - Linkshänder-Modus

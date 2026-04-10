@@ -38,7 +38,7 @@ You can choose the following:
 
 - `Subject name`
 - paper style
-- `Paper Color`
+- `Paper Color` (In Preparation / planned for v2.4.0)
 - cover color
 
 ### Can I separate notes within the same subject?
@@ -106,18 +106,20 @@ Turn on **Memorization Feature** in `Settings > Memorization` to use **Memory To
 No.  
 Editing is disabled while the memorization mask is closed.
 
-### How do I use `Problem Solver Assistant`?
-First turn on **Problem Solver Assistant** in `Settings > Study Support`.  
-Then choose **Problem Solver Assistant** from the floating toolbar on the note screen, circle the problem with a closed outline, and tap **Solve**.
+### How do I use `Problem Solver Assistant`? (In Preparation / planned for v2.4.0)
+This feature is in preparation and planned for v2.4.0.  
+First turn on **Problem Solver Assistant** (In Preparation / planned for v2.4.0) in `Settings > Study Support`.  
+Then choose **Problem Solver Assistant** (In Preparation / planned for v2.4.0) from the floating toolbar on the note screen, circle the problem with a closed outline, and tap **Solve**.
 
 It supports formula questions and short questions inside PDFs or images. Long reading comprehension, open-ended writing, and diagram-heavy questions are not supported.
 
-### Can I create practice sets?
+### Can I create practice sets? (In Preparation / planned for v2.4.0)
+This feature is in preparation and planned for v2.4.0.  
 Yes.  
-Choose **Create Practice Set** from **More**.
+Choose **Create Practice Set** (In Preparation / planned for v2.4.0) from **More**.
 
 - Use **Choose Pages** to select the range
-- Start with **Create Practice Set**
+- Start with **Create Practice Set** (In Preparation / planned for v2.4.0)
 - Review candidates with **Add** and **Reject**
 - Save with **Save Practice Set**
 
@@ -138,12 +140,12 @@ If needed, use `Settings > Backup`.
 Yes.  
 In `Settings > Backup`, you can use:
 
-- `Update Easy Backup`
-- `Restore from Easy Backup`
+- `Update Easy Backup` (In Preparation / planned for v2.4.0)
+- `Restore from Easy Backup` (In Preparation / planned for v2.4.0)
 - `Export Backup`
 - `Restore from File`
 
-`Easy Backup` is the iCloud-based save and restore option. File-based backup remains available as well.
+`Easy Backup` (In Preparation / planned for v2.4.0) is the iCloud-based save and restore option. File-based backup remains available as well.
 
 ### Can I use the app immediately after restoring?
 After restoring, close the app once and open it again.  
@@ -159,7 +161,7 @@ You can mainly change the following:
 - Default Template
 - Open Previous Notebook
 - Memorization Feature
-- Problem Solver Assistant
+- Problem Solver Assistant (In Preparation / planned for v2.4.0)
 - Subject Name (`Subject` / `Notebook` / `Group` / `Category`)
 - Require Biometrics to Remove Protection
 - Left-Handed Mode

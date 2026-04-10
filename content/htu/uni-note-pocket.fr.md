@@ -6,7 +6,7 @@ aliases:
 ---
 
 Uni:Note Pocket est une **application compagnon pour relire les sauvegardes Uni:Note sur iPhone**.  
-Ce n'est pas une application d'ecriture. Son role est de charger des sauvegardes et de vous laisser relire les notes et les `Lots` en lecture seule.
+Ce n'est pas une application d'ecriture. Son role est de charger des sauvegardes et de vous laisser relire les notes et les `Lots` (En preparation / prevu pour la v1.1.0) en lecture seule.
 
 Pre-requis :
 
@@ -33,27 +33,29 @@ Utilisez **Importer** en haut a droite, puis selectionnez un zip de sauvegarde U
 
 ---
 
-## 3. Utiliser `Sauvegarde rapide`
+## 3. Utiliser `Sauvegarde rapide` (En preparation / prevu pour la v1.1.0)
 
-Si cet iPhone contient deja une `Sauvegarde rapide` de Uni:Note, l'application peut proposer de la charger immediatement.
+Cette fonction est en preparation et prevue pour la v1.1.0.
 
-Dans `Reglages > Sauvegarde rapide`, vous pouvez verifier :
+Si cet iPhone contient deja une `Sauvegarde rapide` de Uni:Note (En preparation / prevu pour la v1.1.0), l'application peut proposer de la charger immediatement.
+
+Dans `Reglages > Sauvegarde rapide` (En preparation / prevu pour la v1.1.0), vous pouvez verifier :
 
 - **Derniere mise a jour**
-- **Chargement auto au demarrage**
-- **Charger manuellement**
+- **Chargement auto au demarrage** (En preparation / prevu pour la v1.1.0)
+- **Charger manuellement** (En preparation / prevu pour la v1.1.0)
 
-Lorsque **Chargement auto au demarrage** est active, l'application charge automatiquement uniquement lorsqu'une `Sauvegarde rapide` exploitable est disponible sur cet iPhone.
+Lorsque **Chargement auto au demarrage** est active, l'application charge automatiquement uniquement lorsqu'une `Sauvegarde rapide` (En preparation / prevu pour la v1.1.0) exploitable est disponible sur cet iPhone.
 
 ---
 
-## 4. Verifier la liste de niveau superieur, `Notes recentes` et `Lots`
+## 4. Verifier la liste de niveau superieur, `Notes recentes` et `Lots` (En preparation / prevu pour la v1.1.0)
 
 Apres l'import, l'ecran principal affiche :
 
 - les elements de niveau superieur avec leur nombre de notes
 - une section **Notes recentes** pour reprendre rapidement
-- une section **Lots** lorsque la sauvegarde importee contient des lots enregistres
+- une section **Lots** (En preparation / prevu pour la v1.1.0) lorsque la sauvegarde importee contient des lots enregistres
 
 Le nom du niveau superieur depend du reglage **Libelle des matieres**.
 
@@ -83,9 +85,11 @@ L'application privilegie une relecture simple et sure, meme pour des notes plus 
 
 ---
 
-## 7. Relire les `Lots`
+## 7. Relire les `Lots` (En preparation / prevu pour la v1.1.0)
 
-Si la sauvegarde importee inclut des `Lots` enregistres dans Uni:Note, vous pouvez les ouvrir depuis **Lots** sur l'accueil.
+Cette fonction est en preparation et prevue pour la v1.1.0.
+
+Si la sauvegarde importee inclut des `Lots` (En preparation / prevu pour la v1.1.0) enregistres dans Uni:Note, vous pouvez les ouvrir depuis **Lots** (En preparation / prevu pour la v1.1.0) sur l'accueil.
 
 - relire questions et reponses
 - parcourir les contenus enregistres au meme endroit
@@ -113,7 +117,7 @@ Dans `Reglages`, vous pouvez principalement modifier :
 - **Reprendre au dernier emplacement**
 - **Limiter le decalage horizontal**
 - **Libelle des matieres**
-- **Sauvegarde rapide**
+- **Sauvegarde rapide** (En preparation / prevu pour la v1.1.0)
 
 Avec **Libelle des matieres**, vous pouvez renommer le niveau superieur en **Matiere / Note / Groupe / Categorie**.
 
@@ -122,7 +126,7 @@ Avec **Libelle des matieres**, vous pouvez renommer le niveau superieur en **Mat
 ## 10. Importer plus tard une sauvegarde plus recente
 
 Lorsque vous creez une sauvegarde plus recente dans Uni:Note, relancez **Importer** dans Uni:Note Pocket.  
-Si vous utilisez `Sauvegarde rapide`, vous pouvez aussi la charger depuis `Reglages > Sauvegarde rapide > Charger manuellement`.
+Si vous utilisez `Sauvegarde rapide` (En preparation / prevu pour la v1.1.0), vous pouvez aussi la charger depuis `Reglages > Sauvegarde rapide > Charger manuellement`.
 
 L'application ne bascule vers la nouvelle version qu'apres validation du nouveau zip.  
 Si la validation echoue, les donnees precedentes restent en place et seule une erreur s'affiche.

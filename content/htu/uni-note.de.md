@@ -20,7 +20,7 @@ Erstelle über die Schaltfläche `+` auf Home ein neues Fach.
 
 - Fachname
 - Papierstil: liniert / kariert / blanko
-- `Papierfarbe`
+- `Papierfarbe` (In Vorbereitung / fuer v2.4.0 geplant)
 - Coverfarbe
 
 Das Fach wird auf Home hinzugefügt.  
@@ -95,7 +95,7 @@ Das Menü `Mehr` enthält die folgenden Aktionen:
 - `Foto als Dokument anheften`
 - `PDF einfügen`
 - `PDF exportieren`
-- `Aufgabenset erstellen`
+- `Aufgabenset erstellen` (In Vorbereitung / fuer v2.4.0 geplant)
 
 ---
 
@@ -144,11 +144,13 @@ Danach erscheinen `Lernwerkzeuge` in der schwebenden Werkzeugleiste der Notizans
 
 ---
 
-## 9. `Aufgabenassistent` verwenden
+## 9. `Aufgabenassistent` verwenden (In Vorbereitung / fuer v2.4.0 geplant)
 
-Aktiviere zuerst `Aufgabenassistent` unter `Einstellungen > Lernhilfe`.
+Diese Funktion ist in Vorbereitung und fuer v2.4.0 geplant.
 
-Dann wähle `Aufgabenassistent` in der schwebenden Werkzeugleiste der Notizansicht.
+Aktiviere zuerst `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant) unter `Einstellungen > Lernhilfe`.
+
+Dann wähle `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant) in der schwebenden Werkzeugleiste der Notizansicht.
 
 - markiere die Aufgabe mit einem geschlossenen Umriss
 - prüfe den ausgewählten Bereich
@@ -158,12 +160,14 @@ Unterstützt werden Formelaufgaben und kurze Fragen in PDFs oder Bildern. Lange 
 
 ---
 
-## 10. `Aufgabenset erstellen` verwenden
+## 10. `Aufgabenset erstellen` verwenden (In Vorbereitung / fuer v2.4.0 geplant)
 
-Wähle `Aufgabenset erstellen` aus `Mehr`.
+Diese Funktion ist in Vorbereitung und fuer v2.4.0 geplant.
+
+Wähle `Aufgabenset erstellen` (In Vorbereitung / fuer v2.4.0 geplant) aus `Mehr`.
 
 - nutze `Seiten auswählen`, um die Zielseiten festzulegen
-- starte mit `Aufgabenset erstellen`
+- starte mit `Aufgabenset erstellen` (In Vorbereitung / fuer v2.4.0 geplant)
 - prüfe Vorschläge mit `Hinzufügen` und `Verwerfen`
 - speichere mit `Aufgabenset speichern`
 
@@ -189,7 +193,7 @@ In `Einstellungen` kannst du vor allem Folgendes ändern:
 - `Standardvorlage`
 - `Vorheriges Heft öffnen`
 - `Lernfunktion`
-- `Aufgabenassistent`
+- `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant)
 - `Fachbezeichnung`
 - Biometrie zum Aufheben des Schutzes
 - Linkshänder-Modus
@@ -199,8 +203,8 @@ In `Einstellungen` kannst du vor allem Folgendes ändern:
 
 In `Einstellungen > Backup` kannst du Folgendes verwenden:
 
-- `Easy Backup aktualisieren`
-- `Aus Easy Backup wiederherstellen`
+- `Easy Backup aktualisieren` (In Vorbereitung / fuer v2.4.0 geplant)
+- `Aus Easy Backup wiederherstellen` (In Vorbereitung / fuer v2.4.0 geplant)
 - `Backup exportieren`
 - `Aus Datei wiederherstellen`
 

@@ -9,7 +9,7 @@ aliases:
 
 ### Quel type d'application est Uni:Note Pocket ?
 Uni:Note Pocket est une application compagnon de l'application iPad **Uni:Note**.  
-Elle permet d'`Importer` des sauvegardes creees dans Uni:Note et de relire les notes, les pages et les `Lots` sur iPhone en lecture seule.
+Elle permet d'`Importer` des sauvegardes creees dans Uni:Note et de relire les notes, les pages et les `Lots` (En preparation / prevu pour la v1.1.0) sur iPhone en lecture seule.
 
 ### Puis-je utiliser Uni:Note Pocket seul ?
 Non.  
@@ -27,13 +27,13 @@ Non.
 
 ### Que dois-je faire en premier ?
 Utilisez **Importer** en haut a droite, puis choisissez une sauvegarde Uni:Note.  
-Si cet iPhone contient deja une `Sauvegarde rapide` de Uni:Note, l'application peut aussi proposer de la charger tout de suite.
+Si cet iPhone contient deja une `Sauvegarde rapide` de Uni:Note (En preparation / prevu pour la v1.1.0), l'application peut aussi proposer de la charger tout de suite.
 
 ### Que puis-je importer ?
 Vous pouvez importer :
 
 - des fichiers zip de sauvegarde crees dans Uni:Note
-- la `Sauvegarde rapide` de Uni:Note detectee sur cet iPhone
+- la `Sauvegarde rapide` de Uni:Note detectee sur cet iPhone (En preparation / prevu pour la v1.1.0)
 
 ### L'import modifie-t-il le fichier de sauvegarde d'origine ?
 Non.  
@@ -47,13 +47,15 @@ Si des donnees ont deja ete importees, elles sont conservees et l'application af
 Pas pour le moment.  
 Uni:Note Pocket est concu pour relire des sauvegardes.
 
-### Qu'est-ce que `Chargement auto au demarrage` ?
-C'est une option dans `Reglages > Sauvegarde rapide`.  
-Lorsqu'elle est activee, l'application charge automatiquement au lancement uniquement lorsqu'une `Sauvegarde rapide` exploitable est disponible sur cet iPhone.
+### Qu'est-ce que `Chargement auto au demarrage` ? (En preparation / prevu pour la v1.1.0)
+Cette fonction est en preparation et prevue pour la v1.1.0.  
+C'est une option dans `Reglages > Sauvegarde rapide` (En preparation / prevu pour la v1.1.0).  
+Lorsqu'elle est activee, l'application charge automatiquement au lancement uniquement lorsqu'une `Sauvegarde rapide` (En preparation / prevu pour la v1.1.0) exploitable est disponible sur cet iPhone.
 
-### Qu'est-ce que `Charger manuellement` ?
-C'est l'action disponible dans `Reglages > Sauvegarde rapide > Charger manuellement`.  
-Elle permet de charger la `Sauvegarde rapide` detectee sur cet iPhone au moment voulu.
+### Qu'est-ce que `Charger manuellement` ? (En preparation / prevu pour la v1.1.0)
+Cette fonction est en preparation et prevue pour la v1.1.0.  
+C'est l'action disponible dans `Reglages > Sauvegarde rapide > Charger manuellement` (En preparation / prevu pour la v1.1.0).  
+Elle permet de charger la `Sauvegarde rapide` (En preparation / prevu pour la v1.1.0) detectee sur cet iPhone au moment voulu.
 
 ---
 
@@ -66,7 +68,7 @@ Les fonctions principales sont :
 - consulter la liste de niveau superieur
 - ouvrir la liste **Notes**
 - afficher les pages
-- ouvrir les `Lots`
+- ouvrir les `Lots` (En preparation / prevu pour la v1.1.0)
 - afficher ou masquer les calques de memorisation
 
 ### Puis-je modifier des notes ou des pages ?
@@ -77,9 +79,10 @@ Uni:Note Pocket est en lecture seule.
 Non.  
 La creation et la modification restent du cote de Uni:Note.
 
-### Puis-je relire des `Lots` ?
+### Puis-je relire des `Lots` ? (En preparation / prevu pour la v1.1.0)
+Cette fonction est en preparation et prevue pour la v1.1.0.  
 Oui.  
-Si la sauvegarde importee contient des `Lots` enregistres dans Uni:Note, vous pouvez les ouvrir depuis **Lots** sur l'accueil.
+Si la sauvegarde importee contient des `Lots` (En preparation / prevu pour la v1.1.0) enregistres dans Uni:Note, vous pouvez les ouvrir depuis **Lots** (En preparation / prevu pour la v1.1.0) sur l'accueil.
 
 ### Qu'est-ce que le calque de memorisation ?
 C'est le calque de page que vous pouvez afficher ou masquer pendant la relecture.  
@@ -105,7 +108,7 @@ Les principaux reglages sont :
 - **Reprendre au dernier emplacement**
 - **Limiter le decalage horizontal**
 - **Libelle des matieres**
-- **Sauvegarde rapide**
+- **Sauvegarde rapide** (En preparation / prevu pour la v1.1.0)
 
 ### Que change `Libelle des matieres` ?
 Cela change le nom du niveau superieur entre **Matiere / Note / Groupe / Categorie**.
