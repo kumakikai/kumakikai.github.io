@@ -116,12 +116,11 @@ La fonction prend en charge les problemes de calcul et les questions courtes dan
 Ouvrez `Plus > Creer un lot d'exercices`.
 
 - Choisissez les pages avec **Choisir les pages**
-- Selectionnez **Question/Reponse** ou **Texte a trous**
 - Lancez **Creer le lot**
 - Verifiez les propositions avec **Ajouter** et **Rejeter**
 - Enregistrez avec **Enregistrer le lot**
 
-Apres l'enregistrement, vous pouvez continuer avec **Reviser maintenant**. Les contenus enregistres peuvent aussi etre rouverts depuis **Lots enregistres**.
+Apres l'enregistrement, vous pouvez continuer avec **Reviser maintenant**. Pour les revoir plus tard, ouvrez les lots places sous chaque matiere sur l'ecran d'accueil. Vous pouvez aussi supprimer un lot par appui long depuis l'accueil, mais il ne va pas dans la corbeille et ne peut pas etre restaure.
 
 ---
 

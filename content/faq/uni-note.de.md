@@ -116,12 +116,11 @@ Unterstützt werden Formelaufgaben und kurze Fragen in PDFs oder Bildern. Länge
 Öffne `Mehr > Aufgabenset erstellen`.
 
 - Wähle die Seiten mit **Seiten auswählen**
-- Entscheide dich für **Frage/Antwort** oder **Lückentext**
 - Starte mit **Aufgabenset erstellen**
 - Prüfe Vorschläge mit **Hinzufügen** und **Verwerfen**
 - Speichere mit **Aufgabenset speichern**
 
-Nach dem Speichern kannst du mit **Jetzt lernen** weitermachen. Gespeicherte Inhalte kannst du später auch über **Gespeicherte Aufgabensets** öffnen.
+Nach dem Speichern kannst du mit **Jetzt lernen** weitermachen. Später kannst du die Aufgabensets auf dem Home-Bildschirm unter jedem Fach wieder öffnen. Du kannst Aufgabensets dort auch per langem Drücken löschen, aber sie landen nicht im Papierkorb und lassen sich nicht wiederherstellen.
 
 ---
 

@@ -117,12 +117,11 @@ Yes.
 Choose **Create Practice Set** from **More**.
 
 - Use **Choose Pages** to select the range
-- Choose `Q&A` or `Fill Blank`
 - Start with **Create Practice Set**
 - Review candidates with **Add** and **Reject**
 - Save with **Save Practice Set**
 
-After saving, you can continue from **Review now**. Saved content can also be opened later from **Saved Practice Sets**.
+After saving, you can continue from **Review now**. To revisit them later, open the practice sets listed under each subject on the Home bookshelf. You can also delete practice sets by long-pressing them on Home, but deleted sets do not go to Trash and cannot be restored.
 
 ---
 
