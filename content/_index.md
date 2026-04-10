@@ -24,7 +24,6 @@ Apple Pencil での手書きに集中するための
 ### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6760258084)
-- [更新履歴](/updates/uni-note/)
 - [使い方](/htu/uni-note/)
 - [よくある質問](/faq/uni-note/)
 - [プライバシーポリシー](/privacy/uni-note/)
@@ -45,7 +44,6 @@ Uni:Note で作成したバックアップを取り込み、
 ### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6761449487)
-- [更新履歴](/updates/uni-note-pocket/)
 - [使い方](/htu/uni-note-pocket/)
 - [よくある質問](/faq/uni-note-pocket/)
 - [プライバシーポリシー](/privacy/uni-note-pocket/)

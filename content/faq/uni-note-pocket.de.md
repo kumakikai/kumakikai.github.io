@@ -5,8 +5,6 @@ aliases:
   - /de/faq/uni-memo/
 ---
 
-Die aktuell im App Store verfügbare Version ist `v1.1.0`.
-
 ## Grundlagen
 
 ### Was ist Uni:Note Pocket für eine App?
@@ -22,14 +20,6 @@ Nur iPhone.
 
 ### Sind Login oder Kontoerstellung erforderlich?
 Nein.
-
-### Welche Version ist derzeit veröffentlicht?
-Aktuell ist im App Store `v1.1.0` verfügbar. Die wichtigsten Neuerungen sind:
-
-- `Einfaches Backup`
-- `Beim Start automatisch laden`
-- `Manuell laden`
-- `Fragensets`
 
 ---
 

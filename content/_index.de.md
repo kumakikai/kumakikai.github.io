@@ -31,7 +31,6 @@ Es ist als reine Lese-App mit Fokus auf Notizübersicht, Seitenansicht und Umsch
 ### Links
 
 - [App Store](https://apps.apple.com/jp/app/id6761449487)
-- [Versionshinweise]({{< relref "/updates/uni-note-pocket/" >}})
 - [Anleitung]({{< relref "/htu/uni-note-pocket/" >}})
 - [FAQ]({{< relref "/faq/uni-note-pocket/" >}})
 - [Datenschutzerklärung]({{< relref "/privacy/uni-note-pocket/" >}})

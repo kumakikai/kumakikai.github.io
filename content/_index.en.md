@@ -31,7 +31,6 @@ It is designed as a read-only companion focused on notebook browsing, page viewi
 ### Links
 
 - [App Store](https://apps.apple.com/jp/app/id6761449487)
-- [Release Notes]({{< relref "/updates/uni-note-pocket/" >}})
 - [How to Use]({{< relref "/htu/uni-note-pocket/" >}})
 - [FAQ]({{< relref "/faq/uni-note-pocket/" >}})
 - [Privacy Policy]({{< relref "/privacy/uni-note-pocket/" >}})

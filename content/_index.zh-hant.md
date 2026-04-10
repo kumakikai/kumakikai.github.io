@@ -37,7 +37,6 @@ Uni:Note Pocket 會匯入 Uni:Note 建立的備份，
 ### 連結
 
 - [App Store](https://apps.apple.com/jp/app/id6761449487)
-- [更新紀錄]({{< relref "/updates/uni-note-pocket/" >}})
 - [使用方式]({{< relref "/htu/uni-note-pocket/" >}})
 - [常見問題]({{< relref "/faq/uni-note-pocket/" >}})
 - [隱私權政策]({{< relref "/privacy/uni-note-pocket/" >}})

@@ -5,8 +5,6 @@ aliases:
   - /zh-hant/faq/uni-memo/
 ---
 
-目前 App Store 上公開中的版本是 `v1.1.0`。
-
 ## 基本資訊
 
 ### Uni:Note Pocket 是什麼樣的 App？
@@ -22,14 +20,6 @@ Uni:Note Pocket 是 iPad 專用 App **Uni:Note** 的輔助 App。
 
 ### 需要登入或註冊帳號嗎？
 不需要。
-
-### 目前公開中的版本是什麼？
-目前 App Store 上公開中的版本是 `v1.1.0`。主要新增內容如下：
-
-- `簡單備份`
-- `啟動時自動讀取`
-- `手動讀取`
-- `題組`
 
 ---
 

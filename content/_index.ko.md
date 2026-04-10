@@ -37,7 +37,6 @@ Uni:Note Pocket은 Uni:Note에서 만든 백업을 가져와
 ### 링크
 
 - [App Store](https://apps.apple.com/jp/app/id6761449487)
-- [업데이트 기록]({{< relref "/updates/uni-note-pocket/" >}})
 - [사용 방법]({{< relref "/htu/uni-note-pocket/" >}})
 - [FAQ]({{< relref "/faq/uni-note-pocket/" >}})
 - [개인정보 처리방침]({{< relref "/privacy/uni-note-pocket/" >}})

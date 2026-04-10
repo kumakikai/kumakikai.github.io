@@ -5,8 +5,6 @@ aliases:
   - /fr/faq/uni-memo/
 ---
 
-La version actuellement disponible sur l'App Store est `v1.1.0`.
-
 ## Generalites
 
 ### Quel type d'application est Uni:Note Pocket ?
@@ -22,14 +20,6 @@ iPhone uniquement.
 
 ### Faut-il se connecter ou creer un compte ?
 Non.
-
-### Quelle version est actuellement publiee ?
-La version actuellement disponible sur l'App Store est `v1.1.0`. Les principales nouveautes sont :
-
-- `Sauvegarde rapide`
-- `Chargement auto au demarrage`
-- `Charger manuellement`
-- `Lots`
 
 ---
 

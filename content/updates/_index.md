@@ -9,4 +9,3 @@ description: "アプリ別の更新履歴"
 
 - [ギャンカレ](/updates/balance-calendar/)
 - [SIGNAL](/updates/signal/)
-- [Uni:Note](/updates/uni-note/)

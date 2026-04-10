@@ -5,8 +5,6 @@ aliases:
   - /en/faq/uni-memo/
 ---
 
-The current App Store version is `v1.1.0`.
-
 ## Basics
 
 ### What kind of app is Uni:Note Pocket?
@@ -22,14 +20,6 @@ iPhone only.
 
 ### Do I need to log in or create an account?
 No.
-
-### Which version is currently live?
-The version currently available on the App Store is `v1.1.0`. Main additions in this release are:
-
-- `Easy Backup`
-- `Auto Load on Launch`
-- `Load Manually`
-- `Question Sets`
 
 ---
 

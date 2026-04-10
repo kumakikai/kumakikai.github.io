@@ -31,7 +31,6 @@ L’application est conçue comme un compagnon en lecture seule, centré sur la 
 ### Liens
 
 - [App Store](https://apps.apple.com/jp/app/id6761449487)
-- [Historique des versions]({{< relref "/updates/uni-note-pocket/" >}})
 - [Guide d’utilisation]({{< relref "/htu/uni-note-pocket/" >}})
 - [FAQ]({{< relref "/faq/uni-note-pocket/" >}})
 - [Politique de confidentialité]({{< relref "/privacy/uni-note-pocket/" >}})
