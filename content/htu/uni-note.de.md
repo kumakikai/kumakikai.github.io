@@ -167,7 +167,7 @@ Wähle `Aufgabenset erstellen` aus `Mehr`.
 - prüfe Vorschläge mit `Hinzufügen` und `Verwerfen`
 - speichere mit `Aufgabenset speichern`
 
-Nach dem Speichern kannst du mit `Jetzt lernen` weitermachen. Du kannst sie später auch über `Gespeicherte Aufgabensets` erneut öffnen.
+Nach dem Speichern kannst du mit `Jetzt lernen` weitermachen. Später kannst du die Aufgabensets auf dem Home-Bildschirm unter jedem Fach wieder öffnen. Du kannst Aufgabensets dort auch per langem Drücken löschen, aber sie landen nicht im Papierkorb und lassen sich nicht wiederherstellen.
 
 ---
 

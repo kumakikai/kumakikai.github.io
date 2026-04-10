@@ -167,7 +167,7 @@ Choisissez `Creer un lot d'exercices` dans `Plus`.
 - verifiez les propositions avec `Ajouter` et `Rejeter`
 - enregistrez avec `Enregistrer le lot`
 
-Apres l'enregistrement, vous pouvez continuer avec `Reviser maintenant`. Vous pouvez aussi les rouvrir plus tard depuis `Lots enregistres`.
+Apres l'enregistrement, vous pouvez continuer avec `Reviser maintenant`. Pour les revoir plus tard, ouvrez les lots places sous chaque matiere sur l'ecran d'accueil. Vous pouvez aussi supprimer un lot par appui long depuis l'accueil, mais il ne va pas dans la corbeille et ne peut pas etre restaure.
 
 ---
 
