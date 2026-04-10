@@ -29,7 +29,7 @@ If you create a note with the title left blank, today's date is used as the note
 
 ### What is the title prompt shown when I first open a new subject?
 It is the title of the first note.  
-If you leave it blank and choose **OK** or **Start Writing**, that day's date becomes the title.
+If you leave it blank and choose **OK** or **Start Writing**, today's date becomes the title.
 
 If you go back without confirming anything, the in-progress first note is not kept.
 

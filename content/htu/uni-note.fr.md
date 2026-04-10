@@ -34,7 +34,7 @@ Lorsque vous ouvrez une nouvelle matiere pour la premiere fois, Uni:Note affiche
 
 - commencez avec `OK` ou `Ecrire maintenant`
 - le titre est facultatif
-- si vous laissez vide, la date sera utilisee comme titre
+- si vous laissez vide, la date du jour sera utilisee comme titre
 - si vous revenez en arriere sans rien valider, la premiere note n'est pas conservee
 
 Ensuite, la matiere rouvre la derniere note utilisee.
@@ -75,7 +75,7 @@ Ouvrez **Liste des notes** depuis le coin superieur gauche.
 
 - ajoutez une note dans la meme matiere avec `Nouvelle note`
 - le titre d'une nouvelle note est aussi facultatif
-- si vous laissez vide, la date devient le titre
+- si vous laissez vide, la date du jour devient le titre
 - dans la liste, glissez vers la gauche pour renommer, `Proteger` ou supprimer
 
 Ouvrez **Liste des pages** pour verifier les miniatures de la note en cours.

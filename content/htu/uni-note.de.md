@@ -34,7 +34,7 @@ Wenn du ein neues Fach zum ersten Mal öffnest, erscheint die Eingabe für den T
 
 - starte mit `OK` oder `Direkt schreiben`
 - der Titel ist optional
-- wenn du nichts eingibst, wird das Datum als Titel verwendet
+- wenn du nichts eingibst, wird das heutige Datum als Titel verwendet
 - wenn du ohne Bestätigung zurückgehst, wird die erste Notiz nicht behalten
 
 Danach öffnet das Fach wieder die letzte Notiz, an der du geschrieben hast.
@@ -75,7 +75,7 @@ Hinweise:
 
 - mit `Neue Notiz` fügst du im selben Fach eine weitere Notiz hinzu
 - auch hier ist ein Titel optional
-- wenn das Feld leer bleibt, wird das Datum als Titel verwendet
+- wenn das Feld leer bleibt, wird das heutige Datum als Titel verwendet
 - durch Wischen nach links kannst du umbenennen, `Schützen` oder löschen
 
 Öffne **Seiten**, um die Miniaturen der aktuellen Notiz zu prüfen.

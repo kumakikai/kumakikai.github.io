@@ -34,7 +34,7 @@ When you open a new subject for the first time, Uni:Note shows the first note ti
 
 - Start with `OK` or `Start Writing`
 - Entering a title is optional
-- If left blank, the date will be used as the title
+- If left blank, today's date will be used as the title
 - If you go back without confirming anything, the first note is not kept
 
 After that, the subject opens the last note you were writing in.
@@ -75,7 +75,7 @@ Open **Note List** from the top-left.
 
 - Add another note in the same subject with `New Note`
 - The title for a new note is also optional
-- If left blank, the date is used as the title
+- If left blank, today's date is used as the title
 - Swipe left in the note list to rename, `Protect`, or delete a note
 
 Open **Pages** to check thumbnails inside the current note.
