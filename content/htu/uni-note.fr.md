@@ -20,7 +20,7 @@ Creez une nouvelle matiere depuis le bouton `+` de l'accueil.
 
 - nom de la matiere
 - type de papier : ligne / quadrille / vierge
-- `Couleur du papier` (En preparation / prevu pour la v2.4.0)
+- `Couleur du papier`
 - couleur de couverture
 
 La matiere est ajoutee a l'accueil.  
@@ -95,7 +95,9 @@ Le menu `Plus` contient les actions suivantes :
 - `Coller une photo comme document`
 - `Coller un PDF`
 - `Exporter en PDF`
-- `Creer un lot d'exercices` (En preparation / prevu pour la v2.4.0)
+- `Creer un lot d'exercices` (Premium uniquement)
+
+`Creer un lot d'exercices` fait partie des fonctions d'aide a l'etude. Cette fonction est reservee a Premium, et les nouveaux abonnements sont temporairement suspendus pendant l'amelioration de la qualite.
 
 ---
 
@@ -144,13 +146,14 @@ Une fois activee, `Outils memo` apparait dans la barre d'outils flottante de l'e
 
 ---
 
-## 9. Utiliser `Assistant de resolution` (En preparation / prevu pour la v2.4.0)
+## 9. Utiliser `Assistant de resolution` (Premium uniquement)
 
-Cette fonction est en preparation et prevue pour la v2.4.0.
+`Assistant de resolution` est une fonction d'aide a l'etude ajoutee dans la v2.4.0.  
+Elle est reservee a Premium, et les nouveaux abonnements sont temporairement suspendus pendant l'amelioration de la qualite. Seuls les utilisateurs ayant deja Premium peuvent l'utiliser.
 
-Activez d'abord `Assistant de resolution` (En preparation / prevu pour la v2.4.0) dans `Reglages > Aide a l'etude`.
+Activez d'abord `Assistant de resolution` dans `Reglages > Aide a l'etude`.
 
-Ensuite, choisissez `Assistant de resolution` (En preparation / prevu pour la v2.4.0) dans la barre d'outils flottante de la note.
+Ensuite, choisissez `Assistant de resolution` dans la barre d'outils flottante de la note.
 
 - entourez le probleme avec un contour ferme
 - verifiez la zone selectionnee
@@ -160,11 +163,12 @@ La fonction prend en charge les problemes de calcul et les questions courtes dan
 
 ---
 
-## 10. Utiliser `Creer un lot d'exercices` (En preparation / prevu pour la v2.4.0)
+## 10. Utiliser `Creer un lot d'exercices` (Premium uniquement)
 
-Cette fonction est en preparation et prevue pour la v2.4.0.
+`Creer un lot d'exercices` est une fonction d'aide a l'etude ajoutee dans la v2.4.0.  
+Elle est reservee a Premium, et les nouveaux abonnements sont temporairement suspendus pendant l'amelioration de la qualite. Seuls les utilisateurs ayant deja Premium peuvent l'utiliser.
 
-Choisissez `Creer un lot d'exercices` (En preparation / prevu pour la v2.4.0) dans `Plus`.
+Choisissez `Creer un lot d'exercices` dans `Plus`.
 
 - utilisez `Choisir les pages` pour definir la plage
 - lancez `Creer le lot`
@@ -193,7 +197,7 @@ Dans `Reglages`, vous pouvez principalement modifier :
 - `Modele des nouvelles notes`
 - `Ouvrir la derniere note`
 - `Fonction de memorisation`
-- `Assistant de resolution` (En preparation / prevu pour la v2.4.0)
+- `Assistant de resolution` (Premium uniquement)
 - `Libelle des matieres`
 - biometrie pour retirer la protection
 - mode gaucher
@@ -203,8 +207,8 @@ Dans `Reglages`, vous pouvez principalement modifier :
 
 Dans `Reglages > Sauvegarde`, vous pouvez utiliser :
 
-- `Mettre a jour la sauvegarde facile` (En preparation / prevu pour la v2.4.0)
-- `Restaurer depuis la sauvegarde facile` (En preparation / prevu pour la v2.4.0)
+- `Mettre a jour la sauvegarde facile`
+- `Restaurer depuis la sauvegarde facile`
 - `Exporter la sauvegarde`
 - `Restaurer depuis un fichier`
 

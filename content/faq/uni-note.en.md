@@ -38,7 +38,7 @@ You can choose the following:
 
 - `Subject name`
 - paper style
-- `Paper Color` (In Preparation / planned for v2.4.0)
+- `Paper Color`
 - cover color
 
 ### Can I separate notes within the same subject?
@@ -106,20 +106,27 @@ Turn on **Memorization Feature** in `Settings > Memorization` to use **Memory To
 No.  
 Editing is disabled while the memorization mask is closed.
 
-### How do I use `Problem Solver Assistant`? (In Preparation / planned for v2.4.0)
-This feature is in preparation and planned for v2.4.0.  
-First turn on **Problem Solver Assistant** (In Preparation / planned for v2.4.0) in `Settings > Study Support`.  
-Then choose **Problem Solver Assistant** (In Preparation / planned for v2.4.0) from the floating toolbar on the note screen, circle the problem with a closed outline, and tap **Solve**.
+### Who can use the study assistant features?
+The study assistant features added in v2.4.0 (`Problem Solver Assistant` and `Create Practice Set`) are currently available only to Premium users.  
+New subscriptions for the study assistant are temporarily unavailable while quality is being improved.  
+For now, only users who already have Premium can use them. Sales will resume once the quality reaches the standard we want.
+
+### How do I use `Problem Solver Assistant`?
+`Problem Solver Assistant` is a study assistant feature added in v2.4.0.  
+It is Premium-only, and new subscriptions are currently unavailable, so only users who already have Premium can use it.  
+First turn on **Problem Solver Assistant** in `Settings > Study Support`.  
+Then choose **Problem Solver Assistant** from the floating toolbar on the note screen, circle the problem with a closed outline, and tap **Solve**.
 
 It supports formula questions and short questions inside PDFs or images. Long reading comprehension, open-ended writing, and diagram-heavy questions are not supported.
 
-### Can I create practice sets? (In Preparation / planned for v2.4.0)
-This feature is in preparation and planned for v2.4.0.  
+### Can I create practice sets?
+`Create Practice Set` is a study assistant feature added in v2.4.0.  
+It is Premium-only, and new subscriptions are currently unavailable, so only users who already have Premium can use it.  
 Yes.  
-Choose **Create Practice Set** (In Preparation / planned for v2.4.0) from **More**.
+Choose **Create Practice Set** from **More**.
 
 - Use **Choose Pages** to select the range
-- Start with **Create Practice Set** (In Preparation / planned for v2.4.0)
+- Start with **Create Practice Set**
 - Review candidates with **Add** and **Reject**
 - Save with **Save Practice Set**
 
@@ -140,12 +147,12 @@ If needed, use `Settings > Backup`.
 Yes.  
 In `Settings > Backup`, you can use:
 
-- `Update Easy Backup` (In Preparation / planned for v2.4.0)
-- `Restore from Easy Backup` (In Preparation / planned for v2.4.0)
+- `Update Easy Backup`
+- `Restore from Easy Backup`
 - `Export Backup`
 - `Restore from File`
 
-`Easy Backup` (In Preparation / planned for v2.4.0) is the iCloud-based save and restore option. File-based backup remains available as well.
+`Easy Backup` is the iCloud-based save and restore option. File-based backup remains available as well.
 
 ### Can I use the app immediately after restoring?
 After restoring, close the app once and open it again.  
@@ -161,7 +168,7 @@ You can mainly change the following:
 - Default Template
 - Open Previous Notebook
 - Memorization Feature
-- Problem Solver Assistant (In Preparation / planned for v2.4.0)
+- Problem Solver Assistant (Premium only)
 - Subject Name (`Subject` / `Notebook` / `Group` / `Category`)
 - Require Biometrics to Remove Protection
 - Left-Handed Mode

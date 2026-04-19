@@ -20,7 +20,7 @@ Create a new subject from the `+` button on Home.
 
 - Subject name
 - Paper style: ruled / grid / plain
-- `Paper Color` (In Preparation / planned for v2.4.0)
+- `Paper Color`
 - Cover color
 
 The subject is added to Home.
@@ -95,7 +95,9 @@ The `More` menu includes the following actions:
 - `Attach Photo as Document`
 - `Attach PDF`
 - `Export PDF`
-- `Create Practice Set` (In Preparation / planned for v2.4.0)
+- `Create Practice Set` (Premium only)
+
+`Create Practice Set` is part of the study assistant features. It is Premium-only, and new subscriptions are temporarily unavailable while quality is being improved.
 
 ---
 
@@ -144,13 +146,14 @@ When enabled, `Memory Tools` appears in the floating toolbar on the note screen.
 
 ---
 
-## 9. Use `Problem Solver Assistant` (In Preparation / planned for v2.4.0)
+## 9. Use `Problem Solver Assistant` (Premium only)
 
-This feature is in preparation and planned for v2.4.0.
+`Problem Solver Assistant` is a study assistant feature added in v2.4.0.  
+It is Premium-only, and new subscriptions are temporarily unavailable while quality is being improved. Only users who already have Premium can use it.
 
-First, turn on `Problem Solver Assistant` (In Preparation / planned for v2.4.0) in `Settings > Study Support`.
+First, turn on `Problem Solver Assistant` in `Settings > Study Support`.
 
-Then choose `Problem Solver Assistant` (In Preparation / planned for v2.4.0) from the floating toolbar on the note screen.
+Then choose `Problem Solver Assistant` from the floating toolbar on the note screen.
 
 - Circle the problem with a closed outline
 - Review the selected range
@@ -160,14 +163,15 @@ It supports formula questions and short questions inside PDFs or images. Long re
 
 ---
 
-## 10. Use `Create Practice Set` (In Preparation / planned for v2.4.0)
+## 10. Use `Create Practice Set` (Premium only)
 
-This feature is in preparation and planned for v2.4.0.
+`Create Practice Set` is a study assistant feature added in v2.4.0.  
+It is Premium-only, and new subscriptions are temporarily unavailable while quality is being improved. Only users who already have Premium can use it.
 
-Choose `Create Practice Set` (In Preparation / planned for v2.4.0) from `More`.
+Choose `Create Practice Set` from `More`.
 
 - Use `Choose Pages` to pick the target pages
-- Start with `Create Practice Set` (In Preparation / planned for v2.4.0)
+- Start with `Create Practice Set`
 - Review candidates with `Add` and `Reject`
 - Save them with `Save Practice Set`
 
@@ -193,7 +197,7 @@ In `Settings`, you can mainly change:
 - `Default Template`
 - `Open Previous Notebook`
 - `Memorization Feature`
-- `Problem Solver Assistant` (In Preparation / planned for v2.4.0)
+- `Problem Solver Assistant` (Premium only)
 - `Subject Name`
 - `Require Biometrics to Remove Protection`
 - `Left-Handed Mode`
@@ -203,8 +207,8 @@ In `Settings`, you can mainly change:
 
 In `Settings > Backup`, you can use:
 
-- `Update Easy Backup` (In Preparation / planned for v2.4.0)
-- `Restore from Easy Backup` (In Preparation / planned for v2.4.0)
+- `Update Easy Backup`
+- `Restore from Easy Backup`
 - `Export Backup`
 - `Restore from File`
 

@@ -20,7 +20,7 @@ Erstelle über die Schaltfläche `+` auf Home ein neues Fach.
 
 - Fachname
 - Papierstil: liniert / kariert / blanko
-- `Papierfarbe` (In Vorbereitung / fuer v2.4.0 geplant)
+- `Papierfarbe`
 - Coverfarbe
 
 Das Fach wird auf Home hinzugefügt.  
@@ -95,7 +95,9 @@ Das Menü `Mehr` enthält die folgenden Aktionen:
 - `Foto als Dokument anheften`
 - `PDF einfügen`
 - `PDF exportieren`
-- `Aufgabenset erstellen` (In Vorbereitung / fuer v2.4.0 geplant)
+- `Aufgabenset erstellen` (nur Premium)
+
+`Aufgabenset erstellen` gehört zu den Lernhilfe-Funktionen. Es ist nur für Premium verfügbar, und neue Abonnements sind vorübergehend gestoppt, während die Qualität verbessert wird.
 
 ---
 
@@ -144,13 +146,14 @@ Danach erscheinen `Lernwerkzeuge` in der schwebenden Werkzeugleiste der Notizans
 
 ---
 
-## 9. `Aufgabenassistent` verwenden (In Vorbereitung / fuer v2.4.0 geplant)
+## 9. `Aufgabenassistent` verwenden (nur Premium)
 
-Diese Funktion ist in Vorbereitung und fuer v2.4.0 geplant.
+`Aufgabenassistent` ist eine mit v2.4.0 hinzugefügte Lernhilfe-Funktion.  
+Er ist nur für Premium verfügbar, und neue Abonnements sind vorübergehend gestoppt, während die Qualität verbessert wird. Nur Nutzer mit bestehendem Premium können ihn verwenden.
 
-Aktiviere zuerst `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant) unter `Einstellungen > Lernhilfe`.
+Aktiviere zuerst `Aufgabenassistent` unter `Einstellungen > Lernhilfe`.
 
-Dann wähle `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant) in der schwebenden Werkzeugleiste der Notizansicht.
+Dann wähle `Aufgabenassistent` in der schwebenden Werkzeugleiste der Notizansicht.
 
 - markiere die Aufgabe mit einem geschlossenen Umriss
 - prüfe den ausgewählten Bereich
@@ -160,14 +163,15 @@ Unterstützt werden Formelaufgaben und kurze Fragen in PDFs oder Bildern. Lange 
 
 ---
 
-## 10. `Aufgabenset erstellen` verwenden (In Vorbereitung / fuer v2.4.0 geplant)
+## 10. `Aufgabenset erstellen` verwenden (nur Premium)
 
-Diese Funktion ist in Vorbereitung und fuer v2.4.0 geplant.
+`Aufgabenset erstellen` ist eine mit v2.4.0 hinzugefügte Lernhilfe-Funktion.  
+Es ist nur für Premium verfügbar, und neue Abonnements sind vorübergehend gestoppt, während die Qualität verbessert wird. Nur Nutzer mit bestehendem Premium können es verwenden.
 
-Wähle `Aufgabenset erstellen` (In Vorbereitung / fuer v2.4.0 geplant) aus `Mehr`.
+Wähle `Aufgabenset erstellen` aus `Mehr`.
 
 - nutze `Seiten auswählen`, um die Zielseiten festzulegen
-- starte mit `Aufgabenset erstellen` (In Vorbereitung / fuer v2.4.0 geplant)
+- starte mit `Aufgabenset erstellen`
 - prüfe Vorschläge mit `Hinzufügen` und `Verwerfen`
 - speichere mit `Aufgabenset speichern`
 
@@ -193,7 +197,7 @@ In `Einstellungen` kannst du vor allem Folgendes ändern:
 - `Standardvorlage`
 - `Vorheriges Heft öffnen`
 - `Lernfunktion`
-- `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant)
+- `Aufgabenassistent` (nur Premium)
 - `Fachbezeichnung`
 - Biometrie zum Aufheben des Schutzes
 - Linkshänder-Modus
@@ -203,8 +207,8 @@ In `Einstellungen` kannst du vor allem Folgendes ändern:
 
 In `Einstellungen > Backup` kannst du Folgendes verwenden:
 
-- `Easy Backup aktualisieren` (In Vorbereitung / fuer v2.4.0 geplant)
-- `Aus Easy Backup wiederherstellen` (In Vorbereitung / fuer v2.4.0 geplant)
+- `Easy Backup aktualisieren`
+- `Aus Easy Backup wiederherstellen`
 - `Backup exportieren`
 - `Aus Datei wiederherstellen`
 

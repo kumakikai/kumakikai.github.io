@@ -26,26 +26,42 @@ App data is stored on the user's device.
 When the backup feature is used, the backup file is saved to the location selected by the user.  
 If you use an external storage destination such as iCloud Drive, please review the policy of that service provider.
 
-## 4. Advertising and analytics tools
+## 4. Study assistant features
+
+When users use study assistant features such as `Problem Solver Assistant` and `Create Practice Set`, selected note content, handwriting, images, or parts of PDFs may be sent to external AI services to generate answers or practice question candidates.
+
+This information is processed only to the extent necessary to provide these features.
+
+If your notes contain personal or sensitive information, please use these features at your own discretion.
+
+## 5. Premium features and purchase information
+
+To confirm or restore access to Premium features, purchase information and transaction status may be handled by app stores such as the App Store.
+
+Please check the privacy policy of each store or payment provider for details on how such information is handled.
+
+## 6. Advertising and analytics tools
 
 At this time, the App does not use advertising SDKs or analytics SDKs.
 
 If such tools are used in the future, that will be stated in this policy or in an in-app notice.
 
-## 5. Provision of personal information to third parties
+## 7. Provision of personal information to third parties
 
 Except where required by law, the App does not provide users' personal information to third parties.
 
-## 6. Changes to this privacy policy
+However, external AI services and app stores may handle information to the extent required to provide study assistant features and purchase processing.
+
+## 8. Changes to this privacy policy
 
 This policy may be updated as necessary.
 
 The revised privacy policy takes effect when it is posted on this website.
 
-## 7. Contact
+## 9. Contact
 
 For inquiries about this policy, please contact:
 
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-Last updated: 2026-03-13
+Last updated: 2026-04-19

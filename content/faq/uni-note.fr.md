@@ -38,7 +38,7 @@ Vous pouvez choisir les elements suivants :
 
 - nom de la matiere
 - type de papier
-- `Couleur du papier` (En preparation / prevu pour la v2.4.0)
+- `Couleur du papier`
 - couleur de couverture
 
 ### Puis-je separer plusieurs notes dans une meme matiere ?
@@ -106,16 +106,23 @@ Si vous activez `Fonction de memorisation` dans `Reglages > Memorisation`, `Outi
 Non.  
 La modification est desactivee tant que le masque de memorisation est ferme.
 
-### Comment utiliser `Assistant de resolution` ? (En preparation / prevu pour la v2.4.0)
-Cette fonction est en preparation et prevue pour la v2.4.0.  
-Activez d'abord `Assistant de resolution` (En preparation / prevu pour la v2.4.0) dans `Reglages > Aide a l'etude`.  
-Ensuite, choisissez `Assistant de resolution` (En preparation / prevu pour la v2.4.0) dans la barre d'outils flottante, entourez la zone du probleme avec un contour ferme, puis executez **Resoudre**.
+### Qui peut utiliser les fonctions d'aide a l'etude ?
+Les fonctions d'aide a l'etude ajoutees dans la v2.4.0 (`Assistant de resolution` et `Creer un lot d'exercices`) sont actuellement reservees aux utilisateurs Premium.  
+Les nouveaux abonnements a l'aide a l'etude sont temporairement suspendus pendant l'amelioration de la qualite.  
+Pour le moment, seuls les utilisateurs ayant deja Premium peuvent les utiliser. La vente reprendra lorsque la qualite aura atteint le niveau souhaite.
+
+### Comment utiliser `Assistant de resolution` ?
+`Assistant de resolution` est une fonction d'aide a l'etude ajoutee dans la v2.4.0.  
+Elle est reservee a Premium. Comme les nouveaux abonnements sont actuellement suspendus, seuls les utilisateurs ayant deja Premium peuvent l'utiliser.  
+Activez d'abord `Assistant de resolution` dans `Reglages > Aide a l'etude`.  
+Ensuite, choisissez `Assistant de resolution` dans la barre d'outils flottante, entourez la zone du probleme avec un contour ferme, puis executez **Resoudre**.
 
 La fonction prend en charge les problemes de calcul et les questions courtes dans les PDF ou les images. Les longs textes, les reponses libres et les questions tres dependantes de schemas ne sont pas pris en charge.
 
-### Comment utiliser `Creer un lot d'exercices` ? (En preparation / prevu pour la v2.4.0)
-Cette fonction est en preparation et prevue pour la v2.4.0.  
-Ouvrez `Plus > Creer un lot d'exercices` (En preparation / prevu pour la v2.4.0).
+### Comment utiliser `Creer un lot d'exercices` ?
+`Creer un lot d'exercices` est une fonction d'aide a l'etude ajoutee dans la v2.4.0.  
+Elle est reservee a Premium. Comme les nouveaux abonnements sont actuellement suspendus, seuls les utilisateurs ayant deja Premium peuvent l'utiliser.  
+Ouvrez `Plus > Creer un lot d'exercices`.
 
 - Choisissez les pages avec **Choisir les pages**
 - Lancez **Creer le lot**
@@ -139,12 +146,12 @@ Si necessaire, utilisez `Reglages > Sauvegarde`.
 Oui.  
 Dans `Reglages > Sauvegarde`, vous pouvez utiliser :
 
-- `Mettre a jour la sauvegarde facile` (En preparation / prevu pour la v2.4.0)
-- `Restaurer depuis la sauvegarde facile` (En preparation / prevu pour la v2.4.0)
+- `Mettre a jour la sauvegarde facile`
+- `Restaurer depuis la sauvegarde facile`
 - `Exporter la sauvegarde`
 - `Restaurer depuis un fichier`
 
-`Sauvegarde facile` (En preparation / prevu pour la v2.4.0) utilise iCloud. La sauvegarde basee sur des fichiers reste egalement disponible.
+`Sauvegarde facile` utilise iCloud. La sauvegarde basee sur des fichiers reste egalement disponible.
 
 ### Puis-je utiliser l'application immediatement apres une restauration ?
 Apres la restauration, fermez l'application une fois puis rouvrez-la.  
@@ -160,7 +167,7 @@ Vous pouvez principalement modifier les elements suivants :
 - `Modele des nouvelles notes`
 - `Ouvrir la derniere note`
 - `Fonction de memorisation`
-- `Assistant de resolution` (En preparation / prevu pour la v2.4.0)
+- `Assistant de resolution` (Premium uniquement)
 - `Libelle des matieres` (`matiere` / `cahier` / `groupe` / `categorie`)
 - biometrie pour retirer la protection
 - mode gaucher

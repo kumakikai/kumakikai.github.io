@@ -38,7 +38,7 @@ Du kannst Folgendes auswählen:
 
 - Fachname
 - Papierstil
-- `Papierfarbe` (In Vorbereitung / fuer v2.4.0 geplant)
+- `Papierfarbe`
 - Coverfarbe
 
 ### Kann ich innerhalb desselben Fachs mehrere Notizen anlegen?
@@ -106,19 +106,26 @@ Wenn du `Lernfunktion` in `Einstellungen > Lernen` aktivierst, werden `Lernwerkz
 Nein.  
 Solange die Lernmaske geschlossen ist, ist das Bearbeiten deaktiviert.
 
-### Wie verwende ich `Aufgabenassistent`? (In Vorbereitung / fuer v2.4.0 geplant)
-Diese Funktion ist in Vorbereitung und fuer v2.4.0 geplant.  
-Aktiviere zuerst `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant) in `Einstellungen > Lernhilfe`.  
-Wähle danach `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant) in der schwebenden Werkzeugleiste, markiere den Aufgabenbereich mit einem geschlossenen Umriss und tippe auf **Lösen**.
+### Wer kann die Lernhilfe-Funktionen verwenden?
+Die in v2.4.0 hinzugefügten Lernhilfe-Funktionen (`Aufgabenassistent` und `Aufgabenset erstellen`) sind derzeit nur für Premium verfügbar.  
+Neue Abonnements für die Lernhilfe sind vorübergehend gestoppt, während die Qualität verbessert wird.  
+Derzeit können sie daher nur Nutzer verwenden, die Premium bereits haben. Der Verkauf wird wieder aufgenommen, sobald die Qualität das gewünschte Niveau erreicht.
+
+### Wie verwende ich `Aufgabenassistent`?
+`Aufgabenassistent` ist eine mit v2.4.0 hinzugefügte Lernhilfe-Funktion.  
+Er ist nur für Premium verfügbar. Da neue Abonnements derzeit gestoppt sind, können ihn nur Nutzer verwenden, die Premium bereits haben.  
+Aktiviere zuerst `Aufgabenassistent` in `Einstellungen > Lernhilfe`.  
+Wähle danach `Aufgabenassistent` in der schwebenden Werkzeugleiste, markiere den Aufgabenbereich mit einem geschlossenen Umriss und tippe auf **Lösen**.
 
 Unterstützt werden Formelaufgaben und kurze Fragen in PDFs oder Bildern. Längere Lesetexte, freie Antworten und stark diagrammabhängige Aufgaben werden nicht unterstützt.
 
-### Wie verwende ich `Aufgabenset erstellen`? (In Vorbereitung / fuer v2.4.0 geplant)
-Diese Funktion ist in Vorbereitung und fuer v2.4.0 geplant.  
-Öffne `Mehr > Aufgabenset erstellen` (In Vorbereitung / fuer v2.4.0 geplant).
+### Wie verwende ich `Aufgabenset erstellen`?
+`Aufgabenset erstellen` ist eine mit v2.4.0 hinzugefügte Lernhilfe-Funktion.  
+Es ist nur für Premium verfügbar. Da neue Abonnements derzeit gestoppt sind, können es nur Nutzer verwenden, die Premium bereits haben.  
+Öffne `Mehr > Aufgabenset erstellen`.
 
 - Wähle die Seiten mit **Seiten auswählen**
-- Starte mit **Aufgabenset erstellen** (In Vorbereitung / fuer v2.4.0 geplant)
+- Starte mit **Aufgabenset erstellen**
 - Prüfe Vorschläge mit **Hinzufügen** und **Verwerfen**
 - Speichere mit **Aufgabenset speichern**
 
@@ -139,12 +146,12 @@ Falls nötig, verwende `Einstellungen > Backup`.
 Ja.  
 In `Einstellungen > Backup` kannst du Folgendes verwenden:
 
-- `Easy Backup aktualisieren` (In Vorbereitung / fuer v2.4.0 geplant)
-- `Aus Easy Backup wiederherstellen` (In Vorbereitung / fuer v2.4.0 geplant)
+- `Easy Backup aktualisieren`
+- `Aus Easy Backup wiederherstellen`
 - `Backup exportieren`
 - `Aus Datei wiederherstellen`
 
-`Easy Backup` (In Vorbereitung / fuer v2.4.0 geplant) nutzt iCloud. Die dateibasierte Sicherung bleibt ebenfalls verfügbar.
+`Easy Backup` nutzt iCloud. Die dateibasierte Sicherung bleibt ebenfalls verfügbar.
 
 ### Kann ich die App direkt nach einer Wiederherstellung verwenden?
 Schließe die App nach der Wiederherstellung einmal und öffne sie erneut.  
@@ -160,7 +167,7 @@ Du kannst hauptsächlich Folgendes ändern:
 - `Standardvorlage`
 - `Vorheriges Heft öffnen`
 - `Lernfunktion`
-- `Aufgabenassistent` (In Vorbereitung / fuer v2.4.0 geplant)
+- `Aufgabenassistent` (nur Premium)
 - `Fachbezeichnung` (`Fach` / `Heft` / `Gruppe` / `Kategorie`)
 - Biometrie zum Aufheben des Schutzes
 - Linkshänder-Modus

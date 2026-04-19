@@ -26,26 +26,42 @@ App-Daten werden auf dem Gerät des Nutzers gespeichert.
 Wenn die Backup-Funktion verwendet wird, wird die Sicherungsdatei an dem vom Nutzer gewählten Speicherort abgelegt.  
 Wenn Sie ein externes Speichermedium wie iCloud Drive verwenden, prüfen Sie bitte die Richtlinien des jeweiligen Dienstanbieters.
 
-## 4. Werbe- und Analysetools
+## 4. Lernhilfe-Funktionen
+
+Bei der Nutzung von Lernhilfe-Funktionen wie `Aufgabenassistent` und `Aufgabenset erstellen` können ausgewählte Teile von Notizen, Handschrift, Bildern oder PDFs an externe KI-Dienste gesendet werden, um Antworten oder Aufgabenvorschläge zu erzeugen.
+
+Diese Informationen werden nur im zur Bereitstellung dieser Funktionen erforderlichen Umfang verarbeitet.
+
+Wenn Ihre Notizen personenbezogene oder sensible Informationen enthalten, nutzen Sie diese Funktionen bitte nach eigenem Ermessen.
+
+## 5. Premium-Funktionen und Kaufinformationen
+
+Zur Bestätigung oder Wiederherstellung des Zugangs zu Premium-Funktionen können Kaufinformationen und Transaktionsstatus von App Stores wie dem App Store verarbeitet werden.
+
+Bitte prüfen Sie die Richtlinien des jeweiligen Stores oder Zahlungsanbieters, um zu erfahren, wie diese Informationen behandelt werden.
+
+## 6. Werbe- und Analysetools
 
 Derzeit verwendet die App keine Werbe-SDKs und keine Analyse-SDKs.
 
 Falls solche Tools künftig eingesetzt werden, wird dies in dieser Richtlinie oder in einem Hinweis innerhalb der App bekannt gegeben.
 
-## 5. Weitergabe personenbezogener Daten an Dritte
+## 7. Weitergabe personenbezogener Daten an Dritte
 
 Sofern gesetzlich nicht anders vorgeschrieben, gibt die App keine personenbezogenen Daten der Nutzer an Dritte weiter.
 
-## 6. Änderungen dieser Datenschutzerklärung
+Externe KI-Dienste und App Stores können jedoch Informationen in dem Umfang verarbeiten, der für Lernhilfe-Funktionen und die Kaufabwicklung erforderlich ist.
+
+## 8. Änderungen dieser Datenschutzerklärung
 
 Diese Richtlinie kann bei Bedarf geändert werden.
 
 Die geänderte Datenschutzerklärung tritt in Kraft, sobald sie auf dieser Website veröffentlicht wird.
 
-## 7. Kontakt
+## 9. Kontakt
 
 Bei Fragen zu dieser Richtlinie kontaktieren Sie bitte:
 
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-Letzte Aktualisierung: 2026-03-13
+Letzte Aktualisierung: 2026-04-19

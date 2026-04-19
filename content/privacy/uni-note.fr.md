@@ -26,26 +26,42 @@ Les données de l'application sont stockées sur l'appareil de l'utilisateur.
 Lorsque la fonction de sauvegarde est utilisée, le fichier de sauvegarde est enregistré à l'emplacement choisi par l'utilisateur.  
 Si vous utilisez un service de stockage externe comme iCloud Drive, veuillez consulter la politique de ce fournisseur.
 
-## 4. Outils publicitaires et analytiques
+## 4. Fonctions d'aide a l'etude
+
+Lorsque vous utilisez des fonctions d'aide a l'etude telles que `Assistant de resolution` et `Creer un lot d'exercices`, une partie de la note selectionnee, du contenu manuscrit, des images ou des PDF peut etre envoyee a des services d'IA externes afin de generer des reponses ou des propositions de questions.
+
+Ces informations sont traitees uniquement dans la mesure necessaire pour fournir ces fonctions.
+
+Si vos notes contiennent des informations personnelles ou sensibles, veuillez utiliser ces fonctions a votre discretion.
+
+## 5. Fonctions Premium et informations d'achat
+
+Pour confirmer ou restaurer l'acces aux fonctions Premium, les informations d'achat et l'etat des transactions peuvent etre traites par des boutiques d'applications comme l'App Store.
+
+Veuillez consulter la politique de confidentialite de chaque boutique ou fournisseur de paiement pour savoir comment ces informations sont traitees.
+
+## 6. Outils publicitaires et analytiques
 
 À ce jour, l'application n'utilise ni SDK publicitaire ni SDK analytique.
 
 Si de tels outils sont utilisés à l'avenir, cela sera indiqué dans cette politique ou dans une notification intégrée à l'application.
 
-## 5. Communication des données personnelles à des tiers
+## 7. Communication des donnees personnelles a des tiers
 
-Sauf obligation légale, l'application ne communique pas les données personnelles des utilisateurs à des tiers.
+Sauf obligation legale, l'application ne communique pas les donnees personnelles des utilisateurs a des tiers.
 
-## 6. Modifications de cette politique de confidentialité
+Cependant, des services d'IA externes et des boutiques d'applications peuvent traiter des informations dans la mesure necessaire a la fourniture des fonctions d'aide a l'etude et au traitement des achats.
 
-Cette politique peut être mise à jour si nécessaire.
+## 8. Modifications de cette politique de confidentialite
 
-La politique de confidentialité révisée prend effet lorsqu'elle est publiée sur ce site.
+Cette politique peut etre mise a jour si necessaire.
 
-## 7. Contact
+La politique de confidentialite revisee prend effet lorsqu'elle est publiee sur ce site.
+
+## 9. Contact
 
 Pour toute question concernant cette politique, veuillez contacter :
 
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-Dernière mise à jour : 2026-03-13
+Dernière mise à jour : 2026-04-19
