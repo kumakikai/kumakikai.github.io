@@ -12,6 +12,22 @@ Sie ist auf das Schreiben mit dem Apple Pencil ausgelegt und organisiert Notizen
 ### Welche Geräte werden unterstützt?
 Nur iPad.
 
+### Kann ich Uni:Note mit `Split View` oder `Slide Over` verwenden?
+Ja.  
+Uni:Note unterstützt iPad-Mehrfensteransichten wie `Split View` und `Slide Over`.
+
+Allgemein öffnest du zuerst Uni:Note, blendest dann das Dock ein und ziehst eine andere App oder Uni:Note aus dem Dock an den Rand für `Split View` oder als schwebendes Fenster für `Slide Over`.
+
+Die genaue Oberfläche und die Bezeichnungen können je nach iPadOS-Version leicht abweichen.
+
+### Kann ich zwei Uni:Note-Fenster gleichzeitig öffnen?
+Ja.  
+Uni:Note unterstützt mehrere Fenster.
+
+Während bereits ein Uni:Note-Fenster geöffnet ist, blende das Dock ein, halte das Uni:Note-Symbol gedrückt und wähle den Eintrag zum Öffnen eines neuen Fensters.
+
+Danach kannst du das zweite Fenster nebeneinander in `Split View` oder schwebend in `Slide Over` verwenden.
+
 ### Ist ein Apple Pencil erforderlich?
 Die Handschriftfunktion ist für den Apple Pencil ausgelegt.  
 Fingerbedienung wird hauptsächlich für das Scrollen und das Bewegen von Fotos verwendet.

@@ -11,6 +11,22 @@ Apple Pencilで書くことを中心にして、教科ごとにノートを分�
 ### 対応端末は？
 iPad専用です。
 
+### `Split View` や `Slide Over` で使えますか？
+はい。  
+Uni:Note は iPad のマルチウィンドウ表示（`Split View` / `Slide Over`）に対応しています。
+
+一般的には、まず Uni:Note を開いた状態で Dock を表示し、Dock から別アプリまたは Uni:Note を画面の端へドラッグすると `Split View`、重ねる形で置くと `Slide Over` にできます。
+
+細かな見た目や表示名は、iPadOS のバージョンによって少し異なる場合があります。
+
+### Uni:Note を2つ同時に開けますか？
+はい。  
+Uni:Note は複数ウインドウに対応しています。
+
+1つ目の Uni:Note を開いた状態で Dock を表示し、Dock の Uni:Note アイコンを長押しして、新しいウインドウを開く項目を選びます。
+
+2つ目のウインドウを開いた後は、左右に並べれば `Split View`、重ねれば `Slide Over` として使えます。
+
 ### Apple Pencilは必要ですか？
 手書きは Apple Pencil 前提です。  
 指は主にスクロールや写真の操作に使います。

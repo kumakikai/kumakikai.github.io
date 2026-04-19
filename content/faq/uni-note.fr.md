@@ -12,6 +12,22 @@ Elle est concue pour l'ecriture avec l'Apple Pencil et l'organisation des notes 
 ### Quels appareils sont pris en charge ?
 iPad uniquement.
 
+### Puis-je utiliser Uni:Note avec `Split View` ou `Slide Over` ?
+Oui.  
+Uni:Note prend en charge les modes multifenetres de l'iPad comme `Split View` et `Slide Over`.
+
+En regle generale, ouvrez d'abord Uni:Note, affichez le Dock, puis faites glisser une autre app ou Uni:Note depuis le Dock vers le bord pour `Split View`, ou en fenetre flottante pour `Slide Over`.
+
+L'interface exacte et les libelles peuvent varier legerement selon la version d'iPadOS.
+
+### Puis-je ouvrir deux fenetres Uni:Note en meme temps ?
+Oui.  
+Uni:Note prend en charge plusieurs fenetres.
+
+Avec une premiere fenetre deja ouverte, affichez le Dock, maintenez l'icone Uni:Note et choisissez l'option pour ouvrir une nouvelle fenetre.
+
+Une fois la seconde fenetre ouverte, vous pouvez l'utiliser cote a cote en `Split View` ou en fenetre flottante avec `Slide Over`.
+
 ### L'Apple Pencil est-il necessaire ?
 L'ecriture manuscrite est pensee pour l'Apple Pencil.  
 Le doigt sert surtout au defilement et au deplacement des photos.

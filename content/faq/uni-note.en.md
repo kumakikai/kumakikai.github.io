@@ -12,6 +12,22 @@ It is designed around writing with Apple Pencil and organizing notes by subject.
 ### Which devices are supported?
 iPad only.
 
+### Can I use it with `Split View` or `Slide Over`?
+Yes.  
+Uni:Note supports iPad multiwindow modes such as `Split View` and `Slide Over`.
+
+A general way is to open Uni:Note first, show the Dock, then drag another app or Uni:Note from the Dock to the side for `Split View`, or place it as a floating panel for `Slide Over`.
+
+The exact UI and labels may differ slightly depending on your iPadOS version.
+
+### Can I open two Uni:Note windows at the same time?
+Yes.  
+Uni:Note supports multiple windows.
+
+With one Uni:Note window already open, show the Dock, press and hold the Uni:Note icon, and choose the option for opening a new window.
+
+After opening the second window, place it side by side for `Split View` or float it as `Slide Over`.
+
 ### Is Apple Pencil required?
 Handwriting is designed for Apple Pencil.  
 Finger input is mainly used for scrolling and moving photos.

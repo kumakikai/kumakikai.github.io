@@ -12,6 +12,22 @@ description: "Uni:Note 常見問題。"
 ### 支援哪些裝置？
 僅支援 iPad。
 
+### 可以用 `Split View` 或 `Slide Over` 嗎？
+可以。  
+Uni:Note 支援 iPad 的多視窗顯示（`Split View` / `Slide Over`）。
+
+一般來說，先開啟 Uni:Note，叫出 Dock，再把另一個 App 或 Uni:Note 從 Dock 拖到畫面邊緣可用 `Split View`，重疊浮動顯示則可用 `Slide Over`。
+
+實際介面與名稱會因 iPadOS 版本不同而略有差異。
+
+### 可以同時開啟兩個 Uni:Note 視窗嗎？
+可以。  
+Uni:Note 支援多視窗。
+
+先開啟一個 Uni:Note 視窗，叫出 Dock，長按 Dock 裡的 Uni:Note 圖示，然後選擇開啟新視窗的項目。
+
+開啟第二個視窗後，可並排成 `Split View`，也可以重疊為 `Slide Over`。
+
 ### 一定要有 Apple Pencil 嗎？
 手寫功能以 Apple Pencil 為前提設計。  
 手指操作主要用於捲動與移動照片。
