@@ -14,6 +14,21 @@ Environnement pris en charge :
 
 ---
 
+## Utiliser `Split View`, `Slide Over` et deux volets
+
+Uni:Note prend en charge l'affichage multifenetres de l'iPad.
+
+- Ouvrez d'abord Uni:Note puis affichez le Dock
+- Faites glisser une autre app ou Uni:Note vers le bord de l'ecran pour `Split View`
+- Placez une autre app ou Uni:Note en fenetre flottante pour `Slide Over`
+
+Si vous voulez utiliser deux fenetres Uni:Note en meme temps, ouvrez d'abord la premiere, maintenez ensuite l'icone Uni:Note dans le Dock et choisissez l'option pour ouvrir une nouvelle fenetre.  
+Une fois la seconde fenetre ouverte, vous pouvez la placer cote a cote pour un `Split View` a deux volets, ou en fenetre flottante avec `Slide Over`.
+
+L'interface exacte et les libelles peuvent varier legerement selon la version d'iPadOS.
+
+---
+
 ## 1. Creer une matiere sur l'accueil
 
 Creez une nouvelle matiere depuis le bouton `+` de l'accueil.

@@ -14,6 +14,21 @@ Unterstützte Nutzung:
 
 ---
 
+## `Split View`, `Slide Over` und zwei Bereiche verwenden
+
+Uni:Note unterstützt die iPad-Mehrfensteranzeige.
+
+- Öffne zuerst Uni:Note und blende das Dock ein
+- Ziehe eine andere App oder Uni:Note an den Rand des Bildschirms für `Split View`
+- Lege eine andere App oder Uni:Note als schwebendes Fenster für `Slide Over` ab
+
+Wenn du zwei Uni:Note-Fenster gleichzeitig verwenden willst, öffne zuerst das erste Fenster, halte dann das Uni:Note-Symbol im Dock gedrückt und wähle den Eintrag zum Öffnen eines neuen Fensters.  
+Nach dem Öffnen des zweiten Fensters kannst du es nebeneinander als zweibereichiges `Split View` oder schwebend als `Slide Over` verwenden.
+
+Die genaue Oberfläche und die Bezeichnungen können je nach iPadOS-Version leicht abweichen.
+
+---
+
 ## 1. Ein Fach auf Home erstellen
 
 Erstelle über die Schaltfläche `+` auf Home ein neues Fach.

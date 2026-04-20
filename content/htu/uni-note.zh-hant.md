@@ -14,6 +14,21 @@ Uni:Note 是一款為 Apple Pencil 手寫體驗設計的 iPad 筆記應用程式
 
 ---
 
+## 用 `Split View`、`Slide Over` 與 2 個窗格來使用
+
+Uni:Note 支援 iPad 的多視窗顯示。
+
+- 先開啟 Uni:Note，然後叫出 Dock
+- 從 Dock 把另一個 App 或 Uni:Note 拖到畫面邊緣可用 `Split View`
+- 從 Dock 把另一個 App 或 Uni:Note 以浮動方式重疊可用 `Slide Over`
+
+如果你想同時使用兩個 Uni:Note 視窗，請先開啟第一個視窗，再長按 Dock 裡的 Uni:Note 圖示，然後選擇開啟新視窗的項目。  
+開啟第二個視窗後，可左右並排成 2 個窗格的 `Split View`，也可以重疊為 `Slide Over`。
+
+實際介面與名稱會因 iPadOS 版本不同而略有差異。
+
+---
+
 ## 1. 在首頁建立科目
 
 從首頁的 `+` 按鈕建立新科目。

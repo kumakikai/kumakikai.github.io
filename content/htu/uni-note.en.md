@@ -14,6 +14,21 @@ Supported setup:
 
 ---
 
+## Use `Split View`, `Slide Over`, and two panes
+
+Uni:Note supports iPad multiwindow display.
+
+- Open Uni:Note first and show the Dock
+- Drag another app or Uni:Note to the side of the screen for `Split View`
+- Place another app or Uni:Note as a floating panel for `Slide Over`
+
+If you want to use two Uni:Note windows at the same time, open the first one, press and hold the Uni:Note icon in the Dock, and choose the option for opening a new window.  
+After opening the second window, you can place it side by side for a two-pane `Split View`, or float it as `Slide Over`.
+
+The exact UI and labels may differ slightly depending on your iPadOS version.
+
+---
+
 ## 1. Create a subject on Home
 
 Create a new subject from the `+` button on Home.

@@ -14,6 +14,21 @@ Uni:Note는 Apple Pencil 손글씨에 맞춰 설계된 iPad 노트 앱입니다.
 
 ---
 
+## `Split View` / `Slide Over` / 2페인으로 사용합니다
+
+Uni:Note는 iPad의 멀티윈도우 표시를 지원합니다.
+
+- 먼저 Uni:Note를 연 상태에서 Dock을 표시합니다
+- Dock에서 다른 앱이나 Uni:Note를 화면 가장자리로 끌면 `Split View`
+- Dock에서 다른 앱이나 Uni:Note를 겹쳐 놓으면 `Slide Over`
+
+Uni:Note를 두 개 동시에 쓰고 싶다면, 먼저 첫 번째 창을 연 상태에서 Dock의 Uni:Note 아이콘을 길게 누르고 새 윈도우를 여는 항목을 선택합니다.  
+두 번째 창을 연 뒤에는 나란히 두어 2페인의 `Split View`, 겹쳐 띄워 `Slide Over`로 사용할 수 있습니다.
+
+세부 UI나 표시 이름은 iPadOS 버전에 따라 조금 다를 수 있습니다.
+
+---
+
 ## 1. 홈에서 과목을 만듭니다
 
 홈의 `+` 버튼에서 새 과목을 만듭니다.

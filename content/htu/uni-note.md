@@ -13,6 +13,21 @@ Uni:Note（大学ノート）は、**Apple Pencilで手書きするための iPa
 
 ---
 
+## `Split View` / `Slide Over` / 2ペインで使う
+
+Uni:Note は iPad のマルチウィンドウ表示に対応しています。
+
+- まず Uni:Note を開いた状態で Dock を表示します
+- Dock から別アプリまたは Uni:Note を画面の端へドラッグすると `Split View`
+- Dock から別アプリまたは Uni:Note を重ねる形で置くと `Slide Over`
+
+Uni:Note を2つ同時に使いたい場合は、1つ目を開いた状態で Dock の Uni:Note アイコンを長押しし、新しいウインドウを開く項目を選びます。  
+2つ目のウインドウを開いた後は、左右に並べれば 2ペインの `Split View`、重ねれば `Slide Over` として使えます。
+
+操作名や見た目は、iPadOS のバージョンによって少し異なる場合があります。
+
+---
+
 ## 1. ホームで教科を作る
 
 ホーム右下の **＋** から新しい教科を作成します。
