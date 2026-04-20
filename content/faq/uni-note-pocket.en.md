@@ -9,7 +9,7 @@ aliases:
 
 ### What kind of app is Uni:Note Pocket?
 Uni:Note Pocket is a companion app for the iPad app **Uni:Note**.  
-It lets you **Import** backup data created in Uni:Note and review notes, pages, and `Question Sets` (In Preparation / planned for v1.1.0) on iPhone in read-only mode.
+It lets you load backup data created in Uni:Note and review notes, pages, and `Question Sets` on iPhone in read-only mode.
 
 ### Can I use Uni:Note Pocket by itself?
 No.  
@@ -26,14 +26,14 @@ No.
 ## Import and backups
 
 ### What should I do first?
-Use **Import** in the top right and choose a backup from Uni:Note.  
-If this iPhone already has a Uni:Note `Easy Backup` (In Preparation / planned for v1.1.0), the app may also ask whether you want to load it right away.
+Use the import icon in the bottom right of Home and choose a backup from Uni:Note.  
+If this iPhone already has a Uni:Note `Easy Backup`, the app may also ask whether you want to load it right away.
 
 ### What can I import?
 You can import:
 
 - backup zip files created in Uni:Note
-- Uni:Note `Easy Backup` found on this iPhone (In Preparation / planned for v1.1.0)
+- Uni:Note `Easy Backup` found on this iPhone
 
 ### Does importing change the original backup file?
 No.  
@@ -47,15 +47,13 @@ If you already have imported data, the app keeps it and shows **Import Failed** 
 Not at this time.  
 Uni:Note Pocket is designed around reviewing backup data.
 
-### What is `Auto Load on Launch`? (In Preparation / planned for v1.1.0)
-This feature is in preparation and planned for v1.1.0.  
-It is an option in `Settings > Easy Backup` (In Preparation / planned for v1.1.0).  
-When enabled, the app loads automatically on launch only when a usable Uni:Note `Easy Backup` (In Preparation / planned for v1.1.0) is available on this iPhone.
+### What is `Auto Load on Launch`?
+It is an option in `Settings > Easy Backup`.  
+When enabled, the app loads automatically on launch only when a usable Uni:Note `Easy Backup` is available on this iPhone.
 
-### What is `Load Manually`? (In Preparation / planned for v1.1.0)
-This feature is in preparation and planned for v1.1.0.  
-It is the action in `Settings > Easy Backup > Load Manually` (In Preparation / planned for v1.1.0).  
-Use it to load the Uni:Note `Easy Backup` (In Preparation / planned for v1.1.0) currently detected on this iPhone.
+### What is `Load Manually`?
+It is the action in `Settings > Easy Backup > Load Manually`.  
+Use it to load the Uni:Note `Easy Backup` currently detected on this iPhone.
 
 ---
 
@@ -64,11 +62,10 @@ Use it to load the Uni:Note `Easy Backup` (In Preparation / planned for v1.1.0) 
 ### What can I do after import?
 The main functions are:
 
+- switch between **Notes / Question Sets** on Home
 - resume from **Recent Notes**
 - browse top-level subjects
-- open the **Notes** list
 - view pages
-- open **Question Sets** (In Preparation / planned for v1.1.0)
 - show or hide memorization layers
 
 ### Can I edit notes or pages?
@@ -79,10 +76,9 @@ Uni:Note Pocket is read-only.
 No.  
 Creation and editing are meant to stay in Uni:Note.
 
-### Can I review `Question Sets`? (In Preparation / planned for v1.1.0)
-This feature is in preparation and planned for v1.1.0.  
+### Can I review `Question Sets`?
 Yes.  
-If the imported backup includes `Question Sets` (In Preparation / planned for v1.1.0) saved in Uni:Note, you can open them from **Question Sets** (In Preparation / planned for v1.1.0) on Home.
+If the imported backup includes `Question Sets` saved in Uni:Note, you can open them from **Question Sets** on Home.
 
 ### What is the memorization layer?
 It is the page-level layer you can toggle while reviewing.  
@@ -108,7 +104,7 @@ The main settings are:
 - **Resume Last Location**
 - **Prevent Horizontal Drift**
 - **Subject Name**
-- **Easy Backup** (In Preparation / planned for v1.1.0)
+- **Easy Backup**
 
 ### What does Subject Name change?
 It changes the top-level label to **Subject / Note / Group / Category**.

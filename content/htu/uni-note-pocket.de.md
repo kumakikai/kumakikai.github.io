@@ -6,7 +6,7 @@ aliases:
 ---
 
 Uni:Note Pocket ist eine **Begleit-App, um Uni:Note-Backups auf dem iPhone anzusehen**.  
-Sie ist keine Schreib-App. Ihre Aufgabe ist es, Backups zu laden und dich Notizen und `Fragensets` (In Vorbereitung / fuer v1.1.0 geplant) schreibgeschützt ansehen zu lassen.
+Sie ist keine Schreib-App. Ihre Aufgabe ist es, Backups zu laden und dich Notizen und `Fragensets` schreibgeschützt ansehen zu lassen.
 
 Voraussetzungen:
 
@@ -23,9 +23,9 @@ Dort wird erklärt, dass Uni:Note Pocket eine Begleit-App zu Uni:Note ist und ei
 
 ---
 
-## 2. Backup über `Importieren` auswählen
+## 2. Backup über das Import-Symbol auswählen
 
-Nutze oben rechts **Importieren** und wähle ein Backup-ZIP aus Uni:Note aus.
+Nutze das Import-Symbol unten rechts auf dem Home-Bildschirm und wähle ein Backup-ZIP aus Uni:Note aus.
 
 - ZIP auswählen
 - Inhalte prüfen lassen
@@ -33,29 +33,28 @@ Nutze oben rechts **Importieren** und wähle ein Backup-ZIP aus Uni:Note aus.
 
 ---
 
-## 3. `Einfaches Backup` verwenden (In Vorbereitung / fuer v1.1.0 geplant)
+## 3. `Einfaches Backup` verwenden
 
-Diese Funktion ist in Vorbereitung und fuer v1.1.0 geplant.
+Wenn dieses iPhone bereits ein `Einfaches Backup` von Uni:Note enthält, kann die App fragen, ob du es sofort laden möchtest.
 
-Wenn dieses iPhone bereits ein `Einfaches Backup` von Uni:Note (In Vorbereitung / fuer v1.1.0 geplant) enthält, kann die App fragen, ob du es sofort laden möchtest.
-
-In `Einstellungen > Einfaches Backup` (In Vorbereitung / fuer v1.1.0 geplant) kannst du Folgendes prüfen:
+In `Einstellungen > Einfaches Backup` kannst du Folgendes prüfen:
 
 - **Zuletzt aktualisiert**
-- **Beim Start automatisch laden** (In Vorbereitung / fuer v1.1.0 geplant)
-- **Manuell laden** (In Vorbereitung / fuer v1.1.0 geplant)
+- **Beim Start automatisch laden**
+- **Manuell laden**
 
-Wenn **Beim Start automatisch laden** eingeschaltet ist, lädt die App nur dann automatisch, wenn auf diesem iPhone ein nutzbares `Einfaches Backup` (In Vorbereitung / fuer v1.1.0 geplant) vorhanden ist.
+Wenn **Beim Start automatisch laden** eingeschaltet ist, lädt die App nur dann automatisch, wenn auf diesem iPhone ein nutzbares `Einfaches Backup` vorhanden ist.
 
 ---
 
-## 4. Oberste Liste, `Zuletzt verwendete Notizen` und `Fragensets` (In Vorbereitung / fuer v1.1.0 geplant) prüfen
+## 4. `Notizen`, `Zuletzt verwendete Notizen` und `Fragensets` prüfen
 
 Nach dem Import zeigt der Hauptbildschirm:
 
+- eine Umschaltung zwischen **Notizen** und **Fragensets**
 - die oberste Liste mit Notizzahlen
 - eine **Zuletzt verwendete Notizen**-Sektion zum schnellen Fortsetzen
-- eine **Fragensets**-Sektion (In Vorbereitung / fuer v1.1.0 geplant), wenn das importierte Backup gespeicherte Sets enthält
+- eine **Fragensets**-Sektion, wenn das importierte Backup gespeicherte Sets enthält
 
 Die Bezeichnung der obersten Ebene richtet sich nach **Fachbezeichnung** in den Einstellungen.
 
@@ -85,11 +84,9 @@ Die App ist darauf ausgelegt, auch größere Notizen sicher und einfach nachzule
 
 ---
 
-## 7. `Fragensets` wiederholen (In Vorbereitung / fuer v1.1.0 geplant)
+## 7. `Fragensets` wiederholen
 
-Diese Funktion ist in Vorbereitung und fuer v1.1.0 geplant.
-
-Wenn das importierte Backup in Uni:Note gespeicherte `Fragensets` (In Vorbereitung / fuer v1.1.0 geplant) enthält, kannst du sie über **Fragensets** (In Vorbereitung / fuer v1.1.0 geplant) auf Home öffnen.
+Wenn das importierte Backup in Uni:Note gespeicherte `Fragensets` enthält, kannst du sie über **Fragensets** auf Home öffnen.
 
 - gespeicherte Fragen und Antworten ansehen
 - den gespeicherten Satz an einer Stelle durchgehen
@@ -117,7 +114,7 @@ In `Einstellungen` kannst du vor allem Folgendes ändern:
 - **An letzter Stelle fortsetzen**
 - **Seitliches Verrutschen verhindern**
 - **Fachbezeichnung**
-- **Einfaches Backup** (In Vorbereitung / fuer v1.1.0 geplant)
+- **Einfaches Backup**
 
 Mit **Fachbezeichnung** stellst du die oberste Bezeichnung auf **Fach / Notiz / Gruppe / Kategorie** um.
 
@@ -125,8 +122,8 @@ Mit **Fachbezeichnung** stellst du die oberste Bezeichnung auf **Fach / Notiz / 
 
 ## 10. Später ein neueres Backup laden
 
-Wenn du in Uni:Note ein neueres Backup erstellt hast, führe in Uni:Note Pocket erneut **Importieren** aus.  
-Wenn du `Einfaches Backup` (In Vorbereitung / fuer v1.1.0 geplant) nutzt, kannst du auch `Einstellungen > Einfaches Backup > Manuell laden` verwenden.
+Wenn du in Uni:Note ein neueres Backup erstellt hast, nutze in Uni:Note Pocket erneut das Import-Symbol unten rechts auf dem Home-Bildschirm.  
+Wenn du `Einfaches Backup` nutzt, kannst du auch `Einstellungen > Einfaches Backup > Manuell laden` verwenden.
 
 Die App wechselt nur dann auf die neue Version, wenn die neue ZIP-Datei die Prüfung besteht.  
 Falls die Prüfung scheitert, bleiben die bisherigen Daten erhalten und es erscheint nur ein Fehler.
