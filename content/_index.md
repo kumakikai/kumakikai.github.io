@@ -24,7 +24,6 @@ Apple Pencil での手書きに集中するための
 ### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6760258084)
-- [更新履歴](/updates/uni-note/)
 - [使い方](/htu/uni-note/)
 - [よくある質問](/faq/uni-note/)
 - [プライバシーポリシー](/privacy/uni-note/)
@@ -45,7 +44,6 @@ Uni:Note で作成したバックアップを取り込み、
 ### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6761449487)
-- [更新履歴](/updates/uni-note-pocket/)
 - [使い方](/htu/uni-note-pocket/)
 - [よくある質問](/faq/uni-note-pocket/)
 - [プライバシーポリシー](/privacy/uni-note-pocket/)
@@ -68,7 +66,6 @@ Uni:Note で作成したバックアップを取り込み、
 
 - [App Store](https://apps.apple.com/jp/app/id6757731648)
 - Google Play（現在開発中）
-- [更新履歴](/updates/balance-calendar/)
 - [使い方](/htu/balance-calendar/)
 - [よくある質問](/faq/balance-calendar/)
 - [プライバシーポリシー](/privacy/balance-calendar/)
@@ -93,7 +90,6 @@ Uni:Note で作成したバックアップを取り込み、
 ### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6760842941)
-- [更新履歴](/updates/smokeless/)
 - [使い方](/htu/smokeless/)
 - [よくある質問](/faq/smokeless/)
 - [プライバシーポリシー](/privacy/smokeless/)
@@ -114,7 +110,6 @@ note、Qiita、Zenn、はてなブックマークなどの
 ### リンク
 
 - [App Store](https://apps.apple.com/jp/app/id6759493613)
-- [更新履歴](/updates/signal/)
 - [使い方](/htu/signal/)
 - [よくある質問](/faq/signal/)
 - [プライバシーポリシー](/privacy/signal/)
