@@ -12,6 +12,22 @@ It is designed around writing with Apple Pencil and organizing notes by subject.
 ### Which devices are supported?
 iPad only.
 
+### Are there limits on the Free plan?
+Yes.  
+In the current app, the Free plan is limited to **up to 10 subjects** and **up to 6 notes per subject**.
+
+Premium removes the subject and note count limits.
+
+### Which languages are supported?
+The app currently supports:
+
+- Japanese
+- English
+- Korean
+- German
+- Traditional Chinese
+- French
+
 ### Can I use it with `Split View` or `Slide Over`?
 Yes.  
 Uni:Note supports iPad multiwindow modes such as `Split View` and `Slide Over`.
@@ -30,7 +46,7 @@ After opening the second window, place it side by side for `Split View` or float
 
 ### Is Apple Pencil required?
 Handwriting is designed for Apple Pencil.  
-Finger input is mainly used for scrolling and moving photos.
+Finger input is mainly used for scrolling and handling photos, document photos, and PDFs.
 
 ### Do I need to log in or create an account?
 No.
@@ -53,9 +69,16 @@ If you go back without confirming anything, the in-progress first note is not ke
 You can choose the following:
 
 - `Subject name`
-- paper style
+- paper style: ruled / vertical / grid / plain
 - `Paper Color`
 - cover color
+- `Use as Portrait Notebook` when `Vertical` is selected
+
+### What is a portrait notebook?
+It is a note layout available when you create a subject with `Vertical`.  
+If you turn on **Use as Portrait Notebook**, the note shows a spread-like layout in landscape, one page at a time in portrait, and scrolls horizontally.
+
+The note orientation cannot be changed after creation.
 
 ### Can I separate notes within the same subject?
 Yes.  
@@ -63,6 +86,14 @@ You can add one from **New Note** in **Note List**.
 
 ### How are new pages added?
 When you start writing on the last page, the next page is added automatically.
+
+### What is the maximum number of pages in a note?
+One note can have up to `150` pages.  
+Once it reaches `150`, no more pages can be added. PDF attachment also cannot add pages beyond that limit. If needed, create another note in the same subject.
+
+### Can I zoom?
+Yes.  
+On the note screen, you can zoom in or out with a two-finger pinch gesture.
 
 ### Can I delete a page?
 Yes.  
@@ -74,9 +105,19 @@ However, if a note has only one page, the page itself is kept and only its conte
 Yes.  
 When you choose **Protect** in **Note List**, the note becomes read-only. You can also require biometrics to remove protection.
 
-### Can I rename a subject?
-Not at this time.  
-Note titles can be changed from **Note List**.
+### Can I edit a subject?
+Yes.  
+Press and hold the subject on Home and open **Edit**.
+
+You can change:
+
+- `Subject name`
+- paper style
+- `Paper Color`
+- cover color
+
+The note orientation cannot be changed after creation.  
+Note titles can still be changed from **Note List**.
 
 ### What can be restored from Trash?
 Subjects and notes shown in the note list.  
@@ -91,17 +132,23 @@ Deleted pages do not go to Trash and are removed immediately.
 
 ### Can I insert photos?
 Yes.  
-You can insert photos one at a time with **Attach Photo**. After inserting, you can move or resize them, and double-tap to **Lock Photo** or **Unlock Photo**.
+You can insert photos one at a time with **Attach Photo**. After inserting, you can move or resize them, and double-tap to lock or unlock them.
 
 ### Can I attach a photo as a document?
 Yes.  
 Choose **Attach Photo as Document** from **More** to pick a photo from Camera or Library, adjust it in the correction UI, and place it on the page as a document.
 
+After placing it, you can double-tap to lock or unlock it and adjust its position and size with your fingers.
+
 ### Can I insert PDFs?
 Yes.  
-Choose **Attach PDF** from **More** and place one page from a PDF file onto the page you are currently viewing.
+Choose **Attach PDF** from **More**.
 
-If the page already has a PDF, the app asks whether you want to replace it.
+- You can select one or more pages from a PDF file
+- You can turn on **Split Spread** to split a spread in the center
+- You can attach multiple PDF pages in one action
+
+After placing it, you can double-tap to lock or unlock it and adjust its position and size with your fingers.
 
 ### Can I export PDFs?
 Yes.  
@@ -112,7 +159,7 @@ Choose **Export PDF** from **More** and export **This Note Only** or the entire 
 ## Study Support
 
 ### What is `Memorization Feature`?
-Turn on **Memorization Feature** in `Settings > Memorization` to use **Memory Tools** on the note screen.
+Turn on **Memorization Feature** in `Settings > Study Support` to use the memory tools on the note screen.
 
 - Hide parts with **Memory Marker**
 - Remove them with **Memory Marker Eraser**
@@ -122,31 +169,33 @@ Turn on **Memorization Feature** in `Settings > Memorization` to use **Memory To
 No.  
 Editing is disabled while the memorization mask is closed.
 
-### Who can use the study assistant features?
-The study assistant features added in v2.4.0 (`Problem Solver Assistant` and `Create Practice Set`) are currently available only to Premium users.  
-New subscriptions for the study assistant are temporarily unavailable while quality is being improved.  
-For now, only users who already have Premium can use them. Sales will resume once the quality reaches the standard we want.
+### What is the current status of the study support features?
+At the moment, `Problem Solver Assistant` is **temporarily unavailable** while the AI feature is being improved.  
+`Create Practice Set` is still available.
 
 ### How do I use `Problem Solver Assistant`?
-`Problem Solver Assistant` is a study assistant feature added in v2.4.0.  
-It is Premium-only, and new subscriptions are currently unavailable, so only users who already have Premium can use it.  
-First turn on **Problem Solver Assistant** in `Settings > Study Support`.  
-Then choose **Problem Solver Assistant** from the floating toolbar on the note screen, circle the problem with a closed outline, and tap **Solve**.
+Right now, you cannot use it.  
+In the current app, `Problem Solver Assistant` is temporarily unavailable, so it is not shown in Settings or in the palette.
 
-It supports formula questions and short questions inside PDFs or images. Long reading comprehension, open-ended writing, and diagram-heavy questions are not supported.
+### How do I use `Create Practice Set`?
+Open **Create Practice Set** from **More**.
 
-### Can I create practice sets?
-`Create Practice Set` is a study assistant feature added in v2.4.0.  
-It is Premium-only, and new subscriptions are currently unavailable, so only users who already have Premium can use it.  
-Yes.  
-Choose **Create Practice Set** from **More**.
+- It is not available on the Free plan
+- It is available on Premium
 
-- Use **Choose Pages** to select the range
+In the current app, the rough limit on Premium is **10 / month**.
+
+Basic flow:
+
+- Choose target pages with **Choose Pages**
 - Start with **Create Practice Set**
 - Review candidates with **Add** and **Reject**
-- Save with **Save Practice Set**
+- Save them with **Save Practice Set**
 
-After saving, you can continue from **Review now**. To revisit them later, open the practice sets listed under each subject on the Home bookshelf. You can also delete practice sets by long-pressing them on Home, but deleted sets do not go to Trash and cannot be restored.
+After saving, you can continue from **Review now**.  
+To revisit them later, switch Home to **Practice Sets** and open them from the list there.
+
+Practice sets can be deleted from Home, but they do not go to Trash and cannot be restored.
 
 ---
 
@@ -170,9 +219,15 @@ In `Settings > Backup`, you can use:
 
 `Easy Backup` is the iCloud-based save and restore option. File-based backup remains available as well.
 
+### Is `Easy Backup` available for everyone?
+No.  
+`Easy Backup` is available with Premium.
+
+Even without Premium, you can still use `Export Backup` and `Restore from File`.
+
 ### Can I use the app immediately after restoring?
 After restoring, close the app once and open it again.  
-The next launch will show the shelf.
+The next launch will show Home.
 
 ---
 
@@ -181,23 +236,28 @@ The next launch will show the shelf.
 ### What settings are available?
 You can mainly change the following:
 
-- Default Template
-- Open Previous Notebook
-- Memorization Feature
-- Problem Solver Assistant (Premium only)
-- Subject Name (`Subject` / `Notebook` / `Group` / `Category`)
-- Require Biometrics to Remove Protection
-- Left-Handed Mode
-- Header / Footer
-- PDF Export Background
-- Language
+- `Default Template`
+- `Default Base Color`
+- `Open Home` or `Open Previous Notebook`
+- `Auto-collapse Tool Palette`
+- `Memorization Feature`
+- `Subject Name`
+- `Require Biometrics to Remove Protection`
+- `Left-Handed Mode`
+- `Header / Footer`
+- `PDF Export Background`
+- `Language`
 
 ### Can I change the subject label?
 Yes.  
 In Settings, under `Subject Name`, you can choose **Subject / Notebook / Group / Category**.
 
 ### What can I change in Left-Handed Mode?
-You can adjust the initial toolbar position, the red margin line position on ruled paper, and the PDF insertion position.
+You can adjust the initial palette position, the red margin line position on ruled paper, and the PDF insertion position.
+
+### Can I change the language?
+Yes.  
+You can change it from `Settings > Language`.
 
 ### Where can I open the How to Use page?
 Open `Settings > Support > How to Use`.

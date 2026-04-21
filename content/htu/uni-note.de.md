@@ -10,7 +10,8 @@ Unterstützte Nutzung:
 
 - nur iPad
 - Handschrift ist auf den Apple Pencil ausgelegt
-- Fingerbedienung wird hauptsächlich für Scrollen und das Bewegen von Fotos verwendet
+- Fingerbedienung wird hauptsächlich für das Scrollen und das Bewegen angehefteter Materialien verwendet
+- unterstützte Sprachen: `Japanisch / Englisch / Koreanisch / Deutsch / Traditionelles Chinesisch / Französisch`
 
 ---
 
@@ -29,17 +30,27 @@ Die genaue Oberfläche und die Bezeichnungen können je nach iPadOS-Version leic
 
 ---
 
-## 1. Ein Fach auf Home erstellen
+## 1. Ein Fach auf der Startseite erstellen
 
-Erstelle über die Schaltfläche `+` auf Home ein neues Fach.
+Erstelle über die Schaltfläche `+` auf der Startseite ein neues Fach.
 
 - Fachname
-- Papierstil: liniert / kariert / blanko
+- Papierstil: liniert / vertikal / kariert / blanko
 - `Papierfarbe`
 - Coverfarbe
+- `Als Hochformat-Notizbuch verwenden`, wenn `Vertikal` gewählt ist
 
-Das Fach wird auf Home hinzugefügt.  
+Das Fach wird zur Startseite hinzugefügt.  
 Tippe darauf, um seine Notizen zu öffnen.
+
+Wenn `Als Hochformat-Notizbuch verwenden` aktiviert ist, gilt:
+
+- im Querformat: Darstellung ähnlich einer Doppelseite
+- im Hochformat: jeweils eine Seite
+- Scrollrichtung: horizontal
+
+Nach dem Erstellen kannst du ein Fach auf der Startseite gedrückt halten und `Bearbeiten` öffnen.  
+Fachname, Papierstil, Papierfarbe und Coverfarbe lassen sich später ändern, die Ausrichtung des Notizbuchs jedoch nicht.
 
 ---
 
@@ -59,175 +70,192 @@ Danach öffnet das Fach wieder die letzte Notiz, an der du geschrieben hast.
 ## 3. Mit dem Apple Pencil schreiben
 
 - Handschrift ist für den Apple Pencil gedacht
-- Seiten werden vertikal als fortlaufender Ablauf angezeigt
+- normale Notizbücher werden vertikal als fortlaufender Ablauf angezeigt
 - wenn du auf der letzten Seite zu schreiben beginnst, wird automatisch die nächste Seite hinzugefügt
+- Eine Notiz kann bis zu `150` Seiten haben
+- Hochformat-Notizbücher werden im Hochformat seitenweise horizontal weitergeblättert
 
-Die App ist dafür ausgelegt, eine Notiz zu öffnen und direkt loszuschreiben.
+Die App ist darauf ausgelegt, eine Notiz zu öffnen und direkt loszuschreiben.
 
 ---
 
-## 4. Werkzeuge wechseln
+## 4. Mit zwei Fingern zoomen
 
-In der schwebenden Werkzeugleiste kannst du wechseln zwischen:
+Auf der Notizseite kannst du mit zwei Fingern hinein- und herauszoomen.
+
+Wenn das Zoomen beim Schreiben oder beim Anpassen von Foto, Dokumentfoto oder PDF schwer auszulösen ist, nimm die Finger kurz vom Bildschirm und versuche es erneut.
+
+---
+
+## 5. Werkzeuge wechseln
+
+In der Palette kannst du wechseln zwischen:
 
 - `Stift`
 - `Textmarker`
-- `Strich` / `Pixel`
+- `Strich`
+- `Pixel`
 - `Zurück`
 - `Erneut`
 
 Hinweise:
 
-- die Werkzeugleiste lässt sich per Drag bewegen
-- beim Stift können Stil, Farbe und Stärke angepasst werden
-- im Linkshänder-Modus kannst du die Standardposition der Werkzeugleiste ändern
+- Du kannst die Palette per Drag-and-drop verschieben
+- Der Stift unterstützt `Bleistift`, `Kuli` und `Filzstift`
+- Farbe und Breite des Stifts lassen sich ändern
+- Beim Textmarker lassen sich Farbe, Breite und Deckkraft ändern
+- Im `Linkshänder-Modus` kannst du die Standardposition der Palette ändern
 
 ---
 
-## 5. `Notizliste` und `Seiten` verwenden
+## 6. `Notizliste` und `Seiten` verwenden
 
-Öffne **Notizliste** oben links.
+Öffne links oben die **Notizliste**.
 
-- mit `Neue Notiz` fügst du im selben Fach eine weitere Notiz hinzu
-- auch hier ist ein Titel optional
-- wenn das Feld leer bleibt, wird das heutige Datum als Titel verwendet
-- durch Wischen nach links kannst du umbenennen, `Schützen` oder löschen
+- Mit `Neue Notiz` fügst du im selben Fach eine weitere Notiz hinzu
+- Der Titel einer neuen Notiz ist ebenfalls optional
+- Wenn du ihn leer lässt, wird das heutige Datum verwendet
+- Wische in der Notizliste nach links, um eine Notiz umzubenennen, zu `Schützen` oder zu löschen
 
-Öffne **Seiten**, um die Miniaturen der aktuellen Notiz zu prüfen.
+Öffne **Seiten**, um die Vorschaubilder innerhalb der aktuellen Notiz zu prüfen.
 
-- tippe auf eine Miniatur, um zu dieser Seite zu springen
-- halte eine Seite gedrückt, um sie zu löschen
+- Tippe auf ein Vorschaubild, um zu dieser Seite zu wechseln
+- Halte eine Seite gedrückt, um sie zu löschen
 
-Wenn die Notiz nur eine Seite hat, bleibt die Seite bestehen und nur der Inhalt wird gelöscht.
+Hat eine Notiz nur eine Seite, bleibt die Seite erhalten und nur ihr Inhalt wird gelöscht.
 
 ---
 
-## 6. `Mehr` verwenden
+## 7. `Mehr` verwenden
 
-Das Menü `Mehr` enthält die folgenden Aktionen:
+Das Menü `Mehr` enthält folgende Aktionen:
 
-- `Foto einfügen`
+- `Foto anheften`
 - `Foto als Dokument anheften`
-- `PDF einfügen`
+- `PDF anheften`
 - `PDF exportieren`
-- `Aufgabenset erstellen` (nur Premium)
+- `Aufgabenset erstellen`
 
-`Aufgabenset erstellen` gehört zu den Lernhilfe-Funktionen. Es ist nur für Premium verfügbar, und neue Abonnements sind vorübergehend gestoppt, während die Qualität verbessert wird.
+`Aufgabenassistent` ist derzeit vorübergehend nicht verfügbar und wird deshalb in den Einstellungen oder in der Palette nicht angezeigt.
 
 ---
 
-## 7. Fotos und PDFs verwenden
+## 8. Fotos und PDFs verwenden
 
-Wähle `Foto einfügen` aus `Mehr`.
+Wähle in `Mehr` die Option `Foto anheften`.
 
-- verschiebe oder skaliere das Foto mit den Fingern
-- per Doppeltipp `Foto sperren` oder `Foto entsperren`
-- zum Löschen gedrückt halten
+- Mit den Fingern verschieben oder skalieren
+- Doppeltippen, um zu sperren oder zu entsperren
+- Gedrückt halten, um zu löschen
 
-Wähle `Foto als Dokument anheften` aus `Mehr`.
+Wähle in `Mehr` die Option `Foto als Dokument anheften`.
 
-- wähle ein Foto aus Kamera oder Mediathek
-- passe den Dokumentbereich in der Korrekturansicht an und bestätige
-- das korrigierte Dokument wird gespeichert und bleibt auch nach dem erneuten Öffnen erhalten
+- Wähle ein Foto aus Kamera oder Mediathek
+- Passe den Dokumentbereich in der Korrekturansicht an und bestätige
+- Danach kannst du es per Doppeltipp sperren oder entsperren und mit den Fingern Position und Größe anpassen
 
-Wähle `PDF einfügen` aus `Mehr`.
+Wähle in `Mehr` die Option `PDF anheften`.
 
-- wähle eine Seite aus der PDF-Datei
-- platziere sie auf der aktuell geöffneten Seite
-- wenn dort bereits eine PDF liegt, fragt Uni:Note nach einem Ersetzen
-- in den Einstellungen kannst du die Position der PDF-Anheftung links oder rechts festlegen
+- Du kannst eine oder mehrere Seiten aus der PDF-Datei auswählen
+- Mit `Doppelseite teilen` kannst du eine Doppelseite in der Mitte aufteilen
+- Mehrere PDF-Seiten lassen sich in einem Schritt anheften
+- Danach kannst du sie per Doppeltipp sperren oder entsperren und mit den Fingern Position und Größe anpassen
 
-Wähle `PDF exportieren` aus `Mehr`.
+Wähle in `Mehr` die Option `PDF exportieren`.
 
-Du kannst exportieren:
+Du kannst Folgendes exportieren:
 
-- **Nur diese Notiz**
+- `Nur diese Notiz`
 - das gesamte Fach
 
-Bei `PDF-Export-Hintergrundfarbe` lässt sich der Hintergrund ändern.
+Unter `PDF-Export-Hintergrundfarbe` kannst du den Hintergrund auf `Papier` oder `Weiß` stellen.
 
 ---
 
-## 8. `Lernfunktion` verwenden
+## 9. `Lernfunktion` verwenden
 
-Aktiviere zuerst `Lernfunktion` unter `Einstellungen > Lernen`.
+Aktiviere zuerst in `Einstellungen > Lernhilfe` die `Lernfunktion`.
 
-Danach erscheinen `Lernwerkzeuge` in der schwebenden Werkzeugleiste der Notizansicht.
+Danach erscheinen auf der Notizseite in der Palette die Lernwerkzeuge.
 
-- markiere die Stellen, die du verdecken möchtest, mit `Lernmarker`
-- entferne sie mit `Lernmarker-Radierer`
-- mit der Taste oben rechts kannst du die Lernmaske öffnen oder schließen
-- solange die Lernmaske geschlossen ist, ist das Bearbeiten deaktiviert
-
----
-
-## 9. `Aufgabenassistent` verwenden (nur Premium)
-
-`Aufgabenassistent` ist eine mit v2.4.0 hinzugefügte Lernhilfe-Funktion.  
-Er ist nur für Premium verfügbar, und neue Abonnements sind vorübergehend gestoppt, während die Qualität verbessert wird. Nur Nutzer mit bestehendem Premium können ihn verwenden.
-
-Aktiviere zuerst `Aufgabenassistent` unter `Einstellungen > Lernhilfe`.
-
-Dann wähle `Aufgabenassistent` in der schwebenden Werkzeugleiste der Notizansicht.
-
-- markiere die Aufgabe mit einem geschlossenen Umriss
-- prüfe den ausgewählten Bereich
-- tippe auf `Lösen`
-
-Unterstützt werden Formelaufgaben und kurze Fragen in PDFs oder Bildern. Lange Lesetexte, freie Antworten und stark diagrammabhängige Aufgaben werden nicht unterstützt.
+- Mit `Lernmarker` markierst du die Teile, die verborgen werden sollen
+- Mit `Lernmarker-Radierer` entfernst du sie wieder
+- Mit der Augen-Schaltfläche rechts oben öffnest oder schließt du die Lernmaske
+- Solange die Lernmaske geschlossen ist, kannst du nicht bearbeiten
 
 ---
 
-## 10. `Aufgabenset erstellen` verwenden (nur Premium)
+## 10. Über den `Aufgabenassistent`
 
-`Aufgabenset erstellen` ist eine mit v2.4.0 hinzugefügte Lernhilfe-Funktion.  
-Es ist nur für Premium verfügbar, und neue Abonnements sind vorübergehend gestoppt, während die Qualität verbessert wird. Nur Nutzer mit bestehendem Premium können es verwenden.
+Der `Aufgabenassistent` ist derzeit vorübergehend nicht verfügbar.  
+Da die Genauigkeit der KI-Funktion verbessert wird, erscheint er momentan nicht in den Einstellungen oder in der Palette.
 
-Wähle `Aufgabenset erstellen` aus `Mehr`.
-
-- nutze `Seiten auswählen`, um die Zielseiten festzulegen
-- starte mit `Aufgabenset erstellen`
-- prüfe Vorschläge mit `Hinzufügen` und `Verwerfen`
-- speichere mit `Aufgabenset speichern`
-
-Nach dem Speichern kannst du mit `Jetzt lernen` weitermachen. Später kannst du die Aufgabensets auf dem Home-Bildschirm unter jedem Fach wieder öffnen. Du kannst Aufgabensets dort auch per langem Drücken löschen, aber sie landen nicht im Papierkorb und lassen sich nicht wiederherstellen.
+Sobald die Funktion wieder verfügbar ist, weist dich die App über die Update-Mitteilung darauf hin.
 
 ---
 
-## 11. Notizen schützen und `Papierkorb` verwenden
+## 11. `Aufgabenset erstellen` verwenden
 
-- wenn du in `Notizliste` `Schützen` wählst, wird die Notiz schreibgeschützt
-- in den Einstellungen kannst du Biometrie zum Aufheben des Schutzes verlangen
-- `Papierkorb` auf Home gruppiert gelöschte Elemente nach Fach
-- du kannst ein ganzes Fach oder nur einzelne Notizen wiederherstellen
-- gelöschte Seiten landen nicht im `Papierkorb` und werden sofort entfernt
-- endgültig gelöschte Elemente aus `Papierkorb` können nicht wiederhergestellt werden
+Öffne `Aufgabenset erstellen` über `Mehr`.
+
+- Im kostenlosen Tarif ist die Funktion nicht verfügbar
+- Sie ist mit Premium verfügbar
+
+Im aktuellen Stand der App liegt der Richtwert mit Premium bei `10 / Monat`.
+
+Ablauf:
+
+- Wähle die Zielseiten mit `Seiten auswählen`
+- Starte mit `Aufgabenset erstellen`
+- Prüfe Kandidaten mit `Hinzufügen` und `Verwerfen`
+- Speichere sie mit `Als Aufgabenset speichern`
+
+Nach dem Speichern kannst du direkt über `Jetzt wiederholen` fortfahren.  
+Wenn du später darauf zurückkommen willst, wechsle auf der Startseite zu `Aufgabensammlungen` und öffne sie dort aus der Liste.
+
+Aufgabensets können von der Startseite gelöscht werden, landen aber nicht im Papierkorb und lassen sich nicht wiederherstellen.
 
 ---
 
-## 12. Einstellungen und Backup
+## 12. Notizen schützen und `Papierkorb` verwenden
 
-In `Einstellungen` kannst du vor allem Folgendes ändern:
+- Wenn du in der `Notizliste` `Schützen` wählst, wird die Notiz schreibgeschützt
+- In den Einstellungen kannst du Biometrie zum Aufheben des Schutzes verlangen
+- Der `Papierkorb` auf der Startseite gruppiert gelöschte Inhalte nach Fach
+- Du kannst ein ganzes Fach oder nur bestimmte Notizen wiederherstellen
+- Gelöschte Seiten landen nicht im Papierkorb und werden sofort entfernt
+- Elemente, die im Papierkorb endgültig gelöscht wurden, können nicht rückgängig gemacht werden
+
+---
+
+## 13. Einstellungen und Backups
+
+In den `Einstellungen` kannst du vor allem Folgendes ändern:
 
 - `Standardvorlage`
-- `Vorheriges Heft öffnen`
+- `Standard-Basisfarbe`
+- `Startseite öffnen` oder `Vorheriges Heft öffnen`
+- `Werkzeugpalette automatisch einklappen`
 - `Lernfunktion`
-- `Aufgabenassistent` (nur Premium)
 - `Fachbezeichnung`
-- Biometrie zum Aufheben des Schutzes
-- Linkshänder-Modus
+- Biometrie zum Aufheben des Schutzes verlangen
+- `Linkshänder-Modus`
 - `Kopf- / Fußzeile`
 - `PDF-Export-Hintergrundfarbe`
 - `Sprache`
 
-In `Einstellungen > Backup` kannst du Folgendes verwenden:
+Unter `Einstellungen > Backup` kannst du Folgendes verwenden:
 
-- `Easy Backup aktualisieren`
-- `Aus Easy Backup wiederherstellen`
+- `Easy Backup aktualisieren` (Premium)
+- `Aus Easy Backup wiederherstellen` (Premium)
 - `Backup exportieren`
 - `Aus Datei wiederherstellen`
 
-Nach einer Wiederherstellung schließe die App einmal und öffne sie erneut.
+`Easy Backup` nutzt iCloud für Speichern und Wiederherstellen.  
+Dateibasierte Backups stehen auch ohne Premium weiterhin zur Verfügung.
+
+Nach einer Wiederherstellung schließe die App einmal und öffne sie erneut.  
+Beim nächsten Start wird die Startseite angezeigt.
 
 Verwandte Seiten:
 

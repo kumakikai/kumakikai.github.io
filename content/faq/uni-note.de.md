@@ -12,11 +12,27 @@ Sie ist auf das Schreiben mit dem Apple Pencil ausgelegt und organisiert Notizen
 ### Welche Geräte werden unterstützt?
 Nur iPad.
 
-### Kann ich Uni:Note mit `Split View` oder `Slide Over` verwenden?
+### Gibt es Einschränkungen in der kostenlosen Version?
 Ja.  
-Uni:Note unterstützt iPad-Mehrfensteransichten wie `Split View` und `Slide Over`.
+Im aktuellen Stand der App ist die kostenlose Version auf **bis zu 10 Fächer** und **bis zu 6 Notizen pro Fach** begrenzt.
 
-Allgemein öffnest du zuerst Uni:Note, blendest dann das Dock ein und ziehst eine andere App oder Uni:Note aus dem Dock an den Rand für `Split View` oder als schwebendes Fenster für `Slide Over`.
+Mit Premium entfallen die Begrenzungen für Fächer und Notizen.
+
+### Welche Sprachen werden unterstützt?
+Aktuell werden folgende Sprachen unterstützt:
+
+- Japanisch
+- Englisch
+- Koreanisch
+- Deutsch
+- Traditionelles Chinesisch
+- Französisch
+
+### Kann ich die App mit `Split View` oder `Slide Over` verwenden?
+Ja.  
+Uni:Note unterstützt iPad-Mehrfenstermodi wie `Split View` und `Slide Over`.
+
+In der Regel öffnest du zuerst Uni:Note, blendest das Dock ein und ziehst dann eine andere App oder Uni:Note aus dem Dock an den Rand für `Split View` oder schwebend darüber für `Slide Over`.
 
 Die genaue Oberfläche und die Bezeichnungen können je nach iPadOS-Version leicht abweichen.
 
@@ -24,13 +40,13 @@ Die genaue Oberfläche und die Bezeichnungen können je nach iPadOS-Version leic
 Ja.  
 Uni:Note unterstützt mehrere Fenster.
 
-Während bereits ein Uni:Note-Fenster geöffnet ist, blende das Dock ein, halte das Uni:Note-Symbol gedrückt und wähle den Eintrag zum Öffnen eines neuen Fensters.
+Wenn bereits ein Uni:Note-Fenster geöffnet ist, blende das Dock ein, halte das Uni:Note-Symbol gedrückt und wähle die Option zum Öffnen eines neuen Fensters.
 
-Danach kannst du das zweite Fenster nebeneinander in `Split View` oder schwebend in `Slide Over` verwenden.
+Danach kannst du das zweite Fenster nebeneinander in `Split View` oder schwebend in `Slide Over` anzeigen.
 
 ### Ist ein Apple Pencil erforderlich?
-Die Handschriftfunktion ist für den Apple Pencil ausgelegt.  
-Fingerbedienung wird hauptsächlich für das Scrollen und das Bewegen von Fotos verwendet.
+Die Handschriftfunktionen sind für den Apple Pencil gedacht.  
+Fingerbedienung wird hauptsächlich für das Scrollen und das Bewegen von Fotos, Dokumentfotos und PDFs verwendet.
 
 ### Muss ich mich anmelden oder ein Konto erstellen?
 Nein.
@@ -41,48 +57,73 @@ Nein.
 
 ### Ist ein Notiztitel erforderlich?
 Nein.  
-Wenn du eine Notiz ohne Titel erstellst, wird das heutige Datum als Notizname verwendet.
+Wenn du einen Titel leer lässt, wird das heutige Datum als Notizname verwendet.
 
 ### Was ist die Titeleingabe, die beim ersten Öffnen eines neuen Fachs erscheint?
 Das ist der Titel der ersten Notiz.  
-Wenn du das Feld leer lässt und **OK** oder **Direkt schreiben** wählst, wird das heutige Datum als Titel verwendet.
+Wenn du ihn leer lässt und **OK** oder **Direkt schreiben** wählst, wird das heutige Datum als Titel verwendet.
 
-Wenn du zurückgehst, ohne etwas zu bestätigen, wird die erste Notiz nicht behalten.
+Wenn du ohne Bestätigung zurückgehst, wird die erste Notiz nicht behalten.
 
 ### Was kann ich beim Erstellen eines Fachs auswählen?
 Du kannst Folgendes auswählen:
 
-- Fachname
+- `Fachname`
+- Papierstil: liniert / vertikal / kariert / blanko
+- `Papierfarbe`
+- Coverfarbe
+- `Als Hochformat-Notizbuch verwenden`, wenn `Vertikal` gewählt ist
+
+### Was ist ein Hochformat-Notizbuch?
+Das ist ein Notizlayout, das verfügbar ist, wenn du ein Fach mit `Vertikal` erstellst.  
+Wenn du **Als Hochformat-Notizbuch verwenden** aktivierst, wird die Notiz im Querformat wie eine Doppelseite dargestellt, im Hochformat seitenweise angezeigt und horizontal gescrollt.
+
+Die Ausrichtung der Notiz kann nach dem Erstellen nicht mehr geändert werden.
+
+### Kann ich innerhalb desselben Fachs mehrere Notizen anlegen?
+Ja.  
+Du kannst in der `Notizliste` über **Neue Notiz** weitere Notizen hinzufügen.
+
+### Wie werden neue Seiten hinzugefügt?
+Wenn du auf der letzten Seite zu schreiben beginnst, wird automatisch die nächste Seite ergänzt.
+
+### Wie viele Seiten kann eine Notiz maximal haben?
+Eine Notiz kann bis zu `150` Seiten haben.  
+Sobald `150` Seiten erreicht sind, können keine weiteren Seiten mehr hinzugefügt werden. Auch per PDF-Anhang lassen sich keine Seiten über dieses Limit hinaus ergänzen. Falls nötig, erstelle im selben Fach eine weitere Notiz.
+
+### Kann ich zoomen?
+Ja.  
+Auf der Notizseite kannst du mit einer Zwei-Finger-Geste hinein- und herauszoomen.
+
+### Kann ich eine Seite löschen?
+Ja.  
+In `Seiten` kannst du die gewünschte Seite gedrückt halten und löschen.
+
+Wenn eine Notiz jedoch nur aus einer Seite besteht, bleibt die Seite selbst erhalten und nur ihr Inhalt wird gelöscht.
+
+### Kann ich eine Notiz schützen?
+Ja.  
+Wenn du in der `Notizliste` **Schützen** auswählst, wird die Notiz schreibgeschützt. Du kannst außerdem verlangen, dass zum Aufheben des Schutzes Biometrie benötigt wird.
+
+### Kann ich ein Fach bearbeiten?
+Ja.  
+Halte das Fach auf der Startseite gedrückt und öffne **Bearbeiten**.
+
+Du kannst Folgendes ändern:
+
+- `Fachname`
 - Papierstil
 - `Papierfarbe`
 - Coverfarbe
 
-### Kann ich innerhalb desselben Fachs mehrere Notizen anlegen?
-Ja.  
-Du kannst sie über **Neue Notiz** in **Notizliste** hinzufügen.
-
-### Wie werden neue Seiten hinzugefügt?
-Wenn du auf der letzten Seite mit dem Schreiben beginnst, wird die nächste Seite automatisch hinzugefügt.
-
-### Kann ich eine Seite löschen?
-Ja.  
-Halte die gewünschte Seite in **Seiten** gedrückt, um sie zu löschen.
-
-Wenn eine Notiz jedoch nur eine Seite hat, bleibt die Seite selbst erhalten und nur ihr Inhalt wird gelöscht.
-
-### Kann ich eine Notiz schützen?
-Ja.  
-Wenn du in **Notizliste** **Schützen** wählst, wird die Notiz schreibgeschützt. Du kannst außerdem Biometrie zum Aufheben des Schutzes verlangen.
-
-### Kann ich einen Fachnamen ändern?
-Derzeit nicht.  
-Notiztitel können jedoch in **Notizliste** geändert werden.
+Die Ausrichtung der Notiz kann nach dem Erstellen nicht mehr geändert werden.  
+Notiztitel kannst du weiterhin in der `Notizliste` ändern.
 
 ### Was kann aus dem Papierkorb wiederhergestellt werden?
-Fächer und Notizen.  
-**Papierkorb** gruppiert gelöschte Elemente nach Fach, und durch Antippen eines Fachs werden die enthaltenen Notizen angezeigt.
+Fächer und die Notizen aus der Notizliste.  
+Im `Papierkorb` werden gelöschte Elemente nach Fach gruppiert angezeigt; wenn du ein Fach antippst, siehst du die enthaltenen Notizen.
 
-Auch wenn ein Fach gelöscht wurde, kannst du das gesamte Fach oder nur einzelne Notizen wiederherstellen.  
+Du kannst ein ganzes Fach oder auch nur einzelne Notizen wiederherstellen.  
 Gelöschte Seiten landen nicht im Papierkorb, sondern werden sofort entfernt.
 
 ---
@@ -91,112 +132,132 @@ Gelöschte Seiten landen nicht im Papierkorb, sondern werden sofort entfernt.
 
 ### Kann ich Fotos einfügen?
 Ja.  
-Über `Mehr > Foto einfügen` kannst du Bilder aus der Fotomediathek hinzufügen. Danach kannst du sie verschieben oder skalieren sowie per Doppeltipp `Foto sperren` oder `Foto entsperren`.
+Über **Foto anheften** kannst du Fotos einzeln hinzufügen. Danach kannst du sie verschieben oder skalieren und per Doppeltipp sperren oder entsperren.
 
 ### Kann ich ein Foto als Dokument anheften?
 Ja.  
-Über `Mehr > Foto als Dokument anheften` kannst du ein Foto aus Kamera oder Mediathek auswählen, in der Korrekturansicht anpassen und als Dokument auf der Seite ablegen.
+Wähle in `Mehr` **Foto als Dokument anheften**, nimm ein Foto aus Kamera oder Mediathek, passe es in der Korrekturansicht an und füge es als Dokument in die Seite ein.
+
+Danach kannst du es per Doppeltipp sperren oder entsperren und mit den Fingern Position und Größe anpassen.
 
 ### Kann ich PDFs einfügen?
 Ja.  
-Über `Mehr > PDF einfügen` kannst du eine Seite aus einer PDF-Datei auf der aktuell geöffneten Seite platzieren.
+Wähle in `Mehr` **PDF anheften**.
 
-Wenn sich bereits ein PDF auf der Seite befindet, fragt die App nach, ob es ersetzt werden soll.
+- Du kannst eine oder mehrere Seiten einer PDF-Datei auswählen
+- Mit **Doppelseite teilen** lässt sich eine Doppelseite in der Mitte aufteilen
+- Mehrere PDF-Seiten können in einem Schritt angeheftet werden
+
+Danach kannst du sie per Doppeltipp sperren oder entsperren und mit den Fingern Position und Größe anpassen.
 
 ### Kann ich PDFs exportieren?
 Ja.  
-Über `Mehr > PDF exportieren` kannst du **Nur diese Notiz** oder das gesamte Fach exportieren.
+Wähle in `Mehr` **PDF exportieren** und exportiere **Nur diese Notiz** oder das gesamte Fach als PDF.
 
 ---
 
 ## Lernhilfe
 
-### Was ist `Lernfunktion`?
-Wenn du `Lernfunktion` in `Einstellungen > Lernen` aktivierst, werden `Lernwerkzeuge` auf der Notizseite verfügbar.
+### Was ist die `Lernfunktion`?
+Aktiviere die `Lernfunktion` unter `Einstellungen > Lernhilfe`, um die Lernwerkzeuge in der Notizansicht zu verwenden.
 
-- Markiere zu verbergende Bereiche mit `Lernmarker`
-- Entferne sie mit `Lernmarker-Radierer`
-- Öffne oder schließe die Lernmaske mit der Augen-Schaltfläche
+- Bereiche mit dem `Lernmarker` verdecken
+- Mit dem `Lernmarker-Radierer` wieder entfernen
+- Mit der Augen-Schaltfläche die Lernmaske öffnen oder schließen
 
 ### Kann ich bearbeiten, während die Lernmaske geschlossen ist?
 Nein.  
-Solange die Lernmaske geschlossen ist, ist das Bearbeiten deaktiviert.
+Solange die Lernmaske geschlossen ist, ist die Bearbeitung deaktiviert.
 
-### Wer kann die Lernhilfe-Funktionen verwenden?
-Die in v2.4.0 hinzugefügten Lernhilfe-Funktionen (`Aufgabenassistent` und `Aufgabenset erstellen`) sind derzeit nur für Premium verfügbar.  
-Neue Abonnements für die Lernhilfe sind vorübergehend gestoppt, während die Qualität verbessert wird.  
-Derzeit können sie daher nur Nutzer verwenden, die Premium bereits haben. Der Verkauf wird wieder aufgenommen, sobald die Qualität das gewünschte Niveau erreicht.
+### Wie ist der aktuelle Stand der Lernhilfefunktionen?
+Der `Aufgabenassistent` ist derzeit **vorübergehend nicht verfügbar**, weil die KI-Funktion verbessert wird.  
+`Aufgabenset erstellen` ist weiterhin verfügbar.
 
-### Wie verwende ich `Aufgabenassistent`?
-`Aufgabenassistent` ist eine mit v2.4.0 hinzugefügte Lernhilfe-Funktion.  
-Er ist nur für Premium verfügbar. Da neue Abonnements derzeit gestoppt sind, können ihn nur Nutzer verwenden, die Premium bereits haben.  
-Aktiviere zuerst `Aufgabenassistent` in `Einstellungen > Lernhilfe`.  
-Wähle danach `Aufgabenassistent` in der schwebenden Werkzeugleiste, markiere den Aufgabenbereich mit einem geschlossenen Umriss und tippe auf **Lösen**.
-
-Unterstützt werden Formelaufgaben und kurze Fragen in PDFs oder Bildern. Längere Lesetexte, freie Antworten und stark diagrammabhängige Aufgaben werden nicht unterstützt.
+### Wie verwende ich den `Aufgabenassistenten`?
+Im Moment kannst du ihn nicht verwenden.  
+Im aktuellen Stand der App ist der `Aufgabenassistent` vorübergehend deaktiviert und erscheint daher nicht in den Einstellungen oder in der Palette.
 
 ### Wie verwende ich `Aufgabenset erstellen`?
-`Aufgabenset erstellen` ist eine mit v2.4.0 hinzugefügte Lernhilfe-Funktion.  
-Es ist nur für Premium verfügbar. Da neue Abonnements derzeit gestoppt sind, können es nur Nutzer verwenden, die Premium bereits haben.  
-Öffne `Mehr > Aufgabenset erstellen`.
+Öffne **Aufgabenset erstellen** über **Mehr**.
 
-- Wähle die Seiten mit **Seiten auswählen**
-- Starte mit **Aufgabenset erstellen**
-- Prüfe Vorschläge mit **Hinzufügen** und **Verwerfen**
-- Speichere mit **Aufgabenset speichern**
+- In der kostenlosen Version ist die Funktion nicht verfügbar
+- Sie ist mit Premium verfügbar
 
-Nach dem Speichern kannst du mit **Jetzt lernen** weitermachen. Später kannst du die Aufgabensets auf dem Home-Bildschirm unter jedem Fach wieder öffnen. Du kannst Aufgabensets dort auch per langem Drücken löschen, aber sie landen nicht im Papierkorb und lassen sich nicht wiederherstellen.
+Im aktuellen Stand der App liegt der Richtwert mit Premium bei **10 / Monat**.
+
+Ablauf:
+
+- Zielseiten über **Seiten auswählen** festlegen
+- Mit **Aufgabenset erstellen** starten
+- Kandidaten mit **Hinzufügen** und **Verwerfen** prüfen
+- Mit **Als Aufgabenset speichern** sichern
+
+Nach dem Speichern kannst du direkt mit **Jetzt wiederholen** fortfahren.  
+Wenn du später darauf zurückkommen willst, wechsle auf der Startseite zu **Aufgabensammlungen** und öffne sie dort aus der Liste.
+
+Aufgabensets können auf der Startseite gelöscht werden, landen aber nicht im Papierkorb und lassen sich nicht wiederherstellen.
 
 ---
 
-## Daten und Backup
+## Daten und Speicherung
 
 ### Wo werden meine Daten gespeichert?
 Innerhalb der App auf deinem Gerät.
 
-### Gibt es automatische Synchronisierung?
+### Gibt es eine automatische Synchronisierung?
 Derzeit nicht.  
-Falls nötig, verwende `Einstellungen > Backup`.
+Wenn du sie brauchst, nutze `Einstellungen > Backup`.
 
 ### Gibt es eine Backup-Funktion?
 Ja.  
-In `Einstellungen > Backup` kannst du Folgendes verwenden:
+Unter `Einstellungen > Backup` kannst du Folgendes nutzen:
 
 - `Easy Backup aktualisieren`
 - `Aus Easy Backup wiederherstellen`
 - `Backup exportieren`
 - `Aus Datei wiederherstellen`
 
-`Easy Backup` nutzt iCloud. Die dateibasierte Sicherung bleibt ebenfalls verfügbar.
+`Easy Backup` ist die iCloud-basierte Speicher- und Wiederherstellungsfunktion. Dateibasierte Backups stehen weiterhin ebenfalls zur Verfügung.
 
-### Kann ich die App direkt nach einer Wiederherstellung verwenden?
+### Ist `Easy Backup` für alle verfügbar?
+Nein.  
+`Easy Backup` ist mit Premium verfügbar.
+
+Auch ohne Premium kannst du weiterhin `Backup exportieren` und `Aus Datei wiederherstellen` nutzen.
+
+### Kann ich die App direkt nach einer Wiederherstellung benutzen?
 Schließe die App nach der Wiederherstellung einmal und öffne sie erneut.  
-Beim nächsten Start erscheint das Regal.
+Beim nächsten Start wird die Startseite angezeigt.
 
 ---
 
 ## Einstellungen
 
-### Welche Einstellungen sind verfügbar?
-Du kannst hauptsächlich Folgendes ändern:
+### Welche Einstellungen gibt es?
+Du kannst vor allem Folgendes ändern:
 
 - `Standardvorlage`
-- `Vorheriges Heft öffnen`
+- `Standard-Basisfarbe`
+- `Startseite öffnen` oder `Vorheriges Heft öffnen`
+- `Werkzeugpalette automatisch einklappen`
 - `Lernfunktion`
-- `Aufgabenassistent` (nur Premium)
-- `Fachbezeichnung` (`Fach` / `Heft` / `Gruppe` / `Kategorie`)
-- Biometrie zum Aufheben des Schutzes
-- Linkshänder-Modus
+- `Fachbezeichnung`
+- Biometrie zum Aufheben des Schutzes verlangen
+- `Linkshänder-Modus`
 - `Kopf- / Fußzeile`
 - `PDF-Export-Hintergrundfarbe`
 - `Sprache`
 
-### Kann ich die `Fachbezeichnung` ändern?
+### Kann ich die Fachbezeichnung ändern?
 Ja.  
-In `Einstellungen` kannst du unter `Fachbezeichnung` zwischen **Fach / Heft / Gruppe / Kategorie** wählen.
+In den Einstellungen kannst du unter `Fachbezeichnung` zwischen **Fach / Notizbuch / Gruppe / Kategorie** wählen.
 
 ### Was kann ich im Linkshänder-Modus ändern?
-Du kannst die Anfangsposition der Werkzeugleiste, die Position der roten Randlinie auf linierten Seiten und die Einfügeposition von PDFs anpassen.
+Du kannst die Standardposition der Palette, die Position der roten Randlinie bei linierten Vorlagen und die Position für PDF-Anhänge anpassen.
 
-### Wo kann ich die Seite `Anleitung` öffnen?
-Öffne `Einstellungen > Support > Anleitung`.
+### Kann ich die Sprache ändern?
+Ja.  
+Du kannst sie unter `Einstellungen > Sprache` ändern.
+
+### Wo kann ich die Anleitungsseite öffnen?
+Über `Einstellungen > Support > Anleitung`.

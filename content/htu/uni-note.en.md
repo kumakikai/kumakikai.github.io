@@ -3,14 +3,15 @@ title: "How to Use (Uni:Note)"
 description: "How to Use for Uni:Note."
 ---
 
-Uni:Note is an iPad note app designed for handwriting with Apple Pencil.
+Uni:Note is an iPad note app designed for handwriting with Apple Pencil.  
 You can separate your work by subject and keep each class in its own note.
 
 Supported setup:
 
 - iPad only
 - Handwriting is designed for Apple Pencil
-- Finger input is mainly for scrolling and moving photos
+- Finger input is mainly for scrolling and handling attached materials
+- Supported languages: `Japanese / English / Korean / German / Traditional Chinese / French`
 
 ---
 
@@ -34,12 +35,22 @@ The exact UI and labels may differ slightly depending on your iPadOS version.
 Create a new subject from the `+` button on Home.
 
 - Subject name
-- Paper style: ruled / grid / plain
+- Paper style: ruled / vertical / grid / plain
 - `Paper Color`
 - Cover color
+- `Use as Portrait Notebook` when `Vertical` is selected
 
-The subject is added to Home.
+The subject is added to Home.  
 Tap it to open its notes.
+
+If `Use as Portrait Notebook` is on, the note behaves like this:
+
+- in landscape: a spread-like layout
+- in portrait: one page at a time
+- scrolling direction: horizontal
+
+After creating a subject, press and hold it on Home to open `Edit`.  
+You can change the subject name, paper style, paper color, and cover color later, but the note orientation cannot be changed after creation.
 
 ---
 
@@ -49,7 +60,7 @@ When you open a new subject for the first time, Uni:Note shows the first note ti
 
 - Start with `OK` or `Start Writing`
 - Entering a title is optional
-- If left blank, today's date will be used as the title
+- If left blank, today's date is used as the title
 - If you go back without confirming anything, the first note is not kept
 
 After that, the subject opens the last note you were writing in.
@@ -59,32 +70,45 @@ After that, the subject opens the last note you were writing in.
 ## 3. Write with Apple Pencil
 
 - Handwriting is designed for Apple Pencil
-- Pages are shown vertically in one continuous flow
+- Regular notes are shown vertically in one continuous flow
 - When you start writing on the last page, the next page is added automatically
+- One note can have up to `150` pages
+- Portrait notebooks show pages horizontally, one by one in portrait orientation
 
 The app is designed so you can open a note and start writing right away.
 
 ---
 
-## 4. Switch tools
+## 4. Zoom with two fingers
 
-From the floating toolbar, you can switch between:
+On the note screen, you can pinch with two fingers to zoom in or out.
+
+If zoom is hard to trigger while you are writing or adjusting a photo, document photo, or PDF, lift your fingers once and try again.
+
+---
+
+## 5. Switch tools
+
+From the palette, you can switch between:
 
 - `Pen`
 - `Highlighter`
-- `Erase Stroke` / `Erase Pixel`
+- `Erase Stroke`
+- `Erase Pixel`
 - `Undo`
 - `Redo`
 
 Notes:
 
-- You can drag the toolbar to move it
-- The pen supports different styles, colors, and widths
-- In `Left-Handed Mode`, you can change the default toolbar position
+- You can drag the palette to move it
+- The pen supports `Pencil`, `Ballpoint`, and `Sign Pen`
+- You can change pen color and width
+- You can change highlighter color, width, and intensity
+- In `Left-Handed Mode`, you can change the default palette position
 
 ---
 
-## 5. Use `Note List` and `Pages`
+## 6. Use `Note List` and `Pages`
 
 Open **Note List** from the top-left.
 
@@ -102,7 +126,7 @@ If the note has only one page, only the content is cleared and the page itself s
 
 ---
 
-## 6. Use `More`
+## 7. Use `More`
 
 The `More` menu includes the following actions:
 
@@ -110,13 +134,13 @@ The `More` menu includes the following actions:
 - `Attach Photo as Document`
 - `Attach PDF`
 - `Export PDF`
-- `Create Practice Set` (Premium only)
+- `Create Practice Set`
 
-`Create Practice Set` is part of the study assistant features. It is Premium-only, and new subscriptions are temporarily unavailable while quality is being improved.
+`Problem Solver Assistant` is currently temporarily unavailable, so it is not shown in Settings or in the palette right now.
 
 ---
 
-## 7. Use photos and PDFs
+## 8. Use photos and PDFs
 
 Choose `Attach Photo` from `More`.
 
@@ -128,14 +152,14 @@ Choose `Attach Photo as Document` from `More` to correct a photo from Camera or 
 
 - Choose a photo from Camera or Library
 - Adjust the document area in the correction UI and confirm
-- The corrected document is saved and stays available when you open the note again
+- After placing it, double-tap to lock or unlock it, and adjust its position and size with your fingers
 
 Choose `Attach PDF` from `More`.
 
-- Select one page from the PDF file
-- Place it on the page you are currently viewing
-- If that page already has a PDF, Uni:Note asks whether to replace it
-- In Settings, you can change the PDF attachment position to left or right
+- Select one or more pages from the PDF file
+- Turn on `Split Spread` if you want to split a spread in the center
+- You can attach multiple PDF pages in one action
+- After placing it, double-tap to lock or unlock it, and adjust its position and size with your fingers
 
 Choose `Export PDF` from `More`.
 
@@ -148,53 +172,52 @@ In `PDF Export Background`, you can change the background to `Paper` or `White`.
 
 ---
 
-## 8. Use `Memorization Feature`
+## 9. Use `Memorization Feature`
 
-First, turn on `Memorization Feature` in `Settings > Memorization`.
+First, turn on `Memorization Feature` in `Settings > Study Support`.
 
-When enabled, `Memory Tools` appears in the floating toolbar on the note screen.
+When enabled, `Memory Tools` appears in the palette on the note screen.
 
-- Trace the parts you want to hide with `Memory Marker`
+- Hide parts with `Memory Marker`
 - Remove them with `Memory Marker Eraser`
 - Use the eye button at the top-right to open or close the memorization mask
 - Editing is disabled while the memorization mask is closed
 
 ---
 
-## 9. Use `Problem Solver Assistant` (Premium only)
+## 10. About `Problem Solver Assistant`
 
-`Problem Solver Assistant` is a study assistant feature added in v2.4.0.  
-It is Premium-only, and new subscriptions are temporarily unavailable while quality is being improved. Only users who already have Premium can use it.
+`Problem Solver Assistant` is currently temporarily unavailable.  
+Because the AI feature is being improved, it is not shown in Settings or in the palette for now.
 
-First, turn on `Problem Solver Assistant` in `Settings > Study Support`.
-
-Then choose `Problem Solver Assistant` from the floating toolbar on the note screen.
-
-- Circle the problem with a closed outline
-- Review the selected range
-- Tap `Solve`
-
-It supports formula questions and short questions inside PDFs or images. Long reading comprehension, open-ended writing, and diagram-heavy questions are not supported.
+When it becomes available again, the app will guide you through the update notice.
 
 ---
 
-## 10. Use `Create Practice Set` (Premium only)
+## 11. Use `Create Practice Set`
 
-`Create Practice Set` is a study assistant feature added in v2.4.0.  
-It is Premium-only, and new subscriptions are temporarily unavailable while quality is being improved. Only users who already have Premium can use it.
+Open `Create Practice Set` from `More`.
 
-Choose `Create Practice Set` from `More`.
+- It is not available on the Free plan
+- It is available on Premium
 
-- Use `Choose Pages` to pick the target pages
+In the current app, the rough limit on Premium is `10 / month`.
+
+Basic flow:
+
+- Choose target pages with `Choose Pages`
 - Start with `Create Practice Set`
 - Review candidates with `Add` and `Reject`
 - Save them with `Save Practice Set`
 
-After saving, you can continue from `Review now`. To revisit them later, open the practice sets listed under each subject on the Home bookshelf. You can also delete practice sets by long-pressing them on Home, but deleted sets do not go to Trash and cannot be restored.
+After saving, you can continue from `Review now`.  
+To revisit them later, switch Home to `Practice Sets` and open them from the list there.
+
+Practice sets can be deleted from Home, but they do not go to Trash and cannot be restored.
 
 ---
 
-## 11. Protect notes and use `Trash`
+## 12. Protect notes and use `Trash`
 
 - If you choose `Protect` from `Note List`, the note becomes read-only
 - In Settings, you can `Require Biometrics to Remove Protection`
@@ -205,14 +228,15 @@ After saving, you can continue from `Review now`. To revisit them later, open th
 
 ---
 
-## 12. Settings and backup
+## 13. Settings and backup
 
 In `Settings`, you can mainly change:
 
 - `Default Template`
-- `Open Previous Notebook`
+- `Default Base Color`
+- `Open Home` or `Open Previous Notebook`
+- `Auto-collapse Tool Palette`
 - `Memorization Feature`
-- `Problem Solver Assistant` (Premium only)
 - `Subject Name`
 - `Require Biometrics to Remove Protection`
 - `Left-Handed Mode`
@@ -222,12 +246,16 @@ In `Settings`, you can mainly change:
 
 In `Settings > Backup`, you can use:
 
-- `Update Easy Backup`
-- `Restore from Easy Backup`
+- `Update Easy Backup` (Premium)
+- `Restore from Easy Backup` (Premium)
 - `Export Backup`
 - `Restore from File`
 
-After restoring, close and reopen the app once. The next launch will show the shelf.
+`Easy Backup` uses iCloud for saving and restoring.  
+File-based backup is still available even without Premium.
+
+After restoring, close and reopen the app once.  
+The next launch will show Home.
 
 Related pages:
 
