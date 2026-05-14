@@ -9,11 +9,11 @@ Cette politique de confidentialité explique comment les informations des utilis
 
 L'application ne nécessite ni inscription ni connexion et ne collecte pas, via les champs de saisie de l'application, d'informations permettant d'identifier une personne telles que le nom, l'adresse ou l'adresse e-mail.
 
-Les notes, les données manuscrites et les réglages créés dans l'application sont stockés sur l'appareil de l'utilisateur.
+Les notes, les données manuscrites, les images, les PDF, l'audio des enregistrements, les transcriptions et les réglages créés dans l'application sont stockés sur l'appareil de l'utilisateur.
 
 ## 2. Traitement des photos et des fichiers
 
-L'application permet aux utilisateurs d'insérer dans leurs notes des images qu'ils sélectionnent explicitement.
+L'application permet aux utilisateurs d'insérer dans leurs notes des images, PDF et autres fichiers qu'ils sélectionnent explicitement.
 
 L'application peut également accéder à un emplacement de stockage ou à un fichier de sauvegarde choisi par l'utilisateur afin de créer ou restaurer une sauvegarde.
 
@@ -26,42 +26,58 @@ Les données de l'application sont stockées sur l'appareil de l'utilisateur.
 Lorsque la fonction de sauvegarde est utilisée, le fichier de sauvegarde est enregistré à l'emplacement choisi par l'utilisateur.  
 Si vous utilisez un service de stockage externe comme iCloud Drive, veuillez consulter la politique de ce fournisseur.
 
-## 4. Fonctions d'aide a l'etude
+L'audio des enregistrements est inclus dans les sauvegardes uniquement lorsque l'utilisateur active **Inclure l'audio des enregistrements dans les sauvegardes** lors de la création d'une sauvegarde.
 
-Lorsque vous utilisez des fonctions d'aide a l'etude telles que `Assistant de resolution` et `Creer un lot d'exercices`, une partie de la note selectionnee, du contenu manuscrit, des images ou des PDF peut etre envoyee a des services d'IA externes afin de generer des reponses ou des propositions de questions.
+## 4. Fonctions d'aide à l'étude et d'IA
 
-Ces informations sont traitees uniquement dans la mesure necessaire pour fournir ces fonctions.
+Lorsque vous utilisez des fonctions d'aide à l'étude telles que `Assistant de résolution` et `Créer un lot d'exercices`, une partie de la note sélectionnée, du contenu manuscrit, des images ou des PDF peut être envoyée à des services d'IA externes afin de générer des réponses ou des propositions de questions.
 
-Si vos notes contiennent des informations personnelles ou sensibles, veuillez utiliser ces fonctions a votre discretion.
+Pour le Résumé IA des enregistrements, le texte de transcription des enregistrements sélectionnés par l'utilisateur peut être envoyé à un service d'IA externe. Le fichier audio de l'enregistrement lui-même n'est pas utilisé pour le Résumé IA.
 
-## 5. Fonctions Premium et informations d'achat
+Ces informations sont traitées uniquement dans la mesure nécessaire pour fournir ces fonctions.
 
-Pour confirmer ou restaurer l'acces aux fonctions Premium, les informations d'achat et l'etat des transactions peuvent etre traites par des boutiques d'applications comme l'App Store.
+Si vos notes contiennent des informations personnelles ou sensibles, veuillez utiliser ces fonctions à votre discrétion.
 
-Veuillez consulter la politique de confidentialite de chaque boutique ou fournisseur de paiement pour savoir comment ces informations sont traitees.
+## 5. Fonctions Premium, informations d'achat et solde IA
 
-## 6. Outils publicitaires et analytiques
+Pour confirmer ou restaurer l'accès aux fonctions Premium, les informations d'achat et l'état des transactions peuvent être traités par des boutiques d'applications comme l'App Store.
 
-À ce jour, l'application n'utilise ni SDK publicitaire ni SDK analytique.
+Le solde IA utilise un identifiant pour vérifier les achats et le solde. Cet identifiant ne contient pas d'information permettant de vous identifier directement, comme votre nom, votre adresse e-mail, votre identifiant Apple ou le contenu de vos notes.
 
-Si de tels outils sont utilisés à l'avenir, cela sera indiqué dans cette politique ou dans une notification intégrée à l'application.
+Veuillez consulter la politique de confidentialité de chaque boutique ou fournisseur de paiement pour savoir comment ces informations sont traitées.
 
-## 7. Communication des donnees personnelles a des tiers
+## 6. Données de diagnostic et de plantage
 
-Sauf obligation legale, l'application ne communique pas les donnees personnelles des utilisateurs a des tiers.
+Pour améliorer la stabilité de l'application et analyser les problèmes, l'application peut envoyer des données de diagnostic et de plantage via Firebase Crashlytics.
 
-Cependant, des services d'IA externes et des boutiques d'applications peuvent traiter des informations dans la mesure necessaire a la fourniture des fonctions d'aide a l'etude et au traitement des achats.
+Les informations susceptibles d'être envoyées sont des informations techniques comme la version de l'app, le numéro de build, la version de l'OS, une catégorie générale d'appareil, la classe de taille d'écran, le type d'opération, des tranches approximatives pour le nombre de pages, de pièces jointes, de pages PDF et la taille de sauvegarde, une catégorie d'erreur sûre, le domaine d'erreur et le code d'erreur.
 
-## 8. Modifications de cette politique de confidentialite
+L'application n'envoie pas le contenu des notes, le contenu manuscrit, le contenu des images, le contenu des PDF, les résultats OCR, le contenu des enregistrements, les noms de notes, les noms de matières, les noms de fichiers, les chemins réels de fichiers, les noms d'utilisateur ni les adresses e-mail.
 
-Cette politique peut etre mise a jour si necessaire.
+## 7. Outils publicitaires et analytiques
 
-La politique de confidentialite revisee prend effet lorsqu'elle est publiee sur ce site.
+À ce jour, l'application n'utilise pas de SDK publicitaire.
 
-## 9. Contact
+L'application ne collecte pas d'événements d'utilisation avec Google Analytics for Firebase. Firebase est utilisé pour les diagnostics et l'analyse des plantages via Crashlytics.
+
+Si des SDK publicitaires ou des outils d'analyse d'utilisation sont introduits à l'avenir, cela sera indiqué dans cette politique ou dans une notification intégrée à l'application.
+
+## 8. Communication des données personnelles à des tiers
+
+Sauf obligation légale, l'application ne communique pas les données personnelles des utilisateurs à des tiers.
+
+Cependant, des services d'IA externes, Firebase Crashlytics et des boutiques d'applications peuvent traiter des informations dans la mesure nécessaire à la fourniture des fonctions d'aide à l'étude, du Résumé IA, des diagnostics et analyses de plantage, et du traitement des achats.
+
+## 9. Modifications de cette politique de confidentialité
+
+Cette politique peut être mise à jour si nécessaire.
+
+La politique de confidentialité révisée prend effet lorsqu'elle est publiée sur ce site.
+
+## 10. Contact
 
 Pour toute question concernant cette politique, veuillez contacter :
 
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-Dernière mise à jour : 2026-04-19
+Dernière mise à jour : 2026-05-14
