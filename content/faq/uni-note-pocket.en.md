@@ -69,7 +69,7 @@ The main functions are:
 - browse top-level subjects
 - view pages
 - play recordings when the backup includes recording audio
-- show or hide memorization layers and sticky markers
+- check sticky markers
 
 ### Can I edit notes or pages?
 No.  
@@ -96,10 +96,10 @@ In that case, the app shows **This backup does not include the recording audio.*
 No.
 Uni:Note Pocket is playback-only for recordings. Recording creation, editing, transcription, and AI summaries stay on the Uni:Note side.
 
-### What are memorization layers and sticky markers?
-It is the page-level layer you can toggle while reviewing.  
-For Uni:Note v3.0.0 backups, memorization markers are aligned with the sticky marker display, and notes with sticky markers can show an indicator.
-Use the eye button on the right to switch between **Show Memorization Layer** and **Hide Memorization Layer**.
+### Can I view sticky markers?
+Yes.
+Notes with sticky markers show an indicator, and the markers are shown on the page.
+Tap a marker on the page to switch between normal and faint display.
 
 Uni:Note Pocket does not edit sticky markers or the memorization mask itself.
 

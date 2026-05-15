@@ -106,13 +106,13 @@ If the imported backup includes `Question Sets` saved in Uni:Note, you can open 
 
 ---
 
-## 9. Show or hide memorization layers and sticky markers
+## 9. Check sticky markers
 
-Use the eye button on the right side to switch the page-level memorization layer.
-For Uni:Note v3.0.0 backups, memorization markers are aligned with the sticky marker display, and notes with sticky markers can show an indicator.
+In the note list, notes with sticky markers show an indicator.
+When you open the page, the markers are shown on the page in the Uni:Note v3.0.0 sticky marker style.
 
-- **Show Memorization Layer**
-- **Hide Memorization Layer**
+- tap a marker to switch between normal and faint display
+- older memorization masks are also shown in a sticky-marker style
 
 Uni:Note Pocket does not edit sticky markers or the memorization mask itself.
 

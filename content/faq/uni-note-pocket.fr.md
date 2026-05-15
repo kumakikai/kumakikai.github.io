@@ -69,7 +69,7 @@ Les fonctions principales sont :
 - consulter la liste de niveau superieur
 - afficher les pages
 - lire les enregistrements lorsque la sauvegarde contient l'audio
-- afficher ou masquer les calques de memorisation et les reperes adhesifs
+- verifier les reperes adhesifs
 
 ### Puis-je modifier des notes ou des pages ?
 Non.  
@@ -96,10 +96,10 @@ Dans ce cas, l'application affiche **Cette sauvegarde ne contient pas l’audio 
 Non.
 Uni:Note Pocket est uniquement capable de lire les enregistrements. La creation, l'edition, la transcription et les resumes IA restent du cote de Uni:Note.
 
-### Que sont le calque de memorisation et les reperes adhesifs ?
-C'est le calque de page que vous pouvez afficher ou masquer pendant la relecture.  
-Pour les sauvegardes Uni:Note v3.0.0, l'affichage des marqueurs de memorisation est aligne sur les reperes adhesifs, et les notes qui en contiennent peuvent afficher un indicateur.
-Le bouton oeil a droite permet de basculer entre **Afficher le calque de memorisation** et **Masquer le calque de memorisation**.
+### Puis-je voir les reperes adhesifs ?
+Oui.
+Les notes avec des reperes adhesifs affichent un indicateur, et les reperes sont visibles sur la page.
+Touchez un repere sur la page pour alterner entre l'affichage normal et attenue.
 
 Uni:Note Pocket ne modifie ni les reperes adhesifs ni le masque de memorisation lui-meme.
 

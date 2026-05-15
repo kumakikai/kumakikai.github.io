@@ -69,7 +69,7 @@ Die Hauptfunktionen sind:
 - die oberste Liste durchsuchen
 - Seiten ansehen
 - Aufnahmen abspielen, wenn das Backup Aufnahmeaudio enthält
-- Lernmasken und Haftnotiz-Marker ein- oder ausblenden
+- Haftnotiz-Marker prüfen
 
 ### Kann ich Notizen oder Seiten bearbeiten?
 Nein.  
@@ -96,10 +96,10 @@ In diesem Fall zeigt die App **Dieses Backup enthält die Audiodatei der Aufnahm
 Nein.
 Uni:Note Pocket ist für Aufnahmen nur zur Wiedergabe gedacht. Aufnahmeerstellung, Bearbeitung, Transkription und KI-Zusammenfassungen bleiben auf der Uni:Note-Seite.
 
-### Was sind Lernmaske und Haftnotiz-Marker?
-Das ist die seitenbezogene Ebene, die du beim Wiederholen ein- oder ausblenden kannst.  
-Bei Uni:Note v3.0.0-Backups ist die Darstellung der Auswendig-Marker an die Haftnotiz-Marker angepasst. Notizen mit Haftnotiz-Markern können einen Hinweis anzeigen.
-Mit der Augen-Schaltfläche rechts wechselst du zwischen **Auswendig-Layer anzeigen** und **Auswendig-Layer ausblenden**.
+### Kann ich Haftnotiz-Marker sehen?
+Ja.
+Notizen mit Haftnotiz-Markern zeigen einen Hinweis, und die Marker werden auf der Seite angezeigt.
+Tippe einen Marker auf der Seite an, um zwischen normaler und blasser Darstellung zu wechseln.
 
 Uni:Note Pocket bearbeitet weder Haftnotiz-Marker noch die Lernmaske selbst.
 

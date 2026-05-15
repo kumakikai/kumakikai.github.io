@@ -107,13 +107,13 @@ Wenn das importierte Backup in Uni:Note gespeicherte `Fragensets` enthält, kann
 
 ---
 
-## 9. Lernmaske und Haftnotiz-Marker anzeigen oder ausblenden
+## 9. Haftnotiz-Marker prüfen
 
-Mit der Augen-Schaltfläche auf der rechten Seite schaltest du die seitenbezogene Lernmaske um.
-Bei Uni:Note v3.0.0-Backups ist die Darstellung der Auswendig-Marker an die Haftnotiz-Marker angepasst. Notizen mit Haftnotiz-Markern können einen Hinweis anzeigen.
+In der Notizliste zeigen Notizen mit Haftnotiz-Markern einen Hinweis.
+Beim Öffnen der Seite werden die Marker im Haftnotiz-Marker-Stil von Uni:Note v3.0.0 auf der Seite angezeigt.
 
-- **Auswendig-Layer anzeigen**
-- **Auswendig-Layer ausblenden**
+- Marker antippen, um zwischen normaler und blasser Darstellung zu wechseln
+- ältere Lernmasken werden ebenfalls im Haftnotiz-Marker-Stil angezeigt
 
 Uni:Note Pocket bearbeitet weder Haftnotiz-Marker noch die Lernmaske selbst.
 

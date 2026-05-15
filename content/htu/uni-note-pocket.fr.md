@@ -107,13 +107,13 @@ Si la sauvegarde importee inclut des `Lots` enregistres dans Uni:Note, vous pouv
 
 ---
 
-## 9. Afficher ou masquer le calque de memorisation et les reperes adhesifs
+## 9. Verifier les reperes adhesifs
 
-Utilisez le bouton oeil a droite pour basculer le calque de memorisation de la page.
-Pour les sauvegardes Uni:Note v3.0.0, l'affichage des marqueurs de memorisation est aligne sur les reperes adhesifs, et les notes qui en contiennent peuvent afficher un indicateur.
+Dans la liste des notes, les notes avec des reperes adhesifs affichent un indicateur.
+Quand vous ouvrez la page, les reperes s'affichent sur la page dans le style des reperes adhesifs de Uni:Note v3.0.0.
 
-- **Afficher le calque de memorisation**
-- **Masquer le calque de memorisation**
+- touchez un repere pour alterner entre l'affichage normal et attenue
+- les anciens masques de memorisation sont aussi affiches dans un style de repere adhesif
 
 Uni:Note Pocket ne modifie ni les reperes adhesifs ni le masque de memorisation lui-meme.
 
