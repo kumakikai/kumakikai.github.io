@@ -52,6 +52,8 @@ If `Use as Portrait Notebook` is on, the note behaves like this:
 After creating a subject, press and hold it on Home to open `Edit`.  
 You can change the subject name, paper style, paper color, and cover color later, but the note orientation cannot be changed after creation.
 
+You can also reorder subjects on Home.
+
 ---
 
 ## 2. Open the first note
@@ -95,8 +97,16 @@ From the palette, you can switch between:
 - `Highlighter`
 - `Erase Stroke`
 - `Erase Pixel`
+- `Sticky Marker`
 - `Undo`
 - `Redo`
+
+From the buttons at the top of the note screen, you can open:
+
+- `Ruler`
+- `Move Selection`
+- `Problem Solver Assistant`
+- `Recording`
 
 Notes:
 
@@ -104,7 +114,20 @@ Notes:
 - The pen supports `Pencil`, `Ballpoint`, and `Sign Pen`
 - You can change pen color and width
 - You can change highlighter color, width, and intensity
+- You can change Sticky Marker color and width
+- `Sticky Marker` appears in the palette when enabled in `Settings > Study Support`
+- `Problem Solver Assistant` appears at the top of the note screen when enabled in `Settings > Study Support`
+- `Move Selection` is a Premium feature
 - In `Left-Handed Mode`, you can change the default palette position
+
+How to use `Move Selection`:
+
+- Choose `Move Selection` at the top of the note screen
+- Circle the handwriting you want to move with Apple Pencil
+- Drag the selected handwriting to move it
+
+Any line that is even partly inside the enclosed area is selected as a whole.
+It applies to handwriting strokes. Photos, PDFs, and Sticky Markers are handled separately.
 
 ---
 
@@ -116,6 +139,7 @@ Open **Note List** from the top-left.
 - The title for a new note is also optional
 - If left blank, today's date is used as the title
 - Swipe left in the note list to rename, `Protect`, or delete a note
+- Reorder notes inside the note list
 
 Open **Pages** to check thumbnails inside the current note.
 
@@ -136,7 +160,7 @@ The `More` menu includes the following actions:
 - `Export PDF`
 - `Create Practice Set`
 
-`Problem Solver Assistant` is currently temporarily unavailable, so it is not shown in Settings or in the palette right now.
+`Ruler`, `Move Selection`, `Problem Solver Assistant`, and `Recording` are opened from the buttons at the top of the note screen.
 
 ---
 
@@ -172,36 +196,92 @@ In `PDF Export Background`, you can change the background to `Paper` or `White`.
 
 ---
 
-## 9. Use `Memorization Feature`
+## 9. Use `Ruler`
+
+Tap the **Ruler** button at the top of the note screen to show the ruler.
+
+- Move or rotate the ruler with your fingers
+- Write near the ruler with Apple Pencil to draw corrected straight lines
+- Tap **Ruler** again to hide it
+
+Lines drawn with the ruler remain as normal handwriting in the note.
+
+---
+
+## 10. Use Recording, Transcription, and AI Summary
+
+Tap the **Recording** button at the top of the note screen to open the recording panel.
+Recording, playback, and viewing transcriptions are **Premium** features.
+
+Basic controls:
+
+- Start with **Recording**
+- Use **Pause** / **Resume** without ending the recording
+- Use **Stop** to save
+- Select a saved recording to play it
+- Rename, lock, delete, or share audio when needed
+
+One note can keep up to `5` recordings.
+Each recording file can be up to 30 minutes long. When a recording reaches 30 minutes, Uni:Note automatically saves that recording and starts the next one.
+Automatically split recordings count toward the limit of `5` recordings per note.
+If you return to Uni:Note Home or the iPad goes to sleep while recording, the recording ends and is saved at that point.
+Doing this during recording may corrupt the recording data. Stop and save the recording before leaving the note or putting the iPad to sleep.
+
+Based on Apple's transcription-compatible models, real-time transcription and AI Summary are available on the following models running iPadOS 26 or later: iPad mini (6th generation or later), iPad (10th generation or later), iPad Air (4th generation or later), iPad Pro 11-inch (3rd generation or later), iPad Pro 12.9-inch (5th generation or later), and iPad Pro 13-inch (M4 or later).
+On supported devices, real-time transcription can appear while recording.
+You can change the transcription language from `Settings > Recording Transcription Language`.
+
+AI Summary is generated from the transcription text created during recording.
+Audio files are not sent for AI Summary. AI Summary requires **AI Balance**.
+
+For AI Summary, you can choose a Study or Meeting format. If multiple recordings are selected, Uni:Note keeps the recording boundaries. Before running it, you can check the number of recordings, character count, and estimated AI usage.
+
+---
+
+## 11. Use `Memorization Feature`
 
 First, turn on `Memorization Feature` in `Settings > Study Support`.
 
-When enabled, `Memory Tools` appears in the palette on the note screen.
+When enabled, `Sticky Marker` appears in the palette on the note screen.
 
-- Hide parts with `Memory Marker`
-- Remove them with `Memory Marker Eraser`
-- Use the eye button at the top-right to open or close the memorization mask
-- Editing is disabled while the memorization mask is closed
+- Choose `Sticky Marker`
+- Trace the area you want to hide with Apple Pencil
+- Each stroke is saved as one sticky marker
+- Tap a sticky marker with your finger to switch between transparent and opaque
+- Press and hold a sticky marker with your finger, then use the delete button that appears
 
----
-
-## 10. About `Problem Solver Assistant`
-
-`Problem Solver Assistant` is currently temporarily unavailable.  
-Because the AI feature is being improved, it is not shown in Settings or in the palette for now.
-
-When it becomes available again, the app will guide you through the update notice.
+Old memorization markers from earlier versions are migrated to sticky markers when the page is opened.
 
 ---
 
-## 11. Use `Create Practice Set`
+## 12. Use `Problem Solver Assistant`
+
+First, turn on `Problem Solver Assistant` in `Settings > Study Support`.
+
+When enabled, `Problem Solver Assistant` appears at the top of the note screen.
+
+How to use it:
+
+- Choose `Problem Solver Assistant` at the top of the note screen
+- Circle the problem with Apple Pencil using a closed shape
+- Confirm the selected area
+- Choose `Solve`
+- Review the answer and explanation
+
+From the result screen, you can copy or share the answer and explanation.
+
+It is mainly intended for formulas, calculations, and short questions.
+Long reading passages, free-response questions, and figure-heavy questions may not be supported.
+
+Using it requires **AI Balance**. If your AI Balance is insufficient, you can add more in the app.
+
+---
+
+## 13. Use `Create Practice Set`
 
 Open `Create Practice Set` from `More`.
 
-- It is not available on the Free plan
-- It is available on Premium
-
-In the current app, the rough limit on Premium is `10 / month`.
+Practice set generation requires **AI Balance**.
 
 Basic flow:
 
@@ -217,7 +297,7 @@ Practice sets can be deleted from Home, but they do not go to Trash and cannot b
 
 ---
 
-## 12. Protect notes and use `Trash`
+## 14. Protect notes and use `Trash`
 
 - If you choose `Protect` from `Note List`, the note becomes read-only
 - In Settings, you can `Require Biometrics to Remove Protection`
@@ -228,7 +308,7 @@ Practice sets can be deleted from Home, but they do not go to Trash and cannot b
 
 ---
 
-## 13. Settings and backup
+## 15. Settings and backup
 
 In `Settings`, you can mainly change:
 
@@ -237,6 +317,9 @@ In `Settings`, you can mainly change:
 - `Open Home` or `Open Previous Notebook`
 - `Auto-collapse Tool Palette`
 - `Memorization Feature`
+- `Problem Solver Assistant`
+- `Recording Transcription Language`
+- default AI Summary format for Study or Meeting
 - `Subject Name`
 - `Require Biometrics to Remove Protection`
 - `Left-Handed Mode`
@@ -253,6 +336,9 @@ In `Settings > Backup`, you can use:
 
 `Easy Backup` uses iCloud for saving and restoring.  
 File-based backup is still available even without Premium.
+
+Recording metadata and transcriptions are included in backups.
+Recording audio files (m4a) are included in both `Export Backup` and `Easy Backup` only when **Include recording audio in backups** is turned on.
 
 After restoring, close and reopen the app once.  
 The next launch will show Home.

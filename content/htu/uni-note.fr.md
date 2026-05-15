@@ -52,6 +52,8 @@ Lorsque `Utiliser comme cahier portrait` est activé :
 Après création, vous pouvez maintenir une matière sur l’accueil pour ouvrir `Modifier`.  
 Le nom de la matière, le type de papier, la couleur du papier et la couleur de couverture peuvent être modifiés plus tard, mais l’orientation du cahier ne peut pas être changée après création.
 
+Vous pouvez aussi réordonner les matières sur l’accueil.
+
 ---
 
 ## 2. Ouvrir la première note
@@ -95,8 +97,16 @@ Depuis la palette, vous pouvez basculer entre :
 - `Surligneur`
 - `Gomme vectorielle`
 - `Gomme pixel`
+- `Marqueur pense-bête`
 - `Annuler`
 - `Rétablir`
+
+Depuis les boutons en haut de l’écran de note, vous pouvez ouvrir :
+
+- `Règle`
+- `Déplacer la zone`
+- `Assistant de résolution`
+- `Enregistrement`
 
 Notes :
 
@@ -104,7 +114,20 @@ Notes :
 - le stylo propose `Porte-mine`, `Stylo bille` et `Feutre`
 - vous pouvez changer la couleur et l’épaisseur du stylo
 - vous pouvez changer la couleur, l’épaisseur et l’intensité du surligneur
+- vous pouvez changer la couleur et l’épaisseur du marqueur pense-bête
+- `Marqueur pense-bête` apparaît dans la palette lorsqu’il est activé dans `Réglages > Aide à l'étude`
+- `Assistant de résolution` apparaît en haut de l’écran de note lorsqu’il est activé dans `Réglages > Aide à l'étude`
+- `Déplacer la zone` est une fonction Premium
 - en `Mode gaucher`, vous pouvez modifier la position par défaut de la palette
+
+Mode d’emploi de `Déplacer la zone` :
+
+- choisissez `Déplacer la zone` en haut de l’écran de note
+- entourez avec l’Apple Pencil la zone manuscrite à déplacer
+- faites glisser l’écriture sélectionnée
+
+Tout trait même partiellement inclus dans la zone entourée est sélectionné en entier.
+Cela concerne les traits manuscrits. Les photos, les PDF et les marqueurs pense-bête se manipulent séparément.
 
 ---
 
@@ -116,6 +139,7 @@ Ouvrez **Liste des notes** en haut à gauche.
 - le titre d’une nouvelle note est lui aussi facultatif
 - s’il est laissé vide, la date du jour est utilisée
 - faites glisser vers la gauche dans la liste pour renommer, `Protéger` ou supprimer une note
+- réordonnez les notes dans la liste des notes
 
 Ouvrez **Pages** pour voir les miniatures dans la note en cours.
 
@@ -136,7 +160,7 @@ Le menu `Plus` contient les actions suivantes :
 - `Exporter en PDF`
 - `Créer un lot d’exercices`
 
-`Assistant de résolution` est actuellement suspendu temporairement ; il n’apparaît donc pas dans les réglages ni dans la palette.
+`Règle`, `Déplacer la zone`, `Assistant de résolution` et `Enregistrement` s’ouvrent depuis les boutons en haut de l’écran de note.
 
 ---
 
@@ -172,36 +196,92 @@ Dans `Fond de l’export PDF`, vous pouvez choisir `Papier` ou `Blanc`.
 
 ---
 
-## 9. Utiliser la `Fonction de mémorisation`
+## 9. Utiliser la `Règle`
+
+Touchez **Règle** en haut de l’écran de note pour l’afficher.
+
+- déplacez ou faites pivoter la règle avec les doigts
+- écrivez près de la règle avec l’Apple Pencil pour obtenir des lignes droites corrigées
+- touchez de nouveau **Règle** pour la masquer
+
+Les lignes tracées avec la règle restent dans la note comme une écriture manuscrite normale.
+
+---
+
+## 10. Utiliser l’enregistrement, la transcription et le Résumé IA
+
+Touchez **Enregistrement** en haut de l’écran de note pour ouvrir le panneau d’enregistrement.
+L’enregistrement, la lecture et l’affichage des transcriptions sont des fonctions **Premium**.
+
+Commandes de base :
+
+- commencez avec **Enregistrement**
+- utilisez **Pause** / **Reprendre** pour interrompre sans terminer l’enregistrement
+- utilisez **Arrêter** pour sauvegarder
+- sélectionnez un enregistrement sauvegardé pour le lire
+- si nécessaire, renommez, verrouillez, supprimez ou partagez l’audio
+
+Une note peut conserver jusqu’à `5` enregistrements.
+Chaque fichier d’enregistrement peut durer jusqu’à 30 minutes. Lorsqu’un enregistrement atteint 30 minutes, Uni:Note le sauvegarde automatiquement et démarre l’enregistrement suivant.
+Les enregistrements divisés automatiquement comptent dans la limite de `5` enregistrements par note.
+Si vous revenez à l’accueil de Uni:Note ou si l’iPad se met en veille pendant un enregistrement, l’enregistrement se termine et est sauvegardé à ce moment-là.
+Cette action pendant un enregistrement peut endommager les données d’enregistrement. Arrêtez et sauvegardez l’enregistrement avant de quitter la note ou de mettre l’iPad en veille.
+
+Selon les modèles compatibles avec la transcription indiqués par Apple, la transcription en temps réel et le Résumé IA sont disponibles sous iPadOS 26 ou version ultérieure sur iPad mini (6e génération ou ultérieure), iPad (10e génération ou ultérieure), iPad Air (4e génération ou ultérieure), iPad Pro 11 pouces (3e génération ou ultérieure), iPad Pro 12,9 pouces (5e génération ou ultérieure) et iPad Pro 13 pouces (M4 ou ultérieur).
+Sur les appareils compatibles, une transcription en temps réel peut s’afficher pendant l’enregistrement.
+La langue de transcription se change depuis `Réglages > Langue de transcription`.
+
+Le Résumé IA est généré à partir du texte de transcription créé pendant l’enregistrement.
+Les fichiers audio ne sont pas envoyés pour le Résumé IA. Le Résumé IA nécessite du **solde IA**.
+
+Pour le Résumé IA, vous pouvez choisir un format Études ou Réunion. Si plusieurs enregistrements sont sélectionnés, Uni:Note conserve les séparations entre enregistrements. Avant de l’exécuter, vous pouvez vérifier le nombre d’enregistrements, le nombre de caractères et l’estimation de consommation IA.
+
+---
+
+## 11. Utiliser la `Fonction de mémorisation`
 
 Activez d’abord la `Fonction de mémorisation` dans `Réglages > Aide à l'étude`.
 
-Une fois activée, les outils de mémorisation apparaissent dans la palette sur l’écran de note.
+Une fois activée, le `Marqueur pense-bête` apparaît dans la palette sur l’écran de note.
 
-- masquez les zones voulues avec le `Marqueur mémo`
-- effacez-les avec la `Gomme du marqueur mémo`
-- utilisez le bouton en forme d’œil en haut à droite pour ouvrir ou fermer le masque de mémorisation
-- l’édition est impossible tant que le masque est fermé
+- choisissez `Marqueur pense-bête`
+- tracez avec l’Apple Pencil la zone que vous voulez masquer
+- chaque trait est enregistré comme un pense-bête
+- touchez un pense-bête avec le doigt pour alterner entre transparent et opaque
+- appuyez longuement avec le doigt, puis utilisez le bouton de suppression qui apparaît
 
----
-
-## 10. À propos de l’`Assistant de résolution`
-
-L’`Assistant de résolution` est actuellement indisponible temporairement.  
-Comme la précision de la fonction IA est en cours d’amélioration, il n’apparaît pas pour le moment dans les réglages ni dans la palette.
-
-Lorsqu’il sera à nouveau disponible, l’app vous guidera via la notice de mise à jour.
+Les anciens marqueurs de mémorisation sont migrés en marqueurs pense-bête à l’ouverture de la page.
 
 ---
 
-## 11. Utiliser `Créer un lot d’exercices`
+## 12. Utiliser l’`Assistant de résolution`
+
+Activez d’abord l’`Assistant de résolution` dans `Réglages > Aide à l'étude`.
+
+Une fois activé, l’`Assistant de résolution` apparaît en haut de l’écran de note.
+
+Mode d’emploi :
+
+- choisissez `Assistant de résolution` en haut de l’écran de note
+- entourez le problème avec l’Apple Pencil en formant une zone fermée
+- confirmez la zone affichée
+- choisissez `Résoudre`
+- consultez la réponse et l’explication
+
+Depuis l’écran de résultat, vous pouvez copier ou partager la réponse et l’explication.
+
+La fonction est surtout prévue pour les formules, les calculs et les questions courtes.
+Les longs textes, réponses libres et problèmes centrés sur des figures peuvent ne pas être pris en charge.
+
+Son utilisation nécessite du **solde IA**. Si votre solde IA est insuffisant, vous pouvez en ajouter dans l’app.
+
+---
+
+## 13. Utiliser `Créer un lot d’exercices`
 
 Ouvrez `Créer un lot d’exercices` depuis `Plus`.
 
-- cette fonction n’est pas disponible avec l’offre gratuite
-- elle est disponible avec Premium
-
-Dans l’état actuel de l’app, la limite approximative avec Premium est de `10 / mois`.
+La génération de lots d’exercices nécessite du **solde IA**.
 
 Déroulement :
 
@@ -217,7 +297,7 @@ Les lots d’exercices peuvent être supprimés depuis l’accueil, mais ils ne 
 
 ---
 
-## 12. Protéger les notes et utiliser la `Corbeille`
+## 14. Protéger les notes et utiliser la `Corbeille`
 
 - si vous choisissez `Protéger` dans `Liste des notes`, la note devient en lecture seule
 - dans les réglages, vous pouvez exiger la biométrie pour retirer la protection
@@ -228,7 +308,7 @@ Les lots d’exercices peuvent être supprimés depuis l’accueil, mais ils ne 
 
 ---
 
-## 13. Réglages et sauvegarde
+## 15. Réglages et sauvegarde
 
 Dans `Réglages`, vous pouvez principalement modifier :
 
@@ -237,6 +317,9 @@ Dans `Réglages`, vous pouvez principalement modifier :
 - `Ouvrir l’accueil` ou `Ouvrir la dernière note`
 - `Réduire automatiquement la palette`
 - `Fonction de mémorisation`
+- `Assistant de résolution`
+- `Langue de transcription`
+- format par défaut du Résumé IA pour Études ou Réunion
 - `Libellé des matières`
 - exiger la biométrie pour retirer la protection
 - `Mode gaucher`
@@ -253,6 +336,9 @@ Dans `Réglages > Sauvegarde`, vous pouvez utiliser :
 
 La `sauvegarde facile` utilise iCloud pour enregistrer et restaurer les données.  
 La sauvegarde basée sur fichier reste disponible même sans Premium.
+
+Les informations d’enregistrement et les transcriptions sont incluses dans les sauvegardes.
+Les fichiers audio d’enregistrement (m4a) sont inclus dans `Exporter la sauvegarde` et dans la `sauvegarde facile` uniquement si **Inclure l’audio des enregistrements dans les sauvegardes** est activé.
 
 Après une restauration, fermez l’app une fois puis rouvrez-la.  
 Au prochain lancement, l’accueil s’affichera.

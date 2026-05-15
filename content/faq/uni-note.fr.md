@@ -16,7 +16,7 @@ iPad uniquement.
 Oui.  
 Dans l’état actuel de l’app, la version gratuite est limitée à **10 matières maximum** et **6 notes maximum par matière**.
 
-Premium supprime les limites sur le nombre de matières et de notes.
+Premium supprime les limites sur le nombre de matières et de notes, et donne accès à Déplacer la zone, à l’enregistrement et à la sauvegarde facile.
 
 ### Quelles langues sont prises en charge ?
 L’app prend actuellement en charge :
@@ -27,6 +27,19 @@ L’app prend actuellement en charge :
 - l’allemand
 - le chinois traditionnel
 - le français
+
+### Quelles sont les principales nouveautés de la v3.0.0 ?
+La v3.0.0 est une mise à jour importante des aides à l’étude et des outils de note.
+
+- L’`Assistant de résolution` est de nouveau disponible et accessible en haut de l’écran de note
+- La `Règle` a été ajoutée
+- `Déplacer la zone` a été ajouté
+- La `Fonction de mémorisation` a été entièrement repensée sous forme de marqueurs pense-bête
+- `Enregistrement`, transcription en temps réel et Résumé IA ont été ajoutés
+- Le réordonnancement des matières sur l’accueil et des notes dans la liste des notes a été ajouté
+- Des diagnostics et analyses de plantage via Firebase Crashlytics ont été ajoutés
+
+Les données de diagnostic et de plantage ne contiennent pas le contenu des notes, l’écriture manuscrite, les noms de matières, les pièces jointes, les images, les PDF ni le contenu des enregistrements.
 
 ### Puis-je utiliser l’app avec `Split View` ou `Slide Over` ?
 Oui.  
@@ -84,6 +97,8 @@ L’orientation du cahier ne peut pas être changée après sa création.
 Oui.  
 Vous pouvez en ajouter une depuis **Nouvelle note** dans **Liste des notes**.
 
+Vous pouvez aussi réordonner les notes dans **Liste des notes**.
+
 ### Comment les nouvelles pages sont-elles ajoutées ?
 Lorsque vous commencez à écrire sur la dernière page, la suivante est ajoutée automatiquement.
 
@@ -94,6 +109,19 @@ Une fois `150` pages atteintes, vous ne pouvez plus en ajouter. Le collage de PD
 ### Puis-je zoomer ?
 Oui.  
 Sur l’écran de note, vous pouvez zoomer ou dézoomer avec un pincement à deux doigts.
+
+### Puis-je entourer une zone manuscrite pour la déplacer ?
+Oui.
+Depuis **Déplacer la zone** en haut de l’écran de note, vous pouvez sélectionner et déplacer plusieurs traits manuscrits ensemble.
+
+Déroulement :
+
+- choisissez **Déplacer la zone**
+- entourez avec l’Apple Pencil la zone manuscrite à déplacer
+- faites glisser l’écriture sélectionnée
+
+Tout trait même partiellement inclus dans la zone entourée est sélectionné en entier. Cela concerne les traits manuscrits ; les photos, les PDF et les marqueurs pense-bête se manipulent séparément.
+**Déplacer la zone** est une fonction Premium.
 
 ### Puis-je supprimer une page ?
 Oui.  
@@ -118,6 +146,8 @@ Vous pouvez changer :
 
 L’orientation du cahier ne peut pas être changée après création.  
 Les titres des notes peuvent toujours être modifiés depuis **Liste des notes**.
+
+Vous pouvez aussi réordonner les matières sur l’accueil.
 
 ### Que peut-on restaurer depuis la corbeille ?
 Les matières et les notes affichées dans la liste des notes.  
@@ -156,34 +186,84 @@ Choisissez **Exporter en PDF** dans **Plus** pour exporter **Cette note uniqueme
 
 ---
 
+## Enregistrement et transcription
+
+### Puis-je utiliser l’enregistrement ?
+Oui.
+Le bouton **Enregistrement** en haut de l’écran de note ouvre le panneau d’enregistrement.
+
+- démarrer / mettre en pause / arrêter l’enregistrement
+- lire / parcourir / modifier la vitesse de lecture
+- renommer un enregistrement
+- verrouiller ou déverrouiller un enregistrement
+- supprimer un enregistrement
+- partager l’audio de l’enregistrement
+
+L’enregistrement, la lecture et l’affichage des transcriptions sont des fonctions **Premium**.
+Une note peut conserver jusqu’à `5` enregistrements.
+Chaque fichier d’enregistrement peut durer jusqu’à 30 minutes. Lorsqu’un enregistrement atteint 30 minutes, Uni:Note le sauvegarde automatiquement et démarre l’enregistrement suivant.
+Les enregistrements divisés automatiquement comptent dans la limite de `5` enregistrements par note.
+Si vous revenez à l’accueil de Uni:Note ou si l’iPad se met en veille pendant un enregistrement, l’enregistrement se termine et est sauvegardé à ce moment-là.
+Cette action pendant un enregistrement peut endommager les données d’enregistrement. Arrêtez et sauvegardez l’enregistrement avant de quitter la note ou de mettre l’iPad en veille.
+
+### Puis-je utiliser la transcription et le Résumé IA ?
+Sur les appareils compatibles, Uni:Note peut afficher une transcription en temps réel pendant l’enregistrement.
+Selon les modèles compatibles avec la transcription indiqués par Apple, la transcription en temps réel et le Résumé IA sont disponibles sous iPadOS 26 ou version ultérieure sur iPad mini (6e génération ou ultérieure), iPad (10e génération ou ultérieure), iPad Air (4e génération ou ultérieure), iPad Pro 11 pouces (3e génération ou ultérieure), iPad Pro 12,9 pouces (5e génération ou ultérieure) et iPad Pro 13 pouces (M4 ou ultérieur).
+
+Le Résumé IA est généré à partir du texte de transcription déjà créé sur l’appareil.
+Les fichiers audio ne sont pas envoyés pour le Résumé IA.
+
+Le Résumé IA peut créer une note reconstruite au format Études ou Réunion à partir des transcriptions sélectionnées. Si plusieurs enregistrements sont sélectionnés, Uni:Note conserve les séparations entre enregistrements. Avant de l’exécuter, vous pouvez vérifier le nombre d’enregistrements, le nombre de caractères et l’estimation de consommation IA.
+
+Le Résumé IA nécessite du **solde IA**.
+
+### Les enregistrements sont-ils inclus dans les sauvegardes ?
+Les sauvegardes standard incluent les informations d’enregistrement et les transcriptions.
+Les fichiers audio d’enregistrement (m4a) sont inclus dans `Exporter la sauvegarde` et dans la `sauvegarde facile` uniquement si **Inclure l’audio des enregistrements dans les sauvegardes** est activé.
+
+---
+
 ## Aide à l’étude
 
 ### Qu’est-ce que la `Fonction de mémorisation` ?
-Activez la **Fonction de mémorisation** dans `Réglages > Aide à l'étude` pour utiliser les outils de mémorisation sur l’écran de note.
+Activez la **Fonction de mémorisation** dans `Réglages > Aide à l'étude` pour utiliser le **Marqueur pense-bête** sur l’écran de note.
 
-- masquer les zones avec le **Marqueur mémo**
-- les effacer avec la **Gomme du marqueur mémo**
-- utiliser le bouton en forme d’œil pour ouvrir ou fermer le masque de mémorisation
+- masquer des zones avec le **Marqueur pense-bête**
+- chaque trait est enregistré comme un pense-bête indépendant
+- toucher un pense-bête avec le doigt pour alterner entre transparent et opaque
+- appuyer longuement avec le doigt, puis utiliser le bouton de suppression qui apparaît
 
-### Puis-je modifier la note lorsque le masque est fermé ?
+### Puis-je afficher ou masquer tous les marqueurs d’une page en une seule fois ?
 Non.  
-L’édition est désactivée tant que le masque de mémorisation est fermé.
+Dans la v3.0.0, l’ancien fonctionnement d’ouverture / fermeture de toute la page est remplacé par un réglage de transparence par pense-bête.
+
+Les anciens marqueurs de mémorisation des versions précédentes sont migrés en marqueurs pense-bête à l’ouverture de la page.
 
 ### Quel est l’état actuel des fonctions d’aide à l’étude ?
-Actuellement, l’`Assistant de résolution` est **temporairement indisponible** pendant l’amélioration de la précision de la fonction IA.  
-`Créer un lot d’exercices` reste disponible.
+L’`Assistant de résolution` et `Créer un lot d’exercices` sont disponibles.
+Ce sont des fonctions IA et elles nécessitent du **solde IA**.
 
 ### Comment utiliser l’`Assistant de résolution` ?
-Pour le moment, vous ne pouvez pas l’utiliser.  
-Dans l’état actuel de l’app, l’`Assistant de résolution` est temporairement suspendu et n’apparaît donc pas dans les réglages ni dans la palette.
+Activez **Assistant de résolution** dans `Réglages > Aide à l'étude`. Il apparaît ensuite en haut de l’écran de note.
+
+Déroulement :
+
+- choisissez **Assistant de résolution** en haut de l’écran de note
+- entourez le problème avec l’Apple Pencil en formant une zone fermée
+- confirmez la zone sélectionnée puis choisissez **Résoudre**
+- consultez la réponse et l’explication
+
+Depuis l’écran de résultat, vous pouvez copier ou partager la réponse et l’explication.
+
+La fonction est surtout prévue pour les formules, les calculs et les questions courtes.
+Les longs textes, réponses libres et problèmes centrés sur des figures peuvent ne pas être pris en charge.
+
+Son utilisation nécessite du **solde IA**. Si votre solde IA est insuffisant, vous pouvez en ajouter dans l’app.
 
 ### Comment utiliser `Créer un lot d’exercices` ?
 Ouvrez **Créer un lot d’exercices** depuis **Plus**.
 
-- cette fonction n’est pas disponible avec l’offre gratuite
-- elle est disponible avec Premium
-
-Dans l’état actuel de l’app, la limite approximative avec Premium est de **10 / mois**.
+Son utilisation nécessite du **solde IA**.
 
 Déroulement :
 
@@ -197,12 +277,28 @@ Pour y revenir plus tard, basculez l’accueil sur **Exercices** puis ouvrez-les
 
 Les lots d’exercices peuvent être supprimés depuis l’accueil, mais ils ne vont pas à la corbeille et ne peuvent pas être restaurés.
 
+### Qu’est-ce que le solde IA ?
+Le solde IA est le solde commun utilisé par `Résolution entourée`, `Génération de lots d’exercices` et `Résumé IA`.
+S’il est épuisé, vous pouvez ajouter du solde IA depuis l’écran des offres dans l’app.
+
+Le solde IA est géré avec un identifiant utilisé pour vérifier les achats et le solde. Cet identifiant ne contient pas d’information permettant de vous identifier directement, comme votre nom, votre adresse e-mail, votre identifiant Apple ou le contenu de vos notes.
+
 ---
 
 ## Données et stockage
 
 ### Où mes données sont-elles enregistrées ?
 À l’intérieur de l’app sur votre appareil.
+
+### L’app envoie-t-elle des données de diagnostic ou de plantage ?
+Oui.
+Pour améliorer la stabilité et analyser les problèmes, Uni:Note peut envoyer des données de diagnostic et de plantage via Firebase Crashlytics.
+
+Il s’agit d’informations techniques comme la version de l’app, la version de l’OS, une catégorie générale d’appareil, la classe de taille d’écran, le type d’opération, des tranches de comptage approximatives et des catégories d’erreur sûres.
+
+Le contenu des notes, l’écriture manuscrite, les images, les PDF, les enregistrements, les résultats OCR, les noms de notes, les noms de matières, les noms de fichiers, les noms d’utilisateur et les adresses e-mail ne sont pas envoyés.
+
+Uni:Note ne collecte pas d’événements d’utilisation avec Google Analytics for Firebase.
 
 ### Une synchronisation automatique est-elle disponible ?
 Pas pour le moment.  
@@ -241,6 +337,9 @@ Vous pouvez principalement modifier :
 - `Ouvrir l’accueil` ou `Ouvrir la dernière note`
 - `Réduire automatiquement la palette`
 - `Fonction de mémorisation`
+- `Assistant de résolution`
+- `Langue de transcription`
+- format par défaut du Résumé IA pour Études ou Réunion
 - `Libellé des matières`
 - exiger la biométrie pour retirer la protection
 - `Mode gaucher`

@@ -16,7 +16,7 @@ Nur iPad.
 Ja.  
 Im aktuellen Stand der App ist die kostenlose Version auf **bis zu 10 Fächer** und **bis zu 6 Notizen pro Fach** begrenzt.
 
-Mit Premium entfallen die Begrenzungen für Fächer und Notizen.
+Mit Premium entfallen die Begrenzungen für Fächer und Notizen, und du kannst Bereich bewegen, Aufnahme und Easy Backup nutzen.
 
 ### Welche Sprachen werden unterstützt?
 Aktuell werden folgende Sprachen unterstützt:
@@ -27,6 +27,19 @@ Aktuell werden folgende Sprachen unterstützt:
 - Deutsch
 - Traditionelles Chinesisch
 - Französisch
+
+### Was ist neu in v3.0.0?
+v3.0.0 ist ein großes Update für Lernhilfe und Notizwerkzeuge.
+
+- Der `Aufgabenassistent` ist wieder verfügbar und oben auf der Notizseite erreichbar
+- `Lineal` wurde hinzugefügt
+- `Bereich bewegen` wurde hinzugefügt
+- Die `Lernfunktion` wurde vollständig als Haftnotiz-Marker überarbeitet
+- `Aufnahme`, Echtzeit-Transkription und KI-Zusammenfassung wurden hinzugefügt
+- Sortierung von Fächern auf der Startseite und von Notizen in der Notizliste wurde hinzugefügt
+- Diagnose- und Absturzanalysen mit Firebase Crashlytics wurden eingeführt
+
+Diagnose- und Absturzdaten enthalten keine Notizinhalte, Handschrift, Fachnamen, Anhänge, Bilder, PDFs oder Aufnahmeinhalte.
 
 ### Kann ich die App mit `Split View` oder `Slide Over` verwenden?
 Ja.  
@@ -84,6 +97,8 @@ Die Ausrichtung der Notiz kann nach dem Erstellen nicht mehr geändert werden.
 Ja.  
 Du kannst in der `Notizliste` über **Neue Notiz** weitere Notizen hinzufügen.
 
+Du kannst Notizen in der `Notizliste` auch neu sortieren.
+
 ### Wie werden neue Seiten hinzugefügt?
 Wenn du auf der letzten Seite zu schreiben beginnst, wird automatisch die nächste Seite ergänzt.
 
@@ -94,6 +109,19 @@ Sobald `150` Seiten erreicht sind, können keine weiteren Seiten mehr hinzugefü
 ### Kann ich zoomen?
 Ja.  
 Auf der Notizseite kannst du mit einer Zwei-Finger-Geste hinein- und herauszoomen.
+
+### Kann ich handschriftliche Bereiche einkreisen und verschieben?
+Ja.
+Über **Bereich bewegen** oben auf der Notizseite kannst du handschriftliche Linien gemeinsam auswählen und verschieben.
+
+Ablauf:
+
+- **Bereich bewegen** wählen
+- den zu verschiebenden handschriftlichen Bereich mit dem Apple Pencil einkreisen
+- die ausgewählte Handschrift ziehen
+
+Jede Linie, die auch nur teilweise im umrandeten Bereich liegt, wird vollständig ausgewählt. Dies betrifft handschriftliche Linien; Fotos, PDFs und Haftnotiz-Marker werden separat bearbeitet.
+**Bereich bewegen** ist eine Premium-Funktion.
 
 ### Kann ich eine Seite löschen?
 Ja.  
@@ -118,6 +146,8 @@ Du kannst Folgendes ändern:
 
 Die Ausrichtung der Notiz kann nach dem Erstellen nicht mehr geändert werden.  
 Notiztitel kannst du weiterhin in der `Notizliste` ändern.
+
+Auf der Startseite kannst du auch Fächer neu sortieren.
 
 ### Was kann aus dem Papierkorb wiederhergestellt werden?
 Fächer und die Notizen aus der Notizliste.  
@@ -156,34 +186,84 @@ Wähle in `Mehr` **PDF exportieren** und exportiere **Nur diese Notiz** oder das
 
 ---
 
+## Aufnahme und Transkription
+
+### Kann ich Aufnahmen verwenden?
+Ja.
+Über die Schaltfläche **Aufnahme** oben auf der Notizseite öffnest du das Aufnahmepanel.
+
+- Aufnahme starten / pausieren / stoppen
+- Wiedergabe / Suchen / Wiedergabegeschwindigkeit ändern
+- Aufnahme umbenennen
+- Aufnahme sperren / entsperren
+- Aufnahme löschen
+- Aufnahme-Audio teilen
+
+Aufnahme, Wiedergabe und das Anzeigen von Transkriptionen sind **Premium**-Funktionen.
+Eine Notiz kann bis zu `5` Aufnahmen enthalten.
+Eine Aufnahmedatei kann maximal 30 Minuten lang sein. Wenn eine Aufnahme 30 Minuten erreicht, speichert Uni:Note diese Aufnahme automatisch und startet die nächste.
+Automatisch geteilte Aufnahmen zählen zum Limit von `5` Aufnahmen pro Notiz.
+Wenn du während einer Aufnahme zu Uni:Note Home zurückkehrst oder das iPad in den Ruhezustand wechselt, wird die Aufnahme an diesem Punkt beendet und gespeichert.
+Dieses Verhalten während einer Aufnahme kann die Aufnahmedaten beschädigen. Beende und speichere die Aufnahme, bevor du die Notiz verlässt oder das iPad in den Ruhezustand versetzt.
+
+### Kann ich Transkription und KI-Zusammenfassung verwenden?
+Auf unterstützten Geräten kann Uni:Note während der Aufnahme eine Echtzeit-Transkription anzeigen.
+Auf Basis der von Apple unterstützten Transkriptionsmodelle sind Echtzeit-Transkription und KI-Zusammenfassung mit iPadOS 26 oder neuer auf iPad mini (6. Generation oder neuer), iPad (10. Generation oder neuer), iPad Air (4. Generation oder neuer), 11-Zoll-iPad Pro (3. Generation oder neuer), 12,9-Zoll-iPad Pro (5. Generation oder neuer) und 13-Zoll-iPad Pro (M4 oder neuer) verfügbar.
+
+Die KI-Zusammenfassung wird aus dem bereits auf dem Gerät erstellten Transkriptionstext erzeugt.
+Audiodateien werden für die KI-Zusammenfassung nicht gesendet.
+
+Die KI-Zusammenfassung kann aus den ausgewählten Aufnahme-Transkripten eine rekonstruierte Notiz für Lernen oder Besprechungen erstellen. Wenn mehrere Aufnahmen ausgewählt sind, bleiben die Aufnahmegrenzen erhalten. Vor dem Start kannst du Anzahl der Aufnahmen, Zeichenanzahl und geschätzten KI-Verbrauch prüfen.
+
+Für die KI-Zusammenfassung ist **KI-Guthaben** erforderlich.
+
+### Werden Aufnahmen in Backups aufgenommen?
+Standard-Backups enthalten Aufnahmeinformationen und Transkriptionen.
+Aufnahme-Audiodateien (m4a) werden sowohl bei **Backup exportieren** als auch bei `Easy Backup` nur aufgenommen, wenn **Aufnahme-Audio in Backups einschließen** aktiviert ist.
+
+---
+
 ## Lernhilfe
 
 ### Was ist die `Lernfunktion`?
-Aktiviere die `Lernfunktion` unter `Einstellungen > Lernhilfe`, um die Lernwerkzeuge in der Notizansicht zu verwenden.
+Aktiviere die `Lernfunktion` unter `Einstellungen > Lernhilfe`, um den **Haftnotiz-Marker** in der Notizansicht zu verwenden.
 
-- Bereiche mit dem `Lernmarker` verdecken
-- Mit dem `Lernmarker-Radierer` wieder entfernen
-- Mit der Augen-Schaltfläche die Lernmaske öffnen oder schließen
+- Bereiche mit dem **Haftnotiz-Marker** verdecken
+- Jeder Strich wird als eigene Haftnotiz gespeichert
+- Eine Haftnotiz mit dem Finger antippen, um zwischen transparent und deckend zu wechseln
+- Eine Haftnotiz mit dem Finger gedrückt halten und dann über die angezeigte Löschtaste löschen
 
-### Kann ich bearbeiten, während die Lernmaske geschlossen ist?
+### Kann ich alle Lernmarker einer Seite auf einmal ein- oder ausblenden?
 Nein.  
-Solange die Lernmaske geschlossen ist, ist die Bearbeitung deaktiviert.
+In v3.0.0 wurde das alte seitenweite Öffnen / Schließen durch Transparenzsteuerung pro Haftnotiz ersetzt.
+
+Alte Lernmarker aus früheren Versionen werden beim Öffnen der Seite zu Haftnotiz-Markern migriert.
 
 ### Wie ist der aktuelle Stand der Lernhilfefunktionen?
-Der `Aufgabenassistent` ist derzeit **vorübergehend nicht verfügbar**, weil die KI-Funktion verbessert wird.  
-`Aufgabenset erstellen` ist weiterhin verfügbar.
+Der `Aufgabenassistent` und `Aufgabenset erstellen` sind verfügbar.
+Beides sind KI-Funktionen und erfordern **KI-Guthaben**.
 
 ### Wie verwende ich den `Aufgabenassistenten`?
-Im Moment kannst du ihn nicht verwenden.  
-Im aktuellen Stand der App ist der `Aufgabenassistent` vorübergehend deaktiviert und erscheint daher nicht in den Einstellungen oder in der Palette.
+Aktiviere **Aufgabenassistent** unter `Einstellungen > Lernhilfe`. Danach erscheint er oben auf der Notizseite.
+
+Ablauf:
+
+- **Aufgabenassistent** oben auf der Notizseite auswählen
+- Die Aufgabe mit dem Apple Pencil als geschlossene Form einkreisen
+- Den ausgewählten Bereich prüfen und **Lösen** wählen
+- Antwort und Erklärung ansehen
+
+Auf der Ergebnisansicht kannst du Antwort und Erklärung kopieren oder teilen.
+
+Die Funktion ist vor allem für Formeln, Rechenaufgaben und kurze Fragen gedacht.
+Lange Lesetexte, freie Antworten und stark grafische Aufgaben werden möglicherweise nicht unterstützt.
+
+Für die Nutzung ist **KI-Guthaben** erforderlich. Wenn es nicht ausreicht, kannst du in der App weiteres KI-Guthaben hinzufügen.
 
 ### Wie verwende ich `Aufgabenset erstellen`?
 Öffne **Aufgabenset erstellen** über **Mehr**.
 
-- In der kostenlosen Version ist die Funktion nicht verfügbar
-- Sie ist mit Premium verfügbar
-
-Im aktuellen Stand der App liegt der Richtwert mit Premium bei **10 / Monat**.
+Für die Nutzung ist **KI-Guthaben** erforderlich.
 
 Ablauf:
 
@@ -197,12 +277,28 @@ Wenn du später darauf zurückkommen willst, wechsle auf der Startseite zu **Auf
 
 Aufgabensets können auf der Startseite gelöscht werden, landen aber nicht im Papierkorb und lassen sich nicht wiederherstellen.
 
+### Was ist KI-Guthaben?
+KI-Guthaben ist das gemeinsame Nutzungsguthaben für `Circle Solve`, `Aufgabenset-Erstellung` und `KI-Zusammenfassung`.
+Wenn es aufgebraucht ist, kannst du über die Planseite in der App KI-Guthaben hinzufügen.
+
+KI-Guthaben wird mit einer Kennung verwaltet, mit der Käufe und Guthaben geprüft werden. Diese Kennung enthält keine direkt identifizierenden Informationen wie deinen Namen, deine E-Mail-Adresse, deine Apple ID oder Notizinhalte.
+
 ---
 
 ## Daten und Speicherung
 
 ### Wo werden meine Daten gespeichert?
 Innerhalb der App auf deinem Gerät.
+
+### Sendet die App Diagnose- oder Absturzinformationen?
+Ja.
+Zur Stabilitätsverbesserung und Fehleranalyse kann Uni:Note Diagnose- und Absturzinformationen über Firebase Crashlytics senden.
+
+Dabei handelt es sich um technische Informationen wie App-Version, OS-Version, grobe Gerätekategorie, Bildschirmgrößenklasse, Vorgangsart, grobe Zählbereiche und sichere Fehlerkategorien.
+
+Notizinhalte, Handschrift, Bildinhalte, PDF-Inhalte, Aufnahmeinhalte, OCR-Ergebnisse, Notiznamen, Fachnamen, Dateinamen, Benutzernamen und E-Mail-Adressen werden nicht gesendet.
+
+Uni:Note erfasst keine Nutzungsereignisse mit Google Analytics for Firebase.
 
 ### Gibt es eine automatische Synchronisierung?
 Derzeit nicht.  
@@ -241,6 +337,9 @@ Du kannst vor allem Folgendes ändern:
 - `Startseite öffnen` oder `Vorheriges Heft öffnen`
 - `Werkzeugpalette automatisch einklappen`
 - `Lernfunktion`
+- `Aufgabenassistent`
+- `Transkriptionssprache`
+- Standardformat für KI-Zusammenfassungen für Lernen oder Besprechung
 - `Fachbezeichnung`
 - Biometrie zum Aufheben des Schutzes verlangen
 - `Linkshänder-Modus`

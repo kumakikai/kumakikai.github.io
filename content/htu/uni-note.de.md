@@ -52,6 +52,8 @@ Wenn `Als Hochformat-Notizbuch verwenden` aktiviert ist, gilt:
 Nach dem Erstellen kannst du ein Fach auf der Startseite gedrückt halten und `Bearbeiten` öffnen.  
 Fachname, Papierstil, Papierfarbe und Coverfarbe lassen sich später ändern, die Ausrichtung des Notizbuchs jedoch nicht.
 
+Auf der Startseite kannst du auch Fächer neu sortieren.
+
 ---
 
 ## 2. Die erste Notiz öffnen
@@ -95,8 +97,16 @@ In der Palette kannst du wechseln zwischen:
 - `Textmarker`
 - `Strich`
 - `Pixel`
+- `Haftnotiz-Marker`
 - `Zurück`
 - `Erneut`
+
+Über die Schaltflächen oben auf der Notizseite öffnest du:
+
+- `Lineal`
+- `Bereich bewegen`
+- `Aufgabenassistent`
+- `Aufnahme`
 
 Hinweise:
 
@@ -104,7 +114,20 @@ Hinweise:
 - Der Stift unterstützt `Bleistift`, `Kuli` und `Filzstift`
 - Farbe und Breite des Stifts lassen sich ändern
 - Beim Textmarker lassen sich Farbe, Breite und Deckkraft ändern
+- Farbe und Breite des Haftnotiz-Markers lassen sich ändern
+- `Haftnotiz-Marker` erscheint in der Palette, wenn er unter `Einstellungen > Lernhilfe` aktiviert wurde
+- `Aufgabenassistent` erscheint oben auf der Notizseite, wenn er unter `Einstellungen > Lernhilfe` aktiviert wurde
+- `Bereich bewegen` ist eine Premium-Funktion
 - Im `Linkshänder-Modus` kannst du die Standardposition der Palette ändern
+
+So verwendest du `Bereich bewegen`:
+
+- `Bereich bewegen` oben auf der Notizseite wählen
+- den zu verschiebenden handschriftlichen Bereich mit dem Apple Pencil einkreisen
+- die ausgewählte Handschrift ziehen
+
+Jede Linie, die auch nur teilweise im umrandeten Bereich liegt, wird vollständig ausgewählt.
+Dies betrifft handschriftliche Linien. Fotos, PDFs und Haftnotiz-Marker werden separat bearbeitet.
 
 ---
 
@@ -116,6 +139,7 @@ Hinweise:
 - Der Titel einer neuen Notiz ist ebenfalls optional
 - Wenn du ihn leer lässt, wird das heutige Datum verwendet
 - Wische in der Notizliste nach links, um eine Notiz umzubenennen, zu `Schützen` oder zu löschen
+- Du kannst Notizen in der Notizliste neu sortieren
 
 Öffne **Seiten**, um die Vorschaubilder innerhalb der aktuellen Notiz zu prüfen.
 
@@ -136,7 +160,7 @@ Das Menü `Mehr` enthält folgende Aktionen:
 - `PDF exportieren`
 - `Aufgabenset erstellen`
 
-`Aufgabenassistent` ist derzeit vorübergehend nicht verfügbar und wird deshalb in den Einstellungen oder in der Palette nicht angezeigt.
+`Lineal`, `Bereich bewegen`, `Aufgabenassistent` und `Aufnahme` öffnest du über die Schaltflächen oben auf der Notizseite.
 
 ---
 
@@ -172,36 +196,92 @@ Unter `PDF-Export-Hintergrundfarbe` kannst du den Hintergrund auf `Papier` oder 
 
 ---
 
-## 9. `Lernfunktion` verwenden
+## 9. `Lineal` verwenden
+
+Tippe oben auf der Notizseite auf **Lineal**, um das Lineal einzublenden.
+
+- Du kannst das Lineal mit den Fingern verschieben oder drehen
+- Wenn du mit dem Apple Pencil nahe am Lineal schreibst, werden gerade Linien korrigiert
+- Tippe erneut auf **Lineal**, um es auszublenden
+
+Mit dem Lineal gezeichnete Linien bleiben als normale Handschrift in der Notiz.
+
+---
+
+## 10. Aufnahme, Transkription und KI-Zusammenfassung verwenden
+
+Tippe oben auf der Notizseite auf **Aufnahme**, um das Aufnahmepanel zu öffnen.
+Aufnahme, Wiedergabe und das Anzeigen von Transkriptionen sind **Premium**-Funktionen.
+
+Grundfunktionen:
+
+- Mit **Aufnahme** starten
+- Mit **Pause** / **Fortsetzen** unterbrechen, ohne die Aufnahme zu beenden
+- Mit **Stopp** speichern
+- Eine gespeicherte Aufnahme auswählen und wiedergeben
+- Bei Bedarf umbenennen, sperren, löschen oder Audio teilen
+
+Eine Notiz kann bis zu `5` Aufnahmen enthalten.
+Eine Aufnahmedatei kann maximal 30 Minuten lang sein. Wenn eine Aufnahme 30 Minuten erreicht, speichert Uni:Note diese Aufnahme automatisch und startet die nächste.
+Automatisch geteilte Aufnahmen zählen zum Limit von `5` Aufnahmen pro Notiz.
+Wenn du während einer Aufnahme zu Uni:Note Home zurückkehrst oder das iPad in den Ruhezustand wechselt, wird die Aufnahme an diesem Punkt beendet und gespeichert.
+Dieses Verhalten während einer Aufnahme kann die Aufnahmedaten beschädigen. Beende und speichere die Aufnahme, bevor du die Notiz verlässt oder das iPad in den Ruhezustand versetzt.
+
+Auf Basis der von Apple unterstützten Transkriptionsmodelle sind Echtzeit-Transkription und KI-Zusammenfassung mit iPadOS 26 oder neuer auf iPad mini (6. Generation oder neuer), iPad (10. Generation oder neuer), iPad Air (4. Generation oder neuer), 11-Zoll-iPad Pro (3. Generation oder neuer), 12,9-Zoll-iPad Pro (5. Generation oder neuer) und 13-Zoll-iPad Pro (M4 oder neuer) verfügbar.
+Auf unterstützten Geräten kann während der Aufnahme eine Echtzeit-Transkription angezeigt werden.
+Die Transkriptionssprache änderst du unter `Einstellungen > Transkriptionssprache`.
+
+Die KI-Zusammenfassung wird aus dem während der Aufnahme erstellten Transkriptionstext erzeugt.
+Audiodateien werden dafür nicht gesendet. Für KI-Zusammenfassungen ist **KI-Guthaben** erforderlich.
+
+Für KI-Zusammenfassungen kannst du ein Format für Lernen oder Besprechungen wählen. Wenn mehrere Aufnahmen ausgewählt sind, bleiben die Aufnahmegrenzen erhalten. Vor dem Start kannst du Anzahl der Aufnahmen, Zeichenanzahl und geschätzten KI-Verbrauch prüfen.
+
+---
+
+## 11. `Lernfunktion` verwenden
 
 Aktiviere zuerst in `Einstellungen > Lernhilfe` die `Lernfunktion`.
 
-Danach erscheinen auf der Notizseite in der Palette die Lernwerkzeuge.
+Danach erscheint auf der Notizseite in der Palette der `Haftnotiz-Marker`.
 
-- Mit `Lernmarker` markierst du die Teile, die verborgen werden sollen
-- Mit `Lernmarker-Radierer` entfernst du sie wieder
-- Mit der Augen-Schaltfläche rechts oben öffnest oder schließt du die Lernmaske
-- Solange die Lernmaske geschlossen ist, kannst du nicht bearbeiten
+- Wähle `Haftnotiz-Marker`
+- Markiere mit dem Apple Pencil den Bereich, den du verdecken willst
+- Jeder Strich wird als eine Haftnotiz gespeichert
+- Tippe eine Haftnotiz mit dem Finger an, um zwischen transparent und deckend zu wechseln
+- Halte eine Haftnotiz mit dem Finger gedrückt und lösche sie dann über die angezeigte Löschtaste
 
----
-
-## 10. Über den `Aufgabenassistent`
-
-Der `Aufgabenassistent` ist derzeit vorübergehend nicht verfügbar.  
-Da die Genauigkeit der KI-Funktion verbessert wird, erscheint er momentan nicht in den Einstellungen oder in der Palette.
-
-Sobald die Funktion wieder verfügbar ist, weist dich die App über die Update-Mitteilung darauf hin.
+Alte Lernmarker aus früheren Versionen werden beim Öffnen der Seite zu Haftnotiz-Markern migriert.
 
 ---
 
-## 11. `Aufgabenset erstellen` verwenden
+## 12. `Aufgabenassistent` verwenden
+
+Aktiviere zuerst `Aufgabenassistent` unter `Einstellungen > Lernhilfe`.
+
+Danach erscheint `Aufgabenassistent` oben auf der Notizseite.
+
+So verwendest du ihn:
+
+- `Aufgabenassistent` oben auf der Notizseite auswählen
+- Die Aufgabe mit dem Apple Pencil als geschlossene Form einkreisen
+- Den angezeigten Bereich prüfen
+- `Lösen` wählen
+- Antwort und Erklärung ansehen
+
+Auf der Ergebnisansicht kannst du Antwort und Erklärung kopieren oder teilen.
+
+Die Funktion ist vor allem für Formeln, Rechenaufgaben und kurze Fragen gedacht.
+Lange Lesetexte, freie Antworten und stark grafische Aufgaben werden möglicherweise nicht unterstützt.
+
+Für die Nutzung ist **KI-Guthaben** erforderlich. Wenn es nicht ausreicht, kannst du in der App weiteres KI-Guthaben hinzufügen.
+
+---
+
+## 13. `Aufgabenset erstellen` verwenden
 
 Öffne `Aufgabenset erstellen` über `Mehr`.
 
-- Im kostenlosen Tarif ist die Funktion nicht verfügbar
-- Sie ist mit Premium verfügbar
-
-Im aktuellen Stand der App liegt der Richtwert mit Premium bei `10 / Monat`.
+Für das Erstellen von Aufgabensets ist **KI-Guthaben** erforderlich.
 
 Ablauf:
 
@@ -217,7 +297,7 @@ Aufgabensets können von der Startseite gelöscht werden, landen aber nicht im P
 
 ---
 
-## 12. Notizen schützen und `Papierkorb` verwenden
+## 14. Notizen schützen und `Papierkorb` verwenden
 
 - Wenn du in der `Notizliste` `Schützen` wählst, wird die Notiz schreibgeschützt
 - In den Einstellungen kannst du Biometrie zum Aufheben des Schutzes verlangen
@@ -228,7 +308,7 @@ Aufgabensets können von der Startseite gelöscht werden, landen aber nicht im P
 
 ---
 
-## 13. Einstellungen und Backups
+## 15. Einstellungen und Backups
 
 In den `Einstellungen` kannst du vor allem Folgendes ändern:
 
@@ -237,6 +317,9 @@ In den `Einstellungen` kannst du vor allem Folgendes ändern:
 - `Startseite öffnen` oder `Vorheriges Heft öffnen`
 - `Werkzeugpalette automatisch einklappen`
 - `Lernfunktion`
+- `Aufgabenassistent`
+- `Transkriptionssprache`
+- Standardformat für KI-Zusammenfassungen für Lernen oder Besprechung
 - `Fachbezeichnung`
 - Biometrie zum Aufheben des Schutzes verlangen
 - `Linkshänder-Modus`
@@ -253,6 +336,9 @@ Unter `Einstellungen > Backup` kannst du Folgendes verwenden:
 
 `Easy Backup` nutzt iCloud für Speichern und Wiederherstellen.  
 Dateibasierte Backups stehen auch ohne Premium weiterhin zur Verfügung.
+
+Aufnahmeinformationen und Transkriptionen sind Teil des Backups.
+Aufnahme-Audiodateien (m4a) werden sowohl bei `Backup exportieren` als auch bei `Easy Backup` nur aufgenommen, wenn **Aufnahme-Audio in Backups einschließen** aktiviert ist.
 
 Nach einer Wiederherstellung schließe die App einmal und öffne sie erneut.  
 Beim nächsten Start wird die Startseite angezeigt.

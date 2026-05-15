@@ -16,7 +16,7 @@ iPad only.
 Yes.  
 In the current app, the Free plan is limited to **up to 10 subjects** and **up to 6 notes per subject**.
 
-Premium removes the subject and note count limits.
+Premium removes the subject and note count limits and unlocks Move Selection, Recording, and Easy Backup.
 
 ### Which languages are supported?
 The app currently supports:
@@ -27,6 +27,19 @@ The app currently supports:
 - German
 - Traditional Chinese
 - French
+
+### What changed in v3.0.0?
+v3.0.0 is a major update for study support and notebook tools.
+
+- Restored `Problem Solver Assistant` and made it available from the top of the note screen
+- Added `Ruler`
+- Added `Move Selection`
+- Fully redesigned `Memorization Feature` as sticky-style markers
+- Added `Recording`, real-time transcription, and AI Summary
+- Added subject reordering on Home and note reordering in Note List
+- Added diagnostics and crash analysis with Firebase Crashlytics
+
+Diagnostic and crash data does not include note contents, handwriting, subject names, attachments, images, PDFs, or recording contents.
 
 ### Can I use it with `Split View` or `Slide Over`?
 Yes.  
@@ -84,6 +97,8 @@ The note orientation cannot be changed after creation.
 Yes.  
 You can add one from **New Note** in **Note List**.
 
+You can also reorder notes inside **Note List**.
+
 ### How are new pages added?
 When you start writing on the last page, the next page is added automatically.
 
@@ -94,6 +109,19 @@ Once it reaches `150`, no more pages can be added. PDF attachment also cannot ad
 ### Can I zoom?
 Yes.  
 On the note screen, you can zoom in or out with a two-finger pinch gesture.
+
+### Can I move handwriting by circling a range?
+Yes.
+Use **Move Selection** at the top of the note screen to select and move handwriting strokes together.
+
+Basic flow:
+
+- Choose **Move Selection**
+- Circle the handwriting you want to move with Apple Pencil
+- Drag the selected handwriting to move it
+
+Any line that is even partly inside the enclosed area is selected as a whole. This applies to handwriting strokes; photos, PDFs, and Sticky Markers are handled separately.
+**Move Selection** is a Premium feature.
 
 ### Can I delete a page?
 Yes.  
@@ -118,6 +146,8 @@ You can change:
 
 The note orientation cannot be changed after creation.  
 Note titles can still be changed from **Note List**.
+
+You can also reorder subjects on Home.
 
 ### What can be restored from Trash?
 Subjects and notes shown in the note list.  
@@ -156,34 +186,84 @@ Choose **Export PDF** from **More** and export **This Note Only** or the entire 
 
 ---
 
+## Recording and Transcription
+
+### Can I use recording?
+Yes.
+Use the **Recording** button at the top of the note screen to open the recording panel.
+
+- Start / pause / stop recording
+- Playback / seek / change playback speed
+- Rename recordings
+- Lock or unlock recordings
+- Delete recordings
+- Share recording audio
+
+Recording, playback, and viewing transcriptions are **Premium** features.
+One note can keep up to `5` recordings.
+Each recording file can be up to 30 minutes long. When a recording reaches 30 minutes, Uni:Note automatically saves that recording and starts the next one.
+Automatically split recordings count toward the limit of `5` recordings per note.
+If you return to Uni:Note Home or the iPad goes to sleep while recording, the recording ends and is saved at that point.
+Doing this during recording may corrupt the recording data. Stop and save the recording before leaving the note or putting the iPad to sleep.
+
+### Can I use transcription and AI Summary?
+On supported devices, Uni:Note can show real-time transcription while recording.
+Based on Apple's transcription-compatible models, real-time transcription and AI Summary are available on the following models running iPadOS 26 or later: iPad mini (6th generation or later), iPad (10th generation or later), iPad Air (4th generation or later), iPad Pro 11-inch (3rd generation or later), iPad Pro 12.9-inch (5th generation or later), and iPad Pro 13-inch (M4 or later).
+
+AI Summary is generated from the transcription text already created on the device.
+Audio files are not sent for AI Summary.
+
+AI Summary can generate a study or meeting-style reconstructed note from the selected recording transcripts. If multiple recordings are selected, Uni:Note keeps the recording boundaries. Before running it, you can check the number of recordings, character count, and estimated AI usage.
+
+AI Summary requires **AI Balance**.
+
+### Are recordings included in backups?
+Standard backups include recording metadata and transcriptions.
+Recording audio files (m4a) are included in both **Export Backup** and `Easy Backup` only when **Include recording audio in backups** is turned on.
+
+---
+
 ## Study Support
 
 ### What is `Memorization Feature`?
-Turn on **Memorization Feature** in `Settings > Study Support` to use the memory tools on the note screen.
+Turn on **Memorization Feature** in `Settings > Study Support` to use **Sticky Marker** on the note screen.
 
-- Hide parts with **Memory Marker**
-- Remove them with **Memory Marker Eraser**
-- Use the eye button to open or close the memorization mask
+- Hide parts with **Sticky Marker**
+- Each stroke is saved as an independent sticky marker
+- Tap a sticky marker with your finger to switch between transparent and opaque
+- Press and hold a sticky marker with your finger, then use the delete button that appears
 
-### Can I edit while the memorization mask is closed?
+### Can I show or hide all memorization markers for a page at once?
 No.  
-Editing is disabled while the memorization mask is closed.
+In v3.0.0, the old page-wide open / close behavior has been replaced with per-sticky transparency control.
+
+If a page has old memorization markers from an earlier version, they are migrated to sticky markers when the page is opened.
 
 ### What is the current status of the study support features?
-At the moment, `Problem Solver Assistant` is **temporarily unavailable** while the AI feature is being improved.  
-`Create Practice Set` is still available.
+`Problem Solver Assistant` and `Create Practice Set` are both available.
+Both are AI features and require **AI Balance**.
 
 ### How do I use `Problem Solver Assistant`?
-Right now, you cannot use it.  
-In the current app, `Problem Solver Assistant` is temporarily unavailable, so it is not shown in Settings or in the palette.
+Turn on **Problem Solver Assistant** in `Settings > Study Support`. It then appears at the top of the note screen.
+
+Basic flow:
+
+- Choose **Problem Solver Assistant** at the top of the note screen
+- Circle the problem with Apple Pencil using a closed shape
+- Confirm the selected area and choose **Solve**
+- Review the answer and explanation
+
+From the result screen, you can copy or share the answer and explanation.
+
+It is mainly intended for formulas, calculations, and short questions.
+Long reading passages, free-response questions, and figure-heavy questions may not be supported.
+
+Using it requires **AI Balance**. If your AI Balance is insufficient, you can add more in the app.
 
 ### How do I use `Create Practice Set`?
 Open **Create Practice Set** from **More**.
 
-- It is not available on the Free plan
-- It is available on Premium
-
-In the current app, the rough limit on Premium is **10 / month**.
+Using it requires **AI Balance**.
 
 Basic flow:
 
@@ -197,12 +277,28 @@ To revisit them later, switch Home to **Practice Sets** and open them from the l
 
 Practice sets can be deleted from Home, but they do not go to Trash and cannot be restored.
 
+### What is AI Balance?
+AI Balance is the shared balance used by `Circle Solve`, `Practice Set Generation`, and `AI Summary`.
+If it runs out, you can add AI Balance from the plan screen in the app.
+
+AI Balance is managed with an identifier used to verify purchases and balance. This identifier does not contain directly identifying information such as your name, email address, Apple ID, or note contents.
+
 ---
 
 ## Data and storage
 
 ### Where is my data stored?
 Inside the app on your device.
+
+### Does the app send diagnostics or crash information?
+Yes.
+To improve stability and investigate issues, Uni:Note may send diagnostic data and crash information using Firebase Crashlytics.
+
+The data is technical information such as app version, OS version, broad device category, screen size class, operation type, coarse count buckets, and safe error categories.
+
+It does not include note body content, handwriting, image content, PDF content, recording contents, OCR results, note names, subject names, file names, user names, or email addresses.
+
+Uni:Note does not collect usage events with Google Analytics for Firebase.
 
 ### Is automatic sync available?
 Not at this time.  
@@ -241,6 +337,9 @@ You can mainly change the following:
 - `Open Home` or `Open Previous Notebook`
 - `Auto-collapse Tool Palette`
 - `Memorization Feature`
+- `Problem Solver Assistant`
+- `Recording Transcription Language`
+- default AI Summary format for Study or Meeting
 - `Subject Name`
 - `Require Biometrics to Remove Protection`
 - `Left-Handed Mode`
