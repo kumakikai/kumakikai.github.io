@@ -113,7 +113,7 @@ Dans la liste des notes, les notes avec des reperes adhesifs affichent un indica
 Quand vous ouvrez la page, les reperes s'affichent sur la page dans le style des reperes adhesifs de Uni:Note v3.0.0.
 
 - touchez un repere pour alterner entre l'affichage normal et attenue
-- les anciens masques de memorisation sont aussi affiches dans un style de repere adhesif
+- les anciens masques de memorisation sont convertis automatiquement en reperes adhesifs a l'ouverture de la note
 
 Uni:Note Pocket ne modifie ni les reperes adhesifs ni le masque de memorisation lui-meme.
 

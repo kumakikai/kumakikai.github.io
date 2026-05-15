@@ -113,7 +113,7 @@ In der Notizliste zeigen Notizen mit Haftnotiz-Markern einen Hinweis.
 Beim Öffnen der Seite werden die Marker im Haftnotiz-Marker-Stil von Uni:Note v3.0.0 auf der Seite angezeigt.
 
 - Marker antippen, um zwischen normaler und blasser Darstellung zu wechseln
-- ältere Lernmasken werden ebenfalls im Haftnotiz-Marker-Stil angezeigt
+- ältere Lernmasken werden beim Öffnen der Notiz automatisch in Haftnotiz-Marker umgewandelt
 
 Uni:Note Pocket bearbeitet weder Haftnotiz-Marker noch die Lernmaske selbst.
 

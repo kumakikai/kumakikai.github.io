@@ -112,7 +112,7 @@ In the note list, notes with sticky markers show an indicator.
 When you open the page, the markers are shown on the page in the Uni:Note v3.0.0 sticky marker style.
 
 - tap a marker to switch between normal and faint display
-- older memorization masks are also shown in a sticky-marker style
+- older memorization masks are automatically converted to sticky markers when you open the note
 
 Uni:Note Pocket does not edit sticky markers or the memorization mask itself.
 
