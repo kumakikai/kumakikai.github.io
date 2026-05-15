@@ -9,7 +9,7 @@ aliases:
 
 ### Was ist Uni:Note Pocket für eine App?
 Uni:Note Pocket ist eine Begleit-App zur iPad-App **Uni:Note**.  
-Damit kannst du auf dem iPhone in Uni:Note erstellte Backups laden und Notizen, Seiten sowie `Fragensets` schreibgeschützt ansehen.
+Damit kannst du auf dem iPhone in Uni:Note erstellte Backups laden, Notizen, Seiten und `Fragensets` schreibgeschützt ansehen und Aufnahmeaudio abspielen.
 
 ### Kann ich Uni:Note Pocket allein verwenden?
 Nein.  
@@ -34,6 +34,8 @@ Du kannst importieren:
 
 - Backup-ZIP-Dateien, die in Uni:Note erstellt wurden
 - das auf diesem iPhone erkannte `Einfaches Backup` von Uni:Note
+
+Backups aus Uni:Note v3.0.0 werden unterstützt.
 
 ### Wird die ursprüngliche Backup-Datei beim Import verändert?
 Nein.  
@@ -66,7 +68,8 @@ Die Hauptfunktionen sind:
 - über **Zuletzt verwendete Notizen** fortsetzen
 - die oberste Liste durchsuchen
 - Seiten ansehen
-- Lernmasken ein- oder ausblenden
+- Aufnahmen abspielen, wenn das Backup Aufnahmeaudio enthält
+- Lernmasken und Haftnotiz-Marker ein- oder ausblenden
 
 ### Kann ich Notizen oder Seiten bearbeiten?
 Nein.  
@@ -80,9 +83,25 @@ Erstellung und Bearbeitung bleiben bewusst in Uni:Note.
 Ja.  
 Wenn das importierte Backup in Uni:Note gespeicherte `Fragensets` enthält, kannst du sie über **Fragensets** auf Home öffnen.
 
-### Was ist die Lernmaske?
+### Kann ich Aufnahmen abspielen?
+Ja.
+Wenn das importierte Backup Aufnahmeaudio enthält, kannst du es in der Seitenansicht von Notizen mit Aufnahmen abspielen.
+Sind mehrere Aufnahmen vorhanden, kannst du die gewünschte Aufnahme auswählen.
+
+### Was passiert, wenn das Backup kein Aufnahmeaudio enthält?
+Aufnahmen können nicht abgespielt werden, wenn das Backup die Audiodateien nicht enthält.
+In diesem Fall zeigt die App **Dieses Backup enthält die Audiodatei der Aufnahme nicht.**
+
+### Kann Uni:Note Pocket aufnehmen, transkribieren oder KI-Zusammenfassungen erstellen?
+Nein.
+Uni:Note Pocket ist für Aufnahmen nur zur Wiedergabe gedacht. Aufnahmeerstellung, Bearbeitung, Transkription und KI-Zusammenfassungen bleiben auf der Uni:Note-Seite.
+
+### Was sind Lernmaske und Haftnotiz-Marker?
 Das ist die seitenbezogene Ebene, die du beim Wiederholen ein- oder ausblenden kannst.  
+Bei Uni:Note v3.0.0-Backups ist die Darstellung der Auswendig-Marker an die Haftnotiz-Marker angepasst. Notizen mit Haftnotiz-Markern können einen Hinweis anzeigen.
 Mit der Augen-Schaltfläche rechts wechselst du zwischen **Auswendig-Layer anzeigen** und **Auswendig-Layer ausblenden**.
+
+Uni:Note Pocket bearbeitet weder Haftnotiz-Marker noch die Lernmaske selbst.
 
 ### Kann ich Seiten vergrößern?
 Ja.  

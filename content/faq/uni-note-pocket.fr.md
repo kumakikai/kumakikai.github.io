@@ -9,7 +9,7 @@ aliases:
 
 ### Quel type d'application est Uni:Note Pocket ?
 Uni:Note Pocket est une application compagnon de l'application iPad **Uni:Note**.  
-Elle permet de charger sur iPhone des sauvegardes creees dans Uni:Note et de relire les notes, les pages et les `Lots` en lecture seule.
+Elle permet de charger sur iPhone des sauvegardes creees dans Uni:Note, de relire les notes, les pages et les `Lots` en lecture seule, et de lire l'audio des enregistrements.
 
 ### Puis-je utiliser Uni:Note Pocket seul ?
 Non.  
@@ -34,6 +34,8 @@ Vous pouvez importer :
 
 - des fichiers zip de sauvegarde crees dans Uni:Note
 - la `Sauvegarde rapide` de Uni:Note detectee sur cet iPhone
+
+Les sauvegardes Uni:Note v3.0.0 sont prises en charge.
 
 ### L'import modifie-t-il le fichier de sauvegarde d'origine ?
 Non.  
@@ -66,7 +68,8 @@ Les fonctions principales sont :
 - reprendre depuis **Notes recentes**
 - consulter la liste de niveau superieur
 - afficher les pages
-- afficher ou masquer les calques de memorisation
+- lire les enregistrements lorsque la sauvegarde contient l'audio
+- afficher ou masquer les calques de memorisation et les reperes adhesifs
 
 ### Puis-je modifier des notes ou des pages ?
 Non.  
@@ -80,9 +83,25 @@ La creation et la modification restent du cote de Uni:Note.
 Oui.  
 Si la sauvegarde importee contient des `Lots` enregistres dans Uni:Note, vous pouvez les ouvrir depuis **Lots** sur l'accueil.
 
-### Qu'est-ce que le calque de memorisation ?
+### Puis-je lire les enregistrements ?
+Oui.
+Si la sauvegarde importee contient l'audio des enregistrements, vous pouvez le lire depuis l'ecran de page des notes concernees.
+Si plusieurs enregistrements sont disponibles, vous pouvez choisir lequel lire.
+
+### Que se passe-t-il si la sauvegarde ne contient pas l'audio ?
+Les enregistrements ne peuvent pas etre lus lorsque la sauvegarde ne contient pas les fichiers audio.
+Dans ce cas, l'application affiche **Cette sauvegarde ne contient pas l’audio de l’enregistrement.**
+
+### Uni:Note Pocket peut-il enregistrer, transcrire ou creer des resumes IA ?
+Non.
+Uni:Note Pocket est uniquement capable de lire les enregistrements. La creation, l'edition, la transcription et les resumes IA restent du cote de Uni:Note.
+
+### Que sont le calque de memorisation et les reperes adhesifs ?
 C'est le calque de page que vous pouvez afficher ou masquer pendant la relecture.  
+Pour les sauvegardes Uni:Note v3.0.0, l'affichage des marqueurs de memorisation est aligne sur les reperes adhesifs, et les notes qui en contiennent peuvent afficher un indicateur.
 Le bouton oeil a droite permet de basculer entre **Afficher le calque de memorisation** et **Masquer le calque de memorisation**.
+
+Uni:Note Pocket ne modifie ni les reperes adhesifs ni le masque de memorisation lui-meme.
 
 ### Puis-je zoomer sur les pages ?
 Oui.  

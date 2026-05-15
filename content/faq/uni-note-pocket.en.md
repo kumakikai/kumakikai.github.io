@@ -9,7 +9,7 @@ aliases:
 
 ### What kind of app is Uni:Note Pocket?
 Uni:Note Pocket is a companion app for the iPad app **Uni:Note**.  
-It lets you load backup data created in Uni:Note and review notes, pages, and `Question Sets` on iPhone in read-only mode.
+It lets you load backup data created in Uni:Note, review notes, pages, and `Question Sets` on iPhone, and play recording audio.
 
 ### Can I use Uni:Note Pocket by itself?
 No.  
@@ -34,6 +34,8 @@ You can import:
 
 - backup zip files created in Uni:Note
 - Uni:Note `Easy Backup` found on this iPhone
+
+Uni:Note v3.0.0 backups are supported.
 
 ### Does importing change the original backup file?
 No.  
@@ -66,7 +68,8 @@ The main functions are:
 - resume from **Recent Notes**
 - browse top-level subjects
 - view pages
-- show or hide memorization layers
+- play recordings when the backup includes recording audio
+- show or hide memorization layers and sticky markers
 
 ### Can I edit notes or pages?
 No.  
@@ -80,9 +83,25 @@ Creation and editing are meant to stay in Uni:Note.
 Yes.  
 If the imported backup includes `Question Sets` saved in Uni:Note, you can open them from **Question Sets** on Home.
 
-### What is the memorization layer?
+### Can I play recordings?
+Yes.
+If the imported backup includes recording audio, you can play it from the page view for notes that have recordings.
+When multiple recordings are available, you can choose which one to play.
+
+### What if the backup does not include recording audio?
+Recordings cannot be played when the backup does not include the audio files.
+In that case, the app shows **This backup does not include the recording audio.**
+
+### Can Uni:Note Pocket record, transcribe, or create AI summaries?
+No.
+Uni:Note Pocket is playback-only for recordings. Recording creation, editing, transcription, and AI summaries stay on the Uni:Note side.
+
+### What are memorization layers and sticky markers?
 It is the page-level layer you can toggle while reviewing.  
+For Uni:Note v3.0.0 backups, memorization markers are aligned with the sticky marker display, and notes with sticky markers can show an indicator.
 Use the eye button on the right to switch between **Show Memorization Layer** and **Hide Memorization Layer**.
+
+Uni:Note Pocket does not edit sticky markers or the memorization mask itself.
 
 ### Can I zoom pages?
 Yes.  

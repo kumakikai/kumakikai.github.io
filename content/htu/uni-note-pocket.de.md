@@ -6,12 +6,12 @@ aliases:
 ---
 
 Uni:Note Pocket ist eine **Begleit-App, um Uni:Note-Backups auf dem iPhone anzusehen**.  
-Sie ist keine Schreib-App. Ihre Aufgabe ist es, Backups zu laden und dich Notizen und `Fragensets` schreibgeschützt ansehen zu lassen.
+Sie ist keine Schreib-App. Ihre Aufgabe ist es, Backups zu laden, Notizen und `Fragensets` schreibgeschützt anzusehen und Aufnahmeaudio abzuspielen.
 
 Voraussetzungen:
 
 - nur iPhone
-- ein in Uni:Note erstelltes Backup-ZIP
+- ein in Uni:Note erstelltes Backup-ZIP oder ein `Einfaches Backup` auf diesem iPhone
 - Fokus auf Ansicht und Wiederholung, nicht auf Bearbeitung oder Sync
 
 ---
@@ -55,6 +55,7 @@ Nach dem Import zeigt der Hauptbildschirm:
 - die oberste Liste mit Notizzahlen
 - eine **Zuletzt verwendete Notizen**-Sektion zum schnellen Fortsetzen
 - eine **Fragensets**-Sektion, wenn das importierte Backup gespeicherte Sets enthält
+- Hinweise für Notizen mit Aufnahmeaudio oder Haftnotiz-Markern
 
 Die Bezeichnung der obersten Ebene richtet sich nach **Fachbezeichnung** in den Einstellungen.
 
@@ -67,6 +68,7 @@ Wenn du einen Eintrag der obersten Ebene öffnest, gelangst du in die Liste **No
 - Notizliste öffnen
 - Notiz auswählen
 - Seiten in einem vertikalen Fluss ansehen
+- Aufnahmen in der Seitenansicht abspielen, wenn die Notiz Aufnahmeaudio enthält
 
 Uni:Note Pocket ist schreibgeschützt und benennt daher keine Notizen um und bearbeitet keine Seiten.
 
@@ -80,11 +82,22 @@ In der Seitenansicht konzentrierst du dich auf die importierten Inhalte.
 - per Doppeltipp zoomen
 - mit vertikalem Scrollen durch die Seiten bewegen
 
-Die App ist darauf ausgelegt, auch größere Notizen sicher und einfach nachzulesen.
+---
+
+## 7. Aufnahmen abspielen
+
+Wenn das Backup Aufnahmeaudio enthält, erscheint in der Seitenansicht von Notizen mit Aufnahmen eine Aufnahme-Schaltfläche.
+
+- über **Aufnahme abspielen** starten
+- bei mehreren Aufnahmen unter **Aufnahmen** auswählen
+- Wiedergabe / Pause, Stopp, Wiedergabeposition und Wiedergabegeschwindigkeit steuern
+
+Uni:Note Pocket spielt Aufnahmen nur ab. Aufnahmeerstellung, Bearbeitung, Transkription und KI-Zusammenfassungen bleiben auf der Uni:Note-Seite.
+Wenn das Backup die Audiodatei der Aufnahme nicht enthält, kann sie nicht abgespielt werden.
 
 ---
 
-## 7. `Fragensets` wiederholen
+## 8. `Fragensets` wiederholen
 
 Wenn das importierte Backup in Uni:Note gespeicherte `Fragensets` enthält, kannst du sie über **Fragensets** auf Home öffnen.
 
@@ -94,18 +107,19 @@ Wenn das importierte Backup in Uni:Note gespeicherte `Fragensets` enthält, kann
 
 ---
 
-## 8. Lernmaske anzeigen oder ausblenden
+## 9. Lernmaske und Haftnotiz-Marker anzeigen oder ausblenden
 
 Mit der Augen-Schaltfläche auf der rechten Seite schaltest du die seitenbezogene Lernmaske um.
+Bei Uni:Note v3.0.0-Backups ist die Darstellung der Auswendig-Marker an die Haftnotiz-Marker angepasst. Notizen mit Haftnotiz-Markern können einen Hinweis anzeigen.
 
 - **Auswendig-Layer anzeigen**
 - **Auswendig-Layer ausblenden**
 
-Uni:Note Pocket bearbeitet die Lernmaske selbst nicht.
+Uni:Note Pocket bearbeitet weder Haftnotiz-Marker noch die Lernmaske selbst.
 
 ---
 
-## 9. Einstellungen anpassen
+## 10. Einstellungen anpassen
 
 In `Einstellungen` kannst du vor allem Folgendes ändern:
 
@@ -120,7 +134,7 @@ Mit **Fachbezeichnung** stellst du die oberste Bezeichnung auf **Fach / Notiz / 
 
 ---
 
-## 10. Später ein neueres Backup laden
+## 11. Später ein neueres Backup laden
 
 Wenn du in Uni:Note ein neueres Backup erstellt hast, nutze in Uni:Note Pocket erneut das Import-Symbol unten rechts auf dem Home-Bildschirm.  
 Wenn du `Einfaches Backup` nutzt, kannst du auch `Einstellungen > Einfaches Backup > Manuell laden` verwenden.

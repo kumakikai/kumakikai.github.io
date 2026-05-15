@@ -6,12 +6,12 @@ aliases:
 ---
 
 Uni:Note Pocket is a **companion app for reviewing Uni:Note backups on iPhone**.  
-It is not a writing app. Its job is to load backup data and let you review notes and `Question Sets` in read-only mode.
+It is not a writing app. Its job is to load backup data, let you review notes and `Question Sets`, and play recording audio.
 
 Requirements:
 
 - iPhone only
-- a backup zip created in Uni:Note
+- a backup zip created in Uni:Note, or a Uni:Note `Easy Backup` on this iPhone
 - focused on viewing and review, not editing or sync
 
 ---
@@ -54,6 +54,7 @@ After import, Home lets you switch between **Notes** and **Question Sets**. The 
 - top-level subjects with note counts
 - a **Recent Notes** section for quick resume
 - a **Question Sets** section when the imported backup includes saved sets
+- indicators for notes that include recording audio or sticky markers
 
 The top-level label changes according to **Subject Name** in Settings.
 
@@ -66,6 +67,7 @@ When you open a subject, you can move into the **Notes** list and choose what to
 - open the note list
 - choose a note
 - review pages in a continuous vertical flow
+- play recordings from the page view when the note includes recording audio
 
 Uni:Note Pocket is read-only, so it does not rename notes or edit pages.
 
@@ -79,11 +81,22 @@ In the page view, you can focus on reading the imported content.
 - double tap to zoom
 - move through pages with vertical scrolling
 
-The app is designed to keep review simple and safe even for heavier notes.
+---
+
+## 7. Play recordings
+
+When the backup includes recording audio, notes with recordings show a recording button in the page view.
+
+- use **Play Recording** to start playback
+- choose from **Recordings** when multiple recordings are available
+- control play / pause, stop, playback position, and playback speed
+
+Uni:Note Pocket only plays recordings. Recording creation, editing, transcription, and AI summaries stay on the Uni:Note side.
+If the backup does not include the recording audio, it cannot be played.
 
 ---
 
-## 7. Review `Question Sets`
+## 8. Review `Question Sets`
 
 If the imported backup includes `Question Sets` saved in Uni:Note, you can open them from **Question Sets** on Home.
 
@@ -93,18 +106,19 @@ If the imported backup includes `Question Sets` saved in Uni:Note, you can open 
 
 ---
 
-## 8. Show or hide the memorization layer
+## 9. Show or hide memorization layers and sticky markers
 
 Use the eye button on the right side to switch the page-level memorization layer.
+For Uni:Note v3.0.0 backups, memorization markers are aligned with the sticky marker display, and notes with sticky markers can show an indicator.
 
 - **Show Memorization Layer**
 - **Hide Memorization Layer**
 
-Uni:Note Pocket does not edit the memorization mask itself.
+Uni:Note Pocket does not edit sticky markers or the memorization mask itself.
 
 ---
 
-## 9. Adjust Settings
+## 10. Adjust Settings
 
 In Settings, you can mainly change:
 
@@ -119,7 +133,7 @@ In Settings, you can mainly change:
 
 ---
 
-## 10. Import a newer backup later
+## 11. Import a newer backup later
 
 When you create a newer backup in Uni:Note, use the import icon in the bottom right of Home again in Uni:Note Pocket.
 If you use `Easy Backup`, you can also refresh it from `Settings > Easy Backup > Load Manually`.

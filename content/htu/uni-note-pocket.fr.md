@@ -6,12 +6,12 @@ aliases:
 ---
 
 Uni:Note Pocket est une **application compagnon pour relire les sauvegardes Uni:Note sur iPhone**.  
-Ce n'est pas une application d'ecriture. Son role est de charger des sauvegardes et de vous laisser relire les notes et les `Lots` en lecture seule.
+Ce n'est pas une application d'ecriture. Son role est de charger des sauvegardes, de relire les notes et les `Lots` en lecture seule, et de lire l'audio des enregistrements.
 
 Pre-requis :
 
 - iPhone uniquement
-- un fichier zip de sauvegarde cree dans Uni:Note
+- un fichier zip de sauvegarde cree dans Uni:Note, ou une `Sauvegarde rapide` sur cet iPhone
 - usage centre sur la consultation et la relecture, pas sur l'edition ni la synchronisation
 
 ---
@@ -55,6 +55,7 @@ Apres l'import, l'ecran principal affiche :
 - les elements de niveau superieur avec leur nombre de notes
 - une section **Notes recentes** pour reprendre rapidement
 - une section **Lots** lorsque la sauvegarde importee contient des lots enregistres
+- des indicateurs pour les notes qui contiennent de l'audio d'enregistrement ou des reperes adhesifs
 
 Le nom du niveau superieur depend du reglage **Libelle des matieres**.
 
@@ -67,6 +68,7 @@ Quand vous ouvrez un element de niveau superieur, vous arrivez dans la liste **N
 - ouvrir la liste des notes
 - choisir une note
 - consulter les pages dans un flux vertical continu
+- lire les enregistrements depuis l'ecran de page lorsque la note contient de l'audio
 
 Uni:Note Pocket est en lecture seule et ne renomme donc pas les notes ni ne modifie les pages.
 
@@ -80,11 +82,22 @@ Dans l'ecran de page, vous pouvez vous concentrer sur le contenu importe.
 - double appui pour zoomer
 - defilement vertical pour changer de page
 
-L'application privilegie une relecture simple et sure, meme pour des notes plus lourdes.
+---
+
+## 7. Lire les enregistrements
+
+Lorsque la sauvegarde contient l'audio des enregistrements, les notes concernees affichent un bouton d'enregistrement dans l'ecran de page.
+
+- utilisez **Lire l’enregistrement** pour lancer la lecture
+- choisissez dans **Enregistrements** si plusieurs enregistrements sont disponibles
+- controlez lecture / pause, arret, position de lecture et vitesse de lecture
+
+Uni:Note Pocket lit uniquement les enregistrements. La creation, l'edition, la transcription et les resumes IA restent du cote de Uni:Note.
+Si la sauvegarde ne contient pas l'audio de l'enregistrement, il ne peut pas etre lu.
 
 ---
 
-## 7. Relire les `Lots`
+## 8. Relire les `Lots`
 
 Si la sauvegarde importee inclut des `Lots` enregistres dans Uni:Note, vous pouvez les ouvrir depuis **Lots** sur l'accueil.
 
@@ -94,18 +107,19 @@ Si la sauvegarde importee inclut des `Lots` enregistres dans Uni:Note, vous pouv
 
 ---
 
-## 8. Afficher ou masquer le calque de memorisation
+## 9. Afficher ou masquer le calque de memorisation et les reperes adhesifs
 
 Utilisez le bouton oeil a droite pour basculer le calque de memorisation de la page.
+Pour les sauvegardes Uni:Note v3.0.0, l'affichage des marqueurs de memorisation est aligne sur les reperes adhesifs, et les notes qui en contiennent peuvent afficher un indicateur.
 
 - **Afficher le calque de memorisation**
 - **Masquer le calque de memorisation**
 
-Uni:Note Pocket ne modifie pas le masque de memorisation lui-meme.
+Uni:Note Pocket ne modifie ni les reperes adhesifs ni le masque de memorisation lui-meme.
 
 ---
 
-## 9. Ajuster les reglages
+## 10. Ajuster les reglages
 
 Dans `Reglages`, vous pouvez principalement modifier :
 
@@ -120,7 +134,7 @@ Avec **Libelle des matieres**, vous pouvez renommer le niveau superieur en **Mat
 
 ---
 
-## 10. Importer plus tard une sauvegarde plus recente
+## 11. Importer plus tard une sauvegarde plus recente
 
 Lorsque vous creez une sauvegarde plus recente dans Uni:Note, utilisez a nouveau l'icone d'import en bas a droite de l'ecran d'accueil dans Uni:Note Pocket.  
 Si vous utilisez `Sauvegarde rapide`, vous pouvez aussi la charger depuis `Reglages > Sauvegarde rapide > Charger manuellement`.
