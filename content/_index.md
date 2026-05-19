@@ -23,9 +23,11 @@ description: "KUMAKIKAIのアプリ一覧とサポート情報"
 
 ### リンク
 
+- [紹介・サポート](/notes/2026-05-19-oto-miru/)
 - [使い方](/htu/oto-miru/)
 - [よくある質問](/faq/oto-miru/)
 - [プライバシーポリシー](/privacy/oto-miru/)
+- [利用規約](/terms/oto-miru/)
 
 ---
 
