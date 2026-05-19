@@ -7,6 +7,7 @@ description: "アプリ別のプライバシーポリシー一覧"
 
 対象アプリ:
 
+- [オトミル](/privacy/oto-miru/)
 - [すわなび - 禁煙カウンターアプリ](/privacy/smokeless/)
 - [ギャンカレ](/privacy/balance-calendar/)
 - [SIGNAL](/privacy/signal/)

@@ -7,6 +7,7 @@ description: "アプリ別のよくある質問"
 
 対象アプリ:
 
+- [オトミル](/faq/oto-miru/)
 - [大学ノート - Uni:Note](/faq/uni-note/)
 - [すわなび - 禁煙カウンターアプリ](/faq/smokeless/)
 - [ギャンカレ](/faq/balance-calendar/)

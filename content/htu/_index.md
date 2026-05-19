@@ -7,6 +7,7 @@ description: "アプリ別の使い方"
 
 対象アプリ:
 
+- [オトミル](/htu/oto-miru/)
 - [すわなび - 禁煙カウンターアプリ](/htu/smokeless/)
 - [ギャンカレ](/htu/balance-calendar/)
 - [SIGNAL](/htu/signal/)
