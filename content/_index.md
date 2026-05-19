@@ -23,6 +23,7 @@ description: "KUMAKIKAIのアプリ一覧とサポート情報"
 
 ### リンク
 
+- [App Store](https://apps.apple.com/jp/app/id6770774613)
 - [紹介・サポート](/notes/2026-05-19-oto-miru/)
 - [使い方](/htu/oto-miru/)
 - [よくある質問](/faq/oto-miru/)
