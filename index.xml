@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>アプリ一覧 on KUMAKIKAI</title><link>https://kumakikai.github.io/</link><description>Recent content in アプリ一覧 on KUMAKIKAI</description><generator>Hugo -- 0.154.5</generator><language>ja-JP</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://kumakikai.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>オトミルを作りました</title><link>https://kumakikai.github.io/notes/2026-05-19-oto-miru/</link><pubDate>Tue, 19 May 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/notes/2026-05-19-oto-miru/</guid><description>&lt;p&gt;テレビや会話の音声を大きな字幕で確認するアプリ&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>アプリ一覧 on KUMAKIKAI</title><link>https://kumakikai.github.io/</link><description>Recent content in アプリ一覧 on KUMAKIKAI</description><generator>Hugo -- 0.154.5</generator><language>ja-JP</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://kumakikai.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Android版アプリ公開の壁が思った以上に高かった</title><link>https://kumakikai.github.io/notes/2026-05-26-android-release/</link><pubDate>Tue, 26 May 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/notes/2026-05-26-android-release/</guid><description>&lt;p&gt;Android版アプリの公開について調べていて、
+思っていた以上に壁が高いことが分かりました。&lt;/p&gt;
+&lt;p&gt;現在の Google Play では、
+新しい個人デベロッパーアカウントの場合、
+公開前にクローズドテストが必要になります。&lt;/p&gt;
+&lt;p&gt;少なくとも 12 人のテスターに、
+14 日間継続して参加してもらう必要があります。&lt;/p&gt;
+&lt;p&gt;しかも、仮想端末で自分だけ確認したり、
+形だけテスターを用意したりするだけでは足りません。&lt;/p&gt;
+&lt;p&gt;実際にアプリを使ってもらい、
+どの機能を試したのか、どのようなフィードバックがあったのか、
+それを受けて何を直したのかまで説明する必要があります。&lt;/p&gt;
+&lt;p&gt;個人で 12 人を集め、
+14 日間ちゃんと使ってもらうのはかなり大変です。
+さらに、この公開準備はアプリごとに必要になります。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;個人的に悔しいのは、
+過去に Google Play のデベロッパーアカウントを持っていたことです。&lt;/p&gt;
+&lt;p&gt;当時もアプリを作ろうとは思っていました。
+ただ、本業が忙しく、結局リリースまでは進められませんでした。&lt;/p&gt;
+&lt;p&gt;その結果、使われていないアカウントとして閉鎖されてしまいました。&lt;/p&gt;
+&lt;p&gt;この新しいテスト要件は、
+2023年11月13日以降に作成された個人デベロッパーアカウントが対象です。
+つまり、古いアカウントが残っていれば、
+少なくともこの「新規個人アカウント向け」の壁は避けられた可能性があります。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Google Play 側が品質や安全性を重視していることは分かります。&lt;/p&gt;
+&lt;p&gt;ただ最近、Google は
+「AIを使えばアプリをすぐ開発できる」
+というような発信もよくしているように感じます。&lt;/p&gt;
+&lt;p&gt;確かに、作るところは速くなるのかもしれません。&lt;/p&gt;
+&lt;p&gt;でも、実際に公開するには、
+テスターを集め、一定期間使ってもらい、
+フィードバックや修正内容まで説明する必要があります。&lt;/p&gt;
+&lt;p&gt;そこは少し矛盾しているようにも感じました。&lt;/p&gt;
+&lt;p&gt;ということで、
+Android版の公開はしばらく無しになりそうです。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;参考:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://support.google.com/googleplay/android-developer/answer/14151465"&gt;App testing requirements for new personal developer accounts - Play Console Help&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://support.google.com/googleplay/android-developer/answer/11605267"&gt;Closure of inactive developer accounts - Play Console Help&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>オトミルを作りました</title><link>https://kumakikai.github.io/notes/2026-05-19-oto-miru/</link><pubDate>Tue, 19 May 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/notes/2026-05-19-oto-miru/</guid><description>&lt;p&gt;テレビや会話の音声を大きな字幕で確認するアプリ&lt;br&gt;
 &lt;strong&gt;「オトミル」&lt;/strong&gt; を開発しました。&lt;/p&gt;
 &lt;p&gt;オトミルは、&lt;br&gt;
 テレビ、映画、身近な会話、グループ会話の音声を&lt;br&gt;
