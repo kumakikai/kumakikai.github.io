@@ -7,6 +7,8 @@ description: "KUMAKIKAIのアプリ一覧とサポート情報"
 
 このサイトでは、KUMAKIKAI のアプリ紹介とサポート情報をまとめています。
 
+{{< hidden >}}
+
 ---
 
 ## Nocca
@@ -28,6 +30,8 @@ Nocca は、家族との対面会話や長いメッセージが負担になり�
 - [利用規約](/terms/nocca/)
 
 ---
+
+{{< /hidden >}}
 
 ## オトミル
 
