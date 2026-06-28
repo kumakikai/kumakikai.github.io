@@ -28,15 +28,18 @@ The app currently supports:
 - Traditional Chinese
 - French
 
-### What changed in v3.0.0?
-v3.0.0 is a major update for study support and notebook tools.
+### What are the recent major changes?
+Recent versions have updated study support, notebook tools, Home organization, and stability.
 
 - Restored `Problem Solver Assistant` and made it available from the top of the note screen
 - Added `Ruler`
 - Added `Move Selection`
 - Fully redesigned `Memorization Feature` as sticky-style markers
 - Added `Recording`, real-time transcription, and AI Summary
+- Added **Clear Page** to the eraser for deleting only handwriting on the current page
+- Added folders on Home for organizing subjects
 - Added subject reordering on Home and note reordering in Note List
+- Improved rare app termination, zoom resets or page jumps when using the palette while zoomed in, and unnecessary menus appearing when tapping a page
 - Added diagnostics and crash analysis with Firebase Crashlytics
 
 Diagnostic and crash data does not include note contents, handwriting, subject names, attachments, images, PDFs, or recording contents.
@@ -129,6 +132,8 @@ You can delete it by pressing and holding the target page in **Pages**.
 
 However, if a note has only one page, the page itself is kept and only its content is cleared.
 
+If you only want to delete handwriting, use **Clear Page** from the eraser settings. It deletes only handwriting on the current page and keeps photos, PDFs, and Sticky Markers.
+
 ### Can I protect a note?
 Yes.  
 When you choose **Protect** in **Note List**, the note becomes read-only. You can also require biometrics to remove protection.
@@ -148,6 +153,14 @@ The note orientation cannot be changed after creation.
 Note titles can still be changed from **Note List**.
 
 You can also reorder subjects on Home.
+
+### Can I organize subjects into folders on Home?
+Yes.
+Create a folder from the `+` button on Home and group subjects inside it.
+
+You can choose the folder name, color, and subjects to include. You can edit it later, drag subjects into folders, and reorder subjects inside a folder.
+
+Deleting a folder does not delete its subjects. The subjects return to Home.
 
 ### What can be restored from Trash?
 Subjects and notes shown in the note list.  
@@ -177,12 +190,14 @@ Choose **Attach PDF** from **More**.
 - You can select one or more pages from a PDF file
 - You can turn on **Split Spread** to split a spread in the center
 - You can attach multiple PDF pages in one action
+- You can attach multiple PDFs to the same page
 
-After placing it, you can double-tap to lock or unlock it and adjust its position and size with your fingers.
+After placing it, select each PDF to move, resize, rotate, lock, or delete it.
 
 ### Can I export PDFs?
 Yes.  
 Choose **Export PDF** from **More** and export **This Note Only** or the entire subject as PDF.
+Photos, PDFs, Sticky Markers, and handwriting on pages are included in PDF export.
 
 ---
 
@@ -330,33 +345,25 @@ The next launch will show Home.
 ## Settings
 
 ### What settings are available?
-You can mainly change the following:
+Settings are organized into a Premium card and category pages.
 
-- `Default Template`
-- `Default Base Color`
-- `Open Home` or `Open Previous Notebook`
-- `Auto-collapse Tool Palette`
-- `Memorization Feature`
-- `Problem Solver Assistant`
-- `Recording Transcription Language`
-- default AI Summary format for Study or Meeting
-- `Subject Name`
-- `Require Biometrics to Remove Protection`
-- `Left-Handed Mode`
-- `Header / Footer`
-- `PDF Export Background`
-- `Language`
+- **Uni:Note Premium**: current plan, AI Balance, add AI Balance, Premium / plan screen
+- **Notebook Settings**: new note template, base color, default vertical notebook mode, left-handed mode, per-item left-handed settings, auto-collapse palette, header / footer
+- **Display Settings**: launch destination, automatic recent sorting, subject label name, keep awake while a note is open, biometrics for unlocking protected notes, PDF export background, language
+- **Study Support**: Memorization Feature, Problem Solver Assistant, Recording Support, transcription language, default AI Summary format
+- **Backup**: Easy Backup, include recording audio in backups, export / restore backup files
+- **Support**: How to Use, Privacy Policy, send by form, contact by email, copy support info, app review, Uni:Note Pocket
 
 ### Can I change the subject label?
 Yes.  
 In Settings, under `Subject Name`, you can choose **Subject / Notebook / Group / Category**.
 
 ### What can I change in Left-Handed Mode?
-You can adjust the initial palette position, the red margin line position on ruled paper, and the PDF insertion position.
+Left-Handed Mode adjusts the palette and page layout together. Per-item settings let you adjust the palette position, the red margin line position on ruled paper, and the PDF insertion position individually.
 
 ### Can I change the language?
 Yes.  
-You can change it from `Settings > Language`.
+You can change it from `Settings > Display Settings > Language`.
 
 ### Where can I open the How to Use page?
 Open `Settings > Support > How to Use`.

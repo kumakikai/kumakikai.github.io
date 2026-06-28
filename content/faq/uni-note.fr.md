@@ -28,15 +28,18 @@ L’app prend actuellement en charge :
 - le chinois traditionnel
 - le français
 
-### Quelles sont les principales nouveautés de la v3.0.0 ?
-La v3.0.0 est une mise à jour importante des aides à l’étude et des outils de note.
+### Quelles sont les principales nouveautés récentes ?
+Les versions récentes ont fortement mis à jour les aides à l’étude, les outils de note, l’organisation de l’accueil et la stabilité.
 
 - L’`Assistant de résolution` est de nouveau disponible et accessible en haut de l’écran de note
 - La `Règle` a été ajoutée
 - `Déplacer la zone` a été ajouté
 - La `Fonction de mémorisation` a été entièrement repensée sous forme de marqueurs pense-bête
 - `Enregistrement`, transcription en temps réel et Résumé IA ont été ajoutés
+- **Effacer la page** a été ajouté à la gomme pour supprimer uniquement l’écriture manuscrite de la page actuelle
+- des dossiers ont été ajoutés sur l’accueil pour organiser les matières
 - Le réordonnancement des matières sur l’accueil et des notes dans la liste des notes a été ajouté
+- des améliorations ont été apportées aux rares fermetures de l’app, aux retours de zoom ou sauts de page lors de l’usage de la palette en zoom, et aux menus inutiles lors d’un toucher sur une page
 - Des diagnostics et analyses de plantage via Firebase Crashlytics ont été ajoutés
 
 Les données de diagnostic et de plantage ne contiennent pas le contenu des notes, l’écriture manuscrite, les noms de matières, les pièces jointes, les images, les PDF ni le contenu des enregistrements.
@@ -129,6 +132,8 @@ Vous pouvez supprimer une page en la maintenant dans **Pages**.
 
 Cependant, si une note ne contient qu’une seule page, la page reste et seul son contenu est effacé.
 
+Si vous souhaitez supprimer uniquement l’écriture manuscrite, utilisez **Effacer la page** dans les réglages de la gomme. Cette action supprime seulement l’écriture de la page actuelle et conserve les photos, PDF et marqueurs pense-bête.
+
 ### Puis-je protéger une note ?
 Oui.  
 Lorsque vous choisissez **Protéger** dans **Liste des notes**, la note devient en lecture seule. Vous pouvez aussi exiger la biométrie pour retirer la protection.
@@ -148,6 +153,14 @@ L’orientation du cahier ne peut pas être changée après création.
 Les titres des notes peuvent toujours être modifiés depuis **Liste des notes**.
 
 Vous pouvez aussi réordonner les matières sur l’accueil.
+
+### Puis-je organiser les matières dans des dossiers sur l’accueil ?
+Oui.
+Vous pouvez créer un dossier depuis le bouton `+` de l’accueil et y regrouper des matières.
+
+Vous pouvez choisir le nom, la couleur et les matières à inclure. Il est possible de modifier le dossier plus tard, de faire glisser des matières dans des dossiers et de réordonner les matières à l’intérieur.
+
+Supprimer un dossier ne supprime pas ses matières. Elles reviennent sur l’accueil.
 
 ### Que peut-on restaurer depuis la corbeille ?
 Les matières et les notes affichées dans la liste des notes.  
@@ -177,12 +190,14 @@ Choisissez **Coller un PDF** dans **Plus**.
 - Vous pouvez sélectionner une ou plusieurs pages d’un fichier PDF
 - Vous pouvez activer **Scinder la double page** pour couper une double page au centre
 - Vous pouvez coller plusieurs pages PDF en une seule opération
+- Vous pouvez coller plusieurs PDF sur une même page
 
-Après insertion, vous pouvez la verrouiller ou la déverrouiller par double touche, puis ajuster sa position et sa taille avec les doigts.
+Après insertion, vous pouvez sélectionner chaque PDF pour le déplacer, redimensionner, faire pivoter, verrouiller ou supprimer.
 
 ### Puis-je exporter des PDF ?
 Oui.  
 Choisissez **Exporter en PDF** dans **Plus** pour exporter **Cette note uniquement** ou toute la matière en PDF.
+Les photos, PDF, marqueurs pense-bête et écritures des pages sont inclus dans l’export PDF.
 
 ---
 
@@ -330,33 +345,25 @@ Au prochain lancement, l’accueil s’affichera.
 ## Réglages
 
 ### Quels réglages sont disponibles ?
-Vous pouvez principalement modifier :
+Les réglages sont organisés autour d’une carte Premium et de pages par catégorie.
 
-- `Modèle par défaut`
-- `Couleur de base par défaut`
-- `Ouvrir l’accueil` ou `Ouvrir la dernière note`
-- `Réduire automatiquement la palette`
-- `Fonction de mémorisation`
-- `Assistant de résolution`
-- `Langue de transcription`
-- format par défaut du Résumé IA pour Études ou Réunion
-- `Libellé des matières`
-- exiger la biométrie pour retirer la protection
-- `Mode gaucher`
-- `En-tête / Pied de page`
-- `Fond de l’export PDF`
-- `Langue`
+- **Uni:Note Premium** : plan actuel, solde IA, ajout de solde IA, écran Premium / plans
+- **Réglages de note** : modèle des nouvelles notes, couleur de base, mode cahier vertical par défaut, mode gaucher, réglages gaucher par élément, réduction automatique de la palette, en-tête / pied de page
+- **Réglages d’affichage** : écran ouvert au lancement, tri automatique par utilisation récente, libellé des matières, empêcher la mise en veille pendant qu’une note est ouverte, biométrie pour les notes protégées, fond d’export PDF, langue
+- **Aide à l'étude** : Fonction de mémorisation, Assistant de résolution, Aide à l’enregistrement, langue de transcription, format par défaut du Résumé IA
+- **Sauvegarde** : sauvegarde facile, inclure l’audio des enregistrements, export / restauration de fichiers de sauvegarde
+- **Assistance** : mode d’emploi, politique de confidentialité, envoi par formulaire, contact par e-mail, copie des informations d’assistance, avis sur l’app, Uni:Note Pocket
 
 ### Puis-je modifier le libellé des matières ?
 Oui.  
 Dans les réglages, sous `Libellé des matières`, vous pouvez choisir **Matière / Cahier / Groupe / Catégorie**.
 
 ### Que puis-je modifier dans le mode gaucher ?
-Vous pouvez ajuster la position initiale de la palette, la position de la ligne rouge de marge sur le papier ligné et la position d’insertion des PDF.
+Le mode gaucher ajuste ensemble la palette et la mise en page. Les réglages par élément permettent d’ajuster séparément la position de la palette, la ligne rouge de marge sur le papier ligné et la position d’insertion des PDF.
 
 ### Puis-je changer la langue ?
 Oui.  
-Vous pouvez la changer depuis `Réglages > Langue`.
+Vous pouvez la changer depuis `Réglages > Réglages d’affichage > Langue`.
 
 ### Où puis-je ouvrir la page du mode d’emploi ?
 Ouvrez `Réglages > Support > Mode d’emploi`.

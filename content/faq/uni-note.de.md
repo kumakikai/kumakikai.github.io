@@ -28,15 +28,18 @@ Aktuell werden folgende Sprachen unterstützt:
 - Traditionelles Chinesisch
 - Französisch
 
-### Was ist neu in v3.0.0?
-v3.0.0 ist ein großes Update für Lernhilfe und Notizwerkzeuge.
+### Was sind die wichtigsten aktuellen Änderungen?
+Aktuelle Versionen haben Lernhilfe, Notizwerkzeuge, Organisation auf der Startseite und Stabilität deutlich verbessert.
 
 - Der `Aufgabenassistent` ist wieder verfügbar und oben auf der Notizseite erreichbar
 - `Lineal` wurde hinzugefügt
 - `Bereich bewegen` wurde hinzugefügt
 - Die `Lernfunktion` wurde vollständig als Haftnotiz-Marker überarbeitet
 - `Aufnahme`, Echtzeit-Transkription und KI-Zusammenfassung wurden hinzugefügt
+- Beim Radierer wurde **Seite leeren** hinzugefügt, um nur die Handschrift der aktuellen Seite zu löschen
+- Auf der Startseite wurden Ordner zum Organisieren von Fächern hinzugefügt
 - Sortierung von Fächern auf der Startseite und von Notizen in der Notizliste wurde hinzugefügt
+- Seltene App-Abbrüche, Zoom-Rücksetzungen oder Seitensprünge beim Verwenden der Palette im Zoom sowie unnötige Menüs beim Tippen auf Seiten wurden verbessert
 - Diagnose- und Absturzanalysen mit Firebase Crashlytics wurden eingeführt
 
 Diagnose- und Absturzdaten enthalten keine Notizinhalte, Handschrift, Fachnamen, Anhänge, Bilder, PDFs oder Aufnahmeinhalte.
@@ -129,6 +132,8 @@ In `Seiten` kannst du die gewünschte Seite gedrückt halten und löschen.
 
 Wenn eine Notiz jedoch nur aus einer Seite besteht, bleibt die Seite selbst erhalten und nur ihr Inhalt wird gelöscht.
 
+Wenn du nur Handschrift löschen möchtest, kannst du in den Radierer-Einstellungen **Seite leeren** verwenden. Dabei wird nur die Handschrift auf der aktuellen Seite gelöscht; Fotos, PDFs und Haftnotiz-Marker bleiben erhalten.
+
 ### Kann ich eine Notiz schützen?
 Ja.  
 Wenn du in der `Notizliste` **Schützen** auswählst, wird die Notiz schreibgeschützt. Du kannst außerdem verlangen, dass zum Aufheben des Schutzes Biometrie benötigt wird.
@@ -148,6 +153,14 @@ Die Ausrichtung der Notiz kann nach dem Erstellen nicht mehr geändert werden.
 Notiztitel kannst du weiterhin in der `Notizliste` ändern.
 
 Auf der Startseite kannst du auch Fächer neu sortieren.
+
+### Kann ich Fächer auf der Startseite in Ordnern organisieren?
+Ja.
+Über die `+`-Schaltfläche auf der Startseite kannst du Ordner erstellen und Fächer darin sammeln.
+
+Du kannst Ordnername, Farbe und enthaltene Fächer auswählen. Später kannst du den Ordner bearbeiten, Fächer per Drag-and-drop hinein verschieben und Fächer innerhalb des Ordners neu sortieren.
+
+Beim Löschen eines Ordners werden die enthaltenen Fächer nicht gelöscht. Sie kehren auf die Startseite zurück.
 
 ### Was kann aus dem Papierkorb wiederhergestellt werden?
 Fächer und die Notizen aus der Notizliste.  
@@ -177,12 +190,14 @@ Wähle in `Mehr` **PDF anheften**.
 - Du kannst eine oder mehrere Seiten einer PDF-Datei auswählen
 - Mit **Doppelseite teilen** lässt sich eine Doppelseite in der Mitte aufteilen
 - Mehrere PDF-Seiten können in einem Schritt angeheftet werden
+- Du kannst mehrere PDFs auf derselben Seite anheften
 
-Danach kannst du sie per Doppeltipp sperren oder entsperren und mit den Fingern Position und Größe anpassen.
+Danach kannst du jedes PDF auswählen und verschieben, skalieren, drehen, sperren oder löschen.
 
 ### Kann ich PDFs exportieren?
 Ja.  
 Wähle in `Mehr` **PDF exportieren** und exportiere **Nur diese Notiz** oder das gesamte Fach als PDF.
+Fotos, PDFs, Haftnotiz-Marker und Handschrift auf den Seiten werden beim PDF-Export berücksichtigt.
 
 ---
 
@@ -330,33 +345,25 @@ Beim nächsten Start wird die Startseite angezeigt.
 ## Einstellungen
 
 ### Welche Einstellungen gibt es?
-Du kannst vor allem Folgendes ändern:
+Die Einstellungen sind in eine Premium-Karte und Kategorien unterteilt.
 
-- `Standardvorlage`
-- `Standard-Basisfarbe`
-- `Startseite öffnen` oder `Vorheriges Heft öffnen`
-- `Werkzeugpalette automatisch einklappen`
-- `Lernfunktion`
-- `Aufgabenassistent`
-- `Transkriptionssprache`
-- Standardformat für KI-Zusammenfassungen für Lernen oder Besprechung
-- `Fachbezeichnung`
-- Biometrie zum Aufheben des Schutzes verlangen
-- `Linkshänder-Modus`
-- `Kopf- / Fußzeile`
-- `PDF-Export-Hintergrundfarbe`
-- `Sprache`
+- **Uni:Note Premium**: aktueller Plan, KI-Guthaben, KI-Guthaben hinzufügen, Premium- / Planansicht
+- **Notizeinstellungen**: Vorlage für neue Notizen, Basisfarbe, Standard für vertikalen Notizmodus, Linkshänder-Modus, einzelne Linkshänder-Optionen, automatisches Einklappen der Palette, Kopf- / Fußzeile
+- **Anzeigeeinstellungen**: Startziel, automatische Sortierung nach zuletzt geöffnet, Fachbezeichnung, Ruhezustand verhindern, solange eine Notiz geöffnet ist, Biometrie für geschützte Notizen, PDF-Export-Hintergrund, Sprache
+- **Lernhilfe**: Lernfunktion, Aufgabenassistent, Aufnahmeunterstützung, Transkriptionssprache, Standardformat für KI-Zusammenfassungen
+- **Backup**: Easy Backup, Aufnahme-Audio in Backups einschließen, Backup-Dateien exportieren / wiederherstellen
+- **Support**: Anleitung, Datenschutzerklärung, per Formular senden, per E-Mail kontaktieren, Support-Info kopieren, App bewerten, Uni:Note Pocket
 
 ### Kann ich die Fachbezeichnung ändern?
 Ja.  
 In den Einstellungen kannst du unter `Fachbezeichnung` zwischen **Fach / Notizbuch / Gruppe / Kategorie** wählen.
 
 ### Was kann ich im Linkshänder-Modus ändern?
-Du kannst die Standardposition der Palette, die Position der roten Randlinie bei linierten Vorlagen und die Position für PDF-Anhänge anpassen.
+Der Linkshänder-Modus passt Palette und Seitenlayout gemeinsam an. In den einzelnen Einstellungen kannst du Palette, rote Randlinie bei linierten Vorlagen und PDF-Anheftposition getrennt anpassen.
 
 ### Kann ich die Sprache ändern?
 Ja.  
-Du kannst sie unter `Einstellungen > Sprache` ändern.
+Du kannst sie unter `Einstellungen > Anzeigeeinstellungen > Sprache` ändern.
 
 ### Wo kann ich die Anleitungsseite öffnen?
 Über `Einstellungen > Support > Anleitung`.

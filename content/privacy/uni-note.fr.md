@@ -78,6 +78,9 @@ La politique de confidentialité révisée prend effet lorsqu'elle est publiée 
 
 Pour toute question concernant cette politique, veuillez contacter :
 
+Dans `Réglages > Assistance`, l’app propose l’envoi par formulaire, le contact par e-mail et la copie des informations d’assistance.
+Les informations d’assistance copiées incluent des informations techniques comme la version de l’app, le numéro de build, la version de l’OS, le nom de l’appareil et la langue de l’app. Elles n’incluent pas le texte des notes, l’écriture manuscrite, les images, les PDF, les enregistrements, les noms de notes ou les noms de matières.
+
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-Dernière mise à jour : 2026-05-14
+Dernière mise à jour : 2026-06-28

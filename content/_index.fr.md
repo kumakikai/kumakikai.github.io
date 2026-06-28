@@ -12,7 +12,7 @@ Ce site présente les applications KUMAKIKAI et leurs pages d'assistance.
 *Une application de prise de notes manuscrites sur iPad, pensée pour rester proche d’un cahier universitaire papier.*
 
 Uni:Note est une **application de notes réservée à l’iPad** et centrée sur l’écriture à l’Apple Pencil.
-Elle permet d’organiser les matières et les cahiers tout en conservant une sensation proche de l’écriture sur papier.
+Vous pouvez organiser les matières avec des dossiers, annoter des PDF et des photos, enregistrer les cours, utiliser la transcription et les aides IA, puis sauvegarder vos notes.
 
 ### Liens
 

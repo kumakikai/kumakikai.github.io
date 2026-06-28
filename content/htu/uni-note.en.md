@@ -30,7 +30,7 @@ The exact UI and labels may differ slightly depending on your iPadOS version.
 
 ---
 
-## 1. Create a subject on Home
+## 1. Organize subjects and folders on Home
 
 Create a new subject from the `+` button on Home.
 
@@ -52,7 +52,16 @@ If `Use as Portrait Notebook` is on, the note behaves like this:
 After creating a subject, press and hold it on Home to open `Edit`.  
 You can change the subject name, paper style, paper color, and cover color later, but the note orientation cannot be changed after creation.
 
-You can also reorder subjects on Home.
+You can also reorder subjects on Home or organize them with folders.
+
+Main folder actions:
+
+- Create a folder from the `+` button on Home
+- Choose a folder name, color, and subjects to include
+- Drag a subject into a folder
+- Tap a folder to open its subjects in a popup on Home
+- Reorder subjects inside a folder
+- Deleting a folder does not delete its subjects. They return to Home
 
 ---
 
@@ -114,6 +123,8 @@ Notes:
 - The pen supports `Pencil`, `Ballpoint`, and `Sign Pen`
 - You can change pen color and width
 - You can change highlighter color, width, and intensity
+- Eraser supports stroke erase, pixel erase, and `Clear Page`
+- `Clear Page` is available at 100% zoom and deletes only handwriting on the current page. Photos, PDFs, and Sticky Markers are not deleted
 - You can change Sticky Marker color and width
 - `Sticky Marker` appears in the palette when enabled in `Settings > Study Support`
 - `Problem Solver Assistant` appears at the top of the note screen when enabled in `Settings > Study Support`
@@ -183,7 +194,8 @@ Choose `Attach PDF` from `More`.
 - Select one or more pages from the PDF file
 - Turn on `Split Spread` if you want to split a spread in the center
 - You can attach multiple PDF pages in one action
-- After placing it, double-tap to lock or unlock it, and adjust its position and size with your fingers
+- You can attach multiple PDFs to the same page
+- After attaching, select each PDF to move, resize, rotate, lock, or delete it
 
 Choose `Export PDF` from `More`.
 
@@ -192,6 +204,7 @@ You can export:
 - `This Note Only`
 - the entire subject
 
+Photos, PDFs, Sticky Markers, and handwriting on pages are included in PDF export.
 In `PDF Export Background`, you can change the background to `Paper` or `White`.
 
 ---
@@ -229,7 +242,7 @@ Doing this during recording may corrupt the recording data. Stop and save the re
 
 Based on Apple's transcription-compatible models, real-time transcription and AI Summary are available on the following models running iPadOS 26 or later: iPad mini (6th generation or later), iPad (10th generation or later), iPad Air (4th generation or later), iPad Pro 11-inch (3rd generation or later), iPad Pro 12.9-inch (5th generation or later), and iPad Pro 13-inch (M4 or later).
 On supported devices, real-time transcription can appear while recording.
-You can change the transcription language from `Settings > Recording Transcription Language`.
+You can change the transcription language and default AI Summary format from `Settings > Study Support > Recording Support`.
 
 AI Summary is generated from the transcription text created during recording.
 Audio files are not sent for AI Summary. AI Summary requires **AI Balance**.
@@ -310,22 +323,16 @@ Practice sets can be deleted from Home, but they do not go to Trash and cannot b
 
 ## 15. Settings and backup
 
-In `Settings`, you can mainly change:
+Settings are organized into a Premium card and category pages.
 
-- `Default Template`
-- `Default Base Color`
-- `Open Home` or `Open Previous Notebook`
-- `Auto-collapse Tool Palette`
-- `Memorization Feature`
-- `Problem Solver Assistant`
-- `Recording Transcription Language`
-- default AI Summary format for Study or Meeting
-- `Subject Name`
-- `Require Biometrics to Remove Protection`
-- `Left-Handed Mode`
-- `Header / Footer`
-- `PDF Export Background`
-- `Language`
+Main categories:
+
+- **Uni:Note Premium**: current plan, AI Balance, add AI Balance, Premium / plan screen
+- **Notebook Settings**: new note template, base color, default vertical notebook mode, left-handed mode, per-item left-handed settings, auto-collapse palette, header / footer
+- **Display Settings**: launch destination, automatic recent sorting, subject label name, keep awake while a note is open, biometrics for unlocking protected notes, PDF export background, language
+- **Study Support**: Memorization Feature, Problem Solver Assistant, Recording Support, transcription language, default AI Summary format
+- **Backup**: Easy Backup, include recording audio in backups, export / restore backup files
+- **Support**: How to Use, Privacy Policy, send by form, contact by email, copy support info, app review, Uni:Note Pocket
 
 In `Settings > Backup`, you can use:
 

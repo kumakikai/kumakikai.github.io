@@ -12,7 +12,7 @@ This site introduces KUMAKIKAI apps and publishes support information.
 *A handwritten note app for iPad that stays close to the feel of a paper university notebook.*
 
 Uni:Note is an **iPad-only note app** built for focused Apple Pencil handwriting.
-It helps you organize subjects and notebooks while keeping the experience close to writing on paper.
+It lets you organize subjects with folders, write on PDFs and photos, record lectures, use transcription and AI study tools, and back up your notes.
 
 ### Links
 

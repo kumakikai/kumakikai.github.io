@@ -78,6 +78,9 @@ The revised privacy policy takes effect when it is posted on this website.
 
 For inquiries about this policy, please contact:
 
+In `Settings > Support`, the app provides options to send feedback by form, contact by email, and copy support info.
+Copied support info includes technical details such as app version, build number, OS version, device name, and app language setting. It does not include note text, handwriting, images, PDFs, recordings, note names, or subject names.
+
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-Last updated: 2026-05-14
+Last updated: 2026-06-28

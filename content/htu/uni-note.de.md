@@ -30,7 +30,7 @@ Die genaue Oberfläche und die Bezeichnungen können je nach iPadOS-Version leic
 
 ---
 
-## 1. Ein Fach auf der Startseite erstellen
+## 1. Fächer und Ordner auf der Startseite organisieren
 
 Erstelle über die Schaltfläche `+` auf der Startseite ein neues Fach.
 
@@ -52,7 +52,16 @@ Wenn `Als Hochformat-Notizbuch verwenden` aktiviert ist, gilt:
 Nach dem Erstellen kannst du ein Fach auf der Startseite gedrückt halten und `Bearbeiten` öffnen.  
 Fachname, Papierstil, Papierfarbe und Coverfarbe lassen sich später ändern, die Ausrichtung des Notizbuchs jedoch nicht.
 
-Auf der Startseite kannst du auch Fächer neu sortieren.
+Auf der Startseite kannst du Fächer neu sortieren oder mit Ordnern organisieren.
+
+Wichtige Ordnerfunktionen:
+
+- Über die `+`-Schaltfläche auf der Startseite einen Ordner erstellen
+- Ordnername, Farbe und enthaltene Fächer auswählen
+- Ein Fach per Drag-and-drop in einen Ordner verschieben
+- Einen Ordner antippen, um seine Fächer in einem Popup auf der Startseite zu öffnen
+- Fächer innerhalb eines Ordners neu sortieren
+- Beim Löschen eines Ordners werden die enthaltenen Fächer nicht gelöscht. Sie kehren auf die Startseite zurück
 
 ---
 
@@ -114,6 +123,8 @@ Hinweise:
 - Der Stift unterstützt `Bleistift`, `Kuli` und `Filzstift`
 - Farbe und Breite des Stifts lassen sich ändern
 - Beim Textmarker lassen sich Farbe, Breite und Deckkraft ändern
+- Der Radierer unterstützt Strichradierer, Pixelradierer und `Seite leeren`
+- `Seite leeren` ist nur bei 100 % Zoom verfügbar und löscht nur die Handschrift auf der aktuellen Seite. Fotos, PDFs und Haftnotiz-Marker bleiben erhalten
 - Farbe und Breite des Haftnotiz-Markers lassen sich ändern
 - `Haftnotiz-Marker` erscheint in der Palette, wenn er unter `Einstellungen > Lernhilfe` aktiviert wurde
 - `Aufgabenassistent` erscheint oben auf der Notizseite, wenn er unter `Einstellungen > Lernhilfe` aktiviert wurde
@@ -183,7 +194,8 @@ Wähle in `Mehr` die Option `PDF anheften`.
 - Du kannst eine oder mehrere Seiten aus der PDF-Datei auswählen
 - Mit `Doppelseite teilen` kannst du eine Doppelseite in der Mitte aufteilen
 - Mehrere PDF-Seiten lassen sich in einem Schritt anheften
-- Danach kannst du sie per Doppeltipp sperren oder entsperren und mit den Fingern Position und Größe anpassen
+- Du kannst mehrere PDFs auf derselben Seite anheften
+- Danach kannst du jedes PDF auswählen und verschieben, skalieren, drehen, sperren oder löschen
 
 Wähle in `Mehr` die Option `PDF exportieren`.
 
@@ -192,6 +204,7 @@ Du kannst Folgendes exportieren:
 - `Nur diese Notiz`
 - das gesamte Fach
 
+Fotos, PDFs, Haftnotiz-Marker und Handschrift auf den Seiten werden beim PDF-Export berücksichtigt.
 Unter `PDF-Export-Hintergrundfarbe` kannst du den Hintergrund auf `Papier` oder `Weiß` stellen.
 
 ---
@@ -229,7 +242,7 @@ Dieses Verhalten während einer Aufnahme kann die Aufnahmedaten beschädigen. Be
 
 Auf Basis der von Apple unterstützten Transkriptionsmodelle sind Echtzeit-Transkription und KI-Zusammenfassung mit iPadOS 26 oder neuer auf iPad mini (6. Generation oder neuer), iPad (10. Generation oder neuer), iPad Air (4. Generation oder neuer), 11-Zoll-iPad Pro (3. Generation oder neuer), 12,9-Zoll-iPad Pro (5. Generation oder neuer) und 13-Zoll-iPad Pro (M4 oder neuer) verfügbar.
 Auf unterstützten Geräten kann während der Aufnahme eine Echtzeit-Transkription angezeigt werden.
-Die Transkriptionssprache änderst du unter `Einstellungen > Transkriptionssprache`.
+Transkriptionssprache und Standardformat für KI-Zusammenfassungen änderst du unter `Einstellungen > Lernhilfe > Aufnahmeunterstützung`.
 
 Die KI-Zusammenfassung wird aus dem während der Aufnahme erstellten Transkriptionstext erzeugt.
 Audiodateien werden dafür nicht gesendet. Für KI-Zusammenfassungen ist **KI-Guthaben** erforderlich.
@@ -310,22 +323,16 @@ Aufgabensets können von der Startseite gelöscht werden, landen aber nicht im P
 
 ## 15. Einstellungen und Backups
 
-In den `Einstellungen` kannst du vor allem Folgendes ändern:
+Die Einstellungen sind in eine Premium-Karte und Kategorien unterteilt.
 
-- `Standardvorlage`
-- `Standard-Basisfarbe`
-- `Startseite öffnen` oder `Vorheriges Heft öffnen`
-- `Werkzeugpalette automatisch einklappen`
-- `Lernfunktion`
-- `Aufgabenassistent`
-- `Transkriptionssprache`
-- Standardformat für KI-Zusammenfassungen für Lernen oder Besprechung
-- `Fachbezeichnung`
-- Biometrie zum Aufheben des Schutzes verlangen
-- `Linkshänder-Modus`
-- `Kopf- / Fußzeile`
-- `PDF-Export-Hintergrundfarbe`
-- `Sprache`
+Wichtige Kategorien:
+
+- **Uni:Note Premium**: aktueller Plan, KI-Guthaben, KI-Guthaben hinzufügen, Premium- / Planansicht
+- **Notizeinstellungen**: Vorlage für neue Notizen, Basisfarbe, Standard für vertikalen Notizmodus, Linkshänder-Modus, einzelne Linkshänder-Optionen, automatisches Einklappen der Palette, Kopf- / Fußzeile
+- **Anzeigeeinstellungen**: Startziel, automatische Sortierung nach zuletzt geöffnet, Fachbezeichnung, Ruhezustand verhindern, solange eine Notiz geöffnet ist, Biometrie für geschützte Notizen, PDF-Export-Hintergrund, Sprache
+- **Lernhilfe**: Lernfunktion, Aufgabenassistent, Aufnahmeunterstützung, Transkriptionssprache, Standardformat für KI-Zusammenfassungen
+- **Backup**: Easy Backup, Aufnahme-Audio in Backups einschließen, Backup-Dateien exportieren / wiederherstellen
+- **Support**: Anleitung, Datenschutzerklärung, per Formular senden, per E-Mail kontaktieren, Support-Info kopieren, App bewerten, Uni:Note Pocket
 
 Unter `Einstellungen > Backup` kannst du Folgendes verwenden:
 

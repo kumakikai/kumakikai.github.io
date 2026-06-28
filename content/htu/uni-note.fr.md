@@ -30,7 +30,7 @@ L’interface exacte et les intitulés peuvent légèrement varier selon la vers
 
 ---
 
-## 1. Créer une matière sur l’accueil
+## 1. Organiser les matières et les dossiers sur l’accueil
 
 Créez une nouvelle matière avec le bouton `+` sur l’accueil.
 
@@ -52,7 +52,16 @@ Lorsque `Utiliser comme cahier portrait` est activé :
 Après création, vous pouvez maintenir une matière sur l’accueil pour ouvrir `Modifier`.  
 Le nom de la matière, le type de papier, la couleur du papier et la couleur de couverture peuvent être modifiés plus tard, mais l’orientation du cahier ne peut pas être changée après création.
 
-Vous pouvez aussi réordonner les matières sur l’accueil.
+Vous pouvez aussi réordonner les matières sur l’accueil ou les organiser avec des dossiers.
+
+Actions principales sur les dossiers :
+
+- créer un dossier depuis le bouton `+` de l’accueil
+- choisir le nom, la couleur et les matières à inclure
+- faire glisser une matière dans un dossier
+- toucher un dossier pour afficher ses matières dans une fenêtre sur l’accueil
+- réordonner les matières à l’intérieur d’un dossier
+- supprimer un dossier ne supprime pas ses matières. Elles reviennent sur l’accueil
 
 ---
 
@@ -114,6 +123,8 @@ Notes :
 - le stylo propose `Porte-mine`, `Stylo bille` et `Feutre`
 - vous pouvez changer la couleur et l’épaisseur du stylo
 - vous pouvez changer la couleur, l’épaisseur et l’intensité du surligneur
+- la gomme propose la gomme par trait, la gomme pixel et `Effacer la page`
+- `Effacer la page` est disponible uniquement à 100 % de zoom et supprime seulement l’écriture manuscrite de la page actuelle. Les photos, PDF et marqueurs pense-bête restent en place
 - vous pouvez changer la couleur et l’épaisseur du marqueur pense-bête
 - `Marqueur pense-bête` apparaît dans la palette lorsqu’il est activé dans `Réglages > Aide à l'étude`
 - `Assistant de résolution` apparaît en haut de l’écran de note lorsqu’il est activé dans `Réglages > Aide à l'étude`
@@ -183,7 +194,8 @@ Choisissez `Coller un PDF` depuis `Plus`.
 - vous pouvez sélectionner une ou plusieurs pages du fichier PDF
 - activez `Scinder la double page` pour couper une double page au centre
 - plusieurs pages PDF peuvent être collées en une seule fois
-- après insertion, vous pouvez la verrouiller ou la déverrouiller par double touche, puis ajuster sa position et sa taille avec les doigts
+- vous pouvez coller plusieurs PDF sur une même page
+- après insertion, vous pouvez sélectionner chaque PDF pour le déplacer, redimensionner, faire pivoter, verrouiller ou supprimer
 
 Choisissez `Exporter en PDF` depuis `Plus`.
 
@@ -192,6 +204,7 @@ Vous pouvez exporter :
 - `Cette note uniquement`
 - toute la matière
 
+Les photos, PDF, marqueurs pense-bête et écritures des pages sont inclus dans l’export PDF.
 Dans `Fond de l’export PDF`, vous pouvez choisir `Papier` ou `Blanc`.
 
 ---
@@ -229,7 +242,7 @@ Cette action pendant un enregistrement peut endommager les données d’enregist
 
 Selon les modèles compatibles avec la transcription indiqués par Apple, la transcription en temps réel et le Résumé IA sont disponibles sous iPadOS 26 ou version ultérieure sur iPad mini (6e génération ou ultérieure), iPad (10e génération ou ultérieure), iPad Air (4e génération ou ultérieure), iPad Pro 11 pouces (3e génération ou ultérieure), iPad Pro 12,9 pouces (5e génération ou ultérieure) et iPad Pro 13 pouces (M4 ou ultérieur).
 Sur les appareils compatibles, une transcription en temps réel peut s’afficher pendant l’enregistrement.
-La langue de transcription se change depuis `Réglages > Langue de transcription`.
+La langue de transcription et le format par défaut du Résumé IA se changent depuis `Réglages > Aide à l'étude > Aide à l’enregistrement`.
 
 Le Résumé IA est généré à partir du texte de transcription créé pendant l’enregistrement.
 Les fichiers audio ne sont pas envoyés pour le Résumé IA. Le Résumé IA nécessite du **solde IA**.
@@ -310,22 +323,16 @@ Les lots d’exercices peuvent être supprimés depuis l’accueil, mais ils ne 
 
 ## 15. Réglages et sauvegarde
 
-Dans `Réglages`, vous pouvez principalement modifier :
+Les réglages sont organisés autour d’une carte Premium et de pages par catégorie.
 
-- `Modèle par défaut`
-- `Couleur de base par défaut`
-- `Ouvrir l’accueil` ou `Ouvrir la dernière note`
-- `Réduire automatiquement la palette`
-- `Fonction de mémorisation`
-- `Assistant de résolution`
-- `Langue de transcription`
-- format par défaut du Résumé IA pour Études ou Réunion
-- `Libellé des matières`
-- exiger la biométrie pour retirer la protection
-- `Mode gaucher`
-- `En-tête / Pied de page`
-- `Fond de l’export PDF`
-- `Langue`
+Catégories principales :
+
+- **Uni:Note Premium** : plan actuel, solde IA, ajout de solde IA, écran Premium / plans
+- **Réglages de note** : modèle des nouvelles notes, couleur de base, mode cahier vertical par défaut, mode gaucher, réglages gaucher par élément, réduction automatique de la palette, en-tête / pied de page
+- **Réglages d’affichage** : écran ouvert au lancement, tri automatique par utilisation récente, libellé des matières, empêcher la mise en veille pendant qu’une note est ouverte, biométrie pour les notes protégées, fond d’export PDF, langue
+- **Aide à l'étude** : Fonction de mémorisation, Assistant de résolution, Aide à l’enregistrement, langue de transcription, format par défaut du Résumé IA
+- **Sauvegarde** : sauvegarde facile, inclure l’audio des enregistrements, export / restauration de fichiers de sauvegarde
+- **Assistance** : mode d’emploi, politique de confidentialité, envoi par formulaire, contact par e-mail, copie des informations d’assistance, avis sur l’app, Uni:Note Pocket
 
 Dans `Réglages > Sauvegarde`, vous pouvez utiliser :
 

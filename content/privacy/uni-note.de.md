@@ -78,6 +78,9 @@ Die geänderte Datenschutzerklärung tritt in Kraft, sobald sie auf dieser Websi
 
 Bei Fragen zu dieser Richtlinie kontaktieren Sie bitte:
 
+Unter `Einstellungen > Support` bietet die App Optionen zum Senden per Formular, zur Kontaktaufnahme per E-Mail und zum Kopieren von Support-Informationen.
+Kopierte Support-Informationen enthalten technische Angaben wie App-Version, Build-Nummer, OS-Version, Gerätename und Spracheinstellung der App. Notizinhalte, Handschrift, Bilder, PDFs, Aufnahmen, Notiznamen oder Fachnamen sind nicht enthalten.
+
 - [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-Letzte Aktualisierung: 2026-05-14
+Letzte Aktualisierung: 2026-06-28
