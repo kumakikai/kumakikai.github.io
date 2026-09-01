@@ -7,7 +7,7 @@ description: "アプリ別の利用規約一覧"
 
 対象アプリ:
 
-- [ギガポケ - povo特典コード管理](/terms/giga-poke/)
+- [ギガポケ](/terms/giga-poke/)
 - [オトミル](/terms/oto-miru/)
 
 ---

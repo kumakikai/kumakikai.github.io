@@ -7,7 +7,7 @@ description: "KUMAKIKAIのアプリ一覧とサポート情報"
 
 このサイトでは、KUMAKIKAI のアプリ紹介とサポート情報をまとめています。
 
-## ギガポケ - povo特典コード管理
+## ギガポケ
 
 ギガポケは、povo 2.0から届いたギガコードと外部特典を、
 **期限切れになる前に見つけて使うためのiPhone向け管理アプリ**です。
@@ -20,7 +20,7 @@ description: "KUMAKIKAIのアプリ一覧とサポート情報"
 
 ### リンク
 
-- App Store（現在開発中）
+- App Store（審査中）
 - [サポート](/notes/2026-09-02-giga-poke/)
 - [使い方](/htu/giga-poke/)
 - [よくある質問](/faq/giga-poke/)

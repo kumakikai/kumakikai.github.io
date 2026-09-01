@@ -7,7 +7,7 @@ description: "アプリ別のプライバシーポリシー一覧"
 
 対象アプリ:
 
-- [ギガポケ - povo特典コード管理](/privacy/giga-poke/)
+- [ギガポケ](/privacy/giga-poke/)
 - [オトミル](/privacy/oto-miru/)
 - [すわなび - 禁煙カウンターアプリ](/privacy/smokeless/)
 - [ギャンカレ](/privacy/balance-calendar/)
