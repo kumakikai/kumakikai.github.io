@@ -21,6 +21,7 @@ description: "KUMAKIKAIのアプリ一覧とサポート情報"
 ### リンク
 
 - App Store（現在開発中）
+- [サポート](/notes/2026-09-02-giga-poke/)
 - [使い方](/htu/giga-poke/)
 - [よくある質問](/faq/giga-poke/)
 - [プライバシーポリシー](/privacy/giga-poke/)
