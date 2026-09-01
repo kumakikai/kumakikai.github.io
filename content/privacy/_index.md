@@ -7,6 +7,7 @@ description: "アプリ別のプライバシーポリシー一覧"
 
 対象アプリ:
 
+- [ギガポケ - povo特典コード管理](/privacy/giga-poke/)
 - [オトミル](/privacy/oto-miru/)
 - [すわなび - 禁煙カウンターアプリ](/privacy/smokeless/)
 - [ギャンカレ](/privacy/balance-calendar/)
@@ -20,4 +21,4 @@ description: "アプリ別のプライバシーポリシー一覧"
 - メールアドレス:
   [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-最終更新日：2026-03-21
+最終更新日：2026-09-02

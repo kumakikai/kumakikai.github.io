@@ -7,6 +7,7 @@ description: "アプリ別の使い方"
 
 対象アプリ:
 
+- [ギガポケ - povo特典コード管理](/htu/giga-poke/)
 - [オトミル](/htu/oto-miru/)
 - [すわなび - 禁煙カウンターアプリ](/htu/smokeless/)
 - [ギャンカレ](/htu/balance-calendar/)
