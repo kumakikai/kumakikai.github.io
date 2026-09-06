@@ -20,7 +20,7 @@ description: "KUMAKIKAIのアプリ一覧とサポート情報"
 
 ### リンク
 
-- App Store（審査中）
+- [App Store](https://apps.apple.com/jp/app/id6807501268)
 - [サポート](/notes/2026-09-02-giga-poke/)
 - [使い方](/htu/giga-poke/)
 - [よくある質問](/faq/giga-poke/)
