@@ -175,6 +175,8 @@ HugoplateのTailwind CSS v4、base typography、content typography、container�
 
 build依存はTailwind、Tailwind CLI、Typographyの3種類です。追加のWeb Font、SPA、animation frameworkは使用していません。色・フォントは`data/theme.json`と`assets/css/site.css`の既存変数を確認して変更します。
 
+Tailwindの自動ファイル探索は`source(none)`で無効化し、Hugoが実際に出力した`hugo_stats.json`だけを明示的に読み込みます。README・検証JSON・vendorデモ等の単語がCSS候補へ混ざり、ローカルとCIのfingerprintが変わることを防ぎます。JavaScriptで追加するクラスは現在`js`・`dark`・`menu-open`で、`site.css`に明示的な定義があります。
+
 画像にはWebPのresponsive variantsと実寸を設定し、Hero以外は原則lazy loadingにします。実在しないUIや未公開機能を画像で補いません。HeroとOGPの出典・加工内容は[Hero素材記録](docs/migration/hero-assets.md)、[OGP素材記録](docs/migration/og-assets.md)を参照してください。OGPのPNGはコミット済みで、通常のbuild時には再生成しません。
 
 ## GitHub Pagesへのデプロイ

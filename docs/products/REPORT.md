@@ -107,7 +107,7 @@ App Store Connect関連の正式URL一覧は [恒久URL一覧](../migration/perm
 | `layouts/_partials/app-store-badge.html` | 公式バッジの描画を共通化し、公開状態を検査 |
 | `layouts/_partials/app-cta.html` | Home／Heroから公式バッジ共通部品を利用 |
 | `layouts/_partials/app-screenshots.html` | Product Heroだけeager指定を受け取る |
-| `assets/css/site.css` | Product専用レイアウト・レスポンシブ指定 |
+| `assets/css/site.css`、`main.css` | Product専用レイアウト・レスポンシブ指定、生成対象をHugoの実出力へ限定 |
 | `static/images/apps/uni-note/`、`uni-note-pocket/` | 追加3実素材のWebP 6ファイル |
 | `scripts/verify-migration.py`、`verify-browser.cjs` | 追加内容・実画像・上下CTA・長頁Supportの検証 |
 | `README.md` | Product専用データ・実画像・事実確認の編集手順 |
@@ -136,6 +136,10 @@ Hugoplate本体、依存、JavaScript、GitHub Actionsの変更はありませ�
 大きな余白、白／ダークのニュートラル背景、太い見出しを維持。機能・対象者は罫線付きの簡潔なリストとし、小さなカードを大量に追加していません。Productの新しいアニメーション・JavaScript・Web Fontはありません。
 
 [Lighthouse結果](lighthouse-summary.json)：ローカルproduction出力をChromeで測定。DesktopはPerformance／Accessibility／Best Practices／SEOすべて100、Mobileは99／100／100／100。Desktop LCP 0.443秒、Mobile LCP 2.027秒、双方CLS 0・TBT 0。Product Heroのlazy属性によるLCP発見の指摘を修正し、再測定で解消を確認しました。ローカルサーバーのcache・圧縮指摘と本番CDN評価は分けています。
+
+[最終差分の重点検証](final-focused-verification.json)：Uni:Noteの1440／393、Pocketのフランス語／繁体字393、ギガポケ393の5条件で、Heroのeager・Homeと本文のlazy、修正したUI用語、免責文の重複除去、CTA／Support、axeを再確認し成功しました。
+
+初回公開では全277 HTMLがHTTP200でしたが、CIのCSSに未使用の`.table`ルールが1つ加わり、ローカルとのfingerprint一致検証で差を検出しました。本番HTMLが参照するCSS自体はHTTP200で表示も正常でした。検証記録等をTailwindが自動探索する影響を除くため、生成対象を`hugo_stats.json`の実際のページ内クラスだけに限定しました。キャッシュを変えたbuildでも同一CSS SHA256を確認しています。JavaScriptが付ける状態クラスは既存の手書きCSSで維持しています。修正後のCSSでも73ケース＋共通操作・no-JS検証を再実行し、すべて成功しました。[7条件の撮影比較](css-visual-comparison.json)でもページ長・幅・画像サイズは一致しています。
 
 ## 9. 未解決事項・素材不足
 

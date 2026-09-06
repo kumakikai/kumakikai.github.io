@@ -1,0 +1,207 @@
+{
+  "ok": true,
+  "checkedAt": "2026-09-06T17:39:48.912Z",
+  "scope": "Post-73-case final changes only: Product hero eager loading, Pocket FR/zh-Hant UI terms, GigaPoke duplicate note removal.",
+  "cases": 5,
+  "homeScreenshotLoading": [
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy",
+    "lazy"
+  ],
+  "results": [
+    {
+      "name": "uni-note-desktop",
+      "route": "/products/uni-note/",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "httpStatus": 200,
+      "heroLoading": [
+        "eager",
+        "eager"
+      ],
+      "storyLoading": [
+        "lazy",
+        "lazy",
+        "lazy"
+      ],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "ctas": [
+        {
+          "href": "https://apps.apple.com/jp/app/id6760258084",
+          "top": 557
+        },
+        {
+          "href": "https://apps.apple.com/jp/app/id6760258084",
+          "top": 4742.265625
+        }
+      ],
+      "violations": [],
+      "errors": [],
+      "supportAnchorVisible": true,
+      "ok": true
+    },
+    {
+      "name": "uni-note-mobile",
+      "route": "/products/uni-note/",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "httpStatus": 200,
+      "heroLoading": [
+        "eager",
+        "eager"
+      ],
+      "storyLoading": [
+        "lazy",
+        "lazy",
+        "lazy"
+      ],
+      "viewport": 393,
+      "scrollWidth": 393,
+      "brokenImages": [],
+      "ctas": [
+        {
+          "href": "https://apps.apple.com/jp/app/id6760258084",
+          "top": 483.65625
+        },
+        {
+          "href": "https://apps.apple.com/jp/app/id6760258084",
+          "top": 6587.296875
+        }
+      ],
+      "violations": [],
+      "errors": [],
+      "supportAnchorVisible": true,
+      "ok": true
+    },
+    {
+      "name": "pocket-fr-mobile",
+      "route": "/fr/products/uni-note-pocket/",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "httpStatus": 200,
+      "heroLoading": [
+        "eager",
+        "eager"
+      ],
+      "storyLoading": [
+        "lazy",
+        "lazy"
+      ],
+      "viewport": 393,
+      "scrollWidth": 393,
+      "brokenImages": [],
+      "ctas": [
+        {
+          "href": "https://apps.apple.com/jp/app/id6761449487",
+          "top": 345.828125
+        },
+        {
+          "href": "https://apps.apple.com/jp/app/id6761449487",
+          "top": 6434.25
+        }
+      ],
+      "copyCheck": {
+        "present": "Sauvegarde rapide",
+        "absent": "sauvegarde simplifiée"
+      },
+      "violations": [],
+      "errors": [],
+      "supportAnchorVisible": true,
+      "ok": true
+    },
+    {
+      "name": "pocket-zh-hant-mobile",
+      "route": "/zh-hant/products/uni-note-pocket/",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "httpStatus": 200,
+      "heroLoading": [
+        "eager",
+        "eager"
+      ],
+      "storyLoading": [
+        "lazy",
+        "lazy"
+      ],
+      "viewport": 393,
+      "scrollWidth": 393,
+      "brokenImages": [],
+      "ctas": [
+        {
+          "href": "https://apps.apple.com/jp/app/id6761449487",
+          "top": 317.75
+        },
+        {
+          "href": "https://apps.apple.com/jp/app/id6761449487",
+          "top": 5915.203125
+        }
+      ],
+      "copyCheck": {
+        "present": "簡單備份",
+        "absent": "簡易備份"
+      },
+      "violations": [],
+      "errors": [],
+      "supportAnchorVisible": true,
+      "ok": true
+    },
+    {
+      "name": "giga-poke-mobile",
+      "route": "/products/giga-poke/",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "httpStatus": 200,
+      "heroLoading": [
+        "eager",
+        "eager"
+      ],
+      "storyLoading": [
+        "lazy",
+        "lazy"
+      ],
+      "viewport": 393,
+      "scrollWidth": 393,
+      "brokenImages": [],
+      "ctas": [
+        {
+          "href": "https://apps.apple.com/jp/app/id6807501268",
+          "top": 455.578125
+        },
+        {
+          "href": "https://apps.apple.com/jp/app/id6807501268",
+          "top": 6318.078125
+        }
+      ],
+      "copyCheck": {
+        "heroNotePreserved": true,
+        "fullDisclaimerOccurrences": 1,
+        "unofficialTermOccurrences": 2,
+        "lowerDuplicateRemoved": true
+      },
+      "violations": [],
+      "errors": [],
+      "supportAnchorVisible": true,
+      "ok": true
+    }
+  ]
+}

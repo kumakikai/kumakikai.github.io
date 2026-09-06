@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "comparisons": [
+    {
+      "name": "uni-note-mobile-pdf.png",
+      "equal": true
+    },
+    {
+      "name": "uni-note-desktop.png",
+      "equal": false
+    },
+    {
+      "name": "uni-note-mobile.png",
+      "equal": true
+    },
+    {
+      "name": "uni-note-small.png",
+      "equal": true
+    },
+    {
+      "name": "uni-note-desktop-hero.png",
+      "equal": false
+    },
+    {
+      "name": "uni-note-desktop-dark.png",
+      "equal": true
+    },
+    {
+      "name": "uni-note-mobile-hero.png",
+      "equal": true
+    },
+    {
+      "name": "uni-note-desktop1280.png",
+      "equal": true
+    },
+    {
+      "name": "uni-note-mobile-dark.png",
+      "equal": true
+    },
+    {
+      "name": "uni-note-ipad.png",
+      "equal": true
+    },
+    {
+      "name": "uni-note-desktop-pdf.png",
+      "equal": true
+    }
+  ],
+  "layoutMetricsIdentical": true,
+  "scope": "Seven viewport/theme conditions; document width/height and all story dimensions match. Nine of eleven PNGs are byte-identical. Two initial Desktop Light captures differ in rendered screenshot pixels; no layout dimension difference."
+}

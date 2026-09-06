@@ -1,4 +1,5 @@
-@import "tailwindcss";
+/* Only rendered Hugo classes are build inputs; docs and QA results are not. */
+@import "tailwindcss" source(none);
 @plugin "@tailwindcss/typography";
 @source "hugo_stats.json";
 @custom-variant dark (&:where(.dark, .dark *));
