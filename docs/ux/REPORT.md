@@ -4,7 +4,7 @@
 
 現在のHugoplateによる情報設計と主要コピーを維持し、正式ストア素材、公式バッジ、確認済み配信地域、直接サポート導線を統一した。Newsは記事の性質に合わせて3分類へ整理した。既存のApp Store Connect関連URLとアプリ別Privacy本文を保持している。
 
-**検証状態:** production生成物に対する静的検証とブラウザ54ケースが成功。最終公開確認は未完了のため、CI・公開URLの結果を末尾へ追記する。
+**検証状態:** production build・静的検証・ブラウザ54ケース・GitHub Actions / Pages公開が成功。公開277 HTML URLすべてHTTP 200で今回の生成内容と一致し、新しい画像・公式バッジ・CSS・JSの18ファイルも一致した。
 
 ## 1. スクリーンショットの採用と鮮度
 
@@ -60,7 +60,7 @@ iPhone欄のサムネイルのレイアウト・文字とローカル原本を�
 
 独自の「App Storeで見る」ボタンを、Apple公式マーケティングツール提供の黒背景SVGへ置き換えた。日本語・英語・韓国語・ドイツ語・フランス語・繁体字の6種類を取得し、サイト言語に応じて選ぶ。
 
-取得元URL、原寸、SHA-256は [`data/app-store-badges.json`](../../data/app-store-badges.json)。SVG内部のロゴ、色、文字、比率は変更していない。表示高48px、幅auto、周囲12pxの余白とし、独自の角丸や着色を重ねない。Appleの商標表記をFooterに掲載した。
+取得元URL、原寸、SHA-256は [`data/app-store-badges.json`](../../data/app-store-badges.json)。SVG内部のロゴ、色、文字、比率は変更していない。表示高48px、幅auto、周囲12pxの余白とし、独自の角丸や着色を重ねない。[Apple公式マーケティングガイドライン](https://developer.apple.com/app-store/marketing/guidelines/)に従い、商標表記をFooterに掲載した。
 
 適用範囲は、公開中7アプリのHome紹介とProduct詳細。Homeではアプリごとに1個、Product詳細では上部に1個とし、下部に同じバッジを繰り返さない。Noccaは公開が確認できないため非表示。
 
@@ -185,6 +185,43 @@ FooterではKUMAKIKAIのブランド表記に加え、Contact、Copyright、公�
 
 App Store Connect登録済み、または登録されている可能性のあるSupport／Marketing／Privacy／Press Releaseの既存正式URLは移動していない。今回新設した公開ページURLやredirectはない。既存の53 aliasと138直接URLの対応は移行前の監査基準を維持する。全一覧は [恒久URL監査](../migration/permanent-urls.md) と [baseline](../migration/baseline.json) を参照。
 
+### 個別Privacy Policyの公開確認
+
+以下の30 URL（本文22件・既存alias 8件）は同じURLでHTTP 200、現行ビルドのHTMLとSHA-256が一致した。既存aliasは従来の正式Privacyへ到達することも静的検証済み。Privacy本文の変更・削除、新たなalias/redirectはない。
+
+| 維持したURL | HTTP | 内容一致 |
+|---|---:|---|
+| [/de/privacy/uni-memo/](https://kumakikai.github.io/de/privacy/uni-memo/) | 200 | 既存alias・SHA-256一致 |
+| [/de/privacy/uni-note/](https://kumakikai.github.io/de/privacy/uni-note/) | 200 | SHA-256一致 |
+| [/de/privacy/uni-note-pocket/](https://kumakikai.github.io/de/privacy/uni-note-pocket/) | 200 | SHA-256一致 |
+| [/en/privacy/smokeless/](https://kumakikai.github.io/en/privacy/smokeless/) | 200 | SHA-256一致 |
+| [/en/privacy/uni-memo/](https://kumakikai.github.io/en/privacy/uni-memo/) | 200 | 既存alias・SHA-256一致 |
+| [/en/privacy/uni-note/](https://kumakikai.github.io/en/privacy/uni-note/) | 200 | SHA-256一致 |
+| [/en/privacy/uni-note-pocket/](https://kumakikai.github.io/en/privacy/uni-note-pocket/) | 200 | SHA-256一致 |
+| [/fr/privacy/smokeless/](https://kumakikai.github.io/fr/privacy/smokeless/) | 200 | SHA-256一致 |
+| [/fr/privacy/uni-memo/](https://kumakikai.github.io/fr/privacy/uni-memo/) | 200 | 既存alias・SHA-256一致 |
+| [/fr/privacy/uni-note/](https://kumakikai.github.io/fr/privacy/uni-note/) | 200 | SHA-256一致 |
+| [/fr/privacy/uni-note-pocket/](https://kumakikai.github.io/fr/privacy/uni-note-pocket/) | 200 | SHA-256一致 |
+| [/ko/privacy/smokeless/](https://kumakikai.github.io/ko/privacy/smokeless/) | 200 | SHA-256一致 |
+| [/ko/privacy/uni-memo/](https://kumakikai.github.io/ko/privacy/uni-memo/) | 200 | 既存alias・SHA-256一致 |
+| [/ko/privacy/uni-note/](https://kumakikai.github.io/ko/privacy/uni-note/) | 200 | SHA-256一致 |
+| [/ko/privacy/uni-note-pocket/](https://kumakikai.github.io/ko/privacy/uni-note-pocket/) | 200 | SHA-256一致 |
+| [/privacy/balance-calendar/](https://kumakikai.github.io/privacy/balance-calendar/) | 200 | SHA-256一致 |
+| [/privacy/giga-poke/](https://kumakikai.github.io/privacy/giga-poke/) | 200 | SHA-256一致 |
+| [/privacy/nocca/](https://kumakikai.github.io/privacy/nocca/) | 200 | SHA-256一致 |
+| [/privacy/oto-miru/](https://kumakikai.github.io/privacy/oto-miru/) | 200 | SHA-256一致 |
+| [/privacy/povo-manager/](https://kumakikai.github.io/privacy/povo-manager/) | 200 | 既存alias・SHA-256一致 |
+| [/privacy/signal/](https://kumakikai.github.io/privacy/signal/) | 200 | SHA-256一致 |
+| [/privacy/smoke-less/](https://kumakikai.github.io/privacy/smoke-less/) | 200 | 既存alias・SHA-256一致 |
+| [/privacy/smokeless/](https://kumakikai.github.io/privacy/smokeless/) | 200 | SHA-256一致 |
+| [/privacy/uni-memo/](https://kumakikai.github.io/privacy/uni-memo/) | 200 | 既存alias・SHA-256一致 |
+| [/privacy/uni-note/](https://kumakikai.github.io/privacy/uni-note/) | 200 | SHA-256一致 |
+| [/privacy/uni-note-pocket/](https://kumakikai.github.io/privacy/uni-note-pocket/) | 200 | SHA-256一致 |
+| [/zh-hant/privacy/smokeless/](https://kumakikai.github.io/zh-hant/privacy/smokeless/) | 200 | SHA-256一致 |
+| [/zh-hant/privacy/uni-memo/](https://kumakikai.github.io/zh-hant/privacy/uni-memo/) | 200 | 既存alias・SHA-256一致 |
+| [/zh-hant/privacy/uni-note/](https://kumakikai.github.io/zh-hant/privacy/uni-note/) | 200 | SHA-256一致 |
+| [/zh-hant/privacy/uni-note-pocket/](https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/) | 200 | SHA-256一致 |
+
 ## 6. 検証結果
 
 ### 確認済みの静的検証
@@ -207,16 +244,14 @@ App Store Connect登録済み、または登録されている可能性のある
 | HTML / SEO・構造化データ | 277 / 204ページ |
 | sitemap | 200項目 |
 
-ローカルの生成・リンク検証と、公開環境のHTTP確認は別工程として扱う。
+ローカルの生成・リンク検証と、公開環境のHTTP確認を別工程で実施した。ローカル詳細は [verification.json](verification.json)、公開URL別の結果は [public-verification.json](public-verification.json)。
 
-### 最終確認の追記欄
-
-<!-- FINAL_VERIFICATION_PENDING: 完了した証跡に基づいて親担当が更新する。 -->
+### 最終確認
 
 - Production build: Hugo 0.158.0 Extendedで `npm run build` 成功、警告なし。`npm run verify` も errors 0 / warnings 0。実行時に `HUGO_CACHEDIR=/private/tmp/kumakikai-hugoplate-cache` と `HUGO_BINARY=/private/tmp/kumakikai-hugo-0.158.0/Payload/hugo` を指定した。
 - Desktop / iPad / Mobile、Light / Dark: **54ケース成功**。`artifacts/ux/browser/results.json` は `ok: true`、`cases: 54`、`interactions: passed`、`failures: []`。1440 / 1280 / 834 / 393 / 320px、8 Product、6言語、Home / News / Support / Privacy等を含む。
 - キーボード、折りたたみ、国旗リンク、no-JS、横はみ出し: 追加操作検証成功。各画面の画像・見出し階層・重複ID・コンソールエラー・axe違反も検査し、失敗なし。
-- 公開GitHub Pages HTTP / CI / commit: 未確認。最終公開後に追記予定。
+- 公開GitHub Pages: 実装修正 `eaffb5d` をmainへpushし、[Hugo CI](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34046941737) と [Pages公開](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34046954589) が成功。2026-09-07 01:56 JST、277 HTML URLすべてがHTTP 200でローカル生成物のSHA-256と一致。画像・公式バッジ・CSS・JSの18ファイルもHTTP 200・SHA一致。全URLと結果は [public-verification.json](public-verification.json)。
 - Lighthouse 12.8.2: 今回のproduction生成物をローカルChromeのモバイル模擬条件で測定。Home 99 / 100 / 100 / 100、Uni:Note 100 / 100 / 100 / 100（Performance / Accessibility / Best Practices / SEO）。LCPはHome 2.3 s、Uni:Note 1.5 s、CLSは双方0、run warningsなし。実利用者やモバイル回線のフィールド測定とは区別する。
 
 ## 7. 実ページのスクリーンショット
