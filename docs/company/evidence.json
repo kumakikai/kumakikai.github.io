@@ -23,10 +23,10 @@
   "businessCard": {
     "path": "/Users/yuya/Downloads/名刺.png",
     "sha256": "6876c5a26dbb4e445cfef6408701254db4c6a24c7d5dc55aef3ff8e2606f2ea3",
-    "usage": "Read-only reference. The card itself is not copied, cropped or published. Phone content is excluded from public HTML, metadata, structured data and this evidence."
+    "usage": "The business card is reference material and, after explicit user authorization, the image-editing input for extracting its person illustration. The full card, telephone content, QR code and other card text are not published. Telephone content remains excluded from public HTML, metadata, structured data and this evidence."
   },
   "portraitAudit": {
-    "result": "No standalone matching illustration and no website-use rights evidence found. Text-only profile implemented.",
+    "result": "No standalone original illustration was found on the initial or repeated audit. The user subsequently confirmed that the card illustration was self-created with AI and explicitly authorized its use on the website. The edited person-only illustration is integrated into Founder; validation and deployment of this addition are tracked separately.",
     "scope": [
       "homepage/static (83 existing images), assets, hidden and ignored filename inventory",
       "Related /Users/yuya/Projects/kumakikai repository",
@@ -34,10 +34,29 @@
     ],
     "excluded": [
       "Full business-card image",
-      "Crop of the person from the card",
-      "AI-generated portrait",
+      "Telephone number",
+      "QR code",
+      "Other business-card text",
       "Unverified illustration or photograph"
-    ]
+    ],
+    "initialPublication": "The Company expansion was initially published with a text-only profile before portrait-use authorization. Its QA, Lighthouse and deployment evidence are retained unchanged as the pre-portrait baseline.",
+    "authorization": {
+      "checkedAt": "2026-09-07",
+      "authority": "Explicit user statement in this task.",
+      "userStatement": "The person illustration on the business card was created by the user with AI, and the user permits its use on the homepage.",
+      "scope": "Person illustration in the Founder profile only."
+    },
+    "editing": {
+      "tool": "Built-in imagegen",
+      "mode": "Image editing of the existing business-card illustration",
+      "method": "Extract the existing person illustration onto a white background. The input is the existing card artwork, rather than a request to invent a new portrait.",
+      "pixelIdentity": "The result is an image edit, not a crop that retains the original pixels. Pixel-identical details are not asserted.",
+      "editedResult": "/Users/yuya/.codex/generated_images/01a076f7-4827-7950-b6e8-c87d9d6e8e45/exec-35882f9e-732e-46ce-8bad-4636b56bd5b6.png",
+      "websiteSource": "assets/images/company/yuya-nakamura.png",
+      "sha256": "e9d08970dbc89db23bfc301fb36ad89f2e76675b68c1d4b689e49b90f52b2d98",
+      "assetRecord": "docs/company/portrait/asset.json",
+      "verificationDirectory": "docs/company/portrait/"
+    }
   },
   "publishedSources": [
     {

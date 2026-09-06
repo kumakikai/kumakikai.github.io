@@ -1,10 +1,11 @@
 {{ define "main" }}
 {{ $corp := index site.Data.corporate site.Language.Lang }}{{ $copy := index site.Data.company site.Language.Lang }}{{ $home := index site.Data.home site.Language.Lang }}
+{{ $portrait := resources.Get "images/company/yuya-nakamura.png" }}{{ $portraitSmall := $portrait.Resize "192x webp q90" }}{{ $portraitRetina := $portrait.Resize "384x webp q90" }}
 <div class="container company-page">
   <header class="page-heading"><p class="eyebrow">Company</p><h1>{{ $corp.companyTitle }}</h1><p>{{ $corp.companyIntro }}</p></header>
   <section class="company-about company-section" aria-labelledby="about-title"><h2 id="about-title">{{ $copy.aboutTitle }}</h2><div>{{ range $copy.about }}<p>{{ . }}</p>{{ end }}</div></section>
   <section id="founder" class="company-profile" aria-labelledby="founder-title">
-    <div class="founder-identity"><p class="eyebrow">Founder</p><h2 id="founder-title">{{ $copy.founderHeading }}</h2><h3>{{ $copy.founderName }}</h3><p class="founder-english" lang="en">{{ $copy.founderEnglishName }}</p><p class="founder-role" lang="en">{{ $copy.founderRole }}</p></div>
+    <div class="founder-identity"><p class="eyebrow">Founder</p><h2 id="founder-title">{{ $copy.founderHeading }}</h2><img class="founder-portrait" src="{{ $portraitSmall.RelPermalink }}" srcset="{{ $portraitSmall.RelPermalink }} 192w, {{ $portraitRetina.RelPermalink }} 384w" sizes="160px" width="192" height="192" alt="{{ $copy.founderPortraitAlt }}" loading="lazy" decoding="async"><h3>{{ $copy.founderName }}</h3><p class="founder-english" lang="en">{{ $copy.founderEnglishName }}</p><p class="founder-role" lang="en">{{ $copy.founderRole }}</p></div>
     <div class="founder-bio">{{ range $copy.founderBio }}<p>{{ . }}</p>{{ end }}<dl class="founder-experience"><div><dt>{{ $copy.experienceLabel }}</dt><dd>{{ delimit $copy.experience " / " }}</dd></div><div><dt>{{ $copy.technologyLabel }}</dt><dd lang="en">C / C++ / C# / Java / Python / Dart / Swift</dd></div></dl></div>
   </section>
   <section class="company-build company-section" aria-labelledby="build-title"><p class="eyebrow">What we build</p><h2 id="build-title">{{ $copy.buildTitle }}</h2><p class="company-build-intro">{{ printf $copy.buildIntro (len (where site.Data.apps "status" "published")) }}</p>

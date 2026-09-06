@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-07",
+  "authorization": "User explicitly confirmed the business-card character is their AI-generated artwork and permitted website use. Telephone publication remains prohibited.",
+  "sourceBusinessCard": "/Users/yuya/Downloads/名刺.png",
+  "independentOriginalFound": false,
+  "tool": "Built-in imagegen, image edit",
+  "selectedEditOutput": "/Users/yuya/.codex/generated_images/01a076f7-4827-7950-b6e8-c87d9d6e8e45/exec-35882f9e-732e-46ce-8bad-4636b56bd5b6.png",
+  "sourceAsset": "assets/images/company/yuya-nakamura.png",
+  "sha256": "e9d08970dbc89db23bfc301fb36ad89f2e76675b68c1d4b689e49b90f52b2d98",
+  "editPrompt": "Edit the supplied business card by isolating ONLY its existing illustrated person from the lower right. Return a tight clean crop of that exact portrait on a solid pure white (#ffffff) background, with modest 5% white padding. Keep the existing exact head/hair/glasses/face/striped zip hoodie drawing, posture and bust crop; do NOT invent or redesign the character, and do not change the linework or facial proportions. This is an extraction for reusing the same illustrated portrait. Completely remove all other card content: no QR code, no speech bubble, no words, no numbers, no icons. Solid pure white background is required everywhere outside the portrait. Absolutely NO checkerboard pattern, NO simulated transparency, NO gray pattern, NO shadow. Portrait only on white.",
+  "methodNote": "Image editing extraction; not a claim of pixel-identical cropping. The first edit with a simulated transparency background was rejected and is not included in the website.",
+  "delivery": "Hugo image processing: 192px and 384px WebP q90, 160 CSS px, width/height reserved, lazy loading and async decoding. Full business card is not included.",
+  "privacy": "No telephone, QR code, speech bubble, or other business-card text in the selected portrait."
+}
