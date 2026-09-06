@@ -47,7 +47,8 @@
     },
     "operatingSystems": [
       "iPadOS"
-    ]
+    ],
+    "area": "learning"
   },
   {
     "id": "oto-miru",
@@ -90,7 +91,8 @@
       "iOS",
       "iPadOS"
     ],
-    "screenshotsStatus": "review"
+    "screenshotsStatus": "review",
+    "area": "communication"
   },
   {
     "id": "giga-poke",
@@ -130,7 +132,8 @@
     },
     "operatingSystems": [
       "iOS"
-    ]
+    ],
+    "area": "daily-tools"
   },
   {
     "id": "nocca",
@@ -168,11 +171,12 @@
     },
     "operatingSystems": [
       "iOS"
-    ]
+    ],
+    "area": "communication"
   },
   {
     "id": "uni-note-pocket",
-    "featured": false,
+    "featured": true,
     "status": "published",
     "appStoreURL": "https://apps.apple.com/jp/app/id6761449487",
     "detailURL": "/htu/uni-note-pocket/",
@@ -218,11 +222,12 @@
     },
     "operatingSystems": [
       "iOS"
-    ]
+    ],
+    "area": "learning"
   },
   {
     "id": "balance-calendar",
-    "featured": false,
+    "featured": true,
     "status": "published",
     "appStoreURL": "https://apps.apple.com/jp/app/id6757731648",
     "detailURL": "/htu/balance-calendar/",
@@ -260,11 +265,12 @@
     },
     "operatingSystems": [
       "iOS"
-    ]
+    ],
+    "area": "daily-tools"
   },
   {
     "id": "smokeless",
-    "featured": false,
+    "featured": true,
     "status": "published",
     "appStoreURL": "https://apps.apple.com/jp/app/id6760842941",
     "detailURL": "/htu/smokeless/",
@@ -306,11 +312,12 @@
     },
     "operatingSystems": [
       "iOS"
-    ]
+    ],
+    "area": "daily-tools"
   },
   {
     "id": "signal",
-    "featured": false,
+    "featured": true,
     "status": "published",
     "appStoreURL": "https://apps.apple.com/jp/app/id6759493613",
     "detailURL": "/htu/signal/",
@@ -346,6 +353,7 @@
     },
     "operatingSystems": [
       "iOS"
-    ]
+    ],
+    "area": "daily-tools"
   }
 ]

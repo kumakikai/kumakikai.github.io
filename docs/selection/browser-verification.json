@@ -1,0 +1,7137 @@
+{
+  "checkedAt": "2026-09-06T18:50:46.061Z",
+  "base": "http://127.0.0.1:1314",
+  "ok": true,
+  "pending": false,
+  "cases": 88,
+  "failures": [],
+  "warnings": [],
+  "homeCandidateCoverage": [
+    "balance-calendar",
+    "giga-poke",
+    "nocca",
+    "oto-miru",
+    "signal",
+    "smokeless",
+    "uni-note",
+    "uni-note-pocket"
+  ],
+  "expectedAreaCandidates": {
+    "learning": [
+      "uni-note",
+      "uni-note-pocket"
+    ],
+    "communication": [
+      "oto-miru",
+      "nocca"
+    ],
+    "daily-tools": [
+      "giga-poke",
+      "balance-calendar",
+      "smokeless",
+      "signal"
+    ]
+  },
+  "areaCandidateCoverage": {
+    "learning": [
+      "uni-note",
+      "uni-note-pocket"
+    ],
+    "communication": [
+      "nocca",
+      "oto-miru"
+    ],
+    "daily-tools": [
+      "balance-calendar",
+      "giga-poke",
+      "signal",
+      "smokeless"
+    ]
+  },
+  "method": "Browser navigation/reloads, deterministic seeded Math.random coverage, actual shipped selection script on minimal DOM, no-JS fallback, external-script blocking, axe, and layout-shift observation. No source/data/UI changes from this test.",
+  "limitations": [
+    "Local Chrome lab verification; not real-device or production field data.",
+    "Unseeded reload variation is observational and never used as a probabilistic pass/fail condition.",
+    "PerformanceObserver CLS samples cover initial navigation and controlled full image loading; Fast 3G is Chrome CDP emulation, not a cellular-device measurement."
+  ],
+  "results": [
+    {
+      "name": "single-candidate-and-idempotence",
+      "ok": true,
+      "selected": "only",
+      "idempotence": true,
+      "source": "assets/js/select-products.js",
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-1-home",
+      "ok": true,
+      "seed": 1,
+      "pageType": "home",
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-1-company",
+      "ok": true,
+      "seed": 1,
+      "pageType": "company",
+      "selected": {
+        "learning": "uni-note",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-2-home",
+      "ok": true,
+      "seed": 2,
+      "pageType": "home",
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "balance-calendar",
+        "uni-note-pocket"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-2-company",
+      "ok": true,
+      "seed": 2,
+      "pageType": "company",
+      "selected": {
+        "learning": "uni-note",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-3-home",
+      "ok": true,
+      "seed": 3,
+      "pageType": "home",
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "uni-note-pocket",
+        "balance-calendar"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-3-company",
+      "ok": true,
+      "seed": 3,
+      "pageType": "company",
+      "selected": {
+        "learning": "uni-note",
+        "communication": "nocca",
+        "daily-tools": "smokeless"
+      },
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-4-home",
+      "ok": true,
+      "seed": 4,
+      "pageType": "home",
+      "selected": [
+        "uni-note",
+        "nocca",
+        "balance-calendar",
+        "uni-note-pocket"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-4-company",
+      "ok": true,
+      "seed": 4,
+      "pageType": "company",
+      "selected": {
+        "learning": "uni-note",
+        "communication": "nocca",
+        "daily-tools": "balance-calendar"
+      },
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-5-home",
+      "ok": true,
+      "seed": 5,
+      "pageType": "home",
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "smokeless",
+        "oto-miru"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-5-company",
+      "ok": true,
+      "seed": 5,
+      "pageType": "company",
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "smokeless"
+      },
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-7-home",
+      "ok": true,
+      "seed": 7,
+      "pageType": "home",
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "smokeless",
+        "giga-poke"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-7-company",
+      "ok": true,
+      "seed": 7,
+      "pageType": "company",
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-11-home",
+      "ok": true,
+      "seed": 11,
+      "pageType": "home",
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-11-company",
+      "ok": true,
+      "seed": 11,
+      "pageType": "company",
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "giga-poke"
+      },
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-19-home",
+      "ok": true,
+      "seed": 19,
+      "pageType": "home",
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-19-company",
+      "ok": true,
+      "seed": 19,
+      "pageType": "company",
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "unseeded-real-reloads-home",
+      "ok": true,
+      "reloads": 5,
+      "initialNavigations": 1,
+      "choices": [
+        [
+          "uni-note",
+          "signal",
+          "uni-note-pocket",
+          "oto-miru"
+        ],
+        [
+          "uni-note",
+          "smokeless",
+          "oto-miru",
+          "uni-note-pocket"
+        ],
+        [
+          "uni-note",
+          "uni-note-pocket",
+          "giga-poke",
+          "nocca"
+        ],
+        [
+          "uni-note",
+          "uni-note-pocket",
+          "signal",
+          "smokeless"
+        ],
+        [
+          "uni-note",
+          "nocca",
+          "smokeless",
+          "uni-note-pocket"
+        ],
+        [
+          "uni-note",
+          "uni-note-pocket",
+          "smokeless",
+          "balance-calendar"
+        ]
+      ],
+      "distinctCombinations": 6,
+      "varietyObserved": true,
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "unseeded-real-reloads-company",
+      "ok": true,
+      "reloads": 5,
+      "initialNavigations": 1,
+      "choices": [
+        {
+          "learning": "uni-note-pocket",
+          "communication": "oto-miru",
+          "daily-tools": "smokeless"
+        },
+        {
+          "learning": "uni-note-pocket",
+          "communication": "nocca",
+          "daily-tools": "giga-poke"
+        },
+        {
+          "learning": "uni-note-pocket",
+          "communication": "oto-miru",
+          "daily-tools": "signal"
+        },
+        {
+          "learning": "uni-note",
+          "communication": "oto-miru",
+          "daily-tools": "balance-calendar"
+        },
+        {
+          "learning": "uni-note-pocket",
+          "communication": "oto-miru",
+          "daily-tools": "smokeless"
+        },
+        {
+          "learning": "uni-note-pocket",
+          "communication": "nocca",
+          "daily-tools": "balance-calendar"
+        }
+      ],
+      "distinctCombinations": 5,
+      "varietyObserved": true,
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-desktop-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 11,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [
+        "docs/selection/screenshots/home-desktop-light.jpg"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-desktop-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 11,
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [
+        "docs/selection/screenshots/about-desktop-light.jpg"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-desktop-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 11,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [
+        "docs/selection/screenshots/home-desktop-dark.jpg"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-desktop-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 11,
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 68,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 68,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 68,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 68,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [
+        "docs/selection/screenshots/about-desktop-dark.jpg"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-mobile-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 11,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [
+        "docs/selection/screenshots/home-mobile-light.jpg"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-mobile-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 11,
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [
+        "docs/selection/screenshots/about-mobile-light.jpg"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-mobile-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 11,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [
+        "docs/selection/screenshots/home-mobile-dark.jpg"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-mobile-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 11,
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [
+        "docs/selection/screenshots/about-mobile-dark.jpg"
+      ],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-en-desktop-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-en-desktop-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-en-desktop-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-en-desktop-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-en-mobile-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "en",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-en-mobile-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "en",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-en-mobile-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "en",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-en-mobile-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "en",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ko-desktop-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ko",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ko-desktop-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ko",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ko-desktop-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ko",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ko-desktop-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ko",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ko-mobile-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ko",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ko-mobile-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ko",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ko-mobile-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ko",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ko-mobile-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ko",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-de-desktop-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "de",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-de-desktop-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "de",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-de-desktop-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "de",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-de-desktop-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "de",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-de-mobile-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "de",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-de-mobile-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "de",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-de-mobile-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "de",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-de-mobile-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "de",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 76,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-fr-desktop-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "fr",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-fr-desktop-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "fr",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-fr-desktop-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "fr",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 56,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-fr-desktop-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "fr",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-fr-mobile-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "fr",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-fr-mobile-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "fr",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-fr-mobile-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "fr",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-fr-mobile-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "fr",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-zh-hant-desktop-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "zh-hant",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 48,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-zh-hant-desktop-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "zh-hant",
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-zh-hant-desktop-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "zh-hant",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-zh-hant-desktop-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "zh-hant",
+      "width": 1440,
+      "height": 1000,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-zh-hant-mobile-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "zh-hant",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-zh-hant-mobile-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "zh-hant",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-zh-hant-mobile-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "zh-hant",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "signal",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 52,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-zh-hant-mobile-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "zh-hant",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 19,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-small-iphone-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 320,
+      "height": 740,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 7,
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "smokeless",
+        "giga-poke"
+      ],
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-small-iphone-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 320,
+      "height": 740,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 7,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 72,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 72,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 72,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 72,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-small-iphone-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 320,
+      "height": 740,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 7,
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "smokeless",
+        "giga-poke"
+      ],
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 64,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-small-iphone-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 320,
+      "height": 740,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 7,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-ipad-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 834,
+      "height": 1194,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 7,
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "smokeless",
+        "giga-poke"
+      ],
+      "layout": {
+        "viewport": 834,
+        "scrollWidth": 834,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-ipad-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 834,
+      "height": 1194,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 7,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 834,
+        "scrollWidth": 834,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-ipad-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 834,
+      "height": 1194,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 7,
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "smokeless",
+        "giga-poke"
+      ],
+      "layout": {
+        "viewport": 834,
+        "scrollWidth": 834,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-ipad-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 834,
+      "height": 1194,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 7,
+      "selected": {
+        "learning": "uni-note-pocket",
+        "communication": "nocca",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 834,
+        "scrollWidth": 834,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 36,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-no-js-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": true,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 37,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": null,
+      "afterImageLoading": null,
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-external-js-blocked-light",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": true,
+      "fast3G": false,
+      "seed": 5,
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "smokeless",
+        "oto-miru"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 40,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [
+        "http://127.0.0.1:1314/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js"
+      ],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-no-js-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": true,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 37,
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": null,
+      "afterImageLoading": null,
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-external-js-blocked-light",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": true,
+      "fast3G": false,
+      "seed": 5,
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "smokeless"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 44,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [
+        "http://127.0.0.1:1314/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js"
+      ],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-no-js-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": true,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 37,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": null,
+      "afterImageLoading": null,
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-external-js-blocked-dark",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": true,
+      "fast3G": false,
+      "seed": 5,
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "smokeless",
+        "oto-miru"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 60,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [
+        "http://127.0.0.1:1314/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js"
+      ],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-no-js-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": true,
+      "blockExternalJS": false,
+      "fast3G": false,
+      "seed": 37,
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "giga-poke"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": null,
+      "afterImageLoading": null,
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-external-js-blocked-dark",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "noJS": false,
+      "blockExternalJS": true,
+      "fast3G": false,
+      "seed": 5,
+      "selected": {
+        "learning": "uni-note",
+        "communication": "oto-miru",
+        "daily-tools": "smokeless"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": true,
+        "backgroundColor": "rgb(23, 25, 29)",
+        "colorScheme": "dark",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 32,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [
+        "http://127.0.0.1:1314/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js"
+      ],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "home-ja-fast-3g-cls",
+      "ok": true,
+      "pageType": "home",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": true,
+      "seed": 3,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "uni-note-pocket",
+        "balance-calendar"
+      ],
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 1108,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 1108,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 1108,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 1108,
+            "groups": [
+              {
+                "count": "3",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "company-ja-fast-3g-cls",
+      "ok": true,
+      "pageType": "company",
+      "locale": "ja",
+      "width": 393,
+      "height": 852,
+      "theme": "light",
+      "noJS": false,
+      "blockExternalJS": false,
+      "fast3G": true,
+      "seed": 3,
+      "selected": {
+        "learning": "uni-note",
+        "communication": "nocca",
+        "daily-tools": "smokeless"
+      },
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "h1": 1,
+        "dark": false,
+        "backgroundColor": "rgb(255, 255, 255)",
+        "colorScheme": "light",
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "brokenImages": []
+      },
+      "initialLayoutShift": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 708,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 708,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "afterImageLoading": {
+        "cls": 0,
+        "totalShift": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "startTime": 708,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 708,
+            "groups": [
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              },
+              {
+                "count": "1",
+                "ready": true
+              }
+            ]
+          }
+        ]
+      },
+      "violations": [],
+      "blockedScripts": [],
+      "screenshots": [],
+      "runPhase": "initial-full-run"
+    },
+    {
+      "name": "seed-6-home",
+      "ok": true,
+      "seed": 6,
+      "pageType": "home",
+      "selected": [
+        "uni-note",
+        "nocca",
+        "balance-calendar",
+        "giga-poke"
+      ],
+      "runPhase": "targeted-coverage-followup"
+    },
+    {
+      "name": "seed-6-company",
+      "ok": true,
+      "seed": 6,
+      "pageType": "company",
+      "selected": {
+        "learning": "uni-note",
+        "communication": "nocca",
+        "daily-tools": "signal"
+      },
+      "runPhase": "targeted-coverage-followup"
+    },
+    {
+      "name": "deterministic-candidate-coverage",
+      "ok": true,
+      "home": [
+        "balance-calendar",
+        "giga-poke",
+        "nocca",
+        "oto-miru",
+        "signal",
+        "smokeless",
+        "uni-note",
+        "uni-note-pocket"
+      ],
+      "company": {
+        "learning": [
+          "uni-note",
+          "uni-note-pocket"
+        ],
+        "communication": [
+          "nocca",
+          "oto-miru"
+        ],
+        "daily-tools": [
+          "balance-calendar",
+          "giga-poke",
+          "signal",
+          "smokeless"
+        ]
+      },
+      "runPhase": "targeted-coverage-followup"
+    }
+  ],
+  "phase": "combined-verification",
+  "expectedHomeRandomCandidates": [
+    "oto-miru",
+    "giga-poke",
+    "nocca",
+    "uni-note-pocket",
+    "balance-calendar",
+    "smokeless",
+    "signal"
+  ],
+  "expectedHomeVisibleCoverage": [
+    "uni-note",
+    "oto-miru",
+    "giga-poke",
+    "nocca",
+    "uni-note-pocket",
+    "balance-calendar",
+    "smokeless",
+    "signal"
+  ],
+  "verificationPasses": [
+    {
+      "phase": "initial-full-run",
+      "file": "artifacts/selection/browser-before-coverage-correction.json",
+      "sha256": "e1a794eb579b758a8a0a3bba64d3c2ef26a5c936e4bc05dc597155aedbab3d5e",
+      "cases": 86,
+      "passed": 85,
+      "failed": [
+        "deterministic-candidate-coverage"
+      ],
+      "interpretation": "All rendered-page, no-JS, script-blocking, layout/axe and CLS cases passed. The selected eight fixed test seeds did not yet select SIGNAL in daily-tools."
+    },
+    {
+      "phase": "targeted-coverage-followup",
+      "file": "artifacts/selection/coverage-verification.json",
+      "sha256": "2b83cfc19af80a7d503d76199f229eeca1de29faac9b683525675bd0b4f0d306",
+      "cases": 3,
+      "passed": 3,
+      "seed": 6,
+      "interpretation": "Added a reproducible seed input and reused only successful deterministic observations from the same unchanged build; no unseeded samples fill coverage. All candidates were confirmed. Already-passing viewport cases were not rerun."
+    }
+  ],
+  "testHarnessCorrections": [
+    {
+      "issue": "Nocca About platform includes localized development status",
+      "change": "The test now expects platform plus the existing development label. No UI source changed.",
+      "initialPartialArtifact": "artifacts/selection/test-expectation-initial.json"
+    },
+    {
+      "issue": "Fixed eight-seed sample missed SIGNAL in the daily-tools area",
+      "change": "Seed 6 was added. Browser navigation with the shipped inline script selected SIGNAL in daily-tools. The default full suite now includes this seed; coverage-only mode supports targeted rechecks."
+    },
+    {
+      "issue": "Coverage label ambiguity",
+      "change": "Report distinguishes seven random Home candidates from eight-product coverage including fixed Uni:Note."
+    }
+  ],
+  "layoutShiftSummary": {
+    "samples": 62,
+    "maxInitialCLS": 0,
+    "maxAfterImageLoadingCLS": 0,
+    "fast3G": [
+      {
+        "page": "home",
+        "initialCLS": 0,
+        "fullImageCLS": 0
+      },
+      {
+        "page": "company",
+        "initialCLS": 0,
+        "fullImageCLS": 0
+      }
+    ]
+  },
+  "randomReloadSummary": [
+    {
+      "page": "home",
+      "navigations": 6,
+      "distinctCombinations": 6,
+      "varietyObserved": true
+    },
+    {
+      "page": "company",
+      "navigations": 6,
+      "distinctCombinations": 5,
+      "varietyObserved": true
+    }
+  ],
+  "screenshotFiles": [
+    "docs/selection/screenshots/home-desktop-light.jpg",
+    "docs/selection/screenshots/about-desktop-light.jpg",
+    "docs/selection/screenshots/home-desktop-dark.jpg",
+    "docs/selection/screenshots/about-desktop-dark.jpg",
+    "docs/selection/screenshots/home-mobile-light.jpg",
+    "docs/selection/screenshots/about-mobile-light.jpg",
+    "docs/selection/screenshots/home-mobile-dark.jpg",
+    "docs/selection/screenshots/about-mobile-dark.jpg"
+  ],
+  "visualReview": {
+    "reviewed": true,
+    "files": [
+      "docs/selection/screenshots/home-desktop-light.jpg",
+      "docs/selection/screenshots/about-desktop-light.jpg",
+      "docs/selection/screenshots/home-desktop-dark.jpg",
+      "docs/selection/screenshots/about-desktop-dark.jpg",
+      "docs/selection/screenshots/home-mobile-light.jpg",
+      "docs/selection/screenshots/about-mobile-light.jpg",
+      "docs/selection/screenshots/home-mobile-dark.jpg",
+      "docs/selection/screenshots/about-mobile-dark.jpg"
+    ],
+    "observations": [
+      "Home preserves the Hero and leads with Uni:Note; selected products remain full-size with their own screenshots and CTA areas.",
+      "Desktop retains copy/screenshots side by side; mobile places copy and CTA before the screenshots with no horizontal scrolling.",
+      "About keeps three concise activity rows, each with one product link and visible platform.",
+      "Light/Dark screenshots retain readable text, dividers, product images and focusable actions; no overlap or clipped cards was observed."
+    ]
+  },
+  "sourceFingerprint": {
+    "assets/js/select-products.js": "4bd78e7662e984152bcfdebcc80096acfd7c883c9fca9a6f8280d22aa28bb834",
+    "layouts/_partials/select-products.html": "e29883ab1b8965b66aa4ad7a942ca5af5df830aa7801796fa7ccb0f3e0d9702d",
+    "layouts/home.html": "fa82825978eac1f64fed98fdf01308ad8d2764234b0ab177f9b2dc2ca52dfce6",
+    "layouts/company/list.html": "615d2550c764016e81ce674fd80828f2b3638cdcf3046b9df73d6bf9a04dfffd",
+    "data/apps.json": "3643a7758fbd481ca6ce5086b17a9e99e7d56b2af52f23d15000e79ce932a498"
+  },
+  "screenshotsSHA256": {
+    "docs/selection/screenshots/home-desktop-light.jpg": "d56c2a538f547949f92f765d123ac69198eeb1890708305905fed5fb1f24f651",
+    "docs/selection/screenshots/about-desktop-light.jpg": "cacb969c4fcbc27936232aff9e1823dbeacb0a46bd83acdc26bd52d2a36429e1",
+    "docs/selection/screenshots/home-desktop-dark.jpg": "c410ee44a4cc61ae2772d7be114d5ae0109d8d79dc687978edfd04a3cc6ab481",
+    "docs/selection/screenshots/about-desktop-dark.jpg": "398732e563893d0cc02da5f3ed71e0c45fdad5b0e3b3b152111c32ce4ed17438",
+    "docs/selection/screenshots/home-mobile-light.jpg": "8ee2389f7bb07453f4944b098cb54d56ddd268d850d0ce4a2b4956665c64d388",
+    "docs/selection/screenshots/about-mobile-light.jpg": "15f876a934d6c8b851113876196b51f1d40ec6c3cd0c62df6b268d6791f87f0c",
+    "docs/selection/screenshots/home-mobile-dark.jpg": "45c74711be548a899a39f15a56c856c7a8b57ce37c420544f8e94dddd3aa4861",
+    "docs/selection/screenshots/about-mobile-dark.jpg": "a39ccd2332831ecbcc2f63016545d9fd27c571793f3fd4428dc5f5d8ff2d26a2"
+  },
+  "summary": {
+    "passedChecks": 88,
+    "failedChecks": 0,
+    "axeChecks": 60,
+    "screenshots": 8,
+    "horizontalOverflow": 0,
+    "visibleBrokenImages": 0,
+    "maxObservedCLS": 0
+  }
+}

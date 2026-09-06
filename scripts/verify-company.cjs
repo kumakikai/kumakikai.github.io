@@ -15,7 +15,6 @@ const news = read('data/news.json');
 const locales = ['ja', 'en', 'ko', 'de', 'fr', 'zh-hant'];
 const categories = ['press-release', 'blog', 'information'];
 const categoryCountsByLocale = {};
-const publishedCount = apps.filter(app => app.status === 'published').length;
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 const prefix = locale => locale === 'ja' ? '' : '/' + locale;
 const results = [];
@@ -24,7 +23,7 @@ fs.mkdirSync(path.dirname(report), { recursive: true });
 
 function writeReport(pending) {
   const failures = results.filter(result => !result.ok).map(result => result.name);
-  const summary = { ok: !pending && !failures.length, pending, cases: results.length, base, publishedCount, categoryCountsByLocale, newsCountSource: 'Initial unfiltered DOM in each locale; existing metadata entries remain required.', failures, results };
+  const summary = { ok: !pending && !failures.length, pending, cases: results.length, base, categoryCountsByLocale, newsCountSource: 'Initial unfiltered DOM in each locale; existing metadata entries remain required.', failures, results };
   fs.writeFileSync(path.join(output, 'results.json'), JSON.stringify(summary, null, 2) + '\n');
   if (!pending) fs.writeFileSync(report, JSON.stringify(summary, null, 2) + '\n');
 }
@@ -79,11 +78,25 @@ async function keyboardFocus(page, link) {
   }), true, 'Keyboard focus is visible');
 }
 
-async function company(page, locale, name) {
+async function company(page, locale, name, noJS = false) {
   const copy = read(`data/company/${locale}.json`);
   const corp = read(`data/corporate/${locale}.json`);
   assert.equal((await page.locator('.page-heading h1').textContent()).trim(), corp.companyTitle, 'Existing Company hero title stays unchanged');
   assert.equal((await page.locator('.page-heading > p').last().textContent()).trim(), corp.companyIntro);
+  assert.equal((await page.locator('.page-heading .eyebrow').textContent()).trim(), 'About');
+  assert.match(await page.title(), /^About(?:\s|$)/, 'About is the page title while /company/ stays permanent');
+  assert.equal(new URL(page.url()).pathname, `${prefix(locale)}/company/`);
+  for (const selector of ['.desktop-nav', '#mobile-menu nav']) {
+    assert.deepEqual(await page.locator(selector + ' a').evaluateAll(links => links.map(link => {
+      const label = link.cloneNode(true);
+      label.querySelectorAll('[aria-hidden="true"]').forEach(element => element.remove());
+      return { text: label.textContent.trim(), href: link.getAttribute('href') };
+    })), [
+      { text: 'Products', href: `${prefix(locale)}/products/` },
+      { text: 'News', href: `${prefix(locale)}/news/` },
+      { text: 'About', href: `${prefix(locale)}/company/` },
+    ]);
+  }
   const sections = ['.company-about', '.company-profile', '.company-build', '.company-philosophy', '.company-media', '.company-information', '#contact'];
   let previousBottom = 0;
   for (const selector of sections) {
@@ -95,16 +108,53 @@ async function company(page, locale, name) {
     previousBottom = bounds.y + bounds.height;
   }
   assert.deepEqual(await page.locator('.company-about > div > p').allTextContents(), copy.about);
+  assert.equal(copy.founderName, 'Yuya Nakamura', 'All locales use the authorized Roman name');
+  assert.equal(Object.hasOwn(copy, 'founderEnglishName'), false, 'No second founder name field');
   assert.equal((await page.locator('.founder-identity h3').textContent()).trim(), copy.founderName);
-  assert.equal((await page.locator('.founder-english').textContent()).trim(), copy.founderEnglishName);
+  assert.equal(await page.locator('.founder-english').count(), 0, 'Founder name is not repeated immediately below itself');
   assert.equal((await page.locator('.founder-role').textContent()).trim(), copy.founderRole);
   assert.deepEqual(await page.locator('.founder-bio > p').allTextContents(), copy.founderBio);
   assert.equal((await page.locator('.founder-experience dd').first().textContent()).trim(), copy.experience.join(' / '));
   assert.equal((await page.locator('.founder-experience dd').last().textContent()).trim(), 'C / C++ / C# / Java / Python / Dart / Swift');
-  assert.equal((await page.locator('.company-build-intro').textContent()).trim(), copy.buildIntro.replace('%d', publishedCount));
+  assert.equal((await page.locator('.company-build-intro').textContent()).trim(), copy.buildIntro);
+  assert.equal(/%d|\d/.test(copy.buildIntro), false, 'About introduction does not hard-code a product count');
   assert.deepEqual(await page.locator('.company-areas h3').allTextContents(), copy.areas.map(area => area.title));
   assert.deepEqual(await page.locator('.company-areas li > div > p').allTextContents(), copy.areas.map(area => area.description));
-  assert.deepEqual(await page.locator('.company-product-link').evaluateAll(links => links.map(link => link.getAttribute('href'))), copy.areas.map(area => `${prefix(locale)}/products/${area.product}/`));
+  const selectedAreas = [];
+  const home = read(`data/home/${locale}.json`);
+  assert.deepEqual(copy.areas.map(area => area.area), ['learning', 'communication', 'daily-tools']);
+  for (const area of copy.areas) {
+    const row = page.locator(`.company-areas li[data-area="${area.area}"]`);
+    assert.equal(await row.count(), 1);
+    const group = row.locator(`.company-area-products[data-product-selection="1"][data-area="${area.area}"]`);
+    assert.equal(await group.count(), 1);
+    const link = group.locator('a.company-product-link[data-product-option]');
+    assert.equal(await link.count(), 1, 'Each business area shows one representative product');
+    const id = await link.getAttribute('data-product-id');
+    const app = apps.find(app => app.id === id);
+    assert.equal(app?.area, area.area, 'The chosen product belongs to this business area');
+    assert.equal(await link.getAttribute('href'), `${prefix(locale)}/products/${id}/`);
+    assert.equal(await link.locator('img').getAttribute('src'), app.icon);
+    assert.ok((await link.textContent()).includes(home.apps[id].name));
+    assert.equal((await link.locator('.company-product-platform').textContent()).trim(), home.apps[id].platform + (app.status !== 'published' ? ' · ' + home.development : ''));
+    assert.equal((await link.textContent()).includes(home.development), app.status !== 'published', 'Only development products show their development state');
+    assert.equal(await row.locator('a[href^="https://apps.apple.com/"]').count(), 0, 'Area selection remains a simple direct Product link');
+    if (noJS) {
+      assert.equal(id, area.product, 'Without JavaScript each area keeps its useful static fallback');
+      assert.equal(await group.getAttribute('data-selection-ready'), null);
+      const candidates = await group.locator('template[data-product-candidates]').evaluate(template => [...template.content.querySelectorAll('[data-product-option]')].map(element => element.dataset.productId));
+      assert.deepEqual(candidates, apps.filter(candidate => candidate.area === area.area && candidate.id !== area.product).map(candidate => candidate.id));
+    } else {
+      assert.equal(await group.getAttribute('data-selection-ready'), 'true');
+      assert.equal(await group.locator('template[data-product-candidates]').count(), 0);
+    }
+    await keyboardFocus(page, link);
+    selectedAreas.push({ area: area.area, product: id });
+  }
+  assert.deepEqual(await page.locator('.company-facts dt').allTextContents(), [corp.companyNameLabel, copy.founderLabel, corp.businessLabel, corp.contactLabel], 'Basic information has no redundant Web row');
+  assert.deepEqual(await page.locator('.company-facts dd').allTextContents(), ['KUMAKIKAI', copy.founderName, corp.businessText, 'kumakikai.apps@gmail.com']);
+  assert.equal(Object.hasOwn(copy, 'webLabel'), false);
+  assert.equal(await page.locator('.company-information a').count(), 0, 'Basic information does not link the current website to itself');
   assert.deepEqual(await page.locator('.company-philosophy h3').allTextContents(), copy.principles.map(principle => principle.title));
   assert.deepEqual(await page.locator('.company-philosophy li > p').allTextContents(), copy.principles.map(principle => principle.description));
   assert.equal(await page.locator('a[href^="mailto:"]').count(), 1, 'Email CTA appears only in Contact');
@@ -128,12 +178,12 @@ async function company(page, locale, name) {
   }), true, 'Media CTA reaches the Contact heading');
   await keyboardFocus(page, page.locator('#contact a'));
   const position = await layout(page);
-  const violations = await accessibility(page);
+  const violations = noJS ? [] : await accessibility(page);
   await page.locator('.page-heading').scrollIntoViewIfNeeded();
   await page.evaluate(() => scrollTo(0, 0));
   await page.screenshot({ path: path.join(output, `${name}.png`), fullPage: true });
   await page.screenshot({ path: path.join(output, `${name}-viewport.png`) });
-  return { ...position, sections: sections.length, publishedCount, violations, mediaContact: 'passed', keyboardFocus: 'passed', phoneNotPublished: true };
+  return { ...position, sections: sections.length, selectedAreas, violations, mediaContact: 'passed', keyboardFocus: 'passed', phoneNotPublished: true };
 }
 
 async function newsState(page, locale, category, useAxe, counts) {
@@ -221,7 +271,14 @@ async function newsFilters(page, locale, name, noJS) {
           await loadImages(page);
           await page.addScriptTag({ content: axeSource });
         }
-        if (kind === 'company') detail = await company(page, locale, name);
+        if (noJS && kind === 'company') {
+          for (const image of await page.locator('img:visible').all()) {
+            await image.scrollIntoViewIfNeeded();
+            await page.waitForLoadState('networkidle');
+          }
+          await page.evaluate(() => scrollTo(0, 0));
+        }
+        if (kind === 'company') detail = await company(page, locale, name, noJS);
         else if (kind === 'news') detail = await newsFilters(page, locale, name, noJS);
         else {
           assert.equal(await page.locator('.news-filters, .news-filter-empty').count(), 0, 'Home has no category filter UI');
@@ -245,6 +302,7 @@ async function newsFilters(page, locale, name, noJS) {
       await inspect(`company-${locale}-mobile-dark`, locale, 'company', 393, 852, 'dark');
     }
     for (const locale of locales) {
+      await inspect(`company-${locale}-no-js`, locale, 'company', 393, 852, 'dark', true);
       await inspect(`news-${locale}-desktop-light`, locale, 'news', 1280, 900, 'light');
       await inspect(`news-${locale}-mobile-dark`, locale, 'news', 393, 852, 'dark');
       await inspect(`news-${locale}-no-js`, locale, 'news', 393, 852, 'dark', true);

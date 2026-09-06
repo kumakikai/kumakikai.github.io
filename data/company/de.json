@@ -5,8 +5,7 @@
     "Unsere Produkte decken verschiedene Bereiche ab: Lernen, Unterstützung bei Gesprächen sowie alltägliche Aufzeichnungen und Organisation. Wir veröffentlichen sie vor allem im App Store und verbessern ihre Funktionen und Bedienung auch nach der Veröffentlichung weiter."
   ],
   "founderHeading": "Über den Entwickler",
-  "founderName": "中村 裕也",
-  "founderEnglishName": "Yuya Nakamura",
+  "founderName": "Yuya Nakamura",
   "founderRole": "Software Engineer / App Developer",
   "founderPortraitAlt": "Profilillustration von Yuya Nakamura",
   "founderBio": [
@@ -21,22 +20,25 @@
   ],
   "technologyLabel": "Technische Erfahrung",
   "buildTitle": "Für konkrete Situationen beim Lernen und im Alltag.",
-  "buildIntro": "Derzeit veröffentlichen und betreiben wir %d Produkte im App Store. Ausgewählte Apps zeigen, in welchen Bereichen wir arbeiten.",
+  "buildIntro": "Wir veröffentlichen und betreiben mehrere Produkte im App Store. Ausgewählte Apps zeigen, in welchen Bereichen wir arbeiten.",
   "areas": [
     {
       "title": "Lernen und Notizen",
       "description": "In der Vorlesung mitschreiben, Unterlagen ordnen und später wiederholen. Wir entwickeln Apps, die das Lernen auf iPad und iPhone unterstützen.",
-      "product": "uni-note"
+      "product": "uni-note",
+      "area": "learning"
     },
     {
       "title": "Unterstützung bei Gesprächen",
       "description": "Wir entwickeln Apps, die den Austausch mit anderen erleichtern, etwa durch Untertitel für schwer hörbare Worte.",
-      "product": "oto-miru"
+      "product": "oto-miru",
+      "area": "communication"
     },
     {
       "title": "Aufzeichnungen und Organisation im Alltag",
       "description": "Wir entwickeln Werkzeuge, die alltäglichen Aufwand verringern: Vorteilscodes und Fristen verwalten, Aufzeichnungen führen oder Informationen lesen.",
-      "product": "giga-poke"
+      "product": "giga-poke",
+      "area": "daily-tools"
     }
   ],
   "philosophyTitle": "Was uns bei der Entwicklung wichtig ist",
@@ -61,7 +63,6 @@
   "mediaContactCTA": "Medienanfrage senden",
   "infoTitle": "Grundlegende Informationen",
   "founderLabel": "Entwickler",
-  "webLabel": "Web",
   "contactAnchorLabel": "Kontaktdaten ansehen",
   "contactTitle": "Medienanfragen und weitere Anliegen",
   "contactText": "Schreiben Sie uns eine E-Mail und nennen Sie nach Möglichkeit Ihr Medium, Ihr Anliegen, das betreffende Produkt und den gewünschten Zeitraum. Informationen zur Bedienung oder zu Problemen mit einer App finden Sie im Supportbereich der jeweiligen Product-Seite.",

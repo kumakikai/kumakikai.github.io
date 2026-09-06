@@ -5,8 +5,7 @@
     "Our products span learning, communication support, and everyday records and organisation. We distribute them primarily through the App Store and continue to review and improve their features and usability after release."
   ],
   "founderHeading": "About the developer",
-  "founderName": "中村 裕也",
-  "founderEnglishName": "Yuya Nakamura",
+  "founderName": "Yuya Nakamura",
   "founderRole": "Software Engineer / App Developer",
   "founderPortraitAlt": "Profile illustration of Yuya Nakamura",
   "founderBio": [
@@ -21,22 +20,25 @@
   ],
   "technologyLabel": "Technical experience",
   "buildTitle": "For everyday moments in learning and life.",
-  "buildIntro": "We currently publish and operate %d products on the App Store. These selected apps introduce the areas we work in.",
+  "buildIntro": "We publish and operate a range of products on the App Store. These selected apps introduce the areas we work in.",
   "areas": [
     {
       "title": "Learning and notes",
       "description": "Writing in class, organising materials and reviewing them later. We develop apps that support learning on iPad and iPhone.",
-      "product": "uni-note"
+      "product": "uni-note",
+      "area": "learning"
     },
     {
       "title": "Communication support",
       "description": "We work on apps that help people communicate, including captions for words that are difficult to hear.",
-      "product": "oto-miru"
+      "product": "oto-miru",
+      "area": "communication"
     },
     {
       "title": "Everyday records and organisation",
       "description": "We build tools that reduce everyday effort, from managing benefit codes and expiry dates to keeping records and browsing information.",
-      "product": "giga-poke"
+      "product": "giga-poke",
+      "area": "daily-tools"
     }
   ],
   "philosophyTitle": "What matters in our development",
@@ -61,7 +63,6 @@
   "mediaContactCTA": "Contact us about media enquiries",
   "infoTitle": "Overview",
   "founderLabel": "Developer",
-  "webLabel": "Web",
   "contactAnchorLabel": "View contact details",
   "contactTitle": "Media and other enquiries",
   "contactText": "Please email us with your publication, the nature of your enquiry, the relevant product and your preferred timing, where applicable. For app instructions or issues, please see the support section on each Product page.",

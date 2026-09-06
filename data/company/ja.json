@@ -5,10 +5,9 @@
     "学習、会話の支援、日常の記録や管理など、ひとつの分野に限らずプロダクトを展開。App Storeを中心に公開し、公開後も使い方や機能を見直しながら改善を続けています。"
   ],
   "founderHeading": "開発者について",
-  "founderName": "中村 裕也",
-  "founderEnglishName": "Yuya Nakamura",
+  "founderName": "Yuya Nakamura",
   "founderRole": "Software Engineer / App Developer",
-  "founderPortraitAlt": "中村 裕也のプロフィールイラスト",
+  "founderPortraitAlt": "Yuya Nakamuraのプロフィールイラスト",
   "founderBio": [
     "組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。",
     "自分が使いたいと思える道具を出発点に、Uni:Noteでは現役学生の助言も取り入れて開発。必要な人が使いやすい形を考え、公開後の改善にも取り組んでいます。"
@@ -21,22 +20,25 @@
   ],
   "technologyLabel": "技術経験",
   "buildTitle": "学びと暮らしの、具体的な場面に。",
-  "buildIntro": "現在、%dつのプロダクトをApp Storeで公開・運営しています。代表的なアプリから、取り組んでいる領域をご紹介します。",
+  "buildIntro": "複数のプロダクトをApp Storeで公開・運営しています。代表的なアプリから、取り組んでいる領域をご紹介します。",
   "areas": [
     {
       "title": "学習・ノート",
       "description": "授業で書き、資料を整理し、あとから復習する。iPadとiPhoneでの学びを支えるアプリを開発しています。",
-      "product": "uni-note"
+      "product": "uni-note",
+      "area": "learning"
     },
     {
       "title": "会話の支援",
       "description": "聞き取りづらい言葉を字幕で確認するなど、人とのやり取りを補助するアプリに取り組んでいます。",
-      "product": "oto-miru"
+      "product": "oto-miru",
+      "area": "communication"
     },
     {
       "title": "日常の記録・管理",
       "description": "特典コードや期限の管理、日々の記録、情報の閲覧など、身近な手間を減らす道具をつくっています。",
-      "product": "giga-poke"
+      "product": "giga-poke",
+      "area": "daily-tools"
     }
   ],
   "philosophyTitle": "開発で大切にしていること",
@@ -61,7 +63,6 @@
   "mediaContactCTA": "取材について問い合わせる",
   "infoTitle": "基本情報",
   "founderLabel": "開発者",
-  "webLabel": "Web",
   "contactAnchorLabel": "お問い合わせ先を見る",
   "contactTitle": "取材・掲載・その他のお問い合わせ",
   "contactText": "媒体名・ご相談内容・対象のプロダクト・希望時期などを添えて、メールでご連絡ください。アプリの使い方や不具合については、各Productページのサポートをご確認いただけます。",

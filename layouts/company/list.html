@@ -2,19 +2,29 @@
 {{ $corp := index site.Data.corporate site.Language.Lang }}{{ $copy := index site.Data.company site.Language.Lang }}{{ $home := index site.Data.home site.Language.Lang }}
 {{ $portrait := resources.Get "images/company/yuya-nakamura.png" }}{{ $portraitSmall := $portrait.Resize "192x webp q90" }}{{ $portraitRetina := $portrait.Resize "384x webp q90" }}
 <div class="container company-page">
-  <header class="page-heading"><p class="eyebrow">Company</p><h1>{{ $corp.companyTitle }}</h1><p>{{ $corp.companyIntro }}</p></header>
+  <header class="page-heading"><p class="eyebrow">{{ $corp.nav.company }}</p><h1>{{ $corp.companyTitle }}</h1><p>{{ $corp.companyIntro }}</p></header>
   <section class="company-about company-section" aria-labelledby="about-title"><h2 id="about-title">{{ $copy.aboutTitle }}</h2><div>{{ range $copy.about }}<p>{{ . }}</p>{{ end }}</div></section>
   <section id="founder" class="company-profile" aria-labelledby="founder-title">
-    <div class="founder-identity"><p class="eyebrow">Founder</p><h2 id="founder-title">{{ $copy.founderHeading }}</h2><img class="founder-portrait" src="{{ $portraitSmall.RelPermalink }}" srcset="{{ $portraitSmall.RelPermalink }} 192w, {{ $portraitRetina.RelPermalink }} 384w" sizes="160px" width="192" height="192" alt="{{ $copy.founderPortraitAlt }}" loading="lazy" decoding="async"><h3>{{ $copy.founderName }}</h3><p class="founder-english" lang="en">{{ $copy.founderEnglishName }}</p><p class="founder-role" lang="en">{{ $copy.founderRole }}</p></div>
+    <div class="founder-identity"><p class="eyebrow">Founder</p><h2 id="founder-title">{{ $copy.founderHeading }}</h2><img class="founder-portrait" src="{{ $portraitSmall.RelPermalink }}" srcset="{{ $portraitSmall.RelPermalink }} 192w, {{ $portraitRetina.RelPermalink }} 384w" sizes="160px" width="192" height="192" alt="{{ $copy.founderPortraitAlt }}" loading="lazy" decoding="async"><h3 lang="en">{{ $copy.founderName }}</h3><p class="founder-role" lang="en">{{ $copy.founderRole }}</p></div>
     <div class="founder-bio">{{ range $copy.founderBio }}<p>{{ . }}</p>{{ end }}<dl class="founder-experience"><div><dt>{{ $copy.experienceLabel }}</dt><dd>{{ delimit $copy.experience " / " }}</dd></div><div><dt>{{ $copy.technologyLabel }}</dt><dd lang="en">C / C++ / C# / Java / Python / Dart / Swift</dd></div></dl></div>
   </section>
-  <section class="company-build company-section" aria-labelledby="build-title"><p class="eyebrow">What we build</p><h2 id="build-title">{{ $copy.buildTitle }}</h2><p class="company-build-intro">{{ printf $copy.buildIntro (len (where site.Data.apps "status" "published")) }}</p>
-    <ul class="company-areas">{{ range $copy.areas }}{{ $app := index (where site.Data.apps "id" .product) 0 }}{{ $text := index $home.apps .product }}<li><div><h3>{{ .title }}</h3><p>{{ .description }}</p></div><a class="company-product-link" href="{{ printf "/products/%s/" $app.id | relLangURL }}"><img src="{{ $app.icon }}" width="48" height="48" alt="" loading="lazy" decoding="async"><span>{{ $text.name }}<span class="company-product-platform">{{ $text.platform }}</span></span><span aria-hidden="true">→</span></a></li>{{ end }}</ul>
+  <section class="company-build company-section" aria-labelledby="build-title"><p class="eyebrow">What we build</p><h2 id="build-title">{{ $copy.buildTitle }}</h2><p class="company-build-intro">{{ $copy.buildIntro }}</p>
+    <ul class="company-areas">{{ range $copy.areas }}
+      {{ $area := . }}{{ $candidates := where site.Data.apps "area" .area }}
+      {{ $fallback := index (where $candidates "id" .product) 0 }}
+      <li data-area="{{ .area }}"><div><h3>{{ .title }}</h3><p>{{ .description }}</p></div>
+        <div class="company-area-products" data-product-selection="1" data-area="{{ .area }}">
+          {{ partial "company-product.html" $fallback }}
+          <template data-product-candidates>{{ range where $candidates "id" "ne" $area.product }}{{ partial "company-product.html" . }}{{ end }}</template>
+        </div>
+      </li>
+    {{ end }}</ul>
+    {{ partial "select-products.html" . }}
     <a class="text-link" href="{{ "/products/" | relLangURL }}">{{ $corp.allProducts }} <span aria-hidden="true">→</span></a>
   </section>
   <section class="company-philosophy company-section" aria-labelledby="philosophy-title"><h2 id="philosophy-title">{{ $copy.philosophyTitle }}</h2><ul>{{ range $copy.principles }}<li><h3>{{ .title }}</h3><p>{{ .description }}</p></li>{{ end }}</ul><a class="text-link" href="{{ "/news/#blog" | relLangURL }}">{{ $copy.blogCTA }} <span aria-hidden="true">→</span></a></section>
   <section class="company-media company-section" aria-labelledby="media-title"><div><p class="eyebrow">For Media</p><h2 id="media-title">{{ $copy.mediaTitle }}</h2></div><div><p>{{ $copy.mediaText }}</p><div class="app-actions"><a class="text-link" href="{{ "/news/#press-release" | relLangURL }}">{{ $copy.pressCTA }} <span aria-hidden="true">→</span></a><a class="text-link" href="#contact">{{ $copy.mediaContactCTA }} <span aria-hidden="true">↓</span></a></div></div></section>
-  <section class="company-information company-section" aria-labelledby="information-title"><h2 id="information-title">{{ $copy.infoTitle }}</h2><dl class="company-facts"><div><dt>{{ $corp.companyNameLabel }}</dt><dd>KUMAKIKAI</dd></div><div><dt>{{ $copy.founderLabel }}</dt><dd>{{ $copy.founderName }} / <span lang="en">{{ $copy.founderEnglishName }}</span></dd></div><div><dt>{{ $corp.businessLabel }}</dt><dd>{{ $corp.businessText }}</dd></div><div><dt>{{ $copy.webLabel }}</dt><dd><a href="{{ site.BaseURL }}">kumakikai.github.io</a></dd></div><div><dt>{{ $corp.contactLabel }}</dt><dd>kumakikai.apps@gmail.com</dd></div></dl></section>
+  <section class="company-information company-section" aria-labelledby="information-title"><h2 id="information-title">{{ $copy.infoTitle }}</h2><dl class="company-facts"><div><dt>{{ $corp.companyNameLabel }}</dt><dd>KUMAKIKAI</dd></div><div><dt>{{ $copy.founderLabel }}</dt><dd lang="en">{{ $copy.founderName }}</dd></div><div><dt>{{ $corp.businessLabel }}</dt><dd>{{ $corp.businessText }}</dd></div><div><dt>{{ $corp.contactLabel }}</dt><dd>kumakikai.apps@gmail.com</dd></div></dl></section>
   <section class="contact-panel section-sm" id="contact" aria-labelledby="contact-title"><p class="eyebrow">Contact</p><h2 id="contact-title">{{ $copy.contactTitle }}</h2><p>{{ $copy.contactText }}</p><a class="btn btn-primary" href="mailto:kumakikai.apps@gmail.com">{{ $corp.contactCTA }} <span aria-hidden="true">↗</span></a></section>
 </div>
 {{ end }}

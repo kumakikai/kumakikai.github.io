@@ -20,6 +20,8 @@ try {
 
 const apps = JSON.parse(await fs.readFile(path.join(root, 'data/apps.json'), 'utf8'));
 const copy = JSON.parse(await fs.readFile(path.join(root, 'data/home/ja.json'), 'utf8'));
+const selectedApp = process.argv[2];
+if (selectedApp && !apps.some(app => app.id === selectedApp)) throw new Error(`Unknown product: ${selectedApp}`);
 const output = path.join(root, 'static/images/og');
 await fs.mkdir(output, { recursive: true });
 const width = 1200;
@@ -60,9 +62,10 @@ const commonIcons = [];
 for (const [index, app] of apps.entries()) {
   commonIcons.push({ input: await icon(app, 88), left: 710 + (index % 4) * 108, top: 190 + Math.floor(index / 4) * 130 });
 }
-await save('default', svg(common), commonIcons);
+if (!selectedApp) await save('default', svg(common), commonIcons);
 
 for (const app of apps) {
+  if (selectedApp && app.id !== selectedApp) continue;
   const local = copy.apps[app.id];
   const tagline = local.taglineLines || [];
   const nameSize = local.name.length > 13 ? 66 : 78;

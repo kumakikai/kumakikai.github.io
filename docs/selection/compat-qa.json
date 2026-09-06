@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "checkedAt": "2026-09-07",
+  "scope": "Compatibility of the existing migration, browser, and Company QA with the new Home/About selection requirements. Multi-device, random-seed, and CLS tests are reported by the dedicated selection suite.",
+  "baseline": {
+    "path": "docs/migration/baseline.json",
+    "sha256": "a09c6b7570cb4369b944309c9474bbe0353ae009c25cbc23069b626f0f9b8e49",
+    "edited": false
+  },
+  "staticReport": "docs/selection/static-verification.json",
+  "currentProductConfiguration": [
+    {
+      "id": "uni-note",
+      "featured": true,
+      "area": "learning"
+    },
+    {
+      "id": "oto-miru",
+      "featured": true,
+      "area": "communication"
+    },
+    {
+      "id": "giga-poke",
+      "featured": true,
+      "area": "daily-tools"
+    },
+    {
+      "id": "nocca",
+      "featured": true,
+      "area": "communication"
+    },
+    {
+      "id": "uni-note-pocket",
+      "featured": true,
+      "area": "learning"
+    },
+    {
+      "id": "balance-calendar",
+      "featured": true,
+      "area": "daily-tools"
+    },
+    {
+      "id": "smokeless",
+      "featured": true,
+      "area": "daily-tools"
+    },
+    {
+      "id": "signal",
+      "featured": true,
+      "area": "daily-tools"
+    }
+  ],
+  "futureProductConfiguration": "Existing IDs remain a relative-order subsequence; new unique IDs may use any of the three explicit areas. Home requires Uni:Note and at least three other eligible products. Fallback and inert candidates derive from the current eligible list.",
+  "browser": {
+    "script": "scripts/verify-browser.cjs",
+    "filter": "^home-desktop1440-light$",
+    "result": {
+      "ok": true,
+      "cases": 1,
+      "interactions": "passed",
+      "failures": [],
+      "results": [
+        {
+          "name": "home-desktop1440-light",
+          "route": "/",
+          "theme": "light",
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "brokenImages": [],
+          "headingSkips": [],
+          "height": 4980,
+          "dark": false,
+          "storeControls": {
+            "badges": 4,
+            "regions": 13
+          },
+          "homeSelection": {
+            "ids": [
+              "uni-note",
+              "smokeless",
+              "balance-calendar",
+              "giga-poke"
+            ],
+            "count": 4,
+            "fixedLead": "uni-note",
+            "selection": "three distinct eligible products",
+            "inertCandidates": 0
+          },
+          "errors": [],
+          "violations": [],
+          "ok": true
+        }
+      ]
+    },
+    "screenshots": "artifacts/selection/compat-browser/"
+  },
+  "about": {
+    "script": "scripts/verify-company.cjs",
+    "filter": "^company-ja-(desktop1440-light|no-js)$",
+    "report": "docs/selection/compat-company.json",
+    "ok": true,
+    "cases": 2,
+    "screenshots": "artifacts/selection/compat-company/"
+  },
+  "contentGuard": {
+    "ok": true,
+    "immutableBaseline": "docs/migration/baseline.json",
+    "authorizedRoutes": [
+      "/htu/uni-note/",
+      "/faq/uni-note/"
+    ],
+    "scope": "Only exact user-approved iPad wording substitutions; all other article text stays protected.",
+    "cases": [
+      {
+        "case": "authorized-only",
+        "accepted": true,
+        "expectedAccepted": true,
+        "detectedChecks": []
+      },
+      {
+        "case": "original-wording",
+        "accepted": false,
+        "expectedAccepted": false,
+        "detectedChecks": [
+          "authorized_article_change",
+          "legacy_content"
+        ]
+      },
+      {
+        "case": "unrelated-sentence-edit",
+        "accepted": false,
+        "expectedAccepted": false,
+        "detectedChecks": [
+          "legacy_content"
+        ]
+      },
+      {
+        "case": "additional-word-removed",
+        "accepted": false,
+        "expectedAccepted": false,
+        "detectedChecks": [
+          "legacy_content"
+        ]
+      }
+    ]
+  },
+  "syntaxChecks": {
+    "verify-migration.py": "passed through production-output verification",
+    "verify-browser.cjs": "node --check passed",
+    "verify-company.cjs": "node --check passed",
+    "git diff --check": "passed"
+  },
+  "limitations": [
+    "These checks read a local preview and generated output; they do not prove a successful live deployment.",
+    "The focused existing browser suite ran one visual Home case plus its unchanged global navigation, no-JavaScript, and legacy Support/Privacy interactions. Full viewport and random-seed coverage belongs to the dedicated selection report."
+  ]
+}

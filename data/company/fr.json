@@ -5,8 +5,7 @@
     "Nos produits couvrent plusieurs domaines : l’apprentissage, l’aide à la communication, ainsi que le suivi et l’organisation au quotidien. Nous les distribuons principalement sur l’App Store et continuons à améliorer leurs fonctionnalités et leur utilisation après leur sortie."
   ],
   "founderHeading": "À propos du développeur",
-  "founderName": "中村 裕也",
-  "founderEnglishName": "Yuya Nakamura",
+  "founderName": "Yuya Nakamura",
   "founderRole": "Software Engineer / App Developer",
   "founderPortraitAlt": "Illustration de profil de Yuya Nakamura",
   "founderBio": [
@@ -21,22 +20,25 @@
   ],
   "technologyLabel": "Expérience technique",
   "buildTitle": "Pour les situations concrètes de la vie et des études.",
-  "buildIntro": "Nous publions et exploitons actuellement %d produits sur l’App Store. Voici quelques apps représentatives de nos domaines de travail.",
+  "buildIntro": "Nous publions et exploitons plusieurs produits sur l’App Store. Voici quelques apps représentatives de nos domaines de travail.",
   "areas": [
     {
       "title": "Apprentissage et notes",
       "description": "Écrire en cours, organiser ses documents et réviser plus tard. Nous développons des apps qui accompagnent l’apprentissage sur iPad et iPhone.",
-      "product": "uni-note"
+      "product": "uni-note",
+      "area": "learning"
     },
     {
       "title": "Aide à la communication",
       "description": "Nous développons des apps qui facilitent les échanges, notamment grâce à des sous-titres pour les paroles difficiles à entendre.",
-      "product": "oto-miru"
+      "product": "oto-miru",
+      "area": "communication"
     },
     {
       "title": "Suivi et organisation au quotidien",
       "description": "Nous créons des outils pour simplifier les tâches courantes : gérer des codes promotionnels et leurs dates d’expiration, tenir un suivi ou consulter des informations.",
-      "product": "giga-poke"
+      "product": "giga-poke",
+      "area": "daily-tools"
     }
   ],
   "philosophyTitle": "Ce qui guide notre développement",
@@ -61,7 +63,6 @@
   "mediaContactCTA": "Envoyer une demande presse",
   "infoTitle": "Informations générales",
   "founderLabel": "Développeur",
-  "webLabel": "Web",
   "contactAnchorLabel": "Voir les coordonnées",
   "contactTitle": "Presse et autres demandes",
   "contactText": "Contactez-nous par e-mail en précisant, selon votre demande, le nom de votre média, le sujet, le produit concerné et le calendrier souhaité. Pour l’utilisation d’une app ou un problème rencontré, consultez la rubrique d’assistance de sa page Product.",

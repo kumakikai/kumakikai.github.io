@@ -1,0 +1,3 @@
+{{/* Inline after the candidates: no extra request or delayed visual swap. */}}
+{{ $selection := resources.Get "js/select-products.js" | minify }}
+<script>{{ $selection.Content | safeJS }}</script>

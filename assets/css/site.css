@@ -104,20 +104,7 @@ body.menu-open { overflow: hidden; }
 .app-screenshot:hover { transform: translateY(-3px); }
 .app-screenshot--raw { border: 1px solid #dfe3e9; border-radius: 22px; }
 .app-visual-caption { font-size: .7rem; line-height: 1.7; margin-top: 14px; text-align: center; color: var(--muted); }
-.other-apps { display: grid; gap: 16px; }
-.app-disclosure { border: 1px solid var(--line); border-radius: 24px; }
-.app-disclosure > summary { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 88px; padding: 24px 32px; border-radius: inherit; list-style: none; font-size: 1.1rem; font-weight: 650; line-height: 1.6; }
-.app-disclosure > summary::-webkit-details-marker { display: none; }
-.app-disclosure > summary:hover { color: var(--accent); background: var(--surface-soft); }
-.app-disclosure > summary:focus-visible { outline-offset: -5px; }
-.disclosure-indicator { position: relative; width: 20px; height: 20px; flex: none; }
-.disclosure-indicator::before,.disclosure-indicator::after { content: ''; position: absolute; top: 9px; left: 2px; width: 16px; height: 2px; background: currentColor; border-radius: 1px; }
-.disclosure-indicator::after { transform: rotate(90deg); }
-.app-disclosure[open] { background: var(--surface-soft); }
-.app-disclosure[open] > summary { border-radius: 24px 24px 0 0; border-bottom: 1px solid var(--line); }
-.app-disclosure[open] .disclosure-indicator::after { display: none; }
-.app-disclosure > .app-showcase { margin: 0; background: transparent; }
-.app-disclosure .app-description { font-size: 1.05rem; text-wrap: balance; }
+.featured-directory { display: flex; justify-content: center; padding-block: 12px 44px; }
 .product-card { display: flex; align-items: flex-start; flex-direction: column; padding: 27px; border: 1px solid var(--line); border-radius: 16px; }
 .product-card h2 { font-size: 1.12rem; line-height: 1.5; margin: 0; letter-spacing: -.01em; }
 .product-card-heading { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; }
@@ -187,7 +174,6 @@ body.menu-open { overflow: hidden; }
 .company-profile h2 { font-size: 1.13rem; letter-spacing: 0; }
 .founder-portrait { display: block; width: 160px; height: 160px; margin-top: 24px; border-radius: 18px; background: #fff; object-fit: contain; }
 .founder-identity h3 { font-size: 2.2rem; font-weight: 680; margin-top: 26px; }
-.founder-english { font-size: 1.08rem; margin-top: 5px; }
 .founder-role { font-size: .87rem; margin-top: 15px; line-height: 1.8; color: var(--muted); }
 .founder-experience { margin-top: 25px; border-top: 1px solid var(--line); padding-top: 20px; font-size: .77rem; line-height: 1.9; color: var(--muted); }
 .founder-experience > div + div { margin-top: 14px; }
@@ -197,7 +183,8 @@ body.menu-open { overflow: hidden; }
 .company-areas li { display: grid; grid-template-columns: 1.4fr 1fr; align-items: center; gap: 70px; padding-block: 28px; border-top: 1px solid var(--line); }
 .company-areas h3,.company-philosophy h3 { font-size: 1.08rem; font-weight: 650; line-height: 1.7; margin-bottom: 10px; }
 .company-areas p,.company-philosophy li p { font-size: .9rem; }
-.company-product-link { display: flex; align-items: center; gap: 16px; font-size: .95rem; min-height: 64px; }
+.company-area-products { min-height: 80px; }
+.company-product-link { display: flex; align-items: center; gap: 16px; font-size: .95rem; min-height: 80px; }
 .company-product-link img { border-radius: 10px; flex: none; }
 .company-product-link > span:last-child { margin-left: auto; color: var(--accent); }
 .company-product-link:hover { color: var(--accent); }
@@ -413,11 +400,6 @@ body.menu-open { overflow: hidden; }
   .app-showcase--uni-note .app-screenshot { width: 100%; }
   .app-screenshot--raw { border-radius: 18px; }
   .section-sm { padding-block: 50px; }
-  .other-apps { gap: 12px; }
-  .app-disclosure { border-radius: 18px; }
-  .app-disclosure > summary { min-height: 74px; padding: 22px 24px; gap: 18px; font-size: 1rem; }
-  .app-disclosure[open] > summary { border-radius: 18px 18px 0 0; }
-  .app-disclosure .app-description { font-size: .95rem; }
   .product-card { padding: 19px 16px; border-radius: 12px; }
   .product-card-heading { margin-bottom: 20px; }
 

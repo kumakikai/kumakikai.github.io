@@ -1,0 +1,83 @@
+{
+  "ok": true,
+  "pending": false,
+  "cases": 2,
+  "base": "http://127.0.0.1:1314",
+  "categoryCountsByLocale": {},
+  "newsCountSource": "Initial unfiltered DOM in each locale; existing metadata entries remain required.",
+  "failures": [],
+  "results": [
+    {
+      "name": "company-ja-desktop1440-light",
+      "locale": "ja",
+      "kind": "company",
+      "route": "/company/",
+      "width": 1440,
+      "height": 3966,
+      "theme": "light",
+      "javaScript": true,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 7,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "daily-tools",
+          "product": "balance-calendar"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-ja-no-js",
+      "locale": "ja",
+      "kind": "company",
+      "route": "/company/",
+      "width": 393,
+      "height": 5349,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 7,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "daily-tools",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    }
+  ]
+}

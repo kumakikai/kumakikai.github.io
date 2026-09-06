@@ -1,5 +1,0 @@
-{{ $app := .app }}{{ $copy := index site.Data.home site.Language.Lang }}{{ $text := index $copy.apps $app.id }}
-<details class="app-disclosure" id="{{ $app.id }}-showcase">
-  <summary><span>{{ $text.name }}</span><span class="disclosure-indicator" aria-hidden="true"></span></summary>
-  {{ partial "app-showcase.html" (dict "app" $app) }}
-</details>

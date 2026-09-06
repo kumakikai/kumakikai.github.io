@@ -7,7 +7,7 @@ Uni:Note（大学ノート）は、**Apple Pencilで手書きするための iPa
 
 対応環境:
 
-- iPad専用
+- iPad
 - Apple Pencilでの手書きが中心
 - 指はスクロールや貼付素材の操作に使います
 - 言語は `日本語 / English / 한국어 / Deutsch / 繁體中文 / Français` に対応しています

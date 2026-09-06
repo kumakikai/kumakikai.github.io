@@ -19,7 +19,7 @@ async function loaded(page) {
       scrollTo(0, y); await new Promise(r => setTimeout(r, 25));
     }
     scrollTo(0, 0);
-    // Closed native disclosures intentionally leave their lazy images unloaded.
+    // Unselected Home candidates live in inert templates, outside document.images.
     await Promise.all([...document.images].filter(img => img.checkVisibility()).map(img =>
       Promise.race([img.decode().catch(() => {}), new Promise(r => setTimeout(r, 10000))])));
   });
@@ -46,7 +46,10 @@ async function inspectStoreControls(page, route) {
   const locale = localeFor(route);
   const productID = route.match(/\/products\/([^/]+)\/$/)?.[1];
   if (!homeRoute.test(route) && !productID) return;
-  const apps = productID ? appData.filter(app => app.id === productID) : appData;
+  const selected = productID ? [productID] : await page.locator('article.app-showcase[data-product-option]').evaluateAll(nodes => nodes.map(node => node.dataset.productId));
+  assert.equal(new Set(selected).size, selected.length, 'Download placements belong to distinct selected products');
+  assert.ok(selected.every(id => appData.some(app => app.id === id)), 'Selected products exist in shared data');
+  const apps = selected.map(id => appData.find(app => app.id === id));
   let badges = 0, regions = 0;
   for (const app of apps) {
     const scope = productID ? page.locator('.product-intro') : page.locator(`article[aria-labelledby="${app.id}-name"]`);
@@ -156,65 +159,43 @@ async function inspectProductsHub(page, route) {
   }
   return { cards: appData.length, actions: appData.length * 2 };
 }
-async function inspectDisclosures(page, name, screenshot, axe) {
-  const disclosures = page.locator('details.app-disclosure');
-  assert.equal(await disclosures.count(), 4, 'Four Other Apps use disclosures');
-  assert.equal(await page.locator('.section-index').count(), 0, 'Featured numbering is removed');
-  assert.equal(await page.locator('.portfolio-featured .app-showcase').count(), 4);
-  for (const featured of await page.locator('.portfolio-featured .app-showcase').all()) {
-    assert.equal(await featured.isVisible(), true, 'Featured apps remain expanded');
-    assert.equal(await featured.evaluate(el => !!el.closest('details')), false);
+async function inspectHomeSelection(page, javaScript = true) {
+  const candidates = appData.filter(app => app.featured && app.id !== 'uni-note').map(app => app.id);
+  const selected = page.locator('.portfolio-featured article.app-showcase[data-product-option]');
+  const ids = await selected.evaluateAll(nodes => nodes.map(node => node.dataset.productId));
+  assert.equal(ids.length, 4, 'Home shows four complete app showcases');
+  assert.equal(ids[0], 'uni-note', 'Uni:Note remains the first showcase');
+  assert.equal(new Set(ids).size, 4, 'The selected showcases never duplicate a product');
+  assert.ok(ids.every(id => appData.some(app => app.id === id && app.featured)), 'Every shown app is an eligible shared-data product');
+  assert.equal(await page.locator('.portfolio-featured > article[data-product-id="uni-note"]').count(), 1, 'The lead product remains outside the random selection group');
+  const group = page.locator('.portfolio-featured [data-product-selection="3"]');
+  assert.equal(await group.count(), 1);
+  assert.equal(await group.locator('article.app-showcase').count(), 3);
+  assert.equal(await page.locator('details.app-disclosure, .section-index, .portfolio-other, .other-apps, #other-apps').count(), 0, 'No collapsed Other Apps list or Featured numbering remains');
+  if (javaScript) {
+    assert.equal(await group.getAttribute('data-selection-ready'), 'true', 'Home selection completes on initial load');
+    assert.equal(await group.locator('template[data-product-candidates]').count(), 0, 'Unselected candidates leave no live content or remaining template');
+  } else {
+    assert.deepEqual(ids, ['uni-note', ...candidates.slice(0, 3)], 'Uni:Note and the first three eligible products form the no-JavaScript fallback');
+    assert.equal(await group.getAttribute('data-selection-ready'), null);
+    const inert = await group.locator('template[data-product-candidates]').evaluate(template => [...template.content.querySelectorAll('article.app-showcase')].map(node => node.dataset.productId));
+    assert.deepEqual(inert, candidates.slice(3), 'All other eligible showcases stay in inert template content');
   }
-  for (const disclosure of await disclosures.all()) {
-    const summary = disclosure.locator('summary');
-    assert.equal(await disclosure.evaluate(el => el.open), false, 'Other Apps start closed');
-    assert.equal(await summary.isVisible(), true);
-    assert.equal(await summary.locator('img, a, button').count(), 0, 'Closed summaries show titles only');
-    const title = await summary.evaluate(el => {
-      const copy = el.cloneNode(true); copy.querySelectorAll('[aria-hidden="true"]').forEach(n => n.remove());
-      return copy.textContent.trim();
-    });
-    assert.equal(title, (await disclosure.locator('.app-identity h3').textContent()).trim());
-    assert.equal(await disclosure.locator('.app-showcase').isVisible(), false);
+  for (const article of await selected.all()) {
+    assert.equal(await article.isVisible(), true, 'Selected products are expanded without another interaction');
+    assert.equal(await article.evaluate(element => !!element.closest('details')), false);
+    assert.ok((await article.locator('.app-tagline').textContent()).trim(), 'Every selected app has a complete tagline');
+    assert.ok((await article.locator('.app-description').textContent()).trim(), 'Every selected app has its description');
+    const id = await article.getAttribute('data-product-id');
+    const prefix = localeFor(new URL(page.url()).pathname) === 'ja' ? '' : '/' + localeFor(new URL(page.url()).pathname);
+    assert.equal(await article.locator(`.app-actions a[href="${prefix}/products/${id}/"]`).isVisible(), true, 'Each selected app links directly to its product page');
+    const images = article.locator('.app-screenshots img');
+    assert.equal(await images.count(), appData.find(app => app.id === id).screenshots.length);
+    for (const image of await images.all()) assert.equal(await image.isVisible(), true, 'Real screenshots remain visible');
   }
-  const capture = screenshot && /^home-(desktop1440|iphone-pro)-/.test(name);
-  const section = page.locator('section').filter({ has: page.locator('details.app-disclosure') });
-  if (capture) await section.screenshot({ path: path.join(output, name + '-other-closed.png') });
-  for (const disclosure of await disclosures.all()) {
-    const summary = disclosure.locator('summary');
-    await summary.focus(); await page.keyboard.press('Enter');
-    assert.equal(await disclosure.evaluate(el => el.open), true, 'Enter opens the product');
-    assert.equal(await summary.evaluate(el => {
-      const style = getComputedStyle(el);
-      return el === document.activeElement && el.matches(':focus-visible') && style.outlineStyle !== 'none' && parseFloat(style.outlineWidth) > 0;
-    }), true, 'Keyboard focus has a visible outline');
-    await page.keyboard.press('Space');
-    assert.equal(await disclosure.evaluate(el => el.open), false, 'Space closes the product');
-    await summary.click();
-    assert.equal(await disclosure.evaluate(el => el.open), true, 'Click opens the product');
-    assert.equal(await disclosure.locator('.app-showcase').isVisible(), true);
-    assert.equal(await disclosure.locator('.app-description').isVisible(), true);
-    assert.ok((await disclosure.locator('.app-description').textContent()).trim());
-    assert.equal(await disclosure.locator('.app-actions a.app-store-badge[href^="https://apps.apple.com/"]').isVisible(), true);
-    assert.equal(await disclosure.locator('.app-actions a[href*="/products/"]').isVisible(), true);
-    const images = disclosure.locator('.app-screenshots img');
-    assert.equal(await images.count(), 2, 'Each expanded product has two real screenshots');
-    for (const image of await images.all()) assert.equal(await image.isVisible(), true);
-  }
-  assert.equal(await page.locator('details.app-disclosure[open]').count(), 4, 'All products can remain open together');
-  await loaded(page);
-  const storeControls = await inspectStoreControls(page, new URL(page.url()).pathname);
-  const expanded = await page.evaluate(() => ({
-    scrollWidth: document.documentElement.scrollWidth,
-    viewport: innerWidth,
-    brokenImages: [...document.images].filter(i => i.checkVisibility() && !i.naturalWidth).map(i => i.src),
-  }));
-  expanded.violations = axe ? await accessibility(page) : [];
-  if (capture) await section.screenshot({ path: path.join(output, name + '-other-expanded.png') });
-  for (const disclosure of await disclosures.all()) await disclosure.locator('summary').click();
-  await page.evaluate(() => scrollTo(0, 0));
-  return { count: 4, interactions: 'passed', storeControls, ...expanded };
+  return { ids, count: 4, fixedLead: 'uni-note', selection: javaScript ? 'three distinct eligible products' : 'static fallback', inertCandidates: javaScript ? 0 : candidates.length - 3 };
 }
+
 (async () => {
   const browser = await chromium.launch({ headless: true, executablePath: process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' });
   async function inspect(name, route, width, height, theme, screenshot = false, axe = true) {
@@ -269,14 +250,13 @@ async function inspectDisclosures(page, name, screenshot, axe) {
       await page.screenshot({ path: path.join(output, name + '.png'), fullPage: true });
       await page.screenshot({ path: path.join(output, name + '-viewport.png') });
     }
-    let disclosures;
+    let homeSelection;
     if (homeRoute.test(route)) {
-      try { disclosures = await inspectDisclosures(page, name, screenshot, axe); }
-      catch (error) { errors.push(`Disclosures: ${error.message}`); }
+      try { homeSelection = await inspectHomeSelection(page); }
+      catch (error) { errors.push(`Home selection: ${error.message}`); }
     }
-    const expandedOK = !disclosures || (disclosures.scrollWidth <= width && !disclosures.brokenImages.length && !disclosures.violations.length);
-    const ok = !errors.length && !violations.length && expandedOK && layout.h1Count === 1 && layout.scrollWidth <= width && !layout.duplicateIDs.length && !layout.brokenImages.length && !layout.headingSkips.length;
-    const result = { name, route, theme, ...layout, storeControls, productsHub, productContent, disclosures, errors, violations, ok };
+    const ok = !errors.length && !violations.length && layout.h1Count === 1 && layout.scrollWidth <= width && !layout.duplicateIDs.length && !layout.brokenImages.length && !layout.headingSkips.length;
+    const result = { name, route, theme, ...layout, storeControls, productsHub, productContent, homeSelection, errors, violations, ok };
     results.push(result); if (!ok) failures.push(name);
     fs.writeFileSync(path.join(output, 'results.json'), JSON.stringify({ ok: false, pending: true, failures, results }, null, 2));
     console.log(JSON.stringify({ name, ok, overflow: layout.scrollWidth - width, violations: violations.map(v => v.id), headingSkips: layout.headingSkips.length }));
@@ -364,13 +344,12 @@ async function inspectDisclosures(page, name, screenshot, axe) {
   assert.equal(await noPage.locator('.desktop-nav').isVisible(), true);
   assert.equal(await noPage.locator('#theme-toggle').isVisible(), false);
   assert.equal(await noPage.locator('body').evaluate(b => getComputedStyle(b).backgroundColor), 'rgb(23, 25, 29)');
-  for (const disclosure of await noPage.locator('details.app-disclosure').all()) {
-    assert.equal(await disclosure.evaluate(el => el.open), false);
-    await disclosure.locator('summary').click();
-    assert.equal(await disclosure.evaluate(el => el.open), true, 'Products expand without JavaScript');
-    assert.equal(await disclosure.locator('.app-actions').isVisible(), true);
+  await inspectHomeSelection(noPage, false);
+  await inspectStoreControls(noPage, '/');
+  for (const image of await noPage.locator('img:visible').all()) {
+    await image.scrollIntoViewIfNeeded();
+    await noPage.waitForLoadState('networkidle');
   }
-  assert.equal(await noPage.locator('details.app-disclosure[open]').count(), 4);
   // Browser timers are disabled in this context; native image loading still works.
   assert.deepEqual(await noPage.evaluate(() => [...document.images].filter(i => i.checkVisibility() && !i.naturalWidth).map(i => i.src)), []);
   assert.equal(await noPage.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);

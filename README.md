@@ -1,8 +1,8 @@
 # KUMAKIKAI公式サイト
 
-[kumakikai.github.io](https://kumakikai.github.io/) のソースです。Hugo ExtendedとHugoplateを基盤に、iPhone・iPadアプリのProducts、News、Companyを提供します。Productsは製品情報とアプリ別サポートへ入る共通ハブです。日本語、英語、韓国語、ドイツ語、繁体字中国語、フランス語に対応しています。
+[kumakikai.github.io](https://kumakikai.github.io/) のソースです。Hugo ExtendedとHugoplateを基盤に、iPhone・iPadアプリのProducts、News、Aboutを提供します。Productsは製品情報とアプリ別サポートへ入る共通ハブです。日本語、英語、韓国語、ドイツ語、繁体字中国語、フランス語に対応しています。Aboutの公開URLは既存の`/company/`を維持します。
 
-トップページのFeatured／Other分類、Featuredの順序、主要キャッチコピーを維持しながら、サイト全体を共通のレイアウト・CSSへ統一しています。既存の使い方、FAQ、プライバシーポリシー、利用規約、Notesの記事URLを保護することを優先します。
+トップページはUni:Noteを先頭の主力プロダクトとして扱い、ほかのアプリを共通の紹介候補から表示します。全アプリの入口はProductsにまとめ、既存の主要キャッチコピーと実画面を使います。既存の使い方、FAQ、プライバシーポリシー、利用規約、Notesの記事URLを保護することを優先します。
 
 ## 必要な環境
 
@@ -64,11 +64,11 @@ npm run verify
 | 場所 | 役割 |
 |---|---|
 | `hugo.toml` | 言語・公開URL・theme・Tailwind buildの設定 |
-| `data/apps.json` | アプリID、表示順、Featured、公開状態、Store URL、既存詳細URL、画像 |
+| `data/apps.json` | アプリID、一覧の表示順、Home掲載候補、開発領域、公開状態、Store URL、既存詳細URL、画像 |
 | `data/home/<lang>.json` | 6言語の既存トップコピー、アプリ名・説明・対応端末・画像alt |
 | `data/product_details/<id>.json` | 各Product専用の概要・機能・画像付き紹介・利用シーン・確認済み対応OS |
 | `data/product_ui/<lang>.json` | Product詳細の見出し・基本情報ラベル・下部CTAの6言語コピー |
-| `data/company/<lang>.json` | 6言語の会社紹介、公開許可済みFounder、開発方針、For Media、News絞り込みラベル |
+| `data/company/<lang>.json` | 6言語のAbout紹介、公開許可済みFounder、開発領域、開発方針、For Media、News絞り込みラベル |
 | `data/corporate/<lang>.json` | 6言語のナビゲーション、会社紹介、各一覧・CTAのコピー |
 | `data/theme.json` | Hugoplateの色・フォント・文字サイズtoken |
 | `data/hero.json` | 実UIを使ったHero画像の寸法、responsive画像、alt |
@@ -89,8 +89,8 @@ npm run verify
 
 ## アプリを追加・更新する
 
-1. `data/apps.json`にアプリを追加します。`id`はURLに使用する固定slugです。配列順が掲載順、`featured: true`が常時表示のFeatured、`false`がタイトルだけを初期表示するOtherになります。Otherを開くとFeaturedと共通の`app-showcase.html`で説明・実画像・CTAを表示します。開閉は標準の`details`／`summary`を使い、JavaScript不要で複数同時に開けます。
-2. `data/home/`の6言語すべてへ、同じIDでアプリ名・短い説明・`platform`・必要な`taglineLines`・`imageAlts`を追加します。既存Featuredのコピー変更には仕様上の根拠が必要です。
+1. `data/apps.json`にアプリを追加します。`id`はURLに使用する固定slug、配列順はProducts一覧の表示順です。`featured: true`はHomeの紹介候補を意味し、常時表示や公開済みという意味ではありません。現在の全8アプリを候補に含め、Uni:Noteの先頭固定はレイアウト側で扱います。`area`には下表の開発領域を設定します。
+2. `data/home/`の6言語すべてへ、同じIDでアプリ名・短い説明・`platform`・必要な`taglineLines`・`imageAlts`を追加します。既存コピーの変更には仕様上の根拠が必要です。`taglineLines`がないアプリは、`data/product_details/<id>.json`の各言語の既存`overviewTitle`を共通紹介の見出しとして参照します。同じコピーを重複定義する必要はありません。Uni:Noteの対応端末表記は全言語で`iPad`に統一します。
 3. 実際のアイコン・スクリーンショットを`static/images/apps/<id>/`へ配置し、`data/apps.json`に幅・高さとsmall／large画像を登録します。素材がない場合は`screenshots: []`にします。
 4. 使い方、FAQ、Privacy、Termsがある場合は既存の規則で`content/<section>/<id>.md`を用意します。Product下部のSupportは同じIDからこれらのページを探し、翻訳がなければ日本語ページへ案内します。
 5. `data/product_details/<id>.json`へ、Homeとは別の製品紹介を6言語で追加します。公開版とローカル開発版を区別して確認し、根拠と素材の出典を`docs/products/`へ残します。下の「Product詳細の編集」を参照してください。
@@ -98,7 +98,13 @@ npm run verify
 
 現在は8アプリ×6言語の48 Productページと、主要3セクション＋Support互換ページ×6言語の24入口、計72 Markdownを`scripts/sync-products.py`で同期します。生成ページにはマーカーがあり、直接編集せず共通JSONを変更します。手書きの記事は同期スクリプトの上書き対象になりません。
 
-Other Appsの実画面も同じ画像データからHomeとProduct詳細へ反映します。[追加素材の出典](docs/homepage/other-app-assets.md)を参照してください。
+| `area` | 領域 | 現在のアプリ |
+|---|---|---|
+| `learning` | 学習・ノート | `uni-note`、`uni-note-pocket` |
+| `communication` | 会話の支援 | `oto-miru`、`nocca` |
+| `daily-tools` | 日常の記録・管理 | `giga-poke`、`balance-calendar`、`smokeless`、`signal` |
+
+HomeとProduct詳細は同じ実画面データを使用します。旧Other Appsとして追加した素材の出典は[既存の素材記録](docs/homepage/other-app-assets.md)に残しています。Homeへ掲載しない候補もProductsから閲覧できます。
 
 アプリをデータから取り除く場合、生成ページを自動削除することはありません。旧URLからの到達方法を決めてから対応してください。ID変更もURL変更になるため、表示名の変更だけを目的にIDを変えないでください。
 
@@ -152,21 +158,21 @@ images: ["/images/og/uni-note.png"]
 
 既存の`content/notes/`記事をNewsへ表示するために移動する必要はありません。`/notes/.../`を維持したままNews一覧へ集約します。旧記事のカテゴリ・関連アプリは`data/news.json`、新記事はfront matterで管理できます。
 
-Newsの`#press-release`・`#blog`・`#information`は同じ一覧のカテゴリー絞り込みです。`#all-news`で全記事へ戻ります。CSSの`:target`／`:has()`で動作し、JavaScriptや重複したカテゴリー一覧ページは追加しません。Companyの取材・開発記事リンクもこの直接URLを使います。記事がないカテゴリーには件数を埋めるための記事を作らず、空の状態を表示します。
+Newsの`#press-release`・`#blog`・`#information`は同じ一覧のカテゴリー絞り込みです。`#all-news`で全記事へ戻ります。CSSの`:target`／`:has()`で動作し、JavaScriptや重複したカテゴリー一覧ページは追加しません。Aboutの取材・開発記事リンクもこの直接URLを使います。記事がないカテゴリーには件数を埋めるための記事を作らず、空の状態を表示します。
 
-## Company・公開プロフィールを編集する
+## About・公開プロフィールを編集する
 
-`data/company/`の6言語を編集します。氏名・肩書き・経歴は、本人が公開を許可した事実または確認できる既存公開情報に限定してください。今回の出典と非掲載判断は[Company拡張レポート](docs/company/REPORT.md)と[根拠](docs/company/evidence.json)に記録しています。名刺の電話番号と名刺全体はWebへ掲載しません。人物素材は元素材と利用権を確認できた場合だけ追加します。
+`data/company/`の6言語を編集します。画面の名称はAbout、データの場所と公開URLは`company`のまま維持します。氏名は`founderName: "Yuya Nakamura"`に統一し、英字氏名の別フィールドや漢字氏名を重複表示しません。画像altも同じ氏名を使います。肩書き・経歴は、本人が公開を許可した事実または確認できる既存公開情報に限定してください。出典と非掲載判断は[Company拡張レポート](docs/company/REPORT.md)と[根拠](docs/company/evidence.json)に記録しています。名刺の電話番号と名刺全体はWebへ掲載しません。本人が利用を許可した人物イラストの編集方法・出典は[人物画像の記録](docs/company/portrait/asset.json)を参照してください。
 
-公開プロダクト数は`data/apps.json`の`status: published`を集計します。Companyの3つの開発領域は同じProduct IDからアイコン・名称・端末・リンクを参照します。実績のために未確認のDL数、勤務先・経験年数・学歴、法人格・所在地等を追加しないでください。主要CTAは末尾の既存メール窓口です。For Mediaから同じページの`#contact`へ直接移動できます。
+Aboutの紹介文は「複数のプロダクト」とし、固定の件数や`%d`による数値の差し込みを使いません。`areas`の各行には`area`を設定し、同じ領域の`data/apps.json`から紹介候補を参照します。既存の`product`はJavaScript無効時の表示用IDとして残し、該当する領域内のアプリを指定します。アイコン・名称・端末・URLはProductデータを共用します。`featured`や`area`を変更しても、`status`・Store URL・提供地域の根拠は変更しません。実績のために未確認のDL数、勤務先・経験年数・学歴、法人格・所在地等を追加しないでください。主要CTAは末尾の既存メール窓口です。For Mediaから同じページの`#contact`へ直接移動できます。
 
-CompanyのSEO説明は`data/corporate/<lang>.json`の`companyDescription`で管理し、変更時は`npm run sync:products`を実行します。Companyだけに公開許可済みFounderのPerson情報をOrganization schemaへ補足しています。
+AboutのSEO説明は`data/corporate/<lang>.json`の`companyDescription`で管理し、画面名は`nav.company: "About"`とします。変更時は`npm run sync:products`を実行します。同期スクリプトはこのナビゲーション名をページtitleにも使いますが、`/company/`と各言語の既存URLは変更しません。Aboutだけに公開許可済みFounderのPerson情報をOrganization schemaへ補足しています。
 
 ## URL・コンテンツの互換性
 
 既存の`/htu/`、`/faq/`、`/privacy/`、`/terms/`、`/notes/`と各言語URLはApp Store Connectや外部記事から参照されている可能性があります。ファイル名・slugを変更する場合は、旧URLを維持するかHugoの`aliases`で到達可能にしてください。各アプリのPrivacy／Termsは統合しません。
 
-Product下部の`#support`は使い方・FAQ・問い合わせ・Privacyへ直接案内します。ProductからSupport一覧へ移動して同じアプリを再選択させないでください。HeaderはProducts／News／Company、Footerは会社Contactだけを担当します。アプリ選択はProductsに一本化し、各カードの「製品を見る」は`/products/<id>/`、「サポート」は同じProductページの`#support`へ直接進めます。アプリ名・端末・既存のキャッチコピーまたは説明・公開状況は共通データから表示し、一覧には使い方やFAQを展開しません。
+Product下部の`#support`は使い方・FAQ・問い合わせ・Privacyへ直接案内します。ProductからSupport一覧へ移動して同じアプリを再選択させないでください。HeaderはProducts／News／About、FooterはContactだけを担当します。アプリ選択はProductsに一本化し、各カードの「製品を見る」は`/products/<id>/`、「サポート」は同じProductページの`#support`へ直接進めます。アプリ名・端末・既存のキャッチコピーまたは説明・公開状況は共通データから表示し、一覧には使い方やFAQを展開しません。
 
 旧`/support/`、`/htu/`、`/faq/`、`/privacy/`、`/terms/`の集約URLは互換用にHTTP成功・自己canonicalを維持し、`noindex, follow`とProductsへの簡潔な案内を付けます。これらは主要ナビやHomeから案内しません。旧Supportの`#<id>`・`#support-<id>`はCSSの`:target`で対象アプリの直接Supportリンクだけを表示し、`#contact`も維持します。個別本文・Privacy・利用規約URLは変更しません。Homeの旧`#support`はHeroのProducts CTAへ接続します。
 
@@ -188,7 +194,7 @@ build依存はTailwind、Tailwind CLI、Typographyの3種類です。追加のWe
 
 Tailwindの自動ファイル探索は`source(none)`で無効化し、Hugoが実際に出力した`hugo_stats.json`だけを明示的に読み込みます。README・検証JSON・vendorデモ等の単語がCSS候補へ混ざり、ローカルとCIのfingerprintが変わることを防ぎます。JavaScriptで追加するクラスは現在`js`・`dark`・`menu-open`で、`site.css`に明示的な定義があります。
 
-画像にはWebPのresponsive variantsと実寸を設定し、Hero以外は原則lazy loadingにします。実在しないUIや未公開機能を画像で補いません。HeroとOGPの出典・加工内容は[Hero素材記録](docs/migration/hero-assets.md)、[OGP素材記録](docs/migration/og-assets.md)を参照してください。OGPのPNGはコミット済みで、通常のbuild時には再生成しません。
+画像にはWebPのresponsive variantsと実寸を設定し、Hero以外は原則lazy loadingにします。実在しないUIや未公開機能を画像で補いません。HeroとOGPの出典・加工内容は[Hero素材記録](docs/migration/hero-assets.md)、[OGP素材記録](docs/migration/og-assets.md)を参照してください。OGPのPNGはコミット済みで、通常のbuild時には再生成しません。既存のsharp環境を使い、`node scripts/generate-og.mjs uni-note`で指定Productだけ再生成できます。引数なしなら共通画像と全Productを生成します。
 
 ## GitHub Pagesへのデプロイ
 
@@ -210,7 +216,7 @@ GitHub Pagesは既存の`gh-pages`公開方式を維持します。生成物を�
 NODE_PATH=/path/to/qa/node_modules node scripts/verify-browser.cjs
 ```
 
-Companyの公開プロフィール、取材導線、News絞り込みを確認する場合は、同じQA依存で`node scripts/verify-company.cjs`を実行します。6言語・Desktop／Mobile・JavaScript無効時を含む44条件を確認し、結果を`docs/company/browser-verification.json`、画像を`artifacts/company/browser/`へ保存します。
+Aboutの公開プロフィール、取材導線、News絞り込みを確認する場合は、同じQA依存で`node scripts/verify-company.cjs`を実行します。結果の保存先は`TEST_REPORT`、画像の保存先は`TEST_OUTPUT`で指定できます。過去の`docs/company/`配下の検証記録は当時の画面の証拠として残し、新しい表示条件の結果で上書きしません。
 
 既定の表示先は`http://127.0.0.1:1314`、Chromeの場所は`CHROME_PATH`、表示先は`TEST_BASE_URL`で変更できます。結果は`artifacts/migration/browser/`へ保存します。
 
@@ -229,3 +235,5 @@ SSL_CERT_FILE=/etc/ssl/cert.pem python3 scripts/verify-live.py --build public
 ```
 
 この確認はHTTP GETのみで、App Store Connectの登録内容を変更しません。詳しい移行・画面検証は[移行報告](docs/migration/REPORT.md)を参照してください。
+
+Home／Aboutのランダム選出は、同じQA依存で`node scripts/verify-selection.cjs`を実行します。既存URL・コピー保護は`npm run verify`を併用してください。選出の重複・カテゴリ・Uni:Note固定、再読み込み、JavaScript無効時、多言語・画面幅・配色、CLSの結果とスクリーンショットを`docs/selection/`へ保存します。

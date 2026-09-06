@@ -25,6 +25,19 @@ LOCAL_HOSTS = {"kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
 LANGUAGES = ("ja", "en", "ko", "de", "zh-hant", "fr")
 FEATURED = ("uni-note", "oto-miru", "giga-poke", "nocca")
 OTHER = ("uni-note-pocket", "balance-calendar", "smokeless", "signal")
+PRODUCT_AREAS = {
+    "uni-note": "learning", "uni-note-pocket": "learning",
+    "oto-miru": "communication", "nocca": "communication",
+    "giga-poke": "daily-tools", "balance-calendar": "daily-tools",
+    "smokeless": "daily-tools", "signal": "daily-tools",
+}
+# Keep the pre-migration snapshot immutable. The user explicitly authorized
+# removing "専用" in these two Japanese sentences only; all remaining article
+# text, IDs, links, URLs, and canonical identities keep the original checks.
+AUTHORIZED_ARTICLE_REPLACEMENTS = {
+    "/htu/uni-note/": ("対応環境:iPad専用ApplePencil", "対応環境:iPadApplePencil"),
+    "/faq/uni-note/": ("対応端末は？iPad専用です。無料版に制限", "対応端末は？iPadです。無料版に制限"),
+}
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
 LEGACY_SECTIONS = {"htu", "faq", "privacy", "terms", "notes"}
 DEMO_TEXT = re.compile(r"\blorem ipsum\b|\bJohn Doe\b|\bJane Doe\b|\bYour Company\b|\bAcme Inc\b|\bHugoplate Demo\b", re.I)
@@ -51,6 +64,14 @@ class Node:
     def has_class(self, value):
         return value in self.attrs.get("class", "").split()
 
+    def inside_template(self):
+        parent = self.parent
+        while parent:
+            if parent.tag == "template":
+                return True
+            parent = parent.parent
+        return False
+
     def descendants(self, tag=None):
         for node in self.parts:
             if isinstance(node, Node):
@@ -62,6 +83,12 @@ class Node:
         if self.tag in {"style", "script"} or self.has_class("anchor") or self.has_class("heading-anchor"):
             return ""
         return " ".join(part if isinstance(part, str) else part.text() for part in self.parts)
+
+    def visible_label(self):
+        """Navigation labels omit decorative aria-hidden arrows, not article text."""
+        if self.attrs.get("aria-hidden") == "true":
+            return ""
+        return " ".join(part if isinstance(part, str) else part.visible_label() for part in self.parts).strip()
 
 
 class Document(HTMLParser):
@@ -244,7 +271,14 @@ class Verification:
             if body is None:
                 continue
             new_text = normalized(body.text())
-            self.require(old["text"] in new_text, route, "legacy_content", "Original rendered article body was dropped, changed, or reordered")
+            expected_text = old["text"]
+            if route in AUTHORIZED_ARTICLE_REPLACEMENTS:
+                before, after = AUTHORIZED_ARTICLE_REPLACEMENTS[route]
+                self.require(expected_text.count(before) == 1, route, "authorized_article_change", "The explicitly authorized sentence must occur exactly once in the immutable baseline")
+                expected_text = expected_text.replace(before, after, 1)
+                self.require("iPad専用" not in new_text, route, "authorized_article_change", "The authorized iPad wording change was not applied")
+                self.counts["authorized_article_wording_changes"] += 1
+            self.require(expected_text in new_text, route, "legacy_content", "Original rendered article body was dropped, changed, or reordered beyond the exact authorized wording change")
             missing = sorted(set(old["ids"]) - set(doc.ids))
             self.require(not missing, route, "legacy_anchor", f"Original article anchors disappeared: {missing}")
             links = {urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href")}
@@ -404,6 +438,31 @@ class Verification:
             self.require(len(list(card.descendants("a"))) == 2, route, "products_hub", f"{app_id}: use the product and product-support actions without extra selection routes")
         self.counts["products_hub_cards"] += len(cards)
 
+    def verify_about(self, doc, apps, lang, route):
+        copy = json.loads((self.data_file.parent / "company" / (lang + ".json")).read_text(encoding="utf-8"))
+        self.require(copy.get("founderName") == "Yuya Nakamura" and "founderEnglishName" not in copy, route, "about_founder", "About uses one authorized Roman-name field in every locale")
+        self.require("webLabel" not in copy and not re.search(r"%d|\d", copy.get("buildIntro", "")), route, "about_copy", "About must omit the redundant Web label and fixed product count")
+        title = doc.tagged("title")
+        self.require(len(title) == 1 and re.match(r"^About(?:\s|$)", title[0].text()), route, "about_title", "The page title must be About while retaining /company/")
+        areas = copy.get("areas", [])
+        self.require([area.get("area") for area in areas] == ["learning", "communication", "daily-tools"], route, "about_areas", "About must cover the three explicit product areas")
+        for area in areas:
+            groups = [n for n in doc.nodes if n.has_class("company-area-products") and n.attrs.get("data-area") == area["area"]]
+            self.require(len(groups) == 1 and groups[0].attrs.get("data-product-selection") == "1", route, "about_selection", "Each area needs one single-product selection group")
+            if not groups:
+                continue
+            group = groups[0]
+            links = [n for n in group.descendants("a") if n.has_class("company-product-link")]
+            active = [n for n in links if not n.inside_template()]
+            candidates = [app for app in apps if app.get("area") == area["area"]]
+            self.require(len(active) == 1 and active[0].attrs.get("data-product-id") == area["product"], route, "about_static_fallback", "Each area must preserve its one static fallback without JavaScript")
+            self.require(Counter(n.attrs.get("data-product-id") for n in links) == Counter(app["id"] for app in candidates), route, "about_candidates", "Fallback plus inert templates must contain every product from the area exactly once")
+            for link in links:
+                app_id = link.attrs.get("data-product-id")
+                self.require("data-product-option" in link.attrs and link.attrs.get("href") == localized(lang, f"/products/{app_id}/"), route, "about_direct_product", "Area representatives must link directly to their localized Product page")
+            self.counts["about_static_representatives"] += len(active)
+            self.counts["about_inert_candidates"] += len(links) - len(active)
+
     def verify_compatibility_page(self, doc, apps, lang, route, section):
         self.require(not doc.redirect() and doc.canonical() == [SITE + route], route, "directory_compatibility", "Old directory URLs must remain real pages with their own canonical")
         robots = " ".join(doc.meta("robots"))
@@ -452,10 +511,15 @@ class Verification:
                 self.require(hashlib.sha256(target[0].read_bytes()).hexdigest() == badge["sha256"], "/", "official_badge", f"Official {lang} SVG was modified")
             self.require(urlsplit(badge["source"]).hostname == "toolbox.marketingtools.apple.com", "/", "official_badge", "Badge provenance must be Apple's official marketing tools")
             self.counts["official_badge_assets"] += 1
-        self.require(tuple(app["id"] for app in apps if app.get("featured")) == FEATURED,
-                     "/", "featured_order", "Existing Featured classification/order must be preserved")
-        self.require(tuple(app["id"] for app in apps if not app.get("featured")) == OTHER,
-                     "/", "other_order", "Existing Other classification/order must be preserved")
+        ids = [app["id"] for app in apps]
+        self.require(len(ids) == len(set(ids)) and tuple(app_id for app_id in ids if app_id in FEATURED + OTHER) == FEATURED + OTHER,
+                     "/", "product_order", "Existing products must retain their relative order and every product ID must be unique; new apps may be added")
+        eligible = [app for app in apps if app.get("featured") is True]
+        candidates = [app["id"] for app in eligible if app["id"] != "uni-note"]
+        self.require(by_id.get("uni-note", {}).get("featured") is True and len(candidates) >= 3,
+                     "/", "featured_candidates", "Uni:Note must remain eligible and fixed first, with at least three other selectable products")
+        self.require(all(app.get("area") in set(PRODUCT_AREAS.values()) for app in apps) and all(by_id.get(app_id, {}).get("area") == area for app_id, area in PRODUCT_AREAS.items()),
+                     "/company/", "product_areas", "Preserve known product areas; new products must use learning, communication, or daily-tools")
         for app in apps:
             availability = app.get("availability")
             if availability and app.get("appStoreURL"):
@@ -481,6 +545,8 @@ class Verification:
             home_target = self.target(home_route, "/")
             if home_target and home_target[0].is_file():
                 home = self.document(home_target[0])
+                home_copy = json.loads((self.data_file.parent / "home" / (lang + ".json")).read_text(encoding="utf-8"))
+                self.require(home_copy["apps"]["uni-note"].get("platform") == "iPad", home_route, "ipad_wording", "Uni:Note platform must use iPad without an exclusivity claim in every language")
                 for app_id, old in self.baseline.get("home_app_copy", {}).get(home_route, {}).items():
                     copy_file = self.data_file.parent / "home" / (lang + ".json")
                     if copy_file.is_file():
@@ -490,18 +556,32 @@ class Verification:
                                 continue
                             current_value = "".join(current_copy.get("taglineLines", [])) if field == "tagline" else current_copy.get(field, "")
                             self.require(normalized(current_value) == old[field], home_route, "fixed_product_copy", f"{app_id}: accepted {field} copy changed")
-                            self.require(old[field] in normalized(home.root.text()), home_route, "rendered_product_copy", f"{app_id}: accepted {field} is missing from rendered home")
+                            if by_id.get(app_id, {}).get("featured") is True:
+                                self.require(old[field] in normalized(home.root.text()), home_route, "rendered_product_copy", f"{app_id}: accepted {field} is missing from rendered home")
                             self.counts["fixed_product_copy_fields"] += 1
-                    containers = [n for n in home.nodes if n.attrs.get("aria-labelledby") == app_id + "-name" or n.attrs.get("data-app-id") == app_id]
-                    self.require(len(containers) == 1, home_route, "home_product_container", f"{app_id}: expected one accessible Featured/Other app container")
+                for app in eligible:
+                    app_id = app["id"]
+                    containers = [n for n in home.tagged("article") if n.attrs.get("aria-labelledby") == app_id + "-name" or n.attrs.get("data-app-id") == app_id]
+                    self.require(len(containers) == 1, home_route, "home_product_container", f"{app_id}: expected one accessible app showcase, including inert selection candidates")
                     if containers:
                         self.verify_store_controls(containers[0], by_id[app_id], lang, home_route, badges)
                         stores = [n.attrs.get("href") for n in containers[0].descendants("a") if urlsplit(n.attrs.get("href", "")).hostname == "apps.apple.com"]
                         app = by_id.get(app_id, {})
-                        if self.available(app) and old["featured"]:
+                        if self.available(app):
                             self.require(app.get("appStoreURL") in stores, home_route, "home_store_cta", f"{app_id}: published app needs a direct Store CTA")
                         elif not self.available(app):
                             self.require(not stores, home_route, "home_publication", f"{app_id}: development app has a Store CTA")
+                showcases = [n for n in home.tagged("article") if n.has_class("app-showcase")]
+                app_id = lambda n: n.attrs.get("data-product-id") or n.attrs.get("data-app-id") or n.attrs.get("aria-labelledby", "").removesuffix("-name")
+                active = [n for n in showcases if not n.inside_template()]
+                inert = [n for n in showcases if n.inside_template()]
+                self.require([app_id(n) for n in active] == ["uni-note"] + candidates[:3], home_route, "home_static_fallback", "Without JavaScript Home must show Uni:Note followed by the first three eligible products in data order")
+                self.require([app_id(n) for n in inert] == candidates[3:], home_route, "home_inert_candidates", "Remaining eligible showcases must stay in inert template content until selected")
+                self.require(len(showcases) == len(eligible) and set(app_id(n) for n in showcases) == {app["id"] for app in eligible}, home_route, "home_selection_pool", "Home must contain every eligible showcase exactly once across the fallback and inert candidates")
+                self.require(not any(n.has_class("app-disclosure") or n.has_class("portfolio-other") or n.has_class("other-apps") or n.attrs.get("id") == "other-apps" for n in home.nodes), home_route, "home_other_removed", "Home must not render a separate Other Apps section or collapsed product rows")
+                self.require(not any(n.has_class("section-index") for n in home.nodes), home_route, "home_numbering", "Featured app numbering must remain removed")
+                self.counts["home_static_showcases"] += len(active)
+                self.counts["home_inert_showcases"] += len(inert)
                 self.require(not any(n.has_class("home-support") or n.has_class("support-shortcuts") for n in home.nodes), home_route, "home_support", "Home must not repeat the Support app-selection section")
                 old_support = [n for n in home.nodes if n.attrs.get("id") == "support"]
                 self.require(len(old_support) == 1 and old_support[0].tag == "a" and old_support[0].attrs.get("href") == localized(lang, "/products/"), home_route, "home_support_compatibility", "The former Home #support anchor must now lead to Products")
@@ -516,6 +596,10 @@ class Verification:
             hub_target = self.target(hub_route, "/")
             if hub_target and hub_target[0].is_file():
                 self.verify_products_hub(self.document(hub_target[0]), apps, lang, hub_route)
+            about_route = localized(lang, "/company/")
+            about_target = self.target(about_route, "/")
+            if about_target and about_target[0].is_file():
+                self.verify_about(self.document(about_target[0]), apps, lang, about_route)
             for section in ("privacy", "support", "htu", "faq", "terms"):
                 compat_route = localized(lang, f"/{section}/")
                 compat_target = self.target(compat_route, "/")
@@ -649,7 +733,7 @@ class Verification:
             navs += [nav for menu in doc.nodes if menu.attrs.get("id") == "mobile-menu" for nav in menu.descendants("nav")]
             self.require(len(navs) == 2, route, "header_navigation", "Desktop and mobile navigation must both be present")
             for nav in navs:
-                self.require([n.attrs.get("href") for n in nav.descendants("a")] == [localized(lang, f"/{section}/") for section in ("products", "news", "company")], route, "header_navigation", "Primary navigation must use Products, News, and Company")
+                self.require([(n.visible_label(), n.attrs.get("href")) for n in nav.descendants("a")] == [(label, localized(lang, f"/{section}/")) for label, section in (("Products", "products"), ("News", "news"), ("About", "company"))], route, "header_navigation", "Primary navigation must use Products, News, and About while retaining /company/")
             if route.endswith("404.html"):
                 self.require(not any(urlsplit(n.attrs.get("href", "")).path == localized(lang, "/support/") for n in doc.tagged("a")), route, "404_navigation", "404 recovery must lead to Products instead of the old Support directory")
             for aside in [n for n in doc.nodes if n.has_class("article-related")]:
