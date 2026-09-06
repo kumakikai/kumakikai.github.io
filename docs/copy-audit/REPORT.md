@@ -23,7 +23,7 @@ About見出しは内容を直接示す「KUMAKIKAIについて」へ変更。Con
 - 長い既存Newsタイトル6件と記事本文の見出し5件は、意味のまとまりを`data/heading_phrases.json`に登録しました。Hugoが同一文字列を`inline-block`のspanへ分け、News一覧・記事h1・本文見出しで使います。画面幅に応じて同じ行にも次の行にも配置され、固定改行は挿入しません。元のtitle・本文の文字列・アンカーID・URL・SEO titleは維持します。
 - 720px以下では既存の1カラム構成を維持します。Web Font、改行用のJavaScript、外部ライブラリは追加していません。
 
-`auto-phrase`は補助として使用します。[MDNのword-break仕様説明](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/word-break)を確認し、非対応環境でも基本設定と表示幅で読める構成にしています。Chromeで同機能を無効にした試験に加え、WebKitで実際の非対応時の表示を確認します。
+`auto-phrase`は補助として使用します。[MDNのword-break仕様説明](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/word-break)を確認し、非対応環境でも基本設定と表示幅で読める構成にしています。Chromeで同機能を無効にした試験に加え、WebKitで実際の非対応時の表示も確認しました。
 
 ## 3. About基本情報
 
@@ -132,11 +132,11 @@ Productsの案内は「アプリを選ぶと、製品情報や使い方・よく
 | [About互換性](company-compatibility.json) | 6言語のDesktopとJS無効時の12条件成功。基本情報3項目・Roman氏名・Contact1CTA・カテゴリ内代表リンクを確認 |
 | [WebKit検証](webkit-verification.json) | 30条件成功。About5幅、Home / Products / Uni:Note / News / Support / 使い方、長いBlog6記事を確認。観測した見出しの語中改行候補0、横はみ出し0、画像欠損0 |
 | 表記・素材・本文保護 | [表記監査](text-verification.json)で漢字氏名・旧デバイス表記なし。Productデータはarea以外不変。今回の既存記事・Support・Privacy本文ファイルの変更なし |
-| 公開サイト | 配信後の結果を末尾へ追記 |
+| 公開サイト | [公開HTML照合](public-verification.json)：277ページすべてHTTP 200、最終buildとのSHA-256一致。既存URLの404なし |
 
 Chrome・WebKitとも、最終の見出し調整が影響したRoadmap／友人Blogの4条件だけ再検証し、それ以外の不変な画面の成功結果を保持しています。再検証の範囲と実行順は各JSONの`verificationPasses`に記録しました。
 
-ご指摘の「道／具」「ア／プリ」に加え、非対応ブラウザで見つかった「こうした／い」「希／望」「プロ／ダクト」、Newsの「累／計」、本文見出しの「アップ／デート」等も解消しました。About Heroは393 / 320pxで「日常の『こうしたい』を、／アプリに。」、Contactの補足は「アプリの使い方や不具合のご相談は、／各プロダクトページのサポートへ。」と意味のまとまりで表示されます。
+ご指摘の「道／具」「ア／プリ」に加え、非対応ブラウザで見つかった「こうした／い」「希／望」「プロ／ダクト」、Newsの「累／計」、本文見出しの「アップ／デート」等も解消しました。About Heroは393 / 320pxで「日常の「こうしたい」を、／アプリに。」、Contactの補足は「アプリの使い方や不具合のご相談は、／各プロダクトページのサポートへ。」と意味のまとまりで表示されます。
 
 WebKitはPlaywrightのWebKit 26.5実エンジンです。iPhone / iPadの実機SafariやFirefox全バージョンの確認ではありません。Chromeではauto-phrase非適用時も別途確認しました。任意の画面幅・すべての日本語本文について語境界の完全な保証をするものではありません。今回Lighthouse総合点の再計測は行っていません。
 
@@ -153,4 +153,10 @@ WebKitはPlaywrightのWebKit 26.5実エンジンです。iPhone / iPadの実機S
 
 ## 公開確認
 
-コミット・公開後に記録します。
+- 実装コミット：[`c814881d6f67d5a7c37e09cbca0f1295770f28a7`](https://github.com/kumakikai/kumakikai.github.io/commit/c814881d6f67d5a7c37e09cbca0f1295770f28a7)、`main`へpush済み。
+- [Hugo build / deploy](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34054883186)：成功。
+- [GitHub Pages公開](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34054906566)：成功。配信コミット`4015853ef07b01d4a31a793c5fe63f9387b2f6d0`。
+- 公開ページ：[About](https://kumakikai.github.io/company/) / [Contact](https://kumakikai.github.io/company/#contact) / [Home](https://kumakikai.github.io/) / [News](https://kumakikai.github.io/news/)。
+
+- [公開HTML照合](public-verification.json)：277ページすべてHTTP 200、最終buildとSHA-256一致。旧URL191件を含み、新規URL・alias・redirectは追加していません。
+- [公開アセット照合](public-assets.json)：公開Home・Aboutの参照から取得したCSS・主要JS・Founder画像192/384の4件がHTTP 200、byte数・SHA-256一致。公開HTML自体も一致しています。

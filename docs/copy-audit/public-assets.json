@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-09-06T19:28:08.636665+00:00",
+  "sourceCommit": "c814881d6f67d5a7c37e09cbca0f1295770f28a7",
+  "baseURL": "https://kumakikai.github.io",
+  "scope": "Stylesheet and external JavaScript referenced by published Home and About, plus both responsive Founder portraits. The complete 277-page HTML check is recorded separately.",
+  "method": "Confirm Hugo and Pages runs both succeeded. GET the published Home and About, compare their SHA-256 against public/, and extract actual asset references from the response HTML. GET each unique selected asset once and compare HTTP status, byte length and SHA-256 against public/. No query-string cache busting, redirects added, retries, or content edits.",
+  "deployments": [
+    {
+      "kind": "Hugo",
+      "runId": 34054883186,
+      "conclusion": "success",
+      "headSha": "c814881d6f67d5a7c37e09cbca0f1295770f28a7",
+      "status": "completed",
+      "updatedAt": "2026-09-06T19:26:37Z",
+      "url": "https://github.com/kumakikai/kumakikai.github.io/actions/runs/34054883186"
+    },
+    {
+      "kind": "GitHub Pages",
+      "runId": 34054906566,
+      "conclusion": "success",
+      "headSha": "4015853ef07b01d4a31a793c5fe63f9387b2f6d0",
+      "status": "completed",
+      "updatedAt": "2026-09-06T19:26:59Z",
+      "url": "https://github.com/kumakikai/kumakikai.github.io/actions/runs/34054906566"
+    }
+  ],
+  "referencePages": [
+    {
+      "url": "https://kumakikai.github.io/",
+      "httpStatus": 200,
+      "localPath": "public/index.html",
+      "localSHA256": "d19e691c7bc2c73bd6f37dd063706c294230c98d98bd71b9df4c4aa2ffe0546b",
+      "remoteSHA256": "d19e691c7bc2c73bd6f37dd063706c294230c98d98bd71b9df4c4aa2ffe0546b",
+      "sha256Match": true
+    },
+    {
+      "url": "https://kumakikai.github.io/company/",
+      "httpStatus": 200,
+      "localPath": "public/company/index.html",
+      "localSHA256": "5bb5b7a42c9df36222d20d7d00ea6de5a664cfe15380e4816a8185f2f551405d",
+      "remoteSHA256": "5bb5b7a42c9df36222d20d7d00ea6de5a664cfe15380e4816a8185f2f551405d",
+      "sha256Match": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "/css/main.3ac02f4d40453dc42884353feebe77ed707b7c7aad53fd2d1b1ac89d9548767d.css",
+      "kind": "stylesheet",
+      "htmlReferences": [
+        "https://kumakikai.github.io/",
+        "https://kumakikai.github.io/company/"
+      ],
+      "url": "https://kumakikai.github.io/css/main.3ac02f4d40453dc42884353feebe77ed707b7c7aad53fd2d1b1ac89d9548767d.css",
+      "localPath": "public/css/main.3ac02f4d40453dc42884353feebe77ed707b7c7aad53fd2d1b1ac89d9548767d.css",
+      "localBytes": 58711,
+      "localSHA256": "3ac02f4d40453dc42884353feebe77ed707b7c7aad53fd2d1b1ac89d9548767d",
+      "httpStatus": 200,
+      "responseURL": "https://kumakikai.github.io/css/main.3ac02f4d40453dc42884353feebe77ed707b7c7aad53fd2d1b1ac89d9548767d.css",
+      "contentType": "text/css; charset=utf-8",
+      "remoteBytes": 58711,
+      "remoteSHA256": "3ac02f4d40453dc42884353feebe77ed707b7c7aad53fd2d1b1ac89d9548767d",
+      "headers": {
+        "ETag": "\"6a9dbe7e-e557\"",
+        "Last-Modified": "Sun, 06 Sep 2026 19:26:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "bytesMatch": true,
+      "sha256Match": true,
+      "ok": true
+    },
+    {
+      "path": "/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "kind": "javascript",
+      "htmlReferences": [
+        "https://kumakikai.github.io/",
+        "https://kumakikai.github.io/company/"
+      ],
+      "url": "https://kumakikai.github.io/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "localPath": "public/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "localBytes": 1634,
+      "localSHA256": "45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a",
+      "httpStatus": 200,
+      "responseURL": "https://kumakikai.github.io/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "contentType": "application/javascript; charset=utf-8",
+      "remoteBytes": 1634,
+      "remoteSHA256": "45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a",
+      "headers": {
+        "ETag": "\"6a9dbe7e-662\"",
+        "Last-Modified": "Sun, 06 Sep 2026 19:26:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "bytesMatch": true,
+      "sha256Match": true,
+      "ok": true
+    },
+    {
+      "path": "/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "kind": "founder-portrait",
+      "htmlReferences": [
+        "https://kumakikai.github.io/company/"
+      ],
+      "responsiveWidth": 192,
+      "url": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "localPath": "public/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "localBytes": 4700,
+      "localSHA256": "0fc205019218fd78664ea569a93ef80643ce89ebb1414fea50ce111b56cc5e0e",
+      "httpStatus": 200,
+      "responseURL": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "contentType": "image/webp",
+      "remoteBytes": 4700,
+      "remoteSHA256": "0fc205019218fd78664ea569a93ef80643ce89ebb1414fea50ce111b56cc5e0e",
+      "headers": {
+        "ETag": "\"6a9dbe7e-125c\"",
+        "Last-Modified": "Sun, 06 Sep 2026 19:26:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "bytesMatch": true,
+      "sha256Match": true,
+      "ok": true
+    },
+    {
+      "path": "/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "kind": "founder-portrait",
+      "htmlReferences": [
+        "https://kumakikai.github.io/company/"
+      ],
+      "responsiveWidth": 384,
+      "url": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "localPath": "public/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "localBytes": 10896,
+      "localSHA256": "6cea19085067823c0d9cfc5e9a33dcbd1b2c08272c838cb7d6b8313e29dc9fd3",
+      "httpStatus": 200,
+      "responseURL": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "contentType": "image/webp",
+      "remoteBytes": 10896,
+      "remoteSHA256": "6cea19085067823c0d9cfc5e9a33dcbd1b2c08272c838cb7d6b8313e29dc9fd3",
+      "headers": {
+        "ETag": "\"6a9dbe7e-2a90\"",
+        "Last-Modified": "Sun, 06 Sep 2026 19:26:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "bytesMatch": true,
+      "sha256Match": true,
+      "ok": true
+    }
+  ],
+  "summary": {
+    "assetCount": 4,
+    "http200": 4,
+    "sha256Matches": 4,
+    "byteMatches": 4
+  },
+  "ok": true
+}
