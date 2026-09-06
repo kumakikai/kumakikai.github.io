@@ -3,7 +3,7 @@
 {{ $title := printf "%s | KUMAKIKAI" .Title }}{{ if .IsHome }}{{ $title = "KUMAKIKAI — iPhone & iPad Apps" }}{{ end }}
 {{ $description := .Description | default (.Summary | plainify | truncate 150) | default site.Params.description }}
 {{ if .IsHome }}{{ $description = $copy.companyIntro }}{{ end }}
-{{ $privacyArchive := and (not .IsPage) (eq .Section "privacy") }}{{ if $privacyArchive }}{{ $description = (index site.Data.ux site.Language.Lang).privacyArchiveText }}{{ end }}
+{{ $supportArchive := and (not .IsPage) (in (slice "support" "privacy" "htu" "faq" "terms") .Section) }}{{ if $supportArchive }}{{ $description = $copy.supportIntro }}{{ if eq .Section "privacy" }}{{ $description = (index site.Data.ux site.Language.Lang).privacyArchiveText }}{{ end }}{{ end }}
 {{ $image := "/images/og/default.png" }}
 {{ $productID := .Params.product_id }}
 {{ if not $productID }}{{ if in (slice "htu" "faq" "privacy" "terms") .Section }}{{ $productID = $basename }}{{ end }}{{ end }}
@@ -31,7 +31,7 @@
 <meta property="og:image:alt" content="{{ with $productID }}{{ with index (index site.Data.home "ja").apps . }}{{ .name }} — {{ end }}{{ end }}KUMAKIKAI">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ $image | absURL }}">
-{{ if or (eq .Kind "404") $privacyArchive }}<meta name="robots" content="noindex, follow">{{ end }}
+{{ if or (eq .Kind "404") $supportArchive }}<meta name="robots" content="noindex, follow">{{ end }}
 {{ $schema := dict "@context" "https://schema.org" "@type" "Organization" "name" "KUMAKIKAI" "url" site.BaseURL "logo" ("/apple-touch-icon.png" | absURL) "email" "kumakikai.apps@gmail.com" }}
 {{ if eq .Type "product" }}
   {{ $app := index (where site.Data.apps "id" .Params.product_id) 0 }}{{ $text := index (index site.Data.home site.Language.Lang).apps $app.id }}

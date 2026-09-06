@@ -119,11 +119,21 @@ body.menu-open { overflow: hidden; }
 .app-disclosure > .app-showcase { margin: 0; background: transparent; }
 .app-disclosure .app-description { font-size: 1.05rem; text-wrap: balance; }
 .product-card { display: flex; align-items: flex-start; flex-direction: column; padding: 27px; border: 1px solid var(--line); border-radius: 16px; }
-.product-card :is(h2,h3) { font-size: 1rem; line-height: 1.5; margin: 20px 0 10px; letter-spacing: -.01em; }
-.product-card > p { color: var(--muted); line-height: 1.85; font-size: .84rem; margin-bottom: 20px; }
-.product-card > .text-link { margin-top: auto; font-size: .8rem; }
-.product-meta { display: flex; flex-wrap: wrap; gap: 6px 15px; color: var(--muted); font-size: .75rem; margin-bottom: 20px; }
-.product-meta span:last-child { padding-left: 14px; border-left: 1px solid var(--line); }
+.product-card h2 { font-size: 1.12rem; line-height: 1.5; margin: 0; letter-spacing: -.01em; }
+.product-card-heading { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; }
+.product-platform { color: var(--muted); font-size: .75rem; margin-top: 4px; }
+.product-card > .product-summary { color: var(--muted); line-height: 1.85; font-size: .87rem; margin-bottom: 20px; }
+.product-summary span { display: block; }
+.product-status { color: var(--muted); font-size: .7rem; border: 1px solid var(--line); border-radius: 5px; padding: 2px 8px; margin-top: auto; }
+.product-card-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin-top: 22px; }
+.product-card-actions a { font-size: .8rem; min-height: 44px; }
+.product-card-actions .btn { padding: 10px 15px; }
+.product-support { padding-inline: 2px; }
+.support-archive-intro p,.support-compat-target p { color: var(--muted); font-size: .95rem; line-height: 1.95; margin-bottom: 18px; }
+.support-compat-target { display: none; }
+.support-compat-target:target,.support-compat-target:has(:target) { display: block; }
+.support-compat-target h2 { font-size: 1.35rem; margin-bottom: 18px; }
+.support-archive:has(.support-compat-target:target, .support-compat-target :target) .support-archive-intro { display: none; }
 .home-news { padding-top: 32px; }
 .news-list { border-top: 1px solid var(--line); }
 .news-row { display: grid; grid-template-columns: 110px 125px minmax(0,1fr); align-items: baseline; gap: 25px; border-bottom: 1px solid var(--line); padding-block: 25px; }
@@ -135,13 +145,8 @@ body.menu-open { overflow: hidden; }
 .news-row a span { flex: none; font-size: .84rem; }
 .locale-note { font-size: .8rem; color: var(--muted); margin-bottom: 20px; }
 .home-about { display: grid; grid-template-columns: .6fr 1fr; gap: 70px; border-top: 1px solid var(--line); padding-block: 80px; }
-.home-about h2,.home-support h2 { font-size: 1.8rem; font-weight: 650; }
-.home-about p:not(.eyebrow),.home-support p:not(.eyebrow) { color: var(--muted); font-size: .93rem; line-height: 1.95; margin: 20px 0; max-width: 540px; }
-.home-support { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; padding: 52px; margin: 16px 0 96px; background: var(--surface-soft); border-radius: 20px; }
-.support-shortcuts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-content: center; }
-.support-shortcuts a { display: flex; gap: 10px; align-items: center; border: 1px solid var(--line); background: var(--surface); padding: 14px; border-radius: 10px; font-size: .81rem; }
-.support-shortcuts a span:last-child { margin-left: auto; }
-.support-shortcuts img { border-radius: 8px; flex: none; }
+.home-about h2 { font-size: 1.8rem; font-weight: 650; }
+.home-about p:not(.eyebrow) { color: var(--muted); font-size: .93rem; line-height: 1.95; margin: 20px 0; max-width: 540px; }
 .site-footer { border-top: 1px solid var(--line); padding-block: 44px 28px; }
 .footer-top,.footer-bottom { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
 .footer-top nav { display: flex; flex-wrap: wrap; gap: 12px 25px; font-size: .78rem; }
@@ -153,13 +158,10 @@ body.menu-open { overflow: hidden; }
 .page-heading > p:not(.eyebrow) { color: var(--muted); font-size: .97rem; line-height: 2; max-width: 720px; }
 .page-directory { padding-bottom: 100px; }
 .products-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+.products-heading h1 span { display: inline-block; }
 .products-grid .product-card { padding: 32px; }
 .products-grid .product-card > p { font-size: .87rem; }
 .products-grid .product-card :is(h2,h3) { font-size: 1.12rem; }
-.support-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
-.support-card { border: 1px solid var(--line); border-radius: 16px; padding: 32px; scroll-margin-top: 40px; }
-.support-card h2 { font-size: 1.15rem; letter-spacing: -.02em; }
-.support-card .app-identity { margin-bottom: 24px; }
 .resource-links { list-style: none; padding: 0; margin: 0; }
 .resource-links a { display: flex; gap: 16px; align-items: center; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid var(--line); font-size: .87rem; line-height: 1.7; }
 .resource-links a:hover { color: var(--accent); }
@@ -236,8 +238,6 @@ body.menu-open { overflow: hidden; }
   .app-showcase { padding: 42px 35px; gap: 30px; }
   .app-tagline { font-size: 1.75rem; }
   .app-actions { gap: 6px 17px; }
-  .home-support { gap: 35px; padding: 35px; }
-  .support-shortcuts { grid-template-columns: 1fr; }
   .footer-top { align-items: start; }
 }
 @media (max-width: 900px) {
@@ -260,16 +260,12 @@ body.menu-open { overflow: hidden; }
   .app-showcase--uni-note .app-screenshots { max-width: 610px; }
   .products-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .home-about { gap: 35px; grid-template-columns: .6fr 1fr; }
-  .home-support { grid-template-columns: 1fr; gap: 32px; }
-  .support-shortcuts { grid-template-columns: 1fr 1fr; }
   .news-row { grid-template-columns: 95px 110px 1fr; gap: 15px; }
   .footer-top { flex-direction: column; gap: 24px; }
   .product-intro { grid-template-columns: 1fr; gap: 35px; }
   .product-copy { max-width: 680px; }
   .product-intro .app-visuals { max-width: 680px; }
   .product-resources { gap: 35px; }
-  .support-grid { gap: 18px; }
-  .support-card { padding: 24px; }
 }
 @media (max-width: 600px) {
   .container { padding-inline: 22px; }
@@ -318,34 +314,28 @@ body.menu-open { overflow: hidden; }
   .app-disclosure[open] > summary { border-radius: 18px 18px 0 0; }
   .app-disclosure .app-description { font-size: .95rem; }
   .product-card { padding: 19px 16px; border-radius: 12px; }
-  .product-card :is(h2,h3) { font-size: .9rem; margin-top: 16px; }
-  .product-card > p { font-size: .78rem; line-height: 1.85; margin-bottom: 13px; }
+  .product-card-heading { margin-bottom: 20px; }
+
   .product-card .app-icon { width: 44px; height: 44px; }
-  .product-card > .text-link { font-size: .75rem; }
   .home-news { padding-top: 20px; }
   .news-row { grid-template-columns: 95px 1fr; row-gap: 8px; padding-block: 23px; }
   .news-row :is(h2,h3) { grid-column: 1/-1; font-size: .91rem; }
   .news-row time { font-size: .77rem; }
   .news-category { font-size: .68rem; }
   .home-about { grid-template-columns: 1fr; gap: 12px; padding-block: 55px; }
-  .home-about h2,.home-support h2 { font-size: 1.45rem; }
-  .home-about p:not(.eyebrow),.home-support p:not(.eyebrow) { font-size: .88rem; }
+  .home-about h2 { font-size: 1.45rem; }
+  .home-about p:not(.eyebrow) { font-size: .88rem; }
   .home-about .eyebrow { margin-bottom: 8px; }
-  .home-support { padding: 28px 24px; gap: 25px; margin-block: 0 60px; }
-  .support-shortcuts { grid-template-columns: 1fr; gap: 9px; }
-  .support-shortcuts a { padding: 12px; font-size: .84rem; }
   .site-footer { padding-block: 35px 24px; }
   .footer-top nav { display: flex; font-size: .8rem; }
   .footer-bottom { margin-top: 30px; font-size: .63rem; align-items: end; }
   .page-heading { padding-block: 50px 35px; }
   .page-heading h1 { font-size: 1.75rem; }
+  .products-heading h1 { font-size: clamp(1.5rem,6.8vw,1.75rem); }
   .page-heading > p:not(.eyebrow) { font-size: .9rem; }
   .page-directory { padding-bottom: 60px; }
   .products-grid { grid-template-columns: 1fr; gap: 18px; }
   .products-grid .product-card { padding: 25px; }
-  .support-grid { grid-template-columns: 1fr; }
-  .support-card { padding: 24px; }
-  .support-card h2 { font-size: 1.08rem; }
   .contact-panel { margin-top: 45px; }
   .contact-panel h2 { font-size: 1.4rem; }
   .contact-panel > p:not(.eyebrow) { font-size: .88rem; }

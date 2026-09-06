@@ -3,7 +3,7 @@
   <div class="container header-inner">
     <a class="wordmark" href="{{ "/" | relLangURL }}" aria-label="KUMAKIKAI — {{ $corp.home }}"><img src="/favicon.svg" width="28" height="28" alt="">KUMAKIKAI</a>
     <nav class="desktop-nav" aria-label="{{ $copy.navApps }}">
-      {{ range slice "products" "support" "news" "company" }}<a href="{{ printf "/%s/" . | relLangURL }}"{{ if or (eq $.Section .) (and (eq . "news") (eq $.Section "notes")) (and (eq . "support") (in (slice "htu" "faq" "privacy" "terms") $.Section)) }} aria-current="page"{{ end }}>{{ index $corp.nav . }}</a>{{ end }}
+      {{ range slice "products" "news" "company" }}<a href="{{ printf "/%s/" . | relLangURL }}"{{ if or (eq $.Section .) (and (eq . "news") (eq $.Section "notes")) (and (eq . "products") (in (slice "support" "htu" "faq" "privacy" "terms") $.Section)) }} aria-current="page"{{ end }}>{{ index $corp.nav . }}</a>{{ end }}
     </nav>
     <div class="nav-tools">
       <details class="language-menu"><summary aria-label="{{ $copy.language }} — {{ site.Language.LanguageName }}"><span aria-hidden="true">◎</span> {{ site.Language.LanguageName }}</summary>
@@ -16,5 +16,5 @@
 </header>
 <dialog id="mobile-menu" class="mobile-menu" aria-label="{{ $corp.menuOpen }}">
   <div class="mobile-menu-top"><span class="wordmark">KUMAKIKAI</span><button class="menu-close icon-button" autofocus aria-label="{{ $corp.menuClose }}" type="button">✕</button></div>
-  <nav aria-label="{{ $copy.navApps }}">{{ range slice "products" "support" "news" "company" }}<a href="{{ printf "/%s/" . | relLangURL }}">{{ index $corp.nav . }} <span aria-hidden="true">→</span></a>{{ end }}</nav>
+  <nav aria-label="{{ $copy.navApps }}">{{ range slice "products" "news" "company" }}<a href="{{ printf "/%s/" . | relLangURL }}">{{ index $corp.nav . }} <span aria-hidden="true">→</span></a>{{ end }}</nav>
 </dialog>

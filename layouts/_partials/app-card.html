@@ -1,4 +1,8 @@
-{{ $app := .app }}{{ $copy := index site.Data.home site.Language.Lang }}{{ $corp := index site.Data.corporate site.Language.Lang }}{{ $text := index $copy.apps $app.id }}
-<article class="product-card" data-app-id="{{ $app.id }}" aria-labelledby="{{ $app.id }}-name"><img class="app-icon" src="{{ $app.icon }}" width="52" height="52" loading="lazy" decoding="async" alt="">{{ $level := 3 }}{{ if .directory }}{{ $level = 2 }}{{ end }}<h{{ $level }} id="{{ $app.id }}-name">{{ $text.name }}</h{{ $level }}><p>{{ $text.description }}</p>
-{{ if .directory }}<div class="product-meta"><span>{{ $text.platform }}</span><span>{{ if eq $app.status "published" }}{{ $corp.available }}{{ else }}{{ $copy.development }}{{ end }}</span></div>{{ end }}
-<a class="text-link" href="{{ printf "/products/%s/" $app.id | relLangURL }}" aria-label="{{ $text.name }} — {{ $copy.details }}">{{ $copy.details }} <span aria-hidden="true">→</span></a></article>
+{{ $app := .app }}{{ $copy := index site.Data.home site.Language.Lang }}{{ $corp := index site.Data.corporate site.Language.Lang }}{{ $ui := index site.Data.ux site.Language.Lang }}{{ $text := index $copy.apps $app.id }}
+{{ $productURL := printf "/products/%s/" $app.id | relLangURL }}
+<article class="product-card" data-app-id="{{ $app.id }}" aria-labelledby="{{ $app.id }}-name">
+  <div class="product-card-heading"><img class="app-icon" src="{{ $app.icon }}" width="52" height="52" loading="lazy" decoding="async" alt=""><div><h2 id="{{ $app.id }}-name">{{ $text.name }}</h2><p class="product-platform">{{ $text.platform }}</p></div></div>
+  <p class="product-summary">{{ with $text.taglineLines }}{{ range . }}<span>{{ . }}</span>{{ end }}{{ else }}{{ $text.description }}{{ end }}</p>
+  <span class="product-status">{{ if eq $app.status "published" }}{{ $corp.available }}{{ else }}{{ $copy.development }}{{ end }}</span>
+  <div class="product-card-actions"><a class="btn btn-primary product-view" href="{{ $productURL }}" aria-label="{{ $text.name }} — {{ $ui.productView }}">{{ $ui.productView }}</a><a class="text-link product-support" href="{{ $productURL }}#support" aria-label="{{ $text.name }} — {{ $ui.appSupport }}">{{ $ui.appSupport }} <span aria-hidden="true">→</span></a></div>
+</article>

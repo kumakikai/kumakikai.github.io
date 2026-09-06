@@ -322,6 +322,43 @@ class Verification:
         self.require(sum(urlsplit(href).scheme == "mailto" and urlsplit(href).path == "kumakikai.apps@gmail.com" for href in hrefs) == 1, route, "product_contact", "Product support needs one direct contact email link")
         self.require(not any(re.match(r"^/(?:en/|ko/|de/|zh-hant/|fr/)?support/", urlsplit(href).path) for href in hrefs), route, "product_support", "Product resources must not detour through the Support directory")
 
+    def verify_products_hub(self, doc, apps, lang, route):
+        cards = [n for n in doc.nodes if n.has_class("product-card")]
+        self.require([n.attrs.get("data-app-id") for n in cards] == [app["id"] for app in apps], route, "products_hub", "Products must list the same eight apps in every display language")
+        for card in cards:
+            app_id = card.attrs.get("data-app-id")
+            for class_name, suffix in (("product-view", ""), ("product-support", "#support")):
+                links = [n for n in card.descendants("a") if n.has_class(class_name)]
+                expected = localized(lang, f"/products/{app_id}/") + suffix
+                self.require(len(links) == 1 and links[0].attrs.get("href") == expected, route, "products_hub", f"{app_id}: card needs one direct {class_name} link")
+                if links:
+                    self.require(bool(links[0].text().strip()) and bool(links[0].attrs.get("aria-label", "").strip()), route, "products_hub_accessibility", f"{app_id}: card links need readable app-specific labels")
+            self.require(len(list(card.descendants("a"))) == 2, route, "products_hub", f"{app_id}: use the product and product-support actions without extra selection routes")
+        self.counts["products_hub_cards"] += len(cards)
+
+    def verify_compatibility_page(self, doc, apps, lang, route, section):
+        self.require(not doc.redirect() and doc.canonical() == [SITE + route], route, "directory_compatibility", "Old directory URLs must remain real pages with their own canonical")
+        robots = " ".join(doc.meta("robots"))
+        self.require(re.search(r"\bnoindex\b", robots) and re.search(r"\bfollow\b", robots), route, "directory_compatibility", "Compatibility directories must use noindex, follow")
+        self.require(not any(n.has_class("privacy-directory-links") or n.has_class("product-card") or n.has_class("support-grid") or n.has_class("support-card") or (n.tag == "article" and n.parent.has_class("legacy-list")) for n in doc.nodes), route, "directory_compatibility", "Compatibility directories must not duplicate the Products app list")
+        main = doc.tagged("main")
+        links = list(main[0].descendants("a")) if main else []
+        products = localized(lang, "/products/")
+        self.require(sum(n.attrs.get("href") == products for n in links) == 1, route, "directory_compatibility", "Compatibility notice needs one direct Products link")
+        if section != "support":
+            self.require(len(links) == 1, route, "directory_compatibility", "Resource compatibility notice needs only the Products destination")
+        else:
+            for app in apps:
+                targets = [n for n in doc.nodes if n.attrs.get("id") == app["id"]]
+                expected = localized(lang, f"/products/{app['id']}/#support")
+                self.require(len(targets) == 1 and [n.attrs.get("href") for n in targets[0].descendants("a")] == [expected], route, "support_hash_compatibility", f"Old #{app['id']} links must reach the product's support section")
+                self.require(len(targets) == 1 and any(n.attrs.get("id") == "support-" + app["id"] for n in targets[0].descendants()), route, "support_hash_compatibility", f"Old #support-{app['id']} heading fragment must remain inside its support notice")
+                self.counts["support_compatibility_targets"] += 1
+            contacts = [n for n in doc.nodes if n.attrs.get("id") == "contact"]
+            contact_links = list(contacts[0].descendants("a")) if contacts else []
+            self.require(len(contacts) == 1 and len(contact_links) == 1 and urlsplit(contact_links[0].attrs.get("href", "")).scheme == "mailto", route, "support_hash_compatibility", "Old #contact links must retain direct contact access")
+        self.counts[section + "_compatibility_pages"] += 1
+
     def verify_contract(self):
         apps = json.loads(self.data_file.read_text(encoding="utf-8"))
         if isinstance(apps, dict):
@@ -389,9 +426,9 @@ class Verification:
                             self.require(app.get("appStoreURL") in stores, home_route, "home_store_cta", f"{app_id}: published app needs a direct Store CTA")
                         elif not self.available(app):
                             self.require(not stores, home_route, "home_publication", f"{app_id}: development app has a Store CTA")
-                shortcuts = [n for n in home.nodes if n.has_class("support-shortcuts")]
-                shortcut_links = [n.attrs.get("href") for group in shortcuts for n in group.descendants("a")]
-                self.require(shortcut_links == [localized(lang, f"/products/{app_id}/#support") for app_id in FEATURED], home_route, "home_support", "Home app shortcuts must open the product's direct support section")
+                self.require(not any(n.has_class("home-support") or n.has_class("support-shortcuts") for n in home.nodes), home_route, "home_support", "Home must not repeat the Support app-selection section")
+                old_support = [n for n in home.nodes if n.attrs.get("id") == "support"]
+                self.require(len(old_support) == 1 and old_support[0].tag == "a" and old_support[0].attrs.get("href") == localized(lang, "/products/"), home_route, "home_support_compatibility", "The former Home #support anchor must now lead to Products")
             for route in ("/", "/products/", "/support/", "/news/", "/company/"):
                 translated = localized(lang, route)
                 target = self.target(translated, "/")
@@ -399,15 +436,17 @@ class Verification:
                 if target and target[0].is_file():
                     self.require(not self.document(target[0]).redirect(), translated, "required_route", "New company pages must contain real page content")
                 self.counts["new_company_routes"] += 1
-            privacy_route = localized(lang, "/privacy/")
-            privacy_target = self.target(privacy_route, "/")
-            self.require(privacy_target and privacy_target[0].is_file(), privacy_route, "privacy_compatibility", "Legacy Privacy directory must remain reachable")
-            if privacy_target and privacy_target[0].is_file():
-                privacy = self.document(privacy_target[0])
-                self.require(not privacy.redirect(), privacy_route, "privacy_compatibility", "Privacy compatibility URL must remain a real page")
-                self.require(any("noindex" in value for value in privacy.meta("robots")), privacy_route, "privacy_compatibility", "Compatibility Privacy directory should not be indexed")
-                self.require(not any(n.has_class("privacy-directory-links") or n.has_class("product-card") or (n.tag == "article" and n.parent.has_class("legacy-list")) for n in privacy.nodes), privacy_route, "privacy_compatibility", "Compatibility Privacy page must not repeat product/article lists")
-                self.counts["privacy_compatibility_pages"] += 1
+            hub_route = localized(lang, "/products/")
+            hub_target = self.target(hub_route, "/")
+            if hub_target and hub_target[0].is_file():
+                self.verify_products_hub(self.document(hub_target[0]), apps, lang, hub_route)
+            for section in ("privacy", "support", "htu", "faq", "terms"):
+                compat_route = localized(lang, f"/{section}/")
+                compat_target = self.target(compat_route, "/")
+                if section in ("privacy", "support"):
+                    self.require(compat_target and compat_target[0].is_file(), compat_route, "directory_compatibility", "Legacy directory must remain reachable")
+                if compat_target and compat_target[0].is_file():
+                    self.verify_compatibility_page(self.document(compat_target[0]), apps, lang, compat_route, section)
             news_route = localized(lang, "/news/")
             news_target = self.target(news_route, "/")
             if news_target and news_target[0].is_file():
@@ -521,8 +560,13 @@ class Verification:
             footer_tops = [n for n in doc.nodes if n.has_class("footer-top")]
             footer_nav_links = [link for top in footer_tops for nav in top.descendants("nav") for link in nav.descendants("a")]
             self.require([(n.text().strip(), n.attrs.get("href")) for n in footer_nav_links] == [("Contact", localized(lang, "/company/#contact"))], route, "footer_navigation", "Footer navigation must contain only Contact")
-            for nav in [n for n in doc.nodes if n.has_class("desktop-nav")]:
-                self.require([n.attrs.get("href") for n in nav.descendants("a")] == [localized(lang, f"/{section}/") for section in ("products", "support", "news", "company")], route, "header_navigation", "Header must retain the four primary site sections")
+            navs = [n for n in doc.nodes if n.has_class("desktop-nav")]
+            navs += [nav for menu in doc.nodes if menu.attrs.get("id") == "mobile-menu" for nav in menu.descendants("nav")]
+            self.require(len(navs) == 2, route, "header_navigation", "Desktop and mobile navigation must both be present")
+            for nav in navs:
+                self.require([n.attrs.get("href") for n in nav.descendants("a")] == [localized(lang, f"/{section}/") for section in ("products", "news", "company")], route, "header_navigation", "Primary navigation must use Products, News, and Company")
+            if route.endswith("404.html"):
+                self.require(not any(urlsplit(n.attrs.get("href", "")).path == localized(lang, "/support/") for n in doc.tagged("a")), route, "404_navigation", "404 recovery must lead to Products instead of the old Support directory")
             for aside in [n for n in doc.nodes if n.has_class("article-related")]:
                 for resource in [n for n in aside.descendants() if n.has_class("resource-links")]:
                     for link in resource.descendants("a"):

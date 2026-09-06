@@ -1,0 +1,208 @@
+{
+  "ok": true,
+  "cases": 10,
+  "interactions": "passed",
+  "failures": [],
+  "results": [
+    {
+      "name": "products-desktop1440-light",
+      "route": "/products/",
+      "theme": "light",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 1646,
+      "dark": false,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-desktop1440-dark",
+      "route": "/products/",
+      "theme": "dark",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 1646,
+      "dark": true,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-desktop1280-light",
+      "route": "/products/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 1638,
+      "dark": false,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-desktop1280-dark",
+      "route": "/products/",
+      "theme": "dark",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 1638,
+      "dark": true,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-ipad-light",
+      "route": "/products/",
+      "theme": "light",
+      "viewport": 834,
+      "scrollWidth": 834,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 1991,
+      "dark": false,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-ipad-dark",
+      "route": "/products/",
+      "theme": "dark",
+      "viewport": 834,
+      "scrollWidth": 834,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 1991,
+      "dark": true,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-iphone-pro-light",
+      "route": "/products/",
+      "theme": "light",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 3079,
+      "dark": false,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-iphone-pro-dark",
+      "route": "/products/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 3079,
+      "dark": true,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-iphone-small-light",
+      "route": "/products/",
+      "theme": "light",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 3174,
+      "dark": false,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-iphone-small-dark",
+      "route": "/products/",
+      "theme": "dark",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 3174,
+      "dark": true,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    }
+  ]
+}

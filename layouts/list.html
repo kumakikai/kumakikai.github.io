@@ -1,7 +1,7 @@
 {{ define "main" }}{{ $corp := index site.Data.corporate site.Language.Lang }}
 {{ $paginator := .Paginate .Pages }}
-{{ if eq .Section "privacy" }}{{ $ui := index site.Data.ux site.Language.Lang }}
-<div class="container page-directory privacy-archive"><header class="page-heading"><h1>{{ $ui.privacyArchiveTitle }}</h1><p>{{ $ui.privacyArchiveText }}</p><a class="text-link" href="{{ "/support/" | relLangURL }}">{{ $corp.allSupport }} <span aria-hidden="true">→</span></a></header></div>
+{{ if in (slice "privacy" "htu" "faq" "terms") .Section }}{{ $ui := index site.Data.ux site.Language.Lang }}
+<div class="container page-directory resource-archive{{ if eq .Section "privacy" }} privacy-archive{{ end }}"><header class="page-heading"><h1>{{ if eq .Section "privacy" }}{{ $ui.privacyArchiveTitle }}{{ else }}{{ .Title }}{{ end }}</h1><p>{{ if eq .Section "privacy" }}{{ $ui.privacyArchiveText }}{{ else }}{{ $corp.supportIntro }}{{ end }}</p><a class="text-link" href="{{ "/products/" | relLangURL }}">{{ $corp.allProducts }} <span aria-hidden="true">→</span></a></header></div>
 {{ else }}
 <div class="container page-directory legacy-directory"><header class="page-heading"><p class="eyebrow">{{ if eq .Section "notes" }}News{{ else }}Support{{ end }}</p><h1>{{ if eq .Section "notes" }}News{{ else }}{{ .Title }}{{ end }}</h1>{{ if eq .Section "notes" }}<p>{{ $corp.newsIntro }}</p>{{ end }}</header>
 {{ with .Content }}<div class="content post-content" data-content-body>{{ . }}</div>{{ end }}

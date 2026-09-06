@@ -1,6 +1,6 @@
 # KUMAKIKAI公式サイト
 
-[kumakikai.github.io](https://kumakikai.github.io/) のソースです。Hugo ExtendedとHugoplateを基盤に、iPhone・iPadアプリのProducts、Support、News、Companyを提供します。日本語、英語、韓国語、ドイツ語、繁体字中国語、フランス語に対応しています。
+[kumakikai.github.io](https://kumakikai.github.io/) のソースです。Hugo ExtendedとHugoplateを基盤に、iPhone・iPadアプリのProducts、News、Companyを提供します。Productsは製品情報とアプリ別サポートへ入る共通ハブです。日本語、英語、韓国語、ドイツ語、繁体字中国語、フランス語に対応しています。
 
 トップページのFeatured／Other分類、Featuredの順序、主要キャッチコピーを維持しながら、サイト全体を共通のレイアウト・CSSへ統一しています。既存の使い方、FAQ、プライバシーポリシー、利用規約、Notesの記事URLを保護することを優先します。
 
@@ -71,7 +71,7 @@ npm run verify
 | `data/hero.json` | 実UIを使ったHero画像の寸法、responsive画像、alt |
 | `data/news.json` | 既存Notes記事のカテゴリ・関連プロダクトを補うメタデータ |
 | `content/products/` | 各ProductとProducts一覧の生成Markdown |
-| `content/support/`、`content/news/`、`content/company/` | 各セクションの生成入口と、追加する編集記事 |
+| `content/support/`、`content/news/`、`content/company/` | 主要セクションと旧Support互換ページの生成入口、追加する編集記事 |
 | `content/htu/`、`content/faq/`、`content/privacy/`、`content/terms/` | 既存サポート本文。URLを維持 |
 | `content/notes/` | 公開済みNotes／Press Release。URLを維持 |
 | `layouts/` | KUMAKIKAIの共通shell、トップ、記事、Product、一覧レイアウト |
@@ -89,10 +89,10 @@ npm run verify
 1. `data/apps.json`にアプリを追加します。`id`はURLに使用する固定slugです。配列順が掲載順、`featured: true`が常時表示のFeatured、`false`がタイトルだけを初期表示するOtherになります。Otherを開くとFeaturedと共通の`app-showcase.html`で説明・実画像・CTAを表示します。開閉は標準の`details`／`summary`を使い、JavaScript不要で複数同時に開けます。
 2. `data/home/`の6言語すべてへ、同じIDでアプリ名・短い説明・`platform`・必要な`taglineLines`・`imageAlts`を追加します。既存Featuredのコピー変更には仕様上の根拠が必要です。
 3. 実際のアイコン・スクリーンショットを`static/images/apps/<id>/`へ配置し、`data/apps.json`に幅・高さとsmall／large画像を登録します。素材がない場合は`screenshots: []`にします。
-4. 使い方、FAQ、Privacy、Termsがある場合は既存の規則で`content/<section>/<id>.md`を用意します。Support／Productは同じIDからこれらのページを探し、翻訳がなければ日本語ページへ案内します。
+4. 使い方、FAQ、Privacy、Termsがある場合は既存の規則で`content/<section>/<id>.md`を用意します。Product下部のSupportは同じIDからこれらのページを探し、翻訳がなければ日本語ページへ案内します。
 5. `npm run sync:products`、`npm run build`、`npm run verify`を実行し、差分とブラウザ表示を確認します。
 
-現在は8アプリ×6言語の48 Productページと、4セクション×6言語の24入口、計72 Markdownを`scripts/sync-products.py`で同期します。生成ページにはマーカーがあり、直接編集せず共通JSONを変更します。手書きの記事は同期スクリプトの上書き対象になりません。
+現在は8アプリ×6言語の48 Productページと、主要3セクション＋Support互換ページ×6言語の24入口、計72 Markdownを`scripts/sync-products.py`で同期します。生成ページにはマーカーがあり、直接編集せず共通JSONを変更します。手書きの記事は同期スクリプトの上書き対象になりません。
 
 Other Appsの実画面も同じ画像データからHomeとProduct詳細へ反映します。[追加素材の出典](docs/homepage/other-app-assets.md)を参照してください。
 
@@ -140,9 +140,11 @@ images: ["/images/og/uni-note.png"]
 
 既存の`/htu/`、`/faq/`、`/privacy/`、`/terms/`、`/notes/`と各言語URLはApp Store Connectや外部記事から参照されている可能性があります。ファイル名・slugを変更する場合は、旧URLを維持するかHugoの`aliases`で到達可能にしてください。各アプリのPrivacy／Termsは統合しません。
 
-Product下部の`#support`は使い方・FAQ・問い合わせ・Privacyへ直接案内します。ProductからSupport一覧へ移動して同じアプリを再選択させないでください。サイト全体の4セクションはHeader、Footerは会社Contactだけを担当します。`/privacy/`集約URLは古い参照の互換用にHTTP成功を維持し、簡潔な案内と`noindex`を付けます。アプリ別Privacy本文は変更せず、Footerから集約ページへ誘導しません。
+Product下部の`#support`は使い方・FAQ・問い合わせ・Privacyへ直接案内します。ProductからSupport一覧へ移動して同じアプリを再選択させないでください。HeaderはProducts／News／Company、Footerは会社Contactだけを担当します。アプリ選択はProductsに一本化し、各カードの「製品を見る」は`/products/<id>/`、「サポート」は同じProductページの`#support`へ直接進めます。アプリ名・端末・既存のキャッチコピーまたは説明・公開状況は共通データから表示し、一覧には使い方やFAQを展開しません。
 
-今回の素材・CTA・News・Privacy・Footerの監査と変更一覧は[UX修正レポート](docs/ux/REPORT.md)を参照してください。
+旧`/support/`、`/htu/`、`/faq/`、`/privacy/`、`/terms/`の集約URLは互換用にHTTP成功・自己canonicalを維持し、`noindex, follow`とProductsへの簡潔な案内を付けます。これらは主要ナビやHomeから案内しません。旧Supportの`#<id>`・`#support-<id>`はCSSの`:target`で対象アプリの直接Supportリンクだけを表示し、`#contact`も維持します。個別本文・Privacy・利用規約URLは変更しません。Homeの旧`#support`はHeroのProducts CTAへ接続します。
+
+Productsへのハブ統合は[統合レポート](docs/hub/REPORT.md)、以前の素材・CTA・News・Privacy・Footer整理は[UX修正レポート](docs/ux/REPORT.md)を参照してください。
 
 `docs/migration/baseline.json`は移行前の191 HTML URL、記事本文・アンカー等を保存した検証基準です。`npm run verify`で既存コンテンツ、新しいProduct／主要一覧、内部参照、Store CTA、SEO・OGP、sitemap・robotsを検査します。
 
