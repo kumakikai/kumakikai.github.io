@@ -4,7 +4,7 @@
 
 Productsを、アプリを選ぶ唯一の通常導線とする。製品を知りたい場合も、使っているアプリで困った場合も、同じProductsカードから目的の場所へ進める構成へ整理する。前回の素材・CTA・News修正は [前回のUX報告](../ux/REPORT.md) に履歴として残し、本報告とは区別する。
 
-**状態:** 実装・production build・静的検証・ブラウザ64画面を確認済み。最終見出し調整後のProducts10画面の再検証も成功。公開後HTTP確認は末尾へ記録する。
+**状態:** 実装・production build・静的検証・ブラウザ64画面と最終Products10画面の再検証が成功。GitHub Actions / Pagesの公開成功後、277 HTML URLすべてでHTTP 200とビルド内容の一致を確認した。
 
 ## 1. Products一覧の変更
 
@@ -151,9 +151,7 @@ Mobile 393px / 320pxは1列。リンクは最小44px高、折り返し可能な2
 
 総合Supportへの常設メニューは置かない。各Productの`#support`と既存の個別サポート/法務URLは維持する。
 
-### 最終検証・公開結果の追記欄
-
-<!-- HUB_FINAL_VERIFICATION_PENDING: 実装確認・build・ブラウザ・公開HTTPは完了した証拠だけを追記する。 -->
+### 最終検証・公開結果
 
 - 変更前の公開読取: Support6言語とHome / Products / Company / 旧各一覧 / News / Notesの計15 URLでHTTP 200。Support全言語の旧アプリ・見出し・Contact fragmentと自己canonicalを記録済み。
 - 変更前の内部参照: Header、Home、Company、404、Privacy互換、共通記事fallbackに総合Supportへの導線があることを確認。
@@ -162,7 +160,7 @@ Mobile 393px / 320pxは1列。リンクは最小44px高、折り返し可能な2
 - Hugo 0.158.0 Extended production build成功。静的検証はerrors 0 / warnings 0、既存191 HTML URL・138直接URL・53既存alias・84本文を保持。6言語×8カード、個別48 Product、25互換案内、公式バッジ6言語・確認済みStore21 URLも検証済み。[verification.json](verification.json)参照。
 - Desktop / iPad / Mobile / Light / Dark: 64画面すべて成功。最終見出し調整後にProductsの1440 / 1280 / 834 / 393 / 320px×Light/Darkの10画面を再検証して成功。横はみ出し・画像切れ・axe違反・コンソールエラーは0。カードは44px以上の2導線を確認。
 - 旧fragment: 8アプリ×6言語×2形式（`#<id>` / `#support-<id>`）の96通りと6件のContact、JavaScript無効時の直接遷移、キーボード・メニューEscape/focusを確認。結果は [browser-verification.json](browser-verification.json) / [products-final-verification.json](products-final-verification.json)。
-- GitHub Actions / Pages / commit: 公開完了後に追記予定。
-- 公開HTTP: 旧Support6言語、個別Support / FAQ / Privacy / Terms / Notes、旧一覧・ページ送りを含む公開後の結果を追記予定。
+- GitHub Actions / Pages: 実装コミット `3d04a13` をmainへpushし、[Hugo CI](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34047860512)・[Pages公開](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34047872634)とも成功。
+- 公開HTTP: 2026-09-07 02:13 JST、277 HTML URLすべてでHTTP 200、今回のローカル生成物とSHA-256が一致。旧Support6言語・個別Support / FAQ / Privacy / Terms / Notes・旧一覧・ページ送りを含む。CSSとJavaScriptの2ファイルもHTTP 200・SHA一致。[public-verification.json](public-verification.json)に全URL別の結果を記録。新しい公開ページURL・redirect・aliasの追加はなく、既存の正式URLをそのまま維持している。
 
 変更前の公開監査は [public-before.json](public-before.json)、個別本文の比較結果は [content-verification.json](content-verification.json)。既存URLに新しいredirectを足したり、JavaScript redirectへ依存したりする変更はない。
