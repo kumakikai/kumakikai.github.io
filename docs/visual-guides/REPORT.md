@@ -65,19 +65,27 @@ FAQ内の長い操作手順は使い方の該当アンカーへ移し、原因�
 - **目視で直した箇所**。Uni:Noteの作成メニュー、AI結果のコピー/共有、バックアップ、Pocketの取り込みを操作対象が分かるcropへ再調整。ギャンカレのウィジェットはiPhone幅に抑制。ギガポケは詳細画面を開く説明を補い、共通CSSで操作名の前後に出ていたバッククォートを除去。再撮影で解消を確認。
 - **Lighthouse Mobile: 100 / 100 / 100 / 100**（Performance / Accessibility / Best Practices / SEO）。Uni:Noteガイドのローカルproduction buildを1回測定。LCP 1.7秒、CLS 0。実利用者の通信環境や本番field dataを示す値ではありません。原則lazyの先頭操作画像、ローカルサーバーの圧縮・cache等には診断上の改善候補がありますが、重大な劣化はありません。[測定記録](lighthouse-mobile.json)
 
-公開反映の検証は、GitHub Pagesデプロイ後のHTTP・build照合として別に記録します。
+### 公開反映
+
+- 実装commit: `fc604537e4318dad12eb489f5d2844becd2197cc`。mainへpush済み。
+- [Hugo build・互換性チェック・gh-pages生成](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34061976503): success。
+- [GitHub Pages公開](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34062006016): success。公開生成物は `652e55a88a101bc161c700cd2e5de3c86b95edd2`。
+- **本番277 HTML URLすべてHTTP 200、検証済みローカルHTMLとSHA-256一致**。既存Privacy・Support・使い方・FAQ・Press Releaseを含みます。[全URL結果](public-verification.json)
+- **本番ガイド画像218種類すべてHTTP 200、確定したgh-pages生成物とSHA-256一致**。[全画像結果](public-image-verification.json)
+- 画像のうち217種類はmacOS側buildともバイト一致。オトミルの通常モード上部560×150画像1点は生成環境間で微小な画素差があり、クリーンなローカル再生成でも同じ差を再現しました。平均RGB差は255段階中0.009、同寸法で、見出し・4つのモード・設定ボタンを両画像で目視照合。別画像・古いUIへの置換や表示欠損ではありません。ローカルと本番の全画像がバイト単位で同一とはしていません。
+- 公開サイトのUni:Noteガイドを1440 / 390pxのChromeで再確認。更新日・9枚の実画面・全画像読込・CSS/JS応答・横幅を確認しました。[本番ブラウザ結果](public-browser.json)
 
 ## 代表的な使い方ページ
 
 [Uni:Noteの使い方](https://kumakikai.github.io/htu/uni-note/) — 旧URLをそのまま使用。
 
-Desktopの操作説明部分:
+公開サイトのDesktop表示:
 
-![Uni:Noteの教科作成ガイド Desktop](screenshots/editorial-uni-note-1440-create-menu-final.jpg)
+![Uni:Noteの教科作成ガイド Desktop](screenshots/public-uni-note-1440.jpg)
 
 Mobileの冒頭と最初の操作:
 
-![Uni:Noteの教科作成ガイド Mobile](screenshots/chrome-uni-note-top-390.jpg)
+![Uni:Noteの教科作成ガイド Mobile](screenshots/public-uni-note-390.jpg)
 
 全体の長さも確認できる [Desktop全体](screenshots/chrome-uni-note-1440.jpg) / [Mobile全体](screenshots/chrome-uni-note-390.jpg) と、他7アプリの画像を `screenshots/` に保存しています。
 
