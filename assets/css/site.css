@@ -72,7 +72,6 @@ body.menu-open { overflow: hidden; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 30px; }
 .section-heading h2 { font-size: 1.45rem; font-weight: 650; letter-spacing: -.025em; }
 .section-heading p { margin-top: 9px; font-size: .92rem; color: var(--muted); }
-.section-index { font-size: .74rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .app-showcase { display: grid; grid-template-columns: minmax(0,.9fr) minmax(0,1.2fr); align-items: center; gap: 48px; padding: 58px 52px; margin-bottom: 32px; border-radius: 24px; background: var(--surface-soft); }
 .app-showcase--uni-note { background: var(--feature-blue); padding-block: 70px; }
 .app-showcase--oto-miru { background: var(--feature-warm); }
@@ -97,7 +96,20 @@ body.menu-open { overflow: hidden; }
 .app-screenshot:hover { transform: translateY(-3px); }
 .app-screenshot--raw { border: 1px solid #dfe3e9; border-radius: 22px; }
 .app-visual-caption { font-size: .7rem; line-height: 1.7; margin-top: 14px; text-align: center; color: var(--muted); }
-.other-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 20px; }
+.other-apps { display: grid; gap: 16px; }
+.app-disclosure { border: 1px solid var(--line); border-radius: 24px; }
+.app-disclosure > summary { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 88px; padding: 24px 32px; border-radius: inherit; list-style: none; font-size: 1.1rem; font-weight: 650; line-height: 1.6; }
+.app-disclosure > summary::-webkit-details-marker { display: none; }
+.app-disclosure > summary:hover { color: var(--accent); background: var(--surface-soft); }
+.app-disclosure > summary:focus-visible { outline-offset: -5px; }
+.disclosure-indicator { position: relative; width: 20px; height: 20px; flex: none; }
+.disclosure-indicator::before,.disclosure-indicator::after { content: ''; position: absolute; top: 9px; left: 2px; width: 16px; height: 2px; background: currentColor; border-radius: 1px; }
+.disclosure-indicator::after { transform: rotate(90deg); }
+.app-disclosure[open] { background: var(--surface-soft); }
+.app-disclosure[open] > summary { border-radius: 24px 24px 0 0; border-bottom: 1px solid var(--line); }
+.app-disclosure[open] .disclosure-indicator::after { display: none; }
+.app-disclosure > .app-showcase { margin: 0; background: transparent; }
+.app-disclosure .app-description { font-size: 1.05rem; text-wrap: balance; }
 .product-card { display: flex; align-items: flex-start; flex-direction: column; padding: 27px; border: 1px solid var(--line); border-radius: 16px; }
 .product-card :is(h2,h3) { font-size: 1rem; line-height: 1.5; margin: 20px 0 10px; letter-spacing: -.01em; }
 .product-card > p { color: var(--muted); line-height: 1.85; font-size: .84rem; margin-bottom: 20px; }
@@ -212,7 +224,6 @@ body.menu-open { overflow: hidden; }
   .app-showcase { padding: 42px 35px; gap: 30px; }
   .app-tagline { font-size: 1.75rem; }
   .app-actions { gap: 6px 17px; }
-  .other-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .home-support { gap: 35px; padding: 35px; }
   .support-shortcuts { grid-template-columns: 1fr; }
   .footer-top { align-items: start; }
@@ -272,7 +283,6 @@ body.menu-open { overflow: hidden; }
   .section-heading h2 { font-size: 1.25rem; }
   .section-heading p { font-size: .83rem; }
   .section-heading .text-link { font-size: .78rem; min-height: 30px; }
-  .section-index { font-size: .64rem; padding-top: 5px; }
   .app-showcase,.app-showcase--reverse { padding: 30px 24px; gap: 32px; border-radius: 18px; margin-bottom: 22px; }
   .app-identity { gap: 13px; margin-bottom: 23px; }
   .app-identity .app-icon { width: 52px; height: 52px; }
@@ -290,7 +300,11 @@ body.menu-open { overflow: hidden; }
   .app-showcase--uni-note .app-screenshot { width: 100%; }
   .app-screenshot--raw { border-radius: 18px; }
   .section-sm { padding-block: 50px; }
-  .other-grid { gap: 12px; }
+  .other-apps { gap: 12px; }
+  .app-disclosure { border-radius: 18px; }
+  .app-disclosure > summary { min-height: 74px; padding: 22px 24px; gap: 18px; font-size: 1rem; }
+  .app-disclosure[open] > summary { border-radius: 18px 18px 0 0; }
+  .app-disclosure .app-description { font-size: .95rem; }
   .product-card { padding: 19px 16px; border-radius: 12px; }
   .product-card :is(h2,h3) { font-size: .9rem; margin-top: 16px; }
   .product-card > p { font-size: .78rem; line-height: 1.85; margin-bottom: 13px; }

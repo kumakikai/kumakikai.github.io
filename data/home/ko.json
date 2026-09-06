@@ -91,28 +91,40 @@
       "platform": "iPhone",
       "taglineLines": [],
       "description": "Uni:Note에서 쓴 노트를 iPhone으로 복습하세요. 백업을 불러오는 읽기 전용 앱입니다.",
-      "imageAlts": []
+      "imageAlts": [
+        "Uni:Note에서 작성한 손글씨 노트를 iPhone으로 보는 Uni:Note Pocket 화면",
+        "백업에서 가져온 노트와 과목을 표시하는 Uni:Note Pocket 책장"
+      ]
     },
     "balance-calendar": {
       "name": "밸런스 캘린더",
       "platform": "iPhone",
       "taglineLines": [],
       "description": "수입과 지출을 그때그때 기록하고, 달력으로 매일의 돈 흐름을 돌아보세요.",
-      "imageAlts": []
+      "imageAlts": [
+        "더하기와 빼기 버튼으로 수입과 지출을 기록하는 Balance Calendar 입력 화면",
+        "기록한 수입과 지출을 일별, 월별, 연간 합계로 확인하는 Balance Calendar 화면"
+      ]
     },
     "smokeless": {
       "name": "스와나비",
       "platform": "iPhone",
       "taglineLines": [],
       "description": "「피웠다」와 「참았다」를 한 번의 탭으로 기록하고, 개비 수와 금액의 변화를 확인하세요.",
-      "imageAlts": []
+      "imageAlts": [
+        "담배를 피운 순간과 참은 순간을 기록하는 Smokeless 홈 화면",
+        "흡연 개비 수와 참은 횟수를 돌아보는 Smokeless 통계 화면"
+      ]
     },
     "signal": {
       "name": "SIGNAL",
       "platform": "iPhone",
       "taglineLines": [],
       "description": "note, Qiita, Zenn 등 개인이 올린 글을 나의 속도로 읽는 뉴스 피드입니다.",
-      "imageAlts": []
+      "imageAlts": [
+        "개인 창작자의 글을 목록으로 읽는 SIGNAL CREATORS 피드",
+        "읽고 싶은 피드 소스를 선택하는 SIGNAL 설정 화면"
+      ]
     }
   }
 }

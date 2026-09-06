@@ -86,13 +86,15 @@ npm run verify
 
 ## アプリを追加・更新する
 
-1. `data/apps.json`にアプリを追加します。`id`はURLに使用する固定slugです。配列順が掲載順、`featured: true`がFeatured、`false`がOtherになります。
+1. `data/apps.json`にアプリを追加します。`id`はURLに使用する固定slugです。配列順が掲載順、`featured: true`が常時表示のFeatured、`false`がタイトルだけを初期表示するOtherになります。Otherを開くとFeaturedと共通の`app-showcase.html`で説明・実画像・CTAを表示します。開閉は標準の`details`／`summary`を使い、JavaScript不要で複数同時に開けます。
 2. `data/home/`の6言語すべてへ、同じIDでアプリ名・短い説明・`platform`・必要な`taglineLines`・`imageAlts`を追加します。既存Featuredのコピー変更には仕様上の根拠が必要です。
 3. 実際のアイコン・スクリーンショットを`static/images/apps/<id>/`へ配置し、`data/apps.json`に幅・高さとsmall／large画像を登録します。素材がない場合は`screenshots: []`にします。
 4. 使い方、FAQ、Privacy、Termsがある場合は既存の規則で`content/<section>/<id>.md`を用意します。Support／Productは同じIDからこれらのページを探し、翻訳がなければ日本語ページへ案内します。
 5. `npm run sync:products`、`npm run build`、`npm run verify`を実行し、差分とブラウザ表示を確認します。
 
 現在は8アプリ×6言語の48 Productページと、4セクション×6言語の24入口、計72 Markdownを`scripts/sync-products.py`で同期します。生成ページにはマーカーがあり、直接編集せず共通JSONを変更します。手書きの記事は同期スクリプトの上書き対象になりません。
+
+Other Appsの実画面も同じ画像データからHomeとProduct詳細へ反映します。[追加素材の出典](docs/homepage/other-app-assets.md)を参照してください。
 
 アプリをデータから取り除く場合、生成ページを自動削除することはありません。旧URLからの到達方法を決めてから対応してください。ID変更もURL変更になるため、表示名の変更だけを目的にIDを変えないでください。
 

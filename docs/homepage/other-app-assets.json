@@ -1,0 +1,299 @@
+{
+  "date": "2026-09-07",
+  "method": "Existing real UI only. Proportional WebP resizing at quality 86. SIGNAL settings: crop OS status bar, preserve app content. No generated or reconstructed app UI. Store upload status not verified.",
+  "entries": [
+    {
+      "app": "uni-note-pocket",
+      "stem": "review",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/final/SS01_review_now.png",
+      "sourceDoc": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/REPORT_JA.md",
+      "description": "Uni:Noteで書いた手書きノートをiPhoneのPocketで閲覧する画面。",
+      "reason": "閲覧専用コンパニオンという既存説明の価値を実画面で示す。作成・編集・同期・AI生成の主張なし。",
+      "sourceWidth": 1284,
+      "sourceHeight": 2778,
+      "sourceSHA256": "74f59d2551fa4fd54100f05412c8d5f47a1514303475453a0167b6e4f9ccf534",
+      "raw": false,
+      "small": "/images/apps/uni-note-pocket/review-420.webp",
+      "large": "/images/apps/uni-note-pocket/review-840.webp",
+      "width": 420,
+      "height": 909,
+      "largeWidth": 840,
+      "variants": [
+        {
+          "file": "/Users/yuya/Projects/homepage/static/images/apps/uni-note-pocket/review-420.webp",
+          "width": 420,
+          "height": 909,
+          "bytes": 46284,
+          "sha256": "770a292925cf3943a20956a7e76f2f61fe422f174c2ac0d1497d922bc8df1f32"
+        },
+        {
+          "file": "/Users/yuya/Projects/homepage/static/images/apps/uni-note-pocket/review-840.webp",
+          "width": 840,
+          "height": 1817,
+          "bytes": 110034,
+          "sha256": "82f7366ddd579f34212d4b447e3258d7a5ca1c527530729bfa7c985746811431"
+        }
+      ],
+      "quality": 86,
+      "viewed": true,
+      "storeUploadVerified": false
+    },
+    {
+      "app": "uni-note-pocket",
+      "stem": "backup",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/final/SS02_import_backup.png",
+      "sourceDoc": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/REPORT_JA.md",
+      "description": "Uni:Noteのバックアップを読み込んだPocketの本棚。最近使ったノートと教科が表示されている。",
+      "reason": "バックアップから読み込んで復習するという現行の役割を補足。未実装機能の訴求なし。",
+      "sourceWidth": 1284,
+      "sourceHeight": 2778,
+      "sourceSHA256": "8588e58f554d305357524665945315e5e48a51d5a4b187e8f28a97d5e27599d8",
+      "raw": false,
+      "small": "/images/apps/uni-note-pocket/backup-420.webp",
+      "large": "/images/apps/uni-note-pocket/backup-840.webp",
+      "width": 420,
+      "height": 909,
+      "largeWidth": 840,
+      "variants": [
+        {
+          "file": "/Users/yuya/Projects/homepage/static/images/apps/uni-note-pocket/backup-420.webp",
+          "width": 420,
+          "height": 909,
+          "bytes": 14558,
+          "sha256": "692f1bc22ef947552048c4307f41ecb167a3534d02374516a2b89184c03d94e2"
+        },
+        {
+          "file": "/Users/yuya/Projects/homepage/static/images/apps/uni-note-pocket/backup-840.webp",
+          "width": 840,
+          "height": 1817,
+          "bytes": 34830,
+          "sha256": "6a506f6cef10c77a44ffd241f5bb1e2ddbf8895138f9f9e4be9f36e02cb2b11c"
+        }
+      ],
+      "quality": 86,
+      "viewed": true,
+      "storeUploadVerified": false
+    },
+    {
+      "app": "balance-calendar",
+      "stem": "entry",
+      "source": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/final/01_gambling_instant.png",
+      "sourceDoc": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/AUDIT_AND_COPY_JA.md",
+      "description": "プラスとマイナスの大きなボタンから収支を記録するギャンカレの登録画面。",
+      "reason": "入力を素早く始められる現行UI。既存日本語App Store素材の正式なギャンブル収支用途を保持。",
+      "sourceWidth": 1284,
+      "sourceHeight": 2778,
+      "sourceSHA256": "5f2edaa1687c5cc0db0d0023a4aa774a33786e36a27275197a4b49f57627fd18",
+      "raw": false,
+      "small": "/images/apps/balance-calendar/entry-420.webp",
+      "large": "/images/apps/balance-calendar/entry-840.webp",
+      "width": 420,
+      "height": 909,
+      "largeWidth": 840,
+      "variants": [
+        {
+          "file": "/Users/yuya/Projects/homepage/static/images/apps/balance-calendar/entry-420.webp",
+          "width": 420,
+          "height": 909,
+          "bytes": 15500,
+          "sha256": "25d576a4cca95612e9ad5f35441b03ad0fdae92b27d4ee368f8475306638e842"
+        },
+        {
+          "file": "/Users/yuya/Projects/homepage/static/images/apps/balance-calendar/entry-840.webp",
+          "width": 840,
+          "height": 1817,
+          "bytes": 35170,
+          "sha256": "8d75adf114dc712cec3310cfb832efccb42e4a8f8d330f42a41930d74af82fe8"
+        }
+      ],
+      "quality": 86,
+      "viewed": true,
+      "storeUploadVerified": false
+    },
+    {
+      "app": "balance-calendar",
+      "stem": "history",
+      "source": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/final/04_day_month_year.png",
+      "sourceDoc": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/AUDIT_AND_COPY_JA.md",
+      "description": "記録した収支を日別、月別、年合計で確認するギャンカレの画面。",
+      "reason": "カレンダーで日々のお金の流れを振り返るという既存説明を裏付ける実画面。週集計や勝率分析など未実装機能なし。",
+      "sourceWidth": 1284,
+      "sourceHeight": 2778,
+      "sourceSHA256": "d636e913396cc5912aa0fb860d018cb9046dc4d3ba05ebe5fdb17a95f8b23fbf",
+      "raw": false,
+      "small": "/images/apps/balance-calendar/history-420.webp",
+      "large": "/images/apps/balance-calendar/history-840.webp",
+      "width": 420,
+      "height": 909,
+      "largeWidth": 840,
+      "variants": [
+        {
+          "file": "/Users/yuya/Projects/homepage/static/images/apps/balance-calendar/history-420.webp",
+          "width": 420,
+          "height": 909,
+          "bytes": 20172,
+          "sha256": "f2f0c4d64c14668477bcc4d02c8b7cb264665d275accac9d01e4fadd4ba8bf76"
+        },
+        {
+          "file": "/Users/yuya/Projects/homepage/static/images/apps/balance-calendar/history-840.webp",
+          "width": 840,
+          "height": 1817,
+          "bytes": 44428,
+          "sha256": "c8b3893c9528712aa3a4711c8b846ddd6052ea8e7c8dba1f54a352f040e77703"
+        }
+      ],
+      "quality": 86,
+      "viewed": true,
+      "storeUploadVerified": false
+    },
+    {
+      "app": "smokeless",
+      "key": "01-recording",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/1284x2778-upload/01-value.png",
+      "raw": false,
+      "altJa": "すわなびの喫煙・我慢の記録ボタンと当日の金額を表示した画面",
+      "reason": "実装済みの喫煙と我慢のワンタップ記録、当日の金額を1枚で示す。健康効果や価格の訴求は含まない。",
+      "sourceWidth": 1284,
+      "sourceHeight": 2778,
+      "sourceSha256": "8960186030c06d92efe980efe0a7bc46c05494611313e36cc4323cc64b9959dc",
+      "small": "/images/apps/smokeless/01-recording-420.webp",
+      "large": "/images/apps/smokeless/01-recording-840.webp",
+      "width": 420,
+      "height": 909,
+      "largeWidth": 840,
+      "largeHeight": 1817,
+      "outputs": [
+        {
+          "file": "/images/apps/smokeless/01-recording-420.webp",
+          "absolute": "/Users/yuya/Projects/homepage/static/images/apps/smokeless/01-recording-420.webp",
+          "width": 420,
+          "height": 909,
+          "bytes": 17512,
+          "sha256": "249319e84a2a18b74ba6ec0e995931e84e3446bdf15fe8608e64f24a5e5eedae"
+        },
+        {
+          "file": "/images/apps/smokeless/01-recording-840.webp",
+          "absolute": "/Users/yuya/Projects/homepage/static/images/apps/smokeless/01-recording-840.webp",
+          "width": 840,
+          "height": 1817,
+          "bytes": 37186,
+          "sha256": "a12b15cd287bde5adf5fd69709e88ec0ddc21e966b4fe2b7f38361c873fc4d06"
+        }
+      ]
+    },
+    {
+      "app": "smokeless",
+      "key": "02-counts",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/1284x2778-upload/03-counts.png",
+      "raw": false,
+      "altJa": "すわなびで日別の喫煙・我慢の本数と金額を確認する画面",
+      "reason": "現行GraphPageの実キャプチャを使用したApp Store用素材。日別の本数と金額を振り返る現在の説明に対応する。",
+      "sourceWidth": 1284,
+      "sourceHeight": 2778,
+      "sourceSha256": "1d74eed53f3473745175e1f8f5dc0f58a09294bfe69cd76da0441d47eb720018",
+      "small": "/images/apps/smokeless/02-counts-420.webp",
+      "large": "/images/apps/smokeless/02-counts-840.webp",
+      "width": 420,
+      "height": 909,
+      "largeWidth": 840,
+      "largeHeight": 1817,
+      "outputs": [
+        {
+          "file": "/images/apps/smokeless/02-counts-420.webp",
+          "absolute": "/Users/yuya/Projects/homepage/static/images/apps/smokeless/02-counts-420.webp",
+          "width": 420,
+          "height": 909,
+          "bytes": 16178,
+          "sha256": "10499ad1fee7aee3a7b6c57eb2e477841ee6216d8ff91b651f97a41d3a384f68"
+        },
+        {
+          "file": "/images/apps/smokeless/02-counts-840.webp",
+          "absolute": "/Users/yuya/Projects/homepage/static/images/apps/smokeless/02-counts-840.webp",
+          "width": 840,
+          "height": 1817,
+          "bytes": 38370,
+          "sha256": "73a19854d2c2177d273312dc0926e3339fa01a371e907bf0a2bb3908b5f64cdb"
+        }
+      ],
+      "parentAltValidated": "吸った本数と我慢した回数を振り返るすわなびの集計画面"
+    },
+    {
+      "app": "signal",
+      "key": "01-creators",
+      "source": "/Users/yuya/Projects/signal/artifacts/app_store_screenshots_2026-09-03/source/ui_captures_clean/creators.png",
+      "raw": true,
+      "altJa": "SIGNALのCREATORSタブで個人発信の記事を一覧表示した画面",
+      "reason": "現行実装をSimulatorで撮影した実画面。既存のステータスバー切り出し済み素材をそのままリサイズ。マーケ素材の無料・広告なしバッジを持ち込まない。",
+      "originalSource": "/Users/yuya/Projects/signal/artifacts/app_store_screenshots_2026-09-03/source/ui_captures/creators.png",
+      "existingCrop": "1170x2382+0+150",
+      "sourceWidth": 1170,
+      "sourceHeight": 2382,
+      "sourceSha256": "da46bcc35ada3f071906f87224807458617439b47e697df98cef6a0637fd9967",
+      "small": "/images/apps/signal/01-creators-420.webp",
+      "large": "/images/apps/signal/01-creators-840.webp",
+      "width": 420,
+      "height": 855,
+      "largeWidth": 840,
+      "largeHeight": 1710,
+      "outputs": [
+        {
+          "file": "/images/apps/signal/01-creators-420.webp",
+          "absolute": "/Users/yuya/Projects/homepage/static/images/apps/signal/01-creators-420.webp",
+          "width": 420,
+          "height": 855,
+          "bytes": 31402,
+          "sha256": "33813a0a39bd95d1717fc17ba1cd63cc1fce03111a4e8f357ef346d9f3b43cb4"
+        },
+        {
+          "file": "/images/apps/signal/01-creators-840.webp",
+          "absolute": "/Users/yuya/Projects/homepage/static/images/apps/signal/01-creators-840.webp",
+          "width": 840,
+          "height": 1710,
+          "bytes": 72952,
+          "sha256": "4caabd208acd34d7a4bec3c3065b780ceadb4760d9e53f2cf4e680cba4231608"
+        }
+      ]
+    },
+    {
+      "app": "signal",
+      "key": "02-sources",
+      "source": "/Users/yuya/Projects/signal/artifacts/app_store_screenshots_2026-09-03/source/ui_captures/settings.png",
+      "raw": true,
+      "altJa": "SIGNALでnote・Zenn・Qiitaなどの配信源を選ぶ設定画面",
+      "reason": "現行実装の設定画面の原寸キャプチャからOSステータスバーだけを切り出して除外。原寸で設定タイトルの文字開始はy=194のため、y=150から切り出し、44pxの上余白とタイトル全体を維持する。配信源切り替えと文字サイズを実UIで確認でき、価格表現を含まない。アプリ内部の文字やUIは改変しない。",
+      "sourceWidth": 1170,
+      "sourceHeight": 2532,
+      "sourceSha256": "6399becdba7d14bcc461bc15c264afa3336157a447e4e7ab30db67b3984fd336",
+      "small": "/images/apps/signal/02-sources-420.webp",
+      "large": "/images/apps/signal/02-sources-840.webp",
+      "width": 420,
+      "height": 855,
+      "largeWidth": 840,
+      "largeHeight": 1710,
+      "outputs": [
+        {
+          "file": "/images/apps/signal/02-sources-420.webp",
+          "absolute": "/Users/yuya/Projects/homepage/static/images/apps/signal/02-sources-420.webp",
+          "width": 420,
+          "height": 855,
+          "bytes": 20450,
+          "sha256": "1413c93c68563a2e6502c20885a275fa422522a6633a9e3ffcb51c39e5f604af"
+        },
+        {
+          "file": "/images/apps/signal/02-sources-840.webp",
+          "absolute": "/Users/yuya/Projects/homepage/static/images/apps/signal/02-sources-840.webp",
+          "width": 840,
+          "height": 1710,
+          "bytes": 46380,
+          "sha256": "edce5f4690c24183b9b2254929d35baf5f51f5f7a5c574662452c792dd5d44d7"
+        }
+      ],
+      "crop": {
+        "left": 0,
+        "top": 150,
+        "width": 1170,
+        "height": 2382
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 <article class="app-showcase app-showcase--{{ $app.id }}{{ if $app.reverse }} app-showcase--reverse{{ end }}" aria-labelledby="{{ $app.id }}-name">
 <div class="app-showcase-copy"><div class="app-identity"><img class="app-icon" src="{{ $app.icon }}" width="64" height="64" alt="" loading="lazy" decoding="async"><div><h3 id="{{ $app.id }}-name">{{ $text.name }}</h3><p>{{ $text.platform }}</p></div></div>
 {{ if ne $app.status "published" }}<p class="status-label">{{ $copy.development }}</p>{{ end }}
-<p class="app-tagline">{{ range $text.taglineLines }}<span>{{ . }}</span>{{ end }}</p><p class="app-description">{{ $text.description }}</p>
+{{ with $text.taglineLines }}<p class="app-tagline">{{ range . }}<span>{{ . }}</span>{{ end }}</p>{{ end }}<p class="app-description">{{ $text.description }}</p>
 {{ partial "app-cta.html" (dict "app" $app) }}
 {{ with $text.note }}<p class="app-note">{{ . }}</p>{{ end }}
 </div>{{ partial "app-screenshots.html" (dict "app" $app) }}</article>

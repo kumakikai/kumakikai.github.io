@@ -89,22 +89,38 @@
     "uni-note-pocket": {
       "name": "Uni:Note Pocket",
       "platform": "iPhone",
-      "description": "Uni:Noteで書いたノートを、iPhoneで復習。バックアップを読み込む閲覧専用アプリ。"
+      "description": "Uni:Noteで書いたノートを、iPhoneで復習。バックアップを読み込む閲覧専用アプリ。",
+      "imageAlts": [
+        "Uni:Noteで書いた手書きノートをiPhoneで閲覧するUni:Note Pocketの画面",
+        "バックアップから読み込んだノートと教科を表示するUni:Note Pocketの本棚"
+      ]
     },
     "balance-calendar": {
       "name": "ギャンカレ",
       "platform": "iPhone",
-      "description": "収入と支出をその場で記録。カレンダーで日々のお金の流れを振り返る。"
+      "description": "収入と支出をその場で記録。カレンダーで日々のお金の流れを振り返る。",
+      "imageAlts": [
+        "プラスとマイナスのボタンから収支を記録するギャンカレの登録画面",
+        "記録した収支を日別、月別、年合計で確認するギャンカレの画面"
+      ]
     },
     "smokeless": {
       "name": "すわなび",
       "platform": "iPhone",
-      "description": "「吸った」と「我慢した」をワンタップで記録。本数と金額の変化を確認。"
+      "description": "「吸った」と「我慢した」をワンタップで記録。本数と金額の変化を確認。",
+      "imageAlts": [
+        "「吸った」と「我慢した」を記録するすわなびのホーム画面",
+        "吸った本数と我慢した回数を振り返るすわなびの集計画面"
+      ]
     },
     "signal": {
       "name": "SIGNAL",
       "platform": "iPhone",
-      "description": "note、Qiita、Zennなどの個人発信を、自分のペースで読むニュースフィード。"
+      "description": "note、Qiita、Zennなどの個人発信を、自分のペースで読むニュースフィード。",
+      "imageAlts": [
+        "個人発信の記事を一覧で読むSIGNALのCREATORSフィード",
+        "読みたい配信源を選択するSIGNALの設定画面"
+      ]
     }
   }
 }
