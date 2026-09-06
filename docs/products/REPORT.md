@@ -94,7 +94,7 @@ HomeのFeatured／Other分類、順序、キャッチコピー、短い説明、
 - 191旧HTML URL、138正式URL、53既存alias、記事本文84件のbaselineを維持。
 - canonical、OGP、構造化データ、sitemap・robotsの既存構成を維持。
 
-App Store Connect関連の正式URL一覧は [恒久URL一覧](../migration/permanent-urls.md) を継続使用します。URLごとの公開HTTP検証は公開後に本レポートへ追記します。
+App Store Connect関連の正式URL一覧は [恒久URL一覧](../migration/permanent-urls.md) を継続使用します。[公開HTTP検証](public-verification.json)で全277 HTMLがHTTP200かつローカル成果物とSHA256一致しました。各URLの結果を一覧で保存しています。
 
 ## 7. 実装・保守
 
@@ -135,7 +135,7 @@ Hugoplate本体、依存、JavaScript、GitHub Actionsの変更はありませ�
 
 大きな余白、白／ダークのニュートラル背景、太い見出しを維持。機能・対象者は罫線付きの簡潔なリストとし、小さなカードを大量に追加していません。Productの新しいアニメーション・JavaScript・Web Fontはありません。
 
-[Lighthouse結果](lighthouse-summary.json)：ローカルproduction出力をChromeで測定。DesktopはPerformance／Accessibility／Best Practices／SEOすべて100、Mobileは99／100／100／100。Desktop LCP 0.443秒、Mobile LCP 2.027秒、双方CLS 0・TBT 0。Product Heroのlazy属性によるLCP発見の指摘を修正し、再測定で解消を確認しました。ローカルサーバーのcache・圧縮指摘と本番CDN評価は分けています。
+[Lighthouse結果](lighthouse-summary.json)：ローカルproduction出力をChromeで測定。最終CSSでDesktop・MobileともPerformance／Accessibility／Best Practices／SEOすべて100。Desktop LCP 0.444秒、Mobile LCP 1.877秒、双方CLS 0・TBT 0。Product Heroのlazy属性によるLCP発見の指摘を修正し、再測定で解消を確認しました。ローカルサーバーのcache・圧縮指摘と本番CDN評価は分けています。
 
 [最終差分の重点検証](final-focused-verification.json)：Uni:Noteの1440／393、Pocketのフランス語／繁体字393、ギガポケ393の5条件で、Heroのeager・Homeと本文のlazy、修正したUI用語、免責文の重複除去、CTA／Support、axeを再確認し成功しました。
 
@@ -166,3 +166,17 @@ Mobile393・Light：
 ![Mobile PDF紹介](screenshots/uni-note-mobile-pdf.png)
 
 Dark：[Desktop](screenshots/uni-note-desktop-dark.png) ／ [Mobile](screenshots/uni-note-mobile-dark.png)。すべてproduction buildのブラウザ表示を撮影したものです。
+
+
+## 11. 公開確認
+
+実装コミット `56f5f53`、CSS生成の修正コミット `d243d08` をmainへpushしました。
+
+- [最終Hugo build・移行検証・gh-pages公開](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34049713578)：成功。
+- [最終GitHub Pages配信](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34049728056)：成功。
+- 公開成果物のgh-pages commit：`013bffdd2667e254e19da084f820f3db4b502567`。
+- [公開HTMLの照合](public-verification.json)：277／277がHTTP200、全件SHA256一致、失敗0。既存Support／Privacy／FAQ／Terms／Notesも含みます。
+- [公開アセットの照合](public-assets-verification.json)：新画像6件、CSS、JavaScriptの計8件がHTTP200・SHA256一致。
+- 最終CSS：55,563 bytes、SHA256 `113b9d18eb0878baf724661a567a45d9ada9be21ed7a6fddab8bf77b39c48e33`。
+
+新規URL・新規alias・新規redirectはありません。旧正式URLを維持したまま、既存Productページの本文を拡張しています。App Store Connectの登録設定の変更は行っていません。

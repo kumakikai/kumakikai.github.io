@@ -1,0 +1,71 @@
+{
+  "checkedAtUTC": "2026-09-06T17:49:01Z",
+  "ok": true,
+  "count": 8,
+  "results": [
+    {
+      "route": "/images/apps/uni-note/detail-pdf-560.webp",
+      "expectedSHA256": "0da68a1102e7fb511fbb7e693e0c7961d1e913d157e91626311e4ff21536bbf6",
+      "status": 200,
+      "actualSHA256": "0da68a1102e7fb511fbb7e693e0c7961d1e913d157e91626311e4ff21536bbf6",
+      "bytes": 27444,
+      "ok": true
+    },
+    {
+      "route": "/images/apps/uni-note/detail-pdf-1120.webp",
+      "expectedSHA256": "56b749a379ab2bda38111eebe65df33bc1046fa41d93aaa3ff152287b4a28717",
+      "status": 200,
+      "actualSHA256": "56b749a379ab2bda38111eebe65df33bc1046fa41d93aaa3ff152287b4a28717",
+      "bytes": 72006,
+      "ok": true
+    },
+    {
+      "route": "/images/apps/uni-note/detail-review-560.webp",
+      "expectedSHA256": "1747b24165409755eacda62cc4b2e77191958a3dfe92d3d085a75f2700d614d8",
+      "status": 200,
+      "actualSHA256": "1747b24165409755eacda62cc4b2e77191958a3dfe92d3d085a75f2700d614d8",
+      "bytes": 31252,
+      "ok": true
+    },
+    {
+      "route": "/images/apps/uni-note/detail-review-1120.webp",
+      "expectedSHA256": "d3d5253d1742d3efa70ae4a05a171f791d5ffb8a33c3c3757d8721eeb008f8c2",
+      "status": 200,
+      "actualSHA256": "d3d5253d1742d3efa70ae4a05a171f791d5ffb8a33c3c3757d8721eeb008f8c2",
+      "bytes": 85142,
+      "ok": true
+    },
+    {
+      "route": "/images/apps/uni-note-pocket/detail-practice-420.webp",
+      "expectedSHA256": "3ca32935540407fbac0637c21d11758f666be8eb27f76126c34f4a70e28bcbda",
+      "status": 200,
+      "actualSHA256": "3ca32935540407fbac0637c21d11758f666be8eb27f76126c34f4a70e28bcbda",
+      "bytes": 21720,
+      "ok": true
+    },
+    {
+      "route": "/images/apps/uni-note-pocket/detail-practice-840.webp",
+      "expectedSHA256": "b790cdd4c193fbd29670cc2748d6a076fe03dc0e527087187aa74d403d7befb2",
+      "status": 200,
+      "actualSHA256": "b790cdd4c193fbd29670cc2748d6a076fe03dc0e527087187aa74d403d7befb2",
+      "bytes": 52872,
+      "ok": true
+    },
+    {
+      "route": "/css/main.113b9d18eb0878baf724661a567a45d9ada9be21ed7a6fddab8bf77b39c48e33.css",
+      "expectedSHA256": "113b9d18eb0878baf724661a567a45d9ada9be21ed7a6fddab8bf77b39c48e33",
+      "status": 200,
+      "actualSHA256": "113b9d18eb0878baf724661a567a45d9ada9be21ed7a6fddab8bf77b39c48e33",
+      "bytes": 55563,
+      "ok": true
+    },
+    {
+      "route": "/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "expectedSHA256": "45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a",
+      "status": 200,
+      "actualSHA256": "45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a",
+      "bytes": 1634,
+      "ok": true
+    }
+  ]
+}
