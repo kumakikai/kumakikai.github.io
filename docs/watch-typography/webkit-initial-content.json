@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-09-06T19:36:57.323Z",
+  "base": "http://127.0.0.1:1314",
+  "phase": "initial-content",
+  "engine": "webkit",
+  "widths": [
+    768,
+    375
+  ],
+  "pending": false,
+  "mechanicalPass": true,
+  "cases": 70,
+  "method": "Real browser renders; DOM Range per-character rectangles reconstruct Japanese visual lines. Candidate word splits and short terminal lines require editorial reading; they are not automatically errors. All headings and flagged body paragraphs are recorded. Seeded Math.random changes selection only in the test context. All app IDs must appear as actual live Home Featured.",
+  "limitations": [
+    "Desktop browser viewport emulation, not physical iPhone/iPad. DOM word segmentation is an editorial aid, not a Japanese copy verdict. Editorial decisions and screenshots are separately reported."
+  ],
+  "homeCoverage": [],
+  "fullEvidence": "webkit-initial-content.json.gz",
+  "fullEvidenceSHA256": "ca8ed743aed457fad9998f39306e95a382b7e82f3e04ee4d7847b80a0c9bb5c8",
+  "resultCount": 70
+}

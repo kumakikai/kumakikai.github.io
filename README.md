@@ -9,7 +9,7 @@
 | ツール | 使用するバージョン・用途 |
 |---|---|
 | Hugo Extended | **0.158.0**。`.hugo-version`で固定 |
-| Node.js | **22**。CIは`.node-version`を使用 |
+| Node.js | **22.22.0**。CIは`.node-version`を使用。日本語の単語境界も同じ実行環境で生成 |
 | npm | `package-lock.json`から依存をインストール |
 | Python | Python 3。ページ同期・移行検証に標準ライブラリのみを使用 |
 
@@ -41,10 +41,10 @@ HUGO_CACHEDIR=/tmp/kumakikai-hugo-cache npm run build
 |---|---|
 | `npm ci` | lockfileと一致する依存をインストール |
 | `npm run dev` | theme tokenを生成し、Hugo開発サーバーを起動 |
-| `npm run preview` | production設定・minify付きでプレビュー |
+| `npm run preview` | production build後、完成HTMLを`http://127.0.0.1:1313/`で配信 |
 | `npm run theme:generate` | `data/theme.json`からCSS tokenを再生成 |
 | `npm run sync:products` | 共通データからProducts等のMarkdown入口を同期 |
-| `npm run build` | 生成ページの同期状態を確認し、production buildを`public/`へ出力 |
+| `npm run build` | 同期状態を確認し、Hugo生成と日本語組版を経て`public/`へ出力 |
 | `npm run verify` | `public/`の既存URL・記事本文・リンク・メタデータ等を検証 |
 
 通常の確認手順は次のとおりです。
@@ -58,6 +58,14 @@ npm run verify
 `npm run build`の`prebuild`は生成ページを勝手に書き換えず、データとのずれを検出します。差がある場合は`npm run sync:products`を実行し、生成されたMarkdownも変更に含めてください。
 
 `npm run dev`は起動時にtheme tokenを生成します。開発中に`data/theme.json`を変更した場合は、別ターミナルで`npm run theme:generate`を実行するか、サーバーを再起動してください。
+
+### 日本語の組版と最終プレビュー
+
+見出し・本文・リストの日本語は、`postbuild`の`scripts/format-japanese.mjs`で文節の区切りに`<wbr>`を挿入します。BudouXの候補を`Intl.Segmenter`の単語境界で絞り、共通`.jp-text`ルールで語中分割を抑えます。`<br>`と異なり、実際に折り返す位置は画面幅に応じてブラウザが決めます。非常に長い語は、はみ出しを防ぐため折り返せます。
+
+この処理はビルド時だけ実行し、文言・リンク・見出しID・構造化データを変えません。ランダム候補の`template`も対象ですが、コードや他言語の本文は対象外です。`scripts/verify-japanese.mjs`でこれらの保持と再実行時の安定性を検証します。依存はdevDependenciesのみで、閲覧者へ解析用JavaScriptを配信しません。
+
+`npm run dev`はHugoの高速な更新確認用で、ビルド後の組版は実行しません。日本語の改行を最終確認するときは`npm run preview`を使用してください。変更後はプレビューを停止して再起動します。CIも必ず`npm run build`を使用し、Hugoコマンドだけで生成したHTMLはデプロイしません。
 
 ## 主な構成
 
@@ -121,6 +129,16 @@ Homeは短い紹介、Product詳細は具体的な用途と条件、Supportは�
 `minimumOS`はApp Store公開情報とプロジェクトのdeployment targetを照合してから記入します。不明な場合は省略します。開発中アプリの最低OSや価格を推測して埋めないでください。料金の固定値は避け、公開中アプリだけApp Storeの最新情報へ案内します。
 
 Product詳細の公式バッジはHeroと主要説明後の2箇所です。国旗はHeroだけ、Supportは最下部の直接リンクを維持します。Homeのバッジは各アプリ1箇所のままです。[詳細ページ拡張の記録](docs/products/REPORT.md)に、採用した内容・素材・検証結果をまとめています。
+
+### すわなびのApple Watch対応版
+
+`data/product_details/smokeless.json`の`watch.status`は現在`review`です。公開済みのiPhone版と区別し、Home・Products・Product・Aboutの対応端末には「Apple Watch（近日対応）」、Productと使い方には審査中の説明を表示します。既存のiPhone版App Store導線は維持します。
+
+**1.2.0の一般公開をApp Storeで確認した後**にだけ`watch.status`を`published`へ変更してください。共通partialによって待機表記・Hero・機能説明・使い方の状態がまとめて変わります。アプリ本体の`data/apps.json.status`、配信地域、審査提出と一般公開は別の状態です。公開前は構造化データの対応OSへwatchOSを追加しません。
+
+Watch文言は6言語、実操作の使い方は既存の5言語ページ末尾にshortcodeで追加しています。ドイツ語の使い方本文は元からないため、既存の日本語フォールバックを維持します。使い方URLやポリシーURLは移動しません。
+
+素材は`assets/images/apps/smokeless/watch/`の実画面と正式な提出用画像を使い、Hugoで原寸／半幅のWebPを生成します。日本語・韓国語・繁体字・フランス語は各言語の提出用画像、英語・ドイツ語は数字のみの実画面です。出典・SHA・仕様・公開版の確認記録は[Watch対応と組版監査](docs/watch-typography/REPORT.md)を参照してください。
 
 ### 公開状態とApp Store
 
@@ -243,3 +261,7 @@ SSL_CERT_FILE=/etc/ssl/cert.pem python3 scripts/verify-live.py --build public
 この確認はHTTP GETのみで、App Store Connectの登録内容を変更しません。詳しい移行・画面検証は[移行報告](docs/migration/REPORT.md)を参照してください。
 
 Home／Aboutのランダム選出は、同じQA依存で`node scripts/verify-selection.cjs`を実行します。既存URL・コピー保護は`npm run verify`を併用してください。選出の重複・カテゴリ・Uni:Note固定、再読み込み、JavaScript無効時、多言語・画面幅・配色、CLSの結果とスクリーンショットを`docs/selection/`へ保存します。
+
+## 大きなブラウザ検証記録
+
+全条件のDOM行情報を残す監査では、完了後に`python3 scripts/archive-verification.py docs/watch-typography`を実行すると、128KB以上の結果を要約JSONと無損失の`.json.gz`原本に分けられます。実行中のレポートには使用しません。原本は`gzip -dc path/to/report.json.gz`で読み出せます。サイトのbuild・配信はこれらの記録に依存しません。

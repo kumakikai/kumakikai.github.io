@@ -1,0 +1,55 @@
+{
+  "method": "Local Chrome Lighthouse mobile lab measurements; not production field metrics.",
+  "runs": [
+    {
+      "page": "home",
+      "fetchTime": "2026-09-06T20:04:41.947Z",
+      "version": "12.8.2",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 2477.5173999999997,
+          "display": "2.5 s"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms"
+        }
+      }
+    },
+    {
+      "page": "smokeless",
+      "fetchTime": "2026-09-06T20:08:13.452Z",
+      "version": "12.8.2",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 2101.4641,
+          "display": "2.1 s"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms"
+        }
+      }
+    }
+  ]
+}

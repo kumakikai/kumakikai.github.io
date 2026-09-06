@@ -93,3 +93,5 @@ Smokeless 是一款可快速記錄 `記錄吸菸` 與 `記錄忍住`，並在之
 
 - [FAQ (Smokeless)]({{< relref "/faq/smokeless/" >}})
 - [隱私權政策 (Smokeless)]({{< relref "/privacy/smokeless/" >}})
+
+{{< watch-guide app="smokeless" >}}

@@ -11,6 +11,11 @@ const output = path.resolve(process.env.TEST_OUTPUT || 'artifacts/company/browse
 const report = path.resolve(process.env.TEST_REPORT || 'docs/company/browser-verification.json');
 const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const apps = read('data/apps.json');
+const productDetails = Object.fromEntries(apps.map(app => [app.id, read(`data/product_details/${app.id}.json`)]));
+function expectedPlatform(id, locale, home) {
+  const watch = productDetails[id]?.watch;
+  return home.apps[id].platform + (watch ? ' / Apple Watch' + (watch.status === 'published' ? '' : watch.locales[locale].platformPending) : '');
+}
 const news = read('data/news.json');
 const locales = ['ja', 'en', 'ko', 'de', 'fr', 'zh-hant'];
 const categories = ['press-release', 'blog', 'information'];
@@ -136,7 +141,7 @@ async function company(page, locale, name, noJS = false) {
     assert.equal(await link.getAttribute('href'), `${prefix(locale)}/products/${id}/`);
     assert.equal(await link.locator('img').getAttribute('src'), app.icon);
     assert.ok((await link.textContent()).includes(home.apps[id].name));
-    assert.equal((await link.locator('.company-product-platform').textContent()).trim(), home.apps[id].platform + (app.status !== 'published' ? ' · ' + home.development : ''));
+    assert.equal((await link.locator('.company-product-platform').textContent()).trim(), expectedPlatform(id, locale, home) + (app.status !== 'published' ? ' · ' + home.development : ''));
     assert.equal((await link.textContent()).includes(home.development), app.status !== 'published', 'Only development products show their development state');
     assert.equal(await row.locator('a[href^="https://apps.apple.com/"]').count(), 0, 'Area selection remains a simple direct Product link');
     if (noJS) {

@@ -9,6 +9,7 @@
   <h2 id="features-title">{{ $ui.features }}</h2>
   <ul>{{ range $text.features }}<li><h3>{{ .title }}</h3><p>{{ .description }}</p></li>{{ end }}</ul>
 </section>
+{{ partial "watch-product.html" (dict "app" $app) }}
 {{ range $i, $story := $text.stories }}
 {{ $shot := dict }}{{ $alt := "" }}
 {{ if .media }}{{ $shot = index $detail.media .media }}{{ $alt = .alt }}{{ else }}{{ $shot = index $app.screenshots (int .image) }}{{ $alt = index $appText.imageAlts (int .image) }}{{ end }}
@@ -25,7 +26,7 @@
 <section class="product-facts product-section" aria-labelledby="facts-title">
   <h2 id="facts-title">{{ $ui.infoTitle }}</h2>
   <div><dl>
-    <div><dt>{{ $ui.platform }}</dt><dd>{{ $appText.platform }}</dd></div>
+    <div><dt>{{ $ui.platform }}</dt><dd>{{ partial "product-platform.html" (dict "app" $app) }}</dd></div>
     {{ with $detail.minimumOS }}<div><dt>{{ $ui.os }}</dt><dd>{{ printf $ui.minimumOSFormat . }}</dd></div>{{ end }}
     <div><dt>{{ $ui.developer }}</dt><dd>KUMAKIKAI</dd></div>
     <div><dt>{{ $ui.status }}</dt><dd>{{ if eq $app.status "published" }}{{ $corp.available }} · App Store{{ else }}{{ $home.development }}{{ end }}</dd></div>

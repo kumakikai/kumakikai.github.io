@@ -93,3 +93,5 @@ Related pages:
 
 - [FAQ (Smokeless)]({{< relref "/faq/smokeless/" >}})
 - [Privacy Policy (Smokeless)]({{< relref "/privacy/smokeless/" >}})
+
+{{< watch-guide app="smokeless" >}}

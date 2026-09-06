@@ -82,7 +82,9 @@ class Node:
     def text(self):
         if self.tag in {"style", "script"} or self.has_class("anchor") or self.has_class("heading-anchor"):
             return ""
-        return " ".join(part if isinstance(part, str) else part.text() for part in self.parts)
+        # Match DOM textContent: optional <wbr> opportunities add no characters.
+        # Joining with spaces would invent text at every build-time phrase boundary.
+        return "".join(part if isinstance(part, str) else part.text() for part in self.parts)
 
     def visible_label(self):
         """Navigation labels omit decorative aria-hidden arrows, not article text."""
@@ -408,7 +410,11 @@ class Verification:
         facts = sections["facts"]
         labels = [n.text().strip() for n in facts.descendants("dt")]
         values = [n.text().strip() for n in facts.descendants("dd")]
-        expected_labels, expected_values = [ui["platform"]], [home["apps"][app["id"]]["platform"]]
+        platform = home["apps"][app["id"]]["platform"]
+        watch = detail.get("watch")
+        if watch:
+            platform += " / Apple Watch" + ("" if watch["status"] == "published" else watch["locales"][lang]["platformPending"])
+        expected_labels, expected_values = [ui["platform"]], [platform]
         if detail.get("minimumOS"):
             expected_labels.append(ui["os"])
             expected_values.append(ui["minimumOSFormat"] % detail["minimumOS"])

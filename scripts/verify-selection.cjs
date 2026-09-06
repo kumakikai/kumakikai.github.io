@@ -16,6 +16,12 @@ const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 const apps = read('data/apps.json');
 const appByID = Object.fromEntries(apps.map(app => [app.id, app]));
 const candidates = apps.filter(app => app.id !== 'uni-note').map(app => app.id);
+const productDetails = Object.fromEntries(apps.map(app => [app.id, read(`data/product_details/${app.id}.json`)]));
+function expectedPlatform(id, locale, home) {
+  const watch = productDetails[id]?.watch;
+  const suffix = watch ? ' / Apple Watch' + (watch.status === 'published' ? '' : watch.locales[locale].platformPending) : '';
+  return home.apps[id].platform + suffix;
+}
 const locales = ['ja', 'en', 'ko', 'de', 'fr', 'zh-hant'];
 const areas = {
   learning: ['uni-note', 'uni-note-pocket'],
@@ -156,7 +162,7 @@ async function inspectHome(page, locale, noJS = false) {
     assert.equal(await card.count(), 1); assert.equal(await card.isVisible(), true);
     assert.equal(await card.locator('.app-icon').getAttribute('src'), app.icon);
     assert.equal((await card.locator('.app-identity h3').textContent()).trim(), text.name);
-    assert.equal((await card.locator('.app-identity p').textContent()).trim(), text.platform);
+    assert.equal((await card.locator('.app-identity p').textContent()).trim(), expectedPlatform(id, locale, copy), 'Watch support keeps its pending qualifier until published');
     const tagline = text.taglineLines?.length ? text.taglineLines.join('') : read(`data/product_details/${id}.json`).locales[locale].overviewTitle;
     assert.equal(norm(await card.locator('.app-tagline').textContent()), norm(tagline), 'Every candidate retains its own approved tagline or product overview title');
     assert.equal((await card.locator('.app-description').textContent()).trim(), text.description);
@@ -196,7 +202,7 @@ async function inspectCompany(page, locale, noJS = false) {
     if (noJS) assert.equal(id, allowed[0], 'Area first candidate remains the no-JS fallback');
     assert.equal(await links.getAttribute('href'), `${prefix(locale)}/products/${id}/`);
     assert.equal(await links.locator('img').getAttribute('src'), appByID[id].icon);
-    const platformStatus = copy.apps[id].platform + (appByID[id].status === 'published' ? '' : ' · ' + copy.development);
+    const platformStatus = expectedPlatform(id, locale, copy) + (appByID[id].status === 'published' ? '' : ' · ' + copy.development);
     assert.equal((await links.locator('.company-product-platform').textContent()).trim(), platformStatus, 'Development status accompanies the correct platform');
     assert.ok((await links.innerText()).includes(copy.apps[id].name));
     assert.equal(await group.getAttribute('data-selection-ready') !== null, !noJS);

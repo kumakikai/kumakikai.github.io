@@ -1,0 +1,256 @@
+{
+  "checkedAt": "2026-09-06T19:34:22.037080+00:00",
+  "result": "PASS",
+  "appRepoHEAD": "3e9e7f38a67f233c1bc4a18c6e56bb50693355d6",
+  "appRepoLeftUnchanged": true,
+  "sourceStatus": "Latest local submission-ready Watch material dated 2026-09-06; files are in existing untracked design folder. App Store submission is asserted by user; not established by the asset files.",
+  "productionStatus": {
+    "source": "https://itunes.apple.com/lookup?id=6760842941&country=jp",
+    "checkedAt": "2026-09-06T19:32:45.888602+00:00",
+    "version": "1.1.1",
+    "currentVersionReleaseDate": "2026-09-04T15:04:00Z",
+    "releaseNotes": "設定画面の下部で、アプリ名・バージョン・ビルド番号を確認できるようになりました。",
+    "minimumOsVersion": "14.0",
+    "httpStatus": 200,
+    "localWatchVersion": "1.2.0+3",
+    "watchVersionPublic": false,
+    "treatment": "Keep upcoming / in review language until public 1.2.0 is verified. Apple Lookup public state is distinct from App Store Connect submission state."
+  },
+  "assets": [
+    {
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/apple-watch/422x514-upload/01-recording.png",
+      "destination": "assets/images/apps/smokeless/watch/ja/01-recording.png",
+      "kind": "official-local-app-store-promotional-material",
+      "locale": "ja",
+      "reviewedVisually": true,
+      "manifestSHA256Matched": true,
+      "width": 422,
+      "height": 514,
+      "bytes": 77993,
+      "sha256": "e039e77431b169620dd86beb9d2d4ada18eb5f708c923338e3d3a6f9740e7eab",
+      "visualReviewSource": "preview/watch-promo-all.png contact sheet; Japanese two files additionally inspected at native resolution.",
+      "selectedForWebsite": true
+    },
+    {
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/apple-watch/422x514-upload/02-counts.png",
+      "destination": null,
+      "kind": "official-local-app-store-promotional-material",
+      "locale": "ja",
+      "reviewedVisually": true,
+      "manifestSHA256Matched": true,
+      "width": 422,
+      "height": 514,
+      "bytes": 83498,
+      "sha256": "42e4eb682d8fbf580d7a551b522f1e92fbb9f65180d25ffaa02bb56f010f6901",
+      "visualReviewSource": "preview/watch-promo-all.png contact sheet; Japanese two files additionally inspected at native resolution.",
+      "selectedForWebsite": false,
+      "selectionNote": "Inspected but not imported: the recording artwork already illustrates both actions and counts."
+    },
+    {
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/apple-watch/zh-Hant/422x514-upload/01-recording.png",
+      "destination": "assets/images/apps/smokeless/watch/zh-hant/01-recording.png",
+      "kind": "official-local-app-store-promotional-material",
+      "locale": "zh-Hant",
+      "reviewedVisually": true,
+      "manifestSHA256Matched": true,
+      "width": 422,
+      "height": 514,
+      "bytes": 75589,
+      "sha256": "a3aeb96d28da9e4547d0b8bec1739736b6bab69507f5ad6d84ba773fa01d07a8",
+      "visualReviewSource": "preview/watch-promo-all.png contact sheet; Japanese two files additionally inspected at native resolution.",
+      "selectedForWebsite": true
+    },
+    {
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/apple-watch/zh-Hant/422x514-upload/02-counts.png",
+      "destination": null,
+      "kind": "official-local-app-store-promotional-material",
+      "locale": "zh-Hant",
+      "reviewedVisually": true,
+      "manifestSHA256Matched": true,
+      "width": 422,
+      "height": 514,
+      "bytes": 78106,
+      "sha256": "d14d7eeba861f6a67b330701eb4d02a98bbcd4850d12a9975e945fd4ed47462c",
+      "visualReviewSource": "preview/watch-promo-all.png contact sheet; Japanese two files additionally inspected at native resolution.",
+      "selectedForWebsite": false,
+      "selectionNote": "Inspected but not imported: the recording artwork already illustrates both actions and counts."
+    },
+    {
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/apple-watch/fr/422x514-upload/01-recording.png",
+      "destination": "assets/images/apps/smokeless/watch/fr/01-recording.png",
+      "kind": "official-local-app-store-promotional-material",
+      "locale": "fr",
+      "reviewedVisually": true,
+      "manifestSHA256Matched": true,
+      "width": 422,
+      "height": 514,
+      "bytes": 77930,
+      "sha256": "bdd6e3414f3d5bb0c0a825809b86bcd803407f49716e511fd0516be58b1382d6",
+      "visualReviewSource": "preview/watch-promo-all.png contact sheet; Japanese two files additionally inspected at native resolution.",
+      "selectedForWebsite": true
+    },
+    {
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/apple-watch/fr/422x514-upload/02-counts.png",
+      "destination": null,
+      "kind": "official-local-app-store-promotional-material",
+      "locale": "fr",
+      "reviewedVisually": true,
+      "manifestSHA256Matched": true,
+      "width": 422,
+      "height": 514,
+      "bytes": 82057,
+      "sha256": "5e471e7ab6270abc952f75f81e01aa2212a69522436ef39d4af06ba6c49772b1",
+      "visualReviewSource": "preview/watch-promo-all.png contact sheet; Japanese two files additionally inspected at native resolution.",
+      "selectedForWebsite": false,
+      "selectionNote": "Inspected but not imported: the recording artwork already illustrates both actions and counts."
+    },
+    {
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/apple-watch/ko/422x514-upload/01-recording.png",
+      "destination": "assets/images/apps/smokeless/watch/ko/01-recording.png",
+      "kind": "official-local-app-store-promotional-material",
+      "locale": "ko",
+      "reviewedVisually": true,
+      "manifestSHA256Matched": true,
+      "width": 422,
+      "height": 514,
+      "bytes": 71111,
+      "sha256": "78660293d91ad5804e18055c3f4296928697035ee8816ffe10224f4524f62a0a",
+      "visualReviewSource": "preview/watch-promo-all.png contact sheet; Japanese two files additionally inspected at native resolution.",
+      "selectedForWebsite": true
+    },
+    {
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/apple-watch/ko/422x514-upload/02-counts.png",
+      "destination": null,
+      "kind": "official-local-app-store-promotional-material",
+      "locale": "ko",
+      "reviewedVisually": true,
+      "manifestSHA256Matched": true,
+      "width": 422,
+      "height": 514,
+      "bytes": 69336,
+      "sha256": "b21eefbb577f16aa4aa856b5a87daa5e78dbeb090dac61b106c000ce17037cb8",
+      "visualReviewSource": "preview/watch-promo-all.png contact sheet; Japanese two files additionally inspected at native resolution.",
+      "selectedForWebsite": false,
+      "selectionNote": "Inspected but not imported: the recording artwork already illustrates both actions and counts."
+    },
+    {
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/watch/recording-40mm.png",
+      "destination": "assets/images/apps/smokeless/watch/recording-ui.png",
+      "kind": "actual-watch-simulator-capture",
+      "locale": "numeric-ui-language-neutral",
+      "reviewedVisually": true,
+      "manifestSHA256Matched": true,
+      "width": 324,
+      "height": 394,
+      "bytes": 11400,
+      "sha256": "ede8337a52cc7e03b61fe2f2666fb16e70a20ef79bfa330a400739b840a10faf",
+      "selectedForWebsite": true
+    }
+  ],
+  "otherCandidates": [
+    {
+      "path": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/1284x2778-upload/07-watch.png",
+      "kind": "iphone-store-slot-watch-promotional-material",
+      "reviewedVisually": true,
+      "selected": false,
+      "reason": "Valid real Watch UI, but tall single-watch promotional canvas; Watch-dedicated crops better fit side-by-side feature layout.",
+      "width": 1284,
+      "height": 2778,
+      "bytes": 523977,
+      "sha256": "a40ec4dd034882be2dd9399e243b22db35cf1591eb9f1d98299698d055d07c14"
+    },
+    {
+      "path": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/watch/recording-ultra3-422x514.png",
+      "selected": false,
+      "reason": "Earlier zero-count raw upload candidate, replaced by current 40mm-based two-page marketing layout."
+    },
+    {
+      "path": "/private/tmp/smokeless-sync-final-phone.png",
+      "reviewedVisually": true,
+      "selected": false,
+      "reason": "Actual paired Simulator QA capture includes Test mode toast and test advertising. Use existing clean iPhone App Store material instead."
+    }
+  ],
+  "authenticity": {
+    "captureDescription": "Paired Apple Watch SE 3 (40mm), watchOS 26.5 Simulator; current WatchRecordingView unlocked with an existing-paid-entitlement fixture; actual synchronized daily counts resisted=3, smoked=2; 324x394 pixel capture.",
+    "rendering": "render_watch.mjs embeds exact real capture proportionally into one drawn watch frame with marketing copy outside the screen; no UI or number repaint.",
+    "manifest": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/watch-layouts/manifest.json",
+    "manifestSHA256": "a039d4013228bd58e3ff677b06ae3b42834e33b48d2a77b15e0e44665b395a77",
+    "sourceSHA256": "ede8337a52cc7e03b61fe2f2666fb16e70a20ef79bfa330a400739b840a10faf",
+    "implementationReviewed": "ios/SmokelessWatchApp/WatchRecordingView.swift",
+    "visualMatch": "Gray clock band; independent green left and red right rounded recording buttons with centered daily counts only; no on-screen action words, icons, history, graphs or settings. Marketing labels outside Watch identify actions.",
+    "purchaseNotice": "All eight official Watch marketing PNGs disclose a paid feature; currently available with existing Remove Ads or Extra Brands purchase rights per implementation docs.",
+    "limitations": [
+      "Simulator asset and local implementation checks do not establish physical Watch behavior, Store purchase/restore, or App Store publication.",
+      "English/German localized Watch marketing images were not present. Use language-neutral actual Watch UI for these languages or clearly acknowledge existing Japanese artwork fallback."
+    ]
+  },
+  "evidenceFiles": [
+    "/Users/yuya/Projects/smokeless/docs/FEATURE_APPLE_WATCH.md",
+    "/Users/yuya/Projects/smokeless/docs/RELEASE_NOTES_1_2_0.md",
+    "/Users/yuya/Projects/smokeless/docs/APP_STORE_METADATA.md",
+    "/Users/yuya/Projects/smokeless/CHANGELOG_AI.md",
+    "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/README.md",
+    "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/AUDIT_AND_PLAN.md",
+    "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/render_watch.mjs",
+    "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/verify_watch.mjs"
+  ],
+  "verification": {
+    "command": "node design/app-store-screenshots-2026-09-03/verify_watch.mjs",
+    "exitCode": 0,
+    "stdout": "ja/01-recording.png: PNG|422x514|sRGB|srgb  3.0; real UI source and localized text bounds verified.\nja/02-counts.png: PNG|422x514|sRGB|srgb  3.0; real UI source and localized text bounds verified.\nzh-Hant/01-recording.png: PNG|422x514|sRGB|srgb  3.0; real UI source and localized text bounds verified.\nzh-Hant/02-counts.png: PNG|422x514|sRGB|srgb  3.0; real UI source and localized text bounds verified.\nfr/01-recording.png: PNG|422x514|sRGB|srgb  3.0; real UI source and localized text bounds verified.\nfr/02-counts.png: PNG|422x514|sRGB|srgb  3.0; real UI source and localized text bounds verified.\nko/01-recording.png: PNG|422x514|sRGB|srgb  3.0; real UI source and localized text bounds verified.\nko/02-counts.png: PNG|422x514|sRGB|srgb  3.0; real UI source and localized text bounds verified.\nPASS: 8 promotional Watch PNGs (4 locales x 2 pages).",
+    "checked": "All eight output hashes, exact source PNG hash embedded in all eight SVGs, 422x514 PNG sRGB alpha-free, localized brand/required copy/text bounds."
+  },
+  "copyPolicy": "Exact PNG bytes copied; no image editing, cropping, recreation, or compression in this subtask. Hugo responsive image processing is delegated to parent.",
+  "productionStorefronts": [
+    {
+      "country": "jp",
+      "url": "https://itunes.apple.com/lookup?id=6760842941&country=jp",
+      "checkedAt": "2026-09-06T19:34:51.390527+00:00",
+      "httpStatus": 200,
+      "trackName": "すわなび - たばこカウンター",
+      "version": "1.1.1",
+      "currentVersionReleaseDate": "2026-09-04T15:04:00Z",
+      "releaseNotes": "設定画面の下部で、アプリ名・バージョン・ビルド番号を確認できるようになりました。",
+      "minimumOsVersion": "14.0",
+      "trackViewUrl": "https://apps.apple.com/jp/app/%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3-%E3%81%9F%E3%81%B0%E3%81%93%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC/id6760842941?uo=4"
+    },
+    {
+      "country": "tw",
+      "url": "https://itunes.apple.com/lookup?id=6760842941&country=tw",
+      "checkedAt": "2026-09-06T19:34:51.556727+00:00",
+      "httpStatus": 200,
+      "trackName": "SmokeLess - 戒菸計數器",
+      "version": "1.1.1",
+      "currentVersionReleaseDate": "2026-09-04T15:04:00Z",
+      "releaseNotes": "現在可在「設定」畫面底部查看 App 名稱、版本與 Build 編號。",
+      "minimumOsVersion": "14.0",
+      "trackViewUrl": "https://apps.apple.com/tw/app/smokeless-%E6%88%92%E8%8F%B8%E8%A8%88%E6%95%B8%E5%99%A8/id6760842941?uo=4"
+    },
+    {
+      "country": "fr",
+      "url": "https://itunes.apple.com/lookup?id=6760842941&country=fr",
+      "checkedAt": "2026-09-06T19:34:51.544249+00:00",
+      "httpStatus": 200,
+      "trackName": "SmokeLess - Compteur tabac",
+      "version": "1.1.1",
+      "currentVersionReleaseDate": "2026-09-04T15:04:00Z",
+      "releaseNotes": "Vous pouvez désormais consulter le nom de l’app, sa version et son numéro de build en bas des Paramètres.",
+      "minimumOsVersion": "14.0",
+      "trackViewUrl": "https://apps.apple.com/fr/app/smokeless-compteur-tabac/id6760842941?uo=4"
+    },
+    {
+      "country": "kr",
+      "url": "https://itunes.apple.com/lookup?id=6760842941&country=kr",
+      "checkedAt": "2026-09-06T19:34:51.915562+00:00",
+      "httpStatus": 200,
+      "trackName": "SmokeLess - 금연 카운터",
+      "version": "1.1.1",
+      "currentVersionReleaseDate": "2026-09-04T15:04:00Z",
+      "releaseNotes": "이제 설정 화면 하단에서 앱 이름, 버전 및 빌드 번호를 확인할 수 있습니다.",
+      "minimumOsVersion": "14.0",
+      "trackViewUrl": "https://apps.apple.com/kr/app/smokeless-%EA%B8%88%EC%97%B0-%EC%B9%B4%EC%9A%B4%ED%84%B0/id6760842941?uo=4"
+    }
+  ],
+  "websiteOriginalBytes": 314023
+}

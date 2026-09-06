@@ -1,5 +1,171 @@
 {
   "minimumOS": "iOS 14.0",
+  "watch": {
+    "status": "review",
+    "releaseVersion": "1.2.0",
+    "minimumOS": "watchOS 9.0",
+    "media": {
+      "raw": "images/apps/smokeless/watch/recording-ui.png",
+      "localized": {
+        "ja": "images/apps/smokeless/watch/ja/01-recording.png",
+        "fr": "images/apps/smokeless/watch/fr/01-recording.png",
+        "ko": "images/apps/smokeless/watch/ko/01-recording.png",
+        "zh-hant": "images/apps/smokeless/watch/zh-hant/01-recording.png"
+      }
+    },
+    "locales": {
+      "ja": {
+        "platformPending": "（近日対応）",
+        "statusReview": "Apple Watch対応版・審査中",
+        "heroReview": "Apple Watch対応版は審査中です。公開後、手元で「喫煙」「我慢」を記録できるようになります。",
+        "heroPublished": "Apple Watchからも「喫煙」「我慢」を記録できます。広告削除または銘柄追加パックの購入特典です。",
+        "reviewNotice": "Apple Watch対応版1.2.0は審査中です。以下は公開後に利用できる機能です。",
+        "title": "Apple Watchから1タップで記録。",
+        "description": "iPhoneを取り出さずに、「喫煙」「我慢」を1件ずつ記録。左の緑ボタンが我慢、右の赤ボタンが喫煙です。",
+        "counts": "ボタンの数字で当日の回数を確認できます。履歴やグラフはiPhoneで振り返れます。",
+        "sync": "iPhoneが未接続でも、記録はWatchに一時保存。再接続後にiPhoneへ同期します。初回はiPhoneから購入権利の確認が必要です。",
+        "requirement": "Apple Watch機能は、広告削除または銘柄追加パックの購入特典です。購入・復元はiPhoneアプリで行います。",
+        "environment": "watchOS 9以降のApple Watchと、ペアリング済みの対応iPhoneが必要です。両方に対応版をインストールしてください。",
+        "phoneCaption": "iPhoneで当日の記録と金額を確認。",
+        "watchAlt": "すわなびのApple Watch画面。左の緑ボタンに我慢3回、右の赤ボタンに喫煙2回を表示するApp Store提出用スクリーンショット",
+        "watchCaption": "審査提出用のWatch画面。",
+        "guideTitle": "Apple Watchで記録する",
+        "guideImageAlt": "すわなびのApple Watch実画面。左の緑が我慢、右の赤が喫煙。中央の数字は当日の件数",
+        "guideCaption": "左の緑：我慢／右の赤：喫煙。数字はそれぞれ当日の件数です。",
+        "guideSteps": [
+          {"title": "使う前の準備", "description": "対応版をiPhoneとApple Watchにインストールします。iPhoneのすわなびを起動して、広告削除または銘柄追加パックの購入権利を確認した後、Watchアプリを開きます。購入済みなのにロック画面が出る場合は、iPhoneの「設定」で購入を復元してください。"},
+          {"title": "我慢・喫煙を1件記録", "description": "左の緑ボタンをタップすると「我慢」、右の赤ボタンをタップすると「喫煙」を記録します。「我慢」は吸いたいと思ったが吸わなかった記録です。確認画面を挟まず、その場で件数が増えます。"},
+          {"title": "今日の件数を見る", "description": "左右のボタンに、それぞれ当日の件数を表示します。過去の履歴やグラフを見たいとき、記録を削除したいときは、iPhoneのすわなびを使ってください。"},
+          {"title": "iPhoneと同期する", "description": "最初に購入権利を確認した後は、iPhoneが未接続でもWatchで記録できます。記録はWatchに一時保存され、再接続後にiPhoneへ同期します。反映されない場合は、接続を確認して両方のアプリを開いてください。記録日時はWatchでタップした時刻のままです。"}
+        ]
+      },
+      "en": {
+        "platformPending": " (coming soon)",
+        "statusReview": "Apple Watch update in review",
+        "heroReview": "The Apple Watch update is in review. Once released, you will be able to log smoked or avoided cigarettes from your wrist.",
+        "heroPublished": "Log smoked or avoided cigarettes from Apple Watch, included with a Remove Ads or Extra Brands Pack purchase.",
+        "reviewNotice": "Apple Watch support in version 1.2.0 is in review. The features below will be available after release.",
+        "title": "Record with one tap on Apple Watch.",
+        "description": "Log a smoked or avoided cigarette without taking out your iPhone. Tap the green button on the left for an avoided cigarette, or the red button on the right for a smoked one.",
+        "counts": "The numbers show today’s counts. Review history and charts on your iPhone.",
+        "sync": "Records stay on your Watch while your iPhone is disconnected and sync after reconnecting. Purchase access must first be confirmed through the iPhone app.",
+        "requirement": "Apple Watch recording is included with a Remove Ads or Extra Brands Pack purchase. Purchase or restore access in the iPhone app.",
+        "environment": "Requires Apple Watch with watchOS 9 or later and a compatible paired iPhone. Install the supporting update on both devices.",
+        "phoneCaption": "Review today’s records and costs on iPhone. Screen shown in Japanese.",
+        "watchAlt": "Smokeless on Apple Watch: the green left button shows 3 avoided cigarettes and the red right button shows 2 smoked cigarettes today",
+        "watchCaption": "Actual Apple Watch app screen.",
+        "guideTitle": "Record on Apple Watch",
+        "guideImageAlt": "Smokeless Apple Watch screen. Green on the left records an avoided cigarette; red on the right records a smoked cigarette. Numbers show today’s counts",
+        "guideCaption": "Green, left: avoided. Red, right: smoked. Each number is today’s count.",
+        "guideSteps": [
+          {"title": "Set up access", "description": "Install the supporting update on your iPhone and Apple Watch. Open Smokeless on iPhone to confirm your Remove Ads or Extra Brands Pack purchase, then open the Watch app. If it remains locked after a purchase, restore purchases in the iPhone app’s Settings."},
+          {"title": "Record one cigarette", "description": "Tap green on the left when you wanted to smoke but did not, or red on the right when you smoked. The count increases immediately, without a confirmation screen."},
+          {"title": "Check today’s counts", "description": "Each button shows its count for today. Use Smokeless on iPhone to review past records and charts or to delete a record."},
+          {"title": "Sync with iPhone", "description": "After purchase access has first been confirmed, you can record while your iPhone is disconnected. Records are stored temporarily on your Watch and sync after reconnection. If a record has not appeared, check the connection and open both apps. Records retain the time you tapped on your Watch."}
+        ]
+      },
+      "ko": {
+        "platformPending": " (지원 예정)",
+        "statusReview": "Apple Watch 지원 버전 심사 중",
+        "heroReview": "Apple Watch 지원 버전은 심사 중입니다. 출시 후 손목에서 흡연하거나 참은 횟수를 기록할 수 있습니다.",
+        "heroPublished": "Apple Watch에서도 흡연하거나 참은 횟수를 기록할 수 있습니다. 광고 제거 또는 브랜드 추가 팩 구매 혜택입니다.",
+        "reviewNotice": "Apple Watch를 지원하는 1.2.0 버전은 심사 중입니다. 아래 기능은 출시 후 이용할 수 있습니다.",
+        "title": "Apple Watch에서 한 번 탭하여 기록.",
+        "description": "iPhone을 꺼내지 않고 흡연하거나 참은 횟수를 한 건씩 기록하세요. 왼쪽 초록색 버튼은 참음, 오른쪽 빨간색 버튼은 흡연입니다.",
+        "counts": "버튼의 숫자로 오늘의 횟수를 확인할 수 있습니다. 이전 기록과 그래프는 iPhone에서 확인하세요.",
+        "sync": "iPhone이 연결되지 않아도 Watch에 기록이 임시 저장되며, 다시 연결되면 동기화됩니다. 처음에는 iPhone 앱에서 구매 권한을 확인해야 합니다.",
+        "requirement": "Apple Watch 기록은 광고 제거 또는 브랜드 추가 팩의 구매 혜택입니다. 구매와 복원은 iPhone 앱에서 진행합니다.",
+        "environment": "watchOS 9 이상인 Apple Watch와 페어링된 호환 iPhone이 필요합니다. 두 기기에 지원 버전을 설치하세요.",
+        "phoneCaption": "iPhone에서 오늘의 기록과 금액을 확인. 화면은 일본어입니다.",
+        "watchAlt": "Smokeless의 Apple Watch App Store 제출용 스크린샷. 왼쪽 초록색 버튼에 오늘 참은 횟수 3회, 오른쪽 빨간색 버튼에 흡연 2회 표시",
+        "watchCaption": "Apple Watch 버전의 App Store 제출용 스크린샷.",
+        "guideTitle": "Apple Watch에서 기록하기",
+        "guideImageAlt": "Smokeless Apple Watch 실제 화면. 왼쪽 초록색은 참음, 오른쪽 빨간색은 흡연이며 숫자는 오늘의 횟수",
+        "guideCaption": "왼쪽 초록색: 참음. 오른쪽 빨간색: 흡연. 숫자는 각각 오늘의 횟수입니다.",
+        "guideSteps": [
+          {"title": "사용 전 준비", "description": "iPhone과 Apple Watch에 지원 버전을 설치합니다. iPhone의 Smokeless를 열어 광고 제거 또는 브랜드 추가 팩 구매 권한을 확인한 후 Watch 앱을 엽니다. 구매했는데도 잠금 화면이 나타나면 iPhone 앱의 설정에서 구매를 복원하세요."},
+          {"title": "참음 또는 흡연 한 건 기록", "description": "피우고 싶었지만 피우지 않았다면 왼쪽 초록색 버튼을, 담배를 피웠다면 오른쪽 빨간색 버튼을 탭합니다. 확인 화면 없이 즉시 횟수가 늘어납니다."},
+          {"title": "오늘의 횟수 보기", "description": "각 버튼에 오늘의 횟수가 표시됩니다. 이전 기록이나 그래프를 보거나 기록을 삭제하려면 iPhone의 Smokeless를 사용하세요."},
+          {"title": "iPhone과 동기화", "description": "처음 구매 권한을 확인한 뒤에는 iPhone이 연결되지 않아도 Watch에서 기록할 수 있습니다. Watch에 임시 저장된 기록은 다시 연결되면 iPhone으로 동기화됩니다. 반영되지 않으면 연결을 확인하고 두 앱을 여세요. 기록 시간은 Watch에서 탭한 시각으로 유지됩니다."}
+        ]
+      },
+      "de": {
+        "platformPending": " (demnächst)",
+        "statusReview": "Apple-Watch-Update in Prüfung",
+        "heroReview": "Das Apple-Watch-Update wird geprüft. Nach der Veröffentlichung können Sie gerauchte und vermiedene Zigaretten direkt am Handgelenk erfassen.",
+        "heroPublished": "Gerauchte und vermiedene Zigaretten auch auf der Apple Watch erfassen – enthalten beim Kauf der Werbeentfernung oder des zusätzlichen Markenpakets.",
+        "reviewNotice": "Version 1.2.0 mit Apple-Watch-Unterstützung wird geprüft. Die folgenden Funktionen sind nach der Veröffentlichung verfügbar.",
+        "title": "Mit einem Tippen auf der Apple Watch erfassen.",
+        "description": "Erfassen Sie eine gerauchte oder vermiedene Zigarette, ohne das iPhone herauszunehmen. Grün links steht für vermieden, Rot rechts für geraucht.",
+        "counts": "Die Zahlen zeigen die heutigen Zähler. Verlauf und Diagramme finden Sie auf dem iPhone.",
+        "sync": "Ohne Verbindung zum iPhone bleiben Einträge vorübergehend auf der Watch und werden nach dem Wiederverbinden synchronisiert. Der Kauf muss zunächst über die iPhone-App bestätigt werden.",
+        "requirement": "Die Watch-Aufzeichnung ist beim Kauf der Werbeentfernung oder des zusätzlichen Markenpakets enthalten. Kaufen oder Käufe wiederherstellen können Sie in der iPhone-App.",
+        "environment": "Erfordert eine Apple Watch mit watchOS 9 oder neuer und ein kompatibles gekoppeltes iPhone. Installieren Sie die unterstützende Version auf beiden Geräten.",
+        "phoneCaption": "Heutige Einträge und Kosten auf dem iPhone prüfen. Bildschirm auf Japanisch.",
+        "watchAlt": "Smokeless auf der Apple Watch: Die grüne Taste links zeigt heute 3 vermiedene, die rote Taste rechts 2 gerauchte Zigaretten",
+        "watchCaption": "Echter Bildschirm der Apple-Watch-App.",
+        "guideTitle": "Auf der Apple Watch erfassen",
+        "guideImageAlt": "Smokeless auf der Apple Watch. Grün links erfasst eine vermiedene, Rot rechts eine gerauchte Zigarette. Die Zahlen zeigen die heutigen Zähler",
+        "guideCaption": "Grün links: vermieden. Rot rechts: geraucht. Die Zahlen gelten jeweils für heute.",
+        "guideSteps": [
+          {"title": "Zugang einrichten", "description": "Installieren Sie die unterstützende Version auf iPhone und Apple Watch. Öffnen Sie Smokeless auf dem iPhone, um den Kauf der Werbeentfernung oder des Markenpakets zu bestätigen, und danach die Watch-App. Bleibt sie trotz Kauf gesperrt, stellen Sie Käufe in den Einstellungen der iPhone-App wieder her."},
+          {"title": "Eine Zigarette erfassen", "description": "Tippen Sie links auf Grün, wenn Sie rauchen wollten, es aber nicht getan haben. Tippen Sie rechts auf Rot, wenn Sie geraucht haben. Der Zähler steigt sofort, ohne Bestätigungsbildschirm."},
+          {"title": "Heutige Zähler prüfen", "description": "Jede Taste zeigt die heutige Anzahl. Frühere Einträge und Diagramme ansehen oder einen Eintrag löschen können Sie in Smokeless auf dem iPhone."},
+          {"title": "Mit dem iPhone synchronisieren", "description": "Nach der ersten Kaufbestätigung können Sie auch ohne iPhone-Verbindung auf der Watch erfassen. Einträge werden dort zwischengespeichert und nach dem Wiederverbinden synchronisiert. Fehlt ein Eintrag, prüfen Sie die Verbindung und öffnen Sie beide Apps. Der Zeitpunkt des Tippens auf der Watch bleibt erhalten."}
+        ]
+      },
+      "fr": {
+        "platformPending": " (bientôt)",
+        "statusReview": "Version Apple Watch en cours de validation",
+        "heroReview": "La version Apple Watch est en cours de validation. Après sa publication, vous pourrez noter les cigarettes fumées ou évitées depuis votre poignet.",
+        "heroPublished": "Notez aussi les cigarettes fumées ou évitées sur Apple Watch, avec l’achat de la suppression des publicités ou du pack de marques supplémentaires.",
+        "reviewNotice": "La version 1.2.0 avec prise en charge de l’Apple Watch est en cours de validation. Les fonctions ci-dessous seront disponibles après sa publication.",
+        "title": "Un geste pour noter sur Apple Watch.",
+        "description": "Notez une cigarette fumée ou évitée sans sortir votre iPhone. Le bouton vert à gauche sert aux cigarettes évitées ; le rouge à droite, aux cigarettes fumées.",
+        "counts": "Les nombres indiquent les compteurs du jour. Retrouvez l’historique et les graphiques sur iPhone.",
+        "sync": "Sans connexion à l’iPhone, les relevés sont conservés temporairement sur la Watch et synchronisés à la reconnexion. L’achat doit d’abord être confirmé depuis l’app iPhone.",
+        "requirement": "L’enregistrement sur Apple Watch est inclus avec la suppression des publicités ou le pack de marques supplémentaires. L’achat et la restauration se font dans l’app iPhone.",
+        "environment": "Nécessite une Apple Watch sous watchOS 9 ou ultérieur et un iPhone compatible jumelé. Installez la version correspondante sur les deux appareils.",
+        "phoneCaption": "Consultez les relevés et les montants du jour sur iPhone. Écran en japonais.",
+        "watchAlt": "Capture App Store de Smokeless sur Apple Watch : le bouton vert à gauche affiche 3 cigarettes évitées aujourd’hui, le rouge à droite 2 cigarettes fumées",
+        "watchCaption": "Capture de la version Apple Watch préparée pour l’App Store.",
+        "guideTitle": "Enregistrer sur Apple Watch",
+        "guideImageAlt": "Écran réel de Smokeless sur Apple Watch. Vert à gauche pour une cigarette évitée, rouge à droite pour une cigarette fumée. Les nombres sont ceux du jour",
+        "guideCaption": "Vert à gauche : évitée. Rouge à droite : fumée. Chaque nombre correspond au total du jour.",
+        "guideSteps": [
+          {"title": "Préparer l’accès", "description": "Installez la version correspondante sur iPhone et Apple Watch. Ouvrez Smokeless sur iPhone pour confirmer l’achat de la suppression des publicités ou du pack de marques, puis ouvrez l’app Watch. Si elle reste verrouillée malgré votre achat, restaurez les achats dans les réglages de l’app iPhone."},
+          {"title": "Noter une cigarette", "description": "Touchez le bouton vert à gauche si vous aviez envie de fumer mais ne l’avez pas fait, ou le bouton rouge à droite si vous avez fumé. Le compteur augmente immédiatement, sans écran de confirmation."},
+          {"title": "Lire les compteurs du jour", "description": "Chaque bouton affiche son total pour aujourd’hui. Pour consulter les anciens relevés et les graphiques ou supprimer un relevé, utilisez Smokeless sur iPhone."},
+          {"title": "Synchroniser avec l’iPhone", "description": "Après la première confirmation d’achat, vous pouvez enregistrer sans connexion à l’iPhone. Les relevés restent temporairement sur la Watch, puis sont synchronisés à la reconnexion. Si un relevé manque, vérifiez la connexion et ouvrez les deux apps. L’heure du geste sur la Watch est conservée."}
+        ]
+      },
+      "zh-hant": {
+        "platformPending": "（即將支援）",
+        "statusReview": "Apple Watch 支援版本審核中",
+        "heroReview": "Apple Watch 支援版本目前審核中。推出後，即可在手腕上記錄吸菸或忍住的次數。",
+        "heroPublished": "也能透過 Apple Watch 記錄吸菸或忍住的次數，適用於已購買移除廣告或品牌擴充包的使用者。",
+        "reviewNotice": "支援 Apple Watch 的 1.2.0 版本目前審核中。以下功能將於版本推出後提供。",
+        "title": "在 Apple Watch 上輕點一下記錄。",
+        "description": "不必拿出 iPhone，就能記錄一次吸菸或忍住。左側綠色按鈕代表忍住，右側紅色按鈕代表吸菸。",
+        "counts": "按鈕上的數字顯示今天的次數。過去記錄與圖表可在 iPhone 上查看。",
+        "sync": "即使未連接 iPhone，記錄也會暫存在 Watch 上，重新連接後再同步。首次使用須先透過 iPhone App 確認購買權限。",
+        "requirement": "Apple Watch 記錄功能適用於已購買移除廣告或品牌擴充包的使用者。購買與回復購買項目請在 iPhone App 進行。",
+        "environment": "需要搭載 watchOS 9 或以上的 Apple Watch，以及已配對的相容 iPhone。請在兩部裝置安裝支援版本。",
+        "phoneCaption": "在 iPhone 查看今天的記錄與金額。畫面為日文。",
+        "watchAlt": "Smokeless 的 Apple Watch App Store 送審截圖。左側綠色按鈕顯示今天忍住 3 次，右側紅色按鈕顯示吸菸 2 次",
+        "watchCaption": "Apple Watch 版本的 App Store 送審截圖。",
+        "guideTitle": "在 Apple Watch 上記錄",
+        "guideImageAlt": "Smokeless Apple Watch 實際畫面。左側綠色代表忍住，右側紅色代表吸菸，數字是今天的次數",
+        "guideCaption": "左側綠色：忍住。右側紅色：吸菸。數字分別為今天的次數。",
+        "guideSteps": [
+          {"title": "使用前的準備", "description": "在 iPhone 與 Apple Watch 安裝支援版本。先開啟 iPhone 的 Smokeless，確認移除廣告或品牌擴充包的購買權限，再開啟 Watch App。如果已購買卻仍顯示鎖定畫面，請在 iPhone App 的設定中回復購買項目。"},
+          {"title": "記錄一次忍住或吸菸", "description": "想抽菸卻沒有抽時，點左側綠色按鈕；實際抽菸時，點右側紅色按鈕。不會跳出確認畫面，次數會立即增加。"},
+          {"title": "查看今天的次數", "description": "兩個按鈕分別顯示今天的次數。需要查看過去記錄、圖表或刪除記錄時，請使用 iPhone 的 Smokeless。"},
+          {"title": "與 iPhone 同步", "description": "首次確認購買權限後，即使未連接 iPhone，也能在 Watch 記錄。記錄會暫存在 Watch，重新連接後再同步到 iPhone。如果尚未反映，請確認連線並開啟兩個 App。記錄時間會保留為在 Watch 上點按的時刻。"}
+        ]
+      }
+    }
+  },
   "locales": {
     "ja": {
       "overviewTitle": "吸った回数も、吸わなかった選択も、記録に。",

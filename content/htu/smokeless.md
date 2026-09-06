@@ -92,3 +92,5 @@ aliases: ["/htu/smoke-less/"]
 
 - [よくある質問 (すわなび)]({{< relref "/faq/smokeless/" >}})
 - [プライバシーポリシー (すわなび)]({{< relref "/privacy/smokeless/" >}})
+
+{{< watch-guide app="smokeless" >}}

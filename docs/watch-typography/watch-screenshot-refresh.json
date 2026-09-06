@@ -1,0 +1,182 @@
+{
+  "checkedAt": "2026-09-06T19:52:37.554Z",
+  "base": "http://127.0.0.1:1314",
+  "pending": false,
+  "ok": true,
+  "cases": 4,
+  "failures": [],
+  "screenshotNote": "Real Chrome screenshots of the built website. Section captures keep tested width and temporarily enlarge viewport height to fit the section, preventing Chrome from painting off-screen fixed elements into a beyond-viewport clip. Test viewport is restored; no CSS or element visibility is modified.",
+  "results": [
+    {
+      "name": "product-ja-1440-light",
+      "locale": "ja",
+      "kind": "product",
+      "width": 1440,
+      "theme": "light",
+      "javaScript": true,
+      "url": "http://127.0.0.1:1314/products/smokeless/",
+      "documentSHA256": "1566ee915238eda1582746e66e40625820c8b93534d4780b84463592db721e8e",
+      "badges": {
+        "count": 2,
+        "href": "https://apps.apple.com/jp/app/id6760842941",
+        "verticalSeparation": 4161.765625
+      },
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "h1Count": 1,
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "images": [
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/01-recording-420.webp",
+            "width": 230,
+            "height": 497,
+            "displayedWidth": 226.046875,
+            "alt": "「吸った」と「我慢した」を記録するすわなびのホーム画面",
+            "loading": "lazy",
+            "explicitWidth": "420",
+            "explicitHeight": "909"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/ja/01-recording_hu_8257fff0cffa289b.webp",
+            "width": 260,
+            "height": 316,
+            "displayedWidth": 265.953125,
+            "alt": "すわなびのApple Watch画面。左の緑ボタンに我慢3回、右の赤ボタンに喫煙2回を表示するApp Store提出用スクリーンショット",
+            "loading": "lazy",
+            "explicitWidth": "422",
+            "explicitHeight": "514"
+          }
+        ],
+        "brokenImages": [],
+        "darkMode": false
+      },
+      "axe": [],
+      "keyboardFocus": true,
+      "screenshot": "watch-product-section-1440.jpg",
+      "heroScreenshot": "smokeless-hero-1440.jpg",
+      "ok": true
+    },
+    {
+      "name": "product-ja-390-light",
+      "locale": "ja",
+      "kind": "product",
+      "width": 390,
+      "theme": "light",
+      "javaScript": true,
+      "url": "http://127.0.0.1:1314/products/smokeless/",
+      "documentSHA256": "1566ee915238eda1582746e66e40625820c8b93534d4780b84463592db721e8e",
+      "badges": {
+        "count": 2,
+        "href": "https://apps.apple.com/jp/app/id6760842941",
+        "verticalSeparation": 6832.75
+      },
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "h1Count": 1,
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "images": [
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/01-recording-420.webp",
+            "width": 171,
+            "height": 371,
+            "displayedWidth": 135.078125,
+            "alt": "「吸った」と「我慢した」を記録するすわなびのホーム画面",
+            "loading": "lazy",
+            "explicitWidth": "420",
+            "explicitHeight": "909"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/ja/01-recording_hu_8b5646746df15b14.webp",
+            "width": 156,
+            "height": 190,
+            "displayedWidth": 158.921875,
+            "alt": "すわなびのApple Watch画面。左の緑ボタンに我慢3回、右の赤ボタンに喫煙2回を表示するApp Store提出用スクリーンショット",
+            "loading": "lazy",
+            "explicitWidth": "422",
+            "explicitHeight": "514"
+          }
+        ],
+        "brokenImages": [],
+        "darkMode": false
+      },
+      "axe": [],
+      "keyboardFocus": true,
+      "screenshot": "watch-product-section-390.jpg",
+      "heroScreenshot": "smokeless-hero-390.jpg",
+      "ok": true
+    },
+    {
+      "name": "guide-ja-1440-light",
+      "locale": "ja",
+      "kind": "guide",
+      "width": 1440,
+      "theme": "light",
+      "javaScript": true,
+      "url": "http://127.0.0.1:1314/htu/smokeless/",
+      "documentSHA256": "6ff278c48d0230a8b515758d89d95943594eb1368e18f08571883fe2be1116a8",
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "h1Count": 1,
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "images": [
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+            "width": 239,
+            "height": 291,
+            "displayedWidth": 230,
+            "alt": "すわなびのApple Watch実画面。左の緑が我慢、右の赤が喫煙。中央の数字は当日の件数",
+            "loading": "lazy",
+            "explicitWidth": "324",
+            "explicitHeight": "394"
+          }
+        ],
+        "brokenImages": [],
+        "darkMode": false
+      },
+      "axe": [],
+      "keyboardFocus": true,
+      "ok": true
+    },
+    {
+      "name": "guide-ja-390-light",
+      "locale": "ja",
+      "kind": "guide",
+      "width": 390,
+      "theme": "light",
+      "javaScript": true,
+      "url": "http://127.0.0.1:1314/htu/smokeless/",
+      "documentSHA256": "6ff278c48d0230a8b515758d89d95943594eb1368e18f08571883fe2be1116a8",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "h1Count": 1,
+        "duplicateIDs": [],
+        "headingSkips": [],
+        "images": [
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+            "width": 209,
+            "height": 255,
+            "displayedWidth": 200,
+            "alt": "すわなびのApple Watch実画面。左の緑が我慢、右の赤が喫煙。中央の数字は当日の件数",
+            "loading": "lazy",
+            "explicitWidth": "324",
+            "explicitHeight": "394"
+          }
+        ],
+        "brokenImages": [],
+        "darkMode": false
+      },
+      "axe": [],
+      "keyboardFocus": true,
+      "screenshot": "watch-guide-390.jpg",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-09-06T19:58:09.838Z",
+  "base": "http://127.0.0.1:1314",
+  "phase": "all",
+  "coverageInput": null,
+  "ok": true,
+  "pending": false,
+  "cases": 88,
+  "failures": [],
+  "warnings": [],
+  "expectedHomeRandomCandidates": [
+    "oto-miru",
+    "giga-poke",
+    "nocca",
+    "uni-note-pocket",
+    "balance-calendar",
+    "smokeless",
+    "signal"
+  ],
+  "expectedHomeVisibleCoverage": [
+    "uni-note",
+    "oto-miru",
+    "giga-poke",
+    "nocca",
+    "uni-note-pocket",
+    "balance-calendar",
+    "smokeless",
+    "signal"
+  ],
+  "homeCandidateCoverage": [
+    "balance-calendar",
+    "giga-poke",
+    "nocca",
+    "oto-miru",
+    "signal",
+    "smokeless",
+    "uni-note",
+    "uni-note-pocket"
+  ],
+  "expectedAreaCandidates": {
+    "learning": [
+      "uni-note",
+      "uni-note-pocket"
+    ],
+    "communication": [
+      "oto-miru",
+      "nocca"
+    ],
+    "utilities": [
+      "giga-poke",
+      "balance-calendar",
+      "smokeless",
+      "signal"
+    ]
+  },
+  "areaCandidateCoverage": {
+    "learning": [
+      "uni-note",
+      "uni-note-pocket"
+    ],
+    "communication": [
+      "nocca",
+      "oto-miru"
+    ],
+    "utilities": [
+      "balance-calendar",
+      "giga-poke",
+      "signal",
+      "smokeless"
+    ]
+  },
+  "method": "Browser navigation/reloads, deterministic seeded Math.random coverage, actual shipped selection script on minimal DOM, no-JS fallback, external-script blocking, axe, and layout-shift observation. No source/data/UI changes from this test.",
+  "limitations": [
+    "Local Chrome lab verification; not real-device or production field data.",
+    "Unseeded reload variation is observational and never used as a probabilistic pass/fail condition.",
+    "PerformanceObserver CLS samples cover initial navigation and controlled full image loading; Fast 3G is Chrome CDP emulation, not a cellular-device measurement."
+  ],
+  "fullEvidence": "selection-verification.json.gz",
+  "fullEvidenceSHA256": "4f4077dfdca5f2a6cb883094335f32840f82f1bc80374165293cc25cd301d9aa",
+  "resultCount": 88
+}

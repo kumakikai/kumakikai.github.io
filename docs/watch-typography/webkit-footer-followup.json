@@ -1,0 +1,2457 @@
+{
+  "checkedAt": "2026-09-06T20:08:00.028Z",
+  "base": "http://127.0.0.1:1314",
+  "phase": "footer-followup",
+  "engine": "webkit",
+  "browserVersion": "26.5",
+  "widths": [
+    1440,
+    1280,
+    1024,
+    768,
+    430,
+    390,
+    375
+  ],
+  "homeSeeds": [
+    1
+  ],
+  "pending": false,
+  "mechanicalPass": true,
+  "cases": 7,
+  "method": "Real browser renders; DOM Range per-character rectangles reconstruct Japanese visual lines. Candidate word splits and short terminal lines require editorial reading; they are not automatically errors. All headings and flagged body paragraphs are recorded. Seeded Math.random changes selection only in the test context. All app IDs must appear as actual live Home Featured.",
+  "limitations": [
+    "Desktop browser viewport emulation, not physical iPhone/iPad. DOM word segmentation is an editorial aid, not a Japanese copy verdict. Editorial decisions and screenshots are separately reported."
+  ],
+  "homeCoverage": [
+    "uni-note",
+    "giga-poke",
+    "smokeless",
+    "signal"
+  ],
+  "homeCoverageByWidth": {
+    "375": [
+      "giga-poke",
+      "signal",
+      "smokeless",
+      "uni-note"
+    ],
+    "390": [
+      "giga-poke",
+      "signal",
+      "smokeless",
+      "uni-note"
+    ],
+    "430": [
+      "giga-poke",
+      "signal",
+      "smokeless",
+      "uni-note"
+    ],
+    "768": [
+      "giga-poke",
+      "signal",
+      "smokeless",
+      "uni-note"
+    ],
+    "1024": [
+      "giga-poke",
+      "signal",
+      "smokeless",
+      "uni-note"
+    ],
+    "1280": [
+      "giga-poke",
+      "signal",
+      "smokeless",
+      "uni-note"
+    ],
+    "1440": [
+      "giga-poke",
+      "signal",
+      "smokeless",
+      "uni-note"
+    ]
+  },
+  "expectedFeaturedCandidates": [
+    "uni-note",
+    "oto-miru",
+    "giga-poke",
+    "nocca",
+    "uni-note-pocket",
+    "balance-calendar",
+    "smokeless",
+    "signal"
+  ],
+  "results": [
+    {
+      "name": "webkit---1440-seed1",
+      "route": "/",
+      "width": 1440,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "height": 4980,
+      "supportsAutoPhrase": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "日常の小さな不便を、シンプルなアプリで。",
+          "lines": [
+            "日常の小さな不便を、",
+            "シンプルなアプリで。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 583,
+          "top": 301,
+          "fontSize": "44px",
+          "lineHeight": "70.400002px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "Featured Apps",
+          "lines": [
+            "Featured Apps"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 156,
+          "top": 793,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Uni:Note",
+          "lines": [
+            "Uni:Note"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 74,
+          "top": 933,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "大学のノートを、iPadへ。",
+          "lines": [
+            "大学のノートを、",
+            "iPadへ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 449,
+          "top": 1016,
+          "fontSize": "31.679998px",
+          "lineHeight": "50.688px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケ",
+          "lines": [
+            "ギガポケ"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 65,
+          "top": 1614,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "届いたギガ、期限切れにしない。",
+          "lines": [
+            "届いたギガ、",
+            "期限切れにしない。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 449,
+          "top": 1697,
+          "fontSize": "31.679998px",
+          "lineHeight": "50.688px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "すわなび",
+          "lines": [
+            "すわなび"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 186,
+          "top": 2474,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "吸った回数も、吸わなかった選択も、記録に。",
+          "lines": [
+            "吸った回数も、吸わなかった",
+            "選択も、記録に。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 449,
+          "top": 2557,
+          "fontSize": "31.679998px",
+          "lineHeight": "50.688px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "SIGNAL",
+          "lines": [
+            "SIGNAL"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 65,
+          "top": 3286,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "個人の発信と、気になる話題をひとつの場所へ。",
+          "lines": [
+            "個人の発信と、気になる",
+            "話題をひとつの場所へ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 449,
+          "top": 3370,
+          "fontSize": "31.679998px",
+          "lineHeight": "50.688px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "News",
+          "lines": [
+            "News"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 60,
+          "top": 4052,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "Noccaについて↗",
+          "lines": [
+            "Noccaについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 915,
+          "top": 4141,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケについて↗",
+          "lines": [
+            "ギガポケについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 915,
+          "top": 4219,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+          "lines": [
+            "Android版アプリ公開の壁が思った以上に高かった"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 915,
+          "top": 4298,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "jp-text",
+          "text": "日々の「こうしたい」から。",
+          "lines": [
+            "日々の「こうしたい」から。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 706,
+          "top": 4513,
+          "fontSize": "28.799999px",
+          "lineHeight": "40.32px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "footerText": [
+        {
+          "tag": "p",
+          "class": "footer-trademarks jp-text",
+          "text": "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+          "lines": [
+            "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 760,
+          "top": 4933,
+          "fontSize": "10.4px",
+          "lineHeight": "18.719999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "pretty"
+        }
+      ],
+      "heroLead": {
+        "tag": "p",
+        "class": "hero-lead",
+        "text": "iPhone・iPad向けのアプリを企画・開発・運営しています。",
+        "lines": [
+          "iPhone・iPad向けのアプリを",
+          "企画・開発・運営しています。"
+        ],
+        "splitWords": [],
+        "tinyTail": false,
+        "orphanParticle": false,
+        "width": 400,
+        "top": 465,
+        "fontSize": "16px",
+        "lineHeight": "31.200001px",
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "textWrap": "pretty"
+      },
+      "bodyCount": 25,
+      "bodyLineCount": 22,
+      "bodyCandidates": []
+    },
+    {
+      "name": "webkit---1280-seed1",
+      "route": "/",
+      "width": 1280,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "height": 4969,
+      "supportsAutoPhrase": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "日常の小さな不便を、シンプルなアプリで。",
+          "lines": [
+            "日常の小さな不便を、",
+            "シンプルなアプリで。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 583,
+          "top": 307,
+          "fontSize": "39.936001px",
+          "lineHeight": "63.897602px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "Featured Apps",
+          "lines": [
+            "Featured Apps"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 156,
+          "top": 793,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Uni:Note",
+          "lines": [
+            "Uni:Note"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 74,
+          "top": 933,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "大学のノートを、iPadへ。",
+          "lines": [
+            "大学のノートを、",
+            "iPadへ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 449,
+          "top": 1016,
+          "fontSize": "28.16px",
+          "lineHeight": "45.056px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケ",
+          "lines": [
+            "ギガポケ"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 65,
+          "top": 1608,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "届いたギガ、期限切れにしない。",
+          "lines": [
+            "届いたギガ、",
+            "期限切れにしない。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 449,
+          "top": 1692,
+          "fontSize": "28.16px",
+          "lineHeight": "45.056px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "すわなび",
+          "lines": [
+            "すわなび"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 186,
+          "top": 2468,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "吸った回数も、吸わなかった選択も、記録に。",
+          "lines": [
+            "吸った回数も、吸わなかった",
+            "選択も、記録に。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 449,
+          "top": 2552,
+          "fontSize": "28.16px",
+          "lineHeight": "45.056px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "SIGNAL",
+          "lines": [
+            "SIGNAL"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 65,
+          "top": 3281,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "個人の発信と、気になる話題をひとつの場所へ。",
+          "lines": [
+            "個人の発信と、気になる",
+            "話題をひとつの場所へ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 449,
+          "top": 3364,
+          "fontSize": "28.16px",
+          "lineHeight": "45.056px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "News",
+          "lines": [
+            "News"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 60,
+          "top": 4041,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "Noccaについて↗",
+          "lines": [
+            "Noccaについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 915,
+          "top": 4129,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケについて↗",
+          "lines": [
+            "ギガポケについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 915,
+          "top": 4208,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+          "lines": [
+            "Android版アプリ公開の壁が思った以上に高かった"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 915,
+          "top": 4287,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "jp-text",
+          "text": "日々の「こうしたい」から。",
+          "lines": [
+            "日々の「こうしたい」から。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 706,
+          "top": 4501,
+          "fontSize": "28.799999px",
+          "lineHeight": "40.32px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "footerText": [
+        {
+          "tag": "p",
+          "class": "footer-trademarks jp-text",
+          "text": "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+          "lines": [
+            "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 760,
+          "top": 4922,
+          "fontSize": "10.4px",
+          "lineHeight": "18.719999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "pretty"
+        }
+      ],
+      "heroLead": {
+        "tag": "p",
+        "class": "hero-lead",
+        "text": "iPhone・iPad向けのアプリを企画・開発・運営しています。",
+        "lines": [
+          "iPhone・iPad向けのアプリを",
+          "企画・開発・運営しています。"
+        ],
+        "splitWords": [],
+        "tinyTail": false,
+        "orphanParticle": false,
+        "width": 400,
+        "top": 459,
+        "fontSize": "16px",
+        "lineHeight": "31.200001px",
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "textWrap": "pretty"
+      },
+      "bodyCount": 25,
+      "bodyLineCount": 22,
+      "bodyCandidates": []
+    },
+    {
+      "name": "webkit---1024-seed1",
+      "route": "/",
+      "width": 1024,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "height": 4362,
+      "supportsAutoPhrase": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "日常の小さな不便を、シンプルなアプリで。",
+          "lines": [
+            "日常の小さな不便を、",
+            "シンプルなアプリで。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 462,
+          "top": 287,
+          "fontSize": "33.599998px",
+          "lineHeight": "53.759998px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "Featured Apps",
+          "lines": [
+            "Featured Apps"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 156,
+          "top": 733,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Uni:Note",
+          "lines": [
+            "Uni:Note"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 74,
+          "top": 845,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "大学のノートを、iPadへ。",
+          "lines": [
+            "大学のノートを、",
+            "iPadへ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 362,
+          "top": 928,
+          "fontSize": "28px",
+          "lineHeight": "44.799999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケ",
+          "lines": [
+            "ギガポケ"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 65,
+          "top": 1413,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "届いたギガ、期限切れにしない。",
+          "lines": [
+            "届いたギガ、",
+            "期限切れにしない。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 362,
+          "top": 1496,
+          "fontSize": "28px",
+          "lineHeight": "44.799999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "すわなび",
+          "lines": [
+            "すわなび"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 186,
+          "top": 2115,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "吸った回数も、吸わなかった選択も、記録に。",
+          "lines": [
+            "吸った回数も、吸わなかった",
+            "選択も、記録に。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 362,
+          "top": 2198,
+          "fontSize": "28px",
+          "lineHeight": "44.799999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "SIGNAL",
+          "lines": [
+            "SIGNAL"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 65,
+          "top": 2769,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "個人の発信と、気になる話題をひとつの場所へ。",
+          "lines": [
+            "個人の発信と、気になる",
+            "話題をひとつの場所へ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 362,
+          "top": 2852,
+          "fontSize": "28px",
+          "lineHeight": "44.799999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "News",
+          "lines": [
+            "News"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 60,
+          "top": 3450,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "Noccaについて↗",
+          "lines": [
+            "Noccaについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 659,
+          "top": 3538,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケについて↗",
+          "lines": [
+            "ギガポケについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 659,
+          "top": 3617,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+          "lines": [
+            "Android版アプリ公開の壁が思った以上に高かった"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 659,
+          "top": 3696,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "jp-text",
+          "text": "日々の「こうしたい」から。",
+          "lines": [
+            "日々の「こうしたい」から。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 546,
+          "top": 3894,
+          "fontSize": "28.799999px",
+          "lineHeight": "40.32px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "footerText": [
+        {
+          "tag": "p",
+          "class": "footer-trademarks jp-text",
+          "text": "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+          "lines": [
+            "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 760,
+          "top": 4315,
+          "fontSize": "10.4px",
+          "lineHeight": "18.719999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "pretty"
+        }
+      ],
+      "heroLead": {
+        "tag": "p",
+        "class": "hero-lead",
+        "text": "iPhone・iPad向けのアプリを企画・開発・運営しています。",
+        "lines": [
+          "iPhone・iPad向けのアプリを",
+          "企画・開発・運営しています。"
+        ],
+        "splitWords": [],
+        "tinyTail": false,
+        "orphanParticle": false,
+        "width": 400,
+        "top": 419,
+        "fontSize": "16px",
+        "lineHeight": "31.200001px",
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "textWrap": "pretty"
+      },
+      "bodyCount": 25,
+      "bodyLineCount": 22,
+      "bodyCandidates": []
+    },
+    {
+      "name": "webkit---768-seed1",
+      "route": "/",
+      "width": 768,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "height": 6846,
+      "supportsAutoPhrase": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "日常の小さな不便を、シンプルなアプリで。",
+          "lines": [
+            "日常の小さな不便を、",
+            "シンプルなアプリで。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 670,
+          "top": 182,
+          "fontSize": "42.400002px",
+          "lineHeight": "67.839996px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "Featured Apps",
+          "lines": [
+            "Featured Apps"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 156,
+          "top": 1133,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Uni:Note",
+          "lines": [
+            "Uni:Note"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 74,
+          "top": 1248,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "大学のノートを、iPadへ。",
+          "lines": [
+            "大学のノートを、",
+            "iPadへ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 570,
+          "top": 1332,
+          "fontSize": "32.799999px",
+          "lineHeight": "52.48px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケ",
+          "lines": [
+            "ギガポケ"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 65,
+          "top": 2250,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "届いたギガ、期限切れにしない。",
+          "lines": [
+            "届いたギガ、",
+            "期限切れにしない。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 570,
+          "top": 2333,
+          "fontSize": "32.799999px",
+          "lineHeight": "52.48px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "すわなび",
+          "lines": [
+            "すわなび"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 186,
+          "top": 3496,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "吸った回数も、吸わなかった選択も、記録に。",
+          "lines": [
+            "吸った回数も、吸わなかった",
+            "選択も、記録に。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 570,
+          "top": 3579,
+          "fontSize": "32.799999px",
+          "lineHeight": "52.48px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "SIGNAL",
+          "lines": [
+            "SIGNAL"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 65,
+          "top": 4647,
+          "fontSize": "17.6px",
+          "lineHeight": "24.639999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "個人の発信と、気になる話題をひとつの場所へ。",
+          "lines": [
+            "個人の発信と、気になる",
+            "話題をひとつの場所へ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 570,
+          "top": 4731,
+          "fontSize": "32.799999px",
+          "lineHeight": "52.48px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "News",
+          "lines": [
+            "News"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 60,
+          "top": 5890,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "Noccaについて↗",
+          "lines": [
+            "Noccaについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 473,
+          "top": 5978,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケについて↗",
+          "lines": [
+            "ギガポケについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 473,
+          "top": 6057,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+          "lines": [
+            "Android版アプリ公開の壁が思った以上に高かった"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 473,
+          "top": 6135,
+          "fontSize": "15.36px",
+          "lineHeight": "27.648001px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "jp-text",
+          "text": "日々の「こうしたい」から。",
+          "lines": [
+            "日々の「こうしたい」から。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 421,
+          "top": 6334,
+          "fontSize": "28.799999px",
+          "lineHeight": "40.32px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "footerText": [
+        {
+          "tag": "p",
+          "class": "footer-trademarks jp-text",
+          "text": "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+          "lines": [
+            "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 708,
+          "top": 6799,
+          "fontSize": "10.4px",
+          "lineHeight": "18.719999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "pretty"
+        }
+      ],
+      "heroLead": {
+        "tag": "p",
+        "class": "hero-lead",
+        "text": "iPhone・iPad向けのアプリを企画・開発・運営しています。",
+        "lines": [
+          "iPhone・iPad向けのアプリを企画・開発・運営しています。"
+        ],
+        "splitWords": [],
+        "tinyTail": false,
+        "orphanParticle": false,
+        "width": 550,
+        "top": 342,
+        "fontSize": "16px",
+        "lineHeight": "31.200001px",
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "textWrap": "pretty"
+      },
+      "bodyCount": 25,
+      "bodyLineCount": 17,
+      "bodyCandidates": []
+    },
+    {
+      "name": "webkit---430-seed1",
+      "route": "/",
+      "width": 430,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 430,
+      "scrollWidth": 430,
+      "height": 8685,
+      "supportsAutoPhrase": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "日常の小さな不便を、シンプルなアプリで。",
+          "lines": [
+            "日常の小さな不便を、",
+            "シンプルなアプリで。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 386,
+          "top": 154,
+          "fontSize": "29.670002px",
+          "lineHeight": "48.955502px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "Featured Apps",
+          "lines": [
+            "Featured Apps"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 136,
+          "top": 924,
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Uni:Note",
+          "lines": [
+            "Uni:Note"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 70,
+          "top": 1009,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "大学のノートを、iPadへ。",
+          "lines": [
+            "大学のノートを、",
+            "iPadへ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 338,
+          "top": 1081,
+          "fontSize": "24.51px",
+          "lineHeight": "40.441502px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケ",
+          "lines": [
+            "ギガポケ"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 61,
+          "top": 2452,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "届いたギガ、期限切れにしない。",
+          "lines": [
+            "届いたギガ、",
+            "期限切れにしない。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 338,
+          "top": 2524,
+          "fontSize": "24.51px",
+          "lineHeight": "40.441502px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "すわなび",
+          "lines": [
+            "すわなび"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 173,
+          "top": 4237,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "吸った回数も、吸わなかった選択も、記録に。",
+          "lines": [
+            "吸った回数も、吸わなかった",
+            "選択も、記録に。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 338,
+          "top": 4309,
+          "fontSize": "24.51px",
+          "lineHeight": "40.441502px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "SIGNAL",
+          "lines": [
+            "SIGNAL"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 61,
+          "top": 5930,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "個人の発信と、気になる話題をひとつの場所へ。",
+          "lines": [
+            "個人の発信と、気になる",
+            "話題をひとつの場所へ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 338,
+          "top": 6002,
+          "fontSize": "24.51px",
+          "lineHeight": "40.441502px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "News",
+          "lines": [
+            "News"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 52,
+          "top": 7711,
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "Noccaについて↗",
+          "lines": [
+            "Noccaについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 386,
+          "top": 7818,
+          "fontSize": "14.56px",
+          "lineHeight": "26.208px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケについて↗",
+          "lines": [
+            "ギガポケについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 386,
+          "top": 7921,
+          "fontSize": "14.56px",
+          "lineHeight": "26.208px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+          "lines": [
+            "Android版アプリ公開の壁が思った以上に高かった"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 386,
+          "top": 8024,
+          "fontSize": "14.56px",
+          "lineHeight": "26.208px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "jp-text",
+          "text": "日々の「こうしたい」から。",
+          "lines": [
+            "日々の「こうしたい」から。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 386,
+          "top": 8218,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "footerText": [
+        {
+          "tag": "p",
+          "class": "footer-trademarks jp-text",
+          "text": "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+          "lines": [
+            "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App",
+            "StoreはApple Inc.のサービスマークです。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 386,
+          "top": 8624,
+          "fontSize": "10.4px",
+          "lineHeight": "18.719999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "pretty"
+        }
+      ],
+      "heroLead": {
+        "tag": "p",
+        "class": "hero-lead",
+        "text": "iPhone・iPad向けのアプリを企画・開発・運営しています。",
+        "lines": [
+          "iPhone・iPad向けのアプリを",
+          "企画・開発・運営しています。"
+        ],
+        "splitWords": [],
+        "tinyTail": false,
+        "orphanParticle": false,
+        "width": 335,
+        "top": 276,
+        "fontSize": "14.4px",
+        "lineHeight": "28.08px",
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "textWrap": "pretty"
+      },
+      "bodyCount": 25,
+      "bodyLineCount": 22,
+      "bodyCandidates": []
+    },
+    {
+      "name": "webkit---390-seed1",
+      "route": "/",
+      "width": 390,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "height": 8566,
+      "supportsAutoPhrase": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "日常の小さな不便を、シンプルなアプリで。",
+          "lines": [
+            "日常の小さな不便を、",
+            "シンプルなアプリで。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 346,
+          "top": 154,
+          "fontSize": "26.91px",
+          "lineHeight": "44.401501px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "Featured Apps",
+          "lines": [
+            "Featured Apps"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 136,
+          "top": 871,
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Uni:Note",
+          "lines": [
+            "Uni:Note"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 70,
+          "top": 957,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "大学のノートを、iPadへ。",
+          "lines": [
+            "大学のノートを、",
+            "iPadへ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 298,
+          "top": 1028,
+          "fontSize": "22.4px",
+          "lineHeight": "36.959999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケ",
+          "lines": [
+            "ギガポケ"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 61,
+          "top": 2333,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "届いたギガ、期限切れにしない。",
+          "lines": [
+            "届いたギガ、",
+            "期限切れにしない。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 298,
+          "top": 2405,
+          "fontSize": "22.4px",
+          "lineHeight": "36.959999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "すわなび",
+          "lines": [
+            "すわなび"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 173,
+          "top": 4132,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "吸った回数も、吸わなかった選択も、記録に。",
+          "lines": [
+            "吸った回数も、吸わなかった",
+            "選択も、記録に。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 298,
+          "top": 4204,
+          "fontSize": "22.4px",
+          "lineHeight": "36.959999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "SIGNAL",
+          "lines": [
+            "SIGNAL"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 61,
+          "top": 5818,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "個人の発信と、気になる話題をひとつの場所へ。",
+          "lines": [
+            "個人の発信と、気になる",
+            "話題をひとつの場所へ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 298,
+          "top": 5890,
+          "fontSize": "22.4px",
+          "lineHeight": "36.959999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "News",
+          "lines": [
+            "News"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 52,
+          "top": 7592,
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "Noccaについて↗",
+          "lines": [
+            "Noccaについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 346,
+          "top": 7699,
+          "fontSize": "14.56px",
+          "lineHeight": "26.208px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケについて↗",
+          "lines": [
+            "ギガポケについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 346,
+          "top": 7802,
+          "fontSize": "14.56px",
+          "lineHeight": "26.208px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+          "lines": [
+            "Android版アプリ公開の壁が思った以上に高かった"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 346,
+          "top": 7905,
+          "fontSize": "14.56px",
+          "lineHeight": "26.208px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "jp-text",
+          "text": "日々の「こうしたい」から。",
+          "lines": [
+            "日々の「こうしたい」から。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 346,
+          "top": 8099,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "footerText": [
+        {
+          "tag": "p",
+          "class": "footer-trademarks jp-text",
+          "text": "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+          "lines": [
+            "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。",
+            "App StoreはApple Inc.のサービスマークです。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 346,
+          "top": 8505,
+          "fontSize": "10.4px",
+          "lineHeight": "18.719999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "pretty"
+        }
+      ],
+      "heroLead": {
+        "tag": "p",
+        "class": "hero-lead",
+        "text": "iPhone・iPad向けのアプリを企画・開発・運営しています。",
+        "lines": [
+          "iPhone・iPad向けのアプリを",
+          "企画・開発・運営しています。"
+        ],
+        "splitWords": [],
+        "tinyTail": false,
+        "orphanParticle": false,
+        "width": 335,
+        "top": 267,
+        "fontSize": "14.4px",
+        "lineHeight": "28.08px",
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "textWrap": "pretty"
+      },
+      "bodyCount": 25,
+      "bodyLineCount": 24,
+      "bodyCandidates": []
+    },
+    {
+      "name": "webkit---375-seed1",
+      "route": "/",
+      "width": 375,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 375,
+      "scrollWidth": 375,
+      "height": 8482,
+      "supportsAutoPhrase": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "日常の小さな不便を、シンプルなアプリで。",
+          "lines": [
+            "日常の小さな不便を、",
+            "シンプルなアプリで。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 331,
+          "top": 154,
+          "fontSize": "25.875px",
+          "lineHeight": "42.693748px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "Featured Apps",
+          "lines": [
+            "Featured Apps"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 136,
+          "top": 852,
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Uni:Note",
+          "lines": [
+            "Uni:Note"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 70,
+          "top": 937,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "大学のノートを、iPadへ。",
+          "lines": [
+            "大学のノートを、",
+            "iPadへ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 283,
+          "top": 1009,
+          "fontSize": "22.4px",
+          "lineHeight": "36.959999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケ",
+          "lines": [
+            "ギガポケ"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 61,
+          "top": 2273,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "届いたギガ、期限切れにしない。",
+          "lines": [
+            "届いたギガ、",
+            "期限切れにしない。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 283,
+          "top": 2345,
+          "fontSize": "22.4px",
+          "lineHeight": "36.959999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "すわなび",
+          "lines": [
+            "すわなび"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 173,
+          "top": 4073,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "吸った回数も、吸わなかった選択も、記録に。",
+          "lines": [
+            "吸った回数も、吸わなかった",
+            "選択も、記録に。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 283,
+          "top": 4145,
+          "fontSize": "22.4px",
+          "lineHeight": "36.959999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "SIGNAL",
+          "lines": [
+            "SIGNAL"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 61,
+          "top": 5734,
+          "fontSize": "16.48px",
+          "lineHeight": "23.071999px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "p",
+          "class": "app-tagline jp-text",
+          "text": "個人の発信と、気になる話題をひとつの場所へ。",
+          "lines": [
+            "個人の発信と、気になる",
+            "話題をひとつの場所へ。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 283,
+          "top": 5806,
+          "fontSize": "22.4px",
+          "lineHeight": "36.959999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "News",
+          "lines": [
+            "News"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 52,
+          "top": 7481,
+          "fontSize": "20px",
+          "lineHeight": "28px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "Noccaについて↗",
+          "lines": [
+            "Noccaについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 331,
+          "top": 7589,
+          "fontSize": "14.56px",
+          "lineHeight": "26.208px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "jp-text",
+          "text": "ギガポケについて↗",
+          "lines": [
+            "ギガポケについて"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 331,
+          "top": 7692,
+          "fontSize": "14.56px",
+          "lineHeight": "26.208px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+          "lines": [
+            "Android版アプリ公開の壁が",
+            "思った以上に高かった"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 331,
+          "top": 7794,
+          "fontSize": "14.56px",
+          "lineHeight": "26.208px",
+          "wordBreak": "normal",
+          "overflowWrap": "break-word",
+          "textWrap": "balance"
+        },
+        {
+          "tag": "h2",
+          "class": "jp-text",
+          "text": "日々の「こうしたい」から。",
+          "lines": [
+            "日々の「こうしたい」から。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 331,
+          "top": 8015,
+          "fontSize": "23.200001px",
+          "lineHeight": "32.48px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "footerText": [
+        {
+          "tag": "p",
+          "class": "footer-trademarks jp-text",
+          "text": "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+          "lines": [
+            "Apple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。",
+            "App StoreはApple Inc.のサービスマークです。"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 331,
+          "top": 8421,
+          "fontSize": "10.4px",
+          "lineHeight": "18.719999px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "pretty"
+        }
+      ],
+      "heroLead": {
+        "tag": "p",
+        "class": "hero-lead",
+        "text": "iPhone・iPad向けのアプリを企画・開発・運営しています。",
+        "lines": [
+          "iPhone・iPad向けのアプリを",
+          "企画・開発・運営しています。"
+        ],
+        "splitWords": [],
+        "tinyTail": false,
+        "orphanParticle": false,
+        "width": 331,
+        "top": 264,
+        "fontSize": "14.4px",
+        "lineHeight": "28.08px",
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "textWrap": "pretty"
+      },
+      "bodyCount": 25,
+      "bodyLineCount": 25,
+      "bodyCandidates": []
+    }
+  ]
+}

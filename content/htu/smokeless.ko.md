@@ -93,3 +93,5 @@ Smokeless는 `흡연 기록` 과 `참음 기록` 을 빠르게 기록하고, 나
 
 - [FAQ (Smokeless)]({{< relref "/faq/smokeless/" >}})
 - [개인정보 처리방침 (Smokeless)]({{< relref "/privacy/smokeless/" >}})
+
+{{< watch-guide app="smokeless" >}}

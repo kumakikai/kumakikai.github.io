@@ -1,0 +1,8 @@
+{{- $app := .app -}}
+{{- $text := index (index site.Data.home site.Language.Lang).apps $app.id -}}
+{{- $text.platform -}}
+{{- with (index site.Data.product_details $app.id).watch -}}
+  {{- $watchText := index .locales site.Language.Lang -}}
+  {{- printf " / Apple Watch" -}}
+  {{- if ne .status "published" }}<span class="platform-upcoming">{{ $watchText.platformPending }}</span>{{ end -}}
+{{- end -}}

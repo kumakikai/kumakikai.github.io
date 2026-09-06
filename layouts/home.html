@@ -2,7 +2,7 @@
 {{ $copy := index site.Data.home site.Language.Lang }}{{ $corp := index site.Data.corporate site.Language.Lang }}
 <div class="container portfolio-home">
   <section class="home-hero" aria-labelledby="hero-title">
-    <div class="hero-copy"><p class="eyebrow">KUMAKIKAI / iPhone & iPad Apps</p><h1 id="hero-title">{{ range $copy.heroLines }}<span>{{ . }}</span>{{ end }}</h1><p class="hero-lead">{{ $corp.heroLead }}</p><a class="btn btn-primary" id="support" href="{{ "/products/" | relLangURL }}">{{ $copy.browse }} <span aria-hidden="true">→</span></a></div>
+    <div class="hero-copy"><p class="eyebrow">KUMAKIKAI / iPhone & iPad Apps</p><h1 id="hero-title">{{ range $copy.heroLines }}<span>{{ . }}</span>{{ end }}</h1><p class="hero-lead">{{ partial "heading-text.html" $corp.heroLead }}</p><a class="btn btn-primary" id="support" href="{{ "/products/" | relLangURL }}">{{ $copy.browse }} <span aria-hidden="true">→</span></a></div>
     {{ partial "hero-visual.html" . }}
   </section>
   <section class="portfolio-featured" id="apps" aria-labelledby="featured-title">

@@ -1,0 +1,304 @@
+{
+  "checkedAt": "2026-09-06T19:55:14.989Z",
+  "base": "http://127.0.0.1:1314",
+  "phase": "privacy-followup",
+  "engine": "chrome",
+  "browserVersion": "152.0.7977.82",
+  "widths": [
+    1440,
+    1280,
+    1024,
+    768,
+    430,
+    390,
+    375
+  ],
+  "pending": false,
+  "mechanicalPass": true,
+  "cases": 7,
+  "method": "Real browser renders; DOM Range per-character rectangles reconstruct Japanese visual lines. Candidate word splits and short terminal lines require editorial reading; they are not automatically errors. All headings and flagged body paragraphs are recorded. Seeded Math.random changes selection only in the test context. All app IDs must appear as actual live Home Featured.",
+  "limitations": [
+    "Desktop browser viewport emulation, not physical iPhone/iPad. DOM word segmentation is an editorial aid, not a Japanese copy verdict. Editorial decisions and screenshots are separately reported."
+  ],
+  "homeCoverage": [],
+  "homeCoverageByWidth": {
+    "375": [],
+    "390": [],
+    "430": [],
+    "768": [],
+    "1024": [],
+    "1280": [],
+    "1440": []
+  },
+  "expectedFeaturedCandidates": [
+    "uni-note",
+    "oto-miru",
+    "giga-poke",
+    "nocca",
+    "uni-note-pocket",
+    "balance-calendar",
+    "smokeless",
+    "signal"
+  ],
+  "results": [
+    {
+      "name": "chrome--privacy--1440-seed1",
+      "route": "/privacy/",
+      "width": 1440,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "supportsAutoPhrase": true,
+      "selected": [],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "プライバシーポリシー",
+          "lines": [
+            "プライバシーポリシー"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 860,
+          "top": 158,
+          "fontSize": "43.2px",
+          "lineHeight": "66.96px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "bodyCount": 1,
+      "bodyLineCount": 2,
+      "bodyCandidates": []
+    },
+    {
+      "name": "chrome--privacy--1280-seed1",
+      "route": "/privacy/",
+      "width": 1280,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "height": 1000,
+      "supportsAutoPhrase": true,
+      "selected": [],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "プライバシーポリシー",
+          "lines": [
+            "プライバシーポリシー"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 860,
+          "top": 158,
+          "fontSize": "38.4px",
+          "lineHeight": "59.52px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "bodyCount": 1,
+      "bodyLineCount": 2,
+      "bodyCandidates": []
+    },
+    {
+      "name": "chrome--privacy--1024-seed1",
+      "route": "/privacy/",
+      "width": 1024,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "height": 1000,
+      "supportsAutoPhrase": true,
+      "selected": [],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "プライバシーポリシー",
+          "lines": [
+            "プライバシーポリシー"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 860,
+          "top": 158,
+          "fontSize": "30.72px",
+          "lineHeight": "47.616px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "bodyCount": 1,
+      "bodyLineCount": 2,
+      "bodyCandidates": []
+    },
+    {
+      "name": "chrome--privacy--768-seed1",
+      "route": "/privacy/",
+      "width": 768,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "height": 1000,
+      "supportsAutoPhrase": true,
+      "selected": [],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "プライバシーポリシー",
+          "lines": [
+            "プライバシーポリシー"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 708,
+          "top": 150,
+          "fontSize": "30.4px",
+          "lineHeight": "47.12px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "bodyCount": 1,
+      "bodyLineCount": 2,
+      "bodyCandidates": []
+    },
+    {
+      "name": "chrome--privacy--430-seed1",
+      "route": "/privacy/",
+      "width": 430,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 430,
+      "scrollWidth": 430,
+      "height": 1000,
+      "supportsAutoPhrase": true,
+      "selected": [],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "プライバシーポリシー",
+          "lines": [
+            "プライバシーポリシー"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 386,
+          "top": 119,
+          "fontSize": "28px",
+          "lineHeight": "43.4px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "bodyCount": 1,
+      "bodyLineCount": 2,
+      "bodyCandidates": []
+    },
+    {
+      "name": "chrome--privacy--390-seed1",
+      "route": "/privacy/",
+      "width": 390,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "height": 1000,
+      "supportsAutoPhrase": true,
+      "selected": [],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "プライバシーポリシー",
+          "lines": [
+            "プライバシーポリシー"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 346,
+          "top": 119,
+          "fontSize": "28px",
+          "lineHeight": "43.4px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "bodyCount": 1,
+      "bodyLineCount": 3,
+      "bodyCandidates": []
+    },
+    {
+      "name": "chrome--privacy--375-seed1",
+      "route": "/privacy/",
+      "width": 375,
+      "seed": 1,
+      "mechanicalPass": true,
+      "errors": [],
+      "viewport": 375,
+      "scrollWidth": 375,
+      "height": 1000,
+      "supportsAutoPhrase": true,
+      "selected": [],
+      "brokenImages": [],
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "jp-text",
+          "text": "プライバシーポリシー",
+          "lines": [
+            "プライバシーポリシー"
+          ],
+          "splitWords": [],
+          "tinyTail": false,
+          "orphanParticle": false,
+          "width": 331,
+          "top": 119,
+          "fontSize": "28px",
+          "lineHeight": "43.4px",
+          "wordBreak": "keep-all",
+          "overflowWrap": "anywhere",
+          "textWrap": "balance"
+        }
+      ],
+      "bodyCount": 1,
+      "bodyLineCount": 3,
+      "bodyCandidates": []
+    }
+  ]
+}

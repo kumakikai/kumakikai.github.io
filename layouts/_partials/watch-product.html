@@ -1,0 +1,33 @@
+{{ $app := .app }}{{ $detail := index site.Data.product_details $app.id }}
+{{ with $detail.watch }}
+{{ $text := index .locales site.Language.Lang }}
+{{ $home := index site.Data.home site.Language.Lang }}{{ $appText := index $home.apps $app.id }}
+{{ $assetPath := index .media.localized site.Language.Lang | default .media.raw }}
+{{ $source := resources.Get $assetPath }}
+{{ $image := $source.Resize (printf "%dx webp q90" $source.Width) }}
+{{ $small := $source.Resize (printf "%dx webp q90" (int (math.Ceil (div $source.Width 2.0)))) }}
+{{ $phone := index $app.screenshots 0 }}
+<section class="product-watch" id="apple-watch" data-watch-status="{{ .status }}" aria-labelledby="watch-product-title">
+  <div class="watch-product-grid">
+    <div class="watch-product-copy">
+      <p class="eyebrow">Apple Watch</p>
+      <h2 id="watch-product-title">{{ $text.title }}</h2>
+      {{ if ne .status "published" }}<p class="watch-review-note" role="note">{{ $text.reviewNotice }}</p>{{ end }}
+      <p>{{ $text.description }}</p>
+      <p>{{ $text.counts }}</p>
+      <p>{{ $text.sync }}</p>
+      <div class="watch-requirements"><p>{{ $text.requirement }}</p><p>{{ $text.environment }}</p></div>
+    </div>
+    <div class="watch-product-media">
+      <figure class="watch-phone-figure">
+        <a href="{{ $phone.large }}" aria-label="{{ $appText.name }} — {{ index $appText.imageAlts 0 }} — {{ $home.expandImage }}"><img src="{{ $phone.small }}" srcset="{{ $phone.small }} {{ $phone.width }}w, {{ $phone.large }} {{ $phone.largeWidth }}w" sizes="(max-width: 600px) 44vw, 230px" width="{{ $phone.width }}" height="{{ $phone.height }}" alt="{{ index $appText.imageAlts 0 }}" loading="lazy" decoding="async"></a>
+        <figcaption>{{ $text.phoneCaption }}</figcaption>
+      </figure>
+      <figure class="watch-device-figure{{ if eq $assetPath .media.raw }} watch-device-figure--raw{{ end }}">
+        <a href="{{ $image.RelPermalink }}" aria-label="{{ $appText.name }} — Apple Watch — {{ $home.expandImage }}"><img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $image.RelPermalink }} {{ $image.Width }}w" sizes="(max-width: 600px) 40vw, 260px" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $text.watchAlt }}" loading="lazy" decoding="async"></a>
+        <figcaption>{{ $text.watchCaption }}</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+{{ end }}

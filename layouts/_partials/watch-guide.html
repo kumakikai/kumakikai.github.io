@@ -1,0 +1,17 @@
+{{ $detail := index site.Data.product_details .app }}
+{{ with $detail.watch }}
+{{ $text := index .locales site.Language.Lang }}
+{{ $source := resources.Get .media.raw }}
+{{ $image := $source.Resize (printf "%dx webp q90" $source.Width) }}
+{{ $small := $source.Resize (printf "%dx webp q90" (int (math.Ceil (div $source.Width 2.0)))) }}
+<section class="watch-guide" id="apple-watch" data-watch-status="{{ .status }}" aria-labelledby="watch-guide-title">
+  <h2 id="watch-guide-title">{{ $text.guideTitle }}</h2>
+  {{ if ne .status "published" }}<p class="watch-review-note" role="note">{{ $text.reviewNotice }}</p>{{ end }}
+  <p>{{ $text.requirement }}</p>
+  <p>{{ $text.environment }}</p>
+  <div class="watch-guide-layout">
+    <figure class="watch-guide-figure"><a href="{{ $image.RelPermalink }}"><img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $image.RelPermalink }} {{ $image.Width }}w" sizes="(max-width: 600px) 210px, 240px" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $text.guideImageAlt }}" loading="lazy" decoding="async"></a><figcaption>{{ $text.guideCaption }}</figcaption></figure>
+    <ol class="watch-guide-steps">{{ range $text.guideSteps }}<li><h3>{{ .title }}</h3><p>{{ .description }}</p></li>{{ end }}</ol>
+  </div>
+</section>
+{{ end }}

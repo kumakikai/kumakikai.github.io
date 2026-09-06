@@ -4,6 +4,11 @@ const path = require("node:path");
 const { spawnSync } = require("node:child_process");
 
 const root = path.resolve(__dirname, "..");
+const nodeVersion = fs.readFileSync(path.join(root, ".node-version"), "utf8").trim();
+if (process.versions.node !== nodeVersion) {
+  console.error(`Node.js ${nodeVersion} is required (.node-version). This keeps Japanese word boundaries identical locally and in CI.`);
+  process.exit(1);
+}
 const version = fs.readFileSync(path.join(root, ".hugo-version"), "utf8").trim();
 const binary = process.env.HUGO_BINARY || "hugo";
 const probe = spawnSync(binary, ["version"], { encoding: "utf8", cwd: root });

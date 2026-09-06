@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-09-06T19:34:21.722Z",
+  "base": "http://127.0.0.1:1314",
+  "phase": "initial",
+  "engine": "chrome",
+  "widths": [
+    1024,
+    768,
+    390,
+    375
+  ],
+  "pending": false,
+  "mechanicalPass": true,
+  "cases": 64,
+  "method": "Real browser renders; DOM Range per-character rectangles reconstruct Japanese visual lines. Candidate word splits and short terminal lines require editorial reading; they are not automatically errors. All headings and flagged body paragraphs are recorded. Seeded Math.random changes selection only in the test context. All app IDs must appear as actual live Home Featured.",
+  "limitations": [
+    "Desktop browser viewport emulation, not physical iPhone/iPad. DOM word segmentation is an editorial aid, not a Japanese copy verdict. Editorial decisions and screenshots are separately reported."
+  ],
+  "homeCoverage": [
+    "uni-note",
+    "giga-poke",
+    "smokeless",
+    "signal",
+    "oto-miru",
+    "balance-calendar",
+    "uni-note-pocket",
+    "nocca"
+  ],
+  "fullEvidence": "chrome-initial.json.gz",
+  "fullEvidenceSHA256": "02794a0fa04c3377e82528b5f247da435521a72eba76efc623fb69655ae1c905",
+  "resultCount": 64
+}
