@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-09-06T18:33:56.737520+00:00",
+  "sourceCommit": "5f1c06d219742e45dc51523494cb7b237cc7b7bb",
+  "scope": "Final Company CSS and the 192px/384px Founder portrait WebP variants parsed from public/company/index.html.",
+  "hugoBuildRun": {
+    "id": 34052011274,
+    "workflowName": "Deploy Hugo site to GitHub Pages",
+    "status": "completed",
+    "conclusion": "success",
+    "headSha": "5f1c06d219742e45dc51523494cb7b237cc7b7bb",
+    "createdAt": "2026-09-06T18:31:52Z",
+    "updatedAt": "2026-09-06T18:32:14Z",
+    "url": "https://github.com/kumakikai/kumakikai.github.io/actions/runs/34052011274"
+  },
+  "pagesDeploymentRun": {
+    "id": 34052030692,
+    "workflowName": "pages-build-deployment",
+    "status": "completed",
+    "conclusion": "success",
+    "headSha": "4d9229aca18d79025d84f9812e9e54e089e3e0e6",
+    "createdAt": "2026-09-06T18:32:12Z",
+    "updatedAt": "2026-09-06T18:32:36Z",
+    "url": "https://github.com/kumakikai/kumakikai.github.io/actions/runs/34052030692"
+  },
+  "deploymentVerification": {
+    "commands": [
+      "gh run view 34052011274 --json status,conclusion,workflowName,url,headSha,updatedAt,createdAt",
+      "gh run list --limit 6 --json databaseId,status,conclusion,workflowName,headSha,createdAt,updatedAt,url"
+    ],
+    "bothSuccessfulBeforeAssetRequests": true,
+    "pollingNeeded": false
+  },
+  "referenceHTML": {
+    "path": "public/company/index.html",
+    "sha256": "35c7c46b723b2382f9494f80db66db972d5104d4a467a5340bf2cedacf7679f0"
+  },
+  "method": "After Hugo and Pages reported success, perform exactly one HTTPS GET for each of the three parsed paths. Compare response-body SHA256 and byte count with the local public file. No retries or website edits.",
+  "results": [
+    {
+      "path": "/css/main.93ac69378cb814e1c21cdeab72beda325202f8057bae5f13d8e516a7d21c542f.css",
+      "role": "stylesheet",
+      "url": "https://kumakikai.github.io/css/main.93ac69378cb814e1c21cdeab72beda325202f8057bae5f13d8e516a7d21c542f.css",
+      "localFile": "public/css/main.93ac69378cb814e1c21cdeab72beda325202f8057bae5f13d8e516a7d21c542f.css",
+      "localBytes": 59662,
+      "localSHA256": "93ac69378cb814e1c21cdeab72beda325202f8057bae5f13d8e516a7d21c542f",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/css/main.93ac69378cb814e1c21cdeab72beda325202f8057bae5f13d8e516a7d21c542f.css",
+      "contentType": "text/css; charset=utf-8",
+      "cacheControl": "max-age=600",
+      "remoteBytes": 59662,
+      "remoteSHA256": "93ac69378cb814e1c21cdeab72beda325202f8057bae5f13d8e516a7d21c542f",
+      "matches": true
+    },
+    {
+      "path": "/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "role": "founder-portrait",
+      "width": 192,
+      "url": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "localFile": "public/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "localBytes": 4700,
+      "localSHA256": "0fc205019218fd78664ea569a93ef80643ce89ebb1414fea50ce111b56cc5e0e",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "contentType": "image/webp",
+      "cacheControl": "max-age=600",
+      "remoteBytes": 4700,
+      "remoteSHA256": "0fc205019218fd78664ea569a93ef80643ce89ebb1414fea50ce111b56cc5e0e",
+      "matches": true
+    },
+    {
+      "path": "/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "role": "founder-portrait",
+      "width": 384,
+      "url": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "localFile": "public/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "localBytes": 10896,
+      "localSHA256": "6cea19085067823c0d9cfc5e9a33dcbd1b2c08272c838cb7d6b8313e29dc9fd3",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "contentType": "image/webp",
+      "cacheControl": "max-age=600",
+      "remoteBytes": 10896,
+      "remoteSHA256": "6cea19085067823c0d9cfc5e9a33dcbd1b2c08272c838cb7d6b8313e29dc9fd3",
+      "matches": true
+    }
+  ],
+  "summary": {
+    "assetsChecked": 3,
+    "http200": 3,
+    "sha256Matches": 3,
+    "byteMatches": 3,
+    "allPassed": true
+  },
+  "limitations": [
+    "This is the portrait/CSS asset check. The parent handles the separate 277-HTML success and content verification.",
+    "Source main and Pages publishing branch revisions are recorded separately."
+  ]
+}

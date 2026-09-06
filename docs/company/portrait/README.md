@@ -13,3 +13,7 @@
 画像追加後のLighthouseは再計測していません。前回レポートの100点は人物画像追加前の値です。
 
 スクリーンショット：[Desktop](founder-desktop.png) ／ [Mobile](founder-mobile.png) ／ [Desktop Dark](founder-desktop-dark.png) ／ [Mobile Dark](founder-mobile-dark.png)
+
+公開：実装コミット`5f1c06d219742e45dc51523494cb7b237cc7b7bb`をmainへpushし、[Hugo CI](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34052011274)・[Pages](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34052030692)が成功。[公開URL検証](public-verification.json)で277件すべてHTTP 200・ローカルbuildとSHA256一致を確認しました。
+
+[本番アセット](public-assets.json)も人物WebP192px／384pxとCSSの3件すべてHTTP 200・SHA256／byte数一致。人物画像は通常4,700bytes、Retina10,896bytesです。
