@@ -1,378 +1,412 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使い方 on KUMAKIKAI</title><link>https://kumakikai.github.io/htu/</link><description>Recent content in 使い方 on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><atom:link href="https://kumakikai.github.io/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使い方 (Nocca)</title><link>https://kumakikai.github.io/htu/nocca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/nocca/</guid><description>&lt;p&gt;Nocca は、必要なときだけ静かにつながるための家族通信アプリです。&lt;/p&gt;
-&lt;p&gt;現在開発中のため、以下はプロトタイプ 0.0.1 の UI に基づく案内です。正式公開時に、一部の画面や動作が変更される場合があります。&lt;/p&gt;
-&lt;hr&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使い方 on KUMAKIKAI</title><link>https://kumakikai.github.io/htu/</link><description>Recent content in 使い方 on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://kumakikai.github.io/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使い方 (Nocca)</title><link>https://kumakikai.github.io/htu/nocca/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/nocca/</guid><description>&lt;p&gt;Noccaは、家族へ自分のペースで意思を伝えるためのアプリです。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Noccaは現在開発中です。このガイドは公開前の現在のiPhone実装に基づきます。画面内の家族・メッセージ・招待コードは説明用のデモで、実際には利用できません。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id="1-最初に役割を選ぶ"&gt;1. 最初に役割を選ぶ&lt;/h2&gt;
-&lt;p&gt;初回起動時に、端末をどちらとして使うか選びます。&lt;/p&gt;
+&lt;h2 id="1-最初に役割を選ぶ"&gt;最初に役割を選ぶ&lt;/h2&gt;
+&lt;p&gt;本人と家族、それぞれのiPhoneでNoccaを開き、役割を選びます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;本人として使う&lt;/code&gt;: 家族との通信や接続を管理します。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;家族として使う&lt;/code&gt;: 本人からの通知を受け取れます。本人が承認すると接続できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;本人として使う&lt;/strong&gt;：家族との会話や接触に負担を感じていて、自分のペースで意思を伝えたい方。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;家族として使う&lt;/strong&gt;：本人からの意思表示を受け取り、必要なときに返事をする方。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;この画面から &lt;code&gt;このアプリについて&lt;/code&gt; も確認できます。&lt;/p&gt;
-&lt;hr&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/nocca/choose-role_hu_2081bfcf00bb2953.webp" aria-label="画像を拡大: Nocca初回画面の本人として使う・家族として使うボタンと役割の説明"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/nocca/choose-role_hu_eca4e16d2bd35286.webp" srcset="https://kumakikai.github.io/images/guides/nocca/choose-role_hu_eca4e16d2bd35286.webp 560w, https://kumakikai.github.io/images/guides/nocca/choose-role_hu_2081bfcf00bb2953.webp 1050w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1050" height="1050" alt="Nocca初回画面の本人として使う・家族として使うボタンと役割の説明" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;メールアドレスやパスワードの登録は不要です。家族との接続・通信にはインターネット接続が必要です。&lt;/p&gt;
+&lt;div id="未接続のとき" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
-&lt;h2 id="2-本人として使う"&gt;2. 本人として使う&lt;/h2&gt;
-&lt;p&gt;本人側には、下部に &lt;code&gt;意思表示&lt;/code&gt; / &lt;code&gt;会話&lt;/code&gt; / &lt;code&gt;つながり&lt;/code&gt; / &lt;code&gt;設定&lt;/code&gt; のタブがあります。&lt;/p&gt;
-
-&lt;h3 id="意思表示"&gt;意思表示&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;意思表示&lt;/code&gt; では、文章を書かずにワンタップで家族へ必要なことを送れます。&lt;/p&gt;
-&lt;p&gt;初期状態では、次のようなカテゴリの意思表示が用意されています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;食事: &lt;code&gt;ご飯ほしい&lt;/code&gt;、&lt;code&gt;飲み物ほしい&lt;/code&gt;、&lt;code&gt;片付けお願い&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;生活: &lt;code&gt;お風呂入る&lt;/code&gt;、&lt;code&gt;洗濯お願い&lt;/code&gt;、&lt;code&gt;着替えほしい&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;体調・気分: &lt;code&gt;今は話せない&lt;/code&gt;、&lt;code&gt;少ししんどい&lt;/code&gt;、&lt;code&gt;休みたい&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;その他: &lt;code&gt;少し話せる&lt;/code&gt;、&lt;code&gt;ありがとう&lt;/code&gt;、&lt;code&gt;確認してほしい&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;右上の &lt;code&gt;+&lt;/code&gt; から、家族に伝える言葉とアイコンを追加できます。カードを長押しすると、編集、並び替え、削除を選べます。&lt;/p&gt;
-&lt;p&gt;通信を休止している間は、意思表示を送れません。送るには通信を再開してください。&lt;/p&gt;
-
-&lt;h3 id="会話"&gt;会話&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;会話&lt;/code&gt; は、必要なときだけ一時的に開く短い会話です。&lt;/p&gt;
-&lt;p&gt;閉じているときは入力欄を表示せず、&lt;code&gt;今だけ話す&lt;/code&gt; から本人側が会話を開きます。会話中は短いメッセージを送れ、本人側からいつでも閉じられます。&lt;/p&gt;
-&lt;p&gt;家族から会話リクエストが届いた場合は、本人側に &lt;code&gt;家族が少し話したいようです&lt;/code&gt; と表示されます。&lt;code&gt;今だけ話す&lt;/code&gt; または &lt;code&gt;今は閉じたまま&lt;/code&gt; を選べます。&lt;/p&gt;
-
-&lt;h3 id="つながり"&gt;つながり&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;つながり&lt;/code&gt; では、接続中の家族、通信の状態、会話の状態、最近送った意思表示の最新 1 件だけを確認できます。&lt;/p&gt;
-&lt;p&gt;履歴一覧、既読、未読、返信待ち、最終ログイン、入力中表示はありません。&lt;/p&gt;
-
-&lt;h3 id="設定"&gt;設定&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;設定&lt;/code&gt; では、主に次の項目を管理できます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ミュート設定&lt;/li&gt;
-&lt;li&gt;会話リクエスト&lt;/li&gt;
-&lt;li&gt;返信テンプレート&lt;/li&gt;
-&lt;li&gt;家族を招待&lt;/li&gt;
-&lt;li&gt;家族の管理&lt;/li&gt;
-&lt;li&gt;通信を休止する / 通信を再開する&lt;/li&gt;
-&lt;li&gt;アプリについて&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;h2 id="3-家族を招待する"&gt;3. 家族を招待する&lt;/h2&gt;
-&lt;p&gt;本人側の &lt;code&gt;設定 &amp;gt; 家族を招待&lt;/code&gt; から、招待コードまたは招待リンクを共有できます。&lt;/p&gt;</description></item><item><title>使い方 (SIGNAL)</title><link>https://kumakikai.github.io/htu/signal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/signal/</guid><description>&lt;p&gt;SIGNALは、表示したい配信源を選びながら、&lt;code&gt;CREATORS&lt;/code&gt; / &lt;code&gt;TODAY&lt;/code&gt; / &lt;code&gt;NEWS&lt;/code&gt; の3タブで記事を追うニュースフィードアプリです。&lt;/p&gt;
-&lt;p&gt;ログインなしで使え、&lt;code&gt;GOOD&lt;/code&gt; / &lt;code&gt;BAD&lt;/code&gt; や記事の閲覧傾向をもとに、表示順が端末内で少しずつ調整されます。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="1-初回はチュートリアルを見る"&gt;1. 初回はチュートリアルを見る&lt;/h2&gt;
-&lt;p&gt;初回起動時はチュートリアルが表示されます。
-迷ったときは &lt;code&gt;設定&lt;/code&gt; の &lt;code&gt;チュートリアルを見る&lt;/code&gt; からいつでも開き直せます。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="2-まずは-today-を見る"&gt;2. まずは &lt;code&gt;TODAY&lt;/code&gt; を見る&lt;/h2&gt;
-&lt;p&gt;中央の &lt;code&gt;TODAY&lt;/code&gt; タブが起点です。
-有効にしている配信源の記事がまとめて表示されます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;下に引くと再読み込みできます&lt;/li&gt;
-&lt;li&gt;下までスクロールすると続きを読み込めます&lt;/li&gt;
-&lt;li&gt;記事カードの &lt;code&gt;GOOD&lt;/code&gt; / &lt;code&gt;BAD&lt;/code&gt; で表示傾向の調整に使うフィードバックを残せます&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;h2 id="3-creators-と-news-を使い分ける"&gt;3. &lt;code&gt;CREATORS&lt;/code&gt; と &lt;code&gt;NEWS&lt;/code&gt; を使い分ける&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;CREATORS&lt;/code&gt; では &lt;code&gt;note&lt;/code&gt; / &lt;code&gt;Zenn&lt;/code&gt; / &lt;code&gt;Qiita&lt;/code&gt; / &lt;code&gt;Hatena&lt;/code&gt; / &lt;code&gt;DevelopersIO&lt;/code&gt; を確認できます&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;NEWS&lt;/code&gt; では &lt;code&gt;Yahooニュース&lt;/code&gt; / &lt;code&gt;Google News&lt;/code&gt; を確認できます&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;TODAY&lt;/code&gt; でまとめて見る使い方も、棚ごとに見る使い方もできます。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="4-記事を開く"&gt;4. 記事を開く&lt;/h2&gt;
-&lt;p&gt;記事カードをタップすると、通常はアプリ内ブラウザで記事を開けます。&lt;/p&gt;
-&lt;p&gt;アプリ内ブラウザでは、次の操作に対応しています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;共有&lt;/li&gt;
-&lt;li&gt;再読み込み&lt;/li&gt;
-&lt;li&gt;外部ブラウザで開く&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;h2 id="5-設定-を調整する"&gt;5. &lt;code&gt;設定&lt;/code&gt; を調整する&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;設定&lt;/code&gt; では主に以下を変更できます。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note Pocket)</title><link>https://kumakikai.github.io/htu/uni-note-pocket/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/uni-note-pocket/</guid><description>&lt;p&gt;Uni:Note Pocket は、&lt;strong&gt;Uni:Note のバックアップを iPhone で見返すための補助アプリ&lt;/strong&gt;です。&lt;br&gt;
-書くためのアプリではなく、バックアップデータを取り込み、ノートや &lt;code&gt;問題集&lt;/code&gt; の閲覧と録音データの再生に絞っています。&lt;/p&gt;
-&lt;p&gt;前提:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;iPhone専用&lt;/li&gt;
-&lt;li&gt;Uni:Note で作成したバックアップ zip、またはこの iPhone にある &lt;code&gt;かんたんバックアップ&lt;/code&gt; が必要&lt;/li&gt;
-&lt;li&gt;編集や同期ではなく、閲覧 / 復習が中心&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;h2 id="1-初回案内を確認する"&gt;1. 初回案内を確認する&lt;/h2&gt;
-&lt;p&gt;初回表示では &lt;strong&gt;Uni:Note Pocket について&lt;/strong&gt; が表示されます。&lt;br&gt;
-ここで、Uni:Note Pocket が Uni:Note の補助アプリであり、使用には Uni:Note のバックアップが必要なことが案内されます。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="2-ホーム画面右下の読み込みアイコンからバックアップを選ぶ"&gt;2. ホーム画面右下の読み込みアイコンからバックアップを選ぶ&lt;/h2&gt;
-&lt;p&gt;ホーム画面右下の &lt;strong&gt;読み込みアイコン&lt;/strong&gt; から、Uni:Note のバックアップ zip を選択します。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;zip を選ぶ&lt;/li&gt;
-&lt;li&gt;アプリが内容を検証する&lt;/li&gt;
-&lt;li&gt;問題がなければ読込完了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;h2 id="3-かんたんバックアップ-を使う"&gt;3. &lt;code&gt;かんたんバックアップ&lt;/code&gt; を使う&lt;/h2&gt;
-&lt;p&gt;この iPhone に Uni:Note の &lt;strong&gt;かんたんバックアップ&lt;/strong&gt; が見つかった場合は、起動時にそのまま読み込むか確認できます。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;設定 &amp;gt; かんたんバックアップ&lt;/code&gt; では、以下を確認できます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;最終更新&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;起動時に自動読込&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;手動で読み込む&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;起動時に自動読込&lt;/strong&gt; をオンにすると、使える &lt;strong&gt;かんたんバックアップ&lt;/strong&gt; がある時だけ、起動時に自動で読み込みます。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="4-ホームで-ノート-と-問題集-を切り替える"&gt;4. ホームで &lt;code&gt;ノート&lt;/code&gt; と &lt;code&gt;問題集&lt;/code&gt; を切り替える&lt;/h2&gt;
-&lt;p&gt;読込後は、ホーム画面で次の情報を確認できます。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note)</title><link>https://kumakikai.github.io/htu/uni-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/uni-note/</guid><description>&lt;p&gt;Uni:Note（大学ノート）は、&lt;strong&gt;Apple Pencilで手書きするための iPad ノートアプリ&lt;/strong&gt;です。&lt;br&gt;
-教科ごとに分けて、ノートごとに整理しながら使えます。&lt;/p&gt;
-&lt;p&gt;対応環境:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;iPad&lt;/li&gt;
-&lt;li&gt;Apple Pencilでの手書きが中心&lt;/li&gt;
-&lt;li&gt;指はスクロールや貼付素材の操作に使います&lt;/li&gt;
-&lt;li&gt;言語は &lt;code&gt;日本語 / English / 한국어 / Deutsch / 繁體中文 / Français&lt;/code&gt; に対応しています&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;h2 id="split-view--slide-over--2ペインで使う"&gt;&lt;code&gt;Split View&lt;/code&gt; / &lt;code&gt;Slide Over&lt;/code&gt; / 2ペインで使う&lt;/h2&gt;
-&lt;p&gt;Uni:Note は iPad のマルチウィンドウ表示に対応しています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;まず Uni:Note を開いた状態で Dock を表示します&lt;/li&gt;
-&lt;li&gt;Dock から別アプリまたは Uni:Note を画面の端へドラッグすると &lt;code&gt;Split View&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Dock から別アプリまたは Uni:Note を重ねる形で置くと &lt;code&gt;Slide Over&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Uni:Note を2つ同時に使いたい場合は、1つ目を開いた状態で Dock の Uni:Note アイコンを長押しし、新しいウインドウを開く項目を選びます。&lt;br&gt;
-2つ目のウインドウを開いた後は、左右に並べれば 2ペインの &lt;code&gt;Split View&lt;/code&gt;、重ねれば &lt;code&gt;Slide Over&lt;/code&gt; として使えます。&lt;/p&gt;
-&lt;p&gt;操作名や見た目は、iPadOS のバージョンによって少し異なる場合があります。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="1-ホームで教科とフォルダを整理する"&gt;1. ホームで教科とフォルダを整理する&lt;/h2&gt;
-&lt;p&gt;ホーム右下の &lt;strong&gt;＋&lt;/strong&gt; から新しい教科を作成します。&lt;/p&gt;</description></item><item><title>使い方 (オトミル)</title><link>https://kumakikai.github.io/htu/oto-miru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/oto-miru/</guid><description>&lt;p&gt;オトミルは、テレビや身近な会話の音声を iPhone / iPad のマイクで読み取り、大きな字幕として表示するアプリです。&lt;/p&gt;
-&lt;p&gt;字幕はその場で読むための機能です。音声、字幕本文、会話内容、テレビ内容、映画内容は保存しません。&lt;/p&gt;
-
-&lt;h2 id="1-利用前に確認すること"&gt;1. 利用前に確認すること&lt;/h2&gt;
-&lt;p&gt;オトミルを使うには、対応端末とマイク権限が必要です。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;iOS 26.0 / iPadOS 26.0 以上&lt;/li&gt;
-&lt;li&gt;Apple Speech の高精度な音声認識が利用できる端末&lt;/li&gt;
-&lt;li&gt;Apple Intelligence / Foundation Models が利用できる端末&lt;/li&gt;
-&lt;li&gt;日本語音声認識が利用できる状態&lt;/li&gt;
-&lt;li&gt;マイクの使用許可&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Apple Intelligence が無効、モデル準備中、端末非対応の場合は、アプリ内に案内が表示されます。案内に従って設定を確認してください。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="2-表示モードを選ぶ"&gt;2. 表示モードを選ぶ&lt;/h2&gt;
-&lt;p&gt;オトミルには、使う人に合わせた 2 つの表示があります。&lt;/p&gt;
-
-&lt;h3 id="シンプルモード高齢者"&gt;シンプルモード（高齢者）&lt;/h3&gt;
-&lt;p&gt;大きなボタンから直接字幕を始める表示です。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;テレビ&lt;/li&gt;
-&lt;li&gt;会話&lt;/li&gt;
-&lt;li&gt;グループ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;細かい設定を減らし、大きい文字と大きい操作で使いやすくしています。&lt;/p&gt;
-
-&lt;h3 id="通常モード"&gt;通常モード&lt;/h3&gt;
-&lt;p&gt;モード切り替えと設定を使いながら利用する表示です。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;テレビ&lt;/li&gt;
-&lt;li&gt;会話&lt;/li&gt;
-&lt;li&gt;グループ&lt;/li&gt;
-&lt;li&gt;映画&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;設定 &amp;gt; 表示 &amp;gt; シンプルモード（高齢者）&lt;/code&gt; で切り替えできます。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="3-字幕をはじめる"&gt;3. 字幕をはじめる&lt;/h2&gt;
+&lt;h2 id="3-家族を招待する"&gt;家族と接続する&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;アプリを開きます。&lt;/li&gt;
-&lt;li&gt;用途に合うモードを選びます。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;字幕をはじめる&lt;/code&gt;、またはシンプルモードの用途ボタンを押します。&lt;/li&gt;
-&lt;li&gt;初回はマイクの使用を許可します。&lt;/li&gt;
-&lt;li&gt;画面に出るマイク案内に従い、端末下側のマイクを音の出る方へ向けます。&lt;/li&gt;
-&lt;li&gt;音声が入ると字幕が表示されます。&lt;/li&gt;
+&lt;li&gt;本人側で&lt;code&gt;設定 &amp;gt; 家族を招待&lt;/code&gt;を開きます。&lt;/li&gt;
+&lt;li&gt;発行された招待コードまたはリンクを家族へ共有します。&lt;/li&gt;
+&lt;li&gt;家族側で&lt;code&gt;招待コードを入力する&lt;/code&gt;からコードを入力し、接続リクエストを送ります。&lt;/li&gt;
+&lt;li&gt;本人側の&lt;code&gt;つながり &amp;gt; 接続を確認する&lt;/code&gt;から相手を確認し、&lt;code&gt;接続する&lt;/code&gt;を選びます。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;字幕を終了するときは &lt;code&gt;字幕を止める&lt;/code&gt; を押します。&lt;/p&gt;
-&lt;hr&gt;
+&lt;figure class="guide-figure guide-figure--screen" style="--guide-image-width: 320px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/nocca/invite-family_hu_adcf1be2faae9080.webp" aria-label="画像を拡大: 本人側の家族を招待画面。招待コードのコピーと招待リンクの共有ボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/nocca/invite-family_hu_31741966ee337f54.webp" srcset="https://kumakikai.github.io/images/guides/nocca/invite-family_hu_31741966ee337f54.webp 320w, https://kumakikai.github.io/images/guides/nocca/invite-family_hu_adcf1be2faae9080.webp 640w" sizes="(max-width: 390px) calc(100vw - 64px), 320px" width="640" height="1385" alt="本人側の家族を招待画面。招待コードのコピーと招待リンクの共有ボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ &lt;figcaption&gt;画像のコードは説明用です。アプリに表示されたコードを共有してください。&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;コードやリンクを渡しただけでは接続は完了しません。本人が承認してから通信できます。&lt;/p&gt;
+&lt;div id="2-本人として使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="意思表示" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
-&lt;h2 id="4-テレビで使う"&gt;4. テレビで使う&lt;/h2&gt;
-&lt;p&gt;テレビの音声が聞き取りづらいときに使います。&lt;/p&gt;
+&lt;h2 id="send-signal"&gt;本人から意思表示を送る&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;意思表示&lt;/code&gt;で、伝えたい言葉のアイコンをタップします。たとえば&lt;code&gt;ご飯ほしい&lt;/code&gt;や&lt;code&gt;今は話せない&lt;/code&gt;を選べます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/nocca/send-signal_hu_1da3fe549f0d1190.webp" aria-label="画像を拡大: 本人側の意思表示画面。ご飯ほしい、飲み物ほしい、片付けお願いのアイコン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/nocca/send-signal_hu_43a3ea219c1f0386.webp" srcset="https://kumakikai.github.io/images/guides/nocca/send-signal_hu_43a3ea219c1f0386.webp 560w, https://kumakikai.github.io/images/guides/nocca/send-signal_hu_1da3fe549f0d1190.webp 1070w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1070" height="730" alt="本人側の意思表示画面。ご飯ほしい、飲み物ほしい、片付けお願いのアイコン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;自分の言葉を追加するときは右上の&lt;code&gt;＋&lt;/code&gt;を使います。アイコンの長押し、または編集操作から、言葉・アイコンの変更、並び替え、削除ができます。&lt;/p&gt;
+&lt;div id="つながり" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="signal-status"&gt;送った意思表示と返信を確認する&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;意思表示&lt;/code&gt;上部の「送った意思表示」で、家族からの返信を確認します。不要になった場合は、完了前なら&lt;code&gt;取り消す&lt;/code&gt;から取り消せます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/nocca/signal-status_hu_58610eba8d6b9e13.webp" aria-label="画像を拡大: 本人側の送った意思表示。家族からの少し待ってねという返信と取り消すボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/nocca/signal-status_hu_1dfa249e0c149eca.webp" srcset="https://kumakikai.github.io/images/guides/nocca/signal-status_hu_1dfa249e0c149eca.webp 560w, https://kumakikai.github.io/images/guides/nocca/signal-status_hu_58610eba8d6b9e13.webp 1070w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1070" height="480" alt="本人側の送った意思表示。家族からの少し待ってねという返信と取り消すボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;div id="5-家族として使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="受信" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="reply"&gt;家族から短い返信を返す&lt;/h2&gt;
+&lt;p&gt;家族側の&lt;code&gt;受信&lt;/code&gt;で届いた意思表示を確認し、必要な返信を選びます。&lt;/p&gt;</description></item><item><title>使い方 (SIGNAL)</title><link>https://kumakikai.github.io/htu/signal/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/signal/</guid><description>&lt;p&gt;記事を探す、読む、配信源を選ぶ操作を紹介します。ログインは不要です。&lt;/p&gt;
+&lt;p&gt;&lt;div id="2-まずは-today-を見る" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="3-creators-と-news-を使い分ける" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;h2 id="browse"&gt;1. タブを選んで記事を探す&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;テレビ&lt;/code&gt; を選びます。&lt;/li&gt;
-&lt;li&gt;iPhone / iPad をテレビやスピーカーの近くに置きます。&lt;/li&gt;
-&lt;li&gt;端末下側のマイクを音の出る方へ向けます。&lt;/li&gt;
-&lt;li&gt;字幕を開始します。&lt;/li&gt;
+&lt;li&gt;中央の &lt;strong&gt;TODAY&lt;/strong&gt; で記事をまとめて確認します。&lt;/li&gt;
+&lt;li&gt;個人発信を読むときは &lt;strong&gt;CREATORS&lt;/strong&gt;、一般ニュースは &lt;strong&gt;NEWS&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;読みたい記事カードをタップします。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;テレビモードでは、横画面でも大きな字幕を読みやすく表示します。話者が変わった場合は、&lt;code&gt;話者1&lt;/code&gt;、&lt;code&gt;話者2&lt;/code&gt;、&lt;code&gt;ナレーション&lt;/code&gt; などのラベルで区切りが分かるように表示する場合があります。&lt;/p&gt;</description></item><item><title>使い方 (ギガポケ)</title><link>https://kumakikai.github.io/htu/giga-poke/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/giga-poke/</guid><description>&lt;p&gt;ギガポケは、povo 2.0から届いたギガコードと外部特典を、期限の近い順に管理するiPhone向けアプリです。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/signal/tabs-and-article_hu_be9433f155a4516d.webp" aria-label="画像を拡大: SIGNAL上部の3タブと、右上にグッド・バッドのボタンがある記事カード"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/signal/tabs-and-article_hu_fed550d7b4b1c92.webp" srcset="https://kumakikai.github.io/images/guides/signal/tabs-and-article_hu_fed550d7b4b1c92.webp 560w, https://kumakikai.github.io/images/guides/signal/tabs-and-article_hu_be9433f155a4516d.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="828" alt="SIGNAL上部の3タブと、右上にグッド・バッドのボタンがある記事カード" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;一覧を下へ引くと再読み込みできます。カード右上の &lt;strong&gt;グッド／バッド&lt;/strong&gt; は、次の読み込み時の表示傾向に反映されます。同じボタンをもう一度タップすると取り消せます。&lt;/p&gt;
+&lt;div id="4-記事を開く" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
-&lt;h2 id="1-特典を登録する"&gt;1. 特典を登録する&lt;/h2&gt;
-&lt;p&gt;登録方法は3つあります。どの方法でも、保存前に特典内容、コードまたはURL、期限などの解析結果を確認・修正できます。&lt;/p&gt;
-
-&lt;h3 id="メールから共有する"&gt;メールから共有する&lt;/h3&gt;
+&lt;h2 id="read"&gt;2. 記事を読む・共有する&lt;/h2&gt;
+&lt;p&gt;記事はアプリ内ブラウザで開きます。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;povo 2.0から届いたメールを開きます。&lt;/li&gt;
-&lt;li&gt;特典名とコードまたは受取URLを含む範囲を選択します。ギガコードは入力期限または有効期限も含めてください。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;共有&lt;/code&gt;を開き、上段の&lt;code&gt;ギガポケ&lt;/code&gt;、または下段の&lt;code&gt;ギガポケにコードを登録&lt;/code&gt;を選びます。&lt;/li&gt;
-&lt;li&gt;特典ごとの内容を確認し、登録します。&lt;/li&gt;
+&lt;li&gt;読み終えたら、左上の &lt;strong&gt;×&lt;/strong&gt; で一覧へ戻ります。&lt;/li&gt;
+&lt;li&gt;共有するときは右上の &lt;strong&gt;⋮&lt;/strong&gt; をタップし、&lt;strong&gt;共有&lt;/strong&gt; を選びます。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;共有シートの表示位置や並び順は、iOSとユーザーの設定により異なります。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/signal/article-menu_hu_7c92977033fd4f85.webp" aria-label="画像を拡大: SIGNALの記事画面上部にある閉じるボタンと右上のメニューボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/signal/article-menu_hu_df219a73e82f86e1.webp" srcset="https://kumakikai.github.io/images/guides/signal/article-menu_hu_df219a73e82f86e1.webp 560w, https://kumakikai.github.io/images/guides/signal/article-menu_hu_7c92977033fd4f85.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="147" alt="SIGNALの記事画面上部にある閉じるボタンと右上のメニューボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;同じメニューから &lt;strong&gt;再読み込み&lt;/strong&gt;、&lt;strong&gt;外部ブラウザで開く&lt;/strong&gt; も選べます。&lt;/p&gt;
+&lt;div id="5-設定-を調整する" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
-&lt;h3 id="コピーペーストする"&gt;コピー＆ペーストする&lt;/h3&gt;
-&lt;p&gt;メールの同じ範囲をコピーし、ギガポケのホームで&lt;code&gt;ペーストして追加&lt;/code&gt;を押します。共有から登録する場合と同じ確認画面が開きます。&lt;/p&gt;
-
-&lt;h3 id="手動で入力する"&gt;手動で入力する&lt;/h3&gt;
-&lt;p&gt;ホーム右上の&lt;code&gt;＋&lt;/code&gt;を押し、1件ずつ入力します。&lt;/p&gt;
-
-&lt;h3 id="登録に必要な情報"&gt;登録に必要な情報&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ギガコード: 特典内容、コード、入力期限または有効期限&lt;/li&gt;
-&lt;li&gt;外部特典: 特典内容、コードまたは受取URL。期限は任意&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;不足している情報をメール受信日などから推測したり、外部サイトを開いて期限を調べたりはしません。複数の特典をまとめて共有した場合は、必要な情報が揃った特典だけを登録できます。&lt;/p&gt;
-
-&lt;h2 id="2-期限の近い特典を確認する"&gt;2. 期限の近い特典を確認する&lt;/h2&gt;
-&lt;p&gt;ホームでは、未使用の特典を次の順に表示します。&lt;/p&gt;
+&lt;h2 id="sources"&gt;3. 配信源を選ぶ&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;ギガコード&lt;/li&gt;
-&lt;li&gt;外部特典&lt;/li&gt;
+&lt;li&gt;記事一覧の右上にある &lt;strong&gt;歯車&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;記事取得サイト設定&lt;/strong&gt; で、読みたい配信源のスイッチをオンにします。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;各カテゴリの中では期限の近い順です。期限が書かれていない外部特典は、期限のある特典の後に&lt;code&gt;期限情報なし&lt;/code&gt;として表示されます。&lt;/p&gt;
-&lt;p&gt;期限日の当日までは有効として表示され、翌日以降にアプリを起動または再表示するとゴミ箱へ整理されます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/signal/source-switches_hu_bd793e55839e2cc6.webp" aria-label="画像を拡大: 設定の「記事取得サイト設定」とnote・Zennの配信スイッチ"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/signal/source-switches_hu_da42bfafe058d46a.webp" srcset="https://kumakikai.github.io/images/guides/signal/source-switches_hu_da42bfafe058d46a.webp 560w, https://kumakikai.github.io/images/guides/signal/source-switches_hu_bd793e55839e2cc6.webp 1106w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1106" height="678" alt="設定の「記事取得サイト設定」とnote・Zennの配信スイッチ" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;CREATORSではnote・Zenn・Qiita・Hatena・DevelopersIO、NEWSではYahooニュース・Google Newsを扱います。有効な配信源の記事はTODAYにも表示されます。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note Pocket)</title><link>https://kumakikai.github.io/htu/uni-note-pocket/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/uni-note-pocket/</guid><description>&lt;p&gt;Uni:Noteで作ったバックアップをiPhoneへ読み込み、ノート・付箋・問題集を見返します。Pocketではノートの作成・編集・同期を行いません。画像はタップして拡大できます。&lt;/p&gt;
+&lt;div id="1-初回案内を確認する" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-ホーム画面右下の読み込みアイコンからバックアップを選ぶ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
-&lt;h2 id="3-特典を使う"&gt;3. 特典を使う&lt;/h2&gt;
-&lt;p&gt;一覧右側のボタンは、実際の動作に合わせて表示が変わります。&lt;/p&gt;
+&lt;h2 id="import"&gt;1. バックアップを読み込む&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;iPadのUni:Noteでバックアップzipを書き出し、iPhoneの「ファイル」から選べる場所に保存します。&lt;/li&gt;
+&lt;li&gt;Pocketの初回案内を閉じ、ホーム右下の読み込みアイコンをタップします。&lt;/li&gt;
+&lt;li&gt;zipを選び、検証と読み込みが終わるまで待ちます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/uni-note-pocket/ja/import-backup_hu_4a0d6f8691c690c6.webp" aria-label="画像を拡大: Pocketホーム下部の読み込みボタンとノート検索欄"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/uni-note-pocket/ja/import-backup_hu_b3e5e2797a232de3.webp" srcset="https://kumakikai.github.io/images/guides/uni-note-pocket/ja/import-backup_hu_b3e5e2797a232de3.webp 560w, https://kumakikai.github.io/images/guides/uni-note-pocket/ja/import-backup_hu_4a0d6f8691c690c6.webp 1110w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1110" height="445" alt="Pocketホーム下部の読み込みボタンとノート検索欄" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ &lt;figcaption&gt;ホーム下部の画面例は英語表示です。右側に読み込みボタン、その下にノート検索欄があります。&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;zipは展開せず、そのまま選びます。元のバックアップは変更しません。読み込みに失敗した場合も、以前に取り込んだデータは保持されます。&lt;/p&gt;
+&lt;div id="4-ホームで-ノート-と-問題集-を切り替える" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="5-ノートを開いてページを見返す" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="6-ページ画面で拡大して確認する" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="read"&gt;2. ノートを開く・検索する&lt;/h2&gt;
+&lt;p&gt;「ノート」で教科を選び、ノート一覧から開きます。「最近使ったノート」から直接再開することもできます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/uni-note-pocket/ja/open-note_hu_b28e41d5eb302033.webp" aria-label="画像を拡大: Uni:Note Pocketのノート切り替え・最近使ったノート・教科一覧"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/uni-note-pocket/ja/open-note_hu_778014585fb8b539.webp" srcset="https://kumakikai.github.io/images/guides/uni-note-pocket/ja/open-note_hu_778014585fb8b539.webp 560w, https://kumakikai.github.io/images/guides/uni-note-pocket/ja/open-note_hu_b28e41d5eb302033.webp 1110w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1110" height="880" alt="Uni:Note Pocketのノート切り替え・最近使ったノート・教科一覧" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;検索欄にノートタイトルの一部を入力すると、すべての教科から探せます。本文・手書き・PDF・教科名は検索対象になりません。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/uni-note-pocket/en/search-notes_hu_cc474f98e8ce650.webp" aria-label="画像を拡大: Uni:Note Pocketのノートタイトル検索欄"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/uni-note-pocket/en/search-notes_hu_2779df095c8eab2e.webp" srcset="https://kumakikai.github.io/images/guides/uni-note-pocket/en/search-notes_hu_2779df095c8eab2e.webp 560w, https://kumakikai.github.io/images/guides/uni-note-pocket/en/search-notes_hu_cc474f98e8ce650.webp 1100w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1100" height="155" alt="Uni:Note Pocketのノートタイトル検索欄" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ &lt;figcaption&gt;検索欄の画面例は英語表示です。位置はiOSのバージョンで異なる場合があります。&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;通常のノートは縦スクロールで読み進め、ピンチやダブルタップで拡大できます。縦ノートは横にページを送ります。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--screen" style="--guide-image-width: 320px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/uni-note-pocket/ja/page-review_hu_385e72a6c6a60a79.webp" aria-label="画像を拡大: Uni:Note Pocketで複数の講義ノートページを連続表示した画面"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/uni-note-pocket/ja/page-review_hu_78f38043021fe614.webp" srcset="https://kumakikai.github.io/images/guides/uni-note-pocket/ja/page-review_hu_78f38043021fe614.webp 320w, https://kumakikai.github.io/images/guides/uni-note-pocket/ja/page-review_hu_385e72a6c6a60a79.webp 640w" sizes="(max-width: 390px) calc(100vw - 64px), 320px" width="640" height="1385" alt="Uni:Note Pocketで複数の講義ノートページを連続表示した画面" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;「設定 → 前回位置から再開」をオンにすると、前回見ていたページから再開できます。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note)</title><link>https://kumakikai.github.io/htu/uni-note/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/uni-note/</guid><description>&lt;p&gt;Apple Pencilで書き始めるところから、PDF、復習、バックアップまでを実画面で案内します。画像は操作部分を抜き出しており、タップすると拡大できます。公開中の3.4.0の基本操作を中心にしています。&lt;/p&gt;
+&lt;div id="1-ホームで教科とフォルダを整理する" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-最初のノートを開く" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="create"&gt;1. 教科と最初のノートを作る&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;ホーム右下の「＋」をタップし、「教科を追加」を選びます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 540px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp" aria-label="画像を拡大: ホーム右下の＋から開く「教科を追加」と「フォルダを作成」のメニュー"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp 540w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="540" height="285" alt="ホーム右下の＋から開く「教科を追加」と「フォルダを作成」のメニュー" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ &lt;figcaption&gt;右下の＋をタップしたあとの作成メニュー。&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;教科名、罫線、紙色、表紙カラーを選びます。&lt;/li&gt;
+&lt;li&gt;作成した教科を開き、最初のノート名を入力します。空欄なら今日の日付で始められます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;教科をまとめたいときは、同じ「＋」からフォルダを作成します。教科をフォルダへドラッグして移動でき、フォルダを削除しても中の教科はホームに戻ります。教科の長押しから名前や紙の設定を編集できます。&lt;/p&gt;
+&lt;div id="3-apple-pencilで書く" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="4-2本指でズームする" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="5-ツールを切り替える" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="9-定規-を使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="write"&gt;2. ペンを選んで書く&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;パレットのペン・蛍光ペン・消しゴムから使う道具を選びます。&lt;/li&gt;
+&lt;li&gt;Apple Pencilで書き、指でスクロールします。2本指のピンチで拡大・縮小できます。&lt;/li&gt;
+&lt;li&gt;最後のページに書き始めると、次のページが自動で追加されます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp" aria-label="画像を拡大: Uni:Noteのペン・蛍光ペン・消しゴム・付箋マーカー・戻る・やり直しパレット"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_6af907cb544e3ed.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_6af907cb544e3ed.webp 560w, https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp 655w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="655" height="150" alt="Uni:Noteのペン・蛍光ペン・消しゴム・付箋マーカー・戻る・やり直しパレット" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;パレットはドラッグで移動できます。ノート上部の「定規」を出すと、指で位置・角度を調整し、近くをApple Pencilでなぞって直線を引けます。「範囲移動」は手書きの線を囲んで移す操作です。写真・PDF・付箋は個別に動かします。&lt;/p&gt;
+&lt;p&gt;縦ノートは横方向にページを送ります。ノートの向きは作成後に変更できません。&lt;/p&gt;
+&lt;div id="6-ノート一覧-と-ページ一覧-を使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="find"&gt;3. ノートを切り替える・探す&lt;/h2&gt;
+&lt;p&gt;ホームの「ノートタイトルを検索」にタイトルの一部を入力し、結果をタップします。検索対象はノートのタイトルです。手書き本文・PDF・教科名は検索しません。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/uni-note/ja/home-search_hu_7b350f746a0ebcd6.webp" aria-label="画像を拡大: Uni:Noteホーム上部のノートタイトル検索欄"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/uni-note/ja/home-search_hu_8693c69367742712.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/ja/home-search_hu_8693c69367742712.webp 560w, https://kumakikai.github.io/images/guides/uni-note/ja/home-search_hu_7b350f746a0ebcd6.webp 670w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="670" height="125" alt="Uni:Noteホーム上部のノートタイトル検索欄" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;ノート画面の「ノート一覧」から同じ教科の別ノートを開いたり、「新規ノート」を追加したりできます。ノート一覧を左へスワイプすると名前変更・保護・削除を選べます。「ページ一覧」はサムネイルをタップして移動し、長押しでページを削除します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.5.0の公開前情報:&lt;/strong&gt; 教科カード内から「ノート一覧」を開く導線や、ノート画面のボタン配置・パレットのカスタマイズが追加されています。公開中の3.4.0では上記のノート画面から操作してください。&lt;/p&gt;
+&lt;div id="7-その他-メニューを使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="8-写真とpdfを使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="pdf"&gt;4. 写真・PDFを入れる、書き出す&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;ノート画面右上の「その他」を開きます。&lt;/li&gt;
+&lt;li&gt;「写真貼付」「写真を書類として貼付」「PDF貼付」から素材を選びます。&lt;/li&gt;
+&lt;li&gt;PDFは必要なページを選んで貼り付けます。見開き資料は「見開きを分割」を選べます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 460px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/uni-note/ja/attachment-menu_hu_e3feefa9ba739ba3.webp" aria-label="画像を拡大: Uni:Noteのその他メニューにある写真貼付・書類写真・PDF貼付・PDF出力"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/uni-note/ja/attachment-menu_hu_e3feefa9ba739ba3.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/ja/attachment-menu_hu_e3feefa9ba739ba3.webp 460w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="460" height="335" alt="Uni:Noteのその他メニューにある写真貼付・書類写真・PDF貼付・PDF出力" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;貼り付けた写真・PDFは指で選択して移動・拡大縮小し、ダブルタップで固定・固定解除します。固定した資料の上にもApple Pencilで書き込めます。&lt;/p&gt;</description></item><item><title>使い方 (オトミル)</title><link>https://kumakikai.github.io/htu/oto-miru/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/oto-miru/</guid><description>&lt;p&gt;オトミルは、iPhone / iPadのマイクで拾った音声を、大きな日本語字幕で表示します。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;このガイドは最新の提出用素材と開発版で確認した画面に基づきます。現在App Storeで配信中のバージョンとは、画面や設定が異なる場合があります。字幕の画像は操作説明用のサンプルです。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="1-利用前に確認すること"&gt;利用前に確認すること&lt;/h2&gt;
+&lt;p&gt;iOS 26 / iPadOS 26以降で、Appleの日本語音声認識に対応した端末が必要です。初回はマイクの使用を許可し、必要な音声認識モデルを準備してください。&lt;/p&gt;
+&lt;p&gt;Apple Intelligenceの有効化は必須ではありません。音声や字幕本文は保存せず、その場で読むために使います。&lt;/p&gt;
+&lt;div id="2-表示モードを選ぶ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="シンプルモード高齢者" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="3-字幕をはじめる" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="start"&gt;大きなボタンから字幕を始める&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;テレビ&lt;/code&gt;、&lt;code&gt;会話&lt;/code&gt;、&lt;code&gt;グループ&lt;/code&gt;から、使う場面のボタンをタップします。&lt;/li&gt;
+&lt;li&gt;端末下側のマイクを、テレビのスピーカーや話す人の方へ向けます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/oto-miru/simple-mode-buttons_hu_bebe78b9f7a9b177.webp" aria-label="画像を拡大: オトミルのシンプルモードに並ぶテレビ・会話・グループの開始ボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/oto-miru/simple-mode-buttons_hu_b2246862da006cd4.webp" srcset="https://kumakikai.github.io/images/guides/oto-miru/simple-mode-buttons_hu_b2246862da006cd4.webp 560w, https://kumakikai.github.io/images/guides/oto-miru/simple-mode-buttons_hu_bebe78b9f7a9b177.webp 1030w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1030" height="1270" alt="オトミルのシンプルモードに並ぶテレビ・会話・グループの開始ボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;div id="通常モード" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="standard-mode"&gt;通常モードで場面を選ぶ&lt;/h2&gt;
+&lt;p&gt;画面上部で用途を選び、下部の&lt;code&gt;字幕をはじめる&lt;/code&gt;をタップします。右上の歯車から設定を開けます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/oto-miru/mode-and-settings_hu_f9784e73ab1ba219.webp" aria-label="画像を拡大: 通常モード上部のテレビ・会話・グループ・映画の切り替えと、右上の設定ボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/oto-miru/mode-and-settings_hu_b7a2a8f33d9f4a9d.webp" srcset="https://kumakikai.github.io/images/guides/oto-miru/mode-and-settings_hu_b7a2a8f33d9f4a9d.webp 560w, https://kumakikai.github.io/images/guides/oto-miru/mode-and-settings_hu_f9784e73ab1ba219.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="300" alt="通常モード上部のテレビ・会話・グループ・映画の切り替えと、右上の設定ボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/oto-miru/start-caption_hu_ede7e2492102d6fc.webp" aria-label="画像を拡大: 通常モード下部の字幕をはじめるボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/oto-miru/start-caption_hu_5d655d27e4bca3b2.webp" srcset="https://kumakikai.github.io/images/guides/oto-miru/start-caption_hu_5d655d27e4bca3b2.webp 560w, https://kumakikai.github.io/images/guides/oto-miru/start-caption_hu_ede7e2492102d6fc.webp 860w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="860" height="210" alt="通常モード下部の字幕をはじめるボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;div id="4-テレビで使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="5-会話で使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="6-グループ会話で使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="read-captions"&gt;字幕を読む・向きを変える・終了する&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;ギガコード: 設定がONなら&lt;code&gt;povo 2.0&lt;/code&gt;、OFFなら&lt;code&gt;コピー&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;コード形式の外部特典: &lt;code&gt;コピー&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;受取URL形式の外部特典: &lt;code&gt;開く&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;テレビ&lt;/strong&gt;：端末をスピーカーの近くへ置きます。横画面でも読めます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;会話・グループ&lt;/strong&gt;：端末下側のマイクを相手へ向けます。&lt;code&gt;戻す&lt;/code&gt; / &lt;code&gt;反転&lt;/code&gt;で字幕の向きを切り替えます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;終了&lt;/strong&gt;：&lt;code&gt;字幕を止める&lt;/code&gt;をタップします。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;ギガコードは、まず端末内のクリップボードへコピーされます。&lt;code&gt;使用時にpovo 2.0を開く&lt;/code&gt;がONの場合は、続けてpovo 2.0アプリの通常起動を試みます。コード入力画面への直接移動や自動入力は行わないため、povo 2.0アプリ内でコードを貼り付けてください。&lt;/p&gt;
-&lt;p&gt;外部特典の&lt;code&gt;開く&lt;/code&gt;は、登録したURLをOSの標準機能で開きます。リンク先での引換完了をギガポケが確認することはありません。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--screen" style="--guide-image-width: 320px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/oto-miru/caption-and-controls_hu_79f96d2cc0ccdea4.webp" aria-label="画像を拡大: 会話字幕のサンプルと、字幕を止める・反転ボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/oto-miru/caption-and-controls_hu_8ab026a7b8938e51.webp" srcset="https://kumakikai.github.io/images/guides/oto-miru/caption-and-controls_hu_8ab026a7b8938e51.webp 320w, https://kumakikai.github.io/images/guides/oto-miru/caption-and-controls_hu_79f96d2cc0ccdea4.webp 640w" sizes="(max-width: 390px) calc(100vw - 64px), 320px" width="640" height="915" alt="会話字幕のサンプルと、字幕を止める・反転ボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;div id="7-映画で使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
-&lt;h2 id="4-ゴミ箱を管理する"&gt;4. ゴミ箱を管理する&lt;/h2&gt;
-&lt;p&gt;初期設定では、&lt;code&gt;povo 2.0&lt;/code&gt;、&lt;code&gt;コピー&lt;/code&gt;、&lt;code&gt;開く&lt;/code&gt;の操作が成立した特典を自動でゴミ箱へ移します。この設定は&lt;code&gt;設定 &amp;gt; 使用時に自動でゴミ箱へ移動&lt;/code&gt;から変更できます。&lt;/p&gt;
-&lt;p&gt;ゴミ箱では次の操作ができます。&lt;/p&gt;
+&lt;h2 id="movie"&gt;映画モードを使う&lt;/h2&gt;
+&lt;p&gt;通常モードで&lt;code&gt;映画&lt;/code&gt;を選び、注意案内を確認します。&lt;code&gt;OK&lt;/code&gt;で暗い字幕表示へ進み、&lt;code&gt;キャンセル&lt;/code&gt;で戻ります。&lt;/p&gt;</description></item><item><title>使い方 (ギガポケ)</title><link>https://kumakikai.github.io/htu/giga-poke/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/giga-poke/</guid><description>&lt;p&gt;ギガポケは、povo 2.0のギガコードや外部特典をiPhone内で管理する非公式アプリです。画面内の特典とコードは説明用のデモです。&lt;/p&gt;
+
+&lt;h2 id="1-特典を登録する"&gt;特典を登録する&lt;/h2&gt;
+
+&lt;h3 id="コピーペーストする"&gt;コピーしたメールから追加する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;メール内の特典名・コード・期限を含む範囲をコピーします。外部特典では受取URLも使えます。&lt;/li&gt;
+&lt;li&gt;ギガポケの&lt;code&gt;ペーストして追加&lt;/code&gt;をタップします。&lt;/li&gt;
+&lt;li&gt;確認画面で特典内容・コードまたはURL・期限を確認し、登録します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/giga-poke/home-add-controls_hu_8302813bfc37e5a.webp" aria-label="画像を拡大: ギガポケのホーム右上の追加ボタンと、一覧下のペーストして追加ボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/giga-poke/home-add-controls_hu_cad548ecd691bc79.webp" srcset="https://kumakikai.github.io/images/guides/giga-poke/home-add-controls_hu_cad548ecd691bc79.webp 560w, https://kumakikai.github.io/images/guides/giga-poke/home-add-controls_hu_8302813bfc37e5a.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="833" alt="ギガポケのホーム右上の追加ボタンと、一覧下のペーストして追加ボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;figure class="guide-figure guide-figure--screen" style="--guide-image-width: 320px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/giga-poke/paste-review_hu_183cc22e50507314.webp" aria-label="画像を拡大: コピーしたデモ特典の確認画面。3GB、コード、有効期限を確認して右上の登録を押す"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/giga-poke/paste-review_hu_ee2535b2d570bb25.webp" srcset="https://kumakikai.github.io/images/guides/giga-poke/paste-review_hu_ee2535b2d570bb25.webp 320w, https://kumakikai.github.io/images/guides/giga-poke/paste-review_hu_183cc22e50507314.webp 640w" sizes="(max-width: 390px) calc(100vw - 64px), 320px" width="640" height="758" alt="コピーしたデモ特典の確認画面。3GB、コード、有効期限を確認して右上の登録を押す" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+
+&lt;h3 id="メールから共有する"&gt;メールから直接共有する&lt;/h3&gt;
+&lt;p&gt;同じ範囲を選択して&lt;code&gt;共有&lt;/code&gt;を開き、&lt;code&gt;ギガポケ&lt;/code&gt;または&lt;code&gt;ギガポケにコードを登録&lt;/code&gt;を選んでも登録できます。共有先の位置はiOSや共有元アプリによって異なります。&lt;/p&gt;
+
+&lt;h3 id="手動で入力する"&gt;手入力・登録内容の修正&lt;/h3&gt;
+&lt;p&gt;ホーム右上の&lt;code&gt;＋&lt;/code&gt;で1件ずつ入力できます。登録後に直す場合は、一覧の特典名をタップして右上の&lt;code&gt;編集&lt;/code&gt;を開きます。&lt;/p&gt;
+&lt;div id="登録に必要な情報" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;特典を未使用へ戻す&lt;/li&gt;
-&lt;li&gt;確認後に1件ずつ完全に削除する&lt;/li&gt;
-&lt;li&gt;確認後にゴミ箱を空にする&lt;/li&gt;
+&lt;li&gt;ギガコードは&lt;strong&gt;特典内容・コード・期限&lt;/strong&gt;が必要です。&lt;/li&gt;
+&lt;li&gt;外部特典は&lt;strong&gt;特典内容・コードまたは受取URL&lt;/strong&gt;が必要で、期限は任意です。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;ゴミ箱の特典を自動削除&lt;/code&gt;では、&lt;code&gt;自動削除しない&lt;/code&gt;、&lt;code&gt;2週間後&lt;/code&gt;、&lt;code&gt;30日後&lt;/code&gt;、&lt;code&gt;60日後&lt;/code&gt;から選べます。初期設定は&lt;code&gt;自動削除しない&lt;/code&gt;です。&lt;/p&gt;
+&lt;p&gt;不足情報は推測しません。複数特典をまとめた場合は、条件を満たしたものだけを登録できます。&lt;/p&gt;
 
-&lt;h2 id="5-期限通知を設定する"&gt;5. 期限通知を設定する&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;設定 &amp;gt; 通知タイミング&lt;/code&gt;で、次のタイミングを複数選べます。&lt;/p&gt;
+&lt;h2 id="2-期限の近い特典を確認する"&gt;期限と利用ボタンを確認する&lt;/h2&gt;
+&lt;p&gt;一覧は&lt;code&gt;ギガコード&lt;/code&gt;、&lt;code&gt;外部特典&lt;/code&gt;の順で、それぞれ期限の近い特典から表示します。期限がない外部特典は&lt;code&gt;期限情報なし&lt;/code&gt;と表示します。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/giga-poke/benefit-row_hu_35bf16c6da5f2068.webp" aria-label="画像を拡大: デモ用ギガコードの特典名、本日までの期限表示、povo 2.0ボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/giga-poke/benefit-row_hu_9db4caa67764ba02.webp" srcset="https://kumakikai.github.io/images/guides/giga-poke/benefit-row_hu_9db4caa67764ba02.webp 560w, https://kumakikai.github.io/images/guides/giga-poke/benefit-row_hu_35bf16c6da5f2068.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="248" alt="デモ用ギガコードの特典名、本日までの期限表示、povo 2.0ボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+
+&lt;h2 id="3-特典を使う"&gt;特典を使う&lt;/h2&gt;
+&lt;p&gt;特典の右側にあるボタンをタップします。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;1ヶ月前&lt;/li&gt;
-&lt;li&gt;2週間前&lt;/li&gt;
-&lt;li&gt;1週間前&lt;/li&gt;
-&lt;li&gt;3日前&lt;/li&gt;
-&lt;li&gt;2日前&lt;/li&gt;
-&lt;li&gt;1日前&lt;/li&gt;
-&lt;li&gt;当日&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;povo 2.0&lt;/code&gt;：コードをコピーし、povo 2.0アプリを開きます。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;コピー&lt;/code&gt;：コードをコピーします。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;開く&lt;/code&gt;：登録した外部特典のURLを開きます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;通知は選んだ日の午前9時に届くよう、iPhone内だけで予約されます。&lt;code&gt;通知しない&lt;/code&gt;は単独の選択肢です。通知にはコードやクーポンURLを表示しません。&lt;/p&gt;
-&lt;p&gt;通知を使わない場合や通知権限を許可しない場合でも、登録、一覧、Widget、コピー、URLを開く操作は利用できます。&lt;/p&gt;
-
-&lt;h2 id="6-widgetを追加する"&gt;6. Widgetを追加する&lt;/h2&gt;
-&lt;p&gt;iPhoneのホーム画面を長押しし、Widgetの追加画面から&lt;code&gt;ギガポケ&lt;/code&gt;を選びます。&lt;/p&gt;</description></item><item><title>使い方 (ギャンカレ)</title><link>https://kumakikai.github.io/htu/balance-calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/balance-calendar/</guid><description>&lt;p&gt;ギャンカレは、&lt;code&gt;収入&lt;/code&gt; / &lt;code&gt;支出&lt;/code&gt; を短い操作で記録し、あとから &lt;code&gt;日別&lt;/code&gt; / &lt;code&gt;月別&lt;/code&gt; / &lt;code&gt;カテゴリ別&lt;/code&gt; で振り返るためのアプリです。&lt;/p&gt;
-&lt;p&gt;ギャンブル収支だけでなく、家計簿、推し活貯金、おこづかい帳などにも使えます。&lt;/p&gt;
-&lt;hr&gt;
+&lt;p&gt;特典名をタップして開く詳細画面からも、&lt;code&gt;povo 2.0で使う&lt;/code&gt;などの操作を選べます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/giga-poke/benefit-actions_hu_3f14eefc17020be1.webp" aria-label="画像を拡大: 特典詳細のpovo 2.0で使う、ゴミ箱に移動、コードをAirDrop等で共有するボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/giga-poke/benefit-actions_hu_14fa24511cf4f4fb.webp" srcset="https://kumakikai.github.io/images/guides/giga-poke/benefit-actions_hu_14fa24511cf4f4fb.webp 560w, https://kumakikai.github.io/images/guides/giga-poke/benefit-actions_hu_3f14eefc17020be1.webp 1110w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1110" height="635" alt="特典詳細のpovo 2.0で使う、ゴミ箱に移動、コードをAirDrop等で共有するボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;povo 2.0の入力画面への直接移動や自動入力は行いません。povo 2.0側で入力画面を開き、コピーされたコードを貼り付けてください。外部サービスでの利用完了をギガポケが確認することもありません。&lt;/p&gt;</description></item><item><title>使い方 (ギャンカレ)</title><link>https://kumakikai.github.io/htu/balance-calendar/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/balance-calendar/</guid><description>&lt;p&gt;ギャンカレでは、金額とタグを選んで収入・支出を記録します。まずは中央の「登録」から1件入力してみましょう。&lt;/p&gt;
 
 &lt;h2 id="1-最初に用途に合うタグを選ぶ"&gt;1. 最初に用途に合うタグを選ぶ&lt;/h2&gt;
-&lt;p&gt;初回起動時は、用途に合わせた初期タグを選べます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ギャンブル&lt;/li&gt;
-&lt;li&gt;家計簿&lt;/li&gt;
-&lt;li&gt;推し活貯金&lt;/li&gt;
-&lt;li&gt;おこづかい帳&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;タグ名やアイコンはあとから &lt;code&gt;設定 &amp;gt; タグ&lt;/code&gt; で変更できます。&lt;/p&gt;
-&lt;hr&gt;
+&lt;p&gt;初回起動時に、ギャンブル・家計簿・推し活貯金・おこづかい帳から用途を選びます。タグ名やアイコンは、あとから「設定 → タグ」で変更できます。&lt;/p&gt;
 
 &lt;h2 id="2-登録-画面で収入--支出を記録する"&gt;2. &lt;code&gt;登録&lt;/code&gt; 画面で収入 / 支出を記録する&lt;/h2&gt;
-&lt;p&gt;中央の &lt;code&gt;登録&lt;/code&gt; 画面では、&lt;code&gt;+ 収入&lt;/code&gt; と &lt;code&gt;− 支出&lt;/code&gt; から金額を入力します。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;金額はテンキーで入力します&lt;/li&gt;
-&lt;li&gt;タグを選んで分類できます&lt;/li&gt;
-&lt;li&gt;日付を変えて過去日の記録もできます&lt;/li&gt;
-&lt;li&gt;未来日は選べません&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;画面上部では、その日の合計と前月比も確認できます。&lt;/p&gt;
-&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;記録するタグを選びます。&lt;/li&gt;
+&lt;li&gt;収入は緑の「↑」、支出は赤の「↓」をタップします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/balance-calendar/income-expense-buttons_hu_4cf4f346352aa405.webp" aria-label="画像を拡大: ギャンカレの登録画面。緑の上矢印と赤の下矢印、その下にタグの選択ボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/balance-calendar/income-expense-buttons_hu_ed33ef7e18730e9b.webp" srcset="https://kumakikai.github.io/images/guides/balance-calendar/income-expense-buttons_hu_ed33ef7e18730e9b.webp 560w, https://kumakikai.github.io/images/guides/balance-calendar/income-expense-buttons_hu_4cf4f346352aa405.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="1080" alt="ギャンカレの登録画面。緑の上矢印と赤の下矢印、その下にタグの選択ボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;テンキーで金額を入力し、「確定」をタップします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--screen" style="--guide-image-width: 320px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/balance-calendar/amount-keypad_hu_832ff391ac09110f.webp" aria-label="画像を拡大: 収入金額を入力するテンキーと、下部の緑の確定ボタン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/balance-calendar/amount-keypad_hu_24532150c8d4e81e.webp" srcset="https://kumakikai.github.io/images/guides/balance-calendar/amount-keypad_hu_24532150c8d4e81e.webp 320w, https://kumakikai.github.io/images/guides/balance-calendar/amount-keypad_hu_832ff391ac09110f.webp 640w" sizes="(max-width: 390px) calc(100vw - 64px), 320px" width="640" height="1001" alt="収入金額を入力するテンキーと、下部の緑の確定ボタン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;過去の日付で記録する場合は、入力前に画面上部の日付をタップして変更します。未来日は選べません。&lt;/p&gt;
 
 &lt;h2 id="3-履歴-を見直して削除や取消しをする"&gt;3. &lt;code&gt;履歴&lt;/code&gt; を見直して削除や取消しをする&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;履歴&lt;/code&gt; から、その日の記録一覧を確認できます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不要な記録は削除できます&lt;/li&gt;
-&lt;li&gt;削除直後は &lt;code&gt;取消し&lt;/code&gt; で元に戻せます&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
+&lt;p&gt;「登録」右上のレシート型アイコンをタップすると、選択日の履歴が開きます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/balance-calendar/date-history-controls_hu_20cd111d508e4600.webp" aria-label="画像を拡大: ギャンカレの画面上部。中央に日付、右上に履歴を開くレシート型アイコン"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/balance-calendar/date-history-controls_hu_a69588e2119e1ca.webp" srcset="https://kumakikai.github.io/images/guides/balance-calendar/date-history-controls_hu_a69588e2119e1ca.webp 560w, https://kumakikai.github.io/images/guides/balance-calendar/date-history-controls_hu_20cd111d508e4600.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="267" alt="ギャンカレの画面上部。中央に日付、右上に履歴を開くレシート型アイコン" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;不要な記録を左へスワイプすると削除できます。間違えた場合は、削除直後に表示される「取消し」をタップします。&lt;/p&gt;
 
 &lt;h2 id="4-収支-画面で振り返る"&gt;4. &lt;code&gt;収支&lt;/code&gt; 画面で振り返る&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;収支&lt;/code&gt; 画面では、次の3つの見方で振り返れます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;日別&lt;/code&gt;: 選択した月の日ごとの収支&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;月別&lt;/code&gt;: 選択した年の月ごとの収支&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;カテゴリ別&lt;/code&gt;: 選択した月のタグごとの合計&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;空日表示&lt;/code&gt; を切り替えながら見返せます。
-各行を開くと詳細も確認できます。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="5-ホームウィジェットを使う"&gt;5. ホームウィジェットを使う&lt;/h2&gt;
-&lt;p&gt;ホームウィジェットを追加すると、ホーム画面からすぐ &lt;code&gt;収入&lt;/code&gt; / &lt;code&gt;支出&lt;/code&gt; を記録できます。&lt;/p&gt;</description></item><item><title>使い方 (すわなび)</title><link>https://kumakikai.github.io/htu/smokeless/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/smokeless/</guid><description>&lt;p&gt;すわなびは、&lt;code&gt;喫煙&lt;/code&gt; と &lt;code&gt;我慢&lt;/code&gt; をすばやく記録し、あとから数字で振り返るためのアプリです。&lt;/p&gt;
-&lt;p&gt;禁煙補助として使うことも、今の喫煙状況を把握するための記録アプリとして使うこともできます。&lt;/p&gt;
-&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;左下の「収支」を開きます。&lt;/li&gt;
+&lt;li&gt;上部の「日別」「月別」「カテゴリ別」を切り替えます。&lt;/li&gt;
+&lt;li&gt;日付や月の行をタップすると、その期間の記録を確認できます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--screen" style="--guide-image-width: 320px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/balance-calendar/daily-records_hu_2f9c36caafcb213a.webp" aria-label="画像を拡大: 収支画面の切替タブと日別一覧。各行に日付と収支、下部に全期間累計を表示"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/balance-calendar/daily-records_hu_7c1f73bbdf8540ce.webp" srcset="https://kumakikai.github.io/images/guides/balance-calendar/daily-records_hu_7c1f73bbdf8540ce.webp 320w, https://kumakikai.github.io/images/guides/balance-calendar/daily-records_hu_2f9c36caafcb213a.webp 640w" sizes="(max-width: 390px) calc(100vw - 64px), 320px" width="640" height="1295" alt="収支画面の切替タブと日別一覧。各行に日付と収支、下部に全期間累計を表示" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;詳細内の記録は編集・削除できます。記録のない日も並べたい場合は「空日表示」をオンにします。&lt;/p&gt;</description></item><item><title>使い方 (すわなび)</title><link>https://kumakikai.github.io/htu/smokeless/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/smokeless/</guid><description>&lt;p&gt;緑のボタンで「我慢」、赤のボタンで「喫煙」を記録します。画面のアイコンと数字を見ながら、記録・振り返り・設定の操作を確認できます。&lt;/p&gt;
 
 &lt;h2 id="1-初回チュートリアルと本数設定を確認する"&gt;1. 初回チュートリアルと本数設定を確認する&lt;/h2&gt;
-&lt;p&gt;初回起動時はチュートリアルのあとに、以下を設定します。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;1箱の本数&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;1箱の金額&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;この設定をしておくと、喫煙本数や我慢回数を金額換算で確認できます。&lt;/p&gt;
-&lt;hr&gt;
+&lt;p&gt;初回チュートリアルのあとに「1箱の本数」と「1箱の金額」を入力します。金額換算にはこの設定を使います。あとから変更する場合は、&lt;a href="https://kumakikai.github.io/htu/smokeless/#7-%e8%a8%ad%e5%ae%9a-%e3%82%92%e8%aa%bf%e6%95%b4%e3%81%99%e3%82%8b"&gt;設定の手順&lt;/a&gt;をご覧ください。&lt;/p&gt;
 
 &lt;h2 id="2-記録-画面で喫煙--我慢を記録する"&gt;2. &lt;code&gt;記録&lt;/code&gt; 画面で喫煙 / 我慢を記録する&lt;/h2&gt;
-&lt;p&gt;中央の &lt;code&gt;記録&lt;/code&gt; 画面では、緑の &lt;code&gt;我慢&lt;/code&gt; と赤の &lt;code&gt;喫煙&lt;/code&gt; を1タップで記録できます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;我慢&lt;/code&gt; は「吸いたいと思ったが吸わずに済んだ記録」です&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;喫煙&lt;/code&gt; は実際に吸った記録です&lt;/li&gt;
-&lt;li&gt;銘柄を追加している場合は、記録する銘柄を切り替えられます&lt;/li&gt;
-&lt;li&gt;画面上部では当日の件数、金額換算、前回記録からの経過時間を確認できます&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;中央の「記録」を開きます。&lt;/li&gt;
+&lt;li&gt;吸いたいと思ったけれど吸わずに済んだときは、緑の斜線付きたばこアイコンをタップします。&lt;/li&gt;
+&lt;li&gt;実際に吸ったときは、赤のたばこアイコンをタップします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/smokeless/ja/record-buttons_hu_c754ed9e223b4423.webp" aria-label="画像を拡大: すわなびの記録ボタン。左の緑が我慢、右の赤が喫煙で、各ボタン内に当日の回数を表示"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/smokeless/ja/record-buttons_hu_d396a41112a85c22.webp" srcset="https://kumakikai.github.io/images/guides/smokeless/ja/record-buttons_hu_d396a41112a85c22.webp 560w, https://kumakikai.github.io/images/guides/smokeless/ja/record-buttons_hu_c754ed9e223b4423.webp 890w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="890" height="845" alt="すわなびの記録ボタン。左の緑が我慢、右の赤が喫煙で、各ボタン内に当日の回数を表示" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;1タップで1回記録し、ボタン内の当日回数が増えます。銘柄を複数設定している場合は、記録する前に銘柄を選びます。&lt;/p&gt;
 
 &lt;h2 id="3-履歴-から当日の記録を見直す"&gt;3. &lt;code&gt;履歴&lt;/code&gt; から当日の記録を見直す&lt;/h2&gt;
-&lt;p&gt;右上の &lt;code&gt;履歴&lt;/code&gt; から、その日の記録一覧を確認できます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不要な記録は削除できます&lt;/li&gt;
-&lt;li&gt;削除直後は &lt;code&gt;取消し&lt;/code&gt; で元に戻せます&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;「記録」右上のレシート型アイコンをタップします。&lt;/li&gt;
+&lt;li&gt;不要な記録を左へスワイプして削除します。&lt;/li&gt;
+&lt;li&gt;間違えた場合は、削除直後の「取消し」をタップします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/smokeless/ja/history_hu_6130515c05c54ae0.webp" aria-label="画像を拡大: すわなびの当日履歴。時刻と我慢・喫煙のアイコンが並ぶ記録一覧"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/smokeless/ja/history_hu_4fa0c53d0df5ab95.webp" srcset="https://kumakikai.github.io/images/guides/smokeless/ja/history_hu_4fa0c53d0df5ab95.webp 560w, https://kumakikai.github.io/images/guides/smokeless/ja/history_hu_6130515c05c54ae0.webp 1110w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1110" height="720" alt="すわなびの当日履歴。時刻と我慢・喫煙のアイコンが並ぶ記録一覧" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
 
 &lt;h2 id="4-カレンダー-で日別--月別--年別に振り返る"&gt;4. &lt;code&gt;カレンダー&lt;/code&gt; で日別 / 月別 / 年別に振り返る&lt;/h2&gt;
-&lt;p&gt;左下の &lt;code&gt;カレンダー&lt;/code&gt; では、記録を次の単位で確認できます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;日別&lt;/li&gt;
-&lt;li&gt;月別&lt;/li&gt;
-&lt;li&gt;年別&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;各期間の件数や金額換算を、数字中心で見返せます。&lt;/p&gt;
-&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;左下の「カレンダー」を開きます。&lt;/li&gt;
+&lt;li&gt;「日別」「月別」「年別」を切り替えます。&lt;/li&gt;
+&lt;li&gt;日付の行をタップすると、その日の記録を確認できます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--screen" style="--guide-image-width: 320px" data-guide-image&gt;
+ &lt;a href="https://kumakikai.github.io/images/guides/smokeless/ja/calendar_hu_8f07d414f6dc61.webp" aria-label="画像を拡大: すわなびのカレンダー。日別・月別・年別タブと、日付ごとの喫煙・我慢回数と金額"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/smokeless/ja/calendar_hu_329d9aad88b4d24d.webp" srcset="https://kumakikai.github.io/images/guides/smokeless/ja/calendar_hu_329d9aad88b4d24d.webp 320w, https://kumakikai.github.io/images/guides/smokeless/ja/calendar_hu_8f07d414f6dc61.webp 640w" sizes="(max-width: 390px) calc(100vw - 64px), 320px" width="640" height="684" alt="すわなびのカレンダー。日別・月別・年別タブと、日付ごとの喫煙・我慢回数と金額" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
 
 &lt;h2 id="5-グラフ-で最近の変化を見る"&gt;5. &lt;code&gt;グラフ&lt;/code&gt; で最近の変化を見る&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;グラフ&lt;/code&gt; では、以下の期間で推移を確認できます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;週&lt;/li&gt;
-&lt;li&gt;月&lt;/li&gt;
-&lt;li&gt;3か月&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;喫煙&lt;/code&gt;、&lt;code&gt;我慢&lt;/code&gt;、喫煙平均を見ながら最近の変化を確認できます。&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id="6-ホームウィジェットを使う"&gt;6. ホームウィジェットを使う&lt;/h2&gt;
-&lt;p&gt;ホームウィジェットを追加すると、当日の &lt;code&gt;喫煙&lt;/code&gt; / &lt;code&gt;我慢&lt;/code&gt; 件数をホーム画面から確認できます。&lt;/p&gt;
-&lt;p&gt;ウィジェットからそのまま記録することもできます。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;右下の「グラフ」を開き、上部で「週」「月」「3か月」を選びます。期間表示の左右の矢印で、表示期間を切り替えられます。&lt;/p&gt;</description></item></channel></rss>
