@@ -1,0 +1,347 @@
+[
+  {
+    "app": "oto-miru",
+    "source": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/raw/iphone/01_senior_home_free.png",
+    "sourceSHA256": "83d4a241284f0dfad9b3028734ede31e890f00876dcf951e647a80b844d291de",
+    "output": "assets/images/guides/oto-miru/simple-mode-buttons.png",
+    "outputSHA256": "928851aef25a567cb5abd3b349ab7e9b7761bfa40f79fd0600d6dbc885d3aaa0",
+    "cropXYWH": [
+      70,
+      465,
+      1030,
+      1270
+    ],
+    "rotation": 0,
+    "sourceKind": "existing current Simulator UI, captured 2026-09-06",
+    "evidence": "tmp_appstore_screenshots/refresh_2026_09_05/README.md; OtoMiru/Views/RootView.swift; AppModel.swift",
+    "note": "Only relevant actual controls; placeholder ad excluded."
+  },
+  {
+    "app": "oto-miru",
+    "source": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/raw/iphone/03_standard_home.png",
+    "sourceSHA256": "f36e88f14e11781dc708735147fa5f3ab19a9f2cef0d80be1071c136c561d3ef",
+    "output": "assets/images/guides/oto-miru/mode-and-settings.png",
+    "outputSHA256": "1b73132da1eed7377ad12d853a458b6d2f66155e980c6b9a5238b29284383b5d",
+    "cropXYWH": [
+      25,
+      155,
+      1120,
+      300
+    ],
+    "rotation": 0,
+    "sourceKind": "existing current Simulator UI, captured 2026-09-06",
+    "evidence": "tmp_appstore_screenshots/refresh_2026_09_05/README.md; OtoMiru/Views/RootView.swift; AppModel.swift",
+    "note": "Only relevant actual controls; placeholder ad excluded."
+  },
+  {
+    "app": "oto-miru",
+    "source": "/private/tmp/homepage-guides-captures/oto-home/5EE2B88A-C318-4E11-9FBD-B7F1B79686C9.png",
+    "sourceSHA256": "5f30804c3ebfee950917c5ab7a4e3c0b094298c260920056636dc4bbb4067c1d",
+    "output": "assets/images/guides/oto-miru/start-caption.png",
+    "outputSHA256": "808ba9f832a2c78e1f9987ea45727f336f1526fe5557677ae0a0cea9caa5a7c5",
+    "cropXYWH": [
+      155,
+      2220,
+      860,
+      210
+    ],
+    "rotation": 0,
+    "sourceKind": "New current Simulator UI capture, 2026-09-07",
+    "evidence": "tmp_appstore_screenshots/refresh_2026_09_05/README.md; OtoMiru/Views/RootView.swift; AppModel.swift",
+    "note": "Current standard home using existing DEBUG Plus entitlement. No purchase. Whole start button retained with padding, no ad placeholder.",
+    "captureEvidence": "/private/tmp/homepage-guide-oto-home.xcresult; OtoMiruUITests/testHomepageGuideStandardHome (1 passed)"
+  },
+  {
+    "app": "oto-miru",
+    "source": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/raw/iphone/01_senior_home_free.png",
+    "sourceSHA256": "83d4a241284f0dfad9b3028734ede31e890f00876dcf951e647a80b844d291de",
+    "output": "assets/images/guides/oto-miru/free-time-and-plus.png",
+    "outputSHA256": "305cf78f9f9f97867381d76cf9650979bd3c979f5265c894f5e01adaad99d388",
+    "cropXYWH": [
+      90,
+      1730,
+      990,
+      670
+    ],
+    "rotation": 0,
+    "sourceKind": "existing current Simulator UI, captured 2026-09-06",
+    "evidence": "tmp_appstore_screenshots/refresh_2026_09_05/README.md; OtoMiru/Views/RootView.swift; AppModel.swift",
+    "note": "Only relevant actual controls; placeholder ad excluded."
+  },
+  {
+    "app": "oto-miru",
+    "source": "/private/tmp/homepage-guides-captures/oto-attachments/29938F8B-8468-4181-81C9-AFECAD7025B8.png",
+    "sourceSHA256": "a9a7e99c21b3887c96dbec16558e80db6dbe3962ce4e561b92bda7326ffc7f25",
+    "output": "assets/images/guides/oto-miru/caption-and-controls.png",
+    "outputSHA256": "2762e23c943be52c233707291f36785de3c863377272176e5058663f80512b3c",
+    "cropXYWH": [
+      15,
+      790,
+      1140,
+      1630
+    ],
+    "sourceKind": "new Simulator capture 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-oto-capture.xcresult; testHomepageGuideCapture passed",
+    "note": "Current unmodified production views, existing Debug Plus entitlement/demo captions only; no purchase or microphone recording."
+  },
+  {
+    "app": "oto-miru",
+    "source": "/private/tmp/homepage-guides-captures/oto-attachments/874C8B68-F0E6-4396-A405-0D9F5663B30F.png",
+    "sourceSHA256": "545488f45262dd726615643daca939a7d24cbb005372ee8d8ae7a457f35f71c8",
+    "output": "assets/images/guides/oto-miru/listening-environment.png",
+    "outputSHA256": "f0c5e91eb5e71d8bcf115df7ac87602d15141e1ad86ca4fcfb5e6b9af6e5d151",
+    "cropXYWH": [
+      35,
+      1510,
+      1100,
+      535
+    ],
+    "sourceKind": "new Simulator capture 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-oto-capture.xcresult; testHomepageGuideCapture passed",
+    "note": "Current unmodified production views, existing Debug Plus entitlement/demo captions only; no purchase or microphone recording."
+  },
+  {
+    "app": "oto-miru",
+    "source": "/private/tmp/homepage-guides-captures/oto-attachments/A2694A9D-C74C-4BC3-86EA-843F2C612580.png",
+    "sourceSHA256": "0e7a822bb8c8126f53d3fbb6a6cf55bdf26ca5990ecf1d2473feba48345b65a0",
+    "output": "assets/images/guides/oto-miru/display-settings.png",
+    "outputSHA256": "a4b73ddcf1b2cd40e3901bb757d33fbc81c84710952dbd1a86160b55a0c4c6a8",
+    "cropXYWH": [
+      35,
+      370,
+      1100,
+      1015
+    ],
+    "sourceKind": "new Simulator capture 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-oto-capture.xcresult; testHomepageGuideCapture passed",
+    "note": "Current unmodified production views, existing Debug Plus entitlement/demo captions only; no purchase or microphone recording."
+  },
+  {
+    "app": "giga-poke",
+    "source": "/private/tmp/homepage-guides-captures/giga-final/1D213A8B-6B16-42E2-8123-8001E2E10A86.png",
+    "sourceSHA256": "2684108201fa8c0d31deed185a7c07df1ccbf0112daccbb0bd87b2dd7d15437b",
+    "output": "assets/images/guides/giga-poke/home-add-controls.png",
+    "outputSHA256": "b8c4d63373682a4eed83a33ebbffb90bede5fa705ab61a1e9cac9480fce061ed",
+    "cropXYWH": [
+      20,
+      135,
+      1130,
+      840
+    ],
+    "sourceKind": "new Simulator capture 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-giga-capture-final.xcresult; testHomepageGuideCapture passed",
+    "note": "Current unmodified production views; existing in-memory test repository. Explicit demo title/code, no real redemption. Status bar and unrelated app-return labels excluded.",
+    "evidence": ""
+  },
+  {
+    "app": "giga-poke",
+    "source": "/private/tmp/homepage-guides-captures/giga-final/1D213A8B-6B16-42E2-8123-8001E2E10A86.png",
+    "sourceSHA256": "2684108201fa8c0d31deed185a7c07df1ccbf0112daccbb0bd87b2dd7d15437b",
+    "output": "assets/images/guides/giga-poke/benefit-row.png",
+    "outputSHA256": "55972544741cf990fcdf32322a1ab4517246912aeb3a6c9598bb81f441e4fb3d",
+    "cropXYWH": [
+      20,
+      505,
+      1130,
+      250
+    ],
+    "sourceKind": "new Simulator capture 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-giga-capture-final.xcresult; testHomepageGuideCapture passed",
+    "note": "Current unmodified production views; existing in-memory test repository. Explicit demo title/code, no real redemption. Status bar and unrelated app-return labels excluded.",
+    "evidence": ""
+  },
+  {
+    "app": "giga-poke",
+    "source": "/private/tmp/homepage-guides-captures/giga-final/D908D1FB-2C38-47DB-B89E-51586B8E272F.png",
+    "sourceSHA256": "efcfa5adbcac6c5ad366c89406cedfbccab0c2600ab323728455f9bb956e5857",
+    "output": "assets/images/guides/giga-poke/benefit-actions.png",
+    "outputSHA256": "6edd4892d80e2134988adfd3d5d353f81800d18642bc7204664bf2362600033e",
+    "cropXYWH": [
+      30,
+      1260,
+      1110,
+      635
+    ],
+    "sourceKind": "new Simulator capture 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-giga-capture-final.xcresult; testHomepageGuideCapture passed",
+    "note": "Current unmodified production views; existing in-memory test repository. Explicit demo title/code, no real redemption. Status bar and unrelated app-return labels excluded.",
+    "evidence": ""
+  },
+  {
+    "app": "giga-poke",
+    "source": "/private/tmp/homepage-guides-captures/giga-final/6C846A3C-172D-4811-970D-559521649000.png",
+    "sourceSHA256": "4a4aefe7da0658bf8a04456b22073ea05e94a892a64e5f95e6aabc33fe8569ec",
+    "output": "assets/images/guides/giga-poke/trash-list.png",
+    "outputSHA256": "3bd38d041f866308710112730402b7752999ba2872840dc3259c60ff2867eede",
+    "cropXYWH": [
+      20,
+      135,
+      1130,
+      400
+    ],
+    "sourceKind": "new Simulator capture 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-giga-capture-final.xcresult; testHomepageGuideCapture passed",
+    "note": "Current unmodified production views; existing in-memory test repository. Explicit demo title/code, no real redemption. Status bar and unrelated app-return labels excluded.",
+    "evidence": ""
+  },
+  {
+    "app": "giga-poke",
+    "source": "/private/tmp/homepage-guides-captures/giga-final/B2BD8ED5-1874-4782-8079-D0BCC1B56842.png",
+    "sourceSHA256": "cf7e785590c157b548028e4269778b397204a0bc5305ea4f2b7db629fe1d87b5",
+    "output": "assets/images/guides/giga-poke/notification-settings.png",
+    "outputSHA256": "7406048c4cdf2548f75765db0f1bc7c21d5caee409f01f1837215b80326d4d60",
+    "cropXYWH": [
+      30,
+      380,
+      1110,
+      355
+    ],
+    "sourceKind": "new Simulator capture 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-giga-capture-final.xcresult; testHomepageGuideCapture passed",
+    "note": "Current unmodified production views; existing in-memory test repository. Explicit demo title/code, no real redemption. Status bar and unrelated app-return labels excluded.",
+    "evidence": ""
+  },
+  {
+    "app": "giga-poke",
+    "source": "/private/tmp/homepage-guides-captures/giga-final/B2BD8ED5-1874-4782-8079-D0BCC1B56842.png",
+    "sourceSHA256": "cf7e785590c157b548028e4269778b397204a0bc5305ea4f2b7db629fe1d87b5",
+    "output": "assets/images/guides/giga-poke/benefit-management-settings.png",
+    "outputSHA256": "2485d46289e8606a70f04021d500a7496f23747ad3f7dac03bb0927d5eec63e8",
+    "cropXYWH": [
+      30,
+      800,
+      1110,
+      630
+    ],
+    "sourceKind": "new Simulator capture 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-giga-capture-final.xcresult; testHomepageGuideCapture passed",
+    "note": "Current unmodified production views; existing in-memory test repository. Explicit demo title/code, no real redemption. Status bar and unrelated app-return labels excluded.",
+    "evidence": ""
+  },
+  {
+    "app": "giga-poke",
+    "source": "/private/tmp/homepage-guides-captures/giga-paste/EC013511-6879-40FA-AC0A-E4CA0DD40C5A.png",
+    "sourceSHA256": "410dc3a201d94b9e3fedd42af52184b77f148b595497678422da8fe15aceeeb0",
+    "output": "assets/images/guides/giga-poke/paste-review.png",
+    "outputSHA256": "7df618c8cc4df11c81ffc747d1d30c8099d1ec098ed86f6703c2353431d6c723",
+    "cropXYWH": [
+      15,
+      155,
+      1140,
+      1350
+    ],
+    "sourceKind": "New current Simulator UI capture, 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-giga-paste.xcresult; PovoCodeManagerUITests/testHomepagePasteGuideCapture (1 passed)",
+    "evidence": "App/CodeEditorView.swift; Shared/PovoCodeParser.swift; actual paste flow",
+    "note": "Real paste review using demo text/code and expiry. No errors, no real benefit code. Navigation bar and all parsed fields retained."
+  },
+  {
+    "app": "nocca",
+    "source": "/private/tmp/homepage-guides-captures/nocca-final/29479A6B-2FBC-4F9C-A28F-1E7237C674C4.png",
+    "sourceSHA256": "0954b99c45f7c9b4c994a909bf0abe266ccb4e3fdab6f5e9f741e42123229cb2",
+    "output": "assets/images/guides/nocca/choose-role.png",
+    "outputSHA256": "32b8103b65b13bdf5dc454918f93d2b60bc374f03d4bf50a24c01229aba62b10",
+    "cropXYWH": [
+      60,
+      810,
+      1050,
+      1050
+    ],
+    "sourceKind": "New current Simulator UI capture, 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-nocca-capture-final.xcresult; NoccaUITests/testHomepageGuideCapture (1 passed)",
+    "evidence": "Nocca/NoccaApp.swift current existing UI-test fixture; Nocca/ContentView.swift",
+    "note": "Current unpublished UI, existing in-memory demo fixture, backend disabled. No network, purchase, or user data."
+  },
+  {
+    "app": "nocca",
+    "source": "/private/tmp/homepage-guides-captures/nocca-final/45D473F5-AC78-4DF3-975C-5B61CC4B65D8.png",
+    "sourceSHA256": "05932bee7e97ca84eee1375b976fae67bf6d10adb1df2088b364b8c7522ff0f2",
+    "output": "assets/images/guides/nocca/invite-family.png",
+    "outputSHA256": "e46355918005f148fc2904ab37fdc815b26ffa10b64681e94f61176fb76ba3c7",
+    "cropXYWH": null,
+    "sourceKind": "New current Simulator UI capture, 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-nocca-capture-final.xcresult; NoccaUITests/testHomepageGuideCapture (1 passed)",
+    "evidence": "Nocca/NoccaApp.swift current existing UI-test fixture; Nocca/ContentView.swift",
+    "note": "Current unpublished UI, existing in-memory demo fixture, backend disabled. No network, purchase, or user data."
+  },
+  {
+    "app": "nocca",
+    "source": "/private/tmp/homepage-guides-captures/nocca-final/45C1B575-E8E2-43A6-BD6B-EAF4478DBC31.png",
+    "sourceSHA256": "8d289168bef15b4d40a232614e29b4ddc724790228eba88e933f8360d437f92b",
+    "output": "assets/images/guides/nocca/reply-options.png",
+    "outputSHA256": "9928176eeccfc1119cc414e65dce692fdd49a6607bc7b80a892da1641a425421",
+    "cropXYWH": [
+      50,
+      315,
+      1070,
+      1140
+    ],
+    "sourceKind": "New current Simulator UI capture, 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-nocca-capture-final.xcresult; NoccaUITests/testHomepageGuideCapture (1 passed)",
+    "evidence": "Nocca/NoccaApp.swift current existing UI-test fixture; Nocca/ContentView.swift",
+    "note": "Current unpublished UI, existing in-memory demo fixture, backend disabled. No network, purchase, or user data."
+  },
+  {
+    "app": "nocca",
+    "source": "/private/tmp/homepage-guides-captures/nocca-final/294F93F9-61A9-4EDD-9094-5D461C85032E.png",
+    "sourceSHA256": "56772ce23688d01a7fd8f3160a9b694fa902367b97a43e4bc39d29aeb1b13026",
+    "output": "assets/images/guides/nocca/pause-communication.png",
+    "outputSHA256": "87275cc8244f9a53ab53cba036a2a9d3a22d3279e66fd75dff0821535f9b55c2",
+    "cropXYWH": [
+      70,
+      805,
+      1030,
+      715
+    ],
+    "sourceKind": "New current Simulator UI capture, 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-nocca-capture-final.xcresult; NoccaUITests/testHomepageGuideCapture (1 passed)",
+    "evidence": "Nocca/NoccaApp.swift current existing UI-test fixture; Nocca/ContentView.swift",
+    "note": "Current unpublished UI, existing in-memory demo fixture, backend disabled. No network, purchase, or user data."
+  },
+  {
+    "app": "nocca",
+    "source": "/private/tmp/homepage-guides-captures/nocca-filled/14382095-02EE-4F4E-AD63-13D4F35B6A91.png",
+    "sourceSHA256": "8d5532aebe3390cbb0ac4c92aecbe53fdd42b0df1be4a4d81d1a2cb3cfbd7ed2",
+    "output": "assets/images/guides/nocca/send-signal.png",
+    "outputSHA256": "e15f40232b23795de5d9daba6814efd0c71b945d5fea526df2a0fdfc481f34f8",
+    "cropXYWH": [
+      50,
+      870,
+      1070,
+      730
+    ],
+    "sourceKind": "New current Simulator UI capture, 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-nocca-filled.xcresult; NoccaUITests/testHomepageGuideFilledStates (1 passed)",
+    "evidence": "Nocca/ContentView.swift unchanged; temporary NoccaApp.swift existing DEBUG fixture with demo message records / acknowledged IDs",
+    "note": "Real app UI, temporary test fixture only. Two fictional messages and acknowledged signal IDs seeded to show normal completed transport state. Backend remains disabled. This screenshot is not proof of live synchronization."
+  },
+  {
+    "app": "nocca",
+    "source": "/private/tmp/homepage-guides-captures/nocca-filled/14382095-02EE-4F4E-AD63-13D4F35B6A91.png",
+    "sourceSHA256": "8d5532aebe3390cbb0ac4c92aecbe53fdd42b0df1be4a4d81d1a2cb3cfbd7ed2",
+    "output": "assets/images/guides/nocca/signal-status.png",
+    "outputSHA256": "df49370f76875eceb040fc12d014c35f495dd0832d7a45497cec38d58b85e0c2",
+    "cropXYWH": [
+      50,
+      375,
+      1070,
+      480
+    ],
+    "sourceKind": "New current Simulator UI capture, 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-nocca-filled.xcresult; NoccaUITests/testHomepageGuideFilledStates (1 passed)",
+    "evidence": "Nocca/ContentView.swift unchanged; temporary NoccaApp.swift existing DEBUG fixture with demo message records / acknowledged IDs",
+    "note": "Real app UI, temporary test fixture only. Two fictional messages and acknowledged signal IDs seeded to show normal completed transport state. Backend remains disabled. This screenshot is not proof of live synchronization."
+  },
+  {
+    "app": "nocca",
+    "source": "/private/tmp/homepage-guides-captures/nocca-filled/D948F6BF-FF6D-4FC0-909B-2858EE1BF09D.png",
+    "sourceSHA256": "63c9e1f72b6a8ace4d01ae4028dcf1082b0d860b3105c3d246269f5f8109b3fa",
+    "output": "assets/images/guides/nocca/owner-talk.png",
+    "outputSHA256": "c30fb6202e8b79e3f4a923072fb90cd24437a687ac3e5e8373a9afad3ed4943d",
+    "cropXYWH": null,
+    "sourceKind": "New current Simulator UI capture, 2026-09-07",
+    "captureEvidence": "/private/tmp/homepage-guide-nocca-filled.xcresult; NoccaUITests/testHomepageGuideFilledStates (1 passed)",
+    "evidence": "Nocca/ContentView.swift unchanged; temporary NoccaApp.swift existing DEBUG fixture with demo message records / acknowledged IDs",
+    "note": "Real app UI, temporary test fixture only. Two fictional messages and acknowledged signal IDs seeded to show normal completed transport state. Backend remains disabled. This screenshot is not proof of live synchronization."
+  }
+]

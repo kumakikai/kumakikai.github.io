@@ -1,0 +1,2427 @@
+{
+  "ok": true,
+  "guidePages": 22,
+  "apps": [
+    "balance-calendar",
+    "giga-poke",
+    "nocca",
+    "oto-miru",
+    "signal",
+    "smokeless",
+    "uni-note",
+    "uni-note-pocket"
+  ],
+  "sourceImages": 117,
+  "renderedUses": 143,
+  "modes": {
+    "crop": 108,
+    "screen": 29,
+    "tablet": 6
+  },
+  "sourceBytes": 10458389,
+  "generatedVariants": 218,
+  "generatedBytes": 4310646,
+  "errors": [],
+  "pages": [
+    {
+      "source": "content/htu/balance-calendar.md",
+      "route": "/htu/balance-calendar/",
+      "app": "balance-calendar",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/balance-calendar/income-expense-buttons.png",
+          "mode": "crop",
+          "alt": "ギャンカレの登録画面。緑の上矢印と赤の下矢印、その下にタグの選択ボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/balance-calendar/amount-keypad.png",
+          "mode": "screen",
+          "alt": "収入金額を入力するテンキーと、下部の緑の確定ボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/balance-calendar/date-history-controls.png",
+          "mode": "crop",
+          "alt": "ギャンカレの画面上部。中央に日付、右上に履歴を開くレシート型アイコン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/balance-calendar/daily-records.png",
+          "mode": "screen",
+          "alt": "収支画面の切替タブと日別一覧。各行に日付と収支、下部に全期間累計を表示",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/balance-calendar/widget-entry.png",
+          "mode": "screen",
+          "alt": "ホーム画面のギャンカレウィジェット。収入用の緑の上矢印と支出用の赤の下矢印",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/balance-calendar/tag-settings.png",
+          "mode": "crop",
+          "alt": "タグ設定の編集対象一覧とウィジェット用デフォルトタグの項目",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/giga-poke.md",
+      "route": "/htu/giga-poke/",
+      "app": "giga-poke",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/giga-poke/home-add-controls.png",
+          "mode": "crop",
+          "alt": "ギガポケのホーム右上の追加ボタンと、一覧下のペーストして追加ボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/giga-poke/paste-review.png",
+          "mode": "screen",
+          "alt": "コピーしたデモ特典の確認画面。3GB、コード、有効期限を確認して右上の登録を押す",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/giga-poke/benefit-row.png",
+          "mode": "crop",
+          "alt": "デモ用ギガコードの特典名、本日までの期限表示、povo 2.0ボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/giga-poke/benefit-actions.png",
+          "mode": "crop",
+          "alt": "特典詳細のpovo 2.0で使う、ゴミ箱に移動、コードをAirDrop等で共有するボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/giga-poke/trash-list.png",
+          "mode": "crop",
+          "alt": "ゴミ箱内のデモ特典と、特典ごとの削除ボタン、右上のゴミ箱を空にするボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/giga-poke/notification-settings.png",
+          "mode": "crop",
+          "alt": "ギガポケ設定の通知タイミングの選択項目",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/giga-poke/benefit-management-settings.png",
+          "mode": "crop",
+          "alt": "使用時にpovo 2.0を開く、自動でゴミ箱へ移動、自動削除の設定",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/nocca.md",
+      "route": "/htu/nocca/",
+      "app": "nocca",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/nocca/choose-role.png",
+          "mode": "crop",
+          "alt": "Nocca初回画面の本人として使う・家族として使うボタンと役割の説明",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/nocca/invite-family.png",
+          "mode": "screen",
+          "alt": "本人側の家族を招待画面。招待コードのコピーと招待リンクの共有ボタン",
+          "caption": "画像のコードは説明用です。アプリに表示されたコードを共有してください。"
+        },
+        {
+          "source": "assets/images/guides/nocca/send-signal.png",
+          "mode": "crop",
+          "alt": "本人側の意思表示画面。ご飯ほしい、飲み物ほしい、片付けお願いのアイコン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/nocca/signal-status.png",
+          "mode": "crop",
+          "alt": "本人側の送った意思表示。家族からの少し待ってねという返信と取り消すボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/nocca/reply-options.png",
+          "mode": "crop",
+          "alt": "家族側の受信画面。ご飯ほしいへの対応と完了の定型返信ボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/nocca/owner-talk.png",
+          "mode": "screen",
+          "alt": "本人側の会話画面。会話を閉じる操作と短いメッセージの入力欄",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/nocca/pause-communication.png",
+          "mode": "crop",
+          "alt": "通信を休止する画面の説明と通信を休止するボタン",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/oto-miru.md",
+      "route": "/htu/oto-miru/",
+      "app": "oto-miru",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/oto-miru/simple-mode-buttons.png",
+          "mode": "crop",
+          "alt": "オトミルのシンプルモードに並ぶテレビ・会話・グループの開始ボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/oto-miru/mode-and-settings.png",
+          "mode": "crop",
+          "alt": "通常モード上部のテレビ・会話・グループ・映画の切り替えと、右上の設定ボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/oto-miru/start-caption.png",
+          "mode": "crop",
+          "alt": "通常モード下部の字幕をはじめるボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/oto-miru/caption-and-controls.png",
+          "mode": "screen",
+          "alt": "会話字幕のサンプルと、字幕を止める・反転ボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/oto-miru/display-settings.png",
+          "mode": "crop",
+          "alt": "表示設定の字幕の文字サイズ、高齢者向けスイッチ、テーマの切り替え",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/oto-miru/listening-environment.png",
+          "mode": "crop",
+          "alt": "音声の聞き取り設定で周囲の環境を選ぶ項目",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/oto-miru/free-time-and-plus.png",
+          "mode": "crop",
+          "alt": "シンプルモード下部の今日の残り無料時間、広告を見て5分追加、Plusに加入するボタン",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/signal.md",
+      "route": "/htu/signal/",
+      "app": "signal",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/signal/tabs-and-article.png",
+          "mode": "crop",
+          "alt": "SIGNAL上部の3タブと、右上にグッド・バッドのボタンがある記事カード",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/signal/article-menu.png",
+          "mode": "crop",
+          "alt": "SIGNALの記事画面上部にある閉じるボタンと右上のメニューボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/signal/source-switches.png",
+          "mode": "crop",
+          "alt": "設定の「記事取得サイト設定」とnote・Zennの配信スイッチ",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/signal/text-and-theme.png",
+          "mode": "crop",
+          "alt": "設定上部のテーマ選択とSmall・Normal・Largeの文字サイズ選択",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/smokeless.en.md",
+      "route": "/en/htu/smokeless/",
+      "app": "smokeless",
+      "locale": "en",
+      "images": [
+        {
+          "source": "assets/images/guides/smokeless/en/record-buttons.png",
+          "mode": "crop",
+          "alt": "Smokeless logging controls: green Avoided on the left and red Smoked on the right, with today’s counts",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/en/history.png",
+          "mode": "crop",
+          "alt": "Smokeless history showing today’s record times and smoked or avoided icons",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/en/calendar.png",
+          "mode": "screen",
+          "alt": "Smokeless Calendar tabs and daily counts with money totals",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/en/chart.png",
+          "mode": "screen",
+          "alt": "Smokeless chart with period controls and smoked, avoided and average lines",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/en/settings.png",
+          "mode": "crop",
+          "alt": "Smokeless brand settings for pack size, pack price and the widget default brand",
+          "caption": null
+        }
+      ],
+      "watchGuide": true
+    },
+    {
+      "source": "content/htu/smokeless.fr.md",
+      "route": "/fr/htu/smokeless/",
+      "app": "smokeless",
+      "locale": "fr",
+      "images": [
+        {
+          "source": "assets/images/guides/smokeless/fr/record-buttons.png",
+          "mode": "crop",
+          "alt": "Boutons de saisie Smokeless : cigarette évitée en vert à gauche, fumée en rouge à droite",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/fr/history-controls.png",
+          "mode": "crop",
+          "alt": "En haut de Saisie, icône de ticket à droite pour ouvrir l’historique",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/fr/calendar.png",
+          "mode": "screen",
+          "alt": "Calendrier Smokeless avec onglets Jour, Mois et Année et totaux quotidiens",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/fr/chart.png",
+          "mode": "screen",
+          "alt": "Graphiques Smokeless et commandes de période, avec courbes des cigarettes fumées et évitées",
+          "caption": null
+        }
+      ],
+      "watchGuide": true
+    },
+    {
+      "source": "content/htu/smokeless.ko.md",
+      "route": "/ko/htu/smokeless/",
+      "app": "smokeless",
+      "locale": "ko",
+      "images": [
+        {
+          "source": "assets/images/guides/smokeless/ko/record-buttons.png",
+          "mode": "crop",
+          "alt": "왼쪽 초록색 참음 버튼과 오른쪽 빨간색 흡연 버튼, 각 버튼에 표시된 오늘 기록 수",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/ko/history-controls.png",
+          "mode": "crop",
+          "alt": "기록 화면 오른쪽 위에 있는 당일 기록을 여는 영수증 아이콘",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/ko/calendar.png",
+          "mode": "screen",
+          "alt": "일별·월별·연별 탭과 날짜별 기록 수 및 금액을 표시하는 캘린더",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/ko/chart.png",
+          "mode": "screen",
+          "alt": "기간 선택과 흡연·참음·흡연 평균 추이를 보여 주는 차트",
+          "caption": null
+        }
+      ],
+      "watchGuide": true
+    },
+    {
+      "source": "content/htu/smokeless.md",
+      "route": "/htu/smokeless/",
+      "app": "smokeless",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/smokeless/ja/record-buttons.png",
+          "mode": "crop",
+          "alt": "すわなびの記録ボタン。左の緑が我慢、右の赤が喫煙で、各ボタン内に当日の回数を表示",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/ja/history.png",
+          "mode": "crop",
+          "alt": "すわなびの当日履歴。時刻と我慢・喫煙のアイコンが並ぶ記録一覧",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/ja/calendar.png",
+          "mode": "screen",
+          "alt": "すわなびのカレンダー。日別・月別・年別タブと、日付ごとの喫煙・我慢回数と金額",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/ja/chart.png",
+          "mode": "screen",
+          "alt": "すわなびのグラフ。週・月・3か月の切替と、我慢・喫煙・喫煙平均の推移",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/ja/settings.png",
+          "mode": "crop",
+          "alt": "すわなびの銘柄設定。既定銘柄の本数と価格、追加購入が必要な銘柄を追加の項目",
+          "caption": null
+        }
+      ],
+      "watchGuide": true
+    },
+    {
+      "source": "content/htu/smokeless.zh-hant.md",
+      "route": "/zh-hant/htu/smokeless/",
+      "app": "smokeless",
+      "locale": "zh-hant",
+      "images": [
+        {
+          "source": "assets/images/guides/smokeless/zh-hant/record-buttons.png",
+          "mode": "crop",
+          "alt": "左側綠色忍住按鈕與右側紅色吸菸按鈕，按鈕中顯示今天的次數",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/zh-hant/history-controls.png",
+          "mode": "crop",
+          "alt": "記錄畫面右上角用來開啟當日履歷的收據圖示",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/zh-hant/calendar.png",
+          "mode": "screen",
+          "alt": "日曆的日月年切換，以及各日期的吸菸、忍住次數與金額",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/smokeless/zh-hant/chart.png",
+          "mode": "screen",
+          "alt": "圖表的期間選擇與吸菸、忍住、吸菸平均趨勢",
+          "caption": null
+        }
+      ],
+      "watchGuide": true
+    },
+    {
+      "source": "content/htu/uni-note-pocket.de.md",
+      "route": "/de/htu/uni-note-pocket/",
+      "app": "uni-note-pocket",
+      "locale": "de",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note-pocket/de/import-backup.png",
+          "mode": "crop",
+          "alt": "Unterer Bereich der Pocket-Startseite mit Import und Notiztitelsuche",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/de/open-note.png",
+          "mode": "crop",
+          "alt": "Notizen, Fragensets und Fachliste auf der Startseite",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/de/search-notes.png",
+          "mode": "crop",
+          "alt": "Suchfeld für Notiztitel in Pocket",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/de/page-review.png",
+          "mode": "screen",
+          "alt": "Fortlaufende Seiten und Zoom in Pocket",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/de/sticky-review.png",
+          "mode": "crop",
+          "alt": "Haftmarker beim Wiederholen importierter Notizen",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/de/practice-answer.png",
+          "mode": "screen",
+          "alt": "Frage und Antwort mit Zurück/Weiter",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note-pocket.en.md",
+      "route": "/en/htu/uni-note-pocket/",
+      "app": "uni-note-pocket",
+      "locale": "en",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note-pocket/en/import-backup.png",
+          "mode": "crop",
+          "alt": "Pocket Home bottom area with import button and note-title search",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/en/open-note.png",
+          "mode": "crop",
+          "alt": "Notes, Question Sets, recent notes and subject list",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/en/search-notes.png",
+          "mode": "crop",
+          "alt": "Note-title search field in Pocket",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/en/page-review.png",
+          "mode": "screen",
+          "alt": "Continuous pages and zoom in Pocket",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/en/sticky-review.png",
+          "mode": "crop",
+          "alt": "Sticky-marker review in imported notes",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/en/practice-answer.png",
+          "mode": "screen",
+          "alt": "Question card with answer and previous/next controls",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note-pocket.fr.md",
+      "route": "/fr/htu/uni-note-pocket/",
+      "app": "uni-note-pocket",
+      "locale": "fr",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note-pocket/fr/import-backup.png",
+          "mode": "crop",
+          "alt": "Bas de l’accueil Pocket avec import et recherche de titres de notes",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/fr/open-note.png",
+          "mode": "crop",
+          "alt": "Notes, lots, notes récentes et matières",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/fr/search-notes.png",
+          "mode": "crop",
+          "alt": "Champ de recherche des titres dans Pocket",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/fr/page-review.png",
+          "mode": "screen",
+          "alt": "Pages continues et zoom dans Pocket",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/fr/sticky-review.png",
+          "mode": "crop",
+          "alt": "Révision avec les repères des notes importées",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/fr/practice-answer.png",
+          "mode": "screen",
+          "alt": "Carte avec question, réponse et boutons précédent/suivant",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note-pocket.ko.md",
+      "route": "/ko/htu/uni-note-pocket/",
+      "app": "uni-note-pocket",
+      "locale": "ko",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note-pocket/ko/import-backup.png",
+          "mode": "crop",
+          "alt": "Pocket 홈 아래의 가져오기 버튼과 노트 제목 검색창",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/ko/open-note.png",
+          "mode": "crop",
+          "alt": "노트·문제집·최근 노트·과목 목록",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/ko/search-notes.png",
+          "mode": "crop",
+          "alt": "Pocket의 노트 제목 검색창",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/ko/page-review.png",
+          "mode": "screen",
+          "alt": "Pocket의 연속 페이지와 확대 화면",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/ko/sticky-review.png",
+          "mode": "crop",
+          "alt": "가져온 노트의 스티커 복습 화면",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/ko/practice-answer.png",
+          "mode": "screen",
+          "alt": "문제·답과 이전·다음 버튼",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note-pocket.md",
+      "route": "/htu/uni-note-pocket/",
+      "app": "uni-note-pocket",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note-pocket/ja/import-backup.png",
+          "mode": "crop",
+          "alt": "Pocketホーム下部の読み込みボタンとノート検索欄",
+          "caption": "ホーム下部の画面例は英語表示です。右側に読み込みボタン、その下にノート検索欄があります。"
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/ja/open-note.png",
+          "mode": "crop",
+          "alt": "Uni:Note Pocketのノート切り替え・最近使ったノート・教科一覧",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/en/search-notes.png",
+          "mode": "crop",
+          "alt": "Uni:Note Pocketのノートタイトル検索欄",
+          "caption": "検索欄の画面例は英語表示です。位置はiOSのバージョンで異なる場合があります。"
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/ja/page-review.png",
+          "mode": "screen",
+          "alt": "Uni:Note Pocketで複数の講義ノートページを連続表示した画面",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/ja/sticky-review.png",
+          "mode": "crop",
+          "alt": "Uni:Note Pocketで付箋マーカーを使って答えを隠しているノート",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/ja/practice-answer.png",
+          "mode": "screen",
+          "alt": "Uni:Note Pocketの問題カードと答え・解説・前へ次へボタン",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note-pocket.zh-hant.md",
+      "route": "/zh-hant/htu/uni-note-pocket/",
+      "app": "uni-note-pocket",
+      "locale": "zh-hant",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note-pocket/zh-hant/import-backup.png",
+          "mode": "crop",
+          "alt": "Pocket 首頁下方的匯入按鈕與筆記標題搜尋欄",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/zh-hant/open-note.png",
+          "mode": "crop",
+          "alt": "筆記、題組、最近筆記及科目列表",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/zh-hant/search-notes.png",
+          "mode": "crop",
+          "alt": "Pocket 的筆記標題搜尋欄",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/zh-hant/page-review.png",
+          "mode": "screen",
+          "alt": "Pocket 的連續頁面與縮放畫面",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/zh-hant/sticky-review.png",
+          "mode": "crop",
+          "alt": "匯入筆記的便利貼複習畫面",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note-pocket/zh-hant/practice-answer.png",
+          "mode": "screen",
+          "alt": "題目、解答與上一題下一題按鈕",
+          "caption": null
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note.de.md",
+      "route": "/de/htu/uni-note/",
+      "app": "uni-note",
+      "locale": "de",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/de/create-menu.png",
+          "mode": "crop",
+          "alt": "Neues Fach und Ordner erstellen im Plus-Menü der Startseite",
+          "caption": "Das Menü nach dem Tippen auf + unten rechts."
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "mode": "crop",
+          "alt": "Palette mit Stift, Marker, Radierer, Haftmarker und Rückgängig",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/de/home-search.png",
+          "mode": "crop",
+          "alt": "Suche nach Notiztiteln auf der Startseite",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/de/attachment-menu.png",
+          "mode": "crop",
+          "alt": "Menü für Foto, Dokumentfoto, PDF-Anhang und PDF-Export",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/pdf-writing.png",
+          "mode": "tablet",
+          "alt": "Vorlesungs-PDF mit Handschrift in Uni:Note",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "mode": "crop",
+          "alt": "Sprache und roter Aufnahmeknopf im Aufnahmebereich",
+          "caption": "Im Beispiel ist Englisch als Aufnahmesprache gewählt."
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "mode": "crop",
+          "alt": "Haftmarker verdecken Antworten in der Vorlesungsnotiz",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/de/problem-answer.png",
+          "mode": "crop",
+          "alt": "Kopieren links und Teilen rechts im Ergebnisfenster",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/backup-file-actions.png",
+          "mode": "crop",
+          "alt": "Backup exportieren und Aus Datei wiederherstellen in den Uni:Note-Einstellungen",
+          "caption": "Japanische Oberfläche: Die obere Zeile exportiert ein Backup, die untere stellt eine gespeicherte Datei wieder her."
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note.en.md",
+      "route": "/en/htu/uni-note/",
+      "app": "uni-note",
+      "locale": "en",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/en/create-menu.png",
+          "mode": "crop",
+          "alt": "New Subject and Create Folder in the Home Add menu",
+          "caption": "The creation menu opened by the bottom-right + button."
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "mode": "crop",
+          "alt": "Pen, highlighter, eraser, sticky marker, undo and redo palette",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/en/home-search.png",
+          "mode": "crop",
+          "alt": "Search note titles field on Home",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/en/attachment-menu.png",
+          "mode": "crop",
+          "alt": "Photo, document photo, PDF attachment and PDF export menu",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/pdf-writing.png",
+          "mode": "tablet",
+          "alt": "Lecture PDF with handwriting in Uni:Note",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "mode": "crop",
+          "alt": "Recording panel language and red record button",
+          "caption": "The recording-language example uses English."
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "mode": "crop",
+          "alt": "Sticky markers hiding answers in lecture notes",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/en/problem-answer.png",
+          "mode": "crop",
+          "alt": "Copy on the left and Share on the right in the answer sheet",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/backup-file-actions.png",
+          "mode": "crop",
+          "alt": "Export Backup and Restore from File in Uni:Note Backup settings",
+          "caption": "Japanese UI: the upper row exports a backup; the lower row restores a saved file."
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note.fr.md",
+      "route": "/fr/htu/uni-note/",
+      "app": "uni-note",
+      "locale": "fr",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/fr/create-menu.png",
+          "mode": "crop",
+          "alt": "Ajouter une matière et Créer un dossier dans le menu + de l’accueil",
+          "caption": "Le menu de création ouvert par le bouton + en bas à droite."
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "mode": "crop",
+          "alt": "Palette avec stylo, surligneur, gomme, repère et annulation",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/fr/home-search.png",
+          "mode": "crop",
+          "alt": "Recherche de titres sur l’accueil",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/fr/attachment-menu.png",
+          "mode": "crop",
+          "alt": "Menu photo, document photo, pièce jointe PDF et export PDF",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/pdf-writing.png",
+          "mode": "tablet",
+          "alt": "PDF de cours annoté dans Uni:Note",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "mode": "crop",
+          "alt": "Langue et bouton rouge du panneau d’enregistrement",
+          "caption": "L’exemple utilise l’anglais comme langue de transcription."
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "mode": "crop",
+          "alt": "Repères adhésifs masquant les réponses dans les notes",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/fr/problem-answer.png",
+          "mode": "crop",
+          "alt": "Boutons Copier à gauche et Partager à droite du panneau de réponse",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/backup-file-actions.png",
+          "mode": "crop",
+          "alt": "Exporter une sauvegarde et Restaurer depuis un fichier dans Uni:Note",
+          "caption": "Interface japonaise : la ligne du haut exporte une sauvegarde ; celle du bas restaure un fichier enregistré."
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note.ko.md",
+      "route": "/ko/htu/uni-note/",
+      "app": "uni-note",
+      "locale": "ko",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/ko/create-menu.png",
+          "mode": "crop",
+          "alt": "홈 오른쪽 아래 +에서 연 새 과목과 폴더 만들기 메뉴",
+          "caption": "오른쪽 아래 +를 탭한 뒤 표시되는 생성 메뉴입니다."
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "mode": "crop",
+          "alt": "펜·형광펜·지우개·스티커·실행 취소 팔레트",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/ko/home-search.png",
+          "mode": "crop",
+          "alt": "홈의 노트 제목 검색창",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/ko/attachment-menu.png",
+          "mode": "crop",
+          "alt": "사진·문서 사진·PDF 첨부·PDF 내보내기 메뉴",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/pdf-writing.png",
+          "mode": "tablet",
+          "alt": "Uni:Note에서 손글씨를 쓴 강의 PDF",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "mode": "crop",
+          "alt": "녹음 패널의 언어와 빨간 시작 버튼",
+          "caption": "예시의 문자 변환 언어는 영어입니다."
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "mode": "crop",
+          "alt": "강의 노트의 답을 숨긴 스티커 마커",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/ko/problem-answer.png",
+          "mode": "crop",
+          "alt": "풀이 결과 오른쪽 위의 복사 버튼과 공유 버튼",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/backup-file-actions.png",
+          "mode": "crop",
+          "alt": "Uni:Note 백업 설정의 백업 내보내기와 파일에서 복원",
+          "caption": "일본어 화면입니다. 위 행은 백업을 내보내고, 아래 행은 저장한 파일에서 복원합니다."
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note.md",
+      "route": "/htu/uni-note/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/ja/create-menu.png",
+          "mode": "crop",
+          "alt": "ホーム右下の＋から開く「教科を追加」と「フォルダを作成」のメニュー",
+          "caption": "右下の＋をタップしたあとの作成メニュー。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "mode": "crop",
+          "alt": "Uni:Noteのペン・蛍光ペン・消しゴム・付箋マーカー・戻る・やり直しパレット",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/ja/home-search.png",
+          "mode": "crop",
+          "alt": "Uni:Noteホーム上部のノートタイトル検索欄",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/ja/attachment-menu.png",
+          "mode": "crop",
+          "alt": "Uni:Noteのその他メニューにある写真貼付・書類写真・PDF貼付・PDF出力",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/pdf-writing.png",
+          "mode": "tablet",
+          "alt": "講義PDFへApple Pencilで書き込んだUni:Noteの画面",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "mode": "crop",
+          "alt": "Uni:Note録音パネルの文字起こし言語と赤い録音開始ボタン",
+          "caption": "画面例では文字起こし言語を英語にしています。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "mode": "crop",
+          "alt": "Uni:Noteの講義ノート上で答えを隠している黄色い付箋マーカー",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/ja/problem-answer.png",
+          "mode": "crop",
+          "alt": "解答結果の右上にあるコピー（左）と共有（右）のボタン",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/backup-file-actions.png",
+          "mode": "crop",
+          "alt": "Uni:Noteのバックアップ設定にある「バックアップを書き出す」と「ファイルから復元」",
+          "caption": "「設定 → バックアップ」のファイル操作。保存するときは上の行、保存済みファイルを戻すときは下の行を選びます。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/htu/uni-note.zh-hant.md",
+      "route": "/zh-hant/htu/uni-note/",
+      "app": "uni-note",
+      "locale": "zh-hant",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/zh-hant/create-menu.png",
+          "mode": "crop",
+          "alt": "首頁右下角 + 開啟的新增科目與建立資料夾選單",
+          "caption": "點首頁右下角 + 後開啟的建立選單。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "mode": "crop",
+          "alt": "筆、螢光筆、橡皮擦、便利貼及復原工具盤",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/zh-hant/home-search.png",
+          "mode": "crop",
+          "alt": "首頁的筆記標題搜尋欄",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/zh-hant/attachment-menu.png",
+          "mode": "crop",
+          "alt": "照片、文件照片、PDF 貼附與匯出選單",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/pdf-writing.png",
+          "mode": "tablet",
+          "alt": "Uni:Note 中已加手寫註記的課程 PDF",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "mode": "crop",
+          "alt": "錄音面板的語言與紅色開始按鈕",
+          "caption": "範例的轉錄語言為英文。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "mode": "crop",
+          "alt": "遮住課程答案的便利貼標記",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/zh-hant/problem-answer.png",
+          "mode": "crop",
+          "alt": "解答結果右上方的複製與分享按鈕",
+          "caption": null
+        },
+        {
+          "source": "assets/images/guides/uni-note/common/backup-file-actions.png",
+          "mode": "crop",
+          "alt": "Uni:Note 備份設定中的匯出備份與從檔案還原",
+          "caption": "畫面為日文介面：上方項目匯出備份，下方項目從已儲存的檔案還原。"
+        }
+      ],
+      "watchGuide": false
+    }
+  ],
+  "sourceAssets": {
+    "assets/images/guides/balance-calendar/income-expense-buttons.png": {
+      "bytes": 59156,
+      "sha256": "669e74bc8061e85009c59ec80c1efac3ffe69068ff6aa2b42165a642e0f0221e"
+    },
+    "assets/images/guides/balance-calendar/amount-keypad.png": {
+      "bytes": 93523,
+      "sha256": "1cb01cf535ba985f924137e485eb6588e980047b792aa9f2d6c99d11b6b59235"
+    },
+    "assets/images/guides/balance-calendar/date-history-controls.png": {
+      "bytes": 30061,
+      "sha256": "80fc5f861968b39c2594d155fc38c9eb551e5d9341ac5086099f96cfa007f6c9"
+    },
+    "assets/images/guides/balance-calendar/daily-records.png": {
+      "bytes": 151138,
+      "sha256": "cc47780de3aba43f3937c5d7a921c7aa601a774d5d5d65ad219576f8e05f121d"
+    },
+    "assets/images/guides/balance-calendar/widget-entry.png": {
+      "bytes": 118023,
+      "sha256": "83c76f6e38a8fe0d1a3736ec89a2ee48a41de7c8649ad4232e68b104f773762b"
+    },
+    "assets/images/guides/balance-calendar/tag-settings.png": {
+      "bytes": 48503,
+      "sha256": "ec9f47c0a7ea1be61a7d1b7ce69bb221be119aab8709ae4decc924420f48ca24"
+    },
+    "assets/images/guides/giga-poke/home-add-controls.png": {
+      "bytes": 96587,
+      "sha256": "b8c4d63373682a4eed83a33ebbffb90bede5fa705ab61a1e9cac9480fce061ed"
+    },
+    "assets/images/guides/giga-poke/paste-review.png": {
+      "bytes": 105192,
+      "sha256": "7df618c8cc4df11c81ffc747d1d30c8099d1ec098ed86f6703c2353431d6c723"
+    },
+    "assets/images/guides/giga-poke/benefit-row.png": {
+      "bytes": 53052,
+      "sha256": "55972544741cf990fcdf32322a1ab4517246912aeb3a6c9598bb81f441e4fb3d"
+    },
+    "assets/images/guides/giga-poke/benefit-actions.png": {
+      "bytes": 90373,
+      "sha256": "6edd4892d80e2134988adfd3d5d353f81800d18642bc7204664bf2362600033e"
+    },
+    "assets/images/guides/giga-poke/trash-list.png": {
+      "bytes": 71080,
+      "sha256": "3bd38d041f866308710112730402b7752999ba2872840dc3259c60ff2867eede"
+    },
+    "assets/images/guides/giga-poke/notification-settings.png": {
+      "bytes": 41383,
+      "sha256": "7406048c4cdf2548f75765db0f1bc7c21d5caee409f01f1837215b80326d4d60"
+    },
+    "assets/images/guides/giga-poke/benefit-management-settings.png": {
+      "bytes": 82109,
+      "sha256": "2485d46289e8606a70f04021d500a7496f23747ad3f7dac03bb0927d5eec63e8"
+    },
+    "assets/images/guides/nocca/choose-role.png": {
+      "bytes": 454642,
+      "sha256": "32b8103b65b13bdf5dc454918f93d2b60bc374f03d4bf50a24c01229aba62b10"
+    },
+    "assets/images/guides/nocca/invite-family.png": {
+      "bytes": 370501,
+      "sha256": "e46355918005f148fc2904ab37fdc815b26ffa10b64681e94f61176fb76ba3c7"
+    },
+    "assets/images/guides/nocca/send-signal.png": {
+      "bytes": 312860,
+      "sha256": "e15f40232b23795de5d9daba6814efd0c71b945d5fea526df2a0fdfc481f34f8"
+    },
+    "assets/images/guides/nocca/signal-status.png": {
+      "bytes": 60862,
+      "sha256": "df49370f76875eceb040fc12d014c35f495dd0832d7a45497cec38d58b85e0c2"
+    },
+    "assets/images/guides/nocca/reply-options.png": {
+      "bytes": 125387,
+      "sha256": "9928176eeccfc1119cc414e65dce692fdd49a6607bc7b80a892da1641a425421"
+    },
+    "assets/images/guides/nocca/owner-talk.png": {
+      "bytes": 283165,
+      "sha256": "c30fb6202e8b79e3f4a923072fb90cd24437a687ac3e5e8373a9afad3ed4943d"
+    },
+    "assets/images/guides/nocca/pause-communication.png": {
+      "bytes": 107991,
+      "sha256": "87275cc8244f9a53ab53cba036a2a9d3a22d3279e66fd75dff0821535f9b55c2"
+    },
+    "assets/images/guides/oto-miru/simple-mode-buttons.png": {
+      "bytes": 203223,
+      "sha256": "928851aef25a567cb5abd3b349ab7e9b7761bfa40f79fd0600d6dbc885d3aaa0"
+    },
+    "assets/images/guides/oto-miru/mode-and-settings.png": {
+      "bytes": 13189,
+      "sha256": "1b73132da1eed7377ad12d853a458b6d2f66155e980c6b9a5238b29284383b5d"
+    },
+    "assets/images/guides/oto-miru/start-caption.png": {
+      "bytes": 12717,
+      "sha256": "808ba9f832a2c78e1f9987ea45727f336f1526fe5557677ae0a0cea9caa5a7c5"
+    },
+    "assets/images/guides/oto-miru/caption-and-controls.png": {
+      "bytes": 110084,
+      "sha256": "2762e23c943be52c233707291f36785de3c863377272176e5058663f80512b3c"
+    },
+    "assets/images/guides/oto-miru/display-settings.png": {
+      "bytes": 86070,
+      "sha256": "a4b73ddcf1b2cd40e3901bb757d33fbc81c84710952dbd1a86160b55a0c4c6a8"
+    },
+    "assets/images/guides/oto-miru/listening-environment.png": {
+      "bytes": 68918,
+      "sha256": "f0c5e91eb5e71d8bcf115df7ac87602d15141e1ad86ca4fcfb5e6b9af6e5d151"
+    },
+    "assets/images/guides/oto-miru/free-time-and-plus.png": {
+      "bytes": 82505,
+      "sha256": "305cf78f9f9f97867381d76cf9650979bd3c979f5265c894f5e01adaad99d388"
+    },
+    "assets/images/guides/signal/tabs-and-article.png": {
+      "bytes": 89850,
+      "sha256": "bceb35285979d27024e246abd3dccd989015749b1e69d3705ed34ca95300ef89"
+    },
+    "assets/images/guides/signal/article-menu.png": {
+      "bytes": 19515,
+      "sha256": "f84f7fa842a3237cceaf2df0ae7a3ef789addc4b7739899b3d09ddcc9891abbe"
+    },
+    "assets/images/guides/signal/source-switches.png": {
+      "bytes": 77577,
+      "sha256": "ebef386eeb6ef69a19f41a76f1d49af20f9a6ed9b173d7ba32b408631e01376e"
+    },
+    "assets/images/guides/signal/text-and-theme.png": {
+      "bytes": 40269,
+      "sha256": "705222cb79e1019d33e1d25db0e250e0cc05a4674a4179aa1cdaf6633a3b8d25"
+    },
+    "assets/images/guides/smokeless/en/record-buttons.png": {
+      "bytes": 46370,
+      "sha256": "10a61462e2d582685691b1756b97ca92def7b219a88cbed514f0aa4f1c78a335"
+    },
+    "assets/images/guides/smokeless/en/history.png": {
+      "bytes": 37993,
+      "sha256": "365fd1f0ca1978a0b3e087d3882b99e8fbebd91686263b810f0507101f40f25f"
+    },
+    "assets/images/guides/smokeless/en/calendar.png": {
+      "bytes": 77614,
+      "sha256": "fb94b99501929bf174371e8161d5c3ceb2aae2b7f9fb681c6ff0df45753d3ada"
+    },
+    "assets/images/guides/smokeless/en/chart.png": {
+      "bytes": 129507,
+      "sha256": "3ef097279d3ea7b93e7489cb271bf09c68ac9331d63ae0c7f07b08fffd7ac4e1"
+    },
+    "assets/images/guides/smokeless/en/settings.png": {
+      "bytes": 36734,
+      "sha256": "762bcd9c82fc0b195fe5dc94963909c4e875263ad2d568d59ce5e59a32808491"
+    },
+    "assets/images/guides/smokeless/fr/record-buttons.png": {
+      "bytes": 46261,
+      "sha256": "af17f5bd9d7e920d8ea5592b1fb3040c5f062534a0430d5a36c6943e22e9825a"
+    },
+    "assets/images/guides/smokeless/fr/history-controls.png": {
+      "bytes": 13001,
+      "sha256": "bc6237e4fba7c029f4e4c0f93c720afcc6b469bc190bf5b027d5ae5e21836906"
+    },
+    "assets/images/guides/smokeless/fr/calendar.png": {
+      "bytes": 75643,
+      "sha256": "77ac35f863ae0c2cf3393aa98688dfed1c00b8a86e4e93ac4739f28bb584d1d1"
+    },
+    "assets/images/guides/smokeless/fr/chart.png": {
+      "bytes": 151468,
+      "sha256": "40031984915d2730e060bfbb7ca59bdd98d68f61edd0f392dfe4aa7d40207a90"
+    },
+    "assets/images/guides/smokeless/ko/record-buttons.png": {
+      "bytes": 46261,
+      "sha256": "af17f5bd9d7e920d8ea5592b1fb3040c5f062534a0430d5a36c6943e22e9825a"
+    },
+    "assets/images/guides/smokeless/ko/history-controls.png": {
+      "bytes": 14223,
+      "sha256": "7b903ae50cc22dbc519299336dd1b510cb21e85342ddf31a47b866ba625f6f9c"
+    },
+    "assets/images/guides/smokeless/ko/calendar.png": {
+      "bytes": 80027,
+      "sha256": "e22b1f2614cb96e9332f79311d8af1d4c49e45d9647a3a848e53f3b5e2e9c1e2"
+    },
+    "assets/images/guides/smokeless/ko/chart.png": {
+      "bytes": 148304,
+      "sha256": "6a432501f5bec00c569dbc0b9bdef5a93e08fc080fdf247690de5dd5d9b6267c"
+    },
+    "assets/images/guides/smokeless/ja/record-buttons.png": {
+      "bytes": 46347,
+      "sha256": "968a9fd2a5b12552b43c17cf1910a7feaa0ccf351d234f1ccfb032561ca35b28"
+    },
+    "assets/images/guides/smokeless/ja/history.png": {
+      "bytes": 36228,
+      "sha256": "a35cba51e2368aecab979ad78cab44752824c0662f3f669bc3eb92adbae98074"
+    },
+    "assets/images/guides/smokeless/ja/calendar.png": {
+      "bytes": 72400,
+      "sha256": "a6e1777ad0e647f508b6de80fe9fcc9a9c65b337e4a881e94598b56620844d71"
+    },
+    "assets/images/guides/smokeless/ja/chart.png": {
+      "bytes": 127425,
+      "sha256": "81c5c325749be0988efd0b2af1ba1fd9091eb6a14728b2dd24b7d4f8fd7eabe3"
+    },
+    "assets/images/guides/smokeless/ja/settings.png": {
+      "bytes": 40258,
+      "sha256": "85665395106c01aecf9814d5eeaec507ffbc807cf518aa6710e3ae9fdc08b9e4"
+    },
+    "assets/images/guides/smokeless/zh-hant/record-buttons.png": {
+      "bytes": 46261,
+      "sha256": "af17f5bd9d7e920d8ea5592b1fb3040c5f062534a0430d5a36c6943e22e9825a"
+    },
+    "assets/images/guides/smokeless/zh-hant/history-controls.png": {
+      "bytes": 14068,
+      "sha256": "9bbbb30d8034fd2913e4a08440ceb74708abbc21cf088606457c45d7dc258ff5"
+    },
+    "assets/images/guides/smokeless/zh-hant/calendar.png": {
+      "bytes": 79161,
+      "sha256": "7dedfa7d05d8a16e6c0d2ab823d8b55b090c64a946b4e98339b0bb05ad3b2449"
+    },
+    "assets/images/guides/smokeless/zh-hant/chart.png": {
+      "bytes": 150610,
+      "sha256": "ee838a150f155080f00fff12c40f728f6190981f0c59904c3efe53959f96f991"
+    },
+    "assets/images/guides/uni-note-pocket/de/import-backup.png": {
+      "bytes": 30590,
+      "sha256": "92ac3022cc4cb88350cf8a824f3fba40fa78b88c5b46dc9bd6fd8179fe2551c2"
+    },
+    "assets/images/guides/uni-note-pocket/de/open-note.png": {
+      "bytes": 49880,
+      "sha256": "d0f074bfc164419ade43f508525325ca2bd6f91cb3edc3724197290511702c30"
+    },
+    "assets/images/guides/uni-note-pocket/de/search-notes.png": {
+      "bytes": 16279,
+      "sha256": "241b7561e218f1e20b44f69bde768c464f45b6ab0bf54d08cad59a2822411870"
+    },
+    "assets/images/guides/uni-note-pocket/de/page-review.png": {
+      "bytes": 328831,
+      "sha256": "e14daeedd4723230e59b1cc3e74bf58767420383d508e70953ebf8e2cc22ee4b"
+    },
+    "assets/images/guides/uni-note-pocket/de/sticky-review.png": {
+      "bytes": 152254,
+      "sha256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816"
+    },
+    "assets/images/guides/uni-note-pocket/de/practice-answer.png": {
+      "bytes": 108001,
+      "sha256": "6cb635b3c7fa4286994826ef869205f6f6e3c995824e4723f7e9bd095495da90"
+    },
+    "assets/images/guides/uni-note-pocket/en/import-backup.png": {
+      "bytes": 30231,
+      "sha256": "37d40b28c423373da90520862cdbc55725b00c1268c760d9ffe2ef627871b909"
+    },
+    "assets/images/guides/uni-note-pocket/en/open-note.png": {
+      "bytes": 63269,
+      "sha256": "70561f5cf5dcfbf7a3c3457123988122af320b442a820f43caab1e9fea4ad731"
+    },
+    "assets/images/guides/uni-note-pocket/en/search-notes.png": {
+      "bytes": 15916,
+      "sha256": "adaeab19755324c68f69249a145efa5c0937a180f7709c3df9a58a9dd684efc2"
+    },
+    "assets/images/guides/uni-note-pocket/en/page-review.png": {
+      "bytes": 328797,
+      "sha256": "0041d3683bcb4df27b9f05e2a26d81bfbfa62dfab28146d359ebb12e599039b0"
+    },
+    "assets/images/guides/uni-note-pocket/en/sticky-review.png": {
+      "bytes": 152254,
+      "sha256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816"
+    },
+    "assets/images/guides/uni-note-pocket/en/practice-answer.png": {
+      "bytes": 109158,
+      "sha256": "d17c840682b876f11a496e19bd895f3325a40ffbf49ef43812149a8c623c5e29"
+    },
+    "assets/images/guides/uni-note-pocket/fr/import-backup.png": {
+      "bytes": 30215,
+      "sha256": "a55545bb5fdc2d44ee139b2c4330f9bde51069cf94a8daf9e238f05a41fe5b58"
+    },
+    "assets/images/guides/uni-note-pocket/fr/open-note.png": {
+      "bytes": 46950,
+      "sha256": "827f295db10e0270533cda8bfbe15a17d417ea2a7542643ed400a9b92340c59a"
+    },
+    "assets/images/guides/uni-note-pocket/fr/search-notes.png": {
+      "bytes": 15924,
+      "sha256": "5e1ceeaa403b5a223d1fb177b55c110aca8f4210df4eb594c5e8e4aa625370c6"
+    },
+    "assets/images/guides/uni-note-pocket/fr/page-review.png": {
+      "bytes": 328777,
+      "sha256": "b0b4dc9df4dcab9df88882e6600b38497a4fbb656be252a4a268e804f38aafab"
+    },
+    "assets/images/guides/uni-note-pocket/fr/sticky-review.png": {
+      "bytes": 152254,
+      "sha256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816"
+    },
+    "assets/images/guides/uni-note-pocket/fr/practice-answer.png": {
+      "bytes": 108389,
+      "sha256": "30e6af1f1af1e4bc0ad74d580918ca50a12d312782985094ded4680676efb462"
+    },
+    "assets/images/guides/uni-note-pocket/ko/import-backup.png": {
+      "bytes": 27644,
+      "sha256": "2de7c651d2af2e23a2cb8a2544b60ca08749706e7aedbad95f73d6b2150ad9cf"
+    },
+    "assets/images/guides/uni-note-pocket/ko/open-note.png": {
+      "bytes": 39835,
+      "sha256": "0df158db881d54ca116ebde2dbbcfdf30f12702857c13db21e7b14fd057447cf"
+    },
+    "assets/images/guides/uni-note-pocket/ko/search-notes.png": {
+      "bytes": 13437,
+      "sha256": "369c3a41f1a2270d3ce81d65389bde661bbf5d898baeac309f1dab2b9d1c4ff7"
+    },
+    "assets/images/guides/uni-note-pocket/ko/page-review.png": {
+      "bytes": 327516,
+      "sha256": "5583d3db58c614427f378cedaadc6ca30b35b7f0d9699ef0b0cab2addf0d3a01"
+    },
+    "assets/images/guides/uni-note-pocket/ko/sticky-review.png": {
+      "bytes": 152256,
+      "sha256": "aad18f67b4debaea05560fe414df7fdb4fe400bb0665ad16721539213ce0d5ca"
+    },
+    "assets/images/guides/uni-note-pocket/ko/practice-answer.png": {
+      "bytes": 99279,
+      "sha256": "52c083f6000cf081f3661e10fb74ff484759138a91012fecea7e00ac4ec8e0bb"
+    },
+    "assets/images/guides/uni-note-pocket/ja/import-backup.png": {
+      "bytes": 30231,
+      "sha256": "37d40b28c423373da90520862cdbc55725b00c1268c760d9ffe2ef627871b909"
+    },
+    "assets/images/guides/uni-note-pocket/ja/open-note.png": {
+      "bytes": 71565,
+      "sha256": "64824638e15545e05dbd0e7db65bcc185b9bffe679d28b793aa9baa1e3603d11"
+    },
+    "assets/images/guides/uni-note-pocket/ja/page-review.png": {
+      "bytes": 506113,
+      "sha256": "b6323058bbcdeb8ee9c5bd23b3af108c75b31c2d16ab6f3ea0706c42f6e14d21"
+    },
+    "assets/images/guides/uni-note-pocket/ja/sticky-review.png": {
+      "bytes": 255048,
+      "sha256": "cd0bcc3214ec29b0f4187da211270ff22fa9156bf15351a26fd44a6ae969e1bf"
+    },
+    "assets/images/guides/uni-note-pocket/ja/practice-answer.png": {
+      "bytes": 118684,
+      "sha256": "bff40827cbf2340c8fdaef9d029d05bede0782fdf13d52460d1ea776e85bfe65"
+    },
+    "assets/images/guides/uni-note-pocket/zh-hant/import-backup.png": {
+      "bytes": 32273,
+      "sha256": "9249f7b8626e4c0642465fcbf7b19ddb1718b7886a3dabef0009542a9ecf9f92"
+    },
+    "assets/images/guides/uni-note-pocket/zh-hant/open-note.png": {
+      "bytes": 47506,
+      "sha256": "861928fee8a95bcc8ac9c2e58025962a968033590605eb71424837902897d90d"
+    },
+    "assets/images/guides/uni-note-pocket/zh-hant/search-notes.png": {
+      "bytes": 17883,
+      "sha256": "559157457e7dc7aea44d7b769147fd690a67184403a659cdaa09083b7dc43bd0"
+    },
+    "assets/images/guides/uni-note-pocket/zh-hant/page-review.png": {
+      "bytes": 331235,
+      "sha256": "8ac7c00df0275b107c72c0c3749659a415db2ace3aef55c9ec7652d6d52cc565"
+    },
+    "assets/images/guides/uni-note-pocket/zh-hant/sticky-review.png": {
+      "bytes": 152254,
+      "sha256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816"
+    },
+    "assets/images/guides/uni-note-pocket/zh-hant/practice-answer.png": {
+      "bytes": 115502,
+      "sha256": "86738095e6974ae04261cdb7511f5206d9fda07e86bb75b3dfd467b29cc83c39"
+    },
+    "assets/images/guides/uni-note/de/create-menu.png": {
+      "bytes": 17667,
+      "sha256": "57fc098bd6cb51dfbabf00f3804baf2940f3cf8b4368909d47463ce6a52fdac7"
+    },
+    "assets/images/guides/uni-note/common/writing-tools.png": {
+      "bytes": 59401,
+      "sha256": "bbf99dd18878c9e5ae1f9c8fade516de08b1ad9ea704ffd6752f0197b990e789"
+    },
+    "assets/images/guides/uni-note/de/home-search.png": {
+      "bytes": 12431,
+      "sha256": "0f34ecf69928166bf8abc13c718dabe4717a8acb2ef6c25caee55ff7527a949a"
+    },
+    "assets/images/guides/uni-note/de/attachment-menu.png": {
+      "bytes": 31679,
+      "sha256": "064cd7a9493951804d4946b261c4eccb72b8a5ce2ecda29ec8e706bbcb6ebb2f"
+    },
+    "assets/images/guides/uni-note/common/pdf-writing.png": {
+      "bytes": 236930,
+      "sha256": "5b196594988ea7f0ee0e7f627b1e2446a8e593e6c31f9dea577ee07f775c03f5"
+    },
+    "assets/images/guides/uni-note/common/record-button.png": {
+      "bytes": 9087,
+      "sha256": "105f8ee9f3a4ce05b145cfb5fcf50e28aa191abd23859e6c59db8ce6852696b5"
+    },
+    "assets/images/guides/uni-note/common/sticky-marker.png": {
+      "bytes": 217173,
+      "sha256": "c12a20b4ecc5cf91e40c7c41c27a41d3e4dcb726e9697af97580bbf1c6ea4a48"
+    },
+    "assets/images/guides/uni-note/de/problem-answer.png": {
+      "bytes": 5979,
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
+    },
+    "assets/images/guides/uni-note/common/backup-file-actions.png": {
+      "bytes": 31659,
+      "sha256": "db52978b744b30f78013007c35ec56fca5bd50c8ade2bd384ce8817ce2c9d504"
+    },
+    "assets/images/guides/uni-note/en/create-menu.png": {
+      "bytes": 18361,
+      "sha256": "d2f8060763b61d1e73f61f7bcb8f38987fd9f9a96b2d891d7db1e81cb283ebdb"
+    },
+    "assets/images/guides/uni-note/en/home-search.png": {
+      "bytes": 12215,
+      "sha256": "c98aec709d4eece8ce4dbb6783496b478fc3387c1e3c2d090c4386a4f3ea081e"
+    },
+    "assets/images/guides/uni-note/en/attachment-menu.png": {
+      "bytes": 31755,
+      "sha256": "54ddf588d383e7249543e25748eb485e15213f0b15d3248796f046ec596e029f"
+    },
+    "assets/images/guides/uni-note/en/problem-answer.png": {
+      "bytes": 5979,
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
+    },
+    "assets/images/guides/uni-note/fr/create-menu.png": {
+      "bytes": 19638,
+      "sha256": "c564438de1bf8d1f53845cb22ba93afee38def40b946c2f6770655fcbb886422"
+    },
+    "assets/images/guides/uni-note/fr/home-search.png": {
+      "bytes": 12079,
+      "sha256": "07818e19c4564e6242d4dacb97f1a793751024dc8fc538c95554138678c297e3"
+    },
+    "assets/images/guides/uni-note/fr/attachment-menu.png": {
+      "bytes": 33581,
+      "sha256": "3aa1bb6e2acc1521b07b47c2e230a11102e8ae1e8ef625e667be9e0a3bb7f147"
+    },
+    "assets/images/guides/uni-note/fr/problem-answer.png": {
+      "bytes": 5979,
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
+    },
+    "assets/images/guides/uni-note/ko/create-menu.png": {
+      "bytes": 13780,
+      "sha256": "3e7ba9a361707741f52857dc5f9da03a15bdd3fc80359a0a9d98e28df169a2aa"
+    },
+    "assets/images/guides/uni-note/ko/home-search.png": {
+      "bytes": 10876,
+      "sha256": "d491e69ae81e574ab567ff07f90af1a534a3bd462a40e308b05cfe6c4a874541"
+    },
+    "assets/images/guides/uni-note/ko/attachment-menu.png": {
+      "bytes": 27648,
+      "sha256": "efa8a45b23c1dff1060464c56f440a4f3d5ab2cd884632b8abf94ac7563d753d"
+    },
+    "assets/images/guides/uni-note/ko/problem-answer.png": {
+      "bytes": 5979,
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
+    },
+    "assets/images/guides/uni-note/ja/create-menu.png": {
+      "bytes": 20650,
+      "sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148"
+    },
+    "assets/images/guides/uni-note/ja/home-search.png": {
+      "bytes": 13415,
+      "sha256": "d89e38068d76971f084cae3b07aae86d94e623adc6105f585ed9f8ad29154236"
+    },
+    "assets/images/guides/uni-note/ja/attachment-menu.png": {
+      "bytes": 51178,
+      "sha256": "64bf7c7d3be4a85598b5559f9037ff203b30d236209d81148e247ce946eb44b7"
+    },
+    "assets/images/guides/uni-note/ja/problem-answer.png": {
+      "bytes": 5689,
+      "sha256": "2bcbc0d57a527c31cc7d6f889a770fbb3db5b1ad18337000965fffcf308f5df4"
+    },
+    "assets/images/guides/uni-note/zh-hant/create-menu.png": {
+      "bytes": 18641,
+      "sha256": "bc3dc944e361b1823b72e73d896cd6483461c90526720c5175c60a1dd00f25df"
+    },
+    "assets/images/guides/uni-note/zh-hant/home-search.png": {
+      "bytes": 12940,
+      "sha256": "82fbec6228c1e8c12e075f0ef7b9fdbba8de1562b422e6a91ff8442a8c5bda02"
+    },
+    "assets/images/guides/uni-note/zh-hant/attachment-menu.png": {
+      "bytes": 28122,
+      "sha256": "a7aeedf2f004ba3cce761ba1f848706f0958e10ceeb23df5d5868e4d285b80e6"
+    },
+    "assets/images/guides/uni-note/zh-hant/problem-answer.png": {
+      "bytes": 5979,
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
+    }
+  },
+  "generatedAssets": {
+    "/images/guides/balance-calendar/income-expense-buttons_hu_ed33ef7e18730e9b.webp": {
+      "bytes": 10256,
+      "sha256": "6571724a4867d54ff0f30af94d33a33cb8789a31c94a15d96d0c578fed2f7f11"
+    },
+    "/images/guides/balance-calendar/income-expense-buttons_hu_4cf4f346352aa405.webp": {
+      "bytes": 25404,
+      "sha256": "9ac99bfb1451cc8e2aaabec92155dc0a8fbeeb14c661c6c56f06e8107d069998"
+    },
+    "/images/guides/balance-calendar/amount-keypad_hu_24532150c8d4e81e.webp": {
+      "bytes": 6892,
+      "sha256": "d1973a17615b5e539ce0e8b588fc3caad91c4d74495a135e9e87750381827cb4"
+    },
+    "/images/guides/balance-calendar/amount-keypad_hu_832ff391ac09110f.webp": {
+      "bytes": 16676,
+      "sha256": "26c13a4238ef6d44f8d4fc1b3f0fa0ea25648298c7258100c905cf2d0069a31a"
+    },
+    "/images/guides/balance-calendar/date-history-controls_hu_a69588e2119e1ca.webp": {
+      "bytes": 6940,
+      "sha256": "56bb05c297269e7ddfffc376b204970dd96d003fb889fc828eb047b80936c5f2"
+    },
+    "/images/guides/balance-calendar/date-history-controls_hu_20cd111d508e4600.webp": {
+      "bytes": 15110,
+      "sha256": "6d4d8a9f4cbd86461c8b09eb106ecb355fcefebae7516bb2a3961b204fa42ac5"
+    },
+    "/images/guides/balance-calendar/daily-records_hu_7c1f73bbdf8540ce.webp": {
+      "bytes": 13418,
+      "sha256": "b49d052afa0ef86ff7b9e6ef0196db02849a61ea44f7e8537cf49b3657e564e9"
+    },
+    "/images/guides/balance-calendar/daily-records_hu_2f9c36caafcb213a.webp": {
+      "bytes": 32016,
+      "sha256": "e5f05ea0cf24505052c27213c6d251e4b6fdd274019dfa3323f67c049ad61ae4"
+    },
+    "/images/guides/balance-calendar/widget-entry_hu_95473cb561aa0bde.webp": {
+      "bytes": 8278,
+      "sha256": "4328e355cebffe570d2a38e3ab84a06fd4293f820433acf567648e485511d377"
+    },
+    "/images/guides/balance-calendar/widget-entry_hu_8fa2579c33498d71.webp": {
+      "bytes": 18198,
+      "sha256": "18e82cc794a2fdaa2825aac240536a5f0a5b8ff6642f75d46b4af38e86689f80"
+    },
+    "/images/guides/balance-calendar/tag-settings_hu_cb2df8ec16f1ee33.webp": {
+      "bytes": 9956,
+      "sha256": "0398657eb7eadb15716061343883cfdc6c78feed775eaa91d0ef05171075d540"
+    },
+    "/images/guides/balance-calendar/tag-settings_hu_351c9d1095f1535c.webp": {
+      "bytes": 23918,
+      "sha256": "835adc51eb788a333b27fd85a26457a7630a32c9c94c6aef67d8a6e5932e4eff"
+    },
+    "/images/guides/giga-poke/home-add-controls_hu_cad548ecd691bc79.webp": {
+      "bytes": 16448,
+      "sha256": "383cd3ad421ba6ca5e35b3d428044b8dbabbfe7839bec8f7664d7dd85d5172c4"
+    },
+    "/images/guides/giga-poke/home-add-controls_hu_8302813bfc37e5a.webp": {
+      "bytes": 36660,
+      "sha256": "273cd75264c991f40d152c7b219793fc1287afb1a793f3522d3a4067e8514fc9"
+    },
+    "/images/guides/giga-poke/paste-review_hu_ee2535b2d570bb25.webp": {
+      "bytes": 9412,
+      "sha256": "b774dc58cb4c5cce909ae6c03ffb53088c2a8224c9b811e0f8214e06efaa1bf0"
+    },
+    "/images/guides/giga-poke/paste-review_hu_183cc22e50507314.webp": {
+      "bytes": 22834,
+      "sha256": "0e7949c47b3d9a640b158e4070debec3359201ef7f062c4cb8c35f922e257207"
+    },
+    "/images/guides/giga-poke/benefit-row_hu_9db4caa67764ba02.webp": {
+      "bytes": 8562,
+      "sha256": "7aa3c027278803da00e513be3de95296b49a10fc84f435e102242cb16fdc8679"
+    },
+    "/images/guides/giga-poke/benefit-row_hu_35bf16c6da5f2068.webp": {
+      "bytes": 19074,
+      "sha256": "e6016ba023ff178cc07e530691ab0df106daf621813272d344ee82b176ea0844"
+    },
+    "/images/guides/giga-poke/benefit-actions_hu_14fa24511cf4f4fb.webp": {
+      "bytes": 12104,
+      "sha256": "cc8ca1a185678a358ad06f6a63df56d7f3d10cee1928fe7befe69cd9f816eea6"
+    },
+    "/images/guides/giga-poke/benefit-actions_hu_3f14eefc17020be1.webp": {
+      "bytes": 26968,
+      "sha256": "e5a8637012af327e3b6eb19c3a11f93bb04785af8b7152993fd35029c272867d"
+    },
+    "/images/guides/giga-poke/trash-list_hu_daca18455d6256e9.webp": {
+      "bytes": 10118,
+      "sha256": "2a66926d9a2d5bac57f1783c15905e57c27127b441da7c37f91afe792e0ee465"
+    },
+    "/images/guides/giga-poke/trash-list_hu_4ae8cb49b86f77b9.webp": {
+      "bytes": 21854,
+      "sha256": "2d9d0adfe238e6e9bfd82f44a11ad4caae0ea23a7b091ef77dfc7417ecff055e"
+    },
+    "/images/guides/giga-poke/notification-settings_hu_dc6654974eca3eb5.webp": {
+      "bytes": 7276,
+      "sha256": "684569bc94ae68636bf1554da5b9c5122313062e81e25de94de234bac9604139"
+    },
+    "/images/guides/giga-poke/notification-settings_hu_4195baeec27c7234.webp": {
+      "bytes": 16620,
+      "sha256": "e1d1421f02643b1da57506d2cad23dc59ab45d54c2069f862bfb22cff4e4f8bb"
+    },
+    "/images/guides/giga-poke/benefit-management-settings_hu_790c2cc260412c31.webp": {
+      "bytes": 19054,
+      "sha256": "f488667e4ebb8d6d425cd7067ad9ba9d14b9799ffcaf2d6ef5ae7e46dea5759a"
+    },
+    "/images/guides/giga-poke/benefit-management-settings_hu_9c6894ddbb159117.webp": {
+      "bytes": 41254,
+      "sha256": "b2265172bd78abcea6ba52b64697007c004505ed97c4170fade246b6d0597868"
+    },
+    "/images/guides/nocca/choose-role_hu_eca4e16d2bd35286.webp": {
+      "bytes": 31042,
+      "sha256": "1afce4979c002131fd82001dc6d69af07766d1a38dc4cf83f24ffcb7d280b3ae"
+    },
+    "/images/guides/nocca/choose-role_hu_2081bfcf00bb2953.webp": {
+      "bytes": 78226,
+      "sha256": "7f3182c8305df453cfb400952b0550a945988dd719142e666af153e028e0c2cc"
+    },
+    "/images/guides/nocca/invite-family_hu_31741966ee337f54.webp": {
+      "bytes": 20134,
+      "sha256": "f1007649cbd9bdd6fbec28d8bb20bfcc8b20ab6f4bd910ca79d5226a4cf803bb"
+    },
+    "/images/guides/nocca/invite-family_hu_adcf1be2faae9080.webp": {
+      "bytes": 52438,
+      "sha256": "d5ef22e91e3c5dfcdad219b7a59391fc963856a31d616c387147a0c248095a07"
+    },
+    "/images/guides/nocca/send-signal_hu_43a3ea219c1f0386.webp": {
+      "bytes": 11446,
+      "sha256": "0d249e96ae091ae9e4c6bc8259a01da2e810f3c5f256605d698d11c46e4376dd"
+    },
+    "/images/guides/nocca/send-signal_hu_1da3fe549f0d1190.webp": {
+      "bytes": 33318,
+      "sha256": "0565bfac3e226d493f6243004e0215aa89cec019046ae8695939c14958981879"
+    },
+    "/images/guides/nocca/signal-status_hu_1dfa249e0c149eca.webp": {
+      "bytes": 9244,
+      "sha256": "aa86afdde3aaa242ef409568d70a4eabf702bd76af04c2ab5c4b94275110a9a8"
+    },
+    "/images/guides/nocca/signal-status_hu_58610eba8d6b9e13.webp": {
+      "bytes": 20308,
+      "sha256": "bc8ff0b69620d69c45ed13d8c3f34ad18a522806184236a614028b0b388e0595"
+    },
+    "/images/guides/nocca/reply-options_hu_ac7da1eca0b173ab.webp": {
+      "bytes": 15650,
+      "sha256": "c1514ac103a99899e883ff5387a612bc0de5d0c94e20eac03baeb7a37a023484"
+    },
+    "/images/guides/nocca/reply-options_hu_8999ebcf76009a9c.webp": {
+      "bytes": 35466,
+      "sha256": "6a13a1bbec75b941c0612d9e6cb80a69fdeedb03b0624c9dd70fa10bf07f1b52"
+    },
+    "/images/guides/nocca/owner-talk_hu_9fe6aa4a55d4bcdc.webp": {
+      "bytes": 11110,
+      "sha256": "926ef26986546b9e53ad8de7962a8f2535bd6a051b4f0e5530639bb2cb4204b3"
+    },
+    "/images/guides/nocca/owner-talk_hu_ad2c46a673ca2608.webp": {
+      "bytes": 29516,
+      "sha256": "63f4e408a0b3efd52c831a5f9ff9cbc7305b48eae4d649203d199d00d3357f74"
+    },
+    "/images/guides/nocca/pause-communication_hu_fb0f885dc2e5adcb.webp": {
+      "bytes": 16596,
+      "sha256": "ef27cb738b9d79ab23444282ccb7d8ec13fb010c6572c85de298336f6c992fdf"
+    },
+    "/images/guides/nocca/pause-communication_hu_7d731c04abc555e6.webp": {
+      "bytes": 37326,
+      "sha256": "b0f3f6bedddb6df1d895842a4c23976f23e6abca84ff7ad5489aab73b8ef9c08"
+    },
+    "/images/guides/oto-miru/simple-mode-buttons_hu_b2246862da006cd4.webp": {
+      "bytes": 18738,
+      "sha256": "e25f3534f87638dc83a178d65e8119f2f51860cc9353f496ea7b5a94508afd76"
+    },
+    "/images/guides/oto-miru/simple-mode-buttons_hu_bebe78b9f7a9b177.webp": {
+      "bytes": 41352,
+      "sha256": "1c2077deec02c51498f0c9c2abd9856402321ec6c3e63f97e2c24375a20c9ef0"
+    },
+    "/images/guides/oto-miru/mode-and-settings_hu_b7a2a8f33d9f4a9d.webp": {
+      "bytes": 4864,
+      "sha256": "d0ba7ad80c0f646254e004082e26743ceebde164781ddf1ffd553fcde616812a"
+    },
+    "/images/guides/oto-miru/mode-and-settings_hu_f9784e73ab1ba219.webp": {
+      "bytes": 9888,
+      "sha256": "2bd241354b6ab10e9fa1c6340f152fc29e55e51cc11837d53517fd552051942b"
+    },
+    "/images/guides/oto-miru/start-caption_hu_5d655d27e4bca3b2.webp": {
+      "bytes": 6208,
+      "sha256": "6b5c5b748b940fd00692e1a3041f10277b539a0baaa3772a0327b1ef9a851bca"
+    },
+    "/images/guides/oto-miru/start-caption_hu_ede7e2492102d6fc.webp": {
+      "bytes": 10098,
+      "sha256": "ab1269996d5d984a2c07d268c930bbfdee98eee0ad05f19373e294622618892b"
+    },
+    "/images/guides/oto-miru/caption-and-controls_hu_8ab026a7b8938e51.webp": {
+      "bytes": 13952,
+      "sha256": "472f44bb363893e99edc9a5c97a0511b98ef3d4a0bb9c59cc2e6fbcb80547016"
+    },
+    "/images/guides/oto-miru/caption-and-controls_hu_79f96d2cc0ccdea4.webp": {
+      "bytes": 30562,
+      "sha256": "e306e15aea3896bfa39a3e41600ba5d077c62bcce5a9f320bc0094ab1d03b88d"
+    },
+    "/images/guides/oto-miru/display-settings_hu_ed80e9bd20b8958f.webp": {
+      "bytes": 15468,
+      "sha256": "128985946e8d06f9a8f7d0d0f2a046c69cfc3cd2d93b5ed276295f9b05959836"
+    },
+    "/images/guides/oto-miru/display-settings_hu_27af537fcbcb92a2.webp": {
+      "bytes": 31952,
+      "sha256": "8061839c7a12d8b453e83be0ed41a7049580dca869331bfdcc02d50dacd79bdd"
+    },
+    "/images/guides/oto-miru/listening-environment_hu_ab12fa6c1d716248.webp": {
+      "bytes": 11194,
+      "sha256": "3d452d47fa07e5e95ce22bc75504863d08c7b41471bc6237326b47cb7f49e9e3"
+    },
+    "/images/guides/oto-miru/listening-environment_hu_8a8a07000e8baaa2.webp": {
+      "bytes": 24316,
+      "sha256": "979f223928c8cf6910c65da105ec498937877cf704802d18d5ac88ebfec428c4"
+    },
+    "/images/guides/oto-miru/free-time-and-plus_hu_fbb134de792aae6d.webp": {
+      "bytes": 15338,
+      "sha256": "3e37d50c0b1ad49a7a4adff625cf0c6a923f71ea20326e827975e10a3639d8e4"
+    },
+    "/images/guides/oto-miru/free-time-and-plus_hu_ed777a198279a46.webp": {
+      "bytes": 30104,
+      "sha256": "d5310f38d62155d005f216be2e12c6c63a911001981b5be5343f0254d060338e"
+    },
+    "/images/guides/signal/tabs-and-article_hu_fed550d7b4b1c92.webp": {
+      "bytes": 18284,
+      "sha256": "57e4abb195672ad51f800d5d043bf274cbe0bfed506a7dd4bc8af8934dbd908a"
+    },
+    "/images/guides/signal/tabs-and-article_hu_be9433f155a4516d.webp": {
+      "bytes": 42588,
+      "sha256": "5e3d9d6d38616d3e0eddc4c76ad2025b0799ea6570c1efe753eb9e13216afba0"
+    },
+    "/images/guides/signal/article-menu_hu_df219a73e82f86e1.webp": {
+      "bytes": 4584,
+      "sha256": "4ee75a43f768311b5bd91c871e19246c8a336019ef3649f89d0a283608848ad4"
+    },
+    "/images/guides/signal/article-menu_hu_7c92977033fd4f85.webp": {
+      "bytes": 9372,
+      "sha256": "c5d60cf947c76bd17de63b78ab46f4d29c8da25369076b860a6c7f82441d5638"
+    },
+    "/images/guides/signal/source-switches_hu_da42bfafe058d46a.webp": {
+      "bytes": 16970,
+      "sha256": "d2fb5720bfaae57f9b039c60e150d94c1af05c8f6cc438954dfba30541043db7"
+    },
+    "/images/guides/signal/source-switches_hu_bd793e55839e2cc6.webp": {
+      "bytes": 37718,
+      "sha256": "586c6cfc004b94425d3751359c9c60f43b98513d02952f453512d343d98ee767"
+    },
+    "/images/guides/signal/text-and-theme_hu_29912c202bcebbe8.webp": {
+      "bytes": 9106,
+      "sha256": "437e832ae6761e04d230cc16619e7672f01d05b8127cb095780a864535c53808"
+    },
+    "/images/guides/signal/text-and-theme_hu_183dee00de5c4284.webp": {
+      "bytes": 21518,
+      "sha256": "db5f75430e88971060b7c5bff0e7d15004a013e4a7fc6646067101755f3f4278"
+    },
+    "/images/guides/smokeless/en/record-buttons_hu_17e7796a39fb4e7e.webp": {
+      "bytes": 10932,
+      "sha256": "deb84ac7391e32f6e39eeeebea4e718798be2601320db49a732ed80361624df8"
+    },
+    "/images/guides/smokeless/en/record-buttons_hu_8a82fed47f0ca816.webp": {
+      "bytes": 19708,
+      "sha256": "ead731779931fc0a25aadca64f5c757431f25bfc3f539766b0438bd5701c1d96"
+    },
+    "/images/guides/smokeless/en/history_hu_7f4e65c56c91afd1.webp": {
+      "bytes": 7004,
+      "sha256": "750505ef5103f16b0f04ad7bed6de57e19c3bb6520dc4f6ded655c2d43fa064f"
+    },
+    "/images/guides/smokeless/en/history_hu_afd6b5c2af248ab0.webp": {
+      "bytes": 17124,
+      "sha256": "02b80f428a132b01979a011fe314d56f62754b1658ba1931aefcfdebd58c12c8"
+    },
+    "/images/guides/smokeless/en/calendar_hu_8edc66e10271a09a.webp": {
+      "bytes": 9414,
+      "sha256": "f2b3627d7eebf27ab1e2f9bbe90c642db1867033fb1ab5ef9f1e67bf8f1d4f7a"
+    },
+    "/images/guides/smokeless/en/calendar_hu_2b02508749152778.webp": {
+      "bytes": 22372,
+      "sha256": "91eaedc6bfc672b1aa79f05670dbc88fb8ae4d136d3e03c1a39e8de84f6f579e"
+    },
+    "/images/guides/smokeless/en/chart_hu_ebee40b54438be05.webp": {
+      "bytes": 14366,
+      "sha256": "f0fd48db82ed5bf2029ff43a4e9375513b61c6e3e5f1d100007efb0f1f0f98da"
+    },
+    "/images/guides/smokeless/en/chart_hu_6ac2ab88f7add9e.webp": {
+      "bytes": 32596,
+      "sha256": "796918900326e189956d16627f3111ed6ec69808ae8a77d1935fc6cf89839ac2"
+    },
+    "/images/guides/smokeless/en/settings_hu_a46be5799b5163a4.webp": {
+      "bytes": 10408,
+      "sha256": "971e25087852b846007130ec3361ded45f5cd1051bda9dc2ead7c84022949ef0"
+    },
+    "/images/guides/smokeless/en/settings_hu_d8c41fba48219cfa.webp": {
+      "bytes": 22932,
+      "sha256": "466ae413ca5f0b7f9ef3cd19a97f266b549e0be59429e18b191d07eed893a42f"
+    },
+    "/images/apps/smokeless/watch/recording-ui_hu_11c751f0b6bedddc.webp": {
+      "bytes": 2184,
+      "sha256": "6f72e753af0a79c67e7d0e87502fc14de1f5355565aab7fc599deb38b1fa81df"
+    },
+    "/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp": {
+      "bytes": 4420,
+      "sha256": "07327110d506ae807d60822346b916fb6d717e92c168038dac1c3d96d5aa72f8"
+    },
+    "/images/guides/smokeless/fr/record-buttons_hu_d8228d3932edb38a.webp": {
+      "bytes": 11722,
+      "sha256": "2b634196128ce0423c3b9623fd1bb24b1f36c5c6910d7c24fefa58378f5a2645"
+    },
+    "/images/guides/smokeless/fr/record-buttons_hu_2a789e651cfda068.webp": {
+      "bytes": 21648,
+      "sha256": "28fd249d8b711bf4e18579cfdcaf199a77311b6b869fc7b6c4a543010cb7d8a1"
+    },
+    "/images/guides/smokeless/fr/history-controls_hu_2bdc644d4ff715c1.webp": {
+      "bytes": 3620,
+      "sha256": "8a88542346c7fd729d59651cb9da8ca4c28f3972254da56de9b49233ae111e4e"
+    },
+    "/images/guides/smokeless/fr/history-controls_hu_c714ef23b1a2f050.webp": {
+      "bytes": 7496,
+      "sha256": "0f06bdddc89e119de175f4723ce1a5b2ef33cdb88917a9ec10d74640e317a49d"
+    },
+    "/images/guides/smokeless/fr/calendar_hu_d8572a346e1e8a22.webp": {
+      "bytes": 9188,
+      "sha256": "a854f7e08e2ede9473ad2f176c00afc99f7aaa08155efa382eae9393aafd6991"
+    },
+    "/images/guides/smokeless/fr/calendar_hu_9b7b4570fd28611d.webp": {
+      "bytes": 20946,
+      "sha256": "680e560a445c6451683ae5ade2978a60db39c0426339e4d9ac2be3145b8b3d10"
+    },
+    "/images/guides/smokeless/fr/chart_hu_2b28bf7d9a3ac915.webp": {
+      "bytes": 16588,
+      "sha256": "aae7f2f82dfd21a95a9f6d653f3cb824476956ca05da415f0e65fa98e8522d98"
+    },
+    "/images/guides/smokeless/fr/chart_hu_b4ca0955dc5da8ba.webp": {
+      "bytes": 43036,
+      "sha256": "1094c4b8614b1d5a709fe2ccf635c3fcb40881a60df47f8ecce7e273fcd66f97"
+    },
+    "/images/guides/smokeless/ko/record-buttons_hu_d8228d3932edb38a.webp": {
+      "bytes": 11722,
+      "sha256": "2b634196128ce0423c3b9623fd1bb24b1f36c5c6910d7c24fefa58378f5a2645"
+    },
+    "/images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp": {
+      "bytes": 21648,
+      "sha256": "28fd249d8b711bf4e18579cfdcaf199a77311b6b869fc7b6c4a543010cb7d8a1"
+    },
+    "/images/guides/smokeless/ko/history-controls_hu_305487c8eae72e49.webp": {
+      "bytes": 4316,
+      "sha256": "8d726e0be17bd4c9ee1cacb5bb22223f627dfee3e587b55d3b19ffe51c944738"
+    },
+    "/images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp": {
+      "bytes": 8496,
+      "sha256": "6f8f35b636e7f3cd40ccb2512dea8cba133890bb5073187ec6fcc61a1acec9f8"
+    },
+    "/images/guides/smokeless/ko/calendar_hu_7cd2f06976676f3d.webp": {
+      "bytes": 9334,
+      "sha256": "e561fdbc4476a88a4c2bd4cc171abeee064875d68afa0e3fb714ac79eaee1cdc"
+    },
+    "/images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp": {
+      "bytes": 23254,
+      "sha256": "8b6f70a0f409de3532d78ef195cec25b98509b44720858b787d1663f20b7d139"
+    },
+    "/images/guides/smokeless/ko/chart_hu_260e09d79ae0dec8.webp": {
+      "bytes": 16384,
+      "sha256": "983f714562c4ac347fe63556e67e59e1afe1770ef388dcebb5957ba3611d2e11"
+    },
+    "/images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp": {
+      "bytes": 43218,
+      "sha256": "db8af382022041b9f2a1072c1a509b43b1e49896853b400e000bd0a7bd62fddb"
+    },
+    "/images/guides/smokeless/ja/record-buttons_hu_d396a41112a85c22.webp": {
+      "bytes": 10940,
+      "sha256": "697a1b4c50b5253b688fda6d2b6895595e7560605e43af3c7035f0760bc4bb2f"
+    },
+    "/images/guides/smokeless/ja/record-buttons_hu_c754ed9e223b4423.webp": {
+      "bytes": 19704,
+      "sha256": "c1280d34413274b1d7e57baa0eaf6f14cc2c29aa7cbb9d3b45efac867c9444eb"
+    },
+    "/images/guides/smokeless/ja/history_hu_4fa0c53d0df5ab95.webp": {
+      "bytes": 6874,
+      "sha256": "a8ff9f18c88522785a36b7bde4d6bdb4df898f92b59b8c0134fd5d42196d86cc"
+    },
+    "/images/guides/smokeless/ja/history_hu_6130515c05c54ae0.webp": {
+      "bytes": 16928,
+      "sha256": "2626e066d60dc44de43cfd2a431b5e9b0e40ae083fc9b9adb402363add831d91"
+    },
+    "/images/guides/smokeless/ja/calendar_hu_329d9aad88b4d24d.webp": {
+      "bytes": 9098,
+      "sha256": "7c54436247937d13d1a5f3b7b7f1b7a97af4ce93772e0969be1bf83e4f3d465f"
+    },
+    "/images/guides/smokeless/ja/calendar_hu_8f07d414f6dc61.webp": {
+      "bytes": 21182,
+      "sha256": "5d86a1e62ecd703a4a5d5aeef9c39d3c0607c2739dead9415c9e04a148227971"
+    },
+    "/images/guides/smokeless/ja/chart_hu_b4a9ad1fc0344890.webp": {
+      "bytes": 12478,
+      "sha256": "b1c4797198a74e1fba3a677baa0030c7101e5dfea0e7cdc74d9dcfccdbbf0baf"
+    },
+    "/images/guides/smokeless/ja/chart_hu_d57299055d2e2743.webp": {
+      "bytes": 31126,
+      "sha256": "536d3c1bdc6de462e9aeaf8c75f089c31763a373333508805a81cf457019ce5d"
+    },
+    "/images/guides/smokeless/ja/settings_hu_7e5dc26ac6ac47b4.webp": {
+      "bytes": 9818,
+      "sha256": "a01cdfb888745459ddbd459a979a2a6f288f52f4cb8a2595f1e191dbfcbe39e4"
+    },
+    "/images/guides/smokeless/ja/settings_hu_ed140a4eebdcf683.webp": {
+      "bytes": 23558,
+      "sha256": "8226c694b49f9f23e572d43d8c4d94c308ceea018edf9746f8f04e87a5b5fbd6"
+    },
+    "/images/guides/smokeless/zh-hant/record-buttons_hu_d8228d3932edb38a.webp": {
+      "bytes": 11722,
+      "sha256": "2b634196128ce0423c3b9623fd1bb24b1f36c5c6910d7c24fefa58378f5a2645"
+    },
+    "/images/guides/smokeless/zh-hant/record-buttons_hu_2a789e651cfda068.webp": {
+      "bytes": 21648,
+      "sha256": "28fd249d8b711bf4e18579cfdcaf199a77311b6b869fc7b6c4a543010cb7d8a1"
+    },
+    "/images/guides/smokeless/zh-hant/history-controls_hu_a3adf2e18f9abcab.webp": {
+      "bytes": 4164,
+      "sha256": "0326ed196cae4475e6330327138854567af931765a888468ce17a08b5a176d6f"
+    },
+    "/images/guides/smokeless/zh-hant/history-controls_hu_8cf5f9a849d248f.webp": {
+      "bytes": 8036,
+      "sha256": "16e7d703e96889cb8107dd72e8ee326100252923bcc2a76b91f40ffe2b5ff09b"
+    },
+    "/images/guides/smokeless/zh-hant/calendar_hu_2650ea86086e0b52.webp": {
+      "bytes": 10136,
+      "sha256": "1318ef5752a2a232722d824f4c0c9a5293358399831eefe48d085282a1157d0f"
+    },
+    "/images/guides/smokeless/zh-hant/calendar_hu_d9980ceba80bf376.webp": {
+      "bytes": 23934,
+      "sha256": "678b09ed33f39cf7df170ae10b2fa464a9d312218590fc521f4464d3b2369ac6"
+    },
+    "/images/guides/smokeless/zh-hant/chart_hu_c3bfb4a420a00bbc.webp": {
+      "bytes": 16652,
+      "sha256": "4c3928724c0757031e17a4fcead752b72a7d49f7fbe5317055219af7d07f6eac"
+    },
+    "/images/guides/smokeless/zh-hant/chart_hu_a7be403e833193.webp": {
+      "bytes": 43044,
+      "sha256": "3c621ffd1a17727eaabc268b8658484517d306dcddfc58c87694a30d31888a22"
+    },
+    "/images/guides/uni-note-pocket/de/import-backup_hu_17783262d979052f.webp": {
+      "bytes": 5032,
+      "sha256": "7c91cb09b705d6586fa399cc0e2c25daf9ad199d351ee9eca1fa017e113bb04e"
+    },
+    "/images/guides/uni-note-pocket/de/import-backup_hu_975e28fcc893049a.webp": {
+      "bytes": 11676,
+      "sha256": "7c8ecd597d0d7fcec9767fd2492d56994b5fb2a556bfb614da6ead9ae1fd5f33"
+    },
+    "/images/guides/uni-note-pocket/de/open-note_hu_b675ec707d2deb79.webp": {
+      "bytes": 9668,
+      "sha256": "e7c3177d846a980edc13592b23d834af5b0dee488ea26c46c33fe4cd641d240c"
+    },
+    "/images/guides/uni-note-pocket/de/open-note_hu_f03e28aa5af49221.webp": {
+      "bytes": 21966,
+      "sha256": "14c618b0b515dd53b7d6f9eec3f48da1b540f3a0c4cb1505608d43f3f5ec0fe4"
+    },
+    "/images/guides/uni-note-pocket/de/search-notes_hu_36ee2f1ae963f36b.webp": {
+      "bytes": 3606,
+      "sha256": "cbc41ab420c08b2e6eafb50e21530ca5ff609760af4072b50aac2760a8f7a9ec"
+    },
+    "/images/guides/uni-note-pocket/de/search-notes_hu_aad99204b9a8eae6.webp": {
+      "bytes": 6880,
+      "sha256": "2ce473fa14f05530ef8d4c4e65d5e418a0a47e090423bd2593fa785d4bca2cfc"
+    },
+    "/images/guides/uni-note-pocket/de/page-review_hu_377c0cf5450802a4.webp": {
+      "bytes": 24062,
+      "sha256": "b0b1b1f05801b4fbc0fe499b136b9bdc85433ded7ef2b75063c1f74575920845"
+    },
+    "/images/guides/uni-note-pocket/de/page-review_hu_7acf78d1e09f545f.webp": {
+      "bytes": 65872,
+      "sha256": "50056dab0a5ed25b0e870e3a4af8b9b88f35e19296e38460d29eb615e25c6520"
+    },
+    "/images/guides/uni-note-pocket/de/sticky-review_hu_5272eb946245da91.webp": {
+      "bytes": 31908,
+      "sha256": "fd9e73997d8e236b51650a054df99da12f3ee6f4c7fbed53ca02c373accf7a15"
+    },
+    "/images/guides/uni-note-pocket/de/sticky-review_hu_2fefb9a2f1fe00ea.webp": {
+      "bytes": 78374,
+      "sha256": "f9a5926e698a7d1f9c739bdf34084709d05fc23f3dbe28082cf3c408c0eec0a9"
+    },
+    "/images/guides/uni-note-pocket/de/practice-answer_hu_8ee1da7e01261f1c.webp": {
+      "bytes": 14106,
+      "sha256": "148e531d85eefccc8a773fdb21f549aa564a6a91268dfa243d6f0084910eb81a"
+    },
+    "/images/guides/uni-note-pocket/de/practice-answer_hu_3d63ad9aefa623fd.webp": {
+      "bytes": 31444,
+      "sha256": "cfc0e8e1825cb8406f42393fe80cd1ecf62d0c5af65b2c406ce1f54909b61829"
+    },
+    "/images/guides/uni-note-pocket/en/import-backup_hu_b3e5e2797a232de3.webp": {
+      "bytes": 4562,
+      "sha256": "43f2d5c53e9651a3d84d0c4dde892fc9dd47e1fc2f4018d799e82373c571c996"
+    },
+    "/images/guides/uni-note-pocket/en/import-backup_hu_4a0d6f8691c690c6.webp": {
+      "bytes": 10660,
+      "sha256": "db243f1fa892e4ce79246eab520a083fa5927088ea19430996374e2444cc47a5"
+    },
+    "/images/guides/uni-note-pocket/en/open-note_hu_eaa6c8c9f1867540.webp": {
+      "bytes": 14564,
+      "sha256": "b55be9fe113bc1360ad91d3b298ff4ae574d5d441a066f62db76d7c15da6fa15"
+    },
+    "/images/guides/uni-note-pocket/en/open-note_hu_d2937b2010e53252.webp": {
+      "bytes": 32294,
+      "sha256": "e21521cfea8b2412122690835dede21e01c40727c7c3e6db59099a365bddaea8"
+    },
+    "/images/guides/uni-note-pocket/en/search-notes_hu_2779df095c8eab2e.webp": {
+      "bytes": 2982,
+      "sha256": "da627b01bfec02190d26c8d3dd8e6f62821bf162c19d724aadef5df20d2ea74b"
+    },
+    "/images/guides/uni-note-pocket/en/search-notes_hu_cc474f98e8ce650.webp": {
+      "bytes": 6094,
+      "sha256": "54796cfd7708f0bfb6500d96fd8858840f077b587e9c49a0ed9dcc8539f3a46c"
+    },
+    "/images/guides/uni-note-pocket/en/page-review_hu_848161cf59445776.webp": {
+      "bytes": 24092,
+      "sha256": "10bafaf6880df62a9e17fde89cd8b9a2b02fe027fd34a19641d816ae5e7cbf1c"
+    },
+    "/images/guides/uni-note-pocket/en/page-review_hu_ceba75e6ef58926b.webp": {
+      "bytes": 65886,
+      "sha256": "552851317183a3287417da1f30d3d7b1c0aa5224476df9e70274013542104ca8"
+    },
+    "/images/guides/uni-note-pocket/en/sticky-review_hu_5272eb946245da91.webp": {
+      "bytes": 31908,
+      "sha256": "fd9e73997d8e236b51650a054df99da12f3ee6f4c7fbed53ca02c373accf7a15"
+    },
+    "/images/guides/uni-note-pocket/en/sticky-review_hu_2fefb9a2f1fe00ea.webp": {
+      "bytes": 78374,
+      "sha256": "f9a5926e698a7d1f9c739bdf34084709d05fc23f3dbe28082cf3c408c0eec0a9"
+    },
+    "/images/guides/uni-note-pocket/en/practice-answer_hu_7242f09806c16284.webp": {
+      "bytes": 12920,
+      "sha256": "84435139b1dd16a168c7bc39a44e0979916f15f2ac30f8fa86499b12e6220f75"
+    },
+    "/images/guides/uni-note-pocket/en/practice-answer_hu_510623987c6768e3.webp": {
+      "bytes": 29970,
+      "sha256": "29bdd63a11583861574f0810487b25826ce3f2446a44899834d72211364e16a2"
+    },
+    "/images/guides/uni-note-pocket/fr/import-backup_hu_40a2c031453f22a2.webp": {
+      "bytes": 5360,
+      "sha256": "536451433bc8e17de7fd4a59e4313f7ea2c2113dec075c55f8caed91de02ca8f"
+    },
+    "/images/guides/uni-note-pocket/fr/import-backup_hu_959bd792447a6555.webp": {
+      "bytes": 12188,
+      "sha256": "261fe8d4d8129263a84cb445e3da30a6eb54dc646bd66b3267146acdb0a7b468"
+    },
+    "/images/guides/uni-note-pocket/fr/open-note_hu_fd6c13f4c343387.webp": {
+      "bytes": 8578,
+      "sha256": "ab952490e768adffc3a8446360a7a96b06a8d1d5f65765e50a0a094c410182c0"
+    },
+    "/images/guides/uni-note-pocket/fr/open-note_hu_158931a29a632645.webp": {
+      "bytes": 19864,
+      "sha256": "7066d0c7370d0a13c977f5c2e9e82e173e0c765becf5134a4b926b0bdbcfee94"
+    },
+    "/images/guides/uni-note-pocket/fr/search-notes_hu_ff865e8a6d5f9448.webp": {
+      "bytes": 3952,
+      "sha256": "6d66cbbdca7b803e7ea486f28d91ef29179a789ec5cd920731eb43bf22d594a2"
+    },
+    "/images/guides/uni-note-pocket/fr/search-notes_hu_6833da63a2662b5e.webp": {
+      "bytes": 7720,
+      "sha256": "3ead3737eb14702e21b48c3bcc9c12e177be9e1c58783c375ea4962215ea70a8"
+    },
+    "/images/guides/uni-note-pocket/fr/page-review_hu_18cd2eeb02b93aa0.webp": {
+      "bytes": 24042,
+      "sha256": "9c28bf419b2c1f9fe4af913fe05c0c3708f3a136dbe3bfc8d19dea7ab25e0d56"
+    },
+    "/images/guides/uni-note-pocket/fr/page-review_hu_3eeb479ee1e39c5a.webp": {
+      "bytes": 65852,
+      "sha256": "99b182eafdd1f6d54a411f4a06cdc225a878fd0141bfee4a1ff686de99670359"
+    },
+    "/images/guides/uni-note-pocket/fr/sticky-review_hu_5272eb946245da91.webp": {
+      "bytes": 31908,
+      "sha256": "fd9e73997d8e236b51650a054df99da12f3ee6f4c7fbed53ca02c373accf7a15"
+    },
+    "/images/guides/uni-note-pocket/fr/sticky-review_hu_2fefb9a2f1fe00ea.webp": {
+      "bytes": 78374,
+      "sha256": "f9a5926e698a7d1f9c739bdf34084709d05fc23f3dbe28082cf3c408c0eec0a9"
+    },
+    "/images/guides/uni-note-pocket/fr/practice-answer_hu_11252af43350e295.webp": {
+      "bytes": 13978,
+      "sha256": "92df3c026d99c0d13f4e428321977eb6d7037d933deb0afeac07e8e6f3b12d11"
+    },
+    "/images/guides/uni-note-pocket/fr/practice-answer_hu_b4412c1f78a2bbef.webp": {
+      "bytes": 31326,
+      "sha256": "131c909b7aac74d2bc76228af00a1d1a675720eb709de8ebaf08c990f408e7b5"
+    },
+    "/images/guides/uni-note-pocket/ko/import-backup_hu_9ba2d3bbc9bd50e1.webp": {
+      "bytes": 3918,
+      "sha256": "47b5b7374c4aed2bee7fada3b44c7051cf559751d228ad2dd3dd319f11d82919"
+    },
+    "/images/guides/uni-note-pocket/ko/import-backup_hu_c26ea45510dc4999.webp": {
+      "bytes": 9370,
+      "sha256": "eac374b0d58390610638e36e29f5bed7441805a73231818e94d1e44cf00aee17"
+    },
+    "/images/guides/uni-note-pocket/ko/open-note_hu_d3b6ec4db0fc92fd.webp": {
+      "bytes": 6792,
+      "sha256": "433dfe3e47ed496fc1598c5cd190695f9aa7c59724b33d9d00034637e2b940ba"
+    },
+    "/images/guides/uni-note-pocket/ko/open-note_hu_6868c293dcab527a.webp": {
+      "bytes": 16018,
+      "sha256": "38c1f2ff0980504f3c33ba0a518bfde36f4ce44622acc25df843b83f02810ae8"
+    },
+    "/images/guides/uni-note-pocket/ko/search-notes_hu_f00e95fbf8c1b6f9.webp": {
+      "bytes": 2216,
+      "sha256": "f19f86771ed8bf9d74ab4c94248ba03919a7058cee1efc35fc83c3bbbe76158a"
+    },
+    "/images/guides/uni-note-pocket/ko/search-notes_hu_8aad75e645afbde6.webp": {
+      "bytes": 4708,
+      "sha256": "669f4c47da6f5f1d3cb0b50be3ed47ca9870ca873bf3894a68e25dcea35d595d"
+    },
+    "/images/guides/uni-note-pocket/ko/page-review_hu_473c190cd36a10d.webp": {
+      "bytes": 23738,
+      "sha256": "73fc96ecea2cdd4d77d187a1f665f3fdd9782a5a9080061c7db304a8c31ca79b"
+    },
+    "/images/guides/uni-note-pocket/ko/page-review_hu_78149589ed2e80b3.webp": {
+      "bytes": 65166,
+      "sha256": "642b77565fb67ee32a5a1655ebadd7db16f789fd3ed14cad8464e81bbad9e425"
+    },
+    "/images/guides/uni-note-pocket/ko/sticky-review_hu_c008c8a6511786a6.webp": {
+      "bytes": 31908,
+      "sha256": "fd9e73997d8e236b51650a054df99da12f3ee6f4c7fbed53ca02c373accf7a15"
+    },
+    "/images/guides/uni-note-pocket/ko/sticky-review_hu_667b6dbe2d9ab50d.webp": {
+      "bytes": 78330,
+      "sha256": "c691f450d0da622cfae1f623f100badfd4709677a3ca26b04528ba21c90bc126"
+    },
+    "/images/guides/uni-note-pocket/ko/practice-answer_hu_9c59a6400ff58bab.webp": {
+      "bytes": 12286,
+      "sha256": "084a2e0ff9b5cd32ea6864c5172c1efcc682ceaf403da608c0a9114ffdb1426d"
+    },
+    "/images/guides/uni-note-pocket/ko/practice-answer_hu_b885d1d162775250.webp": {
+      "bytes": 27020,
+      "sha256": "5b8894053c55fe273ba22a8ce68b7ff068485052956c37bf2ed092e8f7c09d75"
+    },
+    "/images/guides/uni-note-pocket/ja/import-backup_hu_b3e5e2797a232de3.webp": {
+      "bytes": 4562,
+      "sha256": "43f2d5c53e9651a3d84d0c4dde892fc9dd47e1fc2f4018d799e82373c571c996"
+    },
+    "/images/guides/uni-note-pocket/ja/import-backup_hu_4a0d6f8691c690c6.webp": {
+      "bytes": 10660,
+      "sha256": "db243f1fa892e4ce79246eab520a083fa5927088ea19430996374e2444cc47a5"
+    },
+    "/images/guides/uni-note-pocket/ja/open-note_hu_778014585fb8b539.webp": {
+      "bytes": 12882,
+      "sha256": "5f0d2c02f97004f95c564901b06730e60921390f4230a4e5a0b02facd4df7ea1"
+    },
+    "/images/guides/uni-note-pocket/ja/open-note_hu_b28e41d5eb302033.webp": {
+      "bytes": 31384,
+      "sha256": "73ffdc2cf7ff74d2b64089884c66e6fc81d7ac2e2910277b52781421c1d0cac3"
+    },
+    "/images/guides/uni-note-pocket/ja/page-review_hu_78f38043021fe614.webp": {
+      "bytes": 34756,
+      "sha256": "4e1b40da5569586d01f50d94ef03a0e7f78c22cda420f36de8c1b4ed50762bf7"
+    },
+    "/images/guides/uni-note-pocket/ja/page-review_hu_385e72a6c6a60a79.webp": {
+      "bytes": 97318,
+      "sha256": "02cac5c7cf60442ab62bb48ca21b345317d82979a9ec369cc78556baae83e55d"
+    },
+    "/images/guides/uni-note-pocket/ja/sticky-review_hu_f5efc97914c9dfc4.webp": {
+      "bytes": 45164,
+      "sha256": "96af461fa10cae2ac5901bbf52b6900d57b1a1bfbb0293ca9bbdaa6abb3fec4e"
+    },
+    "/images/guides/uni-note-pocket/ja/sticky-review_hu_b7c65ef9bec23e13.webp": {
+      "bytes": 94400,
+      "sha256": "b3fdcf484bab5ec235f33fa5fbe7e859ff82ef967429792d35b35b2afd31bad3"
+    },
+    "/images/guides/uni-note-pocket/ja/practice-answer_hu_9cb740958dfd0c43.webp": {
+      "bytes": 13706,
+      "sha256": "27c44c82cc91eec307b3c08e8a172746c2f61b46321352708d89b38b53fd9c39"
+    },
+    "/images/guides/uni-note-pocket/ja/practice-answer_hu_7d1bd2ea677640be.webp": {
+      "bytes": 31760,
+      "sha256": "57196cfa58b80736dba4a47b163d1255fd3199cd724ede183b542f53ab417cec"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/import-backup_hu_d85b0497480b7a33.webp": {
+      "bytes": 4582,
+      "sha256": "fa47246cd907d91a60954ff750d7ed958c72f4677d57f4831f9d32b20249f3f8"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/import-backup_hu_f008226ff50b4c.webp": {
+      "bytes": 11320,
+      "sha256": "0b8dcdba19192033baa2acc941c3fda3654586fd1702c1e43cf054543d2384f9"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/open-note_hu_8004f99b0ea61e3.webp": {
+      "bytes": 7376,
+      "sha256": "940764183f29a03878498ce51167baa2d50872fdf8cdfc9c82d2e131cbac942e"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/open-note_hu_33431c31e65e5cc2.webp": {
+      "bytes": 19236,
+      "sha256": "98a205d455317e129a70b3f0074227b5fdd5b2036cf03e32a04cf2cd4bc1c461"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/search-notes_hu_ae0392f019f04877.webp": {
+      "bytes": 3190,
+      "sha256": "ab86de0ec941222a9cf24497f0d3292c11113d1e80da57fb4054a4e97d469afc"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/search-notes_hu_4ab9e8f59286bf75.webp": {
+      "bytes": 6766,
+      "sha256": "d203ae8dc1fc6a9d7f64adb3016652bda5f20640bbb2957c2d3a32ce00420aa2"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/page-review_hu_46ec39290f422850.webp": {
+      "bytes": 23828,
+      "sha256": "ab99faee4b7df25b6cfed9294e7ca48d80225862e07a2262408366a2e91227d5"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/page-review_hu_1a80c76f4618873f.webp": {
+      "bytes": 65776,
+      "sha256": "589f78091d4ea2f5d02a1230310b0cde3b8ceffb0a5803644751e64dc9b742bc"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/sticky-review_hu_5272eb946245da91.webp": {
+      "bytes": 31908,
+      "sha256": "fd9e73997d8e236b51650a054df99da12f3ee6f4c7fbed53ca02c373accf7a15"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/sticky-review_hu_2fefb9a2f1fe00ea.webp": {
+      "bytes": 78374,
+      "sha256": "f9a5926e698a7d1f9c739bdf34084709d05fc23f3dbe28082cf3c408c0eec0a9"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/practice-answer_hu_d7d46c7e80f74a3.webp": {
+      "bytes": 13324,
+      "sha256": "8d5b686ccaa642fea8bf83c287b5de7cdd816a28c4ed15a44e7d997f084ecb2c"
+    },
+    "/images/guides/uni-note-pocket/zh-hant/practice-answer_hu_958d46dcfe9ec7aa.webp": {
+      "bytes": 30998,
+      "sha256": "74c1f66c3486558755655679929f451cbeaf2fb0af87c34387e62201e54c1981"
+    },
+    "/images/guides/uni-note/de/create-menu_hu_5df5a353b2d8f196.webp": {
+      "bytes": 6124,
+      "sha256": "c56b2279a885657efdad6016c81e2c43db8d57774706558279cc92af427f6481"
+    },
+    "/images/guides/uni-note/common/writing-tools_hu_6af907cb544e3ed.webp": {
+      "bytes": 8424,
+      "sha256": "cb53610f0d76dfee91dbef4195770edef15ee4a5435c0165a8c2ed5392a6498f"
+    },
+    "/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp": {
+      "bytes": 10784,
+      "sha256": "5eb7586681834d26a09caeebc0f16a42ed96f0cfd96ae17458a00abc105053f0"
+    },
+    "/images/guides/uni-note/de/home-search_hu_1d683ea73443e0db.webp": {
+      "bytes": 4878,
+      "sha256": "6581dd914815e59e003a497ce0843e9e1a7d06668f8fa6d7cfb89a71c3d1839f"
+    },
+    "/images/guides/uni-note/de/home-search_hu_913d5cdb22670c4.webp": {
+      "bytes": 5830,
+      "sha256": "af8ef54081a7c470ebd7c67998f2eaa3814bd4f736b14b9126e1931abb04a5b2"
+    },
+    "/images/guides/uni-note/de/attachment-menu_hu_65cd1a88b729cef6.webp": {
+      "bytes": 12284,
+      "sha256": "8c7600e65ebcef250067ff44fa83d51f55f2a5cc887281b9d72b20de0d1f2c01"
+    },
+    "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp": {
+      "bytes": 28642,
+      "sha256": "79db0651d3d15abd5087ae362d11850814349df952b001a800049752e1f554a4"
+    },
+    "/images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp": {
+      "bytes": 49830,
+      "sha256": "6f8bae6f4ad93b2b1c514f9582ee5347a062ca73497904379c42d389edaa9e74"
+    },
+    "/images/guides/uni-note/common/record-button_hu_216cab99aedb04db.webp": {
+      "bytes": 4336,
+      "sha256": "68934f45be3521dabc8f0de9b0f4081122b2f9411942a8b6ddef00c0e01e1c6a"
+    },
+    "/images/guides/uni-note/common/record-button_hu_13f73f872eba72d2.webp": {
+      "bytes": 4890,
+      "sha256": "222bd42e9147f86cd35901f46fd1aa8a1b66c2e22d8ec926b31314f143247618"
+    },
+    "/images/guides/uni-note/common/sticky-marker_hu_56e88bf7f3c9f64f.webp": {
+      "bytes": 29752,
+      "sha256": "1cfc8f44396936479e9d774f740d4769723bbd6c369a111c121e844b69c92bb2"
+    },
+    "/images/guides/uni-note/common/sticky-marker_hu_10a4dfc1433c315b.webp": {
+      "bytes": 60900,
+      "sha256": "17d748dd3aed428da3b1f6b8bc0ad6a8cf3b5a3aa1cc8ecf2bd3bfe49327ffe4"
+    },
+    "/images/guides/uni-note/de/problem-answer_hu_c106d2159d2d1bf4.webp": {
+      "bytes": 1922,
+      "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
+    },
+    "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp": {
+      "bytes": 14594,
+      "sha256": "16a2556d64cea9abae6fc4a71eadca5dc3565b72443cb5c1a8b5475e30ff57b1"
+    },
+    "/images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp": {
+      "bytes": 18116,
+      "sha256": "4f214d5ef2f15163f70905f82f9bb0240310734f97fc78d89800cfad9592a937"
+    },
+    "/images/guides/uni-note/en/create-menu_hu_698fac02f12a1dbd.webp": {
+      "bytes": 6050,
+      "sha256": "ccacaac9c7ec2cac93a57600a97c6a5bd666adb3a8ca476a20a5ed37af10f800"
+    },
+    "/images/guides/uni-note/en/home-search_hu_67c8b79e362eca3e.webp": {
+      "bytes": 4386,
+      "sha256": "6e7ae961f21d52dee1e57d222e909eaa30752c3fab22635e1fd57d251d4e6d9f"
+    },
+    "/images/guides/uni-note/en/home-search_hu_866b5bc1559041ab.webp": {
+      "bytes": 5252,
+      "sha256": "0e024125821cf4f9cc75dbdea292c87f5a37ca1928d29f9a07df13e89b6b46d0"
+    },
+    "/images/guides/uni-note/en/attachment-menu_hu_bdf8e3fb3f759294.webp": {
+      "bytes": 11322,
+      "sha256": "f497b4a8bdf2e463ab597256d0663843f600f79380c581299588467c54175cca"
+    },
+    "/images/guides/uni-note/en/problem-answer_hu_c106d2159d2d1bf4.webp": {
+      "bytes": 1922,
+      "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
+    },
+    "/images/guides/uni-note/fr/create-menu_hu_a328c5cb04b0709d.webp": {
+      "bytes": 7244,
+      "sha256": "d36b68c154383051e4108641e18f4ad48da1bf82e47fdf7e2104d7f8c194f29c"
+    },
+    "/images/guides/uni-note/fr/home-search_hu_8edf7c5b3f7b045a.webp": {
+      "bytes": 4796,
+      "sha256": "7aff83bbc99d06c8b713189c32a426ae7bc5b051b56de8b7d52603d900569f92"
+    },
+    "/images/guides/uni-note/fr/home-search_hu_7acf7b0df8b867e6.webp": {
+      "bytes": 5786,
+      "sha256": "1a97971bae61c05017511ebb4967836bef10b69f28e30fca0cdd9de44fd7a8e5"
+    },
+    "/images/guides/uni-note/fr/attachment-menu_hu_1dfaba038f30b4e3.webp": {
+      "bytes": 13224,
+      "sha256": "967448b0c9c2f3a1b50447ec06c6db0a95c851d4bf902c08fe9aeb5572891432"
+    },
+    "/images/guides/uni-note/fr/problem-answer_hu_c106d2159d2d1bf4.webp": {
+      "bytes": 1922,
+      "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
+    },
+    "/images/guides/uni-note/ko/create-menu_hu_820b6b5c21a273f8.webp": {
+      "bytes": 4176,
+      "sha256": "8c35fb79d6b6eb68260e347303c9549f3d9ef94ff547df77ef9405d526e431f7"
+    },
+    "/images/guides/uni-note/ko/home-search_hu_90646363d408a14.webp": {
+      "bytes": 3608,
+      "sha256": "a01884480d7370b1c29b42c6aadf7382934fa635600e0e0d2d876b0ee6545ec5"
+    },
+    "/images/guides/uni-note/ko/home-search_hu_dbb5e37c2876a66c.webp": {
+      "bytes": 4364,
+      "sha256": "733274f3687fafd1e197a415322f2052bb58112d0b2f92e818b93c8f1295979d"
+    },
+    "/images/guides/uni-note/ko/attachment-menu_hu_2f951b489c290c55.webp": {
+      "bytes": 10328,
+      "sha256": "d5107f2d34403efd5f0d72ca43587f109fd7993eb3d461a1b543fa044a8badcc"
+    },
+    "/images/guides/uni-note/ko/problem-answer_hu_c106d2159d2d1bf4.webp": {
+      "bytes": 1922,
+      "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
+    },
+    "/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp": {
+      "bytes": 6242,
+      "sha256": "65e389c39304710264b77a89d11a7eb97170758bce5b43bada168ddc3ec9f32c"
+    },
+    "/images/guides/uni-note/ja/home-search_hu_8693c69367742712.webp": {
+      "bytes": 4352,
+      "sha256": "1335afafb991bba67b6774ad1fc92e63828546f5ebf4c5c278217bb9e75ba20f"
+    },
+    "/images/guides/uni-note/ja/home-search_hu_7b350f746a0ebcd6.webp": {
+      "bytes": 5280,
+      "sha256": "72a407e30b11e68d16f02043e0dee216c771398062bab5d8786ea57eaed99566"
+    },
+    "/images/guides/uni-note/ja/attachment-menu_hu_e3feefa9ba739ba3.webp": {
+      "bytes": 11754,
+      "sha256": "ff166f7a1baaa2df1412c7aab82b54e5ef26983bfa5d1ace8f83c7d6bd45395d"
+    },
+    "/images/guides/uni-note/ja/problem-answer_hu_f51b0825aa5c9903.webp": {
+      "bytes": 1922,
+      "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
+    },
+    "/images/guides/uni-note/zh-hant/create-menu_hu_c33303a47f9ae482.webp": {
+      "bytes": 6062,
+      "sha256": "c71e47e93c1d355b9544ccfbc391421d1a2d72ba1610e3e3eaf6c4964e33df97"
+    },
+    "/images/guides/uni-note/zh-hant/home-search_hu_94ad9a4f59ebdebc.webp": {
+      "bytes": 4594,
+      "sha256": "18fb9524ba0a3a6f3d2bdb8415a022866ec96100da28d304b2778e03b20d5235"
+    },
+    "/images/guides/uni-note/zh-hant/home-search_hu_2c3e4e013bd8ae69.webp": {
+      "bytes": 5460,
+      "sha256": "02d86b968ff79035883db181327241d5dc9ba6c242b96ac6263d64081d0b3039"
+    },
+    "/images/guides/uni-note/zh-hant/attachment-menu_hu_4390b8e3da541e85.webp": {
+      "bytes": 10256,
+      "sha256": "0f05648ef63c3c91c5ee6ceda6a9f65cb672c9a95de17925ef1904a46697214e"
+    },
+    "/images/guides/uni-note/zh-hant/problem-answer_hu_c106d2159d2d1bf4.webp": {
+      "bytes": 1922,
+      "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
+    }
+  }
+}

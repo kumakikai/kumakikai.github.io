@@ -1,369 +1,77 @@
 ---
 title: "FAQ (Uni:Note)"
 description: "Frequently asked questions about Uni:Note."
+lastmod: 2026-09-07
 ---
 
-## Basics
+{{< guide-anchor "basics" "what-kind-of-app-is-uninote" "which-devices-are-supported" "are-there-limits-on-the-free-plan" "which-languages-are-supported" "what-are-the-recent-major-changes" "can-i-use-it-with-split-view-or-slide-over" "can-i-open-two-uninote-windows-at-the-same-time" "is-apple-pencil-required" "do-i-need-to-log-in-or-create-an-account" >}}
 
-### What kind of app is Uni:Note?
-It is a handwriting note app for iPad.  
-It is designed around writing with Apple Pencil and organizing notes by subject.
+## Devices and plans {#help-1}
 
-### Which devices are supported?
-iPad only.
+Requires an iPad running iPadOS 17.0 or later.
 
-### Are there limits on the Free plan?
-Yes.  
-In the current app, the Free plan is limited to **up to 10 subjects** and **up to 6 notes per subject**.
+Handwriting uses iPad and Apple Pencil. Fingers scroll and manipulate attachments. No separate app account is required. Japanese, English, Korean, German, Traditional Chinese and French are supported.
 
-Premium removes the subject and note count limits and unlocks Move Selection, Recording, and Easy Backup.
+Free allows 10 subjects and 6 notes per subject. Premium removes those limits and enables recording and Easy Backup. **Range Move and note-title search are also available in Free.** Check current prices and purchases in the in-app plan screen.
 
-### Which languages are supported?
-The app currently supports:
+[Writing steps]({{< relref "/htu/uni-note/" >}}#write) →
 
-- Japanese
-- English
-- Korean
-- German
-- Traditional Chinese
-- French
+{{< guide-anchor "notes-and-pages" "is-a-note-title-required" "what-is-the-title-prompt-shown-when-i-first-open-a-new-subject" "what-can-i-choose-when-i-create-a-subject" "what-is-a-portrait-notebook" "can-i-separate-notes-within-the-same-subject" "how-are-new-pages-added" "what-is-the-maximum-number-of-pages-in-a-note" "can-i-zoom" "can-i-move-handwriting-by-circling-a-range" "can-i-delete-a-page" "can-i-protect-a-note" "can-i-edit-a-subject" "can-i-organize-subjects-into-folders-on-home" "what-can-be-restored-from-trash" >}}
 
-### What are the recent major changes?
-Recent versions have updated study support, notebook tools, Home organization, and stability.
+## A note stops growing or is not found {#help-2}
 
-- Restored `Problem Solver Assistant` and made it available from the top of the note screen
-- Added `Ruler`
-- Added `Move Selection`
-- Fully redesigned `Memorization Feature` as sticky-style markers
-- Added `Recording`, real-time transcription, and AI Summary
-- Added **Clear Page** to the eraser for deleting only handwriting on the current page
-- Added folders on Home for organizing subjects
-- Added subject reordering on Home and note reordering in Note List
-- Improved rare app termination, zoom resets or page jumps when using the palette while zoomed in, and unnecessary menus appearing when tapping a page
-- Added diagnostics and crash analysis with Firebase Crashlytics
+A note is limited to 150 pages. Create another note in the subject when needed. Leaving a new title blank uses the date. Search only covers entered note titles, not handwriting, page text, PDFs or subject names.
 
-Diagnostic and crash data does not include note contents, handwriting, subject names, attachments, images, PDFs, or recording contents.
+Notebook orientation cannot be changed after creation. Deleting a folder keeps its subjects. Trash can restore subjects and notes, but not deleted pages, practice sets or permanently erased items. Protected notes cannot be written in.
 
-### Can I use it with `Split View` or `Slide Over`?
-Yes.  
-Uni:Note supports iPad multiwindow modes such as `Split View` and `Slide Over`.
+[Switching and searching notes]({{< relref "/htu/uni-note/" >}}#find) →
 
-A general way is to open Uni:Note first, show the Dock, then drag another app or Uni:Note from the Dock to the side for `Split View`, or place it as a floating panel for `Slide Over`.
+{{< guide-anchor "photos-and-pdfs" "can-i-insert-photos" "can-i-attach-a-photo-as-a-document" "can-i-insert-pdfs" "can-i-export-pdfs" >}}
 
-The exact UI and labels may differ slightly depending on your iPadOS version.
+## An attachment cannot be moved {#help-3}
 
-### Can I open two Uni:Note windows at the same time?
-Yes.  
-Uni:Note supports multiple windows.
+Double-tap a locked photo or PDF to unlock it. Moving attachments is separate from Range Move for handwriting. To erase only handwriting, use Clear Page in eraser settings.
 
-With one Uni:Note window already open, show the Dock, press and hold the Uni:Note icon, and choose the option for opening a new window.
+PDF insertion still respects the 150-page limit. Split large documents across notes if needed. Photo, document-photo, PDF insertion and export steps are in the visual guide.
 
-After opening the second window, place it side by side for `Split View` or float it as `Slide Over`.
+[Photo and PDF steps]({{< relref "/htu/uni-note/" >}}#pdf) →
 
-### Is Apple Pencil required?
-Handwriting is designed for Apple Pencil.  
-Finger input is mainly used for scrolling and handling photos, document photos, and PDFs.
+{{< guide-anchor "recording-and-transcription" "can-i-use-recording" "can-i-use-transcription-and-ai-summary" "are-recordings-included-in-backups" >}}
 
-### Do I need to log in or create an account?
-No.
+## Recording or transcription is unavailable {#help-4}
 
----
+Recording, playback and transcript viewing require Premium. Allow microphone access. Transcription needs iPadOS 26 or later plus a supported Apple speech model and language. The app explains unsupported conditions; recording and playback remain available.
 
-## Notes and pages
+Recordings split every 30 minutes, with five per note. AI summaries use existing transcript text, not audio-file uploads. Include recording audio when exporting a backup if you want restored or Pocket playback.
 
-### Is a note title required?
-No.  
-If you create a note with the title left blank, today's date is used as the note name.
+[Recording steps]({{< relref "/htu/uni-note/" >}}#recording) →
 
-### What is the title prompt shown when I first open a new subject?
-It is the title of the first note.  
-If you leave it blank and choose **OK** or **Start Writing**, today's date becomes the title.
+{{< guide-anchor "study-support" "what-is-memorization-feature" "can-i-show-or-hide-all-memorization-markers-for-a-page-at-once" "what-is-the-current-status-of-the-study-support-features" "how-do-i-use-problem-solver-assistant" "how-do-i-use-create-practice-set" "what-is-ai-balance" >}}
 
-If you go back without confirming anything, the in-progress first note is not kept.
+## Sticky markers or AI tools are missing {#help-5}
 
-### What can I choose when I create a subject?
-You can choose the following:
+Enable sticky markers and Problem Solver Assistant in Study Support settings. Tap each sticky separately to reveal or hide it; the old whole-page mask switch is no longer used.
 
-- `Subject name`
-- paper style: ruled / vertical / grid / plain
-- `Paper Color`
-- cover color
-- `Use as Portrait Notebook` when `Vertical` is selected
+Answers, practice-set generation and AI summaries share AI balance, shown in the plan screen. Long passages, open-ended questions or diagram-heavy problems may not be supported. Check results against your materials. The guide separates upcoming 3.5.0 features from the public version.
 
-### What is a portrait notebook?
-It is a note layout available when you create a subject with `Vertical`.  
-If you turn on **Use as Portrait Notebook**, the note shows a spread-like layout in landscape, one page at a time in portrait, and scrolls horizontally.
+[Review steps]({{< relref "/htu/uni-note/" >}}#review) →
 
-The note orientation cannot be changed after creation.
+{{< guide-anchor "data-and-storage" "where-is-my-data-stored" "does-the-app-send-diagnostics-or-crash-information" "is-automatic-sync-available" "is-backup-available" "is-easy-backup-available-for-everyone" "can-i-use-the-app-immediately-after-restoring" >}}
 
-### Can I separate notes within the same subject?
-Yes.  
-You can add one from **New Note** in **Note List**.
+## Backups, storage and diagnostics {#help-6}
 
-You can also reorder notes inside **Note List**.
+Notes are stored in the app. Easy Backup saves and restores an iCloud file; it does not sync notes automatically. Zip export and file restoration are available without Premium. Follow the app’s instruction to reopen it after restoration.
 
-### How are new pages added?
-When you start writing on the last page, the next page is added automatically.
+Technical crash diagnostics may be sent through Firebase Crashlytics. Note text, handwriting, images, PDFs and recording contents are not included in diagnostic logs. See the Privacy Policy in the support links below for details.
 
-### What is the maximum number of pages in a note?
-One note can have up to `150` pages.  
-Once it reaches `150`, no more pages can be added. PDF attachment also cannot add pages beyond that limit. If needed, create another note in the same subject.
+[Backup steps]({{< relref "/htu/uni-note/" >}}#backup) →
 
-### Can I zoom?
-Yes.  
-On the note screen, you can zoom in or out with a two-finger pinch gesture.
+{{< guide-anchor "settings" "what-settings-are-available" "can-i-change-the-subject-label" "what-can-i-change-in-left-handed-mode" "can-i-change-the-language" "where-can-i-open-the-how-to-use-page" >}}
 
-### Can I move handwriting by circling a range?
-Yes.
-Use **Move Selection** at the top of the note screen to select and move handwriting strokes together.
+## My screen looks different {#help-7}
 
-Basic flow:
+Language, left-handed settings and the subject label affect the UI. The published 3.4.0 and upcoming 3.5.0 also differ in Note List shortcuts and toolbar customization. Unreleased operations are marked in the guide.
 
-- Choose **Move Selection**
-- Circle the handwriting you want to move with Apple Pencil
-- Drag the selected handwriting to move it
+Check Notices in the Settings support section for in-app update information. Multiwindow controls depend on iPadOS.
 
-Any line that is even partly inside the enclosed area is selected as a whole. This applies to handwriting strokes; photos, PDFs, and Sticky Markers are handled separately.
-**Move Selection** is a Premium feature.
-
-### Can I delete a page?
-Yes.  
-You can delete it by pressing and holding the target page in **Pages**.
-
-However, if a note has only one page, the page itself is kept and only its content is cleared.
-
-If you only want to delete handwriting, use **Clear Page** from the eraser settings. It deletes only handwriting on the current page and keeps photos, PDFs, and Sticky Markers.
-
-### Can I protect a note?
-Yes.  
-When you choose **Protect** in **Note List**, the note becomes read-only. You can also require biometrics to remove protection.
-
-### Can I edit a subject?
-Yes.  
-Press and hold the subject on Home and open **Edit**.
-
-You can change:
-
-- `Subject name`
-- paper style
-- `Paper Color`
-- cover color
-
-The note orientation cannot be changed after creation.  
-Note titles can still be changed from **Note List**.
-
-You can also reorder subjects on Home.
-
-### Can I organize subjects into folders on Home?
-Yes.
-Create a folder from the `+` button on Home and group subjects inside it.
-
-You can choose the folder name, color, and subjects to include. You can edit it later, drag subjects into folders, and reorder subjects inside a folder.
-
-Deleting a folder does not delete its subjects. The subjects return to Home.
-
-### What can be restored from Trash?
-Subjects and notes shown in the note list.  
-**Trash** groups deleted items by subject, and tapping a subject shows the notes inside it.
-
-Even if a subject is deleted, you can restore the whole subject or restore only individual notes.  
-Deleted pages do not go to Trash and are removed immediately.
-
----
-
-## Photos and PDFs
-
-### Can I insert photos?
-Yes.  
-You can insert photos one at a time with **Attach Photo**. After inserting, you can move or resize them, and double-tap to lock or unlock them.
-
-### Can I attach a photo as a document?
-Yes.  
-Choose **Attach Photo as Document** from **More** to pick a photo from Camera or Library, adjust it in the correction UI, and place it on the page as a document.
-
-After placing it, you can double-tap to lock or unlock it and adjust its position and size with your fingers.
-
-### Can I insert PDFs?
-Yes.  
-Choose **Attach PDF** from **More**.
-
-- You can select one or more pages from a PDF file
-- You can turn on **Split Spread** to split a spread in the center
-- You can attach multiple PDF pages in one action
-- You can attach multiple PDFs to the same page
-
-After placing it, select each PDF to move, resize, rotate, lock, or delete it.
-
-### Can I export PDFs?
-Yes.  
-Choose **Export PDF** from **More** and export **This Note Only** or the entire subject as PDF.
-Photos, PDFs, Sticky Markers, and handwriting on pages are included in PDF export.
-
----
-
-## Recording and Transcription
-
-### Can I use recording?
-Yes.
-Use the **Recording** button at the top of the note screen to open the recording panel.
-
-- Start / pause / stop recording
-- Playback / seek / change playback speed
-- Rename recordings
-- Lock or unlock recordings
-- Delete recordings
-- Share recording audio
-
-Recording, playback, and viewing transcriptions are **Premium** features.
-One note can keep up to `5` recordings.
-Each recording file can be up to 30 minutes long. When a recording reaches 30 minutes, Uni:Note automatically saves that recording and starts the next one.
-Automatically split recordings count toward the limit of `5` recordings per note.
-If you return to Uni:Note Home or the iPad goes to sleep while recording, the recording ends and is saved at that point.
-Doing this during recording may corrupt the recording data. Stop and save the recording before leaving the note or putting the iPad to sleep.
-
-### Can I use transcription and AI Summary?
-On supported devices, Uni:Note can show real-time transcription while recording.
-Based on Apple's transcription-compatible models, real-time transcription and AI Summary are available on the following models running iPadOS 26 or later: iPad mini (6th generation or later), iPad (10th generation or later), iPad Air (4th generation or later), iPad Pro 11-inch (3rd generation or later), iPad Pro 12.9-inch (5th generation or later), and iPad Pro 13-inch (M4 or later).
-
-AI Summary is generated from the transcription text already created on the device.
-Audio files are not sent for AI Summary.
-
-AI Summary can generate a study or meeting-style reconstructed note from the selected recording transcripts. If multiple recordings are selected, Uni:Note keeps the recording boundaries. Before running it, you can check the number of recordings, character count, and estimated AI usage.
-
-AI Summary requires **AI Balance**.
-
-### Are recordings included in backups?
-Standard backups include recording metadata and transcriptions.
-Recording audio files (m4a) are included in both **Export Backup** and `Easy Backup` only when **Include recording audio in backups** is turned on.
-
----
-
-## Study Support
-
-### What is `Memorization Feature`?
-Turn on **Memorization Feature** in `Settings > Study Support` to use **Sticky Marker** on the note screen.
-
-- Hide parts with **Sticky Marker**
-- Each stroke is saved as an independent sticky marker
-- Tap a sticky marker with your finger to switch between transparent and opaque
-- Press and hold a sticky marker with your finger, then use the delete button that appears
-
-### Can I show or hide all memorization markers for a page at once?
-No.  
-In v3.0.0, the old page-wide open / close behavior has been replaced with per-sticky transparency control.
-
-If a page has old memorization markers from an earlier version, they are migrated to sticky markers when the page is opened.
-
-### What is the current status of the study support features?
-`Problem Solver Assistant` and `Create Practice Set` are both available.
-Both are AI features and require **AI Balance**.
-
-### How do I use `Problem Solver Assistant`?
-Turn on **Problem Solver Assistant** in `Settings > Study Support`. It then appears at the top of the note screen.
-
-Basic flow:
-
-- Choose **Problem Solver Assistant** at the top of the note screen
-- Circle the problem with Apple Pencil using a closed shape
-- Confirm the selected area and choose **Solve**
-- Review the answer and explanation
-
-From the result screen, you can copy or share the answer and explanation.
-
-It is mainly intended for formulas, calculations, and short questions.
-Long reading passages, free-response questions, and figure-heavy questions may not be supported.
-
-Using it requires **AI Balance**. If your AI Balance is insufficient, you can add more in the app.
-
-### How do I use `Create Practice Set`?
-Open **Create Practice Set** from **More**.
-
-Using it requires **AI Balance**.
-
-Basic flow:
-
-- Choose target pages with **Choose Pages**
-- Start with **Create Practice Set**
-- Review candidates with **Add** and **Reject**
-- Save them with **Save Practice Set**
-
-After saving, you can continue from **Review now**.  
-To revisit them later, switch Home to **Practice Sets** and open them from the list there.
-
-Practice sets can be deleted from Home, but they do not go to Trash and cannot be restored.
-
-### What is AI Balance?
-AI Balance is the shared balance used by `Circle Solve`, `Practice Set Generation`, and `AI Summary`.
-If it runs out, you can add AI Balance from the plan screen in the app.
-
-AI Balance is managed with an identifier used to verify purchases and balance. This identifier does not contain directly identifying information such as your name, email address, Apple ID, or note contents.
-
----
-
-## Data and storage
-
-### Where is my data stored?
-Inside the app on your device.
-
-### Does the app send diagnostics or crash information?
-Yes.
-To improve stability and investigate issues, Uni:Note may send diagnostic data and crash information using Firebase Crashlytics.
-
-The data is technical information such as app version, OS version, broad device category, screen size class, operation type, coarse count buckets, and safe error categories.
-
-It does not include note body content, handwriting, image content, PDF content, recording contents, OCR results, note names, subject names, file names, user names, or email addresses.
-
-Uni:Note does not collect usage events with Google Analytics for Firebase.
-
-### Is automatic sync available?
-Not at this time.  
-If needed, use `Settings > Backup`.
-
-### Is backup available?
-Yes.  
-In `Settings > Backup`, you can use:
-
-- `Update Easy Backup`
-- `Restore from Easy Backup`
-- `Export Backup`
-- `Restore from File`
-
-`Easy Backup` is the iCloud-based save and restore option. File-based backup remains available as well.
-
-### Is `Easy Backup` available for everyone?
-No.  
-`Easy Backup` is available with Premium.
-
-Even without Premium, you can still use `Export Backup` and `Restore from File`.
-
-### Can I use the app immediately after restoring?
-After restoring, close the app once and open it again.  
-The next launch will show Home.
-
----
-
-## Settings
-
-### What settings are available?
-Settings are organized into a Premium card and category pages.
-
-- **Uni:Note Premium**: current plan, AI Balance, add AI Balance, Premium / plan screen
-- **Notebook Settings**: new note template, base color, default vertical notebook mode, left-handed mode, per-item left-handed settings, auto-collapse palette, header / footer
-- **Display Settings**: launch destination, automatic recent sorting, subject label name, keep awake while a note is open, biometrics for unlocking protected notes, PDF export background, language
-- **Study Support**: Memorization Feature, Problem Solver Assistant, Recording Support, transcription language, default AI Summary format
-- **Backup**: Easy Backup, include recording audio in backups, export / restore backup files
-- **Support**: How to Use, Privacy Policy, send by form, contact by email, copy support info, app review, Uni:Note Pocket
-
-### Can I change the subject label?
-Yes.  
-In Settings, under `Subject Name`, you can choose **Subject / Notebook / Group / Category**.
-
-### What can I change in Left-Handed Mode?
-Left-Handed Mode adjusts the palette and page layout together. Per-item settings let you adjust the palette position, the red margin line position on ruled paper, and the PDF insertion position individually.
-
-### Can I change the language?
-Yes.  
-You can change it from `Settings > Display Settings > Language`.
-
-### Where can I open the How to Use page?
-Open `Settings > Support > How to Use`.
+[Using two windows]({{< relref "/htu/uni-note/" >}}#windows) →

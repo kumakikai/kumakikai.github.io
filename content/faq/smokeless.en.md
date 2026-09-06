@@ -1,6 +1,7 @@
 ---
 title: "FAQ (Smokeless)"
 description: "Frequently asked questions about Smokeless."
+lastmod: 2026-09-07
 ---
 
 ## Basics
@@ -9,20 +10,20 @@ description: "Frequently asked questions about Smokeless."
 It is an app for quickly recording `Smoked` and `Avoided` and reviewing counts and money values later. It can be used both as support for quitting smoking and as a simple log tool.
 
 ### What does `Avoided` record?
-It records one avoided cigarette.
+It records a time when you wanted to smoke but did not. It does not automatically count smoke-free time.
 
 ### Is this a medical app?
 No. It does not provide medical treatment or medical services.
 
 ### Is there a first-time tutorial?
-Yes. There is a tutorial and initial setup when you first launch the app.
+Yes. It appears on first launch. See the [illustrated guide]({{< relref "/htu/smokeless/" >}}) for initial settings and everyday controls.
 
 ---
 
 ## Recording and review
 
 ### What can I check?
-You can check today's counts, saved amount, elapsed time since the last record, daily / monthly / yearly lists, and `Charts` for `Week` / `Month` / `3 Months`.
+You can review counts, money values and trends. The [guide]({{< relref "/htu/smokeless/" >}}) explains the review screens.
 
 ### How is the money amount calculated?
 The amount per cigarette is calculated from `Cigarettes per pack` and `Price per pack`, and `Smoked` and `Avoided` are converted into money values.
@@ -41,7 +42,7 @@ No. At this time, recording is supported only for the current day.
 Records and settings are stored on the device.
 
 ### Are backup or cloud sync available?
-Not at this time.
+Cloud sync and file-based backups are not available. Apple Watch communication is separate from cloud backup.
 
 ### Do I need to register an account?
 No. You can use it without login or membership.
@@ -51,20 +52,23 @@ No. You can use it without login or membership.
 ## Features
 
 ### Is there a home widget?
-Yes. The app supports a home widget that shows today's `Smoked` / `Avoided` counts and lets you log directly.
+Yes. See the [widget instructions]({{< relref "/htu/smokeless/" >}}#6-use-the-home-widget).
 
 ### Can I add multiple brands?
-Yes. You can add up to 4 brands.
+One brand is available initially. Purchasing the Extra brands pack allows up to four brands in total.
 
 ### Is there an `Over-smoking alert`?
-Yes. You can use the `Over-smoking alert` from `Settings`.
+Yes. Configure it in Settings → General. It asks for confirmation when a smoked entry on iPhone would exceed your selected daily count.
 
 ### Where are ads shown?
-A banner ad is shown on the `Log` screen.  
-In addition, when you open `Calendar` / `Charts`, a full-screen ad is shown only once per week.
+A banner appears on Log. Starting one week after the in-app ad notice, a full-screen ad may appear at most once per week when opening Calendar or Charts.
 
 ### Can I remove ads?
 Yes. You can buy a one-time purchase for `Remove ads`. Restore purchase is also supported.
 
 ### Can I change the language or currency?
-Yes. You can change `Language` and `Savings currency` from `Settings`.
+Yes. Open Settings → General.
+
+### Why are Apple Watch records not appearing on iPhone?
+
+The Apple Watch update is under review. See the [Apple Watch guide]({{< relref "/htu/smokeless/" >}}#apple-watch) for requirements, offline storage and transfer after reconnection.

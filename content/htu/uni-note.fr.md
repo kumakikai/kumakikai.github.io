@@ -1,356 +1,116 @@
 ---
 title: "Mode d’emploi (Uni:Note)"
 description: "Mode d’emploi pour Uni:Note."
+lastmod: 2026-09-07
 ---
 
-Uni:Note est une app de prise de notes sur iPad conçue pour l’écriture manuscrite avec l’Apple Pencil.  
-Vous pouvez organiser vos contenus par matière et séparer chaque cours dans une note différente.
+Ces captures réelles présentent les opérations principales d’Uni:Note 3.4.0. Touchez une image pour l’agrandir. Écrivez avec l’Apple Pencil ; utilisez les doigts pour défiler et déplacer les pièces jointes.
 
-Environnement pris en charge :
+{{< guide-anchor "1-organiser-les-matières-et-les-dossiers-sur-laccueil" "2-ouvrir-la-première-note" >}}
 
-- iPad uniquement
-- l’écriture manuscrite est conçue pour l’Apple Pencil
-- l’utilisation du doigt sert surtout à faire défiler et à manipuler les éléments collés
-- langues prises en charge : `japonais / anglais / coréen / allemand / chinois traditionnel / français`
+## 1. Créer une matière et sa première note {#create}
 
----
+1. Touchez **+** en bas à droite de l’accueil, puis **Ajouter une matière**.
 
-## Utiliser `Split View`, `Slide Over` et deux volets
+{{< guide-image src="images/guides/uni-note/fr/create-menu.png" alt="Ajouter une matière et Créer un dossier dans le menu + de l’accueil" mode="crop" caption="Le menu de création ouvert par le bouton + en bas à droite." >}}
 
-Uni:Note prend en charge le mode multifenêtre de l’iPad.
+2. Choisissez le nom, les lignes, la couleur du papier et de la couverture.
+3. Ouvrez la matière et nommez sa première note. Un nom vide utilise la date du jour.
 
-- Ouvrez d’abord Uni:Note puis affichez le Dock
-- Faites glisser une autre app ou Uni:Note sur le côté de l’écran pour `Split View`
-- Déposez une autre app ou Uni:Note en superposition pour `Slide Over`
+Le même + permet de créer des dossiers. Glissez-y les matières ; supprimer un dossier les remet sur l’accueil. Maintenez une matière pour modifier son nom et son papier.
 
-Si vous voulez utiliser deux fenêtres Uni:Note en même temps, ouvrez d’abord la première, maintenez ensuite l’icône Uni:Note dans le Dock et choisissez l’option d’ouverture d’une nouvelle fenêtre.  
-Une fois la seconde fenêtre ouverte, vous pouvez l’afficher côte à côte en `Split View` ou en superposition avec `Slide Over`.
+{{< guide-anchor "3-écrire-avec-lapple-pencil" "4-zoomer-avec-deux-doigts" "5-changer-doutil" "9-utiliser-la-règle" >}}
 
-L’interface exacte et les intitulés peuvent légèrement varier selon la version d’iPadOS.
+## 2. Choisir un outil et écrire {#write}
 
----
+1. Sélectionnez le stylo, le surligneur ou la gomme dans la palette.
+2. Écrivez avec l’Apple Pencil ; pincez avec deux doigts pour zoomer.
+3. Écrire sur la dernière page ajoute automatiquement la suivante.
 
-## 1. Organiser les matières et les dossiers sur l’accueil
+{{< guide-image src="images/guides/uni-note/common/writing-tools.png" alt="Palette avec stylo, surligneur, gomme, repère et annulation" mode="crop" >}}
 
-Créez une nouvelle matière avec le bouton `+` sur l’accueil.
+Déplacez la palette en la faisant glisser. Affichez la règle en haut, déplacez-la ou tournez-la avec les doigts et tracez à proximité avec le Pencil. Le déplacement de zone sélectionne des traits manuscrits entiers ; photos, PDF et repères se déplacent séparément. Les carnets verticaux défilent horizontalement. Leur orientation ne change plus après création.
 
-- nom de la matière
-- type de papier : ligné / vertical / quadrillé / uni
-- `Couleur du papier`
-- couleur de couverture
-- `Utiliser comme cahier portrait` lorsque `Vertical` est sélectionné
+{{< guide-anchor "6-utiliser-liste-des-notes-et-pages" >}}
 
-La matière est ajoutée à l’accueil.  
-Touchez-la pour ouvrir ses notes.
+## 3. Changer de note et rechercher un titre {#find}
 
-Lorsque `Utiliser comme cahier portrait` est activé :
+Saisissez une partie du titre dans la recherche de l’accueil, puis touchez le résultat. La recherche ne porte pas sur l’écriture, le texte des pages, les PDF ni les noms de matières.
 
-- en paysage : affichage proche d’une double page
-- en portrait : une page à la fois
-- sens de défilement : horizontal
+{{< guide-image src="images/guides/uni-note/fr/home-search.png" alt="Recherche de titres sur l’accueil" mode="crop" >}}
 
-Après création, vous pouvez maintenir une matière sur l’accueil pour ouvrir `Modifier`.  
-Le nom de la matière, le type de papier, la couleur du papier et la couleur de couverture peuvent être modifiés plus tard, mais l’orientation du cahier ne peut pas être changée après création.
+Dans une note, **Liste des notes** ouvre les autres notes de la matière ou en crée une. Balayez à gauche pour renommer, protéger ou supprimer. **Pages** affiche les miniatures : touchez pour naviguer, maintenez pour supprimer.
 
-Vous pouvez aussi réordonner les matières sur l’accueil ou les organiser avec des dossiers.
+**Avant la publication de 3.5.0 :** le raccourci vers la liste depuis la carte de matière et la personnalisation des barres d’outils appartiennent à la prochaine version. Dans la version publiée 3.4.0, utilisez les commandes de la note décrites ci-dessus.
 
-Actions principales sur les dossiers :
+{{< guide-anchor "7-utiliser-plus" "8-utiliser-des-photos-et-des-pdf" >}}
 
-- créer un dossier depuis le bouton `+` de l’accueil
-- choisir le nom, la couleur et les matières à inclure
-- faire glisser une matière dans un dossier
-- toucher un dossier pour afficher ses matières dans une fenêtre sur l’accueil
-- réordonner les matières à l’intérieur d’un dossier
-- supprimer un dossier ne supprime pas ses matières. Elles reviennent sur l’accueil
+## 4. Joindre des photos ou PDF et exporter {#pdf}
 
----
+1. Ouvrez **Plus** en haut à droite de la note.
+2. Choisissez une photo, une photo de document ou un PDF.
+3. Sélectionnez les pages PDF à joindre ; les doubles pages peuvent être séparées.
 
-## 2. Ouvrir la première note
+{{< guide-image src="images/guides/uni-note/fr/attachment-menu.png" alt="Menu photo, document photo, pièce jointe PDF et export PDF" mode="crop" >}}
 
-Lorsque vous ouvrez une nouvelle matière pour la première fois, Uni:Note affiche la saisie du titre de la première note.
+{{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="PDF de cours annoté dans Uni:Note" mode="tablet" >}}
 
-- démarrez avec `OK` ou `Écrire directement`
-- le titre est facultatif
-- s’il est laissé vide, la date du jour est utilisée
-- si vous revenez en arrière sans confirmer, la première note n’est pas conservée
+Sélectionnez la pièce jointe avec le doigt pour la déplacer ou la redimensionner. Touchez deux fois pour la verrouiller ou déverrouiller, puis annotez avec l’Apple Pencil. Pour partager, utilisez **Plus → Exporter en PDF**, pour la note ou toute la matière. Le fond peut être blanc ou de la couleur du papier.
 
-Ensuite, la matière rouvre la dernière note sur laquelle vous écriviez.
+{{< guide-anchor "10-utiliser-lenregistrement-la-transcription-et-le-résumé-ia" >}}
 
----
+## 5. Enregistrer un cours {#recording}
 
-## 3. Écrire avec l’Apple Pencil
+1. Touchez le microphone au-dessus de la note.
+2. Démarrez avec le bouton rouge ; mettez en pause et reprenez si nécessaire.
+3. Arrêtez pour enregistrer, puis sélectionnez l’enregistrement pour l’écouter.
 
-- l’écriture manuscrite est pensée pour l’Apple Pencil
-- les cahiers classiques affichent les pages à la verticale en continu
-- lorsque vous commencez à écrire sur la dernière page, la suivante est ajoutée automatiquement
-- une note peut contenir jusqu’à `150` pages
-- les cahiers portrait affichent les pages horizontalement, une par une, en mode portrait
+{{< guide-image src="images/guides/uni-note/common/record-button.png" alt="Langue et bouton rouge du panneau d’enregistrement" mode="crop" caption="L’exemple utilise l’anglais comme langue de transcription." >}}
 
-L’app est conçue pour que vous puissiez ouvrir une note et écrire immédiatement.
+L’enregistrement, la lecture et l’affichage de la transcription nécessitent Premium. Un fichier est divisé après 30 minutes, avec cinq enregistrements par note au maximum. Arrêtez et sauvegardez avant l’accueil ou la veille. Les iPad compatibles sous iPadOS 26 peuvent transcrire pendant l’enregistrement. Choisissez la langue dans **Réglages → Aide à l’étude → Aide à l’enregistrement**. Le résumé IA utilise le texte transcrit et le solde IA ; vérifiez l’estimation avant de lancer.
 
----
+{{< guide-anchor "11-utiliser-la-fonction-de-mémorisation" "12-utiliser-lassistant-de-résolution" "13-utiliser-créer-un-lot-dexercices" >}}
 
-## 4. Zoomer avec deux doigts
+## 6. Réviser avec les repères et les exercices {#review}
 
-Sur l’écran de note, vous pouvez pincer avec deux doigts pour zoomer ou dézoomer.
+Activez la mémorisation dans les réglages d’étude. Choisissez le repère adhésif, masquez du texte avec l’Apple Pencil et touchez le repère avec le doigt pour révéler ou masquer. Pour supprimer un repère, maintenez-le puis touchez le bouton de suppression qui apparaît.
 
-Si le zoom est difficile à déclencher pendant l’écriture ou pendant l’ajustement d’une photo, d’un document photo ou d’un PDF, relâchez les doigts une fois puis réessayez.
+{{< guide-image src="images/guides/uni-note/common/sticky-marker.png" alt="Repères adhésifs masquant les réponses dans les notes" mode="crop" >}}
 
----
+Activez l’assistant de résolution, choisissez son bouton dans la note, entourez une question avec le Pencil et vérifiez la zone avant de demander la réponse.
 
-## 5. Changer d’outil
+Pour envoyer le résultat dans une autre app, touchez Copier à gauche ou Partager à droite, en haut à droite du panneau de réponse.
 
-Depuis la palette, vous pouvez basculer entre :
+{{< guide-image src="images/guides/uni-note/fr/problem-answer.png" alt="Boutons Copier à gauche et Partager à droite du panneau de réponse" mode="crop" >}}
 
-- `Stylo`
-- `Surligneur`
-- `Gomme vectorielle`
-- `Gomme pixel`
-- `Marqueur pense-bête`
-- `Annuler`
-- `Rétablir`
+Dans **Plus → Créer un lot d’exercices**, sélectionnez les pages, gardez ou écartez les propositions et enregistrez le lot. Retrouvez-le dans les exercices de l’accueil. Réponses et génération IA utilisent le solde IA ; vérifiez les résultats avec vos cours.
 
-Depuis les boutons en haut de l’écran de note, vous pouvez ouvrir :
+**Avant la publication de 3.5.0 :** création manuelle, modification des lots enregistrés et masquage du sélecteur d’exercices sont prévus dans la prochaine version. La version 3.4.0 propose le parcours de génération et de révision ci-dessus.
 
-- `Règle`
-- `Déplacer la zone`
-- `Assistant de résolution`
-- `Enregistrement`
+{{< guide-anchor "14-protéger-les-notes-et-utiliser-la-corbeille" >}}
 
-Notes :
+## 7. Protéger, supprimer et restaurer {#protect}
 
-- vous pouvez déplacer la palette en la faisant glisser
-- le stylo propose `Porte-mine`, `Stylo bille` et `Feutre`
-- vous pouvez changer la couleur et l’épaisseur du stylo
-- vous pouvez changer la couleur, l’épaisseur et l’intensité du surligneur
-- la gomme propose la gomme par trait, la gomme pixel et `Effacer la page`
-- `Effacer la page` est disponible uniquement à 100 % de zoom et supprime seulement l’écriture manuscrite de la page actuelle. Les photos, PDF et marqueurs pense-bête restent en place
-- vous pouvez changer la couleur et l’épaisseur du marqueur pense-bête
-- `Marqueur pense-bête` apparaît dans la palette lorsqu’il est activé dans `Réglages > Aide à l'étude`
-- `Assistant de résolution` apparaît en haut de l’écran de note lorsqu’il est activé dans `Réglages > Aide à l'étude`
-- `Déplacer la zone` est une fonction Premium
-- en `Mode gaucher`, vous pouvez modifier la position par défaut de la palette
+La protection dans la liste des notes empêche d’écrire. Les réglages peuvent imposer une authentification biométrique pour la retirer.
 
-Mode d’emploi de `Déplacer la zone` :
+Restaurez les matières et notes supprimées dans la corbeille de l’accueil. Supprimer un dossier conserve ses matières. Les pages, lots d’exercices et éléments définitivement supprimés ne sont pas récupérables. Supprimer l’unique page d’une note en efface le contenu.
 
-- choisissez `Déplacer la zone` en haut de l’écran de note
-- entourez avec l’Apple Pencil la zone manuscrite à déplacer
-- faites glisser l’écriture sélectionnée
+{{< guide-anchor "15-réglages-et-sauvegarde" >}}
 
-Tout trait même partiellement inclus dans la zone entourée est sélectionné en entier.
-Cela concerne les traits manuscrits. Les photos, les PDF et les marqueurs pense-bête se manipulent séparément.
+## 8. Conserver une sauvegarde {#backup}
 
----
+1. Ouvrez la roue dentée de l’accueil, puis **Réglages → Sauvegarde**.
+2. Pour écouter les enregistrements dans Pocket, incluez leur audio avant l’export.
+3. Exportez une sauvegarde à l’emplacement voulu.
 
-## 6. Utiliser `Liste des notes` et `Pages`
+{{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Exporter une sauvegarde et Restaurer depuis un fichier dans Uni:Note" mode="crop" caption="Interface japonaise : la ligne du haut exporte une sauvegarde ; celle du bas restaure un fichier enregistré." >}}
 
-Ouvrez **Liste des notes** en haut à gauche.
+La mise à jour et la restauration de la sauvegarde rapide nécessitent Premium. Elles enregistrent ou lisent un fichier iCloud, sans synchronisation automatique des notes. Choisissez un zip pour restaurer puis fermez et rouvrez l’app selon son message. Langue, options gaucher et nom des matières se règlent également ici.
 
-- ajoutez une autre note dans la même matière avec `Nouvelle note`
-- le titre d’une nouvelle note est lui aussi facultatif
-- s’il est laissé vide, la date du jour est utilisée
-- faites glisser vers la gauche dans la liste pour renommer, `Protéger` ou supprimer une note
-- réordonnez les notes dans la liste des notes
+{{< guide-anchor "utiliser-split-view-slide-over-et-deux-volets" >}}
 
-Ouvrez **Pages** pour voir les miniatures dans la note en cours.
+## Utiliser deux fenêtres sur iPad {#windows}
 
-- touchez une miniature pour aller à cette page
-- maintenez une page pour la supprimer
+Placez Uni:Note à côté d’un document ou d’une vidéo avec les commandes de fenêtres d’iPad. Vous pouvez aussi ouvrir deux fenêtres Uni:Note.
 
-Si la note ne contient qu’une seule page, seule son contenu est effacé et la page elle-même reste en place.
-
----
-
-## 7. Utiliser `Plus`
-
-Le menu `Plus` contient les actions suivantes :
-
-- `Coller une photo`
-- `Coller une photo comme document`
-- `Coller un PDF`
-- `Exporter en PDF`
-- `Créer un lot d’exercices`
-
-`Règle`, `Déplacer la zone`, `Assistant de résolution` et `Enregistrement` s’ouvrent depuis les boutons en haut de l’écran de note.
-
----
-
-## 8. Utiliser des photos et des PDF
-
-Choisissez `Coller une photo` depuis `Plus`.
-
-- déplacez ou redimensionnez la photo avec les doigts
-- touchez deux fois pour verrouiller ou déverrouiller
-- maintenez pour supprimer
-
-Choisissez `Coller une photo comme document` depuis `Plus`.
-
-- choisissez une photo depuis l’appareil photo ou la photothèque
-- ajustez la zone du document dans l’interface de correction puis validez
-- après insertion, vous pouvez la verrouiller ou déverrouiller par double touche, puis ajuster sa position et sa taille avec les doigts
-
-Choisissez `Coller un PDF` depuis `Plus`.
-
-- vous pouvez sélectionner une ou plusieurs pages du fichier PDF
-- activez `Scinder la double page` pour couper une double page au centre
-- plusieurs pages PDF peuvent être collées en une seule fois
-- vous pouvez coller plusieurs PDF sur une même page
-- après insertion, vous pouvez sélectionner chaque PDF pour le déplacer, redimensionner, faire pivoter, verrouiller ou supprimer
-
-Choisissez `Exporter en PDF` depuis `Plus`.
-
-Vous pouvez exporter :
-
-- `Cette note uniquement`
-- toute la matière
-
-Les photos, PDF, marqueurs pense-bête et écritures des pages sont inclus dans l’export PDF.
-Dans `Fond de l’export PDF`, vous pouvez choisir `Papier` ou `Blanc`.
-
----
-
-## 9. Utiliser la `Règle`
-
-Touchez **Règle** en haut de l’écran de note pour l’afficher.
-
-- déplacez ou faites pivoter la règle avec les doigts
-- écrivez près de la règle avec l’Apple Pencil pour obtenir des lignes droites corrigées
-- touchez de nouveau **Règle** pour la masquer
-
-Les lignes tracées avec la règle restent dans la note comme une écriture manuscrite normale.
-
----
-
-## 10. Utiliser l’enregistrement, la transcription et le Résumé IA
-
-Touchez **Enregistrement** en haut de l’écran de note pour ouvrir le panneau d’enregistrement.
-L’enregistrement, la lecture et l’affichage des transcriptions sont des fonctions **Premium**.
-
-Commandes de base :
-
-- commencez avec **Enregistrement**
-- utilisez **Pause** / **Reprendre** pour interrompre sans terminer l’enregistrement
-- utilisez **Arrêter** pour sauvegarder
-- sélectionnez un enregistrement sauvegardé pour le lire
-- si nécessaire, renommez, verrouillez, supprimez ou partagez l’audio
-
-Une note peut conserver jusqu’à `5` enregistrements.
-Chaque fichier d’enregistrement peut durer jusqu’à 30 minutes. Lorsqu’un enregistrement atteint 30 minutes, Uni:Note le sauvegarde automatiquement et démarre l’enregistrement suivant.
-Les enregistrements divisés automatiquement comptent dans la limite de `5` enregistrements par note.
-Si vous revenez à l’accueil de Uni:Note ou si l’iPad se met en veille pendant un enregistrement, l’enregistrement se termine et est sauvegardé à ce moment-là.
-Cette action pendant un enregistrement peut endommager les données d’enregistrement. Arrêtez et sauvegardez l’enregistrement avant de quitter la note ou de mettre l’iPad en veille.
-
-Selon les modèles compatibles avec la transcription indiqués par Apple, la transcription en temps réel et le Résumé IA sont disponibles sous iPadOS 26 ou version ultérieure sur iPad mini (6e génération ou ultérieure), iPad (10e génération ou ultérieure), iPad Air (4e génération ou ultérieure), iPad Pro 11 pouces (3e génération ou ultérieure), iPad Pro 12,9 pouces (5e génération ou ultérieure) et iPad Pro 13 pouces (M4 ou ultérieur).
-Sur les appareils compatibles, une transcription en temps réel peut s’afficher pendant l’enregistrement.
-La langue de transcription et le format par défaut du Résumé IA se changent depuis `Réglages > Aide à l'étude > Aide à l’enregistrement`.
-
-Le Résumé IA est généré à partir du texte de transcription créé pendant l’enregistrement.
-Les fichiers audio ne sont pas envoyés pour le Résumé IA. Le Résumé IA nécessite du **solde IA**.
-
-Pour le Résumé IA, vous pouvez choisir un format Études ou Réunion. Si plusieurs enregistrements sont sélectionnés, Uni:Note conserve les séparations entre enregistrements. Avant de l’exécuter, vous pouvez vérifier le nombre d’enregistrements, le nombre de caractères et l’estimation de consommation IA.
-
----
-
-## 11. Utiliser la `Fonction de mémorisation`
-
-Activez d’abord la `Fonction de mémorisation` dans `Réglages > Aide à l'étude`.
-
-Une fois activée, le `Marqueur pense-bête` apparaît dans la palette sur l’écran de note.
-
-- choisissez `Marqueur pense-bête`
-- tracez avec l’Apple Pencil la zone que vous voulez masquer
-- chaque trait est enregistré comme un pense-bête
-- touchez un pense-bête avec le doigt pour alterner entre transparent et opaque
-- appuyez longuement avec le doigt, puis utilisez le bouton de suppression qui apparaît
-
-Les anciens marqueurs de mémorisation sont migrés en marqueurs pense-bête à l’ouverture de la page.
-
----
-
-## 12. Utiliser l’`Assistant de résolution`
-
-Activez d’abord l’`Assistant de résolution` dans `Réglages > Aide à l'étude`.
-
-Une fois activé, l’`Assistant de résolution` apparaît en haut de l’écran de note.
-
-Mode d’emploi :
-
-- choisissez `Assistant de résolution` en haut de l’écran de note
-- entourez le problème avec l’Apple Pencil en formant une zone fermée
-- confirmez la zone affichée
-- choisissez `Résoudre`
-- consultez la réponse et l’explication
-
-Depuis l’écran de résultat, vous pouvez copier ou partager la réponse et l’explication.
-
-La fonction est surtout prévue pour les formules, les calculs et les questions courtes.
-Les longs textes, réponses libres et problèmes centrés sur des figures peuvent ne pas être pris en charge.
-
-Son utilisation nécessite du **solde IA**. Si votre solde IA est insuffisant, vous pouvez en ajouter dans l’app.
-
----
-
-## 13. Utiliser `Créer un lot d’exercices`
-
-Ouvrez `Créer un lot d’exercices` depuis `Plus`.
-
-La génération de lots d’exercices nécessite du **solde IA**.
-
-Déroulement :
-
-- choisissez les pages cibles avec `Choisir les pages`
-- lancez `Créer un lot d’exercices`
-- passez en revue les propositions avec `Ajouter` et `Ignorer`
-- enregistrez-les avec `Enregistrer le lot`
-
-Après l’enregistrement, vous pouvez continuer via `Réviser maintenant`.  
-Pour y revenir plus tard, basculez l’accueil sur `Exercices` puis ouvrez-les depuis la liste.
-
-Les lots d’exercices peuvent être supprimés depuis l’accueil, mais ils ne vont pas à la corbeille et ne peuvent pas être restaurés.
-
----
-
-## 14. Protéger les notes et utiliser la `Corbeille`
-
-- si vous choisissez `Protéger` dans `Liste des notes`, la note devient en lecture seule
-- dans les réglages, vous pouvez exiger la biométrie pour retirer la protection
-- la `Corbeille` sur l’accueil regroupe les éléments supprimés par matière
-- vous pouvez restaurer une matière complète ou seulement certaines notes
-- les pages supprimées ne vont pas à la corbeille et sont retirées immédiatement
-- les éléments supprimés définitivement depuis la corbeille ne peuvent pas être récupérés
-
----
-
-## 15. Réglages et sauvegarde
-
-Les réglages sont organisés autour d’une carte Premium et de pages par catégorie.
-
-Catégories principales :
-
-- **Uni:Note Premium** : plan actuel, solde IA, ajout de solde IA, écran Premium / plans
-- **Réglages de note** : modèle des nouvelles notes, couleur de base, mode cahier vertical par défaut, mode gaucher, réglages gaucher par élément, réduction automatique de la palette, en-tête / pied de page
-- **Réglages d’affichage** : écran ouvert au lancement, tri automatique par utilisation récente, libellé des matières, empêcher la mise en veille pendant qu’une note est ouverte, biométrie pour les notes protégées, fond d’export PDF, langue
-- **Aide à l'étude** : Fonction de mémorisation, Assistant de résolution, Aide à l’enregistrement, langue de transcription, format par défaut du Résumé IA
-- **Sauvegarde** : sauvegarde facile, inclure l’audio des enregistrements, export / restauration de fichiers de sauvegarde
-- **Assistance** : mode d’emploi, politique de confidentialité, envoi par formulaire, contact par e-mail, copie des informations d’assistance, avis sur l’app, Uni:Note Pocket
-
-Dans `Réglages > Sauvegarde`, vous pouvez utiliser :
-
-- `Mettre à jour la sauvegarde facile` (Premium)
-- `Restaurer depuis la sauvegarde facile` (Premium)
-- `Exporter la sauvegarde`
-- `Restaurer depuis un fichier`
-
-La `sauvegarde facile` utilise iCloud pour enregistrer et restaurer les données.  
-La sauvegarde basée sur fichier reste disponible même sans Premium.
-
-Les informations d’enregistrement et les transcriptions sont incluses dans les sauvegardes.
-Les fichiers audio d’enregistrement (m4a) sont inclus dans `Exporter la sauvegarde` et dans la `sauvegarde facile` uniquement si **Inclure l’audio des enregistrements dans les sauvegardes** est activé.
-
-Après une restauration, fermez l’app une fois puis rouvrez-la.  
-Au prochain lancement, l’accueil s’affichera.
-
-Pages liées :
-
-- [FAQ (Uni:Note)]({{< relref "/faq/uni-note/" >}})
-- [Politique de confidentialite (Uni:Note)]({{< relref "/privacy/uni-note/" >}})
+Les gestes du Dock et les noms Split View ou Slide Over dépendent de la version d’iPadOS et des réglages de fenêtres.

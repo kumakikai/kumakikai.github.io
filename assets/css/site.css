@@ -355,6 +355,28 @@ body.menu-open { overflow: hidden; }
 .content table::before { content: none; }
 .content thead { background: var(--surface-soft); }
 .content hr { border-color: var(--line); }
+/* Operation guides: original UI crops, readable on a phone without giant
+   device mockups. Every image reserves its own ratio and opens at 2x. */
+.guide-updated { color: var(--muted); font-size: .76rem; margin: -16px 0 30px; }
+.guide-toc { border-block: 1px solid var(--line); padding-block: 10px; margin-bottom: 36px; }
+.guide-toc summary { min-height: 44px; align-content: center; font-size: .88rem; font-weight: 600; }
+.guide-toc nav ul { list-style: none; padding: 8px 0 12px; margin: 0; }
+.guide-toc a { display: block; min-height: 44px; padding: 9px 0; font-size: .86rem; line-height: 1.75; color: var(--accent); }
+.guide-toc a:hover { text-decoration: underline; }
+.visual-guide > h2 { margin-top: 3em; padding-top: .7em; border-top: 1px solid var(--line); }
+.visual-guide > h2:first-child { border-top: 0; padding-top: 0; }
+.visual-guide > ol { padding-left: 1.55em; }
+.visual-guide > ol > li { padding-left: .3em; margin-block: .6em; }
+.visual-guide blockquote p::before,.visual-guide blockquote p::after { content: none; }
+.visual-guide :not(pre) > code::before,.visual-guide :not(pre) > code::after { content: none; }
+.content .guide-figure { width: 100%; max-width: var(--guide-image-width, 560px); margin: 28px auto 44px; }
+.content .guide-figure a { display: block; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; box-shadow: 0 3px 14px #0000000b; }
+.content .guide-figure img { display: block; width: 100%; height: auto; margin: 0; }
+.content .guide-figure figcaption { margin: 12px 0 0; font-size: .78rem; line-height: 1.85; color: var(--muted); text-align: center; }
+@media (max-width: 600px) {
+  .content .guide-figure { width: calc(100% - 16px); margin-block: 24px 34px; }
+  .visual-guide > h2 { margin-top: 2.4em; }
+}
 .article-related,.article-about { border-top: 1px solid var(--line); margin-top: 55px; padding-top: 35px; }
 .article-related h2,.article-about h2 { font-size: 1.25rem; margin-bottom: 22px; }
 .related-products { display: flex; flex-wrap: wrap; gap: 12px; }

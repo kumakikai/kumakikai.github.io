@@ -3,146 +3,77 @@ title: "Mode d’emploi (Uni:Note Pocket)"
 description: "Mode d’emploi pour Uni:Note Pocket."
 aliases:
   - /htu/uni-memo/
+lastmod: 2026-09-07
 ---
 
-Uni:Note Pocket est une **application compagnon pour relire les sauvegardes Uni:Note sur iPhone**.  
-Ce n'est pas une application d'ecriture. Son role est de charger des sauvegardes, de relire les notes et les `Lots` en lecture seule, et de lire l'audio des enregistrements.
+Importez une sauvegarde Uni:Note sur iPhone pour relire notes, repères et lots d’exercices. Pocket ne crée, ne modifie et ne synchronise pas les notes. Touchez les captures pour les agrandir.
 
-Pre-requis :
+{{< guide-anchor "1-lire-le-premier-message-dinformation" "2-choisir-une-sauvegarde-depuis-licone-dimport" >}}
 
-- iPhone uniquement
-- un fichier zip de sauvegarde cree dans Uni:Note, ou une `Sauvegarde rapide` sur cet iPhone
-- usage centre sur la consultation et la relecture, pas sur l'edition ni la synchronisation
+## 1. Importer une sauvegarde {#import}
 
----
+1. Exportez un zip de sauvegarde depuis Uni:Note sur iPad vers un emplacement accessible dans Fichiers sur l’iPhone.
+2. Fermez le message de premier lancement de Pocket et touchez l’icône d’import en bas à droite.
+3. Sélectionnez le zip et attendez la validation et l’import.
 
-## 1. Lire le premier message d'information
+{{< guide-image src="images/guides/uni-note-pocket/fr/import-backup.png" alt="Bas de l’accueil Pocket avec import et recherche de titres de notes" mode="crop" >}}
 
-Au premier lancement, l'application affiche **A propos de Uni:Note Pocket**.  
-Ce message explique que Uni:Note Pocket est une app compagnon de Uni:Note et qu'une sauvegarde Uni:Note est necessaire.
+Ne décompressez pas le zip. La sauvegarde d’origine reste intacte. Si l’import échoue, les données précédemment importées sont conservées.
 
----
+{{< guide-anchor "4-verifier-notes-notes-recentes-et-lots" "5-ouvrir-notes-et-relire-les-pages" "6-zoomer-et-lire-dans-lecran-de-page" >}}
 
-## 2. Choisir une sauvegarde depuis l'icone d'import
+## 2. Ouvrir une note ou rechercher son titre {#read}
 
-Utilisez l'icone d'import en bas a droite de l'ecran d'accueil, puis selectionnez un zip de sauvegarde Uni:Note.
+Dans **Notes**, sélectionnez une matière puis une note. Les notes récentes permettent de reprendre directement la lecture.
 
-- choisissez le zip
-- laissez l'application verifier son contenu
-- terminez l'import si tout est valide
+{{< guide-image src="images/guides/uni-note-pocket/fr/open-note.png" alt="Notes, lots, notes récentes et matières" mode="crop" >}}
 
----
+Saisissez une partie du titre pour rechercher dans toutes les matières. Écriture manuscrite, contenu des pages, PDF et noms des matières ne sont pas recherchés.
 
-## 3. Utiliser `Sauvegarde rapide`
+{{< guide-image src="images/guides/uni-note-pocket/fr/search-notes.png" alt="Champ de recherche des titres dans Pocket" mode="crop" >}}
 
-Si cet iPhone contient deja une `Sauvegarde rapide` de Uni:Note, l'application peut proposer de la charger immediatement.
+Les notes ordinaires défilent verticalement. Pincez ou touchez deux fois pour zoomer. Les carnets verticaux défilent horizontalement. Activez la reprise à la dernière position dans les réglages pour retrouver la dernière page lue.
 
-Dans `Reglages > Sauvegarde rapide`, vous pouvez verifier :
+{{< guide-image src="images/guides/uni-note-pocket/fr/page-review.png" alt="Pages continues et zoom dans Pocket" mode="screen" >}}
 
-- **Derniere mise a jour**
-- **Chargement auto au demarrage**
-- **Charger manuellement**
+{{< guide-anchor "8-relire-les-lots" "9-verifier-les-reperes-adhesifs" >}}
 
-Lorsque **Chargement auto au demarrage** est active, l'application charge automatiquement uniquement lorsqu'une `Sauvegarde rapide` exploitable est disponible sur cet iPhone.
+## 3. Réviser avec les repères et les lots {#review}
 
----
+Touchez un repère sur la page pour passer de l’affichage normal à un affichage atténué et vérifier la réponse. Créez et modifiez les repères dans Uni:Note sur iPad.
 
-## 4. Verifier `Notes`, `Notes recentes` et `Lots`
+{{< guide-image src="images/guides/uni-note-pocket/fr/sticky-review.png" alt="Révision avec les repères des notes importées" mode="crop" >}}
 
-Apres l'import, l'ecran principal affiche :
+Si la sauvegarde contient des lots, ouvrez-les depuis l’accueil. Réfléchissez avec la réponse masquée, touchez pour la révéler, puis utilisez **Précédent** ou **Suivant**. Pocket ne génère et ne modifie pas les lots.
 
-- un basculement entre **Notes** et **Lots**
-- les elements de niveau superieur avec leur nombre de notes
-- une section **Notes recentes** pour reprendre rapidement
-- une section **Lots** lorsque la sauvegarde importee contient des lots enregistres
-- des indicateurs pour les notes qui contiennent de l'audio d'enregistrement ou des reperes adhesifs
+{{< guide-image src="images/guides/uni-note-pocket/fr/practice-answer.png" alt="Carte avec question, réponse et boutons précédent/suivant" mode="screen" >}}
 
-Le nom du niveau superieur depend du reglage **Libelle des matieres**.
+{{< guide-anchor "7-lire-les-enregistrements" >}}
 
----
+## 4. Écouter les enregistrements importés {#recordings}
 
-## 5. Ouvrir `Notes` et relire les pages
+1. Ouvrez une note contenant des données d’enregistrement.
+2. Touchez la lecture de l’enregistrement dans l’écran de page. S’il y en a plusieurs, choisissez dans la liste.
+3. Réglez lecture/pause, position et vitesse.
 
-Quand vous ouvrez un element de niveau superieur, vous arrivez dans la liste **Notes** et pouvez choisir ce que vous voulez relire.
+Seuls les fichiers audio inclus dans la sauvegarde sont lisibles. Enregistrement, transcription et résumé IA se font dans Uni:Note sur iPad.
 
-- ouvrir la liste des notes
-- choisir une note
-- consulter les pages dans un flux vertical continu
-- lire les enregistrements depuis l'ecran de page lorsque la note contient de l'audio
+{{< guide-anchor "10-ajuster-les-reglages" >}}
 
-Uni:Note Pocket est en lecture seule et ne renomme donc pas les notes ni ne modifie les pages.
+## 5. Ajuster la lecture {#settings}
 
----
+Ouvrez la roue dentée en haut à droite de l’accueil. Modifiez langue, thème, reprise et prévention du glissement horizontal. La première catégorie peut s’appeler Matière, Note, Groupe ou Catégorie.
 
-## 6. Zoomer et lire dans l'ecran de page
+La prévention du glissement horizontal stabilise la lecture verticale normale. Elle ne modifie pas le contenu des notes.
 
-Dans l'ecran de page, vous pouvez vous concentrer sur le contenu importe.
+{{< guide-anchor "3-utiliser-sauvegarde-rapide" "11-importer-plus-tard-une-sauvegarde-plus-recente" >}}
 
-- pincer pour zoomer ou dezoomer
-- double appui pour zoomer
-- defilement vertical pour changer de page
+## 6. Charger une sauvegarde plus récente {#refresh}
 
----
+Après avoir modifié les notes sur iPad, créez une nouvelle sauvegarde et importez-la à nouveau. Si une sauvegarde rapide est disponible, ouvrez **Réglages → Sauvegarde rapide**.
 
-## 7. Lire les enregistrements
+1. Touchez l’actualisation à droite de la dernière mise à jour pour revérifier le fichier iCloud.
+2. Vérifiez la date, puis chargez manuellement.
+3. Activez si besoin le chargement automatique au lancement.
 
-Lorsque la sauvegarde contient l'audio des enregistrements, les notes concernees affichent un bouton d'enregistrement dans l'ecran de page.
-
-- utilisez **Lire l’enregistrement** pour lancer la lecture
-- choisissez dans **Enregistrements** si plusieurs enregistrements sont disponibles
-- controlez lecture / pause, arret, position de lecture et vitesse de lecture
-
-Uni:Note Pocket lit uniquement les enregistrements. La creation, l'edition, la transcription et les resumes IA restent du cote de Uni:Note.
-Si la sauvegarde ne contient pas l'audio de l'enregistrement, il ne peut pas etre lu.
-
----
-
-## 8. Relire les `Lots`
-
-Si la sauvegarde importee inclut des `Lots` enregistres dans Uni:Note, vous pouvez les ouvrir depuis **Lots** sur l'accueil.
-
-- relire questions et reponses
-- parcourir les contenus enregistres au meme endroit
-- garder la creation et l'edition du cote de Uni:Note
-
----
-
-## 9. Verifier les reperes adhesifs
-
-Dans la liste des notes, les notes avec des reperes adhesifs affichent un indicateur.
-Quand vous ouvrez la page, les reperes s'affichent sur la page dans le style des reperes adhesifs de Uni:Note v3.0.0.
-
-- touchez un repere pour alterner entre l'affichage normal et attenue
-- les anciens masques de memorisation sont convertis automatiquement en reperes adhesifs a l'ouverture de la note
-
-Uni:Note Pocket ne modifie ni les reperes adhesifs ni le masque de memorisation lui-meme.
-
----
-
-## 10. Ajuster les reglages
-
-Dans `Reglages`, vous pouvez principalement modifier :
-
-- **Langue**
-- **Theme**
-- **Reprendre au dernier emplacement**
-- **Limiter le decalage horizontal**
-- **Libelle des matieres**
-- **Sauvegarde rapide**
-
-Avec **Libelle des matieres**, vous pouvez renommer le niveau superieur en **Matiere / Note / Groupe / Categorie**.
-
----
-
-## 11. Importer plus tard une sauvegarde plus recente
-
-Lorsque vous creez une sauvegarde plus recente dans Uni:Note, utilisez a nouveau l'icone d'import en bas a droite de l'ecran d'accueil dans Uni:Note Pocket.  
-Si vous utilisez `Sauvegarde rapide`, vous pouvez aussi la charger depuis `Reglages > Sauvegarde rapide > Charger manuellement`.
-
-L'application ne bascule vers la nouvelle version qu'apres validation du nouveau zip.  
-Si la validation echoue, les donnees precedentes restent en place et seule une erreur s'affiche.
-
-Pages liees :
-
-- [FAQ (Uni:Note Pocket)]({{< relref "/faq/uni-note-pocket/" >}})
-- [Politique de confidentialite (Uni:Note Pocket)]({{< relref "/privacy/uni-note-pocket/" >}})
+L’icône vérifie l’état du fichier. Si le nouveau fichier n’est pas encore arrivé, la date ne change pas. Il n’y a ni synchronisation en temps réel ni écriture vers l’iPad.

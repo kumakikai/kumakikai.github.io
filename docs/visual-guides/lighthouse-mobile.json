@@ -1,0 +1,111 @@
+{
+  "url": "http://127.0.0.1:1314/htu/uni-note/",
+  "fetchTime": "2026-09-06T21:40:02.707Z",
+  "lighthouseVersion": "12.8.2",
+  "mode": "Mobile simulated throttling, local production build, one lab run; not field data",
+  "categories": {
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "first-contentful-paint": {
+      "value": 1204.9038,
+      "display": "1.2 s"
+    },
+    "largest-contentful-paint": {
+      "value": 1729.9038,
+      "display": "1.7 s"
+    },
+    "cumulative-layout-shift": {
+      "value": 0,
+      "display": "0"
+    },
+    "total-blocking-time": {
+      "value": 0,
+      "display": "0 ms"
+    },
+    "speed-index": {
+      "value": 1204.9038,
+      "display": "1.2 s"
+    }
+  },
+  "nonPassingAudits": [
+    {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "score": 0.99,
+      "display": "1.2 s"
+    },
+    {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "score": 0.99,
+      "display": "1.7 s"
+    },
+    {
+      "id": "lcp-lazy-loaded",
+      "title": "Largest Contentful Paint image was lazily loaded",
+      "score": 0.5,
+      "display": null
+    },
+    {
+      "id": "uses-long-cache-ttl",
+      "title": "Serve static assets with an efficient cache policy",
+      "score": 0.5,
+      "display": "9 resources found"
+    },
+    {
+      "id": "render-blocking-resources",
+      "title": "Eliminate render-blocking resources",
+      "score": 0,
+      "display": "Est savings of 70 ms"
+    },
+    {
+      "id": "uses-text-compression",
+      "title": "Enable text compression",
+      "score": 0,
+      "display": "Est savings of 70 KiB"
+    },
+    {
+      "id": "cache-insight",
+      "title": "Use efficient cache lifetimes",
+      "score": 0,
+      "display": "Est savings of 131 KiB"
+    },
+    {
+      "id": "document-latency-insight",
+      "title": "Document request latency",
+      "score": 0.5,
+      "display": "Est savings of 18 KiB"
+    },
+    {
+      "id": "image-delivery-insight",
+      "title": "Improve image delivery",
+      "score": 0.5,
+      "display": "Est savings of 22 KiB"
+    },
+    {
+      "id": "lcp-discovery-insight",
+      "title": "LCP request discovery",
+      "score": 0,
+      "display": null
+    },
+    {
+      "id": "network-dependency-tree-insight",
+      "title": "Network dependency tree",
+      "score": 0,
+      "display": null
+    },
+    {
+      "id": "render-blocking-insight",
+      "title": "Render blocking requests",
+      "score": 0,
+      "display": "Est savings of 370 ms"
+    }
+  ],
+  "runWarnings": [],
+  "fullEvidence": "lighthouse-mobile.json.gz",
+  "fullEvidenceSHA256": "7a755714062fb267036a1bb23220137c826391ff00399dfe3984d4a13add2eeb"
+}

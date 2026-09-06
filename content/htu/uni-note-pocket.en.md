@@ -3,147 +3,77 @@ title: "How to Use (Uni:Note Pocket)"
 description: "How to use Uni:Note Pocket."
 aliases:
   - /htu/uni-memo/
+lastmod: 2026-09-07
 ---
 
-Uni:Note Pocket is a **companion app for reviewing Uni:Note backups on iPhone**.  
-It is not a writing app. Its job is to load backup data, let you review notes and `Question Sets`, and play recording audio.
+Import a Uni:Note backup on iPhone to review notes, sticky markers and question sets. Pocket does not create, edit or sync notes. Tap screenshots to enlarge them.
 
-Requirements:
+{{< guide-anchor "1-read-the-first-companion-notice" "2-choose-a-backup-from-the-import-icon" >}}
 
-- iPhone only
-- a backup zip created in Uni:Note, or a Uni:Note `Easy Backup` on this iPhone
-- focused on viewing and review, not editing or sync
+## 1. Import a backup {#import}
 
----
+1. Export a backup zip from Uni:Note on iPad to a location accessible in the iPhone Files app.
+2. Close Pocket’s first-use notice and tap the import icon at the bottom right of Home.
+3. Choose the zip and wait for validation and import.
 
-## 1. Read the first companion notice
+{{< guide-image src="images/guides/uni-note-pocket/en/import-backup.png" alt="Pocket Home bottom area with import button and note-title search" mode="crop" >}}
 
-On first launch, the app shows **About Uni:Note Pocket**.  
-This notice explains that Uni:Note Pocket is a companion app for Uni:Note and that you need a backup from Uni:Note before you can use it.
+Choose the zip without unpacking it. The original backup is not modified. A failed import keeps the previously imported data.
 
----
+{{< guide-anchor "4-check-notes-recent-notes-and-question-sets" "5-open-notes-and-review-pages" "6-zoom-and-read-in-the-page-view" >}}
 
-## 2. Choose a backup from the import icon
+## 2. Open a note or search its title {#read}
 
-Use the import icon in the bottom right of Home and select a backup zip from Uni:Note.
+In **Notes**, select a subject and then a note. **Recent Notes** opens a recently viewed note directly.
 
-- choose the zip
-- let the app validate its contents
-- finish the import if it is valid
+{{< guide-image src="images/guides/uni-note-pocket/en/open-note.png" alt="Notes, Question Sets, recent notes and subject list" mode="crop" >}}
 
----
+Enter part of the note title in the search field to search across subjects. Handwriting, page text, PDFs and subject names are not searched.
 
-## 3. Use `Easy Backup`
+{{< guide-image src="images/guides/uni-note-pocket/en/search-notes.png" alt="Note-title search field in Pocket" mode="crop" >}}
 
-If this iPhone already has a Uni:Note `Easy Backup`, the app can ask whether you want to load it right away.
+Scroll normal notes vertically and pinch or double-tap to zoom. Vertical notebooks move sideways. Enable **Settings → Resume from Last Position** to continue from the page you last read.
 
-In `Settings > Easy Backup`, you can check:
+{{< guide-image src="images/guides/uni-note-pocket/en/page-review.png" alt="Continuous pages and zoom in Pocket" mode="screen" >}}
 
-- **Last Updated**
-- **Auto Load on Launch**
-- **Load Manually**
+{{< guide-anchor "8-review-question-sets" "9-check-sticky-markers" >}}
 
-When **Auto Load on Launch** is on, the app loads automatically only when a usable Uni:Note `Easy Backup` is available on this iPhone.
+## 3. Review sticky markers and question sets {#review}
 
----
+Tap a sticky marker on a page to switch between normal and faint display and check the answer. Create and edit markers in Uni:Note on iPad.
 
-## 4. Check `Notes`, `Recent Notes`, and `Question Sets`
+{{< guide-image src="images/guides/uni-note-pocket/en/sticky-review.png" alt="Sticky-marker review in imported notes" mode="crop" >}}
 
-After import, Home lets you switch between **Notes** and **Question Sets**. The main screen shows:
+If the backup includes question sets, open **Question Sets** on Home. Think with the answer hidden, tap to reveal it, and use **Previous** or **Next**. Pocket does not generate or edit sets.
 
-- top-level subjects with note counts
-- a **Recent Notes** section for quick resume
-- a **Question Sets** section when the imported backup includes saved sets
-- indicators for notes that include recording audio or sticky markers
+{{< guide-image src="images/guides/uni-note-pocket/en/practice-answer.png" alt="Question card with answer and previous/next controls" mode="screen" >}}
 
-The top-level label changes according to **Subject Name** in Settings.
+{{< guide-anchor "7-play-recordings" >}}
 
----
+## 4. Listen to imported recordings {#recordings}
 
-## 5. Open Notes and review pages
+1. Open a note that includes recording data.
+2. Tap **Play Recording** in the page viewer. If there are several, choose from the recording list.
+3. Use play/pause, position and playback-speed controls.
 
-When you open a subject, you can move into the **Notes** list and choose what to review.
+Playback is available only when the backup contains the audio files. Record, transcribe and generate AI summaries in Uni:Note on iPad.
 
-- open the note list
-- choose a note
-- review pages in a continuous vertical flow
-- play recordings from the page view when the note includes recording audio
+{{< guide-anchor "10-adjust-settings" >}}
 
-Uni:Note Pocket is read-only, so it does not rename notes or edit pages.
+## 5. Adjust reading settings {#settings}
 
----
+Open the gear at the top right of Home. Change the language, theme, resume setting or horizontal-drift prevention. You can label the top level as Subject, Note, Group or Category.
 
-## 6. Zoom and read in the page view
+Horizontal-drift prevention helps keep normal vertical reading steady. It does not change the note content.
 
-In the page view, you can focus on reading the imported content.
+{{< guide-anchor "3-use-easy-backup" "11-import-a-newer-backup-later" >}}
 
-- pinch to zoom in or out
-- double tap to zoom
-- move through pages with vertical scrolling
+## 6. Load a newer backup {#refresh}
 
----
+After changing notes on iPad, create a new backup and import it again in Pocket. If Easy Backup is available, open **Settings → Easy Backup**.
 
-## 7. Play recordings
+1. Tap the refresh icon next to **Last Updated** to check the iCloud file again.
+2. Check the date, then tap **Load Manually**.
+3. Enable **Automatically Load on Launch** if you want it loaded when opening Pocket.
 
-When the backup includes recording audio, notes with recordings show a recording button in the page view.
-
-- use **Play Recording** to start playback
-- choose from **Recordings** when multiple recordings are available
-- control play / pause, stop, playback position, and playback speed
-
-Uni:Note Pocket only plays recordings. Recording creation, editing, transcription, and AI summaries stay on the Uni:Note side.
-If the backup does not include the recording audio, it cannot be played.
-
----
-
-## 8. Review `Question Sets`
-
-If the imported backup includes `Question Sets` saved in Uni:Note, you can open them from **Question Sets** on Home.
-
-- review saved questions and answers
-- move through the saved set in one place
-- keep creation and editing on the Uni:Note side
-
----
-
-## 9. Check sticky markers
-
-In the note list, notes with sticky markers show an indicator.
-When you open the page, the markers are shown on the page in the Uni:Note v3.0.0 sticky marker style.
-
-- tap a marker to switch between normal and faint display
-- older memorization masks are automatically converted to sticky markers when you open the note
-
-Uni:Note Pocket does not edit sticky markers or the memorization mask itself.
-
----
-
-## 10. Adjust Settings
-
-In Settings, you can mainly change:
-
-- **Language**
-- **Theme**
-- **Resume Last Location**
-- **Prevent Horizontal Drift**
-- **Subject Name**
-- **Easy Backup**
-
-**Subject Name** lets you rename the top-level label to **Subject / Note / Group / Category**.
-
----
-
-## 11. Import a newer backup later
-
-When you create a newer backup in Uni:Note, use the import icon in the bottom right of Home again in Uni:Note Pocket.
-If you use `Easy Backup`, you can also refresh it from `Settings > Easy Backup > Load Manually`.
-
-The app switches only after the new zip passes validation.  
-If validation fails, the previous imported data stays in place and the app shows an error.
-
----
-
-Related pages:
-
-- [FAQ (Uni:Note Pocket)]({{< relref "/faq/uni-note-pocket/" >}})
-- [Privacy Policy (Uni:Note Pocket)]({{< relref "/privacy/uni-note-pocket/" >}})
+The refresh icon checks the file state. If a newer file has not arrived, the date stays unchanged. This is not realtime sync or a write-back to iPad.

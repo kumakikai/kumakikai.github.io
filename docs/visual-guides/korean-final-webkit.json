@@ -1,0 +1,1120 @@
+{
+  "checkedAt": "2026-09-06T21:39:41.679Z",
+  "base": "http://127.0.0.1:1314",
+  "engine": "webkit",
+  "pending": false,
+  "ok": true,
+  "cases": 6,
+  "widths": [
+    1440,
+    390
+  ],
+  "pages": 2,
+  "method": "Actual desktop-browser viewport renders. Every guide image decoded; dimensions, alt, links, focus, TOC, overflow and accessibility checked. Japanese lines reconstructed from DOM Range for editorial review. Screenshots and human visual reading are separate from these mechanical checks.",
+  "limitations": [
+    "Viewport emulation, not physical devices. Browser rendering does not prove operation inside the app; current source and app capture evidence is in the app audit reports."
+  ],
+  "failures": [],
+  "results": [
+    {
+      "name": "htu-smokeless-ko-1440-light",
+      "section": "htu",
+      "app": "smokeless",
+      "locale": "ko",
+      "route": "/ko/htu/smokeless/",
+      "width": 1440,
+      "theme": "light",
+      "noJS": false,
+      "layout": {
+        "scrollWidth": 1440,
+        "height": 5413,
+        "images": [
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/record-buttons_hu_d8228d3932edb38a.webp",
+            "alt": "왼쪽 초록색 참음 버튼과 오른쪽 빨간색 흡연 버튼, 각 버튼에 표시된 오늘 기록 수",
+            "naturalWidth": 560,
+            "naturalHeight": 532,
+            "width": 560,
+            "height": 532,
+            "mode": "guide-figure guide-figure--crop",
+            "explicitWidth": "890",
+            "explicitHeight": "845",
+            "srcset": "/images/guides/smokeless/ko/record-buttons_hu_d8228d3932edb38a.webp 560w, /images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp 890w",
+            "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+            "url": "/images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/history-controls_hu_305487c8eae72e49.webp",
+            "alt": "기록 화면 오른쪽 위에 있는 당일 기록을 여는 영수증 아이콘",
+            "naturalWidth": 560,
+            "naturalHeight": 72,
+            "width": 560,
+            "height": 74,
+            "mode": "guide-figure guide-figure--crop",
+            "explicitWidth": "1120",
+            "explicitHeight": "144",
+            "srcset": "/images/guides/smokeless/ko/history-controls_hu_305487c8eae72e49.webp 560w, /images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp 1120w",
+            "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+            "url": "/images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/calendar_hu_7cd2f06976676f3d.webp",
+            "alt": "일별·월별·연별 탭과 날짜별 기록 수 및 금액을 표시하는 캘린더",
+            "naturalWidth": 320,
+            "naturalHeight": 342,
+            "width": 320,
+            "height": 342,
+            "mode": "guide-figure guide-figure--screen",
+            "explicitWidth": "640",
+            "explicitHeight": "684",
+            "srcset": "/images/guides/smokeless/ko/calendar_hu_7cd2f06976676f3d.webp 320w, /images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp 640w",
+            "sizes": "(max-width: 390px) calc(100vw - 64px), 320px",
+            "url": "/images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/chart_hu_260e09d79ae0dec8.webp",
+            "alt": "기간 선택과 흡연·참음·흡연 평균 추이를 보여 주는 차트",
+            "naturalWidth": 320,
+            "naturalHeight": 651,
+            "width": 320,
+            "height": 649,
+            "mode": "guide-figure guide-figure--screen",
+            "explicitWidth": "640",
+            "explicitHeight": "1303",
+            "srcset": "/images/guides/smokeless/ko/chart_hu_260e09d79ae0dec8.webp 320w, /images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp 640w",
+            "sizes": "(max-width: 390px) calc(100vw - 64px), 320px",
+            "url": "/images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+            "alt": "Smokeless Apple Watch 실제 화면. 왼쪽 초록색은 참음, 오른쪽 빨간색은 흡연이며 숫자는 오늘의 횟수",
+            "naturalWidth": 239,
+            "naturalHeight": 291,
+            "width": 240,
+            "height": 349,
+            "mode": "watch-guide-figure",
+            "explicitWidth": "324",
+            "explicitHeight": "394",
+            "srcset": "/images/apps/smokeless/watch/recording-ui_hu_11c751f0b6bedddc.webp 162w, /images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp 324w",
+            "sizes": "(max-width: 600px) 210px, 240px",
+            "url": "/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp"
+          }
+        ],
+        "brokenImages": [],
+        "duplicateIDs": [],
+        "headingCount": 1,
+        "bodyWidth": 800,
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "1. 첫 튜토리얼과 한 갑 설정을 확인합니다",
+            "lines": [
+              "1. 첫 튜토리얼과 한 갑 설정을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "2. 기록 화면에서 기록합니다",
+            "lines": [
+              "2. 기록 화면에서 기록합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "3. 기록 에서 당일 기록을 확인합니다",
+            "lines": [
+              "3. 기록 에서 당일 기록을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "4. 캘린더로 기록을 확인합니다",
+            "lines": [
+              "4. 캘린더로 기록을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "5. 차트 에서 최근 변화를 봅니다",
+            "lines": [
+              "5. 차트 에서 최근 변화를 봅니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "6. 홈 위젯을 사용합니다",
+            "lines": [
+              "6. 홈 위젯을 사용합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "7. 설정 을 조정합니다",
+            "lines": [
+              "7. 설정 을 조정합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "Apple Watch에서 기록하기",
+            "lines": [
+              "Apple Watch에서 기록하기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "사용 전 준비",
+            "lines": [
+              "사용 전 준비"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "참음 또는 흡연 한 건 기록",
+            "lines": [
+              "참음 또는 흡연 한 건 기록"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "오늘의 횟수 보기",
+            "lines": [
+              "오늘의 횟수 보기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "iPhone과 동기화",
+            "lines": [
+              "iPhone과 동기화"
+            ]
+          }
+        ],
+        "tinyTails": [],
+        "dark": false
+      },
+      "visibleFocus": true,
+      "axe": [],
+      "ok": true
+    },
+    {
+      "name": "htu-smokeless-ko-1440-dark",
+      "section": "htu",
+      "app": "smokeless",
+      "locale": "ko",
+      "route": "/ko/htu/smokeless/",
+      "width": 1440,
+      "theme": "dark",
+      "noJS": false,
+      "layout": {
+        "scrollWidth": 1440,
+        "height": 5413,
+        "images": [
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/record-buttons_hu_d8228d3932edb38a.webp",
+            "alt": "왼쪽 초록색 참음 버튼과 오른쪽 빨간색 흡연 버튼, 각 버튼에 표시된 오늘 기록 수",
+            "naturalWidth": 560,
+            "naturalHeight": 532,
+            "width": 560,
+            "height": 532,
+            "mode": "guide-figure guide-figure--crop",
+            "explicitWidth": "890",
+            "explicitHeight": "845",
+            "srcset": "/images/guides/smokeless/ko/record-buttons_hu_d8228d3932edb38a.webp 560w, /images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp 890w",
+            "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+            "url": "/images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/history-controls_hu_305487c8eae72e49.webp",
+            "alt": "기록 화면 오른쪽 위에 있는 당일 기록을 여는 영수증 아이콘",
+            "naturalWidth": 560,
+            "naturalHeight": 72,
+            "width": 560,
+            "height": 74,
+            "mode": "guide-figure guide-figure--crop",
+            "explicitWidth": "1120",
+            "explicitHeight": "144",
+            "srcset": "/images/guides/smokeless/ko/history-controls_hu_305487c8eae72e49.webp 560w, /images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp 1120w",
+            "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+            "url": "/images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/calendar_hu_7cd2f06976676f3d.webp",
+            "alt": "일별·월별·연별 탭과 날짜별 기록 수 및 금액을 표시하는 캘린더",
+            "naturalWidth": 320,
+            "naturalHeight": 342,
+            "width": 320,
+            "height": 342,
+            "mode": "guide-figure guide-figure--screen",
+            "explicitWidth": "640",
+            "explicitHeight": "684",
+            "srcset": "/images/guides/smokeless/ko/calendar_hu_7cd2f06976676f3d.webp 320w, /images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp 640w",
+            "sizes": "(max-width: 390px) calc(100vw - 64px), 320px",
+            "url": "/images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/chart_hu_260e09d79ae0dec8.webp",
+            "alt": "기간 선택과 흡연·참음·흡연 평균 추이를 보여 주는 차트",
+            "naturalWidth": 320,
+            "naturalHeight": 651,
+            "width": 320,
+            "height": 649,
+            "mode": "guide-figure guide-figure--screen",
+            "explicitWidth": "640",
+            "explicitHeight": "1303",
+            "srcset": "/images/guides/smokeless/ko/chart_hu_260e09d79ae0dec8.webp 320w, /images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp 640w",
+            "sizes": "(max-width: 390px) calc(100vw - 64px), 320px",
+            "url": "/images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+            "alt": "Smokeless Apple Watch 실제 화면. 왼쪽 초록색은 참음, 오른쪽 빨간색은 흡연이며 숫자는 오늘의 횟수",
+            "naturalWidth": 239,
+            "naturalHeight": 291,
+            "width": 240,
+            "height": 349,
+            "mode": "watch-guide-figure",
+            "explicitWidth": "324",
+            "explicitHeight": "394",
+            "srcset": "/images/apps/smokeless/watch/recording-ui_hu_11c751f0b6bedddc.webp 162w, /images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp 324w",
+            "sizes": "(max-width: 600px) 210px, 240px",
+            "url": "/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp"
+          }
+        ],
+        "brokenImages": [],
+        "duplicateIDs": [],
+        "headingCount": 1,
+        "bodyWidth": 800,
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "1. 첫 튜토리얼과 한 갑 설정을 확인합니다",
+            "lines": [
+              "1. 첫 튜토리얼과 한 갑 설정을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "2. 기록 화면에서 기록합니다",
+            "lines": [
+              "2. 기록 화면에서 기록합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "3. 기록 에서 당일 기록을 확인합니다",
+            "lines": [
+              "3. 기록 에서 당일 기록을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "4. 캘린더로 기록을 확인합니다",
+            "lines": [
+              "4. 캘린더로 기록을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "5. 차트 에서 최근 변화를 봅니다",
+            "lines": [
+              "5. 차트 에서 최근 변화를 봅니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "6. 홈 위젯을 사용합니다",
+            "lines": [
+              "6. 홈 위젯을 사용합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "7. 설정 을 조정합니다",
+            "lines": [
+              "7. 설정 을 조정합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "Apple Watch에서 기록하기",
+            "lines": [
+              "Apple Watch에서 기록하기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "사용 전 준비",
+            "lines": [
+              "사용 전 준비"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "참음 또는 흡연 한 건 기록",
+            "lines": [
+              "참음 또는 흡연 한 건 기록"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "오늘의 횟수 보기",
+            "lines": [
+              "오늘의 횟수 보기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "iPhone과 동기화",
+            "lines": [
+              "iPhone과 동기화"
+            ]
+          }
+        ],
+        "tinyTails": [],
+        "dark": true
+      },
+      "visibleFocus": true,
+      "axe": [],
+      "ok": true
+    },
+    {
+      "name": "htu-smokeless-ko-390-light",
+      "section": "htu",
+      "app": "smokeless",
+      "locale": "ko",
+      "route": "/ko/htu/smokeless/",
+      "width": 390,
+      "theme": "light",
+      "noJS": false,
+      "layout": {
+        "scrollWidth": 390,
+        "height": 5562,
+        "images": [
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/record-buttons_hu_d8228d3932edb38a.webp",
+            "alt": "왼쪽 초록색 참음 버튼과 오른쪽 빨간색 흡연 버튼, 각 버튼에 표시된 오늘 기록 수",
+            "naturalWidth": 326,
+            "naturalHeight": 309,
+            "width": 330,
+            "height": 314,
+            "mode": "guide-figure guide-figure--crop",
+            "explicitWidth": "890",
+            "explicitHeight": "845",
+            "srcset": "/images/guides/smokeless/ko/record-buttons_hu_d8228d3932edb38a.webp 560w, /images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp 890w",
+            "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+            "url": "/images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/history-controls_hu_305487c8eae72e49.webp",
+            "alt": "기록 화면 오른쪽 위에 있는 당일 기록을 여는 영수증 아이콘",
+            "naturalWidth": 326,
+            "naturalHeight": 41,
+            "width": 330,
+            "height": 44,
+            "mode": "guide-figure guide-figure--crop",
+            "explicitWidth": "1120",
+            "explicitHeight": "144",
+            "srcset": "/images/guides/smokeless/ko/history-controls_hu_305487c8eae72e49.webp 560w, /images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp 1120w",
+            "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+            "url": "/images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp",
+            "alt": "일별·월별·연별 탭과 날짜별 기록 수 및 금액을 표시하는 캘린더",
+            "naturalWidth": 326,
+            "naturalHeight": 348,
+            "width": 320,
+            "height": 342,
+            "mode": "guide-figure guide-figure--screen",
+            "explicitWidth": "640",
+            "explicitHeight": "684",
+            "srcset": "/images/guides/smokeless/ko/calendar_hu_7cd2f06976676f3d.webp 320w, /images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp 640w",
+            "sizes": "(max-width: 390px) calc(100vw - 64px), 320px",
+            "url": "/images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp",
+            "alt": "기간 선택과 흡연·참음·흡연 평균 추이를 보여 주는 차트",
+            "naturalWidth": 326,
+            "naturalHeight": 663,
+            "width": 320,
+            "height": 649,
+            "mode": "guide-figure guide-figure--screen",
+            "explicitWidth": "640",
+            "explicitHeight": "1303",
+            "srcset": "/images/guides/smokeless/ko/chart_hu_260e09d79ae0dec8.webp 320w, /images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp 640w",
+            "sizes": "(max-width: 390px) calc(100vw - 64px), 320px",
+            "url": "/images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+            "alt": "Smokeless Apple Watch 실제 화면. 왼쪽 초록색은 참음, 오른쪽 빨간색은 흡연이며 숫자는 오늘의 횟수",
+            "naturalWidth": 209,
+            "naturalHeight": 255,
+            "width": 210,
+            "height": 313,
+            "mode": "watch-guide-figure",
+            "explicitWidth": "324",
+            "explicitHeight": "394",
+            "srcset": "/images/apps/smokeless/watch/recording-ui_hu_11c751f0b6bedddc.webp 162w, /images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp 324w",
+            "sizes": "(max-width: 600px) 210px, 240px",
+            "url": "/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp"
+          }
+        ],
+        "brokenImages": [],
+        "duplicateIDs": [],
+        "headingCount": 1,
+        "bodyWidth": 346,
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "1. 첫 튜토리얼과 한 갑 설정을 확인합니다",
+            "lines": [
+              "1. 첫 튜토리얼과 한 갑 설정을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "2. 기록 화면에서 기록합니다",
+            "lines": [
+              "2. 기록 화면에서 기록합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "3. 기록 에서 당일 기록을 확인합니다",
+            "lines": [
+              "3. 기록 에서 당일 기록을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "4. 캘린더로 기록을 확인합니다",
+            "lines": [
+              "4. 캘린더로 기록을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "5. 차트 에서 최근 변화를 봅니다",
+            "lines": [
+              "5. 차트 에서 최근 변화를 봅니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "6. 홈 위젯을 사용합니다",
+            "lines": [
+              "6. 홈 위젯을 사용합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "7. 설정 을 조정합니다",
+            "lines": [
+              "7. 설정 을 조정합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "Apple Watch에서 기록하기",
+            "lines": [
+              "Apple Watch에서 기록하기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "사용 전 준비",
+            "lines": [
+              "사용 전 준비"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "참음 또는 흡연 한 건 기록",
+            "lines": [
+              "참음 또는 흡연 한 건 기록"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "오늘의 횟수 보기",
+            "lines": [
+              "오늘의 횟수 보기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "iPhone과 동기화",
+            "lines": [
+              "iPhone과 동기화"
+            ]
+          }
+        ],
+        "tinyTails": [
+          {
+            "tag": "LI",
+            "text": "잘못 삭제했다면 직후에 표시되는 실행 취소를 탭합니다.",
+            "lines": [
+              "잘못 삭제했다면 직후에 표시되는 실행 취소를 탭합니",
+              "다."
+            ]
+          }
+        ],
+        "dark": false
+      },
+      "visibleFocus": true,
+      "axe": [],
+      "ok": true
+    },
+    {
+      "name": "htu-smokeless-ko-390-dark",
+      "section": "htu",
+      "app": "smokeless",
+      "locale": "ko",
+      "route": "/ko/htu/smokeless/",
+      "width": 390,
+      "theme": "dark",
+      "noJS": false,
+      "layout": {
+        "scrollWidth": 390,
+        "height": 5562,
+        "images": [
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/record-buttons_hu_d8228d3932edb38a.webp",
+            "alt": "왼쪽 초록색 참음 버튼과 오른쪽 빨간색 흡연 버튼, 각 버튼에 표시된 오늘 기록 수",
+            "naturalWidth": 326,
+            "naturalHeight": 309,
+            "width": 330,
+            "height": 314,
+            "mode": "guide-figure guide-figure--crop",
+            "explicitWidth": "890",
+            "explicitHeight": "845",
+            "srcset": "/images/guides/smokeless/ko/record-buttons_hu_d8228d3932edb38a.webp 560w, /images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp 890w",
+            "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+            "url": "/images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/history-controls_hu_305487c8eae72e49.webp",
+            "alt": "기록 화면 오른쪽 위에 있는 당일 기록을 여는 영수증 아이콘",
+            "naturalWidth": 326,
+            "naturalHeight": 41,
+            "width": 330,
+            "height": 44,
+            "mode": "guide-figure guide-figure--crop",
+            "explicitWidth": "1120",
+            "explicitHeight": "144",
+            "srcset": "/images/guides/smokeless/ko/history-controls_hu_305487c8eae72e49.webp 560w, /images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp 1120w",
+            "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+            "url": "/images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp",
+            "alt": "일별·월별·연별 탭과 날짜별 기록 수 및 금액을 표시하는 캘린더",
+            "naturalWidth": 326,
+            "naturalHeight": 348,
+            "width": 320,
+            "height": 342,
+            "mode": "guide-figure guide-figure--screen",
+            "explicitWidth": "640",
+            "explicitHeight": "684",
+            "srcset": "/images/guides/smokeless/ko/calendar_hu_7cd2f06976676f3d.webp 320w, /images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp 640w",
+            "sizes": "(max-width: 390px) calc(100vw - 64px), 320px",
+            "url": "/images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp",
+            "alt": "기간 선택과 흡연·참음·흡연 평균 추이를 보여 주는 차트",
+            "naturalWidth": 326,
+            "naturalHeight": 663,
+            "width": 320,
+            "height": 649,
+            "mode": "guide-figure guide-figure--screen",
+            "explicitWidth": "640",
+            "explicitHeight": "1303",
+            "srcset": "/images/guides/smokeless/ko/chart_hu_260e09d79ae0dec8.webp 320w, /images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp 640w",
+            "sizes": "(max-width: 390px) calc(100vw - 64px), 320px",
+            "url": "/images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp"
+          },
+          {
+            "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+            "alt": "Smokeless Apple Watch 실제 화면. 왼쪽 초록색은 참음, 오른쪽 빨간색은 흡연이며 숫자는 오늘의 횟수",
+            "naturalWidth": 209,
+            "naturalHeight": 255,
+            "width": 210,
+            "height": 313,
+            "mode": "watch-guide-figure",
+            "explicitWidth": "324",
+            "explicitHeight": "394",
+            "srcset": "/images/apps/smokeless/watch/recording-ui_hu_11c751f0b6bedddc.webp 162w, /images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp 324w",
+            "sizes": "(max-width: 600px) 210px, 240px",
+            "url": "/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp"
+          }
+        ],
+        "brokenImages": [],
+        "duplicateIDs": [],
+        "headingCount": 1,
+        "bodyWidth": 346,
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "1. 첫 튜토리얼과 한 갑 설정을 확인합니다",
+            "lines": [
+              "1. 첫 튜토리얼과 한 갑 설정을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "2. 기록 화면에서 기록합니다",
+            "lines": [
+              "2. 기록 화면에서 기록합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "3. 기록 에서 당일 기록을 확인합니다",
+            "lines": [
+              "3. 기록 에서 당일 기록을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "4. 캘린더로 기록을 확인합니다",
+            "lines": [
+              "4. 캘린더로 기록을 확인합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "5. 차트 에서 최근 변화를 봅니다",
+            "lines": [
+              "5. 차트 에서 최근 변화를 봅니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "6. 홈 위젯을 사용합니다",
+            "lines": [
+              "6. 홈 위젯을 사용합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "7. 설정 을 조정합니다",
+            "lines": [
+              "7. 설정 을 조정합니다"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "Apple Watch에서 기록하기",
+            "lines": [
+              "Apple Watch에서 기록하기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "사용 전 준비",
+            "lines": [
+              "사용 전 준비"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "참음 또는 흡연 한 건 기록",
+            "lines": [
+              "참음 또는 흡연 한 건 기록"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "오늘의 횟수 보기",
+            "lines": [
+              "오늘의 횟수 보기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "iPhone과 동기화",
+            "lines": [
+              "iPhone과 동기화"
+            ]
+          }
+        ],
+        "tinyTails": [
+          {
+            "tag": "LI",
+            "text": "잘못 삭제했다면 직후에 표시되는 실행 취소를 탭합니다.",
+            "lines": [
+              "잘못 삭제했다면 직후에 표시되는 실행 취소를 탭합니",
+              "다."
+            ]
+          }
+        ],
+        "dark": true
+      },
+      "visibleFocus": true,
+      "axe": [],
+      "ok": true
+    },
+    {
+      "name": "faq-smokeless-ko-1440-light",
+      "section": "faq",
+      "app": "smokeless",
+      "locale": "ko",
+      "route": "/ko/faq/smokeless/",
+      "width": 1440,
+      "theme": "light",
+      "noJS": false,
+      "layout": {
+        "scrollWidth": 1440,
+        "height": 3528,
+        "images": [],
+        "brokenImages": [],
+        "duplicateIDs": [],
+        "headingCount": 1,
+        "bodyWidth": 800,
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "기본",
+            "lines": [
+              "기본"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "Smokeless는 어떤 앱인가요?",
+            "lines": [
+              "Smokeless는 어떤 앱인가요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "참음 기록 은 무엇을 기록하나요?",
+            "lines": [
+              "참음 기록 은 무엇을 기록하나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "의료 앱인가요?",
+            "lines": [
+              "의료 앱인가요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "첫 실행 튜토리얼이 있나요?",
+            "lines": [
+              "첫 실행 튜토리얼이 있나요?"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "기록과 되돌아보기",
+            "lines": [
+              "기록과 되돌아보기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "무엇을 확인할 수 있나요?",
+            "lines": [
+              "무엇을 확인할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "금액은 어떻게 계산되나요?",
+            "lines": [
+              "금액은 어떻게 계산되나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "실수로 삭제한 기록을 되돌릴 수 있나요?",
+            "lines": [
+              "실수로 삭제한 기록을 되돌릴 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "지난 날짜 기록도 가능한가요?",
+            "lines": [
+              "지난 날짜 기록도 가능한가요?"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "데이터와 저장",
+            "lines": [
+              "데이터와 저장"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "데이터는 어디에 저장되나요?",
+            "lines": [
+              "데이터는 어디에 저장되나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "백업이나 클라우드 동기화가 있나요?",
+            "lines": [
+              "백업이나 클라우드 동기화가 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "계정 등록이 필요한가요?",
+            "lines": [
+              "계정 등록이 필요한가요?"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "기능",
+            "lines": [
+              "기능"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "홈 위젯을 사용할 수 있나요?",
+            "lines": [
+              "홈 위젯을 사용할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "브랜드를 여러 개 등록할 수 있나요?",
+            "lines": [
+              "브랜드를 여러 개 등록할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "흡연 과다 알림이 있나요?",
+            "lines": [
+              "흡연 과다 알림이 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "광고는 어디에 표시되나요?",
+            "lines": [
+              "광고는 어디에 표시되나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "광고를 제거할 수 있나요?",
+            "lines": [
+              "광고를 제거할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "언어나 통화를 변경할 수 있나요?",
+            "lines": [
+              "언어나 통화를 변경할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "Apple Watch 기록이 iPhone에 표시되지 않아요",
+            "lines": [
+              "Apple Watch 기록이 iPhone에 표시되지 않아요"
+            ]
+          }
+        ],
+        "tinyTails": [],
+        "dark": false
+      },
+      "axe": [],
+      "ok": true
+    },
+    {
+      "name": "faq-smokeless-ko-390-light",
+      "section": "faq",
+      "app": "smokeless",
+      "locale": "ko",
+      "route": "/ko/faq/smokeless/",
+      "width": 390,
+      "theme": "light",
+      "noJS": false,
+      "layout": {
+        "scrollWidth": 390,
+        "height": 3511,
+        "images": [],
+        "brokenImages": [],
+        "duplicateIDs": [],
+        "headingCount": 1,
+        "bodyWidth": 346,
+        "headings": [
+          {
+            "tag": "H2",
+            "text": "기본",
+            "lines": [
+              "기본"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "Smokeless는 어떤 앱인가요?",
+            "lines": [
+              "Smokeless는 어떤 앱인가요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "참음 기록 은 무엇을 기록하나요?",
+            "lines": [
+              "참음 기록 은 무엇을 기록하나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "의료 앱인가요?",
+            "lines": [
+              "의료 앱인가요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "첫 실행 튜토리얼이 있나요?",
+            "lines": [
+              "첫 실행 튜토리얼이 있나요?"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "기록과 되돌아보기",
+            "lines": [
+              "기록과 되돌아보기"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "무엇을 확인할 수 있나요?",
+            "lines": [
+              "무엇을 확인할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "금액은 어떻게 계산되나요?",
+            "lines": [
+              "금액은 어떻게 계산되나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "실수로 삭제한 기록을 되돌릴 수 있나요?",
+            "lines": [
+              "실수로 삭제한 기록을 되돌릴 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "지난 날짜 기록도 가능한가요?",
+            "lines": [
+              "지난 날짜 기록도 가능한가요?"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "데이터와 저장",
+            "lines": [
+              "데이터와 저장"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "데이터는 어디에 저장되나요?",
+            "lines": [
+              "데이터는 어디에 저장되나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "백업이나 클라우드 동기화가 있나요?",
+            "lines": [
+              "백업이나 클라우드 동기화가 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "계정 등록이 필요한가요?",
+            "lines": [
+              "계정 등록이 필요한가요?"
+            ]
+          },
+          {
+            "tag": "H2",
+            "text": "기능",
+            "lines": [
+              "기능"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "홈 위젯을 사용할 수 있나요?",
+            "lines": [
+              "홈 위젯을 사용할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "브랜드를 여러 개 등록할 수 있나요?",
+            "lines": [
+              "브랜드를 여러 개 등록할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "흡연 과다 알림이 있나요?",
+            "lines": [
+              "흡연 과다 알림이 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "광고는 어디에 표시되나요?",
+            "lines": [
+              "광고는 어디에 표시되나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "광고를 제거할 수 있나요?",
+            "lines": [
+              "광고를 제거할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "언어나 통화를 변경할 수 있나요?",
+            "lines": [
+              "언어나 통화를 변경할 수 있나요?"
+            ]
+          },
+          {
+            "tag": "H3",
+            "text": "Apple Watch 기록이 iPhone에 표시되지 않아요",
+            "lines": [
+              "Apple Watch 기록이 iPhone에 표시되지 않아요"
+            ]
+          }
+        ],
+        "tinyTails": [],
+        "dark": false
+      },
+      "axe": [],
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,1354 @@
+{
+  "verifiedAt": "2026-09-07",
+  "generatedBy": "sharp deterministic crop only; no UI reconstruction",
+  "assets": [
+    {
+      "file": "assets/images/guides/uni-note/common/writing-tools.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v5/memorization_before_actual.png",
+      "sourceSHA256": "766f717f5fd82183d49e54813df89c87b3f1232903acf1aa780a4223d8e55e23",
+      "sha256": "bbf99dd18878c9e5ae1f9c8fade516de08b1ad9ea704ffd6752f0197b990e789",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        960,
+        190,
+        655,
+        150
+      ],
+      "reason": "Actual horizontal palette: pen, highlighter, eraser, sticky marker, undo, redo.",
+      "locale": "common",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/common/pdf-writing.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v3/pdf_economics_actual_landscape.png",
+      "sourceSHA256": "7297b6f8f9121289c30fec153a0dac7d3d4bffd2aa721342eb7c95e6ae3f8e96",
+      "sha256": "5b196594988ea7f0ee0e7f627b1e2446a8e593e6c31f9dea577ee07f775c03f5",
+      "sourceDimensions": [
+        2360,
+        1640
+      ],
+      "crop": [
+        0,
+        40,
+        1250,
+        950
+      ],
+      "reason": "Keep attached lecture PDF and handwriting together; omit empty paper.",
+      "locale": "common",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/common/sticky-marker.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v5/memorization_before_actual.png",
+      "sourceSHA256": "766f717f5fd82183d49e54813df89c87b3f1232903acf1aa780a4223d8e55e23",
+      "sha256": "c12a20b4ecc5cf91e40c7c41c27a41d3e4dcb726e9697af97580bbf1c6ea4a48",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        70,
+        635,
+        1010,
+        645
+      ],
+      "reason": "Actual sticky markers over demo lecture text; sufficient context for tapping.",
+      "locale": "common",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/common/record-button.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v6/recording_ai_summary_actual_current.png",
+      "sourceSHA256": "9f80813c90b9dbfca9557162b00530abec5a108e12599a672f840d7e67a17297",
+      "sha256": "105f8ee9f3a4ce05b145cfb5fcf50e28aa191abd23859e6c59db8ce6852696b5",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        20,
+        2110,
+        610,
+        235
+      ],
+      "reason": "Recording panel language and red record button, not entire empty panel.",
+      "locale": "common",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/ja/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v6/bookshelf_semester_folders_actual.png",
+      "sourceSHA256": "8d2be57c996f2be5e586483991c06665cef5d1036d062493b9da29eb6e7b363c",
+      "sha256": "d89e38068d76971f084cae3b07aae86d94e623adc6105f585ed9f8ad29154236",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        950,
+        45,
+        670,
+        125
+      ],
+      "reason": "Current search field with settings context.",
+      "locale": "ja",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/ja/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v4/supplementary_menu_actual_release.png",
+      "sourceSHA256": "6e33a5998257a0e644f52242851fb538f1a7493d88a117bed21c863489f8d09f",
+      "sha256": "64bf7c7d3be4a85598b5559f9037ff203b30d236209d81148e247ce946eb44b7",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1170,
+        60,
+        460,
+        335
+      ],
+      "reason": "Crop to the four normal attachment/export entries; excludes any debug-only menu items.",
+      "locale": "ja",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/ja/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v4/problem_assist_actual.png",
+      "sourceSHA256": "970571ff6decd6e9c01e4b8f701d5a31ee95f4d465454581bf733baf5f404e82",
+      "sha256": "2bcbc0d57a527c31cc7d6f889a770fbb3db5b1ad18337000965fffcf308f5df4",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1380,
+        815,
+        260,
+        145
+      ],
+      "reason": "Focus on the actual answer sheet upper-right Copy and Share controls, not tiny unreadable full-width answer text. Nearby guide instruction identifies the result state and left/right actions.",
+      "locale": "ja",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ja/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "sha256": "37d40b28c423373da90520862cdbc55725b00c1268c760d9ffe2ef627871b909",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        2020,
+        1110,
+        445
+      ],
+      "reason": "Current 3.4 real UI: include both the bottom-right import control and bottom search field so their position on Home is visible. Japanese guide explicitly labels this current English example.",
+      "locale": "en (explicitly captioned in Japanese)",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ja/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "aec37f7924796cd00b812255bc416caa89cf7a2cdeb2d39a5437757a86672f7f",
+      "sha256": "64824638e15545e05dbd0e7db65bcc185b9bffe679d28b793aa9baa1e3603d11",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        325,
+        1110,
+        880
+      ],
+      "reason": "Home Notes/Question Sets, recent note, and subject list without unused screen space.",
+      "locale": "ja",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ja/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/raw/04_continuous_scroll_actual.png",
+      "sourceSHA256": "fe0958c21e9202a52867e7aa37af70c1d1dc32658cd5dad020be030a6bf82f3a",
+      "sha256": "b6323058bbcdeb8ee9c5bd23b3af108c75b31c2d16ab6f3ea0706c42f6e14d21",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": null,
+      "reason": "Full screen shows multiple pages and their scroll/zoom relationship.",
+      "locale": "ja",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ja/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/raw/02_problem_set_actual.png",
+      "sourceSHA256": "1a0a7c9e8738086b1294e23ac0d4932faf8658ea1df540ec563e764ad41523cf",
+      "sha256": "bff40827cbf2340c8fdaef9d029d05bede0782fdf13d52460d1ea776e85bfe65",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        760,
+        1100,
+        1385
+      ],
+      "reason": "Actual question, answer and next/previous buttons.",
+      "locale": "ja",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ja/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/raw/05_sticky_review_actual.png",
+      "sourceSHA256": "74278c55582031fac133c67338181fcaa7d80db5fae11dc4dfa01543c8564036",
+      "sha256": "cd0bcc3214ec29b0f4187da211270ff22fa9156bf15351a26fd44a6ae969e1bf",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        55,
+        420,
+        1060,
+        1150
+      ],
+      "reason": "Focus on real notes and sticky-marker review area.",
+      "locale": "ja",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/en/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/en/bookshelf_actual.png",
+      "sourceSHA256": "fb9d991990d643b2d9beed8e5910af783c0384033a973d7416376aeed24f19ae",
+      "sha256": "c98aec709d4eece8ce4dbb6783496b478fc3387c1e3c2d090c4386a4f3ea081e",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        950,
+        45,
+        670,
+        125
+      ],
+      "reason": "Current search field with settings context.",
+      "locale": "en",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/en/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/en/supplementary_menu_actual.png",
+      "sourceSHA256": "4bcc01250958545713ddfdad677018a45d3426163eaed8164d5d9fc233d74c9c",
+      "sha256": "54ddf588d383e7249543e25748eb485e15213f0b15d3248796f046ec596e029f",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1170,
+        60,
+        460,
+        335
+      ],
+      "reason": "Crop to the four normal attachment/export entries; excludes any debug-only menu items.",
+      "locale": "en",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/en/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/en/problem_assist_actual.png",
+      "sourceSHA256": "be603db73da879d2025369dbf9fcc9f935d957f648f88da69d8ff93d212f0e7d",
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1380,
+        815,
+        260,
+        145
+      ],
+      "reason": "Focus on the actual answer sheet upper-right Copy and Share controls, not tiny unreadable full-width answer text. Nearby guide instruction identifies the result state and left/right actions.",
+      "locale": "en",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/en/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "sha256": "37d40b28c423373da90520862cdbc55725b00c1268c760d9ffe2ef627871b909",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        2020,
+        1110,
+        445
+      ],
+      "reason": "Current 3.4 real UI: include both the bottom-right import control and bottom search field so their position on Home is visible. Japanese guide explicitly labels this current English example.",
+      "locale": "en",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/en/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "sha256": "70561f5cf5dcfbf7a3c3457123988122af320b442a820f43caab1e9fea4ad731",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        325,
+        1110,
+        880
+      ],
+      "reason": "Home Notes/Question Sets, recent note, and subject list without unused screen space.",
+      "locale": "en",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/en/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/04_continuous_scroll_actual.png",
+      "sourceSHA256": "1275766c99fe78169f5de0b92908d5fb1881a2d52f0cdbb8f5804b9c4bb3db72",
+      "sha256": "0041d3683bcb4df27b9f05e2a26d81bfbfa62dfab28146d359ebb12e599039b0",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": null,
+      "reason": "Full screen shows multiple pages and their scroll/zoom relationship.",
+      "locale": "en",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/en/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/02_problem_set_actual.png",
+      "sourceSHA256": "0aa36f433b20ecd418ec9c5c928abdd3edf60322b9692e194dbb0adf824dca00",
+      "sha256": "d17c840682b876f11a496e19bd895f3325a40ffbf49ef43812149a8c623c5e29",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        760,
+        1100,
+        1385
+      ],
+      "reason": "Actual question, answer and next/previous buttons.",
+      "locale": "en",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/en/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/05_sticky_review_actual.png",
+      "sourceSHA256": "aeebf34817b78475b4d4a4a27bc4144ecc93bf8dd86cebba58f639160ed3dbb9",
+      "sha256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        55,
+        420,
+        1060,
+        1150
+      ],
+      "reason": "Focus on real notes and sticky-marker review area.",
+      "locale": "en",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/en/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "sha256": "adaeab19755324c68f69249a145efa5c0937a180f7709c3df9a58a9dd684efc2",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        2295,
+        1100,
+        155
+      ],
+      "reason": "Current iOS search field at bottom of bookshelf.",
+      "locale": "en",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/de/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/de/bookshelf_actual.png",
+      "sourceSHA256": "f796129296eced25672a9e7c975496703bc633ea8bfcde339ce40d7ce6467897",
+      "sha256": "0f34ecf69928166bf8abc13c718dabe4717a8acb2ef6c25caee55ff7527a949a",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        950,
+        45,
+        670,
+        125
+      ],
+      "reason": "Current search field with settings context.",
+      "locale": "de",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/de/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/de/supplementary_menu_actual.png",
+      "sourceSHA256": "5d2ebf4ccdf5a962a25db4cccda403f5a4f2f8828dab45ae6007fdc0c7469842",
+      "sha256": "064cd7a9493951804d4946b261c4eccb72b8a5ce2ecda29ec8e706bbcb6ebb2f",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1170,
+        60,
+        460,
+        335
+      ],
+      "reason": "Crop to the four normal attachment/export entries; excludes any debug-only menu items.",
+      "locale": "de",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/de/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/de/problem_assist_actual.png",
+      "sourceSHA256": "1f292c8c6f0cbd863b840a19cfeb245e7059dd8a8dbc462b90b4ba84d447dfde",
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1380,
+        815,
+        260,
+        145
+      ],
+      "reason": "Focus on the actual answer sheet upper-right Copy and Share controls, not tiny unreadable full-width answer text. Nearby guide instruction identifies the result state and left/right actions.",
+      "locale": "de",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/de/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "07d4c7e6863b3dfa1fb7e49f265c24dafbaf077f26ff87bc8048c57a3384e701",
+      "sha256": "92ac3022cc4cb88350cf8a824f3fba40fa78b88c5b46dc9bd6fd8179fe2551c2",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        2020,
+        1110,
+        445
+      ],
+      "reason": "Current 3.4 real UI: include both the bottom-right import control and bottom search field so their position on Home is visible. Japanese guide explicitly labels this current English example.",
+      "locale": "de",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/de/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "07d4c7e6863b3dfa1fb7e49f265c24dafbaf077f26ff87bc8048c57a3384e701",
+      "sha256": "d0f074bfc164419ade43f508525325ca2bd6f91cb3edc3724197290511702c30",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        325,
+        1110,
+        880
+      ],
+      "reason": "Home Notes/Question Sets, recent note, and subject list without unused screen space.",
+      "locale": "de",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/de/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/04_continuous_scroll_actual.png",
+      "sourceSHA256": "1455ff8fb85239ddf790c7ebb7ed4c8a45cb8037347a93326469272e1a31bf1a",
+      "sha256": "e14daeedd4723230e59b1cc3e74bf58767420383d508e70953ebf8e2cc22ee4b",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": null,
+      "reason": "Full screen shows multiple pages and their scroll/zoom relationship.",
+      "locale": "de",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/de/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/02_problem_set_actual.png",
+      "sourceSHA256": "e78b2ededaee64f32f9aeab54ed84bb6a884d594b7b5a3c141be67805c1fa870",
+      "sha256": "6cb635b3c7fa4286994826ef869205f6f6e3c995824e4723f7e9bd095495da90",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        760,
+        1100,
+        1385
+      ],
+      "reason": "Actual question, answer and next/previous buttons.",
+      "locale": "de",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/de/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/05_sticky_review_actual.png",
+      "sourceSHA256": "ac91f11c6ceb71ed00c207edc4536eed3c1067b40c982ea28893fe9dc4b5e1b5",
+      "sha256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        55,
+        420,
+        1060,
+        1150
+      ],
+      "reason": "Focus on real notes and sticky-marker review area.",
+      "locale": "de",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/de/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "07d4c7e6863b3dfa1fb7e49f265c24dafbaf077f26ff87bc8048c57a3384e701",
+      "sha256": "241b7561e218f1e20b44f69bde768c464f45b6ab0bf54d08cad59a2822411870",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        2295,
+        1100,
+        155
+      ],
+      "reason": "Current iOS search field at bottom of bookshelf.",
+      "locale": "de",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/fr/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/fr/bookshelf_actual.png",
+      "sourceSHA256": "ebaa8ec3a3b7cf7b7e593d1fe27531b441d5697d297f406d1afda134332c3b10",
+      "sha256": "07818e19c4564e6242d4dacb97f1a793751024dc8fc538c95554138678c297e3",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        950,
+        45,
+        670,
+        125
+      ],
+      "reason": "Current search field with settings context.",
+      "locale": "fr",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/fr/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/fr/supplementary_menu_actual.png",
+      "sourceSHA256": "73a7e2e9a6962e88bfff5a47bba5d54c9f1ed85f7c30246c7a5607981793f1cc",
+      "sha256": "3aa1bb6e2acc1521b07b47c2e230a11102e8ae1e8ef625e667be9e0a3bb7f147",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1170,
+        60,
+        460,
+        335
+      ],
+      "reason": "Crop to the four normal attachment/export entries; excludes any debug-only menu items.",
+      "locale": "fr",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/fr/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/fr/problem_assist_actual.png",
+      "sourceSHA256": "ea74216dbf739542914752e601820bae471b801a2fd218b1b8df951a1d82b935",
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1380,
+        815,
+        260,
+        145
+      ],
+      "reason": "Focus on the actual answer sheet upper-right Copy and Share controls, not tiny unreadable full-width answer text. Nearby guide instruction identifies the result state and left/right actions.",
+      "locale": "fr",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/fr/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "59543df6d6b85f70e76be2bcf7e6928aeca2d3d71c7d56bb5026f51caf31ada5",
+      "sha256": "a55545bb5fdc2d44ee139b2c4330f9bde51069cf94a8daf9e238f05a41fe5b58",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        2020,
+        1110,
+        445
+      ],
+      "reason": "Current 3.4 real UI: include both the bottom-right import control and bottom search field so their position on Home is visible. Japanese guide explicitly labels this current English example.",
+      "locale": "fr",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/fr/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "59543df6d6b85f70e76be2bcf7e6928aeca2d3d71c7d56bb5026f51caf31ada5",
+      "sha256": "827f295db10e0270533cda8bfbe15a17d417ea2a7542643ed400a9b92340c59a",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        325,
+        1110,
+        880
+      ],
+      "reason": "Home Notes/Question Sets, recent note, and subject list without unused screen space.",
+      "locale": "fr",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/fr/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/04_continuous_scroll_actual.png",
+      "sourceSHA256": "7fc22687dcd0ff6d2cdb9338a1c0c7e986d9408b66ceeaa0874517c9950eec01",
+      "sha256": "b0b4dc9df4dcab9df88882e6600b38497a4fbb656be252a4a268e804f38aafab",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": null,
+      "reason": "Full screen shows multiple pages and their scroll/zoom relationship.",
+      "locale": "fr",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/fr/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/02_problem_set_actual.png",
+      "sourceSHA256": "d37414cb6df97cbbf8fc311fdb0deefbde8594bf612d8a88590219ac77617159",
+      "sha256": "30e6af1f1af1e4bc0ad74d580918ca50a12d312782985094ded4680676efb462",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        760,
+        1100,
+        1385
+      ],
+      "reason": "Actual question, answer and next/previous buttons.",
+      "locale": "fr",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/fr/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/05_sticky_review_actual.png",
+      "sourceSHA256": "601fa7c03a51f9600e663e2291a48df6bd0a4ec403f3a984ba47e0adedb05473",
+      "sha256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        55,
+        420,
+        1060,
+        1150
+      ],
+      "reason": "Focus on real notes and sticky-marker review area.",
+      "locale": "fr",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/fr/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "59543df6d6b85f70e76be2bcf7e6928aeca2d3d71c7d56bb5026f51caf31ada5",
+      "sha256": "5e1ceeaa403b5a223d1fb177b55c110aca8f4210df4eb594c5e8e4aa625370c6",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        2295,
+        1100,
+        155
+      ],
+      "reason": "Current iOS search field at bottom of bookshelf.",
+      "locale": "fr",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/ko/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/ko/bookshelf_actual.png",
+      "sourceSHA256": "085165e454cbe352069f5e16ec66ccc200da955da0c306e5cab91f91a20f6ebd",
+      "sha256": "d491e69ae81e574ab567ff07f90af1a534a3bd462a40e308b05cfe6c4a874541",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        950,
+        45,
+        670,
+        125
+      ],
+      "reason": "Current search field with settings context.",
+      "locale": "ko",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/ko/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/ko/supplementary_menu_actual.png",
+      "sourceSHA256": "0f134ac61726e10e87d8fac45bf98d2f7997464c1368930d31fa94be094019bf",
+      "sha256": "efa8a45b23c1dff1060464c56f440a4f3d5ab2cd884632b8abf94ac7563d753d",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1170,
+        60,
+        460,
+        335
+      ],
+      "reason": "Crop to the four normal attachment/export entries; excludes any debug-only menu items.",
+      "locale": "ko",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/ko/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/ko/problem_assist_actual.png",
+      "sourceSHA256": "e64b2dce5ee0a2ecfad578971b08c47221d27ed092242b9b7100cad8bce716ba",
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1380,
+        815,
+        260,
+        145
+      ],
+      "reason": "Focus on the actual answer sheet upper-right Copy and Share controls, not tiny unreadable full-width answer text. Nearby guide instruction identifies the result state and left/right actions.",
+      "locale": "ko",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ko/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "e79f9bb0645fb63d3a48f57dcfab44e3560b392120900fc56420191054a02113",
+      "sha256": "2de7c651d2af2e23a2cb8a2544b60ca08749706e7aedbad95f73d6b2150ad9cf",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        2020,
+        1110,
+        445
+      ],
+      "reason": "Current 3.4 real UI: include both the bottom-right import control and bottom search field so their position on Home is visible. Japanese guide explicitly labels this current English example.",
+      "locale": "ko",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ko/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "e79f9bb0645fb63d3a48f57dcfab44e3560b392120900fc56420191054a02113",
+      "sha256": "0df158db881d54ca116ebde2dbbcfdf30f12702857c13db21e7b14fd057447cf",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        325,
+        1110,
+        880
+      ],
+      "reason": "Home Notes/Question Sets, recent note, and subject list without unused screen space.",
+      "locale": "ko",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ko/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/04_continuous_scroll_actual.png",
+      "sourceSHA256": "58b388d3c570e9f574ecc2f3e647712da7bcae5575aa7f6ec6ee7d750f644b31",
+      "sha256": "5583d3db58c614427f378cedaadc6ca30b35b7f0d9699ef0b0cab2addf0d3a01",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": null,
+      "reason": "Full screen shows multiple pages and their scroll/zoom relationship.",
+      "locale": "ko",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ko/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/02_problem_set_actual.png",
+      "sourceSHA256": "dcf4b60b793f2078e5f966ab0f627a351d6734b37cbabfdc9dae94285102bd82",
+      "sha256": "52c083f6000cf081f3661e10fb74ff484759138a91012fecea7e00ac4ec8e0bb",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        760,
+        1100,
+        1385
+      ],
+      "reason": "Actual question, answer and next/previous buttons.",
+      "locale": "ko",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ko/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/05_sticky_review_actual.png",
+      "sourceSHA256": "8d2b5f3b69735e5ea266ba6f5155614fd425eba379c637879dd5e5c87fed6a15",
+      "sha256": "aad18f67b4debaea05560fe414df7fdb4fe400bb0665ad16721539213ce0d5ca",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        55,
+        420,
+        1060,
+        1150
+      ],
+      "reason": "Focus on real notes and sticky-marker review area.",
+      "locale": "ko",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/ko/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "e79f9bb0645fb63d3a48f57dcfab44e3560b392120900fc56420191054a02113",
+      "sha256": "369c3a41f1a2270d3ce81d65389bde661bbf5d898baeac309f1dab2b9d1c4ff7",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        2295,
+        1100,
+        155
+      ],
+      "reason": "Current iOS search field at bottom of bookshelf.",
+      "locale": "ko",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/zh-hant/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/zh-Hant/bookshelf_actual.png",
+      "sourceSHA256": "82477c91c0761a554b077723b361b2ae31b46f36eccf1d0ad15e1af8a770bc6e",
+      "sha256": "82fbec6228c1e8c12e075f0ef7b9fdbba8de1562b422e6a91ff8442a8c5bda02",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        950,
+        45,
+        670,
+        125
+      ],
+      "reason": "Current search field with settings context.",
+      "locale": "zh-hant",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/zh-hant/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/zh-Hant/supplementary_menu_actual.png",
+      "sourceSHA256": "7ce597eac333bcc8e6f419d210aa5e8155c8d989d548d3e16ced319508ee7b1e",
+      "sha256": "a7aeedf2f004ba3cce761ba1f848706f0958e10ceeb23df5d5868e4d285b80e6",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1170,
+        60,
+        460,
+        335
+      ],
+      "reason": "Crop to the four normal attachment/export entries; excludes any debug-only menu items.",
+      "locale": "zh-hant",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/zh-hant/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/zh-Hant/problem_assist_actual.png",
+      "sourceSHA256": "1794fc8fb908fb5330f7a0a6ea7b459e86b3ef0ef83904e01d533df91379948a",
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        1380,
+        815,
+        260,
+        145
+      ],
+      "reason": "Focus on the actual answer sheet upper-right Copy and Share controls, not tiny unreadable full-width answer text. Nearby guide instruction identifies the result state and left/right actions.",
+      "locale": "zh-hant",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/zh-hant/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "370c994e5640145d0d3c0b64bca6f2403c7cc44de7c741c3178ed0b9654c920f",
+      "sha256": "9249f7b8626e4c0642465fcbf7b19ddb1718b7886a3dabef0009542a9ecf9f92",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        2020,
+        1110,
+        445
+      ],
+      "reason": "Current 3.4 real UI: include both the bottom-right import control and bottom search field so their position on Home is visible. Japanese guide explicitly labels this current English example.",
+      "locale": "zh-hant",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/zh-hant/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "370c994e5640145d0d3c0b64bca6f2403c7cc44de7c741c3178ed0b9654c920f",
+      "sha256": "861928fee8a95bcc8ac9c2e58025962a968033590605eb71424837902897d90d",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        30,
+        325,
+        1110,
+        880
+      ],
+      "reason": "Home Notes/Question Sets, recent note, and subject list without unused screen space.",
+      "locale": "zh-hant",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/zh-hant/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/04_continuous_scroll_actual.png",
+      "sourceSHA256": "7e53329f4e5cde661b56282c5550c0751ef29034119007433e71a56168aaea5c",
+      "sha256": "8ac7c00df0275b107c72c0c3749659a415db2ace3aef55c9ec7652d6d52cc565",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": null,
+      "reason": "Full screen shows multiple pages and their scroll/zoom relationship.",
+      "locale": "zh-hant",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/zh-hant/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/02_problem_set_actual.png",
+      "sourceSHA256": "39f89f46c8df0194b8a175ae5214a26302e8a1b0261d8e83c300805994cc2b2d",
+      "sha256": "86738095e6974ae04261cdb7511f5206d9fda07e86bb75b3dfd467b29cc83c39",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        760,
+        1100,
+        1385
+      ],
+      "reason": "Actual question, answer and next/previous buttons.",
+      "locale": "zh-hant",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/zh-hant/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/05_sticky_review_actual.png",
+      "sourceSHA256": "793d2f81028e0fbbfff75f9b0330a0547b8be64f7c6b824f60cae9701f3d5c21",
+      "sha256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        55,
+        420,
+        1060,
+        1150
+      ],
+      "reason": "Focus on real notes and sticky-marker review area.",
+      "locale": "zh-hant",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note-pocket/zh-hant/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/01_bookshelf_actual.png",
+      "sourceSHA256": "370c994e5640145d0d3c0b64bca6f2403c7cc44de7c741c3178ed0b9654c920f",
+      "sha256": "559157457e7dc7aea44d7b769147fd690a67184403a659cdaa09083b7dc43bd0",
+      "sourceDimensions": [
+        1170,
+        2532
+      ],
+      "crop": [
+        35,
+        2295,
+        1100,
+        155
+      ],
+      "reason": "Current iOS search field at bottom of bookshelf.",
+      "locale": "zh-hant",
+      "kind": "existing-real-simulator-ui"
+    },
+    {
+      "file": "assets/images/guides/uni-note/common/backup-file-actions.png",
+      "source": "/private/tmp/homepage-uninote-capture-attachments/24489E08-EF72-4BE2-9D8F-ED883E831CD8.png",
+      "sourceSHA256": "49d0e8c8f9ebccdd6c6c00e34a4cb9068260bf955fd789be460dfb4c66998e26",
+      "sha256": "db52978b744b30f78013007c35ec56fca5bd50c8ade2bd384ce8817ce2c9d504",
+      "sourceDimensions": [
+        1640,
+        2360
+      ],
+      "crop": [
+        40,
+        1090,
+        680,
+        335
+      ],
+      "reason": "Preserve File heading and complete Export Backup / Restore from File action labels while making them readable at mobile width. Secondary explanatory text is cropped intentionally; full operation meaning is explained in the guide.",
+      "locale": "ja (explicit Japanese-UI caption in other languages)",
+      "kind": "new-real-simulator-ui",
+      "capturedAt": "2026-09-07",
+      "captureOwner": "root temporary XCUITest runner; unchanged app source",
+      "currentUIVerification": {
+        "releaseCommit": "12d91ce",
+        "releaseVersion": "3.4.0",
+        "capturedLocalVersion": "3.5.0",
+        "comparisons": [
+          {
+            "symbol": "private enum BackupRow",
+            "matchesPublic340ReleaseCommit": true,
+            "sha256": "3fccba8dfca85db042f4df0fcfe81bcba2edef04c182e52bee0526c79c41f665"
+          },
+          {
+            "symbol": "private enum BackupDetailSection",
+            "matchesPublic340ReleaseCommit": true,
+            "sha256": "6e1043ca36a285b8f6e0d052b1a9adf90f46971d342915e1bba6a9de50975178"
+          },
+          {
+            "symbol": "private func makeBackupCell",
+            "matchesPublic340ReleaseCommit": true,
+            "sha256": "26ba5543796b7656b48dfd548f7061e09f95dccb957b03c5da06532f0e826092"
+          },
+          {
+            "symbol": "private func makeBackupRecordingAudioCell",
+            "matchesPublic340ReleaseCommit": true,
+            "sha256": "58673a814bcea015cde86f881482481b31ba0652a78a3c900089eee5834c244d"
+          },
+          {
+            "symbol": "private func makeBackupFileCell",
+            "matchesPublic340ReleaseCommit": true,
+            "sha256": "e27336444fce236981f72c55e4e3aaaadade28f85f3a9b59478632536379bf7f"
+          },
+          {
+            "symbol": "private func handleBackupSelection",
+            "matchesPublic340ReleaseCommit": true,
+            "sha256": "1146788ea6d82bf1820b73aeadc7a8444fabef9cb969d1f8fb4b6f141971fd9e"
+          },
+          {
+            "symbol": "private func exportBackupFile",
+            "matchesPublic340ReleaseCommit": true,
+            "sha256": "566ba0a5b82058ec0f4dc26ddf2861982e80f9409fabe1700f46dea7a3fdb2e2"
+          },
+          {
+            "symbol": "private func handleRecordingAudioBackupSwitchChanged",
+            "matchesPublic340ReleaseCommit": true,
+            "sha256": "67ef7c6f9282037c0160b776038f4f2ab08d22ebdbac36ca3985277c0725c070"
+          },
+          {
+            "symbol": "ja backup file/audio labels",
+            "matchesPublic340ReleaseCommit": true
+          }
+        ]
+      }
+    }
+  ],
+  "implementationEvidence": {
+    "uni_note": {
+      "head": "b6aa55ab5213991147e90e4b20feeb56c0699455",
+      "worktreeReadOnly": true,
+      "localVersion": "3.5.0",
+      "publishedVersion": "3.4.0",
+      "files": [
+        {
+          "path": "/Users/yuya/Projects/uni_note/AGENTS.md",
+          "sha256": "181daa4d011d1cc498a466ed59695d037acb72673e4a9393b2f8cd3c3585ac31"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/PROJECT.md",
+          "sha256": "b484cc5473af982e829ce6326ed0b1e30cf407ef610c7938fa22350a2906ddac"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/ARCHITECTURE.md",
+          "sha256": "77cbde1e0ca666dc1b14cba9e312043ce497849c5a952e5e7ec7a3eb3efdf9fc"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/DEVELOPMENT_RULES.md",
+          "sha256": "858b7f36c7ed566f6daf65f9723f14ab6c648105d551c9f00b0086560b92ff92"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/TESTING_RULES.md",
+          "sha256": "dfbc013fc062ff3855f69dc99c74cfe0eaaefdc362398ec334d837ff5ee37639"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/SPEC_INDEX.md",
+          "sha256": "b643f0aba06483df24df2a489785e1063e885ea72d7ba98d172eea55985807d8"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/FEATURE_NOTE_TITLE_SEARCH.md",
+          "sha256": "5e33829c99d47aeb574b3443e1c18de6fd1b63df3d8dc8c4d58bb8aefaa5743c"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/FEATURE_NOTE_EDITOR.md",
+          "sha256": "4c5077849a03fcd70d44b3e63a79063bdf940b5bad1cc4264a1fe11477427f1a"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/FEATURE_BOOKSHELF_FOLDERS.md",
+          "sha256": "86ca80b1f64490555b9cb6083a48152cdbe71d52d62614058394dea7b006862e"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/FEATURE_BACKUP_RESTORE.md",
+          "sha256": "069b3166c1d2e0e9cc60492de3e1510c686d44755b4d7b2c2eb0adb5480d7a36"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/FEATURE_STICKY_NOTE.md",
+          "sha256": "f04777e5c1b5a7db579c6897c077e5b5bb8b15a6a1fc3b34bc69924c8706884c"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/FEATURE_AI_ASSISTANT.md",
+          "sha256": "467cdf8ea27a65b9796070b3f3f868e7ec27eb6cb83c0dd85653488cf5f1e572"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/FEATURE_RECORDING.md",
+          "sha256": "50520aeae2a122da312f017d603a1bea27974bbb1cd0b23f1f5aa6013241c50a"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/FEATURE_SUBSCRIPTION.md",
+          "sha256": "0c84afa94211973767ca85f21391adabf4c848b084204cd3eaa6c48a5f4c7aa5"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/APP_STORE_METADATA.md",
+          "sha256": "d772cee04c968ecfca582de413b89a309a7b19e326ff888167826443f975840a"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/TEST_PLAN.md",
+          "sha256": "d1a129b6f829be2e48d71233b355d3bf05a80648dfe0d77aeee8b9874cdf3fd7"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/TEST_CASES.md",
+          "sha256": "b1ddfdd9f1384cab7272ce473e601d7b52e92d7a275189073c008a51f3579790"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/TRANSLATION_MATRIX.md",
+          "sha256": "0d8be05e7c9fec70d958b11753d8afd18248f2a54176d13fd7910fc67ade0dbb"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/docs/RELEASE_CHECKLIST.md",
+          "sha256": "5c280615ca4e53d666723ade8f7421aa5f66a59988cef82ac888bdc33302ecd2"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/CHANGELOG_AI.md",
+          "sha256": "28f9e2a8633b2f9b4638d9e8b28912cb81c5c95651a46a42621ef1706aaa6136"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/UI/BookshelfViewController.swift",
+          "sha256": "730005bf8230379b802048e550500f7c6d61cbee4778c78fa1017e5848a00a35"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/UI/NotebookViewController.swift",
+          "sha256": "b68fbb219d2596122428d1577d64549e937a659839051f5c5b2c735f9dfd2cc7"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/UI/SettingsViewController.swift",
+          "sha256": "07a80e919a132392c24f5f1034485a9e090d3f97f6745aa5379a1e65a35be217"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/UI/ProblemGenerationViewControllers.swift",
+          "sha256": "bd1cfaada67563091f5f91ff323e1e70644885092e9920c1b2948d0a593f7b24"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/App/RealtimeLectureTranscriptionController.swift",
+          "sha256": "8d2b40c4ea251e4f228f6f7e42fbcef91bee785ad055c0416629af8367d52ac1"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/App/LectureRecordingAudioController.swift",
+          "sha256": "26d27e1c397a7005266675710b8ee749b390297f504d76e8f0cd5ce7942bbcb7"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/App/UITestDebugHooks.swift",
+          "sha256": "e82a5f4883f4e42bc5cd76768b8574548f468b4e2593f009ef272cbc13717c5e"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_note/Domain/Section.swift",
+          "sha256": "b13ab7910909aab386158ab80ca84409dcdd27adabbdb9ae23f4cf2b0f0d190f"
+        }
+      ]
+    },
+    "uni_memo": {
+      "head": "1f856cfcf3805a529df5fa39dfd03d69b3a66501",
+      "worktreeReadOnly": true,
+      "localVersion": "3.4.0",
+      "publishedVersion": "3.4.0",
+      "files": [
+        {
+          "path": "/Users/yuya/Projects/uni_memo/AGENTS.md",
+          "sha256": "a4244428c484b170d8f412566f79bf57a8578e6f5a19b88ef7d43e14e02f9297"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/README.md",
+          "sha256": "8603a57ea4c4e23275fb21a91e264cb894c50b4852f006c1de1ba2c678d2a48b"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/PROJECT.md",
+          "sha256": "a783dd24914dd12c49ac94c696a29730c6bb2e1400dd10d8a5bf0bf385e588a8"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/ARCHITECTURE.md",
+          "sha256": "78dca5d133ac27353773014dcdc7ffd5b8ee381d52f515619e52200dee16b47c"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/DEVELOPMENT_RULES.md",
+          "sha256": "c9472ec5197f12fbec948c0bc5db9c1569804fa487f568d3855fe347ffcbf13c"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/TESTING_RULES.md",
+          "sha256": "369c6615b4c818b10ef8baf260748a3983b5b5ed8f735e1f0e4349bb62729869"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/SPEC_INDEX.md",
+          "sha256": "afeefd2c1c743ac8c6d82dee07da92cd15e3bf85d6458bed147aa1863014fce5"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/FEATURE_NOTE_BROWSE.md",
+          "sha256": "30b4df9531154c728ec7d4cdc5f5d0ebb1f63bcc5c060677f80298a06cddb56a"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/FEATURE_BACKUP_RESTORE.md",
+          "sha256": "822fc4736847528e18d104b76948d04fa662903a096feb0233b893c2892fb485"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/FEATURE_MEMORIZATION.md",
+          "sha256": "af5145fb058cd40381cd00e617c38471aeea99c74cce767992f7f0548320b14a"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/FEATURE_PROBLEM_SET_VIEWER.md",
+          "sha256": "a1f779784267297235ed2882cada4ae3093f02d20c4f5f5784c04b17d2d5c24d"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/FEATURE_RECORDING_PLAYBACK.md",
+          "sha256": "1f0ac34862c1b6ddff572a299c4cd8ec16a0ce18d950fd631cce622c2073e9c9"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/APP_STORE_METADATA.md",
+          "sha256": "b89a3e8f61b29ef8a3e7f23739738f9113d8afc606850141ee7b0a3117bf4300"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/TEST_PLAN.md",
+          "sha256": "541731c568b24243d67d71f3167596adb0e48b42f8c4ea71d33a758b8c185f68"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/TEST_CASES.md",
+          "sha256": "0b37c26104c5c30b2bec2ac21ac0506b81c1b73169ee87d4e8f1d8e87c30f775"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/TRANSLATION_MATRIX.md",
+          "sha256": "819d898147dd3003a1779409d08d4257baa18cbe2c82281caf9b22ead3760bc0"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/docs/RELEASE_CHECKLIST.md",
+          "sha256": "d03a28bed85d70d4e01b52b3441eca7b99086fbd7412a418ebb6c95498b9f578"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/CHANGELOG_AI.md",
+          "sha256": "ad306b64273ff1a5aa6d1cd90864445ba87bab43ded5de7d8c8f22fdf302f9ed"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/UI/MemoBookshelfViewController.swift",
+          "sha256": "6dd6225088a1bd48e6b3245e69e071bafff6eb83027106096d1fdfabc9e88c71"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/UI/MemoSettingsViewController.swift",
+          "sha256": "b3b518ff72a5739f11d8da92dcef8669cafc20dba727bc4c048f9884178fe138"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/UI/MemoPageViewController.swift",
+          "sha256": "b3079acab698491f12e554b781a53c5e6345202ee0209395418b3caa235b70b6"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/UI/ProblemSetReviewViewController.swift",
+          "sha256": "520ce60f59e4fd3a7dc774d1d3d05abc47490932bb8ca480de963bba32b21d43"
+        },
+        {
+          "path": "/Users/yuya/Projects/uni_memo/Sources/UniNotePocketCore/MemoSystemBackup.swift",
+          "sha256": "39acb7fd1f1ef592fb06ed4e1236a34783e42b0aec17ef5ac3ced37d9913015b"
+        }
+      ]
+    }
+  },
+  "auditNote": "Source hashes identify the current implementation inspected. Documentation files were consulted by relevant section; app source was not edited. Existing screenshot UI retained only where operation remains applicable to published 3.4.0."
+}

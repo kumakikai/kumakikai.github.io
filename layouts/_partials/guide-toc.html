@@ -1,0 +1,4 @@
+{{ if and (eq .Section "htu") (gt (len .Fragments.Identifiers) 4) }}
+{{ $ui := index site.Data.guide_ui site.Language.Lang }}
+<details class="guide-toc"><summary>{{ $ui.contents }}</summary>{{ .Fragments.ToHTML 2 2 false }}</details>
+{{ end }}

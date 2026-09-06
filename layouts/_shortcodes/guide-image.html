@@ -1,0 +1,22 @@
+{{- $path := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $mode := .Get "mode" | default "crop" -}}
+{{- if not (in (slice "crop" "screen" "tablet") $mode) -}}{{ errorf "Unknown guide-image mode %q at %s" $mode .Position }}{{- end -}}
+{{- if not $alt -}}{{ errorf "guide-image needs descriptive alt text at %s" .Position }}{{- end -}}
+{{- $ui := index site.Data.guide_ui site.Language.Lang -}}
+{{- with resources.Get $path -}}
+  {{- $display := 560 -}}
+  {{- if eq $mode "screen" -}}{{ $display = 320 }}{{- else if eq $mode "tablet" -}}{{ $display = 760 }}{{- end -}}
+  {{- $large := .Resize (printf "%dx webp q92" (int (math.Min .Width (mul $display 2)))) -}}
+  {{- $small := .Resize (printf "%dx webp q92" (int (math.Min .Width $display))) -}}
+  {{- $sizes := printf "(max-width: 600px) calc(100vw - 64px), %dpx" $display -}}
+  {{- if eq $mode "screen" -}}{{ $sizes = "(max-width: 390px) calc(100vw - 64px), 320px" }}{{- end -}}
+<figure class="guide-figure guide-figure--{{ $mode }}" style="--guide-image-width: {{ int (math.Min .Width $display) }}px" data-guide-image>
+  <a href="{{ $large.RelPermalink }}" aria-label="{{ $ui.enlarge }}: {{ $alt }}">
+    <img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w{{ if ne $small.Width $large.Width }}, {{ $large.RelPermalink }} {{ $large.Width }}w{{ end }}" sizes="{{ $sizes }}" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  </a>
+  {{ with $.Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+{{- else -}}
+  {{- errorf "Guide image %q missing at %s" $path .Position -}}
+{{- end -}}

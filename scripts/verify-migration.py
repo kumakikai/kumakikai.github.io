@@ -201,6 +201,10 @@ class Verification:
         self.errors = []
         self.warnings = []
         self.counts = Counter()
+        review_file = Path(__file__).resolve().parent.parent / "docs/visual-guides/reviewed-content.json"
+        self.guide_reviews = json.loads(review_file.read_text()) if review_file.is_file() else {}
+        for route in self.guide_reviews:
+            self.require(route in self.baseline["articles"], route, "guide_review_scope", "Guide review must reference an existing protected article")
 
     def require(self, condition, route, check, detail):
         if not condition:
@@ -274,18 +278,41 @@ class Verification:
                 continue
             new_text = normalized(body.text())
             expected_text = old["text"]
-            if route in AUTHORIZED_ARTICLE_REPLACEMENTS:
+            review = self.guide_reviews.get(route)
+            if review:
+                # The visual-guide task explicitly replaces stale how-to/FAQ
+                # content. Keep the original snapshot, routes, canonical and
+                # anchors immutable; only the individually reviewed bodies
+                # below may differ. Privacy, Terms and News cannot opt in.
+                parts = route.strip("/").split("/")
+                lang = parts.pop(0) if parts[0] in LANGUAGES and parts[0] != "ja" else "ja"
+                scoped = len(parts) == 2 and parts[0] in {"htu", "faq"} and parts[1] in PRODUCT_AREAS
+                self.require(scoped, route, "guide_review_scope", "Only existing app how-to and FAQ bodies may be replaced")
+                suffix = "" if lang == "ja" else "." + lang
+                source_name = f"content/{parts[0]}/{parts[1]}{suffix}.md" if scoped else ""
+                source = Path(__file__).resolve().parent.parent / source_name
+                digest = lambda value: hashlib.sha256(value.encode()).hexdigest()
+                self.require(review.get("source") == source_name and source.is_file(), route, "guide_review_source", "Reviewed route must match its original Markdown source")
+                if source.is_file():
+                    self.require(review.get("sourceSHA256") == hashlib.sha256(source.read_bytes()).hexdigest(), route, "guide_review_source", "Guide source changed since the recorded content review")
+                self.require(review.get("baselineTextSHA256") == digest(expected_text), route, "guide_review_baseline", "Immutable pre-migration body does not match the review")
+                self.require(review.get("reviewedTextSHA256") == digest(new_text), route, "guide_review_body", "Rendered guide body changed since the recorded content review")
+                self.require(bool(review.get("reason")), route, "guide_review_reason", "Content replacement needs a recorded review reason")
+                self.counts["reviewed_guide_and_faq_bodies"] += 1
+            elif route in AUTHORIZED_ARTICLE_REPLACEMENTS:
                 before, after = AUTHORIZED_ARTICLE_REPLACEMENTS[route]
                 self.require(expected_text.count(before) == 1, route, "authorized_article_change", "The explicitly authorized sentence must occur exactly once in the immutable baseline")
                 expected_text = expected_text.replace(before, after, 1)
                 self.require("iPad専用" not in new_text, route, "authorized_article_change", "The authorized iPad wording change was not applied")
                 self.counts["authorized_article_wording_changes"] += 1
-            self.require(expected_text in new_text, route, "legacy_content", "Original rendered article body was dropped, changed, or reordered beyond the exact authorized wording change")
+            if not review:
+                self.require(expected_text in new_text, route, "legacy_content", "Original rendered article body was dropped, changed, or reordered beyond the exact authorized wording change")
             missing = sorted(set(old["ids"]) - set(doc.ids))
             self.require(not missing, route, "legacy_anchor", f"Original article anchors disappeared: {missing}")
             links = {urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href")}
             missing_links = sorted(set(old["links"]) - links)
-            self.require(not missing_links, route, "legacy_content_link", f"Original article links disappeared: {missing_links}")
+            approved_removed = review.get("removedLinks", []) if review else []
+            self.require(missing_links == sorted(approved_removed), route, "legacy_content_link", f"Unreviewed original link changes: {missing_links}; approved: {approved_removed}")
             self.counts["legacy_articles"] += 1
         for sitemap, urls in self.baseline["sitemaps"].items():
             for url in urls:
@@ -751,6 +778,19 @@ class Verification:
                     for link in resource.descendants("a"):
                         target = self.target(link.attrs.get("href", ""), route)
                         self.require(not target or target[0] != path.resolve(), route, "support_self_link", "Related support resources must omit the current page")
+            for guide in [n for n in doc.nodes if n.has_class("visual-guide")]:
+                images = [image for figure in guide.descendants("figure") if figure.has_class("guide-figure") or figure.has_class("watch-guide-figure") for image in figure.descendants("img")]
+                self.require(bool(images), route, "visual_guide", "Each app guide needs current operation screenshots")
+                self.require(sum(n.has_class("guide-updated") for n in doc.nodes) == 1, route, "guide_lastmod", "Updated guides must show the actual Markdown lastmod date")
+                for image in images:
+                    attrs = image.attrs
+                    self.require(bool(attrs.get("alt", "").strip()), route, "guide_image_alt", "Operation screenshots need meaningful alternative text")
+                    self.require(attrs.get("loading") == "lazy" and attrs.get("decoding") == "async", route, "guide_image_loading", "Guide images must use lazy/async loading")
+                    dimensions = all(re.fullmatch(r"[1-9][0-9]*", attrs.get(key, "")) for key in ("width", "height"))
+                    self.require(dimensions and attrs.get("srcset") and attrs.get("sizes"), route, "guide_image_dimensions", "Guide images need responsive sources and reserved dimensions")
+                    self.require(attrs.get("src", "").endswith(".webp"), route, "guide_image_format", "Guide screenshots must be optimized before delivery")
+                self.counts["visual_guide_pages"] += 1
+                self.counts["visual_guide_images"] += len(images)
             for node in doc.nodes:
                 for attr in ("href", "src", "poster"):
                     if attr in node.attrs:

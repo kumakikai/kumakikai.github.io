@@ -3,135 +3,47 @@ title: "FAQ (Uni:Note Pocket)"
 description: "Häufige Fragen zu Uni:Note Pocket."
 aliases:
   - /faq/uni-memo/
+lastmod: 2026-09-07
 ---
 
-## Grundlagen
+{{< guide-anchor "grundlagen" "was-ist-uninote-pocket-für-eine-app" "kann-ich-uninote-pocket-allein-verwenden" "welche-geräte-werden-unterstützt" "sind-login-oder-kontoerstellung-erforderlich" >}}
 
-### Was ist Uni:Note Pocket für eine App?
-Uni:Note Pocket ist eine Begleit-App zur iPad-App **Uni:Note**.  
-Damit kannst du auf dem iPhone in Uni:Note erstellte Backups laden, Notizen, Seiten und `Fragensets` schreibgeschützt ansehen und Aufnahmeaudio abspielen.
+## Vor dem Start {#help-1}
 
-### Kann ich Uni:Note Pocket allein verwenden?
-Nein.  
-Du brauchst eine in Uni:Note erstellte Backup-Datei.
+Erfordert ein iPhone mit iOS 17.0 oder neuer.
 
-### Welche Geräte werden unterstützt?
-Nur iPhone.
+Pocket ist ein iPhone-Leser und benötigt ein in Uni:Note auf dem iPad erstelltes Backup. Es erstellt keine neuen Notizen. Ein eigenes App-Konto ist nicht erforderlich.
 
-### Sind Login oder Kontoerstellung erforderlich?
-Nein.
+Erstellen, bearbeiten, löschen und sortieren von Notizen, Seiten, Ordnern und Fragensets erfolgt auf dem iPad.
 
----
+[Backup importieren]({{< relref "/htu/uni-note-pocket/" >}}#import) →
 
-## Import und Backups
+{{< guide-anchor "import-und-backups" "was-sollte-ich-zuerst-tun" "was-kann-ich-importieren" "wird-die-ursprüngliche-backup-datei-beim-import-verändert" "was-passiert-wenn-der-import-fehlschlägt" "gibt-es-automatische-synchronisierung" "was-ist-beim-start-automatisch-laden" "was-ist-manuell-laden" >}}
 
-### Was sollte ich zuerst tun?
-Nutze das Import-Symbol unten rechts auf dem Home-Bildschirm und wähle ein Backup aus Uni:Note aus.  
-Wenn dieses iPhone bereits ein `Einfaches Backup` von Uni:Note enthält, kann die App auch direkt fragen, ob du es sofort laden möchtest.
+## Backup schlägt fehl oder bleibt alt {#help-2}
 
-### Was kann ich importieren?
-Du kannst importieren:
+Beschädigte zips und unvollständige Backups werden abgelehnt. Bei Fehlern bleiben vorherige Daten erhalten; das Original wird nicht geändert. Exportiere ein neues zip aus Uni:Note und wähle es ungeöffnet aus.
 
-- Backup-ZIP-Dateien, die in Uni:Note erstellt wurden
-- das auf diesem iPhone erkannte `Einfaches Backup` von Uni:Note
+Das Aktualisierungssymbol prüft die iCloud-Datei. Ist die neue Datei noch nicht angekommen, bleibt das Datum gleich. Manuelles Laden übernimmt den geprüften Stand. Automatisches Laden beim Start braucht ein verfügbares Backup und ist keine Echtzeitsynchronisierung.
 
-Backups aus Uni:Note v3.0.0 werden unterstützt.
+[Neuestes Backup laden]({{< relref "/htu/uni-note-pocket/" >}}#refresh) →
 
-### Wird die ursprüngliche Backup-Datei beim Import verändert?
-Nein.  
-Die ausgewählte ZIP-Datei wird geprüft und innerhalb der App entpackt, daher bleibt die Originaldatei unverändert.
+{{< guide-anchor "ansicht" "was-kann-ich-nach-dem-import-tun" "kann-ich-notizen-oder-seiten-bearbeiten" "kann-ich-notizen-erstellen-löschen-oder-sortieren" "kann-ich-fragensets-wiederholen" "kann-ich-aufnahmen-abspielen" "was-passiert-wenn-das-backup-kein-aufnahmeaudio-enthält" "kann-uninote-pocket-aufnehmen-transkribieren-oder-ki-zusammenfassungen-erstellen" "kann-ich-haftnotiz-marker-sehen" "kann-ich-seiten-vergrößern" "kann-ich-an-der-zuletzt-gelesenen-stelle-fortsetzen" >}}
 
-### Was passiert, wenn der Import fehlschlägt?
-Beschädigte oder ungültige Backups werden sicher abgebrochen.  
-Wenn bereits importierte Daten vorhanden sind, bleiben sie erhalten und die App zeigt nur einen Fehler an.
+## Notiz, Aufnahme oder Marker fehlt {#help-3}
 
-### Gibt es automatische Synchronisierung?
-Derzeit nicht.  
-Uni:Note Pocket ist auf das Nachschlagen von Backup-Daten ausgelegt.
+Durchsucht werden explizite importierte Notiztitel, nicht Handschrift, Inhalte, PDFs oder Fachnamen. Sets und Marker erscheinen nur, wenn sie im Backup enthalten sind. Ein Marker-Tipp ändert nur die Anzeige.
 
-### Was ist `Beim Start automatisch laden`?
-Das ist eine Option in `Einstellungen > Einfaches Backup`.  
-Wenn sie aktiviert ist, lädt die App beim Start automatisch nur dann, wenn auf diesem iPhone ein nutzbares `Einfaches Backup` vorhanden ist.
+Ohne Audiodateien im Backup ist keine Wiedergabe möglich. Exportiere auf dem iPad mit Audio und importiere erneut. Pocket kann nicht aufnehmen, transkribieren oder KI-Zusammenfassungen erstellen.
 
-### Was ist `Manuell laden`?
-Das ist die Aktion in `Einstellungen > Einfaches Backup > Manuell laden`.  
-Damit kannst du das aktuell auf diesem iPhone erkannte `Einfaches Backup` laden.
+[Importierte Aufnahmen abspielen]({{< relref "/htu/uni-note-pocket/" >}}#recordings) →
 
----
+{{< guide-anchor "einstellungen" "welche-einstellungen-gibt-es" "was-ändert-fachbezeichnung" "gibt-es-seiten-für-anleitung-und-datenschutz" >}}
 
-## Ansicht
+## Leseposition oder Darstellung weicht ab {#help-4}
 
-### Was kann ich nach dem Import tun?
-Die Hauptfunktionen sind:
+Fortsetzen ab der letzten Position muss aktiviert sein. Sprache, Design und Fachbezeichnung stehen unter dem Zahnrad auf der Startseite. Zoome durch Pinch oder Doppeltippen. Normale Notizen scrollen vertikal, vertikale Notizbücher horizontal.
 
-- auf Home zwischen **Notizen / Fragensets** wechseln
-- über **Zuletzt verwendete Notizen** fortsetzen
-- die oberste Liste durchsuchen
-- Seiten ansehen
-- Aufnahmen abspielen, wenn das Backup Aufnahmeaudio enthält
-- Haftnotiz-Marker prüfen
+Die Bildanleitung zeigt die Schritte und lässt sich auch unter Einstellungen → Support → Anleitung öffnen.
 
-### Kann ich Notizen oder Seiten bearbeiten?
-Nein.  
-Uni:Note Pocket ist schreibgeschützt.
-
-### Kann ich Notizen erstellen, löschen oder sortieren?
-Nein.  
-Erstellung und Bearbeitung bleiben bewusst in Uni:Note.
-
-### Kann ich `Fragensets` wiederholen?
-Ja.  
-Wenn das importierte Backup in Uni:Note gespeicherte `Fragensets` enthält, kannst du sie über **Fragensets** auf Home öffnen.
-
-### Kann ich Aufnahmen abspielen?
-Ja.
-Wenn das importierte Backup Aufnahmeaudio enthält, kannst du es in der Seitenansicht von Notizen mit Aufnahmen abspielen.
-Sind mehrere Aufnahmen vorhanden, kannst du die gewünschte Aufnahme auswählen.
-
-### Was passiert, wenn das Backup kein Aufnahmeaudio enthält?
-Aufnahmen können nicht abgespielt werden, wenn das Backup die Audiodateien nicht enthält.
-In diesem Fall zeigt die App **Dieses Backup enthält die Audiodatei der Aufnahme nicht.**
-
-### Kann Uni:Note Pocket aufnehmen, transkribieren oder KI-Zusammenfassungen erstellen?
-Nein.
-Uni:Note Pocket ist für Aufnahmen nur zur Wiedergabe gedacht. Aufnahmeerstellung, Bearbeitung, Transkription und KI-Zusammenfassungen bleiben auf der Uni:Note-Seite.
-
-### Kann ich Haftnotiz-Marker sehen?
-Ja.
-Notizen mit Haftnotiz-Markern zeigen einen Hinweis, und die Marker werden auf der Seite angezeigt.
-Tippe einen Marker auf der Seite an, um zwischen normaler und blasser Darstellung zu wechseln.
-
-Uni:Note Pocket bearbeitet weder Haftnotiz-Marker noch die Lernmaske selbst.
-
-### Kann ich Seiten vergrößern?
-Ja.  
-Du kannst per Pinch-Geste oder Doppeltipp zoomen.
-
-### Kann ich an der zuletzt gelesenen Stelle fortsetzen?
-Ja.  
-Dieses Verhalten lässt sich in **An letzter Stelle fortsetzen** ein- oder ausschalten.
-
----
-
-## Einstellungen
-
-### Welche Einstellungen gibt es?
-Die wichtigsten Einstellungen sind:
-
-- **Sprache**
-- **Thema**
-- **An letzter Stelle fortsetzen**
-- **Seitliches Verrutschen verhindern**
-- **Fachbezeichnung**
-- **Einfaches Backup**
-
-### Was ändert `Fachbezeichnung`?
-Sie ändert die Bezeichnung der obersten Ebene zu **Fach / Notiz / Gruppe / Kategorie**.
-
-### Gibt es Seiten für `Anleitung` und Datenschutz?
-Ja.  
-In der App kannst du sie auch über `Einstellungen > Support > Anleitung` öffnen.  
-Siehe diese Seiten:
-
-- [Anleitung (Uni:Note Pocket)]({{< relref "/htu/uni-note-pocket/" >}})
-- [Datenschutzerklärung (Uni:Note Pocket)]({{< relref "/privacy/uni-note-pocket/" >}})
+[Notizen lesen und suchen]({{< relref "/htu/uni-note-pocket/" >}}#read) →

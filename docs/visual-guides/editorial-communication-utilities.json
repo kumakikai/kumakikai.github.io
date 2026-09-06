@@ -1,0 +1,822 @@
+{
+  "checkedAt": "2026-09-06T21:24:51.574Z",
+  "base": "http://127.0.0.1:1314",
+  "viewportHeight": 1000,
+  "rows": [
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "大きなボタンから字幕を始める",
+      "before": [
+        "テレビ、会話、グループから、使う場面のボタンをタップします。端末下側のマイクを、テレビのスピーカーや話す人の方へ向けます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/simple-mode-buttons_hu_b2246862da006cd4.webp",
+      "alt": "オトミルのシンプルモードに並ぶテレビ・会話・グループの開始ボタン",
+      "top": 1057.859375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-1440-simple-mode-buttons.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 689.53125
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "通常モードで場面を選ぶ",
+      "before": [
+        "画面上部で用途を選び、下部の字幕をはじめるをタップします。右上の歯車から設定を開けます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/mode-and-settings_hu_b7a2a8f33d9f4a9d.webp",
+      "alt": "通常モード上部のテレビ・会話・グループ・映画の切り替えと、右上の設定ボタン",
+      "top": 1947.96875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-1440-mode-and-settings.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 151.453125
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "通常モードで場面を選ぶ",
+      "before": [
+        "画面上部で用途を選び、下部の字幕をはじめるをタップします。右上の歯車から設定を開けます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/start-caption_hu_5d655d27e4bca3b2.webp",
+      "alt": "通常モード下部の字幕をはじめるボタン",
+      "top": 2143.421875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-1440-start-caption.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 138.5
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "字幕を読む・向きを変える・終了する",
+      "before": [
+        "テレビ：端末をスピーカーの近くへ置きます。横画面でも読めます。会話・グループ：端末下側のマイクを相手へ向けます。戻す / 反転で字幕の向きを切り替えます。終了：字幕を止めるをタップします。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/caption-and-controls_hu_8ab026a7b8938e51.webp",
+      "alt": "会話字幕のサンプルと、字幕を止める・反転ボタン",
+      "top": 2570.5,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-1440-caption-and-controls.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 1440,
+      "figureHeight": 457.125
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "before": [
+        "表示 > テーマ"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/display-settings_hu_ed80e9bd20b8958f.webp",
+      "alt": "表示設定の字幕の文字サイズ、高齢者向けスイッチ、テーマの切り替え",
+      "top": 3622.375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-1440-display-settings.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 517.140625
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "文字の大きさと聞き取り環境を変える",
+      "before": [
+        "字幕を止めてから、右上の歯車をタップします。",
+        "表示 > 高齢者向け：大きな開始ボタンのシンプルモードへ切り替えます。表示 > 字幕の文字サイズ：プレビューを見ながら小・中・大を選びます。表示 > テーマ：システム・ライト・ダークを切り替えます。",
+        "音声の聞き取り（感度調整） > 周囲の環境では、まずモードに合わせる（おすすめ）を使い、必要なら家の中・静かな屋外・屋外・にぎやかな場所へ変更します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/listening-environment_hu_ab12fa6c1d716248.webp",
+      "alt": "音声の聞き取り設定で周囲の環境を選ぶ項目",
+      "top": 4259.515625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-1440-listening-environment.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 273.015625
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "利用時間とPlusを確認する",
+      "before": [
+        "ホームに今日の残り時間が表示されます。無料版は基本1日15分で、広告を見て5分追加を使うと当日の時間を追加できます。追加は1日3回までです。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/free-time-and-plus_hu_fbb134de792aae6d.webp",
+      "alt": "シンプルモード下部の今日の残り無料時間、広告を見て5分追加、Plusに加入するボタン",
+      "top": 4757.109375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-1440-free-time-and-plus.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 379.640625
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "大きなボタンから字幕を始める",
+      "before": [
+        "テレビ、会話、グループから、使う場面のボタンをタップします。端末下側のマイクを、テレビのスピーカーや話す人の方へ向けます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/simple-mode-buttons_hu_b2246862da006cd4.webp",
+      "alt": "オトミルのシンプルモードに並ぶテレビ・会話・グループの開始ボタン",
+      "top": 1135.28125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-390-simple-mode-buttons.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 406.140625
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "通常モードで場面を選ぶ",
+      "before": [
+        "画面上部で用途を選び、下部の字幕をはじめるをタップします。右上の歯車から設定を開けます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/mode-and-settings_hu_b7a2a8f33d9f4a9d.webp",
+      "alt": "通常モード上部のテレビ・会話・グループ・映画の切り替えと、右上の設定ボタン",
+      "top": 1726.4375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-390-mode-and-settings.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 89.84375
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "通常モードで場面を選ぶ",
+      "before": [
+        "画面上部で用途を選び、下部の字幕をはじめるをタップします。右上の歯車から設定を開けます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/start-caption_hu_5d655d27e4bca3b2.webp",
+      "alt": "通常モード下部の字幕をはじめるボタン",
+      "top": 1850.28125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-390-start-caption.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 82.234375
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "字幕を読む・向きを変える・終了する",
+      "before": [
+        "テレビ：端末をスピーカーの近くへ置きます。横画面でも読めます。会話・グループ：端末下側のマイクを相手へ向けます。戻す / 反転で字幕の向きを切り替えます。終了：字幕を止めるをタップします。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/caption-and-controls_hu_8ab026a7b8938e51.webp",
+      "alt": "会話字幕のサンプルと、字幕を止める・反転ボタン",
+      "top": 2300.59375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-390-caption-and-controls.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 390,
+      "figureHeight": 456.640625
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "before": [
+        "表示 > テーマ"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/display-settings_hu_ed80e9bd20b8958f.webp",
+      "alt": "表示設定の字幕の文字サイズ、高齢者向けスイッチ、テーマの切り替え",
+      "top": 3482.078125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-390-display-settings.jpg",
+      "figureWidth": 300.25,
+      "viewportWidth": 390,
+      "figureHeight": 277.34375
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "文字の大きさと聞き取り環境を変える",
+      "before": [
+        "字幕を止めてから、右上の歯車をタップします。",
+        "表示 > 高齢者向け：大きな開始ボタンのシンプルモードへ切り替えます。表示 > 字幕の文字サイズ：プレビューを見ながら小・中・大を選びます。表示 > テーマ：システム・ライト・ダークを切り替えます。",
+        "音声の聞き取り（感度調整） > 周囲の環境では、まずモードに合わせる（おすすめ）を使い、必要なら家の中・静かな屋外・屋外・にぎやかな場所へ変更します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/listening-environment_hu_ab12fa6c1d716248.webp",
+      "alt": "音声の聞き取り設定で周囲の環境を選ぶ項目",
+      "top": 3906.671875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-390-listening-environment.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 161.3125
+    },
+    {
+      "app": "oto-miru",
+      "status": 200,
+      "section": "利用時間とPlusを確認する",
+      "before": [
+        "ホームに今日の残り時間が表示されます。無料版は基本1日15分で、広告を見て5分追加を使うと当日の時間を追加できます。追加は1日3回までです。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/oto-miru/free-time-and-plus_hu_fbb134de792aae6d.webp",
+      "alt": "シンプルモード下部の今日の残り無料時間、広告を見て5分追加、Plusに加入するボタン",
+      "top": 4275.3125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-oto-miru-390-free-time-and-plus.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 223.984375
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "コピーしたメールから追加する",
+      "before": [
+        "メール内の特典名・コード・期限を含む範囲をコピーします。外部特典では受取URLも使えます。ギガポケのペーストして追加をタップします。確認画面で特典内容・コードまたはURL・期限を確認し、登録します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/home-add-controls_hu_cad548ecd691bc79.webp",
+      "alt": "ギガポケのホーム右上の追加ボタンと、一覧下のペーストして追加ボタン",
+      "top": 835.515625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-1440-home-add-controls.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 416.5
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "コピーしたメールから追加する",
+      "before": [
+        "メール内の特典名・コード・期限を含む範囲をコピーします。外部特典では受取URLも使えます。ギガポケのペーストして追加をタップします。確認画面で特典内容・コードまたはURL・期限を確認し、登録します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/paste-review_hu_ee2535b2d570bb25.webp",
+      "alt": "コピーしたデモ特典の確認画面。3GB、コード、有効期限を確認して右上の登録を押す",
+      "top": 1296.015625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-1440-paste-review.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 1440,
+      "figureHeight": 378.625
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "期限と利用ボタンを確認する",
+      "before": [
+        "一覧はギガコード、外部特典の順で、それぞれ期限の近い特典から表示します。期限がない外部特典は期限情報なしと表示します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/benefit-row_hu_9db4caa67764ba02.webp",
+      "alt": "デモ用ギガコードの特典名、本日までの期限表示、povo 2.0ボタン",
+      "top": 2307.671875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-1440-benefit-row.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 125.546875
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "特典を使う",
+      "before": [
+        "特典の右側にあるボタンをタップします。",
+        "povo 2.0：コードをコピーし、povo 2.0アプリを開きます。コピー：コードをコピーします。開く：登録した外部特典のURLを開きます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/benefit-actions_hu_14fa24511cf4f4fb.webp",
+      "alt": "特典詳細のpovo 2.0で使う、ゴミ箱に移動、コードをAirDrop等で共有するボタン",
+      "top": 2765.796875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-1440-benefit-actions.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 320.84375
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "ゴミ箱から戻す・削除する",
+      "before": [
+        "初期設定では、利用ボタンの操作が成立した特典はゴミ箱へ移ります。期限を過ぎた特典も、翌日以降の起動・再表示時に整理されます。",
+        "ホームからゴミ箱を開きます。戻す場合は特典を開き、未使用に戻すを選んで確認します。削除する場合は赤いゴミ箱ボタンを押し、確認します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/trash-list_hu_daca18455d6256e9.webp",
+      "alt": "ゴミ箱内のデモ特典と、特典ごとの削除ボタン、右上のゴミ箱を空にするボタン",
+      "top": 3602.40625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-1440-trash-list.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 199.28125
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "期限の通知を設定する",
+      "before": [
+        "ホーム右上の歯車から設定を開きます。通知タイミングで通知したい日を選びます。複数選択できます。iPhoneの通知許可を求められたら許可します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/notification-settings_hu_dc6654974eca3eb5.webp",
+      "alt": "ギガポケ設定の通知タイミングの選択項目",
+      "top": 4185.453125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-1440-notification-settings.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 180.359375
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "設定と困ったときの案内",
+      "before": [
+        "設定では、povo 2.0を開く動作とゴミ箱の整理方法も変更できます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/benefit-management-settings_hu_790c2cc260412c31.webp",
+      "alt": "使用時にpovo 2.0を開く、自動でゴミ箱へ移動、自動削除の設定",
+      "top": 4972.5625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-1440-benefit-management-settings.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 318.859375
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "コピーしたメールから追加する",
+      "before": [
+        "メール内の特典名・コード・期限を含む範囲をコピーします。外部特典では受取URLも使えます。ギガポケのペーストして追加をタップします。確認画面で特典内容・コードまたはURL・期限を確認し、登録します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/home-add-controls_hu_cad548ecd691bc79.webp",
+      "alt": "ギガポケのホーム右上の追加ボタンと、一覧下のペーストして追加ボタン",
+      "top": 820.78125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-390-home-add-controls.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 245.65625
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "コピーしたメールから追加する",
+      "before": [
+        "メール内の特典名・コード・期限を含む範囲をコピーします。外部特典では受取URLも使えます。ギガポケのペーストして追加をタップします。確認画面で特典内容・コードまたはURL・期限を確認し、登録します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/paste-review_hu_ee2535b2d570bb25.webp",
+      "alt": "コピーしたデモ特典の確認画面。3GB、コード、有効期限を確認して右上の登録を押す",
+      "top": 1100.4375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-390-paste-review.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 390,
+      "figureHeight": 378.625
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "期限と利用ボタンを確認する",
+      "before": [
+        "一覧はギガコード、外部特典の順で、それぞれ期限の近い特典から表示します。期限がない外部特典は期限情報なしと表示します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/benefit-row_hu_9db4caa67764ba02.webp",
+      "alt": "デモ用ギガコードの特典名、本日までの期限表示、povo 2.0ボタン",
+      "top": 2210.265625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-390-benefit-row.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 74.625
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "特典を使う",
+      "before": [
+        "特典の右側にあるボタンをタップします。",
+        "povo 2.0：コードをコピーし、povo 2.0アプリを開きます。コピー：コードをコピーします。開く：登録した外部特典のURLを開きます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/benefit-actions_hu_14fa24511cf4f4fb.webp",
+      "alt": "特典詳細のpovo 2.0で使う、ゴミ箱に移動、コードをAirDrop等で共有するボタン",
+      "top": 2600.0625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-390-benefit-actions.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 189.421875
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "ゴミ箱から戻す・削除する",
+      "before": [
+        "初期設定では、利用ボタンの操作が成立した特典はゴミ箱へ移ります。期限を過ぎた特典も、翌日以降の起動・再表示時に整理されます。",
+        "ホームからゴミ箱を開きます。戻す場合は特典を開き、未使用に戻すを選んで確認します。削除する場合は赤いゴミ箱ボタンを押し、確認します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/trash-list_hu_daca18455d6256e9.webp",
+      "alt": "ゴミ箱内のデモ特典と、特典ごとの削除ボタン、右上のゴミ箱を空にするボタン",
+      "top": 3389.875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-390-trash-list.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 117.96875
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "期限の通知を設定する",
+      "before": [
+        "ホーム右上の歯車から設定を開きます。通知タイミングで通知したい日を選びます。複数選択できます。iPhoneの通知許可を求められたら許可します。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/notification-settings_hu_dc6654974eca3eb5.webp",
+      "alt": "ギガポケ設定の通知タイミングの選択項目",
+      "top": 3908.328125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-390-notification-settings.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 106.828125
+    },
+    {
+      "app": "giga-poke",
+      "status": 200,
+      "section": "設定と困ったときの案内",
+      "before": [
+        "設定では、povo 2.0を開く動作とゴミ箱の整理方法も変更できます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/giga-poke/benefit-management-settings_hu_790c2cc260412c31.webp",
+      "alt": "使用時にpovo 2.0を開く、自動でゴミ箱へ移動、自動削除の設定",
+      "top": 4690.453125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-giga-poke-390-benefit-management-settings.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 188.25
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "最初に役割を選ぶ",
+      "before": [
+        "本人と家族、それぞれのiPhoneでNoccaを開き、役割を選びます。",
+        "本人として使う：家族との会話や接触に負担を感じていて、自分のペースで意思を伝えたい方。家族として使う：本人からの意思表示を受け取り、必要なときに返事をする方。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/choose-role_hu_eca4e16d2bd35286.webp",
+      "alt": "Nocca初回画面の本人として使う・家族として使うボタンと役割の説明",
+      "top": 859.6875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-1440-choose-role.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 560
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "家族と接続する",
+      "before": [
+        "本人側で設定 > 家族を招待を開きます。発行された招待コードまたはリンクを家族へ共有します。家族側で招待コードを入力するからコードを入力し、接続リクエストを送ります。本人側のつながり > 接続を確認するから相手を確認し、接続するを選びます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/invite-family_hu_31741966ee337f54.webp",
+      "alt": "本人側の家族を招待画面。招待コードのコピーと招待リンクの共有ボタン",
+      "top": 1821.046875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-1440-invite-family.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 1440,
+      "figureHeight": 748.84375
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "本人から意思表示を送る",
+      "before": [
+        "意思表示で、伝えたい言葉のアイコンをタップします。たとえばご飯ほしいや今は話せないを選べます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/send-signal_hu_43a3ea219c1f0386.webp",
+      "alt": "本人側の意思表示画面。ご飯ほしい、飲み物ほしい、片付けお願いのアイコン",
+      "top": 2838.46875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-1440-send-signal.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 382.625
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "送った意思表示と返信を確認する",
+      "before": [
+        "意思表示上部の「送った意思表示」で、家族からの返信を確認します。不要になった場合は、完了前なら取り消すから取り消せます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/signal-status_hu_1dfa249e0c149eca.webp",
+      "alt": "本人側の送った意思表示。家族からの少し待ってねという返信と取り消すボタン",
+      "top": 3537.671875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-1440-signal-status.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 252.09375
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "家族から短い返信を返す",
+      "before": [
+        "家族側の受信で届いた意思表示を確認し、必要な返信を選びます。",
+        "対応：了解や少し待ってねなど、これから対応することを伝えます。完了：ドア前に置いたよやできたよなど、対応が終わったことを伝えます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/reply-options_hu_ac7da1eca0b173ab.webp",
+      "alt": "家族側の受信画面。ご飯ほしいへの対応と完了の定型返信ボタン",
+      "top": 4082.34375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-1440-reply-options.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 596.859375
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "話せるときだけ会話を開く",
+      "before": [
+        "本人側で会話 > 今だけ話すを選びます。本人・家族それぞれの会話画面で短いメッセージを送ります。本人側の閉じるで会話を終えます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/owner-talk_hu_9fe6aa4a55d4bcdc.webp",
+      "alt": "本人側の会話画面。会話を閉じる操作と短いメッセージの入力欄",
+      "top": 5038.96875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-1440-owner-talk.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 1440,
+      "figureHeight": 690.65625
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "通信を休止する",
+      "before": [
+        "本人側で設定 > 通信を休止するを開き、内容を確認します。再開するときは同じ場所から通信を再開するを選びます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/pause-communication_hu_fb0f885dc2e5adcb.webp",
+      "alt": "通信を休止する画面の説明と通信を休止するボタン",
+      "top": 6046.203125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-1440-pause-communication.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 389.609375
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "最初に役割を選ぶ",
+      "before": [
+        "本人と家族、それぞれのiPhoneでNoccaを開き、役割を選びます。",
+        "本人として使う：家族との会話や接触に負担を感じていて、自分のペースで意思を伝えたい方。家族として使う：本人からの意思表示を受け取り、必要なときに返事をする方。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/choose-role_hu_eca4e16d2bd35286.webp",
+      "alt": "Nocca初回画面の本人として使う・家族として使うボタンと役割の説明",
+      "top": 935.59375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-390-choose-role.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 330
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "家族と接続する",
+      "before": [
+        "本人側で設定 > 家族を招待を開きます。発行された招待コードまたはリンクを家族へ共有します。家族側で招待コードを入力するからコードを入力し、接続リクエストを送ります。本人側のつながり > 接続を確認するから相手を確認し、接続するを選びます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/invite-family_hu_31741966ee337f54.webp",
+      "alt": "本人側の家族を招待画面。招待コードのコピーと招待リンクの共有ボタン",
+      "top": 1741.9375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-390-invite-family.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 390,
+      "figureHeight": 748.359375
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "本人から意思表示を送る",
+      "before": [
+        "意思表示で、伝えたい言葉のアイコンをタップします。たとえばご飯ほしいや今は話せないを選べます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/send-signal_hu_43a3ea219c1f0386.webp",
+      "alt": "本人側の意思表示画面。ご飯ほしい、飲み物ほしい、片付けお願いのアイコン",
+      "top": 2776.25,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-390-send-signal.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 225.734375
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "送った意思表示と返信を確認する",
+      "before": [
+        "意思表示上部の「送った意思表示」で、家族からの返信を確認します。不要になった場合は、完了前なら取り消すから取り消せます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/signal-status_hu_1dfa249e0c149eca.webp",
+      "alt": "本人側の送った意思表示。家族からの少し待ってねという返信と取り消すボタン",
+      "top": 3332.5625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-390-signal-status.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 149
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "家族から短い返信を返す",
+      "before": [
+        "家族側の受信で届いた意思表示を確認し、必要な返信を選びます。",
+        "対応：了解や少し待ってねなど、これから対応することを伝えます。完了：ドア前に置いたよやできたよなど、対応が終わったことを伝えます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/reply-options_hu_ac7da1eca0b173ab.webp",
+      "alt": "家族側の受信画面。ご飯ほしいへの対応と完了の定型返信ボタン",
+      "top": 3811.609375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-390-reply-options.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 351.65625
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "話せるときだけ会話を開く",
+      "before": [
+        "本人側で会話 > 今だけ話すを選びます。本人・家族それぞれの会話画面で短いメッセージを送ります。本人側の閉じるで会話を終えます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/owner-talk_hu_9fe6aa4a55d4bcdc.webp",
+      "alt": "本人側の会話画面。会話を閉じる操作と短いメッセージの入力欄",
+      "top": 4519.125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-390-owner-talk.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 390,
+      "figureHeight": 690.171875
+    },
+    {
+      "app": "nocca",
+      "status": 200,
+      "section": "通信を休止する",
+      "before": [
+        "本人側で設定 > 通信を休止するを開き、内容を確認します。再開するときは同じ場所から通信を再開するを選びます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/nocca/pause-communication_hu_fb0f885dc2e5adcb.webp",
+      "alt": "通信を休止する画面の説明と通信を休止するボタン",
+      "top": 5562.1875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-nocca-390-pause-communication.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 229.828125
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "2. 記録 画面で喫煙 / 我慢を記録する",
+      "before": [
+        "中央の「記録」を開きます。吸いたいと思ったけれど吸わずに済んだときは、緑の斜線付きたばこアイコンをタップします。実際に吸ったときは、赤のたばこアイコンをタップします。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/record-buttons_hu_d396a41112a85c22.webp",
+      "alt": "すわなびの記録ボタン。左の緑が我慢、右の赤が喫煙で、各ボタン内に当日の回数を表示",
+      "top": 965.859375,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-1440-record-buttons.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 532.09375
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "3. 履歴 から当日の記録を見直す",
+      "before": [
+        "「記録」右上のレシート型アイコンをタップします。不要な記録を左へスワイプして削除します。間違えた場合は、削除直後の「取消し」をタップします。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/history_hu_4fa0c53d0df5ab95.webp",
+      "alt": "すわなびの当日履歴。時刻と我慢・喫煙のアイコンが並ぶ記録一覧",
+      "top": 1881.71875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-1440-history.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 363.703125
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "4. カレンダー で日別 / 月別 / 年別に振り返る",
+      "before": [
+        "左下の「カレンダー」を開きます。「日別」「月別」「年別」を切り替えます。日付の行をタップすると、その日の記録を確認できます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/calendar_hu_329d9aad88b4d24d.webp",
+      "alt": "すわなびのカレンダー。日別・月別・年別タブと、日付ごとの喫煙・我慢回数と金額",
+      "top": 2537.1875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-1440-calendar.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 1440,
+      "figureHeight": 341.859375
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "5. グラフ で最近の変化を見る",
+      "before": [
+        "右下の「グラフ」を開き、上部で「週」「月」「3か月」を選びます。期間表示の左右の矢印で、表示期間を切り替えられます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/chart_hu_b4a9ad1fc0344890.webp",
+      "alt": "すわなびのグラフ。週・月・3か月の切替と、我慢・喫煙・喫煙平均の推移",
+      "top": 3103.625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-1440-chart.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 1440,
+      "figureHeight": 648.921875
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "7. 設定 を調整する",
+      "before": [
+        "「記録」左上の歯車をタップします。「全般」を開き、変更したい項目を選びます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/settings_hu_7e5dc26ac6ac47b4.webp",
+      "alt": "すわなびの銘柄設定。既定銘柄の本数と価格、追加購入が必要な銘柄を追加の項目",
+      "top": 4267.296875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-1440-settings.jpg",
+      "figureWidth": 560,
+      "viewportWidth": 1440,
+      "figureHeight": 351.734375
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "before": [],
+      "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/recording-ui_hu_11c751f0b6bedddc.webp",
+      "alt": "すわなびのApple Watch実画面。左の緑が我慢、右の赤が喫煙。中央の数字は当日の件数",
+      "top": 5070.8125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-1440-recording-ui.jpg",
+      "figureWidth": 240,
+      "viewportWidth": 1440,
+      "figureHeight": 349.0625
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "2. 記録 画面で喫煙 / 我慢を記録する",
+      "before": [
+        "中央の「記録」を開きます。吸いたいと思ったけれど吸わずに済んだときは、緑の斜線付きたばこアイコンをタップします。実際に吸ったときは、赤のたばこアイコンをタップします。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/record-buttons_hu_d396a41112a85c22.webp",
+      "alt": "すわなびの記録ボタン。左の緑が我慢、右の赤が喫煙で、各ボタン内に当日の回数を表示",
+      "top": 1031.953125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-390-record-buttons.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 313.59375
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "3. 履歴 から当日の記録を見直す",
+      "before": [
+        "「記録」右上のレシート型アイコンをタップします。不要な記録を左へスワイプして削除します。間違えた場合は、削除直後の「取消し」をタップします。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/history_hu_4fa0c53d0df5ab95.webp",
+      "alt": "すわなびの当日履歴。時刻と我慢・喫煙のアイコンが並ぶ記録一覧",
+      "top": 1753.46875,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-390-history.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 214.609375
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "4. カレンダー で日別 / 月別 / 年別に振り返る",
+      "before": [
+        "左下の「カレンダー」を開きます。「日別」「月別」「年別」を切り替えます。日付の行をタップすると、その日の記録を確認できます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/calendar_hu_329d9aad88b4d24d.webp",
+      "alt": "すわなびのカレンダー。日別・月別・年別タブと、日付ごとの喫煙・我慢回数と金額",
+      "top": 2279.625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-390-calendar.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 390,
+      "figureHeight": 341.859375
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "5. グラフ で最近の変化を見る",
+      "before": [
+        "右下の「グラフ」を開き、上部で「週」「月」「3か月」を選びます。期間表示の左右の矢印で、表示期間を切り替えられます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/chart_hu_b4a9ad1fc0344890.webp",
+      "alt": "すわなびのグラフ。週・月・3か月の切替と、我慢・喫煙・喫煙平均の推移",
+      "top": 2828.8125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-390-chart.jpg",
+      "figureWidth": 320,
+      "viewportWidth": 390,
+      "figureHeight": 649.421875
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "section": "7. 設定 を調整する",
+      "before": [
+        "「記録」左上の歯車をタップします。「全般」を開き、変更したい項目を選びます。"
+      ],
+      "src": "http://127.0.0.1:1314/images/guides/smokeless/ja/settings_hu_7e5dc26ac6ac47b4.webp",
+      "alt": "すわなびの銘柄設定。既定銘柄の本数と価格、追加購入が必要な銘柄を追加の項目",
+      "top": 3955.90625,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-390-settings.jpg",
+      "figureWidth": 330,
+      "viewportWidth": 390,
+      "figureHeight": 207.578125
+    },
+    {
+      "app": "smokeless",
+      "status": 200,
+      "before": [],
+      "src": "http://127.0.0.1:1314/images/apps/smokeless/watch/recording-ui_hu_11c751f0b6bedddc.webp",
+      "alt": "すわなびのApple Watch実画面。左の緑が我慢、右の赤が喫煙。中央の数字は当日の件数",
+      "top": 4711.953125,
+      "screenshot": "docs/visual-guides/screenshots/editorial-smokeless-390-recording-ui.jpg",
+      "figureWidth": 210,
+      "viewportWidth": 390,
+      "figureHeight": 312.578125
+    }
+  ],
+  "review": "Human visual reading of all 27 figure areas in both viewport widths; see editorial-communication-utilities.md."
+}

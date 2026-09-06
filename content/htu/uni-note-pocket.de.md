@@ -3,146 +3,77 @@ title: "Anleitung (Uni:Note Pocket)"
 description: "So verwendest du Uni:Note Pocket."
 aliases:
   - /htu/uni-memo/
+lastmod: 2026-09-07
 ---
 
-Uni:Note Pocket ist eine **Begleit-App, um Uni:Note-Backups auf dem iPhone anzusehen**.  
-Sie ist keine Schreib-App. Ihre Aufgabe ist es, Backups zu laden, Notizen und `Fragensets` schreibgeschützt anzusehen und Aufnahmeaudio abzuspielen.
+Importiere ein Uni:Note-Backup auf dem iPhone, um Notizen, Haftmarker und Fragensets zu wiederholen. Pocket erstellt, bearbeitet und synchronisiert keine Notizen. Tippe Bilder zum Vergrößern an.
 
-Voraussetzungen:
+{{< guide-anchor "1-den-ersten-hinweis-lesen" "2-backup-über-das-import-symbol-auswählen" >}}
 
-- nur iPhone
-- ein in Uni:Note erstelltes Backup-ZIP oder ein `Einfaches Backup` auf diesem iPhone
-- Fokus auf Ansicht und Wiederholung, nicht auf Bearbeitung oder Sync
+## 1. Backup importieren {#import}
 
----
+1. Exportiere in Uni:Note auf dem iPad ein Backup-zip an einen Ort, den du in der Dateien-App des iPhone erreichst.
+2. Schließe den ersten Hinweis in Pocket und tippe unten rechts auf das Import-Symbol.
+3. Wähle das zip und warte auf Prüfung und Import.
 
-## 1. Den ersten Hinweis lesen
+{{< guide-image src="images/guides/uni-note-pocket/de/import-backup.png" alt="Unterer Bereich der Pocket-Startseite mit Import und Notiztitelsuche" mode="crop" >}}
 
-Beim ersten Start zeigt die App **Hinweis zu Uni:Note Pocket**.  
-Dort wird erklärt, dass Uni:Note Pocket eine Begleit-App zu Uni:Note ist und ein Uni:Note-Backup benötigt.
+Wähle die zip-Datei, ohne sie zu entpacken. Das Original bleibt unverändert. Schlägt der Import fehl, bleiben die zuvor importierten Daten erhalten.
 
----
+{{< guide-anchor "4-notizen-zuletzt-verwendete-notizen-und-fragensets-prüfen" "5-notizen-öffnen-und-seiten-ansehen" "6-in-der-seitenansicht-zoomen-und-lesen" >}}
 
-## 2. Backup über das Import-Symbol auswählen
+## 2. Notiz öffnen oder Titel suchen {#read}
 
-Nutze das Import-Symbol unten rechts auf dem Home-Bildschirm und wähle ein Backup-ZIP aus Uni:Note aus.
+Wähle unter **Notizen** ein Fach und danach eine Notiz. Über die zuletzt verwendeten Notizen kannst du direkt weiterlesen.
 
-- ZIP auswählen
-- Inhalte prüfen lassen
-- bei Erfolg Import abschließen
+{{< guide-image src="images/guides/uni-note-pocket/de/open-note.png" alt="Notizen, Fragensets und Fachliste auf der Startseite" mode="crop" >}}
 
----
+Gib einen Teil des Notiztitels ins Suchfeld ein. Die Suche umfasst alle Fächer, aber nicht Handschrift, Seiteninhalt, PDFs oder Fachnamen.
 
-## 3. `Einfaches Backup` verwenden
+{{< guide-image src="images/guides/uni-note-pocket/de/search-notes.png" alt="Suchfeld für Notiztitel in Pocket" mode="crop" >}}
 
-Wenn dieses iPhone bereits ein `Einfaches Backup` von Uni:Note enthält, kann die App fragen, ob du es sofort laden möchtest.
+Normale Notizen werden vertikal gescrollt. Zoome mit zwei Fingern oder Doppeltippen. Vertikale Notizbücher blättern horizontal. Aktiviere in den Einstellungen das Fortsetzen ab der letzten Position, um zur zuletzt gelesenen Seite zurückzukehren.
 
-In `Einstellungen > Einfaches Backup` kannst du Folgendes prüfen:
+{{< guide-image src="images/guides/uni-note-pocket/de/page-review.png" alt="Fortlaufende Seiten und Zoom in Pocket" mode="screen" >}}
 
-- **Zuletzt aktualisiert**
-- **Beim Start automatisch laden**
-- **Manuell laden**
+{{< guide-anchor "8-fragensets-wiederholen" "9-haftnotiz-marker-prüfen" >}}
 
-Wenn **Beim Start automatisch laden** eingeschaltet ist, lädt die App nur dann automatisch, wenn auf diesem iPhone ein nutzbares `Einfaches Backup` vorhanden ist.
+## 3. Haftmarker und Fragensets wiederholen {#review}
 
----
+Tippe auf einen Haftmarker, um zwischen normaler und schwacher Anzeige zu wechseln und die Antwort zu prüfen. Erstellen und Bearbeiten erfolgen in Uni:Note auf dem iPad.
 
-## 4. `Notizen`, `Zuletzt verwendete Notizen` und `Fragensets` prüfen
+{{< guide-image src="images/guides/uni-note-pocket/de/sticky-review.png" alt="Haftmarker beim Wiederholen importierter Notizen" mode="crop" >}}
 
-Nach dem Import zeigt der Hauptbildschirm:
+Enthält das Backup Fragensets, öffne sie über die Startseite. Denke zunächst mit verdeckter Antwort nach, tippe zum Aufdecken und blättere mit **Zurück** oder **Weiter**. Pocket generiert oder bearbeitet keine Sets.
 
-- eine Umschaltung zwischen **Notizen** und **Fragensets**
-- die oberste Liste mit Notizzahlen
-- eine **Zuletzt verwendete Notizen**-Sektion zum schnellen Fortsetzen
-- eine **Fragensets**-Sektion, wenn das importierte Backup gespeicherte Sets enthält
-- Hinweise für Notizen mit Aufnahmeaudio oder Haftnotiz-Markern
+{{< guide-image src="images/guides/uni-note-pocket/de/practice-answer.png" alt="Frage und Antwort mit Zurück/Weiter" mode="screen" >}}
 
-Die Bezeichnung der obersten Ebene richtet sich nach **Fachbezeichnung** in den Einstellungen.
+{{< guide-anchor "7-aufnahmen-abspielen" >}}
 
----
+## 4. Importierte Aufnahmen hören {#recordings}
 
-## 5. `Notizen` öffnen und Seiten ansehen
+1. Öffne eine Notiz mit Aufnahmedaten.
+2. Tippe in der Seitenansicht auf die Aufnahmewiedergabe. Bei mehreren Aufnahmen wählst du aus der Liste.
+3. Nutze Wiedergabe/Pause, Position und Geschwindigkeit.
 
-Wenn du einen Eintrag der obersten Ebene öffnest, gelangst du in die Liste **Notizen** und kannst auswählen, was du ansehen möchtest.
+Nur im Backup enthaltene Audiodateien können abgespielt werden. Aufnehmen, Transkribieren und KI-Zusammenfassen erfolgen in Uni:Note auf dem iPad.
 
-- Notizliste öffnen
-- Notiz auswählen
-- Seiten in einem vertikalen Fluss ansehen
-- Aufnahmen in der Seitenansicht abspielen, wenn die Notiz Aufnahmeaudio enthält
+{{< guide-anchor "10-einstellungen-anpassen" >}}
 
-Uni:Note Pocket ist schreibgeschützt und benennt daher keine Notizen um und bearbeitet keine Seiten.
+## 5. Leseeinstellungen anpassen {#settings}
 
----
+Öffne das Zahnrad oben rechts auf der Startseite. Ändere Sprache, Design, Fortsetzen oder Schutz vor horizontalem Verrutschen. Die oberste Ebene kann Fach, Notiz, Gruppe oder Kategorie heißen.
 
-## 6. In der Seitenansicht zoomen und lesen
+Der Schutz vor horizontalem Verrutschen stabilisiert normales vertikales Lesen. Notizinhalte werden nicht verändert.
 
-In der Seitenansicht konzentrierst du dich auf die importierten Inhalte.
+{{< guide-anchor "3-einfaches-backup-verwenden" "11-später-ein-neueres-backup-laden" >}}
 
-- per Pinch hinein- oder herauszoomen
-- per Doppeltipp zoomen
-- mit vertikalem Scrollen durch die Seiten bewegen
+## 6. Ein neueres Backup laden {#refresh}
 
----
+Erstelle nach Änderungen auf dem iPad ein neues Backup und importiere es erneut. Ist ein einfaches Backup verfügbar, öffne **Einstellungen → Einfaches Backup**.
 
-## 7. Aufnahmen abspielen
+1. Tippe rechts neben der letzten Aktualisierung auf das Aktualisierungssymbol, um die iCloud-Datei erneut zu prüfen.
+2. Prüfe das Datum und lade dann manuell.
+3. Aktiviere bei Bedarf das automatische Laden beim Start.
 
-Wenn das Backup Aufnahmeaudio enthält, erscheint in der Seitenansicht von Notizen mit Aufnahmen eine Aufnahme-Schaltfläche.
-
-- über **Aufnahme abspielen** starten
-- bei mehreren Aufnahmen unter **Aufnahmen** auswählen
-- Wiedergabe / Pause, Stopp, Wiedergabeposition und Wiedergabegeschwindigkeit steuern
-
-Uni:Note Pocket spielt Aufnahmen nur ab. Aufnahmeerstellung, Bearbeitung, Transkription und KI-Zusammenfassungen bleiben auf der Uni:Note-Seite.
-Wenn das Backup die Audiodatei der Aufnahme nicht enthält, kann sie nicht abgespielt werden.
-
----
-
-## 8. `Fragensets` wiederholen
-
-Wenn das importierte Backup in Uni:Note gespeicherte `Fragensets` enthält, kannst du sie über **Fragensets** auf Home öffnen.
-
-- gespeicherte Fragen und Antworten ansehen
-- den gespeicherten Satz an einer Stelle durchgehen
-- Erstellung und Bearbeitung auf der Uni:Note-Seite lassen
-
----
-
-## 9. Haftnotiz-Marker prüfen
-
-In der Notizliste zeigen Notizen mit Haftnotiz-Markern einen Hinweis.
-Beim Öffnen der Seite werden die Marker im Haftnotiz-Marker-Stil von Uni:Note v3.0.0 auf der Seite angezeigt.
-
-- Marker antippen, um zwischen normaler und blasser Darstellung zu wechseln
-- ältere Lernmasken werden beim Öffnen der Notiz automatisch in Haftnotiz-Marker umgewandelt
-
-Uni:Note Pocket bearbeitet weder Haftnotiz-Marker noch die Lernmaske selbst.
-
----
-
-## 10. Einstellungen anpassen
-
-In `Einstellungen` kannst du vor allem Folgendes ändern:
-
-- **Sprache**
-- **Thema**
-- **An letzter Stelle fortsetzen**
-- **Seitliches Verrutschen verhindern**
-- **Fachbezeichnung**
-- **Einfaches Backup**
-
-Mit **Fachbezeichnung** stellst du die oberste Bezeichnung auf **Fach / Notiz / Gruppe / Kategorie** um.
-
----
-
-## 11. Später ein neueres Backup laden
-
-Wenn du in Uni:Note ein neueres Backup erstellt hast, nutze in Uni:Note Pocket erneut das Import-Symbol unten rechts auf dem Home-Bildschirm.  
-Wenn du `Einfaches Backup` nutzt, kannst du auch `Einstellungen > Einfaches Backup > Manuell laden` verwenden.
-
-Die App wechselt nur dann auf die neue Version, wenn die neue ZIP-Datei die Prüfung besteht.  
-Falls die Prüfung scheitert, bleiben die bisherigen Daten erhalten und es erscheint nur ein Fehler.
-
-Verwandte Seiten:
-
-- [FAQ (Uni:Note Pocket)]({{< relref "/faq/uni-note-pocket/" >}})
-- [Datenschutzerklärung (Uni:Note Pocket)]({{< relref "/privacy/uni-note-pocket/" >}})
+Das Symbol prüft den Dateistand. Ist eine neuere Datei noch nicht angekommen, bleibt das Datum gleich. Es gibt keine Echtzeitsynchronisierung und kein Zurückschreiben auf das iPad.

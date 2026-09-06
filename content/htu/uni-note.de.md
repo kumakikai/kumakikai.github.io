@@ -1,356 +1,116 @@
 ---
 title: "Anleitung (Uni:Note)"
 description: "Anleitung für Uni:Note."
+lastmod: 2026-09-07
 ---
 
-Uni:Note ist eine iPad-Notiz-App, die für handschriftliche Eingaben mit dem Apple Pencil entwickelt wurde.  
-Du kannst Inhalte nach Fächern trennen und jede Lehrveranstaltung in einer eigenen Notiz organisieren.
+Diese echten App-Bildschirme zeigen die wichtigsten Schritte in Uni:Note 3.4.0. Bilder lassen sich durch Antippen vergrößern. Schreibe mit dem Apple Pencil; mit den Fingern scrollst du und bewegst Anhänge.
 
-Unterstützte Nutzung:
+{{< guide-anchor "1-fächer-und-ordner-auf-der-startseite-organisieren" "2-die-erste-notiz-öffnen" >}}
 
-- nur iPad
-- Handschrift ist auf den Apple Pencil ausgelegt
-- Fingerbedienung wird hauptsächlich für das Scrollen und das Bewegen angehefteter Materialien verwendet
-- unterstützte Sprachen: `Japanisch / Englisch / Koreanisch / Deutsch / Traditionelles Chinesisch / Französisch`
+## 1. Fach und erste Notiz erstellen {#create}
 
----
+1. Tippe unten rechts auf der Startseite auf **+** und wähle **Neues Fach**.
 
-## `Split View`, `Slide Over` und zwei Bereiche verwenden
+{{< guide-image src="images/guides/uni-note/de/create-menu.png" alt="Neues Fach und Ordner erstellen im Plus-Menü der Startseite" mode="crop" caption="Das Menü nach dem Tippen auf + unten rechts." >}}
 
-Uni:Note unterstützt die iPad-Mehrfensteranzeige.
+2. Wähle Name, Lineatur, Papier- und Umschlagfarbe.
+3. Öffne das Fach und benenne die erste Notiz. Ohne Namen wird das heutige Datum verwendet.
 
-- Öffne zuerst Uni:Note und blende das Dock ein
-- Ziehe eine andere App oder Uni:Note an den Rand des Bildschirms für `Split View`
-- Lege eine andere App oder Uni:Note als schwebendes Fenster für `Slide Over` ab
+Über dasselbe + erstellst du Ordner. Ziehe Fächer hinein. Beim Löschen eines Ordners bleiben die Fächer erhalten. Halte ein Fach gedrückt, um Namen und Papier zu ändern.
 
-Wenn du zwei Uni:Note-Fenster gleichzeitig verwenden willst, öffne zuerst das erste Fenster, halte dann das Uni:Note-Symbol im Dock gedrückt und wähle den Eintrag zum Öffnen eines neuen Fensters.  
-Nach dem Öffnen des zweiten Fensters kannst du es nebeneinander als zweibereichiges `Split View` oder schwebend als `Slide Over` verwenden.
+{{< guide-anchor "3-mit-dem-apple-pencil-schreiben" "4-mit-zwei-fingern-zoomen" "5-werkzeuge-wechseln" "9-lineal-verwenden" >}}
 
-Die genaue Oberfläche und die Bezeichnungen können je nach iPadOS-Version leicht abweichen.
+## 2. Werkzeug wählen und schreiben {#write}
 
----
+1. Wähle Stift, Textmarker oder Radierer in der Palette.
+2. Schreibe mit dem Apple Pencil. Ziehe zwei Finger auseinander oder zusammen zum Zoomen.
+3. Beim Schreiben auf der letzten Seite wird eine weitere angelegt.
 
-## 1. Fächer und Ordner auf der Startseite organisieren
+{{< guide-image src="images/guides/uni-note/common/writing-tools.png" alt="Palette mit Stift, Marker, Radierer, Haftmarker und Rückgängig" mode="crop" >}}
 
-Erstelle über die Schaltfläche `+` auf der Startseite ein neues Fach.
+Die Palette lässt sich verschieben. Blende das Lineal oben ein, bewege oder drehe es mit den Fingern und zeichne mit dem Pencil daran entlang. Die Bereichsverschiebung bewegt ganze handschriftliche Striche; Fotos, PDFs und Haftmarker werden einzeln bewegt. Vertikale Notizbücher blättern horizontal. Die Ausrichtung lässt sich nach dem Erstellen nicht ändern.
 
-- Fachname
-- Papierstil: liniert / vertikal / kariert / blanko
-- `Papierfarbe`
-- Coverfarbe
-- `Als Hochformat-Notizbuch verwenden`, wenn `Vertikal` gewählt ist
+{{< guide-anchor "6-notizliste-und-seiten-verwenden" >}}
 
-Das Fach wird zur Startseite hinzugefügt.  
-Tippe darauf, um seine Notizen zu öffnen.
+## 3. Notizen wechseln und suchen {#find}
 
-Wenn `Als Hochformat-Notizbuch verwenden` aktiviert ist, gilt:
+Gib auf der Startseite einen Teil des Notiztitels in die Suche ein und tippe auf ein Ergebnis. Handschrift, Seiteninhalt, PDFs und Fachnamen werden nicht durchsucht.
 
-- im Querformat: Darstellung ähnlich einer Doppelseite
-- im Hochformat: jeweils eine Seite
-- Scrollrichtung: horizontal
+{{< guide-image src="images/guides/uni-note/de/home-search.png" alt="Suche nach Notiztiteln auf der Startseite" mode="crop" >}}
 
-Nach dem Erstellen kannst du ein Fach auf der Startseite gedrückt halten und `Bearbeiten` öffnen.  
-Fachname, Papierstil, Papierfarbe und Coverfarbe lassen sich später ändern, die Ausrichtung des Notizbuchs jedoch nicht.
+Über **Notizliste** in der Notiz wechselst du innerhalb des Fachs oder erstellst eine neue Notiz. Wische nach links für Umbenennen, Schutz oder Löschen. Unter **Seiten** springst du per Miniatur zur Seite; langes Drücken öffnet das Löschen.
 
-Auf der Startseite kannst du Fächer neu sortieren oder mit Ordnern organisieren.
+**Vor Veröffentlichung von 3.5.0:** Der direkte Zugang zur Notizliste auf der Fachkarte und anpassbare Werkzeugleisten sind Funktionen der kommenden Version. In der veröffentlichten 3.4.0 gelten die oben beschriebenen Wege innerhalb der Notiz.
 
-Wichtige Ordnerfunktionen:
+{{< guide-anchor "7-mehr-verwenden" "8-fotos-und-pdfs-verwenden" >}}
 
-- Über die `+`-Schaltfläche auf der Startseite einen Ordner erstellen
-- Ordnername, Farbe und enthaltene Fächer auswählen
-- Ein Fach per Drag-and-drop in einen Ordner verschieben
-- Einen Ordner antippen, um seine Fächer in einem Popup auf der Startseite zu öffnen
-- Fächer innerhalb eines Ordners neu sortieren
-- Beim Löschen eines Ordners werden die enthaltenen Fächer nicht gelöscht. Sie kehren auf die Startseite zurück
+## 4. Fotos und PDFs einfügen oder exportieren {#pdf}
 
----
+1. Öffne **Mehr** oben rechts in der Notiz.
+2. Wähle Foto, Dokumentfoto oder PDF.
+3. Wähle die einzufügenden PDF-Seiten. Doppelseiten lassen sich beim Einfügen teilen.
 
-## 2. Die erste Notiz öffnen
+{{< guide-image src="images/guides/uni-note/de/attachment-menu.png" alt="Menü für Foto, Dokumentfoto, PDF-Anhang und PDF-Export" mode="crop" >}}
 
-Wenn du ein neues Fach zum ersten Mal öffnest, erscheint die Eingabe für den Titel der ersten Notiz.
+{{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Vorlesungs-PDF mit Handschrift in Uni:Note" mode="tablet" >}}
 
-- starte mit `OK` oder `Direkt schreiben`
-- der Titel ist optional
-- wenn du nichts eingibst, wird das heutige Datum als Titel verwendet
-- wenn du ohne Bestätigung zurückgehst, wird die erste Notiz nicht behalten
+Wähle den Anhang mit dem Finger zum Verschieben oder Skalieren. Mit Doppeltippen fixierst oder löst du ihn; anschließend kannst du mit dem Apple Pencil darauf schreiben. Über **Mehr → PDF exportieren** teilst du die Notiz oder das gesamte Fach. Als Hintergrund ist Papierfarbe oder Weiß wählbar.
 
-Danach öffnet das Fach wieder die letzte Notiz, an der du geschrieben hast.
+{{< guide-anchor "10-aufnahme-transkription-und-ki-zusammenfassung-verwenden" >}}
 
----
+## 5. Eine Vorlesung aufnehmen {#recording}
 
-## 3. Mit dem Apple Pencil schreiben
+1. Tippe auf das Mikrofon oberhalb der Notiz.
+2. Starte über den roten Aufnahmeknopf; bei Bedarf pausieren und fortsetzen.
+3. Stoppe zum Speichern und wähle die Aufnahme zur Wiedergabe.
 
-- Handschrift ist für den Apple Pencil gedacht
-- normale Notizbücher werden vertikal als fortlaufender Ablauf angezeigt
-- wenn du auf der letzten Seite zu schreiben beginnst, wird automatisch die nächste Seite hinzugefügt
-- Eine Notiz kann bis zu `150` Seiten haben
-- Hochformat-Notizbücher werden im Hochformat seitenweise horizontal weitergeblättert
+{{< guide-image src="images/guides/uni-note/common/record-button.png" alt="Sprache und roter Aufnahmeknopf im Aufnahmebereich" mode="crop" caption="Im Beispiel ist Englisch als Aufnahmesprache gewählt." >}}
 
-Die App ist darauf ausgelegt, eine Notiz zu öffnen und direkt loszuschreiben.
+Aufnahme, Wiedergabe und Transkriptansicht benötigen Premium. Nach 30 Minuten wird geteilt; pro Notiz sind fünf Aufnahmen möglich. Vor Startseite oder Ruhezustand stoppen und speichern. Unterstützte Geräte mit iPadOS 26 können währenddessen transkribieren. Die Sprache steht unter **Einstellungen → Lernhilfe → Aufnahmeunterstützung**. KI-Zusammenfassungen nutzen Transkripttext und KI-Guthaben; prüfe den geschätzten Verbrauch vorab.
 
----
+{{< guide-anchor "11-lernfunktion-verwenden" "12-aufgabenassistent-verwenden" "13-aufgabenset-erstellen-verwenden" >}}
 
-## 4. Mit zwei Fingern zoomen
+## 6. Mit Haftmarkern und Aufgabensets lernen {#review}
 
-Auf der Notizseite kannst du mit zwei Fingern hinein- und herauszoomen.
+Aktiviere die Lernfunktion in den Einstellungen. Wähle den Haftmarker, verdecke Text mit dem Apple Pencil und tippe mit dem Finger auf den Marker zum Ein- oder Ausblenden. Zum Löschen hältst du den Marker gedrückt und tippst auf die eingeblendete Löschtaste.
 
-Wenn das Zoomen beim Schreiben oder beim Anpassen von Foto, Dokumentfoto oder PDF schwer auszulösen ist, nimm die Finger kurz vom Bildschirm und versuche es erneut.
+{{< guide-image src="images/guides/uni-note/common/sticky-marker.png" alt="Haftmarker verdecken Antworten in der Vorlesungsnotiz" mode="crop" >}}
 
----
+Aktiviere den Aufgabenassistenten, wähle dessen Schaltfläche in der Notiz, umkreise eine Aufgabe mit dem Pencil und prüfe den Bereich, bevor du eine Antwort anforderst.
 
-## 5. Werkzeuge wechseln
+Um das Ergebnis an eine andere App zu übergeben, tippe oben rechts im Ergebnisfenster auf Kopieren (links) oder Teilen (rechts).
 
-In der Palette kannst du wechseln zwischen:
+{{< guide-image src="images/guides/uni-note/de/problem-answer.png" alt="Kopieren links und Teilen rechts im Ergebnisfenster" mode="crop" >}}
 
-- `Stift`
-- `Textmarker`
-- `Strich`
-- `Pixel`
-- `Haftnotiz-Marker`
-- `Zurück`
-- `Erneut`
+Über **Mehr → Aufgabenset erstellen** wählst du Seiten, behältst oder verwirfst Vorschläge und speicherst das Set. Öffne die Aufgabensets auf der Startseite zur Wiederholung. KI-Antworten und Generierung nutzen KI-Guthaben; gleiche Ergebnisse mit deinen Unterlagen ab.
 
-Über die Schaltflächen oben auf der Notizseite öffnest du:
+**Vor Veröffentlichung von 3.5.0:** Manuelle Sets, nachträgliche Bearbeitung und das Ausblenden der Set-Umschaltung gehören zur kommenden Version. In 3.4.0 gilt der oben beschriebene Ablauf.
 
-- `Lineal`
-- `Bereich bewegen`
-- `Aufgabenassistent`
-- `Aufnahme`
+{{< guide-anchor "14-notizen-schützen-und-papierkorb-verwenden" >}}
 
-Hinweise:
+## 7. Schützen, löschen und wiederherstellen {#protect}
 
-- Du kannst die Palette per Drag-and-drop verschieben
-- Der Stift unterstützt `Bleistift`, `Kuli` und `Filzstift`
-- Farbe und Breite des Stifts lassen sich ändern
-- Beim Textmarker lassen sich Farbe, Breite und Deckkraft ändern
-- Der Radierer unterstützt Strichradierer, Pixelradierer und `Seite leeren`
-- `Seite leeren` ist nur bei 100 % Zoom verfügbar und löscht nur die Handschrift auf der aktuellen Seite. Fotos, PDFs und Haftnotiz-Marker bleiben erhalten
-- Farbe und Breite des Haftnotiz-Markers lassen sich ändern
-- `Haftnotiz-Marker` erscheint in der Palette, wenn er unter `Einstellungen > Lernhilfe` aktiviert wurde
-- `Aufgabenassistent` erscheint oben auf der Notizseite, wenn er unter `Einstellungen > Lernhilfe` aktiviert wurde
-- `Bereich bewegen` ist eine Premium-Funktion
-- Im `Linkshänder-Modus` kannst du die Standardposition der Palette ändern
+**Schützen** in der Notizliste verhindert Schreibänderungen. In den Einstellungen kannst du biometrische Prüfung beim Aufheben aktivieren.
 
-So verwendest du `Bereich bewegen`:
+Gelöschte Fächer und Notizen lassen sich im Papierkorb der Startseite wiederherstellen. Beim Löschen eines Ordners bleiben seine Fächer erhalten. Gelöschte Seiten, Aufgabensets und endgültig geleerte Papierkorbobjekte sind nicht wiederherstellbar. Die einzige Seite einer Notiz wird beim Löschen geleert.
 
-- `Bereich bewegen` oben auf der Notizseite wählen
-- den zu verschiebenden handschriftlichen Bereich mit dem Apple Pencil einkreisen
-- die ausgewählte Handschrift ziehen
+{{< guide-anchor "15-einstellungen-und-backups" >}}
 
-Jede Linie, die auch nur teilweise im umrandeten Bereich liegt, wird vollständig ausgewählt.
-Dies betrifft handschriftliche Linien. Fotos, PDFs und Haftnotiz-Marker werden separat bearbeitet.
+## 8. Ein Backup sichern {#backup}
 
----
+1. Öffne das Zahnrad auf der Startseite und **Einstellungen → Backup**.
+2. Aktiviere vor dem Export die Aufnahmeaudiodateien, wenn du sie in Pocket hören möchtest.
+3. Exportiere ein Backup an den gewünschten Ort.
 
-## 6. `Notizliste` und `Seiten` verwenden
+{{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Backup exportieren und Aus Datei wiederherstellen in den Uni:Note-Einstellungen" mode="crop" caption="Japanische Oberfläche: Die obere Zeile exportiert ein Backup, die untere stellt eine gespeicherte Datei wieder her." >}}
 
-Öffne links oben die **Notizliste**.
+Aktualisieren und Wiederherstellen des einfachen Backups benötigen Premium. Dabei wird eine iCloud-Datei gespeichert oder geladen; es ist keine automatische Notizsynchronisierung. Wähle eine zip-Datei zum Wiederherstellen und öffne die App danach gemäß Hinweis erneut. Sprache, Linkshänderoptionen und Fachbezeichnung stehen ebenfalls in den Einstellungen.
 
-- Mit `Neue Notiz` fügst du im selben Fach eine weitere Notiz hinzu
-- Der Titel einer neuen Notiz ist ebenfalls optional
-- Wenn du ihn leer lässt, wird das heutige Datum verwendet
-- Wische in der Notizliste nach links, um eine Notiz umzubenennen, zu `Schützen` oder zu löschen
-- Du kannst Notizen in der Notizliste neu sortieren
+{{< guide-anchor "split-view-slide-over-und-zwei-bereiche-verwenden" >}}
 
-Öffne **Seiten**, um die Vorschaubilder innerhalb der aktuellen Notiz zu prüfen.
+## Zwei iPad-Fenster verwenden {#windows}
 
-- Tippe auf ein Vorschaubild, um zu dieser Seite zu wechseln
-- Halte eine Seite gedrückt, um sie zu löschen
+Ordne Uni:Note über die iPad-Fenstersteuerung neben einem Dokument oder Video an. Auch zwei Uni:Note-Fenster sind möglich.
 
-Hat eine Notiz nur eine Seite, bleibt die Seite erhalten und nur ihr Inhalt wird gelöscht.
-
----
-
-## 7. `Mehr` verwenden
-
-Das Menü `Mehr` enthält folgende Aktionen:
-
-- `Foto anheften`
-- `Foto als Dokument anheften`
-- `PDF anheften`
-- `PDF exportieren`
-- `Aufgabenset erstellen`
-
-`Lineal`, `Bereich bewegen`, `Aufgabenassistent` und `Aufnahme` öffnest du über die Schaltflächen oben auf der Notizseite.
-
----
-
-## 8. Fotos und PDFs verwenden
-
-Wähle in `Mehr` die Option `Foto anheften`.
-
-- Mit den Fingern verschieben oder skalieren
-- Doppeltippen, um zu sperren oder zu entsperren
-- Gedrückt halten, um zu löschen
-
-Wähle in `Mehr` die Option `Foto als Dokument anheften`.
-
-- Wähle ein Foto aus Kamera oder Mediathek
-- Passe den Dokumentbereich in der Korrekturansicht an und bestätige
-- Danach kannst du es per Doppeltipp sperren oder entsperren und mit den Fingern Position und Größe anpassen
-
-Wähle in `Mehr` die Option `PDF anheften`.
-
-- Du kannst eine oder mehrere Seiten aus der PDF-Datei auswählen
-- Mit `Doppelseite teilen` kannst du eine Doppelseite in der Mitte aufteilen
-- Mehrere PDF-Seiten lassen sich in einem Schritt anheften
-- Du kannst mehrere PDFs auf derselben Seite anheften
-- Danach kannst du jedes PDF auswählen und verschieben, skalieren, drehen, sperren oder löschen
-
-Wähle in `Mehr` die Option `PDF exportieren`.
-
-Du kannst Folgendes exportieren:
-
-- `Nur diese Notiz`
-- das gesamte Fach
-
-Fotos, PDFs, Haftnotiz-Marker und Handschrift auf den Seiten werden beim PDF-Export berücksichtigt.
-Unter `PDF-Export-Hintergrundfarbe` kannst du den Hintergrund auf `Papier` oder `Weiß` stellen.
-
----
-
-## 9. `Lineal` verwenden
-
-Tippe oben auf der Notizseite auf **Lineal**, um das Lineal einzublenden.
-
-- Du kannst das Lineal mit den Fingern verschieben oder drehen
-- Wenn du mit dem Apple Pencil nahe am Lineal schreibst, werden gerade Linien korrigiert
-- Tippe erneut auf **Lineal**, um es auszublenden
-
-Mit dem Lineal gezeichnete Linien bleiben als normale Handschrift in der Notiz.
-
----
-
-## 10. Aufnahme, Transkription und KI-Zusammenfassung verwenden
-
-Tippe oben auf der Notizseite auf **Aufnahme**, um das Aufnahmepanel zu öffnen.
-Aufnahme, Wiedergabe und das Anzeigen von Transkriptionen sind **Premium**-Funktionen.
-
-Grundfunktionen:
-
-- Mit **Aufnahme** starten
-- Mit **Pause** / **Fortsetzen** unterbrechen, ohne die Aufnahme zu beenden
-- Mit **Stopp** speichern
-- Eine gespeicherte Aufnahme auswählen und wiedergeben
-- Bei Bedarf umbenennen, sperren, löschen oder Audio teilen
-
-Eine Notiz kann bis zu `5` Aufnahmen enthalten.
-Eine Aufnahmedatei kann maximal 30 Minuten lang sein. Wenn eine Aufnahme 30 Minuten erreicht, speichert Uni:Note diese Aufnahme automatisch und startet die nächste.
-Automatisch geteilte Aufnahmen zählen zum Limit von `5` Aufnahmen pro Notiz.
-Wenn du während einer Aufnahme zu Uni:Note Home zurückkehrst oder das iPad in den Ruhezustand wechselt, wird die Aufnahme an diesem Punkt beendet und gespeichert.
-Dieses Verhalten während einer Aufnahme kann die Aufnahmedaten beschädigen. Beende und speichere die Aufnahme, bevor du die Notiz verlässt oder das iPad in den Ruhezustand versetzt.
-
-Auf Basis der von Apple unterstützten Transkriptionsmodelle sind Echtzeit-Transkription und KI-Zusammenfassung mit iPadOS 26 oder neuer auf iPad mini (6. Generation oder neuer), iPad (10. Generation oder neuer), iPad Air (4. Generation oder neuer), 11-Zoll-iPad Pro (3. Generation oder neuer), 12,9-Zoll-iPad Pro (5. Generation oder neuer) und 13-Zoll-iPad Pro (M4 oder neuer) verfügbar.
-Auf unterstützten Geräten kann während der Aufnahme eine Echtzeit-Transkription angezeigt werden.
-Transkriptionssprache und Standardformat für KI-Zusammenfassungen änderst du unter `Einstellungen > Lernhilfe > Aufnahmeunterstützung`.
-
-Die KI-Zusammenfassung wird aus dem während der Aufnahme erstellten Transkriptionstext erzeugt.
-Audiodateien werden dafür nicht gesendet. Für KI-Zusammenfassungen ist **KI-Guthaben** erforderlich.
-
-Für KI-Zusammenfassungen kannst du ein Format für Lernen oder Besprechungen wählen. Wenn mehrere Aufnahmen ausgewählt sind, bleiben die Aufnahmegrenzen erhalten. Vor dem Start kannst du Anzahl der Aufnahmen, Zeichenanzahl und geschätzten KI-Verbrauch prüfen.
-
----
-
-## 11. `Lernfunktion` verwenden
-
-Aktiviere zuerst in `Einstellungen > Lernhilfe` die `Lernfunktion`.
-
-Danach erscheint auf der Notizseite in der Palette der `Haftnotiz-Marker`.
-
-- Wähle `Haftnotiz-Marker`
-- Markiere mit dem Apple Pencil den Bereich, den du verdecken willst
-- Jeder Strich wird als eine Haftnotiz gespeichert
-- Tippe eine Haftnotiz mit dem Finger an, um zwischen transparent und deckend zu wechseln
-- Halte eine Haftnotiz mit dem Finger gedrückt und lösche sie dann über die angezeigte Löschtaste
-
-Alte Lernmarker aus früheren Versionen werden beim Öffnen der Seite zu Haftnotiz-Markern migriert.
-
----
-
-## 12. `Aufgabenassistent` verwenden
-
-Aktiviere zuerst `Aufgabenassistent` unter `Einstellungen > Lernhilfe`.
-
-Danach erscheint `Aufgabenassistent` oben auf der Notizseite.
-
-So verwendest du ihn:
-
-- `Aufgabenassistent` oben auf der Notizseite auswählen
-- Die Aufgabe mit dem Apple Pencil als geschlossene Form einkreisen
-- Den angezeigten Bereich prüfen
-- `Lösen` wählen
-- Antwort und Erklärung ansehen
-
-Auf der Ergebnisansicht kannst du Antwort und Erklärung kopieren oder teilen.
-
-Die Funktion ist vor allem für Formeln, Rechenaufgaben und kurze Fragen gedacht.
-Lange Lesetexte, freie Antworten und stark grafische Aufgaben werden möglicherweise nicht unterstützt.
-
-Für die Nutzung ist **KI-Guthaben** erforderlich. Wenn es nicht ausreicht, kannst du in der App weiteres KI-Guthaben hinzufügen.
-
----
-
-## 13. `Aufgabenset erstellen` verwenden
-
-Öffne `Aufgabenset erstellen` über `Mehr`.
-
-Für das Erstellen von Aufgabensets ist **KI-Guthaben** erforderlich.
-
-Ablauf:
-
-- Wähle die Zielseiten mit `Seiten auswählen`
-- Starte mit `Aufgabenset erstellen`
-- Prüfe Kandidaten mit `Hinzufügen` und `Verwerfen`
-- Speichere sie mit `Als Aufgabenset speichern`
-
-Nach dem Speichern kannst du direkt über `Jetzt wiederholen` fortfahren.  
-Wenn du später darauf zurückkommen willst, wechsle auf der Startseite zu `Aufgabensammlungen` und öffne sie dort aus der Liste.
-
-Aufgabensets können von der Startseite gelöscht werden, landen aber nicht im Papierkorb und lassen sich nicht wiederherstellen.
-
----
-
-## 14. Notizen schützen und `Papierkorb` verwenden
-
-- Wenn du in der `Notizliste` `Schützen` wählst, wird die Notiz schreibgeschützt
-- In den Einstellungen kannst du Biometrie zum Aufheben des Schutzes verlangen
-- Der `Papierkorb` auf der Startseite gruppiert gelöschte Inhalte nach Fach
-- Du kannst ein ganzes Fach oder nur bestimmte Notizen wiederherstellen
-- Gelöschte Seiten landen nicht im Papierkorb und werden sofort entfernt
-- Elemente, die im Papierkorb endgültig gelöscht wurden, können nicht rückgängig gemacht werden
-
----
-
-## 15. Einstellungen und Backups
-
-Die Einstellungen sind in eine Premium-Karte und Kategorien unterteilt.
-
-Wichtige Kategorien:
-
-- **Uni:Note Premium**: aktueller Plan, KI-Guthaben, KI-Guthaben hinzufügen, Premium- / Planansicht
-- **Notizeinstellungen**: Vorlage für neue Notizen, Basisfarbe, Standard für vertikalen Notizmodus, Linkshänder-Modus, einzelne Linkshänder-Optionen, automatisches Einklappen der Palette, Kopf- / Fußzeile
-- **Anzeigeeinstellungen**: Startziel, automatische Sortierung nach zuletzt geöffnet, Fachbezeichnung, Ruhezustand verhindern, solange eine Notiz geöffnet ist, Biometrie für geschützte Notizen, PDF-Export-Hintergrund, Sprache
-- **Lernhilfe**: Lernfunktion, Aufgabenassistent, Aufnahmeunterstützung, Transkriptionssprache, Standardformat für KI-Zusammenfassungen
-- **Backup**: Easy Backup, Aufnahme-Audio in Backups einschließen, Backup-Dateien exportieren / wiederherstellen
-- **Support**: Anleitung, Datenschutzerklärung, per Formular senden, per E-Mail kontaktieren, Support-Info kopieren, App bewerten, Uni:Note Pocket
-
-Unter `Einstellungen > Backup` kannst du Folgendes verwenden:
-
-- `Easy Backup aktualisieren` (Premium)
-- `Aus Easy Backup wiederherstellen` (Premium)
-- `Backup exportieren`
-- `Aus Datei wiederherstellen`
-
-`Easy Backup` nutzt iCloud für Speichern und Wiederherstellen.  
-Dateibasierte Backups stehen auch ohne Premium weiterhin zur Verfügung.
-
-Aufnahmeinformationen und Transkriptionen sind Teil des Backups.
-Aufnahme-Audiodateien (m4a) werden sowohl bei `Backup exportieren` als auch bei `Easy Backup` nur aufgenommen, wenn **Aufnahme-Audio in Backups einschließen** aktiviert ist.
-
-Nach einer Wiederherstellung schließe die App einmal und öffne sie erneut.  
-Beim nächsten Start wird die Startseite angezeigt.
-
-Verwandte Seiten:
-
-- [FAQ (Uni:Note)]({{< relref "/faq/uni-note/" >}})
-- [Datenschutzerklärung (Uni:Note)]({{< relref "/privacy/uni-note/" >}})
+Dock-Gesten und Bezeichnungen wie Split View oder Slide Over hängen von iPadOS und den Fenstereinstellungen ab.

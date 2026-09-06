@@ -1,0 +1,2613 @@
+{
+  "verifiedAt": "2026-09-06T21:43:40.557463+00:00",
+  "status": "PASS",
+  "scope": "Five adopted guide-asset manifests, physical assets/images/guides images, and production source references. No site sources or images modified.",
+  "countingRules": {
+    "rawSourcePath": "Unique resolved original file paths; multiple crops from one capture count once.",
+    "rawSourceContent": "Also report unique SHA-256 to reveal identical files saved under different paths.",
+    "newVersusExisting": "Explicit manifest kind/sourceKind; utilities captured 2026-09-07 + task-specific Simulator capture path versus captured 2026-09-03 existing assets.",
+    "adoptedOnly": "Rejected, unused raw capture attempts outside manifests are excluded from raw counts.",
+    "references": "Literal images/guides paths in content, layouts, data, i18n, config.",
+    "limitation": "Hash equality proves the recorded files match the manifests, not semantic UI freshness or live backend behavior. UI freshness is covered in the app audit documents. Temporary source files were verified while available locally."
+  },
+  "summary": {
+    "manifestItemCount": 117,
+    "physicalGuideImageCount": 117,
+    "distinctReferencedImageCount": 117,
+    "referenceOccurrenceCount": 143,
+    "all": {
+      "outputImageCount": 117,
+      "uniqueRawSourcePathCount": 96,
+      "uniqueRawSourceContentSHA256Count": 96,
+      "sourceHashVerifiedCount": 117,
+      "outputHashVerifiedCount": 117
+    },
+    "newSimulatorCaptures": {
+      "outputImageCount": 35,
+      "uniqueRawSourcePathCount": 32,
+      "uniqueRawSourceContentSHA256Count": 32,
+      "sourceHashVerifiedCount": 35,
+      "outputHashVerifiedCount": 35
+    },
+    "existingRealUI": {
+      "outputImageCount": 82,
+      "uniqueRawSourcePathCount": 64,
+      "uniqueRawSourceContentSHA256Count": 64,
+      "sourceHashVerifiedCount": 82,
+      "outputHashVerifiedCount": 82
+    },
+    "unreferencedOutputCount": 0,
+    "errorCount": 0
+  },
+  "byManifest": [
+    {
+      "file": "docs/visual-guides/learning-assets.json",
+      "sha256": "6e302e76c12d5e9ca697b723188b553d01709871590f09e95ef3b7c31ca7ed9e",
+      "itemCount": 58,
+      "outputImageCount": 58,
+      "uniqueRawSourcePathCount": 46,
+      "uniqueRawSourceContentSHA256Count": 46,
+      "sourceHashVerifiedCount": 58,
+      "outputHashVerifiedCount": 58
+    },
+    {
+      "file": "docs/visual-guides/communication-codes-assets.json",
+      "sha256": "14ce1ab6ec1573ae616f0e65bb3e75eeaa9c65a09bfbe6f840d29b2c3c3c1628",
+      "itemCount": 21,
+      "outputImageCount": 21,
+      "uniqueRawSourcePathCount": 17,
+      "uniqueRawSourceContentSHA256Count": 17,
+      "sourceHashVerifiedCount": 21,
+      "outputHashVerifiedCount": 21
+    },
+    {
+      "file": "docs/visual-guides/utilities-assets.json",
+      "sha256": "afe0fcb9f30d5a97377f60c64cec6bec2da25481a872cf9e849255380228a170",
+      "itemCount": 28,
+      "outputImageCount": 28,
+      "uniqueRawSourcePathCount": 24,
+      "uniqueRawSourceContentSHA256Count": 24,
+      "sourceHashVerifiedCount": 28,
+      "outputHashVerifiedCount": 28
+    },
+    {
+      "file": "docs/visual-guides/signal-assets.json",
+      "sha256": "0096d5a2d1b3215ba1fba9c42fb06b8a845d07c4979de26d7363c985b7f924f9",
+      "itemCount": 4,
+      "outputImageCount": 4,
+      "uniqueRawSourcePathCount": 3,
+      "uniqueRawSourceContentSHA256Count": 3,
+      "sourceHashVerifiedCount": 4,
+      "outputHashVerifiedCount": 4
+    },
+    {
+      "file": "docs/visual-guides/uninote-create-assets.json",
+      "sha256": "4e4f1b62e8bc86827bd334f9d056579f0665bab8feccb627ed3bd5c16c3f69b0",
+      "itemCount": 6,
+      "outputImageCount": 6,
+      "uniqueRawSourcePathCount": 6,
+      "uniqueRawSourceContentSHA256Count": 6,
+      "sourceHashVerifiedCount": 6,
+      "outputHashVerifiedCount": 6
+    }
+  ],
+  "byApp": {
+    "balance-calendar": {
+      "all": {
+        "outputImageCount": 6,
+        "uniqueRawSourcePathCount": 5,
+        "uniqueRawSourceContentSHA256Count": 5,
+        "sourceHashVerifiedCount": 6,
+        "outputHashVerifiedCount": 6
+      },
+      "new": {
+        "outputImageCount": 0,
+        "uniqueRawSourcePathCount": 0,
+        "uniqueRawSourceContentSHA256Count": 0,
+        "sourceHashVerifiedCount": 0,
+        "outputHashVerifiedCount": 0
+      },
+      "existing": {
+        "outputImageCount": 6,
+        "uniqueRawSourcePathCount": 5,
+        "uniqueRawSourceContentSHA256Count": 5,
+        "sourceHashVerifiedCount": 6,
+        "outputHashVerifiedCount": 6
+      }
+    },
+    "giga-poke": {
+      "all": {
+        "outputImageCount": 7,
+        "uniqueRawSourcePathCount": 5,
+        "uniqueRawSourceContentSHA256Count": 5,
+        "sourceHashVerifiedCount": 7,
+        "outputHashVerifiedCount": 7
+      },
+      "new": {
+        "outputImageCount": 7,
+        "uniqueRawSourcePathCount": 5,
+        "uniqueRawSourceContentSHA256Count": 5,
+        "sourceHashVerifiedCount": 7,
+        "outputHashVerifiedCount": 7
+      },
+      "existing": {
+        "outputImageCount": 0,
+        "uniqueRawSourcePathCount": 0,
+        "uniqueRawSourceContentSHA256Count": 0,
+        "sourceHashVerifiedCount": 0,
+        "outputHashVerifiedCount": 0
+      }
+    },
+    "nocca": {
+      "all": {
+        "outputImageCount": 7,
+        "uniqueRawSourcePathCount": 6,
+        "uniqueRawSourceContentSHA256Count": 6,
+        "sourceHashVerifiedCount": 7,
+        "outputHashVerifiedCount": 7
+      },
+      "new": {
+        "outputImageCount": 7,
+        "uniqueRawSourcePathCount": 6,
+        "uniqueRawSourceContentSHA256Count": 6,
+        "sourceHashVerifiedCount": 7,
+        "outputHashVerifiedCount": 7
+      },
+      "existing": {
+        "outputImageCount": 0,
+        "uniqueRawSourcePathCount": 0,
+        "uniqueRawSourceContentSHA256Count": 0,
+        "sourceHashVerifiedCount": 0,
+        "outputHashVerifiedCount": 0
+      }
+    },
+    "oto-miru": {
+      "all": {
+        "outputImageCount": 7,
+        "uniqueRawSourcePathCount": 6,
+        "uniqueRawSourceContentSHA256Count": 6,
+        "sourceHashVerifiedCount": 7,
+        "outputHashVerifiedCount": 7
+      },
+      "new": {
+        "outputImageCount": 4,
+        "uniqueRawSourcePathCount": 4,
+        "uniqueRawSourceContentSHA256Count": 4,
+        "sourceHashVerifiedCount": 4,
+        "outputHashVerifiedCount": 4
+      },
+      "existing": {
+        "outputImageCount": 3,
+        "uniqueRawSourcePathCount": 2,
+        "uniqueRawSourceContentSHA256Count": 2,
+        "sourceHashVerifiedCount": 3,
+        "outputHashVerifiedCount": 3
+      }
+    },
+    "signal": {
+      "all": {
+        "outputImageCount": 4,
+        "uniqueRawSourcePathCount": 3,
+        "uniqueRawSourceContentSHA256Count": 3,
+        "sourceHashVerifiedCount": 4,
+        "outputHashVerifiedCount": 4
+      },
+      "new": {
+        "outputImageCount": 0,
+        "uniqueRawSourcePathCount": 0,
+        "uniqueRawSourceContentSHA256Count": 0,
+        "sourceHashVerifiedCount": 0,
+        "outputHashVerifiedCount": 0
+      },
+      "existing": {
+        "outputImageCount": 4,
+        "uniqueRawSourcePathCount": 3,
+        "uniqueRawSourceContentSHA256Count": 3,
+        "sourceHashVerifiedCount": 4,
+        "outputHashVerifiedCount": 4
+      }
+    },
+    "smokeless": {
+      "all": {
+        "outputImageCount": 22,
+        "uniqueRawSourcePathCount": 19,
+        "uniqueRawSourceContentSHA256Count": 19,
+        "sourceHashVerifiedCount": 22,
+        "outputHashVerifiedCount": 22
+      },
+      "new": {
+        "outputImageCount": 10,
+        "uniqueRawSourcePathCount": 10,
+        "uniqueRawSourceContentSHA256Count": 10,
+        "sourceHashVerifiedCount": 10,
+        "outputHashVerifiedCount": 10
+      },
+      "existing": {
+        "outputImageCount": 12,
+        "uniqueRawSourcePathCount": 9,
+        "uniqueRawSourceContentSHA256Count": 9,
+        "sourceHashVerifiedCount": 12,
+        "outputHashVerifiedCount": 12
+      }
+    },
+    "uni-note": {
+      "all": {
+        "outputImageCount": 29,
+        "uniqueRawSourcePathCount": 28,
+        "uniqueRawSourceContentSHA256Count": 28,
+        "sourceHashVerifiedCount": 29,
+        "outputHashVerifiedCount": 29
+      },
+      "new": {
+        "outputImageCount": 7,
+        "uniqueRawSourcePathCount": 7,
+        "uniqueRawSourceContentSHA256Count": 7,
+        "sourceHashVerifiedCount": 7,
+        "outputHashVerifiedCount": 7
+      },
+      "existing": {
+        "outputImageCount": 22,
+        "uniqueRawSourcePathCount": 21,
+        "uniqueRawSourceContentSHA256Count": 21,
+        "sourceHashVerifiedCount": 22,
+        "outputHashVerifiedCount": 22
+      }
+    },
+    "uni-note-pocket": {
+      "all": {
+        "outputImageCount": 35,
+        "uniqueRawSourcePathCount": 24,
+        "uniqueRawSourceContentSHA256Count": 24,
+        "sourceHashVerifiedCount": 35,
+        "outputHashVerifiedCount": 35
+      },
+      "new": {
+        "outputImageCount": 0,
+        "uniqueRawSourcePathCount": 0,
+        "uniqueRawSourceContentSHA256Count": 0,
+        "sourceHashVerifiedCount": 0,
+        "outputHashVerifiedCount": 0
+      },
+      "existing": {
+        "outputImageCount": 35,
+        "uniqueRawSourcePathCount": 24,
+        "uniqueRawSourceContentSHA256Count": 24,
+        "sourceHashVerifiedCount": 35,
+        "outputHashVerifiedCount": 35
+      }
+    }
+  },
+  "issues": [],
+  "unreferencedOutputs": [],
+  "references": {
+    "assets/images/guides/balance-calendar/amount-keypad.png": [
+      {
+        "file": "content/htu/balance-calendar.md",
+        "line": 22
+      }
+    ],
+    "assets/images/guides/balance-calendar/daily-records.png": [
+      {
+        "file": "content/htu/balance-calendar.md",
+        "line": 40
+      }
+    ],
+    "assets/images/guides/balance-calendar/date-history-controls.png": [
+      {
+        "file": "content/htu/balance-calendar.md",
+        "line": 30
+      }
+    ],
+    "assets/images/guides/balance-calendar/income-expense-buttons.png": [
+      {
+        "file": "content/htu/balance-calendar.md",
+        "line": 18
+      }
+    ],
+    "assets/images/guides/balance-calendar/tag-settings.png": [
+      {
+        "file": "content/htu/balance-calendar.md",
+        "line": 56
+      }
+    ],
+    "assets/images/guides/balance-calendar/widget-entry.png": [
+      {
+        "file": "content/htu/balance-calendar.md",
+        "line": 48
+      }
+    ],
+    "assets/images/guides/giga-poke/benefit-actions.png": [
+      {
+        "file": "content/htu/giga-poke.md",
+        "line": 53
+      }
+    ],
+    "assets/images/guides/giga-poke/benefit-management-settings.png": [
+      {
+        "file": "content/htu/giga-poke.md",
+        "line": 90
+      }
+    ],
+    "assets/images/guides/giga-poke/benefit-row.png": [
+      {
+        "file": "content/htu/giga-poke.md",
+        "line": 41
+      }
+    ],
+    "assets/images/guides/giga-poke/home-add-controls.png": [
+      {
+        "file": "content/htu/giga-poke.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/giga-poke/notification-settings.png": [
+      {
+        "file": "content/htu/giga-poke.md",
+        "line": 75
+      }
+    ],
+    "assets/images/guides/giga-poke/paste-review.png": [
+      {
+        "file": "content/htu/giga-poke.md",
+        "line": 21
+      }
+    ],
+    "assets/images/guides/giga-poke/trash-list.png": [
+      {
+        "file": "content/htu/giga-poke.md",
+        "line": 65
+      }
+    ],
+    "assets/images/guides/nocca/choose-role.png": [
+      {
+        "file": "content/htu/nocca.md",
+        "line": 18
+      }
+    ],
+    "assets/images/guides/nocca/invite-family.png": [
+      {
+        "file": "content/htu/nocca.md",
+        "line": 30
+      }
+    ],
+    "assets/images/guides/nocca/owner-talk.png": [
+      {
+        "file": "content/htu/nocca.md",
+        "line": 69
+      }
+    ],
+    "assets/images/guides/nocca/pause-communication.png": [
+      {
+        "file": "content/htu/nocca.md",
+        "line": 78
+      }
+    ],
+    "assets/images/guides/nocca/reply-options.png": [
+      {
+        "file": "content/htu/nocca.md",
+        "line": 58
+      }
+    ],
+    "assets/images/guides/nocca/send-signal.png": [
+      {
+        "file": "content/htu/nocca.md",
+        "line": 39
+      }
+    ],
+    "assets/images/guides/nocca/signal-status.png": [
+      {
+        "file": "content/htu/nocca.md",
+        "line": 48
+      }
+    ],
+    "assets/images/guides/oto-miru/caption-and-controls.png": [
+      {
+        "file": "content/htu/oto-miru.md",
+        "line": 41
+      }
+    ],
+    "assets/images/guides/oto-miru/display-settings.png": [
+      {
+        "file": "content/htu/oto-miru.md",
+        "line": 58
+      }
+    ],
+    "assets/images/guides/oto-miru/free-time-and-plus.png": [
+      {
+        "file": "content/htu/oto-miru.md",
+        "line": 69
+      }
+    ],
+    "assets/images/guides/oto-miru/listening-environment.png": [
+      {
+        "file": "content/htu/oto-miru.md",
+        "line": 62
+      }
+    ],
+    "assets/images/guides/oto-miru/mode-and-settings.png": [
+      {
+        "file": "content/htu/oto-miru.md",
+        "line": 30
+      }
+    ],
+    "assets/images/guides/oto-miru/simple-mode-buttons.png": [
+      {
+        "file": "content/htu/oto-miru.md",
+        "line": 23
+      }
+    ],
+    "assets/images/guides/oto-miru/start-caption.png": [
+      {
+        "file": "content/htu/oto-miru.md",
+        "line": 32
+      }
+    ],
+    "assets/images/guides/signal/article-menu.png": [
+      {
+        "file": "content/htu/signal.md",
+        "line": 30
+      }
+    ],
+    "assets/images/guides/signal/source-switches.png": [
+      {
+        "file": "content/htu/signal.md",
+        "line": 41
+      }
+    ],
+    "assets/images/guides/signal/tabs-and-article.png": [
+      {
+        "file": "content/htu/signal.md",
+        "line": 17
+      }
+    ],
+    "assets/images/guides/signal/text-and-theme.png": [
+      {
+        "file": "content/htu/signal.md",
+        "line": 49
+      }
+    ],
+    "assets/images/guides/smokeless/en/calendar.png": [
+      {
+        "file": "content/htu/smokeless.en.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/smokeless/en/chart.png": [
+      {
+        "file": "content/htu/smokeless.en.md",
+        "line": 43
+      }
+    ],
+    "assets/images/guides/smokeless/en/history.png": [
+      {
+        "file": "content/htu/smokeless.en.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/smokeless/en/record-buttons.png": [
+      {
+        "file": "content/htu/smokeless.en.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/smokeless/en/settings.png": [
+      {
+        "file": "content/htu/smokeless.en.md",
+        "line": 56
+      }
+    ],
+    "assets/images/guides/smokeless/fr/calendar.png": [
+      {
+        "file": "content/htu/smokeless.fr.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/smokeless/fr/chart.png": [
+      {
+        "file": "content/htu/smokeless.fr.md",
+        "line": 43
+      }
+    ],
+    "assets/images/guides/smokeless/fr/history-controls.png": [
+      {
+        "file": "content/htu/smokeless.fr.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/smokeless/fr/record-buttons.png": [
+      {
+        "file": "content/htu/smokeless.fr.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/smokeless/ja/calendar.png": [
+      {
+        "file": "content/htu/smokeless.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/smokeless/ja/chart.png": [
+      {
+        "file": "content/htu/smokeless.md",
+        "line": 43
+      }
+    ],
+    "assets/images/guides/smokeless/ja/history.png": [
+      {
+        "file": "content/htu/smokeless.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/smokeless/ja/record-buttons.png": [
+      {
+        "file": "content/htu/smokeless.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/smokeless/ja/settings.png": [
+      {
+        "file": "content/htu/smokeless.md",
+        "line": 56
+      }
+    ],
+    "assets/images/guides/smokeless/ko/calendar.png": [
+      {
+        "file": "content/htu/smokeless.ko.md",
+        "line": 38
+      }
+    ],
+    "assets/images/guides/smokeless/ko/chart.png": [
+      {
+        "file": "content/htu/smokeless.ko.md",
+        "line": 44
+      }
+    ],
+    "assets/images/guides/smokeless/ko/history-controls.png": [
+      {
+        "file": "content/htu/smokeless.ko.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/smokeless/ko/record-buttons.png": [
+      {
+        "file": "content/htu/smokeless.ko.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/smokeless/zh-hant/calendar.png": [
+      {
+        "file": "content/htu/smokeless.zh-hant.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/smokeless/zh-hant/chart.png": [
+      {
+        "file": "content/htu/smokeless.zh-hant.md",
+        "line": 43
+      }
+    ],
+    "assets/images/guides/smokeless/zh-hant/history-controls.png": [
+      {
+        "file": "content/htu/smokeless.zh-hant.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/smokeless/zh-hant/record-buttons.png": [
+      {
+        "file": "content/htu/smokeless.zh-hant.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/de/import-backup.png": [
+      {
+        "file": "content/htu/uni-note-pocket.de.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/de/open-note.png": [
+      {
+        "file": "content/htu/uni-note-pocket.de.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/de/page-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.de.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/de/practice-answer.png": [
+      {
+        "file": "content/htu/uni-note-pocket.de.md",
+        "line": 49
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/de/search-notes.png": [
+      {
+        "file": "content/htu/uni-note-pocket.de.md",
+        "line": 33
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/de/sticky-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.de.md",
+        "line": 45
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/en/import-backup.png": [
+      {
+        "file": "content/htu/uni-note-pocket.en.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/en/open-note.png": [
+      {
+        "file": "content/htu/uni-note-pocket.en.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/en/page-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.en.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/en/practice-answer.png": [
+      {
+        "file": "content/htu/uni-note-pocket.en.md",
+        "line": 49
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/en/search-notes.png": [
+      {
+        "file": "content/htu/uni-note-pocket.md",
+        "line": 33
+      },
+      {
+        "file": "content/htu/uni-note-pocket.en.md",
+        "line": 33
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/en/sticky-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.en.md",
+        "line": 45
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/fr/import-backup.png": [
+      {
+        "file": "content/htu/uni-note-pocket.fr.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/fr/open-note.png": [
+      {
+        "file": "content/htu/uni-note-pocket.fr.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/fr/page-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.fr.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/fr/practice-answer.png": [
+      {
+        "file": "content/htu/uni-note-pocket.fr.md",
+        "line": 49
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/fr/search-notes.png": [
+      {
+        "file": "content/htu/uni-note-pocket.fr.md",
+        "line": 33
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/fr/sticky-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.fr.md",
+        "line": 45
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ja/import-backup.png": [
+      {
+        "file": "content/htu/uni-note-pocket.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ja/open-note.png": [
+      {
+        "file": "content/htu/uni-note-pocket.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ja/page-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ja/practice-answer.png": [
+      {
+        "file": "content/htu/uni-note-pocket.md",
+        "line": 51
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ja/sticky-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.md",
+        "line": 47
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ko/import-backup.png": [
+      {
+        "file": "content/htu/uni-note-pocket.ko.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ko/open-note.png": [
+      {
+        "file": "content/htu/uni-note-pocket.ko.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ko/page-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.ko.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ko/practice-answer.png": [
+      {
+        "file": "content/htu/uni-note-pocket.ko.md",
+        "line": 49
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ko/search-notes.png": [
+      {
+        "file": "content/htu/uni-note-pocket.ko.md",
+        "line": 33
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/ko/sticky-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.ko.md",
+        "line": 45
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/zh-hant/import-backup.png": [
+      {
+        "file": "content/htu/uni-note-pocket.zh-hant.md",
+        "line": 19
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/zh-hant/open-note.png": [
+      {
+        "file": "content/htu/uni-note-pocket.zh-hant.md",
+        "line": 29
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/zh-hant/page-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.zh-hant.md",
+        "line": 37
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/zh-hant/practice-answer.png": [
+      {
+        "file": "content/htu/uni-note-pocket.zh-hant.md",
+        "line": 49
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/zh-hant/search-notes.png": [
+      {
+        "file": "content/htu/uni-note-pocket.zh-hant.md",
+        "line": 33
+      }
+    ],
+    "assets/images/guides/uni-note-pocket/zh-hant/sticky-review.png": [
+      {
+        "file": "content/htu/uni-note-pocket.zh-hant.md",
+        "line": 45
+      }
+    ],
+    "assets/images/guides/uni-note/common/backup-file-actions.png": [
+      {
+        "file": "content/htu/uni-note.ko.md",
+        "line": 106
+      },
+      {
+        "file": "content/htu/uni-note.de.md",
+        "line": 106
+      },
+      {
+        "file": "content/htu/uni-note.zh-hant.md",
+        "line": 106
+      },
+      {
+        "file": "content/htu/uni-note.md",
+        "line": 115
+      },
+      {
+        "file": "content/htu/uni-note.en.md",
+        "line": 106
+      },
+      {
+        "file": "content/htu/uni-note.fr.md",
+        "line": 106
+      }
+    ],
+    "assets/images/guides/uni-note/common/pdf-writing.png": [
+      {
+        "file": "content/htu/uni-note.ko.md",
+        "line": 56
+      },
+      {
+        "file": "content/htu/uni-note.de.md",
+        "line": 56
+      },
+      {
+        "file": "content/htu/uni-note.zh-hant.md",
+        "line": 56
+      },
+      {
+        "file": "content/htu/uni-note.md",
+        "line": 59
+      },
+      {
+        "file": "content/htu/uni-note.en.md",
+        "line": 56
+      },
+      {
+        "file": "content/htu/uni-note.fr.md",
+        "line": 56
+      }
+    ],
+    "assets/images/guides/uni-note/common/record-button.png": [
+      {
+        "file": "content/htu/uni-note.ko.md",
+        "line": 68
+      },
+      {
+        "file": "content/htu/uni-note.de.md",
+        "line": 68
+      },
+      {
+        "file": "content/htu/uni-note.zh-hant.md",
+        "line": 68
+      },
+      {
+        "file": "content/htu/uni-note.md",
+        "line": 71
+      },
+      {
+        "file": "content/htu/uni-note.en.md",
+        "line": 68
+      },
+      {
+        "file": "content/htu/uni-note.fr.md",
+        "line": 68
+      }
+    ],
+    "assets/images/guides/uni-note/common/sticky-marker.png": [
+      {
+        "file": "content/htu/uni-note.ko.md",
+        "line": 78
+      },
+      {
+        "file": "content/htu/uni-note.de.md",
+        "line": 78
+      },
+      {
+        "file": "content/htu/uni-note.zh-hant.md",
+        "line": 78
+      },
+      {
+        "file": "content/htu/uni-note.md",
+        "line": 83
+      },
+      {
+        "file": "content/htu/uni-note.en.md",
+        "line": 78
+      },
+      {
+        "file": "content/htu/uni-note.fr.md",
+        "line": 78
+      }
+    ],
+    "assets/images/guides/uni-note/common/writing-tools.png": [
+      {
+        "file": "content/htu/uni-note.ko.md",
+        "line": 30
+      },
+      {
+        "file": "content/htu/uni-note.de.md",
+        "line": 30
+      },
+      {
+        "file": "content/htu/uni-note.zh-hant.md",
+        "line": 30
+      },
+      {
+        "file": "content/htu/uni-note.md",
+        "line": 29
+      },
+      {
+        "file": "content/htu/uni-note.en.md",
+        "line": 30
+      },
+      {
+        "file": "content/htu/uni-note.fr.md",
+        "line": 30
+      }
+    ],
+    "assets/images/guides/uni-note/de/attachment-menu.png": [
+      {
+        "file": "content/htu/uni-note.de.md",
+        "line": 54
+      }
+    ],
+    "assets/images/guides/uni-note/de/create-menu.png": [
+      {
+        "file": "content/htu/uni-note.de.md",
+        "line": 15
+      }
+    ],
+    "assets/images/guides/uni-note/de/home-search.png": [
+      {
+        "file": "content/htu/uni-note.de.md",
+        "line": 40
+      }
+    ],
+    "assets/images/guides/uni-note/de/problem-answer.png": [
+      {
+        "file": "content/htu/uni-note.de.md",
+        "line": 84
+      }
+    ],
+    "assets/images/guides/uni-note/en/attachment-menu.png": [
+      {
+        "file": "content/htu/uni-note.en.md",
+        "line": 54
+      }
+    ],
+    "assets/images/guides/uni-note/en/create-menu.png": [
+      {
+        "file": "content/htu/uni-note.en.md",
+        "line": 15
+      }
+    ],
+    "assets/images/guides/uni-note/en/home-search.png": [
+      {
+        "file": "content/htu/uni-note.en.md",
+        "line": 40
+      }
+    ],
+    "assets/images/guides/uni-note/en/problem-answer.png": [
+      {
+        "file": "content/htu/uni-note.en.md",
+        "line": 84
+      }
+    ],
+    "assets/images/guides/uni-note/fr/attachment-menu.png": [
+      {
+        "file": "content/htu/uni-note.fr.md",
+        "line": 54
+      }
+    ],
+    "assets/images/guides/uni-note/fr/create-menu.png": [
+      {
+        "file": "content/htu/uni-note.fr.md",
+        "line": 15
+      }
+    ],
+    "assets/images/guides/uni-note/fr/home-search.png": [
+      {
+        "file": "content/htu/uni-note.fr.md",
+        "line": 40
+      }
+    ],
+    "assets/images/guides/uni-note/fr/problem-answer.png": [
+      {
+        "file": "content/htu/uni-note.fr.md",
+        "line": 84
+      }
+    ],
+    "assets/images/guides/uni-note/ja/attachment-menu.png": [
+      {
+        "file": "content/htu/uni-note.md",
+        "line": 55
+      }
+    ],
+    "assets/images/guides/uni-note/ja/create-menu.png": [
+      {
+        "file": "content/htu/uni-note.md",
+        "line": 14
+      }
+    ],
+    "assets/images/guides/uni-note/ja/home-search.png": [
+      {
+        "file": "content/htu/uni-note.md",
+        "line": 41
+      }
+    ],
+    "assets/images/guides/uni-note/ja/problem-answer.png": [
+      {
+        "file": "content/htu/uni-note.md",
+        "line": 89
+      }
+    ],
+    "assets/images/guides/uni-note/ko/attachment-menu.png": [
+      {
+        "file": "content/htu/uni-note.ko.md",
+        "line": 54
+      }
+    ],
+    "assets/images/guides/uni-note/ko/create-menu.png": [
+      {
+        "file": "content/htu/uni-note.ko.md",
+        "line": 15
+      }
+    ],
+    "assets/images/guides/uni-note/ko/home-search.png": [
+      {
+        "file": "content/htu/uni-note.ko.md",
+        "line": 40
+      }
+    ],
+    "assets/images/guides/uni-note/ko/problem-answer.png": [
+      {
+        "file": "content/htu/uni-note.ko.md",
+        "line": 84
+      }
+    ],
+    "assets/images/guides/uni-note/zh-hant/attachment-menu.png": [
+      {
+        "file": "content/htu/uni-note.zh-hant.md",
+        "line": 54
+      }
+    ],
+    "assets/images/guides/uni-note/zh-hant/create-menu.png": [
+      {
+        "file": "content/htu/uni-note.zh-hant.md",
+        "line": 15
+      }
+    ],
+    "assets/images/guides/uni-note/zh-hant/home-search.png": [
+      {
+        "file": "content/htu/uni-note.zh-hant.md",
+        "line": 40
+      }
+    ],
+    "assets/images/guides/uni-note/zh-hant/problem-answer.png": [
+      {
+        "file": "content/htu/uni-note.zh-hant.md",
+        "line": 84
+      }
+    ]
+  },
+  "items": [
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 0,
+      "output": "assets/images/guides/uni-note/common/writing-tools.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v5/memorization_before_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "766f717f5fd82183d49e54813df89c87b3f1232903acf1aa780a4223d8e55e23",
+      "actualSourceSHA256": "766f717f5fd82183d49e54813df89c87b3f1232903acf1aa780a4223d8e55e23",
+      "expectedOutputSHA256": "bbf99dd18878c9e5ae1f9c8fade516de08b1ad9ea704ffd6752f0197b990e789",
+      "actualOutputSHA256": "bbf99dd18878c9e5ae1f9c8fade516de08b1ad9ea704ffd6752f0197b990e789",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 1,
+      "output": "assets/images/guides/uni-note/common/pdf-writing.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v3/pdf_economics_actual_landscape.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "7297b6f8f9121289c30fec153a0dac7d3d4bffd2aa721342eb7c95e6ae3f8e96",
+      "actualSourceSHA256": "7297b6f8f9121289c30fec153a0dac7d3d4bffd2aa721342eb7c95e6ae3f8e96",
+      "expectedOutputSHA256": "5b196594988ea7f0ee0e7f627b1e2446a8e593e6c31f9dea577ee07f775c03f5",
+      "actualOutputSHA256": "5b196594988ea7f0ee0e7f627b1e2446a8e593e6c31f9dea577ee07f775c03f5",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 2,
+      "output": "assets/images/guides/uni-note/common/sticky-marker.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v5/memorization_before_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "766f717f5fd82183d49e54813df89c87b3f1232903acf1aa780a4223d8e55e23",
+      "actualSourceSHA256": "766f717f5fd82183d49e54813df89c87b3f1232903acf1aa780a4223d8e55e23",
+      "expectedOutputSHA256": "c12a20b4ecc5cf91e40c7c41c27a41d3e4dcb726e9697af97580bbf1c6ea4a48",
+      "actualOutputSHA256": "c12a20b4ecc5cf91e40c7c41c27a41d3e4dcb726e9697af97580bbf1c6ea4a48",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 3,
+      "output": "assets/images/guides/uni-note/common/record-button.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v6/recording_ai_summary_actual_current.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "9f80813c90b9dbfca9557162b00530abec5a108e12599a672f840d7e67a17297",
+      "actualSourceSHA256": "9f80813c90b9dbfca9557162b00530abec5a108e12599a672f840d7e67a17297",
+      "expectedOutputSHA256": "105f8ee9f3a4ce05b145cfb5fcf50e28aa191abd23859e6c59db8ce6852696b5",
+      "actualOutputSHA256": "105f8ee9f3a4ce05b145cfb5fcf50e28aa191abd23859e6c59db8ce6852696b5",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 4,
+      "output": "assets/images/guides/uni-note/ja/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v6/bookshelf_semester_folders_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "8d2be57c996f2be5e586483991c06665cef5d1036d062493b9da29eb6e7b363c",
+      "actualSourceSHA256": "8d2be57c996f2be5e586483991c06665cef5d1036d062493b9da29eb6e7b363c",
+      "expectedOutputSHA256": "d89e38068d76971f084cae3b07aae86d94e623adc6105f585ed9f8ad29154236",
+      "actualOutputSHA256": "d89e38068d76971f084cae3b07aae86d94e623adc6105f585ed9f8ad29154236",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 5,
+      "output": "assets/images/guides/uni-note/ja/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v4/supplementary_menu_actual_release.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "6e33a5998257a0e644f52242851fb538f1a7493d88a117bed21c863489f8d09f",
+      "actualSourceSHA256": "6e33a5998257a0e644f52242851fb538f1a7493d88a117bed21c863489f8d09f",
+      "expectedOutputSHA256": "64bf7c7d3be4a85598b5559f9037ff203b30d236209d81148e247ce946eb44b7",
+      "actualOutputSHA256": "64bf7c7d3be4a85598b5559f9037ff203b30d236209d81148e247ce946eb44b7",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 6,
+      "output": "assets/images/guides/uni-note/ja/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/raw_v4/problem_assist_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "970571ff6decd6e9c01e4b8f701d5a31ee95f4d465454581bf733baf5f404e82",
+      "actualSourceSHA256": "970571ff6decd6e9c01e4b8f701d5a31ee95f4d465454581bf733baf5f404e82",
+      "expectedOutputSHA256": "2bcbc0d57a527c31cc7d6f889a770fbb3db5b1ad18337000965fffcf308f5df4",
+      "actualOutputSHA256": "2bcbc0d57a527c31cc7d6f889a770fbb3db5b1ad18337000965fffcf308f5df4",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 7,
+      "output": "assets/images/guides/uni-note-pocket/ja/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "actualSourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "expectedOutputSHA256": "37d40b28c423373da90520862cdbc55725b00c1268c760d9ffe2ef627871b909",
+      "actualOutputSHA256": "37d40b28c423373da90520862cdbc55725b00c1268c760d9ffe2ef627871b909",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 8,
+      "output": "assets/images/guides/uni-note-pocket/ja/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "aec37f7924796cd00b812255bc416caa89cf7a2cdeb2d39a5437757a86672f7f",
+      "actualSourceSHA256": "aec37f7924796cd00b812255bc416caa89cf7a2cdeb2d39a5437757a86672f7f",
+      "expectedOutputSHA256": "64824638e15545e05dbd0e7db65bcc185b9bffe679d28b793aa9baa1e3603d11",
+      "actualOutputSHA256": "64824638e15545e05dbd0e7db65bcc185b9bffe679d28b793aa9baa1e3603d11",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 9,
+      "output": "assets/images/guides/uni-note-pocket/ja/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/raw/04_continuous_scroll_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "fe0958c21e9202a52867e7aa37af70c1d1dc32658cd5dad020be030a6bf82f3a",
+      "actualSourceSHA256": "fe0958c21e9202a52867e7aa37af70c1d1dc32658cd5dad020be030a6bf82f3a",
+      "expectedOutputSHA256": "b6323058bbcdeb8ee9c5bd23b3af108c75b31c2d16ab6f3ea0706c42f6e14d21",
+      "actualOutputSHA256": "b6323058bbcdeb8ee9c5bd23b3af108c75b31c2d16ab6f3ea0706c42f6e14d21",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 10,
+      "output": "assets/images/guides/uni-note-pocket/ja/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/raw/02_problem_set_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "1a0a7c9e8738086b1294e23ac0d4932faf8658ea1df540ec563e764ad41523cf",
+      "actualSourceSHA256": "1a0a7c9e8738086b1294e23ac0d4932faf8658ea1df540ec563e764ad41523cf",
+      "expectedOutputSHA256": "bff40827cbf2340c8fdaef9d029d05bede0782fdf13d52460d1ea776e85bfe65",
+      "actualOutputSHA256": "bff40827cbf2340c8fdaef9d029d05bede0782fdf13d52460d1ea776e85bfe65",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 11,
+      "output": "assets/images/guides/uni-note-pocket/ja/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/raw/05_sticky_review_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "74278c55582031fac133c67338181fcaa7d80db5fae11dc4dfa01543c8564036",
+      "actualSourceSHA256": "74278c55582031fac133c67338181fcaa7d80db5fae11dc4dfa01543c8564036",
+      "expectedOutputSHA256": "cd0bcc3214ec29b0f4187da211270ff22fa9156bf15351a26fd44a6ae969e1bf",
+      "actualOutputSHA256": "cd0bcc3214ec29b0f4187da211270ff22fa9156bf15351a26fd44a6ae969e1bf",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 12,
+      "output": "assets/images/guides/uni-note/en/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/en/bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "fb9d991990d643b2d9beed8e5910af783c0384033a973d7416376aeed24f19ae",
+      "actualSourceSHA256": "fb9d991990d643b2d9beed8e5910af783c0384033a973d7416376aeed24f19ae",
+      "expectedOutputSHA256": "c98aec709d4eece8ce4dbb6783496b478fc3387c1e3c2d090c4386a4f3ea081e",
+      "actualOutputSHA256": "c98aec709d4eece8ce4dbb6783496b478fc3387c1e3c2d090c4386a4f3ea081e",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 13,
+      "output": "assets/images/guides/uni-note/en/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/en/supplementary_menu_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "4bcc01250958545713ddfdad677018a45d3426163eaed8164d5d9fc233d74c9c",
+      "actualSourceSHA256": "4bcc01250958545713ddfdad677018a45d3426163eaed8164d5d9fc233d74c9c",
+      "expectedOutputSHA256": "54ddf588d383e7249543e25748eb485e15213f0b15d3248796f046ec596e029f",
+      "actualOutputSHA256": "54ddf588d383e7249543e25748eb485e15213f0b15d3248796f046ec596e029f",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 14,
+      "output": "assets/images/guides/uni-note/en/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/en/problem_assist_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "be603db73da879d2025369dbf9fcc9f935d957f648f88da69d8ff93d212f0e7d",
+      "actualSourceSHA256": "be603db73da879d2025369dbf9fcc9f935d957f648f88da69d8ff93d212f0e7d",
+      "expectedOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "actualOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 15,
+      "output": "assets/images/guides/uni-note-pocket/en/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "actualSourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "expectedOutputSHA256": "37d40b28c423373da90520862cdbc55725b00c1268c760d9ffe2ef627871b909",
+      "actualOutputSHA256": "37d40b28c423373da90520862cdbc55725b00c1268c760d9ffe2ef627871b909",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 16,
+      "output": "assets/images/guides/uni-note-pocket/en/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "actualSourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "expectedOutputSHA256": "70561f5cf5dcfbf7a3c3457123988122af320b442a820f43caab1e9fea4ad731",
+      "actualOutputSHA256": "70561f5cf5dcfbf7a3c3457123988122af320b442a820f43caab1e9fea4ad731",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 17,
+      "output": "assets/images/guides/uni-note-pocket/en/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/04_continuous_scroll_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "1275766c99fe78169f5de0b92908d5fb1881a2d52f0cdbb8f5804b9c4bb3db72",
+      "actualSourceSHA256": "1275766c99fe78169f5de0b92908d5fb1881a2d52f0cdbb8f5804b9c4bb3db72",
+      "expectedOutputSHA256": "0041d3683bcb4df27b9f05e2a26d81bfbfa62dfab28146d359ebb12e599039b0",
+      "actualOutputSHA256": "0041d3683bcb4df27b9f05e2a26d81bfbfa62dfab28146d359ebb12e599039b0",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 18,
+      "output": "assets/images/guides/uni-note-pocket/en/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/02_problem_set_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "0aa36f433b20ecd418ec9c5c928abdd3edf60322b9692e194dbb0adf824dca00",
+      "actualSourceSHA256": "0aa36f433b20ecd418ec9c5c928abdd3edf60322b9692e194dbb0adf824dca00",
+      "expectedOutputSHA256": "d17c840682b876f11a496e19bd895f3325a40ffbf49ef43812149a8c623c5e29",
+      "actualOutputSHA256": "d17c840682b876f11a496e19bd895f3325a40ffbf49ef43812149a8c623c5e29",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 19,
+      "output": "assets/images/guides/uni-note-pocket/en/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/05_sticky_review_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "aeebf34817b78475b4d4a4a27bc4144ecc93bf8dd86cebba58f639160ed3dbb9",
+      "actualSourceSHA256": "aeebf34817b78475b4d4a4a27bc4144ecc93bf8dd86cebba58f639160ed3dbb9",
+      "expectedOutputSHA256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "actualOutputSHA256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 20,
+      "output": "assets/images/guides/uni-note-pocket/en/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/en/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "actualSourceSHA256": "dc5b4434b94e11b7bedee2baaec79b4f2bd6e444c3b1f4113ebd9b33c8ad3112",
+      "expectedOutputSHA256": "adaeab19755324c68f69249a145efa5c0937a180f7709c3df9a58a9dd684efc2",
+      "actualOutputSHA256": "adaeab19755324c68f69249a145efa5c0937a180f7709c3df9a58a9dd684efc2",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 21,
+      "output": "assets/images/guides/uni-note/de/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/de/bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "f796129296eced25672a9e7c975496703bc633ea8bfcde339ce40d7ce6467897",
+      "actualSourceSHA256": "f796129296eced25672a9e7c975496703bc633ea8bfcde339ce40d7ce6467897",
+      "expectedOutputSHA256": "0f34ecf69928166bf8abc13c718dabe4717a8acb2ef6c25caee55ff7527a949a",
+      "actualOutputSHA256": "0f34ecf69928166bf8abc13c718dabe4717a8acb2ef6c25caee55ff7527a949a",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 22,
+      "output": "assets/images/guides/uni-note/de/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/de/supplementary_menu_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "5d2ebf4ccdf5a962a25db4cccda403f5a4f2f8828dab45ae6007fdc0c7469842",
+      "actualSourceSHA256": "5d2ebf4ccdf5a962a25db4cccda403f5a4f2f8828dab45ae6007fdc0c7469842",
+      "expectedOutputSHA256": "064cd7a9493951804d4946b261c4eccb72b8a5ce2ecda29ec8e706bbcb6ebb2f",
+      "actualOutputSHA256": "064cd7a9493951804d4946b261c4eccb72b8a5ce2ecda29ec8e706bbcb6ebb2f",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 23,
+      "output": "assets/images/guides/uni-note/de/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/de/problem_assist_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "1f292c8c6f0cbd863b840a19cfeb245e7059dd8a8dbc462b90b4ba84d447dfde",
+      "actualSourceSHA256": "1f292c8c6f0cbd863b840a19cfeb245e7059dd8a8dbc462b90b4ba84d447dfde",
+      "expectedOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "actualOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 24,
+      "output": "assets/images/guides/uni-note-pocket/de/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "07d4c7e6863b3dfa1fb7e49f265c24dafbaf077f26ff87bc8048c57a3384e701",
+      "actualSourceSHA256": "07d4c7e6863b3dfa1fb7e49f265c24dafbaf077f26ff87bc8048c57a3384e701",
+      "expectedOutputSHA256": "92ac3022cc4cb88350cf8a824f3fba40fa78b88c5b46dc9bd6fd8179fe2551c2",
+      "actualOutputSHA256": "92ac3022cc4cb88350cf8a824f3fba40fa78b88c5b46dc9bd6fd8179fe2551c2",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 25,
+      "output": "assets/images/guides/uni-note-pocket/de/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "07d4c7e6863b3dfa1fb7e49f265c24dafbaf077f26ff87bc8048c57a3384e701",
+      "actualSourceSHA256": "07d4c7e6863b3dfa1fb7e49f265c24dafbaf077f26ff87bc8048c57a3384e701",
+      "expectedOutputSHA256": "d0f074bfc164419ade43f508525325ca2bd6f91cb3edc3724197290511702c30",
+      "actualOutputSHA256": "d0f074bfc164419ade43f508525325ca2bd6f91cb3edc3724197290511702c30",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 26,
+      "output": "assets/images/guides/uni-note-pocket/de/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/04_continuous_scroll_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "1455ff8fb85239ddf790c7ebb7ed4c8a45cb8037347a93326469272e1a31bf1a",
+      "actualSourceSHA256": "1455ff8fb85239ddf790c7ebb7ed4c8a45cb8037347a93326469272e1a31bf1a",
+      "expectedOutputSHA256": "e14daeedd4723230e59b1cc3e74bf58767420383d508e70953ebf8e2cc22ee4b",
+      "actualOutputSHA256": "e14daeedd4723230e59b1cc3e74bf58767420383d508e70953ebf8e2cc22ee4b",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 27,
+      "output": "assets/images/guides/uni-note-pocket/de/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/02_problem_set_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "e78b2ededaee64f32f9aeab54ed84bb6a884d594b7b5a3c141be67805c1fa870",
+      "actualSourceSHA256": "e78b2ededaee64f32f9aeab54ed84bb6a884d594b7b5a3c141be67805c1fa870",
+      "expectedOutputSHA256": "6cb635b3c7fa4286994826ef869205f6f6e3c995824e4723f7e9bd095495da90",
+      "actualOutputSHA256": "6cb635b3c7fa4286994826ef869205f6f6e3c995824e4723f7e9bd095495da90",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 28,
+      "output": "assets/images/guides/uni-note-pocket/de/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/05_sticky_review_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "ac91f11c6ceb71ed00c207edc4536eed3c1067b40c982ea28893fe9dc4b5e1b5",
+      "actualSourceSHA256": "ac91f11c6ceb71ed00c207edc4536eed3c1067b40c982ea28893fe9dc4b5e1b5",
+      "expectedOutputSHA256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "actualOutputSHA256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 29,
+      "output": "assets/images/guides/uni-note-pocket/de/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/de/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "07d4c7e6863b3dfa1fb7e49f265c24dafbaf077f26ff87bc8048c57a3384e701",
+      "actualSourceSHA256": "07d4c7e6863b3dfa1fb7e49f265c24dafbaf077f26ff87bc8048c57a3384e701",
+      "expectedOutputSHA256": "241b7561e218f1e20b44f69bde768c464f45b6ab0bf54d08cad59a2822411870",
+      "actualOutputSHA256": "241b7561e218f1e20b44f69bde768c464f45b6ab0bf54d08cad59a2822411870",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 30,
+      "output": "assets/images/guides/uni-note/fr/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/fr/bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "ebaa8ec3a3b7cf7b7e593d1fe27531b441d5697d297f406d1afda134332c3b10",
+      "actualSourceSHA256": "ebaa8ec3a3b7cf7b7e593d1fe27531b441d5697d297f406d1afda134332c3b10",
+      "expectedOutputSHA256": "07818e19c4564e6242d4dacb97f1a793751024dc8fc538c95554138678c297e3",
+      "actualOutputSHA256": "07818e19c4564e6242d4dacb97f1a793751024dc8fc538c95554138678c297e3",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 31,
+      "output": "assets/images/guides/uni-note/fr/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/fr/supplementary_menu_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "73a7e2e9a6962e88bfff5a47bba5d54c9f1ed85f7c30246c7a5607981793f1cc",
+      "actualSourceSHA256": "73a7e2e9a6962e88bfff5a47bba5d54c9f1ed85f7c30246c7a5607981793f1cc",
+      "expectedOutputSHA256": "3aa1bb6e2acc1521b07b47c2e230a11102e8ae1e8ef625e667be9e0a3bb7f147",
+      "actualOutputSHA256": "3aa1bb6e2acc1521b07b47c2e230a11102e8ae1e8ef625e667be9e0a3bb7f147",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 32,
+      "output": "assets/images/guides/uni-note/fr/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/fr/problem_assist_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "ea74216dbf739542914752e601820bae471b801a2fd218b1b8df951a1d82b935",
+      "actualSourceSHA256": "ea74216dbf739542914752e601820bae471b801a2fd218b1b8df951a1d82b935",
+      "expectedOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "actualOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 33,
+      "output": "assets/images/guides/uni-note-pocket/fr/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "59543df6d6b85f70e76be2bcf7e6928aeca2d3d71c7d56bb5026f51caf31ada5",
+      "actualSourceSHA256": "59543df6d6b85f70e76be2bcf7e6928aeca2d3d71c7d56bb5026f51caf31ada5",
+      "expectedOutputSHA256": "a55545bb5fdc2d44ee139b2c4330f9bde51069cf94a8daf9e238f05a41fe5b58",
+      "actualOutputSHA256": "a55545bb5fdc2d44ee139b2c4330f9bde51069cf94a8daf9e238f05a41fe5b58",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 34,
+      "output": "assets/images/guides/uni-note-pocket/fr/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "59543df6d6b85f70e76be2bcf7e6928aeca2d3d71c7d56bb5026f51caf31ada5",
+      "actualSourceSHA256": "59543df6d6b85f70e76be2bcf7e6928aeca2d3d71c7d56bb5026f51caf31ada5",
+      "expectedOutputSHA256": "827f295db10e0270533cda8bfbe15a17d417ea2a7542643ed400a9b92340c59a",
+      "actualOutputSHA256": "827f295db10e0270533cda8bfbe15a17d417ea2a7542643ed400a9b92340c59a",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 35,
+      "output": "assets/images/guides/uni-note-pocket/fr/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/04_continuous_scroll_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "7fc22687dcd0ff6d2cdb9338a1c0c7e986d9408b66ceeaa0874517c9950eec01",
+      "actualSourceSHA256": "7fc22687dcd0ff6d2cdb9338a1c0c7e986d9408b66ceeaa0874517c9950eec01",
+      "expectedOutputSHA256": "b0b4dc9df4dcab9df88882e6600b38497a4fbb656be252a4a268e804f38aafab",
+      "actualOutputSHA256": "b0b4dc9df4dcab9df88882e6600b38497a4fbb656be252a4a268e804f38aafab",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 36,
+      "output": "assets/images/guides/uni-note-pocket/fr/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/02_problem_set_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "d37414cb6df97cbbf8fc311fdb0deefbde8594bf612d8a88590219ac77617159",
+      "actualSourceSHA256": "d37414cb6df97cbbf8fc311fdb0deefbde8594bf612d8a88590219ac77617159",
+      "expectedOutputSHA256": "30e6af1f1af1e4bc0ad74d580918ca50a12d312782985094ded4680676efb462",
+      "actualOutputSHA256": "30e6af1f1af1e4bc0ad74d580918ca50a12d312782985094ded4680676efb462",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 37,
+      "output": "assets/images/guides/uni-note-pocket/fr/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/05_sticky_review_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "601fa7c03a51f9600e663e2291a48df6bd0a4ec403f3a984ba47e0adedb05473",
+      "actualSourceSHA256": "601fa7c03a51f9600e663e2291a48df6bd0a4ec403f3a984ba47e0adedb05473",
+      "expectedOutputSHA256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "actualOutputSHA256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 38,
+      "output": "assets/images/guides/uni-note-pocket/fr/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/fr/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "59543df6d6b85f70e76be2bcf7e6928aeca2d3d71c7d56bb5026f51caf31ada5",
+      "actualSourceSHA256": "59543df6d6b85f70e76be2bcf7e6928aeca2d3d71c7d56bb5026f51caf31ada5",
+      "expectedOutputSHA256": "5e1ceeaa403b5a223d1fb177b55c110aca8f4210df4eb594c5e8e4aa625370c6",
+      "actualOutputSHA256": "5e1ceeaa403b5a223d1fb177b55c110aca8f4210df4eb594c5e8e4aa625370c6",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 39,
+      "output": "assets/images/guides/uni-note/ko/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/ko/bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "085165e454cbe352069f5e16ec66ccc200da955da0c306e5cab91f91a20f6ebd",
+      "actualSourceSHA256": "085165e454cbe352069f5e16ec66ccc200da955da0c306e5cab91f91a20f6ebd",
+      "expectedOutputSHA256": "d491e69ae81e574ab567ff07f90af1a534a3bd462a40e308b05cfe6c4a874541",
+      "actualOutputSHA256": "d491e69ae81e574ab567ff07f90af1a534a3bd462a40e308b05cfe6c4a874541",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 40,
+      "output": "assets/images/guides/uni-note/ko/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/ko/supplementary_menu_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "0f134ac61726e10e87d8fac45bf98d2f7997464c1368930d31fa94be094019bf",
+      "actualSourceSHA256": "0f134ac61726e10e87d8fac45bf98d2f7997464c1368930d31fa94be094019bf",
+      "expectedOutputSHA256": "efa8a45b23c1dff1060464c56f440a4f3d5ab2cd884632b8abf94ac7563d753d",
+      "actualOutputSHA256": "efa8a45b23c1dff1060464c56f440a4f3d5ab2cd884632b8abf94ac7563d753d",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 41,
+      "output": "assets/images/guides/uni-note/ko/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/ko/problem_assist_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "e64b2dce5ee0a2ecfad578971b08c47221d27ed092242b9b7100cad8bce716ba",
+      "actualSourceSHA256": "e64b2dce5ee0a2ecfad578971b08c47221d27ed092242b9b7100cad8bce716ba",
+      "expectedOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "actualOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 42,
+      "output": "assets/images/guides/uni-note-pocket/ko/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "e79f9bb0645fb63d3a48f57dcfab44e3560b392120900fc56420191054a02113",
+      "actualSourceSHA256": "e79f9bb0645fb63d3a48f57dcfab44e3560b392120900fc56420191054a02113",
+      "expectedOutputSHA256": "2de7c651d2af2e23a2cb8a2544b60ca08749706e7aedbad95f73d6b2150ad9cf",
+      "actualOutputSHA256": "2de7c651d2af2e23a2cb8a2544b60ca08749706e7aedbad95f73d6b2150ad9cf",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 43,
+      "output": "assets/images/guides/uni-note-pocket/ko/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "e79f9bb0645fb63d3a48f57dcfab44e3560b392120900fc56420191054a02113",
+      "actualSourceSHA256": "e79f9bb0645fb63d3a48f57dcfab44e3560b392120900fc56420191054a02113",
+      "expectedOutputSHA256": "0df158db881d54ca116ebde2dbbcfdf30f12702857c13db21e7b14fd057447cf",
+      "actualOutputSHA256": "0df158db881d54ca116ebde2dbbcfdf30f12702857c13db21e7b14fd057447cf",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 44,
+      "output": "assets/images/guides/uni-note-pocket/ko/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/04_continuous_scroll_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "58b388d3c570e9f574ecc2f3e647712da7bcae5575aa7f6ec6ee7d750f644b31",
+      "actualSourceSHA256": "58b388d3c570e9f574ecc2f3e647712da7bcae5575aa7f6ec6ee7d750f644b31",
+      "expectedOutputSHA256": "5583d3db58c614427f378cedaadc6ca30b35b7f0d9699ef0b0cab2addf0d3a01",
+      "actualOutputSHA256": "5583d3db58c614427f378cedaadc6ca30b35b7f0d9699ef0b0cab2addf0d3a01",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 45,
+      "output": "assets/images/guides/uni-note-pocket/ko/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/02_problem_set_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "dcf4b60b793f2078e5f966ab0f627a351d6734b37cbabfdc9dae94285102bd82",
+      "actualSourceSHA256": "dcf4b60b793f2078e5f966ab0f627a351d6734b37cbabfdc9dae94285102bd82",
+      "expectedOutputSHA256": "52c083f6000cf081f3661e10fb74ff484759138a91012fecea7e00ac4ec8e0bb",
+      "actualOutputSHA256": "52c083f6000cf081f3661e10fb74ff484759138a91012fecea7e00ac4ec8e0bb",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 46,
+      "output": "assets/images/guides/uni-note-pocket/ko/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/05_sticky_review_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "8d2b5f3b69735e5ea266ba6f5155614fd425eba379c637879dd5e5c87fed6a15",
+      "actualSourceSHA256": "8d2b5f3b69735e5ea266ba6f5155614fd425eba379c637879dd5e5c87fed6a15",
+      "expectedOutputSHA256": "aad18f67b4debaea05560fe414df7fdb4fe400bb0665ad16721539213ce0d5ca",
+      "actualOutputSHA256": "aad18f67b4debaea05560fe414df7fdb4fe400bb0665ad16721539213ce0d5ca",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 47,
+      "output": "assets/images/guides/uni-note-pocket/ko/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/ko/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "e79f9bb0645fb63d3a48f57dcfab44e3560b392120900fc56420191054a02113",
+      "actualSourceSHA256": "e79f9bb0645fb63d3a48f57dcfab44e3560b392120900fc56420191054a02113",
+      "expectedOutputSHA256": "369c3a41f1a2270d3ce81d65389bde661bbf5d898baeac309f1dab2b9d1c4ff7",
+      "actualOutputSHA256": "369c3a41f1a2270d3ce81d65389bde661bbf5d898baeac309f1dab2b9d1c4ff7",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 48,
+      "output": "assets/images/guides/uni-note/zh-hant/home-search.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/zh-Hant/bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "82477c91c0761a554b077723b361b2ae31b46f36eccf1d0ad15e1af8a770bc6e",
+      "actualSourceSHA256": "82477c91c0761a554b077723b361b2ae31b46f36eccf1d0ad15e1af8a770bc6e",
+      "expectedOutputSHA256": "82fbec6228c1e8c12e075f0ef7b9fdbba8de1562b422e6a91ff8442a8c5bda02",
+      "actualOutputSHA256": "82fbec6228c1e8c12e075f0ef7b9fdbba8de1562b422e6a91ff8442a8c5bda02",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 49,
+      "output": "assets/images/guides/uni-note/zh-hant/attachment-menu.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/zh-Hant/supplementary_menu_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "7ce597eac333bcc8e6f419d210aa5e8155c8d989d548d3e16ced319508ee7b1e",
+      "actualSourceSHA256": "7ce597eac333bcc8e6f419d210aa5e8155c8d989d548d3e16ced319508ee7b1e",
+      "expectedOutputSHA256": "a7aeedf2f004ba3cce761ba1f848706f0958e10ceeb23df5d5868e4d285b80e6",
+      "actualOutputSHA256": "a7aeedf2f004ba3cce761ba1f848706f0958e10ceeb23df5d5868e4d285b80e6",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 50,
+      "output": "assets/images/guides/uni-note/zh-hant/problem-answer.png",
+      "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/localized_v7/raw/zh-Hant/problem_assist_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "1794fc8fb908fb5330f7a0a6ea7b459e86b3ef0ef83904e01d533df91379948a",
+      "actualSourceSHA256": "1794fc8fb908fb5330f7a0a6ea7b459e86b3ef0ef83904e01d533df91379948a",
+      "expectedOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "actualOutputSHA256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 51,
+      "output": "assets/images/guides/uni-note-pocket/zh-hant/import-backup.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "370c994e5640145d0d3c0b64bca6f2403c7cc44de7c741c3178ed0b9654c920f",
+      "actualSourceSHA256": "370c994e5640145d0d3c0b64bca6f2403c7cc44de7c741c3178ed0b9654c920f",
+      "expectedOutputSHA256": "9249f7b8626e4c0642465fcbf7b19ddb1718b7886a3dabef0009542a9ecf9f92",
+      "actualOutputSHA256": "9249f7b8626e4c0642465fcbf7b19ddb1718b7886a3dabef0009542a9ecf9f92",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 52,
+      "output": "assets/images/guides/uni-note-pocket/zh-hant/open-note.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "370c994e5640145d0d3c0b64bca6f2403c7cc44de7c741c3178ed0b9654c920f",
+      "actualSourceSHA256": "370c994e5640145d0d3c0b64bca6f2403c7cc44de7c741c3178ed0b9654c920f",
+      "expectedOutputSHA256": "861928fee8a95bcc8ac9c2e58025962a968033590605eb71424837902897d90d",
+      "actualOutputSHA256": "861928fee8a95bcc8ac9c2e58025962a968033590605eb71424837902897d90d",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 53,
+      "output": "assets/images/guides/uni-note-pocket/zh-hant/page-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/04_continuous_scroll_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "7e53329f4e5cde661b56282c5550c0751ef29034119007433e71a56168aaea5c",
+      "actualSourceSHA256": "7e53329f4e5cde661b56282c5550c0751ef29034119007433e71a56168aaea5c",
+      "expectedOutputSHA256": "8ac7c00df0275b107c72c0c3749659a415db2ace3aef55c9ec7652d6d52cc565",
+      "actualOutputSHA256": "8ac7c00df0275b107c72c0c3749659a415db2ace3aef55c9ec7652d6d52cc565",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 54,
+      "output": "assets/images/guides/uni-note-pocket/zh-hant/practice-answer.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/02_problem_set_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "39f89f46c8df0194b8a175ae5214a26302e8a1b0261d8e83c300805994cc2b2d",
+      "actualSourceSHA256": "39f89f46c8df0194b8a175ae5214a26302e8a1b0261d8e83c300805994cc2b2d",
+      "expectedOutputSHA256": "86738095e6974ae04261cdb7511f5206d9fda07e86bb75b3dfd467b29cc83c39",
+      "actualOutputSHA256": "86738095e6974ae04261cdb7511f5206d9fda07e86bb75b3dfd467b29cc83c39",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 55,
+      "output": "assets/images/guides/uni-note-pocket/zh-hant/sticky-review.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/05_sticky_review_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "793d2f81028e0fbbfff75f9b0330a0547b8be64f7c6b824f60cae9701f3d5c21",
+      "actualSourceSHA256": "793d2f81028e0fbbfff75f9b0330a0547b8be64f7c6b824f60cae9701f3d5c21",
+      "expectedOutputSHA256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "actualOutputSHA256": "cb59806c5fd47a7ef45c9960378521ea121d670a4e73fe7f7d7942f3e05a3816",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 56,
+      "output": "assets/images/guides/uni-note-pocket/zh-hant/search-notes.png",
+      "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/localized/zh-Hant/raw/01_bookshelf_actual.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "370c994e5640145d0d3c0b64bca6f2403c7cc44de7c741c3178ed0b9654c920f",
+      "actualSourceSHA256": "370c994e5640145d0d3c0b64bca6f2403c7cc44de7c741c3178ed0b9654c920f",
+      "expectedOutputSHA256": "559157457e7dc7aea44d7b769147fd690a67184403a659cdaa09083b7dc43bd0",
+      "actualOutputSHA256": "559157457e7dc7aea44d7b769147fd690a67184403a659cdaa09083b7dc43bd0",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/learning-assets.json",
+      "index": 57,
+      "output": "assets/images/guides/uni-note/common/backup-file-actions.png",
+      "source": "/private/tmp/homepage-uninote-capture-attachments/24489E08-EF72-4BE2-9D8F-ED883E831CD8.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "49d0e8c8f9ebccdd6c6c00e34a4cb9068260bf955fd789be460dfb4c66998e26",
+      "actualSourceSHA256": "49d0e8c8f9ebccdd6c6c00e34a4cb9068260bf955fd789be460dfb4c66998e26",
+      "expectedOutputSHA256": "db52978b744b30f78013007c35ec56fca5bd50c8ade2bd384ce8817ce2c9d504",
+      "actualOutputSHA256": "db52978b744b30f78013007c35ec56fca5bd50c8ade2bd384ce8817ce2c9d504",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 0,
+      "output": "assets/images/guides/oto-miru/simple-mode-buttons.png",
+      "source": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/raw/iphone/01_senior_home_free.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "83d4a241284f0dfad9b3028734ede31e890f00876dcf951e647a80b844d291de",
+      "actualSourceSHA256": "83d4a241284f0dfad9b3028734ede31e890f00876dcf951e647a80b844d291de",
+      "expectedOutputSHA256": "928851aef25a567cb5abd3b349ab7e9b7761bfa40f79fd0600d6dbc885d3aaa0",
+      "actualOutputSHA256": "928851aef25a567cb5abd3b349ab7e9b7761bfa40f79fd0600d6dbc885d3aaa0",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 1,
+      "output": "assets/images/guides/oto-miru/mode-and-settings.png",
+      "source": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/raw/iphone/03_standard_home.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "f36e88f14e11781dc708735147fa5f3ab19a9f2cef0d80be1071c136c561d3ef",
+      "actualSourceSHA256": "f36e88f14e11781dc708735147fa5f3ab19a9f2cef0d80be1071c136c561d3ef",
+      "expectedOutputSHA256": "1b73132da1eed7377ad12d853a458b6d2f66155e980c6b9a5238b29284383b5d",
+      "actualOutputSHA256": "1b73132da1eed7377ad12d853a458b6d2f66155e980c6b9a5238b29284383b5d",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 2,
+      "output": "assets/images/guides/oto-miru/start-caption.png",
+      "source": "/private/tmp/homepage-guides-captures/oto-home/5EE2B88A-C318-4E11-9FBD-B7F1B79686C9.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "5f30804c3ebfee950917c5ab7a4e3c0b094298c260920056636dc4bbb4067c1d",
+      "actualSourceSHA256": "5f30804c3ebfee950917c5ab7a4e3c0b094298c260920056636dc4bbb4067c1d",
+      "expectedOutputSHA256": "808ba9f832a2c78e1f9987ea45727f336f1526fe5557677ae0a0cea9caa5a7c5",
+      "actualOutputSHA256": "808ba9f832a2c78e1f9987ea45727f336f1526fe5557677ae0a0cea9caa5a7c5",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 3,
+      "output": "assets/images/guides/oto-miru/free-time-and-plus.png",
+      "source": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/raw/iphone/01_senior_home_free.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "83d4a241284f0dfad9b3028734ede31e890f00876dcf951e647a80b844d291de",
+      "actualSourceSHA256": "83d4a241284f0dfad9b3028734ede31e890f00876dcf951e647a80b844d291de",
+      "expectedOutputSHA256": "305cf78f9f9f97867381d76cf9650979bd3c979f5265c894f5e01adaad99d388",
+      "actualOutputSHA256": "305cf78f9f9f97867381d76cf9650979bd3c979f5265c894f5e01adaad99d388",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 4,
+      "output": "assets/images/guides/oto-miru/caption-and-controls.png",
+      "source": "/private/tmp/homepage-guides-captures/oto-attachments/29938F8B-8468-4181-81C9-AFECAD7025B8.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "a9a7e99c21b3887c96dbec16558e80db6dbe3962ce4e561b92bda7326ffc7f25",
+      "actualSourceSHA256": "a9a7e99c21b3887c96dbec16558e80db6dbe3962ce4e561b92bda7326ffc7f25",
+      "expectedOutputSHA256": "2762e23c943be52c233707291f36785de3c863377272176e5058663f80512b3c",
+      "actualOutputSHA256": "2762e23c943be52c233707291f36785de3c863377272176e5058663f80512b3c",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 5,
+      "output": "assets/images/guides/oto-miru/listening-environment.png",
+      "source": "/private/tmp/homepage-guides-captures/oto-attachments/874C8B68-F0E6-4396-A405-0D9F5663B30F.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "545488f45262dd726615643daca939a7d24cbb005372ee8d8ae7a457f35f71c8",
+      "actualSourceSHA256": "545488f45262dd726615643daca939a7d24cbb005372ee8d8ae7a457f35f71c8",
+      "expectedOutputSHA256": "f0c5e91eb5e71d8bcf115df7ac87602d15141e1ad86ca4fcfb5e6b9af6e5d151",
+      "actualOutputSHA256": "f0c5e91eb5e71d8bcf115df7ac87602d15141e1ad86ca4fcfb5e6b9af6e5d151",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 6,
+      "output": "assets/images/guides/oto-miru/display-settings.png",
+      "source": "/private/tmp/homepage-guides-captures/oto-attachments/A2694A9D-C74C-4BC3-86EA-843F2C612580.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "0e7a822bb8c8126f53d3fbb6a6cf55bdf26ca5990ecf1d2473feba48345b65a0",
+      "actualSourceSHA256": "0e7a822bb8c8126f53d3fbb6a6cf55bdf26ca5990ecf1d2473feba48345b65a0",
+      "expectedOutputSHA256": "a4b73ddcf1b2cd40e3901bb757d33fbc81c84710952dbd1a86160b55a0c4c6a8",
+      "actualOutputSHA256": "a4b73ddcf1b2cd40e3901bb757d33fbc81c84710952dbd1a86160b55a0c4c6a8",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 7,
+      "output": "assets/images/guides/giga-poke/home-add-controls.png",
+      "source": "/private/tmp/homepage-guides-captures/giga-final/1D213A8B-6B16-42E2-8123-8001E2E10A86.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "2684108201fa8c0d31deed185a7c07df1ccbf0112daccbb0bd87b2dd7d15437b",
+      "actualSourceSHA256": "2684108201fa8c0d31deed185a7c07df1ccbf0112daccbb0bd87b2dd7d15437b",
+      "expectedOutputSHA256": "b8c4d63373682a4eed83a33ebbffb90bede5fa705ab61a1e9cac9480fce061ed",
+      "actualOutputSHA256": "b8c4d63373682a4eed83a33ebbffb90bede5fa705ab61a1e9cac9480fce061ed",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 8,
+      "output": "assets/images/guides/giga-poke/benefit-row.png",
+      "source": "/private/tmp/homepage-guides-captures/giga-final/1D213A8B-6B16-42E2-8123-8001E2E10A86.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "2684108201fa8c0d31deed185a7c07df1ccbf0112daccbb0bd87b2dd7d15437b",
+      "actualSourceSHA256": "2684108201fa8c0d31deed185a7c07df1ccbf0112daccbb0bd87b2dd7d15437b",
+      "expectedOutputSHA256": "55972544741cf990fcdf32322a1ab4517246912aeb3a6c9598bb81f441e4fb3d",
+      "actualOutputSHA256": "55972544741cf990fcdf32322a1ab4517246912aeb3a6c9598bb81f441e4fb3d",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 9,
+      "output": "assets/images/guides/giga-poke/benefit-actions.png",
+      "source": "/private/tmp/homepage-guides-captures/giga-final/D908D1FB-2C38-47DB-B89E-51586B8E272F.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "efcfa5adbcac6c5ad366c89406cedfbccab0c2600ab323728455f9bb956e5857",
+      "actualSourceSHA256": "efcfa5adbcac6c5ad366c89406cedfbccab0c2600ab323728455f9bb956e5857",
+      "expectedOutputSHA256": "6edd4892d80e2134988adfd3d5d353f81800d18642bc7204664bf2362600033e",
+      "actualOutputSHA256": "6edd4892d80e2134988adfd3d5d353f81800d18642bc7204664bf2362600033e",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 10,
+      "output": "assets/images/guides/giga-poke/trash-list.png",
+      "source": "/private/tmp/homepage-guides-captures/giga-final/6C846A3C-172D-4811-970D-559521649000.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "4a4aefe7da0658bf8a04456b22073ea05e94a892a64e5f95e6aabc33fe8569ec",
+      "actualSourceSHA256": "4a4aefe7da0658bf8a04456b22073ea05e94a892a64e5f95e6aabc33fe8569ec",
+      "expectedOutputSHA256": "3bd38d041f866308710112730402b7752999ba2872840dc3259c60ff2867eede",
+      "actualOutputSHA256": "3bd38d041f866308710112730402b7752999ba2872840dc3259c60ff2867eede",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 11,
+      "output": "assets/images/guides/giga-poke/notification-settings.png",
+      "source": "/private/tmp/homepage-guides-captures/giga-final/B2BD8ED5-1874-4782-8079-D0BCC1B56842.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "cf7e785590c157b548028e4269778b397204a0bc5305ea4f2b7db629fe1d87b5",
+      "actualSourceSHA256": "cf7e785590c157b548028e4269778b397204a0bc5305ea4f2b7db629fe1d87b5",
+      "expectedOutputSHA256": "7406048c4cdf2548f75765db0f1bc7c21d5caee409f01f1837215b80326d4d60",
+      "actualOutputSHA256": "7406048c4cdf2548f75765db0f1bc7c21d5caee409f01f1837215b80326d4d60",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 12,
+      "output": "assets/images/guides/giga-poke/benefit-management-settings.png",
+      "source": "/private/tmp/homepage-guides-captures/giga-final/B2BD8ED5-1874-4782-8079-D0BCC1B56842.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "cf7e785590c157b548028e4269778b397204a0bc5305ea4f2b7db629fe1d87b5",
+      "actualSourceSHA256": "cf7e785590c157b548028e4269778b397204a0bc5305ea4f2b7db629fe1d87b5",
+      "expectedOutputSHA256": "2485d46289e8606a70f04021d500a7496f23747ad3f7dac03bb0927d5eec63e8",
+      "actualOutputSHA256": "2485d46289e8606a70f04021d500a7496f23747ad3f7dac03bb0927d5eec63e8",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 13,
+      "output": "assets/images/guides/giga-poke/paste-review.png",
+      "source": "/private/tmp/homepage-guides-captures/giga-paste/EC013511-6879-40FA-AC0A-E4CA0DD40C5A.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "410dc3a201d94b9e3fedd42af52184b77f148b595497678422da8fe15aceeeb0",
+      "actualSourceSHA256": "410dc3a201d94b9e3fedd42af52184b77f148b595497678422da8fe15aceeeb0",
+      "expectedOutputSHA256": "7df618c8cc4df11c81ffc747d1d30c8099d1ec098ed86f6703c2353431d6c723",
+      "actualOutputSHA256": "7df618c8cc4df11c81ffc747d1d30c8099d1ec098ed86f6703c2353431d6c723",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 14,
+      "output": "assets/images/guides/nocca/choose-role.png",
+      "source": "/private/tmp/homepage-guides-captures/nocca-final/29479A6B-2FBC-4F9C-A28F-1E7237C674C4.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "0954b99c45f7c9b4c994a909bf0abe266ccb4e3fdab6f5e9f741e42123229cb2",
+      "actualSourceSHA256": "0954b99c45f7c9b4c994a909bf0abe266ccb4e3fdab6f5e9f741e42123229cb2",
+      "expectedOutputSHA256": "32b8103b65b13bdf5dc454918f93d2b60bc374f03d4bf50a24c01229aba62b10",
+      "actualOutputSHA256": "32b8103b65b13bdf5dc454918f93d2b60bc374f03d4bf50a24c01229aba62b10",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 15,
+      "output": "assets/images/guides/nocca/invite-family.png",
+      "source": "/private/tmp/homepage-guides-captures/nocca-final/45D473F5-AC78-4DF3-975C-5B61CC4B65D8.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "05932bee7e97ca84eee1375b976fae67bf6d10adb1df2088b364b8c7522ff0f2",
+      "actualSourceSHA256": "05932bee7e97ca84eee1375b976fae67bf6d10adb1df2088b364b8c7522ff0f2",
+      "expectedOutputSHA256": "e46355918005f148fc2904ab37fdc815b26ffa10b64681e94f61176fb76ba3c7",
+      "actualOutputSHA256": "e46355918005f148fc2904ab37fdc815b26ffa10b64681e94f61176fb76ba3c7",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 16,
+      "output": "assets/images/guides/nocca/reply-options.png",
+      "source": "/private/tmp/homepage-guides-captures/nocca-final/45C1B575-E8E2-43A6-BD6B-EAF4478DBC31.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "8d289168bef15b4d40a232614e29b4ddc724790228eba88e933f8360d437f92b",
+      "actualSourceSHA256": "8d289168bef15b4d40a232614e29b4ddc724790228eba88e933f8360d437f92b",
+      "expectedOutputSHA256": "9928176eeccfc1119cc414e65dce692fdd49a6607bc7b80a892da1641a425421",
+      "actualOutputSHA256": "9928176eeccfc1119cc414e65dce692fdd49a6607bc7b80a892da1641a425421",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 17,
+      "output": "assets/images/guides/nocca/pause-communication.png",
+      "source": "/private/tmp/homepage-guides-captures/nocca-final/294F93F9-61A9-4EDD-9094-5D461C85032E.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "56772ce23688d01a7fd8f3160a9b694fa902367b97a43e4bc39d29aeb1b13026",
+      "actualSourceSHA256": "56772ce23688d01a7fd8f3160a9b694fa902367b97a43e4bc39d29aeb1b13026",
+      "expectedOutputSHA256": "87275cc8244f9a53ab53cba036a2a9d3a22d3279e66fd75dff0821535f9b55c2",
+      "actualOutputSHA256": "87275cc8244f9a53ab53cba036a2a9d3a22d3279e66fd75dff0821535f9b55c2",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 18,
+      "output": "assets/images/guides/nocca/send-signal.png",
+      "source": "/private/tmp/homepage-guides-captures/nocca-filled/14382095-02EE-4F4E-AD63-13D4F35B6A91.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "8d5532aebe3390cbb0ac4c92aecbe53fdd42b0df1be4a4d81d1a2cb3cfbd7ed2",
+      "actualSourceSHA256": "8d5532aebe3390cbb0ac4c92aecbe53fdd42b0df1be4a4d81d1a2cb3cfbd7ed2",
+      "expectedOutputSHA256": "e15f40232b23795de5d9daba6814efd0c71b945d5fea526df2a0fdfc481f34f8",
+      "actualOutputSHA256": "e15f40232b23795de5d9daba6814efd0c71b945d5fea526df2a0fdfc481f34f8",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 19,
+      "output": "assets/images/guides/nocca/signal-status.png",
+      "source": "/private/tmp/homepage-guides-captures/nocca-filled/14382095-02EE-4F4E-AD63-13D4F35B6A91.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "8d5532aebe3390cbb0ac4c92aecbe53fdd42b0df1be4a4d81d1a2cb3cfbd7ed2",
+      "actualSourceSHA256": "8d5532aebe3390cbb0ac4c92aecbe53fdd42b0df1be4a4d81d1a2cb3cfbd7ed2",
+      "expectedOutputSHA256": "df49370f76875eceb040fc12d014c35f495dd0832d7a45497cec38d58b85e0c2",
+      "actualOutputSHA256": "df49370f76875eceb040fc12d014c35f495dd0832d7a45497cec38d58b85e0c2",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/communication-codes-assets.json",
+      "index": 20,
+      "output": "assets/images/guides/nocca/owner-talk.png",
+      "source": "/private/tmp/homepage-guides-captures/nocca-filled/D948F6BF-FF6D-4FC0-909B-2858EE1BF09D.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "63c9e1f72b6a8ace4d01ae4028dcf1082b0d860b3105c3d246269f5f8109b3fa",
+      "actualSourceSHA256": "63c9e1f72b6a8ace4d01ae4028dcf1082b0d860b3105c3d246269f5f8109b3fa",
+      "expectedOutputSHA256": "c30fb6202e8b79e3f4a923072fb90cd24437a687ac3e5e8373a9afad3ed4943d",
+      "actualOutputSHA256": "c30fb6202e8b79e3f4a923072fb90cd24437a687ac3e5e8373a9afad3ed4943d",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 0,
+      "output": "assets/images/guides/balance-calendar/income-expense-buttons.png",
+      "source": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/raw/iphone_17_pro_max/register.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "35d66b2c271c8507669e2b8e13a0827e5aaac358640c0dfa37c0234b6b5d25c4",
+      "actualSourceSHA256": "35d66b2c271c8507669e2b8e13a0827e5aaac358640c0dfa37c0234b6b5d25c4",
+      "expectedOutputSHA256": "669e74bc8061e85009c59ec80c1efac3ffe69068ff6aa2b42165a642e0f0221e",
+      "actualOutputSHA256": "669e74bc8061e85009c59ec80c1efac3ffe69068ff6aa2b42165a642e0f0221e",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 1,
+      "output": "assets/images/guides/balance-calendar/amount-keypad.png",
+      "source": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/raw/iphone_17_pro_max/keypad.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "9c643b53b6015f546e70ae86b22470384bfb79b9ee9625997ba7cfadf30b954b",
+      "actualSourceSHA256": "9c643b53b6015f546e70ae86b22470384bfb79b9ee9625997ba7cfadf30b954b",
+      "expectedOutputSHA256": "1cb01cf535ba985f924137e485eb6588e980047b792aa9f2d6c99d11b6b59235",
+      "actualOutputSHA256": "1cb01cf535ba985f924137e485eb6588e980047b792aa9f2d6c99d11b6b59235",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 2,
+      "output": "assets/images/guides/balance-calendar/date-history-controls.png",
+      "source": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/raw/iphone_17_pro_max/register.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "35d66b2c271c8507669e2b8e13a0827e5aaac358640c0dfa37c0234b6b5d25c4",
+      "actualSourceSHA256": "35d66b2c271c8507669e2b8e13a0827e5aaac358640c0dfa37c0234b6b5d25c4",
+      "expectedOutputSHA256": "80fc5f861968b39c2594d155fc38c9eb551e5d9341ac5086099f96cfa007f6c9",
+      "actualOutputSHA256": "80fc5f861968b39c2594d155fc38c9eb551e5d9341ac5086099f96cfa007f6c9",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 3,
+      "output": "assets/images/guides/balance-calendar/daily-records.png",
+      "source": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/raw/iphone_17_pro_max/graph_day.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "abf371922b7bdd6e396772b4bef0e7de177aae7fbb4a196b2a690075fb726581",
+      "actualSourceSHA256": "abf371922b7bdd6e396772b4bef0e7de177aae7fbb4a196b2a690075fb726581",
+      "expectedOutputSHA256": "cc47780de3aba43f3937c5d7a921c7aa601a774d5d5d65ad219576f8e05f121d",
+      "actualOutputSHA256": "cc47780de3aba43f3937c5d7a921c7aa601a774d5d5d65ad219576f8e05f121d",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 4,
+      "output": "assets/images/guides/balance-calendar/tag-settings.png",
+      "source": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/raw/iphone_17_pro_max/settings_tags.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "e128991086550e6cb89b80d68777a9ca365ce42ee4d3841858c3f1399172fe0a",
+      "actualSourceSHA256": "e128991086550e6cb89b80d68777a9ca365ce42ee4d3841858c3f1399172fe0a",
+      "expectedOutputSHA256": "ec9f47c0a7ea1be61a7d1b7ce69bb221be119aab8709ae4decc924420f48ca24",
+      "actualOutputSHA256": "ec9f47c0a7ea1be61a7d1b7ce69bb221be119aab8709ae4decc924420f48ca24",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 5,
+      "output": "assets/images/guides/balance-calendar/widget-entry.png",
+      "source": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/raw/iphone_17_pro_max/widget_home.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "2fc7f4c86f125c0a83e5b628bc3cac7e7561db329099d1537e1960fe057c27be",
+      "actualSourceSHA256": "2fc7f4c86f125c0a83e5b628bc3cac7e7561db329099d1537e1960fe057c27be",
+      "expectedOutputSHA256": "83c76f6e38a8fe0d1a3736ec89a2ee48a41de7c8649ad4232e68b104f773762b",
+      "actualOutputSHA256": "83c76f6e38a8fe0d1a3736ec89a2ee48a41de7c8649ad4232e68b104f773762b",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 6,
+      "output": "assets/images/guides/smokeless/fr/record-buttons.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/fr/register.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "492ba9de4dc28e4f252384458d0295eb84292818f05241a480373e08453c63ef",
+      "actualSourceSHA256": "492ba9de4dc28e4f252384458d0295eb84292818f05241a480373e08453c63ef",
+      "expectedOutputSHA256": "af17f5bd9d7e920d8ea5592b1fb3040c5f062534a0430d5a36c6943e22e9825a",
+      "actualOutputSHA256": "af17f5bd9d7e920d8ea5592b1fb3040c5f062534a0430d5a36c6943e22e9825a",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 7,
+      "output": "assets/images/guides/smokeless/fr/history-controls.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/fr/register.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "492ba9de4dc28e4f252384458d0295eb84292818f05241a480373e08453c63ef",
+      "actualSourceSHA256": "492ba9de4dc28e4f252384458d0295eb84292818f05241a480373e08453c63ef",
+      "expectedOutputSHA256": "bc6237e4fba7c029f4e4c0f93c720afcc6b469bc190bf5b027d5ae5e21836906",
+      "actualOutputSHA256": "bc6237e4fba7c029f4e4c0f93c720afcc6b469bc190bf5b027d5ae5e21836906",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 8,
+      "output": "assets/images/guides/smokeless/fr/calendar.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/fr/graph.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "d422b92ba1f75598a7b91a6965fbe3c8c14fa9971ca79314318e9fcf87559679",
+      "actualSourceSHA256": "d422b92ba1f75598a7b91a6965fbe3c8c14fa9971ca79314318e9fcf87559679",
+      "expectedOutputSHA256": "77ac35f863ae0c2cf3393aa98688dfed1c00b8a86e4e93ac4739f28bb584d1d1",
+      "actualOutputSHA256": "77ac35f863ae0c2cf3393aa98688dfed1c00b8a86e4e93ac4739f28bb584d1d1",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 9,
+      "output": "assets/images/guides/smokeless/fr/chart.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/fr/chart.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "b9408d916ebfae79174803423f11ce56b210fa0fd6ddbd7f38a91d3412398726",
+      "actualSourceSHA256": "b9408d916ebfae79174803423f11ce56b210fa0fd6ddbd7f38a91d3412398726",
+      "expectedOutputSHA256": "40031984915d2730e060bfbb7ca59bdd98d68f61edd0f392dfe4aa7d40207a90",
+      "actualOutputSHA256": "40031984915d2730e060bfbb7ca59bdd98d68f61edd0f392dfe4aa7d40207a90",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 10,
+      "output": "assets/images/guides/smokeless/ko/record-buttons.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/ko/register.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "fdb1561d59588e57664acbcc8df0452307d98f36f408c1bc97c2e5ca85921972",
+      "actualSourceSHA256": "fdb1561d59588e57664acbcc8df0452307d98f36f408c1bc97c2e5ca85921972",
+      "expectedOutputSHA256": "af17f5bd9d7e920d8ea5592b1fb3040c5f062534a0430d5a36c6943e22e9825a",
+      "actualOutputSHA256": "af17f5bd9d7e920d8ea5592b1fb3040c5f062534a0430d5a36c6943e22e9825a",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 11,
+      "output": "assets/images/guides/smokeless/ko/history-controls.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/ko/register.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "fdb1561d59588e57664acbcc8df0452307d98f36f408c1bc97c2e5ca85921972",
+      "actualSourceSHA256": "fdb1561d59588e57664acbcc8df0452307d98f36f408c1bc97c2e5ca85921972",
+      "expectedOutputSHA256": "7b903ae50cc22dbc519299336dd1b510cb21e85342ddf31a47b866ba625f6f9c",
+      "actualOutputSHA256": "7b903ae50cc22dbc519299336dd1b510cb21e85342ddf31a47b866ba625f6f9c",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 12,
+      "output": "assets/images/guides/smokeless/ko/calendar.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/ko/graph.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "e451e4956b0b1964992ab0c832167c394902d0d08a2f67f2a7db90b1f07f4521",
+      "actualSourceSHA256": "e451e4956b0b1964992ab0c832167c394902d0d08a2f67f2a7db90b1f07f4521",
+      "expectedOutputSHA256": "e22b1f2614cb96e9332f79311d8af1d4c49e45d9647a3a848e53f3b5e2e9c1e2",
+      "actualOutputSHA256": "e22b1f2614cb96e9332f79311d8af1d4c49e45d9647a3a848e53f3b5e2e9c1e2",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 13,
+      "output": "assets/images/guides/smokeless/ko/chart.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/ko/chart.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "0bb80412a7de33635e251c14b10f2b774680e216239bfdcf5feec4805bf7ef7c",
+      "actualSourceSHA256": "0bb80412a7de33635e251c14b10f2b774680e216239bfdcf5feec4805bf7ef7c",
+      "expectedOutputSHA256": "6a432501f5bec00c569dbc0b9bdef5a93e08fc080fdf247690de5dd5d9b6267c",
+      "actualOutputSHA256": "6a432501f5bec00c569dbc0b9bdef5a93e08fc080fdf247690de5dd5d9b6267c",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 14,
+      "output": "assets/images/guides/smokeless/zh-hant/record-buttons.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/zh-Hant/register.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "478cc49426c3db72c905dcd3b895d1ef3423ff32efa391f085e5d89144ffa533",
+      "actualSourceSHA256": "478cc49426c3db72c905dcd3b895d1ef3423ff32efa391f085e5d89144ffa533",
+      "expectedOutputSHA256": "af17f5bd9d7e920d8ea5592b1fb3040c5f062534a0430d5a36c6943e22e9825a",
+      "actualOutputSHA256": "af17f5bd9d7e920d8ea5592b1fb3040c5f062534a0430d5a36c6943e22e9825a",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 15,
+      "output": "assets/images/guides/smokeless/zh-hant/history-controls.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/zh-Hant/register.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "478cc49426c3db72c905dcd3b895d1ef3423ff32efa391f085e5d89144ffa533",
+      "actualSourceSHA256": "478cc49426c3db72c905dcd3b895d1ef3423ff32efa391f085e5d89144ffa533",
+      "expectedOutputSHA256": "9bbbb30d8034fd2913e4a08440ceb74708abbc21cf088606457c45d7dc258ff5",
+      "actualOutputSHA256": "9bbbb30d8034fd2913e4a08440ceb74708abbc21cf088606457c45d7dc258ff5",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 16,
+      "output": "assets/images/guides/smokeless/zh-hant/calendar.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/zh-Hant/graph.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "e2d1ae5b0e728c6a25f3723e5ae98388535c4dd41fdda706dc5cdf0970ea7d38",
+      "actualSourceSHA256": "e2d1ae5b0e728c6a25f3723e5ae98388535c4dd41fdda706dc5cdf0970ea7d38",
+      "expectedOutputSHA256": "7dedfa7d05d8a16e6c0d2ab823d8b55b090c64a946b4e98339b0bb05ad3b2449",
+      "actualOutputSHA256": "7dedfa7d05d8a16e6c0d2ab823d8b55b090c64a946b4e98339b0bb05ad3b2449",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 17,
+      "output": "assets/images/guides/smokeless/zh-hant/chart.png",
+      "source": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/sources/ui/zh-Hant/chart.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "086ef1d4cb81c9f55b0e23c802cc1999002c3389395301be9cf92a60d1c12cfb",
+      "actualSourceSHA256": "086ef1d4cb81c9f55b0e23c802cc1999002c3389395301be9cf92a60d1c12cfb",
+      "expectedOutputSHA256": "ee838a150f155080f00fff12c40f728f6190981f0c59904c3efe53959f96f991",
+      "actualOutputSHA256": "ee838a150f155080f00fff12c40f728f6190981f0c59904c3efe53959f96f991",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 18,
+      "output": "assets/images/guides/smokeless/ja/record-buttons.png",
+      "source": "/private/tmp/smokeless-guide-record-ja.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "1094056e307bb22a3c2a3a3bf676cfc1e3f01dd5340488d23aee1a301f03b403",
+      "actualSourceSHA256": "1094056e307bb22a3c2a3a3bf676cfc1e3f01dd5340488d23aee1a301f03b403",
+      "expectedOutputSHA256": "968a9fd2a5b12552b43c17cf1910a7feaa0ccf351d234f1ccfb032561ca35b28",
+      "actualOutputSHA256": "968a9fd2a5b12552b43c17cf1910a7feaa0ccf351d234f1ccfb032561ca35b28",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 19,
+      "output": "assets/images/guides/smokeless/ja/history.png",
+      "source": "/private/tmp/smokeless-guide-history-ja.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "d124ea62e1a811c262f29fe3571227f72d40dac5b6a860aa878cf41c5f454d60",
+      "actualSourceSHA256": "d124ea62e1a811c262f29fe3571227f72d40dac5b6a860aa878cf41c5f454d60",
+      "expectedOutputSHA256": "a35cba51e2368aecab979ad78cab44752824c0662f3f669bc3eb92adbae98074",
+      "actualOutputSHA256": "a35cba51e2368aecab979ad78cab44752824c0662f3f669bc3eb92adbae98074",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 20,
+      "output": "assets/images/guides/smokeless/ja/calendar.png",
+      "source": "/private/tmp/smokeless-guide-calendar-ja.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "aa0a4e146b548ae9221d2b8b4f66355855e09f3c2f4ef09560a2d206f41f39f9",
+      "actualSourceSHA256": "aa0a4e146b548ae9221d2b8b4f66355855e09f3c2f4ef09560a2d206f41f39f9",
+      "expectedOutputSHA256": "a6e1777ad0e647f508b6de80fe9fcc9a9c65b337e4a881e94598b56620844d71",
+      "actualOutputSHA256": "a6e1777ad0e647f508b6de80fe9fcc9a9c65b337e4a881e94598b56620844d71",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 21,
+      "output": "assets/images/guides/smokeless/ja/chart.png",
+      "source": "/private/tmp/smokeless-guide-chart-ja.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "6b6ef5b1e6b4112e20d9d32b282d9465cf830dbeb3666396ee6b5a89c1d5761e",
+      "actualSourceSHA256": "6b6ef5b1e6b4112e20d9d32b282d9465cf830dbeb3666396ee6b5a89c1d5761e",
+      "expectedOutputSHA256": "81c5c325749be0988efd0b2af1ba1fd9091eb6a14728b2dd24b7d4f8fd7eabe3",
+      "actualOutputSHA256": "81c5c325749be0988efd0b2af1ba1fd9091eb6a14728b2dd24b7d4f8fd7eabe3",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 22,
+      "output": "assets/images/guides/smokeless/ja/settings.png",
+      "source": "/private/tmp/smokeless-guide-settings-ja.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "efb87eb04f6ba4b812f1e6165ba3b8468a3482f72d3e5e19d1bb8d7c736b83c4",
+      "actualSourceSHA256": "efb87eb04f6ba4b812f1e6165ba3b8468a3482f72d3e5e19d1bb8d7c736b83c4",
+      "expectedOutputSHA256": "85665395106c01aecf9814d5eeaec507ffbc807cf518aa6710e3ae9fdc08b9e4",
+      "actualOutputSHA256": "85665395106c01aecf9814d5eeaec507ffbc807cf518aa6710e3ae9fdc08b9e4",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 23,
+      "output": "assets/images/guides/smokeless/en/record-buttons.png",
+      "source": "/private/tmp/smokeless-guide-record-en.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "5b440f45feef4dc3bd9b7a44b7f635da9057806e277e6763b9ea5d1c7706b11e",
+      "actualSourceSHA256": "5b440f45feef4dc3bd9b7a44b7f635da9057806e277e6763b9ea5d1c7706b11e",
+      "expectedOutputSHA256": "10a61462e2d582685691b1756b97ca92def7b219a88cbed514f0aa4f1c78a335",
+      "actualOutputSHA256": "10a61462e2d582685691b1756b97ca92def7b219a88cbed514f0aa4f1c78a335",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 24,
+      "output": "assets/images/guides/smokeless/en/history.png",
+      "source": "/private/tmp/smokeless-guide-history-en.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "20f5ee77bb1f06eb65e7e43095302479cf405ebb3703b269671079b5fe15bf2d",
+      "actualSourceSHA256": "20f5ee77bb1f06eb65e7e43095302479cf405ebb3703b269671079b5fe15bf2d",
+      "expectedOutputSHA256": "365fd1f0ca1978a0b3e087d3882b99e8fbebd91686263b810f0507101f40f25f",
+      "actualOutputSHA256": "365fd1f0ca1978a0b3e087d3882b99e8fbebd91686263b810f0507101f40f25f",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 25,
+      "output": "assets/images/guides/smokeless/en/calendar.png",
+      "source": "/private/tmp/smokeless-guide-calendar-en.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "9294f6d231aeee81ffb70ac32ef3a743cc6b6b392fa44d13d4eecb5a9ed91702",
+      "actualSourceSHA256": "9294f6d231aeee81ffb70ac32ef3a743cc6b6b392fa44d13d4eecb5a9ed91702",
+      "expectedOutputSHA256": "fb94b99501929bf174371e8161d5c3ceb2aae2b7f9fb681c6ff0df45753d3ada",
+      "actualOutputSHA256": "fb94b99501929bf174371e8161d5c3ceb2aae2b7f9fb681c6ff0df45753d3ada",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 26,
+      "output": "assets/images/guides/smokeless/en/chart.png",
+      "source": "/private/tmp/smokeless-guide-chart-en.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "30a531d2cdf2d16e145234341349c37e84c64de45fe8209e73476cb1ff84b8d9",
+      "actualSourceSHA256": "30a531d2cdf2d16e145234341349c37e84c64de45fe8209e73476cb1ff84b8d9",
+      "expectedOutputSHA256": "3ef097279d3ea7b93e7489cb271bf09c68ac9331d63ae0c7f07b08fffd7ac4e1",
+      "actualOutputSHA256": "3ef097279d3ea7b93e7489cb271bf09c68ac9331d63ae0c7f07b08fffd7ac4e1",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/utilities-assets.json",
+      "index": 27,
+      "output": "assets/images/guides/smokeless/en/settings.png",
+      "source": "/private/tmp/smokeless-guide-settings-en.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "b5338a82c46f8d06b59d8e1262e81e898fee47429b6a85d554671c7b3ec7dbe9",
+      "actualSourceSHA256": "b5338a82c46f8d06b59d8e1262e81e898fee47429b6a85d554671c7b3ec7dbe9",
+      "expectedOutputSHA256": "762bcd9c82fc0b195fe5dc94963909c4e875263ad2d568d59ce5e59a32808491",
+      "actualOutputSHA256": "762bcd9c82fc0b195fe5dc94963909c4e875263ad2d568d59ce5e59a32808491",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/signal-assets.json",
+      "index": 0,
+      "output": "assets/images/guides/signal/tabs-and-article.png",
+      "source": "/Users/yuya/Projects/signal/artifacts/app_store_screenshots_2026-09-03/source/ui_captures/today.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "1563b3a99b07046bf6f11aae11e2a5724bab790a5b4bfc116d2cb374ba3cba6f",
+      "actualSourceSHA256": "1563b3a99b07046bf6f11aae11e2a5724bab790a5b4bfc116d2cb374ba3cba6f",
+      "expectedOutputSHA256": "bceb35285979d27024e246abd3dccd989015749b1e69d3705ed34ca95300ef89",
+      "actualOutputSHA256": "bceb35285979d27024e246abd3dccd989015749b1e69d3705ed34ca95300ef89",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/signal-assets.json",
+      "index": 1,
+      "output": "assets/images/guides/signal/article-menu.png",
+      "source": "/Users/yuya/Projects/signal/artifacts/app_store_screenshots_2026-09-03/source/ui_captures/article.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "b410b18cacdb8d7039ac1b1eb11878889da2e732d62662292e6f99cd3eeb4fcb",
+      "actualSourceSHA256": "b410b18cacdb8d7039ac1b1eb11878889da2e732d62662292e6f99cd3eeb4fcb",
+      "expectedOutputSHA256": "f84f7fa842a3237cceaf2df0ae7a3ef789addc4b7739899b3d09ddcc9891abbe",
+      "actualOutputSHA256": "f84f7fa842a3237cceaf2df0ae7a3ef789addc4b7739899b3d09ddcc9891abbe",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/signal-assets.json",
+      "index": 2,
+      "output": "assets/images/guides/signal/source-switches.png",
+      "source": "/Users/yuya/Projects/signal/artifacts/app_store_screenshots_2026-09-03/source/ui_captures/settings.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "6399becdba7d14bcc461bc15c264afa3336157a447e4e7ab30db67b3984fd336",
+      "actualSourceSHA256": "6399becdba7d14bcc461bc15c264afa3336157a447e4e7ab30db67b3984fd336",
+      "expectedOutputSHA256": "ebef386eeb6ef69a19f41a76f1d49af20f9a6ed9b173d7ba32b408631e01376e",
+      "actualOutputSHA256": "ebef386eeb6ef69a19f41a76f1d49af20f9a6ed9b173d7ba32b408631e01376e",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/signal-assets.json",
+      "index": 3,
+      "output": "assets/images/guides/signal/text-and-theme.png",
+      "source": "/Users/yuya/Projects/signal/artifacts/app_store_screenshots_2026-09-03/source/ui_captures/settings.png",
+      "classification": "existing-real-ui",
+      "expectedSourceSHA256": "6399becdba7d14bcc461bc15c264afa3336157a447e4e7ab30db67b3984fd336",
+      "actualSourceSHA256": "6399becdba7d14bcc461bc15c264afa3336157a447e4e7ab30db67b3984fd336",
+      "expectedOutputSHA256": "705222cb79e1019d33e1d25db0e250e0cc05a4674a4179aa1cdaf6633a3b8d25",
+      "actualOutputSHA256": "705222cb79e1019d33e1d25db0e250e0cc05a4674a4179aa1cdaf6633a3b8d25",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/uninote-create-assets.json",
+      "index": 0,
+      "output": "assets/images/guides/uni-note/zh-hant/create-menu.png",
+      "source": "/private/tmp/homepage-uninote-create-attachments/4EAB0C78-D7C1-4A78-AFAA-90D0115EC24E.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "b23ea779b146225b068e1e8870089e5f785fcb31d593fb8f3d4181b20a7d903f",
+      "actualSourceSHA256": "b23ea779b146225b068e1e8870089e5f785fcb31d593fb8f3d4181b20a7d903f",
+      "expectedOutputSHA256": "bc3dc944e361b1823b72e73d896cd6483461c90526720c5175c60a1dd00f25df",
+      "actualOutputSHA256": "bc3dc944e361b1823b72e73d896cd6483461c90526720c5175c60a1dd00f25df",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/uninote-create-assets.json",
+      "index": 1,
+      "output": "assets/images/guides/uni-note/ko/create-menu.png",
+      "source": "/private/tmp/homepage-uninote-create-attachments/9BA633E3-411E-40A5-9F23-A2989F1E68A7.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "3271ce7d65dfe4cdb307e9db350b6161ccee4ca178c22d32db70324f614a09d3",
+      "actualSourceSHA256": "3271ce7d65dfe4cdb307e9db350b6161ccee4ca178c22d32db70324f614a09d3",
+      "expectedOutputSHA256": "3e7ba9a361707741f52857dc5f9da03a15bdd3fc80359a0a9d98e28df169a2aa",
+      "actualOutputSHA256": "3e7ba9a361707741f52857dc5f9da03a15bdd3fc80359a0a9d98e28df169a2aa",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/uninote-create-assets.json",
+      "index": 2,
+      "output": "assets/images/guides/uni-note/fr/create-menu.png",
+      "source": "/private/tmp/homepage-uninote-create-attachments/9B8E5215-71AF-48D3-8C1F-B1D9826FD130.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "c12ee74ca218453d6b3a9c993edafc2522473013da82d8119788a678e33cd3e5",
+      "actualSourceSHA256": "c12ee74ca218453d6b3a9c993edafc2522473013da82d8119788a678e33cd3e5",
+      "expectedOutputSHA256": "c564438de1bf8d1f53845cb22ba93afee38def40b946c2f6770655fcbb886422",
+      "actualOutputSHA256": "c564438de1bf8d1f53845cb22ba93afee38def40b946c2f6770655fcbb886422",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/uninote-create-assets.json",
+      "index": 3,
+      "output": "assets/images/guides/uni-note/de/create-menu.png",
+      "source": "/private/tmp/homepage-uninote-create-attachments/37FEB961-EDDC-4BBB-8CDC-40867BDD9A2E.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "b690b13a7429385f6efc8a0d553f08106eaba1456a287c4c2702c8273736db2d",
+      "actualSourceSHA256": "b690b13a7429385f6efc8a0d553f08106eaba1456a287c4c2702c8273736db2d",
+      "expectedOutputSHA256": "57fc098bd6cb51dfbabf00f3804baf2940f3cf8b4368909d47463ce6a52fdac7",
+      "actualOutputSHA256": "57fc098bd6cb51dfbabf00f3804baf2940f3cf8b4368909d47463ce6a52fdac7",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/uninote-create-assets.json",
+      "index": 4,
+      "output": "assets/images/guides/uni-note/en/create-menu.png",
+      "source": "/private/tmp/homepage-uninote-create-attachments/A3669B74-AF38-4E6F-8E48-A2508B4BAD6A.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "46e899251c2d7da4319bdef3c9bb2de49c6349fe2a51ba1d1ddb30e6e5fed876",
+      "actualSourceSHA256": "46e899251c2d7da4319bdef3c9bb2de49c6349fe2a51ba1d1ddb30e6e5fed876",
+      "expectedOutputSHA256": "d2f8060763b61d1e73f61f7bcb8f38987fd9f9a96b2d891d7db1e81cb283ebdb",
+      "actualOutputSHA256": "d2f8060763b61d1e73f61f7bcb8f38987fd9f9a96b2d891d7db1e81cb283ebdb",
+      "sourceVerified": true,
+      "outputVerified": true
+    },
+    {
+      "manifest": "docs/visual-guides/uninote-create-assets.json",
+      "index": 5,
+      "output": "assets/images/guides/uni-note/ja/create-menu.png",
+      "source": "/private/tmp/homepage-uninote-create-attachments/21417D67-2DB3-4299-80C2-C47EE65E0256.png",
+      "classification": "new-simulator-capture",
+      "expectedSourceSHA256": "c881900d1c6a3c5f8691ae793647f8c068881728b9755fecb4662b4e5fbbd9fc",
+      "actualSourceSHA256": "c881900d1c6a3c5f8691ae793647f8c068881728b9755fecb4662b4e5fbbd9fc",
+      "expectedOutputSHA256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148",
+      "actualOutputSHA256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148",
+      "sourceVerified": true,
+      "outputVerified": true
+    }
+  ]
+}

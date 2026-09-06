@@ -1,97 +1,57 @@
 ---
 title: "Mode d'emploi (Smokeless)"
 description: "Mode d'emploi pour Smokeless."
+lastmod: 2026-09-07
 ---
 
-Smokeless est une application qui permet d'enregistrer rapidement `Fumée` et `Évitée`, puis de revoir ensuite les nombres et les montants.
-
-Elle peut être utilisée comme aide à l'arrêt du tabac ou simplement comme outil de suivi de votre situation actuelle.
-
----
+Le bouton vert enregistre une cigarette évitée, le rouge une cigarette fumée. Retrouvez ci-dessous les commandes pour saisir et consulter vos enregistrements.
 
 ## 1. Vérifiez le premier tutoriel et les réglages du paquet
 
-Au premier lancement, après le tutoriel, vous réglez :
-
-- `Cigarettes par paquet`
-- `Prix du paquet`
-
-Avec ces valeurs définies, vous pouvez convertir `Fumée` et `Évitée` en montant.
-
----
+Après le premier tutoriel, renseignez Cigarettes par paquet et Prix du paquet. Ces valeurs servent à la conversion monétaire. Vous pouvez les modifier dans Réglages → Général → Marques.
 
 ## 2. Enregistrez depuis `Saisie`
 
-Sur l'écran central `Saisie`, vous pouvez noter en un geste le bouton vert `Évitée` et le bouton rouge `Fumée`.
+1. Ouvrez Saisie au centre.
+2. Touchez la cigarette barrée verte lorsque vous aviez envie de fumer mais ne l’avez pas fait.
+3. Touchez la cigarette rouge lorsque vous avez fumé.
 
-- Le bouton vert enregistre 1 cigarette évitée
-- Le bouton rouge enregistre 1 cigarette fumée
-- Si plusieurs marques sont enregistrées, vous pouvez choisir la marque avant d'enregistrer
-- En haut de l'écran, vous pouvez voir le nombre du jour, la conversion monétaire et le temps écoulé depuis le dernier enregistrement
+{{< guide-image src="images/guides/smokeless/fr/record-buttons.png" alt="Boutons de saisie Smokeless : cigarette évitée en vert à gauche, fumée en rouge à droite" mode="crop" >}}
 
----
+Chaque geste ajoute un enregistrement au total du jour. Si plusieurs marques sont configurées, choisissez la marque avant la saisie.
 
 ## 3. Revoyez les enregistrements du jour depuis `Historique`
 
-Depuis `Historique` en haut à droite, vous pouvez consulter la liste des enregistrements du jour.
+1. Touchez l’icône de ticket en haut à droite de Saisie.
+2. Balayez un enregistrement vers la gauche pour le supprimer.
+3. Touchez Annuler immédiatement après la suppression pour le rétablir.
 
-- Les enregistrements inutiles peuvent être supprimés
-- Juste après la suppression, vous pouvez les restaurer avec `Annuler`
-
----
+{{< guide-image src="images/guides/smokeless/fr/history-controls.png" alt="En haut de Saisie, icône de ticket à droite pour ouvrir l’historique" mode="crop" >}}
 
 ## 4. Revoyez par jour, mois et année dans `Calendrier`
 
-Dans `Calendrier` en bas à gauche, vous pouvez consulter les enregistrements par :
+1. Ouvrez Calendrier en bas à gauche.
+2. Choisissez Jour, Mois ou Année.
+3. Touchez une date pour consulter ses enregistrements.
 
-- Jour
-- Mois
-- Année
-
-Pour chaque période, vous pouvez revoir les nombres et la conversion monétaire avec une vue centrée sur les chiffres.
-
----
+{{< guide-image src="images/guides/smokeless/fr/calendar.png" alt="Calendrier Smokeless avec onglets Jour, Mois et Année et totaux quotidiens" mode="screen" >}}
 
 ## 5. Vérifiez les changements récents dans `Graphiques`
 
-Dans `Graphiques`, vous pouvez consulter les tendances sur :
+Ouvrez Graphiques en bas à droite, puis choisissez Semaine, Mois ou 3 mois. Les flèches à côté de la période permettent de changer les dates affichées.
 
-- `Semaine`
-- `Mois`
-- `3 mois`
-
-Vous pouvez vérifier les changements récents en regardant `Fumée`, `Évitée` et `Moy. fumées`.
-
----
+{{< guide-image src="images/guides/smokeless/fr/chart.png" alt="Graphiques Smokeless et commandes de période, avec courbes des cigarettes fumées et évitées" mode="screen" >}}
 
 ## 6. Utilisez le widget d'accueil
 
-Ajoutez le widget d'accueil pour consulter le total du jour de `Fumée` / `Évitée` depuis l'écran d'accueil.
+Ajoutez le widget Smokeless à l’écran d’accueil de l’iPhone. Touchez le bouton vert ou rouge pour enregistrer une cigarette évitée ou fumée aujourd’hui.
 
-Vous pouvez aussi enregistrer directement depuis le widget.
-
----
+La marque utilisée se choisit dans Réglages → Général → Marques, avec l’option de marque par défaut du widget. Elle ne se change pas dans le widget.
 
 ## 7. Ajustez les `Réglages`
 
-Dans `Réglages`, vous pouvez principalement modifier :
+Touchez la roue dentée en haut à gauche de Saisie, puis Général. Vous pouvez régler le thème, la langue, la devise, les marques et l’alerte de surconsommation.
 
-- Le thème
-- `Langue`
-- `Devise des économies`
-- `Cigarettes par paquet`
-- `Prix du paquet`
-- Réglages des marques (jusqu'à 4)
-- `Alerte de surconsommation`
-- `Supprimer les pubs`
-- `Relancer le tutoriel`
-- `Contact et demandes`
-
----
-
-Pages liées :
-
-- [FAQ (Smokeless)]({{< relref "/faq/smokeless/" >}})
-- [Politique de confidentialité (Smokeless)]({{< relref "/privacy/smokeless/" >}})
+Modifiez le nombre et le prix du paquet dans Marques. Une marque est disponible au départ ; l’achat du pack de marques permet d’en utiliser quatre au total. Les achats se restaurent depuis Réglages → Achats intégrés.
 
 {{< watch-guide app="smokeless" >}}

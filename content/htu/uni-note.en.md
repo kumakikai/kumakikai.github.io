@@ -1,356 +1,116 @@
 ---
 title: "How to Use (Uni:Note)"
 description: "How to Use for Uni:Note."
+lastmod: 2026-09-07
 ---
 
-Uni:Note is an iPad note app designed for handwriting with Apple Pencil.  
-You can separate your work by subject and keep each class in its own note.
+Use these real screens to follow the main Uni:Note 3.4.0 operations. Tap an image to enlarge it. Apple Pencil is used for writing; fingers are used for scrolling and moving attachments.
 
-Supported setup:
+{{< guide-anchor "1-organize-subjects-and-folders-on-home" "2-open-the-first-note" >}}
 
-- iPad only
-- Handwriting is designed for Apple Pencil
-- Finger input is mainly for scrolling and handling attached materials
-- Supported languages: `Japanese / English / Korean / German / Traditional Chinese / French`
+## 1. Create a subject and its first note {#create}
 
----
+1. Tap **+** at the bottom right of Home, then choose **New Subject**.
 
-## Use `Split View`, `Slide Over`, and two panes
+{{< guide-image src="images/guides/uni-note/en/create-menu.png" alt="New Subject and Create Folder in the Home Add menu" mode="crop" caption="The creation menu opened by the bottom-right + button." >}}
 
-Uni:Note supports iPad multiwindow display.
+2. Choose the name, ruling, paper color and cover color.
+3. Open the subject and name its first note. Leave the name blank to use today’s date.
 
-- Open Uni:Note first and show the Dock
-- Drag another app or Uni:Note to the side of the screen for `Split View`
-- Place another app or Uni:Note as a floating panel for `Slide Over`
+The same + menu creates folders. Drag subjects into them; deleting a folder returns its subjects to Home. Long-press a subject to edit its name and paper settings.
 
-If you want to use two Uni:Note windows at the same time, open the first one, press and hold the Uni:Note icon in the Dock, and choose the option for opening a new window.  
-After opening the second window, you can place it side by side for a two-pane `Split View`, or float it as `Slide Over`.
+{{< guide-anchor "3-write-with-apple-pencil" "4-zoom-with-two-fingers" "5-switch-tools" "9-use-ruler" >}}
 
-The exact UI and labels may differ slightly depending on your iPadOS version.
+## 2. Choose a tool and write {#write}
 
----
+1. Select the pen, highlighter or eraser in the palette.
+2. Write with Apple Pencil. Pinch with two fingers to zoom.
+3. Writing on the last page adds the next page automatically.
 
-## 1. Organize subjects and folders on Home
+{{< guide-image src="images/guides/uni-note/common/writing-tools.png" alt="Pen, highlighter, eraser, sticky marker, undo and redo palette" mode="crop" >}}
 
-Create a new subject from the `+` button on Home.
+Drag the palette to reposition it. The Ruler button shows a ruler you can move and rotate with your fingers. Draw near it with Apple Pencil for straight lines. Range Move selects whole handwriting strokes; move photos, PDFs and sticky markers separately. Vertical notebooks scroll sideways, and their orientation cannot be changed after creation.
 
-- Subject name
-- Paper style: ruled / vertical / grid / plain
-- `Paper Color`
-- Cover color
-- `Use as Portrait Notebook` when `Vertical` is selected
+{{< guide-anchor "6-use-note-list-and-pages" >}}
 
-The subject is added to Home.  
-Tap it to open its notes.
+## 3. Switch notes and search titles {#find}
 
-If `Use as Portrait Notebook` is on, the note behaves like this:
+Type part of a note title in **Search note titles** on Home and tap a result. Search covers titles, not handwriting, page text, PDFs or subject names.
 
-- in landscape: a spread-like layout
-- in portrait: one page at a time
-- scrolling direction: horizontal
+{{< guide-image src="images/guides/uni-note/en/home-search.png" alt="Search note titles field on Home" mode="crop" >}}
 
-After creating a subject, press and hold it on Home to open `Edit`.  
-You can change the subject name, paper style, paper color, and cover color later, but the note orientation cannot be changed after creation.
+Inside a note, **Note List** opens other notes in the subject and lets you create one. Swipe left for rename, protection or deletion. **Pages** opens thumbnails: tap to navigate, long-press to delete.
 
-You can also reorder subjects on Home or organize them with folders.
+**Before the 3.5.0 release:** a subject-card shortcut to Note List and toolbar/palette customization exist in the local upcoming version. In the published 3.4.0, use the controls inside the note as described above.
 
-Main folder actions:
+{{< guide-anchor "7-use-more" "8-use-photos-and-pdfs" >}}
 
-- Create a folder from the `+` button on Home
-- Choose a folder name, color, and subjects to include
-- Drag a subject into a folder
-- Tap a folder to open its subjects in a popup on Home
-- Reorder subjects inside a folder
-- Deleting a folder does not delete its subjects. They return to Home
+## 4. Attach photos or PDFs and export {#pdf}
 
----
+1. Open **More** at the top right of the note.
+2. Choose a photo, document photo or PDF attachment.
+3. Select the PDF pages to insert; use the spread-splitting option for facing-page documents.
 
-## 2. Open the first note
+{{< guide-image src="images/guides/uni-note/en/attachment-menu.png" alt="Photo, document photo, PDF attachment and PDF export menu" mode="crop" >}}
 
-When you open a new subject for the first time, Uni:Note shows the first note title prompt.
+{{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Lecture PDF with handwriting in Uni:Note" mode="tablet" >}}
 
-- Start with `OK` or `Start Writing`
-- Entering a title is optional
-- If left blank, today's date is used as the title
-- If you go back without confirming anything, the first note is not kept
+Select an attachment with your finger to move or resize it. Double-tap to lock or unlock it, then write over the document with Apple Pencil. For sharing, choose **More → Export PDF**, then the current note or the whole subject. Settings lets you use the paper color or white as the PDF background.
 
-After that, the subject opens the last note you were writing in.
+{{< guide-anchor "10-use-recording-transcription-and-ai-summary" >}}
 
----
+## 5. Record a lecture {#recording}
 
-## 3. Write with Apple Pencil
+1. Tap the microphone above the note.
+2. Tap the red record button; pause and resume when needed.
+3. Stop to save, then select the saved recording to play it.
 
-- Handwriting is designed for Apple Pencil
-- Regular notes are shown vertically in one continuous flow
-- When you start writing on the last page, the next page is added automatically
-- One note can have up to `150` pages
-- Portrait notebooks show pages horizontally, one by one in portrait orientation
+{{< guide-image src="images/guides/uni-note/common/record-button.png" alt="Recording panel language and red record button" mode="crop" caption="The recording-language example uses English." >}}
 
-The app is designed so you can open a note and start writing right away.
+Recording, playback and transcript viewing require Premium. Recordings split after 30 minutes, with up to five per note. Stop and save before returning Home or putting the iPad to sleep. Supported iPadOS 26 devices can transcribe during recording. Set the language in **Settings → Study Support → Recording Support**. AI summaries use transcript text and AI balance; review the estimated usage before starting.
 
----
+{{< guide-anchor "11-use-memorization-feature" "12-use-problem-solver-assistant" "13-use-create-practice-set" >}}
 
-## 4. Zoom with two fingers
+## 6. Review with sticky markers and practice sets {#review}
 
-On the note screen, you can pinch with two fingers to zoom in or out.
+Enable memorization in Study Support settings. Choose the sticky-marker tool, cover text with Apple Pencil, and tap a marker with your finger to reveal or hide it. To delete a marker, long-press it and tap the Delete button that appears.
 
-If zoom is hard to trigger while you are writing or adjusting a photo, document photo, or PDF, lift your fingers once and try again.
+{{< guide-image src="images/guides/uni-note/common/sticky-marker.png" alt="Sticky markers hiding answers in lecture notes" mode="crop" >}}
 
----
+Enable **Problem Solver Assistant**, choose its note toolbar button, enclose a problem with Apple Pencil, check the area and request an answer.
 
-## 5. Switch tools
+To send the result to another app, tap Copy on the left or Share on the right at the upper-right corner of the answer sheet.
 
-From the palette, you can switch between:
+{{< guide-image src="images/guides/uni-note/en/problem-answer.png" alt="Copy on the left and Share on the right in the answer sheet" mode="crop" >}}
 
-- `Pen`
-- `Highlighter`
-- `Erase Stroke`
-- `Erase Pixel`
-- `Sticky Marker`
-- `Undo`
-- `Redo`
+For practice sets, choose **More → Create Practice Set**, select pages, keep or discard candidates and save the set. Open **Practice Sets** on Home to review it. AI answers and generation use AI balance; check results against your learning materials.
 
-From the buttons at the top of the note screen, you can open:
+**Before the 3.5.0 release:** manual set creation, editing saved sets and hiding the Home practice-set switch are upcoming-version operations. Published 3.4.0 supports the generation and review flow above.
 
-- `Ruler`
-- `Move Selection`
-- `Problem Solver Assistant`
-- `Recording`
+{{< guide-anchor "14-protect-notes-and-use-trash" >}}
 
-Notes:
+## 7. Protect, delete and restore {#protect}
 
-- You can drag the palette to move it
-- The pen supports `Pencil`, `Ballpoint`, and `Sign Pen`
-- You can change pen color and width
-- You can change highlighter color, width, and intensity
-- Eraser supports stroke erase, pixel erase, and `Clear Page`
-- `Clear Page` is available at 100% zoom and deletes only handwriting on the current page. Photos, PDFs, and Sticky Markers are not deleted
-- You can change Sticky Marker color and width
-- `Sticky Marker` appears in the palette when enabled in `Settings > Study Support`
-- `Problem Solver Assistant` appears at the top of the note screen when enabled in `Settings > Study Support`
-- `Move Selection` is a Premium feature
-- In `Left-Handed Mode`, you can change the default palette position
+Use **Protect** in Note List to prevent writing. Settings can require biometric authentication when removing protection.
 
-How to use `Move Selection`:
+Restore deleted subjects and notes from Home’s Trash. Deleting a folder keeps its subjects. Deleted pages, practice sets and permanently erased Trash items cannot be restored. Deleting the only page clears its contents instead.
 
-- Choose `Move Selection` at the top of the note screen
-- Circle the handwriting you want to move with Apple Pencil
-- Drag the selected handwriting to move it
+{{< guide-anchor "15-settings-and-backup" >}}
 
-Any line that is even partly inside the enclosed area is selected as a whole.
-It applies to handwriting strokes. Photos, PDFs, and Sticky Markers are handled separately.
+## 8. Keep a backup {#backup}
 
----
+1. Open the gear on Home, then **Settings → Backup**.
+2. To listen in Pocket, enable including recording audio before exporting.
+3. Export a backup and choose its destination.
 
-## 6. Use `Note List` and `Pages`
+{{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Export Backup and Restore from File in Uni:Note Backup settings" mode="crop" caption="Japanese UI: the upper row exports a backup; the lower row restores a saved file." >}}
 
-Open **Note List** from the top-left.
+Easy Backup update/restore requires Premium. It saves and loads an iCloud file; it is not automatic note sync. Use **Restore from File** for a saved zip, then follow the app’s instruction to close and reopen it. Language, left-handed controls and the subject label can also be changed in Settings.
 
-- Add another note in the same subject with `New Note`
-- The title for a new note is also optional
-- If left blank, today's date is used as the title
-- Swipe left in the note list to rename, `Protect`, or delete a note
-- Reorder notes inside the note list
+{{< guide-anchor "use-split-view-slide-over-and-two-panes" >}}
 
-Open **Pages** to check thumbnails inside the current note.
+## Use two iPad windows {#windows}
 
-- Tap a thumbnail to move to that page
-- Press and hold a page to delete it
+Use iPad window controls to place Uni:Note next to a document or video. You can also open two Uni:Note windows.
 
-If the note has only one page, only the content is cleared and the page itself stays.
-
----
-
-## 7. Use `More`
-
-The `More` menu includes the following actions:
-
-- `Attach Photo`
-- `Attach Photo as Document`
-- `Attach PDF`
-- `Export PDF`
-- `Create Practice Set`
-
-`Ruler`, `Move Selection`, `Problem Solver Assistant`, and `Recording` are opened from the buttons at the top of the note screen.
-
----
-
-## 8. Use photos and PDFs
-
-Choose `Attach Photo` from `More`.
-
-- Move or resize the photo with your fingers
-- Double-tap to `Lock Photo` or `Unlock Photo`
-- Press and hold to delete it
-
-Choose `Attach Photo as Document` from `More` to correct a photo from Camera or Library and place it on the page as a document.
-
-- Choose a photo from Camera or Library
-- Adjust the document area in the correction UI and confirm
-- After placing it, double-tap to lock or unlock it, and adjust its position and size with your fingers
-
-Choose `Attach PDF` from `More`.
-
-- Select one or more pages from the PDF file
-- Turn on `Split Spread` if you want to split a spread in the center
-- You can attach multiple PDF pages in one action
-- You can attach multiple PDFs to the same page
-- After attaching, select each PDF to move, resize, rotate, lock, or delete it
-
-Choose `Export PDF` from `More`.
-
-You can export:
-
-- `This Note Only`
-- the entire subject
-
-Photos, PDFs, Sticky Markers, and handwriting on pages are included in PDF export.
-In `PDF Export Background`, you can change the background to `Paper` or `White`.
-
----
-
-## 9. Use `Ruler`
-
-Tap the **Ruler** button at the top of the note screen to show the ruler.
-
-- Move or rotate the ruler with your fingers
-- Write near the ruler with Apple Pencil to draw corrected straight lines
-- Tap **Ruler** again to hide it
-
-Lines drawn with the ruler remain as normal handwriting in the note.
-
----
-
-## 10. Use Recording, Transcription, and AI Summary
-
-Tap the **Recording** button at the top of the note screen to open the recording panel.
-Recording, playback, and viewing transcriptions are **Premium** features.
-
-Basic controls:
-
-- Start with **Recording**
-- Use **Pause** / **Resume** without ending the recording
-- Use **Stop** to save
-- Select a saved recording to play it
-- Rename, lock, delete, or share audio when needed
-
-One note can keep up to `5` recordings.
-Each recording file can be up to 30 minutes long. When a recording reaches 30 minutes, Uni:Note automatically saves that recording and starts the next one.
-Automatically split recordings count toward the limit of `5` recordings per note.
-If you return to Uni:Note Home or the iPad goes to sleep while recording, the recording ends and is saved at that point.
-Doing this during recording may corrupt the recording data. Stop and save the recording before leaving the note or putting the iPad to sleep.
-
-Based on Apple's transcription-compatible models, real-time transcription and AI Summary are available on the following models running iPadOS 26 or later: iPad mini (6th generation or later), iPad (10th generation or later), iPad Air (4th generation or later), iPad Pro 11-inch (3rd generation or later), iPad Pro 12.9-inch (5th generation or later), and iPad Pro 13-inch (M4 or later).
-On supported devices, real-time transcription can appear while recording.
-You can change the transcription language and default AI Summary format from `Settings > Study Support > Recording Support`.
-
-AI Summary is generated from the transcription text created during recording.
-Audio files are not sent for AI Summary. AI Summary requires **AI Balance**.
-
-For AI Summary, you can choose a Study or Meeting format. If multiple recordings are selected, Uni:Note keeps the recording boundaries. Before running it, you can check the number of recordings, character count, and estimated AI usage.
-
----
-
-## 11. Use `Memorization Feature`
-
-First, turn on `Memorization Feature` in `Settings > Study Support`.
-
-When enabled, `Sticky Marker` appears in the palette on the note screen.
-
-- Choose `Sticky Marker`
-- Trace the area you want to hide with Apple Pencil
-- Each stroke is saved as one sticky marker
-- Tap a sticky marker with your finger to switch between transparent and opaque
-- Press and hold a sticky marker with your finger, then use the delete button that appears
-
-Old memorization markers from earlier versions are migrated to sticky markers when the page is opened.
-
----
-
-## 12. Use `Problem Solver Assistant`
-
-First, turn on `Problem Solver Assistant` in `Settings > Study Support`.
-
-When enabled, `Problem Solver Assistant` appears at the top of the note screen.
-
-How to use it:
-
-- Choose `Problem Solver Assistant` at the top of the note screen
-- Circle the problem with Apple Pencil using a closed shape
-- Confirm the selected area
-- Choose `Solve`
-- Review the answer and explanation
-
-From the result screen, you can copy or share the answer and explanation.
-
-It is mainly intended for formulas, calculations, and short questions.
-Long reading passages, free-response questions, and figure-heavy questions may not be supported.
-
-Using it requires **AI Balance**. If your AI Balance is insufficient, you can add more in the app.
-
----
-
-## 13. Use `Create Practice Set`
-
-Open `Create Practice Set` from `More`.
-
-Practice set generation requires **AI Balance**.
-
-Basic flow:
-
-- Choose target pages with `Choose Pages`
-- Start with `Create Practice Set`
-- Review candidates with `Add` and `Reject`
-- Save them with `Save Practice Set`
-
-After saving, you can continue from `Review now`.  
-To revisit them later, switch Home to `Practice Sets` and open them from the list there.
-
-Practice sets can be deleted from Home, but they do not go to Trash and cannot be restored.
-
----
-
-## 14. Protect notes and use `Trash`
-
-- If you choose `Protect` from `Note List`, the note becomes read-only
-- In Settings, you can `Require Biometrics to Remove Protection`
-- `Trash` on Home groups deleted items by subject
-- You can restore a whole subject or only specific notes
-- Deleted pages do not go to Trash and are removed immediately
-- Items deleted permanently from `Trash` cannot be undone
-
----
-
-## 15. Settings and backup
-
-Settings are organized into a Premium card and category pages.
-
-Main categories:
-
-- **Uni:Note Premium**: current plan, AI Balance, add AI Balance, Premium / plan screen
-- **Notebook Settings**: new note template, base color, default vertical notebook mode, left-handed mode, per-item left-handed settings, auto-collapse palette, header / footer
-- **Display Settings**: launch destination, automatic recent sorting, subject label name, keep awake while a note is open, biometrics for unlocking protected notes, PDF export background, language
-- **Study Support**: Memorization Feature, Problem Solver Assistant, Recording Support, transcription language, default AI Summary format
-- **Backup**: Easy Backup, include recording audio in backups, export / restore backup files
-- **Support**: How to Use, Privacy Policy, send by form, contact by email, copy support info, app review, Uni:Note Pocket
-
-In `Settings > Backup`, you can use:
-
-- `Update Easy Backup` (Premium)
-- `Restore from Easy Backup` (Premium)
-- `Export Backup`
-- `Restore from File`
-
-`Easy Backup` uses iCloud for saving and restoring.  
-File-based backup is still available even without Premium.
-
-Recording metadata and transcriptions are included in backups.
-Recording audio files (m4a) are included in both `Export Backup` and `Easy Backup` only when **Include recording audio in backups** is turned on.
-
-After restoring, close and reopen the app once.  
-The next launch will show Home.
-
-Related pages:
-
-- [FAQ (Uni:Note)]({{< relref "/faq/uni-note/" >}})
-- [Privacy Policy (Uni:Note)]({{< relref "/privacy/uni-note/" >}})
+Dock gestures and names such as Split View or Slide Over depend on the iPadOS version and window settings.

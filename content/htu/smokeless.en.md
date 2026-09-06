@@ -1,97 +1,60 @@
 ---
 title: "How to use (Smokeless)"
 description: "How to use for Smokeless."
+lastmod: 2026-09-07
 ---
 
-Smokeless is an app for quickly recording `Smoked` and `Avoided`, then reviewing counts and money totals later.
-
-It can be used as support for quitting smoking or as a simple log of your current smoking habits.
-
----
+Use the green button to record an avoided cigarette and the red button to record a smoked cigarette. These screens show where to log, review and change settings.
 
 ## 1. Check the first tutorial and pack settings
 
-On first launch, after the tutorial you set:
-
-- `Cigarettes per pack`
-- `Price per pack`
-
-With these values set, you can review `Smoked` and `Avoided` as money values too.
-
----
+After the first tutorial, enter Cigarettes per pack and Price per pack. These values are used for money conversions. You can change them later in Settings → General → Brands.
 
 ## 2. Record from `Log`
 
-On the center `Log` screen, you can record the green `Avoided` and red `Smoked` buttons with one tap.
+1. Open Log in the center.
+2. Tap the green crossed-out cigarette when you wanted to smoke but did not.
+3. Tap the red cigarette when you smoked.
 
-- The green button records 1 avoided cigarette
-- The red button records 1 smoked cigarette
-- If you added multiple brands, you can switch the brand before logging
-- At the top, you can check today's counts, money conversion, and the elapsed time since the previous record
+{{< guide-image src="images/guides/smokeless/en/record-buttons.png" alt="Smokeless logging controls: green Avoided on the left and red Smoked on the right, with today’s counts" mode="crop" >}}
 
----
+Each tap adds one record. If you use several brands, select the brand before recording.
 
 ## 3. Review today's records in `History`
 
-From `History` in the top-right corner, you can review the list of records for the day.
+1. Tap the receipt-shaped icon at the top right of Log.
+2. Swipe an unwanted record to the left to delete it.
+3. Tap Undo immediately after deletion if needed.
 
-- Unneeded records can be deleted
-- Right after deletion, you can restore them with `Undo`
-
----
+{{< guide-image src="images/guides/smokeless/en/history.png" alt="Smokeless history showing today’s record times and smoked or avoided icons" mode="crop" >}}
 
 ## 4. Review by day, month, and year in `Calendar`
 
-In `Calendar` at the bottom-left, you can check records by:
+1. Open Calendar at the bottom left.
+2. Switch between Daily, Monthly and Yearly.
+3. Tap a date row to review that day’s records.
 
-- Day
-- Month
-- Year
-
-For each period, you can review counts and money conversion with a number-focused view.
-
----
+{{< guide-image src="images/guides/smokeless/en/calendar.png" alt="Smokeless Calendar tabs and daily counts with money totals" mode="screen" >}}
 
 ## 5. Check recent changes in `Charts`
 
-In `Charts`, you can check trends for:
+Open Charts at the bottom right, then choose Week, Month or 3 Months. Use the arrows beside the displayed period to move through dates.
 
-- `Week`
-- `Month`
-- `3 Months`
-
-You can review recent changes while looking at `Smoked`, `Avoided`, and `Smoked avg.`.
-
----
+{{< guide-image src="images/guides/smokeless/en/chart.png" alt="Smokeless chart with period controls and smoked, avoided and average lines" mode="screen" >}}
 
 ## 6. Use the home widget
 
-Add the home widget to check today's `Smoked` / `Avoided` totals from the home screen.
+Add the Smokeless widget to your iPhone Home Screen. Tap the green avoided or red smoked button to record for today.
 
-You can also log directly from the widget.
-
----
+To choose the brand used by the widget, open Settings → General → Brands and enable Set as widget default. The widget itself does not switch brands.
 
 ## 7. Adjust `Settings`
 
-In `Settings`, you can mainly change:
+1. Tap the gear at the top left of Log.
+2. Open General and select the setting to change.
 
-- Theme
-- Language
-- `Savings currency`
-- `Cigarettes per pack`
-- `Price per pack`
-- Brand settings (up to 4 brands)
-- `Over-smoking alert`
-- `Remove ads`
-- `Restart tutorial`
-- `Support`
+{{< guide-image src="images/guides/smokeless/en/settings.png" alt="Smokeless brand settings for pack size, pack price and the widget default brand" mode="crop" >}}
 
----
-
-Related pages:
-
-- [FAQ (Smokeless)]({{< relref "/faq/smokeless/" >}})
-- [Privacy Policy (Smokeless)]({{< relref "/privacy/smokeless/" >}})
+Change pack count and price in Brands. One brand is available initially; the Extra brands pack unlocks up to four in total. Restore purchases from Settings → In-app purchases.
 
 {{< watch-guide app="smokeless" >}}

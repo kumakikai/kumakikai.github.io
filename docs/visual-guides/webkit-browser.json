@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-09-06T21:36:25.913Z",
+  "base": "http://127.0.0.1:1314",
+  "engine": "webkit",
+  "pending": false,
+  "ok": true,
+  "cases": 132,
+  "widths": [
+    1440,
+    390
+  ],
+  "pages": 44,
+  "method": "Actual desktop-browser viewport renders. Every guide image decoded; dimensions, alt, links, focus, TOC, overflow and accessibility checked. Japanese lines reconstructed from DOM Range for editorial review. Screenshots and human visual reading are separate from these mechanical checks.",
+  "limitations": [
+    "Viewport emulation, not physical devices. Browser rendering does not prove operation inside the app; current source and app capture evidence is in the app audit reports."
+  ],
+  "failures": [],
+  "fullEvidence": "webkit-browser.json.gz",
+  "fullEvidenceSHA256": "a1a926df460bf4b09de7fcd88999fa56d3c427c3b3eeace10b9081f3b976bf39",
+  "resultCount": 132
+}

@@ -204,7 +204,7 @@ Productsへのハブ統合は[統合レポート](docs/hub/REPORT.md)、以前�
 
 `docs/migration/baseline.json`は移行前の191 HTML URL、記事本文・アンカー等を保存した検証基準です。`npm run verify`で既存コンテンツ、新しいProduct／主要一覧、内部参照、Store CTA、SEO・OGP、sitemap・robotsを検査します。
 
-baselineは意図しないURL削除や本文変更を検出するためのものです。チェックを通す目的で作り直さず、意図した既存記事の改訂では、変更根拠と差分を確認したうえで基準更新を扱ってください。外部App Storeの最新提供状態、端末実機、ブラウザの見た目をこの静的検査だけで証明することはできません。
+baselineは意図しないURL削除や本文変更を検出するためのものです。チェックを通す目的で作り直さず、意図した使い方・FAQの改訂は、下記の個別レビュー記録で扱い、元のbaseline自体は変更しません。外部App Storeの最新提供状態、端末実機、ブラウザの見た目をこの静的検査だけで証明することはできません。
 
 ## デザイン・画像・themeの保守
 
@@ -214,7 +214,7 @@ HugoplateのTailwind CSS v4、base typography、content typography、container�
 
 上流更新時は固定commitとの差分を調べ、採用しているruntimeだけを更新し、SHA・出典・必要バージョンを更新します。公式starterの`project-setup`／`update-theme`をこのサイトでそのまま実行すると既存構成と衝突するため、使用しません。更新後はbuild、移行検証、主要画面のresponsive／Light／Dark／キーボード操作を確認します。
 
-build依存はTailwind、Tailwind CLI、Typographyの3種類です。追加のWeb Font、SPA、animation frameworkは使用していません。色・フォントは`data/theme.json`と`assets/css/site.css`の既存変数を確認して変更します。
+build依存はTailwind、Tailwind CLI、Typographyと、日本語組版用のBudouX・parse5です。追加のWeb Font、SPA、animation frameworkは使用していません。色・フォントは`data/theme.json`と`assets/css/site.css`の既存変数を確認して変更します。
 
 Tailwindの自動ファイル探索は`source(none)`で無効化し、Hugoが実際に出力した`hugo_stats.json`だけを明示的に読み込みます。README・検証JSON・vendorデモ等の単語がCSS候補へ混ざり、ローカルとCIのfingerprintが変わることを防ぎます。JavaScriptで追加するクラスは現在`js`・`dark`・`menu-open`で、`site.css`に明示的な定義があります。
 
@@ -265,3 +265,22 @@ Home／Aboutのランダム選出は、同じQA依存で`node scripts/verify-sel
 ## 大きなブラウザ検証記録
 
 全条件のDOM行情報を残す監査では、完了後に`python3 scripts/archive-verification.py docs/watch-typography`を実行すると、128KB以上の結果を要約JSONと無損失の`.json.gz`原本に分けられます。実行中のレポートには使用しません。原本は`gzip -dc path/to/report.json.gz`で読み出せます。サイトのbuild・配信はこれらの記録に依存しません。
+
+## 実画面付きの使い方ガイド
+
+`content/htu/<app>[.<lang>].md` が操作説明、`content/faq/` が問題・例外の説明です。操作手順をFAQへ重複掲載せず、該当する使い方の見出しへ直接リンクします。既存URLは維持し、見出し名を変える場合も従来のアンカーを対応する新しい説明の近くに `{{< guide-anchor "旧ID" >}}` で残してください。raw HTMLを許可する設定変更は不要です。
+
+現在の実装・実UIと照合した画像を `assets/images/guides/<app>/` に保存します。操作対象のcropを優先し、全画面が必要な場合だけ `screen`（iPhone）または `tablet` を指定します。画像内のボタン・文言を描き換えません。
+
+```go-html-template
+{{< guide-image src="images/guides/example/add-item.png"
+    alt="記録画面右上の追加ボタン" mode="crop" >}}
+```
+
+共通shortcodeがWebPと1x/2xの`srcset`、サイズ予約、遅延読込、拡大リンクを生成します。配信画像は原寸より拡大しません。表示の最大幅はcrop 560px、iPhone全画面320px、iPad 760pxです。日本語組版・目次・更新日も共通テンプレートに従います。更新したMarkdownに実際の日付の`lastmod`を設定してください。
+
+画像の取得元・元ファイルのhash・crop範囲・照合した実装と公開バージョンは `docs/visual-guides/` に記録します。審査提出中の画面は公開済みと断定せず、対象バージョンを明示してください。Simulatorで取得する場合はデモデータを使い、自分が起動した端末だけを終了します。
+
+今回の使い方・FAQ本文の更新は、変更前の `docs/migration/baseline.json` を書き換えず、`docs/visual-guides/reviewed-content.json` に個別に記録しています。以後も既存ガイドを改訂する場合は、実装と画面を確認して監査記録を更新し、production build後に `python3 scripts/record-guide-review.py` を実行して差分を確認します。その後 `npm run verify` を実行します。これは使い方・FAQ本文だけに限定した仕組みで、Privacy・Terms・News本文、正式URL、canonical、既存アンカーの保護は継続します。
+
+画像の読込・幅・アクセシビリティ・目次・拡大リンクは、QA用のPlaywright／axe-coreで `node scripts/verify-guides.cjs` を実行して確認できます。`TEST_ENGINE=webkit` でWebKit、`TEST_WIDTHS=375,390,1440` と `TEST_LOCALES=ja` で対象を絞れます。結果は `docs/visual-guides/` に保存します。機械チェックに加えて、画面内の文字と操作対象が読めるかを実際のスクリーンショットで確認してください。

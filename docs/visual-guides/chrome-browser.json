@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-06T21:38:05.366Z",
+  "base": "http://127.0.0.1:1314",
+  "engine": "chrome",
+  "pending": false,
+  "ok": true,
+  "cases": 220,
+  "widths": [
+    1440,
+    1280,
+    1024,
+    768,
+    430,
+    390,
+    375
+  ],
+  "pages": 44,
+  "method": "Actual desktop-browser viewport renders. Every guide image decoded; dimensions, alt, links, focus, TOC, overflow and accessibility checked. Japanese lines reconstructed from DOM Range for editorial review. Screenshots and human visual reading are separate from these mechanical checks.",
+  "limitations": [
+    "Viewport emulation, not physical devices. Browser rendering does not prove operation inside the app; current source and app capture evidence is in the app audit reports."
+  ],
+  "failures": [],
+  "fullEvidence": "chrome-browser.json.gz",
+  "fullEvidenceSHA256": "4cf42a5d49213b3e3f0409d0fb5e372bd3f862acd63d4ee5faedfe7f912f54cd",
+  "resultCount": 220
+}
