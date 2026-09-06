@@ -76,6 +76,9 @@ relativeURLs = false
 
   mainSections = ["notes"]
 
+  [params.assets]
+    favicon = "favicon.svg"
+
 [menu]
   [[menu.main]]
     name = "Home"

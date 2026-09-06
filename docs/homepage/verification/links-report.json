@@ -1,0 +1,225 @@
+{
+  "ok": true,
+  "build": "/private/tmp/kumakikai-home-build",
+  "homes": [
+    {
+      "language": "ja",
+      "route": "/",
+      "featured": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "other": [
+        "uni-note-pocket",
+        "balance-calendar",
+        "smokeless",
+        "signal"
+      ],
+      "screenshots": 8,
+      "seo": {
+        "canonical": "https://kumakikai.github.io/",
+        "description": "日常の小さな不便を、シンプルなアプリで。iPadの手書きノートUni:Note、字幕アプリのオトミル、povo特典管理のギガポケなど、KUMAKIKAIのアプリをご紹介します。",
+        "og_image": false
+      }
+    },
+    {
+      "language": "en",
+      "route": "/en/",
+      "featured": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "other": [
+        "uni-note-pocket",
+        "balance-calendar",
+        "smokeless",
+        "signal"
+      ],
+      "screenshots": 8,
+      "seo": {
+        "canonical": "https://kumakikai.github.io/en/",
+        "description": "Discover KUMAKIKAI apps for notes, captions, and everyday life. Explore Uni:Note, OtoMiru, GigaPoke, and more.",
+        "og_image": false
+      }
+    },
+    {
+      "language": "ko",
+      "route": "/ko/",
+      "featured": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "other": [
+        "uni-note-pocket",
+        "balance-calendar",
+        "smokeless",
+        "signal"
+      ],
+      "screenshots": 8,
+      "seo": {
+        "canonical": "https://kumakikai.github.io/ko/",
+        "description": "필기와 자막, 일상을 위한 KUMAKIKAI 앱을 만나보세요. Uni:Note, OtoMiru, GigaPoke 등을 소개합니다.",
+        "og_image": false
+      }
+    },
+    {
+      "language": "de",
+      "route": "/de/",
+      "featured": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "other": [
+        "uni-note-pocket",
+        "balance-calendar",
+        "smokeless",
+        "signal"
+      ],
+      "screenshots": 8,
+      "seo": {
+        "canonical": "https://kumakikai.github.io/de/",
+        "description": "Entdecken Sie die KUMAKIKAI-Apps für Notizen, Untertitel und den Alltag: Uni:Note, OtoMiru, GigaPoke und mehr.",
+        "og_image": false
+      }
+    },
+    {
+      "language": "zh-hant",
+      "route": "/zh-hant/",
+      "featured": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "other": [
+        "uni-note-pocket",
+        "balance-calendar",
+        "smokeless",
+        "signal"
+      ],
+      "screenshots": 8,
+      "seo": {
+        "canonical": "https://kumakikai.github.io/zh-hant/",
+        "description": "探索 KUMAKIKAI 為筆記、字幕與日常生活打造的 App，包含 Uni:Note、OtoMiru、GigaPoke 等。",
+        "og_image": false
+      }
+    },
+    {
+      "language": "fr",
+      "route": "/fr/",
+      "featured": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "other": [
+        "uni-note-pocket",
+        "balance-calendar",
+        "smokeless",
+        "signal"
+      ],
+      "screenshots": 8,
+      "seo": {
+        "canonical": "https://kumakikai.github.io/fr/",
+        "description": "Découvrez les apps KUMAKIKAI pour les notes, les sous-titres et le quotidien : Uni:Note, OtoMiru, GigaPoke et plus encore.",
+        "og_image": false
+      }
+    }
+  ],
+  "home_aliases": [
+    {
+      "route": "/de/page/1/",
+      "target": "https://kumakikai.github.io/de/"
+    },
+    {
+      "route": "/en/page/1/",
+      "target": "https://kumakikai.github.io/en/"
+    },
+    {
+      "route": "/fr/page/1/",
+      "target": "https://kumakikai.github.io/fr/"
+    },
+    {
+      "route": "/ko/page/1/",
+      "target": "https://kumakikai.github.io/ko/"
+    },
+    {
+      "route": "/page/1/",
+      "target": "https://kumakikai.github.io/"
+    },
+    {
+      "route": "/page/2/",
+      "target": "https://kumakikai.github.io/"
+    },
+    {
+      "route": "/page/3/",
+      "target": "https://kumakikai.github.io/"
+    },
+    {
+      "route": "/page/4/",
+      "target": "https://kumakikai.github.io/"
+    },
+    {
+      "route": "/page/5/",
+      "target": "https://kumakikai.github.io/"
+    },
+    {
+      "route": "/zh-hant/page/1/",
+      "target": "https://kumakikai.github.io/zh-hant/"
+    }
+  ],
+  "sitemap": {
+    "files": 7,
+    "urls": 122
+  },
+  "baseline": {
+    "checked": true,
+    "baseline_html": 191,
+    "preserved_html": 191,
+    "preserved_support_and_notes": 156,
+    "retired_home_pagination": []
+  },
+  "internal_references_checked": 646,
+  "warnings": [
+    {
+      "page": "/",
+      "check": "ogp_image",
+      "detail": "No og:image is configured"
+    },
+    {
+      "page": "/en/",
+      "check": "ogp_image",
+      "detail": "No og:image is configured"
+    },
+    {
+      "page": "/ko/",
+      "check": "ogp_image",
+      "detail": "No og:image is configured"
+    },
+    {
+      "page": "/de/",
+      "check": "ogp_image",
+      "detail": "No og:image is configured"
+    },
+    {
+      "page": "/zh-hant/",
+      "check": "ogp_image",
+      "detail": "No og:image is configured"
+    },
+    {
+      "page": "/fr/",
+      "check": "ogp_image",
+      "detail": "No og:image is configured"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,110 @@
+{
+  "heroLines": [
+    "日常の小さな不便を、",
+    "シンプルなアプリで。"
+  ],
+  "intro": "書く、聞く、暮らしを整える。あなたの毎日に寄り添うアプリをつくっています。",
+  "browse": "アプリを見る",
+  "featured": "Featured Apps",
+  "other": "Other Apps",
+  "otherIntro": "記録にも、読み返す時間にも。",
+  "aboutLabel": "About KUMAKIKAI",
+  "aboutTitle": "日々の「こうしたい」から。",
+  "aboutText": "KUMAKIKAIは、学びや暮らしの中で感じる小さな不便を、使いやすいアプリに変えていきます。",
+  "supportLabel": "Support & Contact",
+  "supportTitle": "使い方や、お困りのこと。",
+  "supportText": "各アプリの使い方・よくある質問をご案内しています。ご質問や不具合のご報告は、メールでお寄せください。",
+  "contact": "メールで問い合わせる",
+  "howTo": "使い方",
+  "faq": "よくある質問",
+  "privacy": "プライバシーポリシー",
+  "terms": "利用規約",
+  "notes": "Notes",
+  "navApps": "アプリ",
+  "navSupport": "サポート",
+  "language": "表示言語",
+  "themeToggle": "明るい表示と暗い表示を切り替える",
+  "skip": "本文へスキップ",
+  "details": "詳しく見る",
+  "detailsJapanese": "詳しく見る（日本語）",
+  "store": "App Storeで見る",
+  "development": "開発中",
+  "developmentScreenshot": "開発中の画面",
+  "screenshotsJapanese": "画面は日本語版です。",
+  "expandImage": "画像を拡大",
+  "apps": {
+    "uni-note": {
+      "name": "Uni:Note",
+      "platform": "iPad専用",
+      "taglineLines": [
+        "大学のノートを、",
+        "iPadへ。"
+      ],
+      "description": "Apple Pencilで書く。PDFに書き込む。ノートを教科やフォルダで整理し、AIで問題集づくりや、囲った問題の質問・解答まで。授業の記録から復習へ、ひと続きに。",
+      "imageAlts": [
+        "Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面",
+        "ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面"
+      ]
+    },
+    "oto-miru": {
+      "name": "オトミル",
+      "platform": "iPhone / iPad",
+      "taglineLines": [
+        "聞こえにくい会話を、",
+        "大きな字幕に。"
+      ],
+      "description": "テレビの声も、身近な人との会話も。音声をiPhoneやiPadの大きな文字で表示し、聞き取りづらい場面をサポートします。",
+      "imageAlts": [
+        "音声を大きな字幕で表示するオトミルの画面",
+        "テレビ・会話・グループを大きなボタンで選べるオトミルの画面"
+      ]
+    },
+    "giga-poke": {
+      "name": "ギガポケ",
+      "platform": "iPhone",
+      "taglineLines": [
+        "届いたギガ、",
+        "期限切れにしない。"
+      ],
+      "description": "povo 2.0の特典コードを、期限が近い順にまとめて管理。使いたいコードをすぐにコピー。ウィジェットでも、次に使うギガを確認できます。",
+      "note": "povo 2.0の特典管理を補助する非公式アプリです。KDDI株式会社、povo、auとは提携・協賛・公認その他の関係はありません。",
+      "imageAlts": [
+        "povoの特典コードを有効期限順に確認できるギガポケの一覧画面",
+        "残り日数を確認しコードをコピーできるギガポケのホーム画面ウィジェット"
+      ]
+    },
+    "nocca": {
+      "name": "Nocca",
+      "platform": "iPhone",
+      "taglineLines": [
+        "家族へ伝える。",
+        "自分のペースで。"
+      ],
+      "description": "家族との会話や接触に負担を感じる方が、必要なことだけ意思表示できるアプリ。家族はその意思を受け取り、必要なときに返事をします。",
+      "imageAlts": [
+        "「ご飯ほしい」「今は話せない」などの意思をアイコンで伝えるNoccaの開発中画面",
+        "本人として使う人と家族として使う人の役割を説明するNoccaの開発中画面"
+      ]
+    },
+    "uni-note-pocket": {
+      "name": "Uni:Note Pocket",
+      "platform": "iPhone",
+      "description": "Uni:Noteで書いたノートを、iPhoneで復習。バックアップを読み込む閲覧専用アプリ。"
+    },
+    "balance-calendar": {
+      "name": "ギャンカレ",
+      "platform": "iPhone",
+      "description": "収入と支出をその場で記録。カレンダーで日々のお金の流れを振り返る。"
+    },
+    "smokeless": {
+      "name": "すわなび",
+      "platform": "iPhone",
+      "description": "「吸った」と「我慢した」をワンタップで記録。本数と金額の変化を確認。"
+    },
+    "signal": {
+      "name": "SIGNAL",
+      "platform": "iPhone",
+      "description": "note、Qiita、Zennなどの個人発信を、自分のペースで読むニュースフィード。"
+    }
+  }
+}

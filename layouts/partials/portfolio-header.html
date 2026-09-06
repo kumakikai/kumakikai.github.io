@@ -1,0 +1,28 @@
+{{ $copy := index site.Data.home site.Language.Lang }}
+<a class="portfolio-skip" href="{{ .RelPermalink }}#main-content">{{ $copy.skip }}</a>
+<header class="portfolio-header">
+  <nav class="portfolio-nav" aria-label="KUMAKIKAI">
+    <a class="portfolio-logo" href="{{ "" | absLangURL }}">KUMAKIKAI<span aria-hidden="true">.</span></a>
+    <div class="portfolio-nav-links">
+      <a href="#apps">{{ $copy.navApps }}</a>
+      <a href="#support">{{ $copy.navSupport }}</a>
+      <a href="/notes/">{{ $copy.notes }}</a>
+    </div>
+    <div class="portfolio-nav-tools">
+      <details class="portfolio-language">
+        <summary aria-label="{{ $copy.language }}: {{ .Language.LanguageName }}">{{ .Language.LanguageName }} <span aria-hidden="true">⌄</span></summary>
+        <ul>
+          {{ range sort .AllTranslations "Language.Weight" }}
+          <li><a href="{{ .RelPermalink }}" lang="{{ .Lang }}" hreflang="{{ .Lang }}"{{ if eq $.Lang .Lang }} aria-current="page"{{ end }}>{{ .Language.LanguageName }}</a></li>
+          {{ end }}
+        </ul>
+      </details>
+      {{ if not site.Params.disableThemeToggle }}
+      <button id="theme-toggle" type="button" title="{{ $copy.themeToggle }}" aria-label="{{ $copy.themeToggle }}">
+        <svg id="moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg id="sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+      </button>
+      {{ end }}
+    </div>
+  </nav>
+</header>

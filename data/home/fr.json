@@ -1,0 +1,118 @@
+{
+  "heroLines": [
+    "Les petits tracas du quotidien.",
+    "Des apps pour les simplifier."
+  ],
+  "intro": "Écrire, suivre une conversation, organiser son quotidien. Des apps à vos côtés, chaque jour.",
+  "browse": "Découvrir les apps",
+  "featured": "À découvrir",
+  "other": "Autres apps",
+  "otherIntro": "Pour noter, relire et prendre du recul.",
+  "aboutLabel": "À propos de KUMAKIKAI",
+  "aboutTitle": "Tout part d’un besoin du quotidien.",
+  "aboutText": "KUMAKIKAI transforme les petits obstacles des études et de la vie quotidienne en apps simples à utiliser.",
+  "supportLabel": "Assistance et contact",
+  "supportTitle": "Une question ou besoin d’aide ?",
+  "supportText": "Retrouvez les guides et les réponses aux questions fréquentes pour chaque app. Pour toute question ou tout signalement de problème, écrivez-nous par e-mail.",
+  "contact": "Nous écrire",
+  "howTo": "Guides d’utilisation",
+  "faq": "Questions fréquentes",
+  "privacy": "Confidentialité",
+  "terms": "Conditions d’utilisation",
+  "notes": "Notes",
+  "navApps": "Apps",
+  "navSupport": "Assistance",
+  "language": "Langue d’affichage",
+  "themeToggle": "Basculer entre le mode clair et le mode sombre",
+  "skip": "Aller au contenu",
+  "details": "En savoir plus",
+  "detailsJapanese": "En savoir plus (japonais)",
+  "store": "Voir sur l’App Store",
+  "development": "En développement",
+  "developmentScreenshot": "Écran de l’app en développement",
+  "screenshotsJapanese": "Les captures montrent la version japonaise.",
+  "expandImage": "Agrandir l’image",
+  "apps": {
+    "uni-note": {
+      "name": "Uni:Note",
+      "platform": "Pour iPad uniquement",
+      "taglineLines": [
+        "Vos notes de cours.",
+        "Sur iPad."
+      ],
+      "description": "Écrivez avec l’Apple Pencil, annotez vos PDF et classez vos notes par matière et dossier. Avec l’IA, créez des exercices ou posez une question sur un problème entouré pour obtenir une réponse. De la prise de notes aux révisions.",
+      "imageAlts": [
+        "Uni:Note sur iPad affichant des notes de cours manuscrites prises avec l’Apple Pencil",
+        "Uni:Note sur iPad affichant des exercices générés à partir de notes et leurs cartes de réponse"
+      ]
+    },
+    "oto-miru": {
+      "name": "OtoMiru",
+      "platform": "iPhone / iPad",
+      "taglineLines": [
+        "Difficile d’entendre ?",
+        "Lisez en grands sous-titres."
+      ],
+      "description": "La télévision comme les conversations avec vos proches. OtoMiru affiche les paroles en grands caractères sur iPhone ou iPad pour vous aider quand l’écoute est difficile.",
+      "imageAlts": [
+        "OtoMiru affichant la parole sous forme de grands sous-titres",
+        "OtoMiru proposant de grands boutons pour choisir Télévision, Conversation ou Groupe"
+      ]
+    },
+    "giga-poke": {
+      "name": "GigaPoke",
+      "platform": "iPhone",
+      "taglineLines": [
+        "Vos bonus de données.",
+        "À utiliser avant expiration."
+      ],
+      "description": "Classez vos codes de récompense povo 2.0 par date d’expiration et copiez celui dont vous avez besoin. Un widget vous indique aussi la prochaine récompense de données à utiliser.",
+      "note": "App non officielle d’aide à la gestion des récompenses povo 2.0. Elle n’est ni affiliée, ni parrainée, ni agréée par KDDI Corporation, povo ou au, et n’entretient aucun autre lien avec eux.",
+      "imageAlts": [
+        "GigaPoke affichant les codes de récompense povo par date d’expiration",
+        "Widget GigaPoke sur l’écran d’accueil affichant les jours restants et un bouton pour copier le code"
+      ]
+    },
+    "nocca": {
+      "name": "Nocca",
+      "platform": "iPhone",
+      "taglineLines": [
+        "Échanger avec sa famille.",
+        "À son rythme."
+      ],
+      "description": "Pour les personnes qui trouvent les conversations ou les contacts familiaux pesants. Exprimez simplement ce qui est nécessaire ; vos proches reçoivent votre message et répondent au besoin.",
+      "imageAlts": [
+        "Écran de Nocca en développement permettant d’exprimer par des icônes « J’aimerais manger » ou « Je ne peux pas parler maintenant »",
+        "Écran de Nocca en développement expliquant les rôles de la personne qui exprime ses souhaits et du proche qui les reçoit"
+      ]
+    },
+    "uni-note-pocket": {
+      "name": "Uni:Note Pocket",
+      "platform": "iPhone",
+      "taglineLines": [],
+      "description": "Révisez vos notes Uni:Note sur iPhone. Un compagnon en lecture seule qui importe vos sauvegardes.",
+      "imageAlts": []
+    },
+    "balance-calendar": {
+      "name": "Balance Calendar",
+      "platform": "iPhone",
+      "taglineLines": [],
+      "description": "Notez vos revenus et dépenses sur le moment. Retrouvez vos finances au fil des jours dans un calendrier.",
+      "imageAlts": []
+    },
+    "smokeless": {
+      "name": "Smokeless",
+      "platform": "iPhone",
+      "taglineLines": [],
+      "description": "Notez d’un geste « fumé » ou « résisté ». Suivez l’évolution du nombre de cigarettes et des dépenses.",
+      "imageAlts": []
+    },
+    "signal": {
+      "name": "SIGNAL",
+      "platform": "iPhone",
+      "taglineLines": [],
+      "description": "Lisez à votre rythme les publications de créateurs sur note, Qiita, Zenn et d’autres plateformes.",
+      "imageAlts": []
+    }
+  }
+}

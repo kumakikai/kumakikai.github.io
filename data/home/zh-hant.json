@@ -1,0 +1,118 @@
+{
+  "heroLines": [
+    "日常的小小不便，",
+    "用簡單的 App 解決。"
+  ],
+  "intro": "書寫、理解對話、整理生活。我們打造陪伴你每一天的 App。",
+  "browse": "探索 App",
+  "featured": "精選 App",
+  "other": "更多 App",
+  "otherIntro": "記錄當下，也方便日後回顧。",
+  "aboutLabel": "關於 KUMAKIKAI",
+  "aboutTitle": "從日常的小小心願開始。",
+  "aboutText": "KUMAKIKAI 將學習與生活中遇到的小小不便，化為簡單易用的 App。",
+  "supportLabel": "支援與聯絡",
+  "supportTitle": "想了解用法，或遇到問題？",
+  "supportText": "這裡提供各 App 的使用方式與常見問題。如有疑問或需要回報問題，歡迎來信。",
+  "contact": "透過電子郵件聯絡",
+  "howTo": "使用方式",
+  "faq": "常見問題",
+  "privacy": "隱私權政策",
+  "terms": "使用條款",
+  "notes": "Notes",
+  "navApps": "App",
+  "navSupport": "支援",
+  "language": "顯示語言",
+  "themeToggle": "切換淺色與深色模式",
+  "skip": "跳至主要內容",
+  "details": "深入了解",
+  "detailsJapanese": "深入了解（日文）",
+  "store": "在 App Store 查看",
+  "development": "開發中",
+  "developmentScreenshot": "開發中的畫面",
+  "screenshotsJapanese": "畫面為日文版本。",
+  "expandImage": "放大圖片",
+  "apps": {
+    "uni-note": {
+      "name": "Uni:Note",
+      "platform": "iPad 專用",
+      "taglineLines": [
+        "大學課堂筆記，",
+        "帶進 iPad。"
+      ],
+      "description": "用 Apple Pencil 書寫，在 PDF 上註記。依科目與資料夾整理筆記，再用 AI 製作題組，或圈選題目來提問、查看解答。從課堂記錄，一路接上課後複習。",
+      "imageAlts": [
+        "Uni:Note 的 iPad 畫面，顯示使用 Apple Pencil 書寫的大學課堂筆記",
+        "Uni:Note 的 iPad 畫面，顯示由筆記生成的題組與解答卡片"
+      ]
+    },
+    "oto-miru": {
+      "name": "OtoMiru",
+      "platform": "iPhone / iPad",
+      "taglineLines": [
+        "聽不清楚的對話，",
+        "用大字幕看見。"
+      ],
+      "description": "從電視的聲音，到身邊人的對話。將語音轉為 iPhone 或 iPad 上的大字，協助你理解聽不清楚的內容。",
+      "imageAlts": [
+        "OtoMiru 將語音顯示為大字幕的畫面",
+        "OtoMiru 以大按鈕提供電視、對話與群組模式選擇的畫面"
+      ]
+    },
+    "giga-poke": {
+      "name": "GigaPoke",
+      "platform": "iPhone",
+      "taglineLines": [
+        "收到的流量優惠，",
+        "別讓它過期。"
+      ],
+      "description": "將 povo 2.0 優惠碼依到期日排序管理，需要時立即複製。也能從小工具查看下一個該使用的流量優惠。",
+      "note": "本 App 為協助管理 povo 2.0 優惠的非官方 App，與 KDDI 株式會社、povo、au 並無合作、贊助、官方認可或其他關係。",
+      "imageAlts": [
+        "GigaPoke 依到期日顯示 povo 優惠碼的列表畫面",
+        "GigaPoke 主畫面小工具，可查看剩餘天數並複製優惠碼"
+      ]
+    },
+    "nocca": {
+      "name": "Nocca",
+      "platform": "iPhone",
+      "taglineLines": [
+        "向家人傳達心意，",
+        "用自己的步調。"
+      ],
+      "description": "讓與家人交談或接觸時感到負擔的人，只需表達當下必要的事。家人接收心意，並在需要時回覆。",
+      "imageAlts": [
+        "Nocca 開發中的畫面，以圖示傳達「想吃飯」或「現在無法說話」等意思",
+        "Nocca 開發中的畫面，說明表達心意的人與接收訊息的家人各自的角色"
+      ]
+    },
+    "uni-note-pocket": {
+      "name": "Uni:Note Pocket",
+      "platform": "iPhone",
+      "taglineLines": [],
+      "description": "在 iPhone 上複習 Uni:Note 筆記。匯入備份即可瀏覽的唯讀 App。",
+      "imageAlts": []
+    },
+    "balance-calendar": {
+      "name": "Balance Calendar",
+      "platform": "iPhone",
+      "taglineLines": [],
+      "description": "隨手記下收入與支出，再用日曆回顧每天的金錢流向。",
+      "imageAlts": []
+    },
+    "smokeless": {
+      "name": "Smokeless",
+      "platform": "iPhone",
+      "taglineLines": [],
+      "description": "輕點記下「抽了」與「忍住了」，查看支數與金額的變化。",
+      "imageAlts": []
+    },
+    "signal": {
+      "name": "SIGNAL",
+      "platform": "iPhone",
+      "taglineLines": [],
+      "description": "以自己的步調，閱讀 note、Qiita、Zenn 等平台上的個人創作與文章。",
+      "imageAlts": []
+    }
+  }
+}

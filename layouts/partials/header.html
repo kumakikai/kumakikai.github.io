@@ -1,3 +1,6 @@
+{{- if .IsHome -}}
+{{- partial "portfolio-header.html" . -}}
+{{- else -}}
 <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -108,3 +111,5 @@
         </ul>
     </nav>
 </header>
+
+{{- end -}}
