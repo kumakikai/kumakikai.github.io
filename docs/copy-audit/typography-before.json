@@ -1,0 +1,1722 @@
+{
+  "checkedAt": "2026-09-06T19:09:52.657Z",
+  "base": "http://127.0.0.1:1314",
+  "phase": "before",
+  "pending": false,
+  "ok": true,
+  "cases": 5,
+  "failures": [],
+  "browser": "Installed Google Chrome, headless",
+  "runtimeAvailability": {
+    "webkit": false,
+    "firefox": false
+  },
+  "method": "DOM Range character rectangles reconstruct visual lines. Japanese word-boundary candidates from Intl.Segmenter are recorded for editorial review, not treated as a universal pass/fail rule. CSS normal fallback disables auto-phrase without changing text or widths.",
+  "limitations": [
+    "Chrome desktop emulation, not physical iPad or iPhone.",
+    "WebKit and Firefox engines are not installed; normal word-break fallback is a compatibility check, not evidence of running those browsers.",
+    "Automated accessibility and line geometry do not replace visual/editorial review."
+  ],
+  "results": [
+    {
+      "name": "-company--1440-light",
+      "ok": true,
+      "errors": [],
+      "route": "/company/",
+      "width": 1440,
+      "theme": "light",
+      "normalFallback": false,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "height": 3966,
+        "brokenImages": [],
+        "headingSkips": [],
+        "h1Count": 1,
+        "horizontalElements": []
+      },
+      "supportsAutoPhrase": true,
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "",
+          "text": "日常の「こうしたい」を、アプリに。",
+          "lines": [
+            "日常の「こうしたい」を、アプリに。"
+          ],
+          "splitWords": [],
+          "width": 860,
+          "fontSize": "43.2px",
+          "lineHeight": "66.96px",
+          "letterSpacing": "-1.08px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "身近な不便から、使える道具へ。",
+          "lines": [
+            "身近な不便から、使える道",
+            "具へ。"
+          ],
+          "splitWords": [
+            "道具"
+          ],
+          "width": 415,
+          "fontSize": "32px",
+          "lineHeight": "51.2px",
+          "letterSpacing": "-0.8px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発者について",
+          "lines": [
+            "開発者について"
+          ],
+          "splitWords": [],
+          "width": 403,
+          "fontSize": "18.08px",
+          "lineHeight": "28.928px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Yuya Nakamura",
+          "lines": [
+            "Yuya Nakamura"
+          ],
+          "splitWords": [],
+          "width": 403,
+          "fontSize": "35.2px",
+          "lineHeight": "49.28px",
+          "letterSpacing": "-0.88px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "学びと暮らしの、具体的な場面に。",
+          "lines": [
+            "学びと暮らしの、具体的な場面に。"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "32px",
+          "lineHeight": "51.2px",
+          "letterSpacing": "-0.8px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "学習・ノート",
+          "lines": [
+            "学習・ノート"
+          ],
+          "splitWords": [],
+          "width": 566,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "会話の支援",
+          "lines": [
+            "会話の支援"
+          ],
+          "splitWords": [],
+          "width": 566,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "日常の記録・管理",
+          "lines": [
+            "日常の記録・管理"
+          ],
+          "splitWords": [],
+          "width": 566,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発で大切にしていること",
+          "lines": [
+            "開発で大切にしていること"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "32px",
+          "lineHeight": "51.2px",
+          "letterSpacing": "-0.8px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "必要なことを、分かりやすく",
+          "lines": [
+            "必要なことを、分かりやすく"
+          ],
+          "splitWords": [],
+          "width": 325,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "使う場面から考える",
+          "lines": [
+            "使う場面から考える"
+          ],
+          "splitWords": [],
+          "width": 325,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "公開後も手をかける",
+          "lines": [
+            "公開後も手をかける"
+          ],
+          "splitWords": [],
+          "width": 325,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・メディア関係者の方へ",
+          "lines": [
+            "取材・メディア関係者の方へ"
+          ],
+          "splitWords": [],
+          "width": 415,
+          "fontSize": "32px",
+          "lineHeight": "51.2px",
+          "letterSpacing": "-0.8px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "基本情報",
+          "lines": [
+            "基本情報"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "32px",
+          "lineHeight": "51.2px",
+          "letterSpacing": "-0.8px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問い合わせ"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "28px",
+          "lineHeight": "39.2px",
+          "letterSpacing": "-0.7px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        }
+      ],
+      "contact": [
+        {
+          "tag": "p",
+          "class": "eyebrow",
+          "text": "Contact",
+          "lines": [
+            "Contact"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "11.68px",
+          "lineHeight": "20.44px",
+          "letterSpacing": "1.2848px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問い合わせ"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "28px",
+          "lineHeight": "39.2px",
+          "letterSpacing": "-0.7px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "p",
+          "class": "",
+          "text": "媒体名・ご相談内容・対象のプロダクト・希望時期などを添えて、メールでご連絡ください。アプリの使い方や不具合については、各Productページのサポートをご確認いただけます。",
+          "lines": [
+            "媒体名・ご相談内容・対象のプロダクト・希望時期などを添えて、メールでご連絡ください。ア",
+            "プリの使い方や不具合については、各Productページのサポートをご確認いただけます。"
+          ],
+          "splitWords": [
+            "アプリ"
+          ],
+          "width": 650,
+          "fontSize": "15.2px",
+          "lineHeight": "26.6px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        }
+      ]
+    },
+    {
+      "name": "-company--1280-light",
+      "ok": true,
+      "errors": [],
+      "route": "/company/",
+      "width": 1280,
+      "theme": "light",
+      "normalFallback": false,
+      "layout": {
+        "viewport": 1280,
+        "scrollWidth": 1280,
+        "height": 3952,
+        "brokenImages": [],
+        "headingSkips": [],
+        "h1Count": 1,
+        "horizontalElements": []
+      },
+      "supportsAutoPhrase": true,
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "",
+          "text": "日常の「こうしたい」を、アプリに。",
+          "lines": [
+            "日常の「こうしたい」を、アプリに。"
+          ],
+          "splitWords": [],
+          "width": 860,
+          "fontSize": "38.4px",
+          "lineHeight": "59.52px",
+          "letterSpacing": "-0.96px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "身近な不便から、使える道具へ。",
+          "lines": [
+            "身近な不便から、使える道",
+            "具へ。"
+          ],
+          "splitWords": [
+            "道具"
+          ],
+          "width": 415,
+          "fontSize": "30.72px",
+          "lineHeight": "49.152px",
+          "letterSpacing": "-0.768px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発者について",
+          "lines": [
+            "開発者について"
+          ],
+          "splitWords": [],
+          "width": 403,
+          "fontSize": "18.08px",
+          "lineHeight": "28.928px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Yuya Nakamura",
+          "lines": [
+            "Yuya Nakamura"
+          ],
+          "splitWords": [],
+          "width": 403,
+          "fontSize": "35.2px",
+          "lineHeight": "49.28px",
+          "letterSpacing": "-0.88px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "学びと暮らしの、具体的な場面に。",
+          "lines": [
+            "学びと暮らしの、具体的な場面に。"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "30.72px",
+          "lineHeight": "49.152px",
+          "letterSpacing": "-0.768px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "学習・ノート",
+          "lines": [
+            "学習・ノート"
+          ],
+          "splitWords": [],
+          "width": 566,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "会話の支援",
+          "lines": [
+            "会話の支援"
+          ],
+          "splitWords": [],
+          "width": 566,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "日常の記録・管理",
+          "lines": [
+            "日常の記録・管理"
+          ],
+          "splitWords": [],
+          "width": 566,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発で大切にしていること",
+          "lines": [
+            "開発で大切にしていること"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "30.72px",
+          "lineHeight": "49.152px",
+          "letterSpacing": "-0.768px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "必要なことを、分かりやすく",
+          "lines": [
+            "必要なことを、分かりやすく"
+          ],
+          "splitWords": [],
+          "width": 325,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "使う場面から考える",
+          "lines": [
+            "使う場面から考える"
+          ],
+          "splitWords": [],
+          "width": 325,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "公開後も手をかける",
+          "lines": [
+            "公開後も手をかける"
+          ],
+          "splitWords": [],
+          "width": 325,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・メディア関係者の方へ",
+          "lines": [
+            "取材・メディア関係者の方へ"
+          ],
+          "splitWords": [],
+          "width": 415,
+          "fontSize": "30.72px",
+          "lineHeight": "49.152px",
+          "letterSpacing": "-0.768px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "基本情報",
+          "lines": [
+            "基本情報"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "30.72px",
+          "lineHeight": "49.152px",
+          "letterSpacing": "-0.768px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問い合わせ"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "28px",
+          "lineHeight": "39.2px",
+          "letterSpacing": "-0.7px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        }
+      ],
+      "contact": [
+        {
+          "tag": "p",
+          "class": "eyebrow",
+          "text": "Contact",
+          "lines": [
+            "Contact"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "11.68px",
+          "lineHeight": "20.44px",
+          "letterSpacing": "1.2848px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問い合わせ"
+          ],
+          "splitWords": [],
+          "width": 1040,
+          "fontSize": "28px",
+          "lineHeight": "39.2px",
+          "letterSpacing": "-0.7px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "p",
+          "class": "",
+          "text": "媒体名・ご相談内容・対象のプロダクト・希望時期などを添えて、メールでご連絡ください。アプリの使い方や不具合については、各Productページのサポートをご確認いただけます。",
+          "lines": [
+            "媒体名・ご相談内容・対象のプロダクト・希望時期などを添えて、メールでご連絡ください。ア",
+            "プリの使い方や不具合については、各Productページのサポートをご確認いただけます。"
+          ],
+          "splitWords": [
+            "アプリ"
+          ],
+          "width": 650,
+          "fontSize": "15.2px",
+          "lineHeight": "26.6px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        }
+      ]
+    },
+    {
+      "name": "-company--834-light",
+      "ok": true,
+      "errors": [],
+      "route": "/company/",
+      "width": 834,
+      "theme": "light",
+      "normalFallback": false,
+      "layout": {
+        "viewport": 834,
+        "scrollWidth": 834,
+        "height": 3969,
+        "brokenImages": [],
+        "headingSkips": [],
+        "h1Count": 1,
+        "horizontalElements": []
+      },
+      "supportsAutoPhrase": true,
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "",
+          "text": "日常の「こうしたい」を、アプリに。",
+          "lines": [
+            "日常の「こうしたい」を、アプリに。"
+          ],
+          "splitWords": [],
+          "width": 774,
+          "fontSize": "30.4px",
+          "lineHeight": "47.12px",
+          "letterSpacing": "-0.76px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "身近な不便から、使える道具へ。",
+          "lines": [
+            "身近な不便から、使える道",
+            "具へ。"
+          ],
+          "splitWords": [
+            "道具"
+          ],
+          "width": 314,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発者について",
+          "lines": [
+            "開発者について"
+          ],
+          "splitWords": [],
+          "width": 271,
+          "fontSize": "18.08px",
+          "lineHeight": "28.928px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Yuya Nakamura",
+          "lines": [
+            "Yuya Nakamura"
+          ],
+          "splitWords": [],
+          "width": 271,
+          "fontSize": "35.2px",
+          "lineHeight": "49.28px",
+          "letterSpacing": "-0.88px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "学びと暮らしの、具体的な場面に。",
+          "lines": [
+            "学びと暮らしの、具体的な場面に。"
+          ],
+          "splitWords": [],
+          "width": 774,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "学習・ノート",
+          "lines": [
+            "学習・ノート"
+          ],
+          "splitWords": [],
+          "width": 428,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "会話の支援",
+          "lines": [
+            "会話の支援"
+          ],
+          "splitWords": [],
+          "width": 428,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "日常の記録・管理",
+          "lines": [
+            "日常の記録・管理"
+          ],
+          "splitWords": [],
+          "width": 428,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発で大切にしていること",
+          "lines": [
+            "開発で大切にしていること"
+          ],
+          "splitWords": [],
+          "width": 774,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "必要なことを、分かりやすく",
+          "lines": [
+            "必要なことを、分かりやすく"
+          ],
+          "splitWords": [],
+          "width": 237,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "使う場面から考える",
+          "lines": [
+            "使う場面から考える"
+          ],
+          "splitWords": [],
+          "width": 237,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "公開後も手をかける",
+          "lines": [
+            "公開後も手をかける"
+          ],
+          "splitWords": [],
+          "width": 237,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・メディア関係者の方へ",
+          "lines": [
+            "取材・メディア関係者の",
+            "方へ"
+          ],
+          "splitWords": [],
+          "width": 314,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "基本情報",
+          "lines": [
+            "基本情報"
+          ],
+          "splitWords": [],
+          "width": 774,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問い合わせ"
+          ],
+          "splitWords": [],
+          "width": 774,
+          "fontSize": "28px",
+          "lineHeight": "39.2px",
+          "letterSpacing": "-0.7px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        }
+      ],
+      "contact": [
+        {
+          "tag": "p",
+          "class": "eyebrow",
+          "text": "Contact",
+          "lines": [
+            "Contact"
+          ],
+          "splitWords": [],
+          "width": 774,
+          "fontSize": "11.68px",
+          "lineHeight": "20.44px",
+          "letterSpacing": "1.2848px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問い合わせ"
+          ],
+          "splitWords": [],
+          "width": 774,
+          "fontSize": "28px",
+          "lineHeight": "39.2px",
+          "letterSpacing": "-0.7px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "p",
+          "class": "",
+          "text": "媒体名・ご相談内容・対象のプロダクト・希望時期などを添えて、メールでご連絡ください。アプリの使い方や不具合については、各Productページのサポートをご確認いただけます。",
+          "lines": [
+            "媒体名・ご相談内容・対象のプロダクト・希望時期などを添えて、メールでご連絡ください。ア",
+            "プリの使い方や不具合については、各Productページのサポートをご確認いただけます。"
+          ],
+          "splitWords": [
+            "アプリ"
+          ],
+          "width": 650,
+          "fontSize": "15.2px",
+          "lineHeight": "26.6px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        }
+      ]
+    },
+    {
+      "name": "-company--393-light",
+      "ok": true,
+      "errors": [],
+      "route": "/company/",
+      "width": 393,
+      "theme": "light",
+      "normalFallback": false,
+      "layout": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "height": 5311,
+        "brokenImages": [],
+        "headingSkips": [],
+        "h1Count": 1,
+        "horizontalElements": []
+      },
+      "supportsAutoPhrase": true,
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "",
+          "text": "日常の「こうしたい」を、アプリに。",
+          "lines": [
+            "日常の「こうしたい」を、",
+            "アプリに。"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "28px",
+          "lineHeight": "43.4px",
+          "letterSpacing": "-0.7px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "身近な不便から、使える道具へ。",
+          "lines": [
+            "身近な不便から、使える道",
+            "具へ。"
+          ],
+          "splitWords": [
+            "道具"
+          ],
+          "width": 349,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発者について",
+          "lines": [
+            "開発者について"
+          ],
+          "splitWords": [],
+          "width": 301,
+          "fontSize": "18.08px",
+          "lineHeight": "28.928px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Yuya Nakamura",
+          "lines": [
+            "Yuya Nakamura"
+          ],
+          "splitWords": [],
+          "width": 301,
+          "fontSize": "31.2px",
+          "lineHeight": "43.68px",
+          "letterSpacing": "-0.78px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "学びと暮らしの、具体的な場面に。",
+          "lines": [
+            "学びと暮らしの、具体的な場",
+            "面に。"
+          ],
+          "splitWords": [
+            "場面"
+          ],
+          "width": 349,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "学習・ノート",
+          "lines": [
+            "学習・ノート"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "会話の支援",
+          "lines": [
+            "会話の支援"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "日常の記録・管理",
+          "lines": [
+            "日常の記録・管理"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発で大切にしていること",
+          "lines": [
+            "開発で大切にしていること"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "必要なことを、分かりやすく",
+          "lines": [
+            "必要なことを、分かりやすく"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "使う場面から考える",
+          "lines": [
+            "使う場面から考える"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "公開後も手をかける",
+          "lines": [
+            "公開後も手をかける"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・メディア関係者の方へ",
+          "lines": [
+            "取材・メディア関係者の方へ"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "基本情報",
+          "lines": [
+            "基本情報"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問い合",
+            "わせ"
+          ],
+          "splitWords": [
+            "問い合わせ"
+          ],
+          "width": 349,
+          "fontSize": "22.4px",
+          "lineHeight": "31.36px",
+          "letterSpacing": "-0.56px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        }
+      ],
+      "contact": [
+        {
+          "tag": "p",
+          "class": "eyebrow",
+          "text": "Contact",
+          "lines": [
+            "Contact"
+          ],
+          "splitWords": [],
+          "width": 349,
+          "fontSize": "10.56px",
+          "lineHeight": "18.48px",
+          "letterSpacing": "0.7392px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問い合",
+            "わせ"
+          ],
+          "splitWords": [
+            "問い合わせ"
+          ],
+          "width": 349,
+          "fontSize": "22.4px",
+          "lineHeight": "31.36px",
+          "letterSpacing": "-0.56px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "p",
+          "class": "",
+          "text": "媒体名・ご相談内容・対象のプロダクト・希望時期などを添えて、メールでご連絡ください。アプリの使い方や不具合については、各Productページのサポートをご確認いただけます。",
+          "lines": [
+            "媒体名・ご相談内容・対象のプロダクト・希望時期な",
+            "どを添えて、メールでご連絡ください。アプリの使い",
+            "方や不具合については、各Productページのサポートを",
+            "ご確認いただけます。"
+          ],
+          "splitWords": [
+            "など",
+            "使い方"
+          ],
+          "width": 349,
+          "fontSize": "14.08px",
+          "lineHeight": "24.64px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        }
+      ]
+    },
+    {
+      "name": "-company--320-light",
+      "ok": true,
+      "errors": [],
+      "route": "/company/",
+      "width": 320,
+      "theme": "light",
+      "normalFallback": false,
+      "layout": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "height": 5906,
+        "brokenImages": [],
+        "headingSkips": [],
+        "h1Count": 1,
+        "horizontalElements": []
+      },
+      "supportsAutoPhrase": true,
+      "headings": [
+        {
+          "tag": "h1",
+          "class": "",
+          "text": "日常の「こうしたい」を、アプリに。",
+          "lines": [
+            "日常の「こうしたい」",
+            "を、アプリに。"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "28px",
+          "lineHeight": "43.4px",
+          "letterSpacing": "-0.7px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "身近な不便から、使える道具へ。",
+          "lines": [
+            "身近な不便から、使える",
+            "道具へ。"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発者について",
+          "lines": [
+            "開発者について"
+          ],
+          "splitWords": [],
+          "width": 228,
+          "fontSize": "18.08px",
+          "lineHeight": "28.928px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "Yuya Nakamura",
+          "lines": [
+            "Yuya Nakamura"
+          ],
+          "splitWords": [],
+          "width": 228,
+          "fontSize": "31.2px",
+          "lineHeight": "43.68px",
+          "letterSpacing": "-0.78px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "学びと暮らしの、具体的な場面に。",
+          "lines": [
+            "学びと暮らしの、具体的",
+            "な場面に。"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "学習・ノート",
+          "lines": [
+            "学習・ノート"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "会話の支援",
+          "lines": [
+            "会話の支援"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "日常の記録・管理",
+          "lines": [
+            "日常の記録・管理"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "開発で大切にしていること",
+          "lines": [
+            "開発で大切にしている",
+            "こと"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "必要なことを、分かりやすく",
+          "lines": [
+            "必要なことを、分かりやすく"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "使う場面から考える",
+          "lines": [
+            "使う場面から考える"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h3",
+          "class": "",
+          "text": "公開後も手をかける",
+          "lines": [
+            "公開後も手をかける"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "17.28px",
+          "lineHeight": "29.376px",
+          "letterSpacing": "-0.432px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・メディア関係者の方へ",
+          "lines": [
+            "取材・メディア関係者の",
+            "方へ"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "基本情報",
+          "lines": [
+            "基本情報"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "25.6px",
+          "lineHeight": "40.96px",
+          "letterSpacing": "-0.64px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問",
+            "い合わせ"
+          ],
+          "splitWords": [
+            "問い合わせ"
+          ],
+          "width": 276,
+          "fontSize": "22.4px",
+          "lineHeight": "31.36px",
+          "letterSpacing": "-0.56px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        }
+      ],
+      "contact": [
+        {
+          "tag": "p",
+          "class": "eyebrow",
+          "text": "Contact",
+          "lines": [
+            "Contact"
+          ],
+          "splitWords": [],
+          "width": 276,
+          "fontSize": "10.56px",
+          "lineHeight": "18.48px",
+          "letterSpacing": "0.7392px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        },
+        {
+          "tag": "h2",
+          "class": "",
+          "text": "取材・掲載・その他のお問い合わせ",
+          "lines": [
+            "取材・掲載・その他のお問",
+            "い合わせ"
+          ],
+          "splitWords": [
+            "問い合わせ"
+          ],
+          "width": 276,
+          "fontSize": "22.4px",
+          "lineHeight": "31.36px",
+          "letterSpacing": "-0.56px",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "pretty"
+        },
+        {
+          "tag": "p",
+          "class": "",
+          "text": "媒体名・ご相談内容・対象のプロダクト・希望時期などを添えて、メールでご連絡ください。アプリの使い方や不具合については、各Productページのサポートをご確認いただけます。",
+          "lines": [
+            "媒体名・ご相談内容・対象のプロダクト・",
+            "希望時期などを添えて、メールでご連絡く",
+            "ださい。アプリの使い方や不具合について",
+            "は、各Productページのサポートをご確認い",
+            "ただけます。"
+          ],
+          "splitWords": [
+            "くだ"
+          ],
+          "width": 276,
+          "fontSize": "14.08px",
+          "lineHeight": "24.64px",
+          "letterSpacing": "normal",
+          "wordBreak": "normal",
+          "overflowWrap": "anywhere",
+          "lineBreak": "auto",
+          "textWrap": "wrap"
+        }
+      ]
+    }
+  ]
+}

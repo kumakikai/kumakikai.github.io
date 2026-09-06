@@ -97,7 +97,7 @@ async function company(page, locale, name, noJS = false) {
       { text: 'About', href: `${prefix(locale)}/company/` },
     ]);
   }
-  const sections = ['.company-about', '.company-profile', '.company-build', '.company-philosophy', '.company-media', '.company-information', '#contact'];
+  const sections = ['.company-about', '.company-profile', '.company-build', ...(copy.principles?.length ? ['.company-philosophy'] : []), '.company-media', '.company-information', '#contact'];
   let previousBottom = 0;
   for (const selector of sections) {
     const section = page.locator('.company-page ' + selector);
@@ -116,13 +116,13 @@ async function company(page, locale, name, noJS = false) {
   assert.deepEqual(await page.locator('.founder-bio > p').allTextContents(), copy.founderBio);
   assert.equal((await page.locator('.founder-experience dd').first().textContent()).trim(), copy.experience.join(' / '));
   assert.equal((await page.locator('.founder-experience dd').last().textContent()).trim(), 'C / C++ / C# / Java / Python / Dart / Swift');
-  assert.equal((await page.locator('.company-build-intro').textContent()).trim(), copy.buildIntro);
-  assert.equal(/%d|\d/.test(copy.buildIntro), false, 'About introduction does not hard-code a product count');
+  assert.equal(await page.locator('.company-build-intro').count(), 0, 'Category names are not repeated in an introduction');
+  assert.equal(Object.hasOwn(copy, 'buildIntro'), false, 'About keeps no redundant category introduction or fixed product count');
   assert.deepEqual(await page.locator('.company-areas h3').allTextContents(), copy.areas.map(area => area.title));
   assert.deepEqual(await page.locator('.company-areas li > div > p').allTextContents(), copy.areas.map(area => area.description));
   const selectedAreas = [];
   const home = read(`data/home/${locale}.json`);
-  assert.deepEqual(copy.areas.map(area => area.area), ['learning', 'communication', 'daily-tools']);
+  assert.deepEqual(copy.areas.map(area => area.area), ['learning', 'communication', 'utilities']);
   for (const area of copy.areas) {
     const row = page.locator(`.company-areas li[data-area="${area.area}"]`);
     assert.equal(await row.count(), 1);
@@ -151,12 +151,12 @@ async function company(page, locale, name, noJS = false) {
     await keyboardFocus(page, link);
     selectedAreas.push({ area: area.area, product: id });
   }
-  assert.deepEqual(await page.locator('.company-facts dt').allTextContents(), [corp.companyNameLabel, copy.founderLabel, corp.businessLabel, corp.contactLabel], 'Basic information has no redundant Web row');
-  assert.deepEqual(await page.locator('.company-facts dd').allTextContents(), ['KUMAKIKAI', copy.founderName, corp.businessText, 'kumakikai.apps@gmail.com']);
+  assert.deepEqual(await page.locator('.company-facts dt').allTextContents(), [corp.companyNameLabel, copy.founderLabel, corp.businessLabel], 'Basic information has no redundant Web or email row');
+  assert.deepEqual(await page.locator('.company-facts dd').allTextContents(), ['KUMAKIKAI', copy.founderName, corp.businessText]);
   assert.equal(Object.hasOwn(copy, 'webLabel'), false);
   assert.equal(await page.locator('.company-information a').count(), 0, 'Basic information does not link the current website to itself');
-  assert.deepEqual(await page.locator('.company-philosophy h3').allTextContents(), copy.principles.map(principle => principle.title));
-  assert.deepEqual(await page.locator('.company-philosophy li > p').allTextContents(), copy.principles.map(principle => principle.description));
+  assert.deepEqual(await page.locator('.company-philosophy h3').allTextContents(), (copy.principles || []).map(principle => principle.title));
+  assert.deepEqual(await page.locator('.company-philosophy li > p').allTextContents(), (copy.principles || []).map(principle => principle.description));
   assert.equal(await page.locator('a[href^="mailto:"]').count(), 1, 'Email CTA appears only in Contact');
   assert.equal(await page.locator('#contact a[href^="mailto:"]').count(), 1);
   assert.equal(await page.locator('a[href^="tel:"]').count(), 0, 'No telephone link');
@@ -166,7 +166,8 @@ async function company(page, locale, name, noJS = false) {
   for (const script of await page.locator('script[type="application/ld+json"]').allTextContents()) {
     assert.equal(/"telephone"\s*:/.test(script), false, 'Structured data does not publish a telephone number');
   }
-  assert.equal(await page.locator('.company-philosophy a').getAttribute('href'), `${prefix(locale)}/news/#blog`);
+  assert.equal(await page.locator('.company-page a[href$="/news/#blog"]').count(), 1, 'One direct Blog link accompanies the development background');
+  assert.equal(await page.locator('.company-information').innerText().then(text => text.includes('kumakikai.apps@gmail.com')), false, 'Contact address is not repeated in basic information');
   assert.equal(await page.locator('.company-media a').first().getAttribute('href'), `${prefix(locale)}/news/#press-release`);
   const contact = page.locator('.company-media a[href="#contact"]');
   await keyboardFocus(page, contact);

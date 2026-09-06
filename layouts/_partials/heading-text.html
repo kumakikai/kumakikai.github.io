@@ -1,0 +1,7 @@
+{{- $title := . -}}
+{{- with index site.Data.heading_phrases $title -}}
+  {{- if ne (delimit . "") $title -}}{{- errorf "Heading phrases must preserve the title: %s" $title -}}{{- end -}}
+  {{- range . -}}<span class="heading-phrase">{{ . }}</span>{{- end -}}
+{{- else -}}
+  {{- $title -}}
+{{- end -}}

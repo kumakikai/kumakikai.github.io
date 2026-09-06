@@ -10,8 +10,16 @@
   :root[data-theme="auto"] { --surface: #17191d; --surface-soft: #22262d; --ink: #f4f6fa; --muted: #b7bfcb; --line: #3c424d; --accent: #a9c3ff; --accent-ink: #17191d; --feature-blue: #202936; --feature-warm: #2c2925; --feature-lilac: #292530; color-scheme: dark; }
 }
 html { font-size: 16px; -webkit-text-size-adjust: 100%; }
-body { background: var(--surface); color: var(--ink); font-size: 1rem; line-height: 1.75; overflow-wrap: anywhere; }
+body { background: var(--surface); color: var(--ink); font-size: 1rem; line-height: 1.75; overflow-wrap: break-word; }
 h1,h2,h3,h4,h5,h6 { color: var(--ink); line-height: 1.4; letter-spacing: -.025em; text-wrap: pretty; }
+/* Normal Japanese wrapping is the baseline. Phrase analysis is an enhancement,
+   not a dependency: widths and short headings also work without it. */
+body:lang(ja) { word-break: normal; line-break: strict; }
+:lang(ja) :is(h1,h2,h3,h4,h5,h6,.app-tagline) { letter-spacing: 0; text-wrap: balance; }
+:lang(ja) :is(p,li,dd) { text-wrap: pretty; }
+@supports (word-break: auto-phrase) {
+  body:lang(ja) { word-break: auto-phrase; }
+}
 a { color: inherit; text-underline-offset: .22em; }
 button,summary { cursor: pointer; }
 button,a,summary { -webkit-tap-highlight-color: transparent; }
@@ -129,7 +137,10 @@ body.menu-open { overflow: hidden; }
 .news-row :is(h2,h3) { font-size: .96rem; font-weight: 530; letter-spacing: 0; line-height: 1.8; }
 .news-row a { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
 .news-row a:hover { color: var(--accent); }
-.news-row a span { flex: none; font-size: .84rem; }
+.news-title { min-width: 0; }
+.news-row .news-arrow { flex: none; font-size: .84rem; }
+/* Phrase spans can flow onto the same line; they never insert a fixed break. */
+.heading-phrase { display: inline-block; }
 .locale-note { font-size: .8rem; color: var(--muted); margin-bottom: 20px; }
 .home-about { display: grid; grid-template-columns: .6fr 1fr; gap: 70px; border-top: 1px solid var(--line); padding-block: 80px; }
 .home-about h2 { font-size: 1.8rem; font-weight: 650; }
@@ -159,8 +170,13 @@ body.menu-open { overflow: hidden; }
 .resource-terms { margin-top: 12px; font-size: .77rem; }
 .contact-panel { margin-top: 65px; border-top: 1px solid var(--line); }
 .contact-panel h2 { font-size: 1.75rem; }
-.contact-panel > p:not(.eyebrow) { color: var(--muted); margin-block: 20px 28px; max-width: 650px; font-size: .95rem; }
+.contact-panel > p:not(.eyebrow) { color: var(--muted); margin-block: 20px 28px; max-width: 52em; font-size: .95rem; line-height: 1.9; }
+.contact-panel > .contact-support-note { font-size: .84rem; margin-block: 24px 0; }
+/* These short practical clauses fit even the narrowest layout. Keep Japanese
+   words together and wrap at punctuation; long unbroken text can still wrap. */
+:lang(ja) .contact-panel > p:not(.eyebrow) { word-break: keep-all; overflow-wrap: break-word; text-wrap: balance; }
 .company-page { max-width: 1120px !important; padding-bottom: 30px; }
+:lang(ja) .company-page .page-heading h1 { word-break: keep-all; overflow-wrap: break-word; text-wrap: wrap; }
 .company-facts div { display: grid; grid-template-columns: 220px 1fr; gap: 30px; padding: 30px 0; border-top: 1px solid var(--line); }
 .company-facts dt { color: var(--muted); font-size: .88rem; }
 .company-facts dd { font-size: .96rem; }
@@ -168,29 +184,27 @@ body.menu-open { overflow: hidden; }
 .company-section { padding-block: 64px; border-top: 1px solid var(--line); }
 .company-section h2,.company-profile h2 { font-size: clamp(1.6rem,2.4vw,2rem); font-weight: 680; line-height: 1.6; }
 .company-section p,.founder-bio > p { color: var(--muted); font-size: .96rem; line-height: 2; }
-.company-about,.company-media { display: grid; grid-template-columns: .85fr 1.15fr; gap: 64px; }
+.company-about,.company-media { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.1fr); gap: 48px; }
 .company-about p + p,.founder-bio > p + p { margin-top: 18px; }
 .company-profile { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; padding: 48px; margin: 8px 0 64px; background: var(--surface-soft); border-radius: 22px; }
 .company-profile h2 { font-size: 1.13rem; letter-spacing: 0; }
 .founder-portrait { display: block; width: 160px; height: 160px; margin-top: 24px; border-radius: 18px; background: #fff; object-fit: contain; }
 .founder-identity h3 { font-size: 2.2rem; font-weight: 680; margin-top: 26px; }
 .founder-role { font-size: .87rem; margin-top: 15px; line-height: 1.8; color: var(--muted); }
+.founder-blog { margin-top: 18px; }
 .founder-experience { margin-top: 25px; border-top: 1px solid var(--line); padding-top: 20px; font-size: .77rem; line-height: 1.9; color: var(--muted); }
 .founder-experience > div + div { margin-top: 14px; }
 .founder-experience dt { color: var(--ink); font-weight: 600; margin-bottom: 3px; }
-.company-build-intro { max-width: 760px; margin-top: 20px; }
 .company-areas { list-style: none; padding: 0; margin: 32px 0 20px; }
 .company-areas li { display: grid; grid-template-columns: 1.4fr 1fr; align-items: center; gap: 70px; padding-block: 28px; border-top: 1px solid var(--line); }
-.company-areas h3,.company-philosophy h3 { font-size: 1.08rem; font-weight: 650; line-height: 1.7; margin-bottom: 10px; }
-.company-areas p,.company-philosophy li p { font-size: .9rem; }
+.company-areas h3 { font-size: 1.08rem; font-weight: 650; line-height: 1.7; margin-bottom: 10px; }
+.company-areas p { font-size: .9rem; }
 .company-area-products { min-height: 80px; }
 .company-product-link { display: flex; align-items: center; gap: 16px; font-size: .95rem; min-height: 80px; }
 .company-product-link img { border-radius: 10px; flex: none; }
 .company-product-link > span:last-child { margin-left: auto; color: var(--accent); }
 .company-product-link:hover { color: var(--accent); }
 .company-product-platform { display: block; font-size: .74rem; color: var(--muted); margin-top: 3px; }
-.company-philosophy ul { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 32px; list-style: none; padding: 0; margin: 32px 0 20px; }
-.company-philosophy li { border-top: 1px solid var(--line); padding-top: 24px; }
 .company-media .app-actions { margin-top: 20px; gap: 8px 24px; }
 .company-information { padding-bottom: 0; }
 .company-information h2 { margin-bottom: 28px; }
@@ -209,13 +223,12 @@ body.menu-open { overflow: hidden; }
 }
 @media (max-width: 720px) {
   .company-section { padding-block: 44px; }
-  .company-about,.company-media,.company-profile,.company-areas li,.company-philosophy ul { grid-template-columns: 1fr; }
+  .company-about,.company-media,.company-profile,.company-areas li { grid-template-columns: 1fr; }
   .company-about,.company-media { gap: 22px; }
   .company-profile { padding: 28px 24px; gap: 30px; margin-bottom: 44px; }
   .founder-identity h3 { font-size: 1.95rem; margin-top: 20px; }
   .company-areas li { gap: 20px; }
   .company-product-link { max-width: 360px; }
-  .company-philosophy ul { gap: 24px; }
   .company-information { padding-bottom: 0; }
   .company-page .contact-panel { margin-top: 28px; }
 }
@@ -418,6 +431,7 @@ body.menu-open { overflow: hidden; }
   .footer-bottom { margin-top: 30px; font-size: .63rem; align-items: end; }
   .page-heading { padding-block: 50px 35px; }
   .page-heading h1 { font-size: 1.75rem; }
+  :lang(ja) .company-page .page-heading h1 { font-size: clamp(1.4rem,7vw,1.75rem); }
   .products-heading h1 { font-size: clamp(1.5rem,6.8vw,1.75rem); }
   .page-heading > p:not(.eyebrow) { font-size: .9rem; }
   .page-directory { padding-bottom: 60px; }

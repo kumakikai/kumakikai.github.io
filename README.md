@@ -68,7 +68,7 @@ npm run verify
 | `data/home/<lang>.json` | 6言語の既存トップコピー、アプリ名・説明・対応端末・画像alt |
 | `data/product_details/<id>.json` | 各Product専用の概要・機能・画像付き紹介・利用シーン・確認済み対応OS |
 | `data/product_ui/<lang>.json` | Product詳細の見出し・基本情報ラベル・下部CTAの6言語コピー |
-| `data/company/<lang>.json` | 6言語のAbout紹介、公開許可済みFounder、開発領域、開発方針、For Media、News絞り込みラベル |
+| `data/company/<lang>.json` | 6言語のAbout紹介、公開許可済みFounder、開発領域、For Media、News絞り込みラベル |
 | `data/corporate/<lang>.json` | 6言語のナビゲーション、会社紹介、各一覧・CTAのコピー |
 | `data/theme.json` | Hugoplateの色・フォント・文字サイズtoken |
 | `data/hero.json` | 実UIを使ったHero画像の寸法、responsive画像、alt |
@@ -100,9 +100,11 @@ npm run verify
 
 | `area` | 領域 | 現在のアプリ |
 |---|---|---|
-| `learning` | 学習・ノート | `uni-note`、`uni-note-pocket` |
-| `communication` | 会話の支援 | `oto-miru`、`nocca` |
-| `daily-tools` | 日常の記録・管理 | `giga-poke`、`balance-calendar`、`smokeless`、`signal` |
+| `learning` | 学習 | `uni-note`、`uni-note-pocket` |
+| `communication` | コミュニケーション | `oto-miru`、`nocca` |
+| `utilities` | ユーティリティ | `giga-poke`、`balance-calendar`、`smokeless`、`signal` |
+
+開発領域は個別機能ではなく大分類です。Aboutでは各`area`の候補から代表アプリを1件選びます。新規アプリも上記の分類へ追加し、他領域から候補を補充しません。
 
 HomeとProduct詳細は同じ実画面データを使用します。旧Other Appsとして追加した素材の出典は[既存の素材記録](docs/homepage/other-app-assets.md)に残しています。Homeへ掲載しない候補もProductsから閲覧できます。
 
@@ -164,9 +166,13 @@ Newsの`#press-release`・`#blog`・`#information`は同じ一覧のカテゴリ
 
 `data/company/`の6言語を編集します。画面の名称はAbout、データの場所と公開URLは`company`のまま維持します。氏名は`founderName: "Yuya Nakamura"`に統一し、英字氏名の別フィールドや漢字氏名を重複表示しません。画像altも同じ氏名を使います。肩書き・経歴は、本人が公開を許可した事実または確認できる既存公開情報に限定してください。出典と非掲載判断は[Company拡張レポート](docs/company/REPORT.md)と[根拠](docs/company/evidence.json)に記録しています。名刺の電話番号と名刺全体はWebへ掲載しません。本人が利用を許可した人物イラストの編集方法・出典は[人物画像の記録](docs/company/portrait/asset.json)を参照してください。
 
-Aboutの紹介文は「複数のプロダクト」とし、固定の件数や`%d`による数値の差し込みを使いません。`areas`の各行には`area`を設定し、同じ領域の`data/apps.json`から紹介候補を参照します。既存の`product`はJavaScript無効時の表示用IDとして残し、該当する領域内のアプリを指定します。アイコン・名称・端末・URLはProductデータを共用します。`featured`や`area`を変更しても、`status`・Store URL・提供地域の根拠は変更しません。実績のために未確認のDL数、勤務先・経験年数・学歴、法人格・所在地等を追加しないでください。主要CTAは末尾の既存メール窓口です。For Mediaから同じページの`#contact`へ直接移動できます。
+Aboutの紹介文には固定の件数や`%d`による数値の差し込みを使いません。`areas`の各行には`area`を設定し、同じ領域の`data/apps.json`から紹介候補を参照します。既存の`product`はJavaScript無効時の表示用IDとして残し、該当する領域内のアプリを指定します。アイコン・名称・端末・URLはProductデータを共用します。`featured`や`area`を変更しても、`status`・Store URL・提供地域の根拠は変更しません。実績のために未確認のDL数、勤務先・経験年数・学歴、法人格・所在地等を追加しないでください。主要CTAは末尾の既存メール窓口です。For Mediaから同じページの`#contact`へ直接移動できます。
+
+Aboutの基本情報は名称・開発者・事業内容だけとし、Webやメールを重ねて載せません。問い合わせ先はContactのメールCTAへ集約します。抽象的な開発理念の3項目は使わず、Founderで出典のある開発背景を短く紹介します。日本語コピーと改行の監査記録は[コピー監査レポート](docs/copy-audit/REPORT.md)を参照してください。日本語の改行は`assets/css/site.css`で禁則処理、見出しの均等な折り返し、幅・余白を調整し、対応ブラウザでは`auto-phrase`を補助的に使用します。文章へ改行タグを足して表示幅を固定しないでください。
 
 AboutのSEO説明は`data/corporate/<lang>.json`の`companyDescription`で管理し、画面名は`nav.company: "About"`とします。変更時は`npm run sync:products`を実行します。同期スクリプトはこのナビゲーション名をページtitleにも使いますが、`/company/`と各言語の既存URLは変更しません。Aboutだけに公開許可済みFounderのPerson情報をOrganization schemaへ補足しています。
+
+日本語の長いNewsタイトルで語中改行が起きる場合は、`data/heading_phrases.json`に元タイトルと意味のまとまりを登録できます。共通partialがNews一覧と記事見出し（本文内の見出しを含む）に同じまとまりを使い、画面幅に応じて折り返します。改行位置を固定する指定ではありません。各部分の連結は元のタイトルと必ず一致させ、1部分を長くしすぎないでください。記事本文・URL・SEOのタイトルは変わりません。
 
 ## URL・コンテンツの互換性
 

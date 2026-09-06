@@ -1,0 +1,5018 @@
+{
+  "checkedAt": "2026-09-06T19:23:34.286Z",
+  "verificationPasses": [
+    {
+      "checkedAt": "2026-09-06T19:20:25.876Z",
+      "cases": 30,
+      "scope": "Full 30-case WebKit suite before targeted roadmap heading grouping."
+    },
+    {
+      "checkedAt": "2026-09-06T19:23:34.286Z",
+      "cases": 4,
+      "scope": "Retest roadmap and 2026-03-25 blog at 393/320 after semantic heading grouping; unchanged 26 results retained."
+    }
+  ],
+  "base": "http://127.0.0.1:1314",
+  "pending": false,
+  "ok": true,
+  "browser": "Playwright WebKit 26.5 (webkit v2336), headless macOS engine",
+  "executable": "/private/tmp/kumakikai-browser-engines/webkit-2336/pw_run.sh",
+  "cases": 30,
+  "limitations": [
+    "Desktop-engine viewport emulation; not Safari application or physical iPhone/iPad testing.",
+    "Intl.Segmenter word-split candidates are editorial review hints, not automatic correctness judgments."
+  ],
+  "failures": [],
+  "results": [
+    {
+      "route": "/news/",
+      "width": 320,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "News",
+            "lines": [
+              "News"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "28px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Noccaについて↗",
+            "lines": [
+              "Noccaについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギガポケについて↗",
+            "lines": [
+              "ギガポケについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+            "lines": [
+              "Android版アプリ公開の壁が",
+              "思った以上に高かった"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "オトミルについて↗",
+            "lines": [
+              "オトミルについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリ開発を始めてからの累計収益が1万円を超えました↗",
+            "lines": [
+              "アプリ開発を始めてからの",
+              "累計収益が1万円を超えました"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Note Pocketについて↗",
+            "lines": [
+              "Uni:Note Pocketについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "最近、友人にアプリ開発の悩みを相談しました↗",
+            "lines": [
+              "最近、友人にアプリ開発の",
+              "悩みを相談しました"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "すわなびについて↗",
+            "lines": [
+              "すわなびについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "赤字でも、まだ作り続けている↗",
+            "lines": [
+              "赤字でも、まだ作り続けている"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Noteについて↗",
+            "lines": [
+              "Uni:Noteについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "SIGNALについて↗",
+            "lines": [
+              "SIGNALについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "リリースから1ヶ月。DLが伸びない中で考えたこと↗",
+            "lines": [
+              "リリースから1ヶ月。",
+              "DLが伸びない中で考えたこと"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "思想↗",
+            "lines": [
+              "思想"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレの今後について（ロードマップ）↗",
+            "lines": [
+              "ギャンカレの今後について",
+              "（ロードマップ）"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレについて↗",
+            "lines": [
+              "ギャンカレについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-02-14-blog/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "リリースから1ヶ月。DLが伸びない中で考えたこと",
+            "lines": [
+              "リリースから1ヶ月。",
+              "DLが伸びない中で考えたこと"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "DLが伸びない",
+            "lines": [
+              "DLが伸びない"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "プロダクトとしての手応え",
+            "lines": [
+              "プロダクトとしての手応え"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "使われない理由の仮説",
+            "lines": [
+              "使われない理由の仮説"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "導入したこと",
+            "lines": [
+              "導入したこと"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "試験的に導入したこと",
+            "lines": [
+              "試験的に導入したこと"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "経営視点で見ると",
+            "lines": [
+              "経営視点で見ると"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "今後について",
+            "lines": [
+              "今後について"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-02-14-blog/",
+      "width": 320,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "リリースから1ヶ月。DLが伸びない中で考えたこと",
+            "lines": [
+              "リリースから1ヶ月。",
+              "DLが伸びない中で",
+              "考えたこと"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "DLが伸びない",
+            "lines": [
+              "DLが伸びない"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "プロダクトとしての手応え",
+            "lines": [
+              "プロダクトとしての手応え"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "使われない理由の仮説",
+            "lines": [
+              "使われない理由の仮説"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "導入したこと",
+            "lines": [
+              "導入したこと"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "試験的に導入したこと",
+            "lines": [
+              "試験的に導入したこと"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "経営視点で見ると",
+            "lines": [
+              "経営視点で見ると"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "今後について",
+            "lines": [
+              "今後について"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-03-13-blog/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "赤字でも、まだ作り続けている",
+            "lines": [
+              "赤字でも、まだ",
+              "作り続けている"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "赤字でも、まだ作り続けている",
+            "lines": [
+              "赤字でも、まだ作り続けている"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ずっと作りたかったアプリ",
+            "lines": [
+              "ずっと作りたかったアプリ"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "何を直せばいいのかが分からない",
+            "lines": [
+              "何を直せばいいのかが分からない"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Android版も進めている",
+            "lines": [
+              "Android版も進めている"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "新しく大学ノートアプリも作った",
+            "lines": [
+              "新しく大学ノートアプリも作った"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "SIGNALについて",
+            "lines": [
+              "SIGNALについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "とりあえず、ずっと赤字",
+            "lines": [
+              "とりあえず、ずっと赤字"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-03-13-blog/",
+      "width": 320,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "赤字でも、まだ作り続けている",
+            "lines": [
+              "赤字でも、まだ",
+              "作り続けている"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "赤字でも、まだ作り続けている",
+            "lines": [
+              "赤字でも、まだ作り続けている"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ずっと作りたかったアプリ",
+            "lines": [
+              "ずっと作りたかったアプリ"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "何を直せばいいのかが分からない",
+            "lines": [
+              "何を直せばいいの",
+              "かが分からない"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Android版も進めている",
+            "lines": [
+              "Android版も進めている"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "新しく大学ノートアプリも作った",
+            "lines": [
+              "新しく大学ノート",
+              "アプリも作った"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "SIGNALについて",
+            "lines": [
+              "SIGNALについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "とりあえず、ずっと赤字",
+            "lines": [
+              "とりあえず、ずっと赤字"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-04-12-uni-note-10000/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "アプリ開発を始めてからの累計収益が1万円を超えました",
+            "lines": [
+              "アプリ開発を始めてからの",
+              "累計収益が1万円を超えました"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-04-12-uni-note-10000/",
+      "width": 320,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "アプリ開発を始めてからの累計収益が1万円を超えました",
+            "lines": [
+              "アプリ開発を",
+              "始めてからの",
+              "累計収益が",
+              "1万円を超えました"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-05-26-android-release/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "Android版アプリ公開の壁が思った以上に高かった",
+            "lines": [
+              "Android版アプリ公開の壁が",
+              "思った以上に高かった"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-05-26-android-release/",
+      "width": 320,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "Android版アプリ公開の壁が思った以上に高かった",
+            "lines": [
+              "Android版",
+              "アプリ公開の壁が",
+              "思った以上に高かった"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/company/",
+      "width": 1440,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "日常の「こうしたい」を、アプリに。",
+            "lines": [
+              "日常の「こうしたい」を、アプリに。"
+            ],
+            "splitWords": [],
+            "width": 860,
+            "fontSize": "43.199997px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "wrap"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 472.375,
+            "fontSize": "32px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発者について",
+            "lines": [
+              "開発者について"
+            ],
+            "splitWords": [],
+            "width": 403.1875,
+            "fontSize": "18.08px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Yuya Nakamura",
+            "lines": [
+              "Yuya Nakamura"
+            ],
+            "splitWords": [],
+            "width": 403.1875,
+            "fontSize": "35.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発しているアプリの分野",
+            "lines": [
+              "開発しているアプリの分野"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "32px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "学習",
+            "lines": [
+              "学習"
+            ],
+            "splitWords": [],
+            "width": 565.828125,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "コミュニケーション",
+            "lines": [
+              "コミュニケーション"
+            ],
+            "splitWords": [],
+            "width": 565.828125,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ユーティリティ",
+            "lines": [
+              "ユーティリティ"
+            ],
+            "splitWords": [],
+            "width": 565.828125,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・メディア関係者の方へ",
+            "lines": [
+              "取材・メディア関係者の方へ"
+            ],
+            "splitWords": [],
+            "width": 472.375,
+            "fontSize": "32px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "基本情報",
+            "lines": [
+              "基本情報"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "32px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "28px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "11.68px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "pretty"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "28px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。",
+            "lines": [
+              "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。"
+            ],
+            "splitWords": [],
+            "width": 790.390625,
+            "fontSize": "15.2px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+            "lines": [
+              "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。"
+            ],
+            "splitWords": [],
+            "width": 790.390625,
+            "fontSize": "15.2px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      },
+      "categorySelection": [
+        {
+          "area": "learning",
+          "id": "uni-note-pocket",
+          "title": "学習"
+        },
+        {
+          "area": "communication",
+          "id": "nocca",
+          "title": "コミュニケーション"
+        },
+        {
+          "area": "utilities",
+          "id": "giga-poke",
+          "title": "ユーティリティ"
+        }
+      ],
+      "facts": "名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営"
+    },
+    {
+      "route": "/company/",
+      "width": 1280,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 1280,
+        "scrollWidth": 1280,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "日常の「こうしたい」を、アプリに。",
+            "lines": [
+              "日常の「こうしたい」を、アプリに。"
+            ],
+            "splitWords": [],
+            "width": 860,
+            "fontSize": "38.400002px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "wrap"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 472.375,
+            "fontSize": "30.720001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発者について",
+            "lines": [
+              "開発者について"
+            ],
+            "splitWords": [],
+            "width": 403.1875,
+            "fontSize": "18.08px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Yuya Nakamura",
+            "lines": [
+              "Yuya Nakamura"
+            ],
+            "splitWords": [],
+            "width": 403.1875,
+            "fontSize": "35.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発しているアプリの分野",
+            "lines": [
+              "開発しているアプリの分野"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "30.720001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "学習",
+            "lines": [
+              "学習"
+            ],
+            "splitWords": [],
+            "width": 565.828125,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "コミュニケーション",
+            "lines": [
+              "コミュニケーション"
+            ],
+            "splitWords": [],
+            "width": 565.828125,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ユーティリティ",
+            "lines": [
+              "ユーティリティ"
+            ],
+            "splitWords": [],
+            "width": 565.828125,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・メディア関係者の方へ",
+            "lines": [
+              "取材・メディア関係者の方へ"
+            ],
+            "splitWords": [],
+            "width": 472.375,
+            "fontSize": "30.720001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "基本情報",
+            "lines": [
+              "基本情報"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "30.720001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "28px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "11.68px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "pretty"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 1040,
+            "fontSize": "28px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。",
+            "lines": [
+              "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。"
+            ],
+            "splitWords": [],
+            "width": 790.390625,
+            "fontSize": "15.2px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+            "lines": [
+              "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。"
+            ],
+            "splitWords": [],
+            "width": 790.390625,
+            "fontSize": "15.2px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      },
+      "categorySelection": [
+        {
+          "area": "learning",
+          "id": "uni-note-pocket",
+          "title": "学習"
+        },
+        {
+          "area": "communication",
+          "id": "nocca",
+          "title": "コミュニケーション"
+        },
+        {
+          "area": "utilities",
+          "id": "giga-poke",
+          "title": "ユーティリティ"
+        }
+      ],
+      "facts": "名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営"
+    },
+    {
+      "route": "/company/",
+      "width": 834,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 834,
+        "scrollWidth": 834,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "日常の「こうしたい」を、アプリに。",
+            "lines": [
+              "日常の「こうしたい」を、アプリに。"
+            ],
+            "splitWords": [],
+            "width": 774,
+            "fontSize": "30.4px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "wrap"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 351.421875,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発者について",
+            "lines": [
+              "開発者について"
+            ],
+            "splitWords": [],
+            "width": 271.1875,
+            "fontSize": "18.08px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Yuya Nakamura",
+            "lines": [
+              "Yuya Nakamura"
+            ],
+            "splitWords": [],
+            "width": 271.1875,
+            "fontSize": "35.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発しているアプリの分野",
+            "lines": [
+              "開発しているアプリの分野"
+            ],
+            "splitWords": [],
+            "width": 774,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "学習",
+            "lines": [
+              "学習"
+            ],
+            "splitWords": [],
+            "width": 428.15625,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "コミュニケーション",
+            "lines": [
+              "コミュニケーション"
+            ],
+            "splitWords": [],
+            "width": 428.15625,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ユーティリティ",
+            "lines": [
+              "ユーティリティ"
+            ],
+            "splitWords": [],
+            "width": 428.15625,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・メディア関係者の方へ",
+            "lines": [
+              "取材・メディア関係者の方へ"
+            ],
+            "splitWords": [],
+            "width": 351.421875,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "基本情報",
+            "lines": [
+              "基本情報"
+            ],
+            "splitWords": [],
+            "width": 774,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 774,
+            "fontSize": "28px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ],
+            "splitWords": [],
+            "width": 774,
+            "fontSize": "11.68px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "pretty"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 774,
+            "fontSize": "28px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。",
+            "lines": [
+              "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。"
+            ],
+            "splitWords": [],
+            "width": 774,
+            "fontSize": "15.2px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+            "lines": [
+              "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。"
+            ],
+            "splitWords": [],
+            "width": 774,
+            "fontSize": "15.2px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      },
+      "categorySelection": [
+        {
+          "area": "learning",
+          "id": "uni-note-pocket",
+          "title": "学習"
+        },
+        {
+          "area": "communication",
+          "id": "nocca",
+          "title": "コミュニケーション"
+        },
+        {
+          "area": "utilities",
+          "id": "giga-poke",
+          "title": "ユーティリティ"
+        }
+      ],
+      "facts": "名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営"
+    },
+    {
+      "route": "/company/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "日常の「こうしたい」を、アプリに。",
+            "lines": [
+              "日常の「こうしたい」を、",
+              "アプリに。"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "27.51px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "wrap"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発者について",
+            "lines": [
+              "開発者について"
+            ],
+            "splitWords": [],
+            "width": 301,
+            "fontSize": "18.08px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Yuya Nakamura",
+            "lines": [
+              "Yuya Nakamura"
+            ],
+            "splitWords": [],
+            "width": 301,
+            "fontSize": "31.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発しているアプリの分野",
+            "lines": [
+              "開発しているアプリの分野"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "学習",
+            "lines": [
+              "学習"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "コミュニケーション",
+            "lines": [
+              "コミュニケーション"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ユーティリティ",
+            "lines": [
+              "ユーティリティ"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・メディア関係者の方へ",
+            "lines": [
+              "取材・メディア関係者の方へ"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "基本情報",
+            "lines": [
+              "基本情報"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "22.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "10.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "pretty"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "22.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。",
+            "lines": [
+              "媒体名、ご相談内容、対象のプロダクト、",
+              "希望時期を添えてご連絡ください。"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.08px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+            "lines": [
+              "アプリの使い方や不具合のご相談は、",
+              "各プロダクトページのサポートへ。"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.08px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      },
+      "categorySelection": [
+        {
+          "area": "learning",
+          "id": "uni-note-pocket",
+          "title": "学習"
+        },
+        {
+          "area": "communication",
+          "id": "nocca",
+          "title": "コミュニケーション"
+        },
+        {
+          "area": "utilities",
+          "id": "giga-poke",
+          "title": "ユーティリティ"
+        }
+      ],
+      "facts": "名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営"
+    },
+    {
+      "route": "/company/",
+      "width": 320,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "日常の「こうしたい」を、アプリに。",
+            "lines": [
+              "日常の「こうしたい」を、",
+              "アプリに。"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "22.4px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "wrap"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発者について",
+            "lines": [
+              "開発者について"
+            ],
+            "splitWords": [],
+            "width": 228,
+            "fontSize": "18.08px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Yuya Nakamura",
+            "lines": [
+              "Yuya Nakamura"
+            ],
+            "splitWords": [],
+            "width": 228,
+            "fontSize": "31.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "開発しているアプリの分野",
+            "lines": [
+              "開発している",
+              "アプリの分野"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "学習",
+            "lines": [
+              "学習"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "コミュニケーション",
+            "lines": [
+              "コミュニケーション"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ユーティリティ",
+            "lines": [
+              "ユーティリティ"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "17.280001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・メディア関係者の方へ",
+            "lines": [
+              "取材・メディア",
+              "関係者の方へ"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "基本情報",
+            "lines": [
+              "基本情報"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "22.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "10.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "pretty"
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "22.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。",
+            "lines": [
+              "媒体名、ご相談内容、対象のプロダクト、",
+              "希望時期を添えてご連絡ください。"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.08px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+            "lines": [
+              "アプリの使い方や不具合のご相談は、",
+              "各プロダクトページのサポートへ。"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "14.08px",
+            "wordBreak": "keep-all",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      },
+      "categorySelection": [
+        {
+          "area": "learning",
+          "id": "uni-note-pocket",
+          "title": "学習"
+        },
+        {
+          "area": "communication",
+          "id": "nocca",
+          "title": "コミュニケーション"
+        },
+        {
+          "area": "utilities",
+          "id": "giga-poke",
+          "title": "ユーティリティ"
+        }
+      ],
+      "facts": "名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "日常の小さな不便を、シンプルなアプリで。",
+            "lines": [
+              "日常の小さな不便を、",
+              "シンプルなアプリで。"
+            ],
+            "splitWords": [],
+            "width": 582.5,
+            "fontSize": "44px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Featured Apps",
+            "lines": [
+              "Featured Apps"
+            ],
+            "splitWords": [],
+            "width": 156.46875,
+            "fontSize": "23.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Note",
+            "lines": [
+              "Uni:Note"
+            ],
+            "splitWords": [],
+            "width": 73.78125,
+            "fontSize": "17.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Nocca",
+            "lines": [
+              "Nocca"
+            ],
+            "splitWords": [],
+            "width": 53.046875,
+            "fontSize": "17.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "すわなび",
+            "lines": [
+              "すわなび"
+            ],
+            "splitWords": [],
+            "width": 65.015625,
+            "fontSize": "17.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレ",
+            "lines": [
+              "ギャンカレ"
+            ],
+            "splitWords": [],
+            "width": 81.265625,
+            "fontSize": "17.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "News",
+            "lines": [
+              "News"
+            ],
+            "splitWords": [],
+            "width": 60.03125,
+            "fontSize": "23.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Noccaについて↗",
+            "lines": [
+              "Noccaについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギガポケについて↗",
+            "lines": [
+              "ギガポケについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+            "lines": [
+              "Android版アプリ公開の壁が思った以上に高かった"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "日々の「こうしたい」から。",
+            "lines": [
+              "日々の「こうしたい」から。"
+            ],
+            "splitWords": [],
+            "width": 706.25,
+            "fontSize": "28.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "日常の小さな不便を、シンプルなアプリで。",
+            "lines": [
+              "日常の小さな不便を、",
+              "シンプルなアプリで。"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "27.117001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Featured Apps",
+            "lines": [
+              "Featured Apps"
+            ],
+            "splitWords": [],
+            "width": 136.328125,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Note",
+            "lines": [
+              "Uni:Note"
+            ],
+            "splitWords": [],
+            "width": 69.625,
+            "fontSize": "16.48px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Nocca",
+            "lines": [
+              "Nocca"
+            ],
+            "splitWords": [],
+            "width": 49.984375,
+            "fontSize": "16.48px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "すわなび",
+            "lines": [
+              "すわなび"
+            ],
+            "splitWords": [],
+            "width": 60.875,
+            "fontSize": "16.48px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレ",
+            "lines": [
+              "ギャンカレ"
+            ],
+            "splitWords": [],
+            "width": 76.09375,
+            "fontSize": "16.48px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "News",
+            "lines": [
+              "News"
+            ],
+            "splitWords": [],
+            "width": 51.921875,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Noccaについて↗",
+            "lines": [
+              "Noccaについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギガポケについて↗",
+            "lines": [
+              "ギガポケについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+            "lines": [
+              "Android版アプリ公開の壁が思った以上に高かった"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "日々の「こうしたい」から。",
+            "lines": [
+              "日々の「こうしたい」から。"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "23.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/products/",
+      "width": 1440,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "暮らしと学びのためのアプリ。",
+            "lines": [
+              "暮らしと学びのためのアプリ。"
+            ],
+            "splitWords": [],
+            "width": 860,
+            "fontSize": "43.199997px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Note",
+            "lines": [
+              "Uni:Note"
+            ],
+            "splitWords": [],
+            "width": 75.359375,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "オトミル",
+            "lines": [
+              "オトミル"
+            ],
+            "splitWords": [],
+            "width": 73.359375,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギガポケ",
+            "lines": [
+              "ギガポケ"
+            ],
+            "splitWords": [],
+            "width": 66.1875,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Nocca",
+            "lines": [
+              "Nocca"
+            ],
+            "splitWords": [],
+            "width": 54.140625,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Note Pocket",
+            "lines": [
+              "Uni:Note Pocket"
+            ],
+            "splitWords": [],
+            "width": 138.453125,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレ",
+            "lines": [
+              "ギャンカレ"
+            ],
+            "splitWords": [],
+            "width": 82.734375,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "すわなび",
+            "lines": [
+              "すわなび"
+            ],
+            "splitWords": [],
+            "width": 66.1875,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "SIGNAL",
+            "lines": [
+              "SIGNAL"
+            ],
+            "splitWords": [],
+            "width": 66.140625,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/products/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "暮らしと学びのためのアプリ。",
+            "lines": [
+              "暮らしと学びのためのアプリ。"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "26.724001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Note",
+            "lines": [
+              "Uni:Note"
+            ],
+            "splitWords": [],
+            "width": 75.359375,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "オトミル",
+            "lines": [
+              "オトミル"
+            ],
+            "splitWords": [],
+            "width": 73.359375,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギガポケ",
+            "lines": [
+              "ギガポケ"
+            ],
+            "splitWords": [],
+            "width": 66.1875,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Nocca",
+            "lines": [
+              "Nocca"
+            ],
+            "splitWords": [],
+            "width": 54.140625,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Note Pocket",
+            "lines": [
+              "Uni:Note Pocket"
+            ],
+            "splitWords": [],
+            "width": 138.453125,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレ",
+            "lines": [
+              "ギャンカレ"
+            ],
+            "splitWords": [],
+            "width": 82.734375,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "すわなび",
+            "lines": [
+              "すわなび"
+            ],
+            "splitWords": [],
+            "width": 66.1875,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "SIGNAL",
+            "lines": [
+              "SIGNAL"
+            ],
+            "splitWords": [],
+            "width": 66.140625,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/products/uni-note/",
+      "width": 1440,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "Uni:Note",
+            "lines": [
+              "Uni:Note"
+            ],
+            "splitWords": [],
+            "width": 123.328125,
+            "fontSize": "30.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "授業で書いたノートを、復習につなげる。",
+            "lines": [
+              "授業で書いたノート",
+              "を、復習につなげる。"
+            ],
+            "splitWords": [],
+            "width": 470,
+            "fontSize": "34.400002px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "主な機能",
+            "lines": [
+              "主な機能"
+            ],
+            "splitWords": [],
+            "width": 1200,
+            "fontSize": "34.400002px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "手書きノート",
+            "lines": [
+              "手書きノート"
+            ],
+            "splitWords": [],
+            "width": 373.328125,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "PDFへの書き込み",
+            "lines": [
+              "PDFへの書き込み"
+            ],
+            "splitWords": [],
+            "width": 373.328125,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "教科・フォルダで整理",
+            "lines": [
+              "教科・フォルダで整理"
+            ],
+            "splitWords": [],
+            "width": 373.328125,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "囲ってAIに質問",
+            "lines": [
+              "囲ってAIに質問"
+            ],
+            "splitWords": [],
+            "width": 373.328125,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ノートから問題集を作成",
+            "lines": [
+              "ノートから問題集を作成"
+            ],
+            "splitWords": [],
+            "width": 373.328125,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "付箋マーカーで暗記",
+            "lines": [
+              "付箋マーカーで暗記"
+            ],
+            "splitWords": [],
+            "width": 373.328125,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "講義資料の余白も、ノートになる。",
+            "lines": [
+              "講義資料の余白も、",
+              "ノートになる。"
+            ],
+            "splitWords": [],
+            "width": 440,
+            "fontSize": "34.400002px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "書いた内容を、解く練習へ。",
+            "lines": [
+              "書いた内容を、解く練習へ。"
+            ],
+            "splitWords": [],
+            "width": 440,
+            "fontSize": "34.400002px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "隠して、思い出して、確かめる。",
+            "lines": [
+              "隠して、思い出し",
+              "て、確かめる。"
+            ],
+            "splitWords": [],
+            "width": 440,
+            "fontSize": "34.400002px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "こんな方に",
+            "lines": [
+              "こんな方に"
+            ],
+            "splitWords": [],
+            "width": 1200,
+            "fontSize": "34.400002px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "大学の授業をiPadにまとめたい",
+            "lines": [
+              "大学の授業をiPadにまとめたい"
+            ],
+            "splitWords": [],
+            "width": 373.328125,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "紙のノートから移行したい",
+            "lines": [
+              "紙のノートから移行したい"
+            ],
+            "splitWords": [],
+            "width": 373.328125,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ノートを試験勉強にも使いたい",
+            "lines": [
+              "ノートを試験勉強にも使いたい"
+            ],
+            "splitWords": [],
+            "width": 373.328125,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "対応環境・基本情報",
+            "lines": [
+              "対応環境・基本情報"
+            ],
+            "splitWords": [],
+            "width": 504,
+            "fontSize": "34.400002px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:NoteをApp Storeで",
+            "lines": [
+              "Uni:NoteをApp Storeで"
+            ],
+            "splitWords": [],
+            "width": 288.828125,
+            "fontSize": "22.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "使い方とサポート",
+            "lines": [
+              "使い方とサポート"
+            ],
+            "splitWords": [],
+            "width": 565,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/products/uni-note/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "Uni:Note",
+            "lines": [
+              "Uni:Note"
+            ],
+            "splitWords": [],
+            "width": 107.265625,
+            "fontSize": "26.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "授業で書いたノートを、復習につなげる。",
+            "lines": [
+              "授業で書いたノート",
+              "を、復習につなげる。"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "26.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "主な機能",
+            "lines": [
+              "主な機能"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "26.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "手書きノート",
+            "lines": [
+              "手書きノート"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "PDFへの書き込み",
+            "lines": [
+              "PDFへの書き込み"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "教科・フォルダで整理",
+            "lines": [
+              "教科・フォルダで整理"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "囲ってAIに質問",
+            "lines": [
+              "囲ってAIに質問"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ノートから問題集を作成",
+            "lines": [
+              "ノートから問題集を作成"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "付箋マーカーで暗記",
+            "lines": [
+              "付箋マーカーで暗記"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "講義資料の余白も、ノートになる。",
+            "lines": [
+              "講義資料の余白も、",
+              "ノートになる。"
+            ],
+            "splitWords": [],
+            "width": 317,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "書いた内容を、解く練習へ。",
+            "lines": [
+              "書いた内容を、解く練習へ。"
+            ],
+            "splitWords": [],
+            "width": 317,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "隠して、思い出して、確かめる。",
+            "lines": [
+              "隠して、思い出し",
+              "て、確かめる。"
+            ],
+            "splitWords": [],
+            "width": 317,
+            "fontSize": "25.6px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "こんな方に",
+            "lines": [
+              "こんな方に"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "26.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "大学の授業をiPadにまとめたい",
+            "lines": [
+              "大学の授業をiPadにまとめたい"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "紙のノートから移行したい",
+            "lines": [
+              "紙のノートから移行したい"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ノートを試験勉強にも使いたい",
+            "lines": [
+              "ノートを試験勉強にも使いたい"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "16.639999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "対応環境・基本情報",
+            "lines": [
+              "対応環境・基本情報"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "26.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:NoteをApp Storeで",
+            "lines": [
+              "Uni:NoteをApp Storeで"
+            ],
+            "splitWords": [],
+            "width": 288.828125,
+            "fontSize": "22.4px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "使い方とサポート",
+            "lines": [
+              "使い方とサポート"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "23.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/news/",
+      "width": 1440,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "News",
+            "lines": [
+              "News"
+            ],
+            "splitWords": [],
+            "width": 860,
+            "fontSize": "43.199997px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Noccaについて↗",
+            "lines": [
+              "Noccaについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギガポケについて↗",
+            "lines": [
+              "ギガポケについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+            "lines": [
+              "Android版アプリ公開の壁が思った以上に高かった"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "オトミルについて↗",
+            "lines": [
+              "オトミルについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリ開発を始めてからの累計収益が1万円を超えました↗",
+            "lines": [
+              "アプリ開発を始めてからの累計収益が1万円を超えました"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Note Pocketについて↗",
+            "lines": [
+              "Uni:Note Pocketについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "最近、友人にアプリ開発の悩みを相談しました↗",
+            "lines": [
+              "最近、友人にアプリ開発の悩みを相談しました"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "すわなびについて↗",
+            "lines": [
+              "すわなびについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "赤字でも、まだ作り続けている↗",
+            "lines": [
+              "赤字でも、まだ作り続けている"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Noteについて↗",
+            "lines": [
+              "Uni:Noteについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "SIGNALについて↗",
+            "lines": [
+              "SIGNALについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "リリースから1ヶ月。DLが伸びない中で考えたこと↗",
+            "lines": [
+              "リリースから1ヶ月。DLが伸びない中で考えたこと"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "思想↗",
+            "lines": [
+              "思想"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレの今後について（ロードマップ）↗",
+            "lines": [
+              "ギャンカレの今後について（ロードマップ）"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレについて↗",
+            "lines": [
+              "ギャンカレについて"
+            ],
+            "splitWords": [],
+            "width": 915,
+            "fontSize": "15.36px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/news/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "News",
+            "lines": [
+              "News"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "28px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Noccaについて↗",
+            "lines": [
+              "Noccaについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギガポケについて↗",
+            "lines": [
+              "ギガポケについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Android版アプリ公開の壁が思った以上に高かった↗",
+            "lines": [
+              "Android版アプリ公開の壁が思った以上に高かった"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "オトミルについて↗",
+            "lines": [
+              "オトミルについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリ開発を始めてからの累計収益が1万円を超えました↗",
+            "lines": [
+              "アプリ開発を始めてからの",
+              "累計収益が1万円を超えました"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Note Pocketについて↗",
+            "lines": [
+              "Uni:Note Pocketについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "最近、友人にアプリ開発の悩みを相談しました↗",
+            "lines": [
+              "最近、友人にアプリ開発の悩みを相談しました"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "すわなびについて↗",
+            "lines": [
+              "すわなびについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "赤字でも、まだ作り続けている↗",
+            "lines": [
+              "赤字でも、まだ作り続けている"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Uni:Noteについて↗",
+            "lines": [
+              "Uni:Noteについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "SIGNALについて↗",
+            "lines": [
+              "SIGNALについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "リリースから1ヶ月。DLが伸びない中で考えたこと↗",
+            "lines": [
+              "リリースから1ヶ月。DLが伸びない中で考えたこと"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "思想↗",
+            "lines": [
+              "思想"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレの今後について（ロードマップ）↗",
+            "lines": [
+              "ギャンカレの今後について（ロードマップ）"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "ギャンカレについて↗",
+            "lines": [
+              "ギャンカレについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "14.56px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "アプリのサポート",
+            "lines": [
+              "アプリのサポート"
+            ],
+            "splitWords": [],
+            "width": 860,
+            "fontSize": "43.199997px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "アプリのサポート",
+            "lines": [
+              "アプリのサポート"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "28px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/htu/uni-note/",
+      "width": 1440,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "使い方 (Uni:Note)",
+            "lines": [
+              "使い方 (Uni:Note)"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "38.879997px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Split View / Slide Over / 2ペインで使う",
+            "lines": [
+              "Split View / Slide Over / 2ペインで使う"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "1. ホームで教科とフォルダを整理する",
+            "lines": [
+              "1. ホームで教科とフォルダを整理する"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "2. 最初のノートを開く",
+            "lines": [
+              "2. 最初のノートを開く"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "3. Apple Pencilで書く",
+            "lines": [
+              "3. Apple Pencilで書く"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "4. 2本指でズームする",
+            "lines": [
+              "4. 2本指でズームする"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "5. ツールを切り替える",
+            "lines": [
+              "5. ツールを切り替える"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "6. ノート一覧 と ページ一覧 を使う",
+            "lines": [
+              "6. ノート一覧 と ページ一覧 を使う"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "7. その他 メニューを使う",
+            "lines": [
+              "7. その他 メニューを使う"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "8. 写真とPDFを使う",
+            "lines": [
+              "8. 写真とPDFを使う"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "9. 定規 を使う",
+            "lines": [
+              "9. 定規 を使う"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "10. 録音・文字起こし・AI要約を使う",
+            "lines": [
+              "10. 録音・文字起こし・AI要約を使う"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "11. 暗記を使う",
+            "lines": [
+              "11. 暗記を使う"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "12. 囲って解答アシスタント を使う",
+            "lines": [
+              "12. 囲って解答アシスタント を使う"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "13. 問題集を作る",
+            "lines": [
+              "13. 問題集を作る"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "14. 保護・ゴミ箱",
+            "lines": [
+              "14. 保護・ゴミ箱"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "15. 設定・バックアップ",
+            "lines": [
+              "15. 設定・バックアップ"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "24px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "使い方とサポート",
+            "lines": [
+              "使い方とサポート"
+            ],
+            "splitWords": [],
+            "width": 800,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/htu/uni-note/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "使い方 (Uni:Note)",
+            "lines": [
+              "使い方 (Uni:Note)"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Split View / Slide Over / 2ペインで使う",
+            "lines": [
+              "Split View / Slide",
+              "Over / 2ペインで使う"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "1. ホームで教科とフォルダを整理する",
+            "lines": [
+              "1. ホームで教科とフォルダを整理する"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "2. 最初のノートを開く",
+            "lines": [
+              "2. 最初のノートを開く"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "3. Apple Pencilで書く",
+            "lines": [
+              "3. Apple Pencilで書く"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "4. 2本指でズームする",
+            "lines": [
+              "4. 2本指でズームする"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "5. ツールを切り替える",
+            "lines": [
+              "5. ツールを切り替える"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "6. ノート一覧 と ページ一覧 を使う",
+            "lines": [
+              "6. ノート一覧 と ページ一覧 を使う"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "7. その他 メニューを使う",
+            "lines": [
+              "7. その他 メニューを使う"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "8. 写真とPDFを使う",
+            "lines": [
+              "8. 写真とPDFを使う"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "9. 定規 を使う",
+            "lines": [
+              "9. 定規 を使う"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "10. 録音・文字起こし・AI要約を使う",
+            "lines": [
+              "10. 録音・文字起こし・AI要約を使う"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "11. 暗記を使う",
+            "lines": [
+              "11. 暗記を使う"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "12. 囲って解答アシスタント を使う",
+            "lines": [
+              "12. 囲って解答アシスタント を使う"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "13. 問題集を作る",
+            "lines": [
+              "13. 問題集を作る"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "14. 保護・ゴミ箱",
+            "lines": [
+              "14. 保護・ゴミ箱"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "15. 設定・バックアップ",
+            "lines": [
+              "15. 設定・バックアップ"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "使い方とサポート",
+            "lines": [
+              "使い方とサポート"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-01-26-roadmap/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "ギャンカレの今後について（ロードマップ）",
+            "lines": [
+              "ギャンカレの今後について",
+              "（ロードマップ）"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "まず最初に：Android版の公開について",
+            "lines": [
+              "まず最初に：Android版の公開について"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "その後のアップデート方針について",
+            "lines": [
+              "その後のアップデート方針について"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "第1弾：日常利用を少しだけ快適にする拡張",
+            "lines": [
+              "第1弾：日常利用を",
+              "少しだけ快適にする拡張"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "タグ拡張パック",
+            "lines": [
+              "タグ拡張パック"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリロック",
+            "lines": [
+              "アプリロック"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "第2弾：記録を「守る」ための拡張",
+            "lines": [
+              "第2弾：記録を「守る」ための拡張"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "データエクスポート",
+            "lines": [
+              "データエクスポート"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "自動同期（プレミアム）",
+            "lines": [
+              "自動同期（プレミアム）"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "プレミアムについて",
+            "lines": [
+              "プレミアムについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "第3弾：見返しやすさの拡張",
+            "lines": [
+              "第3弾：見返しやすさの拡張"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アーカイブビュー",
+            "lines": [
+              "アーカイブビュー"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "第4弾：見た目を整える拡張（Proテーマ）",
+            "lines": [
+              "第4弾：見た目を整える拡張",
+              "（Proテーマ）"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Proテーマ",
+            "lines": [
+              "Proテーマ"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "最後に",
+            "lines": [
+              "最後に"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-01-26-roadmap/",
+      "width": 320,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "ギャンカレの今後について（ロードマップ）",
+            "lines": [
+              "ギャンカレの",
+              "今後について",
+              "（ロードマップ）"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "まず最初に：Android版の公開について",
+            "lines": [
+              "まず最初に：Android版の",
+              "公開について"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "その後のアップデート方針について",
+            "lines": [
+              "その後のアップデート方針",
+              "について"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "第1弾：日常利用を少しだけ快適にする拡張",
+            "lines": [
+              "第1弾：日常利用を",
+              "少しだけ快適にする拡張"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "タグ拡張パック",
+            "lines": [
+              "タグ拡張パック"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アプリロック",
+            "lines": [
+              "アプリロック"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "第2弾：記録を「守る」ための拡張",
+            "lines": [
+              "第2弾：記録を",
+              "「守る」ための拡張"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "データエクスポート",
+            "lines": [
+              "データエクスポート"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "自動同期（プレミアム）",
+            "lines": [
+              "自動同期（プレミアム）"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "プレミアムについて",
+            "lines": [
+              "プレミアムについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "第3弾：見返しやすさの拡張",
+            "lines": [
+              "第3弾：見返しやすさの拡張"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "アーカイブビュー",
+            "lines": [
+              "アーカイブビュー"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "第4弾：見た目を整える拡張（Proテーマ）",
+            "lines": [
+              "第4弾：見た目を整える拡張",
+              "（Proテーマ）"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "Proテーマ",
+            "lines": [
+              "Proテーマ"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "17.92px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "最後に",
+            "lines": [
+              "最後に"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-03-25-blog/",
+      "width": 393,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 393,
+        "scrollWidth": 393,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "最近、友人にアプリ開発の悩みを相談しました",
+            "lines": [
+              "最近、友人にアプリ開発の",
+              "悩みを相談しました"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "最近、友人にアプリ開発の悩みを相談しました",
+            "lines": [
+              "最近、友人にアプリ開発の",
+              "悩みを相談しました"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 349,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    },
+    {
+      "route": "/notes/2026-03-25-blog/",
+      "width": 320,
+      "ok": true,
+      "errors": [],
+      "status": 200,
+      "geometry": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "autoPhraseSupported": false,
+        "headings": [
+          {
+            "text": "最近、友人にアプリ開発の悩みを相談しました",
+            "lines": [
+              "最近、友人に",
+              "アプリ開発の悩みを",
+              "相談しました"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "27.200001px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "最近、友人にアプリ開発の悩みを相談しました",
+            "lines": [
+              "最近、友人にアプリ開発の",
+              "悩みを相談しました"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20.799999px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "関連プロダクト",
+            "lines": [
+              "関連プロダクト"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          },
+          {
+            "text": "KUMAKIKAIについて",
+            "lines": [
+              "KUMAKIKAIについて"
+            ],
+            "splitWords": [],
+            "width": 276,
+            "fontSize": "20px",
+            "wordBreak": "normal",
+            "lineBreak": "strict",
+            "overflowWrap": "break-word",
+            "textWrap": "balance"
+          }
+        ],
+        "contact": [],
+        "brokenImages": [],
+        "overflowElements": [],
+        "h1Count": 1
+      }
+    }
+  ]
+}

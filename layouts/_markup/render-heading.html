@@ -1,2 +1,2 @@
 {{ $level := .Level }}{{ if eq $level 1 }}{{ $level = 2 }}{{ end }}
-<h{{ $level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}</h{{ $level }}>
+<h{{ $level }} id="{{ .Anchor | safeURL }}">{{ if index site.Data.heading_phrases (string .Text) }}{{ partial "heading-text.html" (string .Text) }}{{ else }}{{ .Text | safeHTML }}{{ end }}</h{{ $level }}>

@@ -1,0 +1,443 @@
+{
+  "ok": true,
+  "pending": false,
+  "cases": 12,
+  "base": "http://127.0.0.1:1314",
+  "categoryCountsByLocale": {},
+  "newsCountSource": "Initial unfiltered DOM in each locale; existing metadata entries remain required.",
+  "failures": [],
+  "results": [
+    {
+      "name": "company-ja-desktop1440-light",
+      "locale": "ja",
+      "kind": "company",
+      "route": "/company/",
+      "width": 1440,
+      "height": 3361,
+      "theme": "light",
+      "javaScript": true,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note-pocket"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "signal"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-en-desktop-light",
+      "locale": "en",
+      "kind": "company",
+      "route": "/en/company/",
+      "width": 1280,
+      "height": 3547,
+      "theme": "light",
+      "javaScript": true,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "smokeless"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-ko-desktop-light",
+      "locale": "ko",
+      "kind": "company",
+      "route": "/ko/company/",
+      "width": 1280,
+      "height": 3363,
+      "theme": "light",
+      "javaScript": true,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "smokeless"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-de-desktop-light",
+      "locale": "de",
+      "kind": "company",
+      "route": "/de/company/",
+      "width": 1280,
+      "height": 3638,
+      "theme": "light",
+      "javaScript": true,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "smokeless"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-fr-desktop-light",
+      "locale": "fr",
+      "kind": "company",
+      "route": "/fr/company/",
+      "width": 1280,
+      "height": 3638,
+      "theme": "light",
+      "javaScript": true,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note-pocket"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "signal"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-zh-hant-desktop-light",
+      "locale": "zh-hant",
+      "kind": "company",
+      "route": "/zh-hant/company/",
+      "width": 1280,
+      "height": 3310,
+      "theme": "light",
+      "javaScript": true,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "smokeless"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-ja-no-js",
+      "locale": "ja",
+      "kind": "company",
+      "route": "/company/",
+      "width": 393,
+      "height": 4313,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-en-no-js",
+      "locale": "en",
+      "kind": "company",
+      "route": "/en/company/",
+      "width": 393,
+      "height": 4688,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-ko-no-js",
+      "locale": "ko",
+      "kind": "company",
+      "route": "/ko/company/",
+      "width": 393,
+      "height": 4175,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-de-no-js",
+      "locale": "de",
+      "kind": "company",
+      "route": "/de/company/",
+      "width": 393,
+      "height": 4972,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-fr-no-js",
+      "locale": "fr",
+      "kind": "company",
+      "route": "/fr/company/",
+      "width": 393,
+      "height": 4961,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-zh-hant-no-js",
+      "locale": "zh-hant",
+      "kind": "company",
+      "route": "/zh-hant/company/",
+      "width": 393,
+      "height": 4229,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    }
+  ]
+}

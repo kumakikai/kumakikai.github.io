@@ -19,41 +19,25 @@
     "모바일 앱"
   ],
   "technologyLabel": "기술 경험",
-  "buildTitle": "배움과 일상의 구체적인 순간을 위해.",
-  "buildIntro": "App Store에서 여러 프로덕트를 제공·운영하고 있습니다. 주요 앱을 통해 개발하고 있는 분야를 소개합니다.",
+  "buildTitle": "개발하는 앱의 분야",
   "areas": [
     {
-      "title": "학습·노트",
-      "description": "수업 중에 필기하고, 자료를 정리하고, 나중에 복습하기. iPad와 iPhone에서의 학습을 돕는 앱을 개발합니다.",
+      "title": "학습",
+      "description": "배우고, 쓰고, 정리하기 위한 앱.",
       "product": "uni-note",
       "area": "learning"
     },
     {
-      "title": "대화 지원",
-      "description": "잘 들리지 않는 말을 자막으로 확인하는 등 사람 간의 의사소통을 돕는 앱을 개발합니다.",
+      "title": "커뮤니케이션",
+      "description": "대화와 의사 표현을 돕는 앱.",
       "product": "oto-miru",
       "area": "communication"
     },
     {
-      "title": "일상의 기록·관리",
-      "description": "혜택 코드와 유효기간 관리, 일상의 기록, 정보 열람 등 생활 속 번거로움을 줄이는 도구를 만듭니다.",
+      "title": "유틸리티",
+      "description": "일상의 작은 번거로움을 줄이는 앱.",
       "product": "giga-poke",
-      "area": "daily-tools"
-    }
-  ],
-  "philosophyTitle": "개발에서 중요하게 생각하는 것",
-  "principles": [
-    {
-      "title": "필요한 일을 알기 쉽게",
-      "description": "기능을 늘리는 것 자체를 목표로 삼지 않고, 원하는 작업으로 쉽게 이어지는 화면과 조작 방식을 고민합니다."
-    },
-    {
-      "title": "사용하는 상황에서 출발하기",
-      "description": "수업 중, 대화 중, 이동 중 등 실제로 앱을 여는 상황을 고려해 필요한 기능을 선택합니다."
-    },
-    {
-      "title": "출시 후에도 꾸준히 다듬기",
-      "description": "문제를 해결하고 사용성을 검토하며, 출시한 앱을 지속적으로 개선합니다."
+      "area": "utilities"
     }
   ],
   "blogCTA": "개발·운영 이야기 보기",

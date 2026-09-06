@@ -11,5 +11,5 @@
 {{ range $id := slice "press-release" "blog" "information" }}{{ $found := false }}{{ range $pages }}{{ if eq (partial "news-category.html" .).id $id }}{{ $found = true }}{{ end }}{{ end }}{{ if not $found }}<p class="news-filter-empty" data-category="{{ $id }}">{{ $ui.newsEmpty }}</p>{{ end }}{{ end }}
 {{ end }}
 <div class="news-list">{{ range $pages }}{{ $category := partial "news-category.html" . }}
-<article class="news-row" data-category="{{ $category.id }}"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time><span class="news-category">{{ $category.label }}</span><h{{ $level }}><a href="{{ .RelPermalink }}"{{ if ne .Language.Lang site.Language.Lang }} lang="{{ .Language.LanguageCode }}"{{ end }}>{{ .Title }} <span aria-hidden="true">↗</span></a></h{{ $level }}></article>
+<article class="news-row" data-category="{{ $category.id }}"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time><span class="news-category">{{ $category.label }}</span><h{{ $level }}><a href="{{ .RelPermalink }}"{{ if ne .Language.Lang site.Language.Lang }} lang="{{ .Language.LanguageCode }}"{{ end }}><span class="news-title">{{ partial "heading-text.html" .Title }}</span><span class="news-arrow" aria-hidden="true">↗</span></a></h{{ $level }}></article>
 {{ end }}</div>

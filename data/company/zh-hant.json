@@ -19,41 +19,25 @@
     "行動 App"
   ],
   "technologyLabel": "技術經驗",
-  "buildTitle": "為學習與生活中的具體情境而做。",
-  "buildIntro": "我們在 App Store 上架並營運多款產品。以下透過幾款代表性 App，介紹我們投入的領域。",
+  "buildTitle": "我們開發的 App 類型",
   "areas": [
     {
-      "title": "學習與筆記",
-      "description": "上課書寫、整理資料，再於課後複習。我們開發支援 iPad 與 iPhone 學習情境的 App。",
+      "title": "學習",
+      "description": "幫助學習、書寫與整理的 App。",
       "product": "uni-note",
       "area": "learning"
     },
     {
-      "title": "溝通輔助",
-      "description": "透過字幕確認聽不清楚的話語等方式，開發協助人與人溝通的 App。",
+      "title": "溝通",
+      "description": "協助對話與表達意願的 App。",
       "product": "oto-miru",
       "area": "communication"
     },
     {
-      "title": "日常記錄與管理",
-      "description": "管理優惠代碼與有效期限、記錄日常、瀏覽資訊。我們製作工具，減少生活中的繁瑣步驟。",
+      "title": "實用工具",
+      "description": "減少日常瑣事的 App。",
       "product": "giga-poke",
-      "area": "daily-tools"
-    }
-  ],
-  "philosophyTitle": "開發時重視的事",
-  "principles": [
-    {
-      "title": "讓需要的操作清楚易懂",
-      "description": "不以增加功能本身為目的，而是思考如何透過畫面與操作方式，讓使用者順利完成想做的事。"
-    },
-    {
-      "title": "從使用情境出發",
-      "description": "考量上課、交談、移動途中等實際開啟 App 的情境，選擇所需的功能。"
-    },
-    {
-      "title": "上架後也持續投入",
-      "description": "持續處理問題、檢視操作體驗，改善已上架的 App。"
+      "area": "utilities"
     }
   ],
   "blogCTA": "閱讀開發與營運文章",

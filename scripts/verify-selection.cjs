@@ -20,7 +20,7 @@ const locales = ['ja', 'en', 'ko', 'de', 'fr', 'zh-hant'];
 const areas = {
   learning: ['uni-note', 'uni-note-pocket'],
   communication: ['oto-miru', 'nocca'],
-  'daily-tools': ['giga-poke', 'balance-calendar', 'smokeless', 'signal'],
+  'utilities': ['giga-poke', 'balance-calendar', 'smokeless', 'signal'],
 };
 const selectionSource = fs.readFileSync(path.join(root, 'assets/js/select-products.js'), 'utf8');
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');

@@ -28,8 +28,8 @@ OTHER = ("uni-note-pocket", "balance-calendar", "smokeless", "signal")
 PRODUCT_AREAS = {
     "uni-note": "learning", "uni-note-pocket": "learning",
     "oto-miru": "communication", "nocca": "communication",
-    "giga-poke": "daily-tools", "balance-calendar": "daily-tools",
-    "smokeless": "daily-tools", "signal": "daily-tools",
+    "giga-poke": "utilities", "balance-calendar": "utilities",
+    "smokeless": "utilities", "signal": "utilities",
 }
 # Keep the pre-migration snapshot immutable. The user explicitly authorized
 # removing "専用" in these two Japanese sentences only; all remaining article
@@ -441,11 +441,15 @@ class Verification:
     def verify_about(self, doc, apps, lang, route):
         copy = json.loads((self.data_file.parent / "company" / (lang + ".json")).read_text(encoding="utf-8"))
         self.require(copy.get("founderName") == "Yuya Nakamura" and "founderEnglishName" not in copy, route, "about_founder", "About uses one authorized Roman-name field in every locale")
-        self.require("webLabel" not in copy and not re.search(r"%d|\d", copy.get("buildIntro", "")), route, "about_copy", "About must omit the redundant Web label and fixed product count")
+        self.require("webLabel" not in copy and "buildIntro" not in copy, route, "about_copy", "About must omit the redundant Web label and category introduction")
         title = doc.tagged("title")
         self.require(len(title) == 1 and re.match(r"^About(?:\s|$)", title[0].text()), route, "about_title", "The page title must be About while retaining /company/")
+        facts = [n for n in doc.nodes if n.has_class("company-facts")]
+        corp = json.loads((self.data_file.parent / "corporate" / (lang + ".json")).read_text(encoding="utf-8"))
+        self.require(len(facts) == 1 and [n.text().strip() for n in facts[0].descendants("dt")] == [corp["companyNameLabel"], copy["founderLabel"], corp["businessLabel"]], route, "about_facts", "Basic information contains only the brand, developer, and business activity")
+        self.require(len(facts) == 1 and "kumakikai.apps@gmail.com" not in facts[0].text(), route, "about_contact", "The contact email must not be duplicated in basic information")
         areas = copy.get("areas", [])
-        self.require([area.get("area") for area in areas] == ["learning", "communication", "daily-tools"], route, "about_areas", "About must cover the three explicit product areas")
+        self.require([area.get("area") for area in areas] == ["learning", "communication", "utilities"], route, "about_areas", "About must cover the three explicit product areas")
         for area in areas:
             groups = [n for n in doc.nodes if n.has_class("company-area-products") and n.attrs.get("data-area") == area["area"]]
             self.require(len(groups) == 1 and groups[0].attrs.get("data-product-selection") == "1", route, "about_selection", "Each area needs one single-product selection group")
@@ -519,7 +523,7 @@ class Verification:
         self.require(by_id.get("uni-note", {}).get("featured") is True and len(candidates) >= 3,
                      "/", "featured_candidates", "Uni:Note must remain eligible and fixed first, with at least three other selectable products")
         self.require(all(app.get("area") in set(PRODUCT_AREAS.values()) for app in apps) and all(by_id.get(app_id, {}).get("area") == area for app_id, area in PRODUCT_AREAS.items()),
-                     "/company/", "product_areas", "Preserve known product areas; new products must use learning, communication, or daily-tools")
+                     "/company/", "product_areas", "Preserve known product areas; new products must use learning, communication, or utilities")
         for app in apps:
             availability = app.get("availability")
             if availability and app.get("appStoreURL"):
