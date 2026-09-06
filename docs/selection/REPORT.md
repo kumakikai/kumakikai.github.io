@@ -2,7 +2,7 @@
 
 確認日：2026-09-07。
 
-HomeとAboutの最終整理を実装し、production build・URL互換性・ブラウザ確認を完了しました。公開確認は末尾に記録します。
+HomeとAboutの最終整理を実装・公開し、production build・URL互換性・ブラウザ確認・公開ファイルの照合を完了しました。
 
 ## 1. 今回の目的と変更範囲
 
@@ -134,7 +134,7 @@ Aboutの紹介文を、6言語とも「複数のプロダクト」を意味す�
 
 ソース上では、今回の変更によるHTTPページの移動・削除、新しいaliasやredirectはありません。維持対象は`/company/`と6言語入口、全Product、各アプリのSupport・FAQ・Privacy・Terms、公開済みNotes・Press Release、既存アンカーです。
 
-`/htu/uni-note/`と`/faq/uni-note/`の許可された語句変更は、他の既存本文変更と区別して検証します。App Store Connectから参照される可能性があるURLは同じ場所で読めることを最終buildと公開環境で確認する必要があります。HTTP成功・本文保持・canonical・aliasの最終結果は下記の検証欄へ追記します。
+`/htu/uni-note/`と`/faq/uni-note/`の許可された語句変更を、他の既存本文変更と区別して検証しました。App Store Connectから参照される可能性がある旧URL191件を含む全277ページが、公開環境でHTTP 200となり、最終buildとSHA-256で一致しました。本文保持・canonical・既存aliasの到達先も静的検証を通過しています。今回の新設URL・追加alias・追加redirectはありません。
 
 過去の`docs/company/`等に残る漢字氏名、数値、旧Other Appsの記述・画像は、当時の検証証拠です。今回の公開コンテンツに残っているかどうかの検索とは分け、過去証拠を書き換えません。
 
@@ -186,4 +186,9 @@ Aboutの紹介文を、6言語とも「複数のプロダクト」を意味す�
 
 ### 公開の記録
 
-公開確認は配信後に追記します。
+- 実装コミット：[`79e15cf7d7eb4b35d7e565acce3042b5946918c8`](https://github.com/kumakikai/kumakikai.github.io/commit/79e15cf7d7eb4b35d7e565acce3042b5946918c8)。`main`へpush済み。
+- [Hugo build / deploy](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34053174351)：成功。
+- [GitHub Pages公開](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34053221648)：成功。配信コミット`62d1eafabba6acefadd4e8e47ccce110352c92b3`。
+- [公開HTML照合](public-verification.json)：277件すべてHTTP 200、最終buildとのSHA-256一致277件、失敗0。`/company/`と各言語版、旧Support・Privacy等のURLも維持しています。
+- [公開アセット照合](public-assets.json)：CSS・主要JS・Uni:Note OGP・Founder画像192/384の計5件がHTTP 200、byte数・SHA-256とも最終buildに一致。ランダム選定のinline JSはHTML照合に含まれます。
+- 公開ページ：[Home](https://kumakikai.github.io/) / [About](https://kumakikai.github.io/company/) / [Products](https://kumakikai.github.io/products/)。

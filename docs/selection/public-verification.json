@@ -1,0 +1,2226 @@
+{
+  "checked_at_utc": "2026-09-06T18:57:04Z",
+  "base_url": "https://kumakikai.github.io",
+  "ok": true,
+  "count": 277,
+  "http_200": 277,
+  "failures": [],
+  "results": [
+    {
+      "route": "/404.html",
+      "expected_sha256": "eac7f443e89acfd0d88c3317f0a33a2bc355cf7677fd8228ccd0aea582a579ba",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/404.html",
+      "actual_sha256": "eac7f443e89acfd0d88c3317f0a33a2bc355cf7677fd8228ccd0aea582a579ba",
+      "ok": true
+    },
+    {
+      "route": "/categories/",
+      "expected_sha256": "efc705302f54bdc767c9587f872bf7e043502d9d15c12d6fd2c721ce85c491db",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/categories/",
+      "actual_sha256": "efc705302f54bdc767c9587f872bf7e043502d9d15c12d6fd2c721ce85c491db",
+      "ok": true
+    },
+    {
+      "route": "/categories/page/1/",
+      "expected_sha256": "c8eb82fb8ac38d8aec4f716e9148109750beb1a523215e6665f93205245bd2e7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/categories/page/1/",
+      "actual_sha256": "c8eb82fb8ac38d8aec4f716e9148109750beb1a523215e6665f93205245bd2e7",
+      "ok": true
+    },
+    {
+      "route": "/company/",
+      "expected_sha256": "32a4e17ed2488a54e5f66a29e792a292e56f04c7f5efb551aae420873fcd5c3b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/company/",
+      "actual_sha256": "32a4e17ed2488a54e5f66a29e792a292e56f04c7f5efb551aae420873fcd5c3b",
+      "ok": true
+    },
+    {
+      "route": "/de/404.html",
+      "expected_sha256": "30b7e8934a5d4a97993a92189dc1295e535f3107589f3b7537488076689c2a56",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/404.html",
+      "actual_sha256": "30b7e8934a5d4a97993a92189dc1295e535f3107589f3b7537488076689c2a56",
+      "ok": true
+    },
+    {
+      "route": "/de/categories/",
+      "expected_sha256": "e4d2f84ae5af22697fc26d239503b884a435de40600f2839c5b23d18bae3ec6e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/categories/",
+      "actual_sha256": "e4d2f84ae5af22697fc26d239503b884a435de40600f2839c5b23d18bae3ec6e",
+      "ok": true
+    },
+    {
+      "route": "/de/categories/page/1/",
+      "expected_sha256": "a61f15744124c5f32afecdc44b3d77f5e3cb0fb7966b3eb58c8a309af123c1a0",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/categories/page/1/",
+      "actual_sha256": "a61f15744124c5f32afecdc44b3d77f5e3cb0fb7966b3eb58c8a309af123c1a0",
+      "ok": true
+    },
+    {
+      "route": "/de/company/",
+      "expected_sha256": "ffcbdaabaf64aaedfb9948fd807a209d0914a241875e43bedccaa25bef5a27a0",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/company/",
+      "actual_sha256": "ffcbdaabaf64aaedfb9948fd807a209d0914a241875e43bedccaa25bef5a27a0",
+      "ok": true
+    },
+    {
+      "route": "/de/faq/",
+      "expected_sha256": "1a047381a8831549f9818088e4fbaca3cebdc06f9e94ee067c8d8715e3026a8d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/faq/",
+      "actual_sha256": "1a047381a8831549f9818088e4fbaca3cebdc06f9e94ee067c8d8715e3026a8d",
+      "ok": true
+    },
+    {
+      "route": "/de/faq/page/1/",
+      "expected_sha256": "e4e371f28f69d5d3ef9ad7f0468c0aaeaf91d017f62730ccd12cf6c52d6f5ef9",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/faq/page/1/",
+      "actual_sha256": "e4e371f28f69d5d3ef9ad7f0468c0aaeaf91d017f62730ccd12cf6c52d6f5ef9",
+      "ok": true
+    },
+    {
+      "route": "/de/faq/uni-memo/",
+      "expected_sha256": "b5cde7cce2e24d68ce66f029a368b5fd09633338a35f72c71f50e8301e5d5a2c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/faq/uni-memo/",
+      "actual_sha256": "b5cde7cce2e24d68ce66f029a368b5fd09633338a35f72c71f50e8301e5d5a2c",
+      "ok": true
+    },
+    {
+      "route": "/de/faq/uni-note/",
+      "expected_sha256": "d3da754ea7304c4c9e9f8516c1d5d2481484010d3df835c579f2beb19dffd49f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/faq/uni-note/",
+      "actual_sha256": "d3da754ea7304c4c9e9f8516c1d5d2481484010d3df835c579f2beb19dffd49f",
+      "ok": true
+    },
+    {
+      "route": "/de/faq/uni-note-pocket/",
+      "expected_sha256": "d2734ad75064fe72f2c0d0c3c4e4cdeaf20a84a6905823624c66e3aa9f49920e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/faq/uni-note-pocket/",
+      "actual_sha256": "d2734ad75064fe72f2c0d0c3c4e4cdeaf20a84a6905823624c66e3aa9f49920e",
+      "ok": true
+    },
+    {
+      "route": "/de/htu/",
+      "expected_sha256": "989f07242d2bb64e33e1c73583e80d28b04803ef8bd8bf35bffad2f2165be7dd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/htu/",
+      "actual_sha256": "989f07242d2bb64e33e1c73583e80d28b04803ef8bd8bf35bffad2f2165be7dd",
+      "ok": true
+    },
+    {
+      "route": "/de/htu/page/1/",
+      "expected_sha256": "8a91363c7c7286366f31f21d0c88a2954b1dc9561037b6952a0981245116fe65",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/htu/page/1/",
+      "actual_sha256": "8a91363c7c7286366f31f21d0c88a2954b1dc9561037b6952a0981245116fe65",
+      "ok": true
+    },
+    {
+      "route": "/de/htu/uni-memo/",
+      "expected_sha256": "371fd1c50cbf25bfaf7502f59669a9ef54fb386e967f9192efc9d65c7f2a0ea0",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/htu/uni-memo/",
+      "actual_sha256": "371fd1c50cbf25bfaf7502f59669a9ef54fb386e967f9192efc9d65c7f2a0ea0",
+      "ok": true
+    },
+    {
+      "route": "/de/htu/uni-note/",
+      "expected_sha256": "d94b9f938038e33a1419785279cc09329b7db91372c223039d7bee143fef9a21",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/htu/uni-note/",
+      "actual_sha256": "d94b9f938038e33a1419785279cc09329b7db91372c223039d7bee143fef9a21",
+      "ok": true
+    },
+    {
+      "route": "/de/htu/uni-note-pocket/",
+      "expected_sha256": "d098ccd68fb30603ce7f4f42053078840e474500b3c18482bf55a23ef50cefd2",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/htu/uni-note-pocket/",
+      "actual_sha256": "d098ccd68fb30603ce7f4f42053078840e474500b3c18482bf55a23ef50cefd2",
+      "ok": true
+    },
+    {
+      "route": "/de/",
+      "expected_sha256": "838625a12f02186d401284ec05a37283bc42244b4153e70a9840f5fa6d94511c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/",
+      "actual_sha256": "838625a12f02186d401284ec05a37283bc42244b4153e70a9840f5fa6d94511c",
+      "ok": true
+    },
+    {
+      "route": "/de/news/",
+      "expected_sha256": "c4207d01d37ada61475fe82aa60ae66f1e6562afd03db646149fffa4fa357b50",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/news/",
+      "actual_sha256": "c4207d01d37ada61475fe82aa60ae66f1e6562afd03db646149fffa4fa357b50",
+      "ok": true
+    },
+    {
+      "route": "/de/page/1/",
+      "expected_sha256": "0fed14d05cd4d308d830a1abd62105fd87dee983d740568f9daeb0c5d5e24dcf",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/page/1/",
+      "actual_sha256": "0fed14d05cd4d308d830a1abd62105fd87dee983d740568f9daeb0c5d5e24dcf",
+      "ok": true
+    },
+    {
+      "route": "/de/privacy/",
+      "expected_sha256": "1c69843bb17a0c605f9a577d1f8ba1927404754afcd447422db621f9758783a7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/privacy/",
+      "actual_sha256": "1c69843bb17a0c605f9a577d1f8ba1927404754afcd447422db621f9758783a7",
+      "ok": true
+    },
+    {
+      "route": "/de/privacy/page/1/",
+      "expected_sha256": "71d0080d6fe5dc1a0cf8b57f2b32daf43cabf953687fe02652a2e29717cd8f9d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/privacy/page/1/",
+      "actual_sha256": "71d0080d6fe5dc1a0cf8b57f2b32daf43cabf953687fe02652a2e29717cd8f9d",
+      "ok": true
+    },
+    {
+      "route": "/de/privacy/uni-memo/",
+      "expected_sha256": "977e41356e8c4c00fb83a7dbb2ea88605f43cecf0f9beeed9a98f778d054d03e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/privacy/uni-memo/",
+      "actual_sha256": "977e41356e8c4c00fb83a7dbb2ea88605f43cecf0f9beeed9a98f778d054d03e",
+      "ok": true
+    },
+    {
+      "route": "/de/privacy/uni-note/",
+      "expected_sha256": "b5bbabee7f471fada53989af67663eeea6ec840f646678d46460b8bcfd3e154f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/privacy/uni-note/",
+      "actual_sha256": "b5bbabee7f471fada53989af67663eeea6ec840f646678d46460b8bcfd3e154f",
+      "ok": true
+    },
+    {
+      "route": "/de/privacy/uni-note-pocket/",
+      "expected_sha256": "ae0ceed0d7b74050c2bb5bc0f4ab2e55966a5637fffc632ba77bd4760296cde5",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/privacy/uni-note-pocket/",
+      "actual_sha256": "ae0ceed0d7b74050c2bb5bc0f4ab2e55966a5637fffc632ba77bd4760296cde5",
+      "ok": true
+    },
+    {
+      "route": "/de/products/balance-calendar/",
+      "expected_sha256": "4ab49ac2f4392235bfa489290126f1b170a52c8823b73b4a20afe362a3d97026",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/products/balance-calendar/",
+      "actual_sha256": "4ab49ac2f4392235bfa489290126f1b170a52c8823b73b4a20afe362a3d97026",
+      "ok": true
+    },
+    {
+      "route": "/de/products/giga-poke/",
+      "expected_sha256": "1af2c72ec2c6f430be7046d0650660da2b3b1f809401bf6a2622d91a3208ba5b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/products/giga-poke/",
+      "actual_sha256": "1af2c72ec2c6f430be7046d0650660da2b3b1f809401bf6a2622d91a3208ba5b",
+      "ok": true
+    },
+    {
+      "route": "/de/products/",
+      "expected_sha256": "a67e30ae8dd390c6ea093f5e5d16bf89fb76381376718fbdccbbc91db944d1c7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/products/",
+      "actual_sha256": "a67e30ae8dd390c6ea093f5e5d16bf89fb76381376718fbdccbbc91db944d1c7",
+      "ok": true
+    },
+    {
+      "route": "/de/products/nocca/",
+      "expected_sha256": "a613aaa451e6e7909dd94cbea0904ac7c24e9f91fd11164da1ce8224d68402b8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/products/nocca/",
+      "actual_sha256": "a613aaa451e6e7909dd94cbea0904ac7c24e9f91fd11164da1ce8224d68402b8",
+      "ok": true
+    },
+    {
+      "route": "/de/products/oto-miru/",
+      "expected_sha256": "b6f38b3a785e2b7e89e943fc82d40868072eee2a6cae850588ef60b1847dcfd7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/products/oto-miru/",
+      "actual_sha256": "b6f38b3a785e2b7e89e943fc82d40868072eee2a6cae850588ef60b1847dcfd7",
+      "ok": true
+    },
+    {
+      "route": "/de/products/signal/",
+      "expected_sha256": "6e4a5adb44138d714ed08613fb6b68b4e5e109dd8fd411ad8a2a836be7f94d52",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/products/signal/",
+      "actual_sha256": "6e4a5adb44138d714ed08613fb6b68b4e5e109dd8fd411ad8a2a836be7f94d52",
+      "ok": true
+    },
+    {
+      "route": "/de/products/smokeless/",
+      "expected_sha256": "4130e57fd1438f02def6ba0d5b247e66b5d25ea6525b3b35bde7b8e9b282a812",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/products/smokeless/",
+      "actual_sha256": "4130e57fd1438f02def6ba0d5b247e66b5d25ea6525b3b35bde7b8e9b282a812",
+      "ok": true
+    },
+    {
+      "route": "/de/products/uni-note/",
+      "expected_sha256": "c73800284384a64ff81c34defc51bb7bd40906f68e373db3db80feca342917a4",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/products/uni-note/",
+      "actual_sha256": "c73800284384a64ff81c34defc51bb7bd40906f68e373db3db80feca342917a4",
+      "ok": true
+    },
+    {
+      "route": "/de/products/uni-note-pocket/",
+      "expected_sha256": "db5d850a07b65d88653d8de5949e1215c64807d0a8d05c9d09b86fbaf351e644",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/products/uni-note-pocket/",
+      "actual_sha256": "db5d850a07b65d88653d8de5949e1215c64807d0a8d05c9d09b86fbaf351e644",
+      "ok": true
+    },
+    {
+      "route": "/de/support/",
+      "expected_sha256": "c96dc02bb16c9e37f5cefe7202a54e5086532bd51e14d96fd8e41e03119d6eea",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/support/",
+      "actual_sha256": "c96dc02bb16c9e37f5cefe7202a54e5086532bd51e14d96fd8e41e03119d6eea",
+      "ok": true
+    },
+    {
+      "route": "/de/tags/",
+      "expected_sha256": "96872d0875b9ade8f32c11f5f9a423dc9eab059155d98138d1d3be96348720cd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/tags/",
+      "actual_sha256": "96872d0875b9ade8f32c11f5f9a423dc9eab059155d98138d1d3be96348720cd",
+      "ok": true
+    },
+    {
+      "route": "/de/tags/page/1/",
+      "expected_sha256": "27f87bea1783fd922435c7c99c11598f075499cdd5c6023854fe6a1fb7b5ad66",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/de/tags/page/1/",
+      "actual_sha256": "27f87bea1783fd922435c7c99c11598f075499cdd5c6023854fe6a1fb7b5ad66",
+      "ok": true
+    },
+    {
+      "route": "/en/404.html",
+      "expected_sha256": "50d18bda76113225586809f02eb47518df1ee80c5618405ea94bc51c3493d8c2",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/404.html",
+      "actual_sha256": "50d18bda76113225586809f02eb47518df1ee80c5618405ea94bc51c3493d8c2",
+      "ok": true
+    },
+    {
+      "route": "/en/categories/",
+      "expected_sha256": "e82af778015bab5f8970ff5cf4a8e850cbb49b52ec2fbbde14de61e3f486cd6c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/categories/",
+      "actual_sha256": "e82af778015bab5f8970ff5cf4a8e850cbb49b52ec2fbbde14de61e3f486cd6c",
+      "ok": true
+    },
+    {
+      "route": "/en/categories/page/1/",
+      "expected_sha256": "bb00e342ad83eafeb53c4c85638e99acc820a99b06413966c7026fe8fc502fc2",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/categories/page/1/",
+      "actual_sha256": "bb00e342ad83eafeb53c4c85638e99acc820a99b06413966c7026fe8fc502fc2",
+      "ok": true
+    },
+    {
+      "route": "/en/company/",
+      "expected_sha256": "2ac225e5a458c4c59f243dbc4fe1de36d2066676fae171a82e2cda32824c8b79",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/company/",
+      "actual_sha256": "2ac225e5a458c4c59f243dbc4fe1de36d2066676fae171a82e2cda32824c8b79",
+      "ok": true
+    },
+    {
+      "route": "/en/faq/",
+      "expected_sha256": "428aeed9983a43e5d18871f8e932ccf03f2bccd20c3c88cc16b0f8c99e32a4f5",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/faq/",
+      "actual_sha256": "428aeed9983a43e5d18871f8e932ccf03f2bccd20c3c88cc16b0f8c99e32a4f5",
+      "ok": true
+    },
+    {
+      "route": "/en/faq/page/1/",
+      "expected_sha256": "f0cdda5d710736f7ccaf1b827f1fb35feb76d57704c2f75099c401ca24a56642",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/faq/page/1/",
+      "actual_sha256": "f0cdda5d710736f7ccaf1b827f1fb35feb76d57704c2f75099c401ca24a56642",
+      "ok": true
+    },
+    {
+      "route": "/en/faq/smokeless/",
+      "expected_sha256": "7bd4509710faa3b899a54187ae8097ec8aadba5c1140fadda0004e44555835b8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/faq/smokeless/",
+      "actual_sha256": "7bd4509710faa3b899a54187ae8097ec8aadba5c1140fadda0004e44555835b8",
+      "ok": true
+    },
+    {
+      "route": "/en/faq/uni-memo/",
+      "expected_sha256": "8ea161e49c7e60ebd311032e2d47837d82e9f1528ff9d56ce1e9a14ad8850d74",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/faq/uni-memo/",
+      "actual_sha256": "8ea161e49c7e60ebd311032e2d47837d82e9f1528ff9d56ce1e9a14ad8850d74",
+      "ok": true
+    },
+    {
+      "route": "/en/faq/uni-note/",
+      "expected_sha256": "1f278d7eea233a068fc6bd470f36414e106451f26b515f0b4df11bb0ab3aa0d8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/faq/uni-note/",
+      "actual_sha256": "1f278d7eea233a068fc6bd470f36414e106451f26b515f0b4df11bb0ab3aa0d8",
+      "ok": true
+    },
+    {
+      "route": "/en/faq/uni-note-pocket/",
+      "expected_sha256": "f9dca618e4ab8e305969a9514f74a7230b6be22eb24f1c2f00aa377d75af8cf0",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/faq/uni-note-pocket/",
+      "actual_sha256": "f9dca618e4ab8e305969a9514f74a7230b6be22eb24f1c2f00aa377d75af8cf0",
+      "ok": true
+    },
+    {
+      "route": "/en/htu/",
+      "expected_sha256": "f31cd839a2729cf5793fa9d009827ed445f354c272b9dc542fc1d2f6921fd59a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/htu/",
+      "actual_sha256": "f31cd839a2729cf5793fa9d009827ed445f354c272b9dc542fc1d2f6921fd59a",
+      "ok": true
+    },
+    {
+      "route": "/en/htu/page/1/",
+      "expected_sha256": "fc4389d2bbbed8017a850c5692aa536bb381830d3b315652137314b159703176",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/htu/page/1/",
+      "actual_sha256": "fc4389d2bbbed8017a850c5692aa536bb381830d3b315652137314b159703176",
+      "ok": true
+    },
+    {
+      "route": "/en/htu/smokeless/",
+      "expected_sha256": "a3c2ca2594f31750d1661e4f9e8748ca830756ea0223ada845122c4df1d506e8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/htu/smokeless/",
+      "actual_sha256": "a3c2ca2594f31750d1661e4f9e8748ca830756ea0223ada845122c4df1d506e8",
+      "ok": true
+    },
+    {
+      "route": "/en/htu/uni-memo/",
+      "expected_sha256": "c641629df60da04c3dc247935fc19b2b7fd8bdda005cb316968fefa7b39cf318",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/htu/uni-memo/",
+      "actual_sha256": "c641629df60da04c3dc247935fc19b2b7fd8bdda005cb316968fefa7b39cf318",
+      "ok": true
+    },
+    {
+      "route": "/en/htu/uni-note/",
+      "expected_sha256": "d4e41cb4c5aef99425c9b78ab2fb9ad368115503ec718dfb83f0ed49be57c218",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/htu/uni-note/",
+      "actual_sha256": "d4e41cb4c5aef99425c9b78ab2fb9ad368115503ec718dfb83f0ed49be57c218",
+      "ok": true
+    },
+    {
+      "route": "/en/htu/uni-note-pocket/",
+      "expected_sha256": "32bf45ff51d641ade5ca42dc57ed0a3638c9a2b0685371929e8bf435fe332f58",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/htu/uni-note-pocket/",
+      "actual_sha256": "32bf45ff51d641ade5ca42dc57ed0a3638c9a2b0685371929e8bf435fe332f58",
+      "ok": true
+    },
+    {
+      "route": "/en/",
+      "expected_sha256": "6158d8c7dc2ec0abdb5fa39bf173af080293f911fc5af7a2068bd830151073ae",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/",
+      "actual_sha256": "6158d8c7dc2ec0abdb5fa39bf173af080293f911fc5af7a2068bd830151073ae",
+      "ok": true
+    },
+    {
+      "route": "/en/news/",
+      "expected_sha256": "cfaab6d65a8794fe571d9cc202cef9f7240acce162ed260f207032171deddbfc",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/news/",
+      "actual_sha256": "cfaab6d65a8794fe571d9cc202cef9f7240acce162ed260f207032171deddbfc",
+      "ok": true
+    },
+    {
+      "route": "/en/page/1/",
+      "expected_sha256": "379872ba2a23153cea4fe650f42d457f8573b22027405104f2659b1e47aa3b3b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/page/1/",
+      "actual_sha256": "379872ba2a23153cea4fe650f42d457f8573b22027405104f2659b1e47aa3b3b",
+      "ok": true
+    },
+    {
+      "route": "/en/privacy/",
+      "expected_sha256": "8b022f06fe6a259e818195a3e3cb96c6bf5556e0a0086245a0fb8b754b63b68f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/privacy/",
+      "actual_sha256": "8b022f06fe6a259e818195a3e3cb96c6bf5556e0a0086245a0fb8b754b63b68f",
+      "ok": true
+    },
+    {
+      "route": "/en/privacy/page/1/",
+      "expected_sha256": "6aa73e0346dcba4b8aad45c282a3164bf17a52c2f66971167d9c6055cd6ab418",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/privacy/page/1/",
+      "actual_sha256": "6aa73e0346dcba4b8aad45c282a3164bf17a52c2f66971167d9c6055cd6ab418",
+      "ok": true
+    },
+    {
+      "route": "/en/privacy/smokeless/",
+      "expected_sha256": "8483f4e0e5517c205ae151ae7801588ad5800cb432dafda999736345703bd6e1",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/privacy/smokeless/",
+      "actual_sha256": "8483f4e0e5517c205ae151ae7801588ad5800cb432dafda999736345703bd6e1",
+      "ok": true
+    },
+    {
+      "route": "/en/privacy/uni-memo/",
+      "expected_sha256": "97282bd22157cd40e76aaeae8e6a8612ad849c22e5335c9918536e9d3a544050",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/privacy/uni-memo/",
+      "actual_sha256": "97282bd22157cd40e76aaeae8e6a8612ad849c22e5335c9918536e9d3a544050",
+      "ok": true
+    },
+    {
+      "route": "/en/privacy/uni-note/",
+      "expected_sha256": "3e677d463d3e687b959415ff9816a86e6c5bf129197a09c6d9bfd170098c8a9a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/privacy/uni-note/",
+      "actual_sha256": "3e677d463d3e687b959415ff9816a86e6c5bf129197a09c6d9bfd170098c8a9a",
+      "ok": true
+    },
+    {
+      "route": "/en/privacy/uni-note-pocket/",
+      "expected_sha256": "10da4dda7a43490d8c83f03f1f4b9e6ac96907b76d1cb82e7e3d254de77bb3f0",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/privacy/uni-note-pocket/",
+      "actual_sha256": "10da4dda7a43490d8c83f03f1f4b9e6ac96907b76d1cb82e7e3d254de77bb3f0",
+      "ok": true
+    },
+    {
+      "route": "/en/products/balance-calendar/",
+      "expected_sha256": "459693a0f3694c0696ca6a719234ecf6c5703b097489e72cb1818723adda53c8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/products/balance-calendar/",
+      "actual_sha256": "459693a0f3694c0696ca6a719234ecf6c5703b097489e72cb1818723adda53c8",
+      "ok": true
+    },
+    {
+      "route": "/en/products/giga-poke/",
+      "expected_sha256": "187b182e5615303f24defd11d6eabb695c92bb4d902f7b805a8f40d258a7d79a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/products/giga-poke/",
+      "actual_sha256": "187b182e5615303f24defd11d6eabb695c92bb4d902f7b805a8f40d258a7d79a",
+      "ok": true
+    },
+    {
+      "route": "/en/products/",
+      "expected_sha256": "caabdbeb18040ff057223fd290dd3825489d43160d8172b15e9ff8ce45657d22",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/products/",
+      "actual_sha256": "caabdbeb18040ff057223fd290dd3825489d43160d8172b15e9ff8ce45657d22",
+      "ok": true
+    },
+    {
+      "route": "/en/products/nocca/",
+      "expected_sha256": "d942f8615fbbc01df9ab5a7a72460f9a68a086f57d889b80dda72ac2d0f8032d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/products/nocca/",
+      "actual_sha256": "d942f8615fbbc01df9ab5a7a72460f9a68a086f57d889b80dda72ac2d0f8032d",
+      "ok": true
+    },
+    {
+      "route": "/en/products/oto-miru/",
+      "expected_sha256": "6663496aaa2c01291ab5c196e7738b79edaa69b6283153082e4883b08aec0b01",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/products/oto-miru/",
+      "actual_sha256": "6663496aaa2c01291ab5c196e7738b79edaa69b6283153082e4883b08aec0b01",
+      "ok": true
+    },
+    {
+      "route": "/en/products/signal/",
+      "expected_sha256": "127d1457a56589328c207446806ff858665148df2ca5171b553d5eccb9c8f7a2",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/products/signal/",
+      "actual_sha256": "127d1457a56589328c207446806ff858665148df2ca5171b553d5eccb9c8f7a2",
+      "ok": true
+    },
+    {
+      "route": "/en/products/smokeless/",
+      "expected_sha256": "83d6cc581ed71c0db11d97dbbbe4e17ebf68f0db3aef44f3fba48aa97118c528",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/products/smokeless/",
+      "actual_sha256": "83d6cc581ed71c0db11d97dbbbe4e17ebf68f0db3aef44f3fba48aa97118c528",
+      "ok": true
+    },
+    {
+      "route": "/en/products/uni-note/",
+      "expected_sha256": "d0127fbf7a30775e8cf452f4c0116fc1dfd4b78d8ca2e4ccefbc9fdd27c35081",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/products/uni-note/",
+      "actual_sha256": "d0127fbf7a30775e8cf452f4c0116fc1dfd4b78d8ca2e4ccefbc9fdd27c35081",
+      "ok": true
+    },
+    {
+      "route": "/en/products/uni-note-pocket/",
+      "expected_sha256": "482417aea6161bceef3c772a41f389a2da453853eb83c2e889fe2fbe6ca74d9a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/products/uni-note-pocket/",
+      "actual_sha256": "482417aea6161bceef3c772a41f389a2da453853eb83c2e889fe2fbe6ca74d9a",
+      "ok": true
+    },
+    {
+      "route": "/en/support/",
+      "expected_sha256": "edec2ee683280851d62a09d3e62c04a84794bb30991ac67dddbadf60b7ceec67",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/support/",
+      "actual_sha256": "edec2ee683280851d62a09d3e62c04a84794bb30991ac67dddbadf60b7ceec67",
+      "ok": true
+    },
+    {
+      "route": "/en/tags/",
+      "expected_sha256": "5b6a4c61d5d8d967f15602147e1f9b184c9787fb0c0d2ee6df609d1551b7918c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/tags/",
+      "actual_sha256": "5b6a4c61d5d8d967f15602147e1f9b184c9787fb0c0d2ee6df609d1551b7918c",
+      "ok": true
+    },
+    {
+      "route": "/en/tags/page/1/",
+      "expected_sha256": "f30e3215c7761d0b7f9183281dbab6c49fc0eec91d73e101a0e59b800a88358a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/en/tags/page/1/",
+      "actual_sha256": "f30e3215c7761d0b7f9183281dbab6c49fc0eec91d73e101a0e59b800a88358a",
+      "ok": true
+    },
+    {
+      "route": "/faq/balance-calendar/",
+      "expected_sha256": "f9618ee7d92852234f2f8f830fa404693268961b17754b45e423989439c8e1c2",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/balance-calendar/",
+      "actual_sha256": "f9618ee7d92852234f2f8f830fa404693268961b17754b45e423989439c8e1c2",
+      "ok": true
+    },
+    {
+      "route": "/faq/giga-poke/",
+      "expected_sha256": "5c80400630369cd3794bc663e54e4d8c3efb8d5c74c645ac77c5385c51e9c340",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/giga-poke/",
+      "actual_sha256": "5c80400630369cd3794bc663e54e4d8c3efb8d5c74c645ac77c5385c51e9c340",
+      "ok": true
+    },
+    {
+      "route": "/faq/",
+      "expected_sha256": "4cdd3313b1ee56abbfe1e73d7abf8ca294f82e99ce402d9e1e9be71f41f4f356",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/",
+      "actual_sha256": "4cdd3313b1ee56abbfe1e73d7abf8ca294f82e99ce402d9e1e9be71f41f4f356",
+      "ok": true
+    },
+    {
+      "route": "/faq/nocca/",
+      "expected_sha256": "a818adfa57a2eeda63d78be18ca220ca57b1610835989b09461f695c472141d8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/nocca/",
+      "actual_sha256": "a818adfa57a2eeda63d78be18ca220ca57b1610835989b09461f695c472141d8",
+      "ok": true
+    },
+    {
+      "route": "/faq/oto-miru/",
+      "expected_sha256": "c4bb2e17682155293e842ade19760a8bcfea3ba7c050ff73a2adf41b2f2ef4a2",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/oto-miru/",
+      "actual_sha256": "c4bb2e17682155293e842ade19760a8bcfea3ba7c050ff73a2adf41b2f2ef4a2",
+      "ok": true
+    },
+    {
+      "route": "/faq/page/1/",
+      "expected_sha256": "6e752757d0dfe7530fac67fbed91859d060e684039053d32f9fe3b053242f852",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/page/1/",
+      "actual_sha256": "6e752757d0dfe7530fac67fbed91859d060e684039053d32f9fe3b053242f852",
+      "ok": true
+    },
+    {
+      "route": "/faq/page/2/",
+      "expected_sha256": "4cdd3313b1ee56abbfe1e73d7abf8ca294f82e99ce402d9e1e9be71f41f4f356",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/page/2/",
+      "actual_sha256": "4cdd3313b1ee56abbfe1e73d7abf8ca294f82e99ce402d9e1e9be71f41f4f356",
+      "ok": true
+    },
+    {
+      "route": "/faq/page/3/",
+      "expected_sha256": "4cdd3313b1ee56abbfe1e73d7abf8ca294f82e99ce402d9e1e9be71f41f4f356",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/page/3/",
+      "actual_sha256": "4cdd3313b1ee56abbfe1e73d7abf8ca294f82e99ce402d9e1e9be71f41f4f356",
+      "ok": true
+    },
+    {
+      "route": "/faq/povo-manager/",
+      "expected_sha256": "a2cc48b2482b4c9d84770f518279a6a122a5e5fc0ce620944f739b82c2b28f5d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/povo-manager/",
+      "actual_sha256": "a2cc48b2482b4c9d84770f518279a6a122a5e5fc0ce620944f739b82c2b28f5d",
+      "ok": true
+    },
+    {
+      "route": "/faq/signal/",
+      "expected_sha256": "4324603d0d1c95270fd5a0164ca85e529ecb4ffcc141f4c4d67612c1c3e53a01",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/signal/",
+      "actual_sha256": "4324603d0d1c95270fd5a0164ca85e529ecb4ffcc141f4c4d67612c1c3e53a01",
+      "ok": true
+    },
+    {
+      "route": "/faq/smokeless/",
+      "expected_sha256": "6ae908c80d85f774fbad81f5f3242dc6c589782fc663b400d3e6525a10543403",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/smokeless/",
+      "actual_sha256": "6ae908c80d85f774fbad81f5f3242dc6c589782fc663b400d3e6525a10543403",
+      "ok": true
+    },
+    {
+      "route": "/faq/uni-memo/",
+      "expected_sha256": "7dc0fb976d21a4c7ea9dcd569ade4ecd9d4d25678c717a78c39eb1713e27759c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/uni-memo/",
+      "actual_sha256": "7dc0fb976d21a4c7ea9dcd569ade4ecd9d4d25678c717a78c39eb1713e27759c",
+      "ok": true
+    },
+    {
+      "route": "/faq/uni-note/",
+      "expected_sha256": "9a3c4521fe0339ecac35cbc986a71923e3c442938b89a251fc98401b2ed6ce3f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/uni-note/",
+      "actual_sha256": "9a3c4521fe0339ecac35cbc986a71923e3c442938b89a251fc98401b2ed6ce3f",
+      "ok": true
+    },
+    {
+      "route": "/faq/uni-note-pocket/",
+      "expected_sha256": "628244f49b52ff93168a56e0047b022e1f7cc4ee00512b6d230f33d95bd9dda7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/faq/uni-note-pocket/",
+      "actual_sha256": "628244f49b52ff93168a56e0047b022e1f7cc4ee00512b6d230f33d95bd9dda7",
+      "ok": true
+    },
+    {
+      "route": "/fr/404.html",
+      "expected_sha256": "57bbddc58cfa58f209259e93dc22cd2210eb6a79d41a3021d42035d4382d8e6e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/404.html",
+      "actual_sha256": "57bbddc58cfa58f209259e93dc22cd2210eb6a79d41a3021d42035d4382d8e6e",
+      "ok": true
+    },
+    {
+      "route": "/fr/categories/",
+      "expected_sha256": "6003f78e992adc0bf49ebe0592b63ed369489c978da7b5c4383f44394eb9e4db",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/categories/",
+      "actual_sha256": "6003f78e992adc0bf49ebe0592b63ed369489c978da7b5c4383f44394eb9e4db",
+      "ok": true
+    },
+    {
+      "route": "/fr/categories/page/1/",
+      "expected_sha256": "c8a5beb8e5e81e24ee62f3d573a70890f007fb8c0d2baed1044a8df198882b08",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/categories/page/1/",
+      "actual_sha256": "c8a5beb8e5e81e24ee62f3d573a70890f007fb8c0d2baed1044a8df198882b08",
+      "ok": true
+    },
+    {
+      "route": "/fr/company/",
+      "expected_sha256": "0f535582612e7decd2d7b2be782cfade7fb11df63a3ed43db15198ebb916d029",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/company/",
+      "actual_sha256": "0f535582612e7decd2d7b2be782cfade7fb11df63a3ed43db15198ebb916d029",
+      "ok": true
+    },
+    {
+      "route": "/fr/faq/",
+      "expected_sha256": "00265ce51a7b178821a61c09cacc0871b928ec8542008ce22358ac88b58bf354",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/faq/",
+      "actual_sha256": "00265ce51a7b178821a61c09cacc0871b928ec8542008ce22358ac88b58bf354",
+      "ok": true
+    },
+    {
+      "route": "/fr/faq/page/1/",
+      "expected_sha256": "3e8439127dec3a53bef9615e938d3589a83f4083ecb5ef5b7a08e18806c29606",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/faq/page/1/",
+      "actual_sha256": "3e8439127dec3a53bef9615e938d3589a83f4083ecb5ef5b7a08e18806c29606",
+      "ok": true
+    },
+    {
+      "route": "/fr/faq/smokeless/",
+      "expected_sha256": "365bbfa9bc1f88505c190129561ee29215c7ab6870fb53ae788072c7f161edd4",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/faq/smokeless/",
+      "actual_sha256": "365bbfa9bc1f88505c190129561ee29215c7ab6870fb53ae788072c7f161edd4",
+      "ok": true
+    },
+    {
+      "route": "/fr/faq/uni-memo/",
+      "expected_sha256": "ce6f1fa8888579317ee4b3a12215898b8de8bbe8aa5c14b8e36caab0b23c76b0",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/faq/uni-memo/",
+      "actual_sha256": "ce6f1fa8888579317ee4b3a12215898b8de8bbe8aa5c14b8e36caab0b23c76b0",
+      "ok": true
+    },
+    {
+      "route": "/fr/faq/uni-note/",
+      "expected_sha256": "731bae1674bb310da6682836e32b6d04c5c6fa302af657ee1960c931c897f433",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/faq/uni-note/",
+      "actual_sha256": "731bae1674bb310da6682836e32b6d04c5c6fa302af657ee1960c931c897f433",
+      "ok": true
+    },
+    {
+      "route": "/fr/faq/uni-note-pocket/",
+      "expected_sha256": "c78f2fbddf6398a1b44eeeb698178c5d6222f279bd55546377d4f618d59fe8e8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/faq/uni-note-pocket/",
+      "actual_sha256": "c78f2fbddf6398a1b44eeeb698178c5d6222f279bd55546377d4f618d59fe8e8",
+      "ok": true
+    },
+    {
+      "route": "/fr/htu/",
+      "expected_sha256": "d82ff17944a4ff8f0c22e820c9f83f32098960c068614c8d8e3c2172f7737dd8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/htu/",
+      "actual_sha256": "d82ff17944a4ff8f0c22e820c9f83f32098960c068614c8d8e3c2172f7737dd8",
+      "ok": true
+    },
+    {
+      "route": "/fr/htu/page/1/",
+      "expected_sha256": "9d19ee0c192d98563d0fda498924b9cbf1e9383eb536caf0e3df27911f109b53",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/htu/page/1/",
+      "actual_sha256": "9d19ee0c192d98563d0fda498924b9cbf1e9383eb536caf0e3df27911f109b53",
+      "ok": true
+    },
+    {
+      "route": "/fr/htu/smokeless/",
+      "expected_sha256": "39d7691fdba6a0829fc6ed4a701bc00f09a60684f95500028d7d7404bc456399",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/htu/smokeless/",
+      "actual_sha256": "39d7691fdba6a0829fc6ed4a701bc00f09a60684f95500028d7d7404bc456399",
+      "ok": true
+    },
+    {
+      "route": "/fr/htu/uni-memo/",
+      "expected_sha256": "915f3f766a419ebb1f2ffbbf433bb0f9856064e963d673413d5194571a07d933",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/htu/uni-memo/",
+      "actual_sha256": "915f3f766a419ebb1f2ffbbf433bb0f9856064e963d673413d5194571a07d933",
+      "ok": true
+    },
+    {
+      "route": "/fr/htu/uni-note/",
+      "expected_sha256": "fe8d29195176a41deb3c6144a6ca5267af91faff81b084d45e1ca9e4e915d80c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/htu/uni-note/",
+      "actual_sha256": "fe8d29195176a41deb3c6144a6ca5267af91faff81b084d45e1ca9e4e915d80c",
+      "ok": true
+    },
+    {
+      "route": "/fr/htu/uni-note-pocket/",
+      "expected_sha256": "33584edc1bd34336e77c52354a9625a10b76060f0f634475fdef67bfd91730d4",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/htu/uni-note-pocket/",
+      "actual_sha256": "33584edc1bd34336e77c52354a9625a10b76060f0f634475fdef67bfd91730d4",
+      "ok": true
+    },
+    {
+      "route": "/fr/",
+      "expected_sha256": "3e3737bc875cdadf39417170b0485513ded057753de359a51d7a54acc54573ea",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/",
+      "actual_sha256": "3e3737bc875cdadf39417170b0485513ded057753de359a51d7a54acc54573ea",
+      "ok": true
+    },
+    {
+      "route": "/fr/news/",
+      "expected_sha256": "fcf93bc9e8a2b26b515dab51d66fa08fccf93d43fd80455fe08e3710691c14ff",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/news/",
+      "actual_sha256": "fcf93bc9e8a2b26b515dab51d66fa08fccf93d43fd80455fe08e3710691c14ff",
+      "ok": true
+    },
+    {
+      "route": "/fr/page/1/",
+      "expected_sha256": "56631c65c569dd422d31e2f5ab91733e7d3b0e87fb1eb05225a7a4168a4e5fb6",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/page/1/",
+      "actual_sha256": "56631c65c569dd422d31e2f5ab91733e7d3b0e87fb1eb05225a7a4168a4e5fb6",
+      "ok": true
+    },
+    {
+      "route": "/fr/privacy/",
+      "expected_sha256": "c5737df87c4835cfb833da68a80665f0acff31e20daefb8694ed3203a830098d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/privacy/",
+      "actual_sha256": "c5737df87c4835cfb833da68a80665f0acff31e20daefb8694ed3203a830098d",
+      "ok": true
+    },
+    {
+      "route": "/fr/privacy/page/1/",
+      "expected_sha256": "2e64ce9f9b9d4aaf3eee961dcd26f6eef3cdafe0f2332f886f3ad83536faadc9",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/privacy/page/1/",
+      "actual_sha256": "2e64ce9f9b9d4aaf3eee961dcd26f6eef3cdafe0f2332f886f3ad83536faadc9",
+      "ok": true
+    },
+    {
+      "route": "/fr/privacy/smokeless/",
+      "expected_sha256": "8654b36dd618eaf1cb939c4d28e5744bb946dc66dd356530a933ba799c66b496",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/privacy/smokeless/",
+      "actual_sha256": "8654b36dd618eaf1cb939c4d28e5744bb946dc66dd356530a933ba799c66b496",
+      "ok": true
+    },
+    {
+      "route": "/fr/privacy/uni-memo/",
+      "expected_sha256": "d31713f71245b1cd87bf586702da8b871493b97bb40783361e8f5ec88df22dd1",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/privacy/uni-memo/",
+      "actual_sha256": "d31713f71245b1cd87bf586702da8b871493b97bb40783361e8f5ec88df22dd1",
+      "ok": true
+    },
+    {
+      "route": "/fr/privacy/uni-note/",
+      "expected_sha256": "eb8e1370dcd78a9abd09bb410bd5bb7e57cfa897cd01df711a6f03aec3a97c2c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/privacy/uni-note/",
+      "actual_sha256": "eb8e1370dcd78a9abd09bb410bd5bb7e57cfa897cd01df711a6f03aec3a97c2c",
+      "ok": true
+    },
+    {
+      "route": "/fr/privacy/uni-note-pocket/",
+      "expected_sha256": "a0f60c8de98ab491bf635d0e2ac51870dccbf58a61f42f498d12f13c60eed385",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/privacy/uni-note-pocket/",
+      "actual_sha256": "a0f60c8de98ab491bf635d0e2ac51870dccbf58a61f42f498d12f13c60eed385",
+      "ok": true
+    },
+    {
+      "route": "/fr/products/balance-calendar/",
+      "expected_sha256": "7479c96c9406d54f03c3e5dd904184653ae67da98fdf19eae1fe47bbc144ac8e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/products/balance-calendar/",
+      "actual_sha256": "7479c96c9406d54f03c3e5dd904184653ae67da98fdf19eae1fe47bbc144ac8e",
+      "ok": true
+    },
+    {
+      "route": "/fr/products/giga-poke/",
+      "expected_sha256": "5cb8179cdb31117efd7eaaf81810b90981a05b7b19f3246e927a29cf2d4a60bb",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/products/giga-poke/",
+      "actual_sha256": "5cb8179cdb31117efd7eaaf81810b90981a05b7b19f3246e927a29cf2d4a60bb",
+      "ok": true
+    },
+    {
+      "route": "/fr/products/",
+      "expected_sha256": "bfd49afd2155eca10c854cbf8380af719bc7724406cc42a43d522ef72f7be11c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/products/",
+      "actual_sha256": "bfd49afd2155eca10c854cbf8380af719bc7724406cc42a43d522ef72f7be11c",
+      "ok": true
+    },
+    {
+      "route": "/fr/products/nocca/",
+      "expected_sha256": "81046460fd6332f0ea6b7e3874ae04cc64debd57446b8080e1589f9106e03a24",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/products/nocca/",
+      "actual_sha256": "81046460fd6332f0ea6b7e3874ae04cc64debd57446b8080e1589f9106e03a24",
+      "ok": true
+    },
+    {
+      "route": "/fr/products/oto-miru/",
+      "expected_sha256": "91b58e96a9adb982c975867d4c30a1e700d01e6563099f6d9afd8129b76c2ded",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/products/oto-miru/",
+      "actual_sha256": "91b58e96a9adb982c975867d4c30a1e700d01e6563099f6d9afd8129b76c2ded",
+      "ok": true
+    },
+    {
+      "route": "/fr/products/signal/",
+      "expected_sha256": "b5cd540c3797fd609af6480fa3df8ab0001d794d9b68e036ed8350aea59c2692",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/products/signal/",
+      "actual_sha256": "b5cd540c3797fd609af6480fa3df8ab0001d794d9b68e036ed8350aea59c2692",
+      "ok": true
+    },
+    {
+      "route": "/fr/products/smokeless/",
+      "expected_sha256": "8e0725e64034fb426ddbe295dfe1b072eb583a3cb8ccfb23cef972581e93d30b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/products/smokeless/",
+      "actual_sha256": "8e0725e64034fb426ddbe295dfe1b072eb583a3cb8ccfb23cef972581e93d30b",
+      "ok": true
+    },
+    {
+      "route": "/fr/products/uni-note/",
+      "expected_sha256": "46e6e2de2b26a6225d871582b6b587acf2f15f7bff3f702751f1735c141652f9",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/products/uni-note/",
+      "actual_sha256": "46e6e2de2b26a6225d871582b6b587acf2f15f7bff3f702751f1735c141652f9",
+      "ok": true
+    },
+    {
+      "route": "/fr/products/uni-note-pocket/",
+      "expected_sha256": "530534ec45f5fa375b856df16e71c115ebf6f230ab9f92276065092a2460e34a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/products/uni-note-pocket/",
+      "actual_sha256": "530534ec45f5fa375b856df16e71c115ebf6f230ab9f92276065092a2460e34a",
+      "ok": true
+    },
+    {
+      "route": "/fr/support/",
+      "expected_sha256": "ed4328fc9ea63b1b1ae47f0df533810ded5980be53ad63f23850fd941ecf9f54",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/support/",
+      "actual_sha256": "ed4328fc9ea63b1b1ae47f0df533810ded5980be53ad63f23850fd941ecf9f54",
+      "ok": true
+    },
+    {
+      "route": "/fr/tags/",
+      "expected_sha256": "8967271235d5a6248932f8d2fb8c6e51f994543e5fd5c22d9f2c4d6e39582f21",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/tags/",
+      "actual_sha256": "8967271235d5a6248932f8d2fb8c6e51f994543e5fd5c22d9f2c4d6e39582f21",
+      "ok": true
+    },
+    {
+      "route": "/fr/tags/page/1/",
+      "expected_sha256": "0598b7cf4224550f922663164644548092e0f5c0e951087079a8701562ecbe5f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/fr/tags/page/1/",
+      "actual_sha256": "0598b7cf4224550f922663164644548092e0f5c0e951087079a8701562ecbe5f",
+      "ok": true
+    },
+    {
+      "route": "/htu/balance-calendar/",
+      "expected_sha256": "20104797a28806b2e3279e52d28b69e1b766dae5f0097ba183291ce8b8978d32",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/balance-calendar/",
+      "actual_sha256": "20104797a28806b2e3279e52d28b69e1b766dae5f0097ba183291ce8b8978d32",
+      "ok": true
+    },
+    {
+      "route": "/htu/giga-poke/",
+      "expected_sha256": "a33e88bec1b6ea18e15c8ee6e4692929c8cc9f61154d9d4f9af3f36da4528bc1",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/giga-poke/",
+      "actual_sha256": "a33e88bec1b6ea18e15c8ee6e4692929c8cc9f61154d9d4f9af3f36da4528bc1",
+      "ok": true
+    },
+    {
+      "route": "/htu/",
+      "expected_sha256": "c4f5ce7a5733539d788ce1ef876b2eb9b35c0e6e06ba9e4d916df1098a3b9e30",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/",
+      "actual_sha256": "c4f5ce7a5733539d788ce1ef876b2eb9b35c0e6e06ba9e4d916df1098a3b9e30",
+      "ok": true
+    },
+    {
+      "route": "/htu/nocca/",
+      "expected_sha256": "dc1b0d7fefea4fff595a30aca164e69c517921da319d85dae5b4a56d11500a38",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/nocca/",
+      "actual_sha256": "dc1b0d7fefea4fff595a30aca164e69c517921da319d85dae5b4a56d11500a38",
+      "ok": true
+    },
+    {
+      "route": "/htu/oto-miru/",
+      "expected_sha256": "80c438c9b73e151b9e22c94f0b94fbb20de3299394673401b2c65b88a29de7d8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/oto-miru/",
+      "actual_sha256": "80c438c9b73e151b9e22c94f0b94fbb20de3299394673401b2c65b88a29de7d8",
+      "ok": true
+    },
+    {
+      "route": "/htu/page/1/",
+      "expected_sha256": "8b92b56efed6068e642e426af843f14cabc3661485eaad660277e545db9f832e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/page/1/",
+      "actual_sha256": "8b92b56efed6068e642e426af843f14cabc3661485eaad660277e545db9f832e",
+      "ok": true
+    },
+    {
+      "route": "/htu/page/2/",
+      "expected_sha256": "c4f5ce7a5733539d788ce1ef876b2eb9b35c0e6e06ba9e4d916df1098a3b9e30",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/page/2/",
+      "actual_sha256": "c4f5ce7a5733539d788ce1ef876b2eb9b35c0e6e06ba9e4d916df1098a3b9e30",
+      "ok": true
+    },
+    {
+      "route": "/htu/page/3/",
+      "expected_sha256": "c4f5ce7a5733539d788ce1ef876b2eb9b35c0e6e06ba9e4d916df1098a3b9e30",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/page/3/",
+      "actual_sha256": "c4f5ce7a5733539d788ce1ef876b2eb9b35c0e6e06ba9e4d916df1098a3b9e30",
+      "ok": true
+    },
+    {
+      "route": "/htu/povo-manager/",
+      "expected_sha256": "0bf079957d7f41baa20f7b987d036a4e26b3645d7f99d98141e9814993199f05",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/povo-manager/",
+      "actual_sha256": "0bf079957d7f41baa20f7b987d036a4e26b3645d7f99d98141e9814993199f05",
+      "ok": true
+    },
+    {
+      "route": "/htu/signal/",
+      "expected_sha256": "a53c59b7d40578d0475e09c0f4e81a0df0a64fde522b2efe506b45f2ddd0af4d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/signal/",
+      "actual_sha256": "a53c59b7d40578d0475e09c0f4e81a0df0a64fde522b2efe506b45f2ddd0af4d",
+      "ok": true
+    },
+    {
+      "route": "/htu/smoke-less/",
+      "expected_sha256": "a3478e8d7176e3fbd752742272de205908cff689defec94d21b22db4cc1c9abd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/smoke-less/",
+      "actual_sha256": "a3478e8d7176e3fbd752742272de205908cff689defec94d21b22db4cc1c9abd",
+      "ok": true
+    },
+    {
+      "route": "/htu/smokeless/",
+      "expected_sha256": "41877663ce2911385160411080829e2e2ffb14f887597e9eb5ba187cdf6572c9",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/smokeless/",
+      "actual_sha256": "41877663ce2911385160411080829e2e2ffb14f887597e9eb5ba187cdf6572c9",
+      "ok": true
+    },
+    {
+      "route": "/htu/uni-memo/",
+      "expected_sha256": "2287c96a84378680f4d36650ffe101236b87a72ebd9f411e3bceab49cea64012",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/uni-memo/",
+      "actual_sha256": "2287c96a84378680f4d36650ffe101236b87a72ebd9f411e3bceab49cea64012",
+      "ok": true
+    },
+    {
+      "route": "/htu/uni-note/",
+      "expected_sha256": "156faff43baaded7d47a57b33ea07dce72e7f024b120ce66eef24e4d4e689019",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/uni-note/",
+      "actual_sha256": "156faff43baaded7d47a57b33ea07dce72e7f024b120ce66eef24e4d4e689019",
+      "ok": true
+    },
+    {
+      "route": "/htu/uni-note-pocket/",
+      "expected_sha256": "f770fb053f417d5b614974e9e86f39b4f3c3b111ed4df6ea3d9b0d01f95be78b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/htu/uni-note-pocket/",
+      "actual_sha256": "f770fb053f417d5b614974e9e86f39b4f3c3b111ed4df6ea3d9b0d01f95be78b",
+      "ok": true
+    },
+    {
+      "route": "/",
+      "expected_sha256": "5381fb5147aeb7b52488adae35c22d2a884072948dc6c6e5b8f8eca70d877335",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/",
+      "actual_sha256": "5381fb5147aeb7b52488adae35c22d2a884072948dc6c6e5b8f8eca70d877335",
+      "ok": true
+    },
+    {
+      "route": "/ja/",
+      "expected_sha256": "34456a41bb3f7b9758221522032b6c3fe1068d78bb034ef563e1bf0133614692",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ja/",
+      "actual_sha256": "34456a41bb3f7b9758221522032b6c3fe1068d78bb034ef563e1bf0133614692",
+      "ok": true
+    },
+    {
+      "route": "/ko/404.html",
+      "expected_sha256": "4d6e07cb46d604e34ebbbbd5a942292ccdc081c8fd1631ec51228de6e4e986e5",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/404.html",
+      "actual_sha256": "4d6e07cb46d604e34ebbbbd5a942292ccdc081c8fd1631ec51228de6e4e986e5",
+      "ok": true
+    },
+    {
+      "route": "/ko/categories/",
+      "expected_sha256": "f35ebccf4aeb6b2eae1a889221401fb1ea38be985917d208a8945021404ab26b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/categories/",
+      "actual_sha256": "f35ebccf4aeb6b2eae1a889221401fb1ea38be985917d208a8945021404ab26b",
+      "ok": true
+    },
+    {
+      "route": "/ko/categories/page/1/",
+      "expected_sha256": "79a62dd69ad1e1deb3e9339885259e17ddb48281e81a4dcf09fb80879c17e3a3",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/categories/page/1/",
+      "actual_sha256": "79a62dd69ad1e1deb3e9339885259e17ddb48281e81a4dcf09fb80879c17e3a3",
+      "ok": true
+    },
+    {
+      "route": "/ko/company/",
+      "expected_sha256": "a5e2332c4d3eef6298bc8979305b233201a1fbc451dbfab65086e4938e84bb98",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/company/",
+      "actual_sha256": "a5e2332c4d3eef6298bc8979305b233201a1fbc451dbfab65086e4938e84bb98",
+      "ok": true
+    },
+    {
+      "route": "/ko/faq/",
+      "expected_sha256": "e23e6ce1fc77e94d4945872516f32e9f96c629f563bd64f24975986d71429759",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/faq/",
+      "actual_sha256": "e23e6ce1fc77e94d4945872516f32e9f96c629f563bd64f24975986d71429759",
+      "ok": true
+    },
+    {
+      "route": "/ko/faq/page/1/",
+      "expected_sha256": "f02311dd7695740235fcc6989cdc9427e501c71ba4d4ff9f3ed3efe7b3b5514b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/faq/page/1/",
+      "actual_sha256": "f02311dd7695740235fcc6989cdc9427e501c71ba4d4ff9f3ed3efe7b3b5514b",
+      "ok": true
+    },
+    {
+      "route": "/ko/faq/smokeless/",
+      "expected_sha256": "3002d6a2d87c1ccfe82d564c7817458dae3fa93498b364d9d7247720f01537dc",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/faq/smokeless/",
+      "actual_sha256": "3002d6a2d87c1ccfe82d564c7817458dae3fa93498b364d9d7247720f01537dc",
+      "ok": true
+    },
+    {
+      "route": "/ko/faq/uni-memo/",
+      "expected_sha256": "57c82ff397797d7c930e8bd943fbb84c67cac0817318b31d9fba014e4e5565dc",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/faq/uni-memo/",
+      "actual_sha256": "57c82ff397797d7c930e8bd943fbb84c67cac0817318b31d9fba014e4e5565dc",
+      "ok": true
+    },
+    {
+      "route": "/ko/faq/uni-note/",
+      "expected_sha256": "5a593f3373f0bb7879bc2df6af5931df77034fcc1b7e6d03838d0aa4f9cb020a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/faq/uni-note/",
+      "actual_sha256": "5a593f3373f0bb7879bc2df6af5931df77034fcc1b7e6d03838d0aa4f9cb020a",
+      "ok": true
+    },
+    {
+      "route": "/ko/faq/uni-note-pocket/",
+      "expected_sha256": "261bc95f839b37a60dda16ca57b5fbe640d8bf18cb5a78f93bca3c2f5ce0fa8f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/faq/uni-note-pocket/",
+      "actual_sha256": "261bc95f839b37a60dda16ca57b5fbe640d8bf18cb5a78f93bca3c2f5ce0fa8f",
+      "ok": true
+    },
+    {
+      "route": "/ko/htu/",
+      "expected_sha256": "59e6db4662ac6913d7b33754ca1671758b177a6836eb697ee6bbe12a3b673ed5",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/htu/",
+      "actual_sha256": "59e6db4662ac6913d7b33754ca1671758b177a6836eb697ee6bbe12a3b673ed5",
+      "ok": true
+    },
+    {
+      "route": "/ko/htu/page/1/",
+      "expected_sha256": "d8b06ae3d6ccfa0a073552c73ff545f89ea55b30affc9f38d9e6f1175d629cb3",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/htu/page/1/",
+      "actual_sha256": "d8b06ae3d6ccfa0a073552c73ff545f89ea55b30affc9f38d9e6f1175d629cb3",
+      "ok": true
+    },
+    {
+      "route": "/ko/htu/smokeless/",
+      "expected_sha256": "359076851fb2646ec0ffbaa69316ff33f1e22a81129a3dd39bb903701a523420",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/htu/smokeless/",
+      "actual_sha256": "359076851fb2646ec0ffbaa69316ff33f1e22a81129a3dd39bb903701a523420",
+      "ok": true
+    },
+    {
+      "route": "/ko/htu/uni-memo/",
+      "expected_sha256": "4f89d53838b8aad9dd53d95549fbcb4c8f797a6e0b102bf0896fd1582460e045",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/htu/uni-memo/",
+      "actual_sha256": "4f89d53838b8aad9dd53d95549fbcb4c8f797a6e0b102bf0896fd1582460e045",
+      "ok": true
+    },
+    {
+      "route": "/ko/htu/uni-note/",
+      "expected_sha256": "7f377d1d28cdcfa8fe065d892d056b13274b6d5a6046eb897a367f94ea88e05e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/htu/uni-note/",
+      "actual_sha256": "7f377d1d28cdcfa8fe065d892d056b13274b6d5a6046eb897a367f94ea88e05e",
+      "ok": true
+    },
+    {
+      "route": "/ko/htu/uni-note-pocket/",
+      "expected_sha256": "6c807282bab986115412d8843e0d7bd3c8396225216e438affb852a7f5fa4929",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/htu/uni-note-pocket/",
+      "actual_sha256": "6c807282bab986115412d8843e0d7bd3c8396225216e438affb852a7f5fa4929",
+      "ok": true
+    },
+    {
+      "route": "/ko/",
+      "expected_sha256": "29eb53d4e93179268c791809284583bb90014d76bb566c2ef2c79a8a0fc813b3",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/",
+      "actual_sha256": "29eb53d4e93179268c791809284583bb90014d76bb566c2ef2c79a8a0fc813b3",
+      "ok": true
+    },
+    {
+      "route": "/ko/news/",
+      "expected_sha256": "2a10dcc69b0832b8d4270751fbd1a068726574df92037dd71532da81f6ea4f4e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/news/",
+      "actual_sha256": "2a10dcc69b0832b8d4270751fbd1a068726574df92037dd71532da81f6ea4f4e",
+      "ok": true
+    },
+    {
+      "route": "/ko/page/1/",
+      "expected_sha256": "e06b3c00441365421d72e5e07d67ccd769574c98c837c76b264a9cdd446217ba",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/page/1/",
+      "actual_sha256": "e06b3c00441365421d72e5e07d67ccd769574c98c837c76b264a9cdd446217ba",
+      "ok": true
+    },
+    {
+      "route": "/ko/privacy/",
+      "expected_sha256": "65ff0231e38be7bc082f9a2cfccd18cb754e5c8a216bc2dbf53602ba997f882a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/privacy/",
+      "actual_sha256": "65ff0231e38be7bc082f9a2cfccd18cb754e5c8a216bc2dbf53602ba997f882a",
+      "ok": true
+    },
+    {
+      "route": "/ko/privacy/page/1/",
+      "expected_sha256": "3f48d201317b807892b9f17c053809b01874c3aa2a2760b4a6c772df67ad3d30",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/privacy/page/1/",
+      "actual_sha256": "3f48d201317b807892b9f17c053809b01874c3aa2a2760b4a6c772df67ad3d30",
+      "ok": true
+    },
+    {
+      "route": "/ko/privacy/smokeless/",
+      "expected_sha256": "6bc83bf66da0578a9200a378b5237cdd76def01f73e189468e7df357387f7eb4",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/privacy/smokeless/",
+      "actual_sha256": "6bc83bf66da0578a9200a378b5237cdd76def01f73e189468e7df357387f7eb4",
+      "ok": true
+    },
+    {
+      "route": "/ko/privacy/uni-memo/",
+      "expected_sha256": "65085d8194d651f78f586fe913575613f5a2e6bbdb1ecc363809edb30167bb02",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/privacy/uni-memo/",
+      "actual_sha256": "65085d8194d651f78f586fe913575613f5a2e6bbdb1ecc363809edb30167bb02",
+      "ok": true
+    },
+    {
+      "route": "/ko/privacy/uni-note/",
+      "expected_sha256": "04077c2efaa5c8d2f71cab15f97b0ad3c4f06df7948f8ea58959a314e495bd79",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/privacy/uni-note/",
+      "actual_sha256": "04077c2efaa5c8d2f71cab15f97b0ad3c4f06df7948f8ea58959a314e495bd79",
+      "ok": true
+    },
+    {
+      "route": "/ko/privacy/uni-note-pocket/",
+      "expected_sha256": "f025609763a27d41adbfa5693fff2ca5ea80ac93fd9198711fdc5845174a0ed9",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/privacy/uni-note-pocket/",
+      "actual_sha256": "f025609763a27d41adbfa5693fff2ca5ea80ac93fd9198711fdc5845174a0ed9",
+      "ok": true
+    },
+    {
+      "route": "/ko/products/balance-calendar/",
+      "expected_sha256": "6d497a0184bbd4009fc6796fb936143e9a45584e9f41ea92f0c192ace84cae8c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/products/balance-calendar/",
+      "actual_sha256": "6d497a0184bbd4009fc6796fb936143e9a45584e9f41ea92f0c192ace84cae8c",
+      "ok": true
+    },
+    {
+      "route": "/ko/products/giga-poke/",
+      "expected_sha256": "37cdbc7299c65acff11d60e6dea467070e0087679b4da479baa7d33d500de3b0",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/products/giga-poke/",
+      "actual_sha256": "37cdbc7299c65acff11d60e6dea467070e0087679b4da479baa7d33d500de3b0",
+      "ok": true
+    },
+    {
+      "route": "/ko/products/",
+      "expected_sha256": "32019ebfb1d6fb386a15d8a9d77ece65e33406c5499222613b980b70eb43be7a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/products/",
+      "actual_sha256": "32019ebfb1d6fb386a15d8a9d77ece65e33406c5499222613b980b70eb43be7a",
+      "ok": true
+    },
+    {
+      "route": "/ko/products/nocca/",
+      "expected_sha256": "0cee89917554fd0554331dc974a5376f352e8bc1e51e0045daee0feb78b8c567",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/products/nocca/",
+      "actual_sha256": "0cee89917554fd0554331dc974a5376f352e8bc1e51e0045daee0feb78b8c567",
+      "ok": true
+    },
+    {
+      "route": "/ko/products/oto-miru/",
+      "expected_sha256": "8f633e6de3e05bd0393ea079a51eb799961832d75941697cd571398b124e1fe1",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/products/oto-miru/",
+      "actual_sha256": "8f633e6de3e05bd0393ea079a51eb799961832d75941697cd571398b124e1fe1",
+      "ok": true
+    },
+    {
+      "route": "/ko/products/signal/",
+      "expected_sha256": "2928c2fb146a05d9aee56112cdd4863887870a4cae471236a1aa75b2a7e1738f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/products/signal/",
+      "actual_sha256": "2928c2fb146a05d9aee56112cdd4863887870a4cae471236a1aa75b2a7e1738f",
+      "ok": true
+    },
+    {
+      "route": "/ko/products/smokeless/",
+      "expected_sha256": "d67f5cb07d7232ee54ddcb2b6ed94ea79ed381cfeb77b19701ae52a81a620332",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/products/smokeless/",
+      "actual_sha256": "d67f5cb07d7232ee54ddcb2b6ed94ea79ed381cfeb77b19701ae52a81a620332",
+      "ok": true
+    },
+    {
+      "route": "/ko/products/uni-note/",
+      "expected_sha256": "8a4cf1c61280593ea56094a131b72432042a4184a7c555fb15f42f43103bd2e5",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/products/uni-note/",
+      "actual_sha256": "8a4cf1c61280593ea56094a131b72432042a4184a7c555fb15f42f43103bd2e5",
+      "ok": true
+    },
+    {
+      "route": "/ko/products/uni-note-pocket/",
+      "expected_sha256": "18250e61f005c12ba2299871101243194cf7af5df4289a1e8c20c84a0fc33bc7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/products/uni-note-pocket/",
+      "actual_sha256": "18250e61f005c12ba2299871101243194cf7af5df4289a1e8c20c84a0fc33bc7",
+      "ok": true
+    },
+    {
+      "route": "/ko/support/",
+      "expected_sha256": "818d617f95c64c67136dba45db79f296f28087e9860f97118ca6763f2b4ac3ef",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/support/",
+      "actual_sha256": "818d617f95c64c67136dba45db79f296f28087e9860f97118ca6763f2b4ac3ef",
+      "ok": true
+    },
+    {
+      "route": "/ko/tags/",
+      "expected_sha256": "b129fe3193a295833d0330e3d418af4b24ce0cea52a1739ec4cf2d61cc9927d5",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/tags/",
+      "actual_sha256": "b129fe3193a295833d0330e3d418af4b24ce0cea52a1739ec4cf2d61cc9927d5",
+      "ok": true
+    },
+    {
+      "route": "/ko/tags/page/1/",
+      "expected_sha256": "284f15e99a3c9ddc526e37069bfbb90add2f623550649d7e98b64fdedc90d00e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/ko/tags/page/1/",
+      "actual_sha256": "284f15e99a3c9ddc526e37069bfbb90add2f623550649d7e98b64fdedc90d00e",
+      "ok": true
+    },
+    {
+      "route": "/news/",
+      "expected_sha256": "82730254054831db4eeb1f0c8d709581d731d634b08bc6f126fb97e4e054ca61",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/news/",
+      "actual_sha256": "82730254054831db4eeb1f0c8d709581d731d634b08bc6f126fb97e4e054ca61",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-01-23-introduction/",
+      "expected_sha256": "9b1984ba65dfecc5d7439cf3c7587db111c7ef5a2a69648bcd5b3b25c5fae7c8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-01-23-introduction/",
+      "actual_sha256": "9b1984ba65dfecc5d7439cf3c7587db111c7ef5a2a69648bcd5b3b25c5fae7c8",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-01-26-roadmap/",
+      "expected_sha256": "e787b21b779c619d2483a4dcf6b72e5733bf6425507f8a1039b9bd6c1c6eed7f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-01-26-roadmap/",
+      "actual_sha256": "e787b21b779c619d2483a4dcf6b72e5733bf6425507f8a1039b9bd6c1c6eed7f",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-01-27-philosophy/",
+      "expected_sha256": "775d374cb0b0c422f075e265e3552a61206800e2b99fd48850536e7af9280b9e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-01-27-philosophy/",
+      "actual_sha256": "775d374cb0b0c422f075e265e3552a61206800e2b99fd48850536e7af9280b9e",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-02-14-blog/",
+      "expected_sha256": "f9e2c9ef824c58a3ae770248d7414688b6014d40749564c869b752508a92ac56",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-02-14-blog/",
+      "actual_sha256": "f9e2c9ef824c58a3ae770248d7414688b6014d40749564c869b752508a92ac56",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-02-22-signal/",
+      "expected_sha256": "b59ac05e0a16f8b0211dadc72de8bf3f73810506fe29196f37782c39a0f6c075",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-02-22-signal/",
+      "actual_sha256": "b59ac05e0a16f8b0211dadc72de8bf3f73810506fe29196f37782c39a0f6c075",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-03-12-uni-note/",
+      "expected_sha256": "74729c4a1970a83c85216c80a469a39272626d8d752be287bf4920dce3d2b52f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-03-12-uni-note/",
+      "actual_sha256": "74729c4a1970a83c85216c80a469a39272626d8d752be287bf4920dce3d2b52f",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-03-13-blog/",
+      "expected_sha256": "b8389bef13f764a1ee4f2fe70728c0697941528c8fa550b40da3619844bd88b6",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-03-13-blog/",
+      "actual_sha256": "b8389bef13f764a1ee4f2fe70728c0697941528c8fa550b40da3619844bd88b6",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-03-21-smokeless/",
+      "expected_sha256": "3a72f165f4edb4e5dc4b5785ad7155c3981d508049f51c1ac4e2e93f90fe7ab1",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-03-21-smokeless/",
+      "actual_sha256": "3a72f165f4edb4e5dc4b5785ad7155c3981d508049f51c1ac4e2e93f90fe7ab1",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-03-25-blog/",
+      "expected_sha256": "c202fe43dd6e1b21d91c1cf2cf1d48c47d657b6c195a984e358a3137fbd3f9a8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-03-25-blog/",
+      "actual_sha256": "c202fe43dd6e1b21d91c1cf2cf1d48c47d657b6c195a984e358a3137fbd3f9a8",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-04-01-uni-note-pocket/",
+      "expected_sha256": "6982d8abcab8bf2a63f8570cf4a5c863b5cc4a4f220678eb89d0710970b21373",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-04-01-uni-note-pocket/",
+      "actual_sha256": "6982d8abcab8bf2a63f8570cf4a5c863b5cc4a4f220678eb89d0710970b21373",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-04-12-uni-note-10000/",
+      "expected_sha256": "c75ce5d5fe6ced9901a9d69e77f46bded13d2a6d4c4b2fb6f2d1aa207973a120",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-04-12-uni-note-10000/",
+      "actual_sha256": "c75ce5d5fe6ced9901a9d69e77f46bded13d2a6d4c4b2fb6f2d1aa207973a120",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-05-19-oto-miru/",
+      "expected_sha256": "800a8ca2696fd789d4485c03595cae29e1a22da154a1b8d76d5934914d5a4a89",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-05-19-oto-miru/",
+      "actual_sha256": "800a8ca2696fd789d4485c03595cae29e1a22da154a1b8d76d5934914d5a4a89",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-05-26-android-release/",
+      "expected_sha256": "8d3b9a4cb9c6c5e458fc668f8a33ce2e0f5f345bc6cec433f0561400c2b0426e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-05-26-android-release/",
+      "actual_sha256": "8d3b9a4cb9c6c5e458fc668f8a33ce2e0f5f345bc6cec433f0561400c2b0426e",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-09-02-giga-poke/",
+      "expected_sha256": "0367bfe8d53121c0684af640338dc2c70ba9c78ecadbd3267906e43baa334bcc",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-09-02-giga-poke/",
+      "actual_sha256": "0367bfe8d53121c0684af640338dc2c70ba9c78ecadbd3267906e43baa334bcc",
+      "ok": true
+    },
+    {
+      "route": "/notes/2026-09-06-nocca/",
+      "expected_sha256": "c98993217deda51a372bb9a550ad10b002e05f7f19da7d21de627de941ca38e4",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+      "actual_sha256": "c98993217deda51a372bb9a550ad10b002e05f7f19da7d21de627de941ca38e4",
+      "ok": true
+    },
+    {
+      "route": "/notes/",
+      "expected_sha256": "d474523da0de12bcda8be7aa71621ea99f10724fcf1ba2e48341c675a5174a40",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/",
+      "actual_sha256": "d474523da0de12bcda8be7aa71621ea99f10724fcf1ba2e48341c675a5174a40",
+      "ok": true
+    },
+    {
+      "route": "/notes/page/1/",
+      "expected_sha256": "782d34a31ca5ffea772e6d3a8fd1590a8d33a845946dc93fb612506d0bccbf8f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/page/1/",
+      "actual_sha256": "782d34a31ca5ffea772e6d3a8fd1590a8d33a845946dc93fb612506d0bccbf8f",
+      "ok": true
+    },
+    {
+      "route": "/notes/page/2/",
+      "expected_sha256": "8d110b6db1b5b133589c14017967721336a45493bc876fe00242254ccfefaff7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/page/2/",
+      "actual_sha256": "8d110b6db1b5b133589c14017967721336a45493bc876fe00242254ccfefaff7",
+      "ok": true
+    },
+    {
+      "route": "/notes/page/3/",
+      "expected_sha256": "e03c994340b9561c576361f482da02220730ba806a77562b973c2a014d22dbf6",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/page/3/",
+      "actual_sha256": "e03c994340b9561c576361f482da02220730ba806a77562b973c2a014d22dbf6",
+      "ok": true
+    },
+    {
+      "route": "/notes/page/4/",
+      "expected_sha256": "6a8aadce577d00d0e128e06a790dc120ba92b8d19c7c22cebc7a87f61ff89e0e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/page/4/",
+      "actual_sha256": "6a8aadce577d00d0e128e06a790dc120ba92b8d19c7c22cebc7a87f61ff89e0e",
+      "ok": true
+    },
+    {
+      "route": "/notes/page/5/",
+      "expected_sha256": "0533769b146acf282bfdac6c9ec3eaa9411a6c817224db1d63bb10077016221d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/notes/page/5/",
+      "actual_sha256": "0533769b146acf282bfdac6c9ec3eaa9411a6c817224db1d63bb10077016221d",
+      "ok": true
+    },
+    {
+      "route": "/page/1/",
+      "expected_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/page/1/",
+      "actual_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "ok": true
+    },
+    {
+      "route": "/page/2/",
+      "expected_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/page/2/",
+      "actual_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "ok": true
+    },
+    {
+      "route": "/page/3/",
+      "expected_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/page/3/",
+      "actual_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "ok": true
+    },
+    {
+      "route": "/page/4/",
+      "expected_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/page/4/",
+      "actual_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "ok": true
+    },
+    {
+      "route": "/page/5/",
+      "expected_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/page/5/",
+      "actual_sha256": "8f9fe578d5e2de43209def6407ffff85db51e5cb8ad8ca0b5587981fcb6a32bd",
+      "ok": true
+    },
+    {
+      "route": "/privacy/balance-calendar/",
+      "expected_sha256": "53f88f5dd7b5ea8eaf7957cdbd0a7688183b5245713f5ea2096de86e9ce89fbe",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/balance-calendar/",
+      "actual_sha256": "53f88f5dd7b5ea8eaf7957cdbd0a7688183b5245713f5ea2096de86e9ce89fbe",
+      "ok": true
+    },
+    {
+      "route": "/privacy/giga-poke/",
+      "expected_sha256": "6a0eef04285749b24766304e3c162e82d0ee887f9498dfcd47e33326718aa6e4",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/giga-poke/",
+      "actual_sha256": "6a0eef04285749b24766304e3c162e82d0ee887f9498dfcd47e33326718aa6e4",
+      "ok": true
+    },
+    {
+      "route": "/privacy/",
+      "expected_sha256": "a0b56db013e1b53e46bd4cfc632d8f8a83d4755b80d2d53d333437a3b877798c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/",
+      "actual_sha256": "a0b56db013e1b53e46bd4cfc632d8f8a83d4755b80d2d53d333437a3b877798c",
+      "ok": true
+    },
+    {
+      "route": "/privacy/nocca/",
+      "expected_sha256": "d3ecc8584470f26bd5d0071aa404d0d7dc0bde6d4e88250f08b7657aea0ea214",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/nocca/",
+      "actual_sha256": "d3ecc8584470f26bd5d0071aa404d0d7dc0bde6d4e88250f08b7657aea0ea214",
+      "ok": true
+    },
+    {
+      "route": "/privacy/oto-miru/",
+      "expected_sha256": "a2fe75b6081389fc2728ee15b9f229c5e46a92d43a2ce76a1151b1729fa70956",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/oto-miru/",
+      "actual_sha256": "a2fe75b6081389fc2728ee15b9f229c5e46a92d43a2ce76a1151b1729fa70956",
+      "ok": true
+    },
+    {
+      "route": "/privacy/page/1/",
+      "expected_sha256": "26bd3d69d671991a458b4f833b4e6d638d1d6ead7a9ff9d74f8296cc21effdb8",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/page/1/",
+      "actual_sha256": "26bd3d69d671991a458b4f833b4e6d638d1d6ead7a9ff9d74f8296cc21effdb8",
+      "ok": true
+    },
+    {
+      "route": "/privacy/page/2/",
+      "expected_sha256": "a0b56db013e1b53e46bd4cfc632d8f8a83d4755b80d2d53d333437a3b877798c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/page/2/",
+      "actual_sha256": "a0b56db013e1b53e46bd4cfc632d8f8a83d4755b80d2d53d333437a3b877798c",
+      "ok": true
+    },
+    {
+      "route": "/privacy/page/3/",
+      "expected_sha256": "a0b56db013e1b53e46bd4cfc632d8f8a83d4755b80d2d53d333437a3b877798c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/page/3/",
+      "actual_sha256": "a0b56db013e1b53e46bd4cfc632d8f8a83d4755b80d2d53d333437a3b877798c",
+      "ok": true
+    },
+    {
+      "route": "/privacy/povo-manager/",
+      "expected_sha256": "3f1062027220a698215a5b216c719b17728418462c847a349c1fba8246a59505",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/povo-manager/",
+      "actual_sha256": "3f1062027220a698215a5b216c719b17728418462c847a349c1fba8246a59505",
+      "ok": true
+    },
+    {
+      "route": "/privacy/signal/",
+      "expected_sha256": "55941ed031c88d7c40a4e5d91d752b119fbd84208a55eadc19ced8be3772cdd7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/signal/",
+      "actual_sha256": "55941ed031c88d7c40a4e5d91d752b119fbd84208a55eadc19ced8be3772cdd7",
+      "ok": true
+    },
+    {
+      "route": "/privacy/smoke-less/",
+      "expected_sha256": "ff0663af78e214c37881571b7bd3c4b8a63fb3d7146f3e413a16b566df911223",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/smoke-less/",
+      "actual_sha256": "ff0663af78e214c37881571b7bd3c4b8a63fb3d7146f3e413a16b566df911223",
+      "ok": true
+    },
+    {
+      "route": "/privacy/smokeless/",
+      "expected_sha256": "ad73babf4cc54b6e2725555b6a2bd587f7b94281114b6ca7cfa784aa4329c6c4",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/smokeless/",
+      "actual_sha256": "ad73babf4cc54b6e2725555b6a2bd587f7b94281114b6ca7cfa784aa4329c6c4",
+      "ok": true
+    },
+    {
+      "route": "/privacy/uni-memo/",
+      "expected_sha256": "2bf80c47e03aa98c5991995147617d8f2972155ee39398c7ab4e1d346af1fda7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/uni-memo/",
+      "actual_sha256": "2bf80c47e03aa98c5991995147617d8f2972155ee39398c7ab4e1d346af1fda7",
+      "ok": true
+    },
+    {
+      "route": "/privacy/uni-note/",
+      "expected_sha256": "8825488f447dd837432b761e8fe8ffb84727e6d6055da4375602c213650fd6cd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/uni-note/",
+      "actual_sha256": "8825488f447dd837432b761e8fe8ffb84727e6d6055da4375602c213650fd6cd",
+      "ok": true
+    },
+    {
+      "route": "/privacy/uni-note-pocket/",
+      "expected_sha256": "7ae05e15f64f87702440b0ef6991715c1848b00c6b41c29b3ce8225782aa76b6",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/privacy/uni-note-pocket/",
+      "actual_sha256": "7ae05e15f64f87702440b0ef6991715c1848b00c6b41c29b3ce8225782aa76b6",
+      "ok": true
+    },
+    {
+      "route": "/products/balance-calendar/",
+      "expected_sha256": "d549ea80b61dd06b5c31c5c14128d3324cec748fbb0fcec2d478f579a0c92182",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/products/balance-calendar/",
+      "actual_sha256": "d549ea80b61dd06b5c31c5c14128d3324cec748fbb0fcec2d478f579a0c92182",
+      "ok": true
+    },
+    {
+      "route": "/products/giga-poke/",
+      "expected_sha256": "74126305792322d586571bd4f7f3a03671dd23c378faa08306f1ba6aa83427e9",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/products/giga-poke/",
+      "actual_sha256": "74126305792322d586571bd4f7f3a03671dd23c378faa08306f1ba6aa83427e9",
+      "ok": true
+    },
+    {
+      "route": "/products/",
+      "expected_sha256": "8fb5dbcac3192be5c9aee8924eabbcf89dd40e97e781205a79782ce630bea754",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/products/",
+      "actual_sha256": "8fb5dbcac3192be5c9aee8924eabbcf89dd40e97e781205a79782ce630bea754",
+      "ok": true
+    },
+    {
+      "route": "/products/nocca/",
+      "expected_sha256": "93575b3a0fd095831f058bd2c73e4c64bda6a2b86bc9dab78eced710a3c2f017",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/products/nocca/",
+      "actual_sha256": "93575b3a0fd095831f058bd2c73e4c64bda6a2b86bc9dab78eced710a3c2f017",
+      "ok": true
+    },
+    {
+      "route": "/products/oto-miru/",
+      "expected_sha256": "141dffc01edc1effbee8698186482771317c9512fcca25fd058ba23bc87af912",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/products/oto-miru/",
+      "actual_sha256": "141dffc01edc1effbee8698186482771317c9512fcca25fd058ba23bc87af912",
+      "ok": true
+    },
+    {
+      "route": "/products/signal/",
+      "expected_sha256": "e810d69de5e1ea57cfc5dee50d0f027d137d40957ab7296e03dd9c74e9c4b770",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/products/signal/",
+      "actual_sha256": "e810d69de5e1ea57cfc5dee50d0f027d137d40957ab7296e03dd9c74e9c4b770",
+      "ok": true
+    },
+    {
+      "route": "/products/smokeless/",
+      "expected_sha256": "7ce4d769213ff555c42b1937c4cf1871365b36603798ce86c56937d1bde21292",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/products/smokeless/",
+      "actual_sha256": "7ce4d769213ff555c42b1937c4cf1871365b36603798ce86c56937d1bde21292",
+      "ok": true
+    },
+    {
+      "route": "/products/uni-note/",
+      "expected_sha256": "4a5cba05b02f2a17c994efffcda8f0d5f5d9402b28237bc2a4ce8a66d9bd1a6e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/products/uni-note/",
+      "actual_sha256": "4a5cba05b02f2a17c994efffcda8f0d5f5d9402b28237bc2a4ce8a66d9bd1a6e",
+      "ok": true
+    },
+    {
+      "route": "/products/uni-note-pocket/",
+      "expected_sha256": "94b47a91ab65bda02434795b63b7ec120048ae39b441332b3daa627835501b36",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/products/uni-note-pocket/",
+      "actual_sha256": "94b47a91ab65bda02434795b63b7ec120048ae39b441332b3daa627835501b36",
+      "ok": true
+    },
+    {
+      "route": "/support/",
+      "expected_sha256": "5f0742dc88ace32b936024e9b03edbae5eb12ac06a0782f6f460b2a986ef3e7f",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/support/",
+      "actual_sha256": "5f0742dc88ace32b936024e9b03edbae5eb12ac06a0782f6f460b2a986ef3e7f",
+      "ok": true
+    },
+    {
+      "route": "/tags/",
+      "expected_sha256": "bd88b3f52ad000697362d6fb253be67027ec80ac35edfdff094a25325eadba97",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/tags/",
+      "actual_sha256": "bd88b3f52ad000697362d6fb253be67027ec80ac35edfdff094a25325eadba97",
+      "ok": true
+    },
+    {
+      "route": "/tags/page/1/",
+      "expected_sha256": "a397c1ba400f114857aa05947d80c8ef6e93e577b143b2701107143d13b8d158",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/tags/page/1/",
+      "actual_sha256": "a397c1ba400f114857aa05947d80c8ef6e93e577b143b2701107143d13b8d158",
+      "ok": true
+    },
+    {
+      "route": "/terms/giga-poke/",
+      "expected_sha256": "b017bb5766ef26c73641417848b532799cf8b820163b016baf3393deab545722",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/terms/giga-poke/",
+      "actual_sha256": "b017bb5766ef26c73641417848b532799cf8b820163b016baf3393deab545722",
+      "ok": true
+    },
+    {
+      "route": "/terms/",
+      "expected_sha256": "95136e63b852e190cfcd9e45291e8acd496ae0e0a42a4cfea06d217dbf536fc4",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/terms/",
+      "actual_sha256": "95136e63b852e190cfcd9e45291e8acd496ae0e0a42a4cfea06d217dbf536fc4",
+      "ok": true
+    },
+    {
+      "route": "/terms/nocca/",
+      "expected_sha256": "b200393e33d4bbc006f2ff6e6118ea62bed5a5e8603713dfe7df41d1312beb4a",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/terms/nocca/",
+      "actual_sha256": "b200393e33d4bbc006f2ff6e6118ea62bed5a5e8603713dfe7df41d1312beb4a",
+      "ok": true
+    },
+    {
+      "route": "/terms/oto-miru/",
+      "expected_sha256": "80007d10b1222f5b99f154fdb7b05b0bba631665dd515eac7e6ec9c85bc0eb69",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/terms/oto-miru/",
+      "actual_sha256": "80007d10b1222f5b99f154fdb7b05b0bba631665dd515eac7e6ec9c85bc0eb69",
+      "ok": true
+    },
+    {
+      "route": "/terms/page/1/",
+      "expected_sha256": "e84063ea238b90b43777985f54159cdcb4d24425209e55fc9b4ad037ea34d8b1",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/terms/page/1/",
+      "actual_sha256": "e84063ea238b90b43777985f54159cdcb4d24425209e55fc9b4ad037ea34d8b1",
+      "ok": true
+    },
+    {
+      "route": "/terms/povo-manager/",
+      "expected_sha256": "8d7b63b5f19c993f167d48f4c8253c9a2b4323e35d762dfea896692d150bfa4c",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/terms/povo-manager/",
+      "actual_sha256": "8d7b63b5f19c993f167d48f4c8253c9a2b4323e35d762dfea896692d150bfa4c",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/404.html",
+      "expected_sha256": "82e4bebb7e3508bcdc3f18a9bf2ce6f73ff03eebc9ef64892376f07f74e9dd40",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/404.html",
+      "actual_sha256": "82e4bebb7e3508bcdc3f18a9bf2ce6f73ff03eebc9ef64892376f07f74e9dd40",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/categories/",
+      "expected_sha256": "61d753cad9a96980b724ffbd3b55d89ae23e28d1224e293715b312be50a25f22",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/categories/",
+      "actual_sha256": "61d753cad9a96980b724ffbd3b55d89ae23e28d1224e293715b312be50a25f22",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/categories/page/1/",
+      "expected_sha256": "29e5a8298908261dd1f292dc11ffb75756c4c31ee4c280da3e723bf6a364235d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/categories/page/1/",
+      "actual_sha256": "29e5a8298908261dd1f292dc11ffb75756c4c31ee4c280da3e723bf6a364235d",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/company/",
+      "expected_sha256": "7c3cab9717f6a2e92538c2be0986a6f3bd336b3c3283929765bd28cf1a5df005",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/company/",
+      "actual_sha256": "7c3cab9717f6a2e92538c2be0986a6f3bd336b3c3283929765bd28cf1a5df005",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/faq/",
+      "expected_sha256": "32e07ca374bfa7ceff796c91cd40786b60137baf00e49693cb00ca5a5404cb30",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/faq/",
+      "actual_sha256": "32e07ca374bfa7ceff796c91cd40786b60137baf00e49693cb00ca5a5404cb30",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/faq/page/1/",
+      "expected_sha256": "b482c4e43aac3cb76b756e42e32b556e0ee48cd0d76bd62eaaad24c1774a7143",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/faq/page/1/",
+      "actual_sha256": "b482c4e43aac3cb76b756e42e32b556e0ee48cd0d76bd62eaaad24c1774a7143",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/faq/smokeless/",
+      "expected_sha256": "f72856c62731539bc079b610bb2a121fb99306ac2770075d9ef42f7f5b1570be",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/faq/smokeless/",
+      "actual_sha256": "f72856c62731539bc079b610bb2a121fb99306ac2770075d9ef42f7f5b1570be",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/faq/uni-memo/",
+      "expected_sha256": "00ef2df927763ee2bcfa039d278f4c511e1a343f0f8871e69a589672cba6c95d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/faq/uni-memo/",
+      "actual_sha256": "00ef2df927763ee2bcfa039d278f4c511e1a343f0f8871e69a589672cba6c95d",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/faq/uni-note/",
+      "expected_sha256": "a3cb50ffb44a7528625726f254332fb028ec3109168a167497edb5ba9540f7d7",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/faq/uni-note/",
+      "actual_sha256": "a3cb50ffb44a7528625726f254332fb028ec3109168a167497edb5ba9540f7d7",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/faq/uni-note-pocket/",
+      "expected_sha256": "c29d26c5d90d5acc7434fdc4081205c9288eca680746d910cb025b4e9c35a9df",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/",
+      "actual_sha256": "c29d26c5d90d5acc7434fdc4081205c9288eca680746d910cb025b4e9c35a9df",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/htu/",
+      "expected_sha256": "69c694c2dd816549019e0dc3010476b40b1d76b176e2094a9ad17baff90e5038",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/htu/",
+      "actual_sha256": "69c694c2dd816549019e0dc3010476b40b1d76b176e2094a9ad17baff90e5038",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/htu/page/1/",
+      "expected_sha256": "fb99859877a131612d857948ae78c9b25e9e161ac97d1dd6017c78f238be2f4d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/htu/page/1/",
+      "actual_sha256": "fb99859877a131612d857948ae78c9b25e9e161ac97d1dd6017c78f238be2f4d",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/htu/smokeless/",
+      "expected_sha256": "975694cd7beb48a8a2d06a636755e5f66089c17c49291c0ac690936fd187fedd",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/htu/smokeless/",
+      "actual_sha256": "975694cd7beb48a8a2d06a636755e5f66089c17c49291c0ac690936fd187fedd",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/htu/uni-memo/",
+      "expected_sha256": "9ac4c03e87f0f2e30fb7b1d6cbf7086bad4987595f7fab689824a068190f95e6",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/htu/uni-memo/",
+      "actual_sha256": "9ac4c03e87f0f2e30fb7b1d6cbf7086bad4987595f7fab689824a068190f95e6",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/htu/uni-note/",
+      "expected_sha256": "2f78c473c4196ba7075d05640a7d484b3b3858f2d7f18ce8fca11c2be9728197",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/htu/uni-note/",
+      "actual_sha256": "2f78c473c4196ba7075d05640a7d484b3b3858f2d7f18ce8fca11c2be9728197",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/htu/uni-note-pocket/",
+      "expected_sha256": "00ec5153e35915b96dc3ff98f80f05e2b9ceee28e22e4713189fc6f47b05923b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/",
+      "actual_sha256": "00ec5153e35915b96dc3ff98f80f05e2b9ceee28e22e4713189fc6f47b05923b",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/",
+      "expected_sha256": "6d542d1cf8913680383c6f097f5fb48c2a57ca199ed287fe1fc869d9e3c80241",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/",
+      "actual_sha256": "6d542d1cf8913680383c6f097f5fb48c2a57ca199ed287fe1fc869d9e3c80241",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/news/",
+      "expected_sha256": "d30ad63255526d8cdc8f0fc7f32fd9bdf3ba8b2f339a6c19bda4b12501c58eeb",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/news/",
+      "actual_sha256": "d30ad63255526d8cdc8f0fc7f32fd9bdf3ba8b2f339a6c19bda4b12501c58eeb",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/page/1/",
+      "expected_sha256": "cbcbdedcd818bc56ba5ac90d4e172533f522e3598e96ead56797fba6bdb38297",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/page/1/",
+      "actual_sha256": "cbcbdedcd818bc56ba5ac90d4e172533f522e3598e96ead56797fba6bdb38297",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/privacy/",
+      "expected_sha256": "e5779b2d8fbb6469ff336ebcc2e30da457da1c789cb44e17a70292034bdf5a32",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/privacy/",
+      "actual_sha256": "e5779b2d8fbb6469ff336ebcc2e30da457da1c789cb44e17a70292034bdf5a32",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/privacy/page/1/",
+      "expected_sha256": "9479a8a5564be66aca6c9e9a3b3714b9f636d49c171cebc9c4a110dc4e8d8395",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/privacy/page/1/",
+      "actual_sha256": "9479a8a5564be66aca6c9e9a3b3714b9f636d49c171cebc9c4a110dc4e8d8395",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/privacy/smokeless/",
+      "expected_sha256": "6ed347282435b0f3e3082bdbce334108224e217a41b3fe6b587454454b9f81a4",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/privacy/smokeless/",
+      "actual_sha256": "6ed347282435b0f3e3082bdbce334108224e217a41b3fe6b587454454b9f81a4",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/privacy/uni-memo/",
+      "expected_sha256": "ad4fa34167c99f1522f30aec60a44531cdf3ac572e6123d2cbf5a8b55e0f9c12",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/privacy/uni-memo/",
+      "actual_sha256": "ad4fa34167c99f1522f30aec60a44531cdf3ac572e6123d2cbf5a8b55e0f9c12",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/privacy/uni-note/",
+      "expected_sha256": "d9deef7316058843a869c7debd8b318c9e73aa9f64d138d81da1bd74dd1a5830",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/privacy/uni-note/",
+      "actual_sha256": "d9deef7316058843a869c7debd8b318c9e73aa9f64d138d81da1bd74dd1a5830",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/privacy/uni-note-pocket/",
+      "expected_sha256": "09b26f1856bbdd694f937ee16ba6da1d535bf3c2df26fc1c10d76b7983a55615",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/",
+      "actual_sha256": "09b26f1856bbdd694f937ee16ba6da1d535bf3c2df26fc1c10d76b7983a55615",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/products/balance-calendar/",
+      "expected_sha256": "2225563a1a35b81baefa6364631ddf78b06b44d0a59ede5ab8f3c05c06baca8b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/products/balance-calendar/",
+      "actual_sha256": "2225563a1a35b81baefa6364631ddf78b06b44d0a59ede5ab8f3c05c06baca8b",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/products/giga-poke/",
+      "expected_sha256": "8363a224ab3d371c219864ba35e8ce55b587164cbc640c7e6a8ba87df2a96cd6",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/products/giga-poke/",
+      "actual_sha256": "8363a224ab3d371c219864ba35e8ce55b587164cbc640c7e6a8ba87df2a96cd6",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/products/",
+      "expected_sha256": "cb0cb8ecd8b48839ed24a45938e1f61d1ff41d88929ef6fd4db2cc3651f6e31d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/products/",
+      "actual_sha256": "cb0cb8ecd8b48839ed24a45938e1f61d1ff41d88929ef6fd4db2cc3651f6e31d",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/products/nocca/",
+      "expected_sha256": "373f8fbc4d8d94ff37a28fe2d8d88ab9735002a6b73e8736992f3f15e4e3ec4e",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/products/nocca/",
+      "actual_sha256": "373f8fbc4d8d94ff37a28fe2d8d88ab9735002a6b73e8736992f3f15e4e3ec4e",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/products/oto-miru/",
+      "expected_sha256": "639ab4e99832c2678b4816db7db2561f8f310d95c6eee568fa3b5c9cd8fc699d",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/products/oto-miru/",
+      "actual_sha256": "639ab4e99832c2678b4816db7db2561f8f310d95c6eee568fa3b5c9cd8fc699d",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/products/signal/",
+      "expected_sha256": "91ccca70e0b46f16898f0e956df76530225331d9dd2dc64d74c156e8494a6a47",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/products/signal/",
+      "actual_sha256": "91ccca70e0b46f16898f0e956df76530225331d9dd2dc64d74c156e8494a6a47",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/products/smokeless/",
+      "expected_sha256": "ffcf274076a1aca6d02dae0218a0c636273cf7df13e93467b10e3f4a713e3739",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/products/smokeless/",
+      "actual_sha256": "ffcf274076a1aca6d02dae0218a0c636273cf7df13e93467b10e3f4a713e3739",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/products/uni-note/",
+      "expected_sha256": "a2d5c3ee3570679c17484c5da17993df418c2481dcb7e088956c6c3e9c59b1c6",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/products/uni-note/",
+      "actual_sha256": "a2d5c3ee3570679c17484c5da17993df418c2481dcb7e088956c6c3e9c59b1c6",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/products/uni-note-pocket/",
+      "expected_sha256": "a69a88e138df93961c4e529e17a3be3f144a1fcffe32c5d6894c6792cbe82921",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/products/uni-note-pocket/",
+      "actual_sha256": "a69a88e138df93961c4e529e17a3be3f144a1fcffe32c5d6894c6792cbe82921",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/support/",
+      "expected_sha256": "7736360a43cc7cd74d53a4b2827b14872d0b20206c1f0db0a3ca9344d32395ac",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/support/",
+      "actual_sha256": "7736360a43cc7cd74d53a4b2827b14872d0b20206c1f0db0a3ca9344d32395ac",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/tags/",
+      "expected_sha256": "6ad40807ea7d4b52c7fe1039e4772698e88a6d41b7626e251dfe4bc3a4936042",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/tags/",
+      "actual_sha256": "6ad40807ea7d4b52c7fe1039e4772698e88a6d41b7626e251dfe4bc3a4936042",
+      "ok": true
+    },
+    {
+      "route": "/zh-hant/tags/page/1/",
+      "expected_sha256": "9ad0e3dd6ace04408eb8685d7f6e038af3fe92163d9c92359dc84a3b7b47742b",
+      "status": 200,
+      "final_url": "https://kumakikai.github.io/zh-hant/tags/page/1/",
+      "actual_sha256": "9ad0e3dd6ace04408eb8685d7f6e038af3fe92163d9c92359dc84a3b7b47742b",
+      "ok": true
+    }
+  ]
+}

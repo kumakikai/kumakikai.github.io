@@ -1,0 +1,157 @@
+{
+  "checkedAt": "2026-09-06T18:58:00.419893+00:00",
+  "sourceCommit": "79e15cf7d7eb4b35d7e565acce3042b5946918c8",
+  "baseURL": "https://kumakikai.github.io",
+  "scope": "CSS and external JavaScript paths extracted from final local Home and About HTML, both responsive Founder portrait assets, and requested Uni:Note Open Graph image. HTML page verification is reported separately by the parent task.",
+  "method": "Read local final build HTML references. After confirming both deployment runs succeeded, issue exactly one HTTP GET per unique asset and compare response status, byte length and SHA-256 with public/ files. No cache-busting query, retries, or content edits.",
+  "deployments": [
+    {
+      "kind": "Hugo",
+      "runId": 34053174351,
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "79e15cf7d7eb4b35d7e565acce3042b5946918c8",
+      "url": "https://github.com/kumakikai/kumakikai.github.io/actions/runs/34053174351",
+      "updatedAt": "2026-09-06T18:55:07Z"
+    },
+    {
+      "kind": "GitHub Pages",
+      "runId": 34053221648,
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "62d1eafabba6acefadd4e8e47ccce110352c92b3",
+      "url": "https://github.com/kumakikai/kumakikai.github.io/actions/runs/34053221648",
+      "updatedAt": "2026-09-06T18:55:32Z"
+    }
+  ],
+  "assets": [
+    {
+      "path": "/css/main.e757bfd5312b8136e6b5274e19c2eed87941cdbe6401eacb480a8057bb3b667f.css",
+      "kind": "stylesheet",
+      "htmlReferences": [
+        "public/index.html",
+        "public/company/index.html"
+      ],
+      "url": "https://kumakikai.github.io/css/main.e757bfd5312b8136e6b5274e19c2eed87941cdbe6401eacb480a8057bb3b667f.css",
+      "localPath": "public/css/main.e757bfd5312b8136e6b5274e19c2eed87941cdbe6401eacb480a8057bb3b667f.css",
+      "localBytes": 58346,
+      "localSHA256": "e757bfd5312b8136e6b5274e19c2eed87941cdbe6401eacb480a8057bb3b667f",
+      "httpStatus": 200,
+      "responseURL": "https://kumakikai.github.io/css/main.e757bfd5312b8136e6b5274e19c2eed87941cdbe6401eacb480a8057bb3b667f.css",
+      "contentType": "text/css; charset=utf-8",
+      "remoteBytes": 58346,
+      "remoteSHA256": "e757bfd5312b8136e6b5274e19c2eed87941cdbe6401eacb480a8057bb3b667f",
+      "headers": {
+        "ETag": "\"6a9db71e-e3ea\"",
+        "Last-Modified": "Sun, 06 Sep 2026 18:55:26 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "bytesMatch": true,
+      "sha256Match": true,
+      "ok": true
+    },
+    {
+      "path": "/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "kind": "javascript",
+      "htmlReferences": [
+        "public/index.html",
+        "public/company/index.html"
+      ],
+      "url": "https://kumakikai.github.io/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "localPath": "public/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "localBytes": 1634,
+      "localSHA256": "45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a",
+      "httpStatus": 200,
+      "responseURL": "https://kumakikai.github.io/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "contentType": "application/javascript; charset=utf-8",
+      "remoteBytes": 1634,
+      "remoteSHA256": "45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a",
+      "headers": {
+        "ETag": "\"6a9db71e-662\"",
+        "Last-Modified": "Sun, 06 Sep 2026 18:55:26 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "bytesMatch": true,
+      "sha256Match": true,
+      "ok": true
+    },
+    {
+      "path": "/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "kind": "founder-portrait",
+      "htmlReferences": [
+        "public/company/index.html"
+      ],
+      "url": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "localPath": "public/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "localBytes": 4700,
+      "localSHA256": "0fc205019218fd78664ea569a93ef80643ce89ebb1414fea50ce111b56cc5e0e",
+      "httpStatus": 200,
+      "responseURL": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_267503f0bbbde900.webp",
+      "contentType": "image/webp",
+      "remoteBytes": 4700,
+      "remoteSHA256": "0fc205019218fd78664ea569a93ef80643ce89ebb1414fea50ce111b56cc5e0e",
+      "headers": {
+        "ETag": "\"6a9db71e-125c\"",
+        "Last-Modified": "Sun, 06 Sep 2026 18:55:26 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "bytesMatch": true,
+      "sha256Match": true,
+      "ok": true
+    },
+    {
+      "path": "/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "kind": "founder-portrait",
+      "htmlReferences": [
+        "public/company/index.html"
+      ],
+      "url": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "localPath": "public/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "localBytes": 10896,
+      "localSHA256": "6cea19085067823c0d9cfc5e9a33dcbd1b2c08272c838cb7d6b8313e29dc9fd3",
+      "httpStatus": 200,
+      "responseURL": "https://kumakikai.github.io/images/company/yuya-nakamura_hu_a6e5448f7587ad83.webp",
+      "contentType": "image/webp",
+      "remoteBytes": 10896,
+      "remoteSHA256": "6cea19085067823c0d9cfc5e9a33dcbd1b2c08272c838cb7d6b8313e29dc9fd3",
+      "headers": {
+        "ETag": "\"6a9db71e-2a90\"",
+        "Last-Modified": "Sun, 06 Sep 2026 18:55:26 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "bytesMatch": true,
+      "sha256Match": true,
+      "ok": true
+    },
+    {
+      "path": "/images/og/uni-note.png",
+      "kind": "uninote-open-graph",
+      "htmlReferences": [],
+      "selection": "Explicit requested Uni:Note Open Graph image",
+      "url": "https://kumakikai.github.io/images/og/uni-note.png",
+      "localPath": "public/images/og/uni-note.png",
+      "localBytes": 16947,
+      "localSHA256": "8176294f9a108aa0038350b8394da1893dd30761c8a996975a9ec49877fef5b0",
+      "httpStatus": 200,
+      "responseURL": "https://kumakikai.github.io/images/og/uni-note.png",
+      "contentType": "image/png",
+      "remoteBytes": 16947,
+      "remoteSHA256": "8176294f9a108aa0038350b8394da1893dd30761c8a996975a9ec49877fef5b0",
+      "headers": {
+        "ETag": "\"6a9db71e-4233\"",
+        "Last-Modified": "Sun, 06 Sep 2026 18:55:26 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "bytesMatch": true,
+      "sha256Match": true,
+      "ok": true
+    }
+  ],
+  "summary": {
+    "assetCount": 5,
+    "http200": 5,
+    "sha256Matches": 5,
+    "byteMatches": 5
+  },
+  "ok": true
+}
