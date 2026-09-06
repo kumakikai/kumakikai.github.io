@@ -1,0 +1,6 @@
+{{ $app := . }}{{ $copy := index site.Data.home site.Language.Lang }}
+<ul class="resource-links">{{ range slice "htu" "faq" "privacy" "terms" }}
+  {{ $path := printf "/%s/%s/" . $app.id }}{{ $page := site.GetPage $path }}{{ $fallback := (index site.Sites 0).GetPage $path }}
+  {{ if or $page $fallback }}{{ $labels := dict "htu" $copy.howTo "faq" $copy.faq "privacy" $copy.privacy "terms" $copy.terms }}
+  <li><a href="{{ if $page }}{{ $page.RelPermalink }}{{ else }}{{ $fallback.RelPermalink }}{{ end }}">{{ index $labels . }}{{ if not $page }} <span lang="ja">（日本語）</span>{{ end }} <span aria-hidden="true">↗</span></a></li>{{ end }}
+{{ end }}</ul>

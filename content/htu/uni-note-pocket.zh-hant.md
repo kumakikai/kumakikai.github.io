@@ -2,7 +2,7 @@
 title: "使用說明 (Uni:Note Pocket)"
 description: "Uni:Note Pocket 使用說明"
 aliases:
-  - /zh-hant/htu/uni-memo/
+  - /htu/uni-memo/
 ---
 
 Uni:Note Pocket 是一款**用來在 iPhone 上重新查看 Uni:Note 備份的輔助 App**。  

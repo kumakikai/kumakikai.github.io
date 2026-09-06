@@ -1,0 +1,4 @@
+{{ $copy := index site.Data.home site.Language.Lang }}
+<div class="hero-visual">
+{{ with site.Data.hero }}{{ range $index, $image := .images }}<div class="hero-device hero-device--{{ $image.id }}"><img src="{{ $image.small }}" srcset="{{ $image.small }} {{ $image.width }}w, {{ $image.large }} {{ $image.largeWidth }}w" sizes="{{ if eq $index 0 }}(max-width: 600px) 60vw, (max-width: 1000px) 350px, 310px{{ else }}(max-width: 600px) 28vw, 168px{{ end }}" width="{{ $image.width }}" height="{{ $image.height }}" alt="{{ index $image.alt site.Language.Lang }}" loading="eager"{{ if eq $index 0 }} fetchpriority="high"{{ end }} decoding="async"></div>{{ end }}{{ end }}
+</div>

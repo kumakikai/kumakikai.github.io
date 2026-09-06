@@ -2,7 +2,7 @@
 title: "Privacy Policy (Uni:Note Pocket)"
 description: "Privacy policy for Uni:Note Pocket."
 aliases:
-  - /en/privacy/uni-memo/
+  - /privacy/uni-memo/
 ---
 
 This privacy policy explains how user information is handled in Uni:Note Pocket ("the App") and on this official website.

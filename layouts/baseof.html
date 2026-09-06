@@ -1,0 +1,16 @@
+<!doctype html>
+{{/* Adapted from the pinned Hugoplate base: one shared shell, no demo plugins. */}}
+<html lang="{{ site.Language.LanguageCode }}" data-theme="auto">
+<head>
+  {{ partial "essentials/head.html" . }}
+  {{ with (templates.Defer (dict "key" "global-css")) }}{{ partial "essentials/style.html" . }}{{ end }}
+</head>
+<body class="flex flex-col min-h-screen">
+  <a class="skip-link" href="#main-content">{{ (index site.Data.home site.Language.Lang).skip }}</a>
+  {{ partial "essentials/header.html" . }}
+  <main id="main-content" class="grow" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+  {{ partial "essentials/footer.html" . }}
+  {{ $js := resources.Get "js/site.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+</body>
+</html>

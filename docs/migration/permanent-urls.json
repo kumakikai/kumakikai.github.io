@@ -1,0 +1,3441 @@
+{
+  "schema_version": 1,
+  "audited_on": "2026-09-07",
+  "site": "https://kumakikai.github.io",
+  "baseline_commit": "811d9e816f292562b42ba8395ac99683a031ff66",
+  "policy": "Preserve every existing public URL indefinitely. Original content pages must remain direct content with their original canonical URL. New company/product URLs are additive.",
+  "verification_scope": {
+    "candidate": "local public/ build only",
+    "asc_live_verified": false,
+    "public_http_verified": false,
+    "credentials_accessed": false,
+    "adjacent_repositories": "public docs, README and store/marketing metadata only",
+    "caveat": "Absence from repository docs does not prove a URL is unregistered in App Store Connect. Current external registration values require authenticated live verification.",
+    "status_note": "Existing /404.html files are explicit static URLs and should return HTTP 200; a nonexistent request path should return HTTP 404 with the custom 404 page."
+  },
+  "counts": {
+    "baseline_html_urls": 191,
+    "original_nonredirect_html": 138,
+    "original_redirect_aliases": 53,
+    "new_content_urls": 72,
+    "additional_aliases": 14,
+    "repaired_smokeless_aliases": 2,
+    "generated_taxonomy_aliases": 12,
+    "repository_url_evidence_records": 10
+  },
+  "preserved_original_content_urls": [
+    {
+      "url": "https://kumakikai.github.io/",
+      "route": "/",
+      "canonical": "https://kumakikai.github.io/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/404.html",
+      "route": "/404.html",
+      "canonical": "https://kumakikai.github.io/404.html",
+      "page_kind": "not_found",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/categories/",
+      "route": "/categories/",
+      "canonical": "https://kumakikai.github.io/categories/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/",
+      "route": "/de/",
+      "canonical": "https://kumakikai.github.io/de/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/404.html",
+      "route": "/de/404.html",
+      "canonical": "https://kumakikai.github.io/de/404.html",
+      "page_kind": "not_found",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/categories/",
+      "route": "/de/categories/",
+      "canonical": "https://kumakikai.github.io/de/categories/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/faq/",
+      "route": "/de/faq/",
+      "canonical": "https://kumakikai.github.io/de/faq/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/faq/uni-note-pocket/",
+      "route": "/de/faq/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/de/faq/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/faq/uni-note/",
+      "route": "/de/faq/uni-note/",
+      "canonical": "https://kumakikai.github.io/de/faq/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/htu/",
+      "route": "/de/htu/",
+      "canonical": "https://kumakikai.github.io/de/htu/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/htu/uni-note-pocket/",
+      "route": "/de/htu/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/de/htu/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/htu/uni-note/",
+      "route": "/de/htu/uni-note/",
+      "canonical": "https://kumakikai.github.io/de/htu/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/privacy/",
+      "route": "/de/privacy/",
+      "canonical": "https://kumakikai.github.io/de/privacy/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/privacy/uni-note-pocket/",
+      "route": "/de/privacy/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/de/privacy/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/privacy/uni-note/",
+      "route": "/de/privacy/uni-note/",
+      "canonical": "https://kumakikai.github.io/de/privacy/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/tags/",
+      "route": "/de/tags/",
+      "canonical": "https://kumakikai.github.io/de/tags/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/",
+      "route": "/en/",
+      "canonical": "https://kumakikai.github.io/en/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/404.html",
+      "route": "/en/404.html",
+      "canonical": "https://kumakikai.github.io/en/404.html",
+      "page_kind": "not_found",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/categories/",
+      "route": "/en/categories/",
+      "canonical": "https://kumakikai.github.io/en/categories/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/faq/",
+      "route": "/en/faq/",
+      "canonical": "https://kumakikai.github.io/en/faq/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/faq/smokeless/",
+      "route": "/en/faq/smokeless/",
+      "canonical": "https://kumakikai.github.io/en/faq/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/faq/uni-note-pocket/",
+      "route": "/en/faq/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/en/faq/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/faq/uni-note/",
+      "route": "/en/faq/uni-note/",
+      "canonical": "https://kumakikai.github.io/en/faq/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/htu/",
+      "route": "/en/htu/",
+      "canonical": "https://kumakikai.github.io/en/htu/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/htu/smokeless/",
+      "route": "/en/htu/smokeless/",
+      "canonical": "https://kumakikai.github.io/en/htu/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/htu/uni-note-pocket/",
+      "route": "/en/htu/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/en/htu/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/htu/uni-note/",
+      "route": "/en/htu/uni-note/",
+      "canonical": "https://kumakikai.github.io/en/htu/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/privacy/",
+      "route": "/en/privacy/",
+      "canonical": "https://kumakikai.github.io/en/privacy/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/privacy/smokeless/",
+      "route": "/en/privacy/smokeless/",
+      "canonical": "https://kumakikai.github.io/en/privacy/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/privacy/uni-note-pocket/",
+      "route": "/en/privacy/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/en/privacy/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/privacy/uni-note/",
+      "route": "/en/privacy/uni-note/",
+      "canonical": "https://kumakikai.github.io/en/privacy/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/tags/",
+      "route": "/en/tags/",
+      "canonical": "https://kumakikai.github.io/en/tags/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/",
+      "route": "/faq/",
+      "canonical": "https://kumakikai.github.io/faq/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/balance-calendar/",
+      "route": "/faq/balance-calendar/",
+      "canonical": "https://kumakikai.github.io/faq/balance-calendar/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/giga-poke/",
+      "route": "/faq/giga-poke/",
+      "canonical": "https://kumakikai.github.io/faq/giga-poke/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/nocca/",
+      "route": "/faq/nocca/",
+      "canonical": "https://kumakikai.github.io/faq/nocca/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/oto-miru/",
+      "route": "/faq/oto-miru/",
+      "canonical": "https://kumakikai.github.io/faq/oto-miru/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/page/2/",
+      "route": "/faq/page/2/",
+      "canonical": "https://kumakikai.github.io/faq/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/page/3/",
+      "route": "/faq/page/3/",
+      "canonical": "https://kumakikai.github.io/faq/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/signal/",
+      "route": "/faq/signal/",
+      "canonical": "https://kumakikai.github.io/faq/signal/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/smokeless/",
+      "route": "/faq/smokeless/",
+      "canonical": "https://kumakikai.github.io/faq/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/uni-note-pocket/",
+      "route": "/faq/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/faq/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/uni-note/",
+      "route": "/faq/uni-note/",
+      "canonical": "https://kumakikai.github.io/faq/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/",
+      "route": "/fr/",
+      "canonical": "https://kumakikai.github.io/fr/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/404.html",
+      "route": "/fr/404.html",
+      "canonical": "https://kumakikai.github.io/fr/404.html",
+      "page_kind": "not_found",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/categories/",
+      "route": "/fr/categories/",
+      "canonical": "https://kumakikai.github.io/fr/categories/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/faq/",
+      "route": "/fr/faq/",
+      "canonical": "https://kumakikai.github.io/fr/faq/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/faq/smokeless/",
+      "route": "/fr/faq/smokeless/",
+      "canonical": "https://kumakikai.github.io/fr/faq/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/faq/uni-note-pocket/",
+      "route": "/fr/faq/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/fr/faq/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/faq/uni-note/",
+      "route": "/fr/faq/uni-note/",
+      "canonical": "https://kumakikai.github.io/fr/faq/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/htu/",
+      "route": "/fr/htu/",
+      "canonical": "https://kumakikai.github.io/fr/htu/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/htu/smokeless/",
+      "route": "/fr/htu/smokeless/",
+      "canonical": "https://kumakikai.github.io/fr/htu/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/htu/uni-note-pocket/",
+      "route": "/fr/htu/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/fr/htu/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/htu/uni-note/",
+      "route": "/fr/htu/uni-note/",
+      "canonical": "https://kumakikai.github.io/fr/htu/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/privacy/",
+      "route": "/fr/privacy/",
+      "canonical": "https://kumakikai.github.io/fr/privacy/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/privacy/smokeless/",
+      "route": "/fr/privacy/smokeless/",
+      "canonical": "https://kumakikai.github.io/fr/privacy/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/privacy/uni-note-pocket/",
+      "route": "/fr/privacy/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/fr/privacy/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/privacy/uni-note/",
+      "route": "/fr/privacy/uni-note/",
+      "canonical": "https://kumakikai.github.io/fr/privacy/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/tags/",
+      "route": "/fr/tags/",
+      "canonical": "https://kumakikai.github.io/fr/tags/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/",
+      "route": "/htu/",
+      "canonical": "https://kumakikai.github.io/htu/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/balance-calendar/",
+      "route": "/htu/balance-calendar/",
+      "canonical": "https://kumakikai.github.io/htu/balance-calendar/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/giga-poke/",
+      "route": "/htu/giga-poke/",
+      "canonical": "https://kumakikai.github.io/htu/giga-poke/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/nocca/",
+      "route": "/htu/nocca/",
+      "canonical": "https://kumakikai.github.io/htu/nocca/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/oto-miru/",
+      "route": "/htu/oto-miru/",
+      "canonical": "https://kumakikai.github.io/htu/oto-miru/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/page/2/",
+      "route": "/htu/page/2/",
+      "canonical": "https://kumakikai.github.io/htu/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/page/3/",
+      "route": "/htu/page/3/",
+      "canonical": "https://kumakikai.github.io/htu/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/signal/",
+      "route": "/htu/signal/",
+      "canonical": "https://kumakikai.github.io/htu/signal/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/smokeless/",
+      "route": "/htu/smokeless/",
+      "canonical": "https://kumakikai.github.io/htu/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/uni-note-pocket/",
+      "route": "/htu/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/htu/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/uni-note/",
+      "route": "/htu/uni-note/",
+      "canonical": "https://kumakikai.github.io/htu/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/",
+      "route": "/ko/",
+      "canonical": "https://kumakikai.github.io/ko/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/404.html",
+      "route": "/ko/404.html",
+      "canonical": "https://kumakikai.github.io/ko/404.html",
+      "page_kind": "not_found",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/categories/",
+      "route": "/ko/categories/",
+      "canonical": "https://kumakikai.github.io/ko/categories/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/faq/",
+      "route": "/ko/faq/",
+      "canonical": "https://kumakikai.github.io/ko/faq/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/faq/smokeless/",
+      "route": "/ko/faq/smokeless/",
+      "canonical": "https://kumakikai.github.io/ko/faq/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/faq/uni-note-pocket/",
+      "route": "/ko/faq/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/ko/faq/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/faq/uni-note/",
+      "route": "/ko/faq/uni-note/",
+      "canonical": "https://kumakikai.github.io/ko/faq/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/htu/",
+      "route": "/ko/htu/",
+      "canonical": "https://kumakikai.github.io/ko/htu/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/htu/smokeless/",
+      "route": "/ko/htu/smokeless/",
+      "canonical": "https://kumakikai.github.io/ko/htu/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/htu/uni-note-pocket/",
+      "route": "/ko/htu/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/ko/htu/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/htu/uni-note/",
+      "route": "/ko/htu/uni-note/",
+      "canonical": "https://kumakikai.github.io/ko/htu/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/privacy/",
+      "route": "/ko/privacy/",
+      "canonical": "https://kumakikai.github.io/ko/privacy/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/privacy/smokeless/",
+      "route": "/ko/privacy/smokeless/",
+      "canonical": "https://kumakikai.github.io/ko/privacy/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/privacy/uni-note-pocket/",
+      "route": "/ko/privacy/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/ko/privacy/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/privacy/uni-note/",
+      "route": "/ko/privacy/uni-note/",
+      "canonical": "https://kumakikai.github.io/ko/privacy/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/tags/",
+      "route": "/ko/tags/",
+      "canonical": "https://kumakikai.github.io/ko/tags/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/",
+      "route": "/notes/",
+      "canonical": "https://kumakikai.github.io/notes/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-01-23-introduction/",
+      "route": "/notes/2026-01-23-introduction/",
+      "canonical": "https://kumakikai.github.io/notes/2026-01-23-introduction/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-01-26-roadmap/",
+      "route": "/notes/2026-01-26-roadmap/",
+      "canonical": "https://kumakikai.github.io/notes/2026-01-26-roadmap/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-01-27-philosophy/",
+      "route": "/notes/2026-01-27-philosophy/",
+      "canonical": "https://kumakikai.github.io/notes/2026-01-27-philosophy/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-02-14-blog/",
+      "route": "/notes/2026-02-14-blog/",
+      "canonical": "https://kumakikai.github.io/notes/2026-02-14-blog/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-02-22-signal/",
+      "route": "/notes/2026-02-22-signal/",
+      "canonical": "https://kumakikai.github.io/notes/2026-02-22-signal/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-03-12-uni-note/",
+      "route": "/notes/2026-03-12-uni-note/",
+      "canonical": "https://kumakikai.github.io/notes/2026-03-12-uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-03-13-blog/",
+      "route": "/notes/2026-03-13-blog/",
+      "canonical": "https://kumakikai.github.io/notes/2026-03-13-blog/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-03-21-smokeless/",
+      "route": "/notes/2026-03-21-smokeless/",
+      "canonical": "https://kumakikai.github.io/notes/2026-03-21-smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-03-25-blog/",
+      "route": "/notes/2026-03-25-blog/",
+      "canonical": "https://kumakikai.github.io/notes/2026-03-25-blog/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-04-01-uni-note-pocket/",
+      "route": "/notes/2026-04-01-uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/notes/2026-04-01-uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-04-12-uni-note-10000/",
+      "route": "/notes/2026-04-12-uni-note-10000/",
+      "canonical": "https://kumakikai.github.io/notes/2026-04-12-uni-note-10000/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-05-19-oto-miru/",
+      "route": "/notes/2026-05-19-oto-miru/",
+      "canonical": "https://kumakikai.github.io/notes/2026-05-19-oto-miru/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-05-26-android-release/",
+      "route": "/notes/2026-05-26-android-release/",
+      "canonical": "https://kumakikai.github.io/notes/2026-05-26-android-release/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-09-02-giga-poke/",
+      "route": "/notes/2026-09-02-giga-poke/",
+      "canonical": "https://kumakikai.github.io/notes/2026-09-02-giga-poke/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+      "route": "/notes/2026-09-06-nocca/",
+      "canonical": "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/page/2/",
+      "route": "/notes/page/2/",
+      "canonical": "https://kumakikai.github.io/notes/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/page/3/",
+      "route": "/notes/page/3/",
+      "canonical": "https://kumakikai.github.io/notes/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/page/4/",
+      "route": "/notes/page/4/",
+      "canonical": "https://kumakikai.github.io/notes/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/page/5/",
+      "route": "/notes/page/5/",
+      "canonical": "https://kumakikai.github.io/notes/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/",
+      "route": "/privacy/",
+      "canonical": "https://kumakikai.github.io/privacy/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/balance-calendar/",
+      "route": "/privacy/balance-calendar/",
+      "canonical": "https://kumakikai.github.io/privacy/balance-calendar/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/giga-poke/",
+      "route": "/privacy/giga-poke/",
+      "canonical": "https://kumakikai.github.io/privacy/giga-poke/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/nocca/",
+      "route": "/privacy/nocca/",
+      "canonical": "https://kumakikai.github.io/privacy/nocca/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/oto-miru/",
+      "route": "/privacy/oto-miru/",
+      "canonical": "https://kumakikai.github.io/privacy/oto-miru/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/page/2/",
+      "route": "/privacy/page/2/",
+      "canonical": "https://kumakikai.github.io/privacy/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/page/3/",
+      "route": "/privacy/page/3/",
+      "canonical": "https://kumakikai.github.io/privacy/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/signal/",
+      "route": "/privacy/signal/",
+      "canonical": "https://kumakikai.github.io/privacy/signal/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/smokeless/",
+      "route": "/privacy/smokeless/",
+      "canonical": "https://kumakikai.github.io/privacy/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/uni-note-pocket/",
+      "route": "/privacy/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/privacy/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/uni-note/",
+      "route": "/privacy/uni-note/",
+      "canonical": "https://kumakikai.github.io/privacy/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/tags/",
+      "route": "/tags/",
+      "canonical": "https://kumakikai.github.io/tags/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/terms/",
+      "route": "/terms/",
+      "canonical": "https://kumakikai.github.io/terms/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/terms/giga-poke/",
+      "route": "/terms/giga-poke/",
+      "canonical": "https://kumakikai.github.io/terms/giga-poke/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/terms/nocca/",
+      "route": "/terms/nocca/",
+      "canonical": "https://kumakikai.github.io/terms/nocca/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/terms/oto-miru/",
+      "route": "/terms/oto-miru/",
+      "canonical": "https://kumakikai.github.io/terms/oto-miru/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/",
+      "route": "/zh-hant/",
+      "canonical": "https://kumakikai.github.io/zh-hant/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/404.html",
+      "route": "/zh-hant/404.html",
+      "canonical": "https://kumakikai.github.io/zh-hant/404.html",
+      "page_kind": "not_found",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/categories/",
+      "route": "/zh-hant/categories/",
+      "canonical": "https://kumakikai.github.io/zh-hant/categories/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/faq/",
+      "route": "/zh-hant/faq/",
+      "canonical": "https://kumakikai.github.io/zh-hant/faq/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/faq/smokeless/",
+      "route": "/zh-hant/faq/smokeless/",
+      "canonical": "https://kumakikai.github.io/zh-hant/faq/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/",
+      "route": "/zh-hant/faq/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/faq/uni-note/",
+      "route": "/zh-hant/faq/uni-note/",
+      "canonical": "https://kumakikai.github.io/zh-hant/faq/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/htu/",
+      "route": "/zh-hant/htu/",
+      "canonical": "https://kumakikai.github.io/zh-hant/htu/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/htu/smokeless/",
+      "route": "/zh-hant/htu/smokeless/",
+      "canonical": "https://kumakikai.github.io/zh-hant/htu/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/",
+      "route": "/zh-hant/htu/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/htu/uni-note/",
+      "route": "/zh-hant/htu/uni-note/",
+      "canonical": "https://kumakikai.github.io/zh-hant/htu/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/privacy/",
+      "route": "/zh-hant/privacy/",
+      "canonical": "https://kumakikai.github.io/zh-hant/privacy/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/privacy/smokeless/",
+      "route": "/zh-hant/privacy/smokeless/",
+      "canonical": "https://kumakikai.github.io/zh-hant/privacy/smokeless/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/",
+      "route": "/zh-hant/privacy/uni-note-pocket/",
+      "canonical": "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/privacy/uni-note/",
+      "route": "/zh-hant/privacy/uni-note/",
+      "canonical": "https://kumakikai.github.io/zh-hant/privacy/uni-note/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/tags/",
+      "route": "/zh-hant/tags/",
+      "canonical": "https://kumakikai.github.io/zh-hant/tags/",
+      "page_kind": "content",
+      "expected_live_status": 200,
+      "local_content_exists": true,
+      "policy": "never replace with redirect; preserve original canonical"
+    }
+  ],
+  "new_content_urls": [
+    {
+      "url": "https://kumakikai.github.io/products/",
+      "route": "/products/",
+      "language": "ja",
+      "kind": "section",
+      "source": "content/products/_index.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/support/",
+      "route": "/support/",
+      "language": "ja",
+      "kind": "section",
+      "source": "content/support/_index.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/news/",
+      "route": "/news/",
+      "language": "ja",
+      "kind": "section",
+      "source": "content/news/_index.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/company/",
+      "route": "/company/",
+      "language": "ja",
+      "kind": "section",
+      "source": "content/company/_index.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/products/uni-note/",
+      "route": "/products/uni-note/",
+      "language": "ja",
+      "kind": "product",
+      "app_id": "uni-note",
+      "source": "content/products/uni-note.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/products/oto-miru/",
+      "route": "/products/oto-miru/",
+      "language": "ja",
+      "kind": "product",
+      "app_id": "oto-miru",
+      "source": "content/products/oto-miru.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/products/giga-poke/",
+      "route": "/products/giga-poke/",
+      "language": "ja",
+      "kind": "product",
+      "app_id": "giga-poke",
+      "source": "content/products/giga-poke.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/products/nocca/",
+      "route": "/products/nocca/",
+      "language": "ja",
+      "kind": "product",
+      "app_id": "nocca",
+      "source": "content/products/nocca.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/products/uni-note-pocket/",
+      "route": "/products/uni-note-pocket/",
+      "language": "ja",
+      "kind": "product",
+      "app_id": "uni-note-pocket",
+      "source": "content/products/uni-note-pocket.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/products/balance-calendar/",
+      "route": "/products/balance-calendar/",
+      "language": "ja",
+      "kind": "product",
+      "app_id": "balance-calendar",
+      "source": "content/products/balance-calendar.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/products/smokeless/",
+      "route": "/products/smokeless/",
+      "language": "ja",
+      "kind": "product",
+      "app_id": "smokeless",
+      "source": "content/products/smokeless.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/products/signal/",
+      "route": "/products/signal/",
+      "language": "ja",
+      "kind": "product",
+      "app_id": "signal",
+      "source": "content/products/signal.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/",
+      "route": "/en/products/",
+      "language": "en",
+      "kind": "section",
+      "source": "content/products/_index.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/support/",
+      "route": "/en/support/",
+      "language": "en",
+      "kind": "section",
+      "source": "content/support/_index.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/news/",
+      "route": "/en/news/",
+      "language": "en",
+      "kind": "section",
+      "source": "content/news/_index.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/company/",
+      "route": "/en/company/",
+      "language": "en",
+      "kind": "section",
+      "source": "content/company/_index.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/uni-note/",
+      "route": "/en/products/uni-note/",
+      "language": "en",
+      "kind": "product",
+      "app_id": "uni-note",
+      "source": "content/products/uni-note.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/oto-miru/",
+      "route": "/en/products/oto-miru/",
+      "language": "en",
+      "kind": "product",
+      "app_id": "oto-miru",
+      "source": "content/products/oto-miru.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/giga-poke/",
+      "route": "/en/products/giga-poke/",
+      "language": "en",
+      "kind": "product",
+      "app_id": "giga-poke",
+      "source": "content/products/giga-poke.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/nocca/",
+      "route": "/en/products/nocca/",
+      "language": "en",
+      "kind": "product",
+      "app_id": "nocca",
+      "source": "content/products/nocca.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/uni-note-pocket/",
+      "route": "/en/products/uni-note-pocket/",
+      "language": "en",
+      "kind": "product",
+      "app_id": "uni-note-pocket",
+      "source": "content/products/uni-note-pocket.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/balance-calendar/",
+      "route": "/en/products/balance-calendar/",
+      "language": "en",
+      "kind": "product",
+      "app_id": "balance-calendar",
+      "source": "content/products/balance-calendar.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/smokeless/",
+      "route": "/en/products/smokeless/",
+      "language": "en",
+      "kind": "product",
+      "app_id": "smokeless",
+      "source": "content/products/smokeless.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/signal/",
+      "route": "/en/products/signal/",
+      "language": "en",
+      "kind": "product",
+      "app_id": "signal",
+      "source": "content/products/signal.en.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/",
+      "route": "/ko/products/",
+      "language": "ko",
+      "kind": "section",
+      "source": "content/products/_index.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/support/",
+      "route": "/ko/support/",
+      "language": "ko",
+      "kind": "section",
+      "source": "content/support/_index.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/news/",
+      "route": "/ko/news/",
+      "language": "ko",
+      "kind": "section",
+      "source": "content/news/_index.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/company/",
+      "route": "/ko/company/",
+      "language": "ko",
+      "kind": "section",
+      "source": "content/company/_index.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/uni-note/",
+      "route": "/ko/products/uni-note/",
+      "language": "ko",
+      "kind": "product",
+      "app_id": "uni-note",
+      "source": "content/products/uni-note.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/oto-miru/",
+      "route": "/ko/products/oto-miru/",
+      "language": "ko",
+      "kind": "product",
+      "app_id": "oto-miru",
+      "source": "content/products/oto-miru.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/giga-poke/",
+      "route": "/ko/products/giga-poke/",
+      "language": "ko",
+      "kind": "product",
+      "app_id": "giga-poke",
+      "source": "content/products/giga-poke.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/nocca/",
+      "route": "/ko/products/nocca/",
+      "language": "ko",
+      "kind": "product",
+      "app_id": "nocca",
+      "source": "content/products/nocca.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/uni-note-pocket/",
+      "route": "/ko/products/uni-note-pocket/",
+      "language": "ko",
+      "kind": "product",
+      "app_id": "uni-note-pocket",
+      "source": "content/products/uni-note-pocket.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/balance-calendar/",
+      "route": "/ko/products/balance-calendar/",
+      "language": "ko",
+      "kind": "product",
+      "app_id": "balance-calendar",
+      "source": "content/products/balance-calendar.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/smokeless/",
+      "route": "/ko/products/smokeless/",
+      "language": "ko",
+      "kind": "product",
+      "app_id": "smokeless",
+      "source": "content/products/smokeless.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/signal/",
+      "route": "/ko/products/signal/",
+      "language": "ko",
+      "kind": "product",
+      "app_id": "signal",
+      "source": "content/products/signal.ko.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/",
+      "route": "/de/products/",
+      "language": "de",
+      "kind": "section",
+      "source": "content/products/_index.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/support/",
+      "route": "/de/support/",
+      "language": "de",
+      "kind": "section",
+      "source": "content/support/_index.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/news/",
+      "route": "/de/news/",
+      "language": "de",
+      "kind": "section",
+      "source": "content/news/_index.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/company/",
+      "route": "/de/company/",
+      "language": "de",
+      "kind": "section",
+      "source": "content/company/_index.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/uni-note/",
+      "route": "/de/products/uni-note/",
+      "language": "de",
+      "kind": "product",
+      "app_id": "uni-note",
+      "source": "content/products/uni-note.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/oto-miru/",
+      "route": "/de/products/oto-miru/",
+      "language": "de",
+      "kind": "product",
+      "app_id": "oto-miru",
+      "source": "content/products/oto-miru.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/giga-poke/",
+      "route": "/de/products/giga-poke/",
+      "language": "de",
+      "kind": "product",
+      "app_id": "giga-poke",
+      "source": "content/products/giga-poke.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/nocca/",
+      "route": "/de/products/nocca/",
+      "language": "de",
+      "kind": "product",
+      "app_id": "nocca",
+      "source": "content/products/nocca.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/uni-note-pocket/",
+      "route": "/de/products/uni-note-pocket/",
+      "language": "de",
+      "kind": "product",
+      "app_id": "uni-note-pocket",
+      "source": "content/products/uni-note-pocket.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/balance-calendar/",
+      "route": "/de/products/balance-calendar/",
+      "language": "de",
+      "kind": "product",
+      "app_id": "balance-calendar",
+      "source": "content/products/balance-calendar.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/smokeless/",
+      "route": "/de/products/smokeless/",
+      "language": "de",
+      "kind": "product",
+      "app_id": "smokeless",
+      "source": "content/products/smokeless.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/signal/",
+      "route": "/de/products/signal/",
+      "language": "de",
+      "kind": "product",
+      "app_id": "signal",
+      "source": "content/products/signal.de.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/",
+      "route": "/zh-hant/products/",
+      "language": "zh-hant",
+      "kind": "section",
+      "source": "content/products/_index.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/support/",
+      "route": "/zh-hant/support/",
+      "language": "zh-hant",
+      "kind": "section",
+      "source": "content/support/_index.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/news/",
+      "route": "/zh-hant/news/",
+      "language": "zh-hant",
+      "kind": "section",
+      "source": "content/news/_index.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/company/",
+      "route": "/zh-hant/company/",
+      "language": "zh-hant",
+      "kind": "section",
+      "source": "content/company/_index.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/uni-note/",
+      "route": "/zh-hant/products/uni-note/",
+      "language": "zh-hant",
+      "kind": "product",
+      "app_id": "uni-note",
+      "source": "content/products/uni-note.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/oto-miru/",
+      "route": "/zh-hant/products/oto-miru/",
+      "language": "zh-hant",
+      "kind": "product",
+      "app_id": "oto-miru",
+      "source": "content/products/oto-miru.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/giga-poke/",
+      "route": "/zh-hant/products/giga-poke/",
+      "language": "zh-hant",
+      "kind": "product",
+      "app_id": "giga-poke",
+      "source": "content/products/giga-poke.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/nocca/",
+      "route": "/zh-hant/products/nocca/",
+      "language": "zh-hant",
+      "kind": "product",
+      "app_id": "nocca",
+      "source": "content/products/nocca.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/uni-note-pocket/",
+      "route": "/zh-hant/products/uni-note-pocket/",
+      "language": "zh-hant",
+      "kind": "product",
+      "app_id": "uni-note-pocket",
+      "source": "content/products/uni-note-pocket.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/balance-calendar/",
+      "route": "/zh-hant/products/balance-calendar/",
+      "language": "zh-hant",
+      "kind": "product",
+      "app_id": "balance-calendar",
+      "source": "content/products/balance-calendar.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/smokeless/",
+      "route": "/zh-hant/products/smokeless/",
+      "language": "zh-hant",
+      "kind": "product",
+      "app_id": "smokeless",
+      "source": "content/products/smokeless.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/signal/",
+      "route": "/zh-hant/products/signal/",
+      "language": "zh-hant",
+      "kind": "product",
+      "app_id": "signal",
+      "source": "content/products/signal.zh-hant.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/",
+      "route": "/fr/products/",
+      "language": "fr",
+      "kind": "section",
+      "source": "content/products/_index.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/support/",
+      "route": "/fr/support/",
+      "language": "fr",
+      "kind": "section",
+      "source": "content/support/_index.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/news/",
+      "route": "/fr/news/",
+      "language": "fr",
+      "kind": "section",
+      "source": "content/news/_index.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/company/",
+      "route": "/fr/company/",
+      "language": "fr",
+      "kind": "section",
+      "source": "content/company/_index.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/uni-note/",
+      "route": "/fr/products/uni-note/",
+      "language": "fr",
+      "kind": "product",
+      "app_id": "uni-note",
+      "source": "content/products/uni-note.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/oto-miru/",
+      "route": "/fr/products/oto-miru/",
+      "language": "fr",
+      "kind": "product",
+      "app_id": "oto-miru",
+      "source": "content/products/oto-miru.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/giga-poke/",
+      "route": "/fr/products/giga-poke/",
+      "language": "fr",
+      "kind": "product",
+      "app_id": "giga-poke",
+      "source": "content/products/giga-poke.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/nocca/",
+      "route": "/fr/products/nocca/",
+      "language": "fr",
+      "kind": "product",
+      "app_id": "nocca",
+      "source": "content/products/nocca.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/uni-note-pocket/",
+      "route": "/fr/products/uni-note-pocket/",
+      "language": "fr",
+      "kind": "product",
+      "app_id": "uni-note-pocket",
+      "source": "content/products/uni-note-pocket.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/balance-calendar/",
+      "route": "/fr/products/balance-calendar/",
+      "language": "fr",
+      "kind": "product",
+      "app_id": "balance-calendar",
+      "source": "content/products/balance-calendar.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/smokeless/",
+      "route": "/fr/products/smokeless/",
+      "language": "fr",
+      "kind": "product",
+      "app_id": "smokeless",
+      "source": "content/products/smokeless.fr.md"
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/signal/",
+      "route": "/fr/products/signal/",
+      "language": "fr",
+      "kind": "product",
+      "app_id": "signal",
+      "source": "content/products/signal.fr.md"
+    }
+  ],
+  "compatibility": {
+    "original_aliases": [
+      {
+        "url": "https://kumakikai.github.io/de/faq/page/1/",
+        "route": "/de/faq/page/1/",
+        "target": "https://kumakikai.github.io/de/faq/",
+        "canonical": "https://kumakikai.github.io/de/faq/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/de/faq/uni-memo/",
+        "route": "/de/faq/uni-memo/",
+        "target": "https://kumakikai.github.io/de/faq/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/de/faq/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/de/htu/page/1/",
+        "route": "/de/htu/page/1/",
+        "target": "https://kumakikai.github.io/de/htu/",
+        "canonical": "https://kumakikai.github.io/de/htu/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/de/htu/uni-memo/",
+        "route": "/de/htu/uni-memo/",
+        "target": "https://kumakikai.github.io/de/htu/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/de/htu/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/de/page/1/",
+        "route": "/de/page/1/",
+        "target": "https://kumakikai.github.io/de/",
+        "canonical": "https://kumakikai.github.io/de/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/de/privacy/page/1/",
+        "route": "/de/privacy/page/1/",
+        "target": "https://kumakikai.github.io/de/privacy/",
+        "canonical": "https://kumakikai.github.io/de/privacy/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/de/privacy/uni-memo/",
+        "route": "/de/privacy/uni-memo/",
+        "target": "https://kumakikai.github.io/de/privacy/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/de/privacy/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/en/faq/page/1/",
+        "route": "/en/faq/page/1/",
+        "target": "https://kumakikai.github.io/en/faq/",
+        "canonical": "https://kumakikai.github.io/en/faq/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/en/faq/uni-memo/",
+        "route": "/en/faq/uni-memo/",
+        "target": "https://kumakikai.github.io/en/faq/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/en/faq/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/en/htu/page/1/",
+        "route": "/en/htu/page/1/",
+        "target": "https://kumakikai.github.io/en/htu/",
+        "canonical": "https://kumakikai.github.io/en/htu/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/en/htu/uni-memo/",
+        "route": "/en/htu/uni-memo/",
+        "target": "https://kumakikai.github.io/en/htu/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/en/htu/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/en/page/1/",
+        "route": "/en/page/1/",
+        "target": "https://kumakikai.github.io/en/",
+        "canonical": "https://kumakikai.github.io/en/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/en/privacy/page/1/",
+        "route": "/en/privacy/page/1/",
+        "target": "https://kumakikai.github.io/en/privacy/",
+        "canonical": "https://kumakikai.github.io/en/privacy/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/en/privacy/uni-memo/",
+        "route": "/en/privacy/uni-memo/",
+        "target": "https://kumakikai.github.io/en/privacy/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/en/privacy/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/faq/page/1/",
+        "route": "/faq/page/1/",
+        "target": "https://kumakikai.github.io/faq/",
+        "canonical": "https://kumakikai.github.io/faq/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/faq/povo-manager/",
+        "route": "/faq/povo-manager/",
+        "target": "https://kumakikai.github.io/faq/giga-poke/",
+        "canonical": "https://kumakikai.github.io/faq/giga-poke/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/faq/uni-memo/",
+        "route": "/faq/uni-memo/",
+        "target": "https://kumakikai.github.io/faq/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/faq/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/fr/faq/page/1/",
+        "route": "/fr/faq/page/1/",
+        "target": "https://kumakikai.github.io/fr/faq/",
+        "canonical": "https://kumakikai.github.io/fr/faq/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/fr/faq/uni-memo/",
+        "route": "/fr/faq/uni-memo/",
+        "target": "https://kumakikai.github.io/fr/faq/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/fr/faq/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/fr/htu/page/1/",
+        "route": "/fr/htu/page/1/",
+        "target": "https://kumakikai.github.io/fr/htu/",
+        "canonical": "https://kumakikai.github.io/fr/htu/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/fr/htu/uni-memo/",
+        "route": "/fr/htu/uni-memo/",
+        "target": "https://kumakikai.github.io/fr/htu/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/fr/htu/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/fr/page/1/",
+        "route": "/fr/page/1/",
+        "target": "https://kumakikai.github.io/fr/",
+        "canonical": "https://kumakikai.github.io/fr/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/fr/privacy/page/1/",
+        "route": "/fr/privacy/page/1/",
+        "target": "https://kumakikai.github.io/fr/privacy/",
+        "canonical": "https://kumakikai.github.io/fr/privacy/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/fr/privacy/uni-memo/",
+        "route": "/fr/privacy/uni-memo/",
+        "target": "https://kumakikai.github.io/fr/privacy/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/fr/privacy/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/htu/page/1/",
+        "route": "/htu/page/1/",
+        "target": "https://kumakikai.github.io/htu/",
+        "canonical": "https://kumakikai.github.io/htu/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/htu/povo-manager/",
+        "route": "/htu/povo-manager/",
+        "target": "https://kumakikai.github.io/htu/giga-poke/",
+        "canonical": "https://kumakikai.github.io/htu/giga-poke/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/htu/uni-memo/",
+        "route": "/htu/uni-memo/",
+        "target": "https://kumakikai.github.io/htu/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/htu/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ja/",
+        "route": "/ja/",
+        "target": "https://kumakikai.github.io/",
+        "canonical": "https://kumakikai.github.io/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ko/faq/page/1/",
+        "route": "/ko/faq/page/1/",
+        "target": "https://kumakikai.github.io/ko/faq/",
+        "canonical": "https://kumakikai.github.io/ko/faq/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ko/faq/uni-memo/",
+        "route": "/ko/faq/uni-memo/",
+        "target": "https://kumakikai.github.io/ko/faq/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/ko/faq/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ko/htu/page/1/",
+        "route": "/ko/htu/page/1/",
+        "target": "https://kumakikai.github.io/ko/htu/",
+        "canonical": "https://kumakikai.github.io/ko/htu/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ko/htu/uni-memo/",
+        "route": "/ko/htu/uni-memo/",
+        "target": "https://kumakikai.github.io/ko/htu/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/ko/htu/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ko/page/1/",
+        "route": "/ko/page/1/",
+        "target": "https://kumakikai.github.io/ko/",
+        "canonical": "https://kumakikai.github.io/ko/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ko/privacy/page/1/",
+        "route": "/ko/privacy/page/1/",
+        "target": "https://kumakikai.github.io/ko/privacy/",
+        "canonical": "https://kumakikai.github.io/ko/privacy/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ko/privacy/uni-memo/",
+        "route": "/ko/privacy/uni-memo/",
+        "target": "https://kumakikai.github.io/ko/privacy/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/ko/privacy/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/notes/page/1/",
+        "route": "/notes/page/1/",
+        "target": "https://kumakikai.github.io/notes/",
+        "canonical": "https://kumakikai.github.io/notes/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/page/1/",
+        "route": "/page/1/",
+        "target": "https://kumakikai.github.io/",
+        "canonical": "https://kumakikai.github.io/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/page/2/",
+        "route": "/page/2/",
+        "target": "https://kumakikai.github.io/",
+        "canonical": "https://kumakikai.github.io/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/page/3/",
+        "route": "/page/3/",
+        "target": "https://kumakikai.github.io/",
+        "canonical": "https://kumakikai.github.io/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/page/4/",
+        "route": "/page/4/",
+        "target": "https://kumakikai.github.io/",
+        "canonical": "https://kumakikai.github.io/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/page/5/",
+        "route": "/page/5/",
+        "target": "https://kumakikai.github.io/",
+        "canonical": "https://kumakikai.github.io/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/privacy/page/1/",
+        "route": "/privacy/page/1/",
+        "target": "https://kumakikai.github.io/privacy/",
+        "canonical": "https://kumakikai.github.io/privacy/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/privacy/povo-manager/",
+        "route": "/privacy/povo-manager/",
+        "target": "https://kumakikai.github.io/privacy/giga-poke/",
+        "canonical": "https://kumakikai.github.io/privacy/giga-poke/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/privacy/uni-memo/",
+        "route": "/privacy/uni-memo/",
+        "target": "https://kumakikai.github.io/privacy/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/privacy/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/terms/page/1/",
+        "route": "/terms/page/1/",
+        "target": "https://kumakikai.github.io/terms/",
+        "canonical": "https://kumakikai.github.io/terms/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/terms/povo-manager/",
+        "route": "/terms/povo-manager/",
+        "target": "https://kumakikai.github.io/terms/giga-poke/",
+        "canonical": "https://kumakikai.github.io/terms/giga-poke/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/zh-hant/faq/page/1/",
+        "route": "/zh-hant/faq/page/1/",
+        "target": "https://kumakikai.github.io/zh-hant/faq/",
+        "canonical": "https://kumakikai.github.io/zh-hant/faq/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/zh-hant/faq/uni-memo/",
+        "route": "/zh-hant/faq/uni-memo/",
+        "target": "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/zh-hant/htu/page/1/",
+        "route": "/zh-hant/htu/page/1/",
+        "target": "https://kumakikai.github.io/zh-hant/htu/",
+        "canonical": "https://kumakikai.github.io/zh-hant/htu/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/zh-hant/htu/uni-memo/",
+        "route": "/zh-hant/htu/uni-memo/",
+        "target": "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/zh-hant/page/1/",
+        "route": "/zh-hant/page/1/",
+        "target": "https://kumakikai.github.io/zh-hant/",
+        "canonical": "https://kumakikai.github.io/zh-hant/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/zh-hant/privacy/page/1/",
+        "route": "/zh-hant/privacy/page/1/",
+        "target": "https://kumakikai.github.io/zh-hant/privacy/",
+        "canonical": "https://kumakikai.github.io/zh-hant/privacy/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/zh-hant/privacy/uni-memo/",
+        "route": "/zh-hant/privacy/uni-memo/",
+        "target": "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/",
+        "canonical": "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/",
+        "introduced": "before migration",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      }
+    ],
+    "additional_aliases": [
+      {
+        "url": "https://kumakikai.github.io/categories/page/1/",
+        "route": "/categories/page/1/",
+        "target": "https://kumakikai.github.io/categories/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/de/categories/page/1/",
+        "route": "/de/categories/page/1/",
+        "target": "https://kumakikai.github.io/de/categories/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/de/tags/page/1/",
+        "route": "/de/tags/page/1/",
+        "target": "https://kumakikai.github.io/de/tags/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/en/categories/page/1/",
+        "route": "/en/categories/page/1/",
+        "target": "https://kumakikai.github.io/en/categories/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/en/tags/page/1/",
+        "route": "/en/tags/page/1/",
+        "target": "https://kumakikai.github.io/en/tags/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/fr/categories/page/1/",
+        "route": "/fr/categories/page/1/",
+        "target": "https://kumakikai.github.io/fr/categories/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/fr/tags/page/1/",
+        "route": "/fr/tags/page/1/",
+        "target": "https://kumakikai.github.io/fr/tags/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/htu/smoke-less/",
+        "route": "/htu/smoke-less/",
+        "target": "https://kumakikai.github.io/htu/smokeless/",
+        "reason": "repair old smokeless article typo",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ko/categories/page/1/",
+        "route": "/ko/categories/page/1/",
+        "target": "https://kumakikai.github.io/ko/categories/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/ko/tags/page/1/",
+        "route": "/ko/tags/page/1/",
+        "target": "https://kumakikai.github.io/ko/tags/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/privacy/smoke-less/",
+        "route": "/privacy/smoke-less/",
+        "target": "https://kumakikai.github.io/privacy/smokeless/",
+        "reason": "repair old smokeless article typo",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/tags/page/1/",
+        "route": "/tags/page/1/",
+        "target": "https://kumakikai.github.io/tags/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/zh-hant/categories/page/1/",
+        "route": "/zh-hant/categories/page/1/",
+        "target": "https://kumakikai.github.io/zh-hant/categories/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      },
+      {
+        "url": "https://kumakikai.github.io/zh-hant/tags/page/1/",
+        "route": "/zh-hant/tags/page/1/",
+        "target": "https://kumakikai.github.io/zh-hant/tags/",
+        "reason": "Hugo taxonomy first-page alias",
+        "mechanism": "static HTML canonical + immediate meta refresh; no JavaScript required; not HTTP 301"
+      }
+    ],
+    "source_normalizations": [
+      {
+        "repository": "homepage",
+        "source": "content/faq/uni-note-pocket.en.md",
+        "old_alias_frontmatter": "/en/faq/uni-memo/",
+        "new_alias_frontmatter": "/faq/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/en/faq/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/htu/uni-note-pocket.en.md",
+        "old_alias_frontmatter": "/en/htu/uni-memo/",
+        "new_alias_frontmatter": "/htu/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/en/htu/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/privacy/uni-note-pocket.en.md",
+        "old_alias_frontmatter": "/en/privacy/uni-memo/",
+        "new_alias_frontmatter": "/privacy/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/en/privacy/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/faq/uni-note-pocket.ko.md",
+        "old_alias_frontmatter": "/ko/faq/uni-memo/",
+        "new_alias_frontmatter": "/faq/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/ko/faq/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/htu/uni-note-pocket.ko.md",
+        "old_alias_frontmatter": "/ko/htu/uni-memo/",
+        "new_alias_frontmatter": "/htu/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/ko/htu/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/privacy/uni-note-pocket.ko.md",
+        "old_alias_frontmatter": "/ko/privacy/uni-memo/",
+        "new_alias_frontmatter": "/privacy/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/ko/privacy/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/faq/uni-note-pocket.de.md",
+        "old_alias_frontmatter": "/de/faq/uni-memo/",
+        "new_alias_frontmatter": "/faq/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/de/faq/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/htu/uni-note-pocket.de.md",
+        "old_alias_frontmatter": "/de/htu/uni-memo/",
+        "new_alias_frontmatter": "/htu/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/de/htu/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/privacy/uni-note-pocket.de.md",
+        "old_alias_frontmatter": "/de/privacy/uni-memo/",
+        "new_alias_frontmatter": "/privacy/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/de/privacy/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/faq/uni-note-pocket.zh-hant.md",
+        "old_alias_frontmatter": "/zh-hant/faq/uni-memo/",
+        "new_alias_frontmatter": "/faq/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/zh-hant/faq/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/htu/uni-note-pocket.zh-hant.md",
+        "old_alias_frontmatter": "/zh-hant/htu/uni-memo/",
+        "new_alias_frontmatter": "/htu/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/zh-hant/htu/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/privacy/uni-note-pocket.zh-hant.md",
+        "old_alias_frontmatter": "/zh-hant/privacy/uni-memo/",
+        "new_alias_frontmatter": "/privacy/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/zh-hant/privacy/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/faq/uni-note-pocket.fr.md",
+        "old_alias_frontmatter": "/fr/faq/uni-memo/",
+        "new_alias_frontmatter": "/faq/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/fr/faq/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/htu/uni-note-pocket.fr.md",
+        "old_alias_frontmatter": "/fr/htu/uni-memo/",
+        "new_alias_frontmatter": "/htu/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/fr/htu/uni-memo/"
+      },
+      {
+        "repository": "homepage",
+        "source": "content/privacy/uni-note-pocket.fr.md",
+        "old_alias_frontmatter": "/fr/privacy/uni-memo/",
+        "new_alias_frontmatter": "/privacy/uni-memo/",
+        "preserved_output_url": "https://kumakikai.github.io/fr/privacy/uni-memo/"
+      }
+    ],
+    "mechanism_note": "Static HTML aliases return their hosting HTTP status and immediately navigate using meta refresh. They are not HTTP 301/302 server redirects; canonical points to the destination and JavaScript is unnecessary."
+  },
+  "asc_related_url_evidence": [
+    {
+      "repository": "Nocca",
+      "url": "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+      "purpose": "Support URL",
+      "evidence_type": "recorded ASC readback on 2026-09-06",
+      "sources": [
+        {
+          "repository": "Nocca",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            15
+          ]
+        },
+        {
+          "repository": "Nocca",
+          "path": "docs/audit/2026-09-06_nocca_store_role_copy.md",
+          "lines": [
+            130
+          ]
+        }
+      ],
+      "note": "0.1.0提出準備中の過去取得記録。現在ASCをライブ確認した証拠ではない。",
+      "baseline_route_exists": true,
+      "candidate_local_file_exists": true,
+      "asc_live_verified": false
+    },
+    {
+      "repository": "Nocca",
+      "url": "https://kumakikai.github.io/",
+      "purpose": "Marketing URL",
+      "evidence_type": "recorded ASC readback on 2026-09-06",
+      "sources": [
+        {
+          "repository": "Nocca",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            15
+          ]
+        }
+      ],
+      "note": "同日の保存後再読込でも維持したという記録。現在ASCは未照合。",
+      "baseline_route_exists": true,
+      "candidate_local_file_exists": true,
+      "asc_live_verified": false
+    },
+    {
+      "repository": "povo_manager",
+      "url": "https://kumakikai.github.io/faq/giga-poke/",
+      "purpose": "Support URL candidate",
+      "evidence_type": "draft metadata field",
+      "sources": [
+        {
+          "repository": "povo_manager",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            343
+          ]
+        },
+        {
+          "repository": "povo_manager",
+          "path": "docs/FEATURE_SETTINGS_SUPPORT.md",
+          "lines": [
+            87
+          ]
+        },
+        {
+          "repository": "povo_manager",
+          "path": "docs/RELEASE_CHECKLIST.md",
+          "lines": [
+            434
+          ]
+        }
+      ],
+      "note": "候補と明記。Release ChecklistにはGoogle FormsをSupport URLとする別記載もあり、登録済み値は断定しない。",
+      "baseline_route_exists": true,
+      "candidate_local_file_exists": true,
+      "asc_live_verified": false
+    },
+    {
+      "repository": "povo_manager",
+      "url": "https://kumakikai.github.io/privacy/giga-poke/",
+      "purpose": "Privacy Policy URL",
+      "evidence_type": "documented public privacy URL",
+      "sources": [
+        {
+          "repository": "povo_manager",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            243,
+            344
+          ]
+        },
+        {
+          "repository": "povo_manager",
+          "path": "docs/FEATURE_SETTINGS_SUPPORT.md",
+          "lines": [
+            238,
+            239
+          ]
+        },
+        {
+          "repository": "povo_manager",
+          "path": "docs/RELEASE_CHECKLIST.md",
+          "lines": [
+            464
+          ]
+        }
+      ],
+      "note": "公開済み・アプリ反映済み、アプリとASCで同一にする文書記載。現在ASCは未照合。",
+      "baseline_route_exists": true,
+      "candidate_local_file_exists": true,
+      "asc_live_verified": false
+    },
+    {
+      "repository": "povo_manager",
+      "url": "https://kumakikai.github.io/",
+      "purpose": "Marketing URL candidate",
+      "evidence_type": "draft metadata field",
+      "sources": [
+        {
+          "repository": "povo_manager",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            346
+          ]
+        }
+      ],
+      "note": "候補と明記。現在ASCの設定値ではない。",
+      "baseline_route_exists": true,
+      "candidate_local_file_exists": true,
+      "asc_live_verified": false
+    },
+    {
+      "repository": "povo_manager",
+      "url": "https://kumakikai.github.io/htu/giga-poke/",
+      "purpose": "How-to/support resource",
+      "evidence_type": "support and release docs",
+      "sources": [
+        {
+          "repository": "povo_manager",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            226
+          ]
+        },
+        {
+          "repository": "povo_manager",
+          "path": "docs/FEATURE_SETTINGS_SUPPORT.md",
+          "lines": [
+            81
+          ]
+        },
+        {
+          "repository": "povo_manager",
+          "path": "docs/RELEASE_CHECKLIST.md",
+          "lines": [
+            433
+          ]
+        }
+      ],
+      "note": "公式サポート素材として使用。ASCの特定fieldへ登録済みという証拠ではない。",
+      "baseline_route_exists": true,
+      "candidate_local_file_exists": true,
+      "asc_live_verified": false
+    },
+    {
+      "repository": "povo_manager",
+      "url": "https://kumakikai.github.io/terms/giga-poke/",
+      "purpose": "Terms/support resource",
+      "evidence_type": "support and release docs",
+      "sources": [
+        {
+          "repository": "povo_manager",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            229
+          ]
+        },
+        {
+          "repository": "povo_manager",
+          "path": "docs/FEATURE_SETTINGS_SUPPORT.md",
+          "lines": [
+            242
+          ]
+        },
+        {
+          "repository": "povo_manager",
+          "path": "docs/RELEASE_CHECKLIST.md",
+          "lines": [
+            446
+          ]
+        }
+      ],
+      "note": "公式規約への参照。ASCの特定fieldへ登録済みという証拠ではない。",
+      "baseline_route_exists": true,
+      "candidate_local_file_exists": true,
+      "asc_live_verified": false
+    },
+    {
+      "repository": "povo_manager",
+      "url": "https://forms.gle/Enzmm94LdXRZjP8k9",
+      "purpose": "Support URL candidate",
+      "evidence_type": "unchecked release checklist",
+      "sources": [
+        {
+          "repository": "povo_manager",
+          "path": "docs/RELEASE_CHECKLIST.md",
+          "lines": [
+            465,
+            533
+          ]
+        }
+      ],
+      "note": "FAQ候補との矛盾が残る外部Forms URL。Hugo管理外であり、本移行では変更しない。",
+      "baseline_route_exists": null,
+      "candidate_local_file_exists": null,
+      "asc_live_verified": false
+    },
+    {
+      "repository": "oto_miru",
+      "url": "https://kumakikai.github.io/terms/oto-miru/",
+      "purpose": "Description/EULA Terms URL",
+      "evidence_type": "metadata configuration instruction",
+      "sources": [
+        {
+          "repository": "oto_miru",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            88,
+            93
+          ]
+        },
+        {
+          "repository": "oto_miru",
+          "path": "docs/RELEASE_CHECKLIST.md",
+          "lines": [
+            83
+          ]
+        }
+      ],
+      "note": "ASC説明文またはEULA欄への設定指示。実際の現在登録値は未照合。",
+      "baseline_route_exists": true,
+      "candidate_local_file_exists": true,
+      "asc_live_verified": false
+    },
+    {
+      "repository": "oto_miru",
+      "url": "https://kumakikai.github.io/privacy/oto-miru/",
+      "purpose": "Privacy Policy URL",
+      "evidence_type": "store metadata and support docs",
+      "sources": [
+        {
+          "repository": "oto_miru",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            89
+          ]
+        },
+        {
+          "repository": "oto_miru",
+          "path": "docs/FEATURE_SUBSCRIPTION.md",
+          "lines": [
+            99
+          ]
+        },
+        {
+          "repository": "oto_miru",
+          "path": "docs/TRANSLATION_MATRIX.md",
+          "lines": [
+            143
+          ]
+        }
+      ],
+      "note": "Store metadataと実装仕様文書の参照。現在ASCは未照合。",
+      "baseline_route_exists": true,
+      "candidate_local_file_exists": true,
+      "asc_live_verified": false
+    }
+  ],
+  "repository_audit_coverage": [
+    {
+      "repository": "uni_note",
+      "app_id": "uni-note",
+      "exact_homepage_url_found_in_scanned_docs": false,
+      "sources": [
+        {
+          "repository": "uni_note",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            5
+          ]
+        },
+        {
+          "repository": "uni_note",
+          "path": "docs/RELEASE_CHECKLIST.md",
+          "lines": []
+        }
+      ],
+      "note": "現行docsはASC実登録値を未確認と明記。docs・公開用metadata/report Markdownの範囲で具体的サイトURLは見つからない。"
+    },
+    {
+      "repository": "uni_memo",
+      "app_id": "uni-note-pocket",
+      "exact_homepage_url_found_in_scanned_docs": false,
+      "sources": [
+        {
+          "repository": "uni_memo",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            5,
+            6,
+            185
+          ]
+        },
+        {
+          "repository": "uni_memo",
+          "path": "docs/RELEASE_CHECKLIST.md",
+          "lines": [
+            88,
+            119
+          ]
+        }
+      ],
+      "note": "Support/Privacy確認項目はあるが具体値なし。権威あるASC metadataを保持していないと明記。"
+    },
+    {
+      "repository": "oto_miru",
+      "app_id": "oto-miru",
+      "exact_homepage_url_found_in_scanned_docs": true,
+      "sources": [
+        {
+          "repository": "oto_miru",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            88,
+            89,
+            93
+          ]
+        }
+      ],
+      "note": "Terms/Privacyの具体URLあり。Support/Marketingの特定field値は未確認。"
+    },
+    {
+      "repository": "povo_manager",
+      "app_id": "giga-poke",
+      "exact_homepage_url_found_in_scanned_docs": true,
+      "sources": [
+        {
+          "repository": "povo_manager",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            343,
+            344,
+            346
+          ]
+        },
+        {
+          "repository": "povo_manager",
+          "path": "docs/RELEASE_CHECKLIST.md",
+          "lines": [
+            533
+          ]
+        }
+      ],
+      "note": "Privacyとサポート資源の具体URLあり。SupportはFAQ候補とFormsの記載が混在。"
+    },
+    {
+      "repository": "Nocca",
+      "app_id": "nocca",
+      "exact_homepage_url_found_in_scanned_docs": true,
+      "sources": [
+        {
+          "repository": "Nocca",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            15
+          ]
+        }
+      ],
+      "note": "Support/Marketingの2026-09-06 ASC取得記録あり。現時点のライブ照合ではない。"
+    },
+    {
+      "repository": "signal",
+      "app_id": "signal",
+      "exact_homepage_url_found_in_scanned_docs": false,
+      "sources": [
+        {
+          "repository": "signal",
+          "path": "README.md",
+          "lines": []
+        },
+        {
+          "repository": "signal",
+          "path": "artifacts/app_store_screenshots_2026-09-03/SCREENSHOT_REPORT_JA.md",
+          "lines": []
+        }
+      ],
+      "note": "確認範囲に具体サイトURL／ASC field証拠なし。docs/fastlane metadataは探索で見つからない。"
+    },
+    {
+      "repository": "smokeless",
+      "app_id": "smokeless",
+      "exact_homepage_url_found_in_scanned_docs": false,
+      "sources": [
+        {
+          "repository": "smokeless",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": [
+            5
+          ]
+        },
+        {
+          "repository": "smokeless",
+          "path": "docs/FEATURE_SETTINGS_SUPPORT.md",
+          "lines": []
+        }
+      ],
+      "note": "Store確定値を未確認扱いと明記。公開用docs/metadata/reportに具体サイトURLは見つからない。"
+    },
+    {
+      "repository": "gamble_pnl",
+      "app_id": "balance-calendar",
+      "exact_homepage_url_found_in_scanned_docs": false,
+      "sources": [
+        {
+          "repository": "gamble_pnl",
+          "path": "docs/APP_STORE_METADATA.md",
+          "lines": []
+        },
+        {
+          "repository": "gamble_pnl",
+          "path": "docs/FEATURE_SUPPORT.md",
+          "lines": []
+        }
+      ],
+      "note": "確認範囲に具体サイトURL／ASC field証拠なし。FEATURE_SUPPORTはメール問い合わせ仕様。"
+    }
+  ],
+  "existing_site_app_resource_candidates": [
+    {
+      "app_id": "uni-note",
+      "urls": [
+        {
+          "url": "https://kumakikai.github.io/htu/uni-note/",
+          "route": "/htu/uni-note/",
+          "purposes": [
+            "existing top-page detail/support entry",
+            "htu"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "data/apps.json",
+              "lines": []
+            },
+            {
+              "repository": "homepage",
+              "path": "content/htu/uni-note.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/uni-note/",
+          "route": "/faq/uni-note/",
+          "purposes": [
+            "faq"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/faq/uni-note.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/uni-note/",
+          "route": "/privacy/uni-note/",
+          "purposes": [
+            "privacy"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/privacy/uni-note.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        }
+      ]
+    },
+    {
+      "app_id": "oto-miru",
+      "urls": [
+        {
+          "url": "https://kumakikai.github.io/htu/oto-miru/",
+          "route": "/htu/oto-miru/",
+          "purposes": [
+            "existing top-page detail/support entry",
+            "htu"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "data/apps.json",
+              "lines": []
+            },
+            {
+              "repository": "homepage",
+              "path": "content/htu/oto-miru.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/oto-miru/",
+          "route": "/faq/oto-miru/",
+          "purposes": [
+            "faq"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/faq/oto-miru.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/oto-miru/",
+          "route": "/privacy/oto-miru/",
+          "purposes": [
+            "privacy"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/privacy/oto-miru.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/terms/oto-miru/",
+          "route": "/terms/oto-miru/",
+          "purposes": [
+            "terms"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/terms/oto-miru.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        }
+      ]
+    },
+    {
+      "app_id": "giga-poke",
+      "urls": [
+        {
+          "url": "https://kumakikai.github.io/notes/2026-09-02-giga-poke/",
+          "route": "/notes/2026-09-02-giga-poke/",
+          "purposes": [
+            "existing top-page detail/support entry"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "data/apps.json",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/giga-poke/",
+          "route": "/htu/giga-poke/",
+          "purposes": [
+            "htu"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/htu/giga-poke.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/giga-poke/",
+          "route": "/faq/giga-poke/",
+          "purposes": [
+            "faq"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/faq/giga-poke.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/giga-poke/",
+          "route": "/privacy/giga-poke/",
+          "purposes": [
+            "privacy"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/privacy/giga-poke.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/terms/giga-poke/",
+          "route": "/terms/giga-poke/",
+          "purposes": [
+            "terms"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/terms/giga-poke.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        }
+      ]
+    },
+    {
+      "app_id": "nocca",
+      "urls": [
+        {
+          "url": "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+          "route": "/notes/2026-09-06-nocca/",
+          "purposes": [
+            "existing top-page detail/support entry"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "data/apps.json",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/nocca/",
+          "route": "/htu/nocca/",
+          "purposes": [
+            "htu"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/htu/nocca.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/nocca/",
+          "route": "/faq/nocca/",
+          "purposes": [
+            "faq"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/faq/nocca.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/nocca/",
+          "route": "/privacy/nocca/",
+          "purposes": [
+            "privacy"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/privacy/nocca.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/terms/nocca/",
+          "route": "/terms/nocca/",
+          "purposes": [
+            "terms"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/terms/nocca.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        }
+      ]
+    },
+    {
+      "app_id": "uni-note-pocket",
+      "urls": [
+        {
+          "url": "https://kumakikai.github.io/htu/uni-note-pocket/",
+          "route": "/htu/uni-note-pocket/",
+          "purposes": [
+            "existing top-page detail/support entry",
+            "htu"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "data/apps.json",
+              "lines": []
+            },
+            {
+              "repository": "homepage",
+              "path": "content/htu/uni-note-pocket.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/uni-note-pocket/",
+          "route": "/faq/uni-note-pocket/",
+          "purposes": [
+            "faq"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/faq/uni-note-pocket.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/uni-note-pocket/",
+          "route": "/privacy/uni-note-pocket/",
+          "purposes": [
+            "privacy"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/privacy/uni-note-pocket.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        }
+      ]
+    },
+    {
+      "app_id": "balance-calendar",
+      "urls": [
+        {
+          "url": "https://kumakikai.github.io/htu/balance-calendar/",
+          "route": "/htu/balance-calendar/",
+          "purposes": [
+            "existing top-page detail/support entry",
+            "htu"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "data/apps.json",
+              "lines": []
+            },
+            {
+              "repository": "homepage",
+              "path": "content/htu/balance-calendar.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/balance-calendar/",
+          "route": "/faq/balance-calendar/",
+          "purposes": [
+            "faq"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/faq/balance-calendar.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/balance-calendar/",
+          "route": "/privacy/balance-calendar/",
+          "purposes": [
+            "privacy"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/privacy/balance-calendar.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        }
+      ]
+    },
+    {
+      "app_id": "smokeless",
+      "urls": [
+        {
+          "url": "https://kumakikai.github.io/htu/smokeless/",
+          "route": "/htu/smokeless/",
+          "purposes": [
+            "existing top-page detail/support entry",
+            "htu"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "data/apps.json",
+              "lines": []
+            },
+            {
+              "repository": "homepage",
+              "path": "content/htu/smokeless.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/smokeless/",
+          "route": "/faq/smokeless/",
+          "purposes": [
+            "faq"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/faq/smokeless.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/smokeless/",
+          "route": "/privacy/smokeless/",
+          "purposes": [
+            "privacy"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/privacy/smokeless.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        }
+      ]
+    },
+    {
+      "app_id": "signal",
+      "urls": [
+        {
+          "url": "https://kumakikai.github.io/htu/signal/",
+          "route": "/htu/signal/",
+          "purposes": [
+            "existing top-page detail/support entry",
+            "htu"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "data/apps.json",
+              "lines": []
+            },
+            {
+              "repository": "homepage",
+              "path": "content/htu/signal.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/signal/",
+          "route": "/faq/signal/",
+          "purposes": [
+            "faq"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/faq/signal.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/signal/",
+          "route": "/privacy/signal/",
+          "purposes": [
+            "privacy"
+          ],
+          "sources": [
+            {
+              "repository": "homepage",
+              "path": "content/privacy/signal.md",
+              "lines": []
+            }
+          ],
+          "evidence_type": "existing site content; not proof of ASC registration",
+          "baseline_route_exists": true
+        }
+      ]
+    }
+  ]
+}

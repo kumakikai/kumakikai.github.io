@@ -1,5 +1,9 @@
-cat >> .gitignore <<'EOF'
-# Hugo build output
+# Generated Hugo, Tailwind, dependency, and verification output.
 /public/
 /resources/
+/node_modules/
 /.hugo_build.lock
+/hugo_stats.json
+/assets/css/generated-theme.css
+/artifacts/
+__pycache__/

@@ -2,7 +2,7 @@
 title: "사용 방법 (Uni:Note Pocket)"
 description: "Uni:Note Pocket 사용 방법"
 aliases:
-  - /ko/htu/uni-memo/
+  - /htu/uni-memo/
 ---
 
 Uni:Note Pocket은 **Uni:Note 백업을 iPhone에서 다시 보기 위한 보조 앱**입니다.  

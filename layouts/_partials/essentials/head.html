@@ -1,0 +1,42 @@
+{{ $basename := "" }}{{ with .File }}{{ $basename = .ContentBaseName }}{{ end }}
+{{ $copy := index site.Data.corporate site.Language.Lang }}
+{{ $title := printf "%s | KUMAKIKAI" .Title }}{{ if .IsHome }}{{ $title = "KUMAKIKAI — iPhone & iPad Apps" }}{{ end }}
+{{ $description := .Description | default (.Summary | plainify | truncate 150) | default site.Params.description }}
+{{ if .IsHome }}{{ $description = $copy.companyIntro }}{{ end }}
+{{ $image := "/images/og/default.png" }}
+{{ $productID := .Params.product_id }}
+{{ if not $productID }}{{ if in (slice "htu" "faq" "privacy" "terms") .Section }}{{ $productID = $basename }}{{ end }}{{ end }}
+{{ $news := index site.Data.news $basename | default dict }}
+{{ if and (not $productID) $news.relatedProducts }}{{ $productID = index $news.relatedProducts 0 }}{{ end }}
+{{ if and $productID (fileExists (printf "static/images/og/%s.png" $productID)) }}{{ $image = printf "/images/og/%s.png" $productID }}{{ end }}
+{{ with .Params.images }}{{ $candidate := index . 0 }}{{ if fileExists (printf "static%s" $candidate) }}{{ $image = $candidate }}{{ end }}{{ end }}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+{{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">{{ end }}
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ if and .IsPage (in (slice "notes" "news") .Section) }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="KUMAKIKAI">
+<meta property="og:image" content="{{ $image | absURL }}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ with $productID }}{{ with index (index site.Data.home "ja").apps . }}{{ .name }} — {{ end }}{{ end }}KUMAKIKAI">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ $image | absURL }}">
+{{ if eq .Kind "404" }}<meta name="robots" content="noindex">{{ end }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "Organization" "name" "KUMAKIKAI" "url" site.BaseURL "logo" ("/apple-touch-icon.png" | absURL) "email" "kumakikai.apps@gmail.com" }}
+{{ if eq .Type "product" }}
+  {{ $app := index (where site.Data.apps "id" .Params.product_id) 0 }}{{ $text := index (index site.Data.home site.Language.Lang).apps $app.id }}
+  {{ $schema = dict "@context" "https://schema.org" "@type" "SoftwareApplication" "name" $text.name "description" $text.description "operatingSystem" $app.operatingSystems "image" ($app.icon | absURL) "url" .Permalink "creator" (dict "@type" "Organization" "name" "KUMAKIKAI") }}
+{{ else if and .IsPage (in (slice "news" "notes") .Section) }}
+  {{ $schema = dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "image" ($image | absURL) "url" .Permalink "publisher" (dict "@type" "Organization" "name" "KUMAKIKAI") }}
+{{ end }}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+<script>!function(){var e=document.documentElement;e.classList.add('js');try{var t=localStorage.getItem('pref-theme');if(t==='light'||t==='dark')e.dataset.theme=t}catch(_){}e.classList.toggle('dark',e.dataset.theme==='dark'||(e.dataset.theme==='auto'&&matchMedia('(prefers-color-scheme:dark)').matches))}();</script>

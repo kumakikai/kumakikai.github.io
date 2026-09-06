@@ -2,7 +2,7 @@
 title: "개인정보 처리방침 (Uni:Note Pocket)"
 description: "Uni:Note Pocket 개인정보 처리방침"
 aliases:
-  - /ko/privacy/uni-memo/
+  - /privacy/uni-memo/
 ---
 
 이 개인정보 처리방침은 Uni:Note Pocket(이하 "본 앱") 및 본 공식 사이트에서 사용자 정보가 어떻게 처리되는지를 설명합니다.

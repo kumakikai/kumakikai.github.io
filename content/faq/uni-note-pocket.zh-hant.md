@@ -2,7 +2,7 @@
 title: "FAQ (Uni:Note Pocket)"
 description: "Uni:Note Pocket 常見問題"
 aliases:
-  - /zh-hant/faq/uni-memo/
+  - /faq/uni-memo/
 ---
 
 ## 基本資訊

@@ -1,0 +1,11 @@
+{{ $level := .headingLevel | default 3 }}
+{{ $corp := index site.Data.corporate site.Language.Lang }}{{ $pages := where site.RegularPages "Section" "in" (slice "notes" "news") }}
+{{ if ne site.Language.Lang "ja" }}
+  {{ $translationKeys := slice }}{{ range $pages }}{{ $translationKeys = $translationKeys | append .TranslationKey }}{{ end }}
+  {{ $japanese := where (index site.Sites 0).RegularPages "Section" "in" (slice "notes" "news") }}
+  {{ $pages = $pages | union (where $japanese "TranslationKey" "not in" $translationKeys) }}
+{{ end }}
+{{ $pages = $pages.ByDate.Reverse }}{{ with .limit }}{{ $pages = first . $pages }}{{ end }}
+<div class="news-list">{{ range $pages }}{{ $meta := index site.Data.news .File.ContentBaseName | default dict }}{{ $category := .Params.news_category | default $meta.category | default "information" }}
+<article class="news-row" data-category="{{ $category }}"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time><span class="news-category">{{ if eq $category "press-release" }}{{ $corp.pressRelease }}{{ else }}{{ $corp.information }}{{ end }}</span><h{{ $level }}><a href="{{ .RelPermalink }}"{{ if ne .Language.Lang site.Language.Lang }} lang="{{ .Language.LanguageCode }}"{{ end }}>{{ .Title }} <span aria-hidden="true">↗</span></a></h{{ $level }}></article>
+{{ end }}</div>

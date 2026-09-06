@@ -2,7 +2,7 @@
 title: "How to Use (Uni:Note Pocket)"
 description: "How to use Uni:Note Pocket."
 aliases:
-  - /en/htu/uni-memo/
+  - /htu/uni-memo/
 ---
 
 Uni:Note Pocket is a **companion app for reviewing Uni:Note backups on iPhone**.  

@@ -1,0 +1,4 @@
+{{ with resources.Get "css/main.css" }}
+  {{ $css := . | css.TailwindCSS (dict "minify" (not hugo.IsDevelopment)) | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ end }}

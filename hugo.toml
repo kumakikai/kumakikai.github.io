@@ -4,7 +4,7 @@ defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = false
 title = "KUMAKIKAI"
 enableRobotsTXT = true
-theme = "PaperMod"
+theme = "hugoplate"
 timeZone = "Asia/Tokyo"
 
 [languages]
@@ -59,32 +59,25 @@ timeZone = "Asia/Tokyo"
 [pagination]
   pagerSize = 3
 
-# GitHub Pages向け
-canonifyURLs = true
-relativeURLs = false
-
 [params]
-  description = "KUMAKIKAIの公式サイトです。 ／ Official site for KUMAKIKAI apps."
+  description = "KUMAKIKAI — iPhone・iPad向けアプリの企画・開発・運営"
+  mainSections = ["notes", "news"]
 
-  # ホーム表示調整
-  ShowPostSummary = true
-  ShowBreadCrumbs = false
-  ShowReadingTime = false
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
 
-  # カスタムCSS読み込み（トップ区切り線・タイル調整用）
-  customCSS = ["css/custom.css"]
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'
+    disableWatch = true
 
-  mainSections = ["notes"]
-
-  [params.assets]
-    favicon = "favicon.svg"
-
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Notes"
-    url = "/notes/"
-    weight = 2
+[security.exec]
+  allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']

@@ -2,7 +2,7 @@
 title: "Mode d’emploi (Uni:Note Pocket)"
 description: "Mode d’emploi pour Uni:Note Pocket."
 aliases:
-  - /fr/htu/uni-memo/
+  - /htu/uni-memo/
 ---
 
 Uni:Note Pocket est une **application compagnon pour relire les sauvegardes Uni:Note sur iPhone**.  

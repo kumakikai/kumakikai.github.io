@@ -1,0 +1,3 @@
+{{ define "main" }}{{ $corp := index site.Data.corporate site.Language.Lang }}
+<div class="container page-directory"><header class="page-heading"><p class="eyebrow">Products</p><h1>{{ $corp.productsTitle }}</h1><p>{{ $corp.productsIntro }}</p></header><div class="products-grid">{{ range site.Data.apps }}{{ partial "app-card.html" (dict "app" . "directory" true) }}{{ end }}</div></div>
+{{ end }}

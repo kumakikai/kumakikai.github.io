@@ -1,0 +1,23 @@
+{
+  "name": "kumakikai-official-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KUMAKIKAI's Hugo and Hugoplate product website",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/themeGenerator.js && node scripts/run-hugo.js server --disableFastRender",
+    "build": "node scripts/themeGenerator.js && node scripts/run-hugo.js --gc --minify --cleanDestinationDir",
+    "preview": "node scripts/themeGenerator.js && node scripts/run-hugo.js server --environment production --disableFastRender --minify",
+    "theme:generate": "node scripts/themeGenerator.js",
+    "sync:products": "python3 scripts/sync-products.py",
+    "prebuild": "python3 scripts/sync-products.py --check",
+    "verify": "python3 scripts/verify-migration.py public --baseline docs/migration/baseline.json"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.0",
+    "@tailwindcss/typography": "0.5.19",
+    "tailwindcss": "4.3.0"
+  }
+}

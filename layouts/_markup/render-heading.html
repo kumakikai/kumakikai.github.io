@@ -1,0 +1,2 @@
+{{ $level := .Level }}{{ if eq $level 1 }}{{ $level = 2 }}{{ end }}
+<h{{ $level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}</h{{ $level }}>

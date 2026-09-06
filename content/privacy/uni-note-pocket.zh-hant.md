@@ -2,7 +2,7 @@
 title: "隱私權政策 (Uni:Note Pocket)"
 description: "Uni:Note Pocket 隱私權政策"
 aliases:
-  - /zh-hant/privacy/uni-memo/
+  - /privacy/uni-memo/
 ---
 
 本隱私權政策說明 Uni:Note Pocket（以下稱「本 App」）以及本官方網站如何處理使用者資訊。

@@ -2,7 +2,7 @@
 title: "Datenschutzerklärung (Uni:Note Pocket)"
 description: "Datenschutzerklärung für Uni:Note Pocket."
 aliases:
-  - /de/privacy/uni-memo/
+  - /privacy/uni-memo/
 ---
 
 Diese Datenschutzerklärung beschreibt, wie Nutzerdaten in Uni:Note Pocket ("die App") und auf dieser offiziellen Website behandelt werden.

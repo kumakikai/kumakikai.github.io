@@ -23,6 +23,21 @@
         "largeWidth": 1120,
         "raw": false
       }
+    ],
+    "availability": {
+      "storefront": "jp",
+      "verifiedStorefronts": [
+        "jp",
+        "us",
+        "tw",
+        "fr",
+        "kr"
+      ],
+      "coverage": "partial",
+      "checkedAt": "2026-09-06"
+    },
+    "operatingSystems": [
+      "iPadOS"
     ]
   },
   {
@@ -50,6 +65,18 @@
         "largeWidth": 840,
         "raw": false
       }
+    ],
+    "availability": {
+      "storefront": "jp",
+      "verifiedStorefronts": [
+        "jp"
+      ],
+      "coverage": "partial",
+      "checkedAt": "2026-09-06"
+    },
+    "operatingSystems": [
+      "iOS",
+      "iPadOS"
     ]
   },
   {
@@ -76,6 +103,17 @@
         "largeWidth": 840,
         "raw": false
       }
+    ],
+    "availability": {
+      "storefront": "jp",
+      "verifiedStorefronts": [
+        "jp"
+      ],
+      "coverage": "partial",
+      "checkedAt": "2026-09-06"
+    },
+    "operatingSystems": [
+      "iOS"
     ]
   },
   {
@@ -102,6 +140,17 @@
         "largeWidth": 750,
         "raw": true
       }
+    ],
+    "availability": {
+      "verifiedStorefronts": [],
+      "plannedStorefronts": [
+        "jp"
+      ],
+      "coverage": "unreleased",
+      "checkedAt": "2026-09-06"
+    },
+    "operatingSystems": [
+      "iOS"
     ]
   },
   {
@@ -111,7 +160,22 @@
     "appStoreURL": "https://apps.apple.com/jp/app/id6761449487",
     "detailURL": "/htu/uni-note-pocket/",
     "icon": "/images/apps/uni-note-pocket/icon.webp",
-    "screenshots": []
+    "screenshots": [],
+    "availability": {
+      "storefront": "jp",
+      "verifiedStorefronts": [
+        "jp",
+        "us",
+        "tw",
+        "fr",
+        "kr"
+      ],
+      "coverage": "partial",
+      "checkedAt": "2026-09-06"
+    },
+    "operatingSystems": [
+      "iOS"
+    ]
   },
   {
     "id": "balance-calendar",
@@ -120,7 +184,19 @@
     "appStoreURL": "https://apps.apple.com/jp/app/id6757731648",
     "detailURL": "/htu/balance-calendar/",
     "icon": "/images/apps/balance-calendar/icon.webp",
-    "screenshots": []
+    "screenshots": [],
+    "availability": {
+      "storefront": "jp",
+      "verifiedStorefronts": [
+        "jp",
+        "us"
+      ],
+      "coverage": "partial",
+      "checkedAt": "2026-09-06"
+    },
+    "operatingSystems": [
+      "iOS"
+    ]
   },
   {
     "id": "smokeless",
@@ -129,7 +205,21 @@
     "appStoreURL": "https://apps.apple.com/jp/app/id6760842941",
     "detailURL": "/htu/smokeless/",
     "icon": "/images/apps/smokeless/icon.webp",
-    "screenshots": []
+    "screenshots": [],
+    "availability": {
+      "storefront": "jp",
+      "verifiedStorefronts": [
+        "jp",
+        "tw",
+        "fr",
+        "kr"
+      ],
+      "coverage": "partial",
+      "checkedAt": "2026-09-06"
+    },
+    "operatingSystems": [
+      "iOS"
+    ]
   },
   {
     "id": "signal",
@@ -138,6 +228,17 @@
     "appStoreURL": "https://apps.apple.com/jp/app/id6759493613",
     "detailURL": "/htu/signal/",
     "icon": "/images/apps/signal/icon.webp",
-    "screenshots": []
+    "screenshots": [],
+    "availability": {
+      "storefront": "jp",
+      "verifiedStorefronts": [
+        "jp"
+      ],
+      "coverage": "partial",
+      "checkedAt": "2026-09-06"
+    },
+    "operatingSystems": [
+      "iOS"
+    ]
   }
 ]

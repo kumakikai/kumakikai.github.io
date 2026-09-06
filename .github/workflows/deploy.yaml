@@ -15,23 +15,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.154.5"
+          hugo-version: "0.158.0"
           extended: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
       - name: Build
-        run: hugo --minify
+        run: npm run build
 
       - name: Add app-ads.txt
         run: |
           if [ -f app-ads.txt ]; then
             cp app-ads.txt public/app-ads.txt
           fi
+
+      - name: Verify URL compatibility and site links
+        run: python3 scripts/verify-migration.py public --baseline docs/migration/baseline.json
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4

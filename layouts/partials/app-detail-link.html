@@ -1,9 +1,0 @@
-{{ $page := site.GetPage .app.detailURL }}
-{{ $url := .app.detailURL }}
-{{ $label := .copy.details }}
-{{ if $page }}
-  {{ $url = $page.RelPermalink }}
-{{ else if ne site.Language.Lang "ja" }}
-  {{ $label = .copy.detailsJapanese }}
-{{ end }}
-<a class="portfolio-text-link" href="{{ $url }}" aria-label="{{ .name }} — {{ $label }}">{{ $label }} <span aria-hidden="true">↗</span></a>

@@ -2,7 +2,7 @@
 title: "FAQ (Uni:Note Pocket)"
 description: "Uni:Note Pocket 자주 묻는 질문"
 aliases:
-  - /ko/faq/uni-memo/
+  - /faq/uni-memo/
 ---
 
 ## 기본

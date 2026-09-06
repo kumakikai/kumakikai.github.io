@@ -1,0 +1,8 @@
+{{ $app := .app }}{{ $copy := index site.Data.home site.Language.Lang }}{{ $corp := index site.Data.corporate site.Language.Lang }}{{ $text := index $copy.apps $app.id }}
+{{ $available := false }}
+{{ with $app.availability }}{{ $available = and (eq $app.status "published") $app.appStoreURL (in .verifiedStorefronts .storefront) }}{{ end }}
+<div class="app-actions">
+{{ if $available }}<a class="btn btn-primary" href="{{ $app.appStoreURL }}" aria-label="{{ $text.name }} — {{ $copy.store }} (Japan)">{{ $copy.store }} <span aria-hidden="true">↗</span></a>{{ end }}
+{{ if .product }}<a class="text-link" href="{{ "/support/" | relLangURL }}#{{ $app.id }}">{{ $corp.supportAppCTA }} <span aria-hidden="true">→</span></a>{{ else }}<a class="text-link" href="{{ printf "/products/%s/" $app.id | relLangURL }}" aria-label="{{ $text.name }} — {{ $copy.details }}">{{ $copy.details }} <span aria-hidden="true">→</span></a>{{ end }}
+</div>
+{{ if $available }}<p class="availability-note">{{ $corp.availableInJapan | default "Available on the Japan App Store" }}</p>{{ end }}

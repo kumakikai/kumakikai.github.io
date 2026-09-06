@@ -1,0 +1,20 @@
+{{ $copy := index site.Data.home site.Language.Lang }}{{ $corp := index site.Data.corporate site.Language.Lang }}
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="wordmark" href="{{ "/" | relLangURL }}" aria-label="KUMAKIKAI — {{ $corp.home }}"><img src="/favicon.svg" width="28" height="28" alt="">KUMAKIKAI</a>
+    <nav class="desktop-nav" aria-label="{{ $copy.navApps }}">
+      {{ range slice "products" "support" "news" "company" }}<a href="{{ printf "/%s/" . | relLangURL }}"{{ if or (eq $.Section .) (and (eq . "news") (eq $.Section "notes")) (and (eq . "support") (in (slice "htu" "faq" "privacy" "terms") $.Section)) }} aria-current="page"{{ end }}>{{ index $corp.nav . }}</a>{{ end }}
+    </nav>
+    <div class="nav-tools">
+      <details class="language-menu"><summary aria-label="{{ $copy.language }} — {{ site.Language.LanguageName }}"><span aria-hidden="true">◎</span> {{ site.Language.LanguageName }}</summary>
+        <ul>{{ range site.Sites }}{{ $other := . }}{{ $target := .Home }}{{ range $.AllTranslations }}{{ if eq .Language.Lang $other.Language.Lang }}{{ $target = . }}{{ end }}{{ end }}<li><a href="{{ $target.RelPermalink }}" lang="{{ .Language.LanguageCode }}" hreflang="{{ .Language.LanguageCode }}"{{ if eq .Language.Lang site.Language.Lang }} aria-current="true"{{ end }}>{{ .Language.LanguageName }}</a></li>{{ end }}</ul>
+      </details>
+      <button class="theme-toggle icon-button" id="theme-toggle" aria-label="{{ $copy.themeToggle }}" type="button"><svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20.5 14A9 9 0 0 1 10 3.5 9 9 0 1 0 20.5 14Z"/></svg></button>
+      <button class="menu-toggle icon-button" type="button" aria-label="{{ $corp.menuOpen }}" aria-controls="mobile-menu" aria-expanded="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<dialog id="mobile-menu" class="mobile-menu" aria-label="{{ $corp.menuOpen }}">
+  <div class="mobile-menu-top"><span class="wordmark">KUMAKIKAI</span><button class="menu-close icon-button" autofocus aria-label="{{ $corp.menuClose }}" type="button">✕</button></div>
+  <nav aria-label="{{ $copy.navApps }}">{{ range slice "products" "support" "news" "company" }}<a href="{{ printf "/%s/" . | relLangURL }}">{{ index $corp.nav . }} <span aria-hidden="true">→</span></a>{{ end }}</nav>
+</dialog>
