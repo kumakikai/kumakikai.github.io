@@ -129,4 +129,17 @@ Production build成功。既存191 URL（正式ページ138・aliases53）、84�
 
 [Desktop Hero](screenshots/chrome-home-hero-1440-footer-followup.jpg)／[Mobile Hero](screenshots/webkit-home-hero-390-footer-followup.jpg)／[Mobile Footer](screenshots/webkit-footer-390-footer-followup.jpg)
 
-公開反映後のHTTP確認は下へ追記する。
+## 公開反映の確認
+
+実装コミット：`97f96b69b16b7b7374df07185fc6319600983c26`（mainへpush済み）。
+
+- [Hugo CI](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34057274279)：成功。
+- [GitHub Pages](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34057298085)：成功。配信コミット `de1eda6662694c4ac20dc85a90275644f4de6f0d`。
+- 2026-09-07 05:14 JST、**全277 HTML URLでHTTP 200・最終ローカルビルドのSHA256と一致**。404、本文欠損、未反映ページなし。[公開URL検証](public-verification.json)
+- 新Watch画像10個と共通CSS、計11ファイルもHTTP 200・バイト一致。[公開素材検証](public-assets.json)
+
+維持したURLの全一覧は公開URL検証の`results`に記録。今回の新規ページURL／alias／redirectは0件。既存の使い方ページ内に`#apple-watch`を追加しただけで、各アプリのSupport・Privacy・FAQ・記事を移動していない。
+
+公開版1.1.1を直前のApple Lookupでも再確認し、Watchは近日対応／審査中として配信した。[公開前Store確認](store-before-publish.json)
+
+`.DS_Store`は変更・コミットしていない。
