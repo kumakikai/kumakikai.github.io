@@ -130,7 +130,13 @@ Newsには既存一覧を保ったまま「すべて / Press Release / Blog / In
 
 [ブラウザ検証](browser-verification.json)は44条件すべて成功。Company20条件（日本語320／393／834／1280／1440のLight・Dark、ほか5言語のDesktop・Mobile）、News18条件（通常12・JavaScript無効6）、Home6条件を確認しました。クリック・Enter・戻る・全件復帰、6言語×4ハッシュのno-JS初回表示、Company内Contact到達も成功。横はみ出し・画像欠落・axe違反・見出し階層エラーは0です。電話リンクと構造化データのtelephoneもなく、メールCTAは末尾Contactの1件のみです。
 
-公開HTTP確認の結果は配信後に追記します。
+公開確認（2026-09-07）：実装コミット`7d7a0d9755344ab15a734673ea1aa38697327b24`をmainへpushし、[Hugo CI](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34051025664)と[Pages配信](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34051045025)が成功しました。
+
+[本番HTTP検証](public-verification.json)は277件すべてHTTP 200、検証済みローカルbuildとSHA256一致。6言語のCompanyとNews、既存のSupport／Privacy／Press Releaseを含む公開URLを維持しています。新規HTTP URL、alias、redirectは0件。追加したのはCompanyの`#founder`とNews内のカテゴリーアンカーです（Companyの`#contact`は既存）。
+
+[本番アセット検証](public-assets-verification.json)もCSS・JavaScript・favicon3種・Company内のアプリアイコン3件の計8件すべてHTTP 200、SHA256とbyte数が一致しました。
+
+ブラウザQAコードの保守修正後も、[追加4条件](qa-maintenance-verification.json)が成功しています。今後MarkdownでNewsを追加しても固定件数に依存せず、既存記事を保持しつつ新規記事を検証できます。先の44条件の結果は変更していません。
 
 ## 11. スクリーンショット
 

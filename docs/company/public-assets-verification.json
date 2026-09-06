@@ -1,0 +1,200 @@
+{
+  "checkedAt": "2026-09-06T18:15:48.370929+00:00",
+  "scope": "Assets referenced by the final Japanese Company HTML: CSS, JavaScript, favicon variants, and three product icons.",
+  "sourceCommit": "7d7a0d9755344ab15a734673ea1aa38697327b24",
+  "hugoBuildRun": {
+    "id": 34051025664,
+    "status": "success",
+    "source": "Parent verified Hugo CI success before this read-only asset task."
+  },
+  "pagesDeploymentRun": {
+    "id": 34051045025,
+    "status": "completed",
+    "conclusion": "success",
+    "headSha": "8f5a6cf3875e861188c390501a95f47bdbabef75",
+    "updatedAt": "2026-09-06T18:14:18Z",
+    "url": "https://github.com/kumakikai/kumakikai.github.io/actions/runs/34051045025",
+    "verifiedBeforeRequests": true,
+    "verificationCommand": "gh run view 34051045025 --json status,conclusion,workflowName,url,headSha,updatedAt"
+  },
+  "referenceHTML": {
+    "file": "public/company/index.html",
+    "sha256": "0e106a3ca93c860de5e4e2315c7768c66a9878b20beaba4cb7f8ea97a3f6be89",
+    "note": "Asset paths parsed from local final production HTML; HTML publication verification is handled separately by the parent."
+  },
+  "method": "One production HTTPS GET per unique asset after Pages reported success. Compare received response-body SHA256 and byte count against the corresponding local public file. No retries, edits to the website, or commits.",
+  "results": [
+    {
+      "path": "/favicon.svg",
+      "roles": [
+        "favicon",
+        "header-brand"
+      ],
+      "url": "https://kumakikai.github.io/favicon.svg",
+      "localFile": "public/favicon.svg",
+      "localBytes": 191,
+      "localSHA256": "b7f5460769c7efc09c43a4cae07c21461e3183e97ee1e97788d7b1886000b36c",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/favicon.svg",
+      "contentType": "image/svg+xml",
+      "contentEncoding": null,
+      "cacheControl": "max-age=600",
+      "remoteBytes": 191,
+      "remoteSHA256": "b7f5460769c7efc09c43a4cae07c21461e3183e97ee1e97788d7b1886000b36c",
+      "matches": true
+    },
+    {
+      "path": "/favicon-32x32.png",
+      "roles": [
+        "favicon"
+      ],
+      "url": "https://kumakikai.github.io/favicon-32x32.png",
+      "localFile": "public/favicon-32x32.png",
+      "localBytes": 459,
+      "localSHA256": "77c61cdc45872a1fb2614460888170e9f9f33d264e8375aefd353d27fa73143f",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/favicon-32x32.png",
+      "contentType": "image/png",
+      "contentEncoding": null,
+      "cacheControl": "max-age=600",
+      "remoteBytes": 459,
+      "remoteSHA256": "77c61cdc45872a1fb2614460888170e9f9f33d264e8375aefd353d27fa73143f",
+      "matches": true
+    },
+    {
+      "path": "/apple-touch-icon.png",
+      "roles": [
+        "favicon"
+      ],
+      "url": "https://kumakikai.github.io/apple-touch-icon.png",
+      "localFile": "public/apple-touch-icon.png",
+      "localBytes": 2604,
+      "localSHA256": "179066fcca3bc228ee090b25cd93985858aad0cfa1eda2a56aadcf88063ffeb6",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/apple-touch-icon.png",
+      "contentType": "image/png",
+      "contentEncoding": null,
+      "cacheControl": "max-age=600",
+      "remoteBytes": 2604,
+      "remoteSHA256": "179066fcca3bc228ee090b25cd93985858aad0cfa1eda2a56aadcf88063ffeb6",
+      "matches": true
+    },
+    {
+      "path": "/css/main.21da934947b48a661e406d273594b9f894964551d391ca245aa5864756385ad7.css",
+      "roles": [
+        "stylesheet"
+      ],
+      "url": "https://kumakikai.github.io/css/main.21da934947b48a661e406d273594b9f894964551d391ca245aa5864756385ad7.css",
+      "localFile": "public/css/main.21da934947b48a661e406d273594b9f894964551d391ca245aa5864756385ad7.css",
+      "localBytes": 59535,
+      "localSHA256": "21da934947b48a661e406d273594b9f894964551d391ca245aa5864756385ad7",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/css/main.21da934947b48a661e406d273594b9f894964551d391ca245aa5864756385ad7.css",
+      "contentType": "text/css; charset=utf-8",
+      "contentEncoding": null,
+      "cacheControl": "max-age=600",
+      "remoteBytes": 59535,
+      "remoteSHA256": "21da934947b48a661e406d273594b9f894964551d391ca245aa5864756385ad7",
+      "matches": true
+    },
+    {
+      "path": "/images/apps/uni-note/icon.webp",
+      "roles": [
+        "company-product-icon"
+      ],
+      "url": "https://kumakikai.github.io/images/apps/uni-note/icon.webp",
+      "localFile": "public/images/apps/uni-note/icon.webp",
+      "localBytes": 758,
+      "localSHA256": "74fe87325a03aedc3c1195f4807e77f7789c938243e35cc0ebec5676a32ab21e",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/images/apps/uni-note/icon.webp",
+      "contentType": "image/webp",
+      "contentEncoding": null,
+      "cacheControl": "max-age=600",
+      "remoteBytes": 758,
+      "remoteSHA256": "74fe87325a03aedc3c1195f4807e77f7789c938243e35cc0ebec5676a32ab21e",
+      "matches": true
+    },
+    {
+      "path": "/images/apps/oto-miru/icon.webp",
+      "roles": [
+        "company-product-icon"
+      ],
+      "url": "https://kumakikai.github.io/images/apps/oto-miru/icon.webp",
+      "localFile": "public/images/apps/oto-miru/icon.webp",
+      "localBytes": 4388,
+      "localSHA256": "d02deef9a51dcf89a7029bfc28f548e24588e927b015007fc71f7b7c14f916be",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/images/apps/oto-miru/icon.webp",
+      "contentType": "image/webp",
+      "contentEncoding": null,
+      "cacheControl": "max-age=600",
+      "remoteBytes": 4388,
+      "remoteSHA256": "d02deef9a51dcf89a7029bfc28f548e24588e927b015007fc71f7b7c14f916be",
+      "matches": true
+    },
+    {
+      "path": "/images/apps/giga-poke/icon.webp",
+      "roles": [
+        "company-product-icon"
+      ],
+      "url": "https://kumakikai.github.io/images/apps/giga-poke/icon.webp",
+      "localFile": "public/images/apps/giga-poke/icon.webp",
+      "localBytes": 2292,
+      "localSHA256": "e0d305ea48a143e97cb70275a50eb8b2d31e975eb32ed2195240c87d30d3b29a",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/images/apps/giga-poke/icon.webp",
+      "contentType": "image/webp",
+      "contentEncoding": null,
+      "cacheControl": "max-age=600",
+      "remoteBytes": 2292,
+      "remoteSHA256": "e0d305ea48a143e97cb70275a50eb8b2d31e975eb32ed2195240c87d30d3b29a",
+      "matches": true
+    },
+    {
+      "path": "/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "roles": [
+        "script"
+      ],
+      "url": "https://kumakikai.github.io/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "localFile": "public/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "localBytes": 1634,
+      "localSHA256": "45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a",
+      "method": "GET",
+      "attempts": 1,
+      "httpStatus": 200,
+      "finalURL": "https://kumakikai.github.io/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+      "contentType": "application/javascript; charset=utf-8",
+      "contentEncoding": null,
+      "cacheControl": "max-age=600",
+      "remoteBytes": 1634,
+      "remoteSHA256": "45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a",
+      "matches": true
+    }
+  ],
+  "summary": {
+    "assetsChecked": 8,
+    "http200": 8,
+    "sha256Matches": 8,
+    "allPassed": true
+  },
+  "limitations": [
+    "This verifies the requested asset paths from Company, not every asset used across the site.",
+    "Pages deployment headSha is the publishing branch revision, while sourceCommit identifies the main source commit.",
+    "The parent performs the separate 277-HTML URL and Company content verification."
+  ]
+}
