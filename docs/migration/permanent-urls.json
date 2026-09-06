@@ -3437,5 +3437,14 @@
         }
       ]
     }
-  ]
+  ],
+  "live_verification": {
+    "checked_at_utc": "2026-09-06T15:25:49Z",
+    "status": "passed",
+    "html_count": 277,
+    "http_200": 277,
+    "sha256_matches": 277,
+    "source_commit": "9424d0b2597b1fd559eaf3eb72012021c0e1df66",
+    "record": "deployment.json"
+  }
 }

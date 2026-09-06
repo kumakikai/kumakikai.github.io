@@ -181,4 +181,10 @@ GitHub Pagesへのデプロイ完了後、同じcommitのproduction buildと全H
 python3 scripts/verify-live.py --build public
 ```
 
+macOSのPython環境でCA証明書が見つからない場合は、OSのCAファイルを指定できます。HTTPSの証明書検証は無効化しないでください。
+
+```sh
+SSL_CERT_FILE=/etc/ssl/cert.pem python3 scripts/verify-live.py --build public
+```
+
 この確認はHTTP GETのみで、App Store Connectの登録内容を変更しません。詳しい移行・画面検証は[移行報告](docs/migration/REPORT.md)を参照してください。

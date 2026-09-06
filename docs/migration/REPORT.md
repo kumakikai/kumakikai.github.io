@@ -1,6 +1,6 @@
 # KUMAKIKAI Hugoplate移行・検証報告
 
-実装・検証: 2026-09-06〜07。移行前基準は `811d9e816f292562b42ba8395ac99683a031ff66`。この文書は実装とローカル検証の記録です。公開の実行履歴は[GitHub Actions](https://github.com/kumakikai/kumakikai.github.io/actions)で確認できます。
+実装・検証: 2026-09-06〜07。移行前基準は `811d9e816f292562b42ba8395ac99683a031ff66`。この文書は実装・ローカル検証・公開確認の記録です。公開の実行履歴は[GitHub Actions](https://github.com/kumakikai/kumakikai.github.io/actions)で確認できます。
 
 ## 実装結果
 
@@ -69,4 +69,4 @@
 
 旧直接表示138 URLは同じURLの正式HTMLとして維持し、既存alias53 URLも元の転送先を維持する。新規ページ72 URLとは分けて扱う。追加aliasは誤記互換2件とHugoのtaxonomyページ送り12件。Hugo aliasはcanonical＋0秒meta refreshの静的HTMLで、JavaScriptに依存せず、HTTP301を返すものではない。既存Support／Marketing／Privacy／Press Releaseの正規本文ページをaliasへ置き換えていない。
 
-[維持URL・新設URL・redirect・登録候補の全一覧](permanent-urls.md)と[機械可読一覧](permanent-urls.json)を保存。`verify-live.py`で公開後の全277 HTMLについてHTTP200・候補buildと同じ内容を検証する。App Store Connectの登録設定自体は変更していない。
+[維持URL・新設URL・redirect・登録候補の全一覧](permanent-urls.md)と[機械可読一覧](permanent-urls.json)を保存。`verify-live.py`で公開後の全277 HTMLについてHTTP 200・候補buildとのSHA-256一致を確認した。結果は[公開検証記録](deployment.json)。Linux CI（Node22／Hugo0.158.0 Extended）とGitHub Pagesの公開処理も成功。App Store Connectの登録設定自体は変更していない。

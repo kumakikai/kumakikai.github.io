@@ -2,7 +2,7 @@
 
 基準はPaperMod公開ソース `811d9e816f292562b42ba8395ac99683a031ff66` のproduction buildです。旧HTML **191 URL**すべてを保護し、新しいProducts／Support／News／Companyは追加の入口として扱います。旧サポート・プライバシー・規約・Notes本文を新URLへの転送ページへ置き換えません。
 
-確認日: 2026-09-07。確認対象は現在のローカル `public/` と隣接8リポジトリの公開用docs／README／Store metadataです。**現在のApp Store Connect登録値をライブ取得した一覧ではありません。** 公開HTTP到達性もこの台帳作成時点では未検証で、デプロイ後の確認が別途必要です。資格情報・秘密設定は参照していません。
+確認日: 2026-09-07。確認対象は現在のローカル `public/` と隣接8リポジトリの公開用docs／README／Store metadataです。**現在のApp Store Connect登録値をライブ取得した一覧ではありません。** 公開後の2026-09-07 00:25 JSTに、旧191 URLを含む全277 HTMLでHTTP 200と検証済みbuildとのSHA-256一致を確認しました。結果は[公開検証記録](deployment.json)に保存しています。資格情報・秘密設定は参照していません。
 
 機械可読データ: [permanent-urls.json](permanent-urls.json)。検証基準: [baseline.json](baseline.json)。`npm run verify`は旧非redirectページのredirect化、元canonicalの変更、旧alias転送先の変更、URL／本文／アンカー／リンクの消失を失敗として検出します。
 
