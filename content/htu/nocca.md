@@ -1,7 +1,6 @@
 ---
 title: "使い方 (Nocca)"
 description: "Nocca の使い方"
-draft: true
 ---
 
 Nocca は、必要なときだけ静かにつながるための家族通信アプリです。

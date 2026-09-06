@@ -8,6 +8,7 @@ description: "アプリ別のよくある質問"
 対象アプリ:
 
 - [ギガポケ](/faq/giga-poke/)
+- [Nocca](/faq/nocca/)
 - [オトミル](/faq/oto-miru/)
 - [大学ノート - Uni:Note](/faq/uni-note/)
 - [すわなび - 禁煙カウンターアプリ](/faq/smokeless/)

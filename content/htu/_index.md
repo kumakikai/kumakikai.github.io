@@ -8,6 +8,7 @@ description: "アプリ別の使い方"
 対象アプリ:
 
 - [ギガポケ](/htu/giga-poke/)
+- [Nocca](/htu/nocca/)
 - [オトミル](/htu/oto-miru/)
 - [すわなび - 禁煙カウンターアプリ](/htu/smokeless/)
 - [ギャンカレ](/htu/balance-calendar/)

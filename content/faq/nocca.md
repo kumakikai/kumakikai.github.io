@@ -1,7 +1,6 @@
 ---
 title: "よくある質問 (Nocca)"
 description: "Nocca のよくある質問"
-draft: true
 ---
 
 ## 基本

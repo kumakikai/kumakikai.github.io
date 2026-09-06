@@ -1,6 +1,7 @@
 ---
 title: "利用規約"
 description: "アプリ別の利用規約一覧"
+layout: "list"
 ---
 
 このページでは、各アプリごとの利用規約を案内しています。
@@ -8,6 +9,7 @@ description: "アプリ別の利用規約一覧"
 対象アプリ:
 
 - [ギガポケ](/terms/giga-poke/)
+- [Nocca](/terms/nocca/)
 - [オトミル](/terms/oto-miru/)
 
 ---

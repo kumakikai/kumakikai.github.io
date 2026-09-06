@@ -1,7 +1,6 @@
 ---
 title: "利用規約 (Nocca)"
 description: "Nocca の利用規約"
-draft: true
 ---
 
 本利用規約は、Nocca（以下「本アプリ」）の利用条件を定めるものです。

@@ -8,6 +8,7 @@ description: "アプリ別のプライバシーポリシー一覧"
 対象アプリ:
 
 - [ギガポケ](/privacy/giga-poke/)
+- [Nocca](/privacy/nocca/)
 - [オトミル](/privacy/oto-miru/)
 - [すわなび - 禁煙カウンターアプリ](/privacy/smokeless/)
 - [ギャンカレ](/privacy/balance-calendar/)
@@ -21,4 +22,4 @@ description: "アプリ別のプライバシーポリシー一覧"
 - メールアドレス:
   [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
-最終更新日：2026-09-02
+最終更新日：2026-09-06
