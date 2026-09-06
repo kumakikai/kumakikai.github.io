@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-09-07",
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "de",
+    "fr",
+    "zh-hant"
+  ],
+  "scope": "Product detail editorial content only; Home copy, hero, screenshots, status, availability and existing support/legal URLs unchanged",
+  "method": "Current public Apple lookup, local current metadata/specification and existing support guides; selected site screenshots visually inspected. Website language is not app language or storefront availability.",
+  "app": "oto-miru",
+  "publishedVersion": "1.0.1",
+  "publicSource": {
+    "url": "https://itunes.apple.com/lookup?id=6770774613&country=jp",
+    "storeURL": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB-%E8%81%9E%E3%81%93%E3%81%88%E3%82%92%E5%AD%97%E5%B9%95%E3%81%A7%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/id6770774613?uo=4",
+    "version": "1.0.1",
+    "minimumOsVersion": "26.0",
+    "languageCodesISO2A": [
+      "JA"
+    ],
+    "observedClaims": [
+      "Realtime television and conversation captions",
+      "Group and counter/hospital conversations",
+      "Simple mode with larger text and simpler controls",
+      "iPhone and iPad support"
+    ]
+  },
+  "minimumOSDecision": {
+    "published": "26.0",
+    "localDeployment": "26.0",
+    "display": "iOS 26.0 / iPadOS 26.0",
+    "conflict": false,
+    "source": {
+      "path": "/Users/yuya/Projects/oto_miru/OtoMiru.xcodeproj/project.pbxproj",
+      "lines": "513,569,592,620",
+      "claims": [
+        "deployment target 26.0"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "path": "content/htu/oto-miru.md",
+      "lines": "26-47,51-101",
+      "claims": [
+        "simple/standard modes",
+        "microphone start flow",
+        "television, conversation, group scenarios",
+        "conversation/group orientation controls"
+      ]
+    },
+    {
+      "path": "content/faq/oto-miru.md",
+      "lines": "24-26,64-86,106-110",
+      "claims": [
+        "Japanese support",
+        "microphone permission",
+        "orientation controls",
+        "noise and distance affect recognition"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/oto_miru/docs/FEATURE_SPEECH_RECOGNITION.md",
+      "lines": "7-25",
+      "claims": [
+        "Japanese caption implementation",
+        "OS26 and Apple Speech required",
+        "Apple Intelligence not required in current spec"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/oto_miru/OtoMiru/Views/RootView.swift",
+      "lines": "814",
+      "claims": [
+        "current mirror-caption toggle"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/README.md",
+      "lines": "1-24,36",
+      "claims": [
+        "current four screenshot set",
+        "simple home and daily conversation scenes",
+        "Debug seed text does not establish recognition accuracy"
+      ]
+    }
+  ],
+  "screenshotMapping": [
+    {
+      "image": 0,
+      "source": "tmp_appstore_screenshots/refresh_2026_09_05/final/iphone_1284x2778_candidates/01_simple.png",
+      "story": "Direct television/conversation/group buttons in simple-mode home"
+    },
+    {
+      "image": 1,
+      "source": "tmp_appstore_screenshots/refresh_2026_09_05/final/iphone_1284x2778_candidates/04_daily_offline.png",
+      "story": "Large sample medical-appointment captions and stop control; no new offline capability claim in story"
+    }
+  ],
+  "reviewImageNote": {
+    "status": "review",
+    "version": "1.1.0",
+    "ascObservedStatus": "審査待ち",
+    "checkedAt": "2026-09-07",
+    "url": "https://appstoreconnect.apple.com/apps/6770774613/distribution/ios/version/inflight",
+    "verification": "Read-only UI inspection earlier in this same task: exact four image file names, iPhone thumbnail visual match. Public lookup still 1.0.1. Shared review annotation must remain."
+  },
+  "adopted": [
+    "Public stable hearing-support scenarios and large/simple caption UI",
+    "Orientation feature corroborated by existing guide and current source",
+    "Japanese-only caption and compatible-device/microphone conditions"
+  ],
+  "excluded": [
+    "GPT/high-accuracy AI, discontinued Pro/AI packages",
+    "New Plus/subscription claims, price, free duration and trial duration",
+    "Unreleased listening profiles or recognition improvements",
+    "Accuracy guarantees and treatment claims",
+    "Outdated guide/FAQ claims that Apple Intelligence is mandatory"
+  ],
+  "knownSourceConflicts": [
+    "Existing content/htu/oto-miru.md:12-19,165-173 and content/faq/oto-miru.md:40-50 still state an Apple Intelligence prerequisite; current app source/spec and public Store copy do not. These old sections were not used for new product text.",
+    "Existing guide subscription/trial details differ from newer local metadata; no subscription details were copied. Existing documents were outside this subtask and unchanged."
+  ],
+  "dataSHA256": "f988c37d757f46a6bfb3471af76e77802c5e245b63439fe61339be6a2e227958"
+}

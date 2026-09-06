@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-09-07",
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "de",
+    "fr",
+    "zh-hant"
+  ],
+  "scope": "Product detail editorial content only; Home copy, hero, screenshots, status, availability and existing support/legal URLs unchanged",
+  "method": "Current public Apple lookup, local current metadata/specification and existing support guides; selected site screenshots visually inspected. Website language is not app language or storefront availability.",
+  "app": "nocca",
+  "status": "development",
+  "minimumOSDecision": {
+    "display": null,
+    "reason": "No public Store listing; do not turn an implementation deployment target into a release compatibility promise."
+  },
+  "publicSource": {
+    "url": "https://itunes.apple.com/lookup?id=6809145321&country=jp",
+    "resultCount": 0,
+    "checkedAt": "2026-09-07",
+    "sourceRecord": "/private/tmp/cta-signal-freshness.json"
+  },
+  "sources": [
+    {
+      "path": "/Users/yuya/Projects/Nocca/docs/APP_STORE_METADATA.md",
+      "lines": "5-16",
+      "claims": [
+        "Japanese preparation state",
+        "0.1.0 preparing for submission on September6",
+        "role definition saved",
+        "no submitted/released app"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/Nocca/docs/APP_STORE_METADATA.md",
+      "lines": "118-141",
+      "claims": [
+        "short icon signals and customization",
+        "short family template replies",
+        "person-led temporary conversation",
+        "connection approval/mute/pause/disconnect",
+        "no read/last-seen/typing indicators",
+        "internet and separate iPhones"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/Nocca/Nocca/ContentView.swift",
+      "lines": "117,221-227,647,867-868,1130-1133,5175",
+      "claims": [
+        "role selection",
+        "connection approval",
+        "open temporary conversation",
+        "pause/resume controls",
+        "response templates"
+      ]
+    },
+    {
+      "path": "content/faq/nocca.md",
+      "lines": "18-34",
+      "claims": [
+        "development status",
+        "not medical/treatment/surveillance product"
+      ]
+    }
+  ],
+  "screenshotMapping": [
+    {
+      "image": 0,
+      "source": "docs/audit/screenshots/after/child_home_connected.png",
+      "story": "Current selected development icon grid for meals/daily needs/how one feels; do not infer users are children from source filename"
+    },
+    {
+      "image": 1,
+      "source": "docs/audit/assets/2026-09-06-role-copy/onboarding-standard.png",
+      "story": "Role definitions for communicating person and receiving family member"
+    }
+  ],
+  "adopted": [
+    "Describe current development design, not publicly available functionality",
+    "Explicitly define person/family roles without diagnosis, age or caregiver assumptions",
+    "Person-led connection and timing, short signals and replies",
+    "Internet needed for planned family communication",
+    "Development screens and specifications can change"
+  ],
+  "excluded": [
+    "App Store button and confirmed release OS",
+    "Release date and distribution guarantees",
+    "Monitoring, GPS, read receipt, last-seen and typing indicators",
+    "Medical/therapy benefits, diagnostic target groups",
+    "Price and subscription commitments",
+    "General-purpose always-on chat, family-started forced conversations"
+  ],
+  "knownSourceConflicts": [
+    "Existing public how-to/FAQ still describe a local-only prototype with no cross-device sync. September6 current metadata and implementation include connected two-iPhone flow. New product text uses current design while explicitly marking development. No claim of completed public release, security approval or real-device E2E verification is made."
+  ],
+  "dataSHA256": "3c8294cceaafdcb9d2786bc1071cf035de5206c8f0e28076949888047dcfdf2b"
+}

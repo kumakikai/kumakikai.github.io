@@ -1,0 +1,38 @@
+{{ $app := .app }}{{ $detail := index site.Data.product_details $app.id }}
+{{ $text := index $detail.locales site.Language.Lang }}{{ $ui := index site.Data.product_ui site.Language.Lang }}
+{{ $home := index site.Data.home site.Language.Lang }}{{ $appText := index $home.apps $app.id }}{{ $corp := index site.Data.corporate site.Language.Lang }}
+<section class="product-overview product-section" id="overview" aria-labelledby="overview-title">
+  <h2 id="overview-title">{{ $text.overviewTitle }}</h2>
+  <div>{{ range $text.overview }}<p>{{ . }}</p>{{ end }}</div>
+</section>
+<section class="product-features product-section" id="features" aria-labelledby="features-title">
+  <h2 id="features-title">{{ $ui.features }}</h2>
+  <ul>{{ range $text.features }}<li><h3>{{ .title }}</h3><p>{{ .description }}</p></li>{{ end }}</ul>
+</section>
+{{ range $i, $story := $text.stories }}
+{{ $shot := dict }}{{ $alt := "" }}
+{{ if .media }}{{ $shot = index $detail.media .media }}{{ $alt = .alt }}{{ else }}{{ $shot = index $app.screenshots (int .image) }}{{ $alt = index $appText.imageAlts (int .image) }}{{ end }}
+<section class="product-story{{ if eq $app.id "uni-note" }} product-story--tablet{{ end }}{{ if modBool $i 2 }} product-story--reverse{{ end }}" aria-labelledby="story-{{ $i }}-title">
+  <div class="product-story-copy"><h2 id="story-{{ $i }}-title">{{ .title }}</h2><p>{{ .description }}</p></div>
+  <figure class="product-story-visual"><a href="{{ $shot.large }}" aria-label="{{ $appText.name }} — {{ $alt }} — {{ $home.expandImage }}"><img src="{{ $shot.small }}" srcset="{{ $shot.small }} {{ $shot.width }}w, {{ $shot.large }} {{ $shot.largeWidth }}w" sizes="{{ if eq $app.id "uni-note" }}(max-width: 720px) calc(100vw - 76px), (max-width: 1100px) 46vw, 450px{{ else }}(max-width: 420px) calc(100vw - 76px), 290px{{ end }}" width="{{ $shot.width }}" height="{{ $shot.height }}" alt="{{ $alt }}" loading="lazy" decoding="async"></a>
+  {{ if ne $app.status "published" }}<figcaption>{{ $home.developmentScreenshot }}</figcaption>{{ else if eq $app.screenshotsStatus "review" }}<figcaption>{{ (index site.Data.ux site.Language.Lang).reviewScreenshots }}</figcaption>{{ end }}{{ if ne site.Language.Lang "ja" }}<figcaption>{{ $home.screenshotsJapanese }}</figcaption>{{ end }}</figure>
+</section>
+{{ end }}
+<section class="product-audience product-section" aria-labelledby="audience-title">
+  <h2 id="audience-title">{{ $text.audienceTitle }}</h2>
+  <ul>{{ range $text.audience }}<li><h3>{{ .title }}</h3><p>{{ .description }}</p></li>{{ end }}</ul>
+</section>
+<section class="product-facts product-section" aria-labelledby="facts-title">
+  <h2 id="facts-title">{{ $ui.infoTitle }}</h2>
+  <div><dl>
+    <div><dt>{{ $ui.platform }}</dt><dd>{{ $appText.platform }}</dd></div>
+    {{ with $detail.minimumOS }}<div><dt>{{ $ui.os }}</dt><dd>{{ printf $ui.minimumOSFormat . }}</dd></div>{{ end }}
+    <div><dt>{{ $ui.developer }}</dt><dd>KUMAKIKAI</dd></div>
+    <div><dt>{{ $ui.status }}</dt><dd>{{ if eq $app.status "published" }}{{ $corp.available }} · App Store{{ else }}{{ $home.development }}{{ end }}</dd></div>
+  </dl>
+  {{ with $text.notes }}<ul class="product-notes">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+  {{ if eq $app.status "published" }}<p class="product-price-note">{{ $ui.priceNote }}</p>{{ end }}</div>
+</section>
+{{ with $app.availability }}{{ if and (eq $app.status "published") $app.appStoreURL (in .verifiedStorefronts .storefront) }}
+<section class="product-download" aria-labelledby="download-title"><div><h2 id="download-title">{{ printf $ui.downloadTitle $appText.name }}</h2><p>{{ $ui.downloadText }}</p></div>{{ partial "app-store-badge.html" (dict "app" $app) }}</section>
+{{ end }}{{ end }}

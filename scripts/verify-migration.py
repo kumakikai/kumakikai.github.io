@@ -262,7 +262,7 @@ class Verification:
             return published and bool(app.get("appStoreURL"))
         return published and bool(app.get("appStoreURL")) and availability.get("storefront") in availability.get("verifiedStorefronts", [])
 
-    def verify_store_controls(self, container, app, lang, route, badges):
+    def verify_store_controls(self, container, app, lang, route, badges, show_regions=True):
         nodes = list(container.descendants())
         store_badges = [n for n in nodes if n.has_class("app-store-badge")]
         flags = [n for n in nodes if n.has_class("storefront-link")]
@@ -287,7 +287,7 @@ class Verification:
                 except (KeyError, ValueError):
                     self.require(False, route, "store_badge", "Badge must reserve valid width and height")
         availability = app["availability"]
-        expected = availability.get("verifiedStorefronts", [])
+        expected = availability.get("verifiedStorefronts", []) if show_regions else []
         actual = [n.attrs.get("data-country") for n in flags]
         self.require(actual == expected, route, "storefront_links", f"{app['id']}: country links must match verified regions independently of display language")
         for flag in flags:
@@ -321,6 +321,74 @@ class Verification:
                 self.counts["direct_product_support_links"] += 1
         self.require(sum(urlsplit(href).scheme == "mailto" and urlsplit(href).path == "kumakikai.apps@gmail.com" for href in hrefs) == 1, route, "product_contact", "Product support needs one direct contact email link")
         self.require(not any(re.match(r"^/(?:en/|ko/|de/|zh-hant/|fr/)?support/", urlsplit(href).path) for href in hrefs), route, "product_support", "Product resources must not detour through the Support directory")
+
+    def verify_product_content(self, doc, app, detail, lang, route):
+        text = detail["locales"][lang]
+        home = json.loads((self.data_file.parent / "home" / (lang + ".json")).read_text(encoding="utf-8"))
+        ui = json.loads((self.data_file.parent / "product_ui" / (lang + ".json")).read_text(encoding="utf-8"))
+        corporate = json.loads((self.data_file.parent / "corporate" / (lang + ".json")).read_text(encoding="utf-8"))
+        sections = {}
+        for name in ("overview", "features", "audience", "facts"):
+            matches = [n for n in doc.tagged("section") if n.has_class("product-" + name)]
+            self.require(len(matches) == 1, route, "product_sections", f"Expected one product {name} section")
+            if matches:
+                sections[name] = matches[0]
+                labelled = matches[0].attrs.get("aria-labelledby")
+                self.require(labelled and any(n.tag == "h2" and n.attrs.get("id") == labelled for n in matches[0].descendants()), route, "product_sections", f"Product {name} needs its own accessible heading")
+        if len(sections) != 4:
+            return
+        self.require(sections["overview"].attrs.get("id") == "overview" and sections["features"].attrs.get("id") == "features", route, "product_sections", "Overview and features need stable section anchors")
+        self.require(len(text["overview"]) == 2 and [n.text().strip() for n in sections["overview"].descendants("p")] == text["overview"], route, "product_overview", "The two overview paragraphs must match this locale's product data")
+        self.require(normalized(text["overviewTitle"]) in normalized(sections["overview"].text()), route, "product_overview", "Localized overview heading is missing")
+        for name in ("features", "audience"):
+            expected = text[name]
+            valid_count = 3 <= len(expected) <= 6 if name == "features" else len(expected) == 3
+            self.require(valid_count, route, "product_content", f"Invalid {name} item count")
+            items = list(sections[name].descendants("li"))
+            self.require(len(items) == len(expected), route, "product_content", f"Rendered {name} list differs from product data")
+            for item, source in zip(items, expected):
+                self.require([n.text().strip() for n in item.descendants("h3")] == [source["title"]] and [n.text().strip() for n in item.descendants("p")] == [source["description"]], route, "product_content", f"Localized {name} title/description was omitted or altered")
+        self.require(normalized(text["audienceTitle"]) in normalized(sections["audience"].text()), route, "product_content", "Localized audience heading is missing")
+        stories = [n for n in doc.tagged("section") if n.has_class("product-story")]
+        self.require(2 <= len(text["stories"]) <= 3 and len(stories) == len(text["stories"]), route, "product_stories", "Products need their two or three illustrated use cases")
+        for story, source in zip(stories, text["stories"]):
+            self.require([n.text().strip() for n in story.descendants("h2")] == [source["title"]] and [n.text().strip() for n in story.descendants("p")] == [source["description"]], route, "product_stories", "Localized use-case title/description differs from source data")
+            if source.get("media"):
+                shot = detail.get("media", {}).get(source["media"], {})
+                alt = source.get("alt", "")
+            else:
+                index = source.get("image")
+                valid = isinstance(index, int) and 0 <= index < len(app.get("screenshots", []))
+                self.require(valid, route, "product_media", "Use-case screenshot index does not identify an existing asset")
+                shot = app["screenshots"][index] if valid else {}
+                alt = home["apps"][app["id"]]["imageAlts"][index] if valid else ""
+            images = list(story.descendants("img"))
+            self.require(bool(shot) and bool(alt) and len(images) == 1, route, "product_media", "Each use case needs one real image and localized alternative text")
+            if images and shot:
+                image = images[0]
+                expected = {"src": shot["small"], "width": str(shot["width"]), "height": str(shot["height"]), "alt": alt, "loading": "lazy", "decoding": "async"}
+                self.require(all(image.attrs.get(key) == value for key, value in expected.items()), route, "product_media", "Use-case image must preserve its asset, dimensions, alt, and lazy decoding")
+                self.require(bool(image.attrs.get("sizes")) and shot["large"] in image.attrs.get("srcset", ""), route, "product_media", "Use-case image needs responsive sizes and its larger source")
+                self.require([n.attrs.get("href") for n in story.descendants("a")] == [shot["large"]], route, "product_media", "Use-case image must open the real larger asset")
+            self.counts["product_story_images"] += 1
+        facts = sections["facts"]
+        labels = [n.text().strip() for n in facts.descendants("dt")]
+        values = [n.text().strip() for n in facts.descendants("dd")]
+        expected_labels, expected_values = [ui["platform"]], [home["apps"][app["id"]]["platform"]]
+        if detail.get("minimumOS"):
+            expected_labels.append(ui["os"])
+            expected_values.append(ui["minimumOSFormat"] % detail["minimumOS"])
+        expected_labels += [ui["developer"], ui["status"]]
+        expected_values += ["KUMAKIKAI", corporate["available"] + " · App Store" if self.available(app) else home["development"]]
+        self.require(len(list(facts.descendants("dl"))) == 1 and labels == expected_labels and values == expected_values, route, "product_facts", "Platform, confirmed minimum OS, developer, and publication status must match verified data")
+        notes = [n for n in facts.descendants() if n.has_class("product-notes")]
+        rendered_notes = [n.text().strip() for group in notes for n in group.descendants("li")]
+        self.require(rendered_notes == text.get("notes", []), route, "product_facts", "Product-specific limitations must remain visible")
+        price_notes = [n.text().strip() for n in facts.descendants() if n.has_class("product-price-note")]
+        self.require(price_notes == ([ui["priceNote"]] if self.available(app) else []), route, "product_facts", "Pricing guidance must refer published products to the Store without invented prices")
+        ordered = [sections["overview"], sections["features"]] + stories + [sections["audience"], facts]
+        self.require([doc.nodes.index(n) for n in ordered] == sorted(doc.nodes.index(n) for n in ordered), route, "product_sections", "Product information sections are out of order")
+        self.counts["expanded_product_pages"] += 1
 
     def verify_products_hub(self, doc, apps, lang, route):
         cards = [n for n in doc.nodes if n.has_class("product-card")]
@@ -364,6 +432,14 @@ class Verification:
         if isinstance(apps, dict):
             apps = apps.get("apps", [])
         by_id = {app["id"]: app for app in apps}
+        details = {app["id"]: json.loads((self.data_file.parent / "product_details" / (app["id"] + ".json")).read_text(encoding="utf-8")) for app in apps}
+        for app_id, detail in details.items():
+            self.require(set(detail.get("locales", {})) == set(LANGUAGES), "/products/" + app_id + "/", "product_locales", "Every product requires all six localized content records")
+            original = detail["locales"]["ja"]
+            for lang, text in detail["locales"].items():
+                self.require(all(len(text.get(key, [])) == len(original.get(key, [])) for key in ("overview", "features", "stories", "audience", "notes")), localized(lang, f"/products/{app_id}/"), "product_locales", "Localized product sections and limitations must retain the same information structure")
+                if lang != "ja":
+                    self.require(normalized("".join(text.get("overview", []))) != normalized("".join(original.get("overview", []))), localized(lang, f"/products/{app_id}/"), "product_locales", "Product overview must use its translation instead of silently repeating Japanese")
         news_metadata = json.loads((self.data_file.parent / "news.json").read_text(encoding="utf-8"))
         badges = json.loads((self.data_file.parent / "app-store-badges.json").read_text(encoding="utf-8"))
         evidence_path = self.data_file.parent.parent / "docs/ux/storefront-verification.json"
@@ -487,7 +563,16 @@ class Verification:
                 if not target or not target[0].is_file():
                     continue
                 doc = self.document(target[0])
-                self.verify_store_controls(doc.root, app, lang, route, badges)
+                self.verify_product_content(doc, app, details[app_id], lang, route)
+                intro = [n for n in doc.nodes if n.has_class("product-intro")]
+                download = [n for n in doc.nodes if n.has_class("product-download")]
+                if intro:
+                    self.verify_store_controls(intro[0], app, lang, route, badges)
+                self.require(len(download) == int(self.available(app)), route, "product_download", "Published products need one lower download section; development products need none")
+                if download:
+                    self.verify_store_controls(download[0], app, lang, route, badges, show_regions=False)
+                self.require(sum(n.has_class("app-store-badge") for n in doc.nodes) == (2 if self.available(app) else 0), route, "product_download", "Product Store badges belong only to the hero and lower download sections")
+                self.require(sum(n.has_class("storefront-link") for n in doc.nodes) == len(app.get("availability", {}).get("verifiedStorefronts", [])), route, "storefront_links", "Product country links must appear only once in the hero")
                 self.verify_product_support(doc, app, lang, route)
                 store_links = [node.attrs.get("href", "") for node in doc.tagged("a") if urlsplit(node.attrs.get("href", "")).hostname == "apps.apple.com"]
                 if self.available(app):

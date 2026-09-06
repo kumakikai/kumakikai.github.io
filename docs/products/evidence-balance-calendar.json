@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-09-07",
+  "task": "Product detail expansion only; approved Home copy, apps data, images and legacy article/support/privacy content remain unchanged.",
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "de",
+    "fr",
+    "zh-hant"
+  ],
+  "verificationMethod": "Current Japanese public Apple Lookup response read over HTTPS; local current project documentation, deployment targets and implementation reviewed; six existing website screenshots visually inspected.",
+  "limitations": [
+    "Public listing verification is distinct from App Store Connect review/submission state. No new account-level App Store Connect state check or physical-device flow was performed in this task.",
+    "Source code and current project docs may include work newer than the public version; public-version scope controls the product copy.",
+    "Storefront availability and app display languages are not inferred from website language. Existing shared product availability data is unchanged."
+  ],
+  "app": "balance-calendar",
+  "publicStore": {
+    "sourceURL": "https://itunes.apple.com/lookup?id=6759493613,6760842941,6757731648&country=jp",
+    "storefront": "jp",
+    "checkedAt": "2026-09-07",
+    "trackId": 6757731648,
+    "trackName": "ギャンカレ - 3秒で記録できる収支管理",
+    "trackViewUrl": "https://apps.apple.com/jp/app/%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC-3%E7%A7%92%E3%81%A7%E8%A8%98%E9%8C%B2%E3%81%A7%E3%81%8D%E3%82%8B%E5%8F%8E%E6%94%AF%E7%AE%A1%E7%90%86/id6757731648?uo=4",
+    "version": "1.4.0",
+    "minimumOsVersion": "14.0",
+    "currentVersionReleaseDate": "2026-09-04T00:44:23Z",
+    "languageCodesISO2A": [
+      "EN",
+      "JA"
+    ],
+    "description": "3秒で、すぐ記録。\nどこでも、どんな時でも、思い立った瞬間に入力。\nギャンカレは、収支をすばやく残せるシンプルな記録アプリです。\n\nプラスもマイナスも、その場でかんたんに記録できます。\n記録した内容は日ごとにカレンダーへ保存され、あとから流れを見返せます。\n\n複雑な設定や難しい操作はありません。\nシンプル家計簿として使いたい方にも、貯金の記録を続けたい方にも、ギャンブル収支を残したい方にも使いやすい設計です。\n\nホーム画面ウィジェットからの入力にも対応しており、\nアプリを開かなくても、その場ですばやく記録できます。",
+    "screenshotUrls": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/18/32/ea1832b3-21e0-e625-bb50-f19eff826a53/01_gambling_instant.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/7b/13/f67b13eb-c8ae-2bb0-a853-53dbacd29d76/02_widget_quick_entry.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/1b/9a/161b9a5d-fef7-8f84-39f6-61640212546a/03_number_only.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/4d/69/e44d69b9-6047-dff9-e37e-d84bf9538469/04_day_month_year.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1e/d3/bf/1ed3bf01-f60b-3aa1-0db6-5dd963d36e83/05_gambling_tags.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/3a/41/6a3a419d-b665-24b6-9451-a70265a0e3b0/06_flexible_tags.png/320x480bb.jpg"
+    ]
+  },
+  "localVersion": "1.4.0+2",
+  "minimumOSDecision": {
+    "value": "iOS 14.0",
+    "authority": "Current public App Store minimumOsVersion",
+    "deploymentTargetMatches": true
+  },
+  "sources": [
+    {
+      "path": "/Users/yuya/Projects/gamble_pnl/pubspec.yaml",
+      "lines": [
+        25
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "1ba22a92fded8f203c2b512ca6a723d584bad5bbd19464f31c35aaec834dcc25",
+      "supports": [
+        "Local version 1.4.0+2 matches public 1.4.0 release"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/gamble_pnl/ios/Runner.xcodeproj/project.pbxproj",
+      "lines": [
+        519,
+        608,
+        659,
+        755,
+        806,
+        854
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "1f3d72d757c3f5f3e0b2be260b6d6ad45eb8ce31585dde6cd5dd8d474620da23",
+      "supports": [
+        "iOS deployment target 14.0 matches public Store minimumOsVersion"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/AUDIT_AND_COPY_JA.md",
+      "lines": [
+        "10-31"
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "2c265da141792cca4e574cb56a7d0e37a7eaed505bee5ef5a7dd2a30dc80ef68",
+      "supports": [
+        "Formal screenshots based on actual 1.3.1 app UI; same filenames now in current public 1.4.0 listing",
+        "Widget opens app input, does not complete input on widget",
+        "Day/month/year totals and editable activity tags; no weekly view"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/gamble_pnl/lib/features/register/register_page.dart",
+      "lines": [
+        "206-216",
+        "275-295",
+        "485-495",
+        "700-717"
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "251a495e8f9a5e295cacb8d6619e867ab062861adde0cbaf005c1c38f5bb7c4e",
+      "supports": [
+        "Widget opens the corresponding keypad",
+        "Daily/monthly totals, tag selection and manual dated amount input"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/gamble_pnl/lib/features/graph/graph_page.dart",
+      "lines": [
+        18,
+        "112-126"
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "91bc48f315c257d04864df5add23a83a6f8b43394a8133eacb0b4ba8288aa770",
+      "supports": [
+        "Day/month/tag scopes for recorded amounts"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/gamble_pnl/lib/features/root/root_page.dart",
+      "lines": [
+        "1555-1576",
+        "2173-2187"
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "2f3a12dd078a1ed9bff2d1d3c2addd8b83db883ed06621cc51d2cb52d8a22a03",
+      "supports": [
+        "Manual records saved by month in local SharedPreferences"
+      ]
+    }
+  ],
+  "decisions": [
+    "Includes manual positive/negative amounts, date-based record review, monthly and yearly totals, editable activity tags and widget entry shortcut.",
+    "Public description suggests input without opening the app. Current implementation and formal screenshot audit show the widget opens the appropriate app keypad. Copy follows the narrower verified behavior in all languages.",
+    "Date-based records are described without inventing a monthly grid view; existing day-list/month-list images are explained as visible.",
+    "No bank imports, automatic payment synchronization, cloud synchronization, prediction, gambling strategy, guaranteed speed or profit claims. This is a manually entered record tool.",
+    "Current public filenames match the two retained official marketing images; images captured for the prior 1.3.1 release are not represented as fresh 1.4.0 device captures."
+  ],
+  "screenshots": [
+    {
+      "imageIndex": 0,
+      "webImage": "/images/apps/balance-calendar/entry-840.webp",
+      "sourcePath": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/final/01_gambling_instant.png",
+      "currentPublicStoreFilename": "01_gambling_instant.png",
+      "storyFocus": "Large plus/minus entry buttons, selected date and activity tags",
+      "review": "Existing 420px WebP visually inspected; story describes visible UI. Existing asset was not modified.",
+      "sha256": "8d75adf114dc712cec3310cfb832efccb42e4a8f8d330f42a41930d74af82fe8"
+    },
+    {
+      "imageIndex": 1,
+      "webImage": "/images/apps/balance-calendar/history-840.webp",
+      "sourcePath": "/Users/yuya/Projects/gamble_pnl/artifacts/app_store_screenshots_2026-09-03/final/04_day_month_year.png",
+      "currentPublicStoreFilename": "04_day_month_year.png",
+      "storyFocus": "Daily records beside monthly balances and yearly total",
+      "review": "Existing 420px WebP visually inspected; story describes visible UI. Existing asset was not modified.",
+      "sha256": "c8b3893c9528712aa3a4711c8b846ddd6052ea8e7c8dba1f54a352f040e77703"
+    }
+  ],
+  "priorAssetAudit": "docs/ux/screenshot-freshness.json",
+  "priorSubmissionLimitations": "docs/ux/other-submission-check.json"
+}

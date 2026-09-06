@@ -1,0 +1,156 @@
+[
+  {
+    "app": "uni-note",
+    "key": "pdf",
+    "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/final_v7/SS06_pdf_write.png",
+    "sourceSHA256": "424a98df330865e2f107c510291863fa608b835287fdd41902388c880f4588fb",
+    "sourceDimensions": {
+      "format": "png",
+      "mediaType": "image/png",
+      "width": 2064,
+      "height": 2752,
+      "space": "srgb",
+      "channels": 4,
+      "depth": "uchar",
+      "density": 72,
+      "isProgressive": false,
+      "isPalette": false,
+      "bitsPerSample": 8,
+      "hasProfile": false,
+      "hasAlpha": true,
+      "autoOrient": {
+        "width": 2064,
+        "height": 2752
+      }
+    },
+    "outputs": [
+      {
+        "path": "/images/apps/uni-note/detail-pdf-560.webp",
+        "width": 560,
+        "height": 747,
+        "bytes": 27444,
+        "sha256": "0da68a1102e7fb511fbb7e693e0c7961d1e913d157e91626311e4ff21536bbf6"
+      },
+      {
+        "path": "/images/apps/uni-note/detail-pdf-1120.webp",
+        "width": 1120,
+        "height": 1493,
+        "bytes": 72006,
+        "sha256": "56b749a379ab2bda38111eebe65df33bc1046fa41d93aaa3ff152287b4a28717"
+      }
+    ]
+  },
+  {
+    "app": "uni-note",
+    "key": "review",
+    "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/final_v7/SS04_review.png",
+    "sourceSHA256": "3205e311666ea13f9bde5750ca4ebfaae00a705777f6ff3ed486ea4a242698fa",
+    "sourceDimensions": {
+      "format": "png",
+      "mediaType": "image/png",
+      "width": 2064,
+      "height": 2752,
+      "space": "srgb",
+      "channels": 4,
+      "depth": "uchar",
+      "density": 72,
+      "isProgressive": false,
+      "isPalette": false,
+      "bitsPerSample": 8,
+      "hasProfile": false,
+      "hasAlpha": true,
+      "autoOrient": {
+        "width": 2064,
+        "height": 2752
+      }
+    },
+    "outputs": [
+      {
+        "path": "/images/apps/uni-note/detail-review-560.webp",
+        "width": 560,
+        "height": 747,
+        "bytes": 31252,
+        "sha256": "1747b24165409755eacda62cc4b2e77191958a3dfe92d3d085a75f2700d614d8"
+      },
+      {
+        "path": "/images/apps/uni-note/detail-review-1120.webp",
+        "width": 1120,
+        "height": 1493,
+        "bytes": 85142,
+        "sha256": "d3d5253d1742d3efa70ae4a05a171f791d5ffb8a33c3c3757d8721eeb008f8c2"
+      }
+    ]
+  },
+  {
+    "app": "uni-note-pocket",
+    "key": "practice",
+    "source": "/Users/yuya/Projects/uni_memo/artifacts/app_store_screenshots_2026-09-02/final/SS03_practice_set.png",
+    "sourceSHA256": "3d2a6c1650a4f75af138f5c01021c19878c474567f017046131659eca79c7f78",
+    "sourceDimensions": {
+      "format": "png",
+      "mediaType": "image/png",
+      "width": 1284,
+      "height": 2778,
+      "space": "srgb",
+      "channels": 3,
+      "depth": "uchar",
+      "density": 72,
+      "isProgressive": false,
+      "isPalette": false,
+      "bitsPerSample": 8,
+      "background": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "hasProfile": false,
+      "hasAlpha": false,
+      "autoOrient": {
+        "width": 1284,
+        "height": 2778
+      },
+      "comments": [
+        {
+          "keyword": "date:create",
+          "text": "2026-09-02T11:44:59+00:00"
+        },
+        {
+          "keyword": "date:modify",
+          "text": "2026-09-02T11:44:59+00:00"
+        },
+        {
+          "keyword": "date:timestamp",
+          "text": "2026-09-02T11:44:59+00:00"
+        },
+        {
+          "keyword": "exif:ExifOffset",
+          "text": "26"
+        },
+        {
+          "keyword": "exif:PixelXDimension",
+          "text": "1284"
+        },
+        {
+          "keyword": "exif:PixelYDimension",
+          "text": "2778"
+        }
+      ]
+    },
+    "outputs": [
+      {
+        "path": "/images/apps/uni-note-pocket/detail-practice-420.webp",
+        "width": 420,
+        "height": 909,
+        "bytes": 21720,
+        "sha256": "3ca32935540407fbac0637c21d11758f666be8eb27f76126c34f4a70e28bcbda"
+      },
+      {
+        "path": "/images/apps/uni-note-pocket/detail-practice-840.webp",
+        "width": 840,
+        "height": 1817,
+        "bytes": 52872,
+        "sha256": "b790cdd4c193fbd29670cc2748d6a076fe03dc0e527087187aa74d403d7befb2"
+      }
+    ]
+  }
+]

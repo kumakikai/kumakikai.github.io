@@ -1,0 +1,447 @@
+{
+  "minimumOS": "iPadOS 17.0",
+  "media": {
+    "pdf": {
+      "small": "/images/apps/uni-note/detail-pdf-560.webp",
+      "large": "/images/apps/uni-note/detail-pdf-1120.webp",
+      "width": 560,
+      "height": 747,
+      "largeWidth": 1120
+    },
+    "review": {
+      "small": "/images/apps/uni-note/detail-review-560.webp",
+      "large": "/images/apps/uni-note/detail-review-1120.webp",
+      "width": 560,
+      "height": 747,
+      "largeWidth": 1120
+    }
+  },
+  "locales": {
+    "ja": {
+      "overviewTitle": "授業で書いたノートを、復習につなげる。",
+      "overview": [
+        "Uni:Noteは、大学の授業をiPadにまとめるための手書きノートアプリです。Apple Pencilで板書や考えを書き留め、配布されたPDFにも直接書き込めます。教科とフォルダで整理して、必要なノートを見つけやすくします。",
+        "授業後は、ノートを読み返すだけでなく、囲った問題をAIに質問したり、ノートから問題集を作成したりできます。書く場所と復習する場所をまとめることで、授業中の記録を次の学習に生かせます。"
+      ],
+      "features": [
+        {
+          "title": "手書きノート",
+          "description": "Apple Pencilで文字や図を書き込み。授業の板書も、自分の考えも同じノートに残せます。"
+        },
+        {
+          "title": "PDFへの書き込み",
+          "description": "講義PDFを取り込み、資料の上に手書きでメモ。画像や撮影した資料もノートへ追加できます。"
+        },
+        {
+          "title": "教科・フォルダで整理",
+          "description": "授業ごとにノートをまとめ、フォルダで分類。ノート名から探すこともできます。"
+        },
+        {
+          "title": "囲ってAIに質問",
+          "description": "ノートの問題を範囲指定して、解答や解説を確認。分からない箇所から学習を進められます。"
+        },
+        {
+          "title": "ノートから問題集を作成",
+          "description": "学習内容をAIで問題に変換。作成した問題を使い、答えや解説を確認しながら復習できます。"
+        },
+        {
+          "title": "付箋マーカーで暗記",
+          "description": "覚えたい部分を隠し、指でタップして表示を切り替え。ノートのまま知識を確かめられます。"
+        }
+      ],
+      "stories": [
+        {
+          "media": "pdf",
+          "alt": "Uni:Noteの講義PDFにApple Pencilでメモを書き込んだApp Storeスクリーンショット",
+          "title": "講義資料の余白も、ノートになる。",
+          "description": "PDFを読んでから別の場所にメモを移す手間を減らします。配布資料を取り込み、図や文章のすぐそばに、授業で聞いたことや自分の気づきを書き残せます。"
+        },
+        {
+          "image": 1,
+          "title": "書いた内容を、解く練習へ。",
+          "description": "ノートから復習用の問題集を作成できます。問題を解き、答えや解説を確認する流れで、書き留めた内容を自分で確かめる学習につなげます。"
+        },
+        {
+          "media": "review",
+          "alt": "Uni:Noteで付箋マーカーにより答えを隠し、問題集でも復習するApp Storeスクリーンショット",
+          "title": "隠して、思い出して、確かめる。",
+          "description": "付箋マーカーを有効にすると、ノートの覚えたい部分を隠せます。タップで見せたり隠したりしながら、用語や答えを覚えているかをその場で確認できます。"
+        }
+      ],
+      "audienceTitle": "こんな方に",
+      "audience": [
+        {
+          "title": "大学の授業をiPadにまとめたい",
+          "description": "板書・PDF資料・自分のメモを教科ごとに整理したい方に。"
+        },
+        {
+          "title": "紙のノートから移行したい",
+          "description": "手書きの感覚を残しながら、資料やノートを持ち歩きたい方に。"
+        },
+        {
+          "title": "ノートを試験勉強にも使いたい",
+          "description": "書いた内容を問題集や付箋マーカーで復習したい方に。"
+        }
+      ],
+      "notes": [
+        "手書き入力にはApple Pencilを使用します。",
+        "AIによる質問・問題集生成にはインターネット接続と利用可能なAIクォータが必要です。AIの回答は学習内容と照らし合わせて確認してください。"
+      ]
+    },
+    "en": {
+      "overviewTitle": "Turn lecture notes into revision.",
+      "overview": [
+        "Uni:Note is a handwriting app for taking university lecture notes on iPad. Write with Apple Pencil, annotate handouts in PDF format, and organize your notes by subject and folder so you can find them again.",
+        "After class, ask AI about a selected problem or create a practice set from your notes. Keeping note-taking and revision together helps you return to what you wrote and test your understanding."
+      ],
+      "features": [
+        {
+          "title": "Handwritten notes",
+          "description": "Use Apple Pencil for words, diagrams, lecture notes and your own ideas."
+        },
+        {
+          "title": "PDF annotation",
+          "description": "Import lecture PDFs and write directly on them. Add images and captured documents to your notes."
+        },
+        {
+          "title": "Subjects and folders",
+          "description": "Group notes by class, organize them in folders and search by note title."
+        },
+        {
+          "title": "Ask AI about a selection",
+          "description": "Select a problem in your notes to request an answer and explanation."
+        },
+        {
+          "title": "Practice sets from notes",
+          "description": "Use AI to turn your study material into questions, then review their answers and explanations."
+        },
+        {
+          "title": "Sticky markers for recall",
+          "description": "Cover what you want to memorize and tap to reveal or hide it while reviewing."
+        }
+      ],
+      "stories": [
+        {
+          "media": "pdf",
+          "alt": "App Store screenshot of Apple Pencil annotations on a lecture PDF in Uni:Note",
+          "title": "Make the handout part of your notes.",
+          "description": "Import a PDF and write next to the text or diagram you are studying. Keep what you heard in class and your own observations beside the original material."
+        },
+        {
+          "image": 1,
+          "title": "From writing it down to working it out.",
+          "description": "Create a practice set from your notes. Work through the questions and check the answers and explanations to revisit the material actively."
+        },
+        {
+          "media": "review",
+          "alt": "App Store screenshot showing hidden answers with sticky markers and practice sets in Uni:Note",
+          "title": "Cover it. Recall it. Check it.",
+          "description": "Enable sticky markers to hide important parts of a note. Tap to reveal or cover them again as you check whether you remember a term or answer."
+        }
+      ],
+      "audienceTitle": "Who it is for",
+      "audience": [
+        {
+          "title": "Taking university notes on iPad",
+          "description": "Keep lecture notes, handouts and your own annotations organized by subject."
+        },
+        {
+          "title": "Moving from paper",
+          "description": "Keep handwriting while carrying your notes and materials together."
+        },
+        {
+          "title": "Preparing for exams",
+          "description": "Revisit what you wrote using practice sets and sticky markers."
+        }
+      ],
+      "notes": [
+        "Handwriting uses Apple Pencil.",
+        "AI questions and practice set generation require an internet connection and available AI quota. Check AI responses against your study material."
+      ]
+    },
+    "ko": {
+      "overviewTitle": "수업에서 쓴 노트를 복습으로 이어가세요.",
+      "overview": [
+        "Uni:Note는 대학 수업을 iPad에 정리하는 손글씨 노트 앱입니다. Apple Pencil로 판서와 생각을 적고, 배포된 PDF에도 바로 메모할 수 있습니다. 과목과 폴더로 분류해 필요한 노트를 찾기 쉽게 정리하세요.",
+        "수업이 끝나면 노트를 다시 읽는 데서 더 나아가, 선택한 문제를 AI에 질문하거나 노트로 문제집을 만들 수 있습니다. 필기와 복습을 한곳에 모아 수업 기록을 다음 학습에 활용하세요."
+      ],
+      "features": [
+        {
+          "title": "손글씨 노트",
+          "description": "Apple Pencil로 글과 그림을 쓰고, 수업 판서와 자신의 생각을 같은 노트에 남깁니다."
+        },
+        {
+          "title": "PDF에 필기",
+          "description": "강의 PDF를 가져와 자료 위에 직접 메모합니다. 이미지와 촬영한 자료도 추가할 수 있습니다."
+        },
+        {
+          "title": "과목과 폴더로 정리",
+          "description": "수업별로 노트를 모으고 폴더로 분류합니다. 노트 제목으로도 검색할 수 있습니다."
+        },
+        {
+          "title": "영역을 선택해 AI에 질문",
+          "description": "노트의 문제를 선택해 답과 해설을 확인하고 모르는 부분부터 학습합니다."
+        },
+        {
+          "title": "노트로 문제집 만들기",
+          "description": "AI로 학습 내용을 문제로 바꾸고, 답과 해설을 확인하며 복습합니다."
+        },
+        {
+          "title": "스티키 마커로 암기",
+          "description": "외우고 싶은 부분을 가리고 탭으로 표시를 전환해 기억을 확인합니다."
+        }
+      ],
+      "stories": [
+        {
+          "media": "pdf",
+          "alt": "Uni:Note의 강의 PDF에 Apple Pencil로 필기한 App Store 스크린샷",
+          "title": "강의 자료의 여백도 노트가 됩니다.",
+          "description": "PDF를 가져와 글과 그림 바로 옆에 메모하세요. 수업에서 들은 내용과 자신의 생각을 원본 자료와 함께 남길 수 있습니다."
+        },
+        {
+          "image": 1,
+          "title": "기록한 내용을 문제 풀이로.",
+          "description": "노트에서 복습용 문제집을 만듭니다. 문제를 풀고 답과 해설을 확인하면서, 적어 둔 내용을 스스로 점검하는 학습으로 이어가세요."
+        },
+        {
+          "media": "review",
+          "alt": "Uni:Note에서 스티키 마커로 답을 가리고 문제집으로 복습하는 App Store 스크린샷",
+          "title": "가리고, 떠올리고, 확인하세요.",
+          "description": "스티키 마커를 켜면 노트에서 외우고 싶은 부분을 가릴 수 있습니다. 탭해서 보이거나 숨기며 용어와 답을 기억하는지 확인하세요."
+        }
+      ],
+      "audienceTitle": "이런 분께",
+      "audience": [
+        {
+          "title": "대학 수업을 iPad에 정리하고 싶은 분",
+          "description": "판서, PDF 자료, 메모를 과목별로 모으고 싶은 분께."
+        },
+        {
+          "title": "종이 노트에서 옮기고 싶은 분",
+          "description": "손글씨를 유지하면서 자료와 노트를 함께 가지고 다니고 싶은 분께."
+        },
+        {
+          "title": "노트를 시험 공부에 활용하고 싶은 분",
+          "description": "문제집과 스티키 마커로 필기 내용을 복습하고 싶은 분께."
+        }
+      ],
+      "notes": [
+        "손글씨 입력에는 Apple Pencil을 사용합니다.",
+        "AI 질문 및 문제집 생성에는 인터넷 연결과 사용 가능한 AI 쿼터가 필요합니다. AI 답변은 학습 자료와 비교해 확인하세요."
+      ]
+    },
+    "de": {
+      "overviewTitle": "Aus Vorlesungsnotizen wird Wiederholung.",
+      "overview": [
+        "Uni:Note ist eine App für handschriftliche Vorlesungsnotizen auf dem iPad. Schreiben Sie mit Apple Pencil, ergänzen Sie PDF-Unterlagen und ordnen Sie Ihre Notizen nach Fächern und Ordnern, damit Sie sie später wiederfinden.",
+        "Nach der Vorlesung können Sie die KI zu einer markierten Aufgabe befragen oder aus Ihren Notizen einen Übungssatz erstellen. So bleiben Mitschrift und Wiederholung an einem Ort."
+      ],
+      "features": [
+        {
+          "title": "Handschriftliche Notizen",
+          "description": "Halten Sie mit Apple Pencil Texte, Skizzen, Tafelbilder und eigene Gedanken fest."
+        },
+        {
+          "title": "PDFs beschriften",
+          "description": "Importieren Sie Vorlesungsunterlagen und schreiben Sie direkt darauf. Auch Bilder und aufgenommene Dokumente lassen sich ergänzen."
+        },
+        {
+          "title": "Fächer und Ordner",
+          "description": "Sortieren Sie Notizen nach Lehrveranstaltung und Ordner oder suchen Sie nach dem Notiztitel."
+        },
+        {
+          "title": "Markieren und KI fragen",
+          "description": "Wählen Sie eine Aufgabe in Ihren Notizen aus, um eine Antwort und Erklärung anzufordern."
+        },
+        {
+          "title": "Übungssätze erstellen",
+          "description": "Wandeln Sie Lernmaterial mit KI in Fragen um und wiederholen Sie es mit Antworten und Erklärungen."
+        },
+        {
+          "title": "Mit Markierungen lernen",
+          "description": "Verdecken Sie wichtige Stellen und blenden Sie sie zum Prüfen per Tippen wieder ein."
+        }
+      ],
+      "stories": [
+        {
+          "media": "pdf",
+          "alt": "App-Store-Screenshot mit Apple-Pencil-Anmerkungen auf einer Vorlesungs-PDF in Uni:Note",
+          "title": "Die Unterlagen werden Teil Ihrer Notizen.",
+          "description": "Importieren Sie eine PDF und schreiben Sie direkt neben den Text oder die Abbildung. So stehen Hinweise aus der Vorlesung und eigene Gedanken bei der passenden Stelle."
+        },
+        {
+          "image": 1,
+          "title": "Vom Mitschreiben zum Üben.",
+          "description": "Erstellen Sie aus Ihren Notizen einen Übungssatz. Bearbeiten Sie die Fragen und prüfen Sie Antworten und Erklärungen, um das Gelernte aktiv zu wiederholen."
+        },
+        {
+          "media": "review",
+          "alt": "App-Store-Screenshot mit verdeckten Antworten und Übungssätzen in Uni:Note",
+          "title": "Verdecken, erinnern, nachsehen.",
+          "description": "Aktivieren Sie Haftmarkierungen, um wichtige Stellen zu verdecken. Per Tippen blenden Sie sie ein oder aus und prüfen, ob Sie einen Begriff oder eine Antwort noch wissen."
+        }
+      ],
+      "audienceTitle": "Für wen ist Uni:Note?",
+      "audience": [
+        {
+          "title": "Vorlesungen auf dem iPad festhalten",
+          "description": "Mitschriften, PDFs und eigene Anmerkungen nach Fach zusammenführen."
+        },
+        {
+          "title": "Von Papier umsteigen",
+          "description": "Weiter handschriftlich arbeiten und Unterlagen zusammen mitnehmen."
+        },
+        {
+          "title": "Für Prüfungen lernen",
+          "description": "Die eigenen Notizen mit Übungssätzen und Haftmarkierungen wiederholen."
+        }
+      ],
+      "notes": [
+        "Für handschriftliche Eingaben wird Apple Pencil verwendet.",
+        "KI-Fragen und die Erstellung von Übungssätzen benötigen Internet und verfügbares KI-Kontingent. Prüfen Sie KI-Antworten anhand Ihrer Lernunterlagen."
+      ]
+    },
+    "fr": {
+      "overviewTitle": "Des notes de cours à la révision.",
+      "overview": [
+        "Uni:Note est une app de prise de notes manuscrites pour les cours universitaires sur iPad. Écrivez avec Apple Pencil, annotez les PDF distribués en cours et classez vos notes par matière et dossier pour les retrouver.",
+        "Après le cours, interrogez l’IA sur un exercice sélectionné ou créez une série de questions à partir de vos notes. Regrouper la prise de notes et la révision permet de revenir sur ce que vous avez écrit et de vérifier votre compréhension."
+      ],
+      "features": [
+        {
+          "title": "Notes manuscrites",
+          "description": "Écrivez textes, schémas, notes de cours et idées personnelles avec Apple Pencil."
+        },
+        {
+          "title": "Annotation de PDF",
+          "description": "Importez vos PDF de cours et écrivez directement dessus. Ajoutez aussi des images et des documents photographiés."
+        },
+        {
+          "title": "Matières et dossiers",
+          "description": "Regroupez les notes par cours, classez-les dans des dossiers et recherchez-les par titre."
+        },
+        {
+          "title": "Sélectionner et interroger l’IA",
+          "description": "Sélectionnez un exercice dans vos notes pour demander une réponse et une explication."
+        },
+        {
+          "title": "Créer des exercices",
+          "description": "Transformez vos notes en questions avec l’IA, puis révisez à l’aide des réponses et explications."
+        },
+        {
+          "title": "Marqueurs de mémorisation",
+          "description": "Masquez les passages à retenir et touchez-les pour les révéler ou les cacher."
+        }
+      ],
+      "stories": [
+        {
+          "media": "pdf",
+          "alt": "Capture App Store montrant des annotations Apple Pencil sur un PDF de cours dans Uni:Note",
+          "title": "Le support de cours devient votre cahier.",
+          "description": "Importez un PDF et annotez-le à côté du texte ou du schéma étudié. Gardez les explications du cours et vos remarques près du document original."
+        },
+        {
+          "image": 1,
+          "title": "Passer de la prise de notes à la pratique.",
+          "description": "Créez une série d’exercices à partir de vos notes. Répondez aux questions, puis vérifiez les réponses et explications pour revoir activement le contenu."
+        },
+        {
+          "media": "review",
+          "alt": "Capture App Store montrant des réponses masquées et des exercices dans Uni:Note",
+          "title": "Masquer, se rappeler, vérifier.",
+          "description": "Activez les marqueurs adhésifs pour cacher les passages à mémoriser. Touchez-les pour les révéler ou les masquer et vérifier si vous connaissez un terme ou une réponse."
+        }
+      ],
+      "audienceTitle": "Pour qui ?",
+      "audience": [
+        {
+          "title": "Prendre ses cours sur iPad",
+          "description": "Réunir notes, PDF et annotations personnelles par matière."
+        },
+        {
+          "title": "Passer du papier à l’iPad",
+          "description": "Conserver l’écriture manuscrite et emporter ses notes et documents ensemble."
+        },
+        {
+          "title": "Préparer ses examens",
+          "description": "Réviser ses propres notes avec les exercices et marqueurs de mémorisation."
+        }
+      ],
+      "notes": [
+        "L’écriture manuscrite utilise Apple Pencil.",
+        "Les questions à l’IA et la création d’exercices nécessitent Internet et un quota IA disponible. Vérifiez les réponses de l’IA avec vos supports de cours."
+      ]
+    },
+    "zh-hant": {
+      "overviewTitle": "把課堂筆記，延伸成複習。",
+      "overview": [
+        "Uni:Note 是為大學課堂設計的 iPad 手寫筆記 App。使用 Apple Pencil 記下板書與想法，也能直接在講義 PDF 上註記。透過科目與資料夾分類，方便日後找到需要的筆記。",
+        "下課後，除了重新閱讀筆記，也能圈選題目向 AI 提問，或從筆記建立題庫。將書寫與複習放在同一個地方，讓課堂紀錄繼續用於下一次學習。"
+      ],
+      "features": [
+        {
+          "title": "手寫筆記",
+          "description": "使用 Apple Pencil 書寫文字與圖形，將板書和自己的想法記在同一本筆記。"
+        },
+        {
+          "title": "PDF 註記",
+          "description": "匯入講義 PDF，直接在資料上手寫註記，也能加入圖片與拍攝的文件。"
+        },
+        {
+          "title": "科目與資料夾整理",
+          "description": "按課程收集筆記、以資料夾分類，也能依筆記標題搜尋。"
+        },
+        {
+          "title": "圈選後向 AI 提問",
+          "description": "選取筆記中的題目，查看解答與說明，從不懂的地方開始學習。"
+        },
+        {
+          "title": "從筆記建立題庫",
+          "description": "使用 AI 將學習內容轉為題目，配合答案與解說複習。"
+        },
+        {
+          "title": "便條標記輔助記憶",
+          "description": "遮住想記住的內容，點一下切換顯示，直接用原本的筆記確認記憶。"
+        }
+      ],
+      "stories": [
+        {
+          "media": "pdf",
+          "alt": "在 Uni:Note 講義 PDF 上以 Apple Pencil 手寫註記的 App Store 截圖",
+          "title": "講義的空白處，也能成為筆記。",
+          "description": "匯入 PDF，就能在文字與圖形旁直接書寫。把課堂上聽到的重點和自己的想法，留在原始資料對應的位置。"
+        },
+        {
+          "image": 1,
+          "title": "把寫下的內容，變成練習。",
+          "description": "從筆記建立複習題庫。作答後確認答案與解說，將記錄下來的內容轉為主動檢驗理解的學習。"
+        },
+        {
+          "media": "review",
+          "alt": "Uni:Note 使用便條標記遮住答案，並以題庫複習的 App Store 截圖",
+          "title": "遮住、回想，再確認。",
+          "description": "啟用便條標記後，就能遮住筆記中想記住的部分。點一下顯示或隱藏內容，確認自己是否記得術語與答案。"
+        }
+      ],
+      "audienceTitle": "適合這樣的你",
+      "audience": [
+        {
+          "title": "想把大學課堂整理在 iPad",
+          "description": "希望依科目集中板書、PDF 講義與自己的註記。"
+        },
+        {
+          "title": "想從紙本筆記轉換",
+          "description": "希望保留手寫習慣，同時帶著筆記與資料。"
+        },
+        {
+          "title": "想用筆記準備考試",
+          "description": "希望透過題庫與便條標記複習自己寫下的內容。"
+        }
+      ],
+      "notes": [
+        "手寫輸入使用 Apple Pencil。",
+        "AI 提問與題庫生成需要網路連線及可用的 AI 額度。請對照學習資料確認 AI 回答。"
+      ]
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-09-07",
+  "task": "Product detail expansion only; approved Home copy, apps data, images and legacy article/support/privacy content remain unchanged.",
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "de",
+    "fr",
+    "zh-hant"
+  ],
+  "verificationMethod": "Current Japanese public Apple Lookup response read over HTTPS; local current project documentation, deployment targets and implementation reviewed; six existing website screenshots visually inspected.",
+  "limitations": [
+    "Public listing verification is distinct from App Store Connect review/submission state. No new account-level App Store Connect state check or physical-device flow was performed in this task.",
+    "Source code and current project docs may include work newer than the public version; public-version scope controls the product copy.",
+    "Storefront availability and app display languages are not inferred from website language. Existing shared product availability data is unchanged."
+  ],
+  "app": "signal",
+  "publicStore": {
+    "sourceURL": "https://itunes.apple.com/lookup?id=6759493613,6760842941,6757731648&country=jp",
+    "storefront": "jp",
+    "checkedAt": "2026-09-07",
+    "trackId": 6759493613,
+    "trackName": "SIGNAL - 個人発信を追うニュースアプリ",
+    "trackViewUrl": "https://apps.apple.com/jp/app/signal-%E5%80%8B%E4%BA%BA%E7%99%BA%E4%BF%A1%E3%82%92%E8%BF%BD%E3%81%86%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%97%E3%83%AA/id6759493613?uo=4",
+    "version": "1.1.1",
+    "minimumOsVersion": "13.0",
+    "currentVersionReleaseDate": "2026-09-04T08:30:11Z",
+    "languageCodesISO2A": [
+      "JA"
+    ],
+    "description": "SIGNALは、個人発信者の更新を静かに追うためのニュースフィードアプリです。\nnote、Qiita、Zenn、はてなブックマーク、DevelopersIOなどから、個人やクリエイターの発信を中心に表示します。\n広告はなく、個人情報の収集も行いません。通知に追われず、自分のペースで情報を確認できます。\n\nアプリ内での反応をもとに、表示順は少しずつ調整されます。\nこれらのデータは端末内で管理され、外部へ送信されることはありません。\n\nSIGNALは、個人の発信を主軸にしながら、必要な話題も確認できるフィードアプリです。",
+    "screenshotUrls": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/01/b8/d501b827-b782-dbd0-004e-45a0c1807240/01_creator_feed.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/9b/02/789b02ce-9b13-8ab7-1239-1a30a90bc283/02_one_feed.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/58/d2/cf/58d2cfdb-2c33-fb02-ec24-f685ea2821f5/03_no_ads.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/15/46/811546a2-0275-2f98-a53d-736ff583e5f9/04_full_features_free.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/62/c8/8662c843-e088-d625-e264-dcdd30a43026/05_creators.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b8/f8/c4/b8f8c44c-e574-8bc5-3198-9f62bf2935b7/06_choose_sources.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/00/18/5e001857-91c6-ed46-5f0e-478a8aadd32c/07_read_article.png/320x480bb.jpg"
+    ]
+  },
+  "localVersion": "1.1.1+1",
+  "minimumOSDecision": {
+    "value": "iOS 13.0",
+    "authority": "Current public App Store minimumOsVersion",
+    "deploymentTargetMatches": true
+  },
+  "sources": [
+    {
+      "path": "/Users/yuya/Projects/signal/pubspec.yaml",
+      "lines": [
+        19
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "79d55ccbd862e46c6b3488895cf7ac3998ca3cf0a9b4ff5a6f8294ac72fe29d3",
+      "supports": [
+        "Local version 1.1.1+1"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/signal/ios/Runner.xcodeproj/project.pbxproj",
+      "lines": [
+        478,
+        633,
+        685
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "4771c1f584879c951c633397fbc7d07e50d0a142b5c6856eedcb409c35430545",
+      "supports": [
+        "iOS deployment target 13.0 matches public Store minimumOsVersion"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/signal/README.md",
+      "lines": [
+        "48-87",
+        "203-281",
+        "292-318"
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "9a088e5f64d4c98324d007e782dd1cd89efe66781983e9681a395ff125e57d84",
+      "supports": [
+        "CREATORS/TODAY/NEWS tabs",
+        "Built-in sources; note pinned magazine only",
+        "GOOD/BAD and reading activity influence refreshed ranking; learning state is local",
+        "Original articles open in WebView; article text-size and theme settings",
+        "Source enabled switches; no user-facing arbitrary custom-source management or bookmark/summary UI"
+      ]
+    }
+  ],
+  "decisions": [
+    "Built-in individual/creator article sources and separate news tab, settings to select enabled sources, original article reading and local learning are included.",
+    "The Japanese-only current app interface is stated in all six locale notes, based on public languageCodesISO2A [JA]. Website translations do not imply app localization.",
+    "No claim that users can manually follow any arbitrary author, add arbitrary RSS, read all pages offline, obtain AI summaries, search or bookmark. Current README explicitly excludes those interfaces.",
+    "No price or free-tier claim was added to product copy. Existing approved formal screenshots include an original small free/no-ad label; images were unchanged."
+  ],
+  "screenshots": [
+    {
+      "imageIndex": 0,
+      "webImage": "/images/apps/signal/store-creators-840.webp",
+      "sourcePath": "/Users/yuya/Projects/signal/artifacts/app_store_screenshots_2026-09-03/final/1284x2778/05_creators.png",
+      "currentPublicStoreFilename": "05_creators.png",
+      "storyFocus": "CREATORS article titles and source labels",
+      "review": "Existing 420px WebP visually inspected; story describes visible UI. Existing asset was not modified.",
+      "sha256": "02ed704b680047ef11962c7877f0855d199e0afad1b0aa9a874ba41f85e9ca9f"
+    },
+    {
+      "imageIndex": 1,
+      "webImage": "/images/apps/signal/store-sources-840.webp",
+      "sourcePath": "/Users/yuya/Projects/signal/artifacts/app_store_screenshots_2026-09-03/final/1284x2778/06_choose_sources.png",
+      "currentPublicStoreFilename": "06_choose_sources.png",
+      "storyFocus": "Source switches, theme and article text-size settings",
+      "review": "Existing 420px WebP visually inspected; story describes visible UI. Existing asset was not modified.",
+      "sha256": "abeaab8a73aee259992de435a748ac2088fdedbf74eefb809b2e9c9c08ab4e45"
+    }
+  ],
+  "priorAssetAudit": "docs/ux/screenshot-freshness.json",
+  "priorSubmissionLimitations": "docs/ux/other-submission-check.json"
+}

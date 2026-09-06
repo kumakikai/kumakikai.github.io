@@ -193,6 +193,57 @@ body.menu-open { overflow: hidden; }
 .related-resource { padding: 30px 0 75px; }
 .related-resource > p { font-size: .78rem; color: var(--muted); }
 .product-backlinks { padding-bottom: 60px; }
+/* Product details explain the app beyond the shared Home introduction. */
+.product-section { padding-block: 72px; border-top: 1px solid var(--line); }
+.product-section h2,.product-story h2 { font-size: clamp(1.65rem,2.5vw,2.15rem); font-weight: 680; line-height: 1.6; }
+.product-section p,.product-story p { color: var(--muted); font-size: .96rem; line-height: 2; }
+.product-overview,.product-facts { display: grid; grid-template-columns: .9fr 1.1fr; gap: 80px; }
+.product-overview h2 { max-width: 470px; }
+.product-overview p + p { margin-top: 18px; }
+.product-features h2,.product-audience h2 { margin-bottom: 36px; }
+.product-features ul,.product-audience ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 32px 40px; }
+.product-features li,.product-audience li { padding-top: 22px; border-top: 1px solid var(--line); }
+.product-section h3 { font-size: 1.04rem; font-weight: 640; line-height: 1.7; margin-bottom: 10px; }
+.product-features p,.product-audience p { font-size: .9rem; }
+.product-story { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 80px; padding: 48px 64px; margin-bottom: 32px; border-radius: 24px; background: var(--surface-soft); }
+.product-story-copy { max-width: 440px; }
+.product-story-copy h2 { margin-bottom: 24px; }
+.product-story--reverse .product-story-copy { grid-column: 2; grid-row: 1; }
+.product-story--reverse .product-story-visual { grid-column: 1; grid-row: 1; }
+.product-story-visual { min-width: 0; margin: 0; }
+.product-story-visual a { display: block; max-width: 290px; margin-inline: auto; border-radius: 14px; box-shadow: 0 12px 26px #0002; }
+.product-story-visual img { display: block; width: 100%; border-radius: inherit; }
+.product-story--tablet .product-story-visual a { max-width: 450px; }
+.product-story figcaption { font-size: .7rem; color: var(--muted); text-align: center; line-height: 1.8; margin: 12px auto 0; max-width: 450px; }
+.product-audience { margin-top: 72px; }
+.product-facts dl > div { display: grid; grid-template-columns: 145px 1fr; gap: 20px; padding-block: 15px; border-bottom: 1px solid var(--line); font-size: .9rem; }
+.product-facts dt { color: var(--muted); }
+.product-notes { padding-left: 1.1em; margin-top: 24px; list-style: disc; color: var(--muted); font-size: .8rem; line-height: 1.9; }
+.product-notes li + li { margin-top: 8px; }
+.product-facts .product-price-note { font-size: .8rem; margin-top: 22px; }
+.product-download { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding: 40px 48px; margin: 0 0 72px; border-radius: 20px; background: var(--surface-soft); }
+.product-download h2 { font-size: 1.4rem; font-weight: 650; line-height: 1.7; }
+.product-download p { color: var(--muted); font-size: .85rem; margin-top: 8px; }
+@media (max-width: 1100px) {
+  .product-overview,.product-facts { gap: 40px; }
+  .product-features ul { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .product-story { padding: 40px 32px; gap: 40px; }
+  .product-story h2 { font-size: 1.7rem; }
+}
+@media (max-width: 720px) {
+  .product-section { padding-block: 48px; }
+  .product-overview,.product-facts { grid-template-columns: 1fr; gap: 26px; }
+  .product-features ul,.product-audience ul { grid-template-columns: 1fr; gap: 24px; }
+  .product-features h2,.product-audience h2 { margin-bottom: 24px; }
+  .product-story { grid-template-columns: 1fr; gap: 30px; padding: 32px 16px; border-radius: 18px; margin-bottom: 24px; }
+  .product-story-copy { max-width: none; }
+  .product-story--reverse .product-story-copy,.product-story--reverse .product-story-visual { grid-column: auto; grid-row: auto; }
+  .product-story-copy h2 { font-size: 1.6rem; margin-bottom: 14px; }
+  .product-story--tablet .product-story-visual a { max-width: 450px; }
+  .product-audience { margin-top: 48px; }
+  .product-facts dl > div { grid-template-columns: minmax(100px,.6fr) minmax(0,1fr); gap: 16px; }
+  .product-download { flex-direction: column; align-items: flex-start; padding: 28px 24px; margin-bottom: 48px; gap: 16px; }
+}
 .article-shell { max-width: 880px !important; padding-bottom: 90px; }
 .article-header { padding-block: 55px 38px; }
 .article-header h1 { font-size: clamp(1.8rem,2.7vw,2.5rem); line-height: 1.55; font-weight: 680; }

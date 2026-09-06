@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-09-07",
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "de",
+    "fr",
+    "zh-hant"
+  ],
+  "scope": "Product detail editorial content only; Home copy, hero, screenshots, status, availability and existing support/legal URLs unchanged",
+  "method": "Current public Apple lookup, local current metadata/specification and existing support guides; selected site screenshots visually inspected. Website language is not app language or storefront availability.",
+  "app": "giga-poke",
+  "publishedVersion": "0.1.0",
+  "publicSource": {
+    "url": "https://itunes.apple.com/lookup?id=6807501268&country=jp",
+    "storeURL": "https://apps.apple.com/jp/app/%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1-povo%E7%89%B9%E5%85%B8%E3%82%B3%E3%83%BC%E3%83%89%E7%AE%A1%E7%90%86/id6807501268?uo=4",
+    "version": "0.1.0",
+    "minimumOsVersion": "17.0",
+    "languageCodesISO2A": [
+      "JA"
+    ],
+    "observedClaims": [
+      "unofficial povo2.0 code management",
+      "share/paste/manual input",
+      "expiry ordering and notifications",
+      "widgets and optional povo launch",
+      "external coupon codes/URLs"
+    ]
+  },
+  "minimumOSDecision": {
+    "published": "17.0",
+    "localDeployment": "17.0",
+    "display": "iOS 17.0",
+    "conflict": false,
+    "source": {
+      "path": "/Users/yuya/Projects/povo_manager/Config/Shared.xcconfig",
+      "lines": "14-16",
+      "claims": [
+        "version0.1.0",
+        "deployment17.0"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "path": "content/htu/giga-poke.md",
+      "lines": "8-36,38-59,73-96",
+      "claims": [
+        "email sharing/pasting/manual registration",
+        "review parsed data before save",
+        "category expiry order",
+        "copy then optional povo app opening, no auto-fill",
+        "local notifications and widget behavior"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/povo_manager/docs/APP_STORE_METADATA.md",
+      "lines": "43-64,119-135",
+      "claims": [
+        "device storage",
+        "non-affiliation",
+        "current September4 review-fixed assets and copy"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/povo_manager/docs/FEATURE_CODE_MANAGEMENT.md",
+      "lines": "29-57",
+      "claims": [
+        "no external expiry lookup",
+        "no automatic redemption",
+        "copy/open actions",
+        "local management state does not prove external redemption"
+      ]
+    }
+  ],
+  "screenshotMapping": [
+    {
+      "image": 0,
+      "source": "design/app-store-screenshots-2026-09-04-review-fix/1242x2688-upload/01-hero.png",
+      "story": "Benefits/deadlines list and paste-to-add action"
+    },
+    {
+      "image": 1,
+      "source": "design/app-store-screenshots-2026-09-04-review-fix/1242x2688-upload/02-widget.png",
+      "story": "Small/medium widget with remaining days; app opens before code copy"
+    }
+  ],
+  "adopted": [
+    "Email→deadline→copy→widget flow",
+    "Optional normal povo2.0 app opening with manual paste/redemption",
+    "Code/URL data handled on the device",
+    "Non-official status and no KDDI/povo/au affiliation"
+  ],
+  "excluded": [
+    "Price/free/advertising marketing claims even though public description includes them",
+    "Automatic povo code input or confirmation of external redemption",
+    "Revenue, savings, expired-code prevention guarantees",
+    "iCloud sync and backup claims",
+    "Any older screenshot with price text"
+  ],
+  "knownSourceConflicts": [
+    "Local metadata carries Draft/App Store not registered wording from September2 despite current public0.1.0. Public Apple lookup is used for publication and OS; feature documents only corroborate behavior."
+  ],
+  "dataSHA256": "8fcfe692727948ab3945689027b3245129968603152644f04a1dd9c8c62a5735",
+  "presentationNote": "The full unofficial-app disclaimer remains once in the unchanged Hero app.note; the lower facts notes only add technical limitations."
+}

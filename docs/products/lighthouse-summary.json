@@ -1,0 +1,535 @@
+{
+  "checkedAt": "2026-09-07",
+  "scope": "Uni:Note Japanese Product detail, local production build at http://127.0.0.1:1314/products/uni-note/",
+  "tool": "Lighthouse 12.8.2 with installed Google Chrome; no dependencies added",
+  "method": "Desktop preset and default mobile simulated throttling. One baseline and one verification run per mode, run sequentially. Separate Chrome launches.",
+  "status": "complete",
+  "final": {
+    "desktop": {
+      "fetchTime": "2026-09-06T17:36:18.678Z",
+      "lighthouseVersion": "12.8.2",
+      "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "requestedURL": "http://127.0.0.1:1314/products/uni-note/",
+      "finalURL": "http://127.0.0.1:1314/products/uni-note/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCPms": 443.3515,
+        "CLS": 0,
+        "TBTms": 0,
+        "FCPms": 283.3515,
+        "speedIndexMs": 283.3515
+      },
+      "config": {
+        "formFactor": "desktop",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        }
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "LCPImageLazyAudit": {
+        "score": 1,
+        "mode": "metricSavings",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": "Element"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-42-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,DIV,1,A,0,IMG",
+                "selector": "div.app-visuals > div.app-screenshots > a.app-screenshot > img",
+                "boundingRect": {
+                  "top": 282,
+                  "bottom": 630,
+                  "left": 979,
+                  "right": 1240,
+                  "width": 260,
+                  "height": 347
+                },
+                "snippet": "<img src=\"/images/apps/uni-note/screen-2-560.webp\" srcset=\"/images/apps/uni-note/screen-2-560.webp 560w, /images/apps/uni-note/screen…\" sizes=\"(max-width: 600px) calc(100vw - 92px), (max-width: 1100px) 265px, 290px\" width=\"560\" height=\"747\" alt=\"ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面\" loading=\"eager\" decoding=\"async\">",
+                "nodeLabel": "ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面"
+              }
+            }
+          ]
+        }
+      },
+      "LCPDiscoveryAudit": {
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "checklist",
+              "items": {
+                "priorityHinted": {
+                  "label": "fetchpriority=high should be applied",
+                  "value": false
+                },
+                "requestDiscoverable": {
+                  "label": "Request is discoverable in initial document",
+                  "value": true
+                },
+                "eagerlyLoaded": {
+                  "label": "lazy load not applied",
+                  "value": true
+                }
+              }
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,DIV,1,A,0,IMG",
+              "selector": "div.app-visuals > div.app-screenshots > a.app-screenshot > img",
+              "boundingRect": {
+                "top": 282,
+                "bottom": 630,
+                "left": 979,
+                "right": 1240,
+                "width": 260,
+                "height": 347
+              },
+              "snippet": "<img src=\"/images/apps/uni-note/screen-2-560.webp\" srcset=\"/images/apps/uni-note/screen-2-560.webp 560w, /images/apps/uni-note/screen…\" sizes=\"(max-width: 600px) calc(100vw - 92px), (max-width: 1100px) 265px, 290px\" width=\"560\" height=\"747\" alt=\"ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面\" loading=\"eager\" decoding=\"async\">",
+              "nodeLabel": "ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面"
+            }
+          ]
+        }
+      },
+      "artifacts": {
+        "json": "artifacts/products/lighthouse/uninote-desktop.report.json",
+        "html": "artifacts/products/lighthouse/uninote-desktop.report.html",
+        "jsonSHA256": "26fef27677b4b4e5df41725627ea6abdd9927128886f45796f74dfc5255a2e72"
+      }
+    },
+    "mobile": {
+      "fetchTime": "2026-09-06T17:37:31.416Z",
+      "lighthouseVersion": "12.8.2",
+      "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "requestedURL": "http://127.0.0.1:1314/products/uni-note/",
+      "finalURL": "http://127.0.0.1:1314/products/uni-note/",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCPms": 2027.0660000000003,
+        "CLS": 0,
+        "TBTms": 0,
+        "FCPms": 1052.066,
+        "speedIndexMs": 1052.066
+      },
+      "config": {
+        "formFactor": "mobile",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        }
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "LCPImageLazyAudit": {
+        "score": 1,
+        "mode": "metricSavings",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": "Element"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-41-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,DIV,0,A,0,IMG",
+                "selector": "div.app-visuals > div.app-screenshots > a.app-screenshot > img",
+                "boundingRect": {
+                  "top": 635,
+                  "bottom": 1028,
+                  "left": 59,
+                  "right": 354,
+                  "width": 295,
+                  "height": 394
+                },
+                "snippet": "<img src=\"/images/apps/uni-note/screen-1-560.webp\" srcset=\"/images/apps/uni-note/screen-1-560.webp 560w, /images/apps/uni-note/screen…\" sizes=\"(max-width: 600px) calc(100vw - 92px), (max-width: 1100px) 265px, 290px\" width=\"560\" height=\"747\" alt=\"Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面\" loading=\"eager\" decoding=\"async\">",
+                "nodeLabel": "Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面"
+              }
+            }
+          ]
+        }
+      },
+      "LCPDiscoveryAudit": {
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "checklist",
+              "items": {
+                "priorityHinted": {
+                  "label": "fetchpriority=high should be applied",
+                  "value": false
+                },
+                "requestDiscoverable": {
+                  "label": "Request is discoverable in initial document",
+                  "value": true
+                },
+                "eagerlyLoaded": {
+                  "label": "lazy load not applied",
+                  "value": true
+                }
+              }
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,DIV,0,A,0,IMG",
+              "selector": "div.app-visuals > div.app-screenshots > a.app-screenshot > img",
+              "boundingRect": {
+                "top": 635,
+                "bottom": 1028,
+                "left": 59,
+                "right": 354,
+                "width": 295,
+                "height": 394
+              },
+              "snippet": "<img src=\"/images/apps/uni-note/screen-1-560.webp\" srcset=\"/images/apps/uni-note/screen-1-560.webp 560w, /images/apps/uni-note/screen…\" sizes=\"(max-width: 600px) calc(100vw - 92px), (max-width: 1100px) 265px, 290px\" width=\"560\" height=\"747\" alt=\"Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面\" loading=\"eager\" decoding=\"async\">",
+              "nodeLabel": "Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面"
+            }
+          ]
+        }
+      },
+      "artifacts": {
+        "json": "artifacts/products/lighthouse/uninote-mobile.report.json",
+        "html": "artifacts/products/lighthouse/uninote-mobile.report.html",
+        "jsonSHA256": "a6c9a0ab5bcbd0b95eb126f97db728a26068d81c8ff4fc6127ff17955e71d569"
+      }
+    }
+  },
+  "baseline": {
+    "desktop": {
+      "fetchTime": "2026-09-06T17:34:20.106Z",
+      "lighthouseVersion": "12.8.2",
+      "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "requestedURL": "http://127.0.0.1:1314/products/uni-note/",
+      "finalURL": "http://127.0.0.1:1314/products/uni-note/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCPms": 401.581,
+        "CLS": 0,
+        "TBTms": 0,
+        "FCPms": 281.581,
+        "speedIndexMs": 281.581
+      },
+      "config": {
+        "formFactor": "desktop",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        }
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "LCPImageLazyAudit": {
+        "score": 0.5,
+        "mode": "metricSavings",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": "Element"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-42-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,DIV,1,A,0,IMG",
+                "selector": "div.app-visuals > div.app-screenshots > a.app-screenshot > img",
+                "boundingRect": {
+                  "top": 282,
+                  "bottom": 630,
+                  "left": 979,
+                  "right": 1240,
+                  "width": 260,
+                  "height": 347
+                },
+                "snippet": "<img src=\"/images/apps/uni-note/screen-2-560.webp\" srcset=\"/images/apps/uni-note/screen-2-560.webp 560w, /images/apps/uni-note/screen…\" sizes=\"(max-width: 600px) calc(100vw - 92px), (max-width: 1100px) 265px, 290px\" width=\"560\" height=\"747\" alt=\"ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面\" loading=\"lazy\" decoding=\"async\">",
+                "nodeLabel": "ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面"
+              }
+            }
+          ]
+        }
+      },
+      "LCPDiscoveryAudit": {
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "checklist",
+              "items": {
+                "priorityHinted": {
+                  "label": "fetchpriority=high should be applied",
+                  "value": false
+                },
+                "requestDiscoverable": {
+                  "label": "Request is discoverable in initial document",
+                  "value": false
+                },
+                "eagerlyLoaded": {
+                  "label": "lazy load not applied",
+                  "value": false
+                }
+              }
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,DIV,1,A,0,IMG",
+              "selector": "div.app-visuals > div.app-screenshots > a.app-screenshot > img",
+              "boundingRect": {
+                "top": 282,
+                "bottom": 630,
+                "left": 979,
+                "right": 1240,
+                "width": 260,
+                "height": 347
+              },
+              "snippet": "<img src=\"/images/apps/uni-note/screen-2-560.webp\" srcset=\"/images/apps/uni-note/screen-2-560.webp 560w, /images/apps/uni-note/screen…\" sizes=\"(max-width: 600px) calc(100vw - 92px), (max-width: 1100px) 265px, 290px\" width=\"560\" height=\"747\" alt=\"ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面\" loading=\"lazy\" decoding=\"async\">",
+              "nodeLabel": "ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面"
+            }
+          ]
+        }
+      },
+      "artifacts": {
+        "json": "artifacts/products/lighthouse/uninote-desktop-baseline.report.json",
+        "html": "artifacts/products/lighthouse/uninote-desktop-baseline.report.html",
+        "jsonSHA256": "20abebb9fb65ad7ab8644fafd96f68a5231612e703280389a71aa78d14964434"
+      }
+    },
+    "mobile": {
+      "fetchTime": "2026-09-06T17:34:53.757Z",
+      "lighthouseVersion": "12.8.2",
+      "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "requestedURL": "http://127.0.0.1:1314/products/uni-note/",
+      "finalURL": "http://127.0.0.1:1314/products/uni-note/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCPms": 1877.6968000000002,
+        "CLS": 0,
+        "TBTms": 0,
+        "FCPms": 1052.6968,
+        "speedIndexMs": 1052.6968
+      },
+      "config": {
+        "formFactor": "mobile",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        }
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "LCPImageLazyAudit": {
+        "score": 0,
+        "mode": "metricSavings",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": "Element"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-41-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,DIV,0,A,0,IMG",
+                "selector": "div.app-visuals > div.app-screenshots > a.app-screenshot > img",
+                "boundingRect": {
+                  "top": 635,
+                  "bottom": 1028,
+                  "left": 59,
+                  "right": 354,
+                  "width": 295,
+                  "height": 394
+                },
+                "snippet": "<img src=\"/images/apps/uni-note/screen-1-560.webp\" srcset=\"/images/apps/uni-note/screen-1-560.webp 560w, /images/apps/uni-note/screen…\" sizes=\"(max-width: 600px) calc(100vw - 92px), (max-width: 1100px) 265px, 290px\" width=\"560\" height=\"747\" alt=\"Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面\" loading=\"lazy\" decoding=\"async\">",
+                "nodeLabel": "Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面"
+              }
+            }
+          ]
+        }
+      },
+      "LCPDiscoveryAudit": {
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "checklist",
+              "items": {
+                "priorityHinted": {
+                  "label": "fetchpriority=high should be applied",
+                  "value": false
+                },
+                "requestDiscoverable": {
+                  "label": "Request is discoverable in initial document",
+                  "value": true
+                },
+                "eagerlyLoaded": {
+                  "label": "lazy load not applied",
+                  "value": false
+                }
+              }
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-IMG",
+              "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,DIV,0,A,0,IMG",
+              "selector": "div.app-visuals > div.app-screenshots > a.app-screenshot > img",
+              "boundingRect": {
+                "top": 635,
+                "bottom": 1028,
+                "left": 59,
+                "right": 354,
+                "width": 295,
+                "height": 394
+              },
+              "snippet": "<img src=\"/images/apps/uni-note/screen-1-560.webp\" srcset=\"/images/apps/uni-note/screen-1-560.webp 560w, /images/apps/uni-note/screen…\" sizes=\"(max-width: 600px) calc(100vw - 92px), (max-width: 1100px) 265px, 290px\" width=\"560\" height=\"747\" alt=\"Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面\" loading=\"lazy\" decoding=\"async\">",
+              "nodeLabel": "Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面"
+            }
+          ]
+        }
+      },
+      "artifacts": {
+        "json": "artifacts/products/lighthouse/uninote-mobile-baseline.report.json",
+        "html": "artifacts/products/lighthouse/uninote-mobile-baseline.report.html",
+        "jsonSHA256": "01ec65958cad1a5759b6a03df5e814c9c9321c508ae8a8658b8d0742001acb4c"
+      }
+    }
+  },
+  "criticalFindings": [],
+  "resolvedFindings": [
+    {
+      "id": "lcp-lazy-loaded",
+      "finding": "The Product Hero screenshots were marked loading=lazy despite appearing in the initial viewport. The selected LCP was screenshot 2 at y=282px on desktop and screenshot 1 at y=635px on mobile.",
+      "change": "Root changed the two Product Hero screenshots to loading=eager. Home and below-fold Product stories retain lazy loading.",
+      "verification": "The final lcp-lazy-loaded audit passes for both modes; initial-document discoverability is true. No claim of measured speed improvement is made from single-run timing differences."
+    }
+  ],
+  "nonBlockingObservations": [
+    {
+      "id": "local-server-cache-and-compression",
+      "assessment": "The local HTTP server has no text compression and no cache TTL. Lighthouse reports approximately 60 KiB text compression savings and missing asset cache lifetimes. These are local-server observations, not verified GitHub Pages production defects."
+    },
+    {
+      "id": "image-sizing-and-retina",
+      "assessment": "Lighthouse suggests smaller image dimensions, including the below-fold 1120px PDF story on mobile. Existing srcset supports Retina: a 336 CSS-pixel image at emulated DPR 1.75 needs about 588 physical pixels, so the browser selects 1120 over 560. An intermediate rendition could reduce bytes but is not necessary for this task; do not remove Retina support just to satisfy a 1x size estimate."
+    },
+    {
+      "id": "lcp-priority-hint",
+      "assessment": "The desktop LCP may be the second Hero image, which has no fetchpriority=high. Eager loading and initial-document discovery pass; the optional priority-hint opportunity is recorded without adding competing high-priority images."
+    },
+    {
+      "id": "css-blocking",
+      "assessment": "One same-origin stylesheet is render-blocking. Final Desktop scores are 100/100/100/100; Mobile scores are 99/100/100/100. No additional CSS/JS architecture changes are proposed."
+    },
+    {
+      "id": "single-run-timing-variation",
+      "assessment": "Mobile performance was 100 before and 99 after the loading-attribute adjustment, with LCP 1.878s versus 2.027s. Desktop LCP was 0.402s versus 0.443s. These are single-run local observations, not evidence that the eager attribute causes a speed regression or improvement. The targeted lazy-LCP audit now passes in both modes."
+    }
+  ],
+  "lazyLoadingAssessment": {
+    "initialViewport": "Baseline lazy warning was genuine and limited to Product Hero screenshots, not a broken-image or after-scroll false positive.",
+    "belowFold": "The PDF story at approximately y=3234px appears among fetched resources and retains loading=lazy. Chrome distance-based loading and Lighthouse gathering can fetch below-fold images; the precise trigger was not separately instrumented here. It was not the LCP target, so this is not a reason to remove lazy loading from the story.",
+    "screenshots": "Report screenshots and full-page gathering can cause below-fold image requests after initial load; these do not prove eager initial loading."
+  },
+  "limitations": [
+    "These are local, single-run lab measurements. They do not measure GitHub Pages CDN behavior, real-device performance, field Core Web Vitals or all Product pages.",
+    "Both baseline and final raw JSON/HTML are stored under ignored artifacts/products/lighthouse for reproducibility; this committed summary retains metrics, selected diagnostics and file hashes."
+  ]
+}

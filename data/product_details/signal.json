@@ -1,0 +1,341 @@
+{
+  "minimumOS": "iOS 13.0",
+  "locales": {
+    "ja": {
+      "overviewTitle": "個人の発信と、気になる話題をひとつの場所へ。",
+      "overview": [
+        "SIGNALは、note、Qiita、Zennなどの配信源から、個人やクリエイターの記事を中心に読めるニュースフィードです。複数のサイトを巡回する代わりに、見出しと配信元を一覧で確認できます。",
+        "個人の発信を読むCREATORS、話題をまとめて見るTODAY、ニュースを確認するNEWS。読みたい内容に合わせて切り替え、気になる記事はアプリ内で元のページを開いて読めます。"
+      ],
+      "features": [
+        {
+          "title": "発信をまとめて読む",
+          "description": "note、Qiita、Zenn、はてなブックマーク、DevelopersIOなど、用意された配信源の記事をひとつのフィードへ。"
+        },
+        {
+          "title": "読む配信源を選ぶ",
+          "description": "設定から配信源ごとに表示をオン・オフ。自分が読みたい情報の範囲を調整できます。"
+        },
+        {
+          "title": "元の記事へ、そのまま進む",
+          "description": "気になる見出しから記事のページへ。記事の文字サイズとライト・ダークのテーマも設定できます。"
+        },
+        {
+          "title": "反応に合わせて表示を調整",
+          "description": "閲覧やGOOD・BADの反応をもとに、更新時の表示順を調整。学習データは端末内で管理します。"
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "個人の視点に出会う",
+          "description": "CREATORSには個人やクリエイターの発信を集約。記事の見出しや配信元を見ながら、そのとき読みたい記事を選べます。"
+        },
+        {
+          "image": 1,
+          "title": "フィードを、自分の読む範囲に",
+          "description": "配信源のオン・オフを設定画面に集約。テーマや記事の文字サイズも、普段の読み方に合わせて選べます。"
+        }
+      ],
+      "audienceTitle": "こんなときに",
+      "audience": [
+        {
+          "title": "技術記事をまとめて確認したい",
+          "description": "QiitaやZennなどの更新を、配信元を行き来せずに確認したいときに。"
+        },
+        {
+          "title": "個人の考えや経験を読みたい",
+          "description": "ニュースの見出しだけでなく、書き手の視点に触れる記事を探すときに。"
+        },
+        {
+          "title": "読むタイミングを自分で決めたい",
+          "description": "空いた時間にフィードを開き、気になる記事から読み進めたいときに。"
+        }
+      ],
+      "notes": [
+        "新しい記事の取得と記事ページの読み込みにはインターネット接続が必要です。",
+        "選択できるのはアプリに用意された配信源です。現在のアプリ表示言語は日本語です。"
+      ]
+    },
+    "en": {
+      "overviewTitle": "Creator posts and current topics, in one place.",
+      "overview": [
+        "SIGNAL brings together articles from sources such as note, Qiita, and Zenn, with a focus on individual writers and creators. Browse headlines and their sources without visiting each site separately.",
+        "Switch between CREATORS for creator posts, TODAY for a mix of topics, and NEWS for news coverage. Open a headline to read the original page inside the app."
+      ],
+      "features": [
+        {
+          "title": "A feed of individual voices",
+          "description": "Browse articles from the built-in selection of sources, including note, Qiita, Zenn, Hatena Bookmark, and DevelopersIO."
+        },
+        {
+          "title": "Choose your sources",
+          "description": "Turn each built-in source on or off in Settings to choose what appears in your feed."
+        },
+        {
+          "title": "Read the original article",
+          "description": "Open an article from its headline. Adjust article text size and choose a light, dark, or system theme."
+        },
+        {
+          "title": "A feed shaped by your responses",
+          "description": "Reading activity and GOOD/BAD feedback influence the order when the feed refreshes. Learning data stays on your device."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "Discover a different perspective",
+          "description": "CREATORS gathers posts from individual writers and creators. Scan headlines and sources, then choose an article that interests you."
+        },
+        {
+          "image": 1,
+          "title": "Set the scope of your reading",
+          "description": "Manage source switches in one settings screen, alongside the theme and article text size that suit how you read."
+        }
+      ],
+      "audienceTitle": "When SIGNAL fits",
+      "audience": [
+        {
+          "title": "Catching up on technical writing",
+          "description": "Check posts from sources such as Qiita and Zenn without moving between their sites."
+        },
+        {
+          "title": "Looking for individual perspectives",
+          "description": "Find articles about a writer’s ideas and experiences alongside the news."
+        },
+        {
+          "title": "Reading on your own schedule",
+          "description": "Open the feed when you have time and start with a headline that interests you."
+        }
+      ],
+      "notes": [
+        "An internet connection is needed to fetch new articles and load article pages.",
+        "Source selection is limited to the sources built into the app. The app interface is currently in Japanese."
+      ]
+    },
+    "ko": {
+      "overviewTitle": "개인의 글과 관심 있는 소식을 한곳에서.",
+      "overview": [
+        "SIGNAL은 note, Qiita, Zenn 등의 소스에서 개인과 크리에이터의 글을 모아 보여 주는 뉴스 피드입니다. 여러 사이트를 오가지 않고 제목과 출처를 함께 살펴볼 수 있습니다.",
+        "개인의 글을 모은 CREATORS, 여러 화제를 보는 TODAY, 뉴스를 확인하는 NEWS를 필요에 따라 선택하세요. 관심 있는 제목을 누르면 앱 안에서 원문 페이지를 열 수 있습니다."
+      ],
+      "features": [
+        {
+          "title": "다양한 개인의 글을 한 피드로",
+          "description": "note, Qiita, Zenn, 하테나 북마크, DevelopersIO 등 앱에 등록된 소스의 글을 모아 봅니다."
+        },
+        {
+          "title": "읽을 소스 선택",
+          "description": "설정에서 각 소스를 켜거나 끌 수 있어 피드에 표시할 정보의 범위를 조절할 수 있습니다."
+        },
+        {
+          "title": "관심 있는 글은 원문으로",
+          "description": "제목에서 원문 페이지로 바로 이동합니다. 글자 크기와 라이트·다크·시스템 테마도 설정할 수 있습니다."
+        },
+        {
+          "title": "반응을 반영하는 피드",
+          "description": "읽기 활동과 GOOD·BAD 반응을 바탕으로 새로고침 시 표시 순서를 조절합니다. 학습 데이터는 기기 안에서 관리합니다."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "개인의 시선을 만나는 공간",
+          "description": "CREATORS는 개인과 크리에이터의 글을 모아 보여 줍니다. 제목과 출처를 살펴보며 지금 읽고 싶은 글을 고를 수 있습니다."
+        },
+        {
+          "image": 1,
+          "title": "내가 읽을 정보의 범위 설정",
+          "description": "소스별 표시 여부를 한 설정 화면에서 관리합니다. 평소 읽는 방식에 맞게 테마와 글자 크기도 선택할 수 있습니다."
+        }
+      ],
+      "audienceTitle": "이런 때 사용하세요",
+      "audience": [
+        {
+          "title": "기술 글을 모아 보고 싶을 때",
+          "description": "Qiita나 Zenn 등의 새 글을 사이트마다 방문하지 않고 확인하고 싶을 때."
+        },
+        {
+          "title": "개인의 생각과 경험을 읽고 싶을 때",
+          "description": "뉴스뿐 아니라 글쓴이의 관점이 담긴 글을 찾고 싶을 때."
+        },
+        {
+          "title": "내 일정에 맞춰 읽고 싶을 때",
+          "description": "시간이 날 때 피드를 열고 관심 있는 제목부터 읽고 싶을 때."
+        }
+      ],
+      "notes": [
+        "새 글을 가져오거나 원문 페이지를 불러오려면 인터넷 연결이 필요합니다.",
+        "앱에 기본으로 등록된 소스 중에서 선택할 수 있습니다. 현재 앱 화면 언어는 일본어입니다."
+      ]
+    },
+    "de": {
+      "overviewTitle": "Beiträge von Menschen und aktuelle Themen an einem Ort.",
+      "overview": [
+        "SIGNAL sammelt Artikel aus Quellen wie note, Qiita und Zenn. Im Mittelpunkt stehen einzelne Autorinnen, Autoren und Creator. Überschriften und Quellen lassen sich in einer Liste überblicken, ohne jede Website einzeln aufzurufen.",
+        "CREATORS bündelt persönliche Beiträge, TODAY verschiedene aktuelle Themen und NEWS die Nachrichten. Ein interessanter Titel öffnet die Originalseite direkt in der App."
+      ],
+      "features": [
+        {
+          "title": "Persönliche Beiträge in einem Feed",
+          "description": "Artikel aus den integrierten Quellen lesen, darunter note, Qiita, Zenn, Hatena Bookmark und DevelopersIO."
+        },
+        {
+          "title": "Quellen selbst auswählen",
+          "description": "Jede integrierte Quelle lässt sich in den Einstellungen ein- oder ausschalten. So bestimmen Sie den Umfang Ihres Feeds."
+        },
+        {
+          "title": "Den Originalartikel lesen",
+          "description": "Von der Überschrift geht es direkt zum Artikel. Schriftgröße sowie helles, dunkles oder Systemdesign sind einstellbar."
+        },
+        {
+          "title": "Die Reihenfolge passt sich an",
+          "description": "Leseaktivität und GOOD/BAD-Rückmeldungen beeinflussen die Reihenfolge beim Aktualisieren. Die Lerndaten bleiben auf Ihrem Gerät."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "Persönliche Perspektiven entdecken",
+          "description": "CREATORS sammelt Beiträge einzelner Schreibender und Creator. Anhand von Überschrift und Quelle wählen Sie aus, was Sie gerade lesen möchten."
+        },
+        {
+          "image": 1,
+          "title": "Den eigenen Lesebereich festlegen",
+          "description": "Quellen lassen sich auf einem Einstellungsbildschirm verwalten. Dort wählen Sie auch das Design und die passende Artikelschriftgröße."
+        }
+      ],
+      "audienceTitle": "Für diese Momente",
+      "audience": [
+        {
+          "title": "Technische Beiträge nachlesen",
+          "description": "Aktuelle Texte von Qiita oder Zenn überblicken, ohne zwischen den Websites zu wechseln."
+        },
+        {
+          "title": "Persönliche Sichtweisen entdecken",
+          "description": "Neben Nachrichten auch Gedanken und Erfahrungen einzelner Schreibender lesen."
+        },
+        {
+          "title": "Im eigenen Rhythmus lesen",
+          "description": "Den Feed öffnen, wenn Zeit ist, und mit einem interessanten Titel beginnen."
+        }
+      ],
+      "notes": [
+        "Zum Abrufen neuer Artikel und Laden der Artikelseiten ist eine Internetverbindung erforderlich.",
+        "Die Auswahl umfasst die in der App integrierten Quellen. Die App-Oberfläche ist derzeit auf Japanisch."
+      ]
+    },
+    "fr": {
+      "overviewTitle": "Des publications personnelles et des sujets d’actualité au même endroit.",
+      "overview": [
+        "SIGNAL rassemble des articles de sources comme note, Qiita et Zenn, en privilégiant les auteurs individuels et les créateurs. Parcourez les titres et leurs sources sans consulter chaque site séparément.",
+        "CREATORS réunit les publications des créateurs, TODAY propose plusieurs sujets et NEWS rassemble l’actualité. Touchez un titre pour lire la page originale dans l’application."
+      ],
+      "features": [
+        {
+          "title": "Des voix individuelles dans un même fil",
+          "description": "Retrouvez les articles des sources intégrées, dont note, Qiita, Zenn, Hatena Bookmark et DevelopersIO."
+        },
+        {
+          "title": "Choisir ses sources",
+          "description": "Activez ou désactivez chaque source intégrée dans les réglages pour définir le contenu de votre fil."
+        },
+        {
+          "title": "Lire l’article original",
+          "description": "Ouvrez la page de l’article depuis son titre. Ajustez la taille du texte et choisissez un thème clair, sombre ou système."
+        },
+        {
+          "title": "Un ordre qui tient compte de vos réactions",
+          "description": "La lecture et les réactions GOOD/BAD influencent l’ordre lors de l’actualisation. Les données d’apprentissage restent sur votre appareil."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "Découvrir un point de vue personnel",
+          "description": "CREATORS réunit les publications d’auteurs individuels et de créateurs. Regardez les titres et les sources, puis choisissez ce qui vous intéresse."
+        },
+        {
+          "image": 1,
+          "title": "Définir son périmètre de lecture",
+          "description": "Gérez les sources dans un même écran de réglages, avec le thème et la taille du texte adaptés à votre lecture."
+        }
+      ],
+      "audienceTitle": "Pour quels moments ?",
+      "audience": [
+        {
+          "title": "Retrouver les articles techniques",
+          "description": "Consultez les publications de Qiita ou Zenn sans passer d’un site à l’autre."
+        },
+        {
+          "title": "Lire des expériences personnelles",
+          "description": "Découvrez les idées et les expériences des auteurs, en complément de l’actualité."
+        },
+        {
+          "title": "Lire à son propre rythme",
+          "description": "Ouvrez le fil quand vous avez un moment et commencez par un titre qui vous intéresse."
+        }
+      ],
+      "notes": [
+        "Une connexion Internet est nécessaire pour récupérer les nouveaux articles et charger leurs pages.",
+        "Le choix se limite aux sources intégrées à l’application. Son interface est actuellement en japonais."
+      ]
+    },
+    "zh-hant": {
+      "overviewTitle": "個人觀點與關注的話題，集中在一個地方。",
+      "overview": [
+        "SIGNAL 從 note、Qiita、Zenn 等來源彙整文章，以個人作者與創作者的內容為主。不必逐一瀏覽各個網站，就能一起查看標題與來源。",
+        "想讀個人觀點時選擇 CREATORS，想瀏覽多種話題時選擇 TODAY，或切換至 NEWS 查看新聞。點選感興趣的標題，即可在 App 內開啟原文頁面。"
+      ],
+      "features": [
+        {
+          "title": "把個人的發聲匯成動態",
+          "description": "閱讀來自 note、Qiita、Zenn、Hatena Bookmark、DevelopersIO 等內建來源的文章。"
+        },
+        {
+          "title": "選擇想看的來源",
+          "description": "在設定中逐一開啟或關閉內建來源，調整動態中顯示的資訊範圍。"
+        },
+        {
+          "title": "直接閱讀原文",
+          "description": "從標題開啟文章頁面，也能調整文章字體大小，選擇淺色、深色或跟隨系統的主題。"
+        },
+        {
+          "title": "依閱讀反應調整排序",
+          "description": "依據閱讀活動與 GOOD／BAD 反應，在重新整理時調整顯示順序。學習資料保留在裝置內。"
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "遇見個人的觀點",
+          "description": "CREATORS 集中呈現個人作者與創作者的文章。查看標題與來源，再選擇此刻想讀的內容。"
+        },
+        {
+          "image": 1,
+          "title": "設定自己的閱讀範圍",
+          "description": "在同一個設定畫面管理來源的開關，也能依平常的閱讀方式選擇主題和文章字體大小。"
+        }
+      ],
+      "audienceTitle": "適合這些時候",
+      "audience": [
+        {
+          "title": "想集中查看技術文章",
+          "description": "不必在網站間來回切換，就能查看 Qiita、Zenn 等來源的文章。"
+        },
+        {
+          "title": "想讀個人的想法與經驗",
+          "description": "除了新聞，也想接觸帶有作者觀點的文章時。"
+        },
+        {
+          "title": "想自己決定閱讀時間",
+          "description": "有空時開啟動態，從感興趣的標題開始閱讀。"
+        }
+      ],
+      "notes": [
+        "取得新文章及載入原文頁面需要網路連線。",
+        "可選擇的範圍為 App 內建來源。目前 App 介面語言為日文。"
+      ]
+    }
+  }
+}

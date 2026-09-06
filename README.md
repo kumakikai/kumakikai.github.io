@@ -66,6 +66,8 @@ npm run verify
 | `hugo.toml` | 言語・公開URL・theme・Tailwind buildの設定 |
 | `data/apps.json` | アプリID、表示順、Featured、公開状態、Store URL、既存詳細URL、画像 |
 | `data/home/<lang>.json` | 6言語の既存トップコピー、アプリ名・説明・対応端末・画像alt |
+| `data/product_details/<id>.json` | 各Product専用の概要・機能・画像付き紹介・利用シーン・確認済み対応OS |
+| `data/product_ui/<lang>.json` | Product詳細の見出し・基本情報ラベル・下部CTAの6言語コピー |
 | `data/corporate/<lang>.json` | 6言語のナビゲーション、会社紹介、各一覧・CTAのコピー |
 | `data/theme.json` | Hugoplateの色・フォント・文字サイズtoken |
 | `data/hero.json` | 実UIを使ったHero画像の寸法、responsive画像、alt |
@@ -90,13 +92,26 @@ npm run verify
 2. `data/home/`の6言語すべてへ、同じIDでアプリ名・短い説明・`platform`・必要な`taglineLines`・`imageAlts`を追加します。既存Featuredのコピー変更には仕様上の根拠が必要です。
 3. 実際のアイコン・スクリーンショットを`static/images/apps/<id>/`へ配置し、`data/apps.json`に幅・高さとsmall／large画像を登録します。素材がない場合は`screenshots: []`にします。
 4. 使い方、FAQ、Privacy、Termsがある場合は既存の規則で`content/<section>/<id>.md`を用意します。Product下部のSupportは同じIDからこれらのページを探し、翻訳がなければ日本語ページへ案内します。
-5. `npm run sync:products`、`npm run build`、`npm run verify`を実行し、差分とブラウザ表示を確認します。
+5. `data/product_details/<id>.json`へ、Homeとは別の製品紹介を6言語で追加します。公開版とローカル開発版を区別して確認し、根拠と素材の出典を`docs/products/`へ残します。下の「Product詳細の編集」を参照してください。
+6. `npm run sync:products`、`npm run build`、`npm run verify`を実行し、差分とブラウザ表示を確認します。
 
 現在は8アプリ×6言語の48 Productページと、主要3セクション＋Support互換ページ×6言語の24入口、計72 Markdownを`scripts/sync-products.py`で同期します。生成ページにはマーカーがあり、直接編集せず共通JSONを変更します。手書きの記事は同期スクリプトの上書き対象になりません。
 
 Other Appsの実画面も同じ画像データからHomeとProduct詳細へ反映します。[追加素材の出典](docs/homepage/other-app-assets.md)を参照してください。
 
 アプリをデータから取り除く場合、生成ページを自動削除することはありません。旧URLからの到達方法を決めてから対応してください。ID変更もURL変更になるため、表示名の変更だけを目的にIDを変えないでください。
+
+### Product詳細の編集
+
+Homeは短い紹介、Product詳細は具体的な用途と条件、Supportは操作方法・FAQを担当します。詳細本文を増やすために`data/home/`の既存コピーやサポート本文を変更する必要はありません。
+
+`data/product_details/<id>.json`の`locales`に`ja`・`en`・`ko`・`de`・`fr`・`zh-hant`を用意します。各言語には`overviewTitle`、`overview`（2段落）、`features`（アプリに合う3〜6項目のtitle／description）、`stories`（画像と説明を組み合わせた2〜3項目）、`audienceTitle`、`audience`（3項目のtitle／description）、`notes`（利用条件）を設定します。項目数をそろえる目的で機能を作らないでください。
+
+`stories`は`image: 0`のように`data/apps.json`の既存画像を参照できます。詳細だけに使う実素材は同じファイルの`media`にsmall／large／width／height／largeWidthを登録し、storyから`media: "pdf"`等のキーと、その言語の`alt`で参照します。新しい画像をHomeへ追加する必要はありません。画像は縦横比を維持したWebPを2サイズ用意し、原本・SHA256・採用根拠を記録します。
+
+`minimumOS`はApp Store公開情報とプロジェクトのdeployment targetを照合してから記入します。不明な場合は省略します。開発中アプリの最低OSや価格を推測して埋めないでください。料金の固定値は避け、公開中アプリだけApp Storeの最新情報へ案内します。
+
+Product詳細の公式バッジはHeroと主要説明後の2箇所です。国旗はHeroだけ、Supportは最下部の直接リンクを維持します。Homeのバッジは各アプリ1箇所のままです。[詳細ページ拡張の記録](docs/products/REPORT.md)に、採用した内容・素材・検証結果をまとめています。
 
 ### 公開状態とApp Store
 

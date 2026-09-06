@@ -1,0 +1,134 @@
+{
+  "checkedAt": "2026-09-07",
+  "task": "Product detail expansion only; approved Home copy, apps data, images and legacy article/support/privacy content remain unchanged.",
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "de",
+    "fr",
+    "zh-hant"
+  ],
+  "verificationMethod": "Current Japanese public Apple Lookup response read over HTTPS; local current project documentation, deployment targets and implementation reviewed; six existing website screenshots visually inspected.",
+  "limitations": [
+    "Public listing verification is distinct from App Store Connect review/submission state. No new account-level App Store Connect state check or physical-device flow was performed in this task.",
+    "Source code and current project docs may include work newer than the public version; public-version scope controls the product copy.",
+    "Storefront availability and app display languages are not inferred from website language. Existing shared product availability data is unchanged."
+  ],
+  "app": "smokeless",
+  "publicStore": {
+    "sourceURL": "https://itunes.apple.com/lookup?id=6759493613,6760842941,6757731648&country=jp",
+    "storefront": "jp",
+    "checkedAt": "2026-09-07",
+    "trackId": 6760842941,
+    "trackName": "すわなび - たばこカウンター",
+    "trackViewUrl": "https://apps.apple.com/jp/app/%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3-%E3%81%9F%E3%81%B0%E3%81%93%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC/id6760842941?uo=4",
+    "version": "1.1.1",
+    "minimumOsVersion": "14.0",
+    "currentVersionReleaseDate": "2026-09-04T15:04:00Z",
+    "languageCodesISO2A": [
+      "EN",
+      "JA"
+    ],
+    "description": "禁煙したい人にも、今の喫煙状況を把握したい人にも。\nこのアプリは、吸いたかったけど吸わなかった回数（我慢）と、実際に喫煙した回数を記録できるアプリです。\n\n「吸いたい」と思った瞬間にワンタップ。\n我慢した回数を重ねることで、どれだけ我慢できたか、どれだけお金を使わずに済んだかを確認できます。\n喫煙した回数を記録すれば、吸った本数や使った金額も確認できます。\n\n・「我慢」と「喫煙」をワンタップで記録\n・日別 / 月別 / 年別で履歴を確認\n・週 / 月 / 3か月のグラフで変化を確認\n・続けやすく振り返りやすい範囲として、グラフは3か月までに絞っています\n・1箱あたりの設定から、節約額と使用額を自動計算\n・ウィジェットからすぐに記録・確認\n\n禁煙の補助としても、喫煙本数や出費の管理ツールとしても使えます。\n無理なく、自分のペースで続けられます。",
+    "screenshotUrls": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/14/9d/00149de6-051f-59d2-25e6-5aeabbaf493e/01-value.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/ca/b0/6acab0f1-9933-18a1-c484-e3759ef79e50/02-widget.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/67/85/a967853d-70d5-031c-f640-65fde32e1d7d/03-counts.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/63/fb/4c63fb52-b1b0-ecc3-8ac7-06091afc8052/04-cost.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/99/c6/11/99c61167-bda1-c060-06cf-32ebee886c2d/05-resisted.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/3a/40/853a40b9-f8ed-caaf-0a5a-38d3ed168704/06-trends.png/320x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/dd/2e/6fdd2e56-3eb2-9bac-9199-d7a283d88552/07-freedom.png/320x480bb.jpg"
+    ]
+  },
+  "localVersion": "1.2.0+3",
+  "minimumOSDecision": {
+    "value": "iOS 14.0",
+    "authority": "Current public App Store minimumOsVersion",
+    "deploymentTargetMatches": true
+  },
+  "sources": [
+    {
+      "path": "/Users/yuya/Projects/smokeless/pubspec.yaml",
+      "lines": [
+        22
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "53554f38b8af898e25e6bac5641333b8d52d838b13036f6cc60b566a7890eed8",
+      "supports": [
+        "Local version 1.2.0+3 is newer than public 1.1.1"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/smokeless/ios/Runner.xcodeproj/project.pbxproj",
+      "lines": [
+        626,
+        715,
+        766,
+        862,
+        913,
+        961
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "85258fcf42b79a041add28311edbbbf06532ea894632a0d3330fb66de36ddcb7",
+      "supports": [
+        "iOS deployment target 14.0 matches public Store minimumOsVersion"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/smokeless/README.md",
+      "lines": [
+        "3-24",
+        "31-33",
+        "42-61"
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "c1d20f4887d9c395b290cbc7778f2bdeac782c2fd228e52e6ea005febe8a1c76",
+      "supports": [
+        "Smoked/resisted counts, pack-based monetary conversion, day/month history and recent charts",
+        "Home widget entry and today counters",
+        "Records/settings stored locally, no cloud synchronization"
+      ]
+    },
+    {
+      "path": "/Users/yuya/Projects/smokeless/docs/APP_STORE_METADATA.md",
+      "lines": [
+        "67-75"
+      ],
+      "checkedAt": "2026-09-07",
+      "sha256": "950209a7e25ac07989ffa78e32685345cd6535ecb53c36ffe16fbf698d887884",
+      "supports": [
+        "Apple Watch feature described for local 1.2.0 draft; submission/publication not confirmed"
+      ]
+    }
+  ],
+  "decisions": [
+    "Public 1.1.1 description confirms one-tap smoked/resisted records, daily/monthly/yearly history, week/month/three-month graphs, cost estimates from pack settings, and widget access; only these features are included.",
+    "Apple Watch remains excluded because public listing is 1.1.1 and local 1.2.0 draft explicitly lacks verified public release. Current code version alone is not treated as release proof.",
+    "No smoking-cessation or health outcome guarantee. Monetary values are described as estimates based on user input, not actual automatically measured savings.",
+    "No Android Store release, cloud backup, account synchronization, or price claim is added.",
+    "Existing first/counts artwork is preserved. Public Store has seven filenames; latest local/site set displays 01/08 and 03/08 after an eighth Watch asset was prepared. These two selected images show only already-public iPhone features; no Watch image or claim is used. This known set-count difference does not establish publication of the eighth image."
+  ],
+  "screenshots": [
+    {
+      "imageIndex": 0,
+      "webImage": "/images/apps/smokeless/01-recording-840.webp",
+      "sourcePath": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/1284x2778-upload/01-value.png",
+      "currentPublicStoreFilename": "01-value.png",
+      "storyFocus": "Separate resisted/smoked buttons, today counts and cost amount",
+      "review": "Existing 420px WebP visually inspected; story describes visible UI. Existing asset was not modified.",
+      "sha256": "a12b15cd287bde5adf5fd69709e88ec0ddc21e966b4fe2b7f38361c873fc4d06"
+    },
+    {
+      "imageIndex": 1,
+      "webImage": "/images/apps/smokeless/02-counts-840.webp",
+      "sourcePath": "/Users/yuya/Projects/smokeless/design/app-store-screenshots-2026-09-03/final/1284x2778-upload/03-counts.png",
+      "currentPublicStoreFilename": "03-counts.png",
+      "storyFocus": "Daily records with resisted/smoked counts and day/month/year tabs",
+      "review": "Existing 420px WebP visually inspected; story describes visible UI. Existing asset was not modified.",
+      "sha256": "73a19854d2c2177d273312dc0926e3339fa01a371e907bf0a2bb3908b5f64cdb"
+    }
+  ],
+  "priorAssetAudit": "docs/ux/screenshot-freshness.json",
+  "priorSubmissionLimitations": "docs/ux/other-submission-check.json"
+}

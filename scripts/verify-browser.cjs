@@ -27,6 +27,21 @@ async function loaded(page) {
 async function accessibility(page) {
   return page.evaluate(async () => (await axe.run(document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'best-practice'] } })).violations.map(v => ({ id: v.id, impact: v.impact, nodes: v.nodes.map(n => ({ target: n.target, summary: n.failureSummary })) })));
 }
+async function inspectOfficialBadge(badge, app, locale, visible) {
+  assert.equal(await badge.count(), 1, 'One official badge in each download placement');
+  assert.equal(await badge.getAttribute('href'), app.appStoreURL, 'Badge keeps the existing verified Store URL regardless of display locale');
+  const image = badge.locator('img');
+  assert.equal(await image.count(), 1);
+  assert.equal(await image.getAttribute('src'), badgeData[locale].path, 'Official badge uses the page display locale');
+  assert.ok((await image.getAttribute('alt'))?.trim());
+  if (visible) {
+    assert.equal(await badge.isVisible(), true);
+    const bounds = await image.boundingBox();
+    assert.ok(bounds.height >= 40 - .1, 'Official badge is at least 40 CSS pixels high');
+    assert.ok(Math.abs(bounds.width / bounds.height - badgeData[locale].width / badgeData[locale].height) < .01, 'Badge keeps the official aspect ratio');
+    assert.equal(await image.evaluate(el => getComputedStyle(el).filter), 'none', 'Official badge colors are unchanged');
+  }
+}
 async function inspectStoreControls(page, route) {
   const locale = localeFor(route);
   const productID = route.match(/\/products\/([^/]+)\/$/)?.[1];
@@ -44,19 +59,7 @@ async function inspectStoreControls(page, route) {
       assert.equal(await badge.count(), 0); assert.equal(await flags.count(), 0);
       continue;
     }
-    assert.equal(await badge.count(), 1, 'One official badge per published product');
-    assert.equal(await badge.getAttribute('href'), app.appStoreURL, 'Badge keeps the existing verified Store URL regardless of display locale');
-    const image = badge.locator('img');
-    assert.equal(await image.count(), 1);
-    assert.equal(await image.getAttribute('src'), badgeData[locale].path, 'Official badge uses the page display locale');
-    assert.ok((await image.getAttribute('alt'))?.trim());
-    if (await scope.isVisible()) {
-      assert.equal(await badge.isVisible(), true);
-      const bounds = await image.boundingBox();
-      assert.ok(bounds.height >= 40 - .1, 'Official badge is at least 40 CSS pixels high');
-      assert.ok(Math.abs(bounds.width / bounds.height - badgeData[locale].width / badgeData[locale].height) < .01, 'Badge keeps the official aspect ratio');
-      assert.equal(await image.evaluate(el => getComputedStyle(el).filter), 'none', 'Official badge colors are unchanged');
-    }
+    await inspectOfficialBadge(badge, app, locale, await scope.isVisible());
     assert.deepEqual(await flags.evaluateAll(nodes => nodes.map(n => n.dataset.country)), app.availability.verifiedStorefronts);
     for (const flag of await flags.all()) {
       const country = await flag.getAttribute('data-country');
@@ -73,6 +76,18 @@ async function inspectStoreControls(page, route) {
     badges++;
   }
   if (productID) {
+    const app = apps[0], published = app.status === 'published';
+    const download = page.locator('section.product-download');
+    assert.equal(await download.count(), published ? 1 : 0, 'Only published products have the lower download section');
+    assert.equal(await page.locator('a.app-store-badge').count(), published ? 2 : 0, 'Product badges appear in the hero and lower download section');
+    assert.equal(await page.locator('.storefront-link').count(), app.availability.verifiedStorefronts.length, 'Country links are shown once in the hero');
+    if (published) {
+      await inspectOfficialBadge(download.locator('a.app-store-badge'), app, locale, true);
+      assert.equal(await download.locator('.storefront-link').count(), 0);
+      const lowerBox = await download.boundingBox(), heroBox = await page.locator('.product-intro').boundingBox();
+      assert.ok(lowerBox.y >= heroBox.y + heroBox.height, 'The second download placement is below the hero');
+      badges++;
+    }
     assert.equal(await page.locator('.product-intro .app-actions a').evaluateAll(nodes => nodes.every(n => new URL(n.href).hostname === 'apps.apple.com')), true, 'Product introduction has no redundant internal CTA');
     const support = page.locator('section#support');
     assert.equal(await support.count(), 1);
@@ -83,6 +98,43 @@ async function inspectStoreControls(page, route) {
     if (apps[0].status === 'published') assert.equal(await privacy.isVisible(), true);
   }
   return { badges, regions };
+}
+async function inspectProductContent(page, route) {
+  const id = route.match(/\/products\/([^/]+)\/$/)?.[1];
+  if (!id) return;
+  const detail = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/product_details', id + '.json'), 'utf8'));
+  const text = detail.locales[localeFor(route)];
+  assert.equal(await page.locator('section.product-overview#overview').count(), 1);
+  assert.equal(await page.locator('.product-overview p').count(), text.overview.length);
+  assert.equal(await page.locator('section.product-features#features li').count(), text.features.length);
+  assert.equal(await page.locator('.product-audience li').count(), 3);
+  const stories = page.locator('section.product-story');
+  assert.equal(await stories.count(), text.stories.length);
+  const imageWidths = [];
+  for (const story of await stories.all()) {
+    const image = story.locator('img');
+    assert.equal(await image.count(), 1);
+    assert.equal(await image.isVisible(), true);
+    assert.ok((await image.getAttribute('alt'))?.trim());
+    assert.equal(await image.getAttribute('loading'), 'lazy');
+    const bounds = await image.boundingBox();
+    assert.ok(bounds.width >= 200, 'Illustrated use cases keep the actual UI readable');
+    assert.equal(await image.evaluate(el => el.naturalWidth > 0), true);
+    imageWidths.push(Math.round(bounds.width));
+  }
+  assert.equal(await page.locator('.product-facts dl').count(), 1);
+  assert.equal(await page.locator('.product-facts dt').count(), detail.minimumOS ? 4 : 3);
+  const positions = await page.locator('.product-intro, .product-overview, .product-features, .product-story, .product-audience, .product-facts, .product-download, section#support').evaluateAll(nodes => nodes.map(n => ({
+    section: n.className, top: n.getBoundingClientRect().top + scrollY, bottom: n.getBoundingClientRect().bottom + scrollY,
+  })));
+  for (let i = 1; i < positions.length; i++) assert.ok(positions[i].top >= positions[i - 1].bottom - 1, 'Product sections and the lower CTA do not overlap');
+  const support = page.locator('section#support');
+  await support.scrollIntoViewIfNeeded();
+  assert.equal(await support.locator('h2').evaluate(el => {
+    const rect = el.getBoundingClientRect(); return rect.bottom > 0 && rect.top < innerHeight;
+  }), true, 'The support section can still be reached on the long product page');
+  await page.evaluate(() => scrollTo(0, 0));
+  return { overviewParagraphs: text.overview.length, features: text.features.length, stories: text.stories.length, audience: 3, imageWidths };
 }
 async function inspectProductsHub(page, route) {
   if (!/^\/(?:en\/|ko\/|de\/|zh-hant\/|fr\/)?products\/$/.test(route)) return;
@@ -197,6 +249,9 @@ async function inspectDisclosures(page, name, screenshot, axe) {
     let productsHub;
     try { productsHub = await inspectProductsHub(page, route); }
     catch (error) { errors.push(`Products hub: ${error.message}`); }
+    let productContent;
+    try { productContent = await inspectProductContent(page, route); }
+    catch (error) { errors.push(`Product content: ${error.message}`); }
     try {
       const prefix = localeFor(route) === 'ja' ? '' : '/' + localeFor(route);
       const destinations = ['products','news','company'].map(section => `${prefix}/${section}/`);
@@ -221,7 +276,7 @@ async function inspectDisclosures(page, name, screenshot, axe) {
     }
     const expandedOK = !disclosures || (disclosures.scrollWidth <= width && !disclosures.brokenImages.length && !disclosures.violations.length);
     const ok = !errors.length && !violations.length && expandedOK && layout.h1Count === 1 && layout.scrollWidth <= width && !layout.duplicateIDs.length && !layout.brokenImages.length && !layout.headingSkips.length;
-    const result = { name, route, theme, ...layout, storeControls, productsHub, disclosures, errors, violations, ok };
+    const result = { name, route, theme, ...layout, storeControls, productsHub, productContent, disclosures, errors, violations, ok };
     results.push(result); if (!ok) failures.push(name);
     fs.writeFileSync(path.join(output, 'results.json'), JSON.stringify({ ok: false, pending: true, failures, results }, null, 2));
     console.log(JSON.stringify({ name, ok, overflow: layout.scrollWidth - width, violations: violations.map(v => v.id), headingSkips: layout.headingSkips.length }));
@@ -233,9 +288,13 @@ async function inspectDisclosures(page, name, screenshot, axe) {
   }
   const routes = ['/products/','/support/','/news/','/company/','/products/uni-note/','/products/oto-miru/','/products/giga-poke/','/products/nocca/','/products/uni-note-pocket/','/products/balance-calendar/','/products/smokeless/','/products/signal/','/notes/2026-09-02-giga-poke/','/htu/uni-note/','/faq/uni-note/','/privacy/uni-note/','/404.html'];
   for (const route of routes) for (const theme of ['light','dark']) await inspect(route.replace(/\W+/g,'-') + theme, route, theme === 'light' ? 1280 : 393, 900, theme, route === '/products/uni-note/');
+  for (const [device, width, height] of [['ipad',834,1194], ['iphone-small',320,568]]) {
+    for (const theme of ['light','dark']) await inspect(`product-detail-${device}-${theme}`, '/products/uni-note/', width, height, theme, true);
+  }
   for (const locale of ['en','ko','de','zh-hant','fr']) {
     await inspect(`locale-${locale}-home`, `/${locale}/`, 393, 852, 'light', true);
     await inspect(`locale-${locale}-products`, `/${locale}/products/`, 393, 852, 'dark');
+    await inspect(`locale-${locale}-product-detail`, `/${locale}/products/uni-note/`, 393, 852, 'dark', true);
   }
   // Native modal: focus confinement, Escape, return focus, scroll locking and all routes.
   const context = await browser.newContext({ viewport: { width: 393, height: 852 } });

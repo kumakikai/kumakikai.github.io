@@ -1,0 +1,5 @@
+{{ $app := .app }}{{ $ui := index site.Data.ux site.Language.Lang }}{{ $text := index (index site.Data.home site.Language.Lang).apps $app.id }}
+{{ with $app.availability }}{{ if and (eq $app.status "published") $app.appStoreURL (in .verifiedStorefronts .storefront) }}
+{{ $badge := index (index site.Data "app-store-badges") site.Language.Lang }}{{ $country := index $ui.countries .storefront }}
+<a class="app-store-badge" href="{{ $app.appStoreURL }}" aria-label="{{ $text.name }} — {{ $ui.download }} ({{ $country.name }})" title="{{ printf $ui.openStore $country.name }}"><img src="{{ $badge.path }}" width="{{ math.Round $badge.width }}" height="{{ int $badge.height }}" alt="{{ $ui.download }}" decoding="async"></a>
+{{ end }}{{ end }}

@@ -1,0 +1,356 @@
+{
+  "minimumOS": "iOS 17.0",
+  "media": {
+    "practice": {
+      "small": "/images/apps/uni-note-pocket/detail-practice-420.webp",
+      "large": "/images/apps/uni-note-pocket/detail-practice-840.webp",
+      "width": 420,
+      "height": 909,
+      "largeWidth": 840
+    }
+  },
+  "locales": {
+    "ja": {
+      "overviewTitle": "iPadでまとめた学びを、iPhoneで持ち歩く。",
+      "overview": [
+        "Uni:Note Pocketは、Uni:Noteで作成したノートや問題集をiPhoneで見返すための閲覧専用アプリです。iPadを開けない移動中や授業前にも、手元のiPhoneから学習内容を確認できます。",
+        "最初にUni:Noteのバックアップを取り込みます。教科ごとのノートをたどり、ページを縦に読み進めたり、問題の答えや解説を確認したりできます。ノートを編集する場所はUni:Note、持ち歩いて読む場所はPocketです。"
+      ],
+      "features": [
+        {
+          "title": "バックアップから取り込み",
+          "description": "Uni:NoteのバックアップZIP、またはかんたんバックアップを選んで読み込みます。"
+        },
+        {
+          "title": "ページを続けて読む",
+          "description": "ノートを縦スクロールで閲覧。ピンチやダブルタップで、手書きの細かな部分も拡大できます。"
+        },
+        {
+          "title": "タイトルから探す",
+          "description": "ノート名で検索し、読みたいノートに移動。教科からたどることもできます。"
+        },
+        {
+          "title": "問題集と暗記の復習",
+          "description": "取り込んだ問題の答え・解説を確認。ノートの付箋マーカーもタップで切り替えられます。"
+        }
+      ],
+      "stories": [
+        {
+          "image": 1,
+          "title": "使い始めは、バックアップを取り込むだけ。",
+          "description": "Uni:Noteで用意したバックアップを読み込むと、ノートや問題集をPocketで閲覧できます。更新した内容を読みたいときは、新しいバックアップを取り込み直します。"
+        },
+        {
+          "media": "practice",
+          "alt": "Uni:Note Pocketで取り込んだ問題集の答えと解説を確認するApp Storeスクリーンショット",
+          "title": "空き時間に、答えを確かめる。",
+          "description": "iPadで作った問題集も、取り込んだ後はiPhoneで確認できます。問題を読んで答えや解説を表示する流れで、通学中や授業前の短い時間を復習に使えます。"
+        }
+      ],
+      "audienceTitle": "こんなときに",
+      "audience": [
+        {
+          "title": "通学・移動中",
+          "description": "iPadを広げずに、授業ノートを少しずつ読み返す。"
+        },
+        {
+          "title": "授業が始まる前",
+          "description": "前回のノートを探し、内容を手元ですぐ確認する。"
+        },
+        {
+          "title": "試験前の確認",
+          "description": "取り込んだ問題集や付箋マーカーで覚えた内容を確かめる。"
+        }
+      ],
+      "notes": [
+        "Uni:Noteのバックアップが必要です。Pocket単体でノートを新規作成・編集・削除することはできません。",
+        "表示内容は取り込んだバックアップ時点のものです。Uni:Noteとの自動同期ではありません。"
+      ]
+    },
+    "en": {
+      "overviewTitle": "Carry your iPad study notes on iPhone.",
+      "overview": [
+        "Uni:Note Pocket is a read-only companion for reviewing Uni:Note notes and practice sets on iPhone. Check your study material during a commute or before class when opening your iPad is inconvenient.",
+        "Start by importing a Uni:Note backup. Browse notes by subject, scroll through pages and check practice answers and explanations. Create and edit in Uni:Note; carry and read in Pocket."
+      ],
+      "features": [
+        {
+          "title": "Import a backup",
+          "description": "Load a Uni:Note backup ZIP or select an Easy Backup."
+        },
+        {
+          "title": "Read continuous pages",
+          "description": "Scroll vertically through a note and use pinch or double-tap zoom for handwritten details."
+        },
+        {
+          "title": "Search by title",
+          "description": "Find a note by its title or browse your subjects."
+        },
+        {
+          "title": "Review questions and markers",
+          "description": "Check imported answers and explanations, and tap sticky markers in your notes."
+        }
+      ],
+      "stories": [
+        {
+          "image": 1,
+          "title": "Begin with your Uni:Note backup.",
+          "description": "Import a backup prepared in Uni:Note to read your notes and practice sets in Pocket. Import a newer backup when you want to see updated material."
+        },
+        {
+          "media": "practice",
+          "alt": "App Store screenshot showing imported practice answers and explanations in Uni:Note Pocket",
+          "title": "Check an answer in a spare moment.",
+          "description": "Practice sets created on iPad can be reviewed on iPhone after import. Read a question, reveal its answer and explanation, and use a short break or commute to revise."
+        }
+      ],
+      "audienceTitle": "When to use it",
+      "audience": [
+        {
+          "title": "On your commute",
+          "description": "Read a few pages without taking out your iPad."
+        },
+        {
+          "title": "Before class",
+          "description": "Find your previous notes and refresh your memory."
+        },
+        {
+          "title": "Before an exam",
+          "description": "Check what you remember with imported questions and sticky markers."
+        }
+      ],
+      "notes": [
+        "Requires a Uni:Note backup. Pocket cannot create, edit or delete notes on its own.",
+        "Content reflects the imported backup. It does not automatically sync with Uni:Note."
+      ]
+    },
+    "ko": {
+      "overviewTitle": "iPad에서 정리한 학습 내용을 iPhone으로.",
+      "overview": [
+        "Uni:Note Pocket은 Uni:Note의 노트와 문제집을 iPhone에서 다시 보는 열람 전용 앱입니다. 이동 중이나 수업 전, iPad를 펼치기 어려울 때도 학습 내용을 확인할 수 있습니다.",
+        "먼저 Uni:Note 백업을 가져옵니다. 과목별 노트를 찾아 페이지를 세로로 읽고, 문제의 답과 해설을 확인할 수 있습니다. 작성과 편집은 Uni:Note에서, 휴대하며 읽기는 Pocket에서 하세요."
+      ],
+      "features": [
+        {
+          "title": "백업 가져오기",
+          "description": "Uni:Note 백업 ZIP 또는 간편 백업을 선택해 불러옵니다."
+        },
+        {
+          "title": "페이지 이어 읽기",
+          "description": "노트를 세로로 스크롤하고 핀치나 두 번 탭하기로 손글씨를 확대합니다."
+        },
+        {
+          "title": "제목으로 찾기",
+          "description": "노트 제목으로 검색하거나 과목별로 노트를 찾습니다."
+        },
+        {
+          "title": "문제집과 암기 복습",
+          "description": "가져온 답과 해설을 확인하고 노트의 스티키 마커를 탭해 전환합니다."
+        }
+      ],
+      "stories": [
+        {
+          "image": 1,
+          "title": "시작은 Uni:Note 백업 가져오기부터.",
+          "description": "Uni:Note에서 준비한 백업을 불러오면 Pocket에서 노트와 문제집을 볼 수 있습니다. 수정된 내용을 보려면 새 백업을 다시 가져오세요."
+        },
+        {
+          "media": "practice",
+          "alt": "Uni:Note Pocket에서 가져온 문제집의 답과 해설을 확인하는 App Store 스크린샷",
+          "title": "잠깐의 여유에 답을 확인하세요.",
+          "description": "iPad에서 만든 문제집도 가져온 뒤에는 iPhone에서 복습할 수 있습니다. 문제를 읽고 답과 해설을 확인하며 통학 중이나 수업 전의 짧은 시간을 활용하세요."
+        }
+      ],
+      "audienceTitle": "이럴 때 사용하세요",
+      "audience": [
+        {
+          "title": "통학하거나 이동할 때",
+          "description": "iPad를 꺼내지 않고 수업 노트를 조금씩 다시 읽습니다."
+        },
+        {
+          "title": "수업 시작 전",
+          "description": "이전 노트를 찾아 내용을 바로 확인합니다."
+        },
+        {
+          "title": "시험 전 확인",
+          "description": "가져온 문제집과 스티키 마커로 기억을 점검합니다."
+        }
+      ],
+      "notes": [
+        "Uni:Note 백업이 필요합니다. Pocket만으로 노트를 새로 만들거나 편집·삭제할 수 없습니다.",
+        "내용은 가져온 백업 시점을 기준으로 표시됩니다. Uni:Note와 자동 동기화되지 않습니다."
+      ]
+    },
+    "de": {
+      "overviewTitle": "Ihre iPad-Lernnotizen auf dem iPhone.",
+      "overview": [
+        "Uni:Note Pocket ist die Lese-App für Notizen und Übungssätze aus Uni:Note auf dem iPhone. Sehen Sie Lernmaterial unterwegs oder vor der Vorlesung nach, wenn Sie das iPad nicht öffnen möchten.",
+        "Importieren Sie zuerst ein Uni:Note-Backup. Danach können Sie Notizen nach Fach aufrufen, durch Seiten scrollen und Antworten mit Erklärungen nachlesen. Erstellen und bearbeiten in Uni:Note, mitnehmen und lesen in Pocket."
+      ],
+      "features": [
+        {
+          "title": "Backup importieren",
+          "description": "Laden Sie eine Uni:Note-Backup-ZIP oder wählen Sie ein einfaches Backup aus."
+        },
+        {
+          "title": "Seiten fortlaufend lesen",
+          "description": "Scrollen Sie vertikal und vergrößern Sie Handschrift mit zwei Fingern oder Doppeltippen."
+        },
+        {
+          "title": "Nach Titel suchen",
+          "description": "Finden Sie eine Notiz über ihren Titel oder durchsuchen Sie Ihre Fächer."
+        },
+        {
+          "title": "Fragen und Markierungen wiederholen",
+          "description": "Prüfen Sie importierte Antworten und Erklärungen und tippen Sie auf Haftmarkierungen."
+        }
+      ],
+      "stories": [
+        {
+          "image": 1,
+          "title": "Los geht es mit Ihrem Uni:Note-Backup.",
+          "description": "Importieren Sie ein in Uni:Note vorbereitetes Backup, um Notizen und Übungssätze in Pocket zu lesen. Für aktualisierte Inhalte importieren Sie ein neueres Backup."
+        },
+        {
+          "media": "practice",
+          "alt": "App-Store-Screenshot mit importierten Antworten und Erklärungen in Uni:Note Pocket",
+          "title": "Eine freie Minute zum Nachsehen.",
+          "description": "Auf dem iPad erstellte Übungssätze lassen sich nach dem Import auf dem iPhone wiederholen. Lesen Sie eine Frage und blenden Sie Antwort und Erklärung ein, etwa unterwegs oder vor der Vorlesung."
+        }
+      ],
+      "audienceTitle": "Passende Situationen",
+      "audience": [
+        {
+          "title": "Unterwegs",
+          "description": "Ein paar Seiten lesen, ohne das iPad herauszunehmen."
+        },
+        {
+          "title": "Vor der Vorlesung",
+          "description": "Frühere Notizen finden und den Stoff auffrischen."
+        },
+        {
+          "title": "Vor einer Prüfung",
+          "description": "Wissen mit importierten Fragen und Haftmarkierungen prüfen."
+        }
+      ],
+      "notes": [
+        "Ein Uni:Note-Backup ist erforderlich. Pocket kann selbst keine Notizen erstellen, bearbeiten oder löschen.",
+        "Der Inhalt entspricht dem importierten Backup. Es gibt keine automatische Synchronisierung mit Uni:Note."
+      ]
+    },
+    "fr": {
+      "overviewTitle": "Vos notes d’iPad vous suivent sur iPhone.",
+      "overview": [
+        "Uni:Note Pocket est une app de consultation pour retrouver les notes et exercices de Uni:Note sur iPhone. Relisez vos cours dans les transports ou avant une séance, lorsque vous ne pouvez pas ouvrir votre iPad.",
+        "Commencez par importer une sauvegarde Uni:Note. Parcourez les notes par matière, faites défiler les pages et consultez les réponses et explications. Créez et modifiez dans Uni:Note ; emportez et lisez dans Pocket."
+      ],
+      "features": [
+        {
+          "title": "Importer une sauvegarde",
+          "description": "Chargez un ZIP de sauvegarde Uni:Note ou sélectionnez une Sauvegarde rapide."
+        },
+        {
+          "title": "Lire les pages à la suite",
+          "description": "Faites défiler la note et zoomez par pincement ou double toucher pour lire les détails manuscrits."
+        },
+        {
+          "title": "Rechercher par titre",
+          "description": "Retrouvez une note par son titre ou parcourez vos matières."
+        },
+        {
+          "title": "Réviser exercices et marqueurs",
+          "description": "Consultez les réponses et explications importées et touchez les marqueurs de vos notes."
+        }
+      ],
+      "stories": [
+        {
+          "image": 1,
+          "title": "Commencez avec votre sauvegarde Uni:Note.",
+          "description": "Importez une sauvegarde préparée dans Uni:Note pour lire vos notes et exercices dans Pocket. Importez une sauvegarde plus récente pour retrouver les contenus mis à jour."
+        },
+        {
+          "media": "practice",
+          "alt": "Capture App Store montrant les réponses et explications importées dans Uni:Note Pocket",
+          "title": "Un instant libre pour vérifier une réponse.",
+          "description": "Les exercices créés sur iPad peuvent être relus sur iPhone après importation. Lisez une question, affichez sa réponse et son explication, puis profitez d’un trajet ou d’une courte pause pour réviser."
+        }
+      ],
+      "audienceTitle": "Quand l’utiliser ?",
+      "audience": [
+        {
+          "title": "Dans les transports",
+          "description": "Relire quelques pages sans sortir votre iPad."
+        },
+        {
+          "title": "Avant le cours",
+          "description": "Retrouver les notes précédentes pour se rafraîchir la mémoire."
+        },
+        {
+          "title": "Avant un examen",
+          "description": "Vérifier ses acquis avec les questions et marqueurs importés."
+        }
+      ],
+      "notes": [
+        "Une sauvegarde Uni:Note est nécessaire. Pocket ne permet pas de créer, modifier ou supprimer des notes.",
+        "Le contenu correspond à la sauvegarde importée. Il n’y a pas de synchronisation automatique avec Uni:Note."
+      ]
+    },
+    "zh-hant": {
+      "overviewTitle": "把 iPad 整理的學習內容，帶到 iPhone。",
+      "overview": [
+        "Uni:Note Pocket 是在 iPhone 上重看 Uni:Note 筆記與題庫的唯讀 App。在通勤或上課前不方便打開 iPad 時，也能隨手查看學習內容。",
+        "先匯入 Uni:Note 備份，再依科目尋找筆記、上下捲動頁面，或查看題目的答案與解說。建立與編輯留在 Uni:Note，隨身閱讀交給 Pocket。"
+      ],
+      "features": [
+        {
+          "title": "匯入備份",
+          "description": "選擇 Uni:Note 備份 ZIP 或簡單備份，即可載入內容。"
+        },
+        {
+          "title": "連續閱讀頁面",
+          "description": "上下捲動整本筆記，以雙指或點兩下縮放，查看手寫細節。"
+        },
+        {
+          "title": "依標題尋找",
+          "description": "用筆記標題搜尋，也能依科目瀏覽。"
+        },
+        {
+          "title": "題庫與記憶複習",
+          "description": "查看匯入的答案與解說，也能點按筆記中的便條標記切換顯示。"
+        }
+      ],
+      "stories": [
+        {
+          "image": 1,
+          "title": "從匯入 Uni:Note 備份開始。",
+          "description": "載入 Uni:Note 準備好的備份後，就能在 Pocket 閱讀筆記與題庫。想查看更新後的內容時，請重新匯入較新的備份。"
+        },
+        {
+          "media": "practice",
+          "alt": "Uni:Note Pocket 查看匯入題庫的答案與解說之 App Store 截圖",
+          "title": "利用空檔，確認答案。",
+          "description": "在 iPad 建立的題庫，匯入後也能在 iPhone 複習。閱讀題目後顯示答案與解說，把通勤或課前的短暫時間用來回顧學習內容。"
+        }
+      ],
+      "audienceTitle": "適合這些時候",
+      "audience": [
+        {
+          "title": "通勤或移動中",
+          "description": "不用拿出 iPad，也能逐頁重看課堂筆記。"
+        },
+        {
+          "title": "上課前",
+          "description": "找到上次的筆記，快速確認內容。"
+        },
+        {
+          "title": "考試前確認",
+          "description": "使用匯入的題庫與便條標記，檢查記憶是否熟悉。"
+        }
+      ],
+      "notes": [
+        "需要 Uni:Note 備份。Pocket 無法單獨新增、編輯或刪除筆記。",
+        "顯示內容以匯入的備份為準，不會與 Uni:Note 自動同步。"
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-09-07",
+  "app": "uni-note",
+  "publishedVersion": "3.4.0",
+  "publicSource": {
+    "url": "https://itunes.apple.com/lookup?id=6760258084&country=jp&entity=software",
+    "storeURL": "https://apps.apple.com/jp/app/uni-note-%E6%9B%B8%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6-%E5%BA%83%E5%91%8A%E7%84%A1%E3%81%97%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%83%8E%E3%83%BC%E3%83%88/id6760258084?uo=4",
+    "minimumOsVersion": "17.0",
+    "version": "3.4.0",
+    "releaseNotes": "アプリが一度終了した後の復帰時の安定性を改善し、連続して終了する問題を抑制しました。\n\n設定に「お知らせ」を追加しました。最新バージョンの更新内容、確認している問題、今後の開発を確認できます。\n\nホームで、ノート名からノートを検索できるようになりました。\n\n「範囲移動」をフリーでも使えるようにしました。Premiumでは、教科・ノートの制限解除、録音、AI要約、かんたん（iCloud）バックアップを利用できます。",
+    "screenshotUrls": [],
+    "ipadScreenshotUrls": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/cf/49/c3cf49ca-6f06-9701-0fb4-d47569caa230/SS01_handwriting.png/360x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/c2/c8/08c2c859-b587-8010-9c1d-f7cfb432fbc7/SS02_ai_solve.png/360x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/8b/b5/b48bb56a-bc65-8382-5440-eab14334f857/SS03_problem_set.png/360x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/9d/a3/809da3c4-2486-3e8c-2a71-b7a963c72717/SS04_review.png/360x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/b1/15/ebb1150a-1a5e-8de2-02d5-83a0379abf60/SS05_organize.png/360x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/2a/80/e42a80c2-cf0b-5d95-7a51-49bbbffd5920/SS06_pdf_write.png/360x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/e5/a6/33e5a699-bae4-072c-0389-3a4eb5cb9c98/SS07_multitask.png/360x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/6a/d4/466ad4a4-2201-3a9d-eda9-ef796b1ce263/SS08_study_tools.png/360x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/38/3a/f0383a3b-d1cb-57c9-cc11-efb3dc9dc706/SS09_pocket.png/360x480bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/b8/12/d0b812a0-4a6e-a7f1-9c1b-dca6a8efd705/SS10_value.png/360x480bb.jpg"
+    ]
+  },
+  "localProject": {
+    "path": "/Users/yuya/Projects/uni_note/UniNote.xcodeproj/project.pbxproj",
+    "sha256": "826109cb2882a7c4abdcd927dd8b958e2398d8ed15e37cf086e926af2cdc08fc",
+    "version": "3.5.0",
+    "deploymentTarget": "17.0",
+    "deviceFamily": 2
+  },
+  "sources": [
+    {
+      "path": "content/htu/uni-note.md",
+      "sha256": "2565869dab8a7d77b644626f7e2aa740b709bff6b959291ddbfdc7d98d6e617d"
+    },
+    {
+      "path": "content/faq/uni-note.md",
+      "sha256": "db5129cb879fc481dc266e2e676277171388ad2a51e1c2810a7afbd3e30640d0"
+    }
+  ],
+  "dataSHA256": "cf8de30bf4ab0337c94a6ec44b43946f97e2d17282676bfe4ca0619995cb7eba",
+  "mediaEvidence": "docs/products/additional-media.json",
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "de",
+    "fr",
+    "zh-hant"
+  ],
+  "adopted": [
+    "Apple Pencil handwriting, PDF/image annotation, subject/folder organization, note-title search (public 3.4 release notes)",
+    "Circle-to-solve, AI question-set generation, sticky markers for memorization",
+    "Public Store SS06_pdf_write, SS03_problem_set and SS04_review used as individual editorial stories"
+  ],
+  "excluded": [
+    "Local 3.5-only changes such as manual question editing and customized creation UI",
+    "Recording, transcription and other advanced functions omitted to keep six core study features focused",
+    "Exact prices, free/paid feature scope, AI correctness guarantees"
+  ],
+  "conditions": [
+    {
+      "claim": "AI requires network and available quota",
+      "sources": [
+        "/Users/yuya/Projects/uni_note/App/ProblemAssistUseCase.swift:228",
+        "/Users/yuya/Projects/uni_note/App/ProblemSetGeneration.swift:1813",
+        "content/htu/uni-note.md:260"
+      ]
+    }
+  ],
+  "knownSourceConflicts": [
+    "Existing how-to still describes range movement as premium; public 3.4 release notes say the restriction was removed. This feature/pricing assertion is not copied. Existing Support text remains unchanged."
+  ]
+}

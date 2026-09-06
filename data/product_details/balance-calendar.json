@@ -1,0 +1,341 @@
+{
+  "minimumOS": "iOS 14.0",
+  "locales": {
+    "ja": {
+      "overviewTitle": "その場で残して、日付で振り返る収支記録。",
+      "overview": [
+        "ギャンカレは、プラスとマイナスの金額を手早く残す収支記録アプリです。勝った日も負けた日も、日付と金額を記録して、あとから同じ場所で確認できます。",
+        "入力した収支は日別・月別・年合計で振り返れます。パチンコや競馬などをタグで分けるほか、タグ名を変えて、日々の出費や貯金の記録にも使えます。"
+      ],
+      "features": [
+        {
+          "title": "プラス・マイナスから入力",
+          "description": "収支の向きと金額を入力するシンプルな画面。記録する日付も選べます。"
+        },
+        {
+          "title": "日・月・年の数字を見る",
+          "description": "日付ごとの記録、月ごとの収支、年合計を切り替えて、記録した数字を確認できます。"
+        },
+        {
+          "title": "用途をタグで分ける",
+          "description": "パチンコ・パチスロ・競馬・競艇などのタグで区別。タグ名とアイコンは使い方に合わせて変更できます。"
+        },
+        {
+          "title": "ウィジェットから入力画面へ",
+          "description": "ホーム画面のプラス・マイナスから対応するアプリの入力画面を開き、金額の入力へ進めます。"
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "記録の入口は、大きなふたつのボタン",
+          "description": "プラスかマイナスを選び、金額を入力する構成。日付や選択中のタグが見える画面で、その場の収支を残せます。"
+        },
+        {
+          "image": 1,
+          "title": "一日の記録から、月・年の合計へ",
+          "description": "日別の記録と、月別・年合計を確認する画面。日付をたどりながら、入力してきた収支をまとめて見返せます。"
+        }
+      ],
+      "audienceTitle": "こんなときに",
+      "audience": [
+        {
+          "title": "ギャンブルの収支を残したい",
+          "description": "パチンコや競馬などの収支を、日付とタグを付けて記録したいときに。"
+        },
+        {
+          "title": "日々の出費や貯金を記録したい",
+          "description": "細かな家計簿よりも、必要な金額をプラス・マイナスで残しておきたいときに。"
+        },
+        {
+          "title": "月の終わりに振り返りたい",
+          "description": "記憶で計算せず、記録した日の数字や月ごとの合計を確認したいときに。"
+        }
+      ],
+      "notes": [
+        "収支は自分で入力した金額を集計します。銀行や決済サービスからの自動取得は行いません。",
+        "記録は端末内に保存されます。ウィジェットで金額を登録するときはアプリの入力画面が開きます。"
+      ]
+    },
+    "en": {
+      "overviewTitle": "Record an amount now. Look back by date.",
+      "overview": [
+        "Balance Calendar is a simple way to record positive and negative amounts. Whether a day ends in a gain or a loss, keep the date and amount together so you can check them later.",
+        "Review your entries by day, month, and yearly total. Use tags to separate activities such as gambling, or rename them for everyday spending and savings records."
+      ],
+      "features": [
+        {
+          "title": "Start with plus or minus",
+          "description": "Choose the direction of the entry and enter an amount on a simple screen. You can also select the date."
+        },
+        {
+          "title": "See daily, monthly, and yearly totals",
+          "description": "Switch between dated entries, monthly balances, and a yearly total to review the figures you recorded."
+        },
+        {
+          "title": "Separate activities with tags",
+          "description": "Use tags to distinguish activities such as different kinds of gambling. Change tag names and icons to fit your use."
+        },
+        {
+          "title": "Open entry from a widget",
+          "description": "The Home Screen widget’s plus and minus buttons open the corresponding entry screen in the app, ready for an amount."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "Two large buttons to start a record",
+          "description": "Choose plus or minus, then enter an amount. The recording screen shows the date and selected tag as you log the balance."
+        },
+        {
+          "image": 1,
+          "title": "From a day’s entries to monthly and yearly totals",
+          "description": "The history screens show dated records and monthly or yearly totals. Follow the dates to review the amounts you have entered."
+        }
+      ],
+      "audienceTitle": "When it is useful",
+      "audience": [
+        {
+          "title": "Keeping a gambling record",
+          "description": "Record gains and losses from your activities with a date and tag."
+        },
+        {
+          "title": "Noting spending or savings",
+          "description": "Keep the amounts you need as positive and negative entries without maintaining a detailed household budget."
+        },
+        {
+          "title": "Reviewing a month",
+          "description": "Check recorded daily figures and monthly totals instead of adding them up from memory."
+        }
+      ],
+      "notes": [
+        "Totals use amounts you enter manually. The app does not automatically import bank or payment-service transactions.",
+        "Records are stored on your device. Entering an amount from the widget opens the app’s entry screen."
+      ]
+    },
+    "ko": {
+      "overviewTitle": "그 자리에서 기록하고, 날짜별로 돌아보세요.",
+      "overview": [
+        "Balance Calendar는 플러스와 마이너스 금액을 빠르게 남기는 수지 기록 앱입니다. 이익이 난 날도 손실이 난 날도 날짜와 금액을 함께 기록하고 나중에 확인할 수 있습니다.",
+        "입력한 금액은 일별·월별·연간 합계로 돌아볼 수 있습니다. 파친코나 경마 등을 태그로 구분하거나 태그 이름을 바꾸어 일상 지출과 저축 기록에도 사용할 수 있습니다."
+      ],
+      "features": [
+        {
+          "title": "플러스·마이너스로 시작",
+          "description": "간단한 화면에서 수지의 방향을 고르고 금액을 입력합니다. 기록할 날짜도 선택할 수 있습니다."
+        },
+        {
+          "title": "일·월·연간 금액 확인",
+          "description": "날짜별 기록, 월별 수지, 연간 합계를 전환하며 직접 기록한 금액을 확인할 수 있습니다."
+        },
+        {
+          "title": "태그로 용도 구분",
+          "description": "태그로 활동별 수지를 구분합니다. 태그 이름과 아이콘은 자신의 용도에 맞게 바꿀 수 있습니다."
+        },
+        {
+          "title": "위젯에서 입력 화면으로",
+          "description": "홈 화면 위젯의 플러스·마이너스 버튼으로 앱의 해당 입력 화면을 열고 금액을 입력할 수 있습니다."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "큰 두 개의 버튼에서 시작하는 기록",
+          "description": "플러스 또는 마이너스를 고른 뒤 금액을 입력하는 구성입니다. 날짜와 선택한 태그를 보며 그 자리에서 수지를 남길 수 있습니다."
+        },
+        {
+          "image": 1,
+          "title": "하루 기록부터 월·연간 합계까지",
+          "description": "날짜별 기록과 월별·연간 합계를 확인하는 화면입니다. 날짜를 따라가며 입력해 온 금액을 모아 볼 수 있습니다."
+        }
+      ],
+      "audienceTitle": "이런 때 사용하세요",
+      "audience": [
+        {
+          "title": "도박 수지를 남기고 싶을 때",
+          "description": "파친코나 경마 등의 수지를 날짜 및 태그와 함께 기록하고 싶을 때."
+        },
+        {
+          "title": "일상 지출이나 저축을 기록할 때",
+          "description": "상세한 가계부보다 필요한 금액을 플러스·마이너스로 남기고 싶을 때."
+        },
+        {
+          "title": "한 달을 돌아보고 싶을 때",
+          "description": "기억에 의존하지 않고 기록한 날의 금액과 월별 합계를 확인하고 싶을 때."
+        }
+      ],
+      "notes": [
+        "직접 입력한 금액을 합산합니다. 은행이나 결제 서비스에서 거래 내역을 자동으로 가져오지 않습니다.",
+        "기록은 기기 안에 저장됩니다. 위젯에서 금액을 등록할 때는 앱의 입력 화면이 열립니다."
+      ]
+    },
+    "de": {
+      "overviewTitle": "Jetzt einen Betrag notieren. Später nach Datum nachsehen.",
+      "overview": [
+        "Balance Calendar erfasst positive und negative Beträge auf einfache Weise. Ob ein Tag mit einem Plus oder Minus endet: Datum und Betrag bleiben zusammen und lassen sich später wiederfinden.",
+        "Betrachten Sie die Einträge nach Tagen, Monaten und als Jahressumme. Tags trennen Aktivitäten wie verschiedene Glücksspiele. Mit eigenen Tag-Namen lassen sich auch alltägliche Ausgaben oder Sparbeträge festhalten."
+      ],
+      "features": [
+        {
+          "title": "Mit Plus oder Minus beginnen",
+          "description": "Auf einem einfachen Bildschirm Vorzeichen und Betrag eingeben. Auch das Datum lässt sich auswählen."
+        },
+        {
+          "title": "Tages-, Monats- und Jahreszahlen sehen",
+          "description": "Zwischen datierten Einträgen, Monatssalden und Jahressumme wechseln und die erfassten Beträge prüfen."
+        },
+        {
+          "title": "Aktivitäten mit Tags trennen",
+          "description": "Verschiedene Aktivitäten über Tags unterscheiden. Namen und Symbole lassen sich an die eigene Verwendung anpassen."
+        },
+        {
+          "title": "Die Eingabe über das Widget öffnen",
+          "description": "Plus und Minus im Widget auf dem Home-Bildschirm öffnen die passende Eingabemaske der App für den Betrag."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "Zwei große Tasten als Einstieg",
+          "description": "Plus oder Minus wählen und anschließend den Betrag eingeben. Datum und ausgewählter Tag sind auf dem Erfassungsbildschirm sichtbar."
+        },
+        {
+          "image": 1,
+          "title": "Vom einzelnen Tag zu Monats- und Jahressummen",
+          "description": "Die Verlaufsansichten zeigen datierte Einträge sowie Monats- und Jahressummen. Anhand der Daten lassen sich die erfassten Beträge wieder durchgehen."
+        }
+      ],
+      "audienceTitle": "Für diese Situationen",
+      "audience": [
+        {
+          "title": "Glücksspielergebnisse festhalten",
+          "description": "Gewinne und Verluste einer Aktivität mit Datum und Tag erfassen."
+        },
+        {
+          "title": "Ausgaben oder Sparbeträge notieren",
+          "description": "Benötigte Beträge als Plus und Minus festhalten, ohne ein ausführliches Haushaltsbuch zu führen."
+        },
+        {
+          "title": "Einen Monat nachlesen",
+          "description": "Die aufgezeichneten Tagesbeträge und Monatssummen prüfen, statt aus der Erinnerung zu rechnen."
+        }
+      ],
+      "notes": [
+        "Die Summen beruhen auf manuell eingegebenen Beträgen. Bank- oder Zahlungsdiensttransaktionen werden nicht automatisch importiert.",
+        "Einträge werden auf Ihrem Gerät gespeichert. Die Betragseingabe über das Widget öffnet den Eingabebildschirm der App."
+      ]
+    },
+    "fr": {
+      "overviewTitle": "Noter un montant sur le moment. Le retrouver par date.",
+      "overview": [
+        "Balance Calendar permet d’enregistrer simplement des montants positifs et négatifs. Que la journée se termine par un gain ou une perte, conservez la date et le montant ensemble pour les retrouver plus tard.",
+        "Consultez les écritures par jour, par mois et en total annuel. Les étiquettes distinguent des activités comme les jeux d’argent. Renommez-les pour noter aussi des dépenses courantes ou de l’épargne."
+      ],
+      "features": [
+        {
+          "title": "Commencer par plus ou moins",
+          "description": "Choisissez le sens de l’écriture et saisissez un montant dans un écran simple. Vous pouvez aussi sélectionner la date."
+        },
+        {
+          "title": "Voir les totaux par période",
+          "description": "Passez des écritures datées aux soldes mensuels ou au total annuel pour revoir les montants enregistrés."
+        },
+        {
+          "title": "Distinguer les usages avec des étiquettes",
+          "description": "Séparez vos activités grâce aux étiquettes. Modifiez leurs noms et leurs icônes selon votre utilisation."
+        },
+        {
+          "title": "Ouvrir la saisie depuis un widget",
+          "description": "Les boutons plus et moins du widget de l’écran d’accueil ouvrent l’écran de saisie correspondant dans l’application."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "Deux grands boutons pour commencer",
+          "description": "Choisissez plus ou moins, puis entrez le montant. L’écran de saisie garde la date et l’étiquette sélectionnée visibles pendant l’enregistrement."
+        },
+        {
+          "image": 1,
+          "title": "Des écritures du jour aux totaux mensuels et annuels",
+          "description": "Les vues d’historique présentent les écritures datées et les totaux par mois ou par année. Parcourez les dates pour retrouver les montants saisis."
+        }
+      ],
+      "audienceTitle": "Quand l’utiliser ?",
+      "audience": [
+        {
+          "title": "Conserver un relevé des jeux d’argent",
+          "description": "Noter les gains et les pertes d’une activité avec leur date et leur étiquette."
+        },
+        {
+          "title": "Noter des dépenses ou de l’épargne",
+          "description": "Conserver les montants utiles sous forme de plus et de moins, sans tenir un budget familial détaillé."
+        },
+        {
+          "title": "Revenir sur un mois",
+          "description": "Vérifier les montants quotidiens et les totaux mensuels enregistrés plutôt que de les recalculer de mémoire."
+        }
+      ],
+      "notes": [
+        "Les totaux utilisent les montants saisis manuellement. L’application n’importe pas automatiquement les opérations bancaires ou de services de paiement.",
+        "Les écritures sont enregistrées sur votre appareil. La saisie d’un montant depuis le widget ouvre l’écran correspondant dans l’application."
+      ]
+    },
+    "zh-hant": {
+      "overviewTitle": "當下留下金額，之後依日期回顧。",
+      "overview": [
+        "Balance Calendar 是一款能快速記錄正負金額的收支 App。無論當天有收益或虧損，都能把日期與金額一起記下，日後在同一個地方查看。",
+        "輸入的收支可依每日、每月與年度合計回顧。用標籤區分柏青哥、賽馬等活動，也能修改標籤名稱，記錄日常開銷或存款。"
+      ],
+      "features": [
+        {
+          "title": "從加號、減號開始輸入",
+          "description": "在簡單的畫面選擇收支方向並輸入金額，也能指定記錄的日期。"
+        },
+        {
+          "title": "查看日、月、年度數字",
+          "description": "在每日記錄、每月收支與年度合計之間切換，查看自己記下的金額。"
+        },
+        {
+          "title": "用標籤區分用途",
+          "description": "用標籤區分各種活動的收支，也能依使用方式修改標籤名稱與圖示。"
+        },
+        {
+          "title": "從小工具進入輸入畫面",
+          "description": "主畫面小工具的加號、減號會開啟 App 對應的輸入畫面，接著即可輸入金額。"
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "用兩個大按鈕開始記錄",
+          "description": "先選擇加號或減號，再輸入金額。在能看到日期與所選標籤的畫面，當下留下這筆收支。"
+        },
+        {
+          "image": 1,
+          "title": "從一天的記錄，到月與年度合計",
+          "description": "查看每日記錄、每月與年度合計的畫面。依日期往回找，就能彙整回顧一路輸入的收支。"
+        }
+      ],
+      "audienceTitle": "適合這些時候",
+      "audience": [
+        {
+          "title": "想記錄博彩收支",
+          "description": "想把柏青哥或賽馬等活動的收支，加上日期及標籤留作記錄時。"
+        },
+        {
+          "title": "想記錄日常開銷或存款",
+          "description": "不需要詳盡的家庭帳本，只想用正負金額留下必要記錄時。"
+        },
+        {
+          "title": "想在月底回顧",
+          "description": "不必憑印象重新計算，直接查看記錄的每日金額與每月合計。"
+        }
+      ],
+      "notes": [
+        "合計根據自行輸入的金額計算，不會自動取得銀行或支付服務的交易資料。",
+        "記錄儲存在裝置內。從小工具登錄金額時，會開啟 App 的輸入畫面。"
+      ]
+    }
+  }
+}
