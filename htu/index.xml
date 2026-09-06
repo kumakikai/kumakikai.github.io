@@ -1,10 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>使い方 on KUMAKIKAI</title><link>https://kumakikai.github.io/htu/</link><description>Recent content in 使い方 on KUMAKIKAI</description><generator>Hugo -- 0.154.5</generator><language>ja-JP</language><atom:link href="https://kumakikai.github.io/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使い方 (Nocca)</title><link>https://kumakikai.github.io/htu/nocca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/nocca/</guid><description>Nocca の使い方</description></item><item><title>使い方 (SIGNAL)</title><link>https://kumakikai.github.io/htu/signal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/signal/</guid><description>&lt;p&gt;SIGNALは、表示したい配信源を選びながら、&lt;code&gt;CREATORS&lt;/code&gt; / &lt;code&gt;TODAY&lt;/code&gt; / &lt;code&gt;NEWS&lt;/code&gt; の3タブで記事を追うニュースフィードアプリです。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使い方 on KUMAKIKAI</title><link>https://kumakikai.github.io/htu/</link><description>Recent content in 使い方 on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><atom:link href="https://kumakikai.github.io/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使い方 (Nocca)</title><link>https://kumakikai.github.io/htu/nocca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/nocca/</guid><description>&lt;p&gt;Nocca は、必要なときだけ静かにつながるための家族通信アプリです。&lt;/p&gt;
+&lt;p&gt;現在開発中のため、以下はプロトタイプ 0.0.1 の UI に基づく案内です。正式公開時に、一部の画面や動作が変更される場合があります。&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 id="1-最初に役割を選ぶ"&gt;1. 最初に役割を選ぶ&lt;/h2&gt;
+&lt;p&gt;初回起動時に、端末をどちらとして使うか選びます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;本人として使う&lt;/code&gt;: 家族との通信や接続を管理します。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;家族として使う&lt;/code&gt;: 本人からの通知を受け取れます。本人が承認すると接続できます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この画面から &lt;code&gt;このアプリについて&lt;/code&gt; も確認できます。&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 id="2-本人として使う"&gt;2. 本人として使う&lt;/h2&gt;
+&lt;p&gt;本人側には、下部に &lt;code&gt;意思表示&lt;/code&gt; / &lt;code&gt;会話&lt;/code&gt; / &lt;code&gt;つながり&lt;/code&gt; / &lt;code&gt;設定&lt;/code&gt; のタブがあります。&lt;/p&gt;
+
+&lt;h3 id="意思表示"&gt;意思表示&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;意思表示&lt;/code&gt; では、文章を書かずにワンタップで家族へ必要なことを送れます。&lt;/p&gt;
+&lt;p&gt;初期状態では、次のようなカテゴリの意思表示が用意されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;食事: &lt;code&gt;ご飯ほしい&lt;/code&gt;、&lt;code&gt;飲み物ほしい&lt;/code&gt;、&lt;code&gt;片付けお願い&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;生活: &lt;code&gt;お風呂入る&lt;/code&gt;、&lt;code&gt;洗濯お願い&lt;/code&gt;、&lt;code&gt;着替えほしい&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;体調・気分: &lt;code&gt;今は話せない&lt;/code&gt;、&lt;code&gt;少ししんどい&lt;/code&gt;、&lt;code&gt;休みたい&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;その他: &lt;code&gt;少し話せる&lt;/code&gt;、&lt;code&gt;ありがとう&lt;/code&gt;、&lt;code&gt;確認してほしい&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;右上の &lt;code&gt;+&lt;/code&gt; から、家族に伝える言葉とアイコンを追加できます。カードを長押しすると、編集、並び替え、削除を選べます。&lt;/p&gt;
+&lt;p&gt;通信を休止している間は、意思表示を送れません。送るには通信を再開してください。&lt;/p&gt;
+
+&lt;h3 id="会話"&gt;会話&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;会話&lt;/code&gt; は、必要なときだけ一時的に開く短い会話です。&lt;/p&gt;
+&lt;p&gt;閉じているときは入力欄を表示せず、&lt;code&gt;今だけ話す&lt;/code&gt; から本人側が会話を開きます。会話中は短いメッセージを送れ、本人側からいつでも閉じられます。&lt;/p&gt;
+&lt;p&gt;家族から会話リクエストが届いた場合は、本人側に &lt;code&gt;家族が少し話したいようです&lt;/code&gt; と表示されます。&lt;code&gt;今だけ話す&lt;/code&gt; または &lt;code&gt;今は閉じたまま&lt;/code&gt; を選べます。&lt;/p&gt;
+
+&lt;h3 id="つながり"&gt;つながり&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;つながり&lt;/code&gt; では、接続中の家族、通信の状態、会話の状態、最近送った意思表示の最新 1 件だけを確認できます。&lt;/p&gt;
+&lt;p&gt;履歴一覧、既読、未読、返信待ち、最終ログイン、入力中表示はありません。&lt;/p&gt;
+
+&lt;h3 id="設定"&gt;設定&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;設定&lt;/code&gt; では、主に次の項目を管理できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ミュート設定&lt;/li&gt;
+&lt;li&gt;会話リクエスト&lt;/li&gt;
+&lt;li&gt;返信テンプレート&lt;/li&gt;
+&lt;li&gt;家族を招待&lt;/li&gt;
+&lt;li&gt;家族の管理&lt;/li&gt;
+&lt;li&gt;通信を休止する / 通信を再開する&lt;/li&gt;
+&lt;li&gt;アプリについて&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h2 id="3-家族を招待する"&gt;3. 家族を招待する&lt;/h2&gt;
+&lt;p&gt;本人側の &lt;code&gt;設定 &amp;gt; 家族を招待&lt;/code&gt; から、招待コードまたは招待リンクを共有できます。&lt;/p&gt;</description></item><item><title>使い方 (SIGNAL)</title><link>https://kumakikai.github.io/htu/signal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/signal/</guid><description>&lt;p&gt;SIGNALは、表示したい配信源を選びながら、&lt;code&gt;CREATORS&lt;/code&gt; / &lt;code&gt;TODAY&lt;/code&gt; / &lt;code&gt;NEWS&lt;/code&gt; の3タブで記事を追うニュースフィードアプリです。&lt;/p&gt;
 &lt;p&gt;ログインなしで使え、&lt;code&gt;GOOD&lt;/code&gt; / &lt;code&gt;BAD&lt;/code&gt; や記事の閲覧傾向をもとに、表示順が端末内で少しずつ調整されます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="1-初回はチュートリアルを見る"&gt;1. 初回はチュートリアルを見る&lt;/h2&gt;
 &lt;p&gt;初回起動時はチュートリアルが表示されます。
 迷ったときは &lt;code&gt;設定&lt;/code&gt; の &lt;code&gt;チュートリアルを見る&lt;/code&gt; からいつでも開き直せます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="2-まずは-today-を見る"&gt;2. まずは &lt;code&gt;TODAY&lt;/code&gt; を見る&lt;/h2&gt;
 &lt;p&gt;中央の &lt;code&gt;TODAY&lt;/code&gt; タブが起点です。
 有効にしている配信源の記事がまとめて表示されます。&lt;/p&gt;
@@ -14,6 +67,7 @@
 &lt;li&gt;記事カードの &lt;code&gt;GOOD&lt;/code&gt; / &lt;code&gt;BAD&lt;/code&gt; で表示傾向の調整に使うフィードバックを残せます&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+
 &lt;h2 id="3-creators-と-news-を使い分ける"&gt;3. &lt;code&gt;CREATORS&lt;/code&gt; と &lt;code&gt;NEWS&lt;/code&gt; を使い分ける&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;CREATORS&lt;/code&gt; では &lt;code&gt;note&lt;/code&gt; / &lt;code&gt;Zenn&lt;/code&gt; / &lt;code&gt;Qiita&lt;/code&gt; / &lt;code&gt;Hatena&lt;/code&gt; / &lt;code&gt;DevelopersIO&lt;/code&gt; を確認できます&lt;/li&gt;
@@ -21,6 +75,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;TODAY&lt;/code&gt; でまとめて見る使い方も、棚ごとに見る使い方もできます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="4-記事を開く"&gt;4. 記事を開く&lt;/h2&gt;
 &lt;p&gt;記事カードをタップすると、通常はアプリ内ブラウザで記事を開けます。&lt;/p&gt;
 &lt;p&gt;アプリ内ブラウザでは、次の操作に対応しています。&lt;/p&gt;
@@ -30,8 +85,45 @@
 &lt;li&gt;外部ブラウザで開く&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+
 &lt;h2 id="5-設定-を調整する"&gt;5. &lt;code&gt;設定&lt;/code&gt; を調整する&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;設定&lt;/code&gt; では主に以下を変更できます。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note Pocket)</title><link>https://kumakikai.github.io/htu/uni-note-pocket/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/uni-note-pocket/</guid><description>Uni:Note Pocketの使い方</description></item><item><title>使い方 (Uni:Note)</title><link>https://kumakikai.github.io/htu/uni-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/uni-note/</guid><description>&lt;p&gt;Uni:Note（大学ノート）は、&lt;strong&gt;Apple Pencilで手書きするための iPad ノートアプリ&lt;/strong&gt;です。&lt;br&gt;
+&lt;p&gt;&lt;code&gt;設定&lt;/code&gt; では主に以下を変更できます。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note Pocket)</title><link>https://kumakikai.github.io/htu/uni-note-pocket/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/uni-note-pocket/</guid><description>&lt;p&gt;Uni:Note Pocket は、&lt;strong&gt;Uni:Note のバックアップを iPhone で見返すための補助アプリ&lt;/strong&gt;です。&lt;br&gt;
+書くためのアプリではなく、バックアップデータを取り込み、ノートや &lt;code&gt;問題集&lt;/code&gt; の閲覧と録音データの再生に絞っています。&lt;/p&gt;
+&lt;p&gt;前提:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhone専用&lt;/li&gt;
+&lt;li&gt;Uni:Note で作成したバックアップ zip、またはこの iPhone にある &lt;code&gt;かんたんバックアップ&lt;/code&gt; が必要&lt;/li&gt;
+&lt;li&gt;編集や同期ではなく、閲覧 / 復習が中心&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h2 id="1-初回案内を確認する"&gt;1. 初回案内を確認する&lt;/h2&gt;
+&lt;p&gt;初回表示では &lt;strong&gt;Uni:Note Pocket について&lt;/strong&gt; が表示されます。&lt;br&gt;
+ここで、Uni:Note Pocket が Uni:Note の補助アプリであり、使用には Uni:Note のバックアップが必要なことが案内されます。&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 id="2-ホーム画面右下の読み込みアイコンからバックアップを選ぶ"&gt;2. ホーム画面右下の読み込みアイコンからバックアップを選ぶ&lt;/h2&gt;
+&lt;p&gt;ホーム画面右下の &lt;strong&gt;読み込みアイコン&lt;/strong&gt; から、Uni:Note のバックアップ zip を選択します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;zip を選ぶ&lt;/li&gt;
+&lt;li&gt;アプリが内容を検証する&lt;/li&gt;
+&lt;li&gt;問題がなければ読込完了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h2 id="3-かんたんバックアップ-を使う"&gt;3. &lt;code&gt;かんたんバックアップ&lt;/code&gt; を使う&lt;/h2&gt;
+&lt;p&gt;この iPhone に Uni:Note の &lt;strong&gt;かんたんバックアップ&lt;/strong&gt; が見つかった場合は、起動時にそのまま読み込むか確認できます。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;設定 &amp;gt; かんたんバックアップ&lt;/code&gt; では、以下を確認できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;最終更新&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;起動時に自動読込&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;手動で読み込む&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;起動時に自動読込&lt;/strong&gt; をオンにすると、使える &lt;strong&gt;かんたんバックアップ&lt;/strong&gt; がある時だけ、起動時に自動で読み込みます。&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 id="4-ホームで-ノート-と-問題集-を切り替える"&gt;4. ホームで &lt;code&gt;ノート&lt;/code&gt; と &lt;code&gt;問題集&lt;/code&gt; を切り替える&lt;/h2&gt;
+&lt;p&gt;読込後は、ホーム画面で次の情報を確認できます。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note)</title><link>https://kumakikai.github.io/htu/uni-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/uni-note/</guid><description>&lt;p&gt;Uni:Note（大学ノート）は、&lt;strong&gt;Apple Pencilで手書きするための iPad ノートアプリ&lt;/strong&gt;です。&lt;br&gt;
 教科ごとに分けて、ノートごとに整理しながら使えます。&lt;/p&gt;
 &lt;p&gt;対応環境:&lt;/p&gt;
 &lt;ul&gt;
@@ -41,6 +133,7 @@
 &lt;li&gt;言語は &lt;code&gt;日本語 / English / 한국어 / Deutsch / 繁體中文 / Français&lt;/code&gt; に対応しています&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+
 &lt;h2 id="split-view--slide-over--2ペインで使う"&gt;&lt;code&gt;Split View&lt;/code&gt; / &lt;code&gt;Slide Over&lt;/code&gt; / 2ペインで使う&lt;/h2&gt;
 &lt;p&gt;Uni:Note は iPad のマルチウィンドウ表示に対応しています。&lt;/p&gt;
 &lt;ul&gt;
@@ -52,10 +145,141 @@
 2つ目のウインドウを開いた後は、左右に並べれば 2ペインの &lt;code&gt;Split View&lt;/code&gt;、重ねれば &lt;code&gt;Slide Over&lt;/code&gt; として使えます。&lt;/p&gt;
 &lt;p&gt;操作名や見た目は、iPadOS のバージョンによって少し異なる場合があります。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="1-ホームで教科とフォルダを整理する"&gt;1. ホームで教科とフォルダを整理する&lt;/h2&gt;
-&lt;p&gt;ホーム右下の &lt;strong&gt;＋&lt;/strong&gt; から新しい教科を作成します。&lt;/p&gt;</description></item><item><title>使い方 (オトミル)</title><link>https://kumakikai.github.io/htu/oto-miru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/oto-miru/</guid><description>オトミルの使い方</description></item><item><title>使い方 (ギガポケ)</title><link>https://kumakikai.github.io/htu/giga-poke/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/giga-poke/</guid><description>ギガポケの使い方</description></item><item><title>使い方 (ギャンカレ)</title><link>https://kumakikai.github.io/htu/balance-calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/balance-calendar/</guid><description>&lt;p&gt;ギャンカレは、&lt;code&gt;収入&lt;/code&gt; / &lt;code&gt;支出&lt;/code&gt; を短い操作で記録し、あとから &lt;code&gt;日別&lt;/code&gt; / &lt;code&gt;月別&lt;/code&gt; / &lt;code&gt;カテゴリ別&lt;/code&gt; で振り返るためのアプリです。&lt;/p&gt;
+&lt;p&gt;ホーム右下の &lt;strong&gt;＋&lt;/strong&gt; から新しい教科を作成します。&lt;/p&gt;</description></item><item><title>使い方 (オトミル)</title><link>https://kumakikai.github.io/htu/oto-miru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/oto-miru/</guid><description>&lt;p&gt;オトミルは、テレビや身近な会話の音声を iPhone / iPad のマイクで読み取り、大きな字幕として表示するアプリです。&lt;/p&gt;
+&lt;p&gt;字幕はその場で読むための機能です。音声、字幕本文、会話内容、テレビ内容、映画内容は保存しません。&lt;/p&gt;
+
+&lt;h2 id="1-利用前に確認すること"&gt;1. 利用前に確認すること&lt;/h2&gt;
+&lt;p&gt;オトミルを使うには、対応端末とマイク権限が必要です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iOS 26.0 / iPadOS 26.0 以上&lt;/li&gt;
+&lt;li&gt;Apple Speech の高精度な音声認識が利用できる端末&lt;/li&gt;
+&lt;li&gt;Apple Intelligence / Foundation Models が利用できる端末&lt;/li&gt;
+&lt;li&gt;日本語音声認識が利用できる状態&lt;/li&gt;
+&lt;li&gt;マイクの使用許可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Apple Intelligence が無効、モデル準備中、端末非対応の場合は、アプリ内に案内が表示されます。案内に従って設定を確認してください。&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 id="2-表示モードを選ぶ"&gt;2. 表示モードを選ぶ&lt;/h2&gt;
+&lt;p&gt;オトミルには、使う人に合わせた 2 つの表示があります。&lt;/p&gt;
+
+&lt;h3 id="シンプルモード高齢者"&gt;シンプルモード（高齢者）&lt;/h3&gt;
+&lt;p&gt;大きなボタンから直接字幕を始める表示です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;テレビ&lt;/li&gt;
+&lt;li&gt;会話&lt;/li&gt;
+&lt;li&gt;グループ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;細かい設定を減らし、大きい文字と大きい操作で使いやすくしています。&lt;/p&gt;
+
+&lt;h3 id="通常モード"&gt;通常モード&lt;/h3&gt;
+&lt;p&gt;モード切り替えと設定を使いながら利用する表示です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;テレビ&lt;/li&gt;
+&lt;li&gt;会話&lt;/li&gt;
+&lt;li&gt;グループ&lt;/li&gt;
+&lt;li&gt;映画&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;設定 &amp;gt; 表示 &amp;gt; シンプルモード（高齢者）&lt;/code&gt; で切り替えできます。&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 id="3-字幕をはじめる"&gt;3. 字幕をはじめる&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;アプリを開きます。&lt;/li&gt;
+&lt;li&gt;用途に合うモードを選びます。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;字幕をはじめる&lt;/code&gt;、またはシンプルモードの用途ボタンを押します。&lt;/li&gt;
+&lt;li&gt;初回はマイクの使用を許可します。&lt;/li&gt;
+&lt;li&gt;画面に出るマイク案内に従い、端末下側のマイクを音の出る方へ向けます。&lt;/li&gt;
+&lt;li&gt;音声が入ると字幕が表示されます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;字幕を終了するときは &lt;code&gt;字幕を止める&lt;/code&gt; を押します。&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 id="4-テレビで使う"&gt;4. テレビで使う&lt;/h2&gt;
+&lt;p&gt;テレビの音声が聞き取りづらいときに使います。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;テレビ&lt;/code&gt; を選びます。&lt;/li&gt;
+&lt;li&gt;iPhone / iPad をテレビやスピーカーの近くに置きます。&lt;/li&gt;
+&lt;li&gt;端末下側のマイクを音の出る方へ向けます。&lt;/li&gt;
+&lt;li&gt;字幕を開始します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;テレビモードでは、横画面でも大きな字幕を読みやすく表示します。話者が変わった場合は、&lt;code&gt;話者1&lt;/code&gt;、&lt;code&gt;話者2&lt;/code&gt;、&lt;code&gt;ナレーション&lt;/code&gt; などのラベルで区切りが分かるように表示する場合があります。&lt;/p&gt;</description></item><item><title>使い方 (ギガポケ)</title><link>https://kumakikai.github.io/htu/giga-poke/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/giga-poke/</guid><description>&lt;p&gt;ギガポケは、povo 2.0から届いたギガコードと外部特典を、期限の近い順に管理するiPhone向けアプリです。&lt;/p&gt;
+
+&lt;h2 id="1-特典を登録する"&gt;1. 特典を登録する&lt;/h2&gt;
+&lt;p&gt;登録方法は3つあります。どの方法でも、保存前に特典内容、コードまたはURL、期限などの解析結果を確認・修正できます。&lt;/p&gt;
+
+&lt;h3 id="メールから共有する"&gt;メールから共有する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;povo 2.0から届いたメールを開きます。&lt;/li&gt;
+&lt;li&gt;特典名とコードまたは受取URLを含む範囲を選択します。ギガコードは入力期限または有効期限も含めてください。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;共有&lt;/code&gt;を開き、上段の&lt;code&gt;ギガポケ&lt;/code&gt;、または下段の&lt;code&gt;ギガポケにコードを登録&lt;/code&gt;を選びます。&lt;/li&gt;
+&lt;li&gt;特典ごとの内容を確認し、登録します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;共有シートの表示位置や並び順は、iOSとユーザーの設定により異なります。&lt;/p&gt;
+
+&lt;h3 id="コピーペーストする"&gt;コピー＆ペーストする&lt;/h3&gt;
+&lt;p&gt;メールの同じ範囲をコピーし、ギガポケのホームで&lt;code&gt;ペーストして追加&lt;/code&gt;を押します。共有から登録する場合と同じ確認画面が開きます。&lt;/p&gt;
+
+&lt;h3 id="手動で入力する"&gt;手動で入力する&lt;/h3&gt;
+&lt;p&gt;ホーム右上の&lt;code&gt;＋&lt;/code&gt;を押し、1件ずつ入力します。&lt;/p&gt;
+
+&lt;h3 id="登録に必要な情報"&gt;登録に必要な情報&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ギガコード: 特典内容、コード、入力期限または有効期限&lt;/li&gt;
+&lt;li&gt;外部特典: 特典内容、コードまたは受取URL。期限は任意&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不足している情報をメール受信日などから推測したり、外部サイトを開いて期限を調べたりはしません。複数の特典をまとめて共有した場合は、必要な情報が揃った特典だけを登録できます。&lt;/p&gt;
+
+&lt;h2 id="2-期限の近い特典を確認する"&gt;2. 期限の近い特典を確認する&lt;/h2&gt;
+&lt;p&gt;ホームでは、未使用の特典を次の順に表示します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ギガコード&lt;/li&gt;
+&lt;li&gt;外部特典&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;各カテゴリの中では期限の近い順です。期限が書かれていない外部特典は、期限のある特典の後に&lt;code&gt;期限情報なし&lt;/code&gt;として表示されます。&lt;/p&gt;
+&lt;p&gt;期限日の当日までは有効として表示され、翌日以降にアプリを起動または再表示するとゴミ箱へ整理されます。&lt;/p&gt;
+
+&lt;h2 id="3-特典を使う"&gt;3. 特典を使う&lt;/h2&gt;
+&lt;p&gt;一覧右側のボタンは、実際の動作に合わせて表示が変わります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ギガコード: 設定がONなら&lt;code&gt;povo 2.0&lt;/code&gt;、OFFなら&lt;code&gt;コピー&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;コード形式の外部特典: &lt;code&gt;コピー&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;受取URL形式の外部特典: &lt;code&gt;開く&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ギガコードは、まず端末内のクリップボードへコピーされます。&lt;code&gt;使用時にpovo 2.0を開く&lt;/code&gt;がONの場合は、続けてpovo 2.0アプリの通常起動を試みます。コード入力画面への直接移動や自動入力は行わないため、povo 2.0アプリ内でコードを貼り付けてください。&lt;/p&gt;
+&lt;p&gt;外部特典の&lt;code&gt;開く&lt;/code&gt;は、登録したURLをOSの標準機能で開きます。リンク先での引換完了をギガポケが確認することはありません。&lt;/p&gt;
+
+&lt;h2 id="4-ゴミ箱を管理する"&gt;4. ゴミ箱を管理する&lt;/h2&gt;
+&lt;p&gt;初期設定では、&lt;code&gt;povo 2.0&lt;/code&gt;、&lt;code&gt;コピー&lt;/code&gt;、&lt;code&gt;開く&lt;/code&gt;の操作が成立した特典を自動でゴミ箱へ移します。この設定は&lt;code&gt;設定 &amp;gt; 使用時に自動でゴミ箱へ移動&lt;/code&gt;から変更できます。&lt;/p&gt;
+&lt;p&gt;ゴミ箱では次の操作ができます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特典を未使用へ戻す&lt;/li&gt;
+&lt;li&gt;確認後に1件ずつ完全に削除する&lt;/li&gt;
+&lt;li&gt;確認後にゴミ箱を空にする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;ゴミ箱の特典を自動削除&lt;/code&gt;では、&lt;code&gt;自動削除しない&lt;/code&gt;、&lt;code&gt;2週間後&lt;/code&gt;、&lt;code&gt;30日後&lt;/code&gt;、&lt;code&gt;60日後&lt;/code&gt;から選べます。初期設定は&lt;code&gt;自動削除しない&lt;/code&gt;です。&lt;/p&gt;
+
+&lt;h2 id="5-期限通知を設定する"&gt;5. 期限通知を設定する&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;設定 &amp;gt; 通知タイミング&lt;/code&gt;で、次のタイミングを複数選べます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1ヶ月前&lt;/li&gt;
+&lt;li&gt;2週間前&lt;/li&gt;
+&lt;li&gt;1週間前&lt;/li&gt;
+&lt;li&gt;3日前&lt;/li&gt;
+&lt;li&gt;2日前&lt;/li&gt;
+&lt;li&gt;1日前&lt;/li&gt;
+&lt;li&gt;当日&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;通知は選んだ日の午前9時に届くよう、iPhone内だけで予約されます。&lt;code&gt;通知しない&lt;/code&gt;は単独の選択肢です。通知にはコードやクーポンURLを表示しません。&lt;/p&gt;
+&lt;p&gt;通知を使わない場合や通知権限を許可しない場合でも、登録、一覧、Widget、コピー、URLを開く操作は利用できます。&lt;/p&gt;
+
+&lt;h2 id="6-widgetを追加する"&gt;6. Widgetを追加する&lt;/h2&gt;
+&lt;p&gt;iPhoneのホーム画面を長押しし、Widgetの追加画面から&lt;code&gt;ギガポケ&lt;/code&gt;を選びます。&lt;/p&gt;</description></item><item><title>使い方 (ギャンカレ)</title><link>https://kumakikai.github.io/htu/balance-calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/balance-calendar/</guid><description>&lt;p&gt;ギャンカレは、&lt;code&gt;収入&lt;/code&gt; / &lt;code&gt;支出&lt;/code&gt; を短い操作で記録し、あとから &lt;code&gt;日別&lt;/code&gt; / &lt;code&gt;月別&lt;/code&gt; / &lt;code&gt;カテゴリ別&lt;/code&gt; で振り返るためのアプリです。&lt;/p&gt;
 &lt;p&gt;ギャンブル収支だけでなく、家計簿、推し活貯金、おこづかい帳などにも使えます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="1-最初に用途に合うタグを選ぶ"&gt;1. 最初に用途に合うタグを選ぶ&lt;/h2&gt;
 &lt;p&gt;初回起動時は、用途に合わせた初期タグを選べます。&lt;/p&gt;
 &lt;ul&gt;
@@ -66,6 +290,7 @@
 &lt;/ul&gt;
 &lt;p&gt;タグ名やアイコンはあとから &lt;code&gt;設定 &amp;gt; タグ&lt;/code&gt; で変更できます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="2-登録-画面で収入--支出を記録する"&gt;2. &lt;code&gt;登録&lt;/code&gt; 画面で収入 / 支出を記録する&lt;/h2&gt;
 &lt;p&gt;中央の &lt;code&gt;登録&lt;/code&gt; 画面では、&lt;code&gt;+ 収入&lt;/code&gt; と &lt;code&gt;− 支出&lt;/code&gt; から金額を入力します。&lt;/p&gt;
 &lt;ul&gt;
@@ -76,6 +301,7 @@
 &lt;/ul&gt;
 &lt;p&gt;画面上部では、その日の合計と前月比も確認できます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="3-履歴-を見直して削除や取消しをする"&gt;3. &lt;code&gt;履歴&lt;/code&gt; を見直して削除や取消しをする&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;履歴&lt;/code&gt; から、その日の記録一覧を確認できます。&lt;/p&gt;
 &lt;ul&gt;
@@ -83,6 +309,7 @@
 &lt;li&gt;削除直後は &lt;code&gt;取消し&lt;/code&gt; で元に戻せます&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+
 &lt;h2 id="4-収支-画面で振り返る"&gt;4. &lt;code&gt;収支&lt;/code&gt; 画面で振り返る&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;収支&lt;/code&gt; 画面では、次の3つの見方で振り返れます。&lt;/p&gt;
 &lt;ul&gt;
@@ -93,10 +320,12 @@
 &lt;p&gt;&lt;code&gt;空日表示&lt;/code&gt; を切り替えながら見返せます。
 各行を開くと詳細も確認できます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="5-ホームウィジェットを使う"&gt;5. ホームウィジェットを使う&lt;/h2&gt;
 &lt;p&gt;ホームウィジェットを追加すると、ホーム画面からすぐ &lt;code&gt;収入&lt;/code&gt; / &lt;code&gt;支出&lt;/code&gt; を記録できます。&lt;/p&gt;</description></item><item><title>使い方 (すわなび)</title><link>https://kumakikai.github.io/htu/smokeless/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/htu/smokeless/</guid><description>&lt;p&gt;すわなびは、&lt;code&gt;喫煙&lt;/code&gt; と &lt;code&gt;我慢&lt;/code&gt; をすばやく記録し、あとから数字で振り返るためのアプリです。&lt;/p&gt;
 &lt;p&gt;禁煙補助として使うことも、今の喫煙状況を把握するための記録アプリとして使うこともできます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="1-初回チュートリアルと本数設定を確認する"&gt;1. 初回チュートリアルと本数設定を確認する&lt;/h2&gt;
 &lt;p&gt;初回起動時はチュートリアルのあとに、以下を設定します。&lt;/p&gt;
 &lt;ul&gt;
@@ -105,6 +334,7 @@
 &lt;/ul&gt;
 &lt;p&gt;この設定をしておくと、喫煙本数や我慢回数を金額換算で確認できます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="2-記録-画面で喫煙--我慢を記録する"&gt;2. &lt;code&gt;記録&lt;/code&gt; 画面で喫煙 / 我慢を記録する&lt;/h2&gt;
 &lt;p&gt;中央の &lt;code&gt;記録&lt;/code&gt; 画面では、緑の &lt;code&gt;我慢&lt;/code&gt; と赤の &lt;code&gt;喫煙&lt;/code&gt; を1タップで記録できます。&lt;/p&gt;
 &lt;ul&gt;
@@ -114,6 +344,7 @@
 &lt;li&gt;画面上部では当日の件数、金額換算、前回記録からの経過時間を確認できます&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+
 &lt;h2 id="3-履歴-から当日の記録を見直す"&gt;3. &lt;code&gt;履歴&lt;/code&gt; から当日の記録を見直す&lt;/h2&gt;
 &lt;p&gt;右上の &lt;code&gt;履歴&lt;/code&gt; から、その日の記録一覧を確認できます。&lt;/p&gt;
 &lt;ul&gt;
@@ -121,6 +352,7 @@
 &lt;li&gt;削除直後は &lt;code&gt;取消し&lt;/code&gt; で元に戻せます&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+
 &lt;h2 id="4-カレンダー-で日別--月別--年別に振り返る"&gt;4. &lt;code&gt;カレンダー&lt;/code&gt; で日別 / 月別 / 年別に振り返る&lt;/h2&gt;
 &lt;p&gt;左下の &lt;code&gt;カレンダー&lt;/code&gt; では、記録を次の単位で確認できます。&lt;/p&gt;
 &lt;ul&gt;
@@ -130,6 +362,7 @@
 &lt;/ul&gt;
 &lt;p&gt;各期間の件数や金額換算を、数字中心で見返せます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="5-グラフ-で最近の変化を見る"&gt;5. &lt;code&gt;グラフ&lt;/code&gt; で最近の変化を見る&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;グラフ&lt;/code&gt; では、以下の期間で推移を確認できます。&lt;/p&gt;
 &lt;ul&gt;
@@ -139,6 +372,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;喫煙&lt;/code&gt;、&lt;code&gt;我慢&lt;/code&gt;、喫煙平均を見ながら最近の変化を確認できます。&lt;/p&gt;
 &lt;hr&gt;
+
 &lt;h2 id="6-ホームウィジェットを使う"&gt;6. ホームウィジェットを使う&lt;/h2&gt;
 &lt;p&gt;ホームウィジェットを追加すると、当日の &lt;code&gt;喫煙&lt;/code&gt; / &lt;code&gt;我慢&lt;/code&gt; 件数をホーム画面から確認できます。&lt;/p&gt;
 &lt;p&gt;ウィジェットからそのまま記録することもできます。&lt;/p&gt;</description></item></channel></rss>
