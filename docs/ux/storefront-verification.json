@@ -1,0 +1,639 @@
+{
+  "checkedAt": "2026-09-07",
+  "checkedAtTimestamp": "2026-09-07T01:27:43+09:00",
+  "coverage": "partial",
+  "sampledStorefronts": [
+    "jp",
+    "us",
+    "tw",
+    "fr",
+    "kr",
+    "de"
+  ],
+  "selectionReason": "Previously verified sample jp/us/tw/fr/kr plus de. Display language is independent from App Store storefront; this is not a complete worldwide distribution inventory.",
+  "urlPolicy": "Only exact trackViewUrl strings returned by the Apple public Lookup API are candidates; no country-code URL substitution.",
+  "apps": {
+    "uni-note": {
+      "appleID": "6760258084",
+      "verifiedStorefronts": [
+        "jp",
+        "us",
+        "tw",
+        "fr",
+        "kr",
+        "de"
+      ],
+      "storefrontURLs": {
+        "jp": "https://apps.apple.com/jp/app/uni-note-%E6%9B%B8%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6-%E5%BA%83%E5%91%8A%E7%84%A1%E3%81%97%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%83%8E%E3%83%BC%E3%83%88/id6760258084?uo=4",
+        "us": "https://apps.apple.com/us/app/uni-note-study-notes/id6760258084?uo=4",
+        "tw": "https://apps.apple.com/tw/app/uni-note-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/id6760258084?uo=4",
+        "fr": "https://apps.apple.com/fr/app/uni-note-notes-de-r%C3%A9vision/id6760258084?uo=4",
+        "kr": "https://apps.apple.com/kr/app/uni-note-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8/id6760258084?uo=4",
+        "de": "https://apps.apple.com/de/app/uni-note-lernnotizen/id6760258084?uo=4"
+      },
+      "checkedAt": "2026-09-07",
+      "coverage": "partial",
+      "metadataByStorefront": {
+        "jp": {
+          "trackId": 6760258084,
+          "trackName": "Uni:Note - 書いて学ぶ。広告無しの大学ノート",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "JPY",
+          "formattedPrice": "無料"
+        },
+        "us": {
+          "trackId": 6760258084,
+          "trackName": "Uni:Note – Study Notes",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "USD",
+          "formattedPrice": "Free"
+        },
+        "tw": {
+          "trackId": 6760258084,
+          "trackName": "Uni:Note – 學習筆記",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "TWD",
+          "formattedPrice": "免費"
+        },
+        "fr": {
+          "trackId": 6760258084,
+          "trackName": "Uni:Note – Notes de révision",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "EUR",
+          "formattedPrice": "Gratuit"
+        },
+        "kr": {
+          "trackId": 6760258084,
+          "trackName": "Uni:Note – 공부 노트",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "KRW",
+          "formattedPrice": "무료"
+        },
+        "de": {
+          "trackId": 6760258084,
+          "trackName": "Uni:Note – Lernnotizen",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "EUR",
+          "formattedPrice": "Gratis"
+        }
+      }
+    },
+    "oto-miru": {
+      "appleID": "6770774613",
+      "verifiedStorefronts": [
+        "jp"
+      ],
+      "storefrontURLs": {
+        "jp": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB-%E8%81%9E%E3%81%93%E3%81%88%E3%82%92%E5%AD%97%E5%B9%95%E3%81%A7%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/id6770774613?uo=4"
+      },
+      "checkedAt": "2026-09-07",
+      "coverage": "partial",
+      "metadataByStorefront": {
+        "jp": {
+          "trackId": 6770774613,
+          "trackName": "オトミル - 聞こえを字幕でサポート",
+          "version": "1.0.1",
+          "price": 0.0,
+          "currency": "JPY",
+          "formattedPrice": "無料"
+        }
+      }
+    },
+    "giga-poke": {
+      "appleID": "6807501268",
+      "verifiedStorefronts": [
+        "jp"
+      ],
+      "storefrontURLs": {
+        "jp": "https://apps.apple.com/jp/app/%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1-povo%E7%89%B9%E5%85%B8%E3%82%B3%E3%83%BC%E3%83%89%E7%AE%A1%E7%90%86/id6807501268?uo=4"
+      },
+      "checkedAt": "2026-09-07",
+      "coverage": "partial",
+      "metadataByStorefront": {
+        "jp": {
+          "trackId": 6807501268,
+          "trackName": "ギガポケ - povo特典コード管理",
+          "version": "0.1.0",
+          "price": 0.0,
+          "currency": "JPY",
+          "formattedPrice": "無料"
+        }
+      }
+    },
+    "nocca": {
+      "appleID": "6809145321",
+      "verifiedStorefronts": [],
+      "storefrontURLs": {},
+      "checkedAt": "2026-09-07",
+      "coverage": "unreleased",
+      "metadataByStorefront": {}
+    },
+    "uni-note-pocket": {
+      "appleID": "6761449487",
+      "verifiedStorefronts": [
+        "jp",
+        "us",
+        "tw",
+        "fr",
+        "kr",
+        "de"
+      ],
+      "storefrontURLs": {
+        "jp": "https://apps.apple.com/jp/app/uni-note-pocket/id6761449487?uo=4",
+        "us": "https://apps.apple.com/us/app/uni-note-pocket/id6761449487?uo=4",
+        "tw": "https://apps.apple.com/tw/app/uni-note-pocket/id6761449487?uo=4",
+        "fr": "https://apps.apple.com/fr/app/uni-note-pocket/id6761449487?uo=4",
+        "kr": "https://apps.apple.com/kr/app/uni-note-pocket/id6761449487?uo=4",
+        "de": "https://apps.apple.com/de/app/uni-note-pocket/id6761449487?uo=4"
+      },
+      "checkedAt": "2026-09-07",
+      "coverage": "partial",
+      "metadataByStorefront": {
+        "jp": {
+          "trackId": 6761449487,
+          "trackName": "Uni:Note Pocket",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "JPY",
+          "formattedPrice": "無料"
+        },
+        "us": {
+          "trackId": 6761449487,
+          "trackName": "Uni:Note Pocket",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "USD",
+          "formattedPrice": "Free"
+        },
+        "tw": {
+          "trackId": 6761449487,
+          "trackName": "Uni:Note Pocket",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "TWD",
+          "formattedPrice": "免費"
+        },
+        "fr": {
+          "trackId": 6761449487,
+          "trackName": "Uni:Note Pocket",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "EUR",
+          "formattedPrice": "Gratuit"
+        },
+        "kr": {
+          "trackId": 6761449487,
+          "trackName": "Uni:Note Pocket",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "KRW",
+          "formattedPrice": "무료"
+        },
+        "de": {
+          "trackId": 6761449487,
+          "trackName": "Uni:Note Pocket",
+          "version": "3.4.0",
+          "price": 0.0,
+          "currency": "EUR",
+          "formattedPrice": "Gratis"
+        }
+      }
+    },
+    "balance-calendar": {
+      "appleID": "6757731648",
+      "verifiedStorefronts": [
+        "jp",
+        "us"
+      ],
+      "storefrontURLs": {
+        "jp": "https://apps.apple.com/jp/app/%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC-3%E7%A7%92%E3%81%A7%E8%A8%98%E9%8C%B2%E3%81%A7%E3%81%8D%E3%82%8B%E5%8F%8E%E6%94%AF%E7%AE%A1%E7%90%86/id6757731648?uo=4",
+        "us": "https://apps.apple.com/us/app/balance-calendar/id6757731648?uo=4"
+      },
+      "checkedAt": "2026-09-07",
+      "coverage": "partial",
+      "metadataByStorefront": {
+        "jp": {
+          "trackId": 6757731648,
+          "trackName": "ギャンカレ - 3秒で記録できる収支管理",
+          "version": "1.4.0",
+          "price": 0.0,
+          "currency": "JPY",
+          "formattedPrice": "無料"
+        },
+        "us": {
+          "trackId": 6757731648,
+          "trackName": "Balance Calendar",
+          "version": "1.4.0",
+          "price": 0.0,
+          "currency": "USD",
+          "formattedPrice": "Free"
+        }
+      }
+    },
+    "smokeless": {
+      "appleID": "6760842941",
+      "verifiedStorefronts": [
+        "jp",
+        "tw",
+        "fr",
+        "kr"
+      ],
+      "storefrontURLs": {
+        "jp": "https://apps.apple.com/jp/app/%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3-%E3%81%9F%E3%81%B0%E3%81%93%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC/id6760842941?uo=4",
+        "tw": "https://apps.apple.com/tw/app/smokeless-%E6%88%92%E8%8F%B8%E8%A8%88%E6%95%B8%E5%99%A8/id6760842941?uo=4",
+        "fr": "https://apps.apple.com/fr/app/smokeless-compteur-tabac/id6760842941?uo=4",
+        "kr": "https://apps.apple.com/kr/app/smokeless-%EA%B8%88%EC%97%B0-%EC%B9%B4%EC%9A%B4%ED%84%B0/id6760842941?uo=4"
+      },
+      "checkedAt": "2026-09-07",
+      "coverage": "partial",
+      "metadataByStorefront": {
+        "jp": {
+          "trackId": 6760842941,
+          "trackName": "すわなび - たばこカウンター",
+          "version": "1.1.1",
+          "price": 0.0,
+          "currency": "JPY",
+          "formattedPrice": "無料"
+        },
+        "tw": {
+          "trackId": 6760842941,
+          "trackName": "SmokeLess - 戒菸計數器",
+          "version": "1.1.1",
+          "price": 0.0,
+          "currency": "TWD",
+          "formattedPrice": "免費"
+        },
+        "fr": {
+          "trackId": 6760842941,
+          "trackName": "SmokeLess - Compteur tabac",
+          "version": "1.1.1",
+          "price": 0.0,
+          "currency": "EUR",
+          "formattedPrice": "Gratuit"
+        },
+        "kr": {
+          "trackId": 6760842941,
+          "trackName": "SmokeLess - 금연 카운터",
+          "version": "1.1.1",
+          "price": 0.0,
+          "currency": "KRW",
+          "formattedPrice": "무료"
+        }
+      }
+    },
+    "signal": {
+      "appleID": "6759493613",
+      "verifiedStorefronts": [
+        "jp"
+      ],
+      "storefrontURLs": {
+        "jp": "https://apps.apple.com/jp/app/signal-%E5%80%8B%E4%BA%BA%E7%99%BA%E4%BF%A1%E3%82%92%E8%BF%BD%E3%81%86%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%97%E3%83%AA/id6759493613?uo=4"
+      },
+      "checkedAt": "2026-09-07",
+      "coverage": "partial",
+      "metadataByStorefront": {
+        "jp": {
+          "trackId": 6759493613,
+          "trackName": "SIGNAL - 個人発信を追うニュースアプリ",
+          "version": "1.1.1",
+          "price": 0.0,
+          "currency": "JPY",
+          "formattedPrice": "無料"
+        }
+      }
+    }
+  },
+  "lookupEvidence": {
+    "fr": {
+      "url": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=fr",
+      "finalURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=fr",
+      "httpStatus": 200,
+      "resultCount": 3,
+      "trackIDs": [
+        6760258084,
+        6761449487,
+        6760842941
+      ],
+      "sha256": "84ab3b797982ca48c487bf12f271c47e87c4c5b0db8377d2a08e6fed154a529c"
+    },
+    "de": {
+      "url": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=de",
+      "finalURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=de",
+      "httpStatus": 200,
+      "resultCount": 2,
+      "trackIDs": [
+        6760258084,
+        6761449487
+      ],
+      "sha256": "61ad2ea995d8717fe2d062b76a4fd1cb064f742d7fe069c0a5a4a85765955f03"
+    },
+    "tw": {
+      "url": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=tw",
+      "finalURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=tw",
+      "httpStatus": 200,
+      "resultCount": 3,
+      "trackIDs": [
+        6760258084,
+        6761449487,
+        6760842941
+      ],
+      "sha256": "49702c33661bcc5a573658a95ddac50350841ee2c9b28031c13fb6d7df00cc0d"
+    },
+    "kr": {
+      "url": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=kr",
+      "finalURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=kr",
+      "httpStatus": 200,
+      "resultCount": 3,
+      "trackIDs": [
+        6760258084,
+        6761449487,
+        6760842941
+      ],
+      "sha256": "3661b931156e7746b94e10ff7c27eb859d68705a8653a131bed9361daa38af3b"
+    },
+    "us": {
+      "url": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=us",
+      "finalURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=us",
+      "httpStatus": 200,
+      "resultCount": 3,
+      "trackIDs": [
+        6760258084,
+        6761449487,
+        6757731648
+      ],
+      "sha256": "604fd6bdfb074a17997256ff9d58fada7441b09e825b9d08c19606afdff58bc0"
+    },
+    "jp": {
+      "url": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=jp",
+      "finalURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=jp",
+      "httpStatus": 200,
+      "resultCount": 7,
+      "trackIDs": [
+        6760258084,
+        6770774613,
+        6807501268,
+        6761449487,
+        6757731648,
+        6760842941,
+        6759493613
+      ],
+      "sha256": "327d615382378c9f40fbcad712f6f5e04508a357aa3e6c9aae9acdaff09b12cd"
+    }
+  },
+  "pageEvidence": {
+    "smokeless": {
+      "fr": {
+        "url": "https://apps.apple.com/fr/app/smokeless-compteur-tabac/id6760842941?uo=4",
+        "finalURL": "https://apps.apple.com/fr/app/smokeless-compteur-tabac/id6760842941?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/fr/app/smokeless-compteur-tabac/id6760842941",
+        "ogURL": "https://apps.apple.com/fr/app/smokeless-compteur-tabac/id6760842941",
+        "title": "‎App SmokeLess - Compteur tabac - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "f42ec71ed3413e08375bf26ee91b3cad5656c73f21ac4e8eb64c31a85f1514df",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=fr"
+      },
+      "tw": {
+        "url": "https://apps.apple.com/tw/app/smokeless-%E6%88%92%E8%8F%B8%E8%A8%88%E6%95%B8%E5%99%A8/id6760842941?uo=4",
+        "finalURL": "https://apps.apple.com/tw/app/smokeless-%E6%88%92%E8%8F%B8%E8%A8%88%E6%95%B8%E5%99%A8/id6760842941?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/tw/app/smokeless-%E6%88%92%E8%8F%B8%E8%A8%88%E6%95%B8%E5%99%A8/id6760842941",
+        "ogURL": "https://apps.apple.com/tw/app/smokeless-%E6%88%92%E8%8F%B8%E8%A8%88%E6%95%B8%E5%99%A8/id6760842941",
+        "title": "‎《SmokeLess - 戒菸計數器》App - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "864460e8c0e8b07282288bb1dd84e60bedb7e2b5ea0d095da93eea4ecdbc4ba8",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=tw"
+      },
+      "kr": {
+        "url": "https://apps.apple.com/kr/app/smokeless-%EA%B8%88%EC%97%B0-%EC%B9%B4%EC%9A%B4%ED%84%B0/id6760842941?uo=4",
+        "finalURL": "https://apps.apple.com/kr/app/smokeless-%EA%B8%88%EC%97%B0-%EC%B9%B4%EC%9A%B4%ED%84%B0/id6760842941?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/kr/app/smokeless-%EA%B8%88%EC%97%B0-%EC%B9%B4%EC%9A%B4%ED%84%B0/id6760842941",
+        "ogURL": "https://apps.apple.com/kr/app/smokeless-%EA%B8%88%EC%97%B0-%EC%B9%B4%EC%9A%B4%ED%84%B0/id6760842941",
+        "title": "‎SmokeLess - 금연 카운터 앱 - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "c0a38e4109d7f042825e9e1928cd1d40849420e3c3d3763673b529c2ab3b3774",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=kr"
+      },
+      "jp": {
+        "url": "https://apps.apple.com/jp/app/%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3-%E3%81%9F%E3%81%B0%E3%81%93%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC/id6760842941?uo=4",
+        "finalURL": "https://apps.apple.com/jp/app/%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3-%E3%81%9F%E3%81%B0%E3%81%93%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC/id6760842941?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/jp/app/%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3-%E3%81%9F%E3%81%B0%E3%81%93%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC/id6760842941",
+        "ogURL": "https://apps.apple.com/jp/app/%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3-%E3%81%9F%E3%81%B0%E3%81%93%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC/id6760842941",
+        "title": "‎すわなび - たばこカウンターアプリ - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "b42dc4f87420bd212facba379c5fac2b36078b8c89006a35672e94f3c6b619f1",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=jp"
+      }
+    },
+    "uni-note-pocket": {
+      "fr": {
+        "url": "https://apps.apple.com/fr/app/uni-note-pocket/id6761449487?uo=4",
+        "finalURL": "https://apps.apple.com/fr/app/uni-note-pocket/id6761449487?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/fr/app/uni-note-pocket/id6761449487",
+        "ogURL": "https://apps.apple.com/fr/app/uni-note-pocket/id6761449487",
+        "title": "‎App Uni:Note Pocket - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "eb5f68ebf4e054084ed0608811726027d50186737c592dc8e1ae061fd090d502",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=fr"
+      },
+      "de": {
+        "url": "https://apps.apple.com/de/app/uni-note-pocket/id6761449487?uo=4",
+        "finalURL": "https://apps.apple.com/de/app/uni-note-pocket/id6761449487?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/de/app/uni-note-pocket/id6761449487",
+        "ogURL": "https://apps.apple.com/de/app/uni-note-pocket/id6761449487",
+        "title": "‎Uni:Note Pocket‑App – App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "b1ea2b3b2ca7569d90df9f6f60ad5f5d30772d8e4d6e5db21de7d6aa6aa185b9",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=de"
+      },
+      "tw": {
+        "url": "https://apps.apple.com/tw/app/uni-note-pocket/id6761449487?uo=4",
+        "finalURL": "https://apps.apple.com/tw/app/uni-note-pocket/id6761449487?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/tw/app/uni-note-pocket/id6761449487",
+        "ogURL": "https://apps.apple.com/tw/app/uni-note-pocket/id6761449487",
+        "title": "‎《Uni:Note Pocket》App - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "d889962c965d47d40eb30c8065702b74b54c0d85afb17da717f26bcb29bb571e",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=tw"
+      },
+      "kr": {
+        "url": "https://apps.apple.com/kr/app/uni-note-pocket/id6761449487?uo=4",
+        "finalURL": "https://apps.apple.com/kr/app/uni-note-pocket/id6761449487?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/kr/app/uni-note-pocket/id6761449487",
+        "ogURL": "https://apps.apple.com/kr/app/uni-note-pocket/id6761449487",
+        "title": "‎Uni:Note Pocket 앱 - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "ab364c76f0a7ae338264925d5faa538ccb0f4c8c8971edef3e4174f649985fe4",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=kr"
+      },
+      "us": {
+        "url": "https://apps.apple.com/us/app/uni-note-pocket/id6761449487?uo=4",
+        "finalURL": "https://apps.apple.com/us/app/uni-note-pocket/id6761449487?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/us/app/uni-note-pocket/id6761449487",
+        "ogURL": "https://apps.apple.com/us/app/uni-note-pocket/id6761449487",
+        "title": "‎Uni:Note Pocket App - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "52d31667a4d64d1a112a0de8986a5b59e4a82c4288172add1fcf60c9c69923ba",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=us"
+      },
+      "jp": {
+        "url": "https://apps.apple.com/jp/app/uni-note-pocket/id6761449487?uo=4",
+        "finalURL": "https://apps.apple.com/jp/app/uni-note-pocket/id6761449487?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/jp/app/uni-note-pocket/id6761449487",
+        "ogURL": "https://apps.apple.com/jp/app/uni-note-pocket/id6761449487",
+        "title": "‎Uni:Note Pocketアプリ - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "b333624b586bf4a293ef0dfe629e6b9b1fee8f068f5e87e01718232c85767010",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=jp"
+      }
+    },
+    "uni-note": {
+      "fr": {
+        "url": "https://apps.apple.com/fr/app/uni-note-notes-de-r%C3%A9vision/id6760258084?uo=4",
+        "finalURL": "https://apps.apple.com/fr/app/uni-note-notes-de-r%C3%A9vision/id6760258084?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/fr/app/uni-note-notes-de-r%C3%A9vision/id6760258084",
+        "ogURL": "https://apps.apple.com/fr/app/uni-note-notes-de-r%C3%A9vision/id6760258084",
+        "title": "‎App Uni:Note – Notes de révision - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "ba745f8c1b9f4ec6082cd600f8c45798f53ab70c457423c5096d70241398af49",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=fr"
+      },
+      "de": {
+        "url": "https://apps.apple.com/de/app/uni-note-lernnotizen/id6760258084?uo=4",
+        "finalURL": "https://apps.apple.com/de/app/uni-note-lernnotizen/id6760258084?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/de/app/uni-note-lernnotizen/id6760258084",
+        "ogURL": "https://apps.apple.com/de/app/uni-note-lernnotizen/id6760258084",
+        "title": "‎Uni:Note – Lernnotizen‑App – App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "e4ae46804a73d4dfd4404d021fbd27d0d575bf44365ae66b27a2a23992ea9952",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=de"
+      },
+      "tw": {
+        "url": "https://apps.apple.com/tw/app/uni-note-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/id6760258084?uo=4",
+        "finalURL": "https://apps.apple.com/tw/app/uni-note-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/id6760258084?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/tw/app/uni-note-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/id6760258084",
+        "ogURL": "https://apps.apple.com/tw/app/uni-note-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/id6760258084",
+        "title": "‎《Uni:Note – 學習筆記》App - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "d5a77aff44565127bf28312e918e280f81470b3398d4a39cfedae6e649e428cf",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=tw"
+      },
+      "kr": {
+        "url": "https://apps.apple.com/kr/app/uni-note-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8/id6760258084?uo=4",
+        "finalURL": "https://apps.apple.com/kr/app/uni-note-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8/id6760258084?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/kr/app/uni-note-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8/id6760258084",
+        "ogURL": "https://apps.apple.com/kr/app/uni-note-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8/id6760258084",
+        "title": "‎Uni:Note – 공부 노트 앱 - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "9e16548302ba9dc8d47285066322f1a55eafda17ed7fb701f0d80f7f4eefcb15",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=kr"
+      },
+      "us": {
+        "url": "https://apps.apple.com/us/app/uni-note-study-notes/id6760258084?uo=4",
+        "finalURL": "https://apps.apple.com/us/app/uni-note-study-notes/id6760258084?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/us/app/uni-note-study-notes/id6760258084",
+        "ogURL": "https://apps.apple.com/us/app/uni-note-study-notes/id6760258084",
+        "title": "‎Uni:Note – Study Notes App - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "cacdc4a98017dc550da15586b76c42496582c172c98bb6588c81fa10be9d7feb",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=us"
+      },
+      "jp": {
+        "url": "https://apps.apple.com/jp/app/uni-note-%E6%9B%B8%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6-%E5%BA%83%E5%91%8A%E7%84%A1%E3%81%97%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%83%8E%E3%83%BC%E3%83%88/id6760258084?uo=4",
+        "finalURL": "https://apps.apple.com/jp/app/uni-note-%E6%9B%B8%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6-%E5%BA%83%E5%91%8A%E7%84%A1%E3%81%97%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%83%8E%E3%83%BC%E3%83%88/id6760258084?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/jp/app/uni-note-%E6%9B%B8%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6-%E5%BA%83%E5%91%8A%E7%84%A1%E3%81%97%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%83%8E%E3%83%BC%E3%83%88/id6760258084",
+        "ogURL": "https://apps.apple.com/jp/app/uni-note-%E6%9B%B8%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6-%E5%BA%83%E5%91%8A%E7%84%A1%E3%81%97%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%83%8E%E3%83%BC%E3%83%88/id6760258084",
+        "title": "‎Uni:Note - 書いて学ぶ。広告無しの大学ノートアプリ - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "03c88718c9f6e135ede1295dbed63b1ff0cc16d47b6eb2abea1fd946760cb0ba",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=jp"
+      }
+    },
+    "oto-miru": {
+      "jp": {
+        "url": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB-%E8%81%9E%E3%81%93%E3%81%88%E3%82%92%E5%AD%97%E5%B9%95%E3%81%A7%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/id6770774613?uo=4",
+        "finalURL": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB-%E8%81%9E%E3%81%93%E3%81%88%E3%82%92%E5%AD%97%E5%B9%95%E3%81%A7%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/id6770774613?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB-%E8%81%9E%E3%81%93%E3%81%88%E3%82%92%E5%AD%97%E5%B9%95%E3%81%A7%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/id6770774613",
+        "ogURL": "https://apps.apple.com/jp/app/%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB-%E8%81%9E%E3%81%93%E3%81%88%E3%82%92%E5%AD%97%E5%B9%95%E3%81%A7%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/id6770774613",
+        "title": "‎オトミル - 聞こえを字幕でサポートアプリ - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "774eb070f670012a3d906fda52edbb32e1105ab6240e62a90059dbe8ed8241a6",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=jp"
+      }
+    },
+    "balance-calendar": {
+      "us": {
+        "url": "https://apps.apple.com/us/app/balance-calendar/id6757731648?uo=4",
+        "finalURL": "https://apps.apple.com/us/app/balance-calendar/id6757731648?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/us/app/balance-calendar/id6757731648",
+        "ogURL": "https://apps.apple.com/us/app/balance-calendar/id6757731648",
+        "title": "‎Balance Calendar App - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "9f472cb448362d95741522f49a9b1994843419c5a6076cac9234ab6c7313fd88",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=us"
+      },
+      "jp": {
+        "url": "https://apps.apple.com/jp/app/%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC-3%E7%A7%92%E3%81%A7%E8%A8%98%E9%8C%B2%E3%81%A7%E3%81%8D%E3%82%8B%E5%8F%8E%E6%94%AF%E7%AE%A1%E7%90%86/id6757731648?uo=4",
+        "finalURL": "https://apps.apple.com/jp/app/%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC-3%E7%A7%92%E3%81%A7%E8%A8%98%E9%8C%B2%E3%81%A7%E3%81%8D%E3%82%8B%E5%8F%8E%E6%94%AF%E7%AE%A1%E7%90%86/id6757731648?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/jp/app/%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC-3%E7%A7%92%E3%81%A7%E8%A8%98%E9%8C%B2%E3%81%A7%E3%81%8D%E3%82%8B%E5%8F%8E%E6%94%AF%E7%AE%A1%E7%90%86/id6757731648",
+        "ogURL": "https://apps.apple.com/jp/app/%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC-3%E7%A7%92%E3%81%A7%E8%A8%98%E9%8C%B2%E3%81%A7%E3%81%8D%E3%82%8B%E5%8F%8E%E6%94%AF%E7%AE%A1%E7%90%86/id6757731648",
+        "title": "‎ギャンカレ - 3秒で記録できる収支管理アプリ - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "5df8fb8afa01a765387998a039947cf51a162f18ff35110aecbba95b5ab8707e",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=jp"
+      }
+    },
+    "giga-poke": {
+      "jp": {
+        "url": "https://apps.apple.com/jp/app/%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1-povo%E7%89%B9%E5%85%B8%E3%82%B3%E3%83%BC%E3%83%89%E7%AE%A1%E7%90%86/id6807501268?uo=4",
+        "finalURL": "https://apps.apple.com/jp/app/%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1-povo%E7%89%B9%E5%85%B8%E3%82%B3%E3%83%BC%E3%83%89%E7%AE%A1%E7%90%86/id6807501268?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/jp/app/%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1-povo%E7%89%B9%E5%85%B8%E3%82%B3%E3%83%BC%E3%83%89%E7%AE%A1%E7%90%86/id6807501268",
+        "ogURL": "https://apps.apple.com/jp/app/%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1-povo%E7%89%B9%E5%85%B8%E3%82%B3%E3%83%BC%E3%83%89%E7%AE%A1%E7%90%86/id6807501268",
+        "title": "‎ギガポケ - povo特典コード管理アプリ - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "c9400a99a5288e366dc715c6eac030fecdebac4b0e41a785951ff188101a0634",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=jp"
+      }
+    },
+    "signal": {
+      "jp": {
+        "url": "https://apps.apple.com/jp/app/signal-%E5%80%8B%E4%BA%BA%E7%99%BA%E4%BF%A1%E3%82%92%E8%BF%BD%E3%81%86%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%97%E3%83%AA/id6759493613?uo=4",
+        "finalURL": "https://apps.apple.com/jp/app/signal-%E5%80%8B%E4%BA%BA%E7%99%BA%E4%BF%A1%E3%82%92%E8%BF%BD%E3%81%86%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%97%E3%83%AA/id6759493613?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/jp/app/signal-%E5%80%8B%E4%BA%BA%E7%99%BA%E4%BF%A1%E3%82%92%E8%BF%BD%E3%81%86%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%97%E3%83%AA/id6759493613",
+        "ogURL": "https://apps.apple.com/jp/app/signal-%E5%80%8B%E4%BA%BA%E7%99%BA%E4%BF%A1%E3%82%92%E8%BF%BD%E3%81%86%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%97%E3%83%AA/id6759493613",
+        "title": "‎SIGNAL - 個人発信を追うニュースアプリアプリ - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "701578082ed4a51345422cd2b7d9810e40fb44e0e10168c4b841f105e68a2648",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6760258084%2C6770774613%2C6807501268%2C6809145321%2C6761449487%2C6757731648%2C6760842941%2C6759493613&entity=software&country=jp"
+      }
+    }
+  },
+  "errors": [],
+  "ok": true,
+  "verifiedURLCount": 21
+}

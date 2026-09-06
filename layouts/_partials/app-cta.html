@@ -1,8 +1,11 @@
-{{ $app := .app }}{{ $copy := index site.Data.home site.Language.Lang }}{{ $corp := index site.Data.corporate site.Language.Lang }}{{ $text := index $copy.apps $app.id }}
+{{ $app := .app }}{{ $copy := index site.Data.home site.Language.Lang }}{{ $ui := index site.Data.ux site.Language.Lang }}{{ $text := index $copy.apps $app.id }}
 {{ $available := false }}
 {{ with $app.availability }}{{ $available = and (eq $app.status "published") $app.appStoreURL (in .verifiedStorefronts .storefront) }}{{ end }}
+{{ if or $available (not .product) }}
 <div class="app-actions">
-{{ if $available }}<a class="btn btn-primary" href="{{ $app.appStoreURL }}" aria-label="{{ $text.name }} — {{ $copy.store }} (Japan)">{{ $copy.store }} <span aria-hidden="true">↗</span></a>{{ end }}
-{{ if .product }}<a class="text-link" href="{{ "/support/" | relLangURL }}#{{ $app.id }}">{{ $corp.supportAppCTA }} <span aria-hidden="true">→</span></a>{{ else }}<a class="text-link" href="{{ printf "/products/%s/" $app.id | relLangURL }}" aria-label="{{ $text.name }} — {{ $copy.details }}">{{ $copy.details }} <span aria-hidden="true">→</span></a>{{ end }}
+{{ if $available }}{{ $badge := index site.Data "app-store-badges" }}{{ $badge = index $badge site.Language.Lang }}{{ $country := index $ui.countries $app.availability.storefront }}
+<a class="app-store-badge" href="{{ $app.appStoreURL }}" aria-label="{{ $text.name }} — {{ $ui.download }} ({{ $country.name }})" title="{{ printf $ui.openStore $country.name }}"><img src="{{ $badge.path }}" width="{{ math.Round $badge.width }}" height="{{ int $badge.height }}" alt="{{ $ui.download }}" decoding="async"></a>{{ end }}
+{{ if not .product }}<a class="text-link" href="{{ printf "/products/%s/" $app.id | relLangURL }}" aria-label="{{ $text.name }} — {{ $copy.details }}">{{ $copy.details }} <span aria-hidden="true">→</span></a>{{ end }}
 </div>
-{{ if $available }}<p class="availability-note">{{ $corp.availableInJapan | default "Available on the Japan App Store" }}</p>{{ end }}
+{{ end }}
+{{ if $available }}<div class="app-availability"><span class="availability-label" title="{{ $ui.verifiedRegions }}">{{ $ui.regions }}</span><ul aria-label="{{ $ui.verifiedRegions }}">{{ range $app.availability.verifiedStorefronts }}{{ $code := . }}{{ $country := index $ui.countries $code }}{{ $url := index $app.availability.storefrontURLs $code }}{{ with $country }}<li>{{ if $url }}<a class="storefront-link" data-country="{{ $code }}" href="{{ $url }}" aria-label="{{ $text.name }} — {{ printf $ui.openStore .name }}" title="{{ printf $ui.openStore .name }}"><span aria-hidden="true">{{ .flag }}</span></a>{{ else }}<span class="storefront-label" role="img" aria-label="{{ .name }}" title="{{ .name }}">{{ .flag }}</span>{{ end }}</li>{{ end }}{{ end }}</ul></div>{{ end }}

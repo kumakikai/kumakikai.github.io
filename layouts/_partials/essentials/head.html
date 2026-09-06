@@ -3,6 +3,7 @@
 {{ $title := printf "%s | KUMAKIKAI" .Title }}{{ if .IsHome }}{{ $title = "KUMAKIKAI — iPhone & iPad Apps" }}{{ end }}
 {{ $description := .Description | default (.Summary | plainify | truncate 150) | default site.Params.description }}
 {{ if .IsHome }}{{ $description = $copy.companyIntro }}{{ end }}
+{{ $privacyArchive := and (not .IsPage) (eq .Section "privacy") }}{{ if $privacyArchive }}{{ $description = (index site.Data.ux site.Language.Lang).privacyArchiveText }}{{ end }}
 {{ $image := "/images/og/default.png" }}
 {{ $productID := .Params.product_id }}
 {{ if not $productID }}{{ if in (slice "htu" "faq" "privacy" "terms") .Section }}{{ $productID = $basename }}{{ end }}{{ end }}
@@ -30,13 +31,13 @@
 <meta property="og:image:alt" content="{{ with $productID }}{{ with index (index site.Data.home "ja").apps . }}{{ .name }} — {{ end }}{{ end }}KUMAKIKAI">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ $image | absURL }}">
-{{ if eq .Kind "404" }}<meta name="robots" content="noindex">{{ end }}
+{{ if or (eq .Kind "404") $privacyArchive }}<meta name="robots" content="noindex, follow">{{ end }}
 {{ $schema := dict "@context" "https://schema.org" "@type" "Organization" "name" "KUMAKIKAI" "url" site.BaseURL "logo" ("/apple-touch-icon.png" | absURL) "email" "kumakikai.apps@gmail.com" }}
 {{ if eq .Type "product" }}
   {{ $app := index (where site.Data.apps "id" .Params.product_id) 0 }}{{ $text := index (index site.Data.home site.Language.Lang).apps $app.id }}
   {{ $schema = dict "@context" "https://schema.org" "@type" "SoftwareApplication" "name" $text.name "description" $text.description "operatingSystem" $app.operatingSystems "image" ($app.icon | absURL) "url" .Permalink "creator" (dict "@type" "Organization" "name" "KUMAKIKAI") }}
 {{ else if and .IsPage (in (slice "news" "notes") .Section) }}
-  {{ $schema = dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "image" ($image | absURL) "url" .Permalink "publisher" (dict "@type" "Organization" "name" "KUMAKIKAI") }}
+  {{ $category := partial "news-category.html" . }}{{ $schema = dict "@context" "https://schema.org" "@type" "Article" "articleSection" $category.label "headline" .Title "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "image" ($image | absURL) "url" .Permalink "publisher" (dict "@type" "Organization" "name" "KUMAKIKAI") }}
 {{ end }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 <script>!function(){var e=document.documentElement;e.classList.add('js');try{var t=localStorage.getItem('pref-theme');if(t==='light'||t==='dark')e.dataset.theme=t}catch(_){}e.classList.toggle('dark',e.dataset.theme==='dark'||(e.dataset.theme==='auto'&&matchMedia('(prefers-color-scheme:dark)').matches))}();</script>

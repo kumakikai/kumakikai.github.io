@@ -11,6 +11,7 @@ Visual, keyboard, browser, external App Store, and Lighthouse checks are separat
 """
 import argparse
 from collections import Counter
+import hashlib
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -261,11 +262,83 @@ class Verification:
             return published and bool(app.get("appStoreURL"))
         return published and bool(app.get("appStoreURL")) and availability.get("storefront") in availability.get("verifiedStorefronts", [])
 
+    def verify_store_controls(self, container, app, lang, route, badges):
+        nodes = list(container.descendants())
+        store_badges = [n for n in nodes if n.has_class("app-store-badge")]
+        flags = [n for n in nodes if n.has_class("storefront-link")]
+        self.require(not any(n.has_class("availability-note") for n in nodes), route, "store_controls", "Obsolete Japan-only availability note must be removed")
+        if not self.available(app):
+            self.require(not store_badges and not flags, route, "publication", "Development app must not have a Store badge or country links")
+            return
+        self.require(len(store_badges) == 1, route, "store_badge", f"{app['id']}: expected one official Store badge")
+        if store_badges:
+            badge = store_badges[0]
+            self.require(badge.tag == "a" and badge.attrs.get("href") == app["appStoreURL"], route, "store_badge", "Primary badge must retain the existing verified Store URL")
+            images = list(badge.descendants("img"))
+            self.require(len(images) == 1, route, "store_badge", "Official badge requires one SVG image")
+            if images:
+                image = images[0]
+                self.require(image.attrs.get("src") == badges[lang]["path"] and bool(image.attrs.get("alt", "").strip()), route, "store_badge", "Badge SVG and alternative text must match the display locale")
+                try:
+                    # HTML dimensions are unsigned integers; CSS/SVG retain the
+                    # exact intrinsic ratio, which the browser check verifies.
+                    dimensions = all(re.fullmatch(r"[1-9][0-9]*", image.attrs[key]) and abs(int(image.attrs[key]) - badges[lang][key]) <= .5 for key in ("width", "height"))
+                    self.require(dimensions, route, "store_badge", "Badge must reserve the official dimensions rounded to valid integer attributes")
+                except (KeyError, ValueError):
+                    self.require(False, route, "store_badge", "Badge must reserve valid width and height")
+        availability = app["availability"]
+        expected = availability.get("verifiedStorefronts", [])
+        actual = [n.attrs.get("data-country") for n in flags]
+        self.require(actual == expected, route, "storefront_links", f"{app['id']}: country links must match verified regions independently of display language")
+        for flag in flags:
+            country = flag.attrs.get("data-country")
+            self.require(flag.tag == "a" and flag.attrs.get("href") == availability.get("storefrontURLs", {}).get(country), route, "storefront_links", "Country link must use its exact Apple-returned URL")
+            self.require(bool(flag.attrs.get("aria-label", "").strip()) and bool(flag.attrs.get("title", "").strip()), route, "storefront_accessibility", "Country flags need an accessible name and readable title")
+        self.counts["official_badge_instances"] += 1
+        self.counts["storefront_link_instances"] += len(flags)
+
+    def verify_product_support(self, doc, app, lang, route):
+        intros = [n for n in doc.nodes if n.has_class("product-intro")]
+        self.require(len(intros) == 1, route, "product_intro", "Product needs one introduction")
+        if intros:
+            actions = [n for n in intros[0].descendants() if n.has_class("app-actions")]
+            action_links = [n for action in actions for n in action.descendants("a")]
+            self.require(all(urlsplit(n.attrs.get("href", "")).hostname == "apps.apple.com" for n in action_links), route, "product_intro", "Product introduction must not repeat internal Support/Details buttons")
+        sections = [n for n in doc.nodes if n.attrs.get("id") == "support" and n.tag == "section"]
+        self.require(len(sections) == 1, route, "product_support", "Product needs a directly linkable #support section")
+        if not sections:
+            return
+        hrefs = [n.attrs.get("href", "") for n in sections[0].descendants("a")]
+        for kind in ("htu", "faq", "privacy", "terms"):
+            original = f"/{kind}/{app['id']}/"
+            preferred = localized(lang, original)
+            target = self.target(preferred, route)
+            if not target or not target[0].is_file():
+                preferred = original
+                target = self.target(preferred, route)
+            if target and target[0].is_file():
+                self.require(hrefs.count(preferred) == 1, route, "product_support", f"Expected one direct existing resource link: {preferred}")
+                self.counts["direct_product_support_links"] += 1
+        self.require(sum(urlsplit(href).scheme == "mailto" and urlsplit(href).path == "kumakikai.apps@gmail.com" for href in hrefs) == 1, route, "product_contact", "Product support needs one direct contact email link")
+        self.require(not any(re.match(r"^/(?:en/|ko/|de/|zh-hant/|fr/)?support/", urlsplit(href).path) for href in hrefs), route, "product_support", "Product resources must not detour through the Support directory")
+
     def verify_contract(self):
         apps = json.loads(self.data_file.read_text(encoding="utf-8"))
         if isinstance(apps, dict):
             apps = apps.get("apps", [])
         by_id = {app["id"]: app for app in apps}
+        news_metadata = json.loads((self.data_file.parent / "news.json").read_text(encoding="utf-8"))
+        badges = json.loads((self.data_file.parent / "app-store-badges.json").read_text(encoding="utf-8"))
+        evidence_path = self.data_file.parent.parent / "docs/ux/storefront-verification.json"
+        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+        for lang in LANGUAGES:
+            badge = badges[lang]
+            target = self.target(badge["path"], "/")
+            self.require(target and target[0].is_file(), "/", "official_badge", f"Missing localized official badge: {lang}")
+            if target and target[0].is_file():
+                self.require(hashlib.sha256(target[0].read_bytes()).hexdigest() == badge["sha256"], "/", "official_badge", f"Official {lang} SVG was modified")
+            self.require(urlsplit(badge["source"]).hostname == "toolbox.marketingtools.apple.com", "/", "official_badge", "Badge provenance must be Apple's official marketing tools")
+            self.counts["official_badge_assets"] += 1
         self.require(tuple(app["id"] for app in apps if app.get("featured")) == FEATURED,
                      "/", "featured_order", "Existing Featured classification/order must be preserved")
         self.require(tuple(app["id"] for app in apps if not app.get("featured")) == OTHER,
@@ -277,6 +350,18 @@ class Verification:
                 self.require(storefront in availability.get("verifiedStorefronts", []), "/products/" + app["id"] + "/", "store_availability", "App Store CTA storefront has not been verified")
                 store_path = urlsplit(app["appStoreURL"]).path.strip("/").split("/")
                 self.require(bool(store_path) and store_path[0] == storefront, "/products/" + app["id"] + "/", "store_availability", "App Store URL country differs from verified CTA storefront")
+                urls = availability.get("storefrontURLs", {})
+                proof = evidence["apps"].get(app["id"], {})
+                self.require(set(urls) == set(availability.get("verifiedStorefronts", [])), "/", "storefront_evidence", f"{app['id']}: each verified region needs an explicit URL")
+                self.require(urls == proof.get("storefrontURLs"), "/", "storefront_evidence", f"{app['id']}: URLs must exactly match the stored Apple Lookup evidence")
+                for country, url in urls.items():
+                    parsed = urlsplit(url)
+                    primary_id = re.search(r"/id(\d+)", app["appStoreURL"])
+                    correct = parsed.scheme == "https" and parsed.hostname == "apps.apple.com" and parsed.path.startswith("/" + country + "/") and primary_id and re.search(r"/id" + primary_id.group(1) + r"(?:/|$)", parsed.path)
+                    self.require(correct, "/", "storefront_evidence", f"{app['id']}/{country}: URL must identify the same app and verified Store region")
+                    page_proof = evidence.get("pageEvidence", {}).get(app["id"], {}).get(country, {})
+                    self.require(page_proof.get("url") == url and page_proof.get("httpStatus") == 200 and page_proof.get("sameAppAndStorefront") is True, "/", "storefront_evidence", f"{app['id']}/{country}: missing successful HTTP/app identity evidence")
+                    self.counts["verified_storefront_urls"] += 1
                 self.counts["verified_storefront_ctas"] += 1
         for lang in LANGUAGES:
             home_route = localized(lang, "/")
@@ -297,12 +382,16 @@ class Verification:
                     containers = [n for n in home.nodes if n.attrs.get("aria-labelledby") == app_id + "-name" or n.attrs.get("data-app-id") == app_id]
                     self.require(len(containers) == 1, home_route, "home_product_container", f"{app_id}: expected one accessible Featured/Other app container")
                     if containers:
+                        self.verify_store_controls(containers[0], by_id[app_id], lang, home_route, badges)
                         stores = [n.attrs.get("href") for n in containers[0].descendants("a") if urlsplit(n.attrs.get("href", "")).hostname == "apps.apple.com"]
                         app = by_id.get(app_id, {})
                         if self.available(app) and old["featured"]:
                             self.require(app.get("appStoreURL") in stores, home_route, "home_store_cta", f"{app_id}: published app needs a direct Store CTA")
                         elif not self.available(app):
                             self.require(not stores, home_route, "home_publication", f"{app_id}: development app has a Store CTA")
+                shortcuts = [n for n in home.nodes if n.has_class("support-shortcuts")]
+                shortcut_links = [n.attrs.get("href") for group in shortcuts for n in group.descendants("a")]
+                self.require(shortcut_links == [localized(lang, f"/products/{app_id}/#support") for app_id in FEATURED], home_route, "home_support", "Home app shortcuts must open the product's direct support section")
             for route in ("/", "/products/", "/support/", "/news/", "/company/"):
                 translated = localized(lang, route)
                 target = self.target(translated, "/")
@@ -310,6 +399,48 @@ class Verification:
                 if target and target[0].is_file():
                     self.require(not self.document(target[0]).redirect(), translated, "required_route", "New company pages must contain real page content")
                 self.counts["new_company_routes"] += 1
+            privacy_route = localized(lang, "/privacy/")
+            privacy_target = self.target(privacy_route, "/")
+            self.require(privacy_target and privacy_target[0].is_file(), privacy_route, "privacy_compatibility", "Legacy Privacy directory must remain reachable")
+            if privacy_target and privacy_target[0].is_file():
+                privacy = self.document(privacy_target[0])
+                self.require(not privacy.redirect(), privacy_route, "privacy_compatibility", "Privacy compatibility URL must remain a real page")
+                self.require(any("noindex" in value for value in privacy.meta("robots")), privacy_route, "privacy_compatibility", "Compatibility Privacy directory should not be indexed")
+                self.require(not any(n.has_class("privacy-directory-links") or n.has_class("product-card") or (n.tag == "article" and n.parent.has_class("legacy-list")) for n in privacy.nodes), privacy_route, "privacy_compatibility", "Compatibility Privacy page must not repeat product/article lists")
+                self.counts["privacy_compatibility_pages"] += 1
+            news_route = localized(lang, "/news/")
+            news_target = self.target(news_route, "/")
+            if news_target and news_target[0].is_file():
+                news = self.document(news_target[0])
+                rows = [n for n in news.nodes if n.has_class("news-row")]
+                categories = {n.attrs.get("data-category") for n in rows}
+                labels_copy = json.loads((self.data_file.parent / "corporate" / (lang + ".json")).read_text(encoding="utf-8"))
+                labels = {key: labels_copy[value] for key, value in (("press-release", "pressRelease"), ("blog", "blog"), ("information", "information"))}
+                self.require(categories <= set(labels), news_route, "news_categories", "News contains an unknown category; empty categories need no placeholder articles")
+                for row in rows:
+                    dates = list(row.descendants("time"))
+                    self.require(len(dates) == 1 and re.fullmatch(r"\d{4}-\d{2}-\d{2}", dates[0].attrs.get("datetime", "")), news_route, "news_date", "Each News item needs a readable publication date")
+                    links = list(row.descendants("a"))
+                    self.require(len(links) == 1, news_route, "news_link", "Each News row needs one direct article link")
+                    if links:
+                        parts = urlsplit(links[0].attrs.get("href", "")).path.strip("/").split("/")
+                        source_lang = parts[0] if parts[0] in LANGUAGES else "ja"
+                        key = parts[-1]
+                        expected = news_metadata.get(key, {}).get("category", "information")
+                        if len(parts) >= 2:
+                            directory = self.data_file.parent.parent / "content" / parts[-2]
+                            source = directory / (key + ("" if source_lang == "ja" else "." + source_lang) + ".md")
+                            if source.is_file():
+                                text = source.read_text(encoding="utf-8")
+                                front_matter = text.split("---", 2)[1] if text.startswith("---") else ""
+                                override = re.search(r"^news_category:\s*([^\n#]+)", front_matter, re.M)
+                                if override:
+                                    expected = override.group(1).strip().strip("\"'")
+                        category = row.attrs.get("data-category")
+                        self.require(expected in labels and category == expected, news_route, "news_category_source", f"{key}: rendered category differs from the article metadata")
+                        rendered_labels = [n.text().strip() for n in row.descendants() if n.has_class("news-category")]
+                        self.require(rendered_labels == [labels.get(expected)], news_route, "news_category_label", f"{key}: category label differs from its data-category value")
+                self.counts["news_category_pages"] += 1
             for app_id, app in by_id.items():
                 route = localized(lang, f"/products/{app_id}/")
                 target = self.target(route, "/")
@@ -317,6 +448,8 @@ class Verification:
                 if not target or not target[0].is_file():
                     continue
                 doc = self.document(target[0])
+                self.verify_store_controls(doc.root, app, lang, route, badges)
+                self.verify_product_support(doc, app, lang, route)
                 store_links = [node.attrs.get("href", "") for node in doc.tagged("a") if urlsplit(node.attrs.get("href", "")).hostname == "apps.apple.com"]
                 if self.available(app):
                     self.require(app.get("appStoreURL") in store_links, route, "store_cta", "Published product must link to its verified App Store URL")
@@ -382,6 +515,19 @@ class Verification:
             if not route.endswith("404.html"):
                 self.verify_seo(doc, route)
             self.require(not DEMO_TEXT.search(doc.root.text()), route, "demo_content", "Hugoplate demo/placeholder text was published")
+            lang = route.strip("/").split("/")[0]
+            if lang not in LANGUAGES:
+                lang = "ja"
+            footer_tops = [n for n in doc.nodes if n.has_class("footer-top")]
+            footer_nav_links = [link for top in footer_tops for nav in top.descendants("nav") for link in nav.descendants("a")]
+            self.require([(n.text().strip(), n.attrs.get("href")) for n in footer_nav_links] == [("Contact", localized(lang, "/company/#contact"))], route, "footer_navigation", "Footer navigation must contain only Contact")
+            for nav in [n for n in doc.nodes if n.has_class("desktop-nav")]:
+                self.require([n.attrs.get("href") for n in nav.descendants("a")] == [localized(lang, f"/{section}/") for section in ("products", "support", "news", "company")], route, "header_navigation", "Header must retain the four primary site sections")
+            for aside in [n for n in doc.nodes if n.has_class("article-related")]:
+                for resource in [n for n in aside.descendants() if n.has_class("resource-links")]:
+                    for link in resource.descendants("a"):
+                        target = self.target(link.attrs.get("href", ""), route)
+                        self.require(not target or target[0] != path.resolve(), route, "support_self_link", "Related support resources must omit the current page")
             for node in doc.nodes:
                 for attr in ("href", "src", "poster"):
                     if attr in node.attrs:

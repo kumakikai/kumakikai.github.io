@@ -9,6 +9,10 @@ const output = path.resolve(process.env.TEST_OUTPUT || 'artifacts/migration/brow
 fs.mkdirSync(output, { recursive: true });
 const results = [], failures = [];
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
+const appData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/apps.json'), 'utf8'));
+const badgeData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/app-store-badges.json'), 'utf8'));
+const homeRoute = /^\/(?:en\/|ko\/|de\/|zh-hant\/|fr\/)?$/;
+function localeFor(route) { return route.match(/^\/(en|ko|de|zh-hant|fr)\//)?.[1] || 'ja'; }
 async function loaded(page) {
   await page.evaluate(async () => {
     for (let y = 0; y < document.body.scrollHeight; y += 800) {
@@ -22,6 +26,63 @@ async function loaded(page) {
 }
 async function accessibility(page) {
   return page.evaluate(async () => (await axe.run(document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'best-practice'] } })).violations.map(v => ({ id: v.id, impact: v.impact, nodes: v.nodes.map(n => ({ target: n.target, summary: n.failureSummary })) })));
+}
+async function inspectStoreControls(page, route) {
+  const locale = localeFor(route);
+  const productID = route.match(/\/products\/([^/]+)\/$/)?.[1];
+  if (!homeRoute.test(route) && !productID) return;
+  const apps = productID ? appData.filter(app => app.id === productID) : appData;
+  let badges = 0, regions = 0;
+  for (const app of apps) {
+    const scope = productID ? page.locator('.product-intro') : page.locator(`article[aria-labelledby="${app.id}-name"]`);
+    assert.equal(await scope.count(), 1);
+    const badge = scope.locator('a.app-store-badge');
+    const flags = scope.locator('.app-availability a.storefront-link');
+    assert.equal(await scope.locator('.availability-note').count(), 0);
+    if (app.status !== 'published') {
+      assert.equal(await scope.locator('a[href^="https://apps.apple.com/"]').count(), 0, 'Development app has no Store links');
+      assert.equal(await badge.count(), 0); assert.equal(await flags.count(), 0);
+      continue;
+    }
+    assert.equal(await badge.count(), 1, 'One official badge per published product');
+    assert.equal(await badge.getAttribute('href'), app.appStoreURL, 'Badge keeps the existing verified Store URL regardless of display locale');
+    const image = badge.locator('img');
+    assert.equal(await image.count(), 1);
+    assert.equal(await image.getAttribute('src'), badgeData[locale].path, 'Official badge uses the page display locale');
+    assert.ok((await image.getAttribute('alt'))?.trim());
+    if (await scope.isVisible()) {
+      assert.equal(await badge.isVisible(), true);
+      const bounds = await image.boundingBox();
+      assert.ok(bounds.height >= 40 - .1, 'Official badge is at least 40 CSS pixels high');
+      assert.ok(Math.abs(bounds.width / bounds.height - badgeData[locale].width / badgeData[locale].height) < .01, 'Badge keeps the official aspect ratio');
+      assert.equal(await image.evaluate(el => getComputedStyle(el).filter), 'none', 'Official badge colors are unchanged');
+    }
+    assert.deepEqual(await flags.evaluateAll(nodes => nodes.map(n => n.dataset.country)), app.availability.verifiedStorefronts);
+    for (const flag of await flags.all()) {
+      const country = await flag.getAttribute('data-country');
+      assert.equal(await flag.getAttribute('href'), app.availability.storefrontURLs[country], 'Flag uses the Apple-returned region URL');
+      assert.ok((await flag.getAttribute('aria-label'))?.trim(), 'Flag needs a readable accessible name');
+      assert.ok((await flag.getAttribute('title'))?.trim(), 'Flag needs a readable tooltip');
+      if (await scope.isVisible()) {
+        assert.equal(await flag.isVisible(), true, 'Verified region link is visible with the product');
+        const bounds = await flag.boundingBox();
+        assert.ok(bounds.width >= 44 - .1 && bounds.height >= 44 - .1, 'Country link has a 44px tap target');
+      }
+      regions++;
+    }
+    badges++;
+  }
+  if (productID) {
+    assert.equal(await page.locator('.product-intro .app-actions a').evaluateAll(nodes => nodes.every(n => new URL(n.href).hostname === 'apps.apple.com')), true, 'Product introduction has no redundant internal CTA');
+    const support = page.locator('section#support');
+    assert.equal(await support.count(), 1);
+    assert.equal(await support.locator('a[href^="mailto:kumakikai.apps@gmail.com"]').isVisible(), true, 'Support links directly to contact email');
+    assert.equal(await support.locator('a').evaluateAll(nodes => nodes.every(n => !/^\/(?:en\/|ko\/|de\/|zh-hant\/|fr\/)?support\//.test(new URL(n.href).pathname))), true, 'Support resources do not detour through the directory');
+    const privacy = support.locator(`a[href*="/privacy/${productID}/"]`);
+    // Nocca has no published policy yet; all currently published apps do.
+    if (apps[0].status === 'published') assert.equal(await privacy.isVisible(), true);
+  }
+  return { badges, regions };
 }
 async function inspectDisclosures(page, name, screenshot, axe) {
   const disclosures = page.locator('details.app-disclosure');
@@ -62,7 +123,7 @@ async function inspectDisclosures(page, name, screenshot, axe) {
     assert.equal(await disclosure.locator('.app-showcase').isVisible(), true);
     assert.equal(await disclosure.locator('.app-description').isVisible(), true);
     assert.ok((await disclosure.locator('.app-description').textContent()).trim());
-    assert.equal(await disclosure.locator('.app-actions a.btn-primary[href^="https://apps.apple.com/"]').isVisible(), true);
+    assert.equal(await disclosure.locator('.app-actions a.app-store-badge[href^="https://apps.apple.com/"]').isVisible(), true);
     assert.equal(await disclosure.locator('.app-actions a[href*="/products/"]').isVisible(), true);
     const images = disclosure.locator('.app-screenshots img');
     assert.equal(await images.count(), 2, 'Each expanded product has two real screenshots');
@@ -70,6 +131,7 @@ async function inspectDisclosures(page, name, screenshot, axe) {
   }
   assert.equal(await page.locator('details.app-disclosure[open]').count(), 4, 'All products can remain open together');
   await loaded(page);
+  const storeControls = await inspectStoreControls(page, new URL(page.url()).pathname);
   const expanded = await page.evaluate(() => ({
     scrollWidth: document.documentElement.scrollWidth,
     viewport: innerWidth,
@@ -79,7 +141,7 @@ async function inspectDisclosures(page, name, screenshot, axe) {
   if (capture) await section.screenshot({ path: path.join(output, name + '-other-expanded.png') });
   for (const disclosure of await disclosures.all()) await disclosure.locator('summary').click();
   await page.evaluate(() => scrollTo(0, 0));
-  return { count: 4, interactions: 'passed', ...expanded };
+  return { count: 4, interactions: 'passed', storeControls, ...expanded };
 }
 (async () => {
   const browser = await chromium.launch({ headless: true, executablePath: process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' });
@@ -109,18 +171,27 @@ async function inspectDisclosures(page, name, screenshot, axe) {
       await page.addScriptTag({ content: axeSource });
       violations = await accessibility(page);
     }
+    let storeControls;
+    try { storeControls = await inspectStoreControls(page, route); }
+    catch (error) { errors.push(`Store controls: ${error.message}`); }
+    try {
+      const prefix = localeFor(route) === 'ja' ? '' : '/' + localeFor(route);
+      assert.deepEqual(await page.locator('.desktop-nav a').evaluateAll(nodes => nodes.map(n => n.getAttribute('href'))), ['products','support','news','company'].map(section => `${prefix}/${section}/`));
+      assert.deepEqual(await page.locator('.footer-top nav a').evaluateAll(nodes => nodes.map(n => ({ text: n.textContent.trim(), href: n.getAttribute('href') }))), [{ text: 'Contact', href: `${prefix}/company/#contact` }], 'Footer contains only the Contact navigation link');
+      assert.ok((await page.locator('.site-footer').textContent()).includes('Apple'), 'Official badge legal credit remains visible');
+    } catch (error) { errors.push(`Site navigation: ${error.message}`); }
     if (screenshot) {
       await page.screenshot({ path: path.join(output, name + '.png'), fullPage: true });
       await page.screenshot({ path: path.join(output, name + '-viewport.png') });
     }
     let disclosures;
-    if (/^\/(?:en\/|ko\/|de\/|zh-hant\/|fr\/)?$/.test(route)) {
+    if (homeRoute.test(route)) {
       try { disclosures = await inspectDisclosures(page, name, screenshot, axe); }
       catch (error) { errors.push(`Disclosures: ${error.message}`); }
     }
     const expandedOK = !disclosures || (disclosures.scrollWidth <= width && !disclosures.brokenImages.length && !disclosures.violations.length);
     const ok = !errors.length && !violations.length && expandedOK && layout.h1Count === 1 && layout.scrollWidth <= width && !layout.duplicateIDs.length && !layout.brokenImages.length && !layout.headingSkips.length;
-    const result = { name, route, theme, ...layout, disclosures, errors, violations, ok };
+    const result = { name, route, theme, ...layout, storeControls, disclosures, errors, violations, ok };
     results.push(result); if (!ok) failures.push(name);
     fs.writeFileSync(path.join(output, 'results.json'), JSON.stringify({ ok: false, pending: true, failures, results }, null, 2));
     console.log(JSON.stringify({ name, ok, overflow: layout.scrollWidth - width, violations: violations.map(v => v.id), headingSkips: layout.headingSkips.length }));
@@ -130,7 +201,7 @@ async function inspectDisclosures(page, name, screenshot, axe) {
     for (const theme of ['light','dark']) await inspect(`home-${device}-${theme}`, '/', width, height, theme, true);
   }
   const routes = ['/products/','/support/','/news/','/company/','/products/uni-note/','/products/oto-miru/','/products/giga-poke/','/products/nocca/','/products/uni-note-pocket/','/products/balance-calendar/','/products/smokeless/','/products/signal/','/notes/2026-09-02-giga-poke/','/htu/uni-note/','/faq/uni-note/','/privacy/uni-note/','/404.html'];
-  for (const route of routes) for (const theme of ['light','dark']) await inspect(route.replace(/\W+/g,'-') + theme, route, theme === 'light' ? 1280 : 393, 900, theme);
+  for (const route of routes) for (const theme of ['light','dark']) await inspect(route.replace(/\W+/g,'-') + theme, route, theme === 'light' ? 1280 : 393, 900, theme, route === '/products/uni-note/');
   for (const locale of ['en','ko','de','zh-hant','fr']) {
     await inspect(`locale-${locale}-home`, `/${locale}/`, 393, 852, 'light', true);
     await inspect(`locale-${locale}-products`, `/${locale}/products/`, 393, 852, 'dark');
@@ -159,9 +230,24 @@ async function inspectDisclosures(page, name, screenshot, axe) {
   await page.goto(base); await page.locator('#theme-toggle').click();
   const chosen = await page.locator('html').getAttribute('data-theme'); await page.reload();
   assert.equal(await page.locator('html').getAttribute('data-theme'), chosen);
-  // User journey: one app selection, then the existing Uni:Note guide URL.
+  // Home's app shortcut goes directly to product support, then the permanent guide URL.
+  await page.goto(base); await page.locator('.support-shortcuts a[href="/products/uni-note/#support"]').click();
+  await page.waitForURL(base + '/products/uni-note/#support');
+  await page.locator('#support a[href="/htu/uni-note/"]').click();
+  await page.waitForURL(base + '/htu/uni-note/');
+  assert.equal(await page.locator('.article-related .resource-links a[href="/htu/uni-note/"]').count(), 0, 'Legacy support navigation omits its own page');
+  // The independent Support directory still links directly to the permanent guide.
   await page.goto(base + '/support/'); await page.locator('#uni-note a[href="/htu/uni-note/"]').click();
-  await page.waitForURL(base + '/htu/uni-note/'); await context.close();
+  await page.waitForURL(base + '/htu/uni-note/');
+  for (const locale of ['ja','en','ko','de','zh-hant','fr']) {
+    const route = (locale === 'ja' ? '' : '/' + locale) + '/privacy/';
+    const response = await page.goto(base + route, { waitUntil: 'networkidle' });
+    assert.equal(response.status(), 200, 'The legacy Privacy directory remains reachable');
+    assert.match(await page.locator('meta[name="robots"]').getAttribute('content'), /noindex/);
+    assert.equal(await page.locator('.privacy-directory-links, .legacy-list article, .product-card').count(), 0, 'Privacy compatibility page does not duplicate the app list');
+    assert.equal(await page.locator('main h1').count(), 1);
+  }
+  await context.close();
   const noJS = await browser.newContext({ viewport: { width: 393, height: 852 }, javaScriptEnabled: false, colorScheme: 'dark' });
   const noPage = await noJS.newPage(); await noPage.goto(base); await noPage.waitForLoadState('networkidle');
   assert.equal(await noPage.locator('.desktop-nav').isVisible(), true);

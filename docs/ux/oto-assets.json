@@ -1,0 +1,162 @@
+{
+  "app": "oto-miru",
+  "checkedAt": "2026-09-07",
+  "submittedVersion": {
+    "version": "1.1.0",
+    "status": "審査待ち",
+    "observedVia": "Read-only existing signed-in Chrome App Store Connect UI",
+    "url": "https://appstoreconnect.apple.com/apps/6770774613/distribution/ios/version/inflight",
+    "iphoneDisplay": "6.5-inch",
+    "ipadDisplay": "13-inch",
+    "fileNames": [
+      "01_simple.png",
+      "02_standard_mode.png",
+      "03_plus_family.png",
+      "04_daily_offline.png"
+    ],
+    "selectedFileNameAndVisualMatch": true,
+    "binaryChecksumCompared": false,
+    "notes": "iPhone and iPad submission file names observed. iPhone thumbnail layout/text visually matches the current local four-image set. No save, upload, submission or review changes were performed."
+  },
+  "documentationEvidence": [
+    {
+      "path": "/Users/yuya/Projects/oto_miru/docs/APP_STORE_METADATA.md",
+      "lines": "95-126",
+      "finding": "Four-image current Free + Plus set; fresh 2026-09-06 real simulator UI; current 1284x2778 iPhone dimensions; old AI, seven-image and rejected-size sets excluded."
+    },
+    {
+      "path": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/README.md",
+      "lines": "1-46",
+      "finding": "Current four-image copy/order and local raw source provenance; caption sample is Debug seed text, not speech accuracy proof."
+    },
+    {
+      "path": "/Users/yuya/Projects/oto_miru/CHANGELOG_AI.md",
+      "lines": "31-60",
+      "finding": "2026-09-06 refresh and exact submitted file dimensions; historical sets quarantined."
+    }
+  ],
+  "freshness": "Supersedes previously used published 1.0.1 website imagery. Current ASC 1.1.0 waiting-for-review UI identifies the new four-image set; local metadata statement saying not submitted is stale.",
+  "selection": "Choose 01_simple and 04_daily_offline to show simple operation plus actual large captions. Do not use historical AI material. Hero uses the same current raw home as 01_simple; it is an existing captured app UI, only resized and compressed.",
+  "transformations": "Aspect-preserving resize and WebP quality 88 effort 6 only; no redraw, generated UI, crop, rotation or copy change.",
+  "registeredURLsObserved": {
+    "support": "https://kumakikai.github.io/notes/2026-05-19-oto-miru/",
+    "marketing": "https://kumakikai.github.io/"
+  },
+  "assets": [
+    {
+      "role": "screenshot-1",
+      "source": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/final/iphone_1284x2778_candidates/01_simple.png",
+      "sourceSHA256": "a4445bd1d0578790190fab18716886879b3199f449619176ce6f5b24d92b599b",
+      "sourceMD5": "403daefab16c7419f4edc775533957c7",
+      "sourceWidth": 1284,
+      "sourceHeight": 2778,
+      "sourceSpace": "srgb",
+      "sourceHasAlpha": false,
+      "description": "大きなテレビ・会話・グループボタンがあるオトミルのシンプルモード。見出し「聞こえにくいを、もっと簡単に。」",
+      "outputs": [
+        {
+          "path": "/images/apps/oto-miru/review-20260906-simple-420.webp",
+          "width": 420,
+          "height": 909,
+          "bytes": 24282,
+          "sha256": "a48cbe917944ef58d922a9f633b0c325cad91f1fd10966c2b87cfc5808c4a1ad"
+        },
+        {
+          "path": "/images/apps/oto-miru/review-20260906-simple-840.webp",
+          "width": 840,
+          "height": 1817,
+          "bytes": 54486,
+          "sha256": "8675bbc83794bb4ac907c7338cd037f15ee9ab64821a6a9b43719904f5e47003"
+        }
+      ]
+    },
+    {
+      "role": "screenshot-2",
+      "source": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/final/iphone_1284x2778_candidates/04_daily_offline.png",
+      "sourceSHA256": "d6ab259eb0195f6ac3ee6f19297c65416b7276c4bfa2456ec3cf15ba5fa04e47",
+      "sourceMD5": "84a14459c94b759a4522d00b36f24b1f",
+      "sourceWidth": 1284,
+      "sourceHeight": 2778,
+      "sourceSpace": "srgb",
+      "sourceHasAlpha": false,
+      "description": "病院での会話を大きな字幕で表示するオトミル。見出し「聞き取りにくい会話を、文字で確認。」",
+      "outputs": [
+        {
+          "path": "/images/apps/oto-miru/review-20260906-daily-offline-420.webp",
+          "width": 420,
+          "height": 909,
+          "bytes": 24766,
+          "sha256": "385bd8eed5a9ccbb3c0d80202c802c24bf6c83f17692a394bc40762959e7b435"
+        },
+        {
+          "path": "/images/apps/oto-miru/review-20260906-daily-offline-840.webp",
+          "width": 840,
+          "height": 1817,
+          "bytes": 57324,
+          "sha256": "674a04b42ab156bdead1516b2f378df9d9aea44f80112e52239d0b0f92ae99c7"
+        }
+      ]
+    },
+    {
+      "role": "hero",
+      "source": "/Users/yuya/Projects/oto_miru/tmp_appstore_screenshots/refresh_2026_09_05/raw/iphone/01_senior_home_free.png",
+      "sourceSHA256": "83d4a241284f0dfad9b3028734ede31e890f00876dcf951e647a80b844d291de",
+      "sourceMD5": "a25bceca3a009a06e56ca24a1b8ccf9b",
+      "sourceWidth": 1170,
+      "sourceHeight": 2532,
+      "sourceSpace": "srgb",
+      "sourceHasAlpha": true,
+      "description": "テレビ・会話・グループを大きなボタンで選べる、オトミルのシンプルモードの実画面。",
+      "outputs": [
+        {
+          "path": "/images/apps/oto-miru/review-20260906-home-320.webp",
+          "width": 320,
+          "height": 693,
+          "bytes": 14346,
+          "sha256": "1dfd6f4ff8d58e3da8bbb8581f0c0a220597fa299f5133e07b5ff38701a810c2"
+        },
+        {
+          "path": "/images/apps/oto-miru/review-20260906-home-640.webp",
+          "width": 640,
+          "height": 1385,
+          "bytes": 32082,
+          "sha256": "a1ca75bdb8f272f60e2050aa49bc94452d9d2ac63b278124385ba4ce0d3fb75d"
+        }
+      ]
+    }
+  ],
+  "suggestedImageAlts": {
+    "ja": [
+      "テレビ・会話・グループを大きなボタンで選べる、オトミルのシンプルモード",
+      "病院での会話を大きな字幕で表示するオトミルのApp Storeスクリーンショット"
+    ],
+    "en": [
+      "OtoMiru simple mode with large buttons for television, conversations and groups",
+      "OtoMiru App Store screenshot showing a medical appointment conversation in large captions"
+    ],
+    "de": [
+      "OtoMiru im einfachen Modus mit großen Tasten für Fernsehen, Gespräche und Gruppen",
+      "App-Store-Screenshot von OtoMiru mit einem Gespräch über einen Arzttermin in großer Schrift"
+    ],
+    "fr": [
+      "Mode simple d’OtoMiru avec de grands boutons pour la télévision, les conversations et les groupes",
+      "Capture App Store d’OtoMiru montrant une conversation sur un rendez-vous médical en grands sous-titres"
+    ],
+    "ko": [
+      "TV, 대화, 그룹을 큰 버튼으로 선택하는 오토미루의 심플 모드",
+      "병원 예약 관련 대화를 큰 자막으로 보여 주는 오토미루 App Store 스크린샷"
+    ],
+    "zh-hant": [
+      "OtoMiru 簡易模式，以大型按鈕選擇電視、對話和群組",
+      "OtoMiru App Store 螢幕截圖，以大型字幕顯示醫療預約對話"
+    ]
+  },
+  "suggestedHeroAlts": {
+    "ja": "テレビ・会話・グループを大きなボタンで選べるオトミルのシンプルモード",
+    "en": "OtoMiru simple mode with large television, conversation and group buttons",
+    "de": "OtoMiru im einfachen Modus mit großen Tasten für Fernsehen, Gespräche und Gruppen",
+    "fr": "Mode simple d’OtoMiru avec de grands boutons pour la télévision, les conversations et les groupes",
+    "ko": "TV, 대화, 그룹을 큰 버튼으로 선택하는 오토미루의 심플 모드",
+    "zh-hant": "OtoMiru 簡易模式，以大型按鈕選擇電視、對話和群組"
+  }
+}

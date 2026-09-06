@@ -1,0 +1,10 @@
+{{- /* One category contract for lists, article headers, breadcrumbs, and SEO. */ -}}
+{{- $meta := dict -}}
+{{- with .File -}}
+  {{- $meta = index site.Data.news .ContentBaseName | default dict -}}
+{{- end -}}
+{{- $id := .Params.news_category | default $meta.category | default "information" -}}
+{{- $corp := index site.Data.corporate site.Language.Lang -}}
+{{- $labels := dict "press-release" $corp.pressRelease "blog" $corp.blog "information" $corp.information -}}
+{{- if not (isset $labels $id) -}}{{- $id = "information" -}}{{- end -}}
+{{- return (dict "id" $id "label" (index $labels $id)) -}}

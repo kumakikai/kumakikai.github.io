@@ -1,5 +1,6 @@
-{{ $corp := index site.Data.corporate site.Language.Lang }}
+{{ $ui := index site.Data.ux site.Language.Lang }}
 <footer class="site-footer"><div class="container">
-  <div class="footer-top"><a class="wordmark" href="{{ "/" | relLangURL }}">KUMAKIKAI</a><nav aria-label="Footer">{{ range slice "products" "support" "news" "company" }}<a href="{{ printf "/%s/" . | relLangURL }}">{{ index $corp.nav . }}</a>{{ end }}<a href="{{ "/company/" | relLangURL }}#contact">Contact</a><a href="{{ "/privacy/" | relLangURL }}">Privacy</a></nav></div>
-  <div class="footer-bottom"><p>© {{ now.Year }} KUMAKIKAI</p><p>iPhone & iPad Apps</p></div>
+  <div class="footer-top"><a class="wordmark" href="{{ "/" | relLangURL }}">KUMAKIKAI</a><nav aria-label="Footer"><a href="{{ "/company/" | relLangURL }}#contact">Contact</a></nav></div>
+  <div class="footer-bottom"><p>© {{ now.Year }} KUMAKIKAI</p></div>
+  <p class="footer-trademarks">{{ $ui.appleCredit }}</p>
 </div></footer>

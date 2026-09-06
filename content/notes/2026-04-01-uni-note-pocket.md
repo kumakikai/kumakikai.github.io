@@ -1,5 +1,5 @@
 ---
-title: "Uni:Note Pocket を作りました"
+title: "Uni:Note Pocketについて"
 date: 2026-04-01
 ---
 

@@ -104,6 +104,9 @@ Other Appsの実画面も同じ画像データからHomeとProduct詳細へ反�
 - 開発中アプリにはApp Store URLを設定しません。Download／Store CTAも表示しません。
 - `availability.verifiedStorefronts`には実際に確認できた地域だけを記録します。`coverage: "partial"`は全世界の提供状況を確認済みという意味ではありません。
 - 現在のCTAは確認済みの**日本のApp Store**を指します。サイトの表示言語を変更しても、未確認の地域URLを自動生成しません。
+- Primary CTAにはApple公式の黒背景SVGを使用します。`data/app-store-badges.json`に6言語の配布元・寸法・SHA256、`static/images/badges/`に無改変の原本があります。表示言語はバッジの言語だけに対応し、リンク先の地域は変更しません。
+- 国旗リンクは`availability.storefrontURLs`に保存したApple Lookup返却URLを使います。国コードを差し替えてURLを生成せず、提供とリンク先を確認した地域だけ登録してください。原本と確認済みURLは`npm run verify`でも照合します。
+- `screenshotsStatus: "review"`は審査提出版の画像を表示する場合に設定します。公開中アプリの`status`と区別し、公開されていない機能を公開版の事実と混同しません。
 - `checkedAt`と確認根拠を更新し、[提供地域の調査記録](docs/migration/availability.md)も参照します。
 
 ## News／Press Releaseを追加する
@@ -121,7 +124,7 @@ draft: true
 ---
 ```
 
-カテゴリは`information`または`press-release`を使います。関連プロダクトがなければ`related_products`は省略できます。本文を記入し、公開時は`draft: false`に変更します。Hugoは通常、未来の日付の記事を公開対象に含めません。
+カテゴリは正式なアプリ紹介・発表の`press-release`、開発・運営の読み物の`blog`、利用者へのサービス告知の`information`を使います。画面の表記は全言語でPress Release／Blog／Informationに統一します。該当する告知がなければInformationは0件で構いません。発表記事のタイトルは「正式アプリ名＋について」とし、既存URLを維持します。関連プロダクトがなければ`related_products`は省略できます。本文を記入し、公開時は`draft: false`に変更します。Hugoは通常、未来の日付の記事を公開対象に含めません。
 
 必要に応じて`lastmod`に実際の更新日時を設定できます。記事ごとのOGPには次のように`static/`以下の画像を指定します。未指定時は関連プロダクトのOGP、または共通OGPを使います。
 
@@ -136,6 +139,10 @@ images: ["/images/og/uni-note.png"]
 ## URL・コンテンツの互換性
 
 既存の`/htu/`、`/faq/`、`/privacy/`、`/terms/`、`/notes/`と各言語URLはApp Store Connectや外部記事から参照されている可能性があります。ファイル名・slugを変更する場合は、旧URLを維持するかHugoの`aliases`で到達可能にしてください。各アプリのPrivacy／Termsは統合しません。
+
+Product下部の`#support`は使い方・FAQ・問い合わせ・Privacyへ直接案内します。ProductからSupport一覧へ移動して同じアプリを再選択させないでください。サイト全体の4セクションはHeader、Footerは会社Contactだけを担当します。`/privacy/`集約URLは古い参照の互換用にHTTP成功を維持し、簡潔な案内と`noindex`を付けます。アプリ別Privacy本文は変更せず、Footerから集約ページへ誘導しません。
+
+今回の素材・CTA・News・Privacy・Footerの監査と変更一覧は[UX修正レポート](docs/ux/REPORT.md)を参照してください。
 
 `docs/migration/baseline.json`は移行前の191 HTML URL、記事本文・アンカー等を保存した検証基準です。`npm run verify`で既存コンテンツ、新しいProduct／主要一覧、内部参照、Store CTA、SEO・OGP、sitemap・robotsを検査します。
 
