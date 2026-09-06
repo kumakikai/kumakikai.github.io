@@ -68,6 +68,7 @@ npm run verify
 | `data/home/<lang>.json` | 6言語の既存トップコピー、アプリ名・説明・対応端末・画像alt |
 | `data/product_details/<id>.json` | 各Product専用の概要・機能・画像付き紹介・利用シーン・確認済み対応OS |
 | `data/product_ui/<lang>.json` | Product詳細の見出し・基本情報ラベル・下部CTAの6言語コピー |
+| `data/company/<lang>.json` | 6言語の会社紹介、公開許可済みFounder、開発方針、For Media、News絞り込みラベル |
 | `data/corporate/<lang>.json` | 6言語のナビゲーション、会社紹介、各一覧・CTAのコピー |
 | `data/theme.json` | Hugoplateの色・フォント・文字サイズtoken |
 | `data/hero.json` | 実UIを使ったHero画像の寸法、responsive画像、alt |
@@ -151,6 +152,16 @@ images: ["/images/og/uni-note.png"]
 
 既存の`content/notes/`記事をNewsへ表示するために移動する必要はありません。`/notes/.../`を維持したままNews一覧へ集約します。旧記事のカテゴリ・関連アプリは`data/news.json`、新記事はfront matterで管理できます。
 
+Newsの`#press-release`・`#blog`・`#information`は同じ一覧のカテゴリー絞り込みです。`#all-news`で全記事へ戻ります。CSSの`:target`／`:has()`で動作し、JavaScriptや重複したカテゴリー一覧ページは追加しません。Companyの取材・開発記事リンクもこの直接URLを使います。記事がないカテゴリーには件数を埋めるための記事を作らず、空の状態を表示します。
+
+## Company・公開プロフィールを編集する
+
+`data/company/`の6言語を編集します。氏名・肩書き・経歴は、本人が公開を許可した事実または確認できる既存公開情報に限定してください。今回の出典と非掲載判断は[Company拡張レポート](docs/company/REPORT.md)と[根拠](docs/company/evidence.json)に記録しています。名刺の電話番号と名刺全体はWebへ掲載しません。人物素材は元素材と利用権を確認できた場合だけ追加します。
+
+公開プロダクト数は`data/apps.json`の`status: published`を集計します。Companyの3つの開発領域は同じProduct IDからアイコン・名称・端末・リンクを参照します。実績のために未確認のDL数、勤務先・経験年数・学歴、法人格・所在地等を追加しないでください。主要CTAは末尾の既存メール窓口です。For Mediaから同じページの`#contact`へ直接移動できます。
+
+CompanyのSEO説明は`data/corporate/<lang>.json`の`companyDescription`で管理し、変更時は`npm run sync:products`を実行します。Companyだけに公開許可済みFounderのPerson情報をOrganization schemaへ補足しています。
+
 ## URL・コンテンツの互換性
 
 既存の`/htu/`、`/faq/`、`/privacy/`、`/terms/`、`/notes/`と各言語URLはApp Store Connectや外部記事から参照されている可能性があります。ファイル名・slugを変更する場合は、旧URLを維持するかHugoの`aliases`で到達可能にしてください。各アプリのPrivacy／Termsは統合しません。
@@ -198,6 +209,8 @@ GitHub Pagesは既存の`gh-pages`公開方式を維持します。生成物を�
 ```sh
 NODE_PATH=/path/to/qa/node_modules node scripts/verify-browser.cjs
 ```
+
+Companyの公開プロフィール、取材導線、News絞り込みを確認する場合は、同じQA依存で`node scripts/verify-company.cjs`を実行します。6言語・Desktop／Mobile・JavaScript無効時を含む44条件を確認し、結果を`docs/company/browser-verification.json`、画像を`artifacts/company/browser/`へ保存します。
 
 既定の表示先は`http://127.0.0.1:1314`、Chromeの場所は`CHROME_PATH`、表示先は`TEST_BASE_URL`で変更できます。結果は`artifacts/migration/browser/`へ保存します。
 

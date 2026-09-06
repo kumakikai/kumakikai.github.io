@@ -1,0 +1,344 @@
+{
+  "checkedAt": "2026-09-07",
+  "scope": "Japanese Company page on local production build, http://127.0.0.1:1314/company/",
+  "method": "Lighthouse 12.8.2 using existing installed Google Chrome. Desktop preset and default Mobile simulation, run sequentially once per mode. No dependency installation, UI edits or repeated score tuning.",
+  "status": "complete",
+  "results": {
+    "desktop": {
+      "fetchTime": "2026-09-06T18:02:14.493Z",
+      "lighthouseVersion": "12.8.2",
+      "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "requestedURL": "http://127.0.0.1:1314/company/",
+      "finalURL": "http://127.0.0.1:1314/company/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCPms": 321.9235,
+        "CLS": 0,
+        "TBTms": 0,
+        "FCPms": 281.9235,
+        "speedIndexMs": 281.9235
+      },
+      "config": {
+        "formFactor": "desktop",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        }
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "LCPElement": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": "Element"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-0-P",
+                  "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,P",
+                  "selector": "div.container > section.company-about > div > p",
+                  "boundingRect": {
+                    "top": 438,
+                    "bottom": 530,
+                    "left": 626,
+                    "right": 1188,
+                    "width": 561,
+                    "height": 92
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "KUMAKIKAIは、iPhone・iPad向けのアプリを企画・開発・運営しています。授業でノートを取る、聞き取りづらい会話を文字で確認する、届いた特典コード…"
+                }
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "phase",
+                "valueType": "text",
+                "label": "Phase"
+              },
+              {
+                "key": "percent",
+                "valueType": "text",
+                "label": "% of LCP"
+              },
+              {
+                "key": "timing",
+                "valueType": "ms",
+                "label": "Timing"
+              }
+            ],
+            "items": [
+              {
+                "phase": "TTFB",
+                "timing": 120.96175,
+                "percent": "38%"
+              },
+              {
+                "phase": "Load Delay",
+                "timing": 0,
+                "percent": "0%"
+              },
+              {
+                "phase": "Load Time",
+                "timing": 0,
+                "percent": "0%"
+              },
+              {
+                "phase": "Render Delay",
+                "timing": 200.96175,
+                "percent": "62%"
+              }
+            ]
+          }
+        ]
+      },
+      "LCPImageLazyAudit": {
+        "score": null,
+        "mode": "notApplicable"
+      },
+      "scripts": [
+        {
+          "url": "http://127.0.0.1:1314/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+          "resourceBytes": 1634
+        }
+      ],
+      "stylesheets": [
+        {
+          "url": "http://127.0.0.1:1314/css/main.21da934947b48a661e406d273594b9f894964551d391ca245aa5864756385ad7.css",
+          "resourceBytes": 59535
+        }
+      ],
+      "imageResources": [
+        {
+          "url": "http://127.0.0.1:1314/favicon.svg",
+          "resourceBytes": 191
+        },
+        {
+          "url": "http://127.0.0.1:1314/images/apps/uni-note/icon.webp",
+          "resourceBytes": 758
+        },
+        {
+          "url": "http://127.0.0.1:1314/images/apps/oto-miru/icon.webp",
+          "resourceBytes": 4388
+        },
+        {
+          "url": "http://127.0.0.1:1314/images/apps/giga-poke/icon.webp",
+          "resourceBytes": 2292
+        }
+      ],
+      "artifacts": {
+        "json": "artifacts/company/lighthouse/company-desktop.report.json",
+        "html": "artifacts/company/lighthouse/company-desktop.report.html",
+        "jsonSHA256": "f570c2424ea026b446a47289fe88ac848c00327db4d01cce63fef055436202a1"
+      }
+    },
+    "mobile": {
+      "fetchTime": "2026-09-06T18:02:47.705Z",
+      "lighthouseVersion": "12.8.2",
+      "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "requestedURL": "http://127.0.0.1:1314/company/",
+      "finalURL": "http://127.0.0.1:1314/company/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "LCPms": 1276.8753,
+        "CLS": 0,
+        "TBTms": 0,
+        "FCPms": 1051.8753,
+        "speedIndexMs": 1051.8753
+      },
+      "config": {
+        "formFactor": "mobile",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        }
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "LCPElement": {
+        "type": "list",
+        "items": [
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "label": "Element"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "page-0-P",
+                  "path": "1,HTML,1,BODY,3,MAIN,0,DIV,1,SECTION,1,DIV,0,P",
+                  "selector": "div.container > section.company-about > div > p",
+                  "boundingRect": {
+                    "top": 510,
+                    "bottom": 663,
+                    "left": 22,
+                    "right": 390,
+                    "width": 368,
+                    "height": 154
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "KUMAKIKAIは、iPhone・iPad向けのアプリを企画・開発・運営しています。授業でノートを取る、聞き取りづらい会話を文字で確認する、届いた特典コード…"
+                }
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "headings": [
+              {
+                "key": "phase",
+                "valueType": "text",
+                "label": "Phase"
+              },
+              {
+                "key": "percent",
+                "valueType": "text",
+                "label": "% of LCP"
+              },
+              {
+                "key": "timing",
+                "valueType": "ms",
+                "label": "Timing"
+              }
+            ],
+            "items": [
+              {
+                "phase": "TTFB",
+                "timing": 450.93765,
+                "percent": "35%"
+              },
+              {
+                "phase": "Load Delay",
+                "timing": 0,
+                "percent": "0%"
+              },
+              {
+                "phase": "Load Time",
+                "timing": 0,
+                "percent": "0%"
+              },
+              {
+                "phase": "Render Delay",
+                "timing": 825.9376499999998,
+                "percent": "65%"
+              }
+            ]
+          }
+        ]
+      },
+      "LCPImageLazyAudit": {
+        "score": null,
+        "mode": "notApplicable"
+      },
+      "scripts": [
+        {
+          "url": "http://127.0.0.1:1314/js/site.min.45f653ceef34356721acab4cc607dcc3dea18635b2ca72dbd81aefd866bb3f1a.js",
+          "resourceBytes": 1634
+        }
+      ],
+      "stylesheets": [
+        {
+          "url": "http://127.0.0.1:1314/css/main.21da934947b48a661e406d273594b9f894964551d391ca245aa5864756385ad7.css",
+          "resourceBytes": 59535
+        }
+      ],
+      "imageResources": [
+        {
+          "url": "http://127.0.0.1:1314/favicon.svg",
+          "resourceBytes": 191
+        },
+        {
+          "url": "http://127.0.0.1:1314/images/apps/uni-note/icon.webp",
+          "resourceBytes": 758
+        },
+        {
+          "url": "http://127.0.0.1:1314/images/apps/oto-miru/icon.webp",
+          "resourceBytes": 4388
+        },
+        {
+          "url": "http://127.0.0.1:1314/images/apps/giga-poke/icon.webp",
+          "resourceBytes": 2292
+        }
+      ],
+      "artifacts": {
+        "json": "artifacts/company/lighthouse/company-mobile.report.json",
+        "html": "artifacts/company/lighthouse/company-mobile.report.html",
+        "jsonSHA256": "acb00b225783d5d50df338316f4b35f95ba4e35b76a55031e3dbc7362053bbcc"
+      }
+    }
+  },
+  "criticalFindings": [],
+  "nonBlockingObservations": [
+    {
+      "id": "local-server-cache-and-compression",
+      "assessment": "The local HTTP server supplies no cache lifetime or text compression. Approximately 55 KiB text compression savings and missing asset cache lifetimes are local-server diagnostics, not verified GitHub Pages production defects."
+    },
+    {
+      "id": "render-blocking-stylesheet",
+      "assessment": "One same-origin stylesheet is render-blocking. Both runs score 100 in all four categories with zero CLS/TBT. No CSS architecture change is proposed."
+    },
+    {
+      "id": "small-icon-image-sizing",
+      "assessment": "Lighthouse identifies approximately 4 KiB potential savings in the OtoMiru icon displayed at 48 CSS pixels. It is below the fold, retains dimensions and lazy loading, and is not the LCP element. No asset change is needed for this small diagnostic."
+    }
+  ],
+  "lazyLoadingAssessment": "The LCP is text rather than an image. lcp-lazy-loaded is notApplicable in both runs. The three product icons retain lazy loading; image requests observed during Lighthouse gathering are not evidence of a broken lazy-loading implementation.",
+  "scriptAssessment": "Both runs load only the existing site.min.js (1,634 resource bytes); no Company-specific JS was observed.",
+  "limitations": [
+    "These are local single-run lab results, not GitHub Pages CDN measurements, real-device tests or field Core Web Vitals.",
+    "Only Japanese Company Desktop and Mobile are measured by Lighthouse here. Browser verification of all six locales and other viewports is handled separately.",
+    "Raw JSON and HTML are retained under ignored artifacts/company/lighthouse; the summary preserves metrics, audit context, resource paths and raw JSON hashes."
+  ]
+}

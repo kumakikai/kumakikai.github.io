@@ -173,11 +173,64 @@ body.menu-open { overflow: hidden; }
 .contact-panel { margin-top: 65px; border-top: 1px solid var(--line); }
 .contact-panel h2 { font-size: 1.75rem; }
 .contact-panel > p:not(.eyebrow) { color: var(--muted); margin-block: 20px 28px; max-width: 650px; font-size: .95rem; }
-.company-page { max-width: 960px !important; padding-bottom: 30px; }
+.company-page { max-width: 1120px !important; padding-bottom: 30px; }
 .company-facts div { display: grid; grid-template-columns: 220px 1fr; gap: 30px; padding: 30px 0; border-top: 1px solid var(--line); }
 .company-facts dt { color: var(--muted); font-size: .88rem; }
 .company-facts dd { font-size: .96rem; }
 .company-facts a { text-decoration: underline; }
+.company-section { padding-block: 64px; border-top: 1px solid var(--line); }
+.company-section h2,.company-profile h2 { font-size: clamp(1.6rem,2.4vw,2rem); font-weight: 680; line-height: 1.6; }
+.company-section p,.founder-bio > p { color: var(--muted); font-size: .96rem; line-height: 2; }
+.company-about,.company-media { display: grid; grid-template-columns: .85fr 1.15fr; gap: 64px; }
+.company-about p + p,.founder-bio > p + p { margin-top: 18px; }
+.company-profile { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; padding: 48px; margin: 8px 0 64px; background: var(--surface-soft); border-radius: 22px; }
+.company-profile h2 { font-size: 1.13rem; letter-spacing: 0; }
+.founder-identity h3 { font-size: 2.2rem; font-weight: 680; margin-top: 26px; }
+.founder-english { font-size: 1.08rem; margin-top: 5px; }
+.founder-role { font-size: .87rem; margin-top: 15px; line-height: 1.8; color: var(--muted); }
+.founder-experience { margin-top: 25px; border-top: 1px solid var(--line); padding-top: 20px; font-size: .77rem; line-height: 1.9; color: var(--muted); }
+.founder-experience > div + div { margin-top: 14px; }
+.founder-experience dt { color: var(--ink); font-weight: 600; margin-bottom: 3px; }
+.company-build-intro { max-width: 760px; margin-top: 20px; }
+.company-areas { list-style: none; padding: 0; margin: 32px 0 20px; }
+.company-areas li { display: grid; grid-template-columns: 1.4fr 1fr; align-items: center; gap: 70px; padding-block: 28px; border-top: 1px solid var(--line); }
+.company-areas h3,.company-philosophy h3 { font-size: 1.08rem; font-weight: 650; line-height: 1.7; margin-bottom: 10px; }
+.company-areas p,.company-philosophy li p { font-size: .9rem; }
+.company-product-link { display: flex; align-items: center; gap: 16px; font-size: .95rem; min-height: 64px; }
+.company-product-link img { border-radius: 10px; flex: none; }
+.company-product-link > span:last-child { margin-left: auto; color: var(--accent); }
+.company-product-link:hover { color: var(--accent); }
+.company-product-platform { display: block; font-size: .74rem; color: var(--muted); margin-top: 3px; }
+.company-philosophy ul { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 32px; list-style: none; padding: 0; margin: 32px 0 20px; }
+.company-philosophy li { border-top: 1px solid var(--line); padding-top: 24px; }
+.company-media .app-actions { margin-top: 20px; gap: 8px 24px; }
+.company-information { padding-bottom: 0; }
+.company-information h2 { margin-bottom: 28px; }
+.company-page .contact-panel { margin-top: 40px; }
+.news-filters { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-bottom: 28px; }
+.news-filters a { display: inline-flex; align-items: center; min-height: 44px; padding: 6px 2px; border-bottom: 2px solid transparent; font-size: .83rem; color: var(--muted); }
+.news-filters a:hover { color: var(--accent); }
+.news-filters a:target,.news-directory:not(:has(#press-release:target,#blog:target,#information:target)) #all-news { color: var(--ink); border-color: var(--ink); font-weight: 650; }
+.news-directory:has(#press-release:target) .news-row:not([data-category="press-release"]),.news-directory:has(#blog:target) .news-row:not([data-category="blog"]),.news-directory:has(#information:target) .news-row:not([data-category="information"]) { display: none; }
+.news-filter-empty { display: none; padding-block: 25px; color: var(--muted); font-size: .94rem; }
+.news-directory:has(#press-release:target) .news-filter-empty[data-category="press-release"],.news-directory:has(#blog:target) .news-filter-empty[data-category="blog"],.news-directory:has(#information:target) .news-filter-empty[data-category="information"] { display: block; }
+@media (max-width: 900px) {
+  .company-about,.company-media { gap: 36px; }
+  .company-profile { padding: 32px; gap: 32px; grid-template-columns: .8fr 1.2fr; }
+  .company-areas li { gap: 40px; }
+}
+@media (max-width: 720px) {
+  .company-section { padding-block: 44px; }
+  .company-about,.company-media,.company-profile,.company-areas li,.company-philosophy ul { grid-template-columns: 1fr; }
+  .company-about,.company-media { gap: 22px; }
+  .company-profile { padding: 28px 24px; gap: 30px; margin-bottom: 44px; }
+  .founder-identity h3 { font-size: 1.95rem; margin-top: 20px; }
+  .company-areas li { gap: 20px; }
+  .company-product-link { max-width: 360px; }
+  .company-philosophy ul { gap: 24px; }
+  .company-information { padding-bottom: 0; }
+  .company-page .contact-panel { margin-top: 28px; }
+}
 .breadcrumbs { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; color: var(--muted); font-size: .75rem; padding-block: 35px 0; }
 .breadcrumbs a:hover { color: var(--accent); }
 .product-intro { display: grid; grid-template-columns: 1fr 1.1fr; gap: 65px; align-items: center; padding: 60px 0 70px; }

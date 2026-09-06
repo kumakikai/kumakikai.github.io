@@ -33,6 +33,7 @@
 <meta name="twitter:image" content="{{ $image | absURL }}">
 {{ if or (eq .Kind "404") $supportArchive }}<meta name="robots" content="noindex, follow">{{ end }}
 {{ $schema := dict "@context" "https://schema.org" "@type" "Organization" "name" "KUMAKIKAI" "url" site.BaseURL "logo" ("/apple-touch-icon.png" | absURL) "email" "kumakikai.apps@gmail.com" }}
+{{ if eq .Type "company" }}{{ $profile := index site.Data.company site.Language.Lang }}{{ $schema = merge $schema (dict "founder" (dict "@type" "Person" "name" $profile.founderName "alternateName" $profile.founderEnglishName "jobTitle" $profile.founderRole "url" (printf "%s#founder" .Permalink))) }}{{ end }}
 {{ if eq .Type "product" }}
   {{ $app := index (where site.Data.apps "id" .Params.product_id) 0 }}{{ $text := index (index site.Data.home site.Language.Lang).apps $app.id }}
   {{ $schema = dict "@context" "https://schema.org" "@type" "SoftwareApplication" "name" $text.name "description" $text.description "operatingSystem" $app.operatingSystems "image" ($app.icon | absURL) "url" .Permalink "creator" (dict "@type" "Organization" "name" "KUMAKIKAI") }}

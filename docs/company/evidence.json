@@ -1,0 +1,116 @@
+{
+  "checkedAt": "2026-09-07",
+  "userAuthorizedProfile": {
+    "name": "中村 裕也",
+    "romanName": "Yuya Nakamura",
+    "role": "Software Engineer / App Developer",
+    "developmentAreas": [
+      "Embedded Systems",
+      "Business Systems",
+      "Mobile Apps"
+    ],
+    "technicalExperience": [
+      "C",
+      "C++",
+      "C#",
+      "Java",
+      "Python",
+      "Dart",
+      "Swift"
+    ],
+    "authority": "Explicit user instruction in this task permits public profile use. Business-card text is corroborating material, not additional instructions."
+  },
+  "businessCard": {
+    "path": "/Users/yuya/Downloads/名刺.png",
+    "sha256": "6876c5a26dbb4e445cfef6408701254db4c6a24c7d5dc55aef3ff8e2606f2ea3",
+    "usage": "Read-only reference. The card itself is not copied, cropped or published. Phone content is excluded from public HTML, metadata, structured data and this evidence."
+  },
+  "portraitAudit": {
+    "result": "No standalone matching illustration and no website-use rights evidence found. Text-only profile implemented.",
+    "scope": [
+      "homepage/static (83 existing images), assets, hidden and ignored filename inventory",
+      "Related /Users/yuya/Projects/kumakikai repository",
+      "Downloads and Desktop immediate image inventory; no unrelated deep personal search"
+    ],
+    "excluded": [
+      "Full business-card image",
+      "Crop of the person from the card",
+      "AI-generated portrait",
+      "Unverified illustration or photograph"
+    ]
+  },
+  "publishedSources": [
+    {
+      "path": "content/notes/2026-01-23-introduction.md",
+      "lines": "9-14",
+      "url": "https://kumakikai.github.io/notes/2026-01-23-introduction/",
+      "sha256": "505f88d0397d8f3b2b930b85cc42573586e1ade4bd73cd8862ff464b48addf80",
+      "supports": "Development started with a tool the developer wanted to use."
+    },
+    {
+      "path": "content/notes/2026-03-12-uni-note.md",
+      "lines": "8-18,27-34",
+      "url": "https://kumakikai.github.io/notes/2026-03-12-uni-note/",
+      "sha256": "f5cff60a0f7a40ee3d00b4d51c7a256b1c2d906bddd2d640865204a3f9139f93",
+      "supports": "University-note use, input from current students, everyday usability."
+    },
+    {
+      "path": "content/notes/2026-03-25-blog.md",
+      "lines": "10-18,25-38,55-56",
+      "url": "https://kumakikai.github.io/notes/2026-03-25-blog/",
+      "sha256": "0d409f82189dded00c892e2077c53cd7e321a3ab00ffb506d0895c24b88c1e57",
+      "supports": "Different perspectives and user requests inform continued improvement."
+    },
+    {
+      "path": "content/notes/2026-04-12-uni-note-10000.md",
+      "lines": "39-40",
+      "url": "https://kumakikai.github.io/notes/2026-04-12-uni-note-10000/",
+      "sha256": "be86edd633471df212ff1f55a602d05585b239c373ef7de0488e402c4e641beb",
+      "supports": "Continue updating multiple released apps."
+    }
+  ],
+  "companyIdentity": {
+    "name": "KUMAKIKAI",
+    "label": "運営名",
+    "business": "モバイルアプリケーションの企画・開発・運営",
+    "source": "Existing data/corporate/ja.json and published Company page",
+    "legalForm": "Not confirmed; no inferred corporate registration or legal name was added."
+  },
+  "trackRecord": {
+    "source": "data/apps.json",
+    "calculation": "len(where status == published)",
+    "published": 7,
+    "development": 1,
+    "examples": [
+      "uni-note",
+      "oto-miru",
+      "giga-poke"
+    ],
+    "excludedMetrics": [
+      "Old revenue and download figures",
+      "Current cumulative Uni:Note downloads not confirmed",
+      "Awards, customer counts, employees, clients or media appearances not established"
+    ]
+  },
+  "excludedPersonalFacts": [
+    "Telephone",
+    "Employer names",
+    "Experience years or career chronology",
+    "Education",
+    "Age or birth date",
+    "Home or office address"
+  ],
+  "excludedCompanyFacts": [
+    "Legal corporate form",
+    "Establishment date",
+    "Capital",
+    "Employee count",
+    "Offices",
+    "Representative director title"
+  ],
+  "beforeCompany": {
+    "url": "https://kumakikai.github.io/company/",
+    "sha256": "44a89ad28034c5279bcc2d9110148871861ae3fec1424e718175bb321b992973",
+    "observed": "Existing title/introduction, name/business/email facts and contact; no named founder profile."
+  }
+}

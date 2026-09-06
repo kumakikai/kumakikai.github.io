@@ -1,0 +1,249 @@
+{
+  "ok": true,
+  "pending": false,
+  "cases": 4,
+  "base": "http://127.0.0.1:1314",
+  "publishedCount": 7,
+  "categoryCountsByLocale": {
+    "ja": {
+      "press-release": 8,
+      "blog": 7,
+      "information": 0,
+      "all-news": 15
+    }
+  },
+  "newsCountSource": "Initial unfiltered DOM in each locale; existing metadata entries remain required.",
+  "failures": [],
+  "results": [
+    {
+      "name": "news-ja-desktop-light",
+      "locale": "ja",
+      "kind": "news",
+      "route": "/news/",
+      "width": 1280,
+      "height": 900,
+      "theme": "light",
+      "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 7,
+        "information": 0,
+        "all-news": 15
+      },
+      "states": [
+        {
+          "category": "all-news",
+          "count": 15,
+          "width": 1280,
+          "scrollWidth": 1280,
+          "height": 1928,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": [],
+          "violations": []
+        },
+        {
+          "category": "press-release",
+          "count": 8,
+          "width": 1280,
+          "scrollWidth": 1280,
+          "height": 1377,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": [],
+          "violations": []
+        },
+        {
+          "category": "blog",
+          "count": 7,
+          "width": 1280,
+          "scrollWidth": 1280,
+          "height": 1299,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": [],
+          "violations": []
+        },
+        {
+          "category": "information",
+          "count": 0,
+          "width": 1280,
+          "scrollWidth": 1280,
+          "height": 900,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": [],
+          "violations": []
+        }
+      ],
+      "interaction": "click, keyboard Enter, Back and All passed",
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "news-ja-mobile-dark",
+      "locale": "ja",
+      "kind": "news",
+      "route": "/news/",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 7,
+        "information": 0,
+        "all-news": 15
+      },
+      "states": [
+        {
+          "category": "all-news",
+          "count": 15,
+          "width": 393,
+          "scrollWidth": 393,
+          "height": 2311,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": [],
+          "violations": []
+        },
+        {
+          "category": "press-release",
+          "count": 8,
+          "width": 393,
+          "scrollWidth": 393,
+          "height": 1513,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": [],
+          "violations": []
+        },
+        {
+          "category": "blog",
+          "count": 7,
+          "width": 393,
+          "scrollWidth": 393,
+          "height": 1489,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": [],
+          "violations": []
+        },
+        {
+          "category": "information",
+          "count": 0,
+          "width": 393,
+          "scrollWidth": 393,
+          "height": 852,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": [],
+          "violations": []
+        }
+      ],
+      "interaction": "click, keyboard Enter, Back and All passed",
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "news-ja-no-js",
+      "locale": "ja",
+      "kind": "news",
+      "route": "/news/",
+      "width": 393,
+      "height": 852,
+      "theme": "dark",
+      "javaScript": false,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 7,
+        "information": 0,
+        "all-news": 15
+      },
+      "states": [
+        {
+          "category": "all-news",
+          "count": 15,
+          "width": 393,
+          "scrollWidth": 393,
+          "height": 2349,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": []
+        },
+        {
+          "category": "press-release",
+          "count": 8,
+          "width": 393,
+          "scrollWidth": 393,
+          "height": 1551,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": []
+        },
+        {
+          "category": "blog",
+          "count": 7,
+          "width": 393,
+          "scrollWidth": 393,
+          "height": 1527,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": []
+        },
+        {
+          "category": "information",
+          "count": 0,
+          "width": 393,
+          "scrollWidth": 393,
+          "height": 852,
+          "h1Count": 1,
+          "duplicateIDs": [],
+          "headingSkips": [],
+          "brokenImages": []
+        }
+      ],
+      "interaction": "click, keyboard Enter, Back and All passed",
+      "initialHashWithoutJavaScript": "4 targets passed",
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "home-ja-mobile-light",
+      "locale": "ja",
+      "kind": "home",
+      "route": "/",
+      "width": 393,
+      "height": 9050,
+      "theme": "light",
+      "javaScript": true,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "violations": [],
+      "newsFilters": "absent",
+      "errors": [],
+      "ok": true
+    }
+  ],
+  "scope": "Verification-script maintenance only: accept new Markdown news entries and derive filter expectations from each locale’s initial unfiltered DOM. No site UI change.",
+  "priorFullSuite": {
+    "path": "docs/company/browser-verification.json",
+    "cases": 44,
+    "sha256": "d325e67f270d84d1e07d56a51739d8f1243ed01110080cfb1ccc72fbeae027bb",
+    "unchanged": true
+  }
+}
