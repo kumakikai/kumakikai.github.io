@@ -2,14 +2,20 @@
 version_context_date: "2026-09-07"
 title: "How to Use (Uni:Note)"
 description: "How to Use for Uni:Note."
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
+
+## Introduction
 
 Use these real screens to follow the main Uni:Note 3.4.0 operations. Tap an image to enlarge it. Apple Pencil is used for writing; fingers are used for scrolling and moving attachments.
 
+Requires an iPad with iPadOS 17.0 or later. Handwriting uses Apple Pencil. Recording transcription requires a supported environment with iPadOS 26 or later.
+
+## Basic use
+
 {{< guide-anchor "1-organize-subjects-and-folders-on-home" "2-open-the-first-note" >}}
 
-## 1. Create a subject and its first note {#create}
+### Create a subject and its first note {#create}
 
 1. Tap **+** at the bottom right of Home, then choose **New Subject**.
 
@@ -22,7 +28,7 @@ The same + menu creates folders. Drag subjects into them; deleting a folder retu
 
 {{< guide-anchor "3-write-with-apple-pencil" "4-zoom-with-two-fingers" "5-switch-tools" "9-use-ruler" >}}
 
-## 2. Choose a tool and write {#write}
+## Choose a tool and write {#write}
 
 1. Select the pen, highlighter or eraser in the palette.
 2. Write with Apple Pencil. Pinch with two fingers to zoom.
@@ -34,7 +40,7 @@ Drag the palette to reposition it. The Ruler button shows a ruler you can move a
 
 {{< guide-anchor "6-use-note-list-and-pages" >}}
 
-## 3. Switch notes and search titles {#find}
+## Switch notes and search titles {#find}
 
 Type part of a note title in **Search note titles** on Home and tap a result. Search covers titles, not handwriting, page text, PDFs or subject names.
 
@@ -46,7 +52,7 @@ Inside a note, **Note List** opens other notes in the subject and lets you creat
 
 {{< guide-anchor "7-use-more" "8-use-photos-and-pdfs" >}}
 
-## 4. Attach photos or PDFs and export {#pdf}
+## Attach photos or PDFs and export {#pdf}
 
 1. Open **More** at the top right of the note.
 2. Choose a photo, document photo or PDF attachment.
@@ -60,7 +66,7 @@ Select an attachment with your finger to move or resize it. Double-tap to lock o
 
 {{< guide-anchor "10-use-recording-transcription-and-ai-summary" >}}
 
-## 5. Record a lecture {#recording}
+## Record a lecture {#recording}
 
 1. Tap the microphone above the note.
 2. Tap the red record button; pause and resume when needed.
@@ -72,7 +78,7 @@ Recording, playback and transcript viewing require Premium. Recordings split aft
 
 {{< guide-anchor "11-use-memorization-feature" "12-use-problem-solver-assistant" "13-use-create-practice-set" >}}
 
-## 6. Review with sticky markers and practice sets {#review}
+## Review with sticky markers and practice sets {#review}
 
 Enable memorization in Study Support settings. Choose the sticky-marker tool, cover text with Apple Pencil, and tap a marker with your finger to reveal or hide it. To delete a marker, long-press it and tap the Delete button that appears.
 
@@ -90,15 +96,18 @@ For practice sets, choose **More → Create Practice Set**, select pages, keep o
 
 {{< guide-anchor "14-protect-notes-and-use-trash" >}}
 
-## 7. Protect, delete and restore {#protect}
+## Protect, delete and restore {#protect}
 
 Use **Protect** in Note List to prevent writing. Settings can require biometric authentication when removing protection.
 
 Restore deleted subjects and notes from Home’s Trash. Deleting a folder keeps its subjects. Deleted pages, practice sets and permanently erased Trash items cannot be restored. Deleting the only page clears its contents instead.
 
+Subjects and notes in Trash are permanently removed during cleanup after 30 days. Restore anything you need before then.
+
+
 {{< guide-anchor "15-settings-and-backup" >}}
 
-## 8. Keep a backup {#backup}
+## Keep a backup {#backup}
 
 1. Open the gear on Home, then **Settings → Backup**.
 2. To listen in Pocket, enable including recording audio before exporting.
@@ -115,3 +124,12 @@ Easy Backup update/restore requires Premium. It saves and loads an iCloud file; 
 Use iPad window controls to place Uni:Note next to a document or video. You can also open two Uni:Note windows.
 
 Dock gestures and names such as Split View or Slide Over depend on the iPadOS version and window settings.
+
+## Help
+
+
+{{< document-help >}}
+
+## Contact
+
+{{< document-contact >}}

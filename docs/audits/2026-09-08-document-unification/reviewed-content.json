@@ -1,0 +1,1710 @@
+{
+  "schemaVersion": 1,
+  "purpose": "all-product-document-unification-2026-09-08",
+  "reviews": {
+    "/de/faq/uni-note-pocket/": {
+      "source": "content/faq/uni-note-pocket.de.md",
+      "sourceSHA256": "93c03dece365d5e59e533ddc7adb2352d520e2581aed6373920797f02f581272",
+      "beforeSourceSHA256": "8d35e5be278948f340cf1f6cfb8280c5d9947e6f3c6fcf9ae89801703d37226b",
+      "baselineTextSHA256": "1be33a77d905ff130ac3213945ba1ab282821660233f83bba3139c5422200a69",
+      "reviewedTextSHA256": "0c436d0a663aa1aa5e6a594293dbf448b3fb5b129d46f6e6c967853c23b04e34",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/de/htu/uni-note-pocket/#import",
+        "https://kumakikai.github.io/de/htu/uni-note-pocket/#read",
+        "https://kumakikai.github.io/de/htu/uni-note-pocket/#recordings",
+        "https://kumakikai.github.io/de/htu/uni-note-pocket/#refresh",
+        "https://kumakikai.github.io/de/privacy/uni-note-pocket/#data-management",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Kontakt"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/de/htu/uni-note-pocket/",
+        "https://kumakikai.github.io/de/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/de/faq/uni-note/": {
+      "source": "content/faq/uni-note.de.md",
+      "sourceSHA256": "12482dcb66ef5d00cb508f203cc1344b7f3d325aec44f5f975c71435115209c2",
+      "beforeSourceSHA256": "4d926cfd32a4df17784f4ef741a969864ea4ebe8b845d4fef2b64dfca511f04c",
+      "baselineTextSHA256": "28bbaff2b8874691c449f5ce2dabdb05b6ec1582ba9f0b07d78dc29443fcc1e9",
+      "reviewedTextSHA256": "7125e5470cf1db0d280503a5a7445be31d0f1b9e6988f30b4cb4d3b695208496",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/de/htu/uni-note/#backup",
+        "https://kumakikai.github.io/de/htu/uni-note/#find",
+        "https://kumakikai.github.io/de/htu/uni-note/#pdf",
+        "https://kumakikai.github.io/de/htu/uni-note/#recording",
+        "https://kumakikai.github.io/de/htu/uni-note/#review",
+        "https://kumakikai.github.io/de/htu/uni-note/#windows",
+        "https://kumakikai.github.io/de/htu/uni-note/#write",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Kontakt"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/de/htu/uni-note-pocket/": {
+      "source": "content/htu/uni-note-pocket.de.md",
+      "sourceSHA256": "fc48b7d79304be8a473f0644eb0d172c0a94a7327918e44908863913ab9e7d58",
+      "beforeSourceSHA256": "70a6beac5c4b6b427fcfafce235dfe52d8956c0c66feb7e1b899a5fe71162655",
+      "baselineTextSHA256": "804b3abd4aaf9997b162456815c3739604564007ff7192002f7cc6cae6444bd4",
+      "reviewedTextSHA256": "cd32737fc6b0124547f2ed3183ba56b3d9c6db70fb41afac4e59cf02fcf83fd1",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/de/faq/uni-note-pocket/#help",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/de/import-backup_hu_975e28fcc893049a.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/de/open-note_hu_f03e28aa5af49221.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/de/page-review_hu_7acf78d1e09f545f.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/de/practice-answer_hu_3d63ad9aefa623fd.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/de/search-notes_hu_aad99204b9a8eae6.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/de/sticky-review_hu_2fefb9a2f1fe00ea.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Kontakt"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/de/faq/uni-note-pocket/",
+        "https://kumakikai.github.io/de/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/de/htu/uni-note/": {
+      "source": "content/htu/uni-note.de.md",
+      "sourceSHA256": "6e80e5ddd24801c382d0cf71a827e15e949202d5942961d97974376802217718",
+      "beforeSourceSHA256": "058a054f08bc3ac0e5d0d1a63b404a8f86693f6ae3212879dc7d389ee076463a",
+      "baselineTextSHA256": "65f68ff2e7b70bff28dcd58b530e206b83d814b0f7f95d14975f7c32f0180d07",
+      "reviewedTextSHA256": "285bdc6de0eea22cdfe62c9749ca365c0ceeead93f4aba7153b0d3f4edb3c776",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/de/faq/uni-note/#help",
+        "https://kumakikai.github.io/images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/record-button_hu_13f73f872eba72d2.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/sticky-marker_hu_10a4dfc1433c315b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/de/attachment-menu_hu_65cd1a88b729cef6.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/de/create-menu_hu_5df5a353b2d8f196.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/de/home-search_hu_913d5cdb22670c4.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/de/problem-answer_hu_c106d2159d2d1bf4.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Kontakt"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/de/faq/uni-note/",
+        "https://kumakikai.github.io/de/privacy/uni-note/"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/de/privacy/uni-note-pocket/": {
+      "source": "content/privacy/uni-note-pocket.de.md",
+      "sourceSHA256": "927b91eb5e2d1df23a195f207cde9e8d78f1da22f2e42253f3b918345e831b87",
+      "beforeSourceSHA256": "1fc54757e4847f9c65137497655c34a2f8a76ebeb7f7c5533e95385cc9159904",
+      "baselineTextSHA256": "49b12a596aa5fd8710e6146620cccb185bd31b30dd889bec7bac7e9bb3f3152f",
+      "reviewedTextSHA256": "94438d7a3d120957c4fa89c8aedff5e2d595a0974ca00fdc8311a4b8e8ac6977",
+      "reviewedLinks": [
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Kontakt"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/de/privacy/uni-note/": {
+      "source": "content/privacy/uni-note.de.md",
+      "sourceSHA256": "5066e1cf5455aa53d706ef3f9672e6ad5db4990db7d40ae6805b7be78a919224",
+      "beforeSourceSHA256": "a2a9d2520b7dcf0478a26fc904534868ff7ede9d5fdc6036f9b3b4492a637fa3",
+      "baselineTextSHA256": "2338803776318eced4362b8cbf089a26607625d4f267e494410cf5de07b23635",
+      "reviewedTextSHA256": "c522a7c78820d386fbe5181be9a7942ce882f19207dc0b869eeef4150800b9a6",
+      "reviewedLinks": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Kontakt"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/en/faq/smokeless/": {
+      "source": "content/faq/smokeless.en.md",
+      "sourceSHA256": "49ce8d374d682f7e6227089f8357faf0cb1c6821e917f22b1df84e30420082c3",
+      "beforeSourceSHA256": "9d969ddb89b5a704d2c9763bbce44b6b368125120e981b3e2fa50d8c7e95364f",
+      "baselineTextSHA256": "6f63008c793c3a89915e286c2c5f167a62069a6657f497205b15ac7bfebe9317",
+      "reviewedTextSHA256": "ebfb6f9335d9b92346467f3607c633ca4687c647373a2db991704578aca12e46",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/en/htu/smokeless/#1-check-the-first-tutorial-and-pack-settings",
+        "https://kumakikai.github.io/en/htu/smokeless/#4-review-by-day-month-and-year-in-calendar",
+        "https://kumakikai.github.io/en/htu/smokeless/#6-use-the-home-widget",
+        "https://kumakikai.github.io/en/htu/smokeless/#apple-watch",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+Contact"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/en/faq/uni-note-pocket/": {
+      "source": "content/faq/uni-note-pocket.en.md",
+      "sourceSHA256": "2d88c831dab252a13b60f34018ad3e79bcad13f4f13ca4dea6b5d5bf073a017f",
+      "beforeSourceSHA256": "269953a04f39eaca6b7fcca36a949bf4254f830ced82e37d088e57b38f69a1f2",
+      "baselineTextSHA256": "b7206e789bd9018b5249b1f5300195dbe47476da1b04dddf57ea9a27f5e43eae",
+      "reviewedTextSHA256": "24d5d1eaf8805e3471b4b4068b4c7d8fa81ddc48618ec76910fe342c560ccbcc",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/en/htu/uni-note-pocket/#import",
+        "https://kumakikai.github.io/en/htu/uni-note-pocket/#read",
+        "https://kumakikai.github.io/en/htu/uni-note-pocket/#recordings",
+        "https://kumakikai.github.io/en/htu/uni-note-pocket/#refresh",
+        "https://kumakikai.github.io/en/privacy/uni-note-pocket/#data-management",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/en/htu/uni-note-pocket/",
+        "https://kumakikai.github.io/en/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/en/faq/uni-note/": {
+      "source": "content/faq/uni-note.en.md",
+      "sourceSHA256": "6c9e744e392f9d2d2d2c6509159636e1ef9cd459564ed60e3413ac47c306d26f",
+      "beforeSourceSHA256": "34b327a28fff14a7c82ae1bff3a02e595712c39e5adf9b824972efdbcd4857e7",
+      "baselineTextSHA256": "c5b0c347ae3b742052d411cde897a0419b6d59b89b1ac515dc3bb6e5be3bcf51",
+      "reviewedTextSHA256": "dc690267485ae3c9700b3bdc5a6be069e6f58b19bf23abfd2a94e9b76129f51c",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/en/htu/uni-note/#backup",
+        "https://kumakikai.github.io/en/htu/uni-note/#find",
+        "https://kumakikai.github.io/en/htu/uni-note/#pdf",
+        "https://kumakikai.github.io/en/htu/uni-note/#recording",
+        "https://kumakikai.github.io/en/htu/uni-note/#review",
+        "https://kumakikai.github.io/en/htu/uni-note/#windows",
+        "https://kumakikai.github.io/en/htu/uni-note/#write",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Contact"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/en/htu/smokeless/": {
+      "source": "content/htu/smokeless.en.md",
+      "sourceSHA256": "34e90d169b65a449364a40fc0e62e36eca7bae1f255eeb25024366744a9b66c4",
+      "beforeSourceSHA256": "aede900f555f97de1788184fe759f9d836140c84c5e538555aa581cbd56b526c",
+      "baselineTextSHA256": "6ba76f92332c5d20c3b15cea0c99932df5f187dae551d415e8905ec807e52f26",
+      "reviewedTextSHA256": "afab2ec8c99e24bed87084c485c0f9b84f3a5be7ed562b61217d00ab8084c597",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/en/faq/smokeless/#help",
+        "https://kumakikai.github.io/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/en/calendar_hu_2b02508749152778.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/en/chart_hu_6ac2ab88f7add9e.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/en/history_hu_afd6b5c2af248ab0.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/en/record-buttons_hu_8a82fed47f0ca816.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/en/settings_hu_d8c41fba48219cfa.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/en/faq/smokeless/",
+        "https://kumakikai.github.io/en/privacy/smokeless/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/en/htu/uni-note-pocket/": {
+      "source": "content/htu/uni-note-pocket.en.md",
+      "sourceSHA256": "554b4dc5cf7bf950ac17d7c9665064e797af0912724c8bbdc773a20dcf74e06f",
+      "beforeSourceSHA256": "dac4d6f2e4079b5a3af7fd9a8bed2d5256eecf831d76121752642afa224798f6",
+      "baselineTextSHA256": "19876f6162fd5641c292f2f9ea0aa38abfb30ab2bbde1234810538a7aab26f4c",
+      "reviewedTextSHA256": "4f583fdd2d667581f062293b3fa35c29f82633ac503e2d4ac7d633b18b9e79eb",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/en/faq/uni-note-pocket/#help",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/en/import-backup_hu_4a0d6f8691c690c6.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/en/open-note_hu_d2937b2010e53252.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/en/page-review_hu_ceba75e6ef58926b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/en/practice-answer_hu_510623987c6768e3.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/en/search-notes_hu_cc474f98e8ce650.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/en/sticky-review_hu_2fefb9a2f1fe00ea.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/en/faq/uni-note-pocket/",
+        "https://kumakikai.github.io/en/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/en/htu/uni-note/": {
+      "source": "content/htu/uni-note.en.md",
+      "sourceSHA256": "1e89521b9ca7ef0260c6a1e338a73ad6ccb1a1e51439a7eb30d9e4c3f5957803",
+      "beforeSourceSHA256": "e79c85645c0379d9b269c9955c1bae1e544ff1beeb97a65ba64994146d8096cc",
+      "baselineTextSHA256": "a26b5bab23dc299994a244f3487439f466613882df23bea152e792997f643601",
+      "reviewedTextSHA256": "a6bd2bc6bc8883fdde031cb9e5358b8fc1209ac8869ed05abb386a64fd72d67f",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/en/faq/uni-note/#help",
+        "https://kumakikai.github.io/images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/record-button_hu_13f73f872eba72d2.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/sticky-marker_hu_10a4dfc1433c315b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/en/attachment-menu_hu_bdf8e3fb3f759294.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/en/create-menu_hu_698fac02f12a1dbd.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/en/home-search_hu_866b5bc1559041ab.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/en/problem-answer_hu_c106d2159d2d1bf4.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/en/faq/uni-note/",
+        "https://kumakikai.github.io/en/privacy/uni-note/"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/en/privacy/smokeless/": {
+      "source": "content/privacy/smokeless.en.md",
+      "sourceSHA256": "31d8bf576022bfc2e14819189246e8404c4c89b6f5a57460fea6db3e167e58bd",
+      "beforeSourceSHA256": "7f870d162358a8c52f148c0bb0306ab0ef1cc32354978cc727f2b69eaf8104bb",
+      "baselineTextSHA256": "e0c1d7710e65a5af5c6b1e24871454bd4ee556b4c0c7b4e337f39b59120d1928",
+      "reviewedTextSHA256": "59d078f4b5668dac841128db32b703439afb7a9432520cdbcbd8acebde4b8878",
+      "reviewedLinks": [
+        "https://policies.google.com/privacy?hl=en",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/en/privacy/uni-note-pocket/": {
+      "source": "content/privacy/uni-note-pocket.en.md",
+      "sourceSHA256": "0d59c5d385cd032d7269563217158b0392b1627760fa5378a61aee34370a3af6",
+      "beforeSourceSHA256": "e12b0d33bb0f9c9100001b0e6cdd7307d2c0d39c4428cedecef0014d3af5b893",
+      "baselineTextSHA256": "fa2490a965ead140d123ae3dbab5d53e4a91c176c62072bbf2f1fa9662e07fe4",
+      "reviewedTextSHA256": "32fdc4c245a576334845ec58b38b56cd30c4cebd168f17faacbe2b3bd6274fd8",
+      "reviewedLinks": [
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/en/privacy/uni-note/": {
+      "source": "content/privacy/uni-note.en.md",
+      "sourceSHA256": "85826ea1128082d16413e7d0ea785bd71cb79bac810a9f87218d1887f76e930d",
+      "beforeSourceSHA256": "c73a181f6f42ca59a4f5305527d0058ca956e7418360ba9bf9f2e5c359c896a5",
+      "baselineTextSHA256": "0033f348c79ca449e91a23ea1b90264b5f49adfb87e339d66bfe5e5459add4e9",
+      "reviewedTextSHA256": "4f7022650e1e9b72f68b11409ae8a3839386b6c45e4f1a962624f2e5afc08e85",
+      "reviewedLinks": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/faq/balance-calendar/": {
+      "source": "content/faq/balance-calendar.md",
+      "sourceSHA256": "c685c47c6c7c99716f8aace3dab13a35115660c3ba38a24843ebde0e9c6466c3",
+      "beforeSourceSHA256": "a5dc3dc5ebfe30a7a6fe7c1547b6bc6a996a416a54d714114ec5ed0e4f8b8f54",
+      "baselineTextSHA256": "836fdf5dc93fb25e2856655521a24233c6bb55d2169fa8b192251fdc2c95ec34",
+      "reviewedTextSHA256": "989144d123c8a81bdea36d381287c1040abe13d0f3db6cad0dea9ab2580dc02e",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/htu/balance-calendar/#2-%E7%99%BB%E9%8C%B2-%E7%94%BB%E9%9D%A2%E3%81%A7%E5%8F%8E%E5%85%A5--%E6%94%AF%E5%87%BA%E3%82%92%E8%A8%98%E9%8C%B2%E3%81%99%E3%82%8B",
+        "https://kumakikai.github.io/htu/balance-calendar/#5-%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%82%92%E4%BD%BF%E3%81%86",
+        "https://kumakikai.github.io/htu/balance-calendar/#6-%E8%A8%AD%E5%AE%9A-%E3%82%92%E8%AA%BF%E6%95%B4%E3%81%99%E3%82%8B",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Preserve local income/expense records and PIN controls, actual advertising data and three one-time purchases; do not infer cloud sync from an entitlement. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/faq/giga-poke/": {
+      "source": "content/faq/giga-poke.md",
+      "sourceSHA256": "23c2d629c20e8bdd7ee2e0fb1606f00f15eaf65d645c969c34505968650dd7d4",
+      "beforeSourceSHA256": "8fb977c3ee9242c13837088c4dcf8d20b91a82517bef520b0553d4882292c4b1",
+      "baselineTextSHA256": "d4a89d9d4222a14a49485aca1ca0f38f5df63a0e54b0acb740c6928a44e0fc64",
+      "reviewedTextSHA256": "1859c3b320045f3fe532145051020308b59e96fe147dc6a23dede155239ba80f",
+      "reviewedLinks": [
+        "https://forms.gle/Enzmm94LdXRZjP8k9",
+        "https://kumakikai.github.io/htu/giga-poke/#1-%E7%89%B9%E5%85%B8%E3%82%92%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B",
+        "https://kumakikai.github.io/htu/giga-poke/#3-%E7%89%B9%E5%85%B8%E3%82%92%E4%BD%BF%E3%81%86",
+        "https://kumakikai.github.io/htu/giga-poke/#5-%E6%9C%9F%E9%99%90%E9%80%9A%E7%9F%A5%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/htu/giga-poke/",
+        "https://kumakikai.github.io/privacy/giga-poke/",
+        "https://kumakikai.github.io/terms/giga-poke/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/faq/nocca/": {
+      "source": "content/faq/nocca.md",
+      "sourceSHA256": "eb65e8408062e46b9ddeaca33a453209a3727cab4b37bab694ffeec339174ae1",
+      "beforeSourceSHA256": "954c15e69ebd3b06af364d1022e4a2d2537563785ec3727626d55c6acc56c43f",
+      "baselineTextSHA256": "8366bc8f438e0e409218b257bbb21ccbdf3089847803c04088f66b4f06ce5076",
+      "reviewedTextSHA256": "13d75c8871fa85140d120b594abe410522086a130af1eff554c6e5239649b3f7",
+      "reviewedLinks": [
+        "https://forms.gle/JwDoPvzAh1zKaR2M8",
+        "https://kumakikai.github.io/htu/nocca/#1-%E6%9C%80%E5%88%9D%E3%81%AB%E5%BD%B9%E5%89%B2%E3%82%92%E9%81%B8%E3%81%B6",
+        "https://kumakikai.github.io/htu/nocca/#3-%E5%AE%B6%E6%97%8F%E3%82%92%E6%8B%9B%E5%BE%85%E3%81%99%E3%82%8B",
+        "https://kumakikai.github.io/htu/nocca/#4-%E9%80%9A%E4%BF%A1%E3%82%92%E4%BC%91%E6%AD%A2%E3%81%99%E3%82%8B",
+        "https://kumakikai.github.io/htu/nocca/#data-management",
+        "https://kumakikai.github.io/htu/nocca/#reply",
+        "https://kumakikai.github.io/htu/nocca/#send-signal",
+        "https://kumakikai.github.io/privacy/nocca/#5-%E5%89%8A%E9%99%A4%E3%81%A8%E5%88%A9%E7%94%A8%E8%80%85%E3%81%AE%E9%81%B8%E6%8A%9E",
+        "https://kumakikai.github.io/terms/nocca/#4-%E6%9C%88%E9%A1%8D%E5%B9%B4%E9%A1%8D%E3%83%97%E3%83%A9%E3%83%B3%E3%81%A8apple%E3%81%AE%E7%84%A1%E6%96%99%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB",
+        "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/htu/nocca/",
+        "https://kumakikai.github.io/privacy/nocca/",
+        "https://kumakikai.github.io/terms/nocca/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/communication-phase1.md",
+        "docs/audits/2026-09-08-document-unification/communication-phase3.md"
+      ]
+    },
+    "/faq/oto-miru/": {
+      "source": "content/faq/oto-miru.md",
+      "sourceSHA256": "caa0f90b681840f78eee4e37ddd8d77c78ccff77099e7f161a799f415b36bba0",
+      "beforeSourceSHA256": "360ea04e229ef96e48e55c0e42e9a00e57231223352c6a99c1663cf8154bd023",
+      "baselineTextSHA256": "3627707d38dab179918c9132fc9d5870a0de91d1a079bed68fb935ed774b67ea",
+      "reviewedTextSHA256": "1f85423d9967e71f8ce13ffcd45a17cdef3a6c06cd405d2b18432fb1f5626dfc",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/htu/oto-miru/#movie",
+        "https://kumakikai.github.io/htu/oto-miru/#read-captions",
+        "https://kumakikai.github.io/htu/oto-miru/#settings",
+        "https://kumakikai.github.io/htu/oto-miru/#start",
+        "https://kumakikai.github.io/htu/oto-miru/#usage",
+        "https://kumakikai.github.io/privacy/oto-miru/#7-%E7%AB%AF%E6%9C%AB%E5%86%85%E4%BF%9D%E5%AD%98%E3%81%A8%E5%89%8A%E9%99%A4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/htu/oto-miru/",
+        "https://kumakikai.github.io/privacy/oto-miru/",
+        "https://kumakikai.github.io/terms/oto-miru/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Separate on-device speech, limited temporary review after manual stop, AdMob diagnostics and Plus subscriptions; remove obsolete recognition requirements. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/communication-phase1.md",
+        "docs/audits/2026-09-08-document-unification/communication-phase3.md"
+      ]
+    },
+    "/faq/signal/": {
+      "source": "content/faq/signal.md",
+      "sourceSHA256": "8f6a466549aacf5dddf42a317f825149000d5e17863d551cff46379c4c35fdc0",
+      "beforeSourceSHA256": "1dde4cbd65ac0dd490b8fb283b6c52e566ca62ba0c2109ec457af942d800ab29",
+      "baselineTextSHA256": "c5cce85ff87b3664c68165e8d6bc91702e0b5b8c9c3fbd26b155ec53aa83b9bf",
+      "reviewedTextSHA256": "80e7cc3cd172b17995cd299b1ff477a75726359f22e04fc68531875bc97d33b0",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/htu/signal/#appearance",
+        "https://kumakikai.github.io/htu/signal/#browse",
+        "https://kumakikai.github.io/htu/signal/#read",
+        "https://kumakikai.github.io/htu/signal/#settings-help",
+        "https://kumakikai.github.io/htu/signal/#sources",
+        "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Separate local feed/learning settings from feed, thumbnail and article-site requests; distinguish learning reset from clearing all web data. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/faq/smokeless/": {
+      "source": "content/faq/smokeless.md",
+      "sourceSHA256": "4a4eb1166e48bb01ae5db6a6df642ff47a39b08b0af40c6d05f73f55f06e47da",
+      "beforeSourceSHA256": "ec04c431d54f3600acc71cedfbe96a1acd0a4f14c5f0255961b563f4586f0ad3",
+      "baselineTextSHA256": "9bdaa8d4b661582817d5a8637062e0b8bbacb1e7f697f19a5b068be13a014967",
+      "reviewedTextSHA256": "663568c97504831506d63cabe92dfa4ce7a18402f15ec6693b76e6a0c41c1866",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/htu/smokeless/#1-%E5%88%9D%E5%9B%9E%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%A8%E6%9C%AC%E6%95%B0%E8%A8%AD%E5%AE%9A%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B",
+        "https://kumakikai.github.io/htu/smokeless/#4-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E3%81%A7%E6%97%A5%E5%88%A5--%E6%9C%88%E5%88%A5--%E5%B9%B4%E5%88%A5%E3%81%AB%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8B",
+        "https://kumakikai.github.io/htu/smokeless/#6-%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%82%92%E4%BD%BF%E3%81%86",
+        "https://kumakikai.github.io/htu/smokeless/#apple-watch",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/faq/uni-note-pocket/": {
+      "source": "content/faq/uni-note-pocket.md",
+      "sourceSHA256": "d0065142bed536ca9636a6454780b0ede780af8361f18b3729c3a9d055e33238",
+      "beforeSourceSHA256": "95596359131d2967264a84c3b01b7c245d7dd2946928341509d58c94bb5196e5",
+      "baselineTextSHA256": "4c618c343cf620e251973f058105e4b506648dc3bddf2ca97e885e2ac6968839",
+      "reviewedTextSHA256": "13c36663ec41ad99d593b5126b48a8a97abde4d2973dd78ca562ce057a87d457",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/htu/uni-note-pocket/#import",
+        "https://kumakikai.github.io/htu/uni-note-pocket/#read",
+        "https://kumakikai.github.io/htu/uni-note-pocket/#recordings",
+        "https://kumakikai.github.io/htu/uni-note-pocket/#refresh",
+        "https://kumakikai.github.io/privacy/uni-note-pocket/#data-management",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/htu/uni-note-pocket/",
+        "https://kumakikai.github.io/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/faq/uni-note/": {
+      "source": "content/faq/uni-note.md",
+      "sourceSHA256": "99f1e146cbbe7c75ec8b3ae63eb183694ba78f205471cb08d1b4bd9d79f48524",
+      "beforeSourceSHA256": "a1fb551aa7303b9cc02b457497bcbb634c50834980626eb97e45f9b126769195",
+      "baselineTextSHA256": "3a379875305564aae60b184ea5fb30cbb594e14edf0117c63062cce5d191a761",
+      "reviewedTextSHA256": "752c1bc1a325954ecba86fb824df75f2da72f8be113c116358b0e904946579aa",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/htu/uni-note/#backup",
+        "https://kumakikai.github.io/htu/uni-note/#find",
+        "https://kumakikai.github.io/htu/uni-note/#pdf",
+        "https://kumakikai.github.io/htu/uni-note/#recording",
+        "https://kumakikai.github.io/htu/uni-note/#review",
+        "https://kumakikai.github.io/htu/uni-note/#windows",
+        "https://kumakikai.github.io/htu/uni-note/#write",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/fr/faq/smokeless/": {
+      "source": "content/faq/smokeless.fr.md",
+      "sourceSHA256": "a4806033310d86ca0aced25356bc60f5aee30a73c36508a0561efdd93d13277c",
+      "beforeSourceSHA256": "ff118b4127b6a74cad80514a7cb22754593a2b3d0f34ad64484ab3e1e8aa4f49",
+      "baselineTextSHA256": "af2e4b1f84f2b8041ffcee92321b821657e1a83d79a41b91138955be39ae89e2",
+      "reviewedTextSHA256": "32fd0008af69f35f1aff5ca9927d9d1d6f31dc216537d7e9fec9b6aabf9efea5",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/fr/htu/smokeless/#1-v%C3%A9rifiez-le-premier-tutoriel-et-les-r%C3%A9glages-du-paquet",
+        "https://kumakikai.github.io/fr/htu/smokeless/#4-revoyez-par-jour-mois-et-ann%C3%A9e-dans-calendrier",
+        "https://kumakikai.github.io/fr/htu/smokeless/#6-utilisez-le-widget-daccueil",
+        "https://kumakikai.github.io/fr/htu/smokeless/#apple-watch",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+Contact"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/fr/faq/uni-note-pocket/": {
+      "source": "content/faq/uni-note-pocket.fr.md",
+      "sourceSHA256": "94fcb52c570556bcf85ceb3022900ea6649311b7f77eef8184f8be4ef45e9ad3",
+      "beforeSourceSHA256": "9750ceda10b9c918eece2179fd107c4626a2d23ccbc13d3295f19244efb7db50",
+      "baselineTextSHA256": "ccce10940297e090a69c38237d64fb7162cd8735a810e51b0c1f690aa51fa2f6",
+      "reviewedTextSHA256": "5d3181d3f8738e724a3781e2cd1eab2aaaa53844b43489ef7678475eebf90a4e",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/fr/htu/uni-note-pocket/#import",
+        "https://kumakikai.github.io/fr/htu/uni-note-pocket/#read",
+        "https://kumakikai.github.io/fr/htu/uni-note-pocket/#recordings",
+        "https://kumakikai.github.io/fr/htu/uni-note-pocket/#refresh",
+        "https://kumakikai.github.io/fr/privacy/uni-note-pocket/#data-management",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/fr/htu/uni-note-pocket/",
+        "https://kumakikai.github.io/fr/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/fr/faq/uni-note/": {
+      "source": "content/faq/uni-note.fr.md",
+      "sourceSHA256": "2ca41b630d00f16d16f395dcf063e1ae76727fd2d882b219f230d3adc1755b50",
+      "beforeSourceSHA256": "df2d63296b88e7a8a42045efd71202fc2d1e8b9aef9afc4983008a9b4b6491cf",
+      "baselineTextSHA256": "51fa09d03f0ed11482ca3990e1c0adf3acfef35821425454a5adfcae65e542f0",
+      "reviewedTextSHA256": "b3c66adb7a8eba9d462d029b8c234b0b55507d8f7f837e5390f24d594d8fb959",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/fr/htu/uni-note/#backup",
+        "https://kumakikai.github.io/fr/htu/uni-note/#find",
+        "https://kumakikai.github.io/fr/htu/uni-note/#pdf",
+        "https://kumakikai.github.io/fr/htu/uni-note/#recording",
+        "https://kumakikai.github.io/fr/htu/uni-note/#review",
+        "https://kumakikai.github.io/fr/htu/uni-note/#windows",
+        "https://kumakikai.github.io/fr/htu/uni-note/#write",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Contact"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/fr/htu/smokeless/": {
+      "source": "content/htu/smokeless.fr.md",
+      "sourceSHA256": "e2c86f1b1514133fba263aa5397a6f039e056df4d9e237da51755a54a90822c9",
+      "beforeSourceSHA256": "71f4a6dac450a610f4bc7d4ba4da07bf3485d9d39f38525f107d27089cbd1a3a",
+      "baselineTextSHA256": "905212aa2e4d97d7f8edbf3d2960d9abffb15ddfaae2b7f05b5ed9f7bf197daa",
+      "reviewedTextSHA256": "b3a4e8b95b8cee1095c521580df618dc9eab4c5ff40d4823af94c97dc4fe19a9",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/fr/faq/smokeless/#help",
+        "https://kumakikai.github.io/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/fr/calendar_hu_9b7b4570fd28611d.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/fr/chart_hu_b4ca0955dc5da8ba.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/fr/history-controls_hu_c714ef23b1a2f050.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/fr/record-buttons_hu_2a789e651cfda068.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/fr/faq/smokeless/",
+        "https://kumakikai.github.io/fr/privacy/smokeless/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/fr/htu/uni-note-pocket/": {
+      "source": "content/htu/uni-note-pocket.fr.md",
+      "sourceSHA256": "9138f23fd9e523dd7933f63fbc84ea4b5d7db1a040ff7292295e7fe11d8645d4",
+      "beforeSourceSHA256": "0c25b1b364b225c817d2b5dd95f4b1863cc987cc2f9fd81e465c7712e6e51b2a",
+      "baselineTextSHA256": "bd1f86cda13b4db5cb574edcd5c9ee61bcedfcfe2279b8af92e70a5c30066477",
+      "reviewedTextSHA256": "c42adae6712d6caa54524815add7af044c6f53cf99febab3776e2758cd373421",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/fr/faq/uni-note-pocket/#help",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/fr/import-backup_hu_959bd792447a6555.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/fr/open-note_hu_158931a29a632645.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/fr/page-review_hu_3eeb479ee1e39c5a.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/fr/practice-answer_hu_b4412c1f78a2bbef.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/fr/search-notes_hu_6833da63a2662b5e.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/fr/sticky-review_hu_2fefb9a2f1fe00ea.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/fr/faq/uni-note-pocket/",
+        "https://kumakikai.github.io/fr/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/fr/htu/uni-note/": {
+      "source": "content/htu/uni-note.fr.md",
+      "sourceSHA256": "09055e6ee47f45835edf0324e899968694b665d1ebf164694e95c59d08fe6e4b",
+      "beforeSourceSHA256": "5f031450582be5fe983d7d71f9f179857047f147dcb8fdeec921c6ce12d8ffd0",
+      "baselineTextSHA256": "d9d8754e59fa8e812c9e7fcb2e3826dab146ef19f6aa38a7e2b4bd0bca83dc58",
+      "reviewedTextSHA256": "1968e218b6eb07a4e353b084f992be5fd482c97753efe4f41d4d546e89b6e175",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/fr/faq/uni-note/#help",
+        "https://kumakikai.github.io/images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/record-button_hu_13f73f872eba72d2.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/sticky-marker_hu_10a4dfc1433c315b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/fr/attachment-menu_hu_1dfaba038f30b4e3.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/fr/create-menu_hu_a328c5cb04b0709d.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/fr/home-search_hu_7acf7b0df8b867e6.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/fr/problem-answer_hu_c106d2159d2d1bf4.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/fr/faq/uni-note/",
+        "https://kumakikai.github.io/fr/privacy/uni-note/"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/fr/privacy/smokeless/": {
+      "source": "content/privacy/smokeless.fr.md",
+      "sourceSHA256": "2615fe6a6dfb44336e1b80dd162f4ab864cca7d756f24406dc08aa0b153d4270",
+      "beforeSourceSHA256": "9e08efdf9770df2c352842b2f57e87821b475576511f1d8db878ffedd3d22b88",
+      "baselineTextSHA256": "2e2a713c549df3a8431abf2e4bc3d75260c4e438b6e6f501db1c66bb58e138d1",
+      "reviewedTextSHA256": "f37ef01f1826f7653a9df3c96ed2fe4f3769bb72196aa1bfeefa8e4b4b80f51b",
+      "reviewedLinks": [
+        "https://policies.google.com/privacy?hl=fr",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/fr/privacy/uni-note-pocket/": {
+      "source": "content/privacy/uni-note-pocket.fr.md",
+      "sourceSHA256": "6fdd6886ec2b08c08f6587d8a70a3ab533efe8392b5d0455d7317cc136bd9f46",
+      "beforeSourceSHA256": "d9f11b2303c5979bb5170dfdd5e15f24676be73a9e67d8244f23663ba8a769ed",
+      "baselineTextSHA256": "8967843d15c26b910415cf46a5dfe1738529536676500116c49ce2af60f01900",
+      "reviewedTextSHA256": "482eb39d087f4f7d04ae254bb651221184089c0274f2ac7e336c12d3614cde58",
+      "reviewedLinks": [
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/fr/privacy/uni-note/": {
+      "source": "content/privacy/uni-note.fr.md",
+      "sourceSHA256": "bcedb9d30933d748f17733844fce50ab28008738fb40cec80c85ab53d0b9c4fc",
+      "beforeSourceSHA256": "b15753d82b5656b22c9f360a11e9e0ab860609e881e9c6e6045ee26a5b71f7fe",
+      "baselineTextSHA256": "da242f812c979b9336393c15225e4bfcc241ec1cdd8882a2a1022dfa14bd3159",
+      "reviewedTextSHA256": "01d0c51904033145c7b3834ad3fbeed49ed64751ae84b3c3cede74e785987bca",
+      "reviewedLinks": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Contact"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/htu/balance-calendar/": {
+      "source": "content/htu/balance-calendar.md",
+      "sourceSHA256": "5d5b12a05f9be446a7fe884c8ed1c21a55b7a296461ad7469351b602601204e3",
+      "beforeSourceSHA256": "b8727065d50e393108ef42e1c9a96428bc740b6894be28335f4cb5ee471469c5",
+      "baselineTextSHA256": "9d2fff06477cc4a1864ca38ca5e15548ba729eb4f39f71eddeb85ec472633294",
+      "reviewedTextSHA256": "d81f01da9633c80935d50bd1c2eb0abd7e88d85ef5b041421c9fccee35d89a4c",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/faq/balance-calendar/#help",
+        "https://kumakikai.github.io/images/guides/balance-calendar/amount-keypad_hu_832ff391ac09110f.webp",
+        "https://kumakikai.github.io/images/guides/balance-calendar/daily-records_hu_2f9c36caafcb213a.webp",
+        "https://kumakikai.github.io/images/guides/balance-calendar/date-history-controls_hu_20cd111d508e4600.webp",
+        "https://kumakikai.github.io/images/guides/balance-calendar/income-expense-buttons_hu_4cf4f346352aa405.webp",
+        "https://kumakikai.github.io/images/guides/balance-calendar/tag-settings_hu_351c9d1095f1535c.webp",
+        "https://kumakikai.github.io/images/guides/balance-calendar/widget-entry_hu_8fa2579c33498d71.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/balance-calendar/",
+        "https://kumakikai.github.io/privacy/balance-calendar/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local income/expense records and PIN controls, actual advertising data and three one-time purchases; do not infer cloud sync from an entitlement. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/htu/giga-poke/": {
+      "source": "content/htu/giga-poke.md",
+      "sourceSHA256": "a5606ab18728a3a7970fcf5a4626ec663794fbf0a868cb31380ea3a4a97f46af",
+      "beforeSourceSHA256": "364f6ee1295425129b1135b2729d320dfcaf5b8ef4de46e33a5f9b9fe4811d2a",
+      "baselineTextSHA256": "b24622ffc958442c2c108227960d725241227a958ca810d29c399f9aa9093ea1",
+      "reviewedTextSHA256": "77baf2cc06fe2fb3a604e6c97e37dad7496fafc2f4cac697b5f244933e24f159",
+      "reviewedLinks": [
+        "https://forms.gle/Enzmm94LdXRZjP8k9",
+        "https://kumakikai.github.io/faq/giga-poke/#help",
+        "https://kumakikai.github.io/images/guides/giga-poke/benefit-actions_hu_3f14eefc17020be1.webp",
+        "https://kumakikai.github.io/images/guides/giga-poke/benefit-management-settings_hu_9c6894ddbb159117.webp",
+        "https://kumakikai.github.io/images/guides/giga-poke/benefit-row_hu_35bf16c6da5f2068.webp",
+        "https://kumakikai.github.io/images/guides/giga-poke/home-add-controls_hu_8302813bfc37e5a.webp",
+        "https://kumakikai.github.io/images/guides/giga-poke/notification-settings_hu_4195baeec27c7234.webp",
+        "https://kumakikai.github.io/images/guides/giga-poke/paste-review_hu_183cc22e50507314.webp",
+        "https://kumakikai.github.io/images/guides/giga-poke/trash-list_hu_4ae8cb49b86f77b9.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/giga-poke/",
+        "https://kumakikai.github.io/privacy/giga-poke/",
+        "https://kumakikai.github.io/terms/giga-poke/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/htu/nocca/": {
+      "source": "content/htu/nocca.md",
+      "sourceSHA256": "66fa3262d157d44fc625deb4554b8f274d84301fe7f410f0c7b7d2f50e668b7e",
+      "beforeSourceSHA256": "d75c30ba4b080e390c2b0d152199d3a501c13f7d1d5092bf251beae7037cee0f",
+      "baselineTextSHA256": "a299355f1982620db4fb8b37de052b745fda9a90386541a105e8a806377dd9bd",
+      "reviewedTextSHA256": "a518c46e165e9d18fba7f286472e68426fccafb0e2445b942d4d065cd582f18e",
+      "reviewedLinks": [
+        "https://forms.gle/JwDoPvzAh1zKaR2M8",
+        "https://kumakikai.github.io/faq/nocca/#help",
+        "https://kumakikai.github.io/images/guides/nocca/choose-role_hu_2081bfcf00bb2953.webp",
+        "https://kumakikai.github.io/images/guides/nocca/invite-family_hu_adcf1be2faae9080.webp",
+        "https://kumakikai.github.io/images/guides/nocca/owner-talk_hu_ad2c46a673ca2608.webp",
+        "https://kumakikai.github.io/images/guides/nocca/pause-communication_hu_7d731c04abc555e6.webp",
+        "https://kumakikai.github.io/images/guides/nocca/reply-options_hu_8999ebcf76009a9c.webp",
+        "https://kumakikai.github.io/images/guides/nocca/send-signal_hu_1da3fe549f0d1190.webp",
+        "https://kumakikai.github.io/images/guides/nocca/signal-status_hu_58610eba8d6b9e13.webp",
+        "https://kumakikai.github.io/privacy/nocca/#5-%E5%89%8A%E9%99%A4%E3%81%A8%E5%88%A9%E7%94%A8%E8%80%85%E3%81%AE%E9%81%B8%E6%8A%9E",
+        "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/nocca/",
+        "https://kumakikai.github.io/privacy/nocca/",
+        "https://kumakikai.github.io/terms/nocca/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/communication-phase1.md",
+        "docs/audits/2026-09-08-document-unification/communication-phase3.md"
+      ]
+    },
+    "/htu/oto-miru/": {
+      "source": "content/htu/oto-miru.md",
+      "sourceSHA256": "39f451d0b33f131f40d6512374f9e67e5eae726d65b453a3fc3f87e5dfec0960",
+      "beforeSourceSHA256": "683181c1d7d4d71e844b4d96fdf9dd5bd67a065c49414037bd55cfdb4ba79cd9",
+      "baselineTextSHA256": "d97e4e6b252fb1eb446e43ac6a9fff2934524131a2d910e252328f44b34f94ac",
+      "reviewedTextSHA256": "acec1c6fb53de1643fb86c0dbbcd818a50722ca2d1bb6777e074b20984047245",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/faq/oto-miru/#help",
+        "https://kumakikai.github.io/images/guides/oto-miru/caption-and-controls_hu_79f96d2cc0ccdea4.webp",
+        "https://kumakikai.github.io/images/guides/oto-miru/display-settings_hu_27af537fcbcb92a2.webp",
+        "https://kumakikai.github.io/images/guides/oto-miru/free-time-and-plus_hu_ed777a198279a46.webp",
+        "https://kumakikai.github.io/images/guides/oto-miru/listening-environment_hu_8a8a07000e8baaa2.webp",
+        "https://kumakikai.github.io/images/guides/oto-miru/mode-and-settings_hu_f9784e73ab1ba219.webp",
+        "https://kumakikai.github.io/images/guides/oto-miru/simple-mode-buttons_hu_bebe78b9f7a9b177.webp",
+        "https://kumakikai.github.io/images/guides/oto-miru/start-caption_hu_ede7e2492102d6fc.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/oto-miru/",
+        "https://kumakikai.github.io/privacy/oto-miru/",
+        "https://kumakikai.github.io/terms/oto-miru/"
+      ],
+      "reason": "User-authorized four-document unification. Separate on-device speech, limited temporary review after manual stop, AdMob diagnostics and Plus subscriptions; remove obsolete recognition requirements. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/communication-phase1.md",
+        "docs/audits/2026-09-08-document-unification/communication-phase3.md"
+      ]
+    },
+    "/htu/signal/": {
+      "source": "content/htu/signal.md",
+      "sourceSHA256": "7d4d79cdcdfa0e1d012743fccdd5b84251712e0384037798a36d5ae78988b4cf",
+      "beforeSourceSHA256": "b08dde44f9c3e2f0709d6cc933d31f9e656ca178ee093cd58e7ff6610e2c7a0e",
+      "baselineTextSHA256": "1225119ef5c726a37293c39cc153e8109a76d6857f11b08de3fee0ad29a2f722",
+      "reviewedTextSHA256": "d9432debab2e0ee985a6e828549afe252506bf352b386acaf411c99274e78d06",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/faq/signal/#help",
+        "https://kumakikai.github.io/images/guides/signal/article-menu_hu_7c92977033fd4f85.webp",
+        "https://kumakikai.github.io/images/guides/signal/source-switches_hu_bd793e55839e2cc6.webp",
+        "https://kumakikai.github.io/images/guides/signal/tabs-and-article_hu_be9433f155a4516d.webp",
+        "https://kumakikai.github.io/images/guides/signal/text-and-theme_hu_183dee00de5c4284.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/signal/",
+        "https://kumakikai.github.io/privacy/signal/"
+      ],
+      "reason": "User-authorized four-document unification. Separate local feed/learning settings from feed, thumbnail and article-site requests; distinguish learning reset from clearing all web data. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/htu/smokeless/": {
+      "source": "content/htu/smokeless.md",
+      "sourceSHA256": "d767d9cb2593d3f2dfb9b4fcb5f407eb08e0506a9083045ab81f60c4338cc4a7",
+      "beforeSourceSHA256": "b23238be6ce9251aec1c7bfbfd1d37c77e0c5270ed2db6986368f4071ef9d10f",
+      "baselineTextSHA256": "a1e899ff4cccce60926fc50c7ded5df3b47b2a74ea189fc96f41d69024fb1730",
+      "reviewedTextSHA256": "16da2dec1d2f85033b3a843917673966e7167c842fafe95f7d956c861b314a74",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/faq/smokeless/#help",
+        "https://kumakikai.github.io/htu/smokeless/#7-%e8%a8%ad%e5%ae%9a-%e3%82%92%e8%aa%bf%e6%95%b4%e3%81%99%e3%82%8b",
+        "https://kumakikai.github.io/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/ja/calendar_hu_8f07d414f6dc61.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/ja/chart_hu_d57299055d2e2743.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/ja/history_hu_6130515c05c54ae0.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/ja/record-buttons_hu_c754ed9e223b4423.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/ja/settings_hu_ed140a4eebdcf683.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/smokeless/",
+        "https://kumakikai.github.io/privacy/smokeless/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/htu/uni-note-pocket/": {
+      "source": "content/htu/uni-note-pocket.md",
+      "sourceSHA256": "960b0bf9ed82d91ca65f837de69f418dfe0e492aa879695420cb5cb990226194",
+      "beforeSourceSHA256": "7f31459bf118f1ba9585a36b05aad201e41a01fea908b5bc86550bdbc8a564ac",
+      "baselineTextSHA256": "5b4c2887f919adbc3a615eeb7457f14288e782320a7a6b11ab17cf4a5535d7ad",
+      "reviewedTextSHA256": "9c8bd7d20b9a674255929956089d15158f5efc89c7231ac2ad20e17aec906a76",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/faq/uni-note-pocket/#help",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/en/search-notes_hu_cc474f98e8ce650.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ja/import-backup_hu_4a0d6f8691c690c6.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ja/open-note_hu_b28e41d5eb302033.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ja/page-review_hu_385e72a6c6a60a79.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ja/practice-answer_hu_7d1bd2ea677640be.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ja/sticky-review_hu_b7c65ef9bec23e13.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/uni-note-pocket/",
+        "https://kumakikai.github.io/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/htu/uni-note/": {
+      "source": "content/htu/uni-note.md",
+      "sourceSHA256": "430fbdfb68cd3efcf1d7fc4e6e4323a1172afb19cbcd30d5291a87e755f4c637",
+      "beforeSourceSHA256": "d2fc93f6645e97e085bc3e420b1e73568bbfbf9776d0877408d5703a5fdbcdd3",
+      "baselineTextSHA256": "9047a537b892dae04996352f8ee10a832b3218654f44e403b0be5e83e3b94b80",
+      "reviewedTextSHA256": "cc64bde0f348102c29617ba904aea20cb30fb14da0a1c98effdd08c8160b523b",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/faq/uni-note/#help",
+        "https://kumakikai.github.io/images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/record-button_hu_13f73f872eba72d2.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/sticky-marker_hu_10a4dfc1433c315b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/ja/attachment-menu_hu_e3feefa9ba739ba3.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/ja/home-search_hu_7b350f746a0ebcd6.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/ja/problem-answer_hu_f51b0825aa5c9903.webp",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/uni-note/",
+        "https://kumakikai.github.io/privacy/uni-note/"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/ko/faq/smokeless/": {
+      "source": "content/faq/smokeless.ko.md",
+      "sourceSHA256": "ba6bf1f619e2213d81d70216fa700a29dcfd3362dec46cb82201bb7e7dd2b56c",
+      "beforeSourceSHA256": "21b4a48e444d4e37979b8aee49c9f1adb61190598edf4c1ef81f19feacf15c11",
+      "baselineTextSHA256": "aec4d416e9e1d4885217829088f281162a71f61a99a59b80a24be9144c4ffe33",
+      "reviewedTextSHA256": "7b72b344d291d28cdb457589159e3971b27143e68971bb9d1f822a2ea7d9be78",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/ko/htu/smokeless/#1-%EC%B2%AB-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC%EA%B3%BC-%ED%95%9C-%EA%B0%91-%EC%84%A4%EC%A0%95%EC%9D%84-%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4",
+        "https://kumakikai.github.io/ko/htu/smokeless/#4-%EC%BA%98%EB%A6%B0%EB%8D%94%EB%A1%9C-%EA%B8%B0%EB%A1%9D%EC%9D%84-%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4",
+        "https://kumakikai.github.io/ko/htu/smokeless/#6-%ED%99%88-%EC%9C%84%EC%A0%AF%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A9%EB%8B%88%EB%8B%A4",
+        "https://kumakikai.github.io/ko/htu/smokeless/#apple-watch",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+%EB%AC%B8%EC%9D%98"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/ko/faq/uni-note-pocket/": {
+      "source": "content/faq/uni-note-pocket.ko.md",
+      "sourceSHA256": "24a787b0c91bfccfc23b7d1941478b40aa8fb86169943592e06cfc0f425658cf",
+      "beforeSourceSHA256": "54241e091de5491ca3e8104a273084923fb6bc9ba12e56d543d07c347d83cc5d",
+      "baselineTextSHA256": "945e77fa263444378700b9e78b369ea9c178f29a83d8e0ef45caae9085556c6f",
+      "reviewedTextSHA256": "c5fd33bd4561c8382ebbf20bb7ef4bbd727806539b1504558d07fe9f41b649c8",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/ko/htu/uni-note-pocket/#import",
+        "https://kumakikai.github.io/ko/htu/uni-note-pocket/#read",
+        "https://kumakikai.github.io/ko/htu/uni-note-pocket/#recordings",
+        "https://kumakikai.github.io/ko/htu/uni-note-pocket/#refresh",
+        "https://kumakikai.github.io/ko/privacy/uni-note-pocket/#data-management",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%EB%AC%B8%EC%9D%98"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/ko/htu/uni-note-pocket/",
+        "https://kumakikai.github.io/ko/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/ko/faq/uni-note/": {
+      "source": "content/faq/uni-note.ko.md",
+      "sourceSHA256": "4b100afdf2616a314f7a6ea140585c8d5cda9d9ee7af808d0bdbabe7d28a36d0",
+      "beforeSourceSHA256": "01b1d79013a0628acae4bf7f1eebc6fefd801e0096e0a08adf7ab8bfd5c49a2f",
+      "baselineTextSHA256": "d6bfc78516d3e47ab028cc83d22e6ec5c532cfc043ce88c8a6f4663d7331b065",
+      "reviewedTextSHA256": "a77b688356a27fae41ffae67d9921af328a4cc05f8abd69632fe64b2a8257388",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/ko/htu/uni-note/#backup",
+        "https://kumakikai.github.io/ko/htu/uni-note/#find",
+        "https://kumakikai.github.io/ko/htu/uni-note/#pdf",
+        "https://kumakikai.github.io/ko/htu/uni-note/#recording",
+        "https://kumakikai.github.io/ko/htu/uni-note/#review",
+        "https://kumakikai.github.io/ko/htu/uni-note/#windows",
+        "https://kumakikai.github.io/ko/htu/uni-note/#write",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%EB%AC%B8%EC%9D%98"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/ko/htu/smokeless/": {
+      "source": "content/htu/smokeless.ko.md",
+      "sourceSHA256": "b0879c1970ecc217409003f7575494548be62a5a53e4b846170eb502a7b58a98",
+      "beforeSourceSHA256": "a67c2843843945070426a4587d919808102aa0e68df75fda94d31bc3814d4970",
+      "baselineTextSHA256": "650b67e93542072c1e0f9eada065187ea346b56acc1473dd4319731a20ccbb96",
+      "reviewedTextSHA256": "71584cefd0a2b8640504b5f8bad772072a6f0ea69d5ce7afb07dc55d6f68904d",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/ko/calendar_hu_3ec00c7850f9a703.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/ko/chart_hu_bf32502310c4c463.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/ko/history-controls_hu_496921c8f006ff34.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/ko/record-buttons_hu_2a789e651cfda068.webp",
+        "https://kumakikai.github.io/ko/faq/smokeless/#help",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+%EB%AC%B8%EC%9D%98"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/ko/faq/smokeless/",
+        "https://kumakikai.github.io/ko/privacy/smokeless/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/ko/htu/uni-note-pocket/": {
+      "source": "content/htu/uni-note-pocket.ko.md",
+      "sourceSHA256": "e4ef4432d4bd64b753086c055d5ede2ec918e1b992e7401a774fb5b5d91e8181",
+      "beforeSourceSHA256": "ee28ff8392a65a718e7b4be7af0bec02859af1e4c5e90ec5d32a6a497951a79d",
+      "baselineTextSHA256": "7d4547ed05e14ea2bc0515df242463c390b73e518c7358a8360f8652de5e4e1f",
+      "reviewedTextSHA256": "236848d7e41365d57c84a11f29d85f8263bd406fbea45c1e18d9815fd6ee8630",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ko/import-backup_hu_c26ea45510dc4999.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ko/open-note_hu_6868c293dcab527a.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ko/page-review_hu_78149589ed2e80b3.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ko/practice-answer_hu_b885d1d162775250.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ko/search-notes_hu_8aad75e645afbde6.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/ko/sticky-review_hu_667b6dbe2d9ab50d.webp",
+        "https://kumakikai.github.io/ko/faq/uni-note-pocket/#help",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%EB%AC%B8%EC%9D%98"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/ko/faq/uni-note-pocket/",
+        "https://kumakikai.github.io/ko/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/ko/htu/uni-note/": {
+      "source": "content/htu/uni-note.ko.md",
+      "sourceSHA256": "c11edeb1c4a39826ef726b3c1bf718fc1b89334342f1999a7d0d230d73c48a44",
+      "beforeSourceSHA256": "c02e5a556d594b33a22567cefb065a2d6e1939eb14b4e9fda06099ab2bcd386b",
+      "baselineTextSHA256": "6767264d91f95d305e2611b5ac966b9f9afbb6fc3ef6fccf6c799be4100c6ade",
+      "reviewedTextSHA256": "ca7dddd5db78e7ee2df0e0f0b9fefbe8b848765c8d7ca95f65955f29e55dd1f9",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/record-button_hu_13f73f872eba72d2.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/sticky-marker_hu_10a4dfc1433c315b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/ko/attachment-menu_hu_2f951b489c290c55.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/ko/create-menu_hu_820b6b5c21a273f8.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/ko/home-search_hu_dbb5e37c2876a66c.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/ko/problem-answer_hu_c106d2159d2d1bf4.webp",
+        "https://kumakikai.github.io/ko/faq/uni-note/#help",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%EB%AC%B8%EC%9D%98"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/ko/faq/uni-note/",
+        "https://kumakikai.github.io/ko/privacy/uni-note/"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/ko/privacy/smokeless/": {
+      "source": "content/privacy/smokeless.ko.md",
+      "sourceSHA256": "4fa8781fafa2b40153b9f76d991ab389568977622932d8bb8c9a7a75174e933d",
+      "beforeSourceSHA256": "11f6b2e2ef2fc54dcf2006e8f401bb2cd4527fb10f4a55c2048408314c2ecfa7",
+      "baselineTextSHA256": "bc18b4e42b775a1d860c934ab08c090d5f2a77f9d3515ae0a12d6497ea5838ac",
+      "reviewedTextSHA256": "ac38d492b20bd83a458acd5317169bae3b05ca9d4f1001f9bf35d784e968e53d",
+      "reviewedLinks": [
+        "https://policies.google.com/privacy?hl=ko",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+%EB%AC%B8%EC%9D%98"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/ko/privacy/uni-note-pocket/": {
+      "source": "content/privacy/uni-note-pocket.ko.md",
+      "sourceSHA256": "cb6a1ca51ff4e3f74c9bc664d380eb8890c44dff5450aa2cc1afe343517baf19",
+      "beforeSourceSHA256": "09b54fb18753363215a1abb95a846b08b214db9946efd0fc4059160a69c0ea5d",
+      "baselineTextSHA256": "6a03cd7ce0938c3a0b8ab2f36a30ba3fedea49d16af05c57b70e44b2f5224ae1",
+      "reviewedTextSHA256": "5458a3b9f9c21b66ff74d21b79c50ff053086dae194332580d2108d111356592",
+      "reviewedLinks": [
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%EB%AC%B8%EC%9D%98"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/ko/privacy/uni-note/": {
+      "source": "content/privacy/uni-note.ko.md",
+      "sourceSHA256": "6693f3ae402f54521a53bb188a57d13210dc5a170e13bf03e079ea6f4271f389",
+      "beforeSourceSHA256": "a1a81360a1307c34c2b30c115f2c13f2e236c33bbe4107af1b76a987c2b1e6c2",
+      "baselineTextSHA256": "aeb5d85dc1364e5806d5ee6194b4486080c1375e55711049fffbbd55aeed6170",
+      "reviewedTextSHA256": "09bc87ff92b85fcb736d2d6d2fba25fa641605eac4655fd006dd734e3d1e7523",
+      "reviewedLinks": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%EB%AC%B8%EC%9D%98"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/privacy/balance-calendar/": {
+      "source": "content/privacy/balance-calendar.md",
+      "sourceSHA256": "4e7453476dfc481c87fca27dfbf3b23ba8efb9c623db5488cde16d6a5cd1e80f",
+      "beforeSourceSHA256": "dc9b27204db105b541ccee142b99510a35118e276abfe6817a2a946cec10f5ac",
+      "baselineTextSHA256": "dd230219c2127713613450ebbde3e3276994f783b71d84f8dba9e0f745e32e0c",
+      "reviewedTextSHA256": "5162f82150dd4cec8d4ea0fa804a6198f5220dbc4218345a4ff53ee6623c6c18",
+      "reviewedLinks": [
+        "https://policies.google.com/privacy?hl=ja",
+        "https://www.apple.com/jp/legal/privacy/jp/",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local income/expense records and PIN controls, actual advertising data and three one-time purchases; do not infer cloud sync from an entitlement. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/privacy/giga-poke/": {
+      "source": "content/privacy/giga-poke.md",
+      "sourceSHA256": "c98d85ef81d33fa2e19153bb7202b985ca7f9c4bf025420770aceb3d4d529a54",
+      "beforeSourceSHA256": "16c9813e650bae83c45cd5f0a6dedd804c9a0adfde7bb9ddff8e26c9f9896b71",
+      "baselineTextSHA256": "d328e3110c4f5d13672281a8de9da67f4e9039da4a89075aff5638391d4b142c",
+      "reviewedTextSHA256": "fae9d69f9b79102dff8609be6f987e2109b0bf2e88b249c78ceb00a9fbafa396",
+      "reviewedLinks": [
+        "https://forms.gle/Enzmm94LdXRZjP8k9",
+        "https://policies.google.com/privacy?hl=ja",
+        "https://www.apple.com/jp/legal/privacy/jp/",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+        "https://kumakikai.github.io/faq/giga-poke/",
+        "https://kumakikai.github.io/htu/giga-poke/",
+        "https://kumakikai.github.io/terms/giga-poke/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain. The site-hosting privacy reference is outside this app privacy document and is removed with that unrelated explanation.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/privacy/nocca/": {
+      "source": "content/privacy/nocca.md",
+      "sourceSHA256": "e9f205538c018334f51de7fd1f8fa3c468cc5a26d89fc526c6f1bb96584bd6c1",
+      "beforeSourceSHA256": "7d9eaae429457e4b2c481ab797b369a4dcc699cff74270ad071449abb768d692",
+      "baselineTextSHA256": "e01d5993ef49c080b2b2a9c5b30ce12b125ce15e6cca69d3c5d51cd3bf7a1fff",
+      "reviewedTextSHA256": "edf3841ceb846d49035cb9bf0acd07be7070db1dd95aa281bb6cf20f78709623",
+      "reviewedLinks": [
+        "https://forms.gle/JwDoPvzAh1zKaR2M8",
+        "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/nocca/",
+        "https://kumakikai.github.io/htu/nocca/",
+        "https://kumakikai.github.io/terms/nocca/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/communication-phase1.md",
+        "docs/audits/2026-09-08-document-unification/communication-phase3.md"
+      ]
+    },
+    "/privacy/oto-miru/": {
+      "source": "content/privacy/oto-miru.md",
+      "sourceSHA256": "2c68eab427d07fefbef6e972f716ecf1983b95065d057d89a4d57a713f758fd7",
+      "beforeSourceSHA256": "36545b7e3ae2dad48213cb674062e0492084b3ba853a3c904c60d6c4932bf91f",
+      "baselineTextSHA256": "f15a9c05f509a55c73a49fce32ca88582ee07a5d3750cd1dbcdca8aeeb49eada",
+      "reviewedTextSHA256": "6ea4d5939f674d2c5129540ba9ac22cb5fb4fe17b580b6bf638e61e6caefa739",
+      "reviewedLinks": [
+        "https://policies.google.com/privacy",
+        "https://policies.google.com/technologies/ads",
+        "https://www.apple.com/jp/legal/privacy/jp/",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/oto-miru/",
+        "https://kumakikai.github.io/htu/oto-miru/",
+        "https://kumakikai.github.io/terms/oto-miru/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Separate on-device speech, limited temporary review after manual stop, AdMob diagnostics and Plus subscriptions; remove obsolete recognition requirements. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/communication-phase1.md",
+        "docs/audits/2026-09-08-document-unification/communication-phase3.md"
+      ]
+    },
+    "/privacy/signal/": {
+      "source": "content/privacy/signal.md",
+      "sourceSHA256": "e120caeb334320c3bf9b70f9f38c9e4b0fbcb51ce297ba0e42f3a78053dbde94",
+      "beforeSourceSHA256": "27c739515788137bb4da0b4a88f39faa4bb4afcaa2174173f5209fdad8920f0e",
+      "baselineTextSHA256": "04b012f8c49932b1aac97e4121c78ffea95442029acc97867c2d9db8713748c0",
+      "reviewedTextSHA256": "5566f698fde17b1483bb4d020fb12663a24438d8066bb6b460b93879dd4e71be",
+      "reviewedLinks": [
+        "https://www.apple.com/jp/legal/privacy/jp/",
+        "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Separate local feed/learning settings from feed, thumbnail and article-site requests; distinguish learning reset from clearing all web data. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/privacy/smokeless/": {
+      "source": "content/privacy/smokeless.md",
+      "sourceSHA256": "6ded85b3bfccb9333a895b59ae57668dfd6d0dc3c1ac3d5fc10a8a77b329474b",
+      "beforeSourceSHA256": "c7e511c978e68e9d7e8e787f0754d430b28a2e3ad873e0b239502d4149d71dda",
+      "baselineTextSHA256": "c121364947c838926eb6b65d35fa4471ade9003b73d1078d51a8ef344901032f",
+      "reviewedTextSHA256": "cda9a63d7afc3bd532a9779f72641d6b3d1edbf1d6c012b6f4124ed1fd1a400e",
+      "reviewedLinks": [
+        "https://policies.google.com/privacy?hl=ja",
+        "https://www.apple.com/jp/legal/privacy/jp/",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/privacy/uni-note-pocket/": {
+      "source": "content/privacy/uni-note-pocket.md",
+      "sourceSHA256": "173e9a67b39073c4ca1b0a1422e3e2e4f02f50f268b86a2a03b18429f73323ed",
+      "beforeSourceSHA256": "cce2fcadaaeedb8f6f92f2520698f99de6337141cf49e517b476193df5a2eba2",
+      "baselineTextSHA256": "0086314f95fc8841688d4ba697128275690a178326c7038f8616d67aaceed514",
+      "reviewedTextSHA256": "88844045c50c85ae42062629fef037541d439a5bd73b77e7a9d7c427f931a017",
+      "reviewedLinks": [
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/privacy/uni-note/": {
+      "source": "content/privacy/uni-note.md",
+      "sourceSHA256": "e5bb43afca94e5292d8fb1b11bfee0a0e9798b5e7414c20a3d4c441366c1bb18",
+      "beforeSourceSHA256": "1ce170e7fd0d14584d2ecdc468a79457f8350992ef4bb9980e9e06f86481a918",
+      "baselineTextSHA256": "93803e6b2db56b741b03fe641f5af12a7328a15a4fc537c6d651365c2531d538",
+      "reviewedTextSHA256": "bbe0c3c73ffd761ca8a283b5f81b014679b08d7bf1c94a9d3108f5668e15a7b5",
+      "reviewedLinks": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/terms/balance-calendar/": {
+      "source": "content/terms/balance-calendar.md",
+      "sourceSHA256": "f7413b829e2db0e00875b676f38b3f5bcc9934804d9516f1e0b789d2701f93a1",
+      "beforeSourceSHA256": null,
+      "baselineTextSHA256": null,
+      "reviewedTextSHA256": "34d3f74fcdd8a6cd1a66f8544d43758da99c72e5d016fc9a4a01f364fa5e5234",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/privacy/balance-calendar/",
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Preserve local income/expense records and PIN controls, actual advertising data and three one-time purchases; do not infer cloud sync from an entitlement. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/terms/giga-poke/": {
+      "source": "content/terms/giga-poke.md",
+      "sourceSHA256": "13ad0026c3e2aa55befde9884eb6d593d453efa22afae5b03d7f5dbaf1cbb387",
+      "beforeSourceSHA256": "53e3b156997d85ab4a965dc1b74712ff102d81221767bc01fc70bcd6e227ec48",
+      "baselineTextSHA256": "b58107d623e12a1c9e61328889bcc1986de480c6fbd7c5ff728c6563eb51d89c",
+      "reviewedTextSHA256": "0fe5effdc0e8fa0c3487625ad2974863e4fed2db6664170e29ab1017904200bb",
+      "reviewedLinks": [
+        "https://forms.gle/Enzmm94LdXRZjP8k9",
+        "https://kumakikai.github.io/privacy/giga-poke/",
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/giga-poke/",
+        "https://kumakikai.github.io/htu/giga-poke/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/terms/nocca/": {
+      "source": "content/terms/nocca.md",
+      "sourceSHA256": "c6b00884a99b263531d77bfc7ffd06b1cbbde24a8bb61d559c8f5a08b1a65297",
+      "beforeSourceSHA256": "f38d28bb3d8f86088ce345b38f2bd4b696deeac918094bae311b8a302d1679c9",
+      "baselineTextSHA256": "150df3841135c7542cbe39b7318c9d1cb53b68bb2a4e2fff8c8718855da46946",
+      "reviewedTextSHA256": "8ed248286c89fab68a3c4ef72bc313e769f0ba6af8692616a70cf8e24c536353",
+      "reviewedLinks": [
+        "https://forms.gle/JwDoPvzAh1zKaR2M8",
+        "https://kumakikai.github.io/privacy/nocca/",
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/nocca/",
+        "https://kumakikai.github.io/htu/nocca/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/communication-phase1.md",
+        "docs/audits/2026-09-08-document-unification/communication-phase3.md"
+      ]
+    },
+    "/terms/oto-miru/": {
+      "source": "content/terms/oto-miru.md",
+      "sourceSHA256": "fe28159ffd9d130bc43507b162a7bee9c7cc1e336ff4338337ab8557f2b6e08a",
+      "beforeSourceSHA256": "f04bde77d084d2380645e5bab0924f7efdb4a303e51ccd48211eabef1232108a",
+      "baselineTextSHA256": "3dc0419263c20daa9703df42b0afc35d69718a8f29f242b0b1149c61f78a9175",
+      "reviewedTextSHA256": "7f2ca57f0e3d7d824185f91809a6f05830ce54195faa7865bf129f0b5bbbf038",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/privacy/oto-miru/",
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/faq/oto-miru/",
+        "https://kumakikai.github.io/htu/oto-miru/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Separate on-device speech, limited temporary review after manual stop, AdMob diagnostics and Plus subscriptions; remove obsolete recognition requirements. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/communication-phase1.md",
+        "docs/audits/2026-09-08-document-unification/communication-phase3.md"
+      ]
+    },
+    "/terms/signal/": {
+      "source": "content/terms/signal.md",
+      "sourceSHA256": "5c8f46cc126ea4dc7344009ae31b7e39f1a3a02d0dffea0d307eb01eca4cc895",
+      "beforeSourceSHA256": null,
+      "baselineTextSHA256": null,
+      "reviewedTextSHA256": "0b78a39bbf5678a8365e1338996451f326830979c98a37e77b5f01189b829751",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/privacy/signal/",
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Separate local feed/learning settings from feed, thumbnail and article-site requests; distinguish learning reset from clearing all web data. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/terms/smokeless/": {
+      "source": "content/terms/smokeless.md",
+      "sourceSHA256": "c0485c3bbecf65ef3ed23725e3367c996e30e892788f1c2bc9a2c6c21bd5da23",
+      "beforeSourceSHA256": null,
+      "baselineTextSHA256": null,
+      "reviewedTextSHA256": "b8af8735e6089d69640822f5dd3d6445e5fb83dc8d4292bb0705c0cb88c610b0",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/privacy/smokeless/",
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "mailto:kumakikai.apps@gmail.com?subject=%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/terms/uni-note-pocket/": {
+      "source": "content/terms/uni-note-pocket.md",
+      "sourceSHA256": "5d2eb0b24e2ecd814f8d5e6e8007ff4e4efc78212e4da86e651a7aa43c98acba",
+      "beforeSourceSHA256": null,
+      "baselineTextSHA256": null,
+      "reviewedTextSHA256": "674ca0c3e6cf2d8b7b5887a43b321a93b9dfbc45be93f75dd8ccb8f50a0334d2",
+      "reviewedLinks": [
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/terms/uni-note/": {
+      "source": "content/terms/uni-note.md",
+      "sourceSHA256": "a39998ec17394b4b9e5993d4533207f5a550218d25d1b72a2ffffbb9db233b03",
+      "beforeSourceSHA256": null,
+      "baselineTextSHA256": null,
+      "reviewedTextSHA256": "2ba40a1b5bec01213011f360578d94619773ce0e09a19ff73115113037f66dfe",
+      "reviewedLinks": [
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/zh-hant/faq/smokeless/": {
+      "source": "content/faq/smokeless.zh-hant.md",
+      "sourceSHA256": "b2fbaec19a74d3c1c20b0c3d98267a2c6b7b22037583eca137c65ed47c2495bc",
+      "beforeSourceSHA256": "dd92e2b4d0c559a341c0e2627e2d4013501403d5d929cfa20bfdd9a299440d11",
+      "baselineTextSHA256": "1d467fbee67e80a19743e3bf2e6fa9a81fa4e3e786a3f2e5000eb3d661336334",
+      "reviewedTextSHA256": "b77a593a263bc27b547f561b6fa37617f1e247ff7ea7d2456179111f8b83aa7e",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/zh-hant/htu/smokeless/#1-%E7%A2%BA%E8%AA%8D%E9%A6%96%E6%AC%A1%E6%95%99%E5%AD%B8%E8%88%87%E6%AF%8F%E5%8C%85%E8%A8%AD%E5%AE%9A",
+        "https://kumakikai.github.io/zh-hant/htu/smokeless/#4-%E5%9C%A8-%E6%97%A5%E6%9B%86-%E4%BB%A5%E6%97%A5--%E6%9C%88--%E5%B9%B4%E5%9B%9E%E9%A1%A7",
+        "https://kumakikai.github.io/zh-hant/htu/smokeless/#6-%E4%BD%BF%E7%94%A8%E4%B8%BB%E7%95%AB%E9%9D%A2%E5%B0%8F%E5%B7%A5%E5%85%B7",
+        "https://kumakikai.github.io/zh-hant/htu/smokeless/#apple-watch",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+%E8%81%AF%E7%B5%A1"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/zh-hant/faq/uni-note-pocket/": {
+      "source": "content/faq/uni-note-pocket.zh-hant.md",
+      "sourceSHA256": "75bd36e93c00319d570bb9efdb46db2d13c099185727a9a7dff0ffb0acd99292",
+      "beforeSourceSHA256": "ebe1958d752d0729ce3ff8844b1fee4733f7bb63c644179588921ff0913da63f",
+      "baselineTextSHA256": "99235884db2595491be725b536bb009a3e154846f6723958c55916a85af9fbb2",
+      "reviewedTextSHA256": "6bb54209b7cb76a16a4ae6a0c79ef704376571ffb12993c096cb59d803607f14",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/#import",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/#read",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/#recordings",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/#refresh",
+        "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/#data-management",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%E8%81%AF%E7%B5%A1"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/",
+        "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/zh-hant/faq/uni-note/": {
+      "source": "content/faq/uni-note.zh-hant.md",
+      "sourceSHA256": "fa4e51d400b60e425e8c6578dee315d48c3e20fdf2d94ce3b46b57eef147857a",
+      "beforeSourceSHA256": "760510d14056f16380f2b75585381379265a8bf9f4deef814e73301814e5e498",
+      "baselineTextSHA256": "e5027cf3968e430bbe79884cf082764d3272930fc9dc60a6f0ead3410c5f0e65",
+      "reviewedTextSHA256": "cf47201d44755d9698fa7dee6fed953ccfeaa5405bae85aa2111d3df0d410e3b",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/zh-hant/htu/uni-note/#backup",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note/#find",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note/#pdf",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note/#recording",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note/#review",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note/#windows",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note/#write",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%E8%81%AF%E7%B5%A1"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/zh-hant/htu/smokeless/": {
+      "source": "content/htu/smokeless.zh-hant.md",
+      "sourceSHA256": "6d4e8f43eeea426f15192ea1ddbe5fe616c31a5d339f349cb4cb004333135734",
+      "beforeSourceSHA256": "1ea74722defd122bc5d3d3e52169f21e2d59203d2b45e6ca97e7122cf8759431",
+      "baselineTextSHA256": "06052a4c4f2449707ce62c182207346fc79c0ba6f086278cb1a11dabe9f82ad2",
+      "reviewedTextSHA256": "9b8d8f67d5e75c0b018666b1e453ae6f38a79559e20fa618e3a2e4611a00bb38",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/images/apps/smokeless/watch/recording-ui_hu_d063db15eb55dbf5.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/zh-hant/calendar_hu_d9980ceba80bf376.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/zh-hant/chart_hu_a7be403e833193.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/zh-hant/history-controls_hu_8cf5f9a849d248f.webp",
+        "https://kumakikai.github.io/images/guides/smokeless/zh-hant/record-buttons_hu_2a789e651cfda068.webp",
+        "https://kumakikai.github.io/zh-hant/faq/smokeless/#help",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+%E8%81%AF%E7%B5%A1"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/zh-hant/faq/smokeless/",
+        "https://kumakikai.github.io/zh-hant/privacy/smokeless/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/zh-hant/htu/uni-note-pocket/": {
+      "source": "content/htu/uni-note-pocket.zh-hant.md",
+      "sourceSHA256": "605e0c1da5287b78087bdef692d5556a0dc81ac5e11567c051a59ea54d9106cc",
+      "beforeSourceSHA256": "d8644704d0d5843580b373654252ea0b0fb132871e4a593a82168303bf377098",
+      "baselineTextSHA256": "090656e3cbbd8821493987765b875c741c01918737873381f3ad7bedf3a915fc",
+      "reviewedTextSHA256": "4da0262ffad99fe4cf267fa3768958e0f460be2b39a0f6bdaaaf104313fffd39",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/zh-hant/import-backup_hu_f008226ff50b4c.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/zh-hant/open-note_hu_33431c31e65e5cc2.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/zh-hant/page-review_hu_1a80c76f4618873f.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/zh-hant/practice-answer_hu_958d46dcfe9ec7aa.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/zh-hant/search-notes_hu_4ab9e8f59286bf75.webp",
+        "https://kumakikai.github.io/images/guides/uni-note-pocket/zh-hant/sticky-review_hu_2fefb9a2f1fe00ea.webp",
+        "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/#help",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%E8%81%AF%E7%B5%A1"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/",
+        "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/zh-hant/htu/uni-note/": {
+      "source": "content/htu/uni-note.zh-hant.md",
+      "sourceSHA256": "d26df7be29af09d2cada78718ecb6721a79f33923780f2fe70af136fe3ef375e",
+      "beforeSourceSHA256": "4e963f8e757eaa220cf8d5a54add967f2856c83b9ad68dc5a711e876f2d03b07",
+      "baselineTextSHA256": "0ad93001924502ebcc8317108accca5d624457ff10510110e77257615d1e888a",
+      "reviewedTextSHA256": "b73d5db4735d5d8685c32cfc6612b19b07260f980375ec25573f36ef04b672ed",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/record-button_hu_13f73f872eba72d2.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/sticky-marker_hu_10a4dfc1433c315b.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/zh-hant/attachment-menu_hu_4390b8e3da541e85.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/zh-hant/create-menu_hu_c33303a47f9ae482.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/zh-hant/home-search_hu_2c3e4e013bd8ae69.webp",
+        "https://kumakikai.github.io/images/guides/uni-note/zh-hant/problem-answer_hu_c106d2159d2d1bf4.webp",
+        "https://kumakikai.github.io/zh-hant/faq/uni-note/#help",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%E8%81%AF%E7%B5%A1"
+      ],
+      "removedLinks": [
+        "https://kumakikai.github.io/zh-hant/faq/uni-note/",
+        "https://kumakikai.github.io/zh-hant/privacy/uni-note/"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/zh-hant/privacy/smokeless/": {
+      "source": "content/privacy/smokeless.zh-hant.md",
+      "sourceSHA256": "1843eddd8bee4a9d8e085017f2577a3d468e9f6dbcafa238b663f9babf93bb8e",
+      "beforeSourceSHA256": "6578e119181cc5e1a9af90dfa16f8e9426153b1dabe168b378c50b3e0590ea19",
+      "baselineTextSHA256": "5d0ac4dc81abbbc1fedf84236421724f8e8d8a3e7b447e80ff012895de0c7918",
+      "reviewedTextSHA256": "2d0fd9bee2abf9d6b6ce0f75ed278aa7577b5172ed65aa4ae3449c4d451e8b13",
+      "reviewedLinks": [
+        "https://policies.google.com/privacy?hl=zh-TW",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+%E8%81%AF%E7%B5%A1"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve local smoking records, actual advertising data, two one-time purchases and the unconfirmed Watch release boundary. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
+        "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
+      ]
+    },
+    "/zh-hant/privacy/uni-note-pocket/": {
+      "source": "content/privacy/uni-note-pocket.zh-hant.md",
+      "sourceSHA256": "3448fbb596d4bd3d71aa58dabc9f842e2323b5b3a2a9a3cc5d5c24c894e99317",
+      "beforeSourceSHA256": "f39bc5bfa42e65e6caffd5caaaa4a0029c9d212aa9f023796a241e2805589b40",
+      "baselineTextSHA256": "14e22b5dff3a03f2a1102aa1f5cb72d86c696bb34afbc7cffaf28215f3e06d82",
+      "reviewedTextSHA256": "d3decdda5aed26a5b1fddda278b1d6fa0436289cb9ab0f0911c8225556c62007",
+      "reviewedLinks": [
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%E8%81%AF%E7%B5%A1"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Preserve read-only backup import, optional iCloud refresh, original backup independence and the absence of app AI or purchases. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    },
+    "/zh-hant/privacy/uni-note/": {
+      "source": "content/privacy/uni-note.zh-hant.md",
+      "sourceSHA256": "4db8357d7193727b005055543ed45e3ecd2b4e99a1a53f6f59b96783b8557eaf",
+      "beforeSourceSHA256": "8f7d2938038bf870a9bb571877e438df7d81416186bb404b73fd0958d62be240",
+      "baselineTextSHA256": "e779d5289199b13919a9473c3b8e88099904c4228a897fbfebf1048afd55da09",
+      "reviewedTextSHA256": "1f14c6b28e774f220cb46e91f76a6be95719eb972f79efdadbb92c8bb6553ecc",
+      "reviewedLinks": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/",
+        "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%E8%81%AF%E7%B5%A1"
+      ],
+      "removedLinks": [
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "evidence": [
+        "docs/audits/2026-09-08-document-unification/learning-phase1.md",
+        "docs/audits/2026-09-08-document-unification/learning-phase3.md"
+      ]
+    }
+  }
+}

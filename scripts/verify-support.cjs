@@ -46,16 +46,34 @@ function expectedURL(app, kind, locale) {
       const page=await ctx.newPage();
       try {
         const response=await page.goto(base+p.route,{waitUntil:'load'});assert.equal(response.status(),200);
-        const panel=page.locator('.support-resources');assert.equal(await panel.count(),1);
+        const legal=['privacy','terms'].includes(p.section);
+        const resourcePanel=page.locator('.support-resources');assert.equal(await resourcePanel.count(),legal?0:1);
+        const contact=page.locator('[data-document-contact]');assert.equal(await contact.count(),p.section==='products'?0:1);
+        const panel=legal?contact:resourcePanel;
         await panel.scrollIntoViewIfNeeded();
-        r.rows=await panel.locator('li').evaluateAll(nodes=>nodes.map(n=>{
+        r.rows=await resourcePanel.locator('li').evaluateAll(nodes=>nodes.map(n=>{
           const a=n.querySelector('a'),title=a.querySelector('.resource-title'),desc=a.querySelector('.resource-description'),style=getComputedStyle(a);
           return {kind:n.dataset.supportKind,href:a.getAttribute('href'),title:title?.textContent.trim(),description:desc?.textContent.trim(),target:a.getAttribute('target'),rel:a.getAttribute('rel'),note:a.querySelector('.sr-only')?.textContent,arrow:a.querySelector('[aria-hidden]')?.textContent.trim(),height:a.getBoundingClientRect().height,style:[style.display,style.fontSize,style.borderBottomStyle,style.borderBottomWidth,style.paddingTop,style.paddingBottom],titleSize:getComputedStyle(title).fontSize,descriptionSize:desc&&getComputedStyle(desc).fontSize};
         }));
         const currentKind=p.section==='htu'?'guide':p.section;
-        const kinds=['guide','faq','contact','privacy','terms'].filter(k=>k!==currentKind);
+        const kinds=legal?[]:['guide','faq','contact','privacy','terms'].filter(k=>k!==currentKind&&(p.section==='products'||k!=='contact'));
         assert.deepEqual(r.rows.map(row=>row.kind),kinds);
         const app=apps.find(a=>a.id===p.id);
+        if(p.section!=='products'){
+          const contactLinks=await contact.locator('a').evaluateAll(nodes=>nodes.map(a=>a.getAttribute('href')));
+          const expected=expectedURL(app,'contact',p.locale);
+          if(expected.startsWith('mailto:')){
+            assert.equal(contactLinks.length,1);
+            const url=new URL(contactLinks[0]);assert.equal(url.href.split('?')[0],expected);
+            assert.equal(url.searchParams.get('subject'),contactSubjects[p.locale][p.id]);
+          }else{
+            assert.equal(contactLinks.length,2);assert.equal(contactLinks[0],expected);
+            assert(contactLinks[1].startsWith('mailto:kumakikai.apps@gmail.com?subject='));
+          }
+          const bodyLinks=await page.locator('[data-content-body] a[href]').evaluateAll(nodes=>nodes.map(a=>a.getAttribute('href')));
+          for(const url of contactLinks)assert.equal(bodyLinks.filter(h=>h===url).length,1,'Contact appears once in body');
+          r.contact=contactLinks;
+        }
         for (const row of r.rows) {
           const expected=expectedURL(app,row.kind,p.locale);
           if(row.kind==='contact'&&expected.startsWith('mailto:')&&!expected.includes('?')){
@@ -74,9 +92,9 @@ function expectedURL(app, kind, locale) {
         r.layout=await page.evaluate(()=>({width:document.documentElement.scrollWidth,dark:document.documentElement.classList.contains('dark'),oldUI:document.querySelectorAll('.related-resource,.resource-terms').length,articleLinks:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')).filter(h=>/\/(notes|news)\/[^#/?]+\//.test(h))}));
         r.lightTheme=await assertLightTheme(page);assert(r.layout.width<=width);assert.equal(r.layout.dark,false);assert.equal(r.layout.oldUI,0);assert.deepEqual(r.layout.articleLinks,[]);
         if(['privacy','terms'].includes(p.section)){
-          // Generic navigation belongs in the shared panel. Contextual legal links remain valid.
+          // Legal pages finish with contact; Product retains the five destinations.
           r.genericRelatedLabels=await page.locator('[data-content-body] p, [data-content-body] h2, [data-content-body] h3, [data-content-body] h4').evaluateAll(nodes=>nodes.map(n=>n.textContent.trim()).filter(text=>/^(?:関連ページ|Related pages|관련 페이지|関連頁面|相關頁面|Verwandte Seiten|Pages connexes)\s*[:：]?$/i.test(text)));
-          assert.deepEqual(r.genericRelatedLabels,[],'Legal pages use the shared support panel instead of a second generic Related Pages list');
+          assert.deepEqual(r.genericRelatedLabels,[],'Legal pages must not repeat generic Related Pages lists');
         }
         const links=panel.locator('a');
         for (const link of [links.first(),links.last()]) {
@@ -90,7 +108,7 @@ function expectedURL(app, kind, locale) {
         }
         if(p.locale==='ja'&&[1440,390].includes(width)&&['uni-note','giga-poke'].includes(p.id)){
           await page.evaluate(async()=>{document.activeElement?.blur();for(const i of document.images)i.loading='eager';await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});
-          await panel.evaluate(n=>{const section=n.closest('section,aside');scrollTo(0,section.getBoundingClientRect().top+scrollY-40);});
+          await panel.evaluate(n=>{const section=n.closest('section,aside')||n;scrollTo(0,section.getBoundingClientRect().top+scrollY-40);});
           r.screenshot=`screenshots/${engine}-${p.section}-${p.id}-${width}-${theme}.jpg`;
           await page.screenshot({path:`${out}/${r.screenshot}`,type:'jpeg',quality:88});
         }

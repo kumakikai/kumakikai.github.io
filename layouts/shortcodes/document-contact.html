@@ -1,0 +1,17 @@
+{{- $ui := index site.Data.document_ui site.Language.Lang -}}
+{{- $app := false -}}{{ range where site.Data.apps "id" .Page.File.ContentBaseName }}{{ $app = . }}{{ end -}}
+{{- if not $app -}}{{ errorf "Document contact needs a known Product: %s" .Page.RelPermalink }}{{- end -}}
+{{- $name := (index (index site.Data.home site.Language.Lang).apps $app.id).name -}}
+<div class="document-contact" data-document-contact>
+<p>{{ replace $ui.contactLead "{app}" $name }}</p>
+{{- range partial "support-data.html" (dict "app" $app) -}}
+  {{- if eq .kind "contact" -}}
+    <p><a href="{{ .url | safeURL }}">{{ if hasPrefix .url "mailto:" }}{{ $ui.mailLabel }}{{ else }}{{ $ui.formLabel }}{{ end }}</a></p>
+    {{- if not (hasPrefix .url "mailto:") -}}
+      {{- $mail := printf "%s?subject=%s" site.Data.support.contactURL (printf "%s — %s" $name $ui.contact | urlquery) -}}
+      <p>{{ $ui.fallbackLead }} <a href="{{ $mail | safeURL }}">kumakikai.apps@gmail.com</a></p>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<p>{{ if in (slice "privacy" "terms") .Page.Section }}{{ $ui.legalContactNote }}{{ else }}{{ $ui.contactNote }}{{ end }}</p>
+</div>

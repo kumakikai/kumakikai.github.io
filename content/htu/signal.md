@@ -1,14 +1,21 @@
 ---
 title: "使い方 (SIGNAL)"
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
+
+## はじめに {#introduction}
 
 記事を探す、読む、配信源を選ぶ操作を紹介します。ログインは不要です。
 
 {{< guide-anchor "2-まずは-today-を見る" >}}
 {{< guide-anchor "3-creators-と-news-を使い分ける" >}}
 
-## 1. タブを選んで記事を探す {#browse}
+iOS 13以降のiPhoneに対応しています。
+
+## 基本的な使い方 {#basic-use}
+
+{{< guide-anchor "browse" >}}
+### タブを選んで記事を探す {#guide-1}
 
 1. 中央の **TODAY** で記事をまとめて確認します。
 2. 個人発信を読むときは **CREATORS**、一般ニュースは **NEWS** をタップします。
@@ -20,7 +27,8 @@ lastmod: 2026-09-07
 
 {{< guide-anchor "4-記事を開く" >}}
 
-## 2. 記事を読む・共有する {#read}
+{{< guide-anchor "read" >}}
+## 記事を読む・共有する {#guide-2}
 
 記事はアプリ内ブラウザで開きます。
 
@@ -33,7 +41,8 @@ lastmod: 2026-09-07
 
 {{< guide-anchor "5-設定-を調整する" >}}
 
-## 3. 配信源を選ぶ {#sources}
+{{< guide-anchor "sources" >}}
+## 配信源を選ぶ {#guide-3}
 
 1. 記事一覧の右上にある **歯車** をタップします。
 2. **記事取得サイト設定** で、読みたい配信源のスイッチをオンにします。
@@ -42,7 +51,8 @@ lastmod: 2026-09-07
 
 CREATORSではnote・Zenn・Qiita・Hatena・DevelopersIO、NEWSではYahooニュース・Google Newsを扱います。有効な配信源の記事はTODAYにも表示されます。
 
-## 4. 文字サイズと配色を変える {#appearance}
+{{< guide-anchor "appearance" >}}
+## 文字サイズと配色を変える {#guide-4}
 
 **設定** の上部で、テーマと **文字サイズ（記事）** を選びます。記事を読む画面の文字を大きくしたいときは **Large** を選んでください。
 
@@ -50,7 +60,8 @@ CREATORSではnote・Zenn・Qiita・Hatena・DevelopersIO、NEWSではYahooニ�
 
 {{< guide-anchor "1-初回はチュートリアルを見る" >}}
 
-## 5. 案内を見直す・学習をリセットする {#settings-help}
+{{< guide-anchor "settings-help" >}}
+## 案内を見直す・学習をリセットする {#guide-5}
 
 初回の案内は、**設定 → チュートリアルを見る** から開き直せます。
 
@@ -58,4 +69,13 @@ CREATORSではnote・Zenn・Qiita・Hatena・DevelopersIO、NEWSではYahooニ�
 
 > リセットすると端末内の学習履歴が削除されます。表示が変わらない場合は、まず記事一覧を下へ引いて再読み込みしてください。
 
-不具合の連絡は、設定下部の **要望・お問い合わせ** からメールを作成できます。
+
+
+## 困ったとき {#help}
+
+
+{{< document-help >}}
+
+## お問い合わせ {#contact}
+
+{{< document-contact >}}

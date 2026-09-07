@@ -3,14 +3,20 @@ title: "Anleitung (Uni:Note Pocket)"
 description: "So verwendest du Uni:Note Pocket."
 aliases:
   - /htu/uni-memo/
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
+
+## Einführung
 
 Importiere ein Uni:Note-Backup auf dem iPhone, um Notizen, Haftmarker und Fragensets zu wiederholen. Pocket erstellt, bearbeitet und synchronisiert keine Notizen. Tippe Bilder zum Vergrößern an.
 
+Erfordert ein iPhone mit iOS 17.0 oder neuer und ein in Uni:Note auf dem iPad erstelltes Backup.
+
+## Grundlegende Nutzung
+
 {{< guide-anchor "1-den-ersten-hinweis-lesen" "2-backup-über-das-import-symbol-auswählen" >}}
 
-## 1. Backup importieren {#import}
+### Backup importieren {#import}
 
 1. Exportiere in Uni:Note auf dem iPad ein Backup-zip an einen Ort, den du in der Dateien-App des iPhone erreichst.
 2. Schließe den ersten Hinweis in Pocket und tippe unten rechts auf das Import-Symbol.
@@ -22,7 +28,7 @@ Wähle die zip-Datei, ohne sie zu entpacken. Das Original bleibt unverändert. S
 
 {{< guide-anchor "4-notizen-zuletzt-verwendete-notizen-und-fragensets-prüfen" "5-notizen-öffnen-und-seiten-ansehen" "6-in-der-seitenansicht-zoomen-und-lesen" >}}
 
-## 2. Notiz öffnen oder Titel suchen {#read}
+## Notiz öffnen oder Titel suchen {#read}
 
 Wähle unter **Notizen** ein Fach und danach eine Notiz. Über die zuletzt verwendeten Notizen kannst du direkt weiterlesen.
 
@@ -38,7 +44,7 @@ Normale Notizen werden vertikal gescrollt. Zoome mit zwei Fingern oder Doppeltip
 
 {{< guide-anchor "8-fragensets-wiederholen" "9-haftnotiz-marker-prüfen" >}}
 
-## 3. Haftmarker und Fragensets wiederholen {#review}
+## Haftmarker und Fragensets wiederholen {#review}
 
 Tippe auf einen Haftmarker, um zwischen normaler und schwacher Anzeige zu wechseln und die Antwort zu prüfen. Erstellen und Bearbeiten erfolgen in Uni:Note auf dem iPad.
 
@@ -50,7 +56,7 @@ Enthält das Backup Fragensets, öffne sie über die Startseite. Denke zunächst
 
 {{< guide-anchor "7-aufnahmen-abspielen" >}}
 
-## 4. Importierte Aufnahmen hören {#recordings}
+## Importierte Aufnahmen hören {#recordings}
 
 1. Öffne eine Notiz mit Aufnahmedaten.
 2. Tippe in der Seitenansicht auf die Aufnahmewiedergabe. Bei mehreren Aufnahmen wählst du aus der Liste.
@@ -60,7 +66,7 @@ Nur im Backup enthaltene Audiodateien können abgespielt werden. Aufnehmen, Tran
 
 {{< guide-anchor "10-einstellungen-anpassen" >}}
 
-## 5. Leseeinstellungen anpassen {#settings}
+## Leseeinstellungen anpassen {#settings}
 
 Öffne das Zahnrad oben rechts auf der Startseite. Ändere Sprache, Design, Fortsetzen oder Schutz vor horizontalem Verrutschen. Die oberste Ebene kann Fach, Notiz, Gruppe oder Kategorie heißen.
 
@@ -68,7 +74,7 @@ Der Schutz vor horizontalem Verrutschen stabilisiert normales vertikales Lesen. 
 
 {{< guide-anchor "3-einfaches-backup-verwenden" "11-später-ein-neueres-backup-laden" >}}
 
-## 6. Ein neueres Backup laden {#refresh}
+## Ein neueres Backup laden {#refresh}
 
 Erstelle nach Änderungen auf dem iPad ein neues Backup und importiere es erneut. Ist ein einfaches Backup verfügbar, öffne **Einstellungen → Einfaches Backup**.
 
@@ -77,3 +83,12 @@ Erstelle nach Änderungen auf dem iPad ein neues Backup und importiere es erneut
 3. Aktiviere bei Bedarf das automatische Laden beim Start.
 
 Das Symbol prüft den Dateistand. Ist eine neuere Datei noch nicht angekommen, bleibt das Datum gleich. Es gibt keine Echtzeitsynchronisierung und kein Zurückschreiben auf das iPad.
+
+## Hilfe
+
+
+{{< document-help >}}
+
+## Kontakt
+
+{{< document-contact >}}

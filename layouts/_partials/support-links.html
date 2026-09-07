@@ -1,9 +1,13 @@
 {{- $ui := index site.Data.ux site.Language.Lang -}}
+{{- $currentContent := "" -}}{{ with .currentPage }}{{ $currentContent = .Content }}{{ end -}}
 <div class="support-resources"><ul class="resource-links">
 {{- range partial "support-data.html" . -}}
+  {{- $duplicateContact := and (eq .kind "contact") (partial "content-has-link.html" (dict "content" $currentContent "url" .url)) -}}
+  {{- if not $duplicateContact -}}
   <li data-support-kind="{{ .kind }}"><a href="{{ .url | safeURL }}"{{ if .external }} rel="external"{{ end }}{{ if .appleEULA }} title="{{ $ui.appleEULAExternal }}"{{ end }}>
     <span class="resource-copy"><span class="resource-title">{{ .title }}{{ if .fallback }} <span lang="ja">（日本語）</span>{{ end }}</span><span class="resource-description">{{ .description }}</span>{{ if .appleEULA }}<span class="sr-only">{{ $ui.appleEULAExternal }}</span>{{ end }}</span>
     <span aria-hidden="true">{{ if .external }}↗{{ else }}→{{ end }}</span>
   </a></li>
+  {{- end -}}
 {{- end -}}
 </ul></div>

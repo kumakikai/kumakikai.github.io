@@ -2,14 +2,20 @@
 version_context_date: "2026-09-07"
 title: "Anleitung (Uni:Note)"
 description: "Anleitung für Uni:Note."
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
+
+## Einführung
 
 Diese echten App-Bildschirme zeigen die wichtigsten Schritte in Uni:Note 3.4.0. Bilder lassen sich durch Antippen vergrößern. Schreibe mit dem Apple Pencil; mit den Fingern scrollst du und bewegst Anhänge.
 
+Erfordert ein iPad mit iPadOS 17.0 oder neuer. Handschrift nutzt Apple Pencil. Die Transkription benötigt eine unterstützte Umgebung mit iPadOS 26 oder neuer.
+
+## Grundlegende Nutzung
+
 {{< guide-anchor "1-fächer-und-ordner-auf-der-startseite-organisieren" "2-die-erste-notiz-öffnen" >}}
 
-## 1. Fach und erste Notiz erstellen {#create}
+### Fach und erste Notiz erstellen {#create}
 
 1. Tippe unten rechts auf der Startseite auf **+** und wähle **Neues Fach**.
 
@@ -22,7 +28,7 @@ Diese echten App-Bildschirme zeigen die wichtigsten Schritte in Uni:Note 3.4.0. 
 
 {{< guide-anchor "3-mit-dem-apple-pencil-schreiben" "4-mit-zwei-fingern-zoomen" "5-werkzeuge-wechseln" "9-lineal-verwenden" >}}
 
-## 2. Werkzeug wählen und schreiben {#write}
+## Werkzeug wählen und schreiben {#write}
 
 1. Wähle Stift, Textmarker oder Radierer in der Palette.
 2. Schreibe mit dem Apple Pencil. Ziehe zwei Finger auseinander oder zusammen zum Zoomen.
@@ -34,7 +40,7 @@ Die Palette lässt sich verschieben. Blende das Lineal oben ein, bewege oder dre
 
 {{< guide-anchor "6-notizliste-und-seiten-verwenden" >}}
 
-## 3. Notizen wechseln und suchen {#find}
+## Notizen wechseln und suchen {#find}
 
 Gib auf der Startseite einen Teil des Notiztitels in die Suche ein und tippe auf ein Ergebnis. Handschrift, Seiteninhalt, PDFs und Fachnamen werden nicht durchsucht.
 
@@ -46,7 +52,7 @@ Gib auf der Startseite einen Teil des Notiztitels in die Suche ein und tippe auf
 
 {{< guide-anchor "7-mehr-verwenden" "8-fotos-und-pdfs-verwenden" >}}
 
-## 4. Fotos und PDFs einfügen oder exportieren {#pdf}
+## Fotos und PDFs einfügen oder exportieren {#pdf}
 
 1. Öffne **Mehr** oben rechts in der Notiz.
 2. Wähle Foto, Dokumentfoto oder PDF.
@@ -60,7 +66,7 @@ Wähle den Anhang mit dem Finger zum Verschieben oder Skalieren. Mit Doppeltippe
 
 {{< guide-anchor "10-aufnahme-transkription-und-ki-zusammenfassung-verwenden" >}}
 
-## 5. Eine Vorlesung aufnehmen {#recording}
+## Eine Vorlesung aufnehmen {#recording}
 
 1. Tippe auf das Mikrofon oberhalb der Notiz.
 2. Starte über den roten Aufnahmeknopf; bei Bedarf pausieren und fortsetzen.
@@ -72,7 +78,7 @@ Aufnahme, Wiedergabe und Transkriptansicht benötigen Premium. Nach 30 Minuten w
 
 {{< guide-anchor "11-lernfunktion-verwenden" "12-aufgabenassistent-verwenden" "13-aufgabenset-erstellen-verwenden" >}}
 
-## 6. Mit Haftmarkern und Aufgabensets lernen {#review}
+## Mit Haftmarkern und Aufgabensets lernen {#review}
 
 Aktiviere die Lernfunktion in den Einstellungen. Wähle den Haftmarker, verdecke Text mit dem Apple Pencil und tippe mit dem Finger auf den Marker zum Ein- oder Ausblenden. Zum Löschen hältst du den Marker gedrückt und tippst auf die eingeblendete Löschtaste.
 
@@ -90,15 +96,18 @@ Um das Ergebnis an eine andere App zu übergeben, tippe oben rechts im Ergebnisf
 
 {{< guide-anchor "14-notizen-schützen-und-papierkorb-verwenden" >}}
 
-## 7. Schützen, löschen und wiederherstellen {#protect}
+## Schützen, löschen und wiederherstellen {#protect}
 
 **Schützen** in der Notizliste verhindert Schreibänderungen. In den Einstellungen kannst du biometrische Prüfung beim Aufheben aktivieren.
 
 Gelöschte Fächer und Notizen lassen sich im Papierkorb der Startseite wiederherstellen. Beim Löschen eines Ordners bleiben seine Fächer erhalten. Gelöschte Seiten, Aufgabensets und endgültig geleerte Papierkorbobjekte sind nicht wiederherstellbar. Die einzige Seite einer Notiz wird beim Löschen geleert.
 
+Fächer und Notizen im Papierkorb werden bei der Bereinigung nach 30 Tagen endgültig entfernt. Stelle benötigte Inhalte vorher wieder her.
+
+
 {{< guide-anchor "15-einstellungen-und-backups" >}}
 
-## 8. Ein Backup sichern {#backup}
+## Ein Backup sichern {#backup}
 
 1. Öffne das Zahnrad auf der Startseite und **Einstellungen → Backup**.
 2. Aktiviere vor dem Export die Aufnahmeaudiodateien, wenn du sie in Pocket hören möchtest.
@@ -115,3 +124,12 @@ Aktualisieren und Wiederherstellen des einfachen Backups benötigen Premium. Dab
 Ordne Uni:Note über die iPad-Fenstersteuerung neben einem Dokument oder Video an. Auch zwei Uni:Note-Fenster sind möglich.
 
 Dock-Gesten und Bezeichnungen wie Split View oder Slide Over hängen von iPadOS und den Fenstereinstellungen ab.
+
+## Hilfe
+
+
+{{< document-help >}}
+
+## Kontakt
+
+{{< document-contact >}}

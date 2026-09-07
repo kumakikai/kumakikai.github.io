@@ -78,12 +78,14 @@ def source_forms_allowed(route, content):
     return not has_form_reference(remaining) and form_links_allowed(route, urls)
 
 
-def load_reviews(root, baseline):
+def load_reviews(root, baseline, superseded=()):
     path = root / CATALOG
     if not path.exists():
         return {}, []  # Without a catalog, all original baseline checks still apply.
     errors = []
     try:
+        if not set(superseded) <= FORM_ROUTES:
+            raise ValueError("Only Nocca Privacy/Terms may be superseded by the later document review")
         catalog = json.loads(path.read_text(encoding="utf-8"))
         if set(catalog) != {"schemaVersion", "purpose", "reviews"} or catalog["schemaVersion"] != 1 or catalog["purpose"] != PURPOSE:
             raise ValueError("Catalog schema or purpose mismatch")
@@ -102,7 +104,7 @@ def load_reviews(root, baseline):
             if review["baselineTextSHA256"] != old_hash or digest(baseline["articles"][route]["text"]) != old_hash:
                 raise ValueError("Immutable Nocca baseline text mismatch")
             source = root / source_name
-            if not source.is_file() or source.is_symlink() or digest(source.read_bytes()) != review["sourceSHA256"]:
+            if not source.is_file() or source.is_symlink() or (route not in superseded and digest(source.read_bytes()) != review["sourceSHA256"]):
                 raise ValueError("Nocca source changed since review")
             if route == NOTES and review["sourceSHA256"] != NOTES_SOURCE_SHA256:
                 raise ValueError("Nocca article may only remove the known incorrect form line")

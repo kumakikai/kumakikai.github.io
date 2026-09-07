@@ -1,0 +1,9 @@
+{{- $ui := index site.Data.document_ui site.Language.Lang -}}
+{{- $app := false -}}{{ range where site.Data.apps "id" .Page.File.ContentBaseName }}{{ $app = . }}{{ end -}}
+{{- if not $app -}}{{ errorf "Document help needs a known Product: %s" .Page.RelPermalink }}{{- end -}}
+{{- range partial "support-data.html" (dict "app" $app) -}}
+  {{- if eq .kind "faq" -}}
+    {{- $link := printf "[%s](%s#help)" .title .url -}}
+    {{- $.Page.RenderString (dict "display" "block") (replace $ui.helpLead "{faq}" $link) -}}
+  {{- end -}}
+{{- end -}}

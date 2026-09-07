@@ -3,14 +3,20 @@ title: "How to Use (Uni:Note Pocket)"
 description: "How to use Uni:Note Pocket."
 aliases:
   - /htu/uni-memo/
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
+
+## Introduction
 
 Import a Uni:Note backup on iPhone to review notes, sticky markers and question sets. Pocket does not create, edit or sync notes. Tap screenshots to enlarge them.
 
+Requires an iPhone with iOS 17.0 or later and a backup created in Uni:Note on iPad.
+
+## Basic use
+
 {{< guide-anchor "1-read-the-first-companion-notice" "2-choose-a-backup-from-the-import-icon" >}}
 
-## 1. Import a backup {#import}
+### Import a backup {#import}
 
 1. Export a backup zip from Uni:Note on iPad to a location accessible in the iPhone Files app.
 2. Close Pocket’s first-use notice and tap the import icon at the bottom right of Home.
@@ -22,7 +28,7 @@ Choose the zip without unpacking it. The original backup is not modified. A fail
 
 {{< guide-anchor "4-check-notes-recent-notes-and-question-sets" "5-open-notes-and-review-pages" "6-zoom-and-read-in-the-page-view" >}}
 
-## 2. Open a note or search its title {#read}
+## Open a note or search its title {#read}
 
 In **Notes**, select a subject and then a note. **Recent Notes** opens a recently viewed note directly.
 
@@ -38,7 +44,7 @@ Scroll normal notes vertically and pinch or double-tap to zoom. Vertical noteboo
 
 {{< guide-anchor "8-review-question-sets" "9-check-sticky-markers" >}}
 
-## 3. Review sticky markers and question sets {#review}
+## Review sticky markers and question sets {#review}
 
 Tap a sticky marker on a page to switch between normal and faint display and check the answer. Create and edit markers in Uni:Note on iPad.
 
@@ -50,7 +56,7 @@ If the backup includes question sets, open **Question Sets** on Home. Think with
 
 {{< guide-anchor "7-play-recordings" >}}
 
-## 4. Listen to imported recordings {#recordings}
+## Listen to imported recordings {#recordings}
 
 1. Open a note that includes recording data.
 2. Tap **Play Recording** in the page viewer. If there are several, choose from the recording list.
@@ -60,7 +66,7 @@ Playback is available only when the backup contains the audio files. Record, tra
 
 {{< guide-anchor "10-adjust-settings" >}}
 
-## 5. Adjust reading settings {#settings}
+## Adjust reading settings {#settings}
 
 Open the gear at the top right of Home. Change the language, theme, resume setting or horizontal-drift prevention. You can label the top level as Subject, Note, Group or Category.
 
@@ -68,7 +74,7 @@ Horizontal-drift prevention helps keep normal vertical reading steady. It does n
 
 {{< guide-anchor "3-use-easy-backup" "11-import-a-newer-backup-later" >}}
 
-## 6. Load a newer backup {#refresh}
+## Load a newer backup {#refresh}
 
 After changing notes on iPad, create a new backup and import it again in Pocket. If Easy Backup is available, open **Settings → Easy Backup**.
 
@@ -77,3 +83,12 @@ After changing notes on iPad, create a new backup and import it again in Pocket.
 3. Enable **Automatically Load on Launch** if you want it loaded when opening Pocket.
 
 The refresh icon checks the file state. If a newer file has not arrived, the date stays unchanged. This is not realtime sync or a write-back to iPad.
+
+## Help
+
+
+{{< document-help >}}
+
+## Contact
+
+{{< document-contact >}}

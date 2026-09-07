@@ -2,6 +2,7 @@
 title: "利用規約"
 description: "アプリ別の利用規約一覧"
 layout: "list"
+aliases: ["/terms/page/1/"]
 ---
 
 このページでは、各アプリごとの利用規約を案内しています。

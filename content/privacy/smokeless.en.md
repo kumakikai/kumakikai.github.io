@@ -1,52 +1,75 @@
 ---
 title: "Privacy Policy (Smokeless)"
 description: "Privacy policy for Smokeless."
+lastmod: 2026-09-08
 ---
 
-This privacy policy explains how user information is handled in Smokeless ("the App") and on this official website.
+## 1. Introduction {#section-1}
 
-## 1. Information collected
+{{< document-copy "privacyIntroduction" >}}
 
-The App does not require account registration or login, and it does not collect personally identifiable information such as name, address, or email address through in-app input.
+{{< guide-anchor "1-information-collected" >}}
 
-Smoking counts, resisted counts, and settings recorded in the App are stored on the user's device.
+## 2. Information we handle {#section-2}
 
-## 2. On-device storage and widget integration
+The app handles the dates and counts of smoked or avoided cigarettes, brands, cigarettes and price per pack, display, language, currency and alert settings, and the status of purchased features. No account or profile registration is required.
 
-To show today's `smoking` / `resisted` counts in the home widget, the App may share information between the App and the widget on the same device.
+If you send an inquiry, we also handle its content, your sender or reply email address, and app or device information you provide. Google or Apple may handle the information described below for advertising and purchases.
 
-This information is handled only on the device, and the developer does not obtain or view its contents.
+## 3. How we use information {#section-3}
 
-## 3. Advertising and in-app purchases
+Records are used to show smoked and avoided counts, totals by period and charts. Pack counts and prices for each brand are used for money conversions, settings for display and alerts, and purchase status for access to purchased features. Inquiry information is used to respond and investigate issues.
 
-The App provides advertising and an in-app purchase for removing ads.
+{{< guide-anchor "2-on-device-storage-and-widget-integration" >}}
 
-For this reason, within the scope necessary for ad delivery and purchase processing, information such as advertising identifiers, consent status, and purchase information may be handled by third-party services or app stores.
+## 4. Storage and management {#section-4}
 
-Please check the privacy policy of each service provider and store for details on how such information is handled.
+Records and settings are stored on your device. We do not automatically obtain or view them. The home widget shares today’s counts and information needed for recording within the same iPhone. The app does not provide its own cloud sync or export of records as backup files.
 
-## 4. Contact feature
+**The Apple Watch update is under review. The following applies when using Apple Watch after the supporting update is released.** The paired iPhone and Watch exchange the record time, smoked or avoided type, an identifier that prevents duplicate imports, today’s counts and the status of access to Watch features. Records made while disconnected are stored on Watch and imported into iPhone after reconnection. This is separate from cloud backup.
 
-The App allows users to open their mail app from the settings screen to send inquiries.
+Device backups provided by the operating system are separate from app-managed sync.
 
-Inquiry content is sent only when the user chooses to send the email. The developer does not collect it automatically.
+{{< document-copy "privacyInquiries" >}}
 
-## 5. Provision of personal information to third parties
+{{< guide-anchor "4-contact-feature" >}}
 
-Except where required by law, the App does not provide users' personal information to third parties.
+{{< guide-anchor "5-provision-of-personal-information-to-third-parties" >}}
 
-However, third-party services may handle information to the extent required to provide functions such as ad delivery and purchase processing.
+## 5. External services and disclosure {#section-5}
 
-## 6. Changes to this privacy policy
+Remove Ads and the Extra Brands Pack are one-time in-app purchases. Apple processes purchases and restorations; the app uses purchase status to provide purchased features. We do not receive payment card details. See the [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
 
-This policy may be updated as necessary.
+The contact feature prepares an email draft containing type, details, steps and notes, plus the app name, version, OS and device model. It does not send automatically; you review and send it yourself.
 
-The revised privacy policy takes effect when it is posted on this website.
+Apart from the advertising described below, actions you choose with external services, and cases required by law, we do not provide personal information we receive to third parties without your consent.
 
-## 7. Contact
+{{< guide-anchor "3-advertising-and-in-app-purchases" >}}
 
-For inquiries about this policy, please contact:
+## 6. Advertising and analytics {#section-6}
 
-- [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+The app displays ads using Google AdMob. For ad delivery, measurement, fraud prevention and service quality, Google may handle device or advertising identifiers, approximate location information, ad impressions and interactions, and diagnostic, performance or crash information. Handling varies with device settings, permissions and service conditions.
 
-Last updated: 2026-03-21
+The app does not send smoked or avoided records for advertising. We do not use separate usage or crash analytics services of our own, but advertising-related analytics and diagnostics are included above. See the [Google Privacy Policy](https://policies.google.com/privacy?hl=en).
+
+A one-time Remove Ads purchase hides in-app ads.
+
+## 7. Managing and deleting your data {#section-7}
+
+You can delete records in the app and undo a deletion while Undo is displayed immediately afterwards. You can also change brand, display and other settings in the app.
+
+Deleting the app removes its local app data. Check before reinstalling so that you do not lose records you need. Manage Watch data, operating-system backups and information you send outside the app at their respective storage locations. Deleting records does not cancel purchase information managed by Apple.
+
+{{< guide-anchor "6-changes-to-this-privacy-policy" >}}
+
+## 8. Changes to this policy {#section-8}
+
+{{< document-copy "privacyChanges" >}}
+
+{{< guide-anchor "7-contact" >}}
+
+## 9. Contact {#section-9}
+
+{{< document-copy "privacyRights" >}}
+
+{{< document-contact >}}

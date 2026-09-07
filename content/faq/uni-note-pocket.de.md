@@ -3,12 +3,16 @@ title: "FAQ (Uni:Note Pocket)"
 description: "Häufige Fragen zu Uni:Note Pocket."
 aliases:
   - /faq/uni-memo/
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
+
+## Einführung
+
+Uni:Note Pocket ist eine iPhone-App zum Lesen von Backups aus Uni:Note.
 
 {{< guide-anchor "grundlagen" "was-ist-uninote-pocket-für-eine-app" "kann-ich-uninote-pocket-allein-verwenden" "welche-geräte-werden-unterstützt" "sind-login-oder-kontoerstellung-erforderlich" >}}
 
-## Vor dem Start {#help-1}
+### Welche Geräte und Betriebssysteme werden unterstützt? {#help-1}
 
 Erfordert ein iPhone mit iOS 17.0 oder neuer.
 
@@ -18,19 +22,11 @@ Erstellen, bearbeiten, löschen und sortieren von Notizen, Seiten, Ordnern und F
 
 [Backup importieren]({{< relref "/htu/uni-note-pocket/" >}}#import) →
 
-{{< guide-anchor "import-und-backups" "was-sollte-ich-zuerst-tun" "was-kann-ich-importieren" "wird-die-ursprüngliche-backup-datei-beim-import-verändert" "was-passiert-wenn-der-import-fehlschlägt" "gibt-es-automatische-synchronisierung" "was-ist-beim-start-automatisch-laden" "was-ist-manuell-laden" >}}
+## Notizen und Anhänge
 
-## Backup schlägt fehl oder bleibt alt {#help-2}
+{{< guide-anchor "ansicht" "was-kann-ich-nach-dem-import-tun" "kann-ich-notizen-oder-seiten-bearbeiten" "kann-ich-notizen-erstellen-löschen-oder-sortieren" "kann-ich-fragensets-wiederholen" "kann-ich-aufnahmen-abspielen" "was-passiert-wenn-das-backup-kein-aufnahmeaudio-enthält" "kann-uninote-pocket-aufnehmen-transkribieren-oder-ki-zusammenfassungen-erstellen" "kann-ich-haftnotiz-marker-sehen" >}}
 
-Beschädigte zips und unvollständige Backups werden abgelehnt. Bei Fehlern bleiben vorherige Daten erhalten; das Original wird nicht geändert. Exportiere ein neues zip aus Uni:Note und wähle es ungeöffnet aus.
-
-Das Aktualisierungssymbol prüft die iCloud-Datei. Ist die neue Datei noch nicht angekommen, bleibt das Datum gleich. Manuelles Laden übernimmt den geprüften Stand. Automatisches Laden beim Start braucht ein verfügbares Backup und ist keine Echtzeitsynchronisierung.
-
-[Neuestes Backup laden]({{< relref "/htu/uni-note-pocket/" >}}#refresh) →
-
-{{< guide-anchor "ansicht" "was-kann-ich-nach-dem-import-tun" "kann-ich-notizen-oder-seiten-bearbeiten" "kann-ich-notizen-erstellen-löschen-oder-sortieren" "kann-ich-fragensets-wiederholen" "kann-ich-aufnahmen-abspielen" "was-passiert-wenn-das-backup-kein-aufnahmeaudio-enthält" "kann-uninote-pocket-aufnehmen-transkribieren-oder-ki-zusammenfassungen-erstellen" "kann-ich-haftnotiz-marker-sehen" "kann-ich-seiten-vergrößern" "kann-ich-an-der-zuletzt-gelesenen-stelle-fortsetzen" >}}
-
-## Notiz, Aufnahme oder Marker fehlt {#help-3}
+### Warum fehlen Notizen, Aufnahmen oder Marker? {#help-3}
 
 Durchsucht werden explizite importierte Notiztitel, nicht Handschrift, Inhalte, PDFs oder Fachnamen. Sets und Marker erscheinen nur, wenn sie im Backup enthalten sind. Ein Marker-Tipp ändert nur die Anzeige.
 
@@ -38,12 +34,41 @@ Ohne Audiodateien im Backup ist keine Wiedergabe möglich. Exportiere auf dem iP
 
 [Importierte Aufnahmen abspielen]({{< relref "/htu/uni-note-pocket/" >}}#recordings) →
 
-{{< guide-anchor "einstellungen" "welche-einstellungen-gibt-es" "was-ändert-fachbezeichnung" "gibt-es-seiten-für-anleitung-und-datenschutz" >}}
+## Daten
 
-## Leseposition oder Darstellung weicht ab {#help-4}
+{{< guide-anchor "import-und-backups" "was-sollte-ich-zuerst-tun" "was-kann-ich-importieren" "wird-die-ursprüngliche-backup-datei-beim-import-verändert" "was-passiert-wenn-der-import-fehlschlägt" "gibt-es-automatische-synchronisierung" "was-ist-beim-start-automatisch-laden" "was-ist-manuell-laden" >}}
+
+### Warum schlägt ein Backup fehl oder bleibt veraltet? {#help-2}
+
+Beschädigte zips und unvollständige Backups werden abgelehnt. Bei Fehlern bleiben vorherige Daten erhalten; das Original wird nicht geändert. Exportiere ein neues zip aus Uni:Note und wähle es ungeöffnet aus.
+
+Das Aktualisierungssymbol prüft die iCloud-Datei. Ist die neue Datei noch nicht angekommen, bleibt das Datum gleich. Manuelles Laden übernimmt den geprüften Stand. Automatisches Laden beim Start braucht ein verfügbares Backup und ist keine Echtzeitsynchronisierung.
+
+[Neuestes Backup laden]({{< relref "/htu/uni-note-pocket/" >}}#refresh) →
+
+### Kann ich importierte Daten aktualisieren oder löschen?
+
+Ein neues Backup ersetzt die Lesedaten in Pocket. Die Original-zip-Datei und die Notizen auf dem iPad bleiben unverändert.
+
+Pocket löscht keine einzelnen Notizen. Ändere sie auf dem iPad und importiere danach ein neues Backup.
+
+[Datenverwaltung und Löschung]({{< relref "/privacy/uni-note-pocket/" >}}#data-management)
+
+## Hilfe {#help}
+{{< guide-anchor "einstellungen" "welche-einstellungen-gibt-es" "was-ändert-fachbezeichnung" "gibt-es-seiten-für-anleitung-und-datenschutz" "kann-ich-seiten-vergrößern" "kann-ich-an-der-zuletzt-gelesenen-stelle-fortsetzen" >}}
+
+### Warum weichen Leseposition oder Darstellung ab? {#help-4}
 
 Fortsetzen ab der letzten Position muss aktiviert sein. Sprache, Design und Fachbezeichnung stehen unter dem Zahnrad auf der Startseite. Zoome durch Pinch oder Doppeltippen. Normale Notizen scrollen vertikal, vertikale Notizbücher horizontal.
 
 Die Bildanleitung zeigt die Schritte und lässt sich auch unter Einstellungen → Support → Anleitung öffnen.
 
 [Notizen lesen und suchen]({{< relref "/htu/uni-note-pocket/" >}}#read) →
+
+### Was kann ich bei einem Problem tun?
+
+{{< document-copy "troubleshooting" >}}
+
+### Wie erreiche ich den Support?
+
+{{< document-contact >}}

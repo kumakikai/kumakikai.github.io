@@ -1,5 +1,29 @@
 # Nocca legal content review — 2026-09-07
 
+## Current review: all product documents, 2026-09-08
+
+The user subsequently authorized a full, implementation-checked rewrite of every
+Product's Terms, Privacy, FAQ and Guide. The current specification and Phase 1
+evidence are in `docs/audits/2026-09-08-document-unification/`. This is an explicit
+scope expansion beyond the historical Nocca/navigation/terminology edits below.
+
+`scripts/document_review.py` binds exactly 69 inventoried documents and five new
+Japanese Terms pages to immutable before-source/body inventories and the original
+migration baseline, with exact reviewed source, rendered text, links and evidence
+references. It also checks the shared structure/contact, preserved operation
+images and old anchors. No News page can opt in. Nocca's historical article still
+uses the old fixed source hash and its exact one-line removal exception.
+
+Only a successfully validated later catalog can supersede source checks for the
+two earlier Nocca legal records; the old review catalog is retained as historical
+evidence. Missing, malformed or out-of-scope current reviews fail verification.
+Product Support retains five destinations; legal bodies now end with contact
+only and do not repeat the generic support list. The contact shortcode uses the
+same metadata as Product, including the exact approved Nocca form.
+
+The following sections describe earlier authorized revisions, not restrictions
+that override the user's later full-document request.
+
 The user authorized updating Nocca's existing Privacy and Terms to the current
 app/server implementation, and removing the incorrect other-app form link from
 the Nocca support article. The app remains in preparation for release; these

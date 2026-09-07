@@ -178,15 +178,15 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 
 `support-data.html` が共通Productデータを読み、`support-links.html` が **使い方 → よくある質問 → お問い合わせ → プライバシーポリシー → 利用規約** を同じtitle・description・divider・arrowで表示。Termsだけ小さなリンクにしない。
 
-- Productは5項目、Guideは自分の使い方を省き4項目、FAQは自分のFAQを省く。再選択や不要な中間画面を作らない。
+- Productは5項目。Guide／FAQは自分のページと本文末尾にある同一の問い合わせ先を省き、残る3項目を共通欄に表示する。再選択や不要な中間画面を作らない。Privacy／Termsには汎用のサポート一覧を追加せず、最後の節に正式な問い合わせ窓口を一度だけ置く。
 - termsURL未設定時だけ `data/support.json.standardEULAURL` の [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) へfallback。独自Terms URLを設定したのに本文がない場合はbuildエラー。黙って別規約へ切り替えない。
 - contactURL未指定は `data/support.json.contactURL`。共通メールにアプリ名を件名として補う。会社全体ContactはAbout末尾。
 - 外部リンクは現行の同じタブを維持。EULAは外部矢印・title・読み上げ補足。一部だけ新規タブにしない。
 - 翻訳がなければ日本語実ページをその旨付きで案内。`layouts/single.html` はFile.ContentBaseNameでProductを特定するため、新Guide／FAQ等のbasenameはidに合わせる。既存例外URLは変更せず必要なら紐付け処理を限定対応。
 - **現在の検証は全ProductにGuide／FAQ／Privacy実ページを要求する**。本当に不要なGuide／FAQはダミーを作らず理由を報告。必要性が判断された省略はUI・検証の該当契約だけを意図的に対応し、無条件に検証を外さない。
 - アプリ別Privacy・Termsは統合せず、実データ処理・公開条件に合わせる。未公開機能を公開済みとして法務へ記載しない。
-- 法務ページの汎用導線は末尾の共通「使い方とサポート」へまとめ、本文に同じ「関連ページ」一覧や単独のProductリンクを重ねない。法務上の説明に必要な参照先や問い合わせメールは本文に残す。NoccaのPrivacy／Termsはこの構成とし、フォームは共通欄の「お問い合わせ」から案内する。旧本文リンクを移す場合も、同一ページの共通欄に既存のリンク先が残ることを検証する。
-- この重複確認は全Productと実在する全言語のGuide／FAQ／Privacy／Termsを対象にする。FAQの回答や法務条文に付随する参照リンクは、共通欄と同じURLでも文脈があるため保持する。本文にしかない問い合わせフォームを重複とみなして削除しない。ギガポケ・オトミルの法務4ページは `scripts/legal_navigation_review.py` が既存本文から許可した一覧削除と更新日の変更を検証する。オトミルTerms §8だけは、2026-09-08監査で確認した固定価格・試用期間の3項目削除も厳密に許可し、購入画面優先・ファミリー共有・他の条文を保持する。韓国語Uni:Note Privacyは `scripts/legal_terminology_review.py` が元の全文hashを固定し、AI機能名2箇所と最終更新日だけを変更する。法務baselineを取り直して差分を隠さない。
+- 法務ページには手書き・共通partialのどちらでも「関連ページ」一覧や汎用Support一覧を重ねない。ページ上部のProduct名から該当Productの `#support` に戻れる。法務上必要な参照は本文の対応節に残す。正式問い合わせは `document-contact` で同じProduct設定から生成する。フォーム利用製品は開けない場合のメールも併記する。
+- 重複確認は全Productと実在する全言語のGuide／FAQ／Privacy／Termsを対象にする。FAQ回答・法務条文の参照は文脈があるため保持する。2026-09-08の全製品4文書統一は [標準構成](audits/2026-09-08-document-unification/STANDARD.md) に従う。`scripts/document_review.py` が既存69文書と新設5Termsの限定範囲、元source/本文、レビュー後source/本文/link、実装監査、画像・旧アンカーを検証する。元のmigration baselineと監査前スナップショットは固定し、差分を隠す再取得をしない。以前のNocca・4法務導線・韓国語用語の限定検証は過去の承認範囲として残し、今回の有効なレビューがある文書だけを後継レビューで検証する。Noccaの過去News本文は後継レビューの対象外。
 - Product／Guide／FAQ末尾に同ProductのPress Releaseを重ねない。記事本文・URLは維持しNewsから案内する。
 - 同一ページの重複は完全な遷移先（query・fragmentを含む）で確認する。Product先頭と `#support` は別の役割。アンカーが存在しても、表示ラベル・回答文脈と対象節が一致するか確認する。FAQから初回設定・カレンダー・ウィジェット等を案内するときは意味の合う既存節へ進める。
 - News本文に共通Contactと同じメールリンクがある場合、`article-about.html` は同じリンクを重ねない。本文の旧サポート情報は保持する。`data/news.json` の個別 `historicalNotice: true` は、時点の混同が確認された記事に限り、公開日を使った過去情報の注記を本文外へ表示する。元の記事本文・日付・URLを上書きしない。
@@ -213,7 +213,10 @@ Guideは「見出し → 短い説明／Step → 実UI画像 → 必要な補足
 - 取得元・版・hash・crop範囲・実装の照合を `docs/visual-guides/` 等へ記録。未使用画像は全参照確認後にだけ整理。
 - Guide見出し変更時は `{{< guide-anchor "旧ID" >}}` で対応箇所へ旧アンカーを残す。URLと実際のlastmodを維持。
 - 既存Guide／FAQ改訂は **本文・素材監査 → npm run buildで最新public生成 → scripts/record-guide-review.py → 対象entryのsource／rendered hashと理由の差分確認 → npm run verify** の順。同scriptはpublicを読むため、古いHTMLで記録しない。`docs/visual-guides/reviewed-content.json` は既存対象一括処理・監査ファイル固定表に基づくので、対象以外のhashが変わっていないか読む。新ページは旧本文baseline対象ではなく、無条件にmanifestへ足さない。通すためだけにhashを更新しない。
-- Nocca法務は `docs/legal/README.md` / `scripts/nocca_legal_review.py` / `docs/legal/reviewed-nocca-content.json` の限定保護も確認。Guide改訂と法務変更を混同しない。
+- 全製品の法務・FAQ・Guideは [文書統一仕様](audits/2026-09-08-document-unification/STANDARD.md) を確認する。共通見出し・文言は `data/document_ui.json`、問い合わせは `data/apps.json.support` と `data/support.json`。固有の実装事実は本文へ記載し、共通化のために機能を創作しない。法務は連番h2、利用者/本アプリ/当方を統一し、Yuya Nakamuraが運営するKUMAKIKAIと記載。日付は上部でISO形式、法務は最終改定日、Guide／FAQは更新日。制定日は根拠がある場合だけ表示する。
+- この74文書の次回改訂は **実装監査 → 対象本文の修正 → production build → 対象製品のPhase 3レビュー記録 → `scripts/record-document-review.py --build public` → manifest全差分確認 → migration/構造検証** の順。record処理はCIで実行しない。`docs/legal/README.md` に過去のNoccaレビューとの関係も記録する。Newsはこの改訂例外へ追加できない。
+
+- `/terms/` は既存の単一互換案内を維持する。独自Termsの追加件数に応じた未使用の `/terms/page/N/` を生成しない。他の旧一覧・ページ送りURLは互換目的で維持し、到達性の監査では索引対象の孤立ページと区別する。
 
 ## 7. News / About / 文章
 

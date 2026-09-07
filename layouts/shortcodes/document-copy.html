@@ -1,0 +1,7 @@
+{{- $ui := index site.Data.document_ui site.Language.Lang -}}
+{{- $key := .Get 0 -}}
+{{- $text := index $ui $key -}}
+{{- if not $text -}}{{ errorf "Missing document copy %s/%s in %s" site.Language.Lang $key .Page.RelPermalink }}{{- end -}}
+{{- $app := index (index site.Data.home site.Language.Lang).apps .Page.File.ContentBaseName -}}
+{{- if not $app -}}{{ errorf "Document copy needs a known Product: %s" .Page.RelPermalink }}{{- end -}}
+{{- .Page.RenderString (dict "display" "block") (replace $text "{app}" $app.name) -}}

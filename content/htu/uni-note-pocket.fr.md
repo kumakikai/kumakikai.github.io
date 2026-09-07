@@ -3,14 +3,20 @@ title: "Mode d’emploi (Uni:Note Pocket)"
 description: "Mode d’emploi pour Uni:Note Pocket."
 aliases:
   - /htu/uni-memo/
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
+
+## Introduction
 
 Importez une sauvegarde Uni:Note sur iPhone pour relire notes, repères et lots d’exercices. Pocket ne crée, ne modifie et ne synchronise pas les notes. Touchez les captures pour les agrandir.
 
+Nécessite un iPhone sous iOS 17.0 ou version ultérieure et une sauvegarde créée dans Uni:Note sur iPad.
+
+## Utilisation de base
+
 {{< guide-anchor "1-lire-le-premier-message-dinformation" "2-choisir-une-sauvegarde-depuis-licone-dimport" >}}
 
-## 1. Importer une sauvegarde {#import}
+### Importer une sauvegarde {#import}
 
 1. Exportez un zip de sauvegarde depuis Uni:Note sur iPad vers un emplacement accessible dans Fichiers sur l’iPhone.
 2. Fermez le message de premier lancement de Pocket et touchez l’icône d’import en bas à droite.
@@ -22,7 +28,7 @@ Ne décompressez pas le zip. La sauvegarde d’origine reste intacte. Si l’imp
 
 {{< guide-anchor "4-verifier-notes-notes-recentes-et-lots" "5-ouvrir-notes-et-relire-les-pages" "6-zoomer-et-lire-dans-lecran-de-page" >}}
 
-## 2. Ouvrir une note ou rechercher son titre {#read}
+## Ouvrir une note ou rechercher son titre {#read}
 
 Dans **Notes**, sélectionnez une matière puis une note. Les notes récentes permettent de reprendre directement la lecture.
 
@@ -38,7 +44,7 @@ Les notes ordinaires défilent verticalement. Pincez ou touchez deux fois pour z
 
 {{< guide-anchor "8-relire-les-lots" "9-verifier-les-reperes-adhesifs" >}}
 
-## 3. Réviser avec les repères et les lots {#review}
+## Réviser avec les repères et les lots {#review}
 
 Touchez un repère sur la page pour passer de l’affichage normal à un affichage atténué et vérifier la réponse. Créez et modifiez les repères dans Uni:Note sur iPad.
 
@@ -50,7 +56,7 @@ Si la sauvegarde contient des lots, ouvrez-les depuis l’accueil. Réfléchisse
 
 {{< guide-anchor "7-lire-les-enregistrements" >}}
 
-## 4. Écouter les enregistrements importés {#recordings}
+## Écouter les enregistrements importés {#recordings}
 
 1. Ouvrez une note contenant des données d’enregistrement.
 2. Touchez la lecture de l’enregistrement dans l’écran de page. S’il y en a plusieurs, choisissez dans la liste.
@@ -60,7 +66,7 @@ Seuls les fichiers audio inclus dans la sauvegarde sont lisibles. Enregistrement
 
 {{< guide-anchor "10-ajuster-les-reglages" >}}
 
-## 5. Ajuster la lecture {#settings}
+## Ajuster la lecture {#settings}
 
 Ouvrez la roue dentée en haut à droite de l’accueil. Modifiez langue, thème, reprise et prévention du glissement horizontal. La première catégorie peut s’appeler Matière, Note, Groupe ou Catégorie.
 
@@ -68,7 +74,7 @@ La prévention du glissement horizontal stabilise la lecture verticale normale. 
 
 {{< guide-anchor "3-utiliser-sauvegarde-rapide" "11-importer-plus-tard-une-sauvegarde-plus-recente" >}}
 
-## 6. Charger une sauvegarde plus récente {#refresh}
+## Charger une sauvegarde plus récente {#refresh}
 
 Après avoir modifié les notes sur iPad, créez une nouvelle sauvegarde et importez-la à nouveau. Si une sauvegarde rapide est disponible, ouvrez **Réglages → Sauvegarde rapide**.
 
@@ -77,3 +83,12 @@ Après avoir modifié les notes sur iPad, créez une nouvelle sauvegarde et impo
 3. Activez si besoin le chargement automatique au lancement.
 
 L’icône vérifie l’état du fichier. Si le nouveau fichier n’est pas encore arrivé, la date ne change pas. Il n’y a ni synchronisation en temps réel ni écriture vers l’iPad.
+
+## En cas de difficulté
+
+
+{{< document-help >}}
+
+## Contact
+
+{{< document-contact >}}

@@ -2,14 +2,20 @@
 version_context_date: "2026-09-07"
 title: "Mode d’emploi (Uni:Note)"
 description: "Mode d’emploi pour Uni:Note."
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
+
+## Introduction
 
 Ces captures réelles présentent les opérations principales d’Uni:Note 3.4.0. Touchez une image pour l’agrandir. Écrivez avec l’Apple Pencil ; utilisez les doigts pour défiler et déplacer les pièces jointes.
 
+Nécessite un iPad sous iPadOS 17.0 ou version ultérieure. L’écriture utilise Apple Pencil. La transcription exige un environnement compatible sous iPadOS 26 ou version ultérieure.
+
+## Utilisation de base
+
 {{< guide-anchor "1-organiser-les-matières-et-les-dossiers-sur-laccueil" "2-ouvrir-la-première-note" >}}
 
-## 1. Créer une matière et sa première note {#create}
+### Créer une matière et sa première note {#create}
 
 1. Touchez **+** en bas à droite de l’accueil, puis **Ajouter une matière**.
 
@@ -22,7 +28,7 @@ Le même + permet de créer des dossiers. Glissez-y les matières ; supprimer un
 
 {{< guide-anchor "3-écrire-avec-lapple-pencil" "4-zoomer-avec-deux-doigts" "5-changer-doutil" "9-utiliser-la-règle" >}}
 
-## 2. Choisir un outil et écrire {#write}
+## Choisir un outil et écrire {#write}
 
 1. Sélectionnez le stylo, le surligneur ou la gomme dans la palette.
 2. Écrivez avec l’Apple Pencil ; pincez avec deux doigts pour zoomer.
@@ -34,7 +40,7 @@ Déplacez la palette en la faisant glisser. Affichez la règle en haut, déplace
 
 {{< guide-anchor "6-utiliser-liste-des-notes-et-pages" >}}
 
-## 3. Changer de note et rechercher un titre {#find}
+## Changer de note et rechercher un titre {#find}
 
 Saisissez une partie du titre dans la recherche de l’accueil, puis touchez le résultat. La recherche ne porte pas sur l’écriture, le texte des pages, les PDF ni les noms de matières.
 
@@ -46,7 +52,7 @@ Dans une note, **Liste des notes** ouvre les autres notes de la matière ou en c
 
 {{< guide-anchor "7-utiliser-plus" "8-utiliser-des-photos-et-des-pdf" >}}
 
-## 4. Joindre des photos ou PDF et exporter {#pdf}
+## Joindre des photos ou PDF et exporter {#pdf}
 
 1. Ouvrez **Plus** en haut à droite de la note.
 2. Choisissez une photo, une photo de document ou un PDF.
@@ -60,7 +66,7 @@ Sélectionnez la pièce jointe avec le doigt pour la déplacer ou la redimension
 
 {{< guide-anchor "10-utiliser-lenregistrement-la-transcription-et-le-résumé-ia" >}}
 
-## 5. Enregistrer un cours {#recording}
+## Enregistrer un cours {#recording}
 
 1. Touchez le microphone au-dessus de la note.
 2. Démarrez avec le bouton rouge ; mettez en pause et reprenez si nécessaire.
@@ -72,7 +78,7 @@ L’enregistrement, la lecture et l’affichage de la transcription nécessitent
 
 {{< guide-anchor "11-utiliser-la-fonction-de-mémorisation" "12-utiliser-lassistant-de-résolution" "13-utiliser-créer-un-lot-dexercices" >}}
 
-## 6. Réviser avec les repères et les exercices {#review}
+## Réviser avec les repères et les exercices {#review}
 
 Activez la mémorisation dans les réglages d’étude. Choisissez le repère adhésif, masquez du texte avec l’Apple Pencil et touchez le repère avec le doigt pour révéler ou masquer. Pour supprimer un repère, maintenez-le puis touchez le bouton de suppression qui apparaît.
 
@@ -90,15 +96,18 @@ Dans **Plus → Créer un lot d’exercices**, sélectionnez les pages, gardez o
 
 {{< guide-anchor "14-protéger-les-notes-et-utiliser-la-corbeille" >}}
 
-## 7. Protéger, supprimer et restaurer {#protect}
+## Protéger, supprimer et restaurer {#protect}
 
 La protection dans la liste des notes empêche d’écrire. Les réglages peuvent imposer une authentification biométrique pour la retirer.
 
 Restaurez les matières et notes supprimées dans la corbeille de l’accueil. Supprimer un dossier conserve ses matières. Les pages, lots d’exercices et éléments définitivement supprimés ne sont pas récupérables. Supprimer l’unique page d’une note en efface le contenu.
 
+Les matières et notes de la corbeille sont supprimées définitivement lors du nettoyage après 30 jours. Restaurez-les avant ce délai si nécessaire.
+
+
 {{< guide-anchor "15-réglages-et-sauvegarde" >}}
 
-## 8. Conserver une sauvegarde {#backup}
+## Conserver une sauvegarde {#backup}
 
 1. Ouvrez la roue dentée de l’accueil, puis **Réglages → Sauvegarde**.
 2. Pour écouter les enregistrements dans Pocket, incluez leur audio avant l’export.
@@ -115,3 +124,12 @@ La mise à jour et la restauration de la sauvegarde rapide nécessitent Premium.
 Placez Uni:Note à côté d’un document ou d’une vidéo avec les commandes de fenêtres d’iPad. Vous pouvez aussi ouvrir deux fenêtres Uni:Note.
 
 Les gestes du Dock et les noms Split View ou Slide Over dépendent de la version d’iPadOS et des réglages de fenêtres.
+
+## En cas de difficulté
+
+
+{{< document-help >}}
+
+## Contact
+
+{{< document-contact >}}

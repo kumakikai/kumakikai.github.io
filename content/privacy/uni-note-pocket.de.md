@@ -3,50 +3,75 @@ title: "Datenschutzerklärung (Uni:Note Pocket)"
 description: "Datenschutzerklärung für Uni:Note Pocket."
 aliases:
   - /privacy/uni-memo/
+lastmod: 2026-09-08
 ---
 
-Diese Datenschutzerklärung beschreibt, wie Nutzerdaten in Uni:Note Pocket ("die App") und auf dieser offiziellen Website behandelt werden.
+## 1. Einführung {#introduction}
 
-## 1. Welche Informationen wir erfassen
+{{< document-copy "privacyIntroduction" >}}
 
-Die App erfordert keine Registrierung und keinen Login. Sie erhebt auch keine direkt identifizierenden personenbezogenen Daten wie Name, Anschrift oder E-Mail-Adresse über Eingaben in der App.
+{{< guide-anchor "1-welche-informationen-wir-erfassen" >}}
 
-Notizlisten, Seitendaten, Einstellungen und Anzeigestände der Lernmaske werden auf dem Gerät des Nutzers verarbeitet und basieren auf den vom Nutzer importierten Backups.
+## 2. Verarbeitete Informationen {#information}
 
-## 2. Umgang mit Backup-Dateien
+Ein eigenes App-Konto oder Login ist nicht erforderlich. Importierte Backups und Informationen, die Sie in Supportanfragen eingeben oder anhängen, können personenbezogene Daten enthalten.
+
+Importierte Notizen, Seiten, Bilder, PDFs, Fragensets und Aufnahmen sowie Markeranzeigen, Lesepositionen, Sprache und Darstellungseinstellungen werden auf Ihrem Gerät verarbeitet.
+
+{{< guide-anchor "2-umgang-mit-backup-dateien" >}}
+
+### Backup-Dateien
 
 Die App kann auf Uni:Note-Backup-ZIP-Dateien zugreifen, die der Nutzer ausdrücklich auswählt.
 
-Diese Dateien werden nur verarbeitet, um ihren Inhalt zu prüfen und innerhalb der App sichtbar zu machen. Der Entwickler erhält den Inhalt dieser Dateien nicht.
+Diese Dateien werden verarbeitet, um ihren Inhalt zu prüfen und innerhalb der App sichtbar zu machen. Die Importfunktion sendet die Inhalte der Backups nicht an uns.
 
 Die App schreibt die ursprüngliche Backup-Datei auch nicht um.
 
-## 3. Speicherung auf dem Gerät
+### Supportanfragen
+
+{{< document-copy "privacyInquiries" >}}
+
+## 3. Verwendungszwecke {#purposes}
+
+Informationen dienen der Prüfung und dem Import von Backups, dem Anzeigen von Notizen und Fragensets, dem Abspielen importierter Aufnahmen, dem Umschalten von Markern, dem Behalten von Lesepositionen und Einstellungen sowie dem Prüfen von Backup-Aktualisierungen.
+
+{{< guide-anchor "3-speicherung-auf-dem-gerät" >}}
+
+## 4. Speicherung und Verwaltung {#storage}
 
 Die App speichert importierte backupbasierte Daten auf dem Gerät des Nutzers, damit sie angezeigt werden können.
 
-Wenn du eine Backup-Datei auswählst, die in einem externen Dienst wie iCloud Drive gespeichert ist, beachte bitte die Richtlinien des jeweiligen Anbieters für die dortige Datenverarbeitung.
+Wenn Sie eine Backup-Datei auswählen, die in einem externen Dienst wie iCloud Drive gespeichert ist, beachten Sie bitte die Richtlinien des jeweiligen Anbieters für die dortige Datenverarbeitung.
 
-## 4. Werbung und Analysetools
+Einfaches Backup prüft und lädt das mit Uni:Note geteilte iCloud-Backup. Ist automatisches Laden beim Start aktiviert, wird beim Start ein verfügbares Backup geladen. Echtzeitsynchronisierung oder Zurückschreiben auf das iPad findet nicht statt.
 
-Derzeit verwendet die App weder Werbe-SDKs noch Analyse-SDKs.
+{{< guide-anchor "5-weitergabe-personenbezogener-daten-an-dritte" >}}
 
-Falls solche Tools künftig eingesetzt werden, wird dies in dieser Richtlinie oder in einem Hinweis innerhalb der App mitgeteilt.
+## 5. Externe Dienste und Weitergabe {#external-services}
 
-## 5. Weitergabe personenbezogener Daten an Dritte
+Einfaches Backup verwendet Apple iCloud. Bei Auswahl eines anderen externen Speicherorts verarbeitet dessen Anbieter die Informationen. Anfragen nutzen den gewählten E-Mail- oder anderen Dienst. Zusätzlich kann eine gesetzlich vorgeschriebene Weitergabe erfolgen.
 
-Außer wenn dies gesetzlich vorgeschrieben ist, gibt die App keine personenbezogenen Daten der Nutzer an Dritte weiter.
+{{< guide-anchor "4-werbung-und-analysetools" >}}
 
-## 6. Änderungen dieser Datenschutzerklärung
+### Werbung und Analyse
 
-Diese Richtlinie kann bei Bedarf aktualisiert werden.
+Die App verwendet keine Werbe- oder Nutzungsanalyse-SDKs und keine KI-Generierungs- oder Uploadfunktion. Sie erstellt keine Aufnahmen, Transkripte oder KI-Zusammenfassungen und bietet keine In-App-Käufe an.
 
-Die geänderte Datenschutzerklärung tritt in Kraft, sobald sie auf dieser Website veröffentlicht wird.
+## 6. Daten verwalten und löschen {#data-management}
 
-## 7. Kontakt
+Ein erfolgreicher Import ersetzt die Lesedaten in Pocket; bei Fehlern bleiben die bisherigen Daten erhalten. Pocket ändert weder die Original-zip-Datei noch Notizen auf dem iPad. Originaldateien und iCloud-Backups verwalten und löschen Sie an ihren Speicherorten. Lokale App-Daten und externe Backups werden getrennt verwaltet.
 
-Bei Fragen zu dieser Richtlinie kontaktiere bitte:
+{{< document-copy "privacyRights" >}}
 
-- [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+{{< guide-anchor "6-änderungen-dieser-datenschutzerklärung" >}}
 
-Letzte Aktualisierung: 2026-03-31
+## 7. Änderungen dieser Erklärung {#changes}
+
+{{< document-copy "privacyChanges" >}}
+
+{{< guide-anchor "7-kontakt" >}}
+
+## 8. Kontakt {#inquiries}
+
+{{< document-contact >}}

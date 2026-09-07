@@ -1,5 +1,7 @@
 {{ define "main" }}{{ $corp := index site.Data.corporate site.Language.Lang }}
-{{ $paginator := .Paginate .Pages }}
+{{/* Terms has always been a single compatibility notice. Adding app terms
+must not create unlinked copies. Other archives retain their existing URLs. */}}
+{{ $paginator := false }}{{ if ne .Section "terms" }}{{ $paginator = .Paginate .Pages }}{{ end }}
 {{ if in (slice "privacy" "htu" "faq" "terms") .Section }}{{ $ui := index site.Data.ux site.Language.Lang }}
 <div class="container page-directory resource-archive{{ if eq .Section "privacy" }} privacy-archive{{ end }}"><header class="page-heading"><h1>{{ if eq .Section "privacy" }}{{ $ui.privacyArchiveTitle }}{{ else }}{{ .Title }}{{ end }}</h1><p>{{ if eq .Section "privacy" }}{{ $ui.privacyArchiveText }}{{ else }}{{ $corp.supportIntro }}{{ end }}</p><a class="text-link" href="{{ "/products/" | relLangURL }}">{{ $corp.allProducts }} <span aria-hidden="true">→</span></a></header></div>
 {{ else }}

@@ -1,0 +1,8047 @@
+{
+  "products": 8,
+  "documents": 74,
+  "bySection": {
+    "htu": 22,
+    "faq": 22,
+    "privacy": 22,
+    "terms": 8
+  },
+  "pages": [
+    {
+      "product": "uni-note",
+      "section": "htu",
+      "language": "de",
+      "source": "content/htu/uni-note.de.md",
+      "route": "/de/htu/uni-note/",
+      "sourceSHA256": "6e80e5ddd24801c382d0cf71a827e15e949202d5942961d97974376802217718",
+      "characters": 8348,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "Einführung"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "Grundlegende Nutzung"
+        },
+        {
+          "line": 18,
+          "level": 3,
+          "text": "Fach und erste Notiz erstellen {#create}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Werkzeug wählen und schreiben {#write}"
+        },
+        {
+          "line": 43,
+          "level": 2,
+          "text": "Notizen wechseln und suchen {#find}"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "Fotos und PDFs einfügen oder exportieren {#pdf}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "Eine Vorlesung aufnehmen {#recording}"
+        },
+        {
+          "line": 81,
+          "level": 2,
+          "text": "Mit Haftmarkern und Aufgabensets lernen {#review}"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "Schützen, löschen und wiederherstellen {#protect}"
+        },
+        {
+          "line": 110,
+          "level": 2,
+          "text": "Ein Backup sichern {#backup}"
+        },
+        {
+          "line": 122,
+          "level": 2,
+          "text": "Zwei iPad-Fenster verwenden {#windows}"
+        },
+        {
+          "line": 128,
+          "level": 2,
+          "text": "Hilfe"
+        },
+        {
+          "line": 133,
+          "level": 2,
+          "text": "Kontakt"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note/de/create-menu.png",
+        "images/guides/uni-note/common/writing-tools.png",
+        "images/guides/uni-note/de/home-search.png",
+        "images/guides/uni-note/de/attachment-menu.png",
+        "images/guides/uni-note/common/pdf-writing.png",
+        "images/guides/uni-note/common/record-button.png",
+        "images/guides/uni-note/common/sticky-marker.png",
+        "images/guides/uni-note/de/problem-answer.png",
+        "images/guides/uni-note/common/backup-file-actions.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "htu",
+      "language": "en",
+      "source": "content/htu/uni-note.en.md",
+      "route": "/en/htu/uni-note/",
+      "sourceSHA256": "1e89521b9ca7ef0260c6a1e338a73ad6ccb1a1e51439a7eb30d9e4c3f5957803",
+      "characters": 7666,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "Basic use"
+        },
+        {
+          "line": 18,
+          "level": 3,
+          "text": "Create a subject and its first note {#create}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Choose a tool and write {#write}"
+        },
+        {
+          "line": 43,
+          "level": 2,
+          "text": "Switch notes and search titles {#find}"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "Attach photos or PDFs and export {#pdf}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "Record a lecture {#recording}"
+        },
+        {
+          "line": 81,
+          "level": 2,
+          "text": "Review with sticky markers and practice sets {#review}"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "Protect, delete and restore {#protect}"
+        },
+        {
+          "line": 110,
+          "level": 2,
+          "text": "Keep a backup {#backup}"
+        },
+        {
+          "line": 122,
+          "level": 2,
+          "text": "Use two iPad windows {#windows}"
+        },
+        {
+          "line": 128,
+          "level": 2,
+          "text": "Help"
+        },
+        {
+          "line": 133,
+          "level": 2,
+          "text": "Contact"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": false,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note/en/create-menu.png",
+        "images/guides/uni-note/common/writing-tools.png",
+        "images/guides/uni-note/en/home-search.png",
+        "images/guides/uni-note/en/attachment-menu.png",
+        "images/guides/uni-note/common/pdf-writing.png",
+        "images/guides/uni-note/common/record-button.png",
+        "images/guides/uni-note/common/sticky-marker.png",
+        "images/guides/uni-note/en/problem-answer.png",
+        "images/guides/uni-note/common/backup-file-actions.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "htu",
+      "language": "fr",
+      "source": "content/htu/uni-note.fr.md",
+      "route": "/fr/htu/uni-note/",
+      "sourceSHA256": "09055e6ee47f45835edf0324e899968694b665d1ebf164694e95c59d08fe6e4b",
+      "characters": 8547,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "Utilisation de base"
+        },
+        {
+          "line": 18,
+          "level": 3,
+          "text": "Créer une matière et sa première note {#create}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Choisir un outil et écrire {#write}"
+        },
+        {
+          "line": 43,
+          "level": 2,
+          "text": "Changer de note et rechercher un titre {#find}"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "Joindre des photos ou PDF et exporter {#pdf}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "Enregistrer un cours {#recording}"
+        },
+        {
+          "line": 81,
+          "level": 2,
+          "text": "Réviser avec les repères et les exercices {#review}"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "Protéger, supprimer et restaurer {#protect}"
+        },
+        {
+          "line": 110,
+          "level": 2,
+          "text": "Conserver une sauvegarde {#backup}"
+        },
+        {
+          "line": 122,
+          "level": 2,
+          "text": "Utiliser deux fenêtres sur iPad {#windows}"
+        },
+        {
+          "line": 128,
+          "level": 2,
+          "text": "En cas de difficulté"
+        },
+        {
+          "line": 133,
+          "level": 2,
+          "text": "Contact"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note/fr/create-menu.png",
+        "images/guides/uni-note/common/writing-tools.png",
+        "images/guides/uni-note/fr/home-search.png",
+        "images/guides/uni-note/fr/attachment-menu.png",
+        "images/guides/uni-note/common/pdf-writing.png",
+        "images/guides/uni-note/common/record-button.png",
+        "images/guides/uni-note/common/sticky-marker.png",
+        "images/guides/uni-note/fr/problem-answer.png",
+        "images/guides/uni-note/common/backup-file-actions.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "htu",
+      "language": "ko",
+      "source": "content/htu/uni-note.ko.md",
+      "route": "/ko/htu/uni-note/",
+      "sourceSHA256": "c11edeb1c4a39826ef726b3c1bf718fc1b89334342f1999a7d0d230d73c48a44",
+      "characters": 4683,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "시작하기"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "기본 사용법"
+        },
+        {
+          "line": 18,
+          "level": 3,
+          "text": "과목과 첫 노트 만들기 {#create}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "도구를 골라 쓰기 {#write}"
+        },
+        {
+          "line": 43,
+          "level": 2,
+          "text": "노트 전환과 제목 검색 {#find}"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "사진·PDF 첨부와 내보내기 {#pdf}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "수업 녹음하기 {#recording}"
+        },
+        {
+          "line": 81,
+          "level": 2,
+          "text": "스티커와 문제집으로 복습하기 {#review}"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "보호·삭제·복원 {#protect}"
+        },
+        {
+          "line": 110,
+          "level": 2,
+          "text": "백업 보관하기 {#backup}"
+        },
+        {
+          "line": 122,
+          "level": 2,
+          "text": "iPad 창 두 개 사용하기 {#windows}"
+        },
+        {
+          "line": 128,
+          "level": 2,
+          "text": "문제 해결"
+        },
+        {
+          "line": 133,
+          "level": 2,
+          "text": "문의"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": false,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": false,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note/ko/create-menu.png",
+        "images/guides/uni-note/common/writing-tools.png",
+        "images/guides/uni-note/ko/home-search.png",
+        "images/guides/uni-note/ko/attachment-menu.png",
+        "images/guides/uni-note/common/pdf-writing.png",
+        "images/guides/uni-note/common/record-button.png",
+        "images/guides/uni-note/common/sticky-marker.png",
+        "images/guides/uni-note/ko/problem-answer.png",
+        "images/guides/uni-note/common/backup-file-actions.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "htu",
+      "language": "ja",
+      "source": "content/htu/uni-note.md",
+      "route": "/htu/uni-note/",
+      "sourceSHA256": "430fbdfb68cd3efcf1d7fc4e6e4323a1172afb19cbcd30d5291a87e755f4c637",
+      "characters": 4742,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "はじめに"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "基本的な使い方"
+        },
+        {
+          "line": 17,
+          "level": 3,
+          "text": "教科と最初のノートを作る {#create}"
+        },
+        {
+          "line": 30,
+          "level": 2,
+          "text": "ペンを選んで書く {#write}"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "ノートを切り替える・探す {#find}"
+        },
+        {
+          "line": 56,
+          "level": 2,
+          "text": "写真・PDFを入れる、書き出す {#pdf}"
+        },
+        {
+          "line": 72,
+          "level": 2,
+          "text": "授業を録音する {#recording}"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "付箋・問題集で復習する {#review}"
+        },
+        {
+          "line": 106,
+          "level": 2,
+          "text": "保護・削除・復元 {#protect}"
+        },
+        {
+          "line": 119,
+          "level": 2,
+          "text": "バックアップしておく {#backup}"
+        },
+        {
+          "line": 133,
+          "level": 2,
+          "text": "iPadで2つのウインドウを使う {#windows}"
+        },
+        {
+          "line": 137,
+          "level": 2,
+          "text": "困ったとき"
+        },
+        {
+          "line": 142,
+          "level": 2,
+          "text": "お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note/ja/create-menu.png",
+        "images/guides/uni-note/common/writing-tools.png",
+        "images/guides/uni-note/ja/home-search.png",
+        "images/guides/uni-note/ja/attachment-menu.png",
+        "images/guides/uni-note/common/pdf-writing.png",
+        "images/guides/uni-note/common/record-button.png",
+        "images/guides/uni-note/common/sticky-marker.png",
+        "images/guides/uni-note/ja/problem-answer.png",
+        "images/guides/uni-note/common/backup-file-actions.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "htu",
+      "language": "zh-hant",
+      "source": "content/htu/uni-note.zh-hant.md",
+      "route": "/zh-hant/htu/uni-note/",
+      "sourceSHA256": "d26df7be29af09d2cada78718ecb6721a79f33923780f2fe70af136fe3ef375e",
+      "characters": 3631,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "開始使用"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "基本使用方式"
+        },
+        {
+          "line": 18,
+          "level": 3,
+          "text": "建立科目和第一本筆記 {#create}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "選擇工具並書寫 {#write}"
+        },
+        {
+          "line": 43,
+          "level": 2,
+          "text": "切換筆記、搜尋標題 {#find}"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "加入照片、PDF 與匯出 {#pdf}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "錄下課程 {#recording}"
+        },
+        {
+          "line": 81,
+          "level": 2,
+          "text": "用便利貼與題組複習 {#review}"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "保護、刪除與還原 {#protect}"
+        },
+        {
+          "line": 110,
+          "level": 2,
+          "text": "保留備份 {#backup}"
+        },
+        {
+          "line": 122,
+          "level": 2,
+          "text": "在 iPad 使用兩個視窗 {#windows}"
+        },
+        {
+          "line": 128,
+          "level": 2,
+          "text": "遇到問題時"
+        },
+        {
+          "line": 133,
+          "level": 2,
+          "text": "聯絡我們"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": false,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note/zh-hant/create-menu.png",
+        "images/guides/uni-note/common/writing-tools.png",
+        "images/guides/uni-note/zh-hant/home-search.png",
+        "images/guides/uni-note/zh-hant/attachment-menu.png",
+        "images/guides/uni-note/common/pdf-writing.png",
+        "images/guides/uni-note/common/record-button.png",
+        "images/guides/uni-note/common/sticky-marker.png",
+        "images/guides/uni-note/zh-hant/problem-answer.png",
+        "images/guides/uni-note/common/backup-file-actions.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "faq",
+      "language": "de",
+      "source": "content/faq/uni-note.de.md",
+      "route": "/de/faq/uni-note/",
+      "sourceSHA256": "12482dcb66ef5d00cb508f203cc1344b7f3d325aec44f5f975c71435115209c2",
+      "characters": 7643,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "Einführung"
+        },
+        {
+          "line": 14,
+          "level": 3,
+          "text": "Welche Geräte und Betriebssysteme werden unterstützt? {#help-1}"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "Notizen und Anhänge"
+        },
+        {
+          "line": 24,
+          "level": 3,
+          "text": "Was tun, wenn keine Seite hinzukommt oder eine Notiz fehlt? {#help-2}"
+        },
+        {
+          "line": 36,
+          "level": 3,
+          "text": "Kann ich zoomen oder handschriftliche Bereiche verschieben? {#zoom-handwriting}"
+        },
+        {
+          "line": 44,
+          "level": 3,
+          "text": "Warum kann ich Fotos oder PDFs nicht verschieben? {#help-3}"
+        },
+        {
+          "line": 52,
+          "level": 2,
+          "text": "Lernhilfe"
+        },
+        {
+          "line": 56,
+          "level": 3,
+          "text": "Warum sind Aufnahme oder Transkription nicht verfügbar? {#help-4}"
+        },
+        {
+          "line": 66,
+          "level": 3,
+          "text": "Wo finde ich Haftmarker und KI-Werkzeuge? {#help-5}"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "Daten"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "Wie werden Backups, gespeicherte Daten und Diagnosen behandelt? {#help-6}"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "Käufe"
+        },
+        {
+          "line": 90,
+          "level": 3,
+          "text": "Was unterscheidet Free und Premium?"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "Wie kaufe ich KI-Guthaben?"
+        },
+        {
+          "line": 98,
+          "level": 2,
+          "text": "Hilfe {#help}"
+        },
+        {
+          "line": 101,
+          "level": 3,
+          "text": "Warum sieht mein Bildschirm anders aus? {#help-7}"
+        },
+        {
+          "line": 109,
+          "level": 3,
+          "text": "Was kann ich bei einem Problem tun?"
+        },
+        {
+          "line": 113,
+          "level": 3,
+          "text": "Wie erreiche ich den Support?"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "faq",
+      "language": "en",
+      "source": "content/faq/uni-note.en.md",
+      "route": "/en/faq/uni-note/",
+      "sourceSHA256": "6c9e744e392f9d2d2d2c6509159636e1ef9cd459564ed60e3413ac47c306d26f",
+      "characters": 6973,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "line": 14,
+          "level": 3,
+          "text": "Which devices and OS versions are supported? {#help-1}"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "Notes and attachments"
+        },
+        {
+          "line": 24,
+          "level": 3,
+          "text": "What if a note stops growing or cannot be found? {#help-2}"
+        },
+        {
+          "line": 36,
+          "level": 3,
+          "text": "Can I zoom or move a handwritten area? {#zoom-handwriting}"
+        },
+        {
+          "line": 44,
+          "level": 3,
+          "text": "What if I cannot move a photo or PDF? {#help-3}"
+        },
+        {
+          "line": 52,
+          "level": 2,
+          "text": "Study support"
+        },
+        {
+          "line": 56,
+          "level": 3,
+          "text": "Why are recording or transcription unavailable? {#help-4}"
+        },
+        {
+          "line": 66,
+          "level": 3,
+          "text": "Where are sticky markers and AI tools? {#help-5}"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "Data"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "How are backups, stored data and diagnostics handled? {#help-6}"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "Purchases"
+        },
+        {
+          "line": 90,
+          "level": 3,
+          "text": "How do Free and Premium differ?"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "How do I purchase AI Balance?"
+        },
+        {
+          "line": 98,
+          "level": 2,
+          "text": "Help {#help}"
+        },
+        {
+          "line": 101,
+          "level": 3,
+          "text": "Why does my screen look different? {#help-7}"
+        },
+        {
+          "line": 109,
+          "level": 3,
+          "text": "What should I do if something goes wrong?"
+        },
+        {
+          "line": 113,
+          "level": 3,
+          "text": "How can I contact support?"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "faq",
+      "language": "fr",
+      "source": "content/faq/uni-note.fr.md",
+      "route": "/fr/faq/uni-note/",
+      "sourceSHA256": "2ca41b630d00f16d16f395dcf063e1ae76727fd2d882b219f230d3adc1755b50",
+      "characters": 7882,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "line": 14,
+          "level": 3,
+          "text": "Quels appareils et systèmes sont compatibles ? {#help-1}"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "Notes et pièces jointes"
+        },
+        {
+          "line": 24,
+          "level": 3,
+          "text": "Que faire si une note ne gagne plus de pages ou reste introuvable ? {#help-2}"
+        },
+        {
+          "line": 36,
+          "level": 3,
+          "text": "Puis-je zoomer ou déplacer une zone manuscrite ? {#zoom-handwriting}"
+        },
+        {
+          "line": 44,
+          "level": 3,
+          "text": "Pourquoi ne puis-je pas déplacer une photo ou un PDF ? {#help-3}"
+        },
+        {
+          "line": 52,
+          "level": 2,
+          "text": "Aide à l’étude"
+        },
+        {
+          "line": 56,
+          "level": 3,
+          "text": "Pourquoi l’enregistrement ou la transcription est-il indisponible ? {#help-4}"
+        },
+        {
+          "line": 66,
+          "level": 3,
+          "text": "Où trouver les repères et les outils IA ? {#help-5}"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "Données"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "Comment sont traités les sauvegardes, les données et les diagnostics ? {#help-6}"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "Achats"
+        },
+        {
+          "line": 90,
+          "level": 3,
+          "text": "Quelle est la différence entre Free et Premium ?"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "Comment acheter du solde IA ?"
+        },
+        {
+          "line": 98,
+          "level": 2,
+          "text": "En cas de difficulté {#help}"
+        },
+        {
+          "line": 101,
+          "level": 3,
+          "text": "Pourquoi mon écran est-il différent ? {#help-7}"
+        },
+        {
+          "line": 109,
+          "level": 3,
+          "text": "Que faire en cas de problème ?"
+        },
+        {
+          "line": 113,
+          "level": 3,
+          "text": "Comment contacter l’assistance ?"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "faq",
+      "language": "ko",
+      "source": "content/faq/uni-note.ko.md",
+      "route": "/ko/faq/uni-note/",
+      "sourceSHA256": "4b100afdf2616a314f7a6ea140585c8d5cda9d9ee7af808d0bdbabe7d28a36d0",
+      "characters": 4023,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "시작하기"
+        },
+        {
+          "line": 14,
+          "level": 3,
+          "text": "지원 기기와 OS는 무엇인가요? {#help-1}"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "노트와 첨부 자료"
+        },
+        {
+          "line": 24,
+          "level": 3,
+          "text": "페이지가 늘지 않거나 노트를 찾을 수 없으면 어떻게 하나요? {#help-2}"
+        },
+        {
+          "line": 36,
+          "level": 3,
+          "text": "확대·축소하거나 손글씨 범위를 이동할 수 있나요? {#zoom-handwriting}"
+        },
+        {
+          "line": 44,
+          "level": 3,
+          "text": "사진이나 PDF를 이동할 수 없으면 어떻게 하나요? {#help-3}"
+        },
+        {
+          "line": 52,
+          "level": 2,
+          "text": "학습 지원"
+        },
+        {
+          "line": 56,
+          "level": 3,
+          "text": "녹음이나 문자 변환을 사용할 수 없는 이유는 무엇인가요? {#help-4}"
+        },
+        {
+          "line": 66,
+          "level": 3,
+          "text": "스티커와 AI 도구는 어디에 있나요? {#help-5}"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "데이터"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "백업·저장 데이터·진단 정보는 어떻게 처리하나요? {#help-6}"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "구매"
+        },
+        {
+          "line": 90,
+          "level": 3,
+          "text": "Free와 Premium의 차이는 무엇인가요?"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "AI 잔액은 어떻게 구입하나요?"
+        },
+        {
+          "line": 98,
+          "level": 2,
+          "text": "문제 해결 {#help}"
+        },
+        {
+          "line": 101,
+          "level": 3,
+          "text": "화면이 설명과 다른 이유는 무엇인가요? {#help-7}"
+        },
+        {
+          "line": 109,
+          "level": 3,
+          "text": "문제가 발생하면 어떻게 하나요?"
+        },
+        {
+          "line": 113,
+          "level": 3,
+          "text": "어디로 문의하나요?"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": false,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "faq",
+      "language": "ja",
+      "source": "content/faq/uni-note.md",
+      "route": "/faq/uni-note/",
+      "sourceSHA256": "99f1e146cbbe7c75ec8b3ae63eb183694ba78f205471cb08d1b4bd9d79f48524",
+      "characters": 3803,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "はじめに"
+        },
+        {
+          "line": 13,
+          "level": 3,
+          "text": "対応端末・対応OSは？ {#help-1}"
+        },
+        {
+          "line": 19,
+          "level": 2,
+          "text": "ノート・資料について"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "ノートが増えない・探せない場合は？ {#help-2}"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "ズームや手書きの範囲移動はできますか？ {#zoom-handwriting}"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "写真・PDFを動かせない場合は？ {#help-3}"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "学習支援について"
+        },
+        {
+          "line": 55,
+          "level": 3,
+          "text": "録音・文字起こしを使えない場合は？ {#help-4}"
+        },
+        {
+          "line": 65,
+          "level": 3,
+          "text": "付箋・AI学習支援が見つからない場合は？ {#help-5}"
+        },
+        {
+          "line": 73,
+          "level": 2,
+          "text": "データについて"
+        },
+        {
+          "line": 77,
+          "level": 3,
+          "text": "バックアップ・保存・診断情報はどう扱われますか？ {#help-6}"
+        },
+        {
+          "line": 85,
+          "level": 2,
+          "text": "購入について"
+        },
+        {
+          "line": 89,
+          "level": 3,
+          "text": "FreeとPremiumの違いは？"
+        },
+        {
+          "line": 93,
+          "level": 3,
+          "text": "AI残量はどのように購入しますか？"
+        },
+        {
+          "line": 97,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 100,
+          "level": 3,
+          "text": "設定や画面が説明と違う場合は？ {#help-7}"
+        },
+        {
+          "line": 108,
+          "level": 3,
+          "text": "不具合が発生した場合は？"
+        },
+        {
+          "line": 112,
+          "level": 3,
+          "text": "お問い合わせ先は？"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "faq",
+      "language": "zh-hant",
+      "source": "content/faq/uni-note.zh-hant.md",
+      "route": "/zh-hant/faq/uni-note/",
+      "sourceSHA256": "fa4e51d400b60e425e8c6578dee315d48c3e20fdf2d94ce3b46b57eef147857a",
+      "characters": 2955,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "開始使用"
+        },
+        {
+          "line": 14,
+          "level": 3,
+          "text": "支援哪些裝置與作業系統？ {#help-1}"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "筆記與附件"
+        },
+        {
+          "line": 24,
+          "level": 3,
+          "text": "頁面不再增加或找不到筆記時怎麼辦？ {#help-2}"
+        },
+        {
+          "line": 36,
+          "level": 3,
+          "text": "可以縮放或移動手寫範圍嗎？ {#zoom-handwriting}"
+        },
+        {
+          "line": 44,
+          "level": 3,
+          "text": "無法移動照片或 PDF 時怎麼辦？ {#help-3}"
+        },
+        {
+          "line": 52,
+          "level": 2,
+          "text": "學習支援"
+        },
+        {
+          "line": 56,
+          "level": 3,
+          "text": "為何無法錄音或轉錄？ {#help-4}"
+        },
+        {
+          "line": 66,
+          "level": 3,
+          "text": "便利貼與 AI 工具在哪裡？ {#help-5}"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "資料"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "如何處理備份、儲存資料與診斷資訊？ {#help-6}"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "購買"
+        },
+        {
+          "line": 90,
+          "level": 3,
+          "text": "Free 和 Premium 有何不同？"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "如何購買 AI 餘額？"
+        },
+        {
+          "line": 98,
+          "level": 2,
+          "text": "遇到問題時 {#help}"
+        },
+        {
+          "line": 101,
+          "level": 3,
+          "text": "為何畫面與說明不同？ {#help-7}"
+        },
+        {
+          "line": 109,
+          "level": 3,
+          "text": "發生問題時該怎麼辦？"
+        },
+        {
+          "line": 113,
+          "level": 3,
+          "text": "如何聯絡支援？"
+        }
+      ],
+      "dates": [
+        {
+          "line": 2,
+          "text": "version_context_date: \"2026-09-07\""
+        },
+        {
+          "line": 5,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note",
+      "section": "privacy",
+      "language": "de",
+      "source": "content/privacy/uni-note.de.md",
+      "route": "/de/privacy/uni-note/",
+      "sourceSHA256": "5066e1cf5455aa53d706ef3f9672e6ad5db4990db7d40ae6805b7be78a919224",
+      "characters": 7697,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. Einführung {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. Verarbeitete Informationen {#information}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "Fotos und Dateien"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "Käufe und KI-Guthaben"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "Supportanfragen"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "3. Verwendungszwecke {#purposes}"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "4. Speicherung und Verwaltung {#storage}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "5. Externe Dienste und Weitergabe {#external-services}"
+        },
+        {
+          "line": 67,
+          "level": 3,
+          "text": "Werbung und Analyse"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "Diagnosedaten"
+        },
+        {
+          "line": 89,
+          "level": 2,
+          "text": "6. KI- und Audioverarbeitung {#ai}"
+        },
+        {
+          "line": 103,
+          "level": 2,
+          "text": "7. Daten verwalten und löschen {#data-management}"
+        },
+        {
+          "line": 111,
+          "level": 2,
+          "text": "8. Änderungen dieser Erklärung {#changes}"
+        },
+        {
+          "line": 117,
+          "level": 2,
+          "text": "9. Kontakt {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "uni-note",
+      "section": "privacy",
+      "language": "en",
+      "source": "content/privacy/uni-note.en.md",
+      "route": "/en/privacy/uni-note/",
+      "sourceSHA256": "85826ea1128082d16413e7d0ea785bd71cb79bac810a9f87218d1887f76e930d",
+      "characters": 7231,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. Introduction {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. Information we handle {#information}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "Photos and files"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "Purchases and AI Balance"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "Support inquiries"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "3. How we use information {#purposes}"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "4. Storage and management {#storage}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "5. External services and disclosure {#external-services}"
+        },
+        {
+          "line": 67,
+          "level": 3,
+          "text": "Advertising and analytics"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "Diagnostics"
+        },
+        {
+          "line": 89,
+          "level": 2,
+          "text": "6. AI and audio processing {#ai}"
+        },
+        {
+          "line": 103,
+          "level": 2,
+          "text": "7. Managing and deleting your data {#data-management}"
+        },
+        {
+          "line": 111,
+          "level": 2,
+          "text": "8. Changes to this policy {#changes}"
+        },
+        {
+          "line": 117,
+          "level": 2,
+          "text": "9. Contact {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "uni-note",
+      "section": "privacy",
+      "language": "fr",
+      "source": "content/privacy/uni-note.fr.md",
+      "route": "/fr/privacy/uni-note/",
+      "sourceSHA256": "bcedb9d30933d748f17733844fce50ab28008738fb40cec80c85ab53d0b9c4fc",
+      "characters": 8409,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. Introduction {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. Informations traitées {#information}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "Photos et fichiers"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "Achats et solde IA"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "Demandes d’assistance"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "3. Utilisation des informations {#purposes}"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "4. Stockage et gestion {#storage}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "5. Services externes et communication {#external-services}"
+        },
+        {
+          "line": 67,
+          "level": 3,
+          "text": "Publicité et analyse"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "Diagnostics"
+        },
+        {
+          "line": 89,
+          "level": 2,
+          "text": "6. Traitement de l’IA et de l’audio {#ai}"
+        },
+        {
+          "line": 103,
+          "level": 2,
+          "text": "7. Gérer et supprimer vos données {#data-management}"
+        },
+        {
+          "line": 111,
+          "level": 2,
+          "text": "8. Modifications de cette politique {#changes}"
+        },
+        {
+          "line": 117,
+          "level": 2,
+          "text": "9. Contact {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "uni-note",
+      "section": "privacy",
+      "language": "ko",
+      "source": "content/privacy/uni-note.ko.md",
+      "route": "/ko/privacy/uni-note/",
+      "sourceSHA256": "6693f3ae402f54521a53bb188a57d13210dc5a170e13bf03e079ea6f4271f389",
+      "characters": 4013,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. 시작하기 {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. 처리하는 정보 {#information}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "사진 및 파일"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "구입 정보 및 AI 잔액"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "문의 정보"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "3. 정보의 이용 목적 {#purposes}"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "4. 정보의 저장 및 관리 {#storage}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "5. 외부 서비스 및 제3자 제공 {#external-services}"
+        },
+        {
+          "line": 67,
+          "level": 3,
+          "text": "광고 및 분석"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "진단 정보"
+        },
+        {
+          "line": 89,
+          "level": 2,
+          "text": "6. AI 및 음성 처리 {#ai}"
+        },
+        {
+          "line": 103,
+          "level": 2,
+          "text": "7. 이용자의 데이터 관리 및 삭제 {#data-management}"
+        },
+        {
+          "line": 111,
+          "level": 2,
+          "text": "8. 처리방침의 변경 {#changes}"
+        },
+        {
+          "line": 117,
+          "level": 2,
+          "text": "9. 문의 {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "uni-note",
+      "section": "privacy",
+      "language": "ja",
+      "source": "content/privacy/uni-note.md",
+      "route": "/privacy/uni-note/",
+      "sourceSHA256": "e5bb43afca94e5292d8fb1b11bfee0a0e9798b5e7414c20a3d4c441366c1bb18",
+      "characters": 3817,
+      "headings": [
+        {
+          "line": 6,
+          "level": 2,
+          "text": "1. はじめに {#introduction}"
+        },
+        {
+          "line": 12,
+          "level": 2,
+          "text": "2. 取得する情報 {#information}"
+        },
+        {
+          "line": 20,
+          "level": 3,
+          "text": "写真・ファイル"
+        },
+        {
+          "line": 30,
+          "level": 3,
+          "text": "購入情報・AI残量"
+        },
+        {
+          "line": 34,
+          "level": 3,
+          "text": "お問い合わせ情報"
+        },
+        {
+          "line": 38,
+          "level": 2,
+          "text": "3. 情報の利用目的 {#purposes}"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "4. 情報の保存・管理 {#storage}"
+        },
+        {
+          "line": 58,
+          "level": 2,
+          "text": "5. 外部サービス・第三者提供 {#external-services}"
+        },
+        {
+          "line": 66,
+          "level": 3,
+          "text": "広告・解析"
+        },
+        {
+          "line": 74,
+          "level": 3,
+          "text": "診断データ"
+        },
+        {
+          "line": 88,
+          "level": 2,
+          "text": "6. AI・音声の処理 {#ai}"
+        },
+        {
+          "line": 102,
+          "level": 2,
+          "text": "7. 利用者によるデータ管理・削除 {#data-management}"
+        },
+        {
+          "line": 110,
+          "level": 2,
+          "text": "8. 本ポリシーの変更 {#changes}"
+        },
+        {
+          "line": 116,
+          "level": 2,
+          "text": "9. お問い合わせ {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "uni-note",
+      "section": "privacy",
+      "language": "zh-hant",
+      "source": "content/privacy/uni-note.zh-hant.md",
+      "route": "/zh-hant/privacy/uni-note/",
+      "sourceSHA256": "4db8357d7193727b005055543ed45e3ecd2b4e99a1a53f6f59b96783b8557eaf",
+      "characters": 3085,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. 開始使用 {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. 處理的資訊 {#information}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "照片與檔案"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "購買資訊與 AI 餘額"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "詢問資訊"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "3. 資訊使用目的 {#purposes}"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "4. 資訊儲存與管理 {#storage}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "5. 外部服務與第三方提供 {#external-services}"
+        },
+        {
+          "line": 67,
+          "level": 3,
+          "text": "廣告與分析"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "診斷資訊"
+        },
+        {
+          "line": 89,
+          "level": 2,
+          "text": "6. AI 與音訊處理 {#ai}"
+        },
+        {
+          "line": 103,
+          "level": 2,
+          "text": "7. 使用者管理與刪除資料 {#data-management}"
+        },
+        {
+          "line": 111,
+          "level": 2,
+          "text": "8. 本政策的變更 {#changes}"
+        },
+        {
+          "line": 117,
+          "level": 2,
+          "text": "9. 聯絡我們 {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://ai.google.dev/gemini-api/terms",
+        "https://aws.amazon.com/compliance/data-privacy/",
+        "https://firebase.google.com/support/privacy",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "uni-note",
+      "section": "terms",
+      "language": "ja",
+      "source": "content/terms/uni-note.md",
+      "route": "/terms/uni-note/",
+      "sourceSHA256": "a39998ec17394b4b9e5993d4533207f5a550218d25d1b72a2ffffbb9db233b03",
+      "characters": 1379,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "1. 適用"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "2. 利用条件"
+        },
+        {
+          "line": 18,
+          "level": 2,
+          "text": "3. 禁止事項"
+        },
+        {
+          "line": 22,
+          "level": 2,
+          "text": "4. 有料機能・購入"
+        },
+        {
+          "line": 28,
+          "level": 2,
+          "text": "5. AI・録音の利用"
+        },
+        {
+          "line": 34,
+          "level": 2,
+          "text": "6. データの保存・バックアップ"
+        },
+        {
+          "line": 40,
+          "level": 2,
+          "text": "7. 知的財産権"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "8. サービス内容の変更・停止"
+        },
+        {
+          "line": 48,
+          "level": 2,
+          "text": "9. 免責事項"
+        },
+        {
+          "line": 52,
+          "level": 2,
+          "text": "10. 本規約の変更"
+        },
+        {
+          "line": 56,
+          "level": 2,
+          "text": "11. 準拠法・管轄"
+        },
+        {
+          "line": 60,
+          "level": 2,
+          "text": "12. お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        },
+        {
+          "line": 5,
+          "text": "legal_established: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": true,
+        "ads_analytics": false,
+        "external": true,
+        "account": false,
+        "law": true
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "oto-miru",
+      "section": "htu",
+      "language": "ja",
+      "source": "content/htu/oto-miru.md",
+      "route": "/htu/oto-miru/",
+      "sourceSHA256": "39f451d0b33f131f40d6512374f9e67e5eae726d65b453a3fc3f87e5dfec0960",
+      "characters": 2710,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "はじめに"
+        },
+        {
+          "line": 18,
+          "level": 2,
+          "text": "基本的な使い方"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "大きなボタンから字幕を始める {#start}"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "通常モードで場面を選ぶ {#standard-mode}"
+        },
+        {
+          "line": 38,
+          "level": 2,
+          "text": "字幕を読む・向きを変える・終了する {#read-captions}"
+        },
+        {
+          "line": 48,
+          "level": 2,
+          "text": "映画モードを使う {#movie}"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "文字の大きさと聞き取り環境を変える {#settings}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "利用時間とPlusを確認する {#usage}"
+        },
+        {
+          "line": 78,
+          "level": 2,
+          "text": "困ったとき {#troubleshooting}"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "text": "お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/oto-miru/simple-mode-buttons.png",
+        "images/guides/oto-miru/mode-and-settings.png",
+        "images/guides/oto-miru/start-caption.png",
+        "images/guides/oto-miru/caption-and-controls.png",
+        "images/guides/oto-miru/display-settings.png",
+        "images/guides/oto-miru/listening-environment.png",
+        "images/guides/oto-miru/free-time-and-plus.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "oto-miru",
+      "section": "faq",
+      "language": "ja",
+      "source": "content/faq/oto-miru.md",
+      "route": "/faq/oto-miru/",
+      "sourceSHA256": "caa0f90b681840f78eee4e37ddd8d77c78ccff77099e7f161a799f415b36bba0",
+      "characters": 3565,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "はじめに"
+        },
+        {
+          "line": 14,
+          "level": 3,
+          "text": "オトミルはどんなアプリですか？"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "対応端末・対応OSは？"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "日本語以外にも対応していますか？"
+        },
+        {
+          "line": 27,
+          "level": 3,
+          "text": "ログインやアカウント登録は必要ですか？"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "どんな場面で使えますか？"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "医療機器ですか？"
+        },
+        {
+          "line": 39,
+          "level": 3,
+          "text": "Apple Intelligence は必要ですか？"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "古い端末でも使えますか？"
+        },
+        {
+          "line": 47,
+          "level": 3,
+          "text": "オフラインで使えますか？"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "使い方"
+        },
+        {
+          "line": 54,
+          "level": 3,
+          "text": "字幕の始め方・表示の切り替えは？"
+        },
+        {
+          "line": 59,
+          "level": 3,
+          "text": "映画館で使ってもいいですか？"
+        },
+        {
+          "line": 63,
+          "level": 3,
+          "text": "グループ会話は議事録になりますか？"
+        },
+        {
+          "line": 67,
+          "level": 3,
+          "text": "字幕の精度は保証されますか？"
+        },
+        {
+          "line": 71,
+          "level": 3,
+          "text": "話者ラベルは必ず正しいですか？"
+        },
+        {
+          "line": 76,
+          "level": 2,
+          "text": "データについて"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "音声や字幕は保存されますか？"
+        },
+        {
+          "line": 82,
+          "level": 3,
+          "text": "音声や字幕は開発者のサーバーへ送られますか？"
+        },
+        {
+          "line": 86,
+          "level": 3,
+          "text": "広告に字幕内容は使われますか？"
+        },
+        {
+          "line": 90,
+          "level": 3,
+          "text": "端末内に保存されるものは何ですか？"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "データを削除するにはどうすればいいですか？"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "購入について"
+        },
+        {
+          "line": 101,
+          "level": 3,
+          "text": "無料で使えますか？"
+        },
+        {
+          "line": 105,
+          "level": 3,
+          "text": "広告を見ると何ができますか？"
+        },
+        {
+          "line": 109,
+          "level": 3,
+          "text": "字幕中に広告は出ますか？"
+        },
+        {
+          "line": 113,
+          "level": 3,
+          "text": "オトミル Plus とは何ですか？"
+        },
+        {
+          "line": 117,
+          "level": 3,
+          "text": "無料版と Plus で認識精度は変わりますか？"
+        },
+        {
+          "line": 121,
+          "level": 3,
+          "text": "購入を復元できますか？"
+        },
+        {
+          "line": 125,
+          "level": 3,
+          "text": "解約はどこでできますか？"
+        },
+        {
+          "line": 130,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 131,
+          "level": 3,
+          "text": "マイクが使えません。"
+        },
+        {
+          "line": 135,
+          "level": 3,
+          "text": "字幕が出ません。"
+        },
+        {
+          "line": 140,
+          "level": 3,
+          "text": "端末が対応していないと表示されます。"
+        },
+        {
+          "line": 145,
+          "level": 3,
+          "text": "モデル準備が終わりません。"
+        },
+        {
+          "line": 149,
+          "level": 3,
+          "text": "広告を見ても時間が追加されません。"
+        },
+        {
+          "line": 153,
+          "level": 3,
+          "text": "不具合が発生した場合は？"
+        },
+        {
+          "line": 158,
+          "level": 3,
+          "text": "お問い合わせ先は？"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "oto-miru",
+      "section": "privacy",
+      "language": "ja",
+      "source": "content/privacy/oto-miru.md",
+      "route": "/privacy/oto-miru/",
+      "sourceSHA256": "2c68eab427d07fefbef6e972f716ecf1983b95065d057d89a4d57a713f758fd7",
+      "characters": 2568,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "1. はじめに"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "2. 取得する情報"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "3. 情報の利用目的"
+        },
+        {
+          "line": 29,
+          "level": 2,
+          "text": "4. 情報の保存・管理"
+        },
+        {
+          "line": 36,
+          "level": 3,
+          "text": "お問い合わせ情報の保存"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "5. 外部サービス・第三者提供"
+        },
+        {
+          "line": 48,
+          "level": 2,
+          "text": "6. マイク・音声認識・字幕"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "7. 広告について"
+        },
+        {
+          "line": 62,
+          "level": 2,
+          "text": "8. 購入情報について"
+        },
+        {
+          "line": 67,
+          "level": 2,
+          "text": "9. 利用者によるデータ管理・削除"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "10. 未成年者の利用"
+        },
+        {
+          "line": 79,
+          "level": 2,
+          "text": "11. 本ポリシーの変更"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "text": "12. お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://policies.google.com/privacy",
+        "https://policies.google.com/technologies/ads",
+        "https://www.apple.com/jp/legal/privacy/jp/"
+      ]
+    },
+    {
+      "product": "oto-miru",
+      "section": "terms",
+      "language": "ja",
+      "source": "content/terms/oto-miru.md",
+      "route": "/terms/oto-miru/",
+      "sourceSHA256": "fe28159ffd9d130bc43507b162a7bee9c7cc1e336ff4338337ab8557f2b6e08a",
+      "characters": 2413,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "1. 適用"
+        },
+        {
+          "line": 17,
+          "level": 2,
+          "text": "2. 利用条件"
+        },
+        {
+          "line": 26,
+          "level": 2,
+          "text": "3. 禁止事項"
+        },
+        {
+          "line": 32,
+          "level": 2,
+          "text": "4. 有料機能・購入"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "無料版と広告"
+        },
+        {
+          "line": 42,
+          "level": 3,
+          "text": "オトミル Plus"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "購入・解約・返金"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "5. 字幕を利用する際の条件"
+        },
+        {
+          "line": 58,
+          "level": 3,
+          "text": "医療機器ではないこと"
+        },
+        {
+          "line": 63,
+          "level": 3,
+          "text": "字幕の精度"
+        },
+        {
+          "line": 70,
+          "level": 3,
+          "text": "周囲への配慮と安全"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "音声・字幕データ"
+        },
+        {
+          "line": 79,
+          "level": 2,
+          "text": "6. 知的財産権"
+        },
+        {
+          "line": 84,
+          "level": 2,
+          "text": "7. サービス内容の変更・停止"
+        },
+        {
+          "line": 89,
+          "level": 2,
+          "text": "8. 免責事項"
+        },
+        {
+          "line": 94,
+          "level": 2,
+          "text": "9. 本規約の変更"
+        },
+        {
+          "line": 98,
+          "level": 2,
+          "text": "10. 準拠法・管轄"
+        },
+        {
+          "line": 103,
+          "level": 2,
+          "text": "11. お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": false,
+        "law": true
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "giga-poke",
+      "section": "htu",
+      "language": "ja",
+      "source": "content/htu/giga-poke.md",
+      "route": "/htu/giga-poke/",
+      "sourceSHA256": "a5606ab18728a3a7970fcf5a4626ec663794fbf0a868cb31380ea3a4a97f46af",
+      "characters": 2856,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "はじめに {#introduction}"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "基本的な使い方 {#basic-use}"
+        },
+        {
+          "line": 18,
+          "level": 3,
+          "text": "特典を登録する {#guide-1}"
+        },
+        {
+          "line": 20,
+          "level": 4,
+          "text": "コピーしたメールから追加する {#コピーペーストする}"
+        },
+        {
+          "line": 30,
+          "level": 4,
+          "text": "メールから直接共有する {#メールから共有する}"
+        },
+        {
+          "line": 34,
+          "level": 4,
+          "text": "手入力・登録内容の修正 {#手動で入力する}"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "期限と利用ボタンを確認する {#2-期限の近い特典を確認する}"
+        },
+        {
+          "line": 50,
+          "level": 2,
+          "text": "特典を使う {#3-特典を使う}"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "ゴミ箱から戻す・削除する {#4-ゴミ箱を管理する}"
+        },
+        {
+          "line": 76,
+          "level": 2,
+          "text": "期限の通知を設定する {#5-期限通知を設定する}"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "ウィジェットを追加する {#6-widgetを追加する}"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "設定を調整する {#7-設定とサポート}"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 104,
+          "level": 2,
+          "text": "お問い合わせ {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/giga-poke/home-add-controls.png",
+        "images/guides/giga-poke/paste-review.png",
+        "images/guides/giga-poke/benefit-row.png",
+        "images/guides/giga-poke/benefit-actions.png",
+        "images/guides/giga-poke/trash-list.png",
+        "images/guides/giga-poke/notification-settings.png",
+        "images/guides/giga-poke/benefit-management-settings.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "giga-poke",
+      "section": "faq",
+      "language": "ja",
+      "source": "content/faq/giga-poke.md",
+      "route": "/faq/giga-poke/",
+      "sourceSHA256": "23c2d629c20e8bdd7ee2e0fb1606f00f15eaf65d645c969c34505968650dd7d4",
+      "characters": 4127,
+      "headings": [
+        {
+          "line": 11,
+          "level": 2,
+          "text": "はじめに {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 3,
+          "text": "ギガポケはどんなアプリですか？ {#ギガポケはどんなアプリですか}"
+        },
+        {
+          "line": 17,
+          "level": 3,
+          "text": "KDDI、povo、auの公式アプリですか？ {#kddipovoauの公式アプリですか}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "対応端末・対応OSは？ {#対応端末は}"
+        },
+        {
+          "line": 25,
+          "level": 3,
+          "text": "料金、広告、アカウント登録は？ {#料金広告アカウント登録は}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "登録 {#questions-7}"
+        },
+        {
+          "line": 33,
+          "level": 3,
+          "text": "メールを自動で読み取りますか？ {#メールを自動で読み取りますか}"
+        },
+        {
+          "line": 37,
+          "level": 3,
+          "text": "登録方法は？ {#登録方法は}"
+        },
+        {
+          "line": 41,
+          "level": 3,
+          "text": "何を含めて共有すればよいですか？ {#何を含めて共有すればよいですか}"
+        },
+        {
+          "line": 45,
+          "level": 3,
+          "text": "期限が書かれていない特典も登録できますか？ {#期限が書かれていない特典も登録できますか}"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "URLを開いて期限を自動取得しますか？ {#urlを開いて期限を自動取得しますか}"
+        },
+        {
+          "line": 53,
+          "level": 3,
+          "text": "複数のコードをまとめて登録できますか？ {#複数のコードをまとめて登録できますか}"
+        },
+        {
+          "line": 57,
+          "level": 3,
+          "text": "同じ特典をもう一度登録するとどうなりますか？ {#同じ特典をもう一度登録するとどうなりますか}"
+        },
+        {
+          "line": 61,
+          "level": 3,
+          "text": "画像、QRコード、PDFから読み取れますか？ {#画像qrコードpdfから読み取れますか}"
+        },
+        {
+          "line": 67,
+          "level": 2,
+          "text": "使用と管理 {#questions-17}"
+        },
+        {
+          "line": 69,
+          "level": 3,
+          "text": "`povo 2.0`、`コピー`、`開く`の違いは？ {#povo-20コピー開くの違いは}"
+        },
+        {
+          "line": 73,
+          "level": 3,
+          "text": "povo 2.0のコード入力画面へ直接移動しますか？ {#povo-20のコード入力画面へ直接移動しますか}"
+        },
+        {
+          "line": 77,
+          "level": 3,
+          "text": "操作するとすぐ削除されますか？ {#操作するとすぐ削除されますか}"
+        },
+        {
+          "line": 81,
+          "level": 3,
+          "text": "期限が切れた特典はどうなりますか？ {#期限が切れた特典はどうなりますか}"
+        },
+        {
+          "line": 85,
+          "level": 3,
+          "text": "ゴミ箱から自動で削除されますか？ {#ゴミ箱から自動で削除されますか}"
+        },
+        {
+          "line": 91,
+          "level": 2,
+          "text": "Widgetと通知 {#questions-24}"
+        },
+        {
+          "line": 93,
+          "level": 3,
+          "text": "Widgetには何が表示されますか？ {#widgetには何が表示されますか}"
+        },
+        {
+          "line": 97,
+          "level": 3,
+          "text": "通知はいつ届きますか？ {#通知はいつ届きますか}"
+        },
+        {
+          "line": 101,
+          "level": 3,
+          "text": "通知にコードやURLは表示されますか？ {#通知にコードやurlは表示されますか}"
+        },
+        {
+          "line": 107,
+          "level": 2,
+          "text": "データについて {#data}"
+        },
+        {
+          "line": 109,
+          "level": 3,
+          "text": "特典データはどこに保存されますか？ {#特典データはどこに保存されますか}"
+        },
+        {
+          "line": 113,
+          "level": 3,
+          "text": "共有したメール本文は保存されますか？ {#共有したメール本文は保存されますか}"
+        },
+        {
+          "line": 117,
+          "level": 3,
+          "text": "機種変更や再インストールで復元できますか？ {#機種変更や再インストールで復元できますか}"
+        },
+        {
+          "line": 121,
+          "level": 3,
+          "text": "広告、アクセス解析、AI解析はありますか？ {#広告アクセス解析ai解析はありますか}"
+        },
+        {
+          "line": 125,
+          "level": 3,
+          "text": "お問い合わせ時に登録データは送信されますか？ {#お問い合わせ時に登録データは送信されますか}"
+        },
+        {
+          "line": 131,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 132,
+          "level": 3,
+          "text": "Widgetの表示がすぐに更新されません。 {#widgetの表示がすぐに更新されません}"
+        },
+        {
+          "line": 136,
+          "level": 3,
+          "text": "共有シートにギガポケが表示されません。 {#共有シートにギガポケが表示されません}"
+        },
+        {
+          "line": 140,
+          "level": 3,
+          "text": "特典を解析できません。 {#特典を解析できません}"
+        },
+        {
+          "line": 144,
+          "level": 3,
+          "text": "povo 2.0アプリを開けません。 {#povo-20アプリを開けません}"
+        },
+        {
+          "line": 148,
+          "level": 3,
+          "text": "通知が届きません。 {#通知が届きません}"
+        },
+        {
+          "line": 152,
+          "level": 3,
+          "text": "不具合が発生した場合は？ {#troubleshooting}"
+        },
+        {
+          "line": 158,
+          "level": 3,
+          "text": "お問い合わせ先は？ {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "giga-poke",
+      "section": "privacy",
+      "language": "ja",
+      "source": "content/privacy/giga-poke.md",
+      "route": "/privacy/giga-poke/",
+      "sourceSHA256": "c98d85ef81d33fa2e19153bb7202b985ca7f9c4bf025420770aceb3d4d529a54",
+      "characters": 3341,
+      "headings": [
+        {
+          "line": 16,
+          "level": 2,
+          "text": "1. はじめに {#section-1}"
+        },
+        {
+          "line": 26,
+          "level": 2,
+          "text": "2. 取得する情報 {#section-2}"
+        },
+        {
+          "line": 38,
+          "level": 2,
+          "text": "3. 情報の利用目的 {#section-3}"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "4. 情報の保存・管理 {#section-4}"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "5. 外部サービス・第三者提供 {#section-5}"
+        },
+        {
+          "line": 88,
+          "level": 2,
+          "text": "6. クリップボード・通知・ウィジェット {#section-6}"
+        },
+        {
+          "line": 98,
+          "level": 2,
+          "text": "7. 利用者によるデータ管理・削除 {#section-7}"
+        },
+        {
+          "line": 106,
+          "level": 2,
+          "text": "8. 未成年者の利用 {#section-8}"
+        },
+        {
+          "line": 112,
+          "level": 2,
+          "text": "9. 本ポリシーの変更 {#section-9}"
+        },
+        {
+          "line": 118,
+          "level": 2,
+          "text": "10. お問い合わせ {#section-10}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        },
+        {
+          "line": 7,
+          "text": "legal_established: 2026-09-02"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://policies.google.com/privacy?hl=ja",
+        "https://www.apple.com/jp/legal/privacy/jp/"
+      ]
+    },
+    {
+      "product": "giga-poke",
+      "section": "terms",
+      "language": "ja",
+      "source": "content/terms/giga-poke.md",
+      "route": "/terms/giga-poke/",
+      "sourceSHA256": "13ad0026c3e2aa55befde9884eb6d593d453efa22afae5b03d7f5dbaf1cbb387",
+      "characters": 2361,
+      "headings": [
+        {
+          "line": 12,
+          "level": 2,
+          "text": "1. 適用 {#section-1}"
+        },
+        {
+          "line": 26,
+          "level": 2,
+          "text": "2. 利用条件 {#section-2}"
+        },
+        {
+          "line": 34,
+          "level": 2,
+          "text": "3. 禁止事項 {#section-3}"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "4. 特典の確認・利用 {#section-4}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "5. 保存・外部サービス {#section-5}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "6. 知的財産権 {#section-6}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "7. サービス内容の変更・停止 {#section-7}"
+        },
+        {
+          "line": 85,
+          "level": 2,
+          "text": "8. 免責事項 {#section-8}"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "9. 本規約の変更 {#section-9}"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "10. 準拠法・管轄 {#section-10}"
+        },
+        {
+          "line": 105,
+          "level": 2,
+          "text": "11. お問い合わせ {#section-11}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        },
+        {
+          "line": 7,
+          "text": "legal_established: 2026-09-02"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": true
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "nocca",
+      "section": "htu",
+      "language": "ja",
+      "source": "content/htu/nocca.md",
+      "route": "/htu/nocca/",
+      "sourceSHA256": "66fa3262d157d44fc625deb4554b8f274d84301fe7f410f0c7b7d2f50e668b7e",
+      "characters": 3159,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "はじめに"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "基本的な使い方"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "最初に役割を選ぶ {#1-最初に役割を選ぶ}"
+        },
+        {
+          "line": 27,
+          "level": 3,
+          "text": "家族と接続する {#3-家族を招待する}"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "本人から意思表示を送る {#send-signal}"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "送った意思表示と返信を確認する {#signal-status}"
+        },
+        {
+          "line": 54,
+          "level": 2,
+          "text": "家族から短い返信を返す {#reply}"
+        },
+        {
+          "line": 66,
+          "level": 2,
+          "text": "話せるときだけ会話を開く {#talk}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "通信を休止する {#4-通信を休止する}"
+        },
+        {
+          "line": 85,
+          "level": 2,
+          "text": "機種変更とデータ管理 {#data-management}"
+        },
+        {
+          "line": 94,
+          "level": 2,
+          "text": "相手の状況を監視する機能はありません {#privacy-design}"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "困ったとき {#troubleshooting}"
+        },
+        {
+          "line": 104,
+          "level": 2,
+          "text": "お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [
+        "images/guides/nocca/choose-role.png",
+        "images/guides/nocca/invite-family.png",
+        "images/guides/nocca/send-signal.png",
+        "images/guides/nocca/signal-status.png",
+        "images/guides/nocca/reply-options.png",
+        "images/guides/nocca/owner-talk.png",
+        "images/guides/nocca/pause-communication.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "nocca",
+      "section": "faq",
+      "language": "ja",
+      "source": "content/faq/nocca.md",
+      "route": "/faq/nocca/",
+      "sourceSHA256": "eb65e8408062e46b9ddeaca33a453209a3727cab4b37bab694ffeec339174ae1",
+      "characters": 3425,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "はじめに"
+        },
+        {
+          "line": 12,
+          "level": 3,
+          "text": "Nocca はどんなアプリですか？"
+        },
+        {
+          "line": 17,
+          "level": 3,
+          "text": "対応端末・対応OSは？"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "現在公開されていますか？"
+        },
+        {
+          "line": 25,
+          "level": 3,
+          "text": "医療、治療、見守りのアプリですか？"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "誰が管理者になりますか？"
+        },
+        {
+          "line": 33,
+          "level": 2,
+          "text": "使い方"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "最初に何をしますか？"
+        },
+        {
+          "line": 39,
+          "level": 3,
+          "text": "家族と接続するには？"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "意思表示では何ができますか？"
+        },
+        {
+          "line": 47,
+          "level": 3,
+          "text": "家族側は自由にメッセージできますか？"
+        },
+        {
+          "line": 51,
+          "level": 3,
+          "text": "会話は常時チャットですか？"
+        },
+        {
+          "line": 55,
+          "level": 3,
+          "text": "家族から会話リクエストは送れますか？"
+        },
+        {
+          "line": 59,
+          "level": 3,
+          "text": "通信を休止できますか？"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "データについて"
+        },
+        {
+          "line": 66,
+          "level": 3,
+          "text": "既読や未読は表示されますか？"
+        },
+        {
+          "line": 70,
+          "level": 3,
+          "text": "GPS や行動ログは使いますか？"
+        },
+        {
+          "line": 74,
+          "level": 3,
+          "text": "AI は使いますか？"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "データはどこに保存されますか？"
+        },
+        {
+          "line": 82,
+          "level": 3,
+          "text": "データを削除するとどうなりますか？"
+        },
+        {
+          "line": 86,
+          "level": 2,
+          "text": "購入について"
+        },
+        {
+          "line": 88,
+          "level": 3,
+          "text": "広告はありますか？"
+        },
+        {
+          "line": 92,
+          "level": 3,
+          "text": "無料で試せますか？"
+        },
+        {
+          "line": 96,
+          "level": 3,
+          "text": "おためしが終わるとどうなりますか？"
+        },
+        {
+          "line": 100,
+          "level": 3,
+          "text": "家族全員が購入する必要はありますか？"
+        },
+        {
+          "line": 104,
+          "level": 3,
+          "text": "Appleの無料トライアルと何が違いますか？"
+        },
+        {
+          "line": 108,
+          "level": 3,
+          "text": "復元や解約はどこで行いますか？"
+        },
+        {
+          "line": 113,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 114,
+          "level": 3,
+          "text": "招待コードを入力しても接続できません。"
+        },
+        {
+          "line": 118,
+          "level": 3,
+          "text": "返信や会話リクエストが送れません。"
+        },
+        {
+          "line": 122,
+          "level": 3,
+          "text": "本人が「今は閉じたまま」を選んだことは家族側に通知されますか？"
+        },
+        {
+          "line": 126,
+          "level": 3,
+          "text": "通知が届かない場合は？"
+        },
+        {
+          "line": 130,
+          "level": 3,
+          "text": "不具合が発生した場合は？"
+        },
+        {
+          "line": 134,
+          "level": 3,
+          "text": "お問い合わせ先は？"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "nocca",
+      "section": "privacy",
+      "language": "ja",
+      "source": "content/privacy/nocca.md",
+      "route": "/privacy/nocca/",
+      "sourceSHA256": "e9f205538c018334f51de7fd1f8fa3c468cc5a26d89fc526c6f1bb96584bd6c1",
+      "characters": 4936,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "1. はじめに"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "2. 取得する情報"
+        },
+        {
+          "line": 28,
+          "level": 3,
+          "text": "登録・取得を求めない情報"
+        },
+        {
+          "line": 34,
+          "level": 2,
+          "text": "3. 情報の利用目的"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "4. 情報の保存・管理"
+        },
+        {
+          "line": 48,
+          "level": 3,
+          "text": "保存期間"
+        },
+        {
+          "line": 72,
+          "level": 2,
+          "text": "5. 外部サービス・第三者提供"
+        },
+        {
+          "line": 81,
+          "level": 2,
+          "text": "6. 家族への共有と通知"
+        },
+        {
+          "line": 88,
+          "level": 2,
+          "text": "7. おためし・購入情報の処理"
+        },
+        {
+          "line": 99,
+          "level": 2,
+          "text": "8. 利用者によるデータ管理・削除"
+        },
+        {
+          "line": 110,
+          "level": 2,
+          "text": "9. 未成年者の利用"
+        },
+        {
+          "line": 115,
+          "level": 2,
+          "text": "10. 本ポリシーの変更"
+        },
+        {
+          "line": 120,
+          "level": 2,
+          "text": "11. お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "nocca",
+      "section": "terms",
+      "language": "ja",
+      "source": "content/terms/nocca.md",
+      "route": "/terms/nocca/",
+      "sourceSHA256": "c6b00884a99b263531d77bfc7ffd06b1cbbde24a8bb61d559c8f5a08b1a65297",
+      "characters": 3501,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "1. 適用"
+        },
+        {
+          "line": 17,
+          "level": 2,
+          "text": "2. 利用条件"
+        },
+        {
+          "line": 26,
+          "level": 2,
+          "text": "3. 禁止事項"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "4. 有料機能・購入"
+        },
+        {
+          "line": 38,
+          "level": 3,
+          "text": "独自の7日間のおためし"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "月額・年額プランとAppleの無料トライアル"
+        },
+        {
+          "line": 62,
+          "level": 3,
+          "text": "家族でのプラン利用"
+        },
+        {
+          "line": 71,
+          "level": 2,
+          "text": "5. 家族との通信"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "医療・緊急通報・監視への利用"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "text": "6. データの管理・削除"
+        },
+        {
+          "line": 90,
+          "level": 2,
+          "text": "7. 知的財産権"
+        },
+        {
+          "line": 97,
+          "level": 2,
+          "text": "8. サービス内容の変更・停止"
+        },
+        {
+          "line": 104,
+          "level": 2,
+          "text": "9. 免責事項"
+        },
+        {
+          "line": 111,
+          "level": 2,
+          "text": "10. 本規約の変更"
+        },
+        {
+          "line": 116,
+          "level": 2,
+          "text": "11. 準拠法・管轄"
+        },
+        {
+          "line": 121,
+          "level": 2,
+          "text": "12. お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": true,
+        "law": true
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "htu",
+      "language": "de",
+      "source": "content/htu/uni-note-pocket.de.md",
+      "route": "/de/htu/uni-note-pocket/",
+      "sourceSHA256": "fc48b7d79304be8a473f0644eb0d172c0a94a7327918e44908863913ab9e7d58",
+      "characters": 4572,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "Einführung"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Grundlegende Nutzung"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "Backup importieren {#import}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Notiz öffnen oder Titel suchen {#read}"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "Haftmarker und Fragensets wiederholen {#review}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "Importierte Aufnahmen hören {#recordings}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "Leseeinstellungen anpassen {#settings}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "Ein neueres Backup laden {#refresh}"
+        },
+        {
+          "line": 87,
+          "level": 2,
+          "text": "Hilfe"
+        },
+        {
+          "line": 92,
+          "level": 2,
+          "text": "Kontakt"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note-pocket/de/import-backup.png",
+        "images/guides/uni-note-pocket/de/open-note.png",
+        "images/guides/uni-note-pocket/de/search-notes.png",
+        "images/guides/uni-note-pocket/de/page-review.png",
+        "images/guides/uni-note-pocket/de/sticky-review.png",
+        "images/guides/uni-note-pocket/de/practice-answer.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "htu",
+      "language": "en",
+      "source": "content/htu/uni-note-pocket.en.md",
+      "route": "/en/htu/uni-note-pocket/",
+      "sourceSHA256": "554b4dc5cf7bf950ac17d7c9665064e797af0912724c8bbdc773a20dcf74e06f",
+      "characters": 4197,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Basic use"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "Import a backup {#import}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Open a note or search its title {#read}"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "Review sticky markers and question sets {#review}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "Listen to imported recordings {#recordings}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "Adjust reading settings {#settings}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "Load a newer backup {#refresh}"
+        },
+        {
+          "line": 87,
+          "level": 2,
+          "text": "Help"
+        },
+        {
+          "line": 92,
+          "level": 2,
+          "text": "Contact"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note-pocket/en/import-backup.png",
+        "images/guides/uni-note-pocket/en/open-note.png",
+        "images/guides/uni-note-pocket/en/search-notes.png",
+        "images/guides/uni-note-pocket/en/page-review.png",
+        "images/guides/uni-note-pocket/en/sticky-review.png",
+        "images/guides/uni-note-pocket/en/practice-answer.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "htu",
+      "language": "fr",
+      "source": "content/htu/uni-note-pocket.fr.md",
+      "route": "/fr/htu/uni-note-pocket/",
+      "sourceSHA256": "9138f23fd9e523dd7933f63fbc84ea4b5d7db1a040ff7292295e7fe11d8645d4",
+      "characters": 4668,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "Utilisation de base"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "Importer une sauvegarde {#import}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "Ouvrir une note ou rechercher son titre {#read}"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "Réviser avec les repères et les lots {#review}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "Écouter les enregistrements importés {#recordings}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "Ajuster la lecture {#settings}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "Charger une sauvegarde plus récente {#refresh}"
+        },
+        {
+          "line": 87,
+          "level": 2,
+          "text": "En cas de difficulté"
+        },
+        {
+          "line": 92,
+          "level": 2,
+          "text": "Contact"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note-pocket/fr/import-backup.png",
+        "images/guides/uni-note-pocket/fr/open-note.png",
+        "images/guides/uni-note-pocket/fr/search-notes.png",
+        "images/guides/uni-note-pocket/fr/page-review.png",
+        "images/guides/uni-note-pocket/fr/sticky-review.png",
+        "images/guides/uni-note-pocket/fr/practice-answer.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "htu",
+      "language": "ko",
+      "source": "content/htu/uni-note-pocket.ko.md",
+      "route": "/ko/htu/uni-note-pocket/",
+      "sourceSHA256": "e4ef4432d4bd64b753086c055d5ede2ec918e1b992e7401a774fb5b5d91e8181",
+      "characters": 2648,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "시작하기"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "기본 사용법"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "백업 가져오기 {#import}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "노트 열기와 제목 검색 {#read}"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "스티커와 문제집 복습 {#review}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "가져온 녹음 듣기 {#recordings}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "읽기 설정 조정 {#settings}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "새 백업으로 갱신 {#refresh}"
+        },
+        {
+          "line": 87,
+          "level": 2,
+          "text": "문제 해결"
+        },
+        {
+          "line": 92,
+          "level": 2,
+          "text": "문의"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": false,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note-pocket/ko/import-backup.png",
+        "images/guides/uni-note-pocket/ko/open-note.png",
+        "images/guides/uni-note-pocket/ko/search-notes.png",
+        "images/guides/uni-note-pocket/ko/page-review.png",
+        "images/guides/uni-note-pocket/ko/sticky-review.png",
+        "images/guides/uni-note-pocket/ko/practice-answer.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "htu",
+      "language": "ja",
+      "source": "content/htu/uni-note-pocket.md",
+      "route": "/htu/uni-note-pocket/",
+      "sourceSHA256": "960b0bf9ed82d91ca65f837de69f418dfe0e492aa879695420cb5cb990226194",
+      "characters": 2806,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "はじめに"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "基本的な使い方"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "バックアップを読み込む {#import}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "ノートを開く・検索する {#read}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "付箋と問題集で復習する {#review}"
+        },
+        {
+          "line": 63,
+          "level": 2,
+          "text": "取り込んだ録音を聴く {#recordings}"
+        },
+        {
+          "line": 73,
+          "level": 2,
+          "text": "読みやすさを調整する {#settings}"
+        },
+        {
+          "line": 81,
+          "level": 2,
+          "text": "新しいバックアップへ更新する {#refresh}"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "困ったとき"
+        },
+        {
+          "line": 98,
+          "level": 2,
+          "text": "お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note-pocket/ja/import-backup.png",
+        "images/guides/uni-note-pocket/ja/open-note.png",
+        "images/guides/uni-note-pocket/en/search-notes.png",
+        "images/guides/uni-note-pocket/ja/page-review.png",
+        "images/guides/uni-note-pocket/ja/sticky-review.png",
+        "images/guides/uni-note-pocket/ja/practice-answer.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "htu",
+      "language": "zh-hant",
+      "source": "content/htu/uni-note-pocket.zh-hant.md",
+      "route": "/zh-hant/htu/uni-note-pocket/",
+      "sourceSHA256": "605e0c1da5287b78087bdef692d5556a0dc81ac5e11567c051a59ea54d9106cc",
+      "characters": 2152,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "開始使用"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "基本使用方式"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "匯入備份 {#import}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "開啟筆記、搜尋標題 {#read}"
+        },
+        {
+          "line": 47,
+          "level": 2,
+          "text": "使用便利貼與題組複習 {#review}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "聆聽匯入的錄音 {#recordings}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "調整閱讀設定 {#settings}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "更新至較新的備份 {#refresh}"
+        },
+        {
+          "line": 87,
+          "level": 2,
+          "text": "遇到問題時"
+        },
+        {
+          "line": 92,
+          "level": 2,
+          "text": "聯絡我們"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/uni-note-pocket/zh-hant/import-backup.png",
+        "images/guides/uni-note-pocket/zh-hant/open-note.png",
+        "images/guides/uni-note-pocket/zh-hant/search-notes.png",
+        "images/guides/uni-note-pocket/zh-hant/page-review.png",
+        "images/guides/uni-note-pocket/zh-hant/sticky-review.png",
+        "images/guides/uni-note-pocket/zh-hant/practice-answer.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "faq",
+      "language": "de",
+      "source": "content/faq/uni-note-pocket.de.md",
+      "route": "/de/faq/uni-note-pocket/",
+      "sourceSHA256": "93c03dece365d5e59e533ddc7adb2352d520e2581aed6373920797f02f581272",
+      "characters": 3925,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "Einführung"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "Welche Geräte und Betriebssysteme werden unterstützt? {#help-1}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "Notizen und Anhänge"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "Warum fehlen Notizen, Aufnahmen oder Marker? {#help-3}"
+        },
+        {
+          "line": 37,
+          "level": 2,
+          "text": "Daten"
+        },
+        {
+          "line": 41,
+          "level": 3,
+          "text": "Warum schlägt ein Backup fehl oder bleibt veraltet? {#help-2}"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "Kann ich importierte Daten aktualisieren oder löschen?"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "Hilfe {#help}"
+        },
+        {
+          "line": 60,
+          "level": 3,
+          "text": "Warum weichen Leseposition oder Darstellung ab? {#help-4}"
+        },
+        {
+          "line": 68,
+          "level": 3,
+          "text": "Was kann ich bei einem Problem tun?"
+        },
+        {
+          "line": 72,
+          "level": 3,
+          "text": "Wie erreiche ich den Support?"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "faq",
+      "language": "en",
+      "source": "content/faq/uni-note-pocket.en.md",
+      "route": "/en/faq/uni-note-pocket/",
+      "sourceSHA256": "2d88c831dab252a13b60f34018ad3e79bcad13f4f13ca4dea6b5d5bf073a017f",
+      "characters": 3599,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "Which devices and OS versions are supported? {#help-1}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "Notes and attachments"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "Why are notes, recordings or markers missing? {#help-3}"
+        },
+        {
+          "line": 37,
+          "level": 2,
+          "text": "Data"
+        },
+        {
+          "line": 41,
+          "level": 3,
+          "text": "Why does a backup fail or remain out of date? {#help-2}"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "Can I update or delete imported data?"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "Help {#help}"
+        },
+        {
+          "line": 60,
+          "level": 3,
+          "text": "Why does the reading position or appearance differ? {#help-4}"
+        },
+        {
+          "line": 68,
+          "level": 3,
+          "text": "What should I do if something goes wrong?"
+        },
+        {
+          "line": 72,
+          "level": 3,
+          "text": "How can I contact support?"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": false,
+        "external": false,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "faq",
+      "language": "fr",
+      "source": "content/faq/uni-note-pocket.fr.md",
+      "route": "/fr/faq/uni-note-pocket/",
+      "sourceSHA256": "94fcb52c570556bcf85ceb3022900ea6649311b7f77eef8184f8be4ef45e9ad3",
+      "characters": 4087,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "Quels appareils et systèmes sont compatibles ? {#help-1}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "Notes et pièces jointes"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "Pourquoi manque-t-il des notes, de l’audio ou des repères ? {#help-3}"
+        },
+        {
+          "line": 37,
+          "level": 2,
+          "text": "Données"
+        },
+        {
+          "line": 41,
+          "level": 3,
+          "text": "Pourquoi l’import échoue-t-il ou reste-t-il ancien ? {#help-2}"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "Puis-je mettre à jour ou supprimer les données importées ?"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "En cas de difficulté {#help}"
+        },
+        {
+          "line": 60,
+          "level": 3,
+          "text": "Pourquoi la position de lecture ou l’apparence est-elle différente ? {#help-4}"
+        },
+        {
+          "line": 68,
+          "level": 3,
+          "text": "Que faire en cas de problème ?"
+        },
+        {
+          "line": 72,
+          "level": 3,
+          "text": "Comment contacter l’assistance ?"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "faq",
+      "language": "ko",
+      "source": "content/faq/uni-note-pocket.ko.md",
+      "route": "/ko/faq/uni-note-pocket/",
+      "sourceSHA256": "24a787b0c91bfccfc23b7d1941478b40aa8fb86169943592e06cfc0f425658cf",
+      "characters": 2266,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "시작하기"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "지원 기기와 OS는 무엇인가요? {#help-1}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "노트와 첨부 자료"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "노트·녹음·스티커가 보이지 않는 이유는 무엇인가요? {#help-3}"
+        },
+        {
+          "line": 37,
+          "level": 2,
+          "text": "데이터"
+        },
+        {
+          "line": 41,
+          "level": 3,
+          "text": "백업을 읽을 수 없거나 갱신되지 않으면 어떻게 하나요? {#help-2}"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "가져온 데이터를 갱신하거나 삭제할 수 있나요?"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "문제 해결 {#help}"
+        },
+        {
+          "line": 60,
+          "level": 3,
+          "text": "읽는 위치나 표시가 다른 이유는 무엇인가요? {#help-4}"
+        },
+        {
+          "line": 68,
+          "level": 3,
+          "text": "문제가 발생하면 어떻게 하나요?"
+        },
+        {
+          "line": 72,
+          "level": 3,
+          "text": "어디로 문의하나요?"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": false,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": false,
+        "external": false,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "faq",
+      "language": "ja",
+      "source": "content/faq/uni-note-pocket.md",
+      "route": "/faq/uni-note-pocket/",
+      "sourceSHA256": "d0065142bed536ca9636a6454780b0ede780af8361f18b3729c3a9d055e33238",
+      "characters": 2155,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "はじめに"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "対応端末・対応OSは？ {#help-1}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "ノート・資料について"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "ノート・録音・付箋が見つからない場合は？ {#help-3}"
+        },
+        {
+          "line": 37,
+          "level": 2,
+          "text": "データについて"
+        },
+        {
+          "line": 41,
+          "level": 3,
+          "text": "バックアップを読めない・更新されない場合は？ {#help-2}"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "取り込んだデータは更新・削除できますか？"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 60,
+          "level": 3,
+          "text": "読み始める位置や表示が違う場合は？ {#help-4}"
+        },
+        {
+          "line": 68,
+          "level": 3,
+          "text": "不具合が発生した場合は？"
+        },
+        {
+          "line": 72,
+          "level": 3,
+          "text": "お問い合わせ先は？"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "faq",
+      "language": "zh-hant",
+      "source": "content/faq/uni-note-pocket.zh-hant.md",
+      "route": "/zh-hant/faq/uni-note-pocket/",
+      "sourceSHA256": "75bd36e93c00319d570bb9efdb46db2d13c099185727a9a7dff0ffb0acd99292",
+      "characters": 1713,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "開始使用"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "支援哪些裝置與作業系統？ {#help-1}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "筆記與附件"
+        },
+        {
+          "line": 29,
+          "level": 3,
+          "text": "為何找不到筆記、錄音或便利貼？ {#help-3}"
+        },
+        {
+          "line": 37,
+          "level": 2,
+          "text": "資料"
+        },
+        {
+          "line": 41,
+          "level": 3,
+          "text": "備份無法讀取或未更新時怎麼辦？ {#help-2}"
+        },
+        {
+          "line": 49,
+          "level": 3,
+          "text": "可以更新或刪除匯入的資料嗎？"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "遇到問題時 {#help}"
+        },
+        {
+          "line": 60,
+          "level": 3,
+          "text": "為何閱讀位置或顯示不同？ {#help-4}"
+        },
+        {
+          "line": 68,
+          "level": 3,
+          "text": "發生問題時該怎麼辦？"
+        },
+        {
+          "line": 72,
+          "level": 3,
+          "text": "如何聯絡支援？"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": false,
+        "external": false,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "privacy",
+      "language": "de",
+      "source": "content/privacy/uni-note-pocket.de.md",
+      "route": "/de/privacy/uni-note-pocket/",
+      "sourceSHA256": "927b91eb5e2d1df23a195f207cde9e8d78f1da22f2e42253f3b918345e831b87",
+      "characters": 3317,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "1. Einführung {#introduction}"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "2. Verarbeitete Informationen {#information}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "Backup-Dateien"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "Supportanfragen"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "3. Verwendungszwecke {#purposes}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "4. Speicherung und Verwaltung {#storage}"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "5. Externe Dienste und Weitergabe {#external-services}"
+        },
+        {
+          "line": 57,
+          "level": 3,
+          "text": "Werbung und Analyse"
+        },
+        {
+          "line": 61,
+          "level": 2,
+          "text": "6. Daten verwalten und löschen {#data-management}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "7. Änderungen dieser Erklärung {#changes}"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "8. Kontakt {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "privacy",
+      "language": "en",
+      "source": "content/privacy/uni-note-pocket.en.md",
+      "route": "/en/privacy/uni-note-pocket/",
+      "sourceSHA256": "0d59c5d385cd032d7269563217158b0392b1627760fa5378a61aee34370a3af6",
+      "characters": 3068,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "1. Introduction {#introduction}"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "2. Information we handle {#information}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "Backup files"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "Support inquiries"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "3. How we use information {#purposes}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "4. Storage and management {#storage}"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "5. External services and disclosure {#external-services}"
+        },
+        {
+          "line": 57,
+          "level": 3,
+          "text": "Advertising and analytics"
+        },
+        {
+          "line": 61,
+          "level": 2,
+          "text": "6. Managing and deleting your data {#data-management}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "7. Changes to this policy {#changes}"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "8. Contact {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "privacy",
+      "language": "fr",
+      "source": "content/privacy/uni-note-pocket.fr.md",
+      "route": "/fr/privacy/uni-note-pocket/",
+      "sourceSHA256": "6fdd6886ec2b08c08f6587d8a70a3ab533efe8392b5d0455d7317cc136bd9f46",
+      "characters": 3402,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "1. Introduction {#introduction}"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "2. Informations traitées {#information}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "Fichiers de sauvegarde"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "Demandes d’assistance"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "3. Utilisation des informations {#purposes}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "4. Stockage et gestion {#storage}"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "5. Services externes et communication {#external-services}"
+        },
+        {
+          "line": 57,
+          "level": 3,
+          "text": "Publicité et analyse"
+        },
+        {
+          "line": 61,
+          "level": 2,
+          "text": "6. Gérer et supprimer vos données {#data-management}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "7. Modifications de cette politique {#changes}"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "8. Contact {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "privacy",
+      "language": "ko",
+      "source": "content/privacy/uni-note-pocket.ko.md",
+      "route": "/ko/privacy/uni-note-pocket/",
+      "sourceSHA256": "cb6a1ca51ff4e3f74c9bc664d380eb8890c44dff5450aa2cc1afe343517baf19",
+      "characters": 1768,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "1. 시작하기 {#introduction}"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "2. 처리하는 정보 {#information}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "백업 파일"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "문의 정보"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "3. 정보의 이용 목적 {#purposes}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "4. 정보의 저장 및 관리 {#storage}"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "5. 외부 서비스 및 제3자 제공 {#external-services}"
+        },
+        {
+          "line": 57,
+          "level": 3,
+          "text": "광고 및 분석"
+        },
+        {
+          "line": 61,
+          "level": 2,
+          "text": "6. 이용자의 데이터 관리 및 삭제 {#data-management}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "7. 처리방침의 변경 {#changes}"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "8. 문의 {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "privacy",
+      "language": "ja",
+      "source": "content/privacy/uni-note-pocket.md",
+      "route": "/privacy/uni-note-pocket/",
+      "sourceSHA256": "173e9a67b39073c4ca1b0a1422e3e2e4f02f50f268b86a2a03b18429f73323ed",
+      "characters": 1795,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "1. はじめに {#introduction}"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "2. 取得する情報 {#information}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "バックアップファイル"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "お問い合わせ情報"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "3. 情報の利用目的 {#purposes}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "4. 情報の保存・管理 {#storage}"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "5. 外部サービス・第三者提供 {#external-services}"
+        },
+        {
+          "line": 57,
+          "level": 3,
+          "text": "広告・解析"
+        },
+        {
+          "line": 61,
+          "level": 2,
+          "text": "6. 利用者によるデータ管理・削除 {#data-management}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "7. 本ポリシーの変更 {#changes}"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "8. お問い合わせ {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "privacy",
+      "language": "zh-hant",
+      "source": "content/privacy/uni-note-pocket.zh-hant.md",
+      "route": "/zh-hant/privacy/uni-note-pocket/",
+      "sourceSHA256": "3448fbb596d4bd3d71aa58dabc9f842e2323b5b3a2a9a3cc5d5c24c894e99317",
+      "characters": 1382,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "1. 開始使用 {#introduction}"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "2. 處理的資訊 {#information}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "備份檔案"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "詢問資訊"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "3. 資訊使用目的 {#purposes}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "4. 資訊儲存與管理 {#storage}"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "5. 外部服務與第三方提供 {#external-services}"
+        },
+        {
+          "line": 57,
+          "level": 3,
+          "text": "廣告與分析"
+        },
+        {
+          "line": 61,
+          "level": 2,
+          "text": "6. 使用者管理與刪除資料 {#data-management}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "7. 本政策的變更 {#changes}"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "8. 聯絡我們 {#inquiries}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 6,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": true,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "uni-note-pocket",
+      "section": "terms",
+      "language": "ja",
+      "source": "content/terms/uni-note-pocket.md",
+      "route": "/terms/uni-note-pocket/",
+      "sourceSHA256": "5d2eb0b24e2ecd814f8d5e6e8007ff4e4efc78212e4da86e651a7aa43c98acba",
+      "characters": 951,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "1. 適用"
+        },
+        {
+          "line": 14,
+          "level": 2,
+          "text": "2. 利用条件"
+        },
+        {
+          "line": 18,
+          "level": 2,
+          "text": "3. 禁止事項"
+        },
+        {
+          "line": 22,
+          "level": 2,
+          "text": "4. 閲覧・バックアップの利用"
+        },
+        {
+          "line": 30,
+          "level": 2,
+          "text": "5. 知的財産権"
+        },
+        {
+          "line": 34,
+          "level": 2,
+          "text": "6. サービス内容の変更・停止"
+        },
+        {
+          "line": 38,
+          "level": 2,
+          "text": "7. 免責事項"
+        },
+        {
+          "line": 42,
+          "level": 2,
+          "text": "8. 本規約の変更"
+        },
+        {
+          "line": 46,
+          "level": 2,
+          "text": "9. 準拠法・管轄"
+        },
+        {
+          "line": 50,
+          "level": 2,
+          "text": "10. お問い合わせ"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        },
+        {
+          "line": 5,
+          "text": "legal_established: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": false,
+        "law": true
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "balance-calendar",
+      "section": "htu",
+      "language": "ja",
+      "source": "content/htu/balance-calendar.md",
+      "route": "/htu/balance-calendar/",
+      "sourceSHA256": "5d5b12a05f9be446a7fe884c8ed1c21a55b7a296461ad7469351b602601204e3",
+      "characters": 2195,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "はじめに {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "基本的な使い方 {#basic-use}"
+        },
+        {
+          "line": 16,
+          "level": 3,
+          "text": "最初に用途に合うタグを選ぶ {#guide-1}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "`登録` 画面で収入 / 支出を記録する {#guide-2}"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "`履歴` を見直して削除や取消しをする {#guide-3}"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "`収支` 画面で振り返る {#guide-4}"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "ホームウィジェットを使う {#guide-5}"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "`設定` を調整する {#guide-6}"
+        },
+        {
+          "line": 73,
+          "level": 2,
+          "text": "追加購入を使う {#guide-7}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 82,
+          "level": 2,
+          "text": "お問い合わせ {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [
+        "images/guides/balance-calendar/income-expense-buttons.png",
+        "images/guides/balance-calendar/amount-keypad.png",
+        "images/guides/balance-calendar/date-history-controls.png",
+        "images/guides/balance-calendar/daily-records.png",
+        "images/guides/balance-calendar/widget-entry.png",
+        "images/guides/balance-calendar/tag-settings.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "balance-calendar",
+      "section": "faq",
+      "language": "ja",
+      "source": "content/faq/balance-calendar.md",
+      "route": "/faq/balance-calendar/",
+      "sourceSHA256": "c685c47c6c7c99716f8aace3dab13a35115660c3ba38a24843ebde0e9c6466c3",
+      "characters": 1710,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "はじめに {#introduction}"
+        },
+        {
+          "line": 10,
+          "level": 3,
+          "text": "ギャンカレはどんなアプリですか？ {#ギャンカレはどんなアプリですか}"
+        },
+        {
+          "line": 14,
+          "level": 3,
+          "text": "対応端末・対応OSは？ {#environment}"
+        },
+        {
+          "line": 20,
+          "level": 2,
+          "text": "振り返りと設定 {#questions-6}"
+        },
+        {
+          "line": 22,
+          "level": 3,
+          "text": "ギャンブル以外の用途でも使えますか？ {#ギャンブル以外の用途でも使えますか}"
+        },
+        {
+          "line": 26,
+          "level": 3,
+          "text": "過去日の記録はできますか？ {#過去日の記録はできますか}"
+        },
+        {
+          "line": 30,
+          "level": 3,
+          "text": "何を確認できますか？ {#何を確認できますか}"
+        },
+        {
+          "line": 34,
+          "level": 3,
+          "text": "折れ線グラフや予測、アドバイスはありますか？ {#折れ線グラフや予測アドバイスはありますか}"
+        },
+        {
+          "line": 38,
+          "level": 3,
+          "text": "タグはいくつまで使えますか？ {#タグはいくつまで使えますか}"
+        },
+        {
+          "line": 42,
+          "level": 3,
+          "text": "アプリロックはありますか？ {#アプリロックはありますか}"
+        },
+        {
+          "line": 46,
+          "level": 3,
+          "text": "ホームウィジェットは使えますか？ {#ホームウィジェットは使えますか}"
+        },
+        {
+          "line": 50,
+          "level": 3,
+          "text": "言語や通貨は変更できますか？ {#言語や通貨は変更できますか}"
+        },
+        {
+          "line": 56,
+          "level": 2,
+          "text": "データについて {#data}"
+        },
+        {
+          "line": 58,
+          "level": 3,
+          "text": "バックアップや自動同期、データのエクスポートはありますか？ {#バックアップや自動同期データのエクスポートはありますか}"
+        },
+        {
+          "line": 62,
+          "level": 2,
+          "text": "購入について {#purchases}"
+        },
+        {
+          "line": 64,
+          "level": 3,
+          "text": "広告はどこに表示されますか？ {#広告はどこに表示されますか}"
+        },
+        {
+          "line": 69,
+          "level": 3,
+          "text": "広告を消せますか？ {#広告を消せますか}"
+        },
+        {
+          "line": 73,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 74,
+          "level": 3,
+          "text": "間違って削除した記録は戻せますか？ {#間違って削除した記録は戻せますか}"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "不具合が発生した場合は？ {#troubleshooting}"
+        },
+        {
+          "line": 82,
+          "level": 3,
+          "text": "お問い合わせ先は？ {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "balance-calendar",
+      "section": "privacy",
+      "language": "ja",
+      "source": "content/privacy/balance-calendar.md",
+      "route": "/privacy/balance-calendar/",
+      "sourceSHA256": "4e7453476dfc481c87fca27dfbf3b23ba8efb9c623db5488cde16d6a5cd1e80f",
+      "characters": 2090,
+      "headings": [
+        {
+          "line": 6,
+          "level": 2,
+          "text": "1. はじめに {#section-1}"
+        },
+        {
+          "line": 12,
+          "level": 2,
+          "text": "2. 取得する情報 {#section-2}"
+        },
+        {
+          "line": 18,
+          "level": 2,
+          "text": "3. 情報の利用目的 {#section-3}"
+        },
+        {
+          "line": 24,
+          "level": 2,
+          "text": "4. 情報の保存・管理 {#section-4}"
+        },
+        {
+          "line": 34,
+          "level": 2,
+          "text": "5. 外部サービス・第三者提供 {#section-5}"
+        },
+        {
+          "line": 44,
+          "level": 2,
+          "text": "6. 広告・解析について {#section-6}"
+        },
+        {
+          "line": 52,
+          "level": 2,
+          "text": "7. 利用者によるデータ管理・削除 {#section-7}"
+        },
+        {
+          "line": 60,
+          "level": 2,
+          "text": "8. 本ポリシーの変更 {#section-8}"
+        },
+        {
+          "line": 66,
+          "level": 2,
+          "text": "9. お問い合わせ {#section-9}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://policies.google.com/privacy?hl=ja",
+        "https://www.apple.com/jp/legal/privacy/jp/"
+      ]
+    },
+    {
+      "product": "balance-calendar",
+      "section": "terms",
+      "language": "ja",
+      "source": "content/terms/balance-calendar.md",
+      "route": "/terms/balance-calendar/",
+      "sourceSHA256": "f7413b829e2db0e00875b676f38b3f5bcc9934804d9516f1e0b789d2701f93a1",
+      "characters": 1284,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. 適用 {#section-1}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. 利用条件 {#section-2}"
+        },
+        {
+          "line": 17,
+          "level": 2,
+          "text": "3. 禁止事項 {#section-3}"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "4. 有料機能・購入 {#section-4}"
+        },
+        {
+          "line": 27,
+          "level": 2,
+          "text": "5. 記録と利用上の注意 {#section-5}"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "6. 知的財産権 {#section-6}"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "7. サービス内容の変更・停止 {#section-7}"
+        },
+        {
+          "line": 43,
+          "level": 2,
+          "text": "8. 免責事項 {#section-8}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "9. 本規約の変更 {#section-9}"
+        },
+        {
+          "line": 53,
+          "level": 2,
+          "text": "10. 準拠法・管轄 {#section-10}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "11. お問い合わせ {#section-11}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        },
+        {
+          "line": 4,
+          "text": "legal_established: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": true
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "htu",
+      "language": "en",
+      "source": "content/htu/smokeless.en.md",
+      "route": "/en/htu/smokeless/",
+      "sourceSHA256": "34e90d169b65a449364a40fc0e62e36eca7bae1f255eeb25024366744a9b66c4",
+      "characters": 3288,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Introduction {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Basic use {#basic-use}"
+        },
+        {
+          "line": 16,
+          "level": 3,
+          "text": "Check the first tutorial and pack settings {#guide-1}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "Record from `Log` {#guide-2}"
+        },
+        {
+          "line": 32,
+          "level": 2,
+          "text": "Review today's records in `History` {#guide-3}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "Review by day, month, and year in `Calendar` {#guide-4}"
+        },
+        {
+          "line": 50,
+          "level": 2,
+          "text": "Check recent changes in `Charts` {#guide-5}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "Use the home widget {#guide-6}"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "Adjust `Settings` {#guide-7}"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "Help {#help}"
+        },
+        {
+          "line": 80,
+          "level": 2,
+          "text": "Contact {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": false,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/smokeless/en/record-buttons.png",
+        "images/guides/smokeless/en/history.png",
+        "images/guides/smokeless/en/calendar.png",
+        "images/guides/smokeless/en/chart.png",
+        "images/guides/smokeless/en/settings.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "htu",
+      "language": "fr",
+      "source": "content/htu/smokeless.fr.md",
+      "route": "/fr/htu/smokeless/",
+      "sourceSHA256": "e2c86f1b1514133fba263aa5397a6f039e056df4d9e237da51755a54a90822c9",
+      "characters": 3627,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "Introduction {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "Utilisation de base {#basic-use}"
+        },
+        {
+          "line": 16,
+          "level": 3,
+          "text": "Vérifiez le premier tutoriel et les réglages du paquet {#guide-1}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "Enregistrez depuis `Saisie` {#guide-2}"
+        },
+        {
+          "line": 32,
+          "level": 2,
+          "text": "Revoyez les enregistrements du jour depuis `Historique` {#guide-3}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "Revoyez par jour, mois et année dans `Calendrier` {#guide-4}"
+        },
+        {
+          "line": 50,
+          "level": 2,
+          "text": "Vérifiez les changements récents dans `Graphiques` {#guide-5}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "Utilisez le widget d'accueil {#guide-6}"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "Ajustez les `Réglages` {#guide-7}"
+        },
+        {
+          "line": 72,
+          "level": 2,
+          "text": "En cas de difficulté {#help}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "Contact {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": false,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/smokeless/fr/record-buttons.png",
+        "images/guides/smokeless/fr/history-controls.png",
+        "images/guides/smokeless/fr/calendar.png",
+        "images/guides/smokeless/fr/chart.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "htu",
+      "language": "ko",
+      "source": "content/htu/smokeless.ko.md",
+      "route": "/ko/htu/smokeless/",
+      "sourceSHA256": "b0879c1970ecc217409003f7575494548be62a5a53e4b846170eb502a7b58a98",
+      "characters": 2131,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "시작하기 {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "기본 사용법 {#basic-use}"
+        },
+        {
+          "line": 16,
+          "level": 3,
+          "text": "첫 튜토리얼과 한 갑 설정을 확인합니다 {#guide-1}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "`기록` 화면에서 기록합니다 {#guide-2}"
+        },
+        {
+          "line": 32,
+          "level": 2,
+          "text": "`기록` 에서 당일 기록을 확인합니다 {#guide-3}"
+        },
+        {
+          "line": 42,
+          "level": 2,
+          "text": "캘린더로 기록을 확인합니다 {#guide-4}"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "`차트` 에서 최근 변화를 봅니다 {#guide-5}"
+        },
+        {
+          "line": 58,
+          "level": 2,
+          "text": "홈 위젯을 사용합니다 {#guide-6}"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "`설정` 을 조정합니다 {#guide-7}"
+        },
+        {
+          "line": 73,
+          "level": 2,
+          "text": "문제 해결 {#help}"
+        },
+        {
+          "line": 78,
+          "level": 2,
+          "text": "문의 {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": false,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/smokeless/ko/record-buttons.png",
+        "images/guides/smokeless/ko/history-controls.png",
+        "images/guides/smokeless/ko/calendar.png",
+        "images/guides/smokeless/ko/chart.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "htu",
+      "language": "ja",
+      "source": "content/htu/smokeless.md",
+      "route": "/htu/smokeless/",
+      "sourceSHA256": "d767d9cb2593d3f2dfb9b4fcb5f407eb08e0506a9083045ab81f60c4338cc4a7",
+      "characters": 2132,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "はじめに {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "基本的な使い方 {#basic-use}"
+        },
+        {
+          "line": 16,
+          "level": 3,
+          "text": "初回チュートリアルと本数設定を確認する {#guide-1}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "`記録` 画面で喫煙 / 我慢を記録する {#guide-2}"
+        },
+        {
+          "line": 32,
+          "level": 2,
+          "text": "`履歴` から当日の記録を見直す {#guide-3}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "`カレンダー` で日別 / 月別 / 年別に振り返る {#guide-4}"
+        },
+        {
+          "line": 50,
+          "level": 2,
+          "text": "`グラフ` で最近の変化を見る {#guide-5}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "ホームウィジェットを使う {#guide-6}"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "`設定` を調整する {#guide-7}"
+        },
+        {
+          "line": 75,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 80,
+          "level": 2,
+          "text": "お問い合わせ {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/smokeless/ja/record-buttons.png",
+        "images/guides/smokeless/ja/history.png",
+        "images/guides/smokeless/ja/calendar.png",
+        "images/guides/smokeless/ja/chart.png",
+        "images/guides/smokeless/ja/settings.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "htu",
+      "language": "zh-hant",
+      "source": "content/htu/smokeless.zh-hant.md",
+      "route": "/zh-hant/htu/smokeless/",
+      "sourceSHA256": "6d4e8f43eeea426f15192ea1ddbe5fe616c31a5d339f349cb4cb004333135734",
+      "characters": 1652,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "開始使用 {#introduction}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "基本使用方式 {#basic-use}"
+        },
+        {
+          "line": 16,
+          "level": 3,
+          "text": "確認首次教學與每包設定 {#guide-1}"
+        },
+        {
+          "line": 21,
+          "level": 3,
+          "text": "在 `記錄` 畫面中記錄 {#guide-2}"
+        },
+        {
+          "line": 32,
+          "level": 2,
+          "text": "從 `履歷` 查看當日記錄 {#guide-3}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "在 `日曆` 以日 / 月 / 年回顧 {#guide-4}"
+        },
+        {
+          "line": 50,
+          "level": 2,
+          "text": "在 `圖表` 查看近期變化 {#guide-5}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "使用主畫面小工具 {#guide-6}"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "調整 `設定` {#guide-7}"
+        },
+        {
+          "line": 72,
+          "level": 2,
+          "text": "遇到問題時 {#help}"
+        },
+        {
+          "line": 77,
+          "level": 2,
+          "text": "聯絡我們 {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": false,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": false,
+        "account": false,
+        "law": false
+      },
+      "images": [
+        "images/guides/smokeless/zh-hant/record-buttons.png",
+        "images/guides/smokeless/zh-hant/history-controls.png",
+        "images/guides/smokeless/zh-hant/calendar.png",
+        "images/guides/smokeless/zh-hant/chart.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "faq",
+      "language": "en",
+      "source": "content/faq/smokeless.en.md",
+      "route": "/en/faq/smokeless/",
+      "sourceSHA256": "49ce8d374d682f7e6227089f8357faf0cb1c6821e917f22b1df84e30420082c3",
+      "characters": 3832,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "Introduction {#introduction}"
+        },
+        {
+          "line": 11,
+          "level": 3,
+          "text": "What kind of app is Smokeless? {#what-kind-of-app-is-smokeless}"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "What does `Avoided` record? {#what-does-avoided-record}"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "Is this a medical app? {#is-this-a-medical-app}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "Which devices and OS versions are supported? {#environment}"
+        },
+        {
+          "line": 29,
+          "level": 2,
+          "text": "Recording and review {#questions-8}"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "Is there a first-time tutorial? {#is-there-a-first-time-tutorial}"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "What can I check? {#what-can-i-check}"
+        },
+        {
+          "line": 39,
+          "level": 3,
+          "text": "How is the money amount calculated? {#how-is-the-money-amount-calculated}"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "Can I record past dates too? {#can-i-record-past-dates-too}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "Features {#questions-14}"
+        },
+        {
+          "line": 51,
+          "level": 3,
+          "text": "Is there a home widget? {#is-there-a-home-widget}"
+        },
+        {
+          "line": 55,
+          "level": 3,
+          "text": "Can I add multiple brands? {#can-i-add-multiple-brands}"
+        },
+        {
+          "line": 59,
+          "level": 3,
+          "text": "Is there an `Over-smoking alert`? {#is-there-an-over-smoking-alert}"
+        },
+        {
+          "line": 63,
+          "level": 3,
+          "text": "Can I change the language or currency? {#can-i-change-the-language-or-currency}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "Data {#data}"
+        },
+        {
+          "line": 71,
+          "level": 3,
+          "text": "Where is the data stored? {#where-is-the-data-stored}"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "Are backup or cloud sync available? {#are-backup-or-cloud-sync-available}"
+        },
+        {
+          "line": 79,
+          "level": 3,
+          "text": "Do I need to register an account? {#do-i-need-to-register-an-account}"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "text": "Purchases {#purchases}"
+        },
+        {
+          "line": 85,
+          "level": 3,
+          "text": "Where are ads shown? {#where-are-ads-shown}"
+        },
+        {
+          "line": 89,
+          "level": 3,
+          "text": "Can I remove ads? {#can-i-remove-ads}"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "Help {#help}"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "Can I restore a record deleted by mistake? {#can-i-restore-a-record-deleted-by-mistake}"
+        },
+        {
+          "line": 98,
+          "level": 3,
+          "text": "Why are Apple Watch records not appearing on iPhone? {#why-are-apple-watch-records-not-appearing-on-iphone}"
+        },
+        {
+          "line": 102,
+          "level": 3,
+          "text": "What should I do if something goes wrong? {#troubleshooting}"
+        },
+        {
+          "line": 106,
+          "level": 3,
+          "text": "How can I contact support? {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "faq",
+      "language": "fr",
+      "source": "content/faq/smokeless.fr.md",
+      "route": "/fr/faq/smokeless/",
+      "sourceSHA256": "a4806033310d86ca0aced25356bc60f5aee30a73c36508a0561efdd93d13277c",
+      "characters": 4618,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "Introduction {#introduction}"
+        },
+        {
+          "line": 11,
+          "level": 3,
+          "text": "Quel type d'application est Smokeless ? {#quel-type-dapplication-est-smokeless-}"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "Que signifie `Évitée` ? {#que-signifie-évitée-}"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "Est-ce une application médicale ? {#est-ce-une-application-médicale-}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "Quels appareils et systèmes sont compatibles ? {#environment}"
+        },
+        {
+          "line": 29,
+          "level": 2,
+          "text": "Enregistrement et relecture {#questions-8}"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "Y a-t-il un tutoriel au premier lancement ? {#y-a-t-il-un-tutoriel-au-premier-lancement-}"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "Que puis-je consulter ? {#que-puis-je-consulter-}"
+        },
+        {
+          "line": 39,
+          "level": 3,
+          "text": "Comment le montant est-il calculé ? {#comment-le-montant-est-il-calculé-}"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "Puis-je enregistrer des jours passés ? {#puis-je-enregistrer-des-jours-passés-}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "Fonctions {#questions-14}"
+        },
+        {
+          "line": 51,
+          "level": 3,
+          "text": "Existe-t-il un widget d'accueil ? {#existe-t-il-un-widget-daccueil-}"
+        },
+        {
+          "line": 55,
+          "level": 3,
+          "text": "Puis-je ajouter plusieurs marques ? {#puis-je-ajouter-plusieurs-marques-}"
+        },
+        {
+          "line": 59,
+          "level": 3,
+          "text": "Existe-t-il une `Alerte de surconsommation` ? {#existe-t-il-une-alerte-de-surconsommation-}"
+        },
+        {
+          "line": 63,
+          "level": 3,
+          "text": "Puis-je changer la langue ou la devise ? {#puis-je-changer-la-langue-ou-la-devise-}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "Données {#data}"
+        },
+        {
+          "line": 71,
+          "level": 3,
+          "text": "Où les données sont-elles stockées ? {#où-les-données-sont-elles-stockées-}"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "Existe-t-il une sauvegarde ou une synchronisation cloud ? {#existe-t-il-une-sauvegarde-ou-une-synchronisation-cloud-}"
+        },
+        {
+          "line": 79,
+          "level": 3,
+          "text": "Dois-je créer un compte ? {#dois-je-créer-un-compte-}"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "text": "Achats {#purchases}"
+        },
+        {
+          "line": 85,
+          "level": 3,
+          "text": "Où les publicités sont-elles affichées ? {#où-les-publicités-sont-elles-affichées-}"
+        },
+        {
+          "line": 89,
+          "level": 3,
+          "text": "Puis-je supprimer les publicités ? {#puis-je-supprimer-les-publicités-}"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "En cas de difficulté {#help}"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "Puis-je restaurer un enregistrement supprimé par erreur ? {#puis-je-restaurer-un-enregistrement-supprimé-par-erreur-}"
+        },
+        {
+          "line": 98,
+          "level": 3,
+          "text": "Pourquoi les enregistrements Apple Watch n’apparaissent-ils pas sur l’iPhone ? {#pourquoi-les-enregistrements-apple-watch-napparaissent-ils-pas-sur-liphone-}"
+        },
+        {
+          "line": 102,
+          "level": 3,
+          "text": "Que faire en cas de problème ? {#troubleshooting}"
+        },
+        {
+          "line": 106,
+          "level": 3,
+          "text": "Comment contacter l’assistance ? {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "faq",
+      "language": "ko",
+      "source": "content/faq/smokeless.ko.md",
+      "route": "/ko/faq/smokeless/",
+      "sourceSHA256": "ba6bf1f619e2213d81d70216fa700a29dcfd3362dec46cb82201bb7e7dd2b56c",
+      "characters": 2352,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "시작하기 {#introduction}"
+        },
+        {
+          "line": 11,
+          "level": 3,
+          "text": "Smokeless는 어떤 앱인가요? {#smokeless는-어떤-앱인가요}"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "`참음 기록` 은 무엇을 기록하나요? {#참음-기록-은-무엇을-기록하나요}"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "의료 앱인가요? {#의료-앱인가요}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "지원 기기와 OS는 무엇인가요? {#environment}"
+        },
+        {
+          "line": 29,
+          "level": 2,
+          "text": "기록과 되돌아보기 {#questions-8}"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "첫 실행 튜토리얼이 있나요? {#첫-실행-튜토리얼이-있나요}"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "무엇을 확인할 수 있나요? {#무엇을-확인할-수-있나요}"
+        },
+        {
+          "line": 39,
+          "level": 3,
+          "text": "금액은 어떻게 계산되나요? {#금액은-어떻게-계산되나요}"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "지난 날짜 기록도 가능한가요? {#지난-날짜-기록도-가능한가요}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "기능 {#questions-14}"
+        },
+        {
+          "line": 51,
+          "level": 3,
+          "text": "홈 위젯을 사용할 수 있나요? {#홈-위젯을-사용할-수-있나요}"
+        },
+        {
+          "line": 55,
+          "level": 3,
+          "text": "브랜드를 여러 개 등록할 수 있나요? {#브랜드를-여러-개-등록할-수-있나요}"
+        },
+        {
+          "line": 59,
+          "level": 3,
+          "text": "`흡연 과다 알림`이 있나요? {#흡연-과다-알림이-있나요}"
+        },
+        {
+          "line": 63,
+          "level": 3,
+          "text": "언어나 통화를 변경할 수 있나요? {#언어나-통화를-변경할-수-있나요}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "데이터 {#data}"
+        },
+        {
+          "line": 71,
+          "level": 3,
+          "text": "데이터는 어디에 저장되나요? {#데이터는-어디에-저장되나요}"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "백업이나 클라우드 동기화가 있나요? {#백업이나-클라우드-동기화가-있나요}"
+        },
+        {
+          "line": 79,
+          "level": 3,
+          "text": "계정 등록이 필요한가요? {#계정-등록이-필요한가요}"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "text": "구매 {#purchases}"
+        },
+        {
+          "line": 85,
+          "level": 3,
+          "text": "광고는 어디에 표시되나요? {#광고는-어디에-표시되나요}"
+        },
+        {
+          "line": 89,
+          "level": 3,
+          "text": "광고를 제거할 수 있나요? {#광고를-제거할-수-있나요}"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "문제 해결 {#help}"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "실수로 삭제한 기록을 되돌릴 수 있나요? {#실수로-삭제한-기록을-되돌릴-수-있나요}"
+        },
+        {
+          "line": 98,
+          "level": 3,
+          "text": "Apple Watch 기록이 iPhone에 표시되지 않아요 {#apple-watch-기록이-iphone에-표시되지-않아요}"
+        },
+        {
+          "line": 102,
+          "level": 3,
+          "text": "문제가 발생하면 어떻게 하나요? {#troubleshooting}"
+        },
+        {
+          "line": 106,
+          "level": 3,
+          "text": "어디로 문의하나요? {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "faq",
+      "language": "ja",
+      "source": "content/faq/smokeless.md",
+      "route": "/faq/smokeless/",
+      "sourceSHA256": "4a4eb1166e48bb01ae5db6a6df642ff47a39b08b0af40c6d05f73f55f06e47da",
+      "characters": 2165,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "はじめに {#introduction}"
+        },
+        {
+          "line": 10,
+          "level": 3,
+          "text": "すわなびはどんなアプリですか？ {#すわなびはどんなアプリですか}"
+        },
+        {
+          "line": 14,
+          "level": 3,
+          "text": "「我慢」は何を記録しますか？ {#我慢は何を記録しますか}"
+        },
+        {
+          "line": 18,
+          "level": 3,
+          "text": "医療アプリですか？ {#医療アプリですか}"
+        },
+        {
+          "line": 22,
+          "level": 3,
+          "text": "対応端末・対応OSは？ {#environment}"
+        },
+        {
+          "line": 28,
+          "level": 2,
+          "text": "記録と振り返り {#questions-8}"
+        },
+        {
+          "line": 30,
+          "level": 3,
+          "text": "初回チュートリアルはありますか？ {#初回チュートリアルはありますか}"
+        },
+        {
+          "line": 34,
+          "level": 3,
+          "text": "何を確認できますか？ {#何を確認できますか}"
+        },
+        {
+          "line": 38,
+          "level": 3,
+          "text": "金額はどう計算されますか？ {#金額はどう計算されますか}"
+        },
+        {
+          "line": 42,
+          "level": 3,
+          "text": "過去日の記録もできますか？ {#過去日の記録もできますか}"
+        },
+        {
+          "line": 48,
+          "level": 2,
+          "text": "機能 {#questions-14}"
+        },
+        {
+          "line": 50,
+          "level": 3,
+          "text": "ホームウィジェットは使えますか？ {#ホームウィジェットは使えますか}"
+        },
+        {
+          "line": 54,
+          "level": 3,
+          "text": "銘柄は複数登録できますか？ {#銘柄は複数登録できますか}"
+        },
+        {
+          "line": 58,
+          "level": 3,
+          "text": "吸いすぎアラートはありますか？ {#吸いすぎアラートはありますか}"
+        },
+        {
+          "line": 62,
+          "level": 3,
+          "text": "言語や通貨は変更できますか？ {#言語や通貨は変更できますか}"
+        },
+        {
+          "line": 68,
+          "level": 2,
+          "text": "データについて {#data}"
+        },
+        {
+          "line": 70,
+          "level": 3,
+          "text": "データはどこに保存されますか？ {#データはどこに保存されますか}"
+        },
+        {
+          "line": 74,
+          "level": 3,
+          "text": "バックアップやクラウド同期はありますか？ {#バックアップやクラウド同期はありますか}"
+        },
+        {
+          "line": 78,
+          "level": 3,
+          "text": "アカウント登録は必要ですか？ {#アカウント登録は必要ですか}"
+        },
+        {
+          "line": 82,
+          "level": 2,
+          "text": "購入について {#purchases}"
+        },
+        {
+          "line": 84,
+          "level": 3,
+          "text": "広告はどこに表示されますか？ {#広告はどこに表示されますか}"
+        },
+        {
+          "line": 88,
+          "level": 3,
+          "text": "広告を消せますか？ {#広告を消せますか}"
+        },
+        {
+          "line": 92,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 93,
+          "level": 3,
+          "text": "間違って削除した記録は戻せますか？ {#間違って削除した記録は戻せますか}"
+        },
+        {
+          "line": 97,
+          "level": 3,
+          "text": "Apple Watchの記録がiPhoneに反映されません {#apple-watchの記録がiphoneに反映されません}"
+        },
+        {
+          "line": 101,
+          "level": 3,
+          "text": "不具合が発生した場合は？ {#troubleshooting}"
+        },
+        {
+          "line": 105,
+          "level": 3,
+          "text": "お問い合わせ先は？ {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "faq",
+      "language": "zh-hant",
+      "source": "content/faq/smokeless.zh-hant.md",
+      "route": "/zh-hant/faq/smokeless/",
+      "sourceSHA256": "b2fbaec19a74d3c1c20b0c3d98267a2c6b7b22037583eca137c65ed47c2495bc",
+      "characters": 1800,
+      "headings": [
+        {
+          "line": 9,
+          "level": 2,
+          "text": "開始使用 {#introduction}"
+        },
+        {
+          "line": 11,
+          "level": 3,
+          "text": "Smokeless 是什麼樣的應用程式？ {#smokeless-是什麼樣的應用程式}"
+        },
+        {
+          "line": 15,
+          "level": 3,
+          "text": "`記錄忍住` 記錄的是什麼？ {#記錄忍住-記錄的是什麼}"
+        },
+        {
+          "line": 19,
+          "level": 3,
+          "text": "這是醫療 App 嗎？ {#這是醫療-app-嗎}"
+        },
+        {
+          "line": 23,
+          "level": 3,
+          "text": "支援哪些裝置與作業系統？ {#environment}"
+        },
+        {
+          "line": 29,
+          "level": 2,
+          "text": "記錄與回顧 {#questions-8}"
+        },
+        {
+          "line": 31,
+          "level": 3,
+          "text": "有首次教學嗎？ {#有首次教學嗎}"
+        },
+        {
+          "line": 35,
+          "level": 3,
+          "text": "可以查看哪些內容？ {#可以查看哪些內容}"
+        },
+        {
+          "line": 39,
+          "level": 3,
+          "text": "金額是如何計算的？ {#金額是如何計算的}"
+        },
+        {
+          "line": 43,
+          "level": 3,
+          "text": "可以記錄過去日期嗎？ {#可以記錄過去日期嗎}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "功能 {#questions-14}"
+        },
+        {
+          "line": 51,
+          "level": 3,
+          "text": "有主畫面小工具嗎？ {#有主畫面小工具嗎}"
+        },
+        {
+          "line": 55,
+          "level": 3,
+          "text": "可以新增多個品牌嗎？ {#可以新增多個品牌嗎}"
+        },
+        {
+          "line": 59,
+          "level": 3,
+          "text": "有 `吸太多提醒` 嗎？ {#有-吸太多提醒-嗎}"
+        },
+        {
+          "line": 63,
+          "level": 3,
+          "text": "可以更改語言或貨幣嗎？ {#可以更改語言或貨幣嗎}"
+        },
+        {
+          "line": 69,
+          "level": 2,
+          "text": "資料 {#data}"
+        },
+        {
+          "line": 71,
+          "level": 3,
+          "text": "資料儲存在哪裡？ {#資料儲存在哪裡}"
+        },
+        {
+          "line": 75,
+          "level": 3,
+          "text": "有備份或雲端同步嗎？ {#有備份或雲端同步嗎}"
+        },
+        {
+          "line": 79,
+          "level": 3,
+          "text": "需要註冊帳號嗎？ {#需要註冊帳號嗎}"
+        },
+        {
+          "line": 83,
+          "level": 2,
+          "text": "購買 {#purchases}"
+        },
+        {
+          "line": 85,
+          "level": 3,
+          "text": "廣告會顯示在哪裡？ {#廣告會顯示在哪裡}"
+        },
+        {
+          "line": 89,
+          "level": 3,
+          "text": "可以移除廣告嗎？ {#可以移除廣告嗎}"
+        },
+        {
+          "line": 93,
+          "level": 2,
+          "text": "遇到問題時 {#help}"
+        },
+        {
+          "line": 94,
+          "level": 3,
+          "text": "誤刪的記錄可以還原嗎？ {#誤刪的記錄可以還原嗎}"
+        },
+        {
+          "line": 98,
+          "level": 3,
+          "text": "Apple Watch記錄沒有顯示在iPhone上 {#apple-watch記錄沒有顯示在iphone上}"
+        },
+        {
+          "line": 102,
+          "level": 3,
+          "text": "發生問題時該怎麼辦？ {#troubleshooting}"
+        },
+        {
+          "line": 106,
+          "level": 3,
+          "text": "如何聯絡支援？ {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "smokeless",
+      "section": "privacy",
+      "language": "en",
+      "source": "content/privacy/smokeless.en.md",
+      "route": "/en/privacy/smokeless/",
+      "sourceSHA256": "31d8bf576022bfc2e14819189246e8404c4c89b6f5a57460fea6db3e167e58bd",
+      "characters": 4389,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. Introduction {#section-1}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. Information we handle {#section-2}"
+        },
+        {
+          "line": 19,
+          "level": 2,
+          "text": "3. How we use information {#section-3}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "4. Storage and management {#section-4}"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "5. External services and disclosure {#section-5}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "6. Advertising and analytics {#section-6}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "7. Managing and deleting your data {#section-7}"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "8. Changes to this policy {#section-8}"
+        },
+        {
+          "line": 71,
+          "level": 2,
+          "text": "9. Contact {#section-9}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://policies.google.com/privacy?hl=en",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "smokeless",
+      "section": "privacy",
+      "language": "fr",
+      "source": "content/privacy/smokeless.fr.md",
+      "route": "/fr/privacy/smokeless/",
+      "sourceSHA256": "2615fe6a6dfb44336e1b80dd162f4ab864cca7d756f24406dc08aa0b153d4270",
+      "characters": 5244,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. Introduction {#section-1}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. Informations traitées {#section-2}"
+        },
+        {
+          "line": 19,
+          "level": 2,
+          "text": "3. Utilisation des informations {#section-3}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "4. Stockage et gestion {#section-4}"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "5. Services externes et communication {#section-5}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "6. Publicité et analyse {#section-6}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "7. Gérer et supprimer vos données {#section-7}"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "8. Modifications de cette politique {#section-8}"
+        },
+        {
+          "line": 71,
+          "level": 2,
+          "text": "9. Contact {#section-9}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://policies.google.com/privacy?hl=fr",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "smokeless",
+      "section": "privacy",
+      "language": "ko",
+      "source": "content/privacy/smokeless.ko.md",
+      "route": "/ko/privacy/smokeless/",
+      "sourceSHA256": "4fa8781fafa2b40153b9f76d991ab389568977622932d8bb8c9a7a75174e933d",
+      "characters": 2462,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. 시작하기 {#section-1}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. 처리하는 정보 {#section-2}"
+        },
+        {
+          "line": 19,
+          "level": 2,
+          "text": "3. 정보의 이용 목적 {#section-3}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "4. 정보의 저장 및 관리 {#section-4}"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "5. 외부 서비스 및 제3자 제공 {#section-5}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "6. 광고·분석 {#section-6}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "7. 이용자의 데이터 관리 및 삭제 {#section-7}"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "8. 처리방침의 변경 {#section-8}"
+        },
+        {
+          "line": 71,
+          "level": 2,
+          "text": "9. 문의 {#section-9}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://policies.google.com/privacy?hl=ko",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "smokeless",
+      "section": "privacy",
+      "language": "ja",
+      "source": "content/privacy/smokeless.md",
+      "route": "/privacy/smokeless/",
+      "sourceSHA256": "6ded85b3bfccb9333a895b59ae57668dfd6d0dc3c1ac3d5fc10a8a77b329474b",
+      "characters": 2274,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. はじめに {#section-1}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. 取得する情報 {#section-2}"
+        },
+        {
+          "line": 19,
+          "level": 2,
+          "text": "3. 情報の利用目的 {#section-3}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "4. 情報の保存・管理 {#section-4}"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "5. 外部サービス・第三者提供 {#section-5}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "6. 広告・解析について {#section-6}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "7. 利用者によるデータ管理・削除 {#section-7}"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "8. 本ポリシーの変更 {#section-8}"
+        },
+        {
+          "line": 71,
+          "level": 2,
+          "text": "9. お問い合わせ {#section-9}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": false,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://policies.google.com/privacy?hl=ja",
+        "https://www.apple.com/jp/legal/privacy/jp/"
+      ]
+    },
+    {
+      "product": "smokeless",
+      "section": "privacy",
+      "language": "zh-hant",
+      "source": "content/privacy/smokeless.zh-hant.md",
+      "route": "/zh-hant/privacy/smokeless/",
+      "sourceSHA256": "1843eddd8bee4a9d8e085017f2577a3d468e9f6dbcafa238b663f9babf93bb8e",
+      "characters": 1862,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. 開始使用 {#section-1}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. 處理的資訊 {#section-2}"
+        },
+        {
+          "line": 19,
+          "level": 2,
+          "text": "3. 資訊使用目的 {#section-3}"
+        },
+        {
+          "line": 25,
+          "level": 2,
+          "text": "4. 資訊儲存與管理 {#section-4}"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "5. 外部服務與第三方提供 {#section-5}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "6. 廣告與分析 {#section-6}"
+        },
+        {
+          "line": 57,
+          "level": 2,
+          "text": "7. 使用者管理與刪除資料 {#section-7}"
+        },
+        {
+          "line": 65,
+          "level": 2,
+          "text": "8. 本政策的變更 {#section-8}"
+        },
+        {
+          "line": 71,
+          "level": 2,
+          "text": "9. 聯絡我們 {#section-9}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 4,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://policies.google.com/privacy?hl=zh-TW",
+        "https://www.apple.com/legal/privacy/"
+      ]
+    },
+    {
+      "product": "smokeless",
+      "section": "terms",
+      "language": "ja",
+      "source": "content/terms/smokeless.md",
+      "route": "/terms/smokeless/",
+      "sourceSHA256": "c0485c3bbecf65ef3ed23725e3367c996e30e892788f1c2bc9a2c6c21bd5da23",
+      "characters": 1429,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. 適用 {#section-1}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. 利用条件 {#section-2}"
+        },
+        {
+          "line": 17,
+          "level": 2,
+          "text": "3. 禁止事項 {#section-3}"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "4. 有料機能・購入 {#section-4}"
+        },
+        {
+          "line": 29,
+          "level": 2,
+          "text": "5. 記録と利用上の注意 {#section-5}"
+        },
+        {
+          "line": 37,
+          "level": 2,
+          "text": "6. 知的財産権 {#section-6}"
+        },
+        {
+          "line": 41,
+          "level": 2,
+          "text": "7. サービス内容の変更・停止 {#section-7}"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "8. 免責事項 {#section-8}"
+        },
+        {
+          "line": 51,
+          "level": 2,
+          "text": "9. 本規約の変更 {#section-9}"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "10. 準拠法・管轄 {#section-10}"
+        },
+        {
+          "line": 59,
+          "level": 2,
+          "text": "11. お問い合わせ {#section-11}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        },
+        {
+          "line": 4,
+          "text": "legal_established: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": false,
+        "contact": true,
+        "operator": false,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": true
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "signal",
+      "section": "htu",
+      "language": "ja",
+      "source": "content/htu/signal.md",
+      "route": "/htu/signal/",
+      "sourceSHA256": "7d4d79cdcdfa0e1d012743fccdd5b84251712e0384037798a36d5ae78988b4cf",
+      "characters": 1909,
+      "headings": [
+        {
+          "line": 6,
+          "level": 2,
+          "text": "はじめに {#introduction}"
+        },
+        {
+          "line": 15,
+          "level": 2,
+          "text": "基本的な使い方 {#basic-use}"
+        },
+        {
+          "line": 18,
+          "level": 3,
+          "text": "タブを選んで記事を探す {#guide-1}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "記事を読む・共有する {#guide-2}"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "配信源を選ぶ {#guide-3}"
+        },
+        {
+          "line": 55,
+          "level": 2,
+          "text": "文字サイズと配色を変える {#guide-4}"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "案内を見直す・学習をリセットする {#guide-5}"
+        },
+        {
+          "line": 74,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 79,
+          "level": 2,
+          "text": "お問い合わせ {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": false,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [
+        "images/guides/signal/tabs-and-article.png",
+        "images/guides/signal/article-menu.png",
+        "images/guides/signal/source-switches.png",
+        "images/guides/signal/text-and-theme.png"
+      ],
+      "externalURLs": []
+    },
+    {
+      "product": "signal",
+      "section": "faq",
+      "language": "ja",
+      "source": "content/faq/signal.md",
+      "route": "/faq/signal/",
+      "sourceSHA256": "8f6a466549aacf5dddf42a317f825149000d5e17863d551cff46379c4c35fdc0",
+      "characters": 1889,
+      "headings": [
+        {
+          "line": 8,
+          "level": 2,
+          "text": "はじめに {#introduction}"
+        },
+        {
+          "line": 10,
+          "level": 3,
+          "text": "SIGNALはどんなアプリですか？ {#signalはどんなアプリですか}"
+        },
+        {
+          "line": 14,
+          "level": 3,
+          "text": "ログインは必要ですか？ {#ログインは必要ですか}"
+        },
+        {
+          "line": 18,
+          "level": 3,
+          "text": "対応端末・対応OSは？ {#environment}"
+        },
+        {
+          "line": 22,
+          "level": 2,
+          "text": "記事について {#questions-6}"
+        },
+        {
+          "line": 24,
+          "level": 3,
+          "text": "どの配信源に対応していますか？ {#どの配信源に対応していますか}"
+        },
+        {
+          "line": 28,
+          "level": 3,
+          "text": "配信源は切り替えられますか？ {#配信源は切り替えられますか}"
+        },
+        {
+          "line": 32,
+          "level": 3,
+          "text": "記事の保存機能はありますか？ {#記事の保存機能はありますか}"
+        },
+        {
+          "line": 36,
+          "level": 3,
+          "text": "通知はありますか？ {#通知はありますか}"
+        },
+        {
+          "line": 40,
+          "level": 3,
+          "text": "広告はありますか？ {#広告はありますか}"
+        },
+        {
+          "line": 46,
+          "level": 2,
+          "text": "データについて {#data}"
+        },
+        {
+          "line": 48,
+          "level": 3,
+          "text": "表示順はどう調整されますか？ {#表示順はどう調整されますか}"
+        },
+        {
+          "line": 52,
+          "level": 3,
+          "text": "学習データはどこに保存されますか？ {#学習データはどこに保存されますか}"
+        },
+        {
+          "line": 56,
+          "level": 3,
+          "text": "学習データはリセットできますか？ {#学習データはリセットできますか}"
+        },
+        {
+          "line": 60,
+          "level": 3,
+          "text": "個人情報やアカウント情報は必要ですか？ {#個人情報やアカウント情報は必要ですか}"
+        },
+        {
+          "line": 64,
+          "level": 3,
+          "text": "テーマや文字サイズは変えられますか？ {#テーマや文字サイズは変えられますか}"
+        },
+        {
+          "line": 68,
+          "level": 2,
+          "text": "困ったとき {#help}"
+        },
+        {
+          "line": 69,
+          "level": 3,
+          "text": "記事はどこで開きますか？ {#記事はどこで開きますか}"
+        },
+        {
+          "line": 73,
+          "level": 3,
+          "text": "通信できないときも読めますか？ {#offline}"
+        },
+        {
+          "line": 77,
+          "level": 3,
+          "text": "スクロールしても記事が増えません {#feed-limit}"
+        },
+        {
+          "line": 81,
+          "level": 3,
+          "text": "不具合が発生した場合は？ {#troubleshooting}"
+        },
+        {
+          "line": 85,
+          "level": 3,
+          "text": "お問い合わせ先は？ {#contact}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": []
+    },
+    {
+      "product": "signal",
+      "section": "privacy",
+      "language": "ja",
+      "source": "content/privacy/signal.md",
+      "route": "/privacy/signal/",
+      "sourceSHA256": "e120caeb334320c3bf9b70f9f38c9e4b0fbcb51ce297ba0e42f3a78053dbde94",
+      "characters": 1969,
+      "headings": [
+        {
+          "line": 6,
+          "level": 2,
+          "text": "1. はじめに {#section-1}"
+        },
+        {
+          "line": 12,
+          "level": 2,
+          "text": "2. 取得する情報 {#section-2}"
+        },
+        {
+          "line": 18,
+          "level": 2,
+          "text": "3. 情報の利用目的 {#section-3}"
+        },
+        {
+          "line": 26,
+          "level": 2,
+          "text": "4. 情報の保存・管理 {#section-4}"
+        },
+        {
+          "line": 38,
+          "level": 2,
+          "text": "5. 外部サービス・第三者提供 {#section-5}"
+        },
+        {
+          "line": 50,
+          "level": 2,
+          "text": "6. 利用者によるデータ管理・削除 {#section-6}"
+        },
+        {
+          "line": 58,
+          "level": 2,
+          "text": "7. 本ポリシーの変更 {#section-7}"
+        },
+        {
+          "line": 64,
+          "level": 2,
+          "text": "8. お問い合わせ {#section-8}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": false,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": false
+      },
+      "images": [],
+      "externalURLs": [
+        "https://www.apple.com/jp/legal/privacy/jp/"
+      ]
+    },
+    {
+      "product": "signal",
+      "section": "terms",
+      "language": "ja",
+      "source": "content/terms/signal.md",
+      "route": "/terms/signal/",
+      "sourceSHA256": "5c8f46cc126ea4dc7344009ae31b7e39f1a3a02d0dffea0d307eb01eca4cc895",
+      "characters": 1170,
+      "headings": [
+        {
+          "line": 7,
+          "level": 2,
+          "text": "1. 適用 {#section-1}"
+        },
+        {
+          "line": 13,
+          "level": 2,
+          "text": "2. 利用条件 {#section-2}"
+        },
+        {
+          "line": 17,
+          "level": 2,
+          "text": "3. 禁止事項 {#section-3}"
+        },
+        {
+          "line": 21,
+          "level": 2,
+          "text": "4. 記事・外部サービス・学習 {#section-4}"
+        },
+        {
+          "line": 31,
+          "level": 2,
+          "text": "5. 知的財産権 {#section-5}"
+        },
+        {
+          "line": 35,
+          "level": 2,
+          "text": "6. サービス内容の変更・停止 {#section-6}"
+        },
+        {
+          "line": 39,
+          "level": 2,
+          "text": "7. 免責事項 {#section-7}"
+        },
+        {
+          "line": 45,
+          "level": 2,
+          "text": "8. 本規約の変更 {#section-8}"
+        },
+        {
+          "line": 49,
+          "level": 2,
+          "text": "9. 準拠法・管轄 {#section-9}"
+        },
+        {
+          "line": 53,
+          "level": 2,
+          "text": "10. お問い合わせ {#section-10}"
+        }
+      ],
+      "dates": [
+        {
+          "line": 3,
+          "text": "lastmod: 2026-09-08"
+        },
+        {
+          "line": 4,
+          "text": "legal_established: 2026-09-08"
+        }
+      ],
+      "topics": {
+        "introduction": true,
+        "environment": true,
+        "data": true,
+        "purchase": true,
+        "troubleshooting": true,
+        "contact": true,
+        "operator": true,
+        "ai": false,
+        "ads_analytics": true,
+        "external": true,
+        "account": true,
+        "law": true
+      },
+      "images": [],
+      "externalURLs": []
+    }
+  ]
+}

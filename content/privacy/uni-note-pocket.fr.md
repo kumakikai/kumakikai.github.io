@@ -3,50 +3,75 @@ title: "Politique de confidentialité (Uni:Note Pocket)"
 description: "Politique de confidentialité de Uni:Note Pocket."
 aliases:
   - /privacy/uni-memo/
+lastmod: 2026-09-08
 ---
 
-Cette politique de confidentialité explique comment les informations utilisateur sont traitées dans Uni:Note Pocket (« l’App ») et sur ce site officiel.
+## 1. Introduction {#introduction}
 
-## 1. Informations collectées
+{{< document-copy "privacyIntroduction" >}}
 
-L’App ne nécessite ni création de compte ni connexion, et elle ne collecte pas d’informations personnellement identifiables telles que le nom, l’adresse ou l’adresse e-mail via une saisie dans l’application.
+{{< guide-anchor "1-informations-collectées" >}}
 
-Les listes de notes, données de pages, réglages et états d’affichage des calques de mémorisation sont traités sur l’appareil de l’utilisateur à partir des sauvegardes qu’il importe.
+## 2. Informations traitées {#information}
 
-## 2. Traitement des fichiers de sauvegarde
+Aucun compte propre à l’app ni connexion n’est requis. Les sauvegardes importées et les informations saisies ou jointes aux demandes d’assistance peuvent contenir des données personnelles.
 
-L’App peut accéder aux fichiers zip de sauvegarde Uni:Note que l’utilisateur sélectionne explicitement.
+Notes, pages, images, PDF, lots et enregistrements importés, états d’affichage des repères, positions de lecture, langue et réglages d’affichage sont traités sur votre appareil.
 
-Ces fichiers sont traités uniquement pour valider leur contenu et les rendre consultables dans l’App. Le développeur n’obtient pas le contenu de ces fichiers.
+{{< guide-anchor "2-traitement-des-fichiers-de-sauvegarde" >}}
 
-L’App ne réécrit pas non plus le fichier de sauvegarde d’origine.
+### Fichiers de sauvegarde
 
-## 3. Stockage sur l’appareil
+L’app peut accéder aux fichiers zip de sauvegarde Uni:Note que l’utilisateur sélectionne explicitement.
 
-L’App stocke sur l’appareil de l’utilisateur les données importées depuis les sauvegardes afin de pouvoir les consulter.
+Ces fichiers sont traités pour valider leur contenu et les rendre consultables dans l’app. La fonction d’importation ne nous transmet pas le contenu des sauvegardes.
+
+L’app ne réécrit pas non plus le fichier de sauvegarde d’origine.
+
+### Demandes d’assistance
+
+{{< document-copy "privacyInquiries" >}}
+
+## 3. Utilisation des informations {#purposes}
+
+Les informations servent à vérifier et importer les sauvegardes, afficher notes et lots, lire les enregistrements importés, changer l’affichage des repères, conserver positions et réglages, et vérifier les mises à jour des sauvegardes.
+
+{{< guide-anchor "3-stockage-sur-lappareil" >}}
+
+## 4. Stockage et gestion {#storage}
+
+L’app stocke sur l’appareil de l’utilisateur les données importées depuis les sauvegardes afin de pouvoir les consulter.
 
 Si vous sélectionnez un fichier de sauvegarde stocké dans un service externe comme iCloud Drive, veuillez consulter la politique du fournisseur concerné pour le traitement des données dans ce service.
 
-## 4. Publicité et outils d’analyse
+La sauvegarde rapide vérifie et charge une sauvegarde iCloud partagée avec Uni:Note. Si le chargement automatique au lancement est activé, une sauvegarde disponible est chargée au démarrage. Il n’y a ni synchronisation en temps réel ni écriture vers l’iPad.
 
-À ce jour, l’App n’utilise ni SDK publicitaires ni SDK d’analyse.
+{{< guide-anchor "5-communication-des-données-personnelles-à-des-tiers" >}}
 
-Si de tels outils sont utilisés à l’avenir, cela sera indiqué dans cette politique ou via un avis intégré à l’application.
+## 5. Services externes et communication {#external-services}
 
-## 5. Communication des données personnelles à des tiers
+La sauvegarde rapide utilise Apple iCloud. Si vous choisissez un autre stockage externe dans le sélecteur de fichiers, son fournisseur traite les informations. Les demandes utilisent le service de messagerie ou autre service choisi. Une communication peut également avoir lieu lorsque la loi l’exige.
 
-Sauf obligation légale, l’App ne communique pas les données personnelles des utilisateurs à des tiers.
+{{< guide-anchor "4-publicité-et-outils-danalyse" >}}
 
-## 6. Modifications de cette politique de confidentialité
+### Publicité et analyse
 
-Cette politique peut être mise à jour si nécessaire.
+L’app n’utilise pas de SDK publicitaire ou d’analyse d’usage, ni de génération ou d’envoi IA. Elle ne crée pas d’enregistrement, de transcription ou de résumé IA et ne propose pas d’achat intégré.
 
-La version révisée prend effet lorsqu’elle est publiée sur ce site.
+## 6. Gérer et supprimer vos données {#data-management}
 
-## 7. Contact
+Un import réussi remplace les données de lecture de Pocket ; en cas d’échec, les précédentes sont conservées. Pocket ne modifie ni le zip d’origine ni les notes sur iPad. Gérez et supprimez les zip d’origine et sauvegardes iCloud à leurs emplacements respectifs. Données locales et sauvegardes externes sont gérées séparément.
 
-Pour toute question concernant cette politique, merci de contacter :
+{{< document-copy "privacyRights" >}}
 
-- [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+{{< guide-anchor "6-modifications-de-cette-politique-de-confidentialité" >}}
 
-Dernière mise à jour : 2026-03-31
+## 7. Modifications de cette politique {#changes}
+
+{{< document-copy "privacyChanges" >}}
+
+{{< guide-anchor "7-contact" >}}
+
+## 8. Contact {#inquiries}
+
+{{< document-contact >}}

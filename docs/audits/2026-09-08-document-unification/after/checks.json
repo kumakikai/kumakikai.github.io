@@ -1,0 +1,77 @@
+{
+  "sourceBranch": "main",
+  "sourceBaseCommit": "3ab462d3d03247df33420f0657cda305470d8e0b",
+  "documents": 74,
+  "products": 8,
+  "htmlPages": 282,
+  "originalGeneratedRoutesPreserved": 277,
+  "addedRoutes": [
+    "/terms/balance-calendar/",
+    "/terms/signal/",
+    "/terms/smokeless/",
+    "/terms/uni-note-pocket/",
+    "/terms/uni-note/"
+  ],
+  "retainedOldBodyIds": 1441,
+  "retainedImagePlacements": 148,
+  "browser": {
+    "pages": 122,
+    "cases": 324,
+    "additionalStatusCases": 36,
+    "finalHTMLHashesMatch": true
+  },
+  "externalLinks": {
+    "uniqueURLs": 46,
+    "http200": 46,
+    "method": "Direct curl GET with redirect following and Cache-Control/Pragma no-cache; no search results"
+  },
+  "reachability": {
+    "error-page": 6,
+    "noindex-compatibility": 48,
+    "compatibility-redirect": 65,
+    "reachable": 163
+  },
+  "reviewedDuplicates": {
+    "intentional-global-and-content-navigation": 174,
+    "intentional-responsive-alternatives": 488,
+    "intentional-global-brand-language-navigation": 209,
+    "intentional-store-cta": 42,
+    "intentional-product-image-enlargement": 84,
+    "retained-historical-news-citation-and-support-list": 1
+  },
+  "localBuild": "PASS Node 22.22.0 / Hugo 0.158.0 Extended / npm run build -- --ignoreCache",
+  "migration": "PASS",
+  "seo": "PASS",
+  "unitTests": {
+    "passed": 75
+  },
+  "productBasics": {
+    "pages": 48,
+    "negativeCases": 17,
+    "failures": 0
+  },
+  "publication": "Recorded separately in kumakikai-document-unification/publication.json; this file records local validation",
+  "ageRatingDecision": {
+    "status": "COMPLETED_BY_PROJECT_DECISION",
+    "releaseBlocker": false,
+    "publicationBlocker": false,
+    "source": "Operator confirmation in this conversation, 2026-09-08",
+    "scope": "App Store Connect > App information > Age ratings",
+    "storeSettingApplied": true,
+    "independentlyVerifiedInAppStoreConnect": false,
+    "ratings": {
+      "173 countries and regions": "18+",
+      "Brazil": "A18",
+      "Republic of Korea": "19+"
+    },
+    "targetAudience": "18 and older",
+    "inAppAgeVerificationRequired": false,
+    "additionalIdentityVerificationRequired": false,
+    "geminiUsage": "continue",
+    "technicalExclusionOfEveryUnder18UseRequired": false,
+    "additionalComplianceResearchOrAIMigrationRequiredForPublication": false,
+    "reservation": "No official Google statement confirming App Store 18+ alone satisfies the condition was found",
+    "reservationDisposition": "Known interpretive reservation; nonblocking",
+    "officialGuaranteeClaimed": false
+  }
+}

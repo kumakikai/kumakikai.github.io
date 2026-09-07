@@ -1,16 +1,24 @@
 ---
 title: "Mode d'emploi (Smokeless)"
 description: "Mode d'emploi pour Smokeless."
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
+
+## Introduction {#introduction}
 
 Le bouton vert enregistre une cigarette évitée, le rouge une cigarette fumée. Retrouvez ci-dessous les commandes pour saisir et consulter vos enregistrements.
 
-## 1. Vérifiez le premier tutoriel et les réglages du paquet
+Nécessite un iPhone sous iOS 14 ou une version ultérieure.
+
+## Utilisation de base {#basic-use}
+
+{{< guide-anchor "1-vérifiez-le-premier-tutoriel-et-les-réglages-du-paquet" >}}
+### Vérifiez le premier tutoriel et les réglages du paquet {#guide-1}
 
 Après le premier tutoriel, renseignez Cigarettes par paquet et Prix du paquet. Ces valeurs servent à la conversion monétaire. Vous pouvez les modifier dans Réglages → Général → Marques.
 
-## 2. Enregistrez depuis `Saisie`
+{{< guide-anchor "2-enregistrez-depuis-saisie" >}}
+### Enregistrez depuis `Saisie` {#guide-2}
 
 1. Ouvrez Saisie au centre.
 2. Touchez la cigarette barrée verte lorsque vous aviez envie de fumer mais ne l’avez pas fait.
@@ -20,7 +28,8 @@ Après le premier tutoriel, renseignez Cigarettes par paquet et Prix du paquet. 
 
 Chaque geste ajoute un enregistrement au total du jour. Si plusieurs marques sont configurées, choisissez la marque avant la saisie.
 
-## 3. Revoyez les enregistrements du jour depuis `Historique`
+{{< guide-anchor "3-revoyez-les-enregistrements-du-jour-depuis-historique" >}}
+## Revoyez les enregistrements du jour depuis `Historique` {#guide-3}
 
 1. Touchez l’icône de ticket en haut à droite de Saisie.
 2. Balayez un enregistrement vers la gauche pour le supprimer.
@@ -28,7 +37,8 @@ Chaque geste ajoute un enregistrement au total du jour. Si plusieurs marques son
 
 {{< guide-image src="images/guides/smokeless/fr/history-controls.png" alt="En haut de Saisie, icône de ticket à droite pour ouvrir l’historique" mode="crop" >}}
 
-## 4. Revoyez par jour, mois et année dans `Calendrier`
+{{< guide-anchor "4-revoyez-par-jour-mois-et-année-dans-calendrier" >}}
+## Revoyez par jour, mois et année dans `Calendrier` {#guide-4}
 
 1. Ouvrez Calendrier en bas à gauche.
 2. Choisissez Jour, Mois ou Année.
@@ -36,22 +46,34 @@ Chaque geste ajoute un enregistrement au total du jour. Si plusieurs marques son
 
 {{< guide-image src="images/guides/smokeless/fr/calendar.png" alt="Calendrier Smokeless avec onglets Jour, Mois et Année et totaux quotidiens" mode="screen" >}}
 
-## 5. Vérifiez les changements récents dans `Graphiques`
+{{< guide-anchor "5-vérifiez-les-changements-récents-dans-graphiques" >}}
+## Vérifiez les changements récents dans `Graphiques` {#guide-5}
 
 Ouvrez Graphiques en bas à droite, puis choisissez Semaine, Mois ou 3 mois. Les flèches à côté de la période permettent de changer les dates affichées.
 
 {{< guide-image src="images/guides/smokeless/fr/chart.png" alt="Graphiques Smokeless et commandes de période, avec courbes des cigarettes fumées et évitées" mode="screen" >}}
 
-## 6. Utilisez le widget d'accueil
+{{< guide-anchor "6-utilisez-le-widget-daccueil" >}}
+## Utilisez le widget d'accueil {#guide-6}
 
 Ajoutez le widget Smokeless à l’écran d’accueil de l’iPhone. Touchez le bouton vert ou rouge pour enregistrer une cigarette évitée ou fumée aujourd’hui.
 
 La marque utilisée se choisit dans Réglages → Général → Marques, avec l’option de marque par défaut du widget. Elle ne se change pas dans le widget.
 
-## 7. Ajustez les `Réglages`
+{{< guide-anchor "7-ajustez-les-réglages" >}}
+## Ajustez les `Réglages` {#guide-7}
 
 Touchez la roue dentée en haut à gauche de Saisie, puis Général. Vous pouvez régler le thème, la langue, la devise, les marques et l’alerte de surconsommation.
 
 Modifiez le nombre et le prix du paquet dans Marques. Une marque est disponible au départ ; l’achat du pack de marques permet d’en utiliser quatre au total. Les achats se restaurent depuis Réglages → Achats intégrés.
 
 {{< watch-guide app="smokeless" >}}
+
+## En cas de difficulté {#help}
+
+
+{{< document-help >}}
+
+## Contact {#contact}
+
+{{< document-contact >}}

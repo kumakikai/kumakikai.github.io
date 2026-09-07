@@ -31,6 +31,7 @@ from legal_navigation_review import (
     navigation_links as legal_navigation_links,
 )
 from legal_terminology_review import ROUTE as KOREAN_PRIVACY_ROUTE, check_article as check_korean_privacy
+from document_review import load_reviews as load_document_reviews, check_article as check_document_article, check_structure as check_document_structure
 
 SITE = "https://kumakikai.github.io"
 LOCAL_HOSTS = {"kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
@@ -217,7 +218,11 @@ class Verification:
         self.guide_reviews = json.loads(review_file.read_text()) if review_file.is_file() else {}
         for route in self.guide_reviews:
             self.require(route in self.baseline["articles"], route, "guide_review_scope", "Guide review must reference an existing protected article")
-        self.nocca_legal_reviews, legal_errors = load_nocca_legal_reviews(Path(__file__).resolve().parent.parent, self.baseline)
+        root = Path(__file__).resolve().parent.parent
+        self.document_reviews, self.document_before, document_errors = load_document_reviews(root, self.baseline)
+        self.errors.extend(document_errors)
+        superseded = set(self.document_reviews) & {"/privacy/nocca/", "/terms/nocca/"}
+        self.nocca_legal_reviews, legal_errors = load_nocca_legal_reviews(root, self.baseline, superseded=superseded)
         self.errors.extend(legal_errors)
 
     def require(self, condition, route, check, detail):
@@ -292,11 +297,17 @@ class Verification:
                 continue
             new_text = normalized(body.text())
             expected_text = old["text"]
-            review = self.guide_reviews.get(route)
-            legal_review = self.nocca_legal_reviews.get(route)
-            legal_navigation = route in LEGAL_NAVIGATION_SCOPE
-            terminology_review = route == KOREAN_PRIVACY_ROUTE
-            if legal_review:
+            document_review = self.document_reviews.get(route)
+            review = None if document_review else self.guide_reviews.get(route)
+            legal_review = None if document_review else self.nocca_legal_reviews.get(route)
+            legal_navigation = not document_review and route in LEGAL_NAVIGATION_SCOPE
+            terminology_review = not document_review and route == KOREAN_PRIVACY_ROUTE
+            if document_review:
+                # The current user authorized a complete cross-product revision.
+                # Exact source/output bindings are checked for all 74 documents
+                # below, while this original URL/anchor/link baseline stays fixed.
+                self.counts["reviewed_product_document_bodies"] += 1
+            elif legal_review:
                 links = {urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href") and not node.has_class("anchor")}
                 self.errors.extend(check_nocca_legal_article(route, legal_review, new_text, links))
                 self.counts["reviewed_nocca_legal_bodies"] += 1
@@ -333,7 +344,7 @@ class Verification:
                 expected_text = expected_text.replace(before, after, 1)
                 self.require("iPad専用" not in new_text, route, "authorized_article_change", "The authorized iPad wording change was not applied")
                 self.counts["authorized_article_wording_changes"] += 1
-            if not review and not legal_review and not legal_navigation and not terminology_review:
+            if not document_review and not review and not legal_review and not legal_navigation and not terminology_review:
                 self.require(expected_text in new_text, route, "legacy_content", "Original rendered article body was dropped, changed, or reordered beyond the exact authorized wording change")
             missing = sorted(set(old["ids"]) - set(doc.ids))
             self.require(not missing, route, "legacy_anchor", f"Original article anchors disappeared: {missing}")
@@ -373,7 +384,7 @@ class Verification:
                 links |= set(legal_navigation_links(route)) & support_links
                 self.counts["reviewed_legal_navigation_bodies"] += 1
             missing_links = sorted(set(old["links"]) - links)
-            approved_removed = legal_review["removedLinks"] if legal_review else review.get("removedLinks", []) if review else []
+            approved_removed = document_review["removedLinks"] if document_review else legal_review["removedLinks"] if legal_review else review.get("removedLinks", []) if review else []
             self.require(missing_links == sorted(approved_removed), route, "legacy_content_link", f"Unreviewed original link changes: {missing_links}; approved: {approved_removed}")
             self.counts["legacy_articles"] += 1
         for sitemap, urls in self.baseline["sitemaps"].items():
@@ -456,6 +467,10 @@ class Verification:
         shared = json.loads((self.data_file.parent / "support.json").read_text(encoding="utf-8"))
         metadata = app.get("support", {})
         kinds = [kind for kind in ("guide", "faq", "contact", "privacy", "terms") if kind != omitted]
+        if omitted in {"guide", "faq"} and route in self.document_reviews:
+            # Contact lives once in the document body, with independently
+            # validated destination and wording. Product still has all five rows.
+            kinds.remove("contact")
         labels = {"guide": copy["howTo"], "faq": copy["faq"], "contact": corp["contactLabel"], "privacy": copy["privacy"], "terms": copy["terms"]}
         resources = [n for n in container.descendants() if n.has_class("support-resources")]
         self.require(len(resources) == 1, route, "support_component", "Expected one shared support-resources component")
@@ -1055,10 +1070,25 @@ class Verification:
             self.require(not re.search(r"^Disallow:\s*/\s*$", text, re.M), "/robots.txt", "robots", "Production site is blocked from crawling")
             self.require(SITE + "/sitemap.xml" in text, "/robots.txt", "robots", "Missing production sitemap declaration")
 
+    def verify_documents(self):
+        root = Path(__file__).resolve().parent.parent
+        unused_terms = [str(p.relative_to(self.build)) for p in (self.build / "terms/page").glob("*/index.html") if p.parent.name != "1"]
+        self.require(not unused_terms, "/terms/", "document_review_unused_pagination", "The compatibility notice must not generate unlinked pagination copies: " + repr(unused_terms))
+        for route, review in self.document_reviews.items():
+            target = self.target(route, "/")
+            self.require(target and target[0].is_file(), route, "document_review_route", "Reviewed formal document is missing")
+            if target and target[0].is_file():
+                doc = self.document(target[0])
+                self.require(not doc.redirect(), route, "document_review_route", "Reviewed documents cannot become aliases")
+                self.errors.extend(check_document_article(route, review, doc, self.document_before))
+                self.errors.extend(check_document_structure(root, route, doc))
+                self.counts["unified_product_documents"] += 1
+
     def run(self):
         self.verify_baseline()
         self.verify_contract()
         self.verify_pages()
+        self.verify_documents()
         return {"ok": not self.errors, "build": str(self.build), "baseline": self.baseline["build"], "checks": dict(self.counts), "warnings": self.warnings, "errors": self.errors}
 
 
