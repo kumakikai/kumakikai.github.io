@@ -355,7 +355,8 @@ body.menu-open { overflow: hidden; }
 .content hr { border-color: var(--line); }
 /* Operation guides: original UI crops, readable on a phone without giant
    device mockups. Every image reserves its own ratio and opens at 2x. */
-.guide-updated { color: var(--muted); font-size: .76rem; margin: -16px 0 30px; }
+.article-history-note { border-left: 3px solid var(--line); padding-left: 18px; color: var(--muted); font-size: .88rem; line-height: 1.8; margin-bottom: 30px; }
+.guide-updated,.version-context { color: var(--muted); font-size: .76rem; margin: -16px 0 30px; }
 .guide-toc { border-block: 1px solid var(--line); padding-block: 10px; margin-bottom: 36px; }
 .guide-toc summary { min-height: 44px; align-content: center; font-size: .88rem; font-weight: 600; }
 .guide-toc nav ul { list-style: none; padding: 8px 0 12px; margin: 0; }

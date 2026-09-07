@@ -9,7 +9,7 @@
       ],
       "features": [
         {
-          "title": "プラス・マイナスから入力",
+          "title": "収入・支出を選んで入力",
           "description": "収支の向きと金額を入力するシンプルな画面。記録する日付も選べます。"
         },
         {
@@ -22,14 +22,14 @@
         },
         {
           "title": "ウィジェットから入力画面へ",
-          "description": "ホーム画面のプラス・マイナスから対応するアプリの入力画面を開き、金額の入力へ進めます。"
+          "description": "ホーム画面のウィジェットにある「↑」「↓」からアプリの収入・支出入力画面を開き、金額を入力できます。"
         }
       ],
       "stories": [
         {
           "image": 0,
           "title": "記録の入口は、大きなふたつのボタン",
-          "description": "プラスかマイナスを選び、金額を入力する構成。日付や選択中のタグが見える画面で、その場の収支を残せます。"
+          "description": "収入か支出を選び、金額を入力する構成。日付や選択中のタグが見える画面で、その場の収支を残せます。"
         },
         {
           "image": 1,
@@ -65,7 +65,7 @@
       ],
       "features": [
         {
-          "title": "Start with plus or minus",
+          "title": "Choose income or expense",
           "description": "Choose the direction of the entry and enter an amount on a simple screen. You can also select the date."
         },
         {
@@ -78,14 +78,14 @@
         },
         {
           "title": "Open entry from a widget",
-          "description": "The Home Screen widget’s plus and minus buttons open the corresponding entry screen in the app, ready for an amount."
+          "description": "The Home Screen widget’s up and down arrow buttons open the app’s income and expense entry screens, ready for an amount."
         }
       ],
       "stories": [
         {
           "image": 0,
           "title": "Two large buttons to start a record",
-          "description": "Choose plus or minus, then enter an amount. The recording screen shows the date and selected tag as you log the balance."
+          "description": "Choose income or expense, then enter an amount. The recording screen shows the date and selected tag as you log the balance."
         },
         {
           "image": 1,
@@ -121,7 +121,7 @@
       ],
       "features": [
         {
-          "title": "플러스·마이너스로 시작",
+          "title": "수입·지출을 선택해 입력",
           "description": "간단한 화면에서 수지의 방향을 고르고 금액을 입력합니다. 기록할 날짜도 선택할 수 있습니다."
         },
         {
@@ -134,14 +134,14 @@
         },
         {
           "title": "위젯에서 입력 화면으로",
-          "description": "홈 화면 위젯의 플러스·마이너스 버튼으로 앱의 해당 입력 화면을 열고 금액을 입력할 수 있습니다."
+          "description": "홈 화면 위젯의 위쪽·아래쪽 화살표 버튼으로 앱의 수입·지출 입력 화면을 열고 금액을 입력할 수 있습니다."
         }
       ],
       "stories": [
         {
           "image": 0,
           "title": "큰 두 개의 버튼에서 시작하는 기록",
-          "description": "플러스 또는 마이너스를 고른 뒤 금액을 입력하는 구성입니다. 날짜와 선택한 태그를 보며 그 자리에서 수지를 남길 수 있습니다."
+          "description": "수입 또는 지출을 고른 뒤 금액을 입력하는 구성입니다. 날짜와 선택한 태그를 보며 그 자리에서 수지를 남길 수 있습니다."
         },
         {
           "image": 1,
@@ -177,7 +177,7 @@
       ],
       "features": [
         {
-          "title": "Mit Plus oder Minus beginnen",
+          "title": "Einnahme oder Ausgabe wählen",
           "description": "Auf einem einfachen Bildschirm Vorzeichen und Betrag eingeben. Auch das Datum lässt sich auswählen."
         },
         {
@@ -190,14 +190,14 @@
         },
         {
           "title": "Die Eingabe über das Widget öffnen",
-          "description": "Plus und Minus im Widget auf dem Home-Bildschirm öffnen die passende Eingabemaske der App für den Betrag."
+          "description": "Die Pfeiltasten nach oben und unten im Widget auf dem Home-Bildschirm öffnen die Eingabe für Einnahmen bzw. Ausgaben in der App."
         }
       ],
       "stories": [
         {
           "image": 0,
           "title": "Zwei große Tasten als Einstieg",
-          "description": "Plus oder Minus wählen und anschließend den Betrag eingeben. Datum und ausgewählter Tag sind auf dem Erfassungsbildschirm sichtbar."
+          "description": "Einnahme oder Ausgabe wählen und anschließend den Betrag eingeben. Datum und ausgewählter Tag sind auf dem Erfassungsbildschirm sichtbar."
         },
         {
           "image": 1,
@@ -233,7 +233,7 @@
       ],
       "features": [
         {
-          "title": "Commencer par plus ou moins",
+          "title": "Choisir un revenu ou une dépense",
           "description": "Choisissez le sens de l’écriture et saisissez un montant dans un écran simple. Vous pouvez aussi sélectionner la date."
         },
         {
@@ -246,14 +246,14 @@
         },
         {
           "title": "Ouvrir la saisie depuis un widget",
-          "description": "Les boutons plus et moins du widget de l’écran d’accueil ouvrent l’écran de saisie correspondant dans l’application."
+          "description": "Les flèches vers le haut et vers le bas du widget de l’écran d’accueil ouvrent la saisie des revenus et des dépenses dans l’application."
         }
       ],
       "stories": [
         {
           "image": 0,
           "title": "Deux grands boutons pour commencer",
-          "description": "Choisissez plus ou moins, puis entrez le montant. L’écran de saisie garde la date et l’étiquette sélectionnée visibles pendant l’enregistrement."
+          "description": "Choisissez un revenu ou une dépense, puis entrez le montant. L’écran de saisie garde la date et l’étiquette sélectionnée visibles pendant l’enregistrement."
         },
         {
           "image": 1,
@@ -289,7 +289,7 @@
       ],
       "features": [
         {
-          "title": "從加號、減號開始輸入",
+          "title": "選擇收入或支出後輸入",
           "description": "在簡單的畫面選擇收支方向並輸入金額，也能指定記錄的日期。"
         },
         {
@@ -302,14 +302,14 @@
         },
         {
           "title": "從小工具進入輸入畫面",
-          "description": "主畫面小工具的加號、減號會開啟 App 對應的輸入畫面，接著即可輸入金額。"
+          "description": "主畫面小工具的向上、向下箭頭會開啟 App 的收入、支出輸入畫面，接著即可輸入金額。"
         }
       ],
       "stories": [
         {
           "image": 0,
           "title": "用兩個大按鈕開始記錄",
-          "description": "先選擇加號或減號，再輸入金額。在能看到日期與所選標籤的畫面，當下留下這筆收支。"
+          "description": "先選擇收入或支出，再輸入金額。在能看到日期與所選標籤的畫面，當下留下這筆收支。"
         },
         {
           "image": 1,

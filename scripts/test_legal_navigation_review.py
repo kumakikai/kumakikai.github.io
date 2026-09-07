@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Focused negative contracts for the four-page navigation-only exception."""
+"""Negative contracts for the fixed legal navigation and OtoMiru offer edits."""
 import copy
 import json
 from pathlib import Path
@@ -25,6 +25,43 @@ class LegalNavigationReviewTests(unittest.TestCase):
         for route in review.SCOPE:
             with self.subTest(route=route):
                 self.assertEqual(self.check(route), [])
+
+    def test_only_oto_miru_terms_removes_the_fixed_offer(self):
+        route = "/terms/oto-miru/"
+        expected = review.expected_body(route, BASELINE["articles"][route])
+        self.assertIn("月額480円年額3,800円1ヶ月無料トライアル", BASELINE["articles"][route]["text"])
+        self.assertNotIn("月額480円年額3,800円1ヶ月無料トライアル", expected)
+        self.assertIn("ファミリー共有に対応", expected)
+        self.assertIn("価格、無料トライアル、更新日、解約条件はAppStoreの購入画面に表示される内容が優先されます。", expected)
+        for other in review.SCOPE:
+            if other == route:
+                continue
+            with self.subTest(route=other):
+                self.assertTrue(self.check(other, text=review.expected_body(other, BASELINE["articles"][other]) + "2週間無料トライアル"))
+
+    def test_partial_or_substituted_offer_cleanup_rejected(self):
+        route = "/terms/oto-miru/"
+        expected = review.expected_body(route, BASELINE["articles"][route])
+        for leftover in ("月額480円", "年額3,800円", "1ヶ月無料トライアル",
+                         "月額480円年額3,800円1ヶ月無料トライアル", "2週間無料トライアル",
+                         "月額500円年額4,000円"):
+            with self.subTest(offer=leftover):
+                self.assertTrue(self.check(route, text=expected.replace("ファミリー共有に対応", leftover + "ファミリー共有に対応", 1)))
+
+    def test_offer_cleanup_cannot_change_remaining_purchase_conditions(self):
+        route = "/terms/oto-miru/"
+        expected = review.expected_body(route, BASELINE["articles"][route])
+        for original, replacement in (("ファミリー共有に対応", "ファミリー共有非対応"),
+                                      ("価格、無料トライアル、更新日、解約条件はAppStoreの購入画面に表示される内容が優先されます。", ""),
+                                      ("自動更新サブスクリプション", "買い切り")):
+            with self.subTest(clause=original):
+                self.assertTrue(self.check(route, text=expected.replace(original, replacement, 1)))
+
+    def test_offer_cleanup_cannot_rewrite_the_immutable_baseline(self):
+        route = "/terms/oto-miru/"
+        old = copy.deepcopy(BASELINE["articles"][route])
+        old["text"] = old["text"].replace("月額480円年額3,800円1ヶ月無料トライアル", "")
+        self.assertTrue(self.check(route, old=old))
 
     def test_original_or_missing_or_changed_clauses_rejected(self):
         for route in review.SCOPE:

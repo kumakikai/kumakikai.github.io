@@ -1,4 +1,4 @@
-"""Exact four-page navigation cleanup; the pre-migration baseline stays immutable."""
+"""Exact legal navigation and OtoMiru offer cleanup; baseline stays immutable."""
 import hashlib
 import json
 from urllib.parse import urljoin
@@ -13,6 +13,8 @@ SCOPE = {
     "/privacy/oto-miru/": ("3c96e4e89b9a47adb940d32eab3cc8a90a8a3d7a80f748c1a0a42dd700837857", "オトミル", "2026-05-19"),
     "/terms/oto-miru/": ("04145fbac4df9d140bea5cef636a5a21c0df26f99eb9baa1b9ec15ecb3513279", "オトミル", "2026-05-19"),
 }
+OTO_MIRU_TERMS = "/terms/oto-miru/"
+RETIRED_OTO_MIRU_OFFER = "月額480円年額3,800円1ヶ月無料トライアル"
 
 
 def navigation_links(route):
@@ -24,7 +26,7 @@ def navigation_links(route):
 
 
 def expected_body(route, old):
-    """Transform only the known final navigation block and last update date."""
+    """Apply fixed navigation edits and the reviewed OtoMiru offer removal only."""
     if route not in SCOPE:
         raise ValueError("Only the four fixed legal routes may use this change")
     old_hash, name, old_date = SCOPE[route]
@@ -38,7 +40,16 @@ def expected_body(route, old):
     dates = ("制定日:2026-09-02" if "giga-poke" in route else "") + f"最終更新日:{old_date}"
     if old["text"].count(related) != 1 or not old["text"].endswith(related + dates):
         raise ValueError("Expected exactly one final related-page block and original dates")
-    return old["text"][:-len(related + dates)] + dates.removesuffix(old_date) + UPDATED
+    expected = old["text"][:-len(related + dates)] + dates.removesuffix(old_date) + UPDATED
+    if route == OTO_MIRU_TERMS:
+        # The current app uses StoreKit prices and a two-week introductory
+        # offer. Keep the existing purchase-screen precedence and Family
+        # Sharing wording, removing just these three stale fixed list items.
+        original_offer = "自動更新サブスクリプションです。" + RETIRED_OTO_MIRU_OFFER + "ファミリー共有に対応"
+        if expected.count(original_offer) != 1:
+            raise ValueError("Expected exactly one original OtoMiru Plus price and trial list")
+        expected = expected.replace(original_offer, original_offer.replace(RETIRED_OTO_MIRU_OFFER, ""), 1)
+    return expected
 
 
 def check_article(route, old, text, links, validated_support_links):
@@ -54,7 +65,7 @@ def check_article(route, old, text, links, validated_support_links):
         return [error("baseline", str(exc))]
     errors = []
     if text != expected:
-        errors.append(error("body", "Only the final related-page block removal and final update date change are authorized"))
+        errors.append(error("body", "Only the final related-page block removal, final update date change, and the three fixed OtoMiru Terms price/trial items are authorized"))
     if links != old["links"][:-3]:
         errors.append(error("links", "Keep every other body link in its original order, including inline legal and contact references"))
     missing = sorted(set(navigation_links(route)) - set(validated_support_links))

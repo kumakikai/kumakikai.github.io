@@ -186,8 +186,11 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 - **現在の検証は全ProductにGuide／FAQ／Privacy実ページを要求する**。本当に不要なGuide／FAQはダミーを作らず理由を報告。必要性が判断された省略はUI・検証の該当契約だけを意図的に対応し、無条件に検証を外さない。
 - アプリ別Privacy・Termsは統合せず、実データ処理・公開条件に合わせる。未公開機能を公開済みとして法務へ記載しない。
 - 法務ページの汎用導線は末尾の共通「使い方とサポート」へまとめ、本文に同じ「関連ページ」一覧や単独のProductリンクを重ねない。法務上の説明に必要な参照先や問い合わせメールは本文に残す。NoccaのPrivacy／Termsはこの構成とし、フォームは共通欄の「お問い合わせ」から案内する。旧本文リンクを移す場合も、同一ページの共通欄に既存のリンク先が残ることを検証する。
-- この重複確認は全Productと実在する全言語のGuide／FAQ／Privacy／Termsを対象にする。FAQの回答や法務条文に付随する参照リンクは、共通欄と同じURLでも文脈があるため保持する。本文にしかない問い合わせフォームを重複とみなして削除しない。ギガポケ・オトミルの法務4ページは `scripts/legal_navigation_review.py` が既存本文から許可した一覧削除と更新日の変更だけを検証する。
+- この重複確認は全Productと実在する全言語のGuide／FAQ／Privacy／Termsを対象にする。FAQの回答や法務条文に付随する参照リンクは、共通欄と同じURLでも文脈があるため保持する。本文にしかない問い合わせフォームを重複とみなして削除しない。ギガポケ・オトミルの法務4ページは `scripts/legal_navigation_review.py` が既存本文から許可した一覧削除と更新日の変更を検証する。オトミルTerms §8だけは、2026-09-08監査で確認した固定価格・試用期間の3項目削除も厳密に許可し、購入画面優先・ファミリー共有・他の条文を保持する。韓国語Uni:Note Privacyは `scripts/legal_terminology_review.py` が元の全文hashを固定し、AI機能名2箇所と最終更新日だけを変更する。法務baselineを取り直して差分を隠さない。
 - Product／Guide／FAQ末尾に同ProductのPress Releaseを重ねない。記事本文・URLは維持しNewsから案内する。
+- 同一ページの重複は完全な遷移先（query・fragmentを含む）で確認する。Product先頭と `#support` は別の役割。アンカーが存在しても、表示ラベル・回答文脈と対象節が一致するか確認する。FAQから初回設定・カレンダー・ウィジェット等を案内するときは意味の合う既存節へ進める。
+- News本文に共通Contactと同じメールリンクがある場合、`article-about.html` は同じリンクを重ねない。本文の旧サポート情報は保持する。`data/news.json` の個別 `historicalNotice: true` は、時点の混同が確認された記事に限り、公開日を使った過去情報の注記を本文外へ表示する。元の記事本文・日付・URLを上書きしない。
+- Uni:Noteの公開/公開前バージョンを比較するGuide・FAQは `version_context_date` に比較の基準日を記録する。これは最新App Store状態を自動確認する仕組みではない。公開状態を変える際は実際のリリースを確認する。
 
 ## 6. 最新画像・Guide・Simulator
 
@@ -453,3 +456,11 @@ macOSでCA参照が必要ならSSL_CERT_FILE=/etc/ssl/cert.pemを指定し、TLS
 最初の4例ではPress Release／Information／Blogを作らない。新規アプリのSupport URLは正式Product詳細ページとし、既存アプリの登録URLと過去記事は維持する。最後の例は明示依頼があるため記事を作成できる。いずれも対象data・テンプレート・検証・公開確認を特定できる。未確認の新アプリ名・配信国等だけは調査後に確認する。短い指示で完結することは、未確認事実を作ることではない。
 
 通常報告は **更新内容（Product／画像／Guide・FAQ／Support／SEO）→ 確認（build／リンク／Desktop・Mobile／本番）→ 未対応があれば理由**。全項目の長大な再掲や検索順位保証は不要。
+
+## 全ページ構造監査
+
+2026-09-08の修正前一覧と判断は [最終監査](audits/2026-09-08-final/BEFORE.md) を参照。監査の正本は現在のローカルソース。公開ページを検索キャッシュから推測しない。
+
+production build後に `python3 scripts/audit-site-structure.py --build public --output /tmp/site-structure-audit --check` で全HTML・href・画像等の参照・アンカー・重複候補・到達性・文章候補・状態表記を出力する。CIも同じ検証を実行する。生の重複数だけで失敗させず、内部切れ、不正/重複ID、旧汎用ブロック、孤立するindexableページ、本文と共通欄の重複メール、明白なラベル/節不一致を検出する。PC/モバイルの排他的メニュー、本文中の必要な法務参照、画像拡大、Product上下のStore CTAは役割に応じて保持する。意味の最終判断は人によるレビューを併用する。
+
+公開確認は `scripts/verify-published-site.py` にローカルbuildと該当gh-pages成果物を渡し、全ファイルをcurlで直接GETして一覧・SHA256を比較する。no-cacheヘッダーと固有queryを送り、取得HTMLも同じ走査器へ渡す。Actionsが追加する空の `.nojekyll` を配信制御ファイルとして区別し、公開HTMLは例外なく比較する。

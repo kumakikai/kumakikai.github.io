@@ -30,6 +30,7 @@ from legal_navigation_review import (
     check_article as check_legal_navigation_article,
     navigation_links as legal_navigation_links,
 )
+from legal_terminology_review import ROUTE as KOREAN_PRIVACY_ROUTE, check_article as check_korean_privacy
 
 SITE = "https://kumakikai.github.io"
 LOCAL_HOSTS = {"kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
@@ -294,6 +295,7 @@ class Verification:
             review = self.guide_reviews.get(route)
             legal_review = self.nocca_legal_reviews.get(route)
             legal_navigation = route in LEGAL_NAVIGATION_SCOPE
+            terminology_review = route == KOREAN_PRIVACY_ROUTE
             if legal_review:
                 links = {urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href") and not node.has_class("anchor")}
                 self.errors.extend(check_nocca_legal_article(route, legal_review, new_text, links))
@@ -318,13 +320,20 @@ class Verification:
                 self.require(review.get("reviewedTextSHA256") == digest(new_text), route, "guide_review_body", "Rendered guide body changed since the recorded content review")
                 self.require(bool(review.get("reason")), route, "guide_review_reason", "Content replacement needs a recorded review reason")
                 self.counts["reviewed_guide_and_faq_bodies"] += 1
+            elif terminology_review:
+                try:
+                    body_links = [urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href") and not node.has_class("anchor") and not node.has_class("heading-anchor")]
+                    check_korean_privacy(route, old, new_text, body_links)
+                except ValueError as exc:
+                    self.require(False, route, "legal_terminology_body", str(exc))
+                self.counts["reviewed_legal_terminology_bodies"] += 1
             elif route in AUTHORIZED_ARTICLE_REPLACEMENTS:
                 before, after = AUTHORIZED_ARTICLE_REPLACEMENTS[route]
                 self.require(expected_text.count(before) == 1, route, "authorized_article_change", "The explicitly authorized sentence must occur exactly once in the immutable baseline")
                 expected_text = expected_text.replace(before, after, 1)
                 self.require("iPad専用" not in new_text, route, "authorized_article_change", "The authorized iPad wording change was not applied")
                 self.counts["authorized_article_wording_changes"] += 1
-            if not review and not legal_review and not legal_navigation:
+            if not review and not legal_review and not legal_navigation and not terminology_review:
                 self.require(expected_text in new_text, route, "legacy_content", "Original rendered article body was dropped, changed, or reordered beyond the exact authorized wording change")
             missing = sorted(set(old["ids"]) - set(doc.ids))
             self.require(not missing, route, "legacy_anchor", f"Original article anchors disappeared: {missing}")
@@ -790,9 +799,13 @@ class Verification:
                             if field not in old:
                                 continue
                             current_value = "".join(current_copy.get("taglineLines", [])) if field == "tagline" else current_copy.get(field, "")
-                            self.require(normalized(current_value) == old[field], home_route, "fixed_product_copy", f"{app_id}: accepted {field} copy changed")
+                            expected_value = old[field]
+                            if (lang, app_id, field) == ("ko", "smokeless", "name"):
+                                self.require(expected_value == "스와나비", home_route, "korean_product_name_baseline", "Keep the original name baseline; only its reviewed Korean correction is allowed")
+                                expected_value = "Smokeless"
+                            self.require(normalized(current_value) == expected_value, home_route, "fixed_product_copy", f"{app_id}: accepted {field} copy changed")
                             if by_id.get(app_id, {}).get("featured") is True:
-                                self.require(old[field] in normalized(home.root.text()), home_route, "rendered_product_copy", f"{app_id}: accepted {field} is missing from rendered home")
+                                self.require(expected_value in normalized(home.root.text()), home_route, "rendered_product_copy", f"{app_id}: accepted {field} is missing from rendered home")
                             self.counts["fixed_product_copy_fields"] += 1
                 for app in eligible:
                     app_id = app["id"]

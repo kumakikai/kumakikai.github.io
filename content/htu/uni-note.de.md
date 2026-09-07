@@ -1,4 +1,5 @@
 ---
+version_context_date: "2026-09-07"
 title: "Anleitung (Uni:Note)"
 description: "Anleitung für Uni:Note."
 lastmod: 2026-09-07

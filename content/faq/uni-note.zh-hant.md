@@ -1,4 +1,5 @@
 ---
+version_context_date: "2026-09-07"
 title: "FAQ (Uni:Note)"
 description: "Uni:Note 常見問題。"
 lastmod: 2026-09-07

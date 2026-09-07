@@ -1,7 +1,7 @@
 ---
 title: "FAQ (Smokeless)"
 description: "Questions fréquentes sur Smokeless."
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
 
 ## Généralités
@@ -16,14 +16,14 @@ Cela enregistre une occasion où vous aviez envie de fumer mais ne l’avez pas 
 Non. Elle ne fournit ni acte médical ni traitement.
 
 ### Y a-t-il un tutoriel au premier lancement ?
-Oui, au premier lancement. Consultez le [guide illustré]({{< relref "/htu/smokeless/" >}}) pour les réglages initiaux et les commandes courantes.
+Oui, au premier lancement. Consultez [le tutoriel et les réglages du paquet]({{< relref "/htu/smokeless/" >}}#1-vérifiez-le-premier-tutoriel-et-les-réglages-du-paquet) pour la configuration initiale.
 
 ---
 
 ## Enregistrement et relecture
 
 ### Que puis-je consulter ?
-Vous pouvez consulter les nombres, les montants et les tendances. Le [guide]({{< relref "/htu/smokeless/" >}}) présente ces écrans.
+Vous pouvez consulter les nombres, les montants et les tendances. Consultez [la vue par jour, mois et année du calendrier]({{< relref "/htu/smokeless/" >}}#4-revoyez-par-jour-mois-et-année-dans-calendrier).
 
 ### Comment le montant est-il calculé ?
 Le montant par cigarette est calculé à partir de `Cigarettes par paquet` et `Prix du paquet`, puis `Fumée` et `Évitée` sont converties en montant.
@@ -52,7 +52,7 @@ Non. Vous pouvez utiliser l'application sans connexion ni inscription.
 ## Fonctions
 
 ### Existe-t-il un widget d'accueil ?
-Oui. Consultez les instructions du widget dans le [guide illustré]({{< relref "/htu/smokeless/" >}}).
+Oui. Consultez [les instructions du widget d’accueil]({{< relref "/htu/smokeless/" >}}#6-utilisez-le-widget-daccueil).
 
 ### Puis-je ajouter plusieurs marques ?
 Une marque est disponible au départ. Le pack de marques permet d’en enregistrer quatre au total après achat.

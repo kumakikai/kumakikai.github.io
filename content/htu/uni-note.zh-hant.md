@@ -1,4 +1,5 @@
 ---
+version_context_date: "2026-09-07"
 title: "使用說明 (Uni:Note)"
 description: "Uni:Note 使用說明。"
 lastmod: 2026-09-07

@@ -1,0 +1,7 @@
+{{- /* Check actual anchors, keeping fragments and mail subjects distinct. */ -}}
+{{- $found := false -}}
+{{- $target := .url -}}
+{{- range findRESubmatch `(?i)<a\s[^>]*?\bhref\s*=\s*["']([^"']*)["']` .content -}}
+  {{- if eq (htmlUnescape (index . 1)) $target -}}{{- $found = true -}}{{- end -}}
+{{- end -}}
+{{- return $found -}}

@@ -1,4 +1,5 @@
 ---
+version_context_date: "2026-09-07"
 title: "Mode d’emploi (Uni:Note)"
 description: "Mode d’emploi pour Uni:Note."
 lastmod: 2026-09-07

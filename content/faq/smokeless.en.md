@@ -1,7 +1,7 @@
 ---
 title: "FAQ (Smokeless)"
 description: "Frequently asked questions about Smokeless."
-lastmod: 2026-09-07
+lastmod: 2026-09-08
 ---
 
 ## Basics
@@ -16,14 +16,14 @@ It records a time when you wanted to smoke but did not. It does not automaticall
 No. It does not provide medical treatment or medical services.
 
 ### Is there a first-time tutorial?
-Yes. It appears on first launch. See the [illustrated guide]({{< relref "/htu/smokeless/" >}}) for initial settings and everyday controls.
+Yes. It appears on first launch. See [the first tutorial and pack settings]({{< relref "/htu/smokeless/" >}}#1-check-the-first-tutorial-and-pack-settings) for the initial setup.
 
 ---
 
 ## Recording and review
 
 ### What can I check?
-You can review counts, money values and trends. The [guide]({{< relref "/htu/smokeless/" >}}) explains the review screens.
+You can review counts, money values and trends. See [daily, monthly and yearly review in Calendar]({{< relref "/htu/smokeless/" >}}#4-review-by-day-month-and-year-in-calendar) for the calendar controls.
 
 ### How is the money amount calculated?
 The amount per cigarette is calculated from `Cigarettes per pack` and `Price per pack`, and `Smoked` and `Avoided` are converted into money values.
