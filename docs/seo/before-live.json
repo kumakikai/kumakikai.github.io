@@ -1,0 +1,19 @@
+{
+  "capturedAt": "2026-09-07T06:02:16.997458+00:00",
+  "redirectChecks": [
+    {
+      "url": "https://kumakikai.github.io/products/uni-note",
+      "initialStatus": 301,
+      "location": "https://kumakikai.github.io/products/uni-note/",
+      "method": "curl -sI; 2026-09-07T06:04:02Z"
+    },
+    {
+      "url": "https://kumakikai.github.io/seo-audit-nonexistent-20260907/",
+      "initialStatus": 404,
+      "method": "curl -sI; 2026-09-07T06:04:02Z"
+    }
+  ],
+  "fullEvidence": "before-live.json.gz",
+  "fullEvidenceSHA256": "1d049217bdccf94433d30ae4c4602b208065e5d87b609e2588f394aacd62e676",
+  "resultCount": 28
+}

@@ -1,0 +1,77 @@
+{{- /* Shared identity graph. The caller supplies the page's final SEO fields. */ -}}
+{{- $page := .page -}}
+{{- $root := "/" | absURL -}}
+{{- $brandID := printf "%s#brand" $root -}}
+{{- $personID := printf "%scompany/#person" $root -}}
+{{- $websiteID := printf "%s#website" $root -}}
+{{- $pageID := printf "%s#webpage" $page.Permalink -}}
+{{- $brandRef := dict "@id" $brandID -}}
+{{- $personRef := dict "@id" $personID -}}
+{{- $websiteRef := dict "@id" $websiteID -}}
+{{- $pageRef := dict "@id" $pageID -}}
+{{- $profile := index site.Data.company $page.Language.Lang -}}
+{{- $brand := dict "@type" "Brand" "@id" $brandID "name" "KUMAKIKAI" "url" $root "logo" ("/apple-touch-icon.png" | absURL) -}}
+{{- /* Person.brand explicitly supports a brand maintained by a business person. */ -}}
+{{- $person := dict "@type" "Person" "@id" $personID "name" $profile.founderName "jobTitle" $profile.founderRole "url" ("/company/" | absURL) "brand" $brandRef -}}
+{{- $languages := slice -}}
+{{- range hugo.Sites -}}{{- $languages = $languages | append .Language.LanguageCode -}}{{- end -}}
+{{- $website := dict "@type" "WebSite" "@id" $websiteID "name" "KUMAKIKAI" "url" $root "inLanguage" $languages "publisher" $personRef "about" $brandRef -}}
+{{- $graph := slice $brand $person $website -}}
+{{- $webpage := dict "@type" "WebPage" "@id" $pageID "url" $page.Permalink "name" .title "description" .description "inLanguage" $page.Language.LanguageCode "isPartOf" $websiteRef -}}
+{{- with .image -}}{{- $webpage = merge $webpage (dict "primaryImageOfPage" (dict "@type" "ImageObject" "url" (. | absURL))) -}}{{- end -}}
+
+{{- if $page.IsHome -}}
+  {{- $webpage = merge $webpage (dict "about" (slice $brandRef $personRef)) -}}
+{{- else if eq $page.Type "company" -}}
+  {{- $webpage = merge $webpage (dict "@type" "AboutPage" "mainEntity" (slice $brandRef $personRef)) -}}
+{{- else if eq $page.Type "product" -}}
+  {{- $app := index (where site.Data.apps "id" $page.Params.product_id) 0 -}}
+  {{- $text := index (index site.Data.home $page.Language.Lang).apps $app.id -}}
+  {{- $softwareID := printf "%sproducts/%s/#software" $root $app.id -}}
+  {{- $softwareRef := dict "@id" $softwareID -}}
+  {{- $systems := $app.operatingSystems -}}
+  {{- with (index site.Data.product_details $app.id).watch -}}
+    {{- if eq .status "published" -}}{{- $systems = $systems | append "watchOS" | uniq -}}{{- end -}}
+  {{- end -}}
+  {{- $software := dict "@type" "SoftwareApplication" "@id" $softwareID "name" $text.name "description" .description "url" $page.Permalink "image" ($app.icon | absURL) "operatingSystem" $systems "creator" $personRef "publisher" $personRef "mainEntityOfPage" $pageRef -}}
+  {{- /* These are this site's editorial areas, not claimed App Store categories. */ -}}
+  {{- $categories := dict "learning" "EducationalApplication" "communication" "CommunicationApplication" "utilities" "UtilitiesApplication" -}}
+  {{- with index $categories $app.area -}}{{- $software = merge $software (dict "applicationCategory" .) -}}{{- end -}}
+  {{- if eq $app.status "published" -}}
+    {{- with $app.appStoreURL -}}{{- $software = merge $software (dict "downloadUrl" .) -}}{{- end -}}
+  {{- else -}}
+    {{- $software = merge $software (dict "creativeWorkStatus" "In development") -}}
+  {{- end -}}
+  {{- $screenshots := slice -}}
+  {{- range $app.screenshots -}}{{- $screenshots = $screenshots | append (.large | absURL) -}}{{- end -}}
+  {{- with $screenshots -}}{{- $software = merge $software (dict "screenshot" .) -}}{{- end -}}
+  {{- $graph = $graph | append $software -}}
+  {{- $breadcrumbID := printf "%s#breadcrumb" $page.Permalink -}}
+  {{- /* Match the existing visible Products / app-name trail; do not add UI. */ -}}
+  {{- $breadcrumbs := slice (dict "@type" "ListItem" "position" 1 "name" "Products" "item" ("/products/" | absLangURL)) (dict "@type" "ListItem" "position" 2 "name" $text.name "item" $page.Permalink) -}}
+  {{- $graph = $graph | append (dict "@type" "BreadcrumbList" "@id" $breadcrumbID "itemListElement" $breadcrumbs) -}}
+  {{- $webpage = merge $webpage (dict "mainEntity" $softwareRef "breadcrumb" (dict "@id" $breadcrumbID)) -}}
+{{- else if and $page.IsPage (in (slice "notes" "news") $page.Section) -}}
+  {{- $category := partial "news-category.html" $page -}}
+  {{- $articleType := "Article" -}}
+  {{- if eq $category.id "blog" -}}{{- $articleType = "BlogPosting" -}}{{- end -}}
+  {{- $articleID := printf "%s#article" $page.Permalink -}}
+  {{- $article := dict "@type" $articleType "@id" $articleID "headline" $page.Title "description" .description "articleSection" $category.label "url" $page.Permalink "inLanguage" $page.Language.LanguageCode "mainEntityOfPage" $pageRef "isPartOf" $websiteRef "author" $personRef "publisher" $personRef -}}
+  {{- if not $page.Date.IsZero -}}{{- $article = merge $article (dict "datePublished" ($page.Date.Format "2006-01-02T15:04:05Z07:00")) -}}{{- end -}}
+  {{- if not $page.Lastmod.IsZero -}}{{- $article = merge $article (dict "dateModified" ($page.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}{{- end -}}
+  {{- $meta := index site.Data.news $page.File.ContentBaseName | default dict -}}
+  {{- $related := $page.Params.related_products | default $meta.relatedProducts -}}
+  {{- $mentionedApps := slice -}}
+  {{- range $id := $related -}}
+    {{- range where site.Data.apps "id" $id -}}
+      {{- $text := index (index site.Data.home $page.Language.Lang).apps .id -}}
+      {{- $mentionedApps = $mentionedApps | append (dict "@id" (printf "%sproducts/%s/#software" $root .id) "name" $text.name "url" (printf "/products/%s/" .id | absLangURL)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $mentionedApps -}}{{- $article = merge $article (dict "mentions" .) -}}{{- end -}}
+  {{- /* OGP logos are not automatically representative Article images. */ -}}
+  {{- $graph = $graph | append $article -}}
+  {{- $webpage = merge $webpage (dict "mainEntity" (dict "@id" $articleID)) -}}
+{{- end -}}
+{{- $graph = $graph | append $webpage -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

@@ -1,0 +1,12 @@
+{{- $alternates := slice -}}
+{{- $default := false -}}
+{{- if partial "seo/indexable.html" . -}}
+  {{- range .AllTranslations -}}
+    {{- if partial "seo/indexable.html" . -}}
+      {{- $alternates = $alternates | append (dict "lang" (partial "seo/language.html" .) "url" .Permalink) -}}
+      {{- if eq .Language.Lang "ja" -}}{{- $default = .Permalink -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $default -}}{{- $alternates = $alternates | append (dict "lang" "x-default" "url" .) -}}{{- end -}}
+{{- end -}}
+{{- return $alternates -}}

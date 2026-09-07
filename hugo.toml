@@ -4,6 +4,7 @@ defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = false
 title = "KUMAKIKAI"
 enableRobotsTXT = true
+enableGitInfo = true
 theme = "hugoplate"
 timeZone = "Asia/Tokyo"
 
@@ -59,9 +60,19 @@ timeZone = "Asia/Tokyo"
 [pagination]
   pagerSize = 3
 
+[frontmatter]
+  # Editorial dates win; Git is a stable fallback, never the build clock.
+  lastmod = ["lastmod", "modified", ":git", "date", "publishdate"]
+
 [params]
   description = "KUMAKIKAI — iPhone・iPad向けアプリの企画・開発・運営"
   mainSections = ["notes", "news"]
+
+  [params.verification]
+    # Paste only the content value issued for your URL-prefix property.
+    # Empty values emit no verification tag. Do not invent verification codes.
+    google = ""
+    bing = ""
 
 [build]
   [build.buildStats]

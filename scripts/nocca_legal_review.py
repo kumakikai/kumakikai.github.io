@@ -12,7 +12,7 @@ PURPOSE = "nocca-legal-update-2026-09-07"
 CATALOG = "docs/legal/reviewed-nocca-content.json"
 BAD_FORM = "https://forms.gle/Enzmm94LdXRZjP8k9"
 NOTES = "/notes/2026-09-06-nocca/"
-NOTES_SOURCE_SHA256 = "69d646a783b4b7e6312de61ba3673343d10a419b9a4a469b3a995ab86ad87af7"
+NOTES_SOURCE_SHA256 = "ffe961cc75418f296303c186e42ad0887ad8a82ea39546a9347dc9e5dba5d1ce"
 SCOPE = {
     "/privacy/nocca/": ("content/privacy/nocca.md", "e01d5993ef49c080b2b2a9c5b30ce12b125ce15e6cca69d3c5d51cd3bf7a1fff"),
     "/terms/nocca/": ("content/terms/nocca.md", "150df3841135c7542cbe39b7318c9d1cb53b68bb2a4e2fff8c8718855da46946"),

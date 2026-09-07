@@ -1,0 +1,2 @@
+{{- /* Language, not App Store country. Traditional Chinese has no region lock. */ -}}
+{{- return (index (dict "zh-hant" "zh-Hant") .Language.Lang | default .Language.Lang) -}}

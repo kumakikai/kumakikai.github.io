@@ -1,0 +1,5 @@
+{{/* A root urlset covers all languages, including Japanese URLs outside /ja/. */}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{{ range . }}{{ range .Pages }}{{ partial "seo/sitemap-url.html" . }}{{ end }}{{ end }}
+</urlset>

@@ -2,7 +2,8 @@
 """Generate Hugo product and company entry points from shared JSON data.
 
 Run `python3 scripts/sync-products.py` after editing data/apps.json,
-data/home/<language>.json, or data/corporate/<language>.json. Use --check in CI.
+data/home/<language>.json, data/corporate/<language>.json, or
+data/seo/<language>.json. Use --check in CI.
 Existing editorial content is never overwritten. Generated pages are not deleted
 automatically because their URLs may already be used outside this website.
 """
@@ -38,18 +39,29 @@ def generate(root):
     for lang in LANGUAGES:
         home = load(root / "data/home" / f"{lang}.json")
         corporate = load(root / "data/corporate" / f"{lang}.json")
+        seo = load(root / "data/seo" / f"{lang}.json")
+        if set(seo["products"]) != set(ids):
+            raise ValueError(f"SEO product IDs must match data/apps.json: {lang}")
+        for label, entry in [("home", seo["home"]), ("about", seo["about"]), *seo["products"].items()]:
+            if any(not isinstance(entry.get(key), str) or not entry[key].strip() for key in ("title", "description")):
+                raise ValueError(f"SEO title and description are required: {lang}/{label}")
         suffix = "" if lang == "ja" else f".{lang}"
         for section in SECTIONS:
-            expected[root / "content" / section / f"_index{suffix}.md"] = frontmatter({
+            fields = {
                 "title": corporate["nav"][section],
                 "description": corporate[f"{section}Description"],
                 "type": section,
-            })
+            }
+            if section == "company":
+                fields["description"] = seo["about"]["description"]
+                fields["seo_title"] = seo["about"]["title"]
+            expected[root / "content" / section / f"_index{suffix}.md"] = frontmatter(fields)
         for app in apps:
             copy = home["apps"][app["id"]]
             expected[root / "content/products" / f"{app['id']}{suffix}.md"] = frontmatter({
                 "title": copy["name"],
-                "description": copy["description"],
+                "description": seo["products"][app["id"]]["description"],
+                "seo_title": seo["products"][app["id"]]["title"],
                 "type": "product",
                 "product_id": app["id"],
             })

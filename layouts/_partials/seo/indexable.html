@@ -1,0 +1,9 @@
+{{- /* Use the same decision for robots, hreflang, structured data and sitemap. */ -}}
+{{- $indexable := not (or (eq .Kind "404") .Params.noindex) -}}
+{{- if and (not .IsPage) (in (slice "support" "privacy" "htu" "faq" "terms" "notes") .Section) -}}
+  {{- $indexable = false -}}
+{{- end -}}
+{{- if and (in (slice "taxonomy" "term") .Kind) (eq (len .RegularPagesRecursive) 0) -}}
+  {{- $indexable = false -}}
+{{- end -}}
+{{- return $indexable -}}

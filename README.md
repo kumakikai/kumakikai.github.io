@@ -79,6 +79,7 @@ npm run verify
 | `data/product_ui/<lang>.json` | Product詳細の見出し・基本情報ラベル・下部CTAの6言語コピー |
 | `data/company/<lang>.json` | 6言語のAbout紹介、公開許可済みFounder、開発領域、For Media、News絞り込みラベル |
 | `data/corporate/<lang>.json` | 6言語のナビゲーション、会社紹介、各一覧・CTAのコピー |
+| `data/seo/<lang>.json` | Home・About・各Productの固有SEO title／description。Hero本文とは分離 |
 | `data/theme.json` | Hugoplateの色・フォント・文字サイズtoken |
 | `data/hero.json` | 実UIを使ったHero画像の寸法、responsive画像、alt |
 | `data/news.json` | 既存Notes記事のカテゴリ・関連プロダクトを補うメタデータ |
@@ -103,7 +104,8 @@ npm run verify
 3. 実際のアイコン・スクリーンショットを`static/images/apps/<id>/`へ配置し、`data/apps.json`に幅・高さとsmall／large画像を登録します。素材がない場合は`screenshots: []`にします。
 4. 使い方、FAQ、Privacy、Termsがある場合は既存の規則で`content/<section>/<id>.md`を用意し、`data/apps.json`の`support`に`guideURL`・`faqURL`・`privacyURL`・必要なら`termsURL`を設定します。既存ページは現在のURLをそのまま指定します。問い合わせ先が共通と異なる場合だけ`contactURL`を設定してください。翻訳がなければ日本語ページへ案内します。
 5. `data/product_details/<id>.json`へ、Homeとは別の製品紹介を6言語で追加します。公開版とローカル開発版を区別して確認し、根拠と素材の出典を`docs/products/`へ残します。下の「Product詳細の編集」を参照してください。
-6. `npm run sync:products`、`npm run build`、`npm run verify`を実行し、差分とブラウザ表示を確認します。
+6. `data/seo/`の6言語へ固有title／descriptionを追加します。`data/apps.json`の公開状態・`operatingSystems`・`area`・App Store URLも確認します。SoftwareApplication、OGP、canonicalは共通テンプレートから生成します。価格・評価・架空の別名は追加しません。
+7. `npm run sync:products`、`npm run build`、`npm run verify`、`python3 scripts/verify-seo.py --build public`を実行し、差分とブラウザ表示を確認します。
 
 現在は8アプリ×6言語の48 Productページと、主要3セクション＋Support互換ページ×6言語の24入口、計72 Markdownを`scripts/sync-products.py`で同期します。生成ページにはマーカーがあり、直接編集せず共通JSONを変更します。手書きの記事は同期スクリプトの上書き対象になりません。
 
@@ -228,6 +230,8 @@ Tailwindの自動ファイル探索は`source(none)`で無効化し、Hugoが実
 画像にはWebPのresponsive variantsと実寸を設定し、Hero以外は原則lazy loadingにします。実在しないUIや未公開機能を画像で補いません。HeroとOGPの出典・加工内容は[Hero素材記録](docs/migration/hero-assets.md)、[OGP素材記録](docs/migration/og-assets.md)を参照してください。OGPのPNGはコミット済みで、通常のbuild時には再生成しません。既存のsharp環境を使い、`node scripts/generate-og.mjs uni-note`で指定Productだけ再生成できます。引数なしなら共通画像と全Productを生成します。
 
 ## GitHub Pagesへのデプロイ
+
+title・description・構造化データの管理、実際の更新日の記録、Search Consoleの所有権確認とサイトマップ送信は[SEO運用メモ](docs/seo/OPERATIONS.md)を参照してください。生成HTMLは`npm run verify:seo`で検証できます。
 
 `.github/workflows/deploy.yaml`は`main`へのpush、または手動実行で起動します。
 

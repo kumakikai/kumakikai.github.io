@@ -1,0 +1,357 @@
+{
+  "checkedAt": "2026-09-07T06:12:58.037695+00:00",
+  "sourceCommitBefore": "3d0f0347c29804745a12aad424a51b6d4960bb24",
+  "deployedCommitBefore": "dac80f68e1052e4e7053b6263176889372640c22",
+  "scope": "Only description and actual metadata-update lastmod in 15 existing News article front matters; body, title, date, filenames and URLs unchanged.",
+  "updatedArticles": 15,
+  "previouslyMissingDescriptions": 13,
+  "previouslyGenericDescriptions": 2,
+  "lastmodReason": "2026-09-07: SEO description metadata updated; historical article body remains unchanged.",
+  "articles": [
+    {
+      "file": "content/notes/2026-01-23-introduction.md",
+      "url": "https://kumakikai.github.io/notes/2026-01-23-introduction/",
+      "category": "press-release",
+      "beforeFrontMatter": {
+        "title": "ギャンカレについて",
+        "date": "2026-01-23",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "はじめまして。\n収支管理アプリ 「ギャンカレ」 を、個人で開発している制作者です。\n普段は個人事業主として仕事をしながら、\n自分自身のギャンブルとの付き合い方を見直すために、このアプリを作りました。\n特別な専門家でも、\n誰かを指導する立場でもありません。\nただ一人の利用者として、「あったら使いたいも …",
+      "afterFrontMatter": {
+        "title": "ギャンカレについて",
+        "date": "2026-01-23",
+        "description": "収支管理アプリ「ギャンカレ」を作った理由と、数字を記録して振り返るという設計方針を紹介します。KUMAKIKAIによる発表記事とサポート窓口です。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "94a3bb352b413f47a3c1d1b98f2198a99fc7811bf2d8567b1bf6663f4314d2ac",
+      "descriptionCharacters": 73
+    },
+    {
+      "file": "content/notes/2026-01-26-roadmap.md",
+      "url": "https://kumakikai.github.io/notes/2026-01-26-roadmap/",
+      "category": "blog",
+      "beforeFrontMatter": {
+        "title": "ギャンカレの今後について（ロードマップ）",
+        "date": "2026-01-23",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "ギャンカレは、\n「考えさせない」「判断を迫らない」「淡々と記録する」\nこのコンセプトを最優先に開発しています。\nそのため、\n多機能化や分析機能の追加を急ぐことはしていません。\n一方で、\n「長く安心して使える状態」を整えていくことは重要だと考えています。\nこの記事では、\n今後の対応予定（ロードマップ） …",
+      "afterFrontMatter": {
+        "title": "ギャンカレの今後について（ロードマップ）",
+        "date": "2026-01-23",
+        "description": "2026年1月時点で考えていたギャンカレの開発計画。Android版、タグ拡張、アプリロック、バックアップなどの予定と、機能を増やす際の方針を記録しています。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "109dd18719fe1654829d0920205d52e3b5c265343f33e93a0dbb3ffa8231990b",
+      "descriptionCharacters": 79
+    },
+    {
+      "file": "content/notes/2026-01-27-philosophy.md",
+      "url": "https://kumakikai.github.io/notes/2026-01-27-philosophy/",
+      "category": "blog",
+      "beforeFrontMatter": {
+        "title": "思想",
+        "date": "2026-01-27",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "ギャンカレの思想について ギャンカレは、\n収支を「評価」するためのアプリではありません。\n勝った・負けたという感情や、\n良かった・悪かったという判断を残すのではなく、\n実際に起きた数字だけを記録することを目的としています。\nあえて、やらないこと 多くの収支管理アプリが行っていることを、\nギャンカレは …",
+      "afterFrontMatter": {
+        "title": "思想",
+        "date": "2026-01-27",
+        "description": "ギャンカレで収支の評価や勝率分析を目的にせず、実際の数字を記録することを選んだ理由。公開初期の設計方針と、想定していた利用者像をまとめています。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "0d8c28d6487f804cf46a3f6ad17d96820fce964d08cdb71068557fde0b8afc01",
+      "descriptionCharacters": 72
+    },
+    {
+      "file": "content/notes/2026-02-14-blog.md",
+      "url": "https://kumakikai.github.io/notes/2026-02-14-blog/",
+      "category": "blog",
+      "beforeFrontMatter": {
+        "title": "リリースから1ヶ月。DLが伸びない中で考えたこと",
+        "date": "2026-02-14",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "DLが伸びない ギャンカレを1月19日にリリースしてから、約1ヶ月が経ちました。\n数字で言うと、\nダウンロード数：20数件 CVR（ストア閲覧→インストール率）：約1％前後 継続率：かなり低い 正直に言えば、経営的には完全に「未達」です。\n初めてのアプリリリースということもあり、\nどこでユーザーが離 …",
+      "afterFrontMatter": {
+        "title": "リリースから1ヶ月。DLが伸びない中で考えたこと",
+        "date": "2026-02-14",
+        "description": "ギャンカレ公開から約1か月の運営記録。ダウンロードや継続利用が伸びない中、初回チュートリアルとタグ追加パックを導入した経緯、当時の改善方針を振り返ります。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "47fd223bf5afe8ce16cd2e7dcd3b007b06d7d0ceae3204d692510540c99b4074",
+      "descriptionCharacters": 77
+    },
+    {
+      "file": "content/notes/2026-02-22-signal.md",
+      "url": "https://kumakikai.github.io/notes/2026-02-22-signal/",
+      "category": "press-release",
+      "beforeFrontMatter": {
+        "title": "SIGNALについて",
+        "date": "2026-02-22",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "個人発信を中心にしたニュースフィードアプリ 「SIGNAL」 を、開発しています。\n日々流れてくる大量の情報の中で、\n「本当に読みたいもの」に出会いづらいと感じたことがきっかけでした。\n特別な編集者でも、 メディアの運営者でもありません。\nただ一人の利用者として、「自分が使いたいフィード」を形にして …",
+      "afterFrontMatter": {
+        "title": "SIGNALについて",
+        "date": "2026-02-22",
+        "description": "note、Qiita、Zennなどの個人発信をまとめるニュースフィードアプリ「SIGNAL」。開発のきっかけと公開当初の設計方針、KUMAKIKAIのサポート窓口を紹介します。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "1532f4224a0aa0ea1d59f5e622e403308f25bec128cdb88c645172a2959bef8b",
+      "descriptionCharacters": 88
+    },
+    {
+      "file": "content/notes/2026-03-12-uni-note.md",
+      "url": "https://kumakikai.github.io/notes/2026-03-12-uni-note/",
+      "category": "press-release",
+      "beforeFrontMatter": {
+        "title": "Uni:Noteについて",
+        "date": "2026-03-12",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "iPad向けの手書きノートアプリ 「Uni:Note」 を、開発しています。\niPad向けのペンアプリは高機能なものが多い一方で、\n大学ノートや勉強ノートに特化したアプリは、意外となかなか見つかりませんでした。\n「ノートごとに分けたい」\n「すぐ開いて、そのまま書きたい」\n「余計な機能より、ノートとし …",
+      "afterFrontMatter": {
+        "title": "Uni:Noteについて",
+        "date": "2026-03-12",
+        "description": "iPad向け手書きノートアプリ「Uni:Note」を作った背景。現役学生の助言を受け、Apple Pencilで書く授業ノートを教科ごとに整理する設計を目指した経緯を紹介します。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "42cf094272db93b1c1fd90b6175c8a1745ab833d61677e2dd0e7426b53971bc9",
+      "descriptionCharacters": 89
+    },
+    {
+      "file": "content/notes/2026-03-13-blog.md",
+      "url": "https://kumakikai.github.io/notes/2026-03-13-blog/",
+      "category": "blog",
+      "beforeFrontMatter": {
+        "title": "赤字でも、まだ作り続けている",
+        "date": "2026-03-13",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "赤字でも、まだ作り続けている 相変わらず、数字はかなり厳しいです。\nダウンロードは伸びない。 レビューもつかない。 改善の手がかりも少ない。\nそれなのに、広告費だけは少しずつ積み上がっていきます。\n正直に言えば、なかなかしんどいです…😅\n何が悪いのか。 何を直せばいいのか。 そもそも今やっている改善 …",
+      "afterFrontMatter": {
+        "title": "赤字でも、まだ作り続けている",
+        "date": "2026-03-13",
+        "description": "ギャンカレのダウンロードやレビューが伸びず、広告費が積み重なっていた2026年3月の開発記録。Android版の準備、大学ノートアプリの開発、SIGNALの運営について書いています。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "1978ab1ee4c160e79906d4b478d67cff8362f9e84a5f051bff04165ca7187c75",
+      "descriptionCharacters": 91
+    },
+    {
+      "file": "content/notes/2026-03-21-smokeless.md",
+      "url": "https://kumakikai.github.io/notes/2026-03-21-smokeless/",
+      "category": "press-release",
+      "beforeFrontMatter": {
+        "title": "すわなびについて",
+        "date": "2026-03-21",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "禁煙カウンターアプリ 「すわなび」 は、 喫煙している友人からの要望をきっかけに作ったアプリです。\n私は普段たばこを吸わないため、 最初はどこに需要があるのか、どんな機能が本当に必要なのか、正直あまりよく分かっていませんでした。\nただ、話を聞いてみると、\n「今日は何本吸ったのか」 「どれだけ我慢でき …",
+      "afterFrontMatter": {
+        "title": "すわなびについて",
+        "date": "2026-03-21",
+        "description": "喫煙している友人の要望から生まれた「すわなび」。喫煙と我慢の回数、本数や金額を記録するアプリの開発経緯と、公開当初に重視した機能を紹介します。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "3ebdc6d082f901e6b9b0702c131eb64cbfd763fe4029cbf9016ca5e2f4ce13b1",
+      "descriptionCharacters": 71
+    },
+    {
+      "file": "content/notes/2026-03-25-blog.md",
+      "url": "https://kumakikai.github.io/notes/2026-03-25-blog/",
+      "category": "blog",
+      "beforeFrontMatter": {
+        "title": "最近、友人にアプリ開発の悩みを相談しました",
+        "date": "2026-03-25",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "最近、友人にアプリ開発の悩みを相談しました 先週、友人に最近のアプリ開発の悩みを相談する機会がありました。\n自分ひとりで考えていると、どうしても見える範囲が狭くなってしまいますが、 やはり他の人の視点で見てもらうと、自分では気づけなかったことがたくさん見えてきます。\n「そういう見方があったのか」と思 …",
+      "afterFrontMatter": {
+        "title": "最近、友人にアプリ開発の悩みを相談しました",
+        "date": "2026-03-25",
+        "description": "友人への相談をきっかけに、アプリ内の問い合わせ導線や開発の優先順位を見直した記録。2026年3月当時のギャンカレの運営方針と、大学ノートアプリの改善予定を紹介します。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "f40502515bd09b6209642dd0172ef582104a70b8824bc9b04a8d4a94b25d8e23",
+      "descriptionCharacters": 83
+    },
+    {
+      "file": "content/notes/2026-04-01-uni-note-pocket.md",
+      "url": "https://kumakikai.github.io/notes/2026-04-01-uni-note-pocket/",
+      "category": "press-release",
+      "beforeFrontMatter": {
+        "title": "Uni:Note Pocketについて",
+        "date": "2026-04-01",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "iPhone向けの連携アプリ 「Uni:Note Pocket」 を開発しました。\nUni:Note は iPad で書くためのアプリですが、\n実際に使っていると\n通勤中に少し見返したい 通学の移動中に軽く確認したい 電車の中でノートだけさっと開きたい と思う場面があるかもしれません。\nただ、そのた …",
+      "afterFrontMatter": {
+        "title": "Uni:Note Pocketについて",
+        "date": "2026-04-01",
+        "description": "Uni:Noteで書いたノートをiPhoneで見返す「Uni:Note Pocket」の発表記事。通勤・通学中に読む用途と、手動バックアップからノートを取り込む公開当初の連携方法を紹介します。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "edf928025f394812ea7256a5fc285910f26af7259413dc6f108db5702a496dc6",
+      "descriptionCharacters": 96
+    },
+    {
+      "file": "content/notes/2026-04-12-uni-note-10000.md",
+      "url": "https://kumakikai.github.io/notes/2026-04-12-uni-note-10000/",
+      "category": "blog",
+      "beforeFrontMatter": {
+        "title": "アプリ開発を始めてからの累計収益が1万円を超えました",
+        "date": "2026-04-12",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "アプリ開発を始めてからの累計収益が、ついに1万円を超えました。\nいつも支えてくださっている皆さま、本当にありがとうございます。\nただ、これまでにかけた広告費などを考えると、現時点ではまだ赤字です。\nそれでも、少しずつでも黒字化に近づけるよう、これからも着実に頑張っていきたいと思っています。\n今回の …",
+      "afterFrontMatter": {
+        "title": "アプリ開発を始めてからの累計収益が1万円を超えました",
+        "date": "2026-04-12",
+        "description": "アプリ開発の累計収益が1万円を超えた2026年4月の報告。広告費を含む運営状況、Uni:Noteの改善、当時開発中だったAI機能と海外配信の計画を記録しています。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "ef87765356873d0e7193ff4c26757539520989aeef70d83358f9363eba841be7",
+      "descriptionCharacters": 81
+    },
+    {
+      "file": "content/notes/2026-05-19-oto-miru.md",
+      "url": "https://kumakikai.github.io/notes/2026-05-19-oto-miru/",
+      "category": "press-release",
+      "beforeFrontMatter": {
+        "title": "オトミルについて",
+        "date": "2026-05-19",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "テレビや会話の音声を大きな字幕で確認するアプリ\n「オトミル」 を開発しました。\nオトミルは、\nテレビ、映画、身近な会話、グループ会話の音声を\niPhone / iPad の大きな字幕として表示するアプリです。\n私の親は高齢で難聴があり、\n私自身にも難聴があります。\nテレビの声が聞き取りづらい。\n外食 …",
+      "afterFrontMatter": {
+        "title": "オトミルについて",
+        "date": "2026-05-19",
+        "description": "テレビや会話の音声を大きな字幕で読む「オトミル」の発表記事。自身と家族の聞こえづらさをきっかけにした開発背景、想定する利用場面、公開当初の設計方針を紹介します。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "3ad0c064824a268449325d2d3183d32326a87e8f87eac17dc7761c6446b28a63",
+      "descriptionCharacters": 80
+    },
+    {
+      "file": "content/notes/2026-05-26-android-release.md",
+      "url": "https://kumakikai.github.io/notes/2026-05-26-android-release/",
+      "category": "blog",
+      "beforeFrontMatter": {
+        "title": "Android版アプリ公開の壁が思った以上に高かった",
+        "date": "2026-05-26",
+        "description": null,
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "Android版アプリの公開について調べていて、 思っていた以上に壁が高いことが分かりました。\n現在の Google Play では、 新しい個人デベロッパーアカウントの場合、 公開前にクローズドテストが必要になります。\n少なくとも 12 人のテスターに、 14 日間継続して参加してもらう必要があり …",
+      "afterFrontMatter": {
+        "title": "Android版アプリ公開の壁が思った以上に高かった",
+        "date": "2026-05-26",
+        "description": "Android版公開に向けてGoogle Playのクローズドテスト要件を調べた、2026年5月の記録。テスター確保の難しさと、以前の開発者アカウント閉鎖を振り返っています。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "53a42b8512d8390002d925597ef86f1cb671c9a363feddc0f071068be6c21f4f",
+      "descriptionCharacters": 87
+    },
+    {
+      "file": "content/notes/2026-09-02-giga-poke.md",
+      "url": "https://kumakikai.github.io/notes/2026-09-02-giga-poke/",
+      "category": "press-release",
+      "beforeFrontMatter": {
+        "title": "ギガポケについて",
+        "date": "2026-09-02",
+        "description": "ギガポケの紹介とサポート情報",
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "ギガポケの紹介とサポート情報",
+      "afterFrontMatter": {
+        "title": "ギガポケについて",
+        "date": "2026-09-02",
+        "description": "povo 2.0の特典コードや受取URLを期限順に管理するiPhoneアプリ「ギガポケ」の紹介。共有・貼り付けでの登録、通知やウィジェット、データの扱いを説明する非公式アプリの発表記事です。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "65616288c303802b8c0118ea9a004a4d755ff349686b0058e242d933a8dd68d6",
+      "descriptionCharacters": 95
+    },
+    {
+      "file": "content/notes/2026-09-06-nocca.md",
+      "url": "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+      "category": "press-release",
+      "beforeFrontMatter": {
+        "title": "Noccaについて",
+        "date": "2026-09-06",
+        "description": "Noccaの紹介とサポート情報",
+        "lastmod": null
+      },
+      "beforeDeployedDescription": "Noccaの紹介とサポート情報",
+      "afterFrontMatter": {
+        "title": "Noccaについて",
+        "date": "2026-09-06",
+        "description": "Noccaは、対面会話や長いメッセージが負担になるとき、必要な意思表示を家族へ伝えるための開発中のiPhoneアプリです。本人主導の操作方針と、プロトタイプに基づくサポート情報を紹介します。",
+        "lastmod": "2026-09-07"
+      },
+      "bodyUnchanged": true,
+      "titleUnchanged": true,
+      "publicationDateUnchanged": true,
+      "bodySha256": "6ea44b2751eea3830a5d75d4053382645a0103d1bd6ae90e043ebc5c5e2c117f",
+      "descriptionCharacters": 95
+    }
+  ]
+}

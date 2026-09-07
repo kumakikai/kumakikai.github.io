@@ -1,0 +1,946 @@
+{
+  "capturedAt": "2026-09-07T06:01:26.186937+00:00",
+  "source": "production public before SEO changes",
+  "summary": {
+    "html": 277,
+    "ordinary": 210,
+    "redirects": 67,
+    "sitemapURLs": 194,
+    "noindex": [
+      "/404.html",
+      "/de/404.html",
+      "/de/faq/",
+      "/de/htu/",
+      "/de/privacy/",
+      "/de/support/",
+      "/en/404.html",
+      "/en/faq/",
+      "/en/htu/",
+      "/en/privacy/",
+      "/en/support/",
+      "/faq/",
+      "/faq/page/2/",
+      "/faq/page/3/",
+      "/fr/404.html",
+      "/fr/faq/",
+      "/fr/htu/",
+      "/fr/privacy/",
+      "/fr/support/",
+      "/htu/",
+      "/htu/page/2/",
+      "/htu/page/3/",
+      "/ko/404.html",
+      "/ko/faq/",
+      "/ko/htu/",
+      "/ko/privacy/",
+      "/ko/support/",
+      "/privacy/",
+      "/privacy/page/2/",
+      "/privacy/page/3/",
+      "/support/",
+      "/terms/",
+      "/zh-hant/404.html",
+      "/zh-hant/faq/",
+      "/zh-hant/htu/",
+      "/zh-hant/privacy/",
+      "/zh-hant/support/"
+    ],
+    "noindexInSitemap": [
+      "/de/faq/",
+      "/de/htu/",
+      "/de/privacy/",
+      "/de/support/",
+      "/en/faq/",
+      "/en/htu/",
+      "/en/privacy/",
+      "/en/support/",
+      "/faq/",
+      "/fr/faq/",
+      "/fr/htu/",
+      "/fr/privacy/",
+      "/fr/support/",
+      "/htu/",
+      "/ko/faq/",
+      "/ko/htu/",
+      "/ko/privacy/",
+      "/ko/support/",
+      "/privacy/",
+      "/support/",
+      "/terms/",
+      "/zh-hant/faq/",
+      "/zh-hant/htu/",
+      "/zh-hant/privacy/",
+      "/zh-hant/support/"
+    ],
+    "indexableMissingSitemap": [
+      "/notes/page/2/",
+      "/notes/page/3/",
+      "/notes/page/4/",
+      "/notes/page/5/"
+    ],
+    "canonicalIssues": [
+      "/notes/page/2/",
+      "/notes/page/3/",
+      "/notes/page/4/",
+      "/notes/page/5/"
+    ],
+    "missingDescription": [],
+    "h1Issues": [],
+    "imagesMissingAlt": []
+  },
+  "robots": "User-agent: *\nAllow: /\nSitemap: https://kumakikai.github.io/sitemap.xml\n",
+  "sitemaps": [
+    {
+      "path": "de/sitemap.xml",
+      "index": false,
+      "sha256": "137dd74db6dfa8f26aa0152240d339ccc8482634f5ca3d67e642fc5dcd3b6c9e",
+      "entries": [
+        {
+          "url": "https://kumakikai.github.io/de/htu/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/de/htu/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/de/htu/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/de/faq/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/de/faq/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/de/faq/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/de/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/de/company/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/products/balance-calendar/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/categories/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/privacy/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/privacy/uni-note-pocket/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/privacy/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/products/giga-poke/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/news/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/products/nocca/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/products/oto-miru/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/products/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/products/signal/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/products/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/support/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/tags/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/products/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/de/products/uni-note-pocket/",
+          "lastmod": null
+        }
+      ]
+    },
+    {
+      "path": "en/sitemap.xml",
+      "index": false,
+      "sha256": "db94a6e7d0c2f1266f8491206405c9fe31c97d41dfff025ae552d2a95a6936a9",
+      "entries": [
+        {
+          "url": "https://kumakikai.github.io/en/faq/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/faq/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/faq/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/faq/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/htu/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/htu/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/htu/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/htu/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/company/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/products/balance-calendar/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/categories/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/products/giga-poke/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/news/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/products/nocca/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/products/oto-miru/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/privacy/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/privacy/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/privacy/uni-note-pocket/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/privacy/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/products/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/products/signal/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/products/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/support/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/tags/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/products/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/en/products/uni-note-pocket/",
+          "lastmod": null
+        }
+      ]
+    },
+    {
+      "path": "fr/sitemap.xml",
+      "index": false,
+      "sha256": "350d3a62a90820794b276e0e5277947ecd2d822d6808c446d787a3ef98a282f2",
+      "entries": [
+        {
+          "url": "https://kumakikai.github.io/fr/faq/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/faq/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/faq/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/faq/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/htu/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/htu/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/htu/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/htu/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/company/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/products/balance-calendar/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/categories/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/products/giga-poke/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/news/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/products/nocca/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/products/oto-miru/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/privacy/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/privacy/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/privacy/uni-note-pocket/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/privacy/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/products/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/products/signal/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/products/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/support/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/tags/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/products/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/products/uni-note-pocket/",
+          "lastmod": null
+        }
+      ]
+    },
+    {
+      "path": "ja/sitemap.xml",
+      "index": false,
+      "sha256": "c0f4417ae01d4b23074a4bebd447e1c6d622bb81eb51f29bd5a13e9e97f4034d",
+      "entries": [
+        {
+          "url": "https://kumakikai.github.io/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/nocca/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/signal/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/oto-miru/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/giga-poke/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/balance-calendar/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/faq/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/nocca/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/signal/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/oto-miru/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/giga-poke/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/balance-calendar/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/htu/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+          "lastmod": "2026-09-06T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/",
+          "lastmod": "2026-09-06T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-09-02-giga-poke/",
+          "lastmod": "2026-09-02T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-05-26-android-release/",
+          "lastmod": "2026-05-26T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-05-19-oto-miru/",
+          "lastmod": "2026-05-19T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-04-12-uni-note-10000/",
+          "lastmod": "2026-04-12T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-04-01-uni-note-pocket/",
+          "lastmod": "2026-04-01T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-03-25-blog/",
+          "lastmod": "2026-03-25T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-03-21-smokeless/",
+          "lastmod": "2026-03-21T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-03-13-blog/",
+          "lastmod": "2026-03-13T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-03-12-uni-note/",
+          "lastmod": "2026-03-12T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-02-22-signal/",
+          "lastmod": "2026-02-22T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-02-14-blog/",
+          "lastmod": "2026-02-14T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-01-27-philosophy/",
+          "lastmod": "2026-01-27T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-01-23-introduction/",
+          "lastmod": "2026-01-23T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/notes/2026-01-26-roadmap/",
+          "lastmod": "2026-01-23T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/company/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/categories/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/news/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/products/nocca/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/products/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/products/signal/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/support/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/tags/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/products/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/products/uni-note-pocket/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/products/oto-miru/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/products/giga-poke/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/products/balance-calendar/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/products/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/nocca/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/signal/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/uni-note-pocket/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/oto-miru/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/giga-poke/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/balance-calendar/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/privacy/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/terms/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/terms/nocca/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/terms/oto-miru/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/terms/giga-poke/",
+          "lastmod": null
+        }
+      ]
+    },
+    {
+      "path": "ko/sitemap.xml",
+      "index": false,
+      "sha256": "631ed870b9b2e0c925caa810c4e3c14fbe29f3cf65f1fcf693c299cb32c6944b",
+      "entries": [
+        {
+          "url": "https://kumakikai.github.io/ko/faq/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/faq/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/faq/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/faq/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/htu/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/htu/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/htu/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/htu/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/company/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/categories/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/products/giga-poke/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/news/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/products/nocca/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/products/oto-miru/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/products/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/products/signal/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/support/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/tags/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/products/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/products/uni-note-pocket/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/privacy/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/privacy/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/privacy/uni-note-pocket/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/privacy/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/products/balance-calendar/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/products/smokeless/",
+          "lastmod": null
+        }
+      ]
+    },
+    {
+      "path": "sitemap.xml",
+      "index": true,
+      "sha256": "9bbd2f7d0b4da662380556a4bdbd8990380e17e12f076b66ab8fa7c2f3de35ac",
+      "entries": [
+        {
+          "url": "https://kumakikai.github.io/ja/sitemap.xml",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/en/sitemap.xml",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/ko/sitemap.xml",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/de/sitemap.xml",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/sitemap.xml",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/fr/sitemap.xml",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        }
+      ]
+    },
+    {
+      "path": "zh-hant/sitemap.xml",
+      "index": false,
+      "sha256": "245ccaa6e11f815601395e687a9ffb0d7b35a922410389d76d187e8891c76dd5",
+      "entries": [
+        {
+          "url": "https://kumakikai.github.io/zh-hant/faq/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/faq/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/htu/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/htu/smokeless/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/htu/uni-note/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/faq/",
+          "lastmod": "2026-09-07T00:00:00+09:00"
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/company/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/products/balance-calendar/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/categories/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/products/giga-poke/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/news/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/products/nocca/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/products/oto-miru/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/products/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/products/signal/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/products/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/support/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/tags/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/products/uni-note/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/products/uni-note-pocket/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/privacy/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/privacy/smokeless/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/",
+          "lastmod": null
+        },
+        {
+          "url": "https://kumakikai.github.io/zh-hant/privacy/uni-note/",
+          "lastmod": null
+        }
+      ]
+    }
+  ],
+  "fullEvidence": "before-generated.json.gz",
+  "fullEvidenceSHA256": "4e994db50ca0aab1844462728f6e37c7433dae059c794ba9a115c00c4f06a3e1",
+  "pageCount": 277
+}

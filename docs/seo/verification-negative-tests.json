@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cases": [
+    {
+      "case": "localhost canonical",
+      "expectedCheck": "canonical",
+      "detected": true
+    },
+    {
+      "case": "accidental noindex",
+      "expectedCheck": "sitemap_coverage",
+      "detected": true
+    },
+    {
+      "case": "invalid JSON-LD",
+      "expectedCheck": "jsonld_parse",
+      "detected": true
+    },
+    {
+      "case": "nonexistent alternate",
+      "expectedCheck": "hreflang_target",
+      "detected": true
+    },
+    {
+      "case": "missing published download",
+      "expectedCheck": "schema_download",
+      "detected": true
+    },
+    {
+      "case": "fabricated rating",
+      "expectedCheck": "schema_unverified_claim",
+      "detected": true
+    }
+  ],
+  "filesModified": false
+}

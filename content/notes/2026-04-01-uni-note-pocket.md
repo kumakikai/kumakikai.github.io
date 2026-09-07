@@ -1,6 +1,8 @@
 ---
 title: "Uni:Note Pocketについて"
 date: 2026-04-01
+description: "Uni:Noteで書いたノートをiPhoneで見返す「Uni:Note Pocket」の発表記事。通勤・通学中に読む用途と、手動バックアップからノートを取り込む公開当初の連携方法を紹介します。"
+lastmod: 2026-09-07
 ---
 
 iPhone向けの連携アプリ **「Uni:Note Pocket」** を開発しました。
