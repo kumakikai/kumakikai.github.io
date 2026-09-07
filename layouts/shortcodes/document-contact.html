@@ -6,11 +6,7 @@
 <p>{{ replace $ui.contactLead "{app}" $name }}</p>
 {{- range partial "support-data.html" (dict "app" $app) -}}
   {{- if eq .kind "contact" -}}
-    <p><a href="{{ .url | safeURL }}">{{ if hasPrefix .url "mailto:" }}{{ $ui.mailLabel }}{{ else }}{{ $ui.formLabel }}{{ end }}</a></p>
-    {{- if not (hasPrefix .url "mailto:") -}}
-      {{- $mail := printf "%s?subject=%s" site.Data.support.contactURL (printf "%s — %s" $name $ui.contact | urlquery) -}}
-      <p>{{ $ui.fallbackLead }} <a href="{{ $mail | safeURL }}">kumakikai.apps@gmail.com</a></p>
-    {{- end -}}
+    <p><a href="{{ .url | safeURL }}">{{ $ui.mailLabel }}</a></p>
   {{- end -}}
 {{- end -}}
 <p>{{ if in (slice "privacy" "terms") .Page.Section }}{{ $ui.legalContactNote }}{{ else }}{{ $ui.contactNote }}{{ end }}</p>

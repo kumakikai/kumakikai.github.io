@@ -43,6 +43,8 @@ for route, source in sorted(scope.items()):
     removed = sorted(set(old['links']) - set(links)) if old else []
     reason = 'User-authorized four-document unification. ' + product_reason[app]
     reason += ' Common operator, terminology, headings, dates and official contact use the shared standard.'
+    if app in {'nocca', 'giga-poke'}:
+        reason += ' Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged.'
     if any(x.startswith('mailto:') for x in removed):
         reason += ' Bare email references are replaced by the same official mailbox with a localized product subject.'
     if any(urlsplit(x).netloc == 'kumakikai.github.io' for x in removed):

@@ -16,6 +16,7 @@
   {{- $appleEULA := false -}}
   {{- if eq $kind "contact" -}}
     {{- $url = $url | default site.Data.support.contactURL -}}
+    {{- if not (hasPrefix $url "mailto:") -}}{{ errorf "Website contact for %s must use email; app inquiry forms are not website navigation" $app.id }}{{- end -}}
     {{- if and (hasPrefix $url "mailto:") (not (strings.Contains $url "?")) -}}
       {{- $url = printf "%s?subject=%s" $url (printf "%s — %s" (index $copy.apps $app.id).name $corp.contactLabel | urlquery) -}}
     {{- end -}}

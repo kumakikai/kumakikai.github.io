@@ -376,21 +376,21 @@
       "sourceSHA256": "23c2d629c20e8bdd7ee2e0fb1606f00f15eaf65d645c969c34505968650dd7d4",
       "beforeSourceSHA256": "8fb977c3ee9242c13837088c4dcf8d20b91a82517bef520b0553d4882292c4b1",
       "baselineTextSHA256": "d4a89d9d4222a14a49485aca1ca0f38f5df63a0e54b0acb740c6928a44e0fc64",
-      "reviewedTextSHA256": "1859c3b320045f3fe532145051020308b59e96fe147dc6a23dede155239ba80f",
+      "reviewedTextSHA256": "e1c1872359d66c15eded87ebdbc51edd02a03aa28d0f05ad54b6a204303f5546",
       "reviewedLinks": [
-        "https://forms.gle/Enzmm94LdXRZjP8k9",
         "https://kumakikai.github.io/htu/giga-poke/#1-%E7%89%B9%E5%85%B8%E3%82%92%E7%99%BB%E9%8C%B2%E3%81%99%E3%82%8B",
         "https://kumakikai.github.io/htu/giga-poke/#3-%E7%89%B9%E5%85%B8%E3%82%92%E4%BD%BF%E3%81%86",
         "https://kumakikai.github.io/htu/giga-poke/#5-%E6%9C%9F%E9%99%90%E9%80%9A%E7%9F%A5%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B",
         "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
       ],
       "removedLinks": [
+        "https://forms.gle/Enzmm94LdXRZjP8k9",
         "https://kumakikai.github.io/htu/giga-poke/",
         "https://kumakikai.github.io/privacy/giga-poke/",
         "https://kumakikai.github.io/terms/giga-poke/",
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
         "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
@@ -401,9 +401,8 @@
       "sourceSHA256": "eb65e8408062e46b9ddeaca33a453209a3727cab4b37bab694ffeec339174ae1",
       "beforeSourceSHA256": "954c15e69ebd3b06af364d1022e4a2d2537563785ec3727626d55c6acc56c43f",
       "baselineTextSHA256": "8366bc8f438e0e409218b257bbb21ccbdf3089847803c04088f66b4f06ce5076",
-      "reviewedTextSHA256": "13d75c8871fa85140d120b594abe410522086a130af1eff554c6e5239649b3f7",
+      "reviewedTextSHA256": "ad479339a4a45c7bd72ae4468559b6827e3817dde39157e5ce40ffc0c47b5d56",
       "reviewedLinks": [
-        "https://forms.gle/JwDoPvzAh1zKaR2M8",
         "https://kumakikai.github.io/htu/nocca/#1-%E6%9C%80%E5%88%9D%E3%81%AB%E5%BD%B9%E5%89%B2%E3%82%92%E9%81%B8%E3%81%B6",
         "https://kumakikai.github.io/htu/nocca/#3-%E5%AE%B6%E6%97%8F%E3%82%92%E6%8B%9B%E5%BE%85%E3%81%99%E3%82%8B",
         "https://kumakikai.github.io/htu/nocca/#4-%E9%80%9A%E4%BF%A1%E3%82%92%E4%BC%91%E6%AD%A2%E3%81%99%E3%82%8B",
@@ -419,7 +418,7 @@
         "https://kumakikai.github.io/privacy/nocca/",
         "https://kumakikai.github.io/terms/nocca/"
       ],
-      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/communication-phase1.md",
         "docs/audits/2026-09-08-document-unification/communication-phase3.md"
@@ -778,9 +777,8 @@
       "sourceSHA256": "a5606ab18728a3a7970fcf5a4626ec663794fbf0a868cb31380ea3a4a97f46af",
       "beforeSourceSHA256": "364f6ee1295425129b1135b2729d320dfcaf5b8ef4de46e33a5f9b9fe4811d2a",
       "baselineTextSHA256": "b24622ffc958442c2c108227960d725241227a958ca810d29c399f9aa9093ea1",
-      "reviewedTextSHA256": "77baf2cc06fe2fb3a604e6c97e37dad7496fafc2f4cac697b5f244933e24f159",
+      "reviewedTextSHA256": "8b697fbe84cae5b8de3fbde818b5f58ec7a4e128a9e6daab3f2dae8568baea94",
       "reviewedLinks": [
-        "https://forms.gle/Enzmm94LdXRZjP8k9",
         "https://kumakikai.github.io/faq/giga-poke/#help",
         "https://kumakikai.github.io/images/guides/giga-poke/benefit-actions_hu_3f14eefc17020be1.webp",
         "https://kumakikai.github.io/images/guides/giga-poke/benefit-management-settings_hu_9c6894ddbb159117.webp",
@@ -796,7 +794,7 @@
         "https://kumakikai.github.io/privacy/giga-poke/",
         "https://kumakikai.github.io/terms/giga-poke/"
       ],
-      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
         "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
@@ -807,9 +805,8 @@
       "sourceSHA256": "66fa3262d157d44fc625deb4554b8f274d84301fe7f410f0c7b7d2f50e668b7e",
       "beforeSourceSHA256": "d75c30ba4b080e390c2b0d152199d3a501c13f7d1d5092bf251beae7037cee0f",
       "baselineTextSHA256": "a299355f1982620db4fb8b37de052b745fda9a90386541a105e8a806377dd9bd",
-      "reviewedTextSHA256": "a518c46e165e9d18fba7f286472e68426fccafb0e2445b942d4d065cd582f18e",
+      "reviewedTextSHA256": "fa0398a5ac52ffd47533aa320ff647a6887b4a50ff8d73856d54be7aa6a2049f",
       "reviewedLinks": [
-        "https://forms.gle/JwDoPvzAh1zKaR2M8",
         "https://kumakikai.github.io/faq/nocca/#help",
         "https://kumakikai.github.io/images/guides/nocca/choose-role_hu_2081bfcf00bb2953.webp",
         "https://kumakikai.github.io/images/guides/nocca/invite-family_hu_adcf1be2faae9080.webp",
@@ -826,7 +823,7 @@
         "https://kumakikai.github.io/privacy/nocca/",
         "https://kumakikai.github.io/terms/nocca/"
       ],
-      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/communication-phase1.md",
         "docs/audits/2026-09-08-document-unification/communication-phase3.md"
@@ -1198,21 +1195,21 @@
       "sourceSHA256": "c98d85ef81d33fa2e19153bb7202b985ca7f9c4bf025420770aceb3d4d529a54",
       "beforeSourceSHA256": "16c9813e650bae83c45cd5f0a6dedd804c9a0adfde7bb9ddff8e26c9f9896b71",
       "baselineTextSHA256": "d328e3110c4f5d13672281a8de9da67f4e9039da4a89075aff5638391d4b142c",
-      "reviewedTextSHA256": "fae9d69f9b79102dff8609be6f987e2109b0bf2e88b249c78ceb00a9fbafa396",
+      "reviewedTextSHA256": "5036b7ca1cee2c5180774343ff5b0b6aa91218c532e6bba034929f265167ca18",
       "reviewedLinks": [
-        "https://forms.gle/Enzmm94LdXRZjP8k9",
         "https://policies.google.com/privacy?hl=ja",
         "https://www.apple.com/jp/legal/privacy/jp/",
         "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
       ],
       "removedLinks": [
         "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+        "https://forms.gle/Enzmm94LdXRZjP8k9",
         "https://kumakikai.github.io/faq/giga-poke/",
         "https://kumakikai.github.io/htu/giga-poke/",
         "https://kumakikai.github.io/terms/giga-poke/",
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain. The site-hosting privacy reference is outside this app privacy document and is removed with that unrelated explanation.",
+      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain. The site-hosting privacy reference is outside this app privacy document and is removed with that unrelated explanation.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
         "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
@@ -1223,9 +1220,8 @@
       "sourceSHA256": "e9f205538c018334f51de7fd1f8fa3c468cc5a26d89fc526c6f1bb96584bd6c1",
       "beforeSourceSHA256": "7d9eaae429457e4b2c481ab797b369a4dcc699cff74270ad071449abb768d692",
       "baselineTextSHA256": "e01d5993ef49c080b2b2a9c5b30ce12b125ce15e6cca69d3c5d51cd3bf7a1fff",
-      "reviewedTextSHA256": "edf3841ceb846d49035cb9bf0acd07be7070db1dd95aa281bb6cf20f78709623",
+      "reviewedTextSHA256": "d4ce65a6bd5a14eba4752df13ff00bdcd41aadc3c6f3a651cfd8c47ae3d279d2",
       "reviewedLinks": [
-        "https://forms.gle/JwDoPvzAh1zKaR2M8",
         "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
       ],
       "removedLinks": [
@@ -1234,7 +1230,7 @@
         "https://kumakikai.github.io/terms/nocca/",
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/communication-phase1.md",
         "docs/audits/2026-09-08-document-unification/communication-phase3.md"
@@ -1366,19 +1362,19 @@
       "sourceSHA256": "13ad0026c3e2aa55befde9884eb6d593d453efa22afae5b03d7f5dbaf1cbb387",
       "beforeSourceSHA256": "53e3b156997d85ab4a965dc1b74712ff102d81221767bc01fc70bcd6e227ec48",
       "baselineTextSHA256": "b58107d623e12a1c9e61328889bcc1986de480c6fbd7c5ff728c6563eb51d89c",
-      "reviewedTextSHA256": "0fe5effdc0e8fa0c3487625ad2974863e4fed2db6664170e29ab1017904200bb",
+      "reviewedTextSHA256": "6b557676d8a34b18eabc18840b57301fa053c6d59e6e48bad2f45ec74fdce11d",
       "reviewedLinks": [
-        "https://forms.gle/Enzmm94LdXRZjP8k9",
         "https://kumakikai.github.io/privacy/giga-poke/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
       ],
       "removedLinks": [
+        "https://forms.gle/Enzmm94LdXRZjP8k9",
         "https://kumakikai.github.io/faq/giga-poke/",
         "https://kumakikai.github.io/htu/giga-poke/",
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Preserve local reward-code handling, transient mail parsing, external redemption and secret-code precautions; remove unrelated site-hosting details. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/utilities-phase1.md",
         "docs/audits/2026-09-08-document-unification/utilities-phase3.md"
@@ -1389,9 +1385,8 @@
       "sourceSHA256": "c6b00884a99b263531d77bfc7ffd06b1cbbde24a8bb61d559c8f5a08b1a65297",
       "beforeSourceSHA256": "f38d28bb3d8f86088ce345b38f2bd4b696deeac918094bae311b8a302d1679c9",
       "baselineTextSHA256": "150df3841135c7542cbe39b7318c9d1cb53b68bb2a4e2fff8c8718855da46946",
-      "reviewedTextSHA256": "8ed248286c89fab68a3c4ef72bc313e769f0ba6af8692616a70cf8e24c536353",
+      "reviewedTextSHA256": "e1ba87f847342f52f72386249e1960fa27aad7f9f4ad9f892b0c1b937d407e42",
       "reviewedLinks": [
-        "https://forms.gle/JwDoPvzAh1zKaR2M8",
         "https://kumakikai.github.io/privacy/nocca/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
@@ -1401,7 +1396,7 @@
         "https://kumakikai.github.io/htu/nocca/",
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/communication-phase1.md",
         "docs/audits/2026-09-08-document-unification/communication-phase3.md"

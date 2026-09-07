@@ -147,7 +147,7 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 | `screenshotsStatus` | 任意review。提出中素材を公開版と区別。アプリ本体statusとは独立 |
 | `operatingSystems` | schema用OS名配列（例iPadOS）。最低バージョンは別minimumOS |
 | `availability` | 配信地域。表示言語でアプリを消さない |
-| `support` | guideURL / faqURL / privacyURL / 任意termsURL / 任意contactURL。既存本文URL |
+| `support` | guideURL / faqURL / privacyURL / 任意termsURL。既存本文URL。問い合わせは共通メールを使い、アプリ内フォームのcontactURLを追加しない |
 
 `availability.storefront` はPrimaryバッジの確認済み地域、`verifiedStorefronts` は確認した地域、`storefrontURLs` はその地域の実URL、`checkedAt` は確認日。`coverage: partial` は全世界確認済みを意味しない。未公開は `coverage: unreleased`、確認済み地域は空。任意 `plannedStorefronts` は配信済み国旗へ混ぜない。
 
@@ -180,16 +180,17 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 
 - Productは5項目。Guide／FAQ／Privacy／Termsは自分のページと本文末尾にある同一の問い合わせ先を省き、残る3項目を共通の「使い方とサポート」欄に表示する。同欄末尾にProductへのリンクを置く。再選択や不要な中間画面を作らない。正式な問い合わせ窓口は本文の最後の節に一度だけ置く。
 - termsURL未設定時だけ `data/support.json.standardEULAURL` の [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) へfallback。独自Terms URLを設定したのに本文がない場合はbuildエラー。黙って別規約へ切り替えない。
-- contactURL未指定は `data/support.json.contactURL`。共通メールにアプリ名を件名として補う。会社全体ContactはAbout末尾。
+- 公式サイト全体の問い合わせ先は `data/support.json.contactURL` の共通メールに統一する。本文のメール作成CTAは「メールで問い合わせる」（各言語の対応する表記）とし、製品の問い合わせにはアプリ名を件名として補う。Product共通行の「お問い合わせ」やFooterの「Contact」等、Navigationの項目名は維持する。About末尾の一般Contactも同じメールを使う。アプリ内専用の問い合わせフォームをProduct、Guide、FAQ、Privacy、Terms、News等のWeb導線へ転載しない。
+- Privacyに記載した、アプリ内フォームによる取得情報・Google Formsでの保存等の正式なデータ処理説明は維持する。Webの問い合わせ先変更を理由に、アプリ内の機能やデータ処理まで削除・変更しない。
 - 外部リンクは現行の同じタブを維持。EULAは外部矢印・title・読み上げ補足。一部だけ新規タブにしない。
 - 翻訳がなければ日本語実ページをその旨付きで案内。`layouts/single.html` はFile.ContentBaseNameでProductを特定するため、新Guide／FAQ等のbasenameはidに合わせる。既存例外URLは変更せず必要なら紐付け処理を限定対応。
 - **現在の検証は全ProductにGuide／FAQ／Privacy実ページを要求する**。本当に不要なGuide／FAQはダミーを作らず理由を報告。必要性が判断された省略はUI・検証の該当契約だけを意図的に対応し、無条件に検証を外さない。
 - アプリ別Privacy・Termsは統合せず、実データ処理・公開条件に合わせる。未公開機能を公開済みとして法務へ記載しない。
-- 法務ページ本文の後にはGuide／FAQと同じ共通サポート欄を置き、使い方・FAQ・もう一方の法務の3項目とProductへのリンクを表示する。旧手書きの「関連ページ」一覧は戻さず、本文と同一の問い合わせ先を共通欄に重ねない。ページ上部のProduct名から該当Productの `#support` に戻れる。法務上必要な参照は本文の対応節に残す。正式問い合わせは `document-contact` で同じProduct設定から生成する。フォーム利用製品は開けない場合のメールも併記する。
+- 法務ページ本文の後にはGuide／FAQと同じ共通サポート欄を置き、使い方・FAQ・もう一方の法務の3項目とProductへのリンクを表示する。旧手書きの「関連ページ」一覧は戻さず、本文と同一の問い合わせ先を共通欄に重ねない。ページ上部のProduct名から該当Productの `#support` に戻れる。法務上必要な参照は本文の対応節に残す。正式問い合わせは `document-contact` で共通メールへの導線を一度だけ生成する。
 - 重複確認は全Productと実在する全言語のGuide／FAQ／Privacy／Termsを対象にする。FAQ回答・法務条文の参照は文脈があるため保持する。2026-09-08の全製品4文書統一は [標準構成](audits/2026-09-08-document-unification/STANDARD.md) に従う。`scripts/document_review.py` が既存69文書と新設5Termsの限定範囲、元source/本文、レビュー後source/本文/link、実装監査、画像・旧アンカーを検証する。元のmigration baselineと監査前スナップショットは固定し、差分を隠す再取得をしない。以前のNocca・4法務導線・韓国語用語の限定検証は過去の承認範囲として残し、今回の有効なレビューがある文書だけを後継レビューで検証する。Noccaの過去News本文は後継レビューの対象外。
 - Product／Guide／FAQ末尾に同ProductのPress Releaseを重ねない。記事本文・URLは維持しNewsから案内する。
 - 同一ページの重複は完全な遷移先（query・fragmentを含む）で確認する。Product先頭と `#support` は別の役割。アンカーが存在しても、表示ラベル・回答文脈と対象節が一致するか確認する。FAQから初回設定・カレンダー・ウィジェット等を案内するときは意味の合う既存節へ進める。
-- News本文に共通Contactと同じメールリンクがある場合、`article-about.html` は同じリンクを重ねない。本文の旧サポート情報は保持する。`data/news.json` の個別 `historicalNotice: true` は、時点の混同が確認された記事に限り、公開日を使った過去情報の注記を本文外へ表示する。元の記事本文・日付・URLを上書きしない。
+- News本文に共通Contactと同じメールリンクがある場合、`article-about.html` は同じリンクを重ねない。本文の旧サポート情報は保持するが、2026-09-08のメール統一依頼で承認された問い合わせフォームリンクだけは共通メールへ変更する。`data/news.json` の個別 `historicalNotice: true` は、時点の混同が確認された記事に限り、公開日を使った過去情報の注記を本文外へ表示する。それ以外の記事本文・日付・URLは変更しない。
 - Uni:Noteの公開/公開前バージョンを比較するGuide・FAQは `version_context_date` に比較の基準日を記録する。これは最新App Store状態を自動確認する仕組みではない。公開状態を変える際は実際のリリースを確認する。
 
 ## 6. 最新画像・Guide・Simulator
@@ -213,7 +214,7 @@ Guideは「見出し → 短い説明／Step → 実UI画像 → 必要な補足
 - 取得元・版・hash・crop範囲・実装の照合を `docs/visual-guides/` 等へ記録。未使用画像は全参照確認後にだけ整理。
 - Guide見出し変更時は `{{< guide-anchor "旧ID" >}}` で対応箇所へ旧アンカーを残す。URLと実際のlastmodを維持。
 - 既存Guide／FAQ改訂は **本文・素材監査 → npm run buildで最新public生成 → scripts/record-guide-review.py → 対象entryのsource／rendered hashと理由の差分確認 → npm run verify** の順。同scriptはpublicを読むため、古いHTMLで記録しない。`docs/visual-guides/reviewed-content.json` は既存対象一括処理・監査ファイル固定表に基づくので、対象以外のhashが変わっていないか読む。新ページは旧本文baseline対象ではなく、無条件にmanifestへ足さない。通すためだけにhashを更新しない。
-- 全製品の法務・FAQ・Guideは [文書統一仕様](audits/2026-09-08-document-unification/STANDARD.md) を確認する。共通見出し・文言は `data/document_ui.json`、問い合わせは `data/apps.json.support` と `data/support.json`。固有の実装事実は本文へ記載し、共通化のために機能を創作しない。法務は連番h2、利用者/本アプリ/当方を統一し、Yuya Nakamuraが運営するKUMAKIKAIと記載。日付は上部でISO形式、法務は最終改定日、Guide／FAQは更新日。制定日は根拠がある場合だけ表示する。
+- 全製品の法務・FAQ・Guideは [文書統一仕様](audits/2026-09-08-document-unification/STANDARD.md) を確認する。共通見出し・文言は `data/document_ui.json`、Webの問い合わせ先は `data/support.json.contactURL` の共通メール。固有の実装事実は本文へ記載し、共通化のために機能を創作しない。法務は連番h2、利用者/本アプリ/当方を統一し、Yuya Nakamuraが運営するKUMAKIKAIと記載。日付は上部でISO形式、法務は最終改定日、Guide／FAQは更新日。制定日は根拠がある場合だけ表示する。
 - この74文書の次回改訂は **実装監査 → 対象本文の修正 → production build → 対象製品のPhase 3レビュー記録 → `scripts/record-document-review.py --build public` → manifest全差分確認 → migration/構造検証** の順。record処理はCIで実行しない。`docs/legal/README.md` に過去のNoccaレビューとの関係も記録する。Newsはこの改訂例外へ追加できない。
 
 - `/terms/` は既存の単一互換案内を維持する。独自Termsの追加件数に応じた未使用の `/terms/page/N/` を生成しない。他の旧一覧・ページ送りURLは互換目的で維持し、到達性の監査では索引対象の孤立ページと区別する。
@@ -330,7 +331,7 @@ Search Consoleは2026-09-07時点の回答では未登録。今後は接続状�
 - [ ] 既存3分類からareaを選び、紹介可能ならfeatured: true。Home／About候補への反映を確認。
 - [ ] 全6言語homeへ名称・端末・短文・alt。product_detailsへ必須minimumOS、具体的概要・特徴・画像・シーン・補足。
 - [ ] 最新正式Store素材を最適化。必要なGuide実画面を取得／crop。寸法・alt・srcset・lazy・出典確認。
-- [ ] 実装に即したGuide／FAQ、実態に即したPrivacy、必要な独自Termsを作成。未設定Termsは共通EULA。Contactは確認済み先。
+- [ ] 実装に即したGuide／FAQ、実態に即したPrivacy、必要な独自Termsを作成。未設定Termsは共通EULA。WebのContactは共通メール。
 - [ ] 下部の共通Support5種類を確認。不要なGuide／FAQはダミーを作らず必要性と検証契約を判断。
 - [ ] 正式Product詳細ページを確認し、新規App Store Connect Support URLの登録先として案内する。概要・機能・対応環境と固有Supportへの到達を確認。
 - [ ] 全6言語SEOへ固有title・description、Product OGPまたはfallbackを確認。
@@ -408,7 +409,7 @@ TEST_BASE_URL=http://127.0.0.1:1314 NODE_PATH=/path/to/qa/node_modules node scri
 
 各script冒頭の対応環境変数を読む。CHROME_PATH、一部のTEST_ENGINE=webkit、GuideのTEST_APP / TEST_LOCALES / TEST_WIDTHS等を使用可能。previewの既定1313と多くのQAの既定1314を混同しない。TEST_REPORT等で新しい保存先を指定し、対応しない変数を推測しない。保存先固定scriptは生成差分を読み、過去証跡を無自覚に上書きしない。
 
-`verify-support.cjs` は全Product・Guide・FAQ・Privacy・Termsの共通サポート欄を検証する。`TEST_OUTPUT_DIR` で今回用の証跡保存先を指定できる。メールの件名付与とHTTPSフォームの完全一致を区別する。
+`verify-support.cjs` は全Product・Guide・FAQ・Privacy・Termsの共通サポート欄を検証する。`TEST_OUTPUT_DIR` で今回用の証跡保存先を指定できる。問い合わせ先の共通メールと件名付与を確認し、アプリ内専用のフォームリンクをWebの正式窓口として許可しない。
 
 基本幅は **1440 / 1280 / 1024 / 768 / 430 / 390 / 375px**。Home変更時は901/900px境界も確認。共通CSS変更は全主要ページ、データ限定変更は対象と表示先へ範囲を合わせる。語中分割、末尾1〜2文字落ち、助詞・句読点、PCの細すぎる本文、MobileのCTA・国旗・画像・Supportを実読し、overflowだけで日本語PASSにしない。OSのlight／dark両設定と旧theme保存値がある状態でも、サイトが同じライト表示になることを確認。テーマ切替UIを出さず、focus、menu Escape・背景スクロールも影響範囲で確認する。
 

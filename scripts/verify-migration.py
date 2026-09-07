@@ -21,6 +21,7 @@ from urllib.parse import parse_qs, unquote, urljoin, urlsplit
 import xml.etree.ElementTree as ET
 from nocca_legal_review import (
     LEGACY_SUPPORT_RELOCATIONS,
+    has_form_reference,
     load_reviews as load_nocca_legal_reviews,
     check_article as check_nocca_legal_article,
     retained_legacy_links as retained_nocca_legacy_links,
@@ -32,6 +33,7 @@ from legal_navigation_review import (
 )
 from legal_terminology_review import ROUTE as KOREAN_PRIVACY_ROUTE, check_article as check_korean_privacy
 from document_review import load_reviews as load_document_reviews, check_article as check_document_article, check_structure as check_document_structure
+from news_contact_review import ROUTE as GIGA_NEWS_CONTACT_ROUTE, check_article as check_giga_news_contact, removed_links as giga_news_removed_links
 
 SITE = "https://kumakikai.github.io"
 LOCAL_HOSTS = {"kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
@@ -302,6 +304,7 @@ class Verification:
             legal_review = None if document_review else self.nocca_legal_reviews.get(route)
             legal_navigation = not document_review and route in LEGAL_NAVIGATION_SCOPE
             terminology_review = not document_review and route == KOREAN_PRIVACY_ROUTE
+            news_contact_review = route == GIGA_NEWS_CONTACT_ROUTE
             if document_review:
                 # The current user authorized a complete cross-product revision.
                 # Exact source/output bindings are checked for all 74 documents
@@ -311,6 +314,10 @@ class Verification:
                 links = {urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href") and not node.has_class("anchor")}
                 self.errors.extend(check_nocca_legal_article(route, legal_review, new_text, links))
                 self.counts["reviewed_nocca_legal_bodies"] += 1
+            elif news_contact_review:
+                body_links = [urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href") and not node.has_class("anchor") and not node.has_class("heading-anchor")]
+                self.errors.extend(check_giga_news_contact(Path(__file__).resolve().parents[1], route, old, new_text, body_links))
+                self.counts["reviewed_news_contact_bodies"] += 1
             elif review:
                 # The visual-guide task explicitly replaces stale how-to/FAQ
                 # content. Keep the original snapshot, routes, canonical and
@@ -344,7 +351,7 @@ class Verification:
                 expected_text = expected_text.replace(before, after, 1)
                 self.require("iPad専用" not in new_text, route, "authorized_article_change", "The authorized iPad wording change was not applied")
                 self.counts["authorized_article_wording_changes"] += 1
-            if not document_review and not review and not legal_review and not legal_navigation and not terminology_review:
+            if not document_review and not review and not legal_review and not legal_navigation and not terminology_review and not news_contact_review:
                 self.require(expected_text in new_text, route, "legacy_content", "Original rendered article body was dropped, changed, or reordered beyond the exact authorized wording change")
             missing = sorted(set(old["ids"]) - set(doc.ids))
             self.require(not missing, route, "legacy_anchor", f"Original article anchors disappeared: {missing}")
@@ -385,6 +392,8 @@ class Verification:
                 self.counts["reviewed_legal_navigation_bodies"] += 1
             missing_links = sorted(set(old["links"]) - links)
             approved_removed = document_review["removedLinks"] if document_review else legal_review["removedLinks"] if legal_review else review.get("removedLinks", []) if review else []
+            if news_contact_review:
+                approved_removed = giga_news_removed_links(route)
             self.require(missing_links == sorted(approved_removed), route, "legacy_content_link", f"Unreviewed original link changes: {missing_links}; approved: {approved_removed}")
             self.counts["legacy_articles"] += 1
         for sitemap, urls in self.baseline["sitemaps"].items():
@@ -977,6 +986,7 @@ class Verification:
             route = route_for(path.relative_to(self.build))
             doc = self.document(path)
             self.counts["html_pages"] += 1
+            self.require(not any(has_form_reference(n.attrs.get("href", "")) for n in doc.tagged("a")), route, "website_contact", "Website contact must use email; app inquiry forms must not be published as website links")
             redirect = doc.redirect()
             if redirect:
                 self.reference(redirect, route, "redirect")

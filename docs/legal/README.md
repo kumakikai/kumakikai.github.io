@@ -21,8 +21,16 @@ Product Support retains five destinations. Legal bodies end with the shared
 contact block, followed by the same support section used on Guide and FAQ pages.
 The section omits the current page and contact already present in the body,
 leaving Guide, FAQ and the other legal document, plus a Product backlink. The old
-handwritten related-page lists remain removed. The contact shortcode uses the
-same metadata as Product, including the exact approved Nocca form.
+handwritten related-page lists remain removed. Following the user's later
+2026-09-08 request, all public website contact destinations use the shared email
+in `data/support.json.contactURL`. This applies to Product, Guide, FAQ, Privacy,
+Terms, News and general Contact. The body mail CTA uses the localized "Contact
+by email" label; Product support-row titles and navigation labels such as the
+footer's "Contact" remain unchanged.
+App-only inquiry forms must not be republished as website contact links. Privacy
+continues to describe the actual collection and storage of information through
+in-app forms, including Google Forms where used. This contact change preserves
+the restored shared support sections on all 30 legal pages.
 
 The following sections describe earlier authorized revisions, not restrictions
 that override the user's later full-document request.
