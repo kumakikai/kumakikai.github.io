@@ -7,6 +7,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+from urllib.parse import unquote, urlsplit
 
 PURPOSE = "nocca-legal-update-2026-09-07"
 CATALOG = "docs/legal/reviewed-nocca-content.json"
@@ -32,8 +33,16 @@ def error(route, check, detail):
 
 
 def has_form_reference(value):
-    value = value.lower()
-    return "forms.gle" in value or "docs.google.com/forms" in value
+    lowered = value.lower()
+    # Keep detecting bare references in source text; ports must not hide a form.
+    if "forms.gle" in lowered or re.search(r"docs\.google\.com\.?(?::[^\s/]+)?/forms", lowered):
+        return True
+    try:
+        parsed = urlsplit(value)
+        hostname = (parsed.hostname or "").lower().rstrip(".")
+    except ValueError:
+        return "docs.google.com" in lowered
+    return hostname == "docs.google.com" and unquote(parsed.path).lower().startswith("/forms")
 
 
 def form_links_allowed(route, links):

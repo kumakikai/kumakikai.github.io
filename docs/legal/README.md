@@ -41,7 +41,7 @@ python3 scripts/test_nocca_legal_review.py
 npm run verify
 ```
 
-The 24 focused tests cover valid input and rejection of another app's route,
+The 25 focused tests cover valid input and rejection of another app's route,
 changed baseline hashes, mismatched source paths, extra source/rendered text,
 extra links, the wrong form, extra removed links, malformed catalogs and missing
 route records. They run before the existing migration verification in CI.
@@ -64,3 +64,7 @@ terms, Apple Standard EULA, legacy article source, and protected anchors remain
 unchanged. The two exact source/rendered catalog entries are refreshed only after
 review of the generated text and links. Tests reject form URL variants even with
 a recomputed review catalog. The old unrelated form remains rejected.
+
+Explicit Google Forms ports, trailing-dot hosts and encoded Forms paths are also
+rejected at source, catalog and rendered-link boundaries. The form allowlist
+continues to accept only the exact public Nocca short URL.

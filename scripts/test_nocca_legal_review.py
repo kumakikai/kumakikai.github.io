@@ -156,6 +156,25 @@ class NoccaLegalReviewTests(unittest.TestCase):
                 errors = review.check_article("/privacy/nocca/", entry, "approved rendered text", [form])
                 self.assertTrue(any(e["check"] == "nocca_legal_form" for e in errors))
 
+    def test_google_forms_explicit_port_rejected_at_all_review_boundaries(self):
+        route = "/privacy/nocca/"
+        source = self.root / review.SCOPE[route][0]
+        original = source.read_text()
+        for form in ("https://docs.google.com:443/forms/d/another-form/viewform",
+                     "https://docs.google.com.:443/forms/d/another-form/viewform",
+                     "https://docs.google.com:443/%66orms/d/another-form/viewform"):
+            with self.subTest(form=form):
+                self.assertFalse(review.source_forms_allowed(route, "[form](" + form + ")"))
+                self.assertFalse(review.form_links_allowed(route, [form]))
+                entry = copy.deepcopy(self.catalog["reviews"][route])
+                entry["reviewedLinks"] = [form]
+                errors = review.check_article(route, entry, "approved rendered text", [form])
+                self.assertTrue(any(e["check"] == "nocca_legal_form" for e in errors))
+                source.write_text(original + "\n[form](" + form + ")\n")
+                self.catalog["reviews"][route]["sourceSHA256"] = review.digest(source.read_bytes())
+                self.write()
+                self.rejected()
+
     def test_raw_or_non_http_form_references_rejected(self):
         for value in ("forms.gle/JwDoPvzAh1zKaR2M8", "//forms.gle/JwDoPvzAh1zKaR2M8",
                       "HTTPS://forms.gle/JwDoPvzAh1zKaR2M8", "https://FORMS.GLE/JwDoPvzAh1zKaR2M8"):
