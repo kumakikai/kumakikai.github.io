@@ -58,3 +58,11 @@ Hugo Extended 0.158.0／Node 22.22.0によるproduction buildは成功。[互換
 - [Desktop：Uni:Note → オトミル → ギガポケ → ギャンカレ](screenshots/chrome-seed-11-desktop.jpg)
 - [Mobile](screenshots/chrome-390-light.jpg)
 - [Tablet 1024px・Dark](screenshots/webkit-1024-dark.jpg)
+
+## 公開確認
+
+- 実装コミット：`6d27733`。並行更新統合後の検証記録：`b8c485f`。mainへpush済みです。
+- [Hugo CI](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34081222307)・[GitHub Pages配信](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34081255413)ともに成功。公開成果物のgh-pagesは`2e860118451ce5f2c77359ab06dc6d4393bd2104`です。
+- 2026-09-07 12:56 JST、[全277 HTML URL](public-verification.json)がHTTP200・ローカルbuildとのSHA256完全一致でした。
+- [本番ブラウザ](live-browser.json)でも通常の乱数で10回リロードし、10種類の異なる並びすべてでUni:Note先頭・重複なし・右→左→右→左を確認しました。390pxでは全4件が説明→画像の縦順です。
+- [本番Desktop](screenshots/live-desktop.jpg)／[本番Mobile・通常viewport](screenshots/live-mobile.jpg)を撮影し、目視確認しました。
