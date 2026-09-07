@@ -2,7 +2,7 @@
 {{ $corp := index site.Data.corporate site.Language.Lang }}{{ $copy := index site.Data.company site.Language.Lang }}{{ $home := index site.Data.home site.Language.Lang }}
 {{ $portrait := resources.Get "images/company/yuya-nakamura.png" }}{{ $portraitSmall := $portrait.Resize "192x webp q90" }}{{ $portraitRetina := $portrait.Resize "384x webp q90" }}
 <div class="container company-page">
-  <header class="page-heading"><p class="eyebrow">{{ $corp.nav.company }}</p><h1>{{ $corp.companyTitle }}</h1><p>{{ $corp.companyIntro }}</p></header>
+  <header class="page-heading"><p class="eyebrow">{{ $corp.nav.company }}</p><h1>{{ $corp.companyTitle }}</h1></header>
   <section class="company-about company-section" aria-labelledby="about-title"><h2 id="about-title">{{ $copy.aboutTitle }}</h2><div>{{ range $copy.about }}<p>{{ . }}</p>{{ end }}</div></section>
   <section id="founder" class="company-profile" aria-labelledby="founder-title">
     <div class="founder-identity"><p class="eyebrow">Founder</p><h2 id="founder-title">{{ $copy.founderHeading }}</h2><img class="founder-portrait" src="{{ $portraitSmall.RelPermalink }}" srcset="{{ $portraitSmall.RelPermalink }} 192w, {{ $portraitRetina.RelPermalink }} 384w" sizes="160px" width="192" height="192" alt="{{ $copy.founderPortraitAlt }}" loading="lazy" decoding="async"><h3 lang="en">{{ $copy.founderName }}</h3><p class="founder-role" lang="en">{{ $copy.founderRole }}</p></div>

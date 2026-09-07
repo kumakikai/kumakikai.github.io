@@ -89,7 +89,7 @@ async function company(page, locale, name, noJS = false) {
   const copy = read(`data/company/${locale}.json`);
   const corp = read(`data/corporate/${locale}.json`);
   assert.equal((await page.locator('.page-heading h1').textContent()).trim(), corp.companyTitle, 'Existing Company hero title stays unchanged');
-  assert.equal((await page.locator('.page-heading > p').last().textContent()).trim(), corp.companyIntro);
+  assert.equal(await page.locator('.page-heading > p:not(.eyebrow)').count(), 0, 'About hero does not repeat the Home business description');
   assert.equal((await page.locator('.page-heading .eyebrow').textContent()).trim(), 'About');
   assert.match(await page.title(), /^About(?:\s|$)/, 'About is the page title while /company/ stays permanent');
   assert.equal(new URL(page.url()).pathname, `${prefix(locale)}/company/`);

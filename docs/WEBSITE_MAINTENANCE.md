@@ -241,9 +241,9 @@ news_categoryは **press-release / blog / information**、UIは **Press Release 
 
 KUMAKIKAIは **Yuya Nakamuraが個人事業として運営するアプリ開発ブランド**。法人・架空の社員やオフィス・数値実績を作らない。表示名About・URL `/company/` を維持。Founderは **Yuya Nakamura** のみ、**Software Engineer / App Developer**、組み込み／業務／モバイル経験と `C / C++ / C# / Java / Python / Dart / Swift` を維持。勤務先・経験年数・学歴を推測しない。
 
-**Home／AboutのKUMAKIKAI紹介文では、特定Productを代表例として恣意的に列挙しない。** About冒頭は運営者・個人事業・iPhone／iPadアプリの企画開発とApp Storeでの公開運営、Home下部は運営者と対象端末を簡潔に伝える。具体的なProduct紹介はProductsおよびWhat we buildへ任せ、ブランド紹介の本文へ一部アプリの名称や固有機能を戻さない。編集元は `data/company/<lang>.json.about` と `data/home/<lang>.json.aboutText`。Home／AboutのSEO descriptionにも同じ方針を適用する。既存のProduct紹介・カテゴリ内代表Product・静的クロール導線は維持する。
+**Home／AboutのKUMAKIKAI紹介文では、特定Productを代表例として恣意的に列挙しない。** About冒頭は運営者・個人事業・アプリ開発ブランドであること、Home下部は運営者とブランドの関係を簡潔に伝える。具体的なProduct紹介はProductsおよびWhat we buildへ任せ、ブランド紹介の本文へ一部アプリの名称や固有機能を戻さない。編集元は `data/company/<lang>.json.about` と `data/home/<lang>.json.aboutText`。Home／AboutのSEO descriptionでも特定Productを恣意的に列挙しない。既存のProduct紹介・カテゴリ内代表Product・静的クロール導線は維持する。
 
-`data/company/ja.json.founderBio` は複数領域の経験、KUMAKIKAIでの企画・開発・運営、自分の不便や身近な人の困りごとから必要なものを作る、という本人のスタンス。通常Product更新で再生成せず、特定アプリだけの小話を追加しない。使用許可済み人物イラストは維持可。漢字氏名・電話番号・名刺全体を追加しない。
+`data/company/ja.json.founderBio` は複数領域のソフトウェア開発経験と、自分の不便や身近な人の困りごとから必要なものを作る、という本人のスタンス。ブランド全体の事業説明を再度加えない。通常Product更新で再生成せず、特定アプリだけの小話を追加しない。使用許可済み人物イラストは維持可。漢字氏名・電話番号・名刺全体を追加しない。
 
 基本情報は **名称／開発者／事業形態（個人事業）／事業内容／適格請求書発行事業者（登録済み）**。登録確認は国税庁公表サイトの本人情報へリンクし、番号・税務上の屋号・漢字氏名・住所等を転載しない。紹介文・ラベルは `data/company/<lang>.json`、確認リンクは `layouts/company/list.html` で管理する。Web欄・メール欄を戻さず末尾Contact CTAへ集約。For MediaはPress Release一覧と同ページ#contactへ。アプリSupportと一般問い合わせを混同しない。
 
@@ -256,6 +256,10 @@ What we buildは **学習（learning）／コミュニケーション（communic
 - 本文の固定アプリ数は禁止。代表ProductとProducts一覧の静的リンクを維持する。
 
 ### コピー・Typography
+
+**KUMAKIKAI全体の事業説明はHome Heroを主な説明箇所とする。** 「iPhone・iPad向けのアプリを企画・開発・運営しています。」はHome Hero（`data/corporate/<lang>.json.heroLead`）で維持し、各セクションで同じ説明を繰り返さない。単語だけを変えた「App Storeで公開・運営」「iPhone・iPadアプリを開発」等も同じ意味なら追加しない。各ページはそのページ固有の情報を伝える。
+
+Home Aboutは運営者とブランド、About冒頭はブランド・個人事業、Founderは経験・開発スタイル、Productsは実際のアプリ、Contactは問い合わせ方法を伝える。About Heroと記事末尾には事業説明の定型段落を置かず、空の段落や代わりの抽象コピーも作らない。About基本情報の事業内容は事実確認用の項目として維持する。SEO用meta description／structured dataは画面上の反復と区別し、検索エンジンへの事業説明を維持できる。多言語も同じ役割分担とし、既存の翻訳・アプリ固有の説明・記事本文を機械的に書き換えない。
 
 具体的な機能・用途・条件を書く。会社名を他社へ置換しても成立し、固有情報がない説明は削除・具体化。「ユーザーに寄り添う」「より良い体験」「革新的」「シームレス」等を雰囲気のために足さない。Hero・採用済みキャッチコピーは役割が違うため通常更新で再創作しない。日本語本文は「各プロダクトページ」等自然な表記にする。
 
