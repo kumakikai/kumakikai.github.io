@@ -1,0 +1,1018 @@
+{
+  "ok": true,
+  "cases": 39,
+  "interactions": "passed",
+  "failures": [],
+  "results": [
+    {
+      "name": "home-desktop1440-light",
+      "route": "/",
+      "theme": "light",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 4975,
+      "dark": false,
+      "storeControls": {
+        "badges": 3,
+        "regions": 9
+      },
+      "homeSelection": {
+        "ids": [
+          "uni-note",
+          "nocca",
+          "balance-calendar",
+          "signal"
+        ],
+        "count": 4,
+        "fixedLead": "uni-note",
+        "selection": "three distinct eligible products",
+        "inertCandidates": 0
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "home-desktop1440-dark",
+      "route": "/",
+      "theme": "dark",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 4975,
+      "dark": true,
+      "storeControls": {
+        "badges": 3,
+        "regions": 13
+      },
+      "homeSelection": {
+        "ids": [
+          "uni-note",
+          "signal",
+          "nocca",
+          "uni-note-pocket"
+        ],
+        "count": 4,
+        "fixedLead": "uni-note",
+        "selection": "three distinct eligible products",
+        "inertCandidates": 0
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-desktop1440-light",
+      "route": "/products/",
+      "theme": "light",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 1646,
+      "dark": false,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-desktop1440-dark",
+      "route": "/products/",
+      "theme": "dark",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 1646,
+      "dark": true,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "home-iphone-pro-light",
+      "route": "/",
+      "theme": "light",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 8474,
+      "dark": false,
+      "storeControls": {
+        "badges": 3,
+        "regions": 16
+      },
+      "homeSelection": {
+        "ids": [
+          "uni-note",
+          "uni-note-pocket",
+          "smokeless",
+          "nocca"
+        ],
+        "count": 4,
+        "fixedLead": "uni-note",
+        "selection": "three distinct eligible products",
+        "inertCandidates": 0
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "home-iphone-pro-dark",
+      "route": "/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 8693,
+      "dark": true,
+      "storeControls": {
+        "badges": 4,
+        "regions": 10
+      },
+      "homeSelection": {
+        "ids": [
+          "uni-note",
+          "oto-miru",
+          "balance-calendar",
+          "giga-poke"
+        ],
+        "count": 4,
+        "fixedLead": "uni-note",
+        "selection": "three distinct eligible products",
+        "inertCandidates": 0
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-iphone-pro-light",
+      "route": "/products/",
+      "theme": "light",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 3079,
+      "dark": false,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "products-iphone-pro-dark",
+      "route": "/products/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 3079,
+      "dark": true,
+      "productsHub": {
+        "cards": 8,
+        "actions": 16
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-news-light",
+      "route": "/news/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 1928,
+      "dark": false,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-news-dark",
+      "route": "/news/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 2311,
+      "dark": true,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-company-light",
+      "route": "/company/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 3349,
+      "dark": false,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-company-dark",
+      "route": "/company/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 4245,
+      "dark": true,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-uni-note-light",
+      "route": "/products/uni-note/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 5780,
+      "dark": false,
+      "storeControls": {
+        "badges": 2,
+        "regions": 6
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 6,
+        "stories": 3,
+        "audience": 3,
+        "imageWidths": [
+          450,
+          450,
+          450
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-uni-note-dark",
+      "route": "/products/uni-note/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 7764,
+      "dark": true,
+      "storeControls": {
+        "badges": 2,
+        "regions": 6
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 6,
+        "stories": 3,
+        "audience": 3,
+        "imageWidths": [
+          317,
+          317,
+          317
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-oto-miru-light",
+      "route": "/products/oto-miru/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 5145,
+      "dark": false,
+      "storeControls": {
+        "badges": 2,
+        "regions": 1
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 3,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-oto-miru-dark",
+      "route": "/products/oto-miru/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 7282,
+      "dark": true,
+      "storeControls": {
+        "badges": 2,
+        "regions": 1
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 3,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-giga-poke-light",
+      "route": "/products/giga-poke/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 5195,
+      "dark": false,
+      "storeControls": {
+        "badges": 2,
+        "regions": 1
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-giga-poke-dark",
+      "route": "/products/giga-poke/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 7495,
+      "dark": true,
+      "storeControls": {
+        "badges": 2,
+        "regions": 1
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-nocca-light",
+      "route": "/products/nocca/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 4934,
+      "dark": false,
+      "storeControls": {
+        "badges": 0,
+        "regions": 0
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-nocca-dark",
+      "route": "/products/nocca/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 6999,
+      "dark": true,
+      "storeControls": {
+        "badges": 0,
+        "regions": 0
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-uni-note-pocket-light",
+      "route": "/products/uni-note-pocket/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 5284,
+      "dark": false,
+      "storeControls": {
+        "badges": 2,
+        "regions": 6
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-uni-note-pocket-dark",
+      "route": "/products/uni-note-pocket/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 7496,
+      "dark": true,
+      "storeControls": {
+        "badges": 2,
+        "regions": 6
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-balance-calendar-light",
+      "route": "/products/balance-calendar/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 5198,
+      "dark": false,
+      "storeControls": {
+        "badges": 2,
+        "regions": 2
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-balance-calendar-dark",
+      "route": "/products/balance-calendar/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 7292,
+      "dark": true,
+      "storeControls": {
+        "badges": 2,
+        "regions": 2
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-smokeless-light",
+      "route": "/products/smokeless/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 5850,
+      "dark": false,
+      "storeControls": {
+        "badges": 2,
+        "regions": 4
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-smokeless-dark",
+      "route": "/products/smokeless/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 8438,
+      "dark": true,
+      "storeControls": {
+        "badges": 2,
+        "regions": 4
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-signal-light",
+      "route": "/products/signal/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 5289,
+      "dark": false,
+      "storeControls": {
+        "badges": 2,
+        "regions": 1
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-products-signal-dark",
+      "route": "/products/signal/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 7340,
+      "dark": true,
+      "storeControls": {
+        "badges": 2,
+        "regions": 1
+      },
+      "productContent": {
+        "overviewParagraphs": 2,
+        "features": 4,
+        "stories": 2,
+        "audience": 3,
+        "imageWidths": [
+          290,
+          290
+        ]
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-notes-2026-09-02-giga-poke-light",
+      "route": "/notes/2026-09-02-giga-poke/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 2607,
+      "dark": false,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-notes-2026-09-02-giga-poke-dark",
+      "route": "/notes/2026-09-02-giga-poke/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 2847,
+      "dark": true,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-htu-uni-note-light",
+      "route": "/htu/uni-note/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 7682,
+      "dark": false,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-htu-uni-note-dark",
+      "route": "/htu/uni-note/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 7683,
+      "dark": true,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-faq-uni-note-light",
+      "route": "/faq/uni-note/",
+      "theme": "light",
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 3188,
+      "dark": false,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "-faq-uni-note-dark",
+      "route": "/faq/uni-note/",
+      "theme": "dark",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 3772,
+      "dark": true,
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "locale-en-home",
+      "route": "/en/",
+      "theme": "light",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 8782,
+      "dark": false,
+      "storeControls": {
+        "badges": 4,
+        "regions": 12
+      },
+      "homeSelection": {
+        "ids": [
+          "uni-note",
+          "signal",
+          "oto-miru",
+          "smokeless"
+        ],
+        "count": 4,
+        "fixedLead": "uni-note",
+        "selection": "three distinct eligible products",
+        "inertCandidates": 0
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "locale-ko-home",
+      "route": "/ko/",
+      "theme": "light",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 8720,
+      "dark": false,
+      "storeControls": {
+        "badges": 4,
+        "regions": 17
+      },
+      "homeSelection": {
+        "ids": [
+          "uni-note",
+          "uni-note-pocket",
+          "oto-miru",
+          "smokeless"
+        ],
+        "count": 4,
+        "fixedLead": "uni-note",
+        "selection": "three distinct eligible products",
+        "inertCandidates": 0
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "locale-de-home",
+      "route": "/de/",
+      "theme": "light",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 8747,
+      "dark": false,
+      "storeControls": {
+        "badges": 3,
+        "regions": 11
+      },
+      "homeSelection": {
+        "ids": [
+          "uni-note",
+          "signal",
+          "nocca",
+          "smokeless"
+        ],
+        "count": 4,
+        "fixedLead": "uni-note",
+        "selection": "three distinct eligible products",
+        "inertCandidates": 0
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "locale-zh-hant-home",
+      "route": "/zh-hant/",
+      "theme": "light",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 8685,
+      "dark": false,
+      "storeControls": {
+        "badges": 3,
+        "regions": 8
+      },
+      "homeSelection": {
+        "ids": [
+          "uni-note",
+          "nocca",
+          "signal",
+          "giga-poke"
+        ],
+        "count": 4,
+        "fixedLead": "uni-note",
+        "selection": "three distinct eligible products",
+        "inertCandidates": 0
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    },
+    {
+      "name": "locale-fr-home",
+      "route": "/fr/",
+      "theme": "light",
+      "viewport": 393,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "brokenImages": [],
+      "headingSkips": [],
+      "height": 9002,
+      "dark": false,
+      "storeControls": {
+        "badges": 4,
+        "regions": 15
+      },
+      "homeSelection": {
+        "ids": [
+          "uni-note",
+          "balance-calendar",
+          "giga-poke",
+          "uni-note-pocket"
+        ],
+        "count": 4,
+        "fixedLead": "uni-note",
+        "selection": "three distinct eligible products",
+        "inertCandidates": 0
+      },
+      "errors": [],
+      "violations": [],
+      "ok": true
+    }
+  ]
+}

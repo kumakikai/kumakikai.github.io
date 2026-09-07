@@ -153,7 +153,7 @@ CIで使用する `--check` は、SEOデータの全8 ID一致・空のtitle/des
 日本語Homeの既存About文は維持。他5言語にはYuya Nakamuraが本文中に存在しなかったため、同じ事実を忠実に翻訳して `data/home/<lang>.json` の `aboutText` だけを更新。氏名をmeta/JSON-LDにのみ置く状態を避けるための変更で、HeroやランダムFeaturedは変更していません。
 
 - en: Yuya Nakamura designs, develops and maintains apps including Uni:Note and OtoMiru.
-- ko: Yuya Nakamura가 Uni:Note, OtoMiru 등의 앱을 기획·개발·운영합니다.
+- ko: Yuya Nakamura가 Uni:Note, OtoMiru 등의 앱을 기획하고 개발하며 운영합니다.
 - de: Yuya Nakamura konzipiert, entwickelt und betreut Apps wie Uni:Note und OtoMiru.
 - fr: Yuya Nakamura conçoit, développe et maintient des apps comme Uni:Note et OtoMiru.
 - zh-hant: Yuya Nakamura 企劃、開發及維護 Uni:Note、OtoMiru 等 App。

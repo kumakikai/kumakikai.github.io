@@ -41,6 +41,7 @@ Home/About/全Productの採用title・descriptionとBefore/After全文は [metad
 - [負テスト](verification-negative-tests.json)：localhost canonical、誤noindex、不正JSON-LD、存在しないhreflang、公開download欠落、架空ratingの6件を全て検出。
 - [既存URL・本文・リンク検証](migration-verification.json)：旧191URL、138正式URL、53旧alias、84記事、全48Product、416Support行、画像・内部リンクを検証。
 - Nocca法務保護テスト18件PASS。SEOdescription/lastmod変更による厳密なファイルhash更新のみ、本文・法務・リンクの許可範囲は変更なし。[照合記録](nocca-source-review.json)
+- [ブラウザ回帰検証](browser/results.json)：39条件・全interactionで成功。全Product、Home/Products/About/News、代表Guide/FAQ/Press Release、5言語Home、Light/Darkを確認。キーボード操作、画像、overflow、heading、axeに問題なし。
 - production build：Hugo Extended0.158.0、Node22.22.0、npm lockfile。エラー・警告なし。CIへSEO全件チェックを追加。
 
 公開後のHTTP・Pages・Lighthouse結果は、このレポートの公開確認追記に記録する。
