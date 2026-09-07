@@ -19,6 +19,7 @@ import re
 import sys
 from urllib.parse import parse_qs, unquote, urljoin, urlsplit
 import xml.etree.ElementTree as ET
+from nocca_legal_review import load_reviews as load_nocca_legal_reviews, check_article as check_nocca_legal_article
 
 SITE = "https://kumakikai.github.io"
 LOCAL_HOSTS = {"kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
@@ -205,6 +206,8 @@ class Verification:
         self.guide_reviews = json.loads(review_file.read_text()) if review_file.is_file() else {}
         for route in self.guide_reviews:
             self.require(route in self.baseline["articles"], route, "guide_review_scope", "Guide review must reference an existing protected article")
+        self.nocca_legal_reviews, legal_errors = load_nocca_legal_reviews(Path(__file__).resolve().parent.parent, self.baseline)
+        self.errors.extend(legal_errors)
 
     def require(self, condition, route, check, detail):
         if not condition:
@@ -279,7 +282,12 @@ class Verification:
             new_text = normalized(body.text())
             expected_text = old["text"]
             review = self.guide_reviews.get(route)
-            if review:
+            legal_review = self.nocca_legal_reviews.get(route)
+            if legal_review:
+                links = {urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href") and not node.has_class("anchor")}
+                self.errors.extend(check_nocca_legal_article(route, legal_review, new_text, links))
+                self.counts["reviewed_nocca_legal_bodies"] += 1
+            elif review:
                 # The visual-guide task explicitly replaces stale how-to/FAQ
                 # content. Keep the original snapshot, routes, canonical and
                 # anchors immutable; only the individually reviewed bodies
@@ -305,13 +313,13 @@ class Verification:
                 expected_text = expected_text.replace(before, after, 1)
                 self.require("iPad専用" not in new_text, route, "authorized_article_change", "The authorized iPad wording change was not applied")
                 self.counts["authorized_article_wording_changes"] += 1
-            if not review:
+            if not review and not legal_review:
                 self.require(expected_text in new_text, route, "legacy_content", "Original rendered article body was dropped, changed, or reordered beyond the exact authorized wording change")
             missing = sorted(set(old["ids"]) - set(doc.ids))
             self.require(not missing, route, "legacy_anchor", f"Original article anchors disappeared: {missing}")
             links = {urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href")}
             missing_links = sorted(set(old["links"]) - links)
-            approved_removed = review.get("removedLinks", []) if review else []
+            approved_removed = legal_review["removedLinks"] if legal_review else review.get("removedLinks", []) if review else []
             self.require(missing_links == sorted(approved_removed), route, "legacy_content_link", f"Unreviewed original link changes: {missing_links}; approved: {approved_removed}")
             self.counts["legacy_articles"] += 1
         for sitemap, urls in self.baseline["sitemaps"].items():

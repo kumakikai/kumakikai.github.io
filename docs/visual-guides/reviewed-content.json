@@ -122,10 +122,10 @@
   },
   "/faq/nocca/": {
     "source": "content/faq/nocca.md",
-    "sourceSHA256": "7e6e2a74d602061fb5c5f4e0cd7e7baf39c6245a9bc7288e48098f48be27a701",
+    "sourceSHA256": "954c15e69ebd3b06af364d1022e4a2d2537563785ec3727626d55c6acc56c43f",
     "baselineTextSHA256": "8366bc8f438e0e409218b257bbb21ccbdf3089847803c04088f66b4f06ce5076",
-    "reviewedTextSHA256": "7e63898b231f4b7a5dfa553813e820b245d81d7a1fff6e78782fa011333d7c44",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
+    "reviewedTextSHA256": "c88a44fa9660ef22cbe95e71283a87cde4efa82633cc364626223ac928acb594",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md 2026-09-07 Nocca-only legal clarification: trial starts on owner approval; deletion retains disclosed minimum records and does not cancel Apple subscriptions.",
     "removedLinks": [
       "https://kumakikai.github.io/htu/nocca/",
       "https://kumakikai.github.io/privacy/nocca/",
@@ -264,13 +264,12 @@
   },
   "/htu/nocca/": {
     "source": "content/htu/nocca.md",
-    "sourceSHA256": "34ed7f3296d013bc0e6f4067e2c9163a78012e142dd99e3ecd260c3e7179dbf9",
+    "sourceSHA256": "d75c30ba4b080e390c2b0d152199d3a501c13f7d1d5092bf251beae7037cee0f",
     "baselineTextSHA256": "a299355f1982620db4fb8b37de052b745fda9a90386541a105e8a806377dd9bd",
-    "reviewedTextSHA256": "fd1382730219126222ddecaba586a1e6e14ebec4e7c50fa7bd18d1cd84f16b77",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
+    "reviewedTextSHA256": "05cba4256ea8d61d59e350840d5837bd93bead3c3fcb80822d56b63f0428132f",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md 2026-09-07 Nocca-only legal clarification: trial starts on owner approval; deletion retains disclosed minimum records and does not cancel Apple subscriptions.",
     "removedLinks": [
       "https://kumakikai.github.io/faq/nocca/",
-      "https://kumakikai.github.io/privacy/nocca/",
       "https://kumakikai.github.io/terms/nocca/"
     ]
   },

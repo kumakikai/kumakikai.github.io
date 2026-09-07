@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "purpose": "nocca-legal-update-2026-09-07",
+  "reviews": {
+    "/privacy/nocca/": {
+      "source": "content/privacy/nocca.md",
+      "sourceSHA256": "3111e395dbc61e2dc7a7b6573110d2f57fed62a454fa2b4cb6853fb97cf5ebf3",
+      "baselineTextSHA256": "e01d5993ef49c080b2b2a9c5b30ce12b125ce15e6cca69d3c5d51cd3bf7a1fff",
+      "reviewedTextSHA256": "f8af97fa50b433a1350cd6ea6647303da2a81551bf808dda519149d11f8bde18",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/faq/nocca/",
+        "https://kumakikai.github.io/htu/nocca/",
+        "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+        "https://kumakikai.github.io/terms/nocca/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized 2026-09-07 Nocca legal update reflecting App Attest, server processing, 7-day trial, subscriptions, retention/deletion and the existing support email; article removes only the incorrect other-app form. Original routes, canonical URLs, anchors and remaining links preserved."
+    },
+    "/terms/nocca/": {
+      "source": "content/terms/nocca.md",
+      "sourceSHA256": "cd852acb0272fb80bc5daeaa88eea07a899a60cd858162c598dc31f52ca5b822",
+      "baselineTextSHA256": "150df3841135c7542cbe39b7318c9d1cb53b68bb2a4e2fff8c8718855da46946",
+      "reviewedTextSHA256": "d85008d5a77e15d2ba6d4a0f819a431afce108825423033f17eac16fdb886a1a",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/faq/nocca/",
+        "https://kumakikai.github.io/htu/nocca/",
+        "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+        "https://kumakikai.github.io/privacy/nocca/",
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "removedLinks": [],
+      "reason": "User-authorized 2026-09-07 Nocca legal update reflecting App Attest, server processing, 7-day trial, subscriptions, retention/deletion and the existing support email; article removes only the incorrect other-app form. Original routes, canonical URLs, anchors and remaining links preserved."
+    },
+    "/notes/2026-09-06-nocca/": {
+      "source": "content/notes/2026-09-06-nocca.md",
+      "sourceSHA256": "69d646a783b4b7e6312de61ba3673343d10a419b9a4a469b3a995ab86ad87af7",
+      "baselineTextSHA256": "b27985ee2867507911f4fa7dbd3bfd22b314edf51ef30c03ccd15bb852096da5",
+      "reviewedTextSHA256": "f528fa7c6c14c48b9a6103f27806140c2f795d321c574aff4d3b9f2b7dc27d5a",
+      "reviewedLinks": [
+        "https://kumakikai.github.io/faq/nocca/",
+        "https://kumakikai.github.io/htu/nocca/",
+        "https://kumakikai.github.io/privacy/nocca/",
+        "https://kumakikai.github.io/terms/nocca/",
+        "mailto:kumakikai.apps@gmail.com"
+      ],
+      "removedLinks": [
+        "https://forms.gle/Enzmm94LdXRZjP8k9"
+      ],
+      "reason": "User-authorized 2026-09-07 Nocca legal update reflecting App Attest, server processing, 7-day trial, subscriptions, retention/deletion and the existing support email; article removes only the incorrect other-app form. Original routes, canonical URLs, anchors and remaining links preserved."
+    }
+  }
+}
