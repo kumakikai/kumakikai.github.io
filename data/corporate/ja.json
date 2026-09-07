@@ -9,9 +9,9 @@
   "pressRelease": "Press Release",
   "information": "Information",
   "heroLead": "iPhone・iPad向けのアプリを企画・開発・運営しています。",
-  "allProducts": "すべてのプロダクトを見る",
-  "allNews": "Newsをすべて見る",
-  "companyCTA": "KUMAKIKAIについて",
+  "allProducts": "Products",
+  "allNews": "News",
+  "companyCTA": "About",
   "productsTitle": "暮らしと学びのためのアプリ。",
   "productsIntro": "アプリを選ぶと、製品情報や使い方・よくある質問を確認できます。",
   "supportTitle": "アプリのサポート",
@@ -31,7 +31,7 @@
   "statusLabel": "公開状況",
   "productFeatures": "このアプリでできること",
   "productResources": "使い方とサポート",
-  "relatedProducts": "関連プロダクト",
+  "relatedProducts": "Products",
   "aboutHeading": "KUMAKIKAIについて",
   "home": "トップ",
   "published": "公開日",
@@ -41,7 +41,7 @@
   "menuClose": "メニューを閉じる",
   "notFoundTitle": "ページが見つかりません",
   "notFoundText": "URLが変更されたか、ページが削除された可能性があります。",
-  "backHome": "トップへ",
+  "backHome": "Home",
   "privacyDirectory": "プライバシー",
   "supportContactTitle": "解決しないときは",
   "supportContactText": "アプリ名、端末とOSのバージョン、起きている状況を添えてメールでお知らせください。",
@@ -56,5 +56,7 @@
   "productsTitleParts": [
     "暮らしと学びのための",
     "アプリ。"
-  ]
+  ],
+  "breadcrumbLabel": "パンくずリスト",
+  "footerNavLabel": "フッターナビゲーション"
 }

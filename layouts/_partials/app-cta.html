@@ -4,7 +4,7 @@
 {{ if or $available (not .product) }}
 <div class="app-actions">
 {{ if $available }}{{ partial "app-store-badge.html" (dict "app" $app) }}{{ end }}
-{{ if not .product }}<a class="text-link" href="{{ printf "/products/%s/" $app.id | relLangURL }}" aria-label="{{ $text.name }} — {{ $copy.details }}">{{ $copy.details }} <span aria-hidden="true">→</span></a>{{ end }}
+{{ if not .product }}<a class="text-link" href="{{ printf "/products/%s/" $app.id | relLangURL }}" aria-label="{{ $text.name }} — {{ $copy.detailsLabel | default $copy.details }}">{{ $copy.details }} <span aria-hidden="true">→</span></a>{{ end }}
 </div>
 {{ end }}
 {{ if $available }}<div class="app-availability"><span class="availability-label" title="{{ $ui.verifiedRegions }}">{{ $ui.regions }}</span><ul aria-label="{{ $ui.verifiedRegions }}">{{ range $app.availability.verifiedStorefronts }}{{ $code := . }}{{ $country := index $ui.countries $code }}{{ $url := index $app.availability.storefrontURLs $code }}{{ with $country }}<li>{{ if $url }}<a class="storefront-link" data-country="{{ $code }}" href="{{ $url }}" aria-label="{{ $text.name }} — {{ printf $ui.openStore .name }}" title="{{ printf $ui.openStore .name }}"><span aria-hidden="true">{{ .flag }}</span></a>{{ else }}<span class="storefront-label" role="img" aria-label="{{ .name }}" title="{{ .name }}">{{ .flag }}</span>{{ end }}</li>{{ end }}{{ end }}</ul></div>{{ end }}

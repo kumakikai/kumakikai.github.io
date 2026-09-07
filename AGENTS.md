@@ -10,6 +10,7 @@
 - 新規アプリのApp Store Connect Support URLは原則として正式Product詳細ページを使用する。既存Press Releaseの本文・URLは維持し、既存登録URLをWeb更新の都合だけで変更しない。
 - Home＝知る、Products＝全アプリ唯一の総合ハブ、Product＝理解する、Guide＝実操作、FAQ＝問題・例外、News＝発信、About＝ブランド・人物の役割を維持する。
 - Headerは **Products / News / About**、FooterはContact中心。Support／Privacy総合ハブ、HomeのOther Appsを復活させない。
+- UIラベルは現在の英語UI体系（Products / News / About等）を維持し、日本語本文は自然な日本語を使用する。詳細はWEBSITE_MAINTENANCE.mdを参照。
 - HomeはUni:Note先頭固定＋ランダム3件。Desktopの画像位置は表示順で右→左→右→左、Mobileは説明→画像。Aboutの代表Productは同じ大分類内だけでランダム選出する。
 - Hugoplate、既存Typography・余白・カード・CTA・共通partialを維持する。通常更新でテーマ、Framework、ナビゲーション、CMSを変えない。
 - KUMAKIKAI公式サイトはライトテーマ固定。通常更新でDark modeやテーマ切替を再導入しない。OSのダーク設定でもライト表示を維持する。

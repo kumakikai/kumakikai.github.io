@@ -34,7 +34,7 @@
 | ページ | 正式な役割・現在のURL |
 | --- | --- |
 | Home | 代表Productを知る。`/`。Hero → Featured → Productsリンク → News最新3件 → About紹介 |
-| Products | 全アプリ唯一の総合ハブ。`/products/`。アイコン・名称・端末・説明・公開状況・「製品を見る」「サポート」 |
+| Products | 全アプリ唯一の総合ハブ。`/products/`。アイコン・名称・端末・説明・公開状況・「Product」「Support」 |
 | Product | アプリを理解する。`/products/<id>/`。概要・特徴・画像・利用シーン・基本情報・Store・Support |
 | Guide | 実画面で操作を説明。既存 `/htu/<id>/`。短いStepと操作画像 |
 | FAQ | 困りごと・例外・よくある質問。既存 `/faq/<id>/`。操作はGuideの見出しへ |
@@ -47,7 +47,15 @@ Headerは **Products / News / About** と言語切替。Footerはブランド名
 
 **KUMAKIKAI公式サイトはライトテーマ固定。** 現在のライト配色を正式なブランドデザインとし、通常更新でDark modeやテーマ切替を再導入しない。OSの `prefers-color-scheme: dark` や旧theme保存値に反応してサイトを暗くしない。テーマ判定・保存・切替用の独自JS、Dark専用の独自CSSを追加しない。Hugoplate本体や依存を破壊的に変更する必要はない。実際のアプリにあるDark UI・スクリーンショットの配色はサイトのテーマ方針とは別で、画像を書き換えたりアプリ仕様を削除したりしない。
 
-Productsカードの「サポート」は **`/products/<id>/#support`**。対象が決まったらGuide／FAQ／Contact／Privacy／Termsへ直接進める。全アプリSupportで再選択させない。旧 `/support/` 等は互換用に残すがHeader・Footer・Homeから積極的に案内しない。
+Productsカードの「Support」は **`/products/<id>/#support`**。対象が決まったらGuide／FAQ／Contact／Privacy／Termsへ直接進める。全アプリSupportで再選択させない。旧 `/support/` 等は互換用に残すがHeader・Footer・Homeから積極的に案内しない。
+
+### UIラベルの言語方針
+
+サイト構造を示すNavigation／Section Label／List CTAは英語を基本とする。日本語ページの一覧導線は **Products → / News →**、Aboutへの導線は **About →**。単一アプリの製品情報へのCTAは **Product**、同アプリのサポートへのCTAは **Support**。Contact、What we build、Press Release／Blog／Information／Allも既存の英語UI体系として使い、冗長な「すべて見る」「〜を見る」を付けない。
+
+日本語ページの本文・説明・機能名・操作説明は自然な日本語を使用する。UI表記を理由に本文中の「アプリ」「プロダクト」「お問い合わせ」を英語化せず、「各Productページ」「下記のContact」のような不自然な混在も避ける。内容見出しの「使い方とサポート」「対応環境・基本情報」、Support行の「お問い合わせ」、What we buildの「学習／コミュニケーション／ユーティリティ」は日本語のまま。メール作成などの具体的な操作は「メールで問い合わせる」でよい。BreadcrumbはProducts等の階層名と「よくある質問」等の実際のページ名を区別する。
+
+共通の一覧・About導線は `data/corporate/ja.json`、Home CTAは `data/home/ja.json`、Productカードは `data/ux/ja.json`、About内CTAとNewsフィルタは `data/company/ja.json` で管理する。対象をUI／Navigation／CTA／本文／内容見出しに分けて判断し、単純置換しない。aria-labelは日本語で目的を補足できるが、音声操作のため表示ラベルも含める。`detailsLabel`／`productViewLabel`／`appSupportLabel`は任意の読み上げ用文言で、未設定の言語は既存ラベルへfallbackする。他言語本文には日本語ページの変更を機械的に適用しない。URL・SEO metadata・アプリ内の正式用語・既存のライトデザインは維持する。
 
 ### Home Featured
 
@@ -56,7 +64,7 @@ Productsカードの「サポート」は **`/products/<id>/#support`**。対象
 - **表示順確定後**に `assets/css/site.css` がindex相当の `nth-of-type` で画像を **右→左→右→左** へ。固定先頭と別のランダムgroup内の奇数番目が全体2・4件目。Productデータに左右属性を持たせない。
 - 901px以上は交互2カラム、900px以下は説明→CTA／地域／補足→画像の縦順。非公式表記等はテキスト側に残す。
 - JS無効でもUni:Note＋静的候補で成立。主要本文・ProductsリンクをJS依存にせず、初期選出時のCLSを抑える既存構造を維持。
-- **Other Appsを戻さない**。末尾の「すべてのプロダクトを見る」1導線でProductsへ。
+- **Other Appsを戻さない**。末尾の「Products →」1導線でProductsへ。
 
 ### Productの情報量・CTA
 
@@ -227,7 +235,7 @@ news_categoryは **press-release / blog / information**、UIは **Press Release 
 
 旧記事は `data/news.json` のcategory / relatedProductsで補助、新記事のfront matterが優先。related_productsは実際に扱うアプリのみ指定し、Press Release → Productの静的リンクを保つ。全Blogに全Productを自動列挙しない。公開時は本文・日付・draftを確認（未来日は通常build対象外）。翻訳は同basenameのsuffix。現行Newsは日本語記事を他言語一覧にも日本語と明示して案内する。
 
-カテゴリは `/news/#press-release` / `#blog` / `#information` / `#all-news`。CSSで同じ一覧を絞り込み、重複カテゴリページ・追加JSを作らない。初期「すべて」でempty stateを出さず、本当に0件のカテゴリ選択時だけ表示。
+カテゴリは `/news/#press-release` / `#blog` / `#information` / `#all-news`。CSSで同じ一覧を絞り込み、重複カテゴリページ・追加JSを作らない。初期「All」でempty stateを出さず、本当に0件のカテゴリ選択時だけ表示。
 
 ### About・Founder
 
