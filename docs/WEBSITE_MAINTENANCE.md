@@ -4,6 +4,8 @@
 
 2026-09-07の実装を照合して記録。公開状況・OS・素材は更新の都度確認する。本書とコードに差がある場合は、ユーザーが意図した仕様変更か確認し、古い資料だけでコードを巻き戻さない。明示された設計変更は実装と本書を同時更新する。READMEは環境構築の入口、過去の監査レポートは当時の証拠として扱う。Web保守方針は本書を優先する。
 
+**Product更新と記事作成は独立した作業。** 新規アプリ追加・リリース・大幅アップデートを含む通常のサイト更新では、Press Release／Information／Blogを自動作成しない。記事追加はユーザーが明示的に記事作成を依頼した場合のみ。以下の新規追加・既存更新・公開状態変更チェックリストに記事作成は含めない。
+
 ## 1. 短い指示を受けたら
 
 1. `git status --short` とbranchを確認し、未コミット変更・並行作業を保護する。本書と対象アプリ側の作業規則を読む。
@@ -197,9 +199,13 @@ Guideは「見出し → 短い説明／Step → 実UI画像 → 必要な補足
 
 ## 7. News / About / 文章
 
-### News
+### News（明示的な記事作成依頼がある場合のみ）
 
-新規は `content/news/YYYY-MM-DD-slug.md`、既存は `content/notes/` のまま。HTMLを編集せずMarkdownだけで追加する。下例の値・日付・idは実際のものへ置換。
+「プレスリリースを作って」「正式発表の記事を書いて」「お知らせを書いて」「この内容でブログを書きたい」等の依頼がある場合にだけ記事を追加する。「新しいアプリをHPに追加して」「リリースしたのでサイトも更新して」「アプリを更新したのでHPも合わせて」は記事作成の指示ではない。Informationも通常更新に付随して作らず、BlogもProductリリースとは独立して扱う。
+
+実際に発信したい内容がある場合だけ作成し、更新しているように見せるための記事、分類を埋める記事、SEO用の薄い記事を生成しない。既存Press Releaseの本文・URLはこの運用変更では編集・削除・移動しない。Newsからの既存導線も維持する。
+
+以下およびREADME・SEO運用メモのNews追加手順は、明示的な記事作成依頼がある場合だけ適用する。新規は `content/news/YYYY-MM-DD-slug.md`、既存は `content/notes/` のまま。HTMLを編集せずMarkdownだけで追加する。下例は明示依頼されたProduct紹介Press Releaseの例であり、Support URLを用意するためには作成しない。値・日付・idは実際のものへ置換。
 
 ```yaml
 ---
@@ -213,7 +219,7 @@ draft: true
 ---
 ```
 
-news_categoryは **press-release / blog / information**、UIは **Press Release / Blog / Information**。正式Product紹介だけ「正式アプリ名＋について」。開発・運営の読み物はBlog、利用者への実務告知はInformation。分類を埋める記事を作らない。未分類は実装上informationへfallbackするため必ず明示する。
+news_categoryは **press-release / blog / information**、UIは **Press Release / Blog / Information**。明示依頼された正式Product紹介Press Releaseは「正式アプリ名＋について」。開発・運営の読み物はBlog、利用者への実務告知はInformation。未分類は実装上informationへfallbackするため必ず明示する。
 
 旧記事は `data/news.json` のcategory / relatedProductsで補助、新記事のfront matterが優先。related_productsは実際に扱うアプリのみ指定し、Press Release → Productの静的リンクを保つ。全Blogに全Productを自動列挙しない。公開時は本文・日付・draftを確認（未来日は通常build対象外）。翻訳は同basenameのsuffix。現行Newsは日本語記事を他言語一覧にも日本語と明示して案内する。
 
@@ -249,8 +255,17 @@ What we buildは **学習（learning）／コミュニケーション（communic
 
 旧support / privacy / htu / faq / terms / notes集約、旧pagination、空taxonomy、404は検索対象外。互換用ページのHTTP・リンク・自己canonicalを保ち、robotsでクロールを拒否せずnoindex, followで整理。アプリ固有本文・Privacy・Terms・正式紹介記事を一緒にnoindexにしない。既存Supportのアプリ別fragmentも維持。
 
+### App Store Connect Support URL
+
+新規アプリのSupport URLは原則として、そのアプリの正式Product詳細ページ **`https://kumakikai.github.io/products/<id>/`** を使用する。例: `https://kumakikai.github.io/products/uni-note/`。Product概要・機能・対応環境と、使い方／FAQ／お問い合わせ／Privacy／Termsへの直接導線を備える正式入口として扱う。Support URLのために「アプリ名について」の記事を作成しない。
+
+App Store Connect登録用はProductページ自体の正式URL。サイト内カードから同ページ下部へ進む `/products/<id>/#support` とは用途を分ける。旧互換情報の `data/apps.json.detailURL` を新規登録先として機械的に採用しない。
+
+既存アプリがPress Release URLをSupport URLとして登録していても、Web更新の都合だけでは変更しない。次回、そのアプリのApp Store Connectメタデータを更新する機会に、必要に応じて正式Product URLへの変更を検討する。通常のHP更新だけでApp Store Connect設定まで変更しない。登録先を変更した後も、既存Press Releaseの本文・旧URLは外部参照・検索・過去コンテンツの互換性のため維持し、HTTP成功を確認する。
+
 ### SEO更新
 
+- Product名で検索する人向けの正式ランディングページは **`/products/<id>/`**。固有metadata・schema・静的リンクを中心に整備し、Press Releaseを作らない代わりの検索用記事を追加しない。
 - titleは正式Product名＋KUMAKIKAI等の固有値、descriptionは用途。Product H1には正式名をHTMLで含める。KUMAKIKAI／Yuya Nakamura表記を統一。
 - Home・About・Productは `data/seo/<lang>.json`、記事はfront matter。Heroや本文へ検索語を詰め込まず、別表記は確認できる必要な範囲だけ。
 - canonicalは正式 `https://kumakikai.github.io/` の各ページ自身。翻訳を日本語へ統合せずlocalhost／previewを出さない。
@@ -290,7 +305,7 @@ Search Consoleは2026-09-07時点の回答では未登録。今後は接続状�
 - [ ] 最新正式Store素材を最適化。必要なGuide実画面を取得／crop。寸法・alt・srcset・lazy・出典確認。
 - [ ] 実装に即したGuide／FAQ、実態に即したPrivacy、必要な独自Termsを作成。未設定Termsは共通EULA。Contactは確認済み先。
 - [ ] 下部の共通Support5種類を確認。不要なGuide／FAQはダミーを作らず必要性と検証契約を判断。
-- [ ] 必要なら「正式アプリ名について」のPress Releaseを作り、News分類・Product導線を設定。
+- [ ] 正式Product詳細ページを確認し、新規App Store Connect Support URLの登録先として案内する。概要・機能・対応環境と固有Supportへの到達を確認。
 - [ ] 全6言語SEOへ固有title・description、Product OGPまたはfallbackを確認。
 - [ ] npm run sync:products後の生成Markdownを確認。Products静的リンク、H1、schema、canonical、hreflang、sitemap。
 - [ ] 新idの素材・地域証拠を登録。固定アプリ集合に依存するQA期待値を根拠付き拡張。baselineは緩めない。
@@ -409,7 +424,8 @@ macOSでCA参照が必要ならSSL_CERT_FILE=/etc/ssl/cert.pemを指定し、TLS
 | 新しいアプリを作ったのでサイトに追加して | 新規チェックリストでid・6言語data・Product・実画面・Support・Store地域・area・SEOを追加しsync | Products静的掲載、Home／About候補、必要な実ページ、status、sitemap・本番 |
 | すわなびのWatch版が公開された | 公開版照合後、smokelessのwatch.status・素材状態・Watch Product／Guide／OS・schemaを関連更新 | 審査中表示の残り、iOSペアリング条件、公開版との画像差。iPhone版Store IDは維持 |
 | Uni:Noteのスクショ変えたからHPも変えて | 最新正式素材を特定し、共通screenshots・詳細stories・alt、使用するHero／OGPを照合。Guideは操作画面変更時だけ | 最新素材、表示先、寸法・容量・alt、Featured、不要な本文変更なし、build・本番 |
+| 新アプリについてプレスリリースも作って | 明示された記事作成としてNews手順を適用し、依頼内容・正式Productへのリンク・分類・記事SEOを確認 | 既存記事・URLの維持、依頼された記事だけを追加、build・本番 |
 
-4例とも対象プロジェクト・data・テンプレート・検証・公開確認を特定できる。未確認の新アプリ名・配信国等だけは調査後に確認する。短い指示で完結することは、未確認事実を作ることではない。
+最初の4例ではPress Release／Information／Blogを作らない。新規アプリのSupport URLは正式Product詳細ページとし、既存アプリの登録URLと過去記事は維持する。最後の例は明示依頼があるため記事を作成できる。いずれも対象data・テンプレート・検証・公開確認を特定できる。未確認の新アプリ名・配信国等だけは調査後に確認する。短い指示で完結することは、未確認事実を作ることではない。
 
 通常報告は **更新内容（Product／画像／Guide・FAQ／Support／SEO）→ 確認（build／リンク／Desktop・Mobile／本番）→ 未対応があれば理由**。全項目の長大な再掲や検索順位保証は不要。

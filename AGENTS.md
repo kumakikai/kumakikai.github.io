@@ -6,6 +6,8 @@
 
 - 最初に `git status --short` を確認し、並行作業・未コミット変更を保護する。無関係なページ、素材、生成物を変更・stageしない。
 - 既存公開URL、特にApp Store ConnectのSupport／Marketing／Privacy／Press Release／Guide／FAQ／Termsを維持する。正式本文をredirectへ置換しない。
+- 新規Product追加・公開・既存Product更新に伴ってPress Release／Information／Blogを自動作成しない。記事はユーザーから明示的な作成指示がある場合のみ追加する。
+- 新規アプリのApp Store Connect Support URLは原則として正式Product詳細ページを使用する。既存Press Releaseの本文・URLは維持し、既存登録URLをWeb更新の都合だけで変更しない。
 - Home＝知る、Products＝全アプリ唯一の総合ハブ、Product＝理解する、Guide＝実操作、FAQ＝問題・例外、News＝発信、About＝ブランド・人物の役割を維持する。
 - Headerは **Products / News / About**、FooterはContact中心。Support／Privacy総合ハブ、HomeのOther Appsを復活させない。
 - HomeはUni:Note先頭固定＋ランダム3件。Desktopの画像位置は表示順で右→左→右→左、Mobileは説明→画像。Aboutの代表Productは同じ大分類内だけでランダム選出する。
