@@ -1,0 +1,1068 @@
+{
+  "checkedAt": "2026-09-07T05:35:42.152Z",
+  "base": "https://kumakikai.github.io",
+  "engine": "chrome",
+  "requireNativeHidden": false,
+  "ok": true,
+  "cases": 24,
+  "failures": [],
+  "method": "Actual browser viewport rendering and accessibility snapshots. Six site languages, desktop/mobile, JavaScript on/off. Initial no-hash, each category, All reset and direct empty-category fragment. Native-hidden check also blocks CSS before page navigation. No physical-device test.",
+  "results": [
+    {
+      "locale": "ja",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "ja",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "de",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "de",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "de",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "de",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "fr",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "fr",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "ko",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "ko",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "ko",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "ko",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "zh-hant",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "zh-hant",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "zh-hant",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    },
+    {
+      "locale": "zh-hant",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "states": [
+        {
+          "category": "initial-no-fragment",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "press-release",
+          "visibleRows": 8,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "blog",
+          "visibleRows": 7,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "information",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "all-reset",
+          "visibleRows": 15,
+          "visibleEmpty": 0,
+          "accessibilityMatches": true
+        },
+        {
+          "category": "direct-information-fragment",
+          "visibleRows": 0,
+          "visibleEmpty": 1,
+          "accessibilityMatches": true
+        }
+      ],
+      "ok": true
+    }
+  ]
+}

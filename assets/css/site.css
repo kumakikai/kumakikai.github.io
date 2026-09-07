@@ -219,7 +219,10 @@ body.menu-open { overflow: hidden; }
 .news-filters a:target,.news-directory:not(:has(#press-release:target,#blog:target,#information:target)) #all-news { color: var(--ink); border-color: var(--ink); font-weight: 650; }
 .news-directory:has(#press-release:target) .news-row:not([data-category="press-release"]),.news-directory:has(#blog:target) .news-row:not([data-category="blog"]),.news-directory:has(#information:target) .news-row:not([data-category="information"]) { display: none; }
 .news-filter-empty { display: none; padding-block: 25px; color: var(--muted); font-size: .94rem; }
-.news-directory:has(#press-release:target) .news-filter-empty[data-category="press-release"],.news-directory:has(#blog:target) .news-filter-empty[data-category="blog"],.news-directory:has(#information:target) .news-filter-empty[data-category="information"] { display: block; }
+/* Override the native-hidden reset in its own layer, only for the selected category. */
+@layer base {
+.news-directory:has(#press-release:target) .news-filter-empty[data-category="press-release"],.news-directory:has(#blog:target) .news-filter-empty[data-category="blog"],.news-directory:has(#information:target) .news-filter-empty[data-category="information"] { display: block !important; }
+}
 @media (max-width: 900px) {
   .company-about,.company-media { gap: 36px; }
   .company-profile { padding: 32px; gap: 32px; grid-template-columns: .8fr 1.2fr; }
