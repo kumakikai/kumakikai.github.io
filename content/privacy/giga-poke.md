@@ -1,6 +1,7 @@
 ---
 title: "プライバシーポリシー (ギガポケ)"
 description: "ギガポケのプライバシーポリシー"
+lastmod: 2026-09-08
 aliases:
   - /privacy/povo-manager/
 ---
@@ -162,14 +163,6 @@ Privacy Manifestでは、Trackingなし、収集データなしを宣言して�
 
 本アプリはpovo 2.0の特典管理を補助する非公式アプリです。KDDI株式会社、povo、auとは提携・協賛・公認その他の関係はありません。
 
----
-
-関連ページ:
-
-- [使い方 (ギガポケ)]({{< relref "/htu/giga-poke/" >}})
-- [よくある質問 (ギガポケ)]({{< relref "/faq/giga-poke/" >}})
-- [利用規約 (ギガポケ)]({{< relref "/terms/giga-poke/" >}})
-
 制定日: 2026-09-02
 
-最終更新日: 2026-09-02
+最終更新日: 2026-09-08

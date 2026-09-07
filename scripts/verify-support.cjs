@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-theme.cjs');
-// Focused browser checks for the shared Product / Guide / FAQ resources.
+// Browser checks for shared Product / Guide / FAQ / Privacy / Terms resources.
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const {chromium, webkit} = require('playwright');
@@ -9,13 +9,17 @@ const engine = process.env.TEST_ENGINE || 'chrome';
 const read = path => JSON.parse(fs.readFileSync(path, 'utf8'));
 const apps = read('data/apps.json');
 const defaults = read('data/support.json');
-const out = 'docs/support-consistency';
+const out = process.env.TEST_OUTPUT_DIR || 'docs/support-consistency';
 fs.mkdirSync(`${out}/screenshots`, {recursive:true});
 const results = [];
-const routes = ['products','htu','faq'].flatMap(section => fs.readdirSync(`content/${section}`).filter(file => file.endsWith('.md')&&!file.startsWith('_')).map(file => {
+const routes = ['products','htu','faq','privacy','terms'].flatMap(section => fs.readdirSync(`content/${section}`).filter(file => file.endsWith('.md')&&!file.startsWith('_')).map(file => {
   const [id, locale='ja'] = file.slice(0,-3).split('.');
   return {section,id,locale,route:`${locale==='ja'?'':'/'+locale}/${section}/${id}/`};
-})).filter(p => engine!=='webkit'||p.locale==='ja');
+})).filter(p => apps.some(app => app.id===p.id));
+const contactSubjects = Object.fromEntries([...new Set(routes.map(p=>p.locale))].map(locale => {
+  const copy=read(`data/home/${locale}.json`),corporate=read(`data/corporate/${locale}.json`);
+  return [locale,Object.fromEntries(apps.map(app=>[app.id,`${copy.apps[app.id].name} — ${corporate.contactLabel}`]))];
+}));
 const axe = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 function save(pending, fatal=null) {
   fs.writeFileSync(`${out}/${engine}-browser.json`, JSON.stringify({checkedAt:new Date().toISOString(),base,engine,pending,ok:!pending&&!fatal&&results.length>0&&results.every(r=>r.ok),...(fatal?{fatal}:{}),pages:routes.length,cases:results.length,failures:results.filter(r=>!r.ok),method:'Actual browser viewport rendering, shared rows and keyboard focus. Source/URL preservation is checked separately. Viewport emulation is not a physical device test.',results},null,2)+'\n');
@@ -48,12 +52,19 @@ function expectedURL(app, kind, locale) {
           const a=n.querySelector('a'),title=a.querySelector('.resource-title'),desc=a.querySelector('.resource-description'),style=getComputedStyle(a);
           return {kind:n.dataset.supportKind,href:a.getAttribute('href'),title:title?.textContent.trim(),description:desc?.textContent.trim(),target:a.getAttribute('target'),rel:a.getAttribute('rel'),note:a.querySelector('.sr-only')?.textContent,arrow:a.querySelector('[aria-hidden]')?.textContent.trim(),height:a.getBoundingClientRect().height,style:[style.display,style.fontSize,style.borderBottomStyle,style.borderBottomWidth,style.paddingTop,style.paddingBottom],titleSize:getComputedStyle(title).fontSize,descriptionSize:desc&&getComputedStyle(desc).fontSize};
         }));
-        const kinds=['guide','faq','contact','privacy','terms'].filter(k=>!(p.section==='htu'&&k==='guide')&&!(p.section==='faq'&&k==='faq'));
+        const currentKind=p.section==='htu'?'guide':p.section;
+        const kinds=['guide','faq','contact','privacy','terms'].filter(k=>k!==currentKind);
         assert.deepEqual(r.rows.map(row=>row.kind),kinds);
         const app=apps.find(a=>a.id===p.id);
         for (const row of r.rows) {
           const expected=expectedURL(app,row.kind,p.locale);
-          assert(row.kind==='contact'?row.href.startsWith(expected+'?subject='):row.href===expected,'Direct metadata destination');
+          if(row.kind==='contact'&&expected.startsWith('mailto:')&&!expected.includes('?')){
+            const actual=new URL(row.href);
+            assert.equal(actual.href.split('?')[0],expected,'Direct contact destination');
+            assert.deepEqual([...actual.searchParams.entries()],[['subject',contactSubjects[p.locale][p.id]]],'Localized contact subject');
+          }else{
+            assert.equal(row.href,expected,'Direct metadata destination');
+          }
           assert(row.title&&row.description&&row.arrow&&row.height>=44);
           assert.deepEqual(row.style,r.rows[0].style,'Terms has the same row design');
           assert.equal(row.titleSize,r.rows[0].titleSize);assert.equal(row.descriptionSize,r.rows[0].descriptionSize);
@@ -62,6 +73,11 @@ function expectedURL(app, kind, locale) {
         }
         r.layout=await page.evaluate(()=>({width:document.documentElement.scrollWidth,dark:document.documentElement.classList.contains('dark'),oldUI:document.querySelectorAll('.related-resource,.resource-terms').length,articleLinks:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')).filter(h=>/\/(notes|news)\/[^#/?]+\//.test(h))}));
         r.lightTheme=await assertLightTheme(page);assert(r.layout.width<=width);assert.equal(r.layout.dark,false);assert.equal(r.layout.oldUI,0);assert.deepEqual(r.layout.articleLinks,[]);
+        if(['privacy','terms'].includes(p.section)){
+          // Generic navigation belongs in the shared panel. Contextual legal links remain valid.
+          r.genericRelatedLabels=await page.locator('[data-content-body] p, [data-content-body] h2, [data-content-body] h3, [data-content-body] h4').evaluateAll(nodes=>nodes.map(n=>n.textContent.trim()).filter(text=>/^(?:関連ページ|Related pages|관련 페이지|関連頁面|相關頁面|Verwandte Seiten|Pages connexes)\s*[:：]?$/i.test(text)));
+          assert.deepEqual(r.genericRelatedLabels,[],'Legal pages use the shared support panel instead of a second generic Related Pages list');
+        }
         const links=panel.locator('a');
         for (const link of [links.first(),links.last()]) {
           await page.keyboard.press('Tab');await link.focus();

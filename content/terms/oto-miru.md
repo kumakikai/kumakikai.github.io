@@ -1,6 +1,7 @@
 ---
 title: "利用規約 (オトミル)"
 description: "オトミルの利用規約"
+lastmod: 2026-09-08
 ---
 
 本利用規約は、オトミル（App Store 表示名: オトミル - 聞こえを字幕でサポート。以下「本アプリ」）の利用条件を定めるものです。
@@ -114,12 +115,4 @@ App Store から入手した本アプリには、Apple が定める[標準使用
 
 - メールアドレス: [kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
 
----
-
-関連ページ:
-
-- [使い方 (オトミル)]({{< relref "/htu/oto-miru/" >}})
-- [よくある質問 (オトミル)]({{< relref "/faq/oto-miru/" >}})
-- [プライバシーポリシー (オトミル)]({{< relref "/privacy/oto-miru/" >}})
-
-最終更新日: 2026-05-19
+最終更新日: 2026-09-08

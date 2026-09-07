@@ -44,6 +44,7 @@ jobs:
       - name: Verify URL compatibility and site links
         run: |
           python3 scripts/test_nocca_legal_review.py
+          python3 scripts/test_legal_navigation_review.py
           python3 scripts/verify-migration.py public --baseline docs/migration/baseline.json
           python3 scripts/test_product_basics.py --build public
 

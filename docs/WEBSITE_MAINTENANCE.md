@@ -186,6 +186,7 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 - **現在の検証は全ProductにGuide／FAQ／Privacy実ページを要求する**。本当に不要なGuide／FAQはダミーを作らず理由を報告。必要性が判断された省略はUI・検証の該当契約だけを意図的に対応し、無条件に検証を外さない。
 - アプリ別Privacy・Termsは統合せず、実データ処理・公開条件に合わせる。未公開機能を公開済みとして法務へ記載しない。
 - 法務ページの汎用導線は末尾の共通「使い方とサポート」へまとめ、本文に同じ「関連ページ」一覧や単独のProductリンクを重ねない。法務上の説明に必要な参照先や問い合わせメールは本文に残す。NoccaのPrivacy／Termsはこの構成とし、フォームは共通欄の「お問い合わせ」から案内する。旧本文リンクを移す場合も、同一ページの共通欄に既存のリンク先が残ることを検証する。
+- この重複確認は全Productと実在する全言語のGuide／FAQ／Privacy／Termsを対象にする。FAQの回答や法務条文に付随する参照リンクは、共通欄と同じURLでも文脈があるため保持する。本文にしかない問い合わせフォームを重複とみなして削除しない。ギガポケ・オトミルの法務4ページは `scripts/legal_navigation_review.py` が既存本文から許可した一覧削除と更新日の変更だけを検証する。
 - Product／Guide／FAQ末尾に同ProductのPress Releaseを重ねない。記事本文・URLは維持しNewsから案内する。
 
 ## 6. 最新画像・Guide・Simulator
@@ -372,6 +373,7 @@ npm run sync:products
 npm run build
 cp app-ads.txt public/app-ads.txt
 python3 scripts/test_nocca_legal_review.py
+python3 scripts/test_legal_navigation_review.py
 npm run verify
 python3 scripts/test_product_basics.py --build public
 npm run verify:seo
@@ -399,6 +401,8 @@ TEST_BASE_URL=http://127.0.0.1:1314 NODE_PATH=/path/to/qa/node_modules node scri
 ```
 
 各script冒頭の対応環境変数を読む。CHROME_PATH、一部のTEST_ENGINE=webkit、GuideのTEST_APP / TEST_LOCALES / TEST_WIDTHS等を使用可能。previewの既定1313と多くのQAの既定1314を混同しない。TEST_REPORT等で新しい保存先を指定し、対応しない変数を推測しない。保存先固定scriptは生成差分を読み、過去証跡を無自覚に上書きしない。
+
+`verify-support.cjs` は全Product・Guide・FAQ・Privacy・Termsの共通サポート欄を検証する。`TEST_OUTPUT_DIR` で今回用の証跡保存先を指定できる。メールの件名付与とHTTPSフォームの完全一致を区別する。
 
 基本幅は **1440 / 1280 / 1024 / 768 / 430 / 390 / 375px**。Home変更時は901/900px境界も確認。共通CSS変更は全主要ページ、データ限定変更は対象と表示先へ範囲を合わせる。語中分割、末尾1〜2文字落ち、助詞・句読点、PCの細すぎる本文、MobileのCTA・国旗・画像・Supportを実読し、overflowだけで日本語PASSにしない。OSのlight／dark両設定と旧theme保存値がある状態でも、サイトが同じライト表示になることを確認。テーマ切替UIを出さず、focus、menu Escape・背景スクロールも影響範囲で確認する。
 

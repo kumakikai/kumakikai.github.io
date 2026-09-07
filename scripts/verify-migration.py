@@ -25,6 +25,11 @@ from nocca_legal_review import (
     check_article as check_nocca_legal_article,
     retained_legacy_links as retained_nocca_legacy_links,
 )
+from legal_navigation_review import (
+    SCOPE as LEGAL_NAVIGATION_SCOPE,
+    check_article as check_legal_navigation_article,
+    navigation_links as legal_navigation_links,
+)
 
 SITE = "https://kumakikai.github.io"
 LOCAL_HOSTS = {"kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
@@ -288,6 +293,7 @@ class Verification:
             expected_text = old["text"]
             review = self.guide_reviews.get(route)
             legal_review = self.nocca_legal_reviews.get(route)
+            legal_navigation = route in LEGAL_NAVIGATION_SCOPE
             if legal_review:
                 links = {urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href") and not node.has_class("anchor")}
                 self.errors.extend(check_nocca_legal_article(route, legal_review, new_text, links))
@@ -318,7 +324,7 @@ class Verification:
                 expected_text = expected_text.replace(before, after, 1)
                 self.require("iPad専用" not in new_text, route, "authorized_article_change", "The authorized iPad wording change was not applied")
                 self.counts["authorized_article_wording_changes"] += 1
-            if not review and not legal_review:
+            if not review and not legal_review and not legal_navigation:
                 self.require(expected_text in new_text, route, "legacy_content", "Original rendered article body was dropped, changed, or reordered beyond the exact authorized wording change")
             missing = sorted(set(old["ids"]) - set(doc.ids))
             self.require(not missing, route, "legacy_anchor", f"Original article anchors disappeared: {missing}")
@@ -337,6 +343,26 @@ class Verification:
                     rows = [node for node in related[0].descendants() if node.has_class("resource-links")]
                     support_links = {urljoin(SITE + route, node.attrs["href"]) for row in rows for node in row.descendants("a") if node.attrs.get("href")}
                     links = retained_nocca_legacy_links(route, links, support_links)
+            if legal_navigation:
+                # Four fixed routes may remove only their redundant final list.
+                # Validate the same-app shared rows before retaining those URLs.
+                support_links = set()
+                related = [node for node in doc.nodes if node.has_class("article-related")]
+                self.require(len(related) == 1, route, "support_component", "Legal pages need one shared support area")
+                if len(related) == 1:
+                    apps = json.loads(self.data_file.read_text(encoding="utf-8"))
+                    app = next((app for app in apps if app["id"] == route.split("/")[2]), None)
+                    self.require(app is not None, route, "support_metadata", "Legal page needs its existing Product metadata")
+                    if app is not None:
+                        prior_errors = len(self.errors)
+                        self.verify_support_resources(related[0], app, "ja", route, omitted=route.split("/")[1])
+                        if len(self.errors) == prior_errors:
+                            rows = [node for node in related[0].descendants() if node.has_class("resource-links")]
+                            support_links = {urljoin(SITE + route, node.attrs["href"]) for row in rows for node in row.descendants("a") if node.attrs.get("href")}
+                body_links = [urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href") and not node.has_class("anchor")]
+                self.errors.extend(check_legal_navigation_article(route, old, new_text, body_links, support_links))
+                links |= set(legal_navigation_links(route)) & support_links
+                self.counts["reviewed_legal_navigation_bodies"] += 1
             missing_links = sorted(set(old["links"]) - links)
             approved_removed = legal_review["removedLinks"] if legal_review else review.get("removedLinks", []) if review else []
             self.require(missing_links == sorted(approved_removed), route, "legacy_content_link", f"Unreviewed original link changes: {missing_links}; approved: {approved_removed}")
