@@ -54,4 +54,14 @@
 
 ## 本番反映
 
-公開後にソースcommit、Actions/Pages、生成成果物と本番HTTPの照合結果を追記する。
+- 実装commit: `d8a43938c0c154daeb11c55eb5dc9dab8824564c`。
+- [production build / 検証 / gh-pages更新](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34093533998): success。
+- 公開成果物: `170e4711df32171524eb61dbc092148c482bf0f0`。
+- [GitHub Pages公開](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34093578117): success。
+- [ローカルとCIのHTML比較](local-ci-comparison.json): 277件すべてbyte一致。
+- [CI成果物のProduct基本情報検証](deployed-regression.json): 全48ページ・17負例PASS。
+- [CI成果物のSEO検証](deployed-seo.json): エラー・警告0。
+- [本番HTTP検証](live-http.json): 277 HTML + 384リソース = **661ファイルがHTTP 200・公開成果物とbyte一致**。全48 Productを含む。追加の18キャッシュ／User-Agent条件も一致。旧テンプレート・旧文言・旧CTAの検出0。
+- 既存191 URLとApp Store Connect参照用ページの本文・URLを移動／削除していない。ヘッダー、フッター、画像、sitemap/robots/canonicalも現行成果物を維持。
+
+基本情報の未確認値・未解決UI回帰はなし。Noccaは開発中、すわなびのWatch対応は一般公開前として継続表示する。Actionsには既存checkout/setup-node actionランタイムのNode 20廃止予告注記があるが、今回のHugo生成・サイト検証・Pages公開は成功している。アプリの対応OSを変更する作業ではなく、確認済み要件をWebへ反映する作業として完了。
