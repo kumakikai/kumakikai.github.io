@@ -1,0 +1,113 @@
+{
+  "auditedAt": "2026-09-07",
+  "scope": "Read-only current app source; no builds or app edits",
+  "products": [
+    {
+      "id": "smokeless",
+      "sourceRepository": "/Users/yuya/Projects/smokeless",
+      "head": "3e9e7f38a67f233c1bc4a18c6e56bb50693355d6",
+      "dirtyWorktree": true,
+      "targets": [
+        {
+          "name": "Runner",
+          "productType": "com.apple.product-type.application",
+          "configuration": "Release",
+          "resolvedProjectAndTargetSettings": {
+            "IPHONEOS_DEPLOYMENT_TARGET": "14.0",
+            "WATCHOS_DEPLOYMENT_TARGET": null,
+            "TARGETED_DEVICE_FAMILY": "1",
+            "MARKETING_VERSION": null,
+            "CURRENT_PROJECT_VERSION": "$(FLUTTER_BUILD_NUMBER)"
+          }
+        },
+        {
+          "name": "HiLowWidgetExtensionExtension",
+          "productType": "com.apple.product-type.app-extension",
+          "configuration": "Release",
+          "resolvedProjectAndTargetSettings": {
+            "IPHONEOS_DEPLOYMENT_TARGET": "14.0",
+            "WATCHOS_DEPLOYMENT_TARGET": null,
+            "TARGETED_DEVICE_FAMILY": "1",
+            "MARKETING_VERSION": "1.2.0",
+            "CURRENT_PROJECT_VERSION": "3"
+          }
+        },
+        {
+          "name": "SmokelessWatchApp",
+          "productType": "com.apple.product-type.application",
+          "configuration": "Release",
+          "resolvedProjectAndTargetSettings": {
+            "WATCHOS_DEPLOYMENT_TARGET": "9.0",
+            "TARGETED_DEVICE_FAMILY": "4",
+            "MARKETING_VERSION": "1.2.0",
+            "CURRENT_PROJECT_VERSION": "3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "balance-calendar",
+      "sourceRepository": "/Users/yuya/Projects/gamble_pnl",
+      "head": "8db02fc73957bcaec3fb31215f5d3f2f10ee9d61",
+      "dirtyWorktree": true,
+      "targets": [
+        {
+          "name": "Runner",
+          "productType": "com.apple.product-type.application",
+          "configuration": "Release",
+          "resolvedProjectAndTargetSettings": {
+            "IPHONEOS_DEPLOYMENT_TARGET": "14.0",
+            "WATCHOS_DEPLOYMENT_TARGET": null,
+            "TARGETED_DEVICE_FAMILY": "1",
+            "MARKETING_VERSION": null,
+            "CURRENT_PROJECT_VERSION": "$(FLUTTER_BUILD_NUMBER)"
+          }
+        },
+        {
+          "name": "HiLowWidgetExtensionExtension",
+          "productType": "com.apple.product-type.app-extension",
+          "configuration": "Release",
+          "resolvedProjectAndTargetSettings": {
+            "IPHONEOS_DEPLOYMENT_TARGET": "14.0",
+            "WATCHOS_DEPLOYMENT_TARGET": null,
+            "TARGETED_DEVICE_FAMILY": "1",
+            "MARKETING_VERSION": "1.4.0",
+            "CURRENT_PROJECT_VERSION": "2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "sourceRepository": "/Users/yuya/Projects/signal",
+      "head": "3cee564eddfd1d45841b403c47722d64d8da0389",
+      "dirtyWorktree": true,
+      "targets": [
+        {
+          "name": "Runner",
+          "productType": "com.apple.product-type.application",
+          "configuration": "Release",
+          "resolvedProjectAndTargetSettings": {
+            "IPHONEOS_DEPLOYMENT_TARGET": "13.0",
+            "WATCHOS_DEPLOYMENT_TARGET": null,
+            "TARGETED_DEVICE_FAMILY": "1",
+            "MARKETING_VERSION": null,
+            "CURRENT_PROJECT_VERSION": "$(FLUTTER_BUILD_NUMBER)"
+          }
+        },
+        {
+          "name": "RunnerTests",
+          "productType": "com.apple.product-type.bundle.unit-test",
+          "configuration": "Release",
+          "resolvedProjectAndTargetSettings": {
+            "IPHONEOS_DEPLOYMENT_TARGET": "13.0",
+            "WATCHOS_DEPLOYMENT_TARGET": null,
+            "TARGETED_DEVICE_FAMILY": "1",
+            "MARKETING_VERSION": "1.0",
+            "CURRENT_PROJECT_VERSION": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

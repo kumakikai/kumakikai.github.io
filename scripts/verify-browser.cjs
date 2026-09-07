@@ -125,8 +125,30 @@ async function inspectProductContent(page, route) {
     assert.equal(await image.evaluate(el => el.naturalWidth > 0), true);
     imageWidths.push(Math.round(bounds.width));
   }
+  const locale = localeFor(route);
+  const app = appData.find(app => app.id === id);
+  const home = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/home', locale + '.json'), 'utf8'));
+  const ui = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/product_ui', locale + '.json'), 'utf8'));
+  const corporate = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/corporate', locale + '.json'), 'utf8'));
+  assert.ok(typeof detail.minimumOS === 'string' && detail.minimumOS.trim(), 'Every product has verified minimum OS metadata');
+  const formatOS = value => value.split(' / ').map(os => ui.minimumOSFormat.replace('%s', os)).join(' / ');
+  let platform = home.apps[id].platform, operatingSystem = formatOS(detail.minimumOS);
+  const expectedPending = [];
+  if (detail.watch) {
+    assert.ok(detail.watch.minimumOS?.trim(), 'Watch support has a verified watchOS minimum');
+    const pending = detail.watch.status === 'published' ? '' : detail.watch.locales[locale].platformPending;
+    platform += ' / Apple Watch' + pending;
+    operatingSystem += ' / ' + formatOS(detail.watch.minimumOS) + pending;
+    if (pending) expectedPending.push(pending, pending);
+  }
+  const status = app.status === 'published' ? corporate.available + (locale === 'ja' ? '・' : ' · ') + 'App Store' : home.development;
   assert.equal(await page.locator('.product-facts dl').count(), 1);
-  assert.equal(await page.locator('.product-facts dt').count(), detail.minimumOS ? 4 : 3);
+  assert.equal(await page.locator('.product-facts dl > div').count(), 3, 'All products use exactly three equal compatibility rows');
+  assert.deepEqual(await page.locator('.product-facts dt').allTextContents(), [ui.platform, ui.os, ui.status], 'Device, OS and status order is common; developer is omitted');
+  assert.deepEqual((await page.locator('.product-facts dd').allTextContents()).map(value => value.trim()), [platform, operatingSystem, status]);
+  assert.deepEqual(await page.locator('.product-facts .platform-upcoming').allTextContents(), expectedPending, 'Upcoming Watch support remains qualified in device and OS values');
+  assert.deepEqual((await page.locator('.product-facts ul.product-notes > li').allTextContents()).map(value => value.trim()), text.notes || []);
+  assert.deepEqual((await page.locator('.product-facts p.product-price-note').allTextContents()).map(value => value.trim()), app.status === 'published' ? [ui.priceNote] : []);
   const positions = await page.locator('.product-intro, .product-overview, .product-features, .product-story, .product-audience, .product-facts, .product-download, section#support').evaluateAll(nodes => nodes.map(n => ({
     section: n.className, top: n.getBoundingClientRect().top + scrollY, bottom: n.getBoundingClientRect().bottom + scrollY,
   })));

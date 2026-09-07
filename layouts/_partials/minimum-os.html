@@ -1,0 +1,2 @@
+{{- $format := split .format "%s" -}}
+<span class="product-os-requirement">{{ index $format 0 }}<span class="product-os-version">{{ .value }}</span>{{ index $format 1 }}</span>{{- "" -}}

@@ -23,17 +23,7 @@
   <h2 id="audience-title">{{ $text.audienceTitle }}</h2>
   <ul>{{ range $text.audience }}<li><h3>{{ .title }}</h3><p>{{ .description }}</p></li>{{ end }}</ul>
 </section>
-<section class="product-facts product-section" aria-labelledby="facts-title">
-  <h2 id="facts-title">{{ $ui.infoTitle }}</h2>
-  <div><dl>
-    <div><dt>{{ $ui.platform }}</dt><dd>{{ partial "product-platform.html" (dict "app" $app) }}</dd></div>
-    {{ with $detail.minimumOS }}<div><dt>{{ $ui.os }}</dt><dd>{{ printf $ui.minimumOSFormat . }}</dd></div>{{ end }}
-    <div><dt>{{ $ui.developer }}</dt><dd>KUMAKIKAI</dd></div>
-    <div><dt>{{ $ui.status }}</dt><dd>{{ if eq $app.status "published" }}{{ $corp.available }} · App Store{{ else }}{{ $home.development }}{{ end }}</dd></div>
-  </dl>
-  {{ with $text.notes }}<ul class="product-notes">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
-  {{ if eq $app.status "published" }}<p class="product-price-note">{{ $ui.priceNote }}</p>{{ end }}</div>
-</section>
+{{ partial "product-facts.html" (dict "app" $app) }}
 {{ with $app.availability }}{{ if and (eq $app.status "published") $app.appStoreURL (in .verifiedStorefronts .storefront) }}
 <section class="product-download" aria-labelledby="download-title"><div><h2 id="download-title">{{ printf $ui.downloadTitle $appText.name }}</h2><p>{{ $ui.downloadText }}</p></div>{{ partial "app-store-badge.html" (dict "app" $app) }}</section>
 {{ end }}{{ end }}

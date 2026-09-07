@@ -131,7 +131,9 @@ Homeは短い紹介、Product詳細は具体的な用途と条件、Supportは�
 
 `stories`は`image: 0`のように`data/apps.json`の既存画像を参照できます。詳細だけに使う実素材は同じファイルの`media`にsmall／large／width／height／largeWidthを登録し、storyから`media: "pdf"`等のキーと、その言語の`alt`で参照します。新しい画像をHomeへ追加する必要はありません。画像は縦横比を維持したWebPを2サイズ用意し、原本・SHA256・採用根拠を記録します。
 
-`minimumOS`はApp Store公開情報とプロジェクトのdeployment targetを照合してから記入します。不明な場合は省略します。開発中アプリの最低OSや価格を推測して埋めないでください。料金の固定値は避け、公開中アプリだけApp Storeの最新情報へ案内します。
+「対応環境・基本情報」は全Productで**対応端末 → 対応OS → 公開状況**の3項目です。「開発元」は追加しません。`minimumOS`は必須で、最新アプリ本体のRelease deployment targetとApp Store公開情報を照合してから記入します。不明な値を推測したり項目を省略したりせず、確認してから公開してください。新規追加時の欠落・形式不正は`sync-products.py --check`とproduction buildで拒否します。Watch版は`watch.minimumOS`も必須で、審査中の待機表示と対応iPhoneの条件を維持します。料金の固定値は避け、公開中アプリだけApp Storeの最新情報へ案内します。
+
+基本情報は`layouts/_partials/product-facts.html`、補足は同じProductデータの`locales.<lang>.notes`から生成します。操作・機能の名称は現在のアプリ内表記を優先してください。Uni:Noteの日本語は「AI残量」であり「AIクォータ」ではありません。全体の運用ルールは[WEBSITE_MAINTENANCE.md](docs/WEBSITE_MAINTENANCE.md)を参照してください。
 
 Product詳細の公式バッジはHeroと主要説明後の2箇所です。国旗はHeroだけ、Supportは最下部の直接リンクを維持します。Homeのバッジは各アプリ1箇所のままです。[詳細ページ拡張の記録](docs/products/REPORT.md)に、採用した内容・素材・検証結果をまとめています。
 

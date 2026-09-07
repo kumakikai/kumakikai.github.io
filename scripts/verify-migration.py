@@ -471,8 +471,6 @@ class Verification:
     def verify_product_content(self, doc, app, detail, lang, route):
         text = detail["locales"][lang]
         home = json.loads((self.data_file.parent / "home" / (lang + ".json")).read_text(encoding="utf-8"))
-        ui = json.loads((self.data_file.parent / "product_ui" / (lang + ".json")).read_text(encoding="utf-8"))
-        corporate = json.loads((self.data_file.parent / "corporate" / (lang + ".json")).read_text(encoding="utf-8"))
         sections = {}
         for name in ("overview", "features", "audience", "facts"):
             matches = [n for n in doc.tagged("section") if n.has_class("product-" + name)]
@@ -518,27 +516,56 @@ class Verification:
                 self.require([n.attrs.get("href") for n in story.descendants("a")] == [shot["large"]], route, "product_media", "Use-case image must open the real larger asset")
             self.counts["product_story_images"] += 1
         facts = sections["facts"]
-        labels = [n.text().strip() for n in facts.descendants("dt")]
-        values = [n.text().strip() for n in facts.descendants("dd")]
-        platform = home["apps"][app["id"]]["platform"]
-        watch = detail.get("watch")
-        if watch:
-            platform += " / Apple Watch" + ("" if watch["status"] == "published" else watch["locales"][lang]["platformPending"])
-        expected_labels, expected_values = [ui["platform"]], [platform]
-        if detail.get("minimumOS"):
-            expected_labels.append(ui["os"])
-            expected_values.append(ui["minimumOSFormat"] % detail["minimumOS"])
-        expected_labels += [ui["developer"], ui["status"]]
-        expected_values += ["KUMAKIKAI", corporate["available"] + " · App Store" if self.available(app) else home["development"]]
-        self.require(len(list(facts.descendants("dl"))) == 1 and labels == expected_labels and values == expected_values, route, "product_facts", "Platform, confirmed minimum OS, developer, and publication status must match verified data")
-        notes = [n for n in facts.descendants() if n.has_class("product-notes")]
-        rendered_notes = [n.text().strip() for group in notes for n in group.descendants("li")]
-        self.require(rendered_notes == text.get("notes", []), route, "product_facts", "Product-specific limitations must remain visible")
-        price_notes = [n.text().strip() for n in facts.descendants() if n.has_class("product-price-note")]
-        self.require(price_notes == ([ui["priceNote"]] if self.available(app) else []), route, "product_facts", "Pricing guidance must refer published products to the Store without invented prices")
+        self.verify_product_facts(facts, app, detail, lang, route)
         ordered = [sections["overview"], sections["features"]] + stories + [sections["audience"], facts]
         self.require([doc.nodes.index(n) for n in ordered] == sorted(doc.nodes.index(n) for n in ordered), route, "product_sections", "Product information sections are out of order")
         self.counts["expanded_product_pages"] += 1
+
+    def verify_product_facts(self, facts, app, detail, lang, route):
+        """The same three-row compatibility contract applies to every product."""
+        text = detail["locales"][lang]
+        home = json.loads((self.data_file.parent / "home" / (lang + ".json")).read_text(encoding="utf-8"))
+        ui = json.loads((self.data_file.parent / "product_ui" / (lang + ".json")).read_text(encoding="utf-8"))
+        corporate = json.loads((self.data_file.parent / "corporate" / (lang + ".json")).read_text(encoding="utf-8"))
+        labels = [n.text().strip() for n in facts.descendants("dt")]
+        values = [n.text().strip() for n in facts.descendants("dd")]
+        minimum_os = detail.get("minimumOS", "")
+        valid_minimum = isinstance(minimum_os, str) and bool(re.fullmatch(r"(?:iOS|iPadOS) [0-9]+\.[0-9]+(?:\.[0-9]+)?(?: / (?:iOS|iPadOS) [0-9]+\.[0-9]+(?:\.[0-9]+)?)*", minimum_os))
+        self.require(valid_minimum, route, "product_minimum_os", "Every product requires a verified minimumOS with an OS name and numeric version")
+        platform = home["apps"][app["id"]]["platform"]
+        operating_system = " / ".join(ui["minimumOSFormat"] % value for value in minimum_os.split(" / ")) if valid_minimum else ""
+        watch = detail.get("watch")
+        expected_pending = []
+        if watch:
+            watch_minimum = watch.get("minimumOS", "")
+            valid_watch = isinstance(watch_minimum, str) and bool(re.fullmatch(r"watchOS [0-9]+\.[0-9]+(?:\.[0-9]+)?", watch_minimum))
+            self.require(valid_watch, route, "product_minimum_os", "Apple Watch compatibility requires a verified watchOS minimum")
+            pending = "" if watch["status"] == "published" else watch["locales"][lang]["platformPending"]
+            platform += " / Apple Watch" + pending
+            operating_system += " / " + (ui["minimumOSFormat"] % watch_minimum if valid_watch else "") + pending
+            if pending:
+                expected_pending = [pending, pending]
+        pending_nodes = [n.text() for n in facts.descendants() if n.has_class("platform-upcoming")]
+        self.require(pending_nodes == expected_pending, route, "product_watch_pending", "Unreleased Apple Watch support must be identified in both device and OS rows")
+        expected_labels = [ui["platform"], ui["os"], ui["status"]]
+        separator = "・" if lang == "ja" else " · "
+        status = corporate["available"] + separator + "App Store" if self.available(app) else home["development"]
+        expected_values = [platform, operating_system, status]
+        lists = list(facts.descendants("dl"))
+        rows = [n for n in lists[0].parts if isinstance(n, Node)] if len(lists) == 1 else []
+        uniform_rows = len(rows) == 3 and all(n.tag == "div" and len(list(n.descendants("dt"))) == 1 and len(list(n.descendants("dd"))) == 1 for n in rows)
+        self.require(len(lists) == 1 and uniform_rows and labels == expected_labels and values == expected_values, route, "product_facts", "Exactly three equal rows are required, in order: devices, minimum OS, publication status; no developer row")
+        notes = [n for n in facts.descendants() if n.has_class("product-notes")]
+        rendered_notes = [n.text().strip() for group in notes for n in group.descendants("li")]
+        expected_notes = text.get("notes", [])
+        self.require(len(notes) == (1 if expected_notes else 0) and all(n.tag == "ul" for n in notes) and rendered_notes == expected_notes, route, "product_facts", "Product-specific limitations must remain in the shared bullet list")
+        price_nodes = [n for n in facts.descendants() if n.has_class("product-price-note")]
+        self.require([n.text().strip() for n in price_nodes] == ([ui["priceNote"]] if self.available(app) else []) and all(n.tag == "p" for n in price_nodes), route, "product_facts", "Pricing guidance must refer published products to the Store without invented prices")
+        ordered = lists + notes + price_nodes
+        descendants = list(facts.descendants())
+        self.require([descendants.index(n) for n in ordered] == sorted(descendants.index(n) for n in ordered), route, "product_facts", "Compatibility rows, product notes and pricing guidance must retain their common order")
+        self.counts["product_facts_pages"] += 1
+        self.counts["product_facts_rows"] += len(labels)
 
     def verify_products_hub(self, doc, apps, lang, route):
         cards = [n for n in doc.nodes if n.has_class("product-card")]

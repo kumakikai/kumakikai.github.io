@@ -1,0 +1,18 @@
+{{- $app := .app -}}
+{{- $detail := index site.Data.product_details $app.id -}}
+{{- $text := index $detail.locales site.Language.Lang -}}
+{{- $ui := index site.Data.product_ui site.Language.Lang -}}
+{{- $home := index site.Data.home site.Language.Lang -}}
+{{- $corp := index site.Data.corporate site.Language.Lang -}}
+{{- if not $detail.minimumOS }}{{ errorf "Product %s requires a verified minimumOS" $app.id }}{{ end -}}
+{{- with $detail.watch }}{{ if not .minimumOS }}{{ errorf "Product %s requires a verified Watch minimumOS" $app.id }}{{ end }}{{ end -}}
+<section class="product-facts product-section" aria-labelledby="facts-title">
+  <h2 id="facts-title">{{ $ui.infoTitle }}</h2>
+  <div><dl>
+    <div><dt>{{ $ui.platform }}</dt><dd>{{ partial "product-platform.html" (dict "app" $app) }}</dd></div>
+    <div><dt>{{ $ui.os }}</dt><dd>{{ range $i, $system := split $detail.minimumOS " / " }}{{ if $i }} / {{ end }}{{ partial "minimum-os.html" (dict "value" $system "format" $ui.minimumOSFormat) }}{{ end }}{{ with $detail.watch }} / {{ partial "minimum-os.html" (dict "value" .minimumOS "format" $ui.minimumOSFormat) }}{{ if ne .status "published" }}<span class="platform-upcoming">{{ (index .locales site.Language.Lang).platformPending }}</span>{{ end }}{{ end }}</dd></div>
+    <div><dt>{{ $ui.status }}</dt><dd>{{ if eq $app.status "published" }}{{ $corp.available }}{{ if eq site.Language.Lang "ja" }}・{{ else }} · {{ end }}App Store{{ else }}{{ $home.development }}{{ end }}</dd></div>
+  </dl>
+  {{ with $text.notes }}<ul class="product-notes">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+  {{ if eq $app.status "published" }}<p class="product-price-note">{{ $ui.priceNote }}</p>{{ end }}</div>
+</section>

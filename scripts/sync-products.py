@@ -35,6 +35,16 @@ def generate(root):
     ids = [app["id"] for app in apps]
     if len(set(ids)) != len(ids) or any(not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", value) for value in ids):
         raise ValueError("Product IDs must be unique lowercase URL slugs")
+    for app in apps:
+        detail = load(root / "data/product_details" / f"{app['id']}.json")
+        minimum = detail.get("minimumOS")
+        if not isinstance(minimum, str) or not re.fullmatch(r"(?:iOS|iPadOS) \d+\.\d+(?:\.\d+)?(?: / (?:iOS|iPadOS) \d+\.\d+(?:\.\d+)?)*", minimum):
+            raise ValueError(f"A verified OS name and minimum version are required: {app['id']}/minimumOS")
+        if app.get("status") not in ("published", "development"):
+            raise ValueError(f"Unmapped Product publication status: {app['id']}")
+        if watch := detail.get("watch"):
+            if not re.fullmatch(r"watchOS \d+\.\d+(?:\.\d+)?", watch.get("minimumOS", "")):
+                raise ValueError(f"A verified Watch minimumOS is required: {app['id']}")
     expected = {}
     for lang in LANGUAGES:
         home = load(root / "data/home" / f"{lang}.json")
@@ -58,6 +68,8 @@ def generate(root):
             expected[root / "content" / section / f"_index{suffix}.md"] = frontmatter(fields)
         for app in apps:
             copy = home["apps"][app["id"]]
+            if not isinstance(copy.get("platform"), str) or not copy["platform"].strip():
+                raise ValueError(f"Verified supported devices are required: {lang}/{app['id']}")
             expected[root / "content/products" / f"{app['id']}{suffix}.md"] = frontmatter({
                 "title": copy["name"],
                 "description": seo["products"][app["id"]]["description"],

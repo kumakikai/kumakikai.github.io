@@ -1,0 +1,384 @@
+{
+  "ok": true,
+  "build": "/Users/yuya/Projects/homepage/public",
+  "productPages": 48,
+  "negativeCases": 17,
+  "generated": [
+    {
+      "route": "/products/uni-note/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/products/oto-miru/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/products/giga-poke/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/products/nocca/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/products/uni-note-pocket/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/products/balance-calendar/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/products/smokeless/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/products/signal/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/en/products/uni-note/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/en/products/oto-miru/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/en/products/giga-poke/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/en/products/nocca/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/en/products/uni-note-pocket/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/en/products/balance-calendar/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/en/products/smokeless/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/en/products/signal/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/ko/products/uni-note/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/ko/products/oto-miru/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/ko/products/giga-poke/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/ko/products/nocca/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/ko/products/uni-note-pocket/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/ko/products/balance-calendar/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/ko/products/smokeless/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/ko/products/signal/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/de/products/uni-note/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/de/products/oto-miru/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/de/products/giga-poke/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/de/products/nocca/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/de/products/uni-note-pocket/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/de/products/balance-calendar/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/de/products/smokeless/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/de/products/signal/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/zh-hant/products/uni-note/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/zh-hant/products/oto-miru/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/zh-hant/products/giga-poke/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/zh-hant/products/nocca/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/zh-hant/products/uni-note-pocket/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/zh-hant/products/balance-calendar/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/zh-hant/products/smokeless/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/zh-hant/products/signal/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/fr/products/uni-note/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/fr/products/oto-miru/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/fr/products/giga-poke/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/fr/products/nocca/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/fr/products/uni-note-pocket/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/fr/products/balance-calendar/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/fr/products/smokeless/",
+      "ok": true,
+      "errors": []
+    },
+    {
+      "route": "/fr/products/signal/",
+      "ok": true,
+      "errors": []
+    }
+  ],
+  "negative": [
+    {
+      "name": "missing OS row",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts"
+      ]
+    },
+    {
+      "name": "missing minimumOS metadata",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_minimum_os"
+      ]
+    },
+    {
+      "name": "developer row reintroduced",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts"
+      ]
+    },
+    {
+      "name": "device/OS row order reversed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts"
+      ]
+    },
+    {
+      "name": "missing watchOS metadata",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_minimum_os"
+      ]
+    },
+    {
+      "name": "ja: Watch device pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "ja: watchOS pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "en: Watch device pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "en: watchOS pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "ko: Watch device pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "ko: watchOS pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "de: Watch device pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "de: watchOS pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "zh-hant: Watch device pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "zh-hant: watchOS pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "fr: Watch device pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    },
+    {
+      "name": "fr: watchOS pending qualifier removed",
+      "ok": true,
+      "detectedChecks": [
+        "product_facts",
+        "product_watch_pending"
+      ]
+    }
+  ],
+  "failures": []
+}

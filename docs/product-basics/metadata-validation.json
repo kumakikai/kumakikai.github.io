@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "filesModified": false,
+  "tests": [
+    {
+      "product": "uni-note",
+      "case": "missing minimumOS",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: uni-note/minimumOS"
+    },
+    {
+      "product": "oto-miru",
+      "case": "missing minimumOS",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: oto-miru/minimumOS"
+    },
+    {
+      "product": "giga-poke",
+      "case": "missing minimumOS",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: giga-poke/minimumOS"
+    },
+    {
+      "product": "nocca",
+      "case": "missing minimumOS",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: nocca/minimumOS"
+    },
+    {
+      "product": "uni-note-pocket",
+      "case": "missing minimumOS",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: uni-note-pocket/minimumOS"
+    },
+    {
+      "product": "balance-calendar",
+      "case": "missing minimumOS",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: balance-calendar/minimumOS"
+    },
+    {
+      "product": "smokeless",
+      "case": "missing minimumOS",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: smokeless/minimumOS"
+    },
+    {
+      "product": "signal",
+      "case": "missing minimumOS",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: signal/minimumOS"
+    },
+    {
+      "product": "uni-note",
+      "case": "invalid minimumOS ",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: uni-note/minimumOS"
+    },
+    {
+      "product": "uni-note",
+      "case": "invalid minimumOS 17.0",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: uni-note/minimumOS"
+    },
+    {
+      "product": "uni-note",
+      "case": "invalid minimumOS iOS 未確認",
+      "rejected": true,
+      "reason": "A verified OS name and minimum version are required: uni-note/minimumOS"
+    }
+  ]
+}

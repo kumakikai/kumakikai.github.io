@@ -45,6 +45,7 @@ jobs:
         run: |
           python3 scripts/test_nocca_legal_review.py
           python3 scripts/verify-migration.py public --baseline docs/migration/baseline.json
+          python3 scripts/test_product_basics.py --build public
 
       - name: Verify search metadata and sitemap
         run: python3 scripts/verify-seo.py --build public

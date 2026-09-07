@@ -1,0 +1,130 @@
+{
+  "auditedOn": "2026-09-07",
+  "scope": "Read-only current Release app targets, device families and Product basics terminology. No application builds, edits, simulator or App Store mutation.",
+  "products": [
+    {
+      "id": "oto-miru",
+      "device": "iPhone / iPad",
+      "minimumOS": [
+        {
+          "name": "iOS",
+          "version": "26.0"
+        },
+        {
+          "name": "iPadOS",
+          "version": "26.0"
+        }
+      ],
+      "localVersion": "1.1",
+      "localBuild": "1",
+      "localHead": "cf7f50bc90f6007a303acc439fef2b276399d246",
+      "dirtyTree": true,
+      "sources": [
+        {
+          "path": "oto_miru/OtoMiru.xcodeproj/project.pbxproj",
+          "lines": "608-634",
+          "fact": "App Release config: IPHONEOS_DEPLOYMENT_TARGET 26.0, TARGETED_DEVICE_FAMILY 1,2; target config linked at 714-721.",
+          "sha256": "738b3ca1a10ab46d706ba863acbdf25d8120dfd02a12a584c7e1732aa0147559"
+        },
+        {
+          "path": "oto_miru/OtoMiru/Info.plist",
+          "lines": "19-22",
+          "fact": "Local version 1.1, build 1.",
+          "sha256": "262afd489b459c4584e22ad61b3b82ad15ab0ab03afb6f33f7f2708f0c43eb26"
+        },
+        {
+          "path": "oto_miru/docs/APP_STORE_METADATA.md",
+          "lines": "61-66",
+          "fact": "Local v1.1 updated 2026-09-06; ASC version creation/submission/publication not yet performed per local doc.",
+          "sha256": "b78ef62372a7835cb74cc48b77701866c4e4afcfa683d5eb023a3bb6fb8f0fb4"
+        },
+        {
+          "path": "oto_miru/OtoMiru/Services/DeviceSupportPolicy.swift",
+          "lines": "68-76",
+          "fact": "Caption availability additionally requires Apple SpeechTranscriber availability and Japanese speech locale support.",
+          "sha256": "4954ca4c531988094c3af8e75bba0cf388e4b038edb9b3c1fedf96a750c171d2"
+        },
+        {
+          "path": "oto_miru/OtoMiru/Services/SpeechRecognitionService.swift",
+          "lines": "453-468",
+          "fact": "Microphone authorization checked.",
+          "sha256": "8a184f8705f02a412196afdbc6aa8be703e7accd141505b4b08e17d8cffe5ef4"
+        },
+        {
+          "path": "oto_miru/OtoMiru/Views/SettingsView.swift",
+          "lines": "136-139",
+          "fact": "User-facing toggle label 高齢者向け.",
+          "sha256": "6b06f71a4dbc690140eb22916b5c1dee205d421b412ed3f3f7acb12857de56b3"
+        },
+        {
+          "path": "oto_miru/docs/APP_STORE_METADATA.md",
+          "lines": "34",
+          "fact": "Marketing description uses シンプルモード.",
+          "sha256": "b78ef62372a7835cb74cc48b77701866c4e4afcfa683d5eb023a3bb6fb8f0fb4"
+        }
+      ],
+      "terminology": "Existing basic-info notes contain no quota/credit/entitlement. Product prose uses marketing label シンプルモード while latest settings UI label is 高齢者向け; do not mistake latest local 1.1 for publicly shipped version. Flag prose/UI naming difference, do not blindly replace marketing artwork or app data.",
+      "publication": "Existing homepage data/apps.json marks published with verified historical id6770774613. This read-only local audit does not independently reconfirm current live store version."
+    },
+    {
+      "id": "giga-poke",
+      "device": "iPhone",
+      "minimumOS": [
+        {
+          "name": "iOS",
+          "version": "17.0"
+        }
+      ],
+      "localVersion": "0.1.0",
+      "localBuild": "1",
+      "localHead": "141aa9a845fdc5b4096191c6755c4161144ed25d",
+      "dirtyTree": true,
+      "sources": [
+        {
+          "path": "povo_manager/PovoCodeManager.xcodeproj/project.pbxproj",
+          "lines": "711-736",
+          "fact": "App Release TARGETED_DEVICE_FAMILY 1; config linked at 1020-1027.",
+          "sha256": "b2cf1a86c846123979023862b4300f2e8c857e71b9d9880e433b1684dd7c4da0"
+        },
+        {
+          "path": "povo_manager/PovoCodeManager.xcodeproj/project.pbxproj",
+          "lines": "664-682",
+          "fact": "Project Release uses Config/Release.xcconfig and inherited IPHONEOS_DEPLOYMENT_TARGET.",
+          "sha256": "b2cf1a86c846123979023862b4300f2e8c857e71b9d9880e433b1684dd7c4da0"
+        },
+        {
+          "path": "povo_manager/Config/Release.xcconfig",
+          "lines": "1",
+          "fact": "Includes Shared.xcconfig.",
+          "sha256": "760dbf7fdd267038bc5cf7ff941ea247d892e953fdf8791466a0f1c854a063ee"
+        },
+        {
+          "path": "povo_manager/Config/Shared.xcconfig",
+          "lines": "14-16",
+          "fact": "Version 0.1.0, build 1, IPHONEOS_DEPLOYMENT_TARGET 17.0.",
+          "sha256": "9c68082396dc40372e7992c84e9da718c29de3c27e2d895fe4f2662a5330f04a"
+        },
+        {
+          "path": "povo_manager/App/SettingsView.swift",
+          "lines": "80-94",
+          "fact": "Current UI says 使用時にpovo 2.0を開く / コードをコピーしてpovo 2.0アプリを開きます / 使用時に自動でゴミ箱へ移動.",
+          "sha256": "f60d1695d736508788bf10a2ed6110432bda828353f051b14e26365414621197"
+        },
+        {
+          "path": "povo_manager/App/SettingsView.swift",
+          "lines": "151-153",
+          "fact": "Unofficial app disclaimer and no KDDI/povo/au affiliation.",
+          "sha256": "f60d1695d736508788bf10a2ed6110432bda828353f051b14e26365414621197"
+        },
+        {
+          "path": "povo_manager/App/RootView.swift",
+          "lines": "133-183",
+          "fact": "Current UI categories ギガコード / 外部特典 and ペーストして追加.",
+          "sha256": "0cc0a43dcb584ed68aff66cc079139eb5d4c5d76fa45e32f593d7fbb31710a96"
+        }
+      ],
+      "terminology": "Existing basic-info notes and Product name references match current visible terms; no quota/credit/entitlement, paid-plan or AI terminology exists in this Product detail.",
+      "publication": "Existing homepage data/apps.json marks published with id6807501268. Local version/build are not independent proof of live store version."
+    }
+  ]
+}

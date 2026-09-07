@@ -277,6 +277,8 @@ body.menu-open { overflow: hidden; }
 .product-audience { margin-top: 72px; }
 .product-facts dl > div { display: grid; grid-template-columns: 145px 1fr; gap: 20px; padding-block: 15px; border-bottom: 1px solid var(--line); font-size: .9rem; }
 .product-facts dt { color: var(--muted); }
+.product-os-requirement { display: inline-block; max-width: 100%; vertical-align: baseline; }
+.product-os-version { white-space: nowrap; }
 .product-notes { padding-left: 1.1em; margin-top: 24px; list-style: disc; color: var(--muted); font-size: .8rem; line-height: 1.9; }
 .product-notes li + li { margin-top: 8px; }
 .product-facts .product-price-note { font-size: .8rem; margin-top: 22px; }

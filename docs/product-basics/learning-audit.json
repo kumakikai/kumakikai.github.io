@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-09-07",
+  "method": "Read-only PBXNativeTarget -> XCConfigurationList -> Release configuration inspection via plutil; no app edits, build, simulator or App Store actions. Dirty worktrees preserved. Local version does not establish public release state.",
+  "products": [
+    {
+      "id": "uni-note",
+      "project": "uni_note",
+      "gitHead": "b6aa55ab5213991147e90e4b20feeb56c0699455",
+      "workingTreeDirty": true,
+      "buildConfiguration": "Release",
+      "target": "UniNote",
+      "targetType": "com.apple.product-type.application",
+      "projectFile": "uni_note/UniNote.xcodeproj/project.pbxproj",
+      "projectFileSHA256": "826109cb2882a7c4abdcd927dd8b958e2398d8ed15e37cf086e926af2cdc08fc",
+      "sourceLines": {
+        "deployment": 1063,
+        "deviceFamily": 1081,
+        "version": 1068,
+        "configList": 1197
+      },
+      "device": "iPad",
+      "minimumOS": "iPadOS 17.0",
+      "deviceFamily": "2",
+      "localVersion": "3.5.0",
+      "localBuild": "1",
+      "websiteMinimumOSBefore": "iPadOS 17.0",
+      "websiteStatus": "published"
+    },
+    {
+      "id": "uni-note-pocket",
+      "project": "uni_memo",
+      "gitHead": "1f856cfcf3805a529df5fa39dfd03d69b3a66501",
+      "workingTreeDirty": true,
+      "buildConfiguration": "Release",
+      "target": "UniNotePocket",
+      "targetType": "com.apple.product-type.application",
+      "projectFile": "uni_memo/UniNotePocket.xcodeproj/project.pbxproj",
+      "projectFileSHA256": "a88bb42d00eabc41759371257f134ccc131ddd046fe4a6c9a9ffac3a5828917c",
+      "sourceLines": {
+        "deployment": 334,
+        "deviceFamily": 348,
+        "version": 339,
+        "configList": 364
+      },
+      "device": "iPhone",
+      "minimumOS": "iOS 17.0",
+      "deviceFamily": "1",
+      "localVersion": "3.4.0",
+      "localBuild": "1",
+      "websiteMinimumOSBefore": "iOS 17.0",
+      "websiteStatus": "published"
+    },
+    {
+      "id": "nocca",
+      "project": "Nocca",
+      "gitHead": "46a58d754b02d0eda21b958c99f893fa344e29cd",
+      "workingTreeDirty": true,
+      "buildConfiguration": "Release",
+      "target": "Nocca",
+      "targetType": "com.apple.product-type.application",
+      "projectFile": "Nocca/Nocca.xcodeproj/project.pbxproj",
+      "projectFileSHA256": "0b9bd94d22195ad0dc1097142f8fd37fbf08369885436ea11bbdb3b5636dae9a",
+      "sourceLines": {
+        "deployment": 510,
+        "deviceFamily": 523,
+        "version": 511,
+        "configList": 744
+      },
+      "device": "iPhone",
+      "minimumOS": "iOS 17.0",
+      "deviceFamily": "1",
+      "localVersion": "0.1.0",
+      "localBuild": "2",
+      "websiteMinimumOSBefore": null,
+      "websiteStatus": "development"
+    }
+  ],
+  "terminology": {
+    "product": "uni-note",
+    "key": "premium.settings.card.ai_balance.title",
+    "line": 522,
+    "useSites": [
+      "uni_note/UI/SettingsViewController.swift:2624",
+      "uni_note/UI/SettingsViewController.swift:2637"
+    ],
+    "confirmedLabels": {
+      "ja": "AI残量",
+      "en": "AI Balance",
+      "ko": "AI 잔액",
+      "de": "KI-Guthaben",
+      "fr": "Solde IA",
+      "zh-Hant": "AI 餘額"
+    },
+    "websiteOldNotesLines": {
+      "ja": 88,
+      "en": 159,
+      "ko": 230,
+      "de": 301,
+      "fr": 372,
+      "zh-hant": 443
+    },
+    "otherFindings": "No quota/credit/entitlement wording found in Pocket or Nocca Product descriptions."
+  }
+}
