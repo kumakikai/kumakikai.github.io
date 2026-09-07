@@ -83,7 +83,108 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;期限付きのデータは自動削除の対象となった後、クラウド側の処理により削除されます。削除対象時刻と物理的な消去時刻は一致しないことがあります。期限が過ぎた確認情報や利用権を、その遅延を理由に有効として扱うことはありません。&lt;/p&gt;</description></item><item><title>利用規約 (Nocca)</title><link>https://kumakikai.github.io/terms/nocca/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/terms/nocca/</guid><description>&lt;div id="1-適用範囲" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-本アプリの内容" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="3-医療治療監視目的ではないこと" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="4-利用上の前提" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="5-招待と接続" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="6-会話と返信" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="7-通信休止とミュート" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="8-禁止事項" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="9-料金について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="10-データとプライバシー" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="11-免責事項" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="12-仕様変更提供停止" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="13-本利用規約の変更" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="14-お問い合わせ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;p&gt;期限付きのデータは自動削除の対象となった後、クラウド側の処理により削除されます。削除対象時刻と物理的な消去時刻は一致しないことがあります。期限が過ぎた確認情報や利用権を、その遅延を理由に有効として扱うことはありません。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (オトミル)</title><link>https://kumakikai.github.io/privacy/oto-miru/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/privacy/oto-miru/</guid><description>&lt;p&gt;本プライバシーポリシーは、オトミル（App Store 表示名: オトミル - 聞こえを字幕でサポート。以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。&lt;/p&gt;
+
+&lt;h2 id="1-基本方針"&gt;1. 基本方針&lt;/h2&gt;
+&lt;p&gt;本アプリは、テレビ、映画、身近な会話、グループ会話の音声を字幕として表示するためにマイクを使用します。&lt;/p&gt;
+&lt;p&gt;字幕本文、音声データ、会話内容、テレビ内容、映画内容を、開発者のサーバーへ送信しません。また、これらの内容をアプリ内に永続保存しません。&lt;/p&gt;
+&lt;p&gt;本アプリは、会員登録やログインを必要としません。氏名、住所、メールアドレスなど、ユーザー個人を特定できる情報をアプリ内入力として直接収集しません。&lt;/p&gt;
+
+&lt;h2 id="2-本アプリが扱う情報"&gt;2. 本アプリが扱う情報&lt;/h2&gt;
+&lt;p&gt;本アプリは、以下の情報を利用します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;マイク入力: リアルタイム字幕を表示するために利用します。&lt;/li&gt;
+&lt;li&gt;音声認識結果: 字幕表示中の画面表示にのみ利用します。&lt;/li&gt;
+&lt;li&gt;表示設定: シンプルモード、テーマ、前回選択したモードなどを端末内に保存します。&lt;/li&gt;
+&lt;li&gt;無料利用時間の状態: 1 日の無料利用時間、広告視聴による追加時間、当日の広告視聴回数を端末内に保存します。&lt;/li&gt;
+&lt;li&gt;広告表示状態: 字幕終了後広告の表示頻度を調整するための状態を端末内に保存します。&lt;/li&gt;
+&lt;li&gt;購入状態: App Store のサブスクリプション状態を確認するために StoreKit を利用します。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="3-マイクと音声認識について"&gt;3. マイクと音声認識について&lt;/h2&gt;
+&lt;p&gt;本アプリは、テレビ音声、映画音声、対面会話、グループ会話を字幕として表示するためにマイクを使用します。&lt;/p&gt;
+&lt;p&gt;マイク入力は、端末上の音声認識および字幕表示のために利用します。本アプリの字幕機能として、音声ファイルや字幕本文を開発者のサーバー、または開発者が運用する外部文字起こし API へ送信しません。&lt;/p&gt;
+&lt;p&gt;音声データを録音ファイルとして保存する機能、字幕履歴を保存する機能、会話内容をあとから見返す機能は提供していません。&lt;/p&gt;
+
+&lt;h2 id="4-apple-のサービスについて"&gt;4. Apple のサービスについて&lt;/h2&gt;
+&lt;p&gt;本アプリは、音声認識、Apple Intelligence / Foundation Models の利用可否判定、App Store のアプリ内課金、購入復元のために Apple が提供する OS / App Store の機能を利用します。&lt;/p&gt;
+&lt;p&gt;App Store での購入、返金、サブスクリプション管理、Apple ID に関する情報は Apple により処理されます。Apple による情報の取扱いについては、&lt;a href="https://www.apple.com/jp/legal/privacy/jp/"&gt;Apple プライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id="5-広告について"&gt;5. 広告について&lt;/h2&gt;
+&lt;p&gt;無料版では、Google Mobile Ads SDK / Google AdMob による広告を表示する場合があります。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (ギガポケ)</title><link>https://kumakikai.github.io/privacy/giga-poke/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/privacy/giga-poke/</guid><description>&lt;p&gt;本プライバシーポリシーは、ギガポケ（以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。&lt;/p&gt;
+
+&lt;h2 id="1-基本方針"&gt;1. 基本方針&lt;/h2&gt;
+&lt;p&gt;本アプリは、povo 2.0から届いたギガコードと外部特典を、ユーザー自身のiPhone内で管理する非公式ユーティリティです。&lt;/p&gt;
+&lt;p&gt;アカウント登録、特典管理用の外部サーバー、広告、行動追跡を使用せず、機能の提供に必要な情報だけを取り扱います。&lt;/p&gt;
+
+&lt;h2 id="2-本アプリが取り扱う情報"&gt;2. 本アプリが取り扱う情報&lt;/h2&gt;
+&lt;p&gt;本アプリは、機能提供のために次の情報を端末内で取り扱います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特典内容&lt;/li&gt;
+&lt;li&gt;プロモコード、クーポンコードまたは外部クーポンURL&lt;/li&gt;
+&lt;li&gt;入力期限または有効期限&lt;/li&gt;
+&lt;li&gt;ギガコードまたは外部特典の区分&lt;/li&gt;
+&lt;li&gt;未使用またはゴミ箱の状態、登録日時、更新日時、ゴミ箱へ移動した日時&lt;/li&gt;
+&lt;li&gt;通知タイミング、povo 2.0を開く設定、ゴミ箱に関する設定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;コードやURLは価値を持つ秘密情報として扱ってください。端末のロックを適切に設定し、第三者と共有する際は送信先を確認してください。&lt;/p&gt;
+
+&lt;h2 id="3-共有したメール本文"&gt;3. 共有したメール本文&lt;/h2&gt;
+&lt;p&gt;本アプリは、ユーザーが共有、ペーストしたメール本文を、特典候補の解析中だけメモリ上で使用します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メールアカウントへ接続しません&lt;/li&gt;
+&lt;li&gt;受信箱を自動で読み取りません&lt;/li&gt;
+&lt;li&gt;共有したメール本文を保存しません&lt;/li&gt;
+&lt;li&gt;共有したメール本文を外部サーバーへ送信しません&lt;/li&gt;
+&lt;li&gt;HTML内の画像や追跡用リソースを取得しません&lt;/li&gt;
+&lt;li&gt;AIまたは外部APIへ解析を依頼しません&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;登録時は、ユーザーが確認した特典内容、コードまたはURL、期限など、管理に必要な項目だけを保存します。&lt;/p&gt;
+
+&lt;h2 id="4-保存場所同期バックアップ"&gt;4. 保存場所、同期、バックアップ&lt;/h2&gt;
+&lt;p&gt;特典情報と設定は、本アプリ、Share Extension、UI Action Extension、Widget Extensionが利用するiPhone内の共有データ領域へ保存されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特典管理用の外部サーバーは使用しません&lt;/li&gt;
+&lt;li&gt;iCloud同期は使用しません&lt;/li&gt;
+&lt;li&gt;機種変更、再インストール、バックアップからの復元に対応しません&lt;/li&gt;
+&lt;li&gt;アプリを削除すると、登録データを復元できない場合があります&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;開発者は、端末内に保存された特典情報を閲覧できません。&lt;/p&gt;
+
+&lt;h2 id="5-クリップボード通知widget"&gt;5. クリップボード、通知、Widget&lt;/h2&gt;
+
+&lt;h3 id="クリップボード"&gt;クリップボード&lt;/h3&gt;
+&lt;p&gt;ユーザーが&lt;code&gt;povo 2.0&lt;/code&gt;または&lt;code&gt;コピー&lt;/code&gt;を押したときだけ、対象コードを端末内限定のクリップボードへ書き込みます。コードは別の内容で上書きされるまで端末内のクリップボードへ残る場合があります。&lt;/p&gt;
+
+&lt;h3 id="ローカル通知"&gt;ローカル通知&lt;/h3&gt;
+&lt;p&gt;期限通知はiPhone内で予約するローカル通知です。サーバーからのPush通知は使用しません。通知にはコード、クーポンURL、URL内のトークンを含めません。&lt;/p&gt;
+
+&lt;h3 id="widget"&gt;Widget&lt;/h3&gt;
+&lt;p&gt;Widgetはギガコードの特典名と残り日数を表示します。コードまたはクーポンURLは表示せず、操作時のリンクにも含めません。&lt;/p&gt;
+
+&lt;h2 id="6-外部通信と第三者サービス"&gt;6. 外部通信と第三者サービス&lt;/h2&gt;
+&lt;p&gt;本アプリの通常の登録、保存、並び替え、通知、Widget表示では、特典情報を外部へ送信しません。&lt;/p&gt;
+&lt;p&gt;次の操作をユーザーが明示的に選んだ場合は、OSまたは外部サービスとの通信が発生します。&lt;/p&gt;
+
+&lt;h3 id="povo-20を開く"&gt;povo 2.0を開く&lt;/h3&gt;
+&lt;p&gt;設定がONの状態でギガコードの&lt;code&gt;povo 2.0&lt;/code&gt;を押すと、コードを含まないpovo 2.0の起動用リンクをOSへ渡します。プロモコードをURLへ追加したり、povoアカウント情報へアクセスしたりはしません。リンク先での情報の取扱いは、KDDIまたはpovoの定めるポリシーが適用されます。&lt;/p&gt;
+
+&lt;h3 id="外部クーポンurlを開く"&gt;外部クーポンURLを開く&lt;/h3&gt;
+&lt;p&gt;外部特典の&lt;code&gt;開く&lt;/code&gt;を押すと、ユーザーが登録したURLをOSへ渡します。リンク先へのアクセスでは、IPアドレスなど通常のWebアクセスに伴う情報をリンク先事業者が取り扱う場合があります。リンク先の規約とプライバシーポリシーをご確認ください。&lt;/p&gt;
+
+&lt;h3 id="お問い合わせ"&gt;お問い合わせ&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;お問い合わせ&lt;/code&gt;を押すと、Google Formsで提供する外部フォームを開きます。本アプリは特典情報やサポート情報を自動入力、自動送信しません。&lt;/p&gt;
+&lt;p&gt;ユーザーがフォームへ入力して送信した場合、次の情報をGoogleおよび開発者が取り扱う場合があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;お問い合わせの種類、内容、発生した操作、発生頻度&lt;/li&gt;
+&lt;li&gt;ユーザーが任意で貼り付けたアプリ名、バージョン、ビルド、iOS、端末モデル識別子、言語、地域&lt;/li&gt;
+&lt;li&gt;ユーザーが任意で入力した返信用メールアドレス&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;送信された情報は、お問い合わせ対応、問題の調査、品質改善のために利用し、対応と必要な記録のための期間だけ保管します。削除を希望する場合は、本ポリシー末尾の連絡先へお問い合わせください。&lt;/p&gt;
+&lt;p&gt;Googleによる情報の取扱いは、&lt;a href="https://policies.google.com/privacy?hl=ja"&gt;Googleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h3 id="app-store"&gt;App Store&lt;/h3&gt;
+&lt;p&gt;アプリの入手、更新、レビュー等ではAppleのサービスを利用します。Appleによる情報の取扱いは、&lt;a href="https://www.apple.com/jp/legal/privacy/jp/"&gt;Appleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;</description></item><item><title>利用規約 (Nocca)</title><link>https://kumakikai.github.io/terms/nocca/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/terms/nocca/</guid><description>&lt;div id="1-適用範囲" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-本アプリの内容" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="3-医療治療監視目的ではないこと" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="4-利用上の前提" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="5-招待と接続" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="6-会話と返信" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="7-通信休止とミュート" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="8-禁止事項" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="9-料金について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="10-データとプライバシー" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="11-免責事項" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="12-仕様変更提供停止" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="13-本利用規約の変更" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="14-お問い合わせ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 &lt;p&gt;最終更新日：2026年9月8日&lt;/p&gt;
 &lt;p&gt;運営者：kumakikai Apps&lt;/p&gt;
 &lt;p&gt;この規約は、現在公開準備中のNocca正式公開版の利用条件です。&lt;/p&gt;
@@ -138,7 +239,104 @@
 
 &lt;h2 id="10-お問い合わせ準拠法"&gt;10. お問い合わせ・準拠法&lt;/h2&gt;
 &lt;p&gt;お問い合わせは、ページ下部の「お問い合わせ」からご連絡ください。&lt;/p&gt;
-&lt;p&gt;フォームを開けない場合は、&lt;a href="mailto:kumakikai.apps@gmail.com"&gt;kumakikai.apps@gmail.com&lt;/a&gt;へお問い合わせください。&lt;/p&gt;</description></item><item><title>よくある質問 (Nocca)</title><link>https://kumakikai.github.io/faq/nocca/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/faq/nocca/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;フォームを開けない場合は、&lt;a href="mailto:kumakikai.apps@gmail.com"&gt;kumakikai.apps@gmail.com&lt;/a&gt;へお問い合わせください。&lt;/p&gt;</description></item><item><title>利用規約 (オトミル)</title><link>https://kumakikai.github.io/terms/oto-miru/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/terms/oto-miru/</guid><description>&lt;p&gt;本利用規約は、オトミル（App Store 表示名: オトミル - 聞こえを字幕でサポート。以下「本アプリ」）の利用条件を定めるものです。&lt;/p&gt;
+&lt;p&gt;本アプリを利用する前に、本利用規約および&lt;a href="https://kumakikai.github.io/privacy/oto-miru/"&gt;プライバシーポリシー&lt;/a&gt;をご確認ください。本アプリを利用した場合、本利用規約に同意したものとみなします。&lt;/p&gt;
+
+&lt;h2 id="1-適用範囲"&gt;1. 適用範囲&lt;/h2&gt;
+&lt;p&gt;本利用規約は、本アプリおよび本公式サイトで提供するサポート情報に適用されます。&lt;/p&gt;
+&lt;p&gt;App Store から入手した本アプリには、Apple が定める&lt;a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"&gt;標準使用許諾契約（Standard EULA）&lt;/a&gt;も適用されます。Apple の標準使用許諾契約と本利用規約が矛盾する場合、App Store 配布に関する事項については Apple の規約が優先される場合があります。&lt;/p&gt;
+
+&lt;h2 id="2-本アプリの内容"&gt;2. 本アプリの内容&lt;/h2&gt;
+&lt;p&gt;本アプリは、テレビ、映画、身近な会話、グループ会話の音声を iPhone / iPad のマイクで読み取り、大きな字幕として表示する補助アプリです。&lt;/p&gt;
+&lt;p&gt;本アプリは、聞こえづらい音声をその場で文字として確認しやすくすることを目的としています。&lt;/p&gt;
+
+&lt;h2 id="3-医療機器ではないこと"&gt;3. 医療機器ではないこと&lt;/h2&gt;
+&lt;p&gt;本アプリは、医療機器ではありません。&lt;/p&gt;
+&lt;p&gt;本アプリは、聴力検査、診断、治療、補聴器の代替、医療上の判断を目的としたものではありません。聞こえに関する診断や治療については、医師などの専門家にご相談ください。&lt;/p&gt;
+
+&lt;h2 id="4-字幕精度について"&gt;4. 字幕精度について&lt;/h2&gt;
+&lt;p&gt;本アプリの字幕は、OS の音声認識、端末のマイク、周囲の環境、話し方、音量、雑音、複数人の同時発話などの影響を受けます。&lt;/p&gt;
+&lt;p&gt;字幕内容、話者ラベル、&lt;code&gt;自分&lt;/code&gt; / &lt;code&gt;相手&lt;/code&gt; の判定、&lt;code&gt;話者1&lt;/code&gt; / &lt;code&gt;話者2&lt;/code&gt; などの表示が、常に正確であることを保証しません。&lt;/p&gt;
+&lt;p&gt;重要な会話、契約、医療、安全、緊急時の判断など、正確な聞き取りが必要な場面では、本アプリの字幕だけに依存しないでください。&lt;/p&gt;
+
+&lt;h2 id="5-利用上の注意"&gt;5. 利用上の注意&lt;/h2&gt;
+&lt;p&gt;本アプリを利用する際は、周囲の状況、安全、施設や場所のルールを確認してください。&lt;/p&gt;
+&lt;p&gt;特に、映画館、劇場、病院、会議、店舗、交通機関などで利用する場合は、各施設や相手方のルールを守り、周囲の方の迷惑にならないよう配慮してください。&lt;/p&gt;
+&lt;p&gt;車の運転中など、画面を見ることが危険な状況では使用しないでください。&lt;/p&gt;
+
+&lt;h2 id="6-マイク音声字幕データ"&gt;6. マイク・音声・字幕データ&lt;/h2&gt;
+&lt;p&gt;本アプリは、字幕表示のためにマイクを使用します。&lt;/p&gt;
+&lt;p&gt;字幕本文、音声データ、会話内容、テレビ内容、映画内容は、開発者のサーバーへ送信せず、アプリ内に永続保存しません。&lt;/p&gt;
+&lt;p&gt;詳しい取扱いは、&lt;a href="https://kumakikai.github.io/privacy/oto-miru/"&gt;プライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id="7-無料版と広告"&gt;7. 無料版と広告&lt;/h2&gt;
+&lt;p&gt;無料版では、1 日 15 分まで字幕を利用できます。&lt;/p&gt;
+&lt;p&gt;無料版では、ホーム画面など字幕中以外に広告が表示される場合があります。字幕終了後に、ときどき全画面広告が表示される場合があります。字幕中に広告は表示しません。&lt;/p&gt;
+&lt;p&gt;広告を視聴すると、当日の無料字幕時間を 5 分追加できます。広告視聴による追加は 1 日 3 回までです。&lt;/p&gt;
+&lt;p&gt;広告配信のため、Google Mobile Ads SDK / Google AdMob を利用する場合があります。&lt;/p&gt;</description></item><item><title>利用規約 (ギガポケ)</title><link>https://kumakikai.github.io/terms/giga-poke/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/terms/giga-poke/</guid><description>&lt;p&gt;本利用規約は、ギガポケ（以下「本アプリ」）の利用条件を定めるものです。&lt;/p&gt;
+
+&lt;h2 id="1-適用範囲"&gt;1. 適用範囲&lt;/h2&gt;
+&lt;p&gt;本規約は、本アプリおよび本公式サイトで提供する本アプリのサポート情報に適用されます。&lt;/p&gt;
+&lt;p&gt;App Storeから入手した本アプリには、Appleが定める&lt;a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"&gt;標準使用許諾契約（Standard EULA）&lt;/a&gt;も適用されます。本規約とAppleの規約が矛盾する場合、App Storeでの配布およびAppleのサービスに関する事項については、Appleの規約が優先される場合があります。&lt;/p&gt;
+
+&lt;h2 id="2-本アプリの内容"&gt;2. 本アプリの内容&lt;/h2&gt;
+&lt;p&gt;本アプリは、povo 2.0から配信されたギガコードと外部特典を、ユーザー自身のiPhone内で登録、期限確認、通知、コピー、整理するための非公式ユーティリティです。&lt;/p&gt;
+&lt;p&gt;本アプリは次の機能を提供します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ユーザーが共有、ペースト、手動入力した特典の登録&lt;/li&gt;
+&lt;li&gt;ギガコードと外部特典の期限順表示&lt;/li&gt;
+&lt;li&gt;ローカル通知&lt;/li&gt;
+&lt;li&gt;ギガコードを表示するSmall／Medium Widget&lt;/li&gt;
+&lt;li&gt;コードのコピー、povo 2.0の通常起動、外部クーポンURLを開く操作&lt;/li&gt;
+&lt;li&gt;ゴミ箱への移動、未使用への復帰、完全削除&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="3-非公式アプリであること"&gt;3. 非公式アプリであること&lt;/h2&gt;
+&lt;p&gt;本アプリは、KDDI株式会社、povo、auの公式アプリではありません。これらの事業者とは提携・協賛・公認その他の関係はありません。&lt;/p&gt;
+&lt;p&gt;本アプリはpovo 2.0のアカウント、非公開API、内部システムへ接続しません。povo 2.0または外部サービスに関する契約、通信、料金、特典内容、利用条件については、各サービス提供者の案内をご確認ください。&lt;/p&gt;
+
+&lt;h2 id="4-利用上の注意"&gt;4. 利用上の注意&lt;/h2&gt;
+&lt;p&gt;ユーザーは、登録内容、コード、URL、期限、利用可否を自ら確認したうえで本アプリを利用するものとします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本アプリの解析結果は、保存前にユーザーが確認、修正できます&lt;/li&gt;
+&lt;li&gt;本アプリは不足する期限や特典内容を推測しません&lt;/li&gt;
+&lt;li&gt;外部URLの内容、安全性、有効期限、引換完了を確認しません&lt;/li&gt;
+&lt;li&gt;povo 2.0のコード入力画面への直接移動、自動入力、利用完了確認は行いません&lt;/li&gt;
+&lt;li&gt;期限通知やWidgetの表示時刻は、iOSの状態や設定により遅れる場合があります&lt;/li&gt;
+&lt;li&gt;期限の確認や特典の利用を、本アプリの通知だけに依存しないでください&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="5-コードとurlの管理"&gt;5. コードとURLの管理&lt;/h2&gt;
+&lt;p&gt;プロモコード、クーポンコード、受取URLは価値を持つ秘密情報です。ユーザーは、端末のロック、クリップボード、標準共有シート、送信先を適切に管理してください。&lt;/p&gt;
+&lt;p&gt;本アプリ内の標準共有シートからコードまたはURLを共有する場合、送信先と共有内容を確認する責任はユーザーにあります。&lt;/p&gt;
+
+&lt;h2 id="6-データの保存と削除"&gt;6. データの保存と削除&lt;/h2&gt;
+&lt;p&gt;本アプリの特典情報はiPhone内に保存されます。iCloud同期、端末間同期、バックアップ復元は提供しません。&lt;/p&gt;
+&lt;p&gt;アプリの削除、端末の紛失、故障、機種変更、OSまたはストレージの問題等によりデータが失われる場合があります。必要な情報は、ユーザー自身でも安全な方法で管理してください。&lt;/p&gt;
+&lt;p&gt;データの取扱いについては、&lt;a href="https://kumakikai.github.io/privacy/giga-poke/"&gt;プライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id="7-外部サービス"&gt;7. 外部サービス&lt;/h2&gt;
+&lt;p&gt;本アプリからpovo 2.0、外部クーポンサイト、Google Forms、App Store等を開いた場合、各サービスの規約およびプライバシーポリシーが適用されます。&lt;/p&gt;
+&lt;p&gt;外部サービスの内容、稼働状況、変更、終了、安全性、取引、特典の利用可否について、開発者は管理または保証しません。&lt;/p&gt;
+
+&lt;h2 id="8-料金と広告"&gt;8. 料金と広告&lt;/h2&gt;
+&lt;p&gt;本アプリは全機能無料、広告なし、アカウント不要です。&lt;/p&gt;
+&lt;p&gt;将来、提供内容または料金体系を変更する場合は、適用前にApp Store、本サイト、アプリ内のいずれか適切な方法で案内し、表示と実際の提供内容が一致するよう本規約等を更新します。&lt;/p&gt;
+
+&lt;h2 id="9-禁止事項"&gt;9. 禁止事項&lt;/h2&gt;
+&lt;p&gt;ユーザーは、本アプリを利用するにあたり、次の行為を行ってはなりません。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;法令または公序良俗に反する行為&lt;/li&gt;
+&lt;li&gt;他者のコード、URL、アカウント情報を権限なく取得、利用、共有する行為&lt;/li&gt;
+&lt;li&gt;不正アクセス、詐欺、なりすまし、権利侵害を目的とする行為&lt;/li&gt;
+&lt;li&gt;本アプリまたは関連サービスの運営を妨害する行為&lt;/li&gt;
+&lt;li&gt;本アプリを不正に改変、解析、再配布する行為&lt;/li&gt;
+&lt;li&gt;第三者の商標、著作権、プライバシーその他の権利を侵害する行為&lt;/li&gt;
+&lt;li&gt;その他、開発者が不適切と判断する行為&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="10-知的財産権"&gt;10. 知的財産権&lt;/h2&gt;
+&lt;p&gt;本アプリおよび本公式サイトの文章、デザイン、プログラムその他のコンテンツに関する権利は、開発者または正当な権利者に帰属します。&lt;/p&gt;</description></item><item><title>よくある質問 (Nocca)</title><link>https://kumakikai.github.io/faq/nocca/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/faq/nocca/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;Noccaは開発中です。現在の公開前実装について案内しています。&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -1924,108 +2122,7 @@ iCloud Drive 等の外部保存先を利用する場合は、当該サービス�
 &lt;p&gt;変更後のプライバシーポリシーは、本サイト上に掲載された時点で効力を生じるものとします。&lt;/p&gt;
 
 &lt;h2 id="10-お問い合わせ"&gt;10. お問い合わせ&lt;/h2&gt;
-&lt;p&gt;本ポリシーに関するお問い合わせは、以下までご連絡ください。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (オトミル)</title><link>https://kumakikai.github.io/privacy/oto-miru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/privacy/oto-miru/</guid><description>&lt;p&gt;本プライバシーポリシーは、オトミル（App Store 表示名: オトミル - 聞こえを字幕でサポート。以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。&lt;/p&gt;
-
-&lt;h2 id="1-基本方針"&gt;1. 基本方針&lt;/h2&gt;
-&lt;p&gt;本アプリは、テレビ、映画、身近な会話、グループ会話の音声を字幕として表示するためにマイクを使用します。&lt;/p&gt;
-&lt;p&gt;字幕本文、音声データ、会話内容、テレビ内容、映画内容を、開発者のサーバーへ送信しません。また、これらの内容をアプリ内に永続保存しません。&lt;/p&gt;
-&lt;p&gt;本アプリは、会員登録やログインを必要としません。氏名、住所、メールアドレスなど、ユーザー個人を特定できる情報をアプリ内入力として直接収集しません。&lt;/p&gt;
-
-&lt;h2 id="2-本アプリが扱う情報"&gt;2. 本アプリが扱う情報&lt;/h2&gt;
-&lt;p&gt;本アプリは、以下の情報を利用します。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;マイク入力: リアルタイム字幕を表示するために利用します。&lt;/li&gt;
-&lt;li&gt;音声認識結果: 字幕表示中の画面表示にのみ利用します。&lt;/li&gt;
-&lt;li&gt;表示設定: シンプルモード、テーマ、前回選択したモードなどを端末内に保存します。&lt;/li&gt;
-&lt;li&gt;無料利用時間の状態: 1 日の無料利用時間、広告視聴による追加時間、当日の広告視聴回数を端末内に保存します。&lt;/li&gt;
-&lt;li&gt;広告表示状態: 字幕終了後広告の表示頻度を調整するための状態を端末内に保存します。&lt;/li&gt;
-&lt;li&gt;購入状態: App Store のサブスクリプション状態を確認するために StoreKit を利用します。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="3-マイクと音声認識について"&gt;3. マイクと音声認識について&lt;/h2&gt;
-&lt;p&gt;本アプリは、テレビ音声、映画音声、対面会話、グループ会話を字幕として表示するためにマイクを使用します。&lt;/p&gt;
-&lt;p&gt;マイク入力は、端末上の音声認識および字幕表示のために利用します。本アプリの字幕機能として、音声ファイルや字幕本文を開発者のサーバー、または開発者が運用する外部文字起こし API へ送信しません。&lt;/p&gt;
-&lt;p&gt;音声データを録音ファイルとして保存する機能、字幕履歴を保存する機能、会話内容をあとから見返す機能は提供していません。&lt;/p&gt;
-
-&lt;h2 id="4-apple-のサービスについて"&gt;4. Apple のサービスについて&lt;/h2&gt;
-&lt;p&gt;本アプリは、音声認識、Apple Intelligence / Foundation Models の利用可否判定、App Store のアプリ内課金、購入復元のために Apple が提供する OS / App Store の機能を利用します。&lt;/p&gt;
-&lt;p&gt;App Store での購入、返金、サブスクリプション管理、Apple ID に関する情報は Apple により処理されます。Apple による情報の取扱いについては、&lt;a href="https://www.apple.com/jp/legal/privacy/jp/"&gt;Apple プライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
-
-&lt;h2 id="5-広告について"&gt;5. 広告について&lt;/h2&gt;
-&lt;p&gt;無料版では、Google Mobile Ads SDK / Google AdMob による広告を表示する場合があります。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (ギガポケ)</title><link>https://kumakikai.github.io/privacy/giga-poke/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/privacy/giga-poke/</guid><description>&lt;p&gt;本プライバシーポリシーは、ギガポケ（以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。&lt;/p&gt;
-
-&lt;h2 id="1-基本方針"&gt;1. 基本方針&lt;/h2&gt;
-&lt;p&gt;本アプリは、povo 2.0から届いたギガコードと外部特典を、ユーザー自身のiPhone内で管理する非公式ユーティリティです。&lt;/p&gt;
-&lt;p&gt;アカウント登録、特典管理用の外部サーバー、広告、行動追跡を使用せず、機能の提供に必要な情報だけを取り扱います。&lt;/p&gt;
-
-&lt;h2 id="2-本アプリが取り扱う情報"&gt;2. 本アプリが取り扱う情報&lt;/h2&gt;
-&lt;p&gt;本アプリは、機能提供のために次の情報を端末内で取り扱います。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;特典内容&lt;/li&gt;
-&lt;li&gt;プロモコード、クーポンコードまたは外部クーポンURL&lt;/li&gt;
-&lt;li&gt;入力期限または有効期限&lt;/li&gt;
-&lt;li&gt;ギガコードまたは外部特典の区分&lt;/li&gt;
-&lt;li&gt;未使用またはゴミ箱の状態、登録日時、更新日時、ゴミ箱へ移動した日時&lt;/li&gt;
-&lt;li&gt;通知タイミング、povo 2.0を開く設定、ゴミ箱に関する設定&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;コードやURLは価値を持つ秘密情報として扱ってください。端末のロックを適切に設定し、第三者と共有する際は送信先を確認してください。&lt;/p&gt;
-
-&lt;h2 id="3-共有したメール本文"&gt;3. 共有したメール本文&lt;/h2&gt;
-&lt;p&gt;本アプリは、ユーザーが共有、ペーストしたメール本文を、特典候補の解析中だけメモリ上で使用します。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;メールアカウントへ接続しません&lt;/li&gt;
-&lt;li&gt;受信箱を自動で読み取りません&lt;/li&gt;
-&lt;li&gt;共有したメール本文を保存しません&lt;/li&gt;
-&lt;li&gt;共有したメール本文を外部サーバーへ送信しません&lt;/li&gt;
-&lt;li&gt;HTML内の画像や追跡用リソースを取得しません&lt;/li&gt;
-&lt;li&gt;AIまたは外部APIへ解析を依頼しません&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;登録時は、ユーザーが確認した特典内容、コードまたはURL、期限など、管理に必要な項目だけを保存します。&lt;/p&gt;
-
-&lt;h2 id="4-保存場所同期バックアップ"&gt;4. 保存場所、同期、バックアップ&lt;/h2&gt;
-&lt;p&gt;特典情報と設定は、本アプリ、Share Extension、UI Action Extension、Widget Extensionが利用するiPhone内の共有データ領域へ保存されます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;特典管理用の外部サーバーは使用しません&lt;/li&gt;
-&lt;li&gt;iCloud同期は使用しません&lt;/li&gt;
-&lt;li&gt;機種変更、再インストール、バックアップからの復元に対応しません&lt;/li&gt;
-&lt;li&gt;アプリを削除すると、登録データを復元できない場合があります&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;開発者は、端末内に保存された特典情報を閲覧できません。&lt;/p&gt;
-
-&lt;h2 id="5-クリップボード通知widget"&gt;5. クリップボード、通知、Widget&lt;/h2&gt;
-
-&lt;h3 id="クリップボード"&gt;クリップボード&lt;/h3&gt;
-&lt;p&gt;ユーザーが&lt;code&gt;povo 2.0&lt;/code&gt;または&lt;code&gt;コピー&lt;/code&gt;を押したときだけ、対象コードを端末内限定のクリップボードへ書き込みます。コードは別の内容で上書きされるまで端末内のクリップボードへ残る場合があります。&lt;/p&gt;
-
-&lt;h3 id="ローカル通知"&gt;ローカル通知&lt;/h3&gt;
-&lt;p&gt;期限通知はiPhone内で予約するローカル通知です。サーバーからのPush通知は使用しません。通知にはコード、クーポンURL、URL内のトークンを含めません。&lt;/p&gt;
-
-&lt;h3 id="widget"&gt;Widget&lt;/h3&gt;
-&lt;p&gt;Widgetはギガコードの特典名と残り日数を表示します。コードまたはクーポンURLは表示せず、操作時のリンクにも含めません。&lt;/p&gt;
-
-&lt;h2 id="6-外部通信と第三者サービス"&gt;6. 外部通信と第三者サービス&lt;/h2&gt;
-&lt;p&gt;本アプリの通常の登録、保存、並び替え、通知、Widget表示では、特典情報を外部へ送信しません。&lt;/p&gt;
-&lt;p&gt;次の操作をユーザーが明示的に選んだ場合は、OSまたは外部サービスとの通信が発生します。&lt;/p&gt;
-
-&lt;h3 id="povo-20を開く"&gt;povo 2.0を開く&lt;/h3&gt;
-&lt;p&gt;設定がONの状態でギガコードの&lt;code&gt;povo 2.0&lt;/code&gt;を押すと、コードを含まないpovo 2.0の起動用リンクをOSへ渡します。プロモコードをURLへ追加したり、povoアカウント情報へアクセスしたりはしません。リンク先での情報の取扱いは、KDDIまたはpovoの定めるポリシーが適用されます。&lt;/p&gt;
-
-&lt;h3 id="外部クーポンurlを開く"&gt;外部クーポンURLを開く&lt;/h3&gt;
-&lt;p&gt;外部特典の&lt;code&gt;開く&lt;/code&gt;を押すと、ユーザーが登録したURLをOSへ渡します。リンク先へのアクセスでは、IPアドレスなど通常のWebアクセスに伴う情報をリンク先事業者が取り扱う場合があります。リンク先の規約とプライバシーポリシーをご確認ください。&lt;/p&gt;
-
-&lt;h3 id="お問い合わせ"&gt;お問い合わせ&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;お問い合わせ&lt;/code&gt;を押すと、Google Formsで提供する外部フォームを開きます。本アプリは特典情報やサポート情報を自動入力、自動送信しません。&lt;/p&gt;
-&lt;p&gt;ユーザーがフォームへ入力して送信した場合、次の情報をGoogleおよび開発者が取り扱う場合があります。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;お問い合わせの種類、内容、発生した操作、発生頻度&lt;/li&gt;
-&lt;li&gt;ユーザーが任意で貼り付けたアプリ名、バージョン、ビルド、iOS、端末モデル識別子、言語、地域&lt;/li&gt;
-&lt;li&gt;ユーザーが任意で入力した返信用メールアドレス&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;送信された情報は、お問い合わせ対応、問題の調査、品質改善のために利用し、対応と必要な記録のための期間だけ保管します。削除を希望する場合は、本ポリシー末尾の連絡先へお問い合わせください。&lt;/p&gt;
-&lt;p&gt;Googleによる情報の取扱いは、&lt;a href="https://policies.google.com/privacy?hl=ja"&gt;Googleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
-
-&lt;h3 id="app-store"&gt;App Store&lt;/h3&gt;
-&lt;p&gt;アプリの入手、更新、レビュー等ではAppleのサービスを利用します。Appleによる情報の取扱いは、&lt;a href="https://www.apple.com/jp/legal/privacy/jp/"&gt;Appleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (ギャンカレ)</title><link>https://kumakikai.github.io/privacy/balance-calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/privacy/balance-calendar/</guid><description>&lt;p&gt;本プライバシーポリシーは、ギャンカレ（以下「本アプリ」）および本公式サイトにおける、ユーザーの情報の取扱いについて説明するものです。&lt;/p&gt;
+&lt;p&gt;本ポリシーに関するお問い合わせは、以下までご連絡ください。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (ギャンカレ)</title><link>https://kumakikai.github.io/privacy/balance-calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/privacy/balance-calendar/</guid><description>&lt;p&gt;本プライバシーポリシーは、ギャンカレ（以下「本アプリ」）および本公式サイトにおける、ユーザーの情報の取扱いについて説明するものです。&lt;/p&gt;
 
 &lt;h2 id="1-収集する情報について"&gt;1. 収集する情報について&lt;/h2&gt;
 &lt;p&gt;本アプリでは、ユーザー個人を特定できる情報（氏名、住所、メールアドレス等）を、アプリ内の入力によって直接収集することはありません。&lt;/p&gt;
@@ -2090,101 +2187,4 @@ iCloud Drive 等の外部保存先を利用する場合は、当該サービス�
 &lt;li&gt;メールアドレス:
 &lt;a href="mailto:kumakikai.apps@gmail.com"&gt;kumakikai.apps@gmail.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;最終更新日：2026-03-21&lt;/p&gt;</description></item><item><title>利用規約 (オトミル)</title><link>https://kumakikai.github.io/terms/oto-miru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/terms/oto-miru/</guid><description>&lt;p&gt;本利用規約は、オトミル（App Store 表示名: オトミル - 聞こえを字幕でサポート。以下「本アプリ」）の利用条件を定めるものです。&lt;/p&gt;
-&lt;p&gt;本アプリを利用する前に、本利用規約および&lt;a href="https://kumakikai.github.io/privacy/oto-miru/"&gt;プライバシーポリシー&lt;/a&gt;をご確認ください。本アプリを利用した場合、本利用規約に同意したものとみなします。&lt;/p&gt;
-
-&lt;h2 id="1-適用範囲"&gt;1. 適用範囲&lt;/h2&gt;
-&lt;p&gt;本利用規約は、本アプリおよび本公式サイトで提供するサポート情報に適用されます。&lt;/p&gt;
-&lt;p&gt;App Store から入手した本アプリには、Apple が定める&lt;a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"&gt;標準使用許諾契約（Standard EULA）&lt;/a&gt;も適用されます。Apple の標準使用許諾契約と本利用規約が矛盾する場合、App Store 配布に関する事項については Apple の規約が優先される場合があります。&lt;/p&gt;
-
-&lt;h2 id="2-本アプリの内容"&gt;2. 本アプリの内容&lt;/h2&gt;
-&lt;p&gt;本アプリは、テレビ、映画、身近な会話、グループ会話の音声を iPhone / iPad のマイクで読み取り、大きな字幕として表示する補助アプリです。&lt;/p&gt;
-&lt;p&gt;本アプリは、聞こえづらい音声をその場で文字として確認しやすくすることを目的としています。&lt;/p&gt;
-
-&lt;h2 id="3-医療機器ではないこと"&gt;3. 医療機器ではないこと&lt;/h2&gt;
-&lt;p&gt;本アプリは、医療機器ではありません。&lt;/p&gt;
-&lt;p&gt;本アプリは、聴力検査、診断、治療、補聴器の代替、医療上の判断を目的としたものではありません。聞こえに関する診断や治療については、医師などの専門家にご相談ください。&lt;/p&gt;
-
-&lt;h2 id="4-字幕精度について"&gt;4. 字幕精度について&lt;/h2&gt;
-&lt;p&gt;本アプリの字幕は、OS の音声認識、端末のマイク、周囲の環境、話し方、音量、雑音、複数人の同時発話などの影響を受けます。&lt;/p&gt;
-&lt;p&gt;字幕内容、話者ラベル、&lt;code&gt;自分&lt;/code&gt; / &lt;code&gt;相手&lt;/code&gt; の判定、&lt;code&gt;話者1&lt;/code&gt; / &lt;code&gt;話者2&lt;/code&gt; などの表示が、常に正確であることを保証しません。&lt;/p&gt;
-&lt;p&gt;重要な会話、契約、医療、安全、緊急時の判断など、正確な聞き取りが必要な場面では、本アプリの字幕だけに依存しないでください。&lt;/p&gt;
-
-&lt;h2 id="5-利用上の注意"&gt;5. 利用上の注意&lt;/h2&gt;
-&lt;p&gt;本アプリを利用する際は、周囲の状況、安全、施設や場所のルールを確認してください。&lt;/p&gt;
-&lt;p&gt;特に、映画館、劇場、病院、会議、店舗、交通機関などで利用する場合は、各施設や相手方のルールを守り、周囲の方の迷惑にならないよう配慮してください。&lt;/p&gt;
-&lt;p&gt;車の運転中など、画面を見ることが危険な状況では使用しないでください。&lt;/p&gt;
-
-&lt;h2 id="6-マイク音声字幕データ"&gt;6. マイク・音声・字幕データ&lt;/h2&gt;
-&lt;p&gt;本アプリは、字幕表示のためにマイクを使用します。&lt;/p&gt;
-&lt;p&gt;字幕本文、音声データ、会話内容、テレビ内容、映画内容は、開発者のサーバーへ送信せず、アプリ内に永続保存しません。&lt;/p&gt;
-&lt;p&gt;詳しい取扱いは、&lt;a href="https://kumakikai.github.io/privacy/oto-miru/"&gt;プライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
-
-&lt;h2 id="7-無料版と広告"&gt;7. 無料版と広告&lt;/h2&gt;
-&lt;p&gt;無料版では、1 日 15 分まで字幕を利用できます。&lt;/p&gt;
-&lt;p&gt;無料版では、ホーム画面など字幕中以外に広告が表示される場合があります。字幕終了後に、ときどき全画面広告が表示される場合があります。字幕中に広告は表示しません。&lt;/p&gt;
-&lt;p&gt;広告を視聴すると、当日の無料字幕時間を 5 分追加できます。広告視聴による追加は 1 日 3 回までです。&lt;/p&gt;
-&lt;p&gt;広告配信のため、Google Mobile Ads SDK / Google AdMob を利用する場合があります。&lt;/p&gt;</description></item><item><title>利用規約 (ギガポケ)</title><link>https://kumakikai.github.io/terms/giga-poke/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/terms/giga-poke/</guid><description>&lt;p&gt;本利用規約は、ギガポケ（以下「本アプリ」）の利用条件を定めるものです。&lt;/p&gt;
-
-&lt;h2 id="1-適用範囲"&gt;1. 適用範囲&lt;/h2&gt;
-&lt;p&gt;本規約は、本アプリおよび本公式サイトで提供する本アプリのサポート情報に適用されます。&lt;/p&gt;
-&lt;p&gt;App Storeから入手した本アプリには、Appleが定める&lt;a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"&gt;標準使用許諾契約（Standard EULA）&lt;/a&gt;も適用されます。本規約とAppleの規約が矛盾する場合、App Storeでの配布およびAppleのサービスに関する事項については、Appleの規約が優先される場合があります。&lt;/p&gt;
-
-&lt;h2 id="2-本アプリの内容"&gt;2. 本アプリの内容&lt;/h2&gt;
-&lt;p&gt;本アプリは、povo 2.0から配信されたギガコードと外部特典を、ユーザー自身のiPhone内で登録、期限確認、通知、コピー、整理するための非公式ユーティリティです。&lt;/p&gt;
-&lt;p&gt;本アプリは次の機能を提供します。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ユーザーが共有、ペースト、手動入力した特典の登録&lt;/li&gt;
-&lt;li&gt;ギガコードと外部特典の期限順表示&lt;/li&gt;
-&lt;li&gt;ローカル通知&lt;/li&gt;
-&lt;li&gt;ギガコードを表示するSmall／Medium Widget&lt;/li&gt;
-&lt;li&gt;コードのコピー、povo 2.0の通常起動、外部クーポンURLを開く操作&lt;/li&gt;
-&lt;li&gt;ゴミ箱への移動、未使用への復帰、完全削除&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="3-非公式アプリであること"&gt;3. 非公式アプリであること&lt;/h2&gt;
-&lt;p&gt;本アプリは、KDDI株式会社、povo、auの公式アプリではありません。これらの事業者とは提携・協賛・公認その他の関係はありません。&lt;/p&gt;
-&lt;p&gt;本アプリはpovo 2.0のアカウント、非公開API、内部システムへ接続しません。povo 2.0または外部サービスに関する契約、通信、料金、特典内容、利用条件については、各サービス提供者の案内をご確認ください。&lt;/p&gt;
-
-&lt;h2 id="4-利用上の注意"&gt;4. 利用上の注意&lt;/h2&gt;
-&lt;p&gt;ユーザーは、登録内容、コード、URL、期限、利用可否を自ら確認したうえで本アプリを利用するものとします。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;本アプリの解析結果は、保存前にユーザーが確認、修正できます&lt;/li&gt;
-&lt;li&gt;本アプリは不足する期限や特典内容を推測しません&lt;/li&gt;
-&lt;li&gt;外部URLの内容、安全性、有効期限、引換完了を確認しません&lt;/li&gt;
-&lt;li&gt;povo 2.0のコード入力画面への直接移動、自動入力、利用完了確認は行いません&lt;/li&gt;
-&lt;li&gt;期限通知やWidgetの表示時刻は、iOSの状態や設定により遅れる場合があります&lt;/li&gt;
-&lt;li&gt;期限の確認や特典の利用を、本アプリの通知だけに依存しないでください&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="5-コードとurlの管理"&gt;5. コードとURLの管理&lt;/h2&gt;
-&lt;p&gt;プロモコード、クーポンコード、受取URLは価値を持つ秘密情報です。ユーザーは、端末のロック、クリップボード、標準共有シート、送信先を適切に管理してください。&lt;/p&gt;
-&lt;p&gt;本アプリ内の標準共有シートからコードまたはURLを共有する場合、送信先と共有内容を確認する責任はユーザーにあります。&lt;/p&gt;
-
-&lt;h2 id="6-データの保存と削除"&gt;6. データの保存と削除&lt;/h2&gt;
-&lt;p&gt;本アプリの特典情報はiPhone内に保存されます。iCloud同期、端末間同期、バックアップ復元は提供しません。&lt;/p&gt;
-&lt;p&gt;アプリの削除、端末の紛失、故障、機種変更、OSまたはストレージの問題等によりデータが失われる場合があります。必要な情報は、ユーザー自身でも安全な方法で管理してください。&lt;/p&gt;
-&lt;p&gt;データの取扱いについては、&lt;a href="https://kumakikai.github.io/privacy/giga-poke/"&gt;プライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
-
-&lt;h2 id="7-外部サービス"&gt;7. 外部サービス&lt;/h2&gt;
-&lt;p&gt;本アプリからpovo 2.0、外部クーポンサイト、Google Forms、App Store等を開いた場合、各サービスの規約およびプライバシーポリシーが適用されます。&lt;/p&gt;
-&lt;p&gt;外部サービスの内容、稼働状況、変更、終了、安全性、取引、特典の利用可否について、開発者は管理または保証しません。&lt;/p&gt;
-
-&lt;h2 id="8-料金と広告"&gt;8. 料金と広告&lt;/h2&gt;
-&lt;p&gt;本アプリは全機能無料、広告なし、アカウント不要です。&lt;/p&gt;
-&lt;p&gt;将来、提供内容または料金体系を変更する場合は、適用前にApp Store、本サイト、アプリ内のいずれか適切な方法で案内し、表示と実際の提供内容が一致するよう本規約等を更新します。&lt;/p&gt;
-
-&lt;h2 id="9-禁止事項"&gt;9. 禁止事項&lt;/h2&gt;
-&lt;p&gt;ユーザーは、本アプリを利用するにあたり、次の行為を行ってはなりません。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;法令または公序良俗に反する行為&lt;/li&gt;
-&lt;li&gt;他者のコード、URL、アカウント情報を権限なく取得、利用、共有する行為&lt;/li&gt;
-&lt;li&gt;不正アクセス、詐欺、なりすまし、権利侵害を目的とする行為&lt;/li&gt;
-&lt;li&gt;本アプリまたは関連サービスの運営を妨害する行為&lt;/li&gt;
-&lt;li&gt;本アプリを不正に改変、解析、再配布する行為&lt;/li&gt;
-&lt;li&gt;第三者の商標、著作権、プライバシーその他の権利を侵害する行為&lt;/li&gt;
-&lt;li&gt;その他、開発者が不適切と判断する行為&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="10-知的財産権"&gt;10. 知的財産権&lt;/h2&gt;
-&lt;p&gt;本アプリおよび本公式サイトの文章、デザイン、プログラムその他のコンテンツに関する権利は、開発者または正当な権利者に帰属します。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;最終更新日：2026-03-21&lt;/p&gt;</description></item></channel></rss>
