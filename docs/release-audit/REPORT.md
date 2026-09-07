@@ -62,4 +62,22 @@ HTMLとは別に、ローカルMacとCI artifactで1つの操作説明WebPに8 b
 
 ## 公開後の証跡
 
-公開後に本節へsource/deploy SHA、Actions、全公開URLの再取得結果、News本番ブラウザ結果を追記する。
+- 修正source：`0a957df2b2e3281922aea524f76cee7977a6b78c`。
+- 公開gh-pages：`dac80f68e1052e4e7053b6263176889372640c22`。
+- [production build / deploy 34088380110](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34088380110) **success**。
+- [Pages deployment 34088417580](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34088417580) **success**。
+- 公開後の全277 HTML + 384 asset = **661/661 HTTP 200、全件最新gh-pagesと完全一致**。追加18 cache条件も一致し、旧Header/Footer・旧文言の検出0件。[http-after.json](http-after.json)
+- ローカルproduction buildと本番全277 HTMLも完全一致。[html-after.json](html-after.json)、[after-artifact-comparison.json](after-artifact-comparison.json)
+- 全48 Productの現行本文・共通構造は公開後HTTP照合でも維持。Home・Uni:Note・AboutのDesktop、Uni:Note・AboutのMobileを公開後に再表示し5ケースPASS。Founderの最新本文・公式バッジ・地域・下部Support・Mobileメニュー・画像decodeも正常。[browser-after.json](browser-after.json)
+- 公開後News：**Chrome24 / WebKit24、計48ケースPASS**。全6言語で初期15記事・emptyなし、Information0件のみempty表示、All復帰、CSS遮断、JS on/off、アクセシビリティ可視性を再確認。[news-live-chrome.json](news-live-chrome.json)、[news-live-webkit.json](news-live-webkit.json)
+- サイトbuild・URL検証の警告/エラーは0件。Actions基盤では既存 `checkout@v4` / `setup-node@v4` のNode20非推奨通知と `url.parse()` 非推奨警告が出るが、全ジョブは成功。今回の限定修正ではworkflow依存を更新していない。
+
+公開後の代表画面：
+
+- [Uni:Note Desktop](screenshots/browser-after-uni-note-1440.jpg) / [Mobile](screenshots/browser-after-uni-note-390.jpg)
+- [Founder Desktop](screenshots/browser-after-founder-1440.jpg) / [Mobile](screenshots/browser-after-founder-390.jpg)
+- [News 全件 Desktop](screenshots/news-live-chrome-1440-all.jpg) / [Mobile](screenshots/news-live-chrome-390-all.jpg)
+- [Information 空カテゴリ Mobile](screenshots/news-live-chrome-390-information.jpg)
+- [Footer Desktop](screenshots/browser-after-footer-1440.jpg)
+
+HTTP確認時刻は各JSONにUTCで記録。公開後再取得は2026-09-07 14:53–14:54 JSTに実施。元の外部取得ツール・日時は引き続き未確認であり、そのキャッシュ内部を確認したとは扱わない。

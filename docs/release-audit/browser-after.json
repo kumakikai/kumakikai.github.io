@@ -1,0 +1,513 @@
+{
+  "checkedAt": "2026-09-07T05:53:50.648Z",
+  "base": "https://kumakikai.github.io",
+  "engine": "Chrome",
+  "method": "Live navigation and computed browser state. All ordinary published HTML routes are discovered from the production build. Redirect compatibility documents are audited separately by HTTP. Mobile uses viewport emulation, not a physical device. Each image is decoded after eager loading.",
+  "pending": false,
+  "ok": true,
+  "discovered": {
+    "html": 277,
+    "ordinary": 210,
+    "aliases": 67
+  },
+  "cases": 5,
+  "failures": [],
+  "results": [
+    {
+      "route": "/company/",
+      "locale": "ja",
+      "section": "company",
+      "alias": false,
+      "width": 390,
+      "errors": [],
+      "requestFailures": [],
+      "httpFailures": [],
+      "consoleErrors": [],
+      "status": 200,
+      "render": {
+        "headerCount": 1,
+        "nav": [
+          {
+            "text": "Products",
+            "href": "/products/"
+          },
+          {
+            "text": "News",
+            "href": "/news/"
+          },
+          {
+            "text": "About",
+            "href": "/company/"
+          }
+        ],
+        "mobileNav": [
+          {
+            "text": "Products →",
+            "href": "/products/"
+          },
+          {
+            "text": "News →",
+            "href": "/news/"
+          },
+          {
+            "text": "About →",
+            "href": "/company/"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Contact",
+            "href": "/company/#contact"
+          }
+        ],
+        "footerCount": 1,
+        "legacyTemplates": [],
+        "unwantedHubs": [],
+        "brokenImages": [],
+        "imageCount": 5,
+        "overflow": false,
+        "productCount": 0,
+        "hero": {
+          "name": "",
+          "platform": "",
+          "description": "",
+          "tagline": "",
+          "text": "",
+          "links": [],
+          "badgeImages": [],
+          "regions": [],
+          "screens": []
+        },
+        "supportKinds": [],
+        "founder": [
+          "組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。",
+          "作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。"
+        ],
+        "founderName": "Yuya Nakamura",
+        "newsEmpty": [],
+        "legacyPhrases": []
+      },
+      "screenshot": "screenshots/browser-after-company-390.jpg",
+      "founderScreenshot": "screenshots/browser-after-founder-390.jpg",
+      "ok": true
+    },
+    {
+      "route": "/company/",
+      "locale": "ja",
+      "section": "company",
+      "alias": false,
+      "width": 1440,
+      "errors": [],
+      "requestFailures": [],
+      "httpFailures": [],
+      "consoleErrors": [],
+      "status": 200,
+      "render": {
+        "headerCount": 1,
+        "nav": [
+          {
+            "text": "Products",
+            "href": "/products/"
+          },
+          {
+            "text": "News",
+            "href": "/news/"
+          },
+          {
+            "text": "About",
+            "href": "/company/"
+          }
+        ],
+        "mobileNav": [
+          {
+            "text": "Products →",
+            "href": "/products/"
+          },
+          {
+            "text": "News →",
+            "href": "/news/"
+          },
+          {
+            "text": "About →",
+            "href": "/company/"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Contact",
+            "href": "/company/#contact"
+          }
+        ],
+        "footerCount": 1,
+        "legacyTemplates": [],
+        "unwantedHubs": [],
+        "brokenImages": [],
+        "imageCount": 5,
+        "overflow": false,
+        "productCount": 0,
+        "hero": {
+          "name": "",
+          "platform": "",
+          "description": "",
+          "tagline": "",
+          "text": "",
+          "links": [],
+          "badgeImages": [],
+          "regions": [],
+          "screens": []
+        },
+        "supportKinds": [],
+        "founder": [
+          "組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。",
+          "作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。"
+        ],
+        "founderName": "Yuya Nakamura",
+        "newsEmpty": [],
+        "legacyPhrases": []
+      },
+      "screenshot": "screenshots/browser-after-company-1440.jpg",
+      "founderScreenshot": "screenshots/browser-after-founder-1440.jpg",
+      "ok": true
+    },
+    {
+      "route": "/",
+      "locale": "ja",
+      "section": "home",
+      "alias": false,
+      "width": 1440,
+      "errors": [],
+      "requestFailures": [],
+      "httpFailures": [],
+      "consoleErrors": [],
+      "status": 200,
+      "render": {
+        "headerCount": 1,
+        "nav": [
+          {
+            "text": "Products",
+            "href": "/products/"
+          },
+          {
+            "text": "News",
+            "href": "/news/"
+          },
+          {
+            "text": "About",
+            "href": "/company/"
+          }
+        ],
+        "mobileNav": [
+          {
+            "text": "Products →",
+            "href": "/products/"
+          },
+          {
+            "text": "News →",
+            "href": "/news/"
+          },
+          {
+            "text": "About →",
+            "href": "/company/"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Contact",
+            "href": "/company/#contact"
+          }
+        ],
+        "footerCount": 1,
+        "legacyTemplates": [],
+        "unwantedHubs": [],
+        "brokenImages": [],
+        "imageCount": 20,
+        "overflow": false,
+        "productCount": 0,
+        "hero": {
+          "name": "",
+          "platform": "",
+          "description": "",
+          "tagline": "",
+          "text": "",
+          "links": [],
+          "badgeImages": [],
+          "regions": [],
+          "screens": []
+        },
+        "supportKinds": [],
+        "founder": [],
+        "founderName": "",
+        "newsEmpty": [],
+        "legacyPhrases": []
+      },
+      "screenshot": "screenshots/browser-after-home-1440.jpg",
+      "ok": true
+    },
+    {
+      "route": "/products/uni-note/",
+      "locale": "ja",
+      "section": "products",
+      "id": "uni-note",
+      "alias": false,
+      "width": 1440,
+      "errors": [],
+      "requestFailures": [],
+      "httpFailures": [],
+      "consoleErrors": [],
+      "status": 200,
+      "render": {
+        "headerCount": 1,
+        "nav": [
+          {
+            "text": "Products",
+            "href": "/products/"
+          },
+          {
+            "text": "News",
+            "href": "/news/"
+          },
+          {
+            "text": "About",
+            "href": "/company/"
+          }
+        ],
+        "mobileNav": [
+          {
+            "text": "Products →",
+            "href": "/products/"
+          },
+          {
+            "text": "News →",
+            "href": "/news/"
+          },
+          {
+            "text": "About →",
+            "href": "/company/"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Contact",
+            "href": "/company/#contact"
+          }
+        ],
+        "footerCount": 1,
+        "legacyTemplates": [],
+        "unwantedHubs": [],
+        "brokenImages": [],
+        "imageCount": 9,
+        "overflow": false,
+        "productCount": 1,
+        "hero": {
+          "name": "Uni:Note",
+          "platform": "iPad",
+          "description": "Apple Pencilで書く。PDFに書き込む。ノートを教科やフォルダで整理し、AIで問題集づくりや、囲った問題の質問・解答まで。授業の記録から復習へ、ひと続きに。",
+          "tagline": "大学のノートを、iPadへ。",
+          "text": "Uni:NoteiPad大学のノートを、iPadへ。Apple Pencilで書く。PDFに書き込む。ノートを教科やフォルダで整理し、AIで問題集づくりや、囲った問題の質問・解答まで。授業の記録から復習へ、ひと続きに。配信地域🇯🇵🇺🇸🇹🇼🇫🇷🇰🇷🇩🇪",
+          "links": [
+            {
+              "text": "",
+              "href": "https://apps.apple.com/jp/app/id6760258084"
+            },
+            {
+              "text": "🇯🇵",
+              "href": "https://apps.apple.com/jp/app/uni-note-%E6%9B%B8%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6-%E5%BA%83%E5%91%8A%E7%84%A1%E3%81%97%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%83%8E%E3%83%BC%E3%83%88/id6760258084?uo=4"
+            },
+            {
+              "text": "🇺🇸",
+              "href": "https://apps.apple.com/us/app/uni-note-study-notes/id6760258084?uo=4"
+            },
+            {
+              "text": "🇹🇼",
+              "href": "https://apps.apple.com/tw/app/uni-note-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/id6760258084?uo=4"
+            },
+            {
+              "text": "🇫🇷",
+              "href": "https://apps.apple.com/fr/app/uni-note-notes-de-r%C3%A9vision/id6760258084?uo=4"
+            },
+            {
+              "text": "🇰🇷",
+              "href": "https://apps.apple.com/kr/app/uni-note-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8/id6760258084?uo=4"
+            },
+            {
+              "text": "🇩🇪",
+              "href": "https://apps.apple.com/de/app/uni-note-lernnotizen/id6760258084?uo=4"
+            }
+          ],
+          "badgeImages": [
+            "/images/badges/app-store-ja.svg"
+          ],
+          "regions": [
+            "jp",
+            "us",
+            "tw",
+            "fr",
+            "kr",
+            "de"
+          ],
+          "screens": [
+            {
+              "src": "/images/apps/uni-note/screen-1-560.webp",
+              "alt": "Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面"
+            },
+            {
+              "src": "/images/apps/uni-note/screen-2-560.webp",
+              "alt": "ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面"
+            }
+          ]
+        },
+        "supportKinds": [
+          "guide",
+          "faq",
+          "contact",
+          "privacy",
+          "terms"
+        ],
+        "founder": [],
+        "founderName": "",
+        "newsEmpty": [],
+        "legacyPhrases": []
+      },
+      "screenshot": "screenshots/browser-after-uni-note-1440.jpg",
+      "footerScreenshot": "screenshots/browser-after-footer-1440.jpg",
+      "ok": true
+    },
+    {
+      "route": "/products/uni-note/",
+      "locale": "ja",
+      "section": "products",
+      "id": "uni-note",
+      "alias": false,
+      "width": 390,
+      "errors": [],
+      "requestFailures": [],
+      "httpFailures": [],
+      "consoleErrors": [],
+      "status": 200,
+      "render": {
+        "headerCount": 1,
+        "nav": [
+          {
+            "text": "Products",
+            "href": "/products/"
+          },
+          {
+            "text": "News",
+            "href": "/news/"
+          },
+          {
+            "text": "About",
+            "href": "/company/"
+          }
+        ],
+        "mobileNav": [
+          {
+            "text": "Products →",
+            "href": "/products/"
+          },
+          {
+            "text": "News →",
+            "href": "/news/"
+          },
+          {
+            "text": "About →",
+            "href": "/company/"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Contact",
+            "href": "/company/#contact"
+          }
+        ],
+        "footerCount": 1,
+        "legacyTemplates": [],
+        "unwantedHubs": [],
+        "brokenImages": [],
+        "imageCount": 9,
+        "overflow": false,
+        "productCount": 1,
+        "hero": {
+          "name": "Uni:Note",
+          "platform": "iPad",
+          "description": "Apple Pencilで書く。PDFに書き込む。ノートを教科やフォルダで整理し、AIで問題集づくりや、囲った問題の質問・解答まで。授業の記録から復習へ、ひと続きに。",
+          "tagline": "大学のノートを、iPadへ。",
+          "text": "Uni:NoteiPad大学のノートを、iPadへ。Apple Pencilで書く。PDFに書き込む。ノートを教科やフォルダで整理し、AIで問題集づくりや、囲った問題の質問・解答まで。授業の記録から復習へ、ひと続きに。配信地域🇯🇵🇺🇸🇹🇼🇫🇷🇰🇷🇩🇪",
+          "links": [
+            {
+              "text": "",
+              "href": "https://apps.apple.com/jp/app/id6760258084"
+            },
+            {
+              "text": "🇯🇵",
+              "href": "https://apps.apple.com/jp/app/uni-note-%E6%9B%B8%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6-%E5%BA%83%E5%91%8A%E7%84%A1%E3%81%97%E3%81%AE%E5%A4%A7%E5%AD%A6%E3%83%8E%E3%83%BC%E3%83%88/id6760258084?uo=4"
+            },
+            {
+              "text": "🇺🇸",
+              "href": "https://apps.apple.com/us/app/uni-note-study-notes/id6760258084?uo=4"
+            },
+            {
+              "text": "🇹🇼",
+              "href": "https://apps.apple.com/tw/app/uni-note-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/id6760258084?uo=4"
+            },
+            {
+              "text": "🇫🇷",
+              "href": "https://apps.apple.com/fr/app/uni-note-notes-de-r%C3%A9vision/id6760258084?uo=4"
+            },
+            {
+              "text": "🇰🇷",
+              "href": "https://apps.apple.com/kr/app/uni-note-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8/id6760258084?uo=4"
+            },
+            {
+              "text": "🇩🇪",
+              "href": "https://apps.apple.com/de/app/uni-note-lernnotizen/id6760258084?uo=4"
+            }
+          ],
+          "badgeImages": [
+            "/images/badges/app-store-ja.svg"
+          ],
+          "regions": [
+            "jp",
+            "us",
+            "tw",
+            "fr",
+            "kr",
+            "de"
+          ],
+          "screens": [
+            {
+              "src": "/images/apps/uni-note/screen-1-560.webp",
+              "alt": "Apple Pencilで書いた大学の講義ノートを表示したUni:NoteのiPad画面"
+            },
+            {
+              "src": "/images/apps/uni-note/screen-2-560.webp",
+              "alt": "ノートから生成した問題集と解答カードを表示したUni:NoteのiPad画面"
+            }
+          ]
+        },
+        "supportKinds": [
+          "guide",
+          "faq",
+          "contact",
+          "privacy",
+          "terms"
+        ],
+        "founder": [],
+        "founderName": "",
+        "newsEmpty": [],
+        "legacyPhrases": []
+      },
+      "mobileMenu": {
+        "open": true,
+        "links": [
+          "Products →",
+          "News →",
+          "About →"
+        ]
+      },
+      "screenshot": "screenshots/browser-after-uni-note-390.jpg",
+      "footerScreenshot": "screenshots/browser-after-footer-390.jpg",
+      "ok": true
+    }
+  ]
+}

@@ -30,3 +30,11 @@
 Chrome 24ケース、WebKit 24ケース、計48ケースすべてPASS。6言語とも初期・すべてへの復帰ではempty stateなし、0件のInformation選択時だけ表示される。JavaScript無効時の操作とfragment直接アクセスも一致した。全48ケースでCSS取得を遮断しても初期empty stateが視覚・アクセシビリティツリー両方から隠れることを確認した。
 
 証拠：`news-local-chrome.json`、`news-local-webkit.json`。通常表示と0件カテゴリーのDesktop / Mobile画像は `screenshots/news-local-*.jpg`。
+
+## 公開後の本番再検証
+
+2026-09-07、実装commit `0a957df`、Pages公開run `34088417580` 成功後に、本番 `https://kumakikai.github.io/` のNews全6言語を再取得した。Chrome 24ケース、WebKit 24ケース、計48ケースすべてPASS。
+
+初期の「すべて」には15記事が表示され、empty stateは視覚・アクセシビリティツリーともに非表示。0件のInformationを選択したときだけ表示され、「すべて」へ戻ると再び非表示になる。JavaScript無効、fragment直接アクセス、CSS取得を遮断した初期表示でも期待する状態を確認した。Desktop全件、Mobile全件・Informationの本番画像を目視し、現行Header/Footerと既存デザインの維持を確認した。
+
+証拠：`news-live-chrome.json`、`news-live-webkit.json`、`screenshots/news-live-*.jpg`。修正前のCSS遮断時の露出は `news-before-unstyled.json` と比較できる。
