@@ -204,6 +204,7 @@ Guideは「見出し → 短い説明／Step → 実UI画像 → 必要な補足
 
 - 内容が分かるファイル名・alt、必要なcaptionを付ける。UIを書き換えず、補助枠・矢印は必要時だけ。
 - 原本は可能ならアプリ側。サイトrepoは制作・再生成に必要なcrop素材とWeb成果物だけ。raw動画、大量原寸PNG、一時撮影物を蓄積しない。
+- Home Heroのオトミルとギガポケは同じiPhone縦横比で表示する。Dynamic Islandを含む採用済み素材を使い、全画面の原本から等比で書き出す。宣伝画像の下端で切れた端末を全画面として扱わず、CSSで画面を縦に引き伸ばさない。現在の共通書き出し寸法は320×693／640×1386。
 - 取得元・版・hash・crop範囲・実装の照合を `docs/visual-guides/` 等へ記録。未使用画像は全参照確認後にだけ整理。
 - Guide見出し変更時は `{{< guide-anchor "旧ID" >}}` で対応箇所へ旧アンカーを残す。URLと実際のlastmodを維持。
 - 既存Guide／FAQ改訂は **本文・素材監査 → npm run buildで最新public生成 → scripts/record-guide-review.py → 対象entryのsource／rendered hashと理由の差分確認 → npm run verify** の順。同scriptはpublicを読むため、古いHTMLで記録しない。`docs/visual-guides/reviewed-content.json` は既存対象一括処理・監査ファイル固定表に基づくので、対象以外のhashが変わっていないか読む。新ページは旧本文baseline対象ではなく、無条件にmanifestへ足さない。通すためだけにhashを更新しない。

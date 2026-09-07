@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-07",
+  "scope": "Screenshot refresh and matching Home iPhone image ratios",
+  "build": {
+    "node": "22.22.0",
+    "hugo": "0.158.0+extended",
+    "production": true,
+    "syncCheck": true
+  },
+  "staticChecks": {
+    "migration": true,
+    "seo": true,
+    "productPages": 48,
+    "productNegativeCases": 17,
+    "noccaLegalTests": 25,
+    "diffCheck": true
+  },
+  "browser": {
+    "hero": {
+      "ok": true,
+      "cases": 23
+    },
+    "featured": {
+      "ok": true,
+      "cases": 33,
+      "sideCoverage": {
+        "oto-miru": [
+          "left",
+          "right"
+        ],
+        "giga-poke": [
+          "left",
+          "right"
+        ],
+        "nocca": [
+          "left",
+          "right"
+        ],
+        "uni-note-pocket": [
+          "left",
+          "right"
+        ],
+        "balance-calendar": [
+          "left",
+          "right"
+        ],
+        "smokeless": [
+          "left",
+          "right"
+        ],
+        "signal": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    "products": {
+      "ok": true,
+      "cases": 12,
+      "widths": [
+        1440,
+        768,
+        390
+      ],
+      "apps": [
+        "nocca",
+        "uni-note-pocket",
+        "smokeless",
+        "signal"
+      ]
+    }
+  },
+  "limitations": [
+    "Local Chrome viewport emulation; no physical-device or field-performance claim.",
+    "App Store assets are the explicitly requested local completed sets; this update does not upload them to App Store Connect."
+  ],
+  "integratedRemoteBase": "feb509aaf593f3474911f24bbe5a4b89d2921b73"
+}
