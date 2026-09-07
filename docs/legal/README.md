@@ -22,8 +22,9 @@ small changes use the existing how-to/FAQ review mechanism.
 `reviewed-nocca-content.json` binds each source and rendered text/link set to its
 review. The old baseline text hashes and source paths are pinned in code. The
 article's resulting source hash permits exactly the deletion of the known form
-line; further article edits fail even if its review hash is updated. No forms
-are permitted in the three reviewed Nocca sources. Other applications cannot opt
+line; further article edits fail even if its review hash is updated. The approved public form `https://forms.gle/JwDoPvzAh1zKaR2M8` is allowed
+only in the reviewed Nocca Privacy and Terms. Query parameters, fragments,
+other forms, and form links in the historical article remain forbidden. Other applications cannot opt
 in, and the original migration baseline, canonical, anchor and link checks stay
 enabled. A missing or malformed catalog never disables the original checks.
 
@@ -40,7 +41,7 @@ python3 scripts/test_nocca_legal_review.py
 npm run verify
 ```
 
-The 18 focused tests cover valid input and rejection of another app's route,
+The 24 focused tests cover valid input and rejection of another app's route,
 changed baseline hashes, mismatched source paths, extra source/rendered text,
 extra links, the wrong form, extra removed links, malformed catalogs and missing
 route records. They run before the existing migration verification in CI.
@@ -50,3 +51,16 @@ authorized Nocca change. Preserve unrelated dirty work in the original checkout.
 Before publication, verify the latest remote main and review the full changed
 file list. A local build is not publication: inspect the Actions result, generated
 gh-pages files and the actual Nocca public URLs after deployment.
+
+
+## 2026-09-07 support form alignment (source change; publication verified separately)
+
+The user authorized the new four-question support form (required kind/content;
+optional support information/reply email). Nocca alone overrides its contact URL
+in `data/apps.json`. Privacy describes optional eight-line local-only copying,
+manual submission, and Google Forms storage; Terms changes only the contact
+section and the verified Product support URL. Existing retention, subscription
+terms, Apple Standard EULA, legacy article source, and protected anchors remain
+unchanged. The two exact source/rendered catalog entries are refreshed only after
+review of the generated text and links. Tests reject form URL variants even with
+a recomputed review catalog. The old unrelated form remains rejected.

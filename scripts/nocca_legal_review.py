@@ -11,6 +11,8 @@ import re
 PURPOSE = "nocca-legal-update-2026-09-07"
 CATALOG = "docs/legal/reviewed-nocca-content.json"
 BAD_FORM = "https://forms.gle/Enzmm94LdXRZjP8k9"
+APPROVED_FORM = "https://forms.gle/JwDoPvzAh1zKaR2M8"
+FORM_ROUTES = {"/privacy/nocca/", "/terms/nocca/"}
 NOTES = "/notes/2026-09-06-nocca/"
 NOTES_SOURCE_SHA256 = "ffe961cc75418f296303c186e42ad0887ad8a82ea39546a9347dc9e5dba5d1ce"
 SCOPE = {
@@ -27,6 +29,25 @@ def digest(value):
 
 def error(route, check, detail):
     return {"page": route, "check": "nocca_legal_" + check, "detail": detail}
+
+
+def has_form_reference(value):
+    value = value.lower()
+    return "forms.gle" in value or "docs.google.com/forms" in value
+
+
+def form_links_allowed(route, links):
+    # Exact public Nocca form only: no queries, fragments, redirects or aliases.
+    return all(not has_form_reference(link) or
+               (route in FORM_ROUTES and link == APPROVED_FORM) for link in links)
+
+
+def source_forms_allowed(route, content):
+    urls = re.findall(r"https?://[^\s<>\"')\]]+", content)
+    remaining = content
+    for url in urls:
+        remaining = remaining.replace(url, "")
+    return not has_form_reference(remaining) and form_links_allowed(route, urls)
 
 
 def load_reviews(root, baseline):
@@ -65,8 +86,8 @@ def load_reviews(root, baseline):
             removed = [BAD_FORM] if route == NOTES else []
             if review["removedLinks"] != removed:
                 raise ValueError("Only the incorrect Nocca article form link may be removed")
-            if "forms.gle/" in source.read_text() or "docs.google.com/forms/" in source.read_text():
-                raise ValueError("A form link remains in the authorized Nocca sources")
+            if not source_forms_allowed(route, source.read_text()):
+                raise ValueError("Only the reviewed exact Nocca form is allowed in legal sources")
         return reviews, []
     except (ValueError, TypeError, KeyError, OSError) as exc:
         errors.append(error("/", "catalog", str(exc)))
@@ -81,6 +102,6 @@ def check_article(route, review, text, links):
         errors.append(error(route, "body", "Rendered text changed since the Nocca legal review"))
     if sorted(set(links)) != review["reviewedLinks"]:
         errors.append(error(route, "links", "Rendered links changed since the Nocca legal review"))
-    if any("forms.gle/" in link or "docs.google.com/forms/" in link for link in links):
+    if not form_links_allowed(route, links):
         errors.append(error(route, "form", "Incorrect or unreviewed form link remains"))
     return errors

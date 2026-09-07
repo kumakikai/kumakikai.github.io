@@ -84,9 +84,11 @@ Appleが対象と判断した方には、購入時に最初の14日間無料の�
 
 ## 10. お問い合わせ・準拠法
 
-お問い合わせ先：[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)
+お問い合わせ先：[Noccaお問い合わせフォーム](https://forms.gle/JwDoPvzAh1zKaR2M8)
 
-[Nocca公式サポート](https://kumakikai.github.io/notes/2026-09-06-nocca/)
+フォームを開けない場合は、[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)へお問い合わせください。
+
+[Nocca公式サポート](https://kumakikai.github.io/products/nocca/)
 
 この規約は日本法に準拠します。紛争が生じた場合は解決に向けて協議し、裁判が必要な場合は法令に従って管轄が定まる日本の裁判所で取り扱います。
 

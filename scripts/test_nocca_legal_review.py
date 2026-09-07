@@ -136,5 +136,52 @@ class NoccaLegalReviewTests(unittest.TestCase):
         self.assertTrue(review.check_article("/terms/another-app/", entry, "approved rendered text", entry["reviewedLinks"]))
 
 
+    def test_exact_nocca_form_accepted_in_legal_source_and_render(self):
+        for route in review.FORM_ROUTES:
+            self.assertTrue(review.source_forms_allowed(route, "[Nocca](" + review.APPROVED_FORM + ")"))
+            entry = copy.deepcopy(self.catalog["reviews"][route])
+            entry["reviewedLinks"] = sorted(set(entry["reviewedLinks"] + [review.APPROVED_FORM]))
+            self.assertEqual(review.check_article(route, entry, "approved rendered text", entry["reviewedLinks"]), [])
+
+    def test_form_variants_rejected_even_if_reviewed(self):
+        for form in (review.APPROVED_FORM + "?entry.123=diagnostics", review.APPROVED_FORM + "#fragment",
+                     review.APPROVED_FORM + "/", review.APPROVED_FORM.replace("https:", "http:"),
+                     review.APPROVED_FORM.replace("forms.gle", "forms.gle.evil.example"),
+                     review.APPROVED_FORM.replace("forms.gle", "forms.gle@evil.example"),
+                     "https://docs.google.com/forms/d/another-form/viewform", "https://forms.gle/another-form"):
+            with self.subTest(form=form):
+                self.assertFalse(review.source_forms_allowed("/privacy/nocca/", "[form](" + form + ")"))
+                entry = copy.deepcopy(self.catalog["reviews"]["/privacy/nocca/"])
+                entry["reviewedLinks"] = [form]
+                errors = review.check_article("/privacy/nocca/", entry, "approved rendered text", [form])
+                self.assertTrue(any(e["check"] == "nocca_legal_form" for e in errors))
+
+    def test_raw_or_non_http_form_references_rejected(self):
+        for value in ("forms.gle/JwDoPvzAh1zKaR2M8", "//forms.gle/JwDoPvzAh1zKaR2M8",
+                      "HTTPS://forms.gle/JwDoPvzAh1zKaR2M8", "https://FORMS.GLE/JwDoPvzAh1zKaR2M8"):
+            with self.subTest(value=value):
+                self.assertFalse(review.source_forms_allowed("/privacy/nocca/", value))
+
+    def test_approved_form_cannot_expand_to_legacy_article_or_other_app(self):
+        for route in (review.NOTES, "/privacy/other-app/"):
+            self.assertFalse(review.source_forms_allowed(route, "[form](" + review.APPROVED_FORM + ")"))
+            self.assertFalse(review.form_links_allowed(route, [review.APPROVED_FORM]))
+
+    def test_approved_form_in_article_even_rehashed_still_rejected(self):
+        source = self.root / review.SCOPE[review.NOTES][0]
+        source.write_text(source.read_text() + "\n[Nocca](" + review.APPROVED_FORM + ")\n")
+        self.catalog["reviews"][review.NOTES]["sourceSHA256"] = review.digest(source.read_bytes())
+        self.write()
+        self.rejected()
+
+    def test_unreviewed_form_variant_in_real_source_rejected(self):
+        route = "/privacy/nocca/"
+        source = self.root / review.SCOPE[route][0]
+        source.write_text(source.read_text() + "\n[form](" + review.APPROVED_FORM + "?prefill=1)\n")
+        self.catalog["reviews"][route]["sourceSHA256"] = review.digest(source.read_bytes())
+        self.write()
+        self.rejected()
+
+
 if __name__ == "__main__":
     unittest.main()

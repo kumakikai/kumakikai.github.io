@@ -4,34 +4,36 @@
   "reviews": {
     "/privacy/nocca/": {
       "source": "content/privacy/nocca.md",
-      "sourceSHA256": "3111e395dbc61e2dc7a7b6573110d2f57fed62a454fa2b4cb6853fb97cf5ebf3",
+      "sourceSHA256": "5bb20eaf463c15000fef70da37aabbb84f54cf54931ff3ab64e89cca9818eee5",
       "baselineTextSHA256": "e01d5993ef49c080b2b2a9c5b30ce12b125ce15e6cca69d3c5d51cd3bf7a1fff",
-      "reviewedTextSHA256": "f8af97fa50b433a1350cd6ea6647303da2a81551bf808dda519149d11f8bde18",
+      "reviewedTextSHA256": "0f80d3b36f4b63193d3356198d8fb45ee6de794d391c114fd60e1a9e154c2553",
       "reviewedLinks": [
+        "https://forms.gle/JwDoPvzAh1zKaR2M8",
         "https://kumakikai.github.io/faq/nocca/",
         "https://kumakikai.github.io/htu/nocca/",
-        "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+        "https://kumakikai.github.io/products/nocca/",
         "https://kumakikai.github.io/terms/nocca/",
         "mailto:kumakikai.apps@gmail.com"
       ],
       "removedLinks": [],
-      "reason": "User-authorized 2026-09-07 Nocca legal update reflecting App Attest, server processing, 7-day trial, subscriptions, retention/deletion and the existing support email; article removes only the incorrect other-app form. Original routes, canonical URLs, anchors and remaining links preserved."
+      "reason": "2026-09-07 user-authorized Nocca support alignment: exact four-question form, optional eight-line support copy and Google Forms storage; contact and existing Product support URL only. Retention, billing, legacy anchors and Apple Standard EULA unchanged. Source and generated body/links independently reviewed."
     },
     "/terms/nocca/": {
       "source": "content/terms/nocca.md",
-      "sourceSHA256": "cd852acb0272fb80bc5daeaa88eea07a899a60cd858162c598dc31f52ca5b822",
+      "sourceSHA256": "ad22c0b8d1adf44d8c652261f081cb9fef07d1e9e4b5eecd42db4e5536a5df3b",
       "baselineTextSHA256": "150df3841135c7542cbe39b7318c9d1cb53b68bb2a4e2fff8c8718855da46946",
-      "reviewedTextSHA256": "d85008d5a77e15d2ba6d4a0f819a431afce108825423033f17eac16fdb886a1a",
+      "reviewedTextSHA256": "54b0769a41f4b1f484f7f08f143bda13f26aadace16c283731f2b982f00c42ac",
       "reviewedLinks": [
+        "https://forms.gle/JwDoPvzAh1zKaR2M8",
         "https://kumakikai.github.io/faq/nocca/",
         "https://kumakikai.github.io/htu/nocca/",
-        "https://kumakikai.github.io/notes/2026-09-06-nocca/",
         "https://kumakikai.github.io/privacy/nocca/",
+        "https://kumakikai.github.io/products/nocca/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "mailto:kumakikai.apps@gmail.com"
       ],
       "removedLinks": [],
-      "reason": "User-authorized 2026-09-07 Nocca legal update reflecting App Attest, server processing, 7-day trial, subscriptions, retention/deletion and the existing support email; article removes only the incorrect other-app form. Original routes, canonical URLs, anchors and remaining links preserved."
+      "reason": "2026-09-07 user-authorized Nocca support alignment: exact four-question form, optional eight-line support copy and Google Forms storage; contact and existing Product support URL only. Retention, billing, legacy anchors and Apple Standard EULA unchanged. Source and generated body/links independently reviewed."
     },
     "/notes/2026-09-06-nocca/": {
       "source": "content/notes/2026-09-06-nocca.md",
