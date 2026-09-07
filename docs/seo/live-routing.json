@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-09-07T06:35:33.220815+00:00",
+  "ok": true,
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "finalURL": "https://kumakikai.github.io/",
+      "xRobotsTag": null,
+      "redirects": [],
+      "sha256": "e570fdd262dccdebd43cf0eb97e18d5d48bbd14d954152a61ddfc92161a8d7c6",
+      "ok": true
+    },
+    {
+      "route": "/products/",
+      "status": 200,
+      "finalURL": "https://kumakikai.github.io/products/",
+      "xRobotsTag": null,
+      "redirects": [],
+      "sha256": "d62a654acdf3e3a816353b7cb04931ff9e04305c3144cc03f53e1632347e3662",
+      "ok": true
+    },
+    {
+      "route": "/products/uni-note/",
+      "status": 200,
+      "finalURL": "https://kumakikai.github.io/products/uni-note/",
+      "xRobotsTag": null,
+      "redirects": [],
+      "sha256": "69fa37c0768ec1281942c4e4f11dc0ef76c1352eb64755958d00a04bb51eab87",
+      "ok": true
+    },
+    {
+      "route": "/company/",
+      "status": 200,
+      "finalURL": "https://kumakikai.github.io/company/",
+      "xRobotsTag": null,
+      "redirects": [],
+      "sha256": "dfdeb77228f0643c4a77810568094e6ec299658e4dc96d4efdefcce7d2404e7b",
+      "ok": true
+    },
+    {
+      "route": "/news/",
+      "status": 200,
+      "finalURL": "https://kumakikai.github.io/news/",
+      "xRobotsTag": null,
+      "redirects": [],
+      "sha256": "a82ef9b769ea0e331f7daf736df8842935f33ad75a57e9100bec19e4d56340d2",
+      "ok": true
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "finalURL": "https://kumakikai.github.io/robots.txt",
+      "xRobotsTag": null,
+      "redirects": [],
+      "sha256": "523c121b8ebfd0e5540d96a915ea3db49d05b8fd392d82c8df3190ab52f35d76",
+      "body": "User-agent: *\nAllow: /\nSitemap: https://kumakikai.github.io/sitemap.xml\n",
+      "ok": true
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "finalURL": "https://kumakikai.github.io/sitemap.xml",
+      "xRobotsTag": null,
+      "redirects": [],
+      "sha256": "26669df9f8e99108fa23ee983676157e2aeccdaafce4f7e8edca9bf2a2e27aed",
+      "ok": true
+    },
+    {
+      "route": "/products/uni-note",
+      "status": 200,
+      "finalURL": "https://kumakikai.github.io/products/uni-note/",
+      "xRobotsTag": null,
+      "redirects": [
+        {
+          "status": 301,
+          "from": "https://kumakikai.github.io/products/uni-note",
+          "to": "https://kumakikai.github.io/products/uni-note/"
+        }
+      ],
+      "sha256": "69fa37c0768ec1281942c4e4f11dc0ef76c1352eb64755958d00a04bb51eab87",
+      "ok": true
+    },
+    {
+      "route": "/seo-audit-nonexistent-20260907/",
+      "status": 404,
+      "redirects": [],
+      "ok": true
+    }
+  ]
+}

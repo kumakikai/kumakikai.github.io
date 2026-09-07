@@ -1,0 +1,144 @@
+{
+  "capturedAt": "2026-09-07T06:36:12.213Z",
+  "base": "https://kumakikai.github.io",
+  "lighthouseVersion": "12.8.2",
+  "method": "One Lighthouse lab navigation per route and form factor. Simulated mobile/desktop throttling on local Chrome; no production-user CrUX/INP data. TBT is a lab metric, not INP. Scores vary with network and host load.",
+  "pending": false,
+  "fullEvidence": "after-performance.json.gz",
+  "fullEvidenceSHA256": "d4842e61001718ca54d2fc68bb5f9075b04a3576e6710c403915c4176c5cea9e",
+  "resultCount": 6,
+  "results": [
+    {
+      "route": "/",
+      "mode": "mobile",
+      "actualFormFactor": "mobile",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 1530.283,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "route": "/products/uni-note/",
+      "mode": "mobile",
+      "actualFormFactor": "mobile",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 1358.4360000000001,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "route": "/htu/uni-note/",
+      "mode": "mobile",
+      "actualFormFactor": "mobile",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 1228.473,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "route": "/",
+      "mode": "desktop",
+      "actualFormFactor": "desktop",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 340.344,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "route": "/products/uni-note/",
+      "mode": "desktop",
+      "actualFormFactor": "desktop",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 329.41999999999996,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    },
+    {
+      "route": "/htu/uni-note/",
+      "mode": "desktop",
+      "actualFormFactor": "desktop",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 282.932,
+      "cls": 0,
+      "tbtMs": 0,
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-09-07T06:34:59.038530+00:00",
+  "base": "https://kumakikai.github.io",
+  "build": "/private/tmp/kumakikai-seo-deployed",
+  "ok": true,
+  "counts": {
+    "html": 277,
+    "contentPages": 210,
+    "compatibilityRedirects": 67,
+    "assets": 384,
+    "cacheVariants": 18,
+    "http200": 661
+  },
+  "failures": [],
+  "contentIssues": [],
+  "method": "Every non-hidden deployed file is fetched with a normal GET and compared byte-for-byte to the supplied artifact. Every full HTML page is parsed for current shell and obsolete public strings. Known compatibility redirects are classified separately. Selected pages are additionally fetched with revalidation, unique query, explicit index and multiple user agents. This does not inspect a third-party search/extraction provider cache.",
+  "fullEvidence": "live-http.json.gz",
+  "fullEvidenceSHA256": "a0785fd980c3f143ab577ea2519e1c0336751041c29f1b27d6717469067e292c"
+}

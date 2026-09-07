@@ -1,0 +1,2128 @@
+{
+  "ok": true,
+  "build": "/private/tmp/kumakikai-seo-deployed",
+  "counts": {
+    "html_pages": 277,
+    "sitemap_urls": 156,
+    "noindex_pages": 54,
+    "redirects": 67,
+    "indexable_pages": 156,
+    "jsonld_graphs": 156,
+    "explicit_lastmod_checked": 65,
+    "product_pages": 48,
+    "Article": 8,
+    "BlogPosting": 7
+  },
+  "errors": [],
+  "warnings": [],
+  "pages": [
+    {
+      "url": "https://kumakikai.github.io/company/",
+      "language": "ja",
+      "title": "About | KUMAKIKAI - Yuya Nakamura",
+      "description": "KUMAKIKAIを運営するSoftware Engineer / App Developer、Yuya Nakamuraのプロフィール。組み込み・業務システムの開発経験と、現在企画・開発・運営しているiPhone・iPadアプリを紹介します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "AboutPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/company/",
+      "language": "de",
+      "title": "About | KUMAKIKAI - Yuya Nakamura",
+      "description": "Yuya Nakamura, Software Engineer / App Developer hinter KUMAKIKAI: Erfahrung mit Embedded-, Unternehmens- und Mobilsystemen sowie eigene Apps für iPhone und iPad.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "AboutPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/faq/uni-note/",
+      "language": "de",
+      "title": "FAQ (Uni:Note) | KUMAKIKAI",
+      "description": "Häufig gestellte Fragen zu Uni:Note.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/faq/uni-note-pocket/",
+      "language": "de",
+      "title": "FAQ (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Häufige Fragen zu Uni:Note Pocket.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/htu/uni-note/",
+      "language": "de",
+      "title": "Anleitung (Uni:Note) | KUMAKIKAI",
+      "description": "Anleitung für Uni:Note.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/htu/uni-note-pocket/",
+      "language": "de",
+      "title": "Anleitung (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "So verwendest du Uni:Note Pocket.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/",
+      "language": "de",
+      "title": "KUMAKIKAI | Apps für iPhone und iPad",
+      "description": "KUMAKIKAI ist die App-Entwicklungsmarke von Yuya Nakamura. Yuya konzipiert, entwickelt und betreut Apps für iPhone und iPad, darunter Uni:Note und OtoMiru.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/news/",
+      "language": "de",
+      "title": "News | KUMAKIKAI",
+      "description": "Produktankündigungen, Blogbeiträge über die Entwicklung und den Betrieb unserer Apps sowie Neuigkeiten von KUMAKIKAI.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/privacy/uni-note/",
+      "language": "de",
+      "title": "Datenschutzerklärung (Uni:Note) | KUMAKIKAI",
+      "description": "Datenschutzerklärung für Uni:Note.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/privacy/uni-note-pocket/",
+      "language": "de",
+      "title": "Datenschutzerklärung (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Datenschutzerklärung für Uni:Note Pocket.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/balance-calendar/",
+      "language": "de",
+      "title": "Balance Calendar | KUMAKIKAI",
+      "description": "Balance Calendar von KUMAKIKAI erfasst Einnahmen, Ausgaben und Glücksspielergebnisse auf dem iPhone. Ordnen Sie Plus- und Minusbeträge mit Tags und prüfen Sie Tages-, Monats- und Jahressummen.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/giga-poke/",
+      "language": "de",
+      "title": "GigaPoke | KUMAKIKAI",
+      "description": "GigaPoke ist KUMAKIKAIs inoffizielle iPhone-App für povo-2.0-Prämiencodes. Übernehmen Sie Codes aus E-Mails, sortieren und kopieren Sie sie und prüfen Sie Fristen im Widget.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/",
+      "language": "de",
+      "title": "Products | KUMAKIKAI",
+      "description": "KUMAKIKAI-Apps für iPhone und iPad: direkter Zugang zu Produktinformationen, Anleitungen, häufigen Fragen und Support für jede App.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/nocca/",
+      "language": "de",
+      "title": "Nocca | KUMAKIKAI",
+      "description": "Nocca ist eine iPhone-App in Entwicklung bei KUMAKIKAI. Kurze Texte und Symbole helfen, Bedürfnisse mitzuteilen, wenn Familienkontakt belastet. Angehörige antworten bei Bedarf.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/oto-miru/",
+      "language": "de",
+      "title": "OtoMiru | KUMAKIKAI",
+      "description": "OtoMiru von KUMAKIKAI zeigt japanische Sprache aus dem Fernsehen und aus Gesprächen als große Untertitel auf iPhone und iPad, wenn Gesprochenes schwer zu hören ist.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/signal/",
+      "language": "de",
+      "title": "SIGNAL | KUMAKIKAI",
+      "description": "SIGNAL ist KUMAKIKAIs iPhone-Newsfeed für Beiträge von note, Qiita, Zenn und weiteren Quellen. Wählen Sie Ihre Feeds und öffnen Sie die Originalartikel über ihre Überschriften.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/smokeless/",
+      "language": "de",
+      "title": "Smokeless | KUMAKIKAI",
+      "description": "Smokeless von KUMAKIKAI erfasst gerauchte und vermiedene Zigaretten per Tippen auf dem iPhone. Tages-, Monats- und Jahresverläufe sowie Diagramme zeigen Mengen und geschätzte Kosten.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/uni-note/",
+      "language": "de",
+      "title": "Uni:Note | KUMAKIKAI",
+      "description": "Uni:Note von KUMAKIKAI ist eine iPad-App für Vorlesungsnotizen mit Apple Pencil, PDF-Anmerkungen und KI-Übungssätze. Ordnen Sie Ihre Notizen nach Fächern und Ordnern.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/de/products/uni-note-pocket/",
+      "language": "de",
+      "title": "Uni:Note Pocket | KUMAKIKAI",
+      "description": "Uni:Note Pocket von KUMAKIKAI importiert Uni:Note-Backups zum Lesen auf dem iPhone. Sehen Sie handschriftliche Notizen und Übungssätze durch oder suchen Sie nach Notiztiteln.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/company/",
+      "language": "en",
+      "title": "About | KUMAKIKAI - Yuya Nakamura",
+      "description": "Meet Yuya Nakamura, Software Engineer / App Developer behind KUMAKIKAI, with experience in embedded, business and mobile systems. Explore the iPhone and iPad apps developed under KUMAKIKAI.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "AboutPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/faq/smokeless/",
+      "language": "en",
+      "title": "FAQ (Smokeless) | KUMAKIKAI",
+      "description": "Frequently asked questions about Smokeless.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/faq/uni-note/",
+      "language": "en",
+      "title": "FAQ (Uni:Note) | KUMAKIKAI",
+      "description": "Frequently asked questions about Uni:Note.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/faq/uni-note-pocket/",
+      "language": "en",
+      "title": "FAQ (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Frequently asked questions about Uni:Note Pocket.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/htu/smokeless/",
+      "language": "en",
+      "title": "How to use (Smokeless) | KUMAKIKAI",
+      "description": "How to use for Smokeless.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/htu/uni-note/",
+      "language": "en",
+      "title": "How to Use (Uni:Note) | KUMAKIKAI",
+      "description": "How to Use for Uni:Note.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/htu/uni-note-pocket/",
+      "language": "en",
+      "title": "How to Use (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "How to use Uni:Note Pocket.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/",
+      "language": "en",
+      "title": "KUMAKIKAI | iPhone & iPad Apps",
+      "description": "KUMAKIKAI is the app development brand run by Yuya Nakamura. We design, develop and maintain iPhone and iPad apps, including Uni:Note and OtoMiru.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/news/",
+      "language": "en",
+      "title": "News | KUMAKIKAI",
+      "description": "Product announcements, development and operation blog posts, and updates from KUMAKIKAI.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/privacy/smokeless/",
+      "language": "en",
+      "title": "Privacy Policy (Smokeless) | KUMAKIKAI",
+      "description": "Privacy policy for Smokeless.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/privacy/uni-note/",
+      "language": "en",
+      "title": "Privacy Policy (Uni:Note) | KUMAKIKAI",
+      "description": "Privacy policy for Uni:Note.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/privacy/uni-note-pocket/",
+      "language": "en",
+      "title": "Privacy Policy (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Privacy policy for Uni:Note Pocket.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/balance-calendar/",
+      "language": "en",
+      "title": "Balance Calendar | KUMAKIKAI",
+      "description": "Balance Calendar is KUMAKIKAI’s iPhone app for recording income, expenses and gambling gains or losses. Tag positive and negative amounts and review daily, monthly and yearly totals.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/giga-poke/",
+      "language": "en",
+      "title": "GigaPoke | KUMAKIKAI",
+      "description": "GigaPoke is KUMAKIKAI’s unofficial iPhone app for povo 2.0 reward codes. Save codes from email, sort them by expiry, copy them and check upcoming rewards in a widget.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/",
+      "language": "en",
+      "title": "Products | KUMAKIKAI",
+      "description": "Explore KUMAKIKAI apps for iPhone and iPad. Go directly to product information, guides, FAQs, and support for each app.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/nocca/",
+      "language": "en",
+      "title": "Nocca | KUMAKIKAI",
+      "description": "Nocca is an iPhone app in development at KUMAKIKAI. It lets people who find family contact overwhelming express needs with short words and icons, with replies when needed.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/oto-miru/",
+      "language": "en",
+      "title": "OtoMiru | KUMAKIKAI",
+      "description": "OtoMiru by KUMAKIKAI displays Japanese speech from TV and face-to-face conversations as large captions on iPhone and iPad, helping you read words that are difficult to hear.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/signal/",
+      "language": "en",
+      "title": "SIGNAL | KUMAKIKAI",
+      "description": "SIGNAL is KUMAKIKAI’s iPhone news feed for articles from note, Qiita, Zenn and other sources. Choose which feeds to follow and open original articles from their headlines.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/smokeless/",
+      "language": "en",
+      "title": "Smokeless | KUMAKIKAI",
+      "description": "Smokeless by KUMAKIKAI records smoked and avoided cigarettes with one tap on iPhone. Review daily, monthly and yearly history, charts and estimated spending based on your records.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/uni-note/",
+      "language": "en",
+      "title": "Uni:Note | KUMAKIKAI",
+      "description": "Uni:Note by KUMAKIKAI is an iPad app for handwritten lecture notes, PDF annotations and AI practice sets. Write with Apple Pencil and organize notes by subject and folder.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/en/products/uni-note-pocket/",
+      "language": "en",
+      "title": "Uni:Note Pocket | KUMAKIKAI",
+      "description": "Uni:Note Pocket by KUMAKIKAI imports Uni:Note backups for read-only review on iPhone. Browse handwritten notes, search note titles and revisit practice sets and sticky markers.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/balance-calendar/",
+      "language": "ja",
+      "title": "よくある質問 (ギャンカレ) | KUMAKIKAI",
+      "description": "基本 ギャンカレはどんなアプリですか？ 収入 / 支出 を短い操作で記録し、あとから 日別 / 月別 / カテゴリ別 で振り返るためのアプリです。\nギャンブル以外の用途でも使えますか？ はい。家計簿・推し活貯金・おこづかい帳にも使えます。設定方法はタグの使い方をご確認ください。\n過去日の記録はできま …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/giga-poke/",
+      "language": "ja",
+      "title": "よくある質問 (ギガポケ) | KUMAKIKAI",
+      "description": "ギガポケの取り込み、期限管理、ウィジェット、通知、データ保存に関するよくある質問。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/nocca/",
+      "language": "ja",
+      "title": "よくある質問 (Nocca) | KUMAKIKAI",
+      "description": "Noccaの役割、接続、定型返信、会話、プライバシーについてのよくある質問。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/oto-miru/",
+      "language": "ja",
+      "title": "よくある質問 (オトミル) | KUMAKIKAI",
+      "description": "オトミルの対応端末、字幕が出ない場合、利用時間、Plus、プライバシーについて。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/signal/",
+      "language": "ja",
+      "title": "よくある質問 (SIGNAL) | KUMAKIKAI",
+      "description": "基本 SIGNALはどんなアプリですか？ CREATORS・TODAY・NEWSで、個人発信と一般ニュースを読むアプリです。タブの使い分けを確認できます。\nログインは必要ですか？ 不要です。アカウント登録なしで使えます。\nどの配信源に対応していますか？ …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/smokeless/",
+      "language": "ja",
+      "title": "よくある質問 (すわなび) | KUMAKIKAI",
+      "description": "基本 すわなびはどんなアプリですか？ 喫煙 と 我慢 をすばやく記録し、本数や金額をあとから確認するためのアプリです。禁煙補助としても、単純な記録ツールとしても使えます。\n「我慢」は何を記録しますか？ 「吸いたいと思ったが吸わずに済んだ1回」を記録します。吸っていない時間を自動で数える機能ではありま …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/uni-note/",
+      "language": "ja",
+      "title": "よくある質問 (Uni:Note) | KUMAKIKAI",
+      "description": " 対応環境とプラン iPadOS 17.0以降のiPadに対応しています。\n手書きはiPadとApple Pencilを使います。指はスクロールや資料の操作に使います。アプリ独自のアカウント登録は不要です。日本語・英語・韓国語・ドイツ語・繁体字中国語・フランス語に対応しています。\nFreeは教科10 …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/faq/uni-note-pocket/",
+      "language": "ja",
+      "title": "よくある質問 (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Uni:Note Pocketのよくある質問",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/company/",
+      "language": "fr",
+      "title": "About | KUMAKIKAI - Yuya Nakamura",
+      "description": "Découvrez Yuya Nakamura, Software Engineer / App Developer derrière KUMAKIKAI, son expérience des systèmes embarqués, de gestion et mobiles, et ses apps iPhone et iPad.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "AboutPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/faq/smokeless/",
+      "language": "fr",
+      "title": "FAQ (Smokeless) | KUMAKIKAI",
+      "description": "Questions fréquentes sur Smokeless.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/faq/uni-note/",
+      "language": "fr",
+      "title": "FAQ (Uni:Note) | KUMAKIKAI",
+      "description": "Questions fréquentes sur Uni:Note.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/faq/uni-note-pocket/",
+      "language": "fr",
+      "title": "FAQ (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Questions fréquentes sur Uni:Note Pocket.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/htu/smokeless/",
+      "language": "fr",
+      "title": "Mode d'emploi (Smokeless) | KUMAKIKAI",
+      "description": "Mode d'emploi pour Smokeless.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/htu/uni-note/",
+      "language": "fr",
+      "title": "Mode d’emploi (Uni:Note) | KUMAKIKAI",
+      "description": "Mode d’emploi pour Uni:Note.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/htu/uni-note-pocket/",
+      "language": "fr",
+      "title": "Mode d’emploi (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Mode d’emploi pour Uni:Note Pocket.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/",
+      "language": "fr",
+      "title": "KUMAKIKAI | Apps pour iPhone et iPad",
+      "description": "KUMAKIKAI est la marque de développement d’apps de Yuya Nakamura. Yuya conçoit, développe et maintient des apps pour iPhone et iPad, dont Uni:Note et OtoMiru.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/news/",
+      "language": "fr",
+      "title": "News | KUMAKIKAI",
+      "description": "Annonces de produits, articles de blog sur le développement et l’exploitation des apps, et actualités de KUMAKIKAI.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/privacy/smokeless/",
+      "language": "fr",
+      "title": "Politique de confidentialité (Smokeless) | KUMAKIKAI",
+      "description": "Politique de confidentialité pour Smokeless.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/privacy/uni-note/",
+      "language": "fr",
+      "title": "Politique de confidentialité (Uni:Note) | KUMAKIKAI",
+      "description": "Politique de confidentialité pour Uni:Note.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/privacy/uni-note-pocket/",
+      "language": "fr",
+      "title": "Politique de confidentialité (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Politique de confidentialité de Uni:Note Pocket.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/balance-calendar/",
+      "language": "fr",
+      "title": "Balance Calendar | KUMAKIKAI",
+      "description": "Balance Calendar de KUMAKIKAI enregistre revenus, dépenses et résultats de jeux d’argent sur iPhone. Classez les montants avec des étiquettes et consultez les totaux par jour, mois et année.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/giga-poke/",
+      "language": "fr",
+      "title": "GigaPoke | KUMAKIKAI",
+      "description": "GigaPoke est l’app iPhone non officielle de KUMAKIKAI pour les codes de récompense povo 2.0. Importez-les depuis un e-mail, triez-les par échéance, copiez-les et consultez le widget.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/",
+      "language": "fr",
+      "title": "Products | KUMAKIKAI",
+      "description": "Les apps KUMAKIKAI pour iPhone et iPad : accédez directement aux informations, guides, questions fréquentes et à l’assistance de chaque app.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/nocca/",
+      "language": "fr",
+      "title": "Nocca | KUMAKIKAI",
+      "description": "Nocca est une app iPhone en développement chez KUMAKIKAI. Des mots courts et des icônes permettent d’exprimer ses besoins quand le contact familial est pesant ; les proches répondent au besoin.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/oto-miru/",
+      "language": "fr",
+      "title": "OtoMiru | KUMAKIKAI",
+      "description": "OtoMiru de KUMAKIKAI affiche les paroles japonaises de la télévision et des conversations en grands sous-titres sur iPhone et iPad, pour lire ce qui est difficile à entendre.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/signal/",
+      "language": "fr",
+      "title": "SIGNAL | KUMAKIKAI",
+      "description": "SIGNAL est le fil d’actualité iPhone de KUMAKIKAI pour les articles de note, Qiita, Zenn et d’autres sources. Choisissez vos flux et ouvrez les articles originaux depuis leurs titres.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/smokeless/",
+      "language": "fr",
+      "title": "Smokeless | KUMAKIKAI",
+      "description": "Smokeless de KUMAKIKAI note les cigarettes fumées et évitées d’un geste sur iPhone. Consultez les historiques quotidiens, mensuels et annuels, les graphiques et les dépenses estimées.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/uni-note/",
+      "language": "fr",
+      "title": "Uni:Note | KUMAKIKAI",
+      "description": "Uni:Note de KUMAKIKAI est une app iPad pour les notes de cours avec Apple Pencil, les annotations PDF et les exercices générés par IA. Classez vos notes par matière et dossier.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/fr/products/uni-note-pocket/",
+      "language": "fr",
+      "title": "Uni:Note Pocket | KUMAKIKAI",
+      "description": "Uni:Note Pocket de KUMAKIKAI importe les sauvegardes Uni:Note pour les consulter sur iPhone. Relisez vos notes manuscrites et exercices ou recherchez une note par son titre.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/balance-calendar/",
+      "language": "ja",
+      "title": "使い方 (ギャンカレ) | KUMAKIKAI",
+      "description": "実画面で確認する、収支の登録・履歴・タグ・ウィジェットの使い方。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/giga-poke/",
+      "language": "ja",
+      "title": "使い方 (ギガポケ) | KUMAKIKAI",
+      "description": "povo 2.0の特典を登録し、期限を確認して使うまでを実画面で案内します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/nocca/",
+      "language": "ja",
+      "title": "使い方 (Nocca) | KUMAKIKAI",
+      "description": "役割を選び、家族と接続し、意思表示と短い会話を使う流れを実画面で案内します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/oto-miru/",
+      "language": "ja",
+      "title": "使い方 (オトミル) | KUMAKIKAI",
+      "description": "テレビや会話の字幕を始める、表示を切り替える、聞き取り環境を選ぶ操作を実画面で案内します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/signal/",
+      "language": "ja",
+      "title": "使い方 (SIGNAL) | KUMAKIKAI",
+      "description": "記事を探す、読む、配信源を選ぶ操作を紹介します。ログインは不要です。\n1. タブを選んで記事を探す 中央の TODAY で記事をまとめて確認します。 個人発信を読むときは CREATORS、一般ニュースは NEWS をタップします。 読みたい記事カードをタップします。 一覧を下へ引くと再読み込みでき …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/smokeless/",
+      "language": "ja",
+      "title": "使い方 (すわなび) | KUMAKIKAI",
+      "description": "緑のボタンで「我慢」、赤のボタンで「喫煙」を記録します。画面のアイコンと数字を見ながら、記録・振り返り・設定の操作を確認できます。\n1. 初回チュートリアルと本数設定を確認する 初回チュートリアルのあとに「1箱の本数」と「1箱の金額」を入力します。金額換算にはこの設定を使います。あとから変更する場合 …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/uni-note/",
+      "language": "ja",
+      "title": "使い方 (Uni:Note) | KUMAKIKAI",
+      "description": "Apple Pencilで書き始めるところから、PDF、復習、バックアップまでを実画面で案内します。画像は操作部分を抜き出しており、タップすると拡大できます。公開中の3.4.0の基本操作を中心にしています。\n1. 教科と最初のノートを作る ホーム右下の「＋」をタップし、「教科を追加」を選びます。 右 …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/htu/uni-note-pocket/",
+      "language": "ja",
+      "title": "使い方 (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Uni:Note Pocketの使い方",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/",
+      "language": "ja",
+      "title": "KUMAKIKAI | iPhone・iPadアプリ",
+      "description": "KUMAKIKAIは、Yuya Nakamuraが運営するアプリ開発ブランドです。Uni:Note、オトミルなど、iPhone・iPad向けアプリを企画・開発・運営しています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/company/",
+      "language": "ko",
+      "title": "About | KUMAKIKAI - Yuya Nakamura",
+      "description": "KUMAKIKAI를 운영하는 Software Engineer / App Developer, Yuya Nakamura를 소개합니다. 임베디드·업무·모바일 시스템 개발 경험과 현재 기획·개발·운영하는 iPhone·iPad 앱을 확인하세요.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "AboutPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/faq/smokeless/",
+      "language": "ko",
+      "title": "FAQ (Smokeless) | KUMAKIKAI",
+      "description": "Smokeless 자주 묻는 질문입니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/faq/uni-note/",
+      "language": "ko",
+      "title": "FAQ (Uni:Note) | KUMAKIKAI",
+      "description": "Uni:Note 자주 묻는 질문입니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/faq/uni-note-pocket/",
+      "language": "ko",
+      "title": "FAQ (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Uni:Note Pocket 자주 묻는 질문",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/htu/smokeless/",
+      "language": "ko",
+      "title": "사용 방법 (Smokeless) | KUMAKIKAI",
+      "description": "Smokeless 사용 방법 안내입니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/htu/uni-note/",
+      "language": "ko",
+      "title": "사용 방법 (Uni:Note) | KUMAKIKAI",
+      "description": "Uni:Note 사용 방법 안내입니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/htu/uni-note-pocket/",
+      "language": "ko",
+      "title": "사용 방법 (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Uni:Note Pocket 사용 방법",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/",
+      "language": "ko",
+      "title": "KUMAKIKAI | iPhone·iPad 앱",
+      "description": "KUMAKIKAI는 Yuya Nakamura가 운영하는 앱 개발 브랜드입니다. Uni:Note, OtoMiru 등 iPhone·iPad용 앱을 기획·개발·운영합니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/news/",
+      "language": "ko",
+      "title": "News | KUMAKIKAI",
+      "description": "KUMAKIKAI의 프로덕트 발표, 앱 개발·운영에 관한 블로그와 소식을 전합니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/privacy/smokeless/",
+      "language": "ko",
+      "title": "개인정보 처리방침 (Smokeless) | KUMAKIKAI",
+      "description": "Smokeless 개인정보 처리방침입니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/privacy/uni-note/",
+      "language": "ko",
+      "title": "개인정보 처리방침 (Uni:Note) | KUMAKIKAI",
+      "description": "Uni:Note 개인정보 처리방침입니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/privacy/uni-note-pocket/",
+      "language": "ko",
+      "title": "개인정보 처리방침 (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Uni:Note Pocket 개인정보 처리방침",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/balance-calendar/",
+      "language": "ko",
+      "title": "밸런스 캘린더 | KUMAKIKAI",
+      "description": "밸런스 캘린더는 수입·지출이나 도박 수지를 기록하는 KUMAKIKAI의 iPhone 앱입니다. 플러스·마이너스 금액을 태그로 구분하고 일별·월별·연간 합계를 확인할 수 있습니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/giga-poke/",
+      "language": "ko",
+      "title": "GigaPoke | KUMAKIKAI",
+      "description": "GigaPoke는 povo 2.0 혜택 코드를 관리하는 KUMAKIKAI의 비공식 iPhone 앱입니다. 이메일에서 코드를 등록하고, 만료일순으로 확인·복사하며, 위젯에서 다음 혜택을 볼 수 있습니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/",
+      "language": "ko",
+      "title": "Products | KUMAKIKAI",
+      "description": "KUMAKIKAI의 iPhone·iPad 앱 목록입니다. 각 앱의 제품 정보, 사용 방법, 자주 묻는 질문과 지원으로 바로 이동할 수 있습니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/nocca/",
+      "language": "ko",
+      "title": "Nocca | KUMAKIKAI",
+      "description": "Nocca는 KUMAKIKAI가 개발 중인 iPhone 앱입니다. 가족과의 대화나 접촉이 부담스러운 사람이 짧은 말과 아이콘으로 뜻을 전하고, 가족이 필요할 때 답하는 방식을 소개합니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/oto-miru/",
+      "language": "ko",
+      "title": "OtoMiru | KUMAKIKAI",
+      "description": "OtoMiru는 TV와 대면 대화의 일본어 음성을 iPhone·iPad의 큰 자막으로 표시하는 KUMAKIKAI의 청각 지원 앱입니다. 잘 들리지 않는 말을 그 자리에서 글자로 확인할 수 있습니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/signal/",
+      "language": "ko",
+      "title": "SIGNAL | KUMAKIKAI",
+      "description": "SIGNAL은 note·Qiita·Zenn 등의 개인 발행 글과 기사를 모아 읽는 KUMAKIKAI의 iPhone 뉴스 앱입니다. 구독할 출처를 선택하고 피드의 제목에서 원문으로 이동할 수 있습니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/smokeless/",
+      "language": "ko",
+      "title": "스와나비 | KUMAKIKAI",
+      "description": "스와나비는 피운 횟수와 참은 횟수를 한 번의 탭으로 기록하는 KUMAKIKAI의 iPhone 앱입니다. 일별·월별·연간 기록과 그래프로 개비 수와 예상 금액을 확인할 수 있습니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/uni-note/",
+      "language": "ko",
+      "title": "Uni:Note | KUMAKIKAI",
+      "description": "Uni:Note는 KUMAKIKAI의 iPad 손글씨 노트 앱입니다. Apple Pencil로 수업 내용을 쓰고 PDF에 필기하며, 과목·폴더로 노트를 정리하고 AI 문제집으로 복습할 수 있습니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/ko/products/uni-note-pocket/",
+      "language": "ko",
+      "title": "Uni:Note Pocket | KUMAKIKAI",
+      "description": "Uni:Note Pocket은 Uni:Note 백업을 가져와 iPhone에서 손글씨 노트와 문제집을 복습하는 KUMAKIKAI의 읽기 전용 앱입니다. 노트 제목 검색과 스티키 마커도 지원합니다.",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/news/",
+      "language": "ja",
+      "title": "News | KUMAKIKAI",
+      "description": "KUMAKIKAIのプロダクト発表、開発・運営のブログ、お知らせを掲載しています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-01-23-introduction/",
+      "language": "ja",
+      "title": "ギャンカレについて | KUMAKIKAI",
+      "description": "収支管理アプリ「ギャンカレ」を作った理由と、数字を記録して振り返るという設計方針を紹介します。KUMAKIKAIによる発表記事とサポート窓口です。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "Article",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-01-26-roadmap/",
+      "language": "ja",
+      "title": "ギャンカレの今後について（ロードマップ） | KUMAKIKAI",
+      "description": "2026年1月時点で考えていたギャンカレの開発計画。Android版、タグ拡張、アプリロック、バックアップなどの予定と、機能を増やす際の方針を記録しています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "BlogPosting",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-01-27-philosophy/",
+      "language": "ja",
+      "title": "思想 | KUMAKIKAI",
+      "description": "ギャンカレで収支の評価や勝率分析を目的にせず、実際の数字を記録することを選んだ理由。公開初期の設計方針と、想定していた利用者像をまとめています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "BlogPosting",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-02-14-blog/",
+      "language": "ja",
+      "title": "リリースから1ヶ月。DLが伸びない中で考えたこと | KUMAKIKAI",
+      "description": "ギャンカレ公開から約1か月の運営記録。ダウンロードや継続利用が伸びない中、初回チュートリアルとタグ追加パックを導入した経緯、当時の改善方針を振り返ります。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "BlogPosting",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-02-22-signal/",
+      "language": "ja",
+      "title": "SIGNALについて | KUMAKIKAI",
+      "description": "note、Qiita、Zennなどの個人発信をまとめるニュースフィードアプリ「SIGNAL」。開発のきっかけと公開当初の設計方針、KUMAKIKAIのサポート窓口を紹介します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "Article",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-03-12-uni-note/",
+      "language": "ja",
+      "title": "Uni:Noteについて | KUMAKIKAI",
+      "description": "iPad向け手書きノートアプリ「Uni:Note」を作った背景。現役学生の助言を受け、Apple Pencilで書く授業ノートを教科ごとに整理する設計を目指した経緯を紹介します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "Article",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-03-13-blog/",
+      "language": "ja",
+      "title": "赤字でも、まだ作り続けている | KUMAKIKAI",
+      "description": "ギャンカレのダウンロードやレビューが伸びず、広告費が積み重なっていた2026年3月の開発記録。Android版の準備、大学ノートアプリの開発、SIGNALの運営について書いています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "BlogPosting",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-03-21-smokeless/",
+      "language": "ja",
+      "title": "すわなびについて | KUMAKIKAI",
+      "description": "喫煙している友人の要望から生まれた「すわなび」。喫煙と我慢の回数、本数や金額を記録するアプリの開発経緯と、公開当初に重視した機能を紹介します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "Article",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-03-25-blog/",
+      "language": "ja",
+      "title": "最近、友人にアプリ開発の悩みを相談しました | KUMAKIKAI",
+      "description": "友人への相談をきっかけに、アプリ内の問い合わせ導線や開発の優先順位を見直した記録。2026年3月当時のギャンカレの運営方針と、大学ノートアプリの改善予定を紹介します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "BlogPosting",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-04-01-uni-note-pocket/",
+      "language": "ja",
+      "title": "Uni:Note Pocketについて | KUMAKIKAI",
+      "description": "Uni:Noteで書いたノートをiPhoneで見返す「Uni:Note Pocket」の発表記事。通勤・通学中に読む用途と、手動バックアップからノートを取り込む公開当初の連携方法を紹介します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "Article",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-04-12-uni-note-10000/",
+      "language": "ja",
+      "title": "アプリ開発を始めてからの累計収益が1万円を超えました | KUMAKIKAI",
+      "description": "アプリ開発の累計収益が1万円を超えた2026年4月の報告。広告費を含む運営状況、Uni:Noteの改善、当時開発中だったAI機能と海外配信の計画を記録しています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "BlogPosting",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-05-19-oto-miru/",
+      "language": "ja",
+      "title": "オトミルについて | KUMAKIKAI",
+      "description": "テレビや会話の音声を大きな字幕で読む「オトミル」の発表記事。自身と家族の聞こえづらさをきっかけにした開発背景、想定する利用場面、公開当初の設計方針を紹介します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "Article",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-05-26-android-release/",
+      "language": "ja",
+      "title": "Android版アプリ公開の壁が思った以上に高かった | KUMAKIKAI",
+      "description": "Android版公開に向けてGoogle Playのクローズドテスト要件を調べた、2026年5月の記録。テスター確保の難しさと、以前の開発者アカウント閉鎖を振り返っています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "BlogPosting",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-09-02-giga-poke/",
+      "language": "ja",
+      "title": "ギガポケについて | KUMAKIKAI",
+      "description": "povo 2.0の特典コードや受取URLを期限順に管理するiPhoneアプリ「ギガポケ」の紹介。共有・貼り付けでの登録、通知やウィジェット、データの扱いを説明する非公式アプリの発表記事です。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "Article",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/notes/2026-09-06-nocca/",
+      "language": "ja",
+      "title": "Noccaについて | KUMAKIKAI",
+      "description": "Noccaは、対面会話や長いメッセージが負担になるとき、必要な意思表示を家族へ伝えるための開発中のiPhoneアプリです。本人主導の操作方針と、プロトタイプに基づくサポート情報を紹介します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "Article",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/balance-calendar/",
+      "language": "ja",
+      "title": "プライバシーポリシー (ギャンカレ) | KUMAKIKAI",
+      "description": "本プライバシーポリシーは、ギャンカレ（以下「本アプリ」）および本公式サイトにおける、ユーザーの情報の取扱いについて説明するものです。\n1. 収集する情報について 本アプリでは、ユーザー個人を特定できる情報（氏名、住所、メールアドレス等）を、アプリ内の入力によって直接収集することはありません。\nただし …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/giga-poke/",
+      "language": "ja",
+      "title": "プライバシーポリシー (ギガポケ) | KUMAKIKAI",
+      "description": "ギガポケのプライバシーポリシー",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/nocca/",
+      "language": "ja",
+      "title": "プライバシーポリシー (Nocca) | KUMAKIKAI",
+      "description": "Nocca のプライバシーポリシー",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/oto-miru/",
+      "language": "ja",
+      "title": "プライバシーポリシー (オトミル) | KUMAKIKAI",
+      "description": "オトミルのプライバシーポリシー",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/signal/",
+      "language": "ja",
+      "title": "プライバシーポリシー (SIGNAL) | KUMAKIKAI",
+      "description": "本プライバシーポリシーは、SIGNAL（以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。\n1. 取得する情報について 本アプリは、会員登録やログインを必要とせず、氏名・住所・メールアドレスなど、ユーザー個人を特定できる情報をアプリ内入力として収集しません。 …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/smokeless/",
+      "language": "ja",
+      "title": "プライバシーポリシー (すわなび) | KUMAKIKAI",
+      "description": "本プライバシーポリシーは、すわなび（以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。\n1. 取得する情報について 本アプリは、会員登録やログインを必要とせず、氏名・住所・メールアドレスなど、ユーザー個人を特定できる情報をアプリ内入力として収集しません。\nま …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/uni-note/",
+      "language": "ja",
+      "title": "プライバシーポリシー (Uni:Note) | KUMAKIKAI",
+      "description": "本プライバシーポリシーは、Uni:Note（大学ノート）（以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。\n1. 取得する情報について 本アプリは、会員登録やログインを必要とせず、氏名・住所・メールアドレスなど、ユーザー個人を特定できる情報をアプリ内入力と …",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/privacy/uni-note-pocket/",
+      "language": "ja",
+      "title": "プライバシーポリシー (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Uni:Note Pocketのプライバシーポリシー",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/products/balance-calendar/",
+      "language": "ja",
+      "title": "ギャンカレ | KUMAKIKAI",
+      "description": "ギャンカレは、収入・支出やギャンブルの収支を記録するKUMAKIKAIのiPhoneアプリです。プラス・マイナスの金額をタグで分け、日別・月別・年合計で振り返れます。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/products/giga-poke/",
+      "language": "ja",
+      "title": "ギガポケ | KUMAKIKAI",
+      "description": "ギガポケは、povo 2.0の特典コードと有効期限を管理するKUMAKIKAIの非公式iPhoneアプリです。メールからの登録、期限順の確認、コードのコピー、ウィジェットに対応しています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/products/",
+      "language": "ja",
+      "title": "Products | KUMAKIKAI",
+      "description": "KUMAKIKAIのiPhone・iPad向けアプリ一覧。各アプリの製品情報と使い方・FAQ・サポートへ直接アクセスできます。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/products/nocca/",
+      "language": "ja",
+      "title": "Nocca | KUMAKIKAI",
+      "description": "Noccaは、KUMAKIKAIが開発中のiPhone向けアプリです。家族との会話や接触に負担を感じる方が短い言葉とアイコンで意思を伝え、家族が必要なときに返事をする仕組みを紹介します。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/products/oto-miru/",
+      "language": "ja",
+      "title": "オトミル | KUMAKIKAI",
+      "description": "オトミルは、テレビの声や目の前の会話をiPhone・iPadの大きな字幕で表示する、KUMAKIKAIの聴覚支援アプリです。聞き取りづらい日本語の音声を、その場で文字として確認できます。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/products/signal/",
+      "language": "ja",
+      "title": "SIGNAL | KUMAKIKAI",
+      "description": "SIGNALは、note・Qiita・Zennなどの個人発信や記事をまとめて読むKUMAKIKAIのiPhoneニュースアプリです。配信源を選び、フィードの見出しから元の記事へ進めます。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/products/smokeless/",
+      "language": "ja",
+      "title": "すわなび | KUMAKIKAI",
+      "description": "すわなびは、喫煙した回数と我慢した回数をワンタップで記録するKUMAKIKAIのiPhoneアプリです。日別・月別・年別の履歴やグラフで、本数と金額の目安を確認できます。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/products/uni-note/",
+      "language": "ja",
+      "title": "Uni:Note | KUMAKIKAI",
+      "description": "Uni:Noteは、Apple Pencilでの授業ノート、PDFへの書き込み、AIによる問題集生成や復習に対応したiPadアプリです。ノートを教科・フォルダで整理できます。KUMAKIKAIが開発・運営しています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/products/uni-note-pocket/",
+      "language": "ja",
+      "title": "Uni:Note Pocket | KUMAKIKAI",
+      "description": "Uni:Note Pocketは、Uni:Noteのバックアップを読み込み、手書きノートや問題集をiPhoneで復習する閲覧専用アプリです。ノート名の検索や付箋マーカーにも対応。KUMAKIKAIが開発・運営しています。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/terms/giga-poke/",
+      "language": "ja",
+      "title": "利用規約 (ギガポケ) | KUMAKIKAI",
+      "description": "ギガポケの利用規約",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/terms/nocca/",
+      "language": "ja",
+      "title": "利用規約 (Nocca) | KUMAKIKAI",
+      "description": "Nocca の利用規約",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/terms/oto-miru/",
+      "language": "ja",
+      "title": "利用規約 (オトミル) | KUMAKIKAI",
+      "description": "オトミルの利用規約",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/company/",
+      "language": "zh-hant",
+      "title": "About | KUMAKIKAI - Yuya Nakamura",
+      "description": "認識 KUMAKIKAI 的經營者 Yuya Nakamura，Software Engineer / App Developer。介紹其嵌入式、企業與行動系統開發經驗，以及目前企劃、開發及維護的 iPhone・iPad App。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "AboutPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/faq/smokeless/",
+      "language": "zh-hant",
+      "title": "FAQ (Smokeless) | KUMAKIKAI",
+      "description": "Smokeless 常見問題。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/faq/uni-note/",
+      "language": "zh-hant",
+      "title": "FAQ (Uni:Note) | KUMAKIKAI",
+      "description": "Uni:Note 常見問題。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/",
+      "language": "zh-hant",
+      "title": "FAQ (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Uni:Note Pocket 常見問題",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/htu/smokeless/",
+      "language": "zh-hant",
+      "title": "使用說明 (Smokeless) | KUMAKIKAI",
+      "description": "Smokeless 使用說明。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/htu/uni-note/",
+      "language": "zh-hant",
+      "title": "使用說明 (Uni:Note) | KUMAKIKAI",
+      "description": "Uni:Note 使用說明。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/",
+      "language": "zh-hant",
+      "title": "使用說明 (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Uni:Note Pocket 使用說明",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/",
+      "language": "zh-hant",
+      "title": "KUMAKIKAI | iPhone・iPad App",
+      "description": "KUMAKIKAI 是由 Yuya Nakamura 經營的 App 開發品牌，企劃、開發及維護 Uni:Note、OtoMiru 等 iPhone 與 iPad App。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/news/",
+      "language": "zh-hant",
+      "title": "News | KUMAKIKAI",
+      "description": "KUMAKIKAI 的產品發表、App 開發與營運部落格，以及最新消息。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/privacy/smokeless/",
+      "language": "zh-hant",
+      "title": "隱私權政策 (Smokeless) | KUMAKIKAI",
+      "description": "Smokeless 隱私權政策。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/privacy/uni-note/",
+      "language": "zh-hant",
+      "title": "隱私權政策 (Uni:Note) | KUMAKIKAI",
+      "description": "Uni:Note 隱私權政策。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/privacy/uni-note-pocket/",
+      "language": "zh-hant",
+      "title": "隱私權政策 (Uni:Note Pocket) | KUMAKIKAI",
+      "description": "Uni:Note Pocket 隱私權政策",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/balance-calendar/",
+      "language": "zh-hant",
+      "title": "Balance Calendar | KUMAKIKAI",
+      "description": "Balance Calendar 是 KUMAKIKAI 開發的 iPhone 收支記錄 App。用正負金額記下收入、支出或博彩收支，加上標籤分類，並查看每日、每月與年度合計。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/giga-poke/",
+      "language": "zh-hant",
+      "title": "GigaPoke | KUMAKIKAI",
+      "description": "GigaPoke 是 KUMAKIKAI 開發的 povo 2.0 優惠碼管理非官方 iPhone App。可從郵件登錄代碼、依到期日查看與複製，也能透過小工具確認下一個優惠。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/",
+      "language": "zh-hant",
+      "title": "Products | KUMAKIKAI",
+      "description": "KUMAKIKAI 的 iPhone、iPad App 一覽。直接前往各 App 的產品資訊、使用指南、常見問題與支援。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/nocca/",
+      "language": "zh-hant",
+      "title": "Nocca | KUMAKIKAI",
+      "description": "Nocca 是 KUMAKIKAI 開發中的 iPhone App，讓與家人交談或接觸時感到負擔的人，以簡短文字和圖示表達需求，家人在需要時回覆。此頁介紹目前的設計與畫面。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/oto-miru/",
+      "language": "zh-hant",
+      "title": "OtoMiru | KUMAKIKAI",
+      "description": "OtoMiru 是 KUMAKIKAI 的聽覺輔助 App，將電視與面對面交談的日語語音轉為 iPhone・iPad 上的大字字幕，讓聽不清楚的話能當場以文字確認。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/signal/",
+      "language": "zh-hant",
+      "title": "SIGNAL | KUMAKIKAI",
+      "description": "SIGNAL 是 KUMAKIKAI 的 iPhone 新聞 App，彙整 note、Qiita、Zenn 等來源的個人創作與文章。可選擇要閱讀的來源，從動態消息標題開啟原文。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/smokeless/",
+      "language": "zh-hant",
+      "title": "Smokeless | KUMAKIKAI",
+      "description": "Smokeless 是 KUMAKIKAI 開發的 iPhone App，輕點即可分別記錄吸菸與忍住的次數。透過每日、每月、年度記錄及圖表，查看支數變化與估算金額。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/uni-note/",
+      "language": "zh-hant",
+      "title": "Uni:Note | KUMAKIKAI",
+      "description": "Uni:Note 是 KUMAKIKAI 開發的 iPad 手寫筆記 App。使用 Apple Pencil 記錄大學課堂、在 PDF 講義上註記，以科目與資料夾整理筆記，並透過 AI 題庫複習。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    },
+    {
+      "url": "https://kumakikai.github.io/zh-hant/products/uni-note-pocket/",
+      "language": "zh-hant",
+      "title": "Uni:Note Pocket | KUMAKIKAI",
+      "description": "Uni:Note Pocket 是 KUMAKIKAI 的唯讀 iPhone App，可匯入 Uni:Note 備份，複習手寫筆記與題庫，依筆記標題搜尋，也能使用便條標記確認記憶。",
+      "schemaTypes": [
+        "Brand",
+        "Person",
+        "WebSite",
+        "SoftwareApplication",
+        "BreadcrumbList",
+        "WebPage"
+      ]
+    }
+  ],
+  "noindex": [
+    "/404.html",
+    "/categories/",
+    "/de/404.html",
+    "/de/categories/",
+    "/de/faq/",
+    "/de/htu/",
+    "/de/privacy/",
+    "/de/support/",
+    "/de/tags/",
+    "/en/404.html",
+    "/en/categories/",
+    "/en/faq/",
+    "/en/htu/",
+    "/en/privacy/",
+    "/en/support/",
+    "/en/tags/",
+    "/faq/",
+    "/faq/page/2/",
+    "/faq/page/3/",
+    "/fr/404.html",
+    "/fr/categories/",
+    "/fr/faq/",
+    "/fr/htu/",
+    "/fr/privacy/",
+    "/fr/support/",
+    "/fr/tags/",
+    "/htu/",
+    "/htu/page/2/",
+    "/htu/page/3/",
+    "/ko/404.html",
+    "/ko/categories/",
+    "/ko/faq/",
+    "/ko/htu/",
+    "/ko/privacy/",
+    "/ko/support/",
+    "/ko/tags/",
+    "/notes/",
+    "/notes/page/2/",
+    "/notes/page/3/",
+    "/notes/page/4/",
+    "/notes/page/5/",
+    "/privacy/",
+    "/privacy/page/2/",
+    "/privacy/page/3/",
+    "/support/",
+    "/tags/",
+    "/terms/",
+    "/zh-hant/404.html",
+    "/zh-hant/categories/",
+    "/zh-hant/faq/",
+    "/zh-hant/htu/",
+    "/zh-hant/privacy/",
+    "/zh-hant/support/",
+    "/zh-hant/tags/"
+  ],
+  "redirects": [
+    "/categories/page/1/",
+    "/de/categories/page/1/",
+    "/de/faq/page/1/",
+    "/de/faq/uni-memo/",
+    "/de/htu/page/1/",
+    "/de/htu/uni-memo/",
+    "/de/page/1/",
+    "/de/privacy/page/1/",
+    "/de/privacy/uni-memo/",
+    "/de/tags/page/1/",
+    "/en/categories/page/1/",
+    "/en/faq/page/1/",
+    "/en/faq/uni-memo/",
+    "/en/htu/page/1/",
+    "/en/htu/uni-memo/",
+    "/en/page/1/",
+    "/en/privacy/page/1/",
+    "/en/privacy/uni-memo/",
+    "/en/tags/page/1/",
+    "/faq/page/1/",
+    "/faq/povo-manager/",
+    "/faq/uni-memo/",
+    "/fr/categories/page/1/",
+    "/fr/faq/page/1/",
+    "/fr/faq/uni-memo/",
+    "/fr/htu/page/1/",
+    "/fr/htu/uni-memo/",
+    "/fr/page/1/",
+    "/fr/privacy/page/1/",
+    "/fr/privacy/uni-memo/",
+    "/fr/tags/page/1/",
+    "/htu/page/1/",
+    "/htu/povo-manager/",
+    "/htu/smoke-less/",
+    "/htu/uni-memo/",
+    "/ja/",
+    "/ko/categories/page/1/",
+    "/ko/faq/page/1/",
+    "/ko/faq/uni-memo/",
+    "/ko/htu/page/1/",
+    "/ko/htu/uni-memo/",
+    "/ko/page/1/",
+    "/ko/privacy/page/1/",
+    "/ko/privacy/uni-memo/",
+    "/ko/tags/page/1/",
+    "/notes/page/1/",
+    "/page/1/",
+    "/page/2/",
+    "/page/3/",
+    "/page/4/",
+    "/page/5/",
+    "/privacy/page/1/",
+    "/privacy/povo-manager/",
+    "/privacy/smoke-less/",
+    "/privacy/uni-memo/",
+    "/tags/page/1/",
+    "/terms/page/1/",
+    "/terms/povo-manager/",
+    "/zh-hant/categories/page/1/",
+    "/zh-hant/faq/page/1/",
+    "/zh-hant/faq/uni-memo/",
+    "/zh-hant/htu/page/1/",
+    "/zh-hant/htu/uni-memo/",
+    "/zh-hant/page/1/",
+    "/zh-hant/privacy/page/1/",
+    "/zh-hant/privacy/uni-memo/",
+    "/zh-hant/tags/page/1/"
+  ]
+}

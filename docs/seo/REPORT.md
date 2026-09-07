@@ -44,7 +44,18 @@ Home/About/全Productの採用title・descriptionとBefore/After全文は [metad
 - [ブラウザ回帰検証](browser/results.json)：39条件・全interactionで成功。全Product、Home/Products/About/News、代表Guide/FAQ/Press Release、5言語Home、Light/Darkを確認。キーボード操作、画像、overflow、heading、axeに問題なし。
 - production build：Hugo Extended0.158.0、Node22.22.0、npm lockfile。エラー・警告なし。CIへSEO全件チェックを追加。
 
-公開後のHTTP・Pages・Lighthouse結果は、このレポートの公開確認追記に記録する。
+## 本番確認
+
+- source `106f7d943e2302436687604b2f4cbf3a749a15ef`。CI [34091249305](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34091249305) と Pages [34091346043](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34091346043) が成功。
+- 公開生成物 `14e8efc84d61858c86e23986ea7409c3e3d1cb3c` を取得。[全277HTMLがローカルとbyte一致](local-deployed-comparison.json)。[公開生成物に対するSEO独立検証](deployed-verification.json)も全件成功。
+- [本番HTTP全件照合](live-http.json)：277 HTML＋384リソース＝661件すべてHTTP 200、SHA-256一致。画像・CSS・JS・robots・全言語sitemapを含む。210本文ページは共通Header `Products / News / About` とContact中心Footer、旧文言・旧テンプレート混在なし。
+- Uni:Note/About/Newsは通常・再検証・query・明示index.html・Mobile UA・Googlebot UAの計18条件でも同一。第三者検索サービスの内部キャッシュまで照合したという意味ではない。
+- [本番routing](live-routing.json)：主要ページにクロール拒否のX-Robots-Tagなし。末尾スラッシュなしProductは301で正式URLへ、存在しないURLはHTTP 404。robotsはAllow:/とroot sitemapを出力。
+- サイトマップの156URL、全48Productの固有title/description/canonical/構造化データが初期HTMLで配信されている。検索エンジンのJS実行を前提としない。
+
+大型の監査JSONは要約と無損失 `.json.gz` 原本に分離。要約の `fullEvidence` を参照し、必要に応じて `gzip -dc` で展開できる。[公開後Lighthouse比較](performance-comparison.md)：Home／Uni:Note Product／GuideのMobile・Desktop計6条件でPerformance／Accessibility／Best Practices／SEOが100。Mobile LCPは1.23〜1.53秒、Desktopは0.28〜0.34秒、CLS0、TBT0。ラボ値であり実ユーザーINPは未計測。
+
+監査スクリプトで変更前のDesktopラベル3件が実際Mobile設定になっていたことを発見し、正式Desktop設定とformFactor検査へ修正した。変更前Desktopは「未計測」と訂正し、原本を無損失保存している。Mobileのみを変更前との同条件比較に用い、100点をSEO変更による速度向上やGoogle掲載保証とは解釈しない。
 
 ## Search Consoleと残課題
 

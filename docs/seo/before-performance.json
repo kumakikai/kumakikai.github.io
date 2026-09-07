@@ -6,5 +6,10 @@
   "pending": false,
   "fullEvidence": "before-performance.json.gz",
   "fullEvidenceSHA256": "be1a6b69cde45ba058863280db08b55ee1e34a27c27e965afa4f5a544b571705",
-  "resultCount": 6
+  "resultCount": 6,
+  "auditCorrection": {
+    "issue": "The Lighthouse Node API ignored the preset flag; the three runs labelled desktop in original evidence actually used Mobile emulation and throttling.",
+    "confirmedBy": "All six original configSettings.formFactor values are mobile, with 412x823 mobile screenEmulation and 4x CPU slowdown.",
+    "validComparison": "Use the first three mode=mobile runs for before/after comparison. Desktop before is not measured. Original compressed evidence is preserved unchanged."
+  }
 }

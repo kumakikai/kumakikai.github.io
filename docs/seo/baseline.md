@@ -45,16 +45,18 @@ OGPはページごとのtitle/description/URL/imageと共通 `og:site_name=KUMAK
 
 ## 変更前性能（本番Chrome / Lighthouse）
 
-既存の一時QA環境のLighthouse 12系を使用し、リポジトリに依存追加は行っていない。各URL・各form factorで1回のナビゲーション測定。結果全文の主要指標・diagnosticsは `before-performance.json`。再実行用スクリプトは `scripts/audit-seo-performance.mjs`。
+既存の一時QA環境のLighthouse 12系を使用し、リポジトリに依存追加は行っていない。各URLでMobileナビゲーションを測定。Desktop指定として実行した追加3件も、後日の設定点検により実際はMobile設定だったことが判明した（下記注記）。結果全文の主要指標・diagnosticsは `before-performance.json`。再実行用スクリプトは `scripts/audit-seo-performance.mjs`。
 
 | ページ | 条件 | Performance | LCP | CLS | TBT |
 | --- | --- | ---: | ---: | ---: | ---: |
 | Home | Mobile | 98 | 1.53秒 | 0 | 0ms |
 | Uni:Note Product | Mobile | 100 | 1.36秒 | 0 | 0ms |
 | Uni:Note Guide | Mobile | 100 | 1.24秒 | 0 | 0ms |
-| Home | Desktop | 100 | 1.36秒 | 0 | 0ms |
-| Uni:Note Product | Desktop | 100 | 1.36秒 | 0 | 0ms |
-| Uni:Note Guide | Desktop | 100 | 1.05秒 | 0 | 0ms |
+| Home | 追加Mobile（旧ラベルDesktop） | 100 | 1.36秒 | 0 | 0ms |
+| Uni:Note Product | 追加Mobile（旧ラベルDesktop） | 100 | 1.36秒 | 0 | 0ms |
+| Uni:Note Guide | 追加Mobile（旧ラベルDesktop） | 100 | 1.05秒 | 0 | 0ms |
+
+**測定条件の訂正：** 監査スクリプトがNode APIへ `preset: desktop` をflagとして渡したが、この引数はDesktop設定に変換されなかった。原本の `configSettings.formFactor` と `screenEmulation` を再点検し、6件とも412×823のMobile設定であることを確認した。変更前Desktopは未計測として扱い、前後比較には最初のMobile3件だけを使う。原本 `before-performance.json.gz` は改変せず保持し、スクリプトは公式desktop configをAPI第3引数へ渡す方式へ修正した。公開後は実際のformFactorをassertして測定している。
 
 Accessibility / Best Practices / SEOは6件とも100。これはLighthouseが検査する範囲の結果であり、検索順位、Googleインデックス状況、structured dataの全意味検証を保証しない。
 
