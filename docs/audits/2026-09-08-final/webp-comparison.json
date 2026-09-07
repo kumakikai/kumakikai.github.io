@@ -1,0 +1,139 @@
+{
+  "checkedAt": "2026-09-07T16:08:48.637608+00:00",
+  "method": "Read-only RIFF chunk parsing, same Pillow/libwebp decoder for both WebP files, exact RGBA array comparison, original PNG and 2x variant checks, visual inspection of both images. No image edits or re-encoding.",
+  "decoder": {
+    "pillow": "12.3.0",
+    "libwebp": "1.6.0"
+  },
+  "local": {
+    "path": "/private/tmp/kumakikai-final-audit/committed/local-build/images/guides/oto-miru/mode-and-settings_hu_b7a2a8f33d9f4a9d.webp",
+    "bytes": 4864,
+    "sha256": "d0ba7ad80c0f646254e004082e26743ceebde164781ddf1ffd553fcde616812a",
+    "mode": "RGB",
+    "width": 560,
+    "height": 150,
+    "decodedRGBA_SHA256": "e148bb3a6e729e49ab89e6b2120fd5d85c0dcf04bc193faa0be6980f3de1e5e8",
+    "riffChunks": [
+      {
+        "type": "VP8 ",
+        "offset": 12,
+        "bytes": 4844,
+        "sha256": "00d63308c9d823779c2a33fd56dfc9d195c3d588aaed432c9cf492b88f5eefe0"
+      }
+    ]
+  },
+  "deployed": {
+    "path": "/private/tmp/kumakikai-final-audit/committed/deployed-build/images/guides/oto-miru/mode-and-settings_hu_b7a2a8f33d9f4a9d.webp",
+    "bytes": 4856,
+    "sha256": "2b93c071bba0cac3d8fe205a1654384ae4bd7f24bc130b6b3da4dc6aac69e54e",
+    "mode": "RGB",
+    "width": 560,
+    "height": 150,
+    "decodedRGBA_SHA256": "1f1022999def6d833efc515f566eb0d5a514043a3fad75c7b7cd4edce38b3226",
+    "riffChunks": [
+      {
+        "type": "VP8 ",
+        "offset": 12,
+        "bytes": 4836,
+        "sha256": "69a880b4c4574b871dc84c82f748468643a7083ce43ead3fcb3df1bcadace884"
+      }
+    ]
+  },
+  "pixelComparison": {
+    "exactMatch": false,
+    "totalPixels": 84000,
+    "changedPixels": 424,
+    "changedPixelPercent": 0.5047619047619047,
+    "unchangedPixelPercent": 99.4952380952381,
+    "maximumRGBChannelDifference": 10,
+    "meanAbsoluteRGBChannelDifference": 0.009067460317460318,
+    "rootMeanSquaredRGBChannelDifference": 0.1549065258342325,
+    "psnrRGB_dB": 64.32940933043513,
+    "alphaIdentical": true,
+    "differenceBoundingBoxXYXY": [
+      20,
+      40,
+      544,
+      141
+    ],
+    "pixelsExceedingChannelDifference": {
+      "0": 424,
+      "1": 184,
+      "2": 90,
+      "3": 43,
+      "5": 8,
+      "10": 0
+    },
+    "samplesAtMaximum": [
+      {
+        "x": 216,
+        "y": 124,
+        "localRGBA": [
+          234,
+          234,
+          234,
+          255
+        ],
+        "deployedRGBA": [
+          224,
+          224,
+          224,
+          255
+        ]
+      }
+    ]
+  },
+  "sourcePNG": {
+    "path": "/Users/yuya/Projects/homepage/assets/images/guides/oto-miru/mode-and-settings.png",
+    "bytes": 13189,
+    "sha256": "1b73132da1eed7377ad12d853a458b6d2f66155e980c6b9a5238b29284383b5d",
+    "mode": "L",
+    "width": 1120,
+    "height": 300,
+    "decodedRGBA_SHA256": "e4a32565de1542111f77277f578e640cb96bf87446c6533a2395aa46df6f2470",
+    "riffChunks": []
+  },
+  "unscaled2xVariants": [
+    {
+      "path": "/private/tmp/kumakikai-final-audit/committed/local-build/images/guides/oto-miru/mode-and-settings_hu_f9784e73ab1ba219.webp",
+      "bytes": 9888,
+      "sha256": "2bd241354b6ab10e9fa1c6340f152fc29e55e51cc11837d53517fd552051942b",
+      "mode": "RGB",
+      "width": 1120,
+      "height": 300,
+      "decodedRGBA_SHA256": "119cc8fdde1a806dc6d4ffb341f57eea0125408618e34ecb8c586433bf35f876",
+      "riffChunks": [
+        {
+          "type": "VP8 ",
+          "offset": 12,
+          "bytes": 9868,
+          "sha256": "d44715569f0ae22fcaf5c70d03c6d637ef8ca457216640caf4febdb7a2056146"
+        }
+      ]
+    },
+    {
+      "path": "/private/tmp/kumakikai-final-audit/committed/deployed-build/images/guides/oto-miru/mode-and-settings_hu_f9784e73ab1ba219.webp",
+      "bytes": 9888,
+      "sha256": "2bd241354b6ab10e9fa1c6340f152fc29e55e51cc11837d53517fd552051942b",
+      "mode": "RGB",
+      "width": 1120,
+      "height": 300,
+      "decodedRGBA_SHA256": "119cc8fdde1a806dc6d4ffb341f57eea0125408618e34ecb8c586433bf35f876",
+      "riffChunks": [
+        {
+          "type": "VP8 ",
+          "offset": 12,
+          "bytes": 9868,
+          "sha256": "d44715569f0ae22fcaf5c70d03c6d637ef8ca457216640caf4febdb7a2056146"
+        }
+      ]
+    }
+  ],
+  "unscaled2xBytesMatch": true,
+  "conclusion": {
+    "metadataOnlyDifference": false,
+    "differentVisibleUIContentObserved": false,
+    "probableOrigin": "Minor platform-dependent numeric difference in the 560x150 downscale / subsequent lossy encoding path. The exact stage is not proven by final WebP files alone. Original PNG is 1120x300 grayscale and the unscaled 1120x300 WebP matches byte-for-byte.",
+    "limit": "Do not label the 1x files byte-identical or pixel-identical. Distinguishing resize rounding from encoder-only differences requires comparing an intermediate decoded resize artifact from each build platform."
+  }
+}

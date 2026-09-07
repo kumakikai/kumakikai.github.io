@@ -8,7 +8,10 @@
   {{- $display := 560 -}}
   {{- if eq $mode "screen" -}}{{ $display = 320 }}{{- else if eq $mode "tablet" -}}{{ $display = 760 }}{{- end -}}
   {{- $large := .Resize (printf "%dx webp q92" (int (math.Min .Width (mul $display 2)))) -}}
-  {{- $small := .Resize (printf "%dx webp q92" (int (math.Min .Width $display))) -}}
+  {{- $small := $large -}}
+  {{- if not ($.Get "single-source") -}}
+    {{- $small = .Resize (printf "%dx webp q92" (int (math.Min .Width $display))) -}}
+  {{- end -}}
   {{- $sizes := printf "(max-width: 600px) calc(100vw - 64px), %dpx" $display -}}
   {{- if eq $mode "screen" -}}{{ $sizes = "(max-width: 390px) calc(100vw - 64px), 320px" }}{{- end -}}
 <figure class="guide-figure guide-figure--{{ $mode }}" style="--guide-image-width: {{ int (math.Min .Width $display) }}px" data-guide-image>

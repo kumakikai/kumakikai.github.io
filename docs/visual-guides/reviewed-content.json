@@ -275,10 +275,10 @@
   },
   "/htu/oto-miru/": {
     "source": "content/htu/oto-miru.md",
-    "sourceSHA256": "8ffbdc7c089bbb892a32bab5033c4efa62110a077817fd91372b07045c5ccda9",
+    "sourceSHA256": "683181c1d7d4d71e844b4d96fdf9dd5bd67a065c49414037bd55cfdb4ba79cd9",
     "baselineTextSHA256": "d97e4e6b252fb1eb446e43ac6a9fff2934524131a2d910e252328f44b34f94ac",
     "reviewedTextSHA256": "c141430a2dbb0a0d9eb21e75c0e30109fcf5732d25d8fe8fbb2a29c079a2adfe",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md 2026-09-08 publication comparison: reuse the matching 1120px source for one crop; keep its existing full-image link and preserve the prior 560px URL as a static compatibility asset.",
     "removedLinks": [
       "https://kumakikai.github.io/faq/oto-miru/",
       "https://kumakikai.github.io/privacy/oto-miru/",

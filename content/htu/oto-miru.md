@@ -27,7 +27,7 @@ Apple Intelligenceの有効化は必須ではありません。音声や字幕�
 
 画面上部で用途を選び、下部の`字幕をはじめる`をタップします。右上の歯車から設定を開けます。
 
-{{< guide-image src="images/guides/oto-miru/mode-and-settings.png" alt="通常モード上部のテレビ・会話・グループ・映画の切り替えと、右上の設定ボタン" mode="crop" >}}
+{{< guide-image src="images/guides/oto-miru/mode-and-settings.png" alt="通常モード上部のテレビ・会話・グループ・映画の切り替えと、右上の設定ボタン" mode="crop" single-source=true >}}
 
 {{< guide-image src="images/guides/oto-miru/start-caption.png" alt="通常モード下部の字幕をはじめるボタン" mode="crop" >}}
 

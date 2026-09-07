@@ -464,3 +464,5 @@ macOSでCA参照が必要ならSSL_CERT_FILE=/etc/ssl/cert.pemを指定し、TLS
 production build後に `python3 scripts/audit-site-structure.py --build public --output /tmp/site-structure-audit --check` で全HTML・href・画像等の参照・アンカー・重複候補・到達性・文章候補・状態表記を出力する。CIも同じ検証を実行する。生の重複数だけで失敗させず、内部切れ、不正/重複ID、旧汎用ブロック、孤立するindexableページ、本文と共通欄の重複メール、明白なラベル/節不一致を検出する。PC/モバイルの排他的メニュー、本文中の必要な法務参照、画像拡大、Product上下のStore CTAは役割に応じて保持する。意味の最終判断は人によるレビューを併用する。
 
 公開確認は `scripts/verify-published-site.py` にローカルbuildと該当gh-pages成果物を渡し、全ファイルをcurlで直接GETして一覧・SHA256を比較する。no-cacheヘッダーと固有queryを送り、取得HTMLも同じ走査器へ渡す。Actionsが追加する空の `.nojekyll` を配信制御ファイルとして区別し、公開HTMLは例外なく比較する。
+
+画像の公開照合で縮小生成の差が確認されたオトミル `mode-and-settings` は、`guide-image` の `single-source=true` により同じ1120px版を表示・拡大に共用する。表示幅は既存560pxのまま。旧560pxの公開WebPは `static/images/guides/oto-miru/` に既存バイトを保持する。全画像へ機械的に適用せず、既存URLと画質・表示幅を保護する。
