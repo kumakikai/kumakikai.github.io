@@ -117,6 +117,8 @@ npm run verify
 
 HomeとProduct詳細は同じ実画面データを使用します。旧Other Appsとして追加した素材の出典は[既存の素材記録](docs/homepage/other-app-assets.md)に残しています。Homeへ掲載しない候補もProductsから閲覧できます。
 
+HomeのFeaturedはUni:Note＋ランダム3件の表示順を確定した後、CSSが現在の並びからスクリーンショットを右・左・右・左に配置します。先頭のUni:Noteは選出グループ外の1件目、グループ内の奇数番目は全体の2・4件目です。Productデータに左右位置を持たせません。901px以上は交互の2カラム、900px以下はすべて説明→画像の縦順です。JavaScript無効時も同じ配置ルールを使います。
+
 アプリをデータから取り除く場合、生成ページを自動削除することはありません。旧URLからの到達方法を決めてから対応してください。ID変更もURL変更になるため、表示名の変更だけを目的にIDを変えないでください。
 
 ### Product詳細の編集
@@ -266,6 +268,8 @@ SSL_CERT_FILE=/etc/ssl/cert.pem python3 scripts/verify-live.py --build public
 この確認はHTTP GETのみで、App Store Connectの登録内容を変更しません。詳しい移行・画面検証は[移行報告](docs/migration/REPORT.md)を参照してください。
 
 Home／Aboutのランダム選出は、同じQA依存で`node scripts/verify-selection.cjs`を実行します。既存URL・コピー保護は`npm run verify`を併用してください。選出の重複・カテゴリ・Uni:Note固定、再読み込み、JavaScript無効時、多言語・画面幅・配色、CLSの結果とスクリーンショットを`docs/selection/`へ保存します。
+
+Featuredの左右交互配置は`TEST_BASE_URL=http://127.0.0.1:1313 NODE_PATH=/path/to/qa/node_modules node scripts/verify-featured-layout.cjs`で確認できます。10回の通常リロード、全候補の左右両配置、901／900pxの境界、Mobileの縦順を実際の座標で検証します。結果は[Featured配置レポート](docs/featured-layout/REPORT.md)に記録します。
 
 ## 大きなブラウザ検証記録
 

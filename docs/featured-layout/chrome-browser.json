@@ -1,0 +1,4005 @@
+{
+  "checkedAt": "2026-09-07T03:50:32.000Z",
+  "base": "http://127.0.0.1:1314",
+  "engine": "chrome",
+  "pending": false,
+  "ok": true,
+  "cases": 33,
+  "failures": [],
+  "candidates": [
+    "oto-miru",
+    "giga-poke",
+    "nocca",
+    "uni-note-pocket",
+    "balance-calendar",
+    "smokeless",
+    "signal"
+  ],
+  "deterministicSideCoverage": {
+    "oto-miru": [
+      "left",
+      "right"
+    ],
+    "giga-poke": [
+      "left",
+      "right"
+    ],
+    "nocca": [
+      "left",
+      "right"
+    ],
+    "uni-note-pocket": [
+      "left",
+      "right"
+    ],
+    "balance-calendar": [
+      "left",
+      "right"
+    ],
+    "smokeless": [
+      "left",
+      "right"
+    ],
+    "signal": [
+      "left",
+      "right"
+    ]
+  },
+  "method": "Actual browser bounding boxes after production selection, 10 unseeded reloads, deterministic seeded browser selection for each candidate on both sides, mobile source order, image/copy/CTA integrity, no-JS fallback, and initial/full-image CLS observations. No production random override is introduced.",
+  "limitations": [
+    "Local browser viewport emulation, not a physical-device test or field performance measurement.",
+    "Random reload variety is recorded but not used as a probabilistic assertion.",
+    "Layout-shift observation is supported by Chromium; WebKit geometry is verified without claiming a CLS measurement."
+  ],
+  "results": [
+    {
+      "name": "10-unseeded-reloads",
+      "ok": true,
+      "reloads": 10,
+      "choices": [
+        {
+          "selected": [
+            "uni-note",
+            "uni-note-pocket",
+            "giga-poke",
+            "signal"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        },
+        {
+          "selected": [
+            "uni-note",
+            "balance-calendar",
+            "signal",
+            "nocca"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        },
+        {
+          "selected": [
+            "uni-note",
+            "smokeless",
+            "uni-note-pocket",
+            "signal"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        },
+        {
+          "selected": [
+            "uni-note",
+            "signal",
+            "giga-poke",
+            "balance-calendar"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        },
+        {
+          "selected": [
+            "uni-note",
+            "giga-poke",
+            "signal",
+            "smokeless"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        },
+        {
+          "selected": [
+            "uni-note",
+            "uni-note-pocket",
+            "giga-poke",
+            "signal"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        },
+        {
+          "selected": [
+            "uni-note",
+            "smokeless",
+            "uni-note-pocket",
+            "balance-calendar"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        },
+        {
+          "selected": [
+            "uni-note",
+            "nocca",
+            "uni-note-pocket",
+            "smokeless"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        },
+        {
+          "selected": [
+            "uni-note",
+            "oto-miru",
+            "nocca",
+            "balance-calendar"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        },
+        {
+          "selected": [
+            "uni-note",
+            "smokeless",
+            "balance-calendar",
+            "uni-note-pocket"
+          ],
+          "positions": [
+            "right",
+            "left",
+            "right",
+            "left"
+          ],
+          "initialCLS": 0,
+          "fullImageCLS": 0
+        }
+      ],
+      "distinctOrders": 9
+    },
+    {
+      "name": "seed-1-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            819,
+            1607,
+            449,
+            510
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            172,
+            2466,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2342,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            819,
+            3279,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3154,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "screenshot": "screenshots/chrome-seed-1-desktop.jpg"
+    },
+    {
+      "name": "seed-2-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 2,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "balance-calendar",
+        "uni-note-pocket"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            819,
+            1670,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            172,
+            2499,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2375,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "uni-note-pocket",
+          "copy": [
+            819,
+            3312,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "seed-3-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 3,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "uni-note-pocket",
+        "balance-calendar"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            819,
+            1607,
+            449,
+            510
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "uni-note-pocket",
+          "copy": [
+            172,
+            2466,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2342,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            819,
+            3279,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3154,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "seed-4-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 4,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "nocca",
+        "balance-calendar",
+        "uni-note-pocket"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            819,
+            1651,
+            449,
+            416
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            659
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            172,
+            2461,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2336,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "uni-note-pocket",
+          "copy": [
+            819,
+            3274,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3149,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "seed-8-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 8,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "oto-miru",
+        "balance-calendar"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            819,
+            1654,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            172,
+            2483,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2342,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            819,
+            3312,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "seed-9-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 9,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "balance-calendar",
+        "signal",
+        "nocca"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            819,
+            1654,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            172,
+            2466,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2342,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            819,
+            3276,
+            449,
+            416
+          ],
+          "visual": [
+            172,
+            3154,
+            599,
+            659
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "seed-11-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 11,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            819,
+            1670,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            172,
+            2452,
+            449,
+            510
+          ],
+          "visual": [
+            669,
+            2375,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            819,
+            3312,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "screenshot": "screenshots/chrome-seed-11-desktop.jpg"
+    },
+    {
+      "name": "seed-22-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 22,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "nocca",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "uni-note-pocket",
+          "copy": [
+            819,
+            1654,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            172,
+            2463,
+            449,
+            416
+          ],
+          "visual": [
+            669,
+            2342,
+            599,
+            659
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            819,
+            3274,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3149,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "every-candidate-left-and-right",
+      "ok": true,
+      "coverage": {
+        "oto-miru": [
+          "left",
+          "right"
+        ],
+        "giga-poke": [
+          "left",
+          "right"
+        ],
+        "nocca": [
+          "left",
+          "right"
+        ],
+        "uni-note-pocket": [
+          "left",
+          "right"
+        ],
+        "balance-calendar": [
+          "right",
+          "left"
+        ],
+        "smokeless": [
+          "right",
+          "left"
+        ],
+        "signal": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "viewport-1280-light",
+      "ok": true,
+      "width": 1280,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            92,
+            925,
+            449,
+            432
+          ],
+          "visual": [
+            589,
+            930,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            739,
+            1601,
+            449,
+            498
+          ],
+          "visual": [
+            92,
+            1518,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            92,
+            2461,
+            449,
+            404
+          ],
+          "visual": [
+            589,
+            2330,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            739,
+            3273,
+            449,
+            404
+          ],
+          "visual": [
+            92,
+            3143,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-1280-dark",
+      "ok": true,
+      "width": 1280,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            92,
+            925,
+            449,
+            432
+          ],
+          "visual": [
+            589,
+            930,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            739,
+            1601,
+            449,
+            498
+          ],
+          "visual": [
+            92,
+            1518,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            92,
+            2461,
+            449,
+            404
+          ],
+          "visual": [
+            589,
+            2330,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            739,
+            3273,
+            449,
+            404
+          ],
+          "visual": [
+            92,
+            3143,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-1024-light",
+      "ok": true,
+      "width": 1024,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            837,
+            362,
+            460
+          ],
+          "visual": [
+            467,
+            895,
+            482,
+            346
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            587,
+            1434,
+            362,
+            498
+          ],
+          "visual": [
+            75,
+            1414,
+            482,
+            538
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            2113,
+            362,
+            448
+          ],
+          "visual": [
+            467,
+            2068,
+            482,
+            538
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            587,
+            2790,
+            362,
+            403
+          ],
+          "visual": [
+            75,
+            2722,
+            482,
+            538
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "screenshot": "screenshots/chrome-1024-light.jpg"
+    },
+    {
+      "name": "viewport-1024-dark",
+      "ok": true,
+      "width": 1024,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            837,
+            362,
+            460
+          ],
+          "visual": [
+            467,
+            895,
+            482,
+            346
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            587,
+            1434,
+            362,
+            498
+          ],
+          "visual": [
+            75,
+            1414,
+            482,
+            538
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            2113,
+            362,
+            448
+          ],
+          "visual": [
+            467,
+            2068,
+            482,
+            538
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            587,
+            2790,
+            362,
+            403
+          ],
+          "visual": [
+            75,
+            2722,
+            482,
+            538
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "screenshot": "screenshots/chrome-1024-dark.jpg"
+    },
+    {
+      "name": "viewport-901-light",
+      "ok": true,
+      "width": 901,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            837,
+            309,
+            480
+          ],
+          "visual": [
+            414,
+            928,
+            412,
+            299
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            517,
+            1434,
+            309,
+            547
+          ],
+          "visual": [
+            75,
+            1476,
+            412,
+            462
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            2104,
+            309,
+            448
+          ],
+          "visual": [
+            414,
+            2097,
+            412,
+            462
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            517,
+            2705,
+            309,
+            403
+          ],
+          "visual": [
+            75,
+            2675,
+            412,
+            462
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 901,
+        "scrollWidth": 901,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-901-dark",
+      "ok": true,
+      "width": 901,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            837,
+            309,
+            480
+          ],
+          "visual": [
+            414,
+            928,
+            412,
+            299
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            517,
+            1434,
+            309,
+            547
+          ],
+          "visual": [
+            75,
+            1476,
+            412,
+            462
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            2104,
+            309,
+            448
+          ],
+          "visual": [
+            414,
+            2097,
+            412,
+            462
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            517,
+            2705,
+            309,
+            403
+          ],
+          "visual": [
+            75,
+            2675,
+            412,
+            462
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 901,
+        "scrollWidth": 901,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-900-light",
+      "ok": true,
+      "width": 900,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1695,
+            750,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2243,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            750,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3489,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            750,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            750,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 900,
+        "scrollWidth": 900,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-900-dark",
+      "ok": true,
+      "width": 900,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1695,
+            750,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2243,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            750,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3489,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            750,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            750,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 900,
+        "scrollWidth": 900,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-834-light",
+      "ok": true,
+      "width": 834,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1695,
+            684,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2243,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            684,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3489,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            684,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            684,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 834,
+        "scrollWidth": 834,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-834-dark",
+      "ok": true,
+      "width": 834,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1695,
+            684,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2243,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            684,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3489,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            684,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            684,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 834,
+        "scrollWidth": 834,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-768-light",
+      "ok": true,
+      "width": 768,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1695,
+            618,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2243,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            618,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3489,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            618,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            618,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 768,
+        "scrollWidth": 768,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-768-dark",
+      "ok": true,
+      "width": 768,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1695,
+            618,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2243,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            618,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3489,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            618,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            618,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 768,
+        "scrollWidth": 768,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-430-light",
+      "ok": true,
+      "width": 430,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            1006,
+            338,
+            430
+          ],
+          "visual": [
+            46,
+            1469,
+            338,
+            926
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            2476,
+            338,
+            488
+          ],
+          "visual": [
+            46,
+            2997,
+            338,
+            1204
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            46,
+            4282,
+            338,
+            376
+          ],
+          "visual": [
+            46,
+            4690,
+            338,
+            1204
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            46,
+            5976,
+            338,
+            376
+          ],
+          "visual": [
+            46,
+            6384,
+            338,
+            1204
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 430,
+        "scrollWidth": 430,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-430-dark",
+      "ok": true,
+      "width": 430,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            1006,
+            338,
+            430
+          ],
+          "visual": [
+            46,
+            1469,
+            338,
+            926
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            2476,
+            338,
+            488
+          ],
+          "visual": [
+            46,
+            2997,
+            338,
+            1204
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            46,
+            4282,
+            338,
+            376
+          ],
+          "visual": [
+            46,
+            4690,
+            338,
+            1204
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            46,
+            5976,
+            338,
+            376
+          ],
+          "visual": [
+            46,
+            6384,
+            338,
+            1204
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 430,
+        "scrollWidth": 430,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-390-light",
+      "ok": true,
+      "width": 390,
+      "theme": "light",
+      "seed": 11,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            954,
+            298,
+            444
+          ],
+          "visual": [
+            46,
+            1429,
+            298,
+            819
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            46,
+            2330,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            2759,
+            298,
+            1237
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            4077,
+            298,
+            509
+          ],
+          "visual": [
+            46,
+            4618,
+            298,
+            1204
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            46,
+            5903,
+            298,
+            369
+          ],
+          "visual": [
+            46,
+            6304,
+            298,
+            1204
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "screenshot": "screenshots/chrome-390-light.jpg"
+    },
+    {
+      "name": "viewport-390-dark",
+      "ok": true,
+      "width": 390,
+      "theme": "dark",
+      "seed": 11,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            954,
+            298,
+            444
+          ],
+          "visual": [
+            46,
+            1429,
+            298,
+            819
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            46,
+            2330,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            2759,
+            298,
+            1237
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            4077,
+            298,
+            509
+          ],
+          "visual": [
+            46,
+            4618,
+            298,
+            1204
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            46,
+            5903,
+            298,
+            369
+          ],
+          "visual": [
+            46,
+            6304,
+            298,
+            1204
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "screenshot": "screenshots/chrome-390-dark.jpg"
+    },
+    {
+      "name": "viewport-375-light",
+      "ok": true,
+      "width": 375,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            934,
+            283,
+            471
+          ],
+          "visual": [
+            46,
+            1437,
+            283,
+            779
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            2298,
+            283,
+            509
+          ],
+          "visual": [
+            46,
+            2838,
+            283,
+            1178
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            46,
+            4098,
+            283,
+            406
+          ],
+          "visual": [
+            46,
+            4536,
+            283,
+            1178
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            46,
+            5795,
+            283,
+            369
+          ],
+          "visual": [
+            46,
+            6197,
+            283,
+            1178
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 375,
+        "scrollWidth": 375,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport-375-dark",
+      "ok": true,
+      "width": 375,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            934,
+            283,
+            471
+          ],
+          "visual": [
+            46,
+            1437,
+            283,
+            779
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            2298,
+            283,
+            509
+          ],
+          "visual": [
+            46,
+            2838,
+            283,
+            1178
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            46,
+            4098,
+            283,
+            406
+          ],
+          "visual": [
+            46,
+            4536,
+            283,
+            1178
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            46,
+            5795,
+            283,
+            369
+          ],
+          "visual": [
+            46,
+            6197,
+            283,
+            1178
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 375,
+        "scrollWidth": 375,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop-dark",
+      "ok": true,
+      "width": 1440,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            819,
+            1607,
+            449,
+            510
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            172,
+            2466,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2342,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            819,
+            3279,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3154,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "afterImages": {
+        "cls": 0,
+        "shifts": [],
+        "paints": [
+          {
+            "name": "first-paint",
+            "selected": true
+          },
+          {
+            "name": "first-contentful-paint",
+            "selected": true
+          }
+        ]
+      },
+      "screenshot": "screenshots/chrome-desktop-dark.jpg"
+    },
+    {
+      "name": "no-js-1440-light",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 1,
+      "noJS": true,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            819,
+            1670,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            172,
+            2452,
+            449,
+            510
+          ],
+          "visual": [
+            669,
+            2375,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            819,
+            3309,
+            449,
+            416
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            659
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": false
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "no-js-1440-dark",
+      "ok": true,
+      "width": 1440,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": true,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            444
+          ],
+          "visual": [
+            669,
+            936,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            819,
+            1670,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            172,
+            2452,
+            449,
+            510
+          ],
+          "visual": [
+            669,
+            2375,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            819,
+            3309,
+            449,
+            416
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            659
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": false
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "no-js-390-light",
+      "ok": true,
+      "width": 390,
+      "theme": "light",
+      "seed": 1,
+      "noJS": true,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            991,
+            298,
+            444
+          ],
+          "visual": [
+            46,
+            1467,
+            298,
+            819
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            46,
+            2368,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            2796,
+            298,
+            1237
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            4115,
+            298,
+            509
+          ],
+          "visual": [
+            46,
+            4655,
+            298,
+            1204
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            46,
+            5941,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            6369,
+            298,
+            1137
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": false
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "no-js-390-dark",
+      "ok": true,
+      "width": 390,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": true,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            991,
+            298,
+            444
+          ],
+          "visual": [
+            46,
+            1467,
+            298,
+            819
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            46,
+            2368,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            2796,
+            298,
+            1237
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            4115,
+            298,
+            509
+          ],
+          "visual": [
+            46,
+            4655,
+            298,
+            1204
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            46,
+            5941,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            6369,
+            298,
+            1137
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": false
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    }
+  ]
+}

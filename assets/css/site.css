@@ -85,8 +85,12 @@ body.menu-open { overflow: hidden; }
 .app-showcase--uni-note { background: var(--feature-blue); padding-block: 70px; }
 .app-showcase--oto-miru { background: var(--feature-warm); }
 .app-showcase--nocca { background: var(--feature-lilac); }
-.app-showcase--reverse { grid-template-columns: minmax(0,1.2fr) minmax(0,.9fr); }
-.app-showcase--reverse .app-showcase-copy { order: 2; }
+/* Uni:Note is slot 1. The selected group's odd articles are slots 2 and 4.
+   Resolve from the rendered order, including the no-JS fallback, not app data. */
+@media (min-width: 901px) {
+  .portfolio-featured > [data-product-selection] > .app-showcase:nth-of-type(odd) { grid-template-columns: minmax(0,1.2fr) minmax(0,.9fr); }
+  .portfolio-featured > [data-product-selection] > .app-showcase:nth-of-type(odd) .app-showcase-copy { order: 2; }
+}
 .app-icon { border-radius: 21%; flex: none; }
 .app-identity { display: flex; align-items: center; gap: 16px; margin-bottom: 27px; }
 .app-identity h3 { font-size: 1.1rem; font-weight: 680; letter-spacing: -.01em; }
@@ -414,8 +418,7 @@ body.menu-open { overflow: hidden; }
   .home-hero h1 { font-size: 2.65rem; }
   .hero-lead { max-width: 550px; }
   .hero-visual { max-width: 560px; height: 565px; margin-inline: auto; }
-  .app-showcase,.app-showcase--reverse { grid-template-columns: 1fr; padding: 45px; gap: 35px; }
-  .app-showcase--reverse .app-showcase-copy { order: 0; }
+  .app-showcase { grid-template-columns: 1fr; padding: 45px; gap: 35px; }
   .app-showcase-copy { max-width: 570px; }
   .app-tagline { font-size: 2.05rem; }
   .app-screenshots { max-width: 550px; margin-inline: auto; gap: 25px; }
@@ -453,7 +456,7 @@ body.menu-open { overflow: hidden; }
   .section-heading h2 { font-size: 1.25rem; }
   .section-heading p { font-size: .83rem; }
   .section-heading .text-link { font-size: .78rem; min-height: 30px; }
-  .app-showcase,.app-showcase--reverse { padding: 30px 24px; gap: 32px; border-radius: 18px; margin-bottom: 22px; }
+  .app-showcase { padding: 30px 24px; gap: 32px; border-radius: 18px; margin-bottom: 22px; }
   .app-identity { gap: 13px; margin-bottom: 23px; }
   .app-identity .app-icon { width: 52px; height: 52px; }
   .app-identity h3 { font-size: 1.03rem; }

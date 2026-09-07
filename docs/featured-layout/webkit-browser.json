@@ -1,0 +1,3135 @@
+{
+  "checkedAt": "2026-09-07T03:50:59.883Z",
+  "base": "http://127.0.0.1:1314",
+  "engine": "webkit",
+  "pending": false,
+  "ok": true,
+  "cases": 32,
+  "failures": [],
+  "candidates": [
+    "oto-miru",
+    "giga-poke",
+    "nocca",
+    "uni-note-pocket",
+    "balance-calendar",
+    "smokeless",
+    "signal"
+  ],
+  "deterministicSideCoverage": {
+    "oto-miru": [
+      "left",
+      "right"
+    ],
+    "giga-poke": [
+      "left",
+      "right"
+    ],
+    "nocca": [
+      "left",
+      "right"
+    ],
+    "uni-note-pocket": [
+      "left",
+      "right"
+    ],
+    "balance-calendar": [
+      "left",
+      "right"
+    ],
+    "smokeless": [
+      "left",
+      "right"
+    ],
+    "signal": [
+      "left",
+      "right"
+    ]
+  },
+  "method": "Actual browser bounding boxes after production selection, 10 unseeded reloads, deterministic seeded browser selection for each candidate on both sides, mobile source order, image/copy/CTA integrity, no-JS fallback, and initial/full-image CLS observations. No production random override is introduced.",
+  "limitations": [
+    "Local browser viewport emulation, not a physical-device test or field performance measurement.",
+    "Random reload variety is recorded but not used as a probabilistic assertion.",
+    "Layout-shift observation is supported by Chromium; WebKit geometry is verified without claiming a CLS measurement."
+  ],
+  "results": [
+    {
+      "name": "seed-1-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            819,
+            1606,
+            449,
+            509
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            172,
+            2466,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2341,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            819,
+            3279,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3154,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null,
+      "screenshot": "screenshots/webkit-seed-1-desktop.jpg"
+    },
+    {
+      "name": "seed-2-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 2,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "balance-calendar",
+        "uni-note-pocket"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            819,
+            1670,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            172,
+            2513,
+            449,
+            387
+          ],
+          "visual": [
+            669,
+            2374,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "uni-note-pocket",
+          "copy": [
+            819,
+            3312,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "seed-3-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 3,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "uni-note-pocket",
+        "balance-calendar"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            819,
+            1606,
+            449,
+            509
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "uni-note-pocket",
+          "copy": [
+            172,
+            2466,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2341,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            819,
+            3293,
+            449,
+            387
+          ],
+          "visual": [
+            172,
+            3154,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "seed-4-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 4,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "nocca",
+        "balance-calendar",
+        "uni-note-pocket"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            819,
+            1665,
+            449,
+            387
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            659
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            172,
+            2475,
+            449,
+            387
+          ],
+          "visual": [
+            669,
+            2336,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "uni-note-pocket",
+          "copy": [
+            819,
+            3273,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3149,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "seed-8-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 8,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "smokeless",
+        "oto-miru",
+        "balance-calendar"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            819,
+            1654,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            172,
+            2483,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2341,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            819,
+            3326,
+            449,
+            387
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "seed-9-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 9,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "balance-calendar",
+        "signal",
+        "nocca"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            819,
+            1668,
+            449,
+            387
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            172,
+            2466,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2341,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            819,
+            3290,
+            449,
+            387
+          ],
+          "visual": [
+            172,
+            3154,
+            599,
+            659
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "seed-11-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 11,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            819,
+            1670,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            172,
+            2452,
+            449,
+            509
+          ],
+          "visual": [
+            669,
+            2374,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            819,
+            3326,
+            449,
+            387
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null,
+      "screenshot": "screenshots/webkit-seed-11-desktop.jpg"
+    },
+    {
+      "name": "seed-22-desktop-both-side-coverage",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 22,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "uni-note-pocket",
+        "nocca",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "uni-note-pocket",
+          "copy": [
+            819,
+            1654,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            172,
+            2478,
+            449,
+            387
+          ],
+          "visual": [
+            669,
+            2341,
+            599,
+            659
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            819,
+            3273,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3149,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "every-candidate-left-and-right",
+      "ok": true,
+      "coverage": {
+        "oto-miru": [
+          "left",
+          "right"
+        ],
+        "giga-poke": [
+          "left",
+          "right"
+        ],
+        "nocca": [
+          "left",
+          "right"
+        ],
+        "uni-note-pocket": [
+          "left",
+          "right"
+        ],
+        "balance-calendar": [
+          "right",
+          "left"
+        ],
+        "smokeless": [
+          "right",
+          "left"
+        ],
+        "signal": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "viewport-1280-light",
+      "ok": true,
+      "width": 1280,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            92,
+            925,
+            449,
+            432
+          ],
+          "visual": [
+            589,
+            930,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            739,
+            1601,
+            449,
+            498
+          ],
+          "visual": [
+            92,
+            1518,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            92,
+            2461,
+            449,
+            404
+          ],
+          "visual": [
+            589,
+            2330,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            739,
+            3273,
+            449,
+            404
+          ],
+          "visual": [
+            92,
+            3143,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-1280-dark",
+      "ok": true,
+      "width": 1280,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            92,
+            925,
+            449,
+            432
+          ],
+          "visual": [
+            589,
+            930,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            739,
+            1601,
+            449,
+            498
+          ],
+          "visual": [
+            92,
+            1518,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            92,
+            2461,
+            449,
+            404
+          ],
+          "visual": [
+            589,
+            2330,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            739,
+            3273,
+            449,
+            404
+          ],
+          "visual": [
+            92,
+            3143,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-1024-light",
+      "ok": true,
+      "width": 1024,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            837,
+            362,
+            432
+          ],
+          "visual": [
+            467,
+            880,
+            482,
+            346
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            587,
+            1405,
+            362,
+            498
+          ],
+          "visual": [
+            75,
+            1385,
+            482,
+            538
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            2107,
+            362,
+            403
+          ],
+          "visual": [
+            467,
+            2040,
+            482,
+            538
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            587,
+            2761,
+            362,
+            403
+          ],
+          "visual": [
+            75,
+            2694,
+            482,
+            538
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null,
+      "screenshot": "screenshots/webkit-1024-light.jpg"
+    },
+    {
+      "name": "viewport-1024-dark",
+      "ok": true,
+      "width": 1024,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            837,
+            362,
+            432
+          ],
+          "visual": [
+            467,
+            880,
+            482,
+            346
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            587,
+            1405,
+            362,
+            498
+          ],
+          "visual": [
+            75,
+            1385,
+            482,
+            538
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            2107,
+            362,
+            403
+          ],
+          "visual": [
+            467,
+            2040,
+            482,
+            538
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            587,
+            2761,
+            362,
+            403
+          ],
+          "visual": [
+            75,
+            2694,
+            482,
+            538
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null,
+      "screenshot": "screenshots/webkit-1024-dark.jpg"
+    },
+    {
+      "name": "viewport-901-light",
+      "ok": true,
+      "width": 901,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            837,
+            309,
+            480
+          ],
+          "visual": [
+            414,
+            928,
+            412,
+            299
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            517,
+            1434,
+            309,
+            547
+          ],
+          "visual": [
+            75,
+            1476,
+            412,
+            462
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            2104,
+            309,
+            448
+          ],
+          "visual": [
+            414,
+            2097,
+            412,
+            462
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            517,
+            2705,
+            309,
+            403
+          ],
+          "visual": [
+            75,
+            2675,
+            412,
+            462
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 901,
+        "scrollWidth": 901,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-901-dark",
+      "ok": true,
+      "width": 901,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            837,
+            309,
+            480
+          ],
+          "visual": [
+            414,
+            928,
+            412,
+            299
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            517,
+            1434,
+            309,
+            547
+          ],
+          "visual": [
+            75,
+            1476,
+            412,
+            462
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            2104,
+            309,
+            448
+          ],
+          "visual": [
+            414,
+            2097,
+            412,
+            462
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            517,
+            2705,
+            309,
+            403
+          ],
+          "visual": [
+            75,
+            2675,
+            412,
+            462
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 901,
+        "scrollWidth": 901,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-900-light",
+      "ok": true,
+      "width": 900,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1694,
+            750,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2242,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            750,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3488,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            750,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            750,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 900,
+        "scrollWidth": 900,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-900-dark",
+      "ok": true,
+      "width": 900,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1694,
+            750,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2242,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            750,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3488,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            750,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            750,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 900,
+        "scrollWidth": 900,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-834-light",
+      "ok": true,
+      "width": 834,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1694,
+            684,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2242,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            684,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3488,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            684,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            684,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 834,
+        "scrollWidth": 834,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-834-dark",
+      "ok": true,
+      "width": 834,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1694,
+            684,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2242,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            684,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3488,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            684,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            684,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 834,
+        "scrollWidth": 834,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-768-light",
+      "ok": true,
+      "width": 768,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1694,
+            618,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2242,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            618,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3488,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            618,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            618,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 768,
+        "scrollWidth": 768,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-768-dark",
+      "ok": true,
+      "width": 768,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            75,
+            1241,
+            570,
+            419
+          ],
+          "visual": [
+            75,
+            1694,
+            618,
+            426
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            75,
+            2242,
+            570,
+            485
+          ],
+          "visual": [
+            75,
+            2762,
+            618,
+            604
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            75,
+            3488,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            3914,
+            618,
+            604
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            75,
+            4640,
+            570,
+            390
+          ],
+          "visual": [
+            75,
+            5065,
+            618,
+            604
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 768,
+        "scrollWidth": 768,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-430-light",
+      "ok": true,
+      "width": 430,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            1006,
+            338,
+            403
+          ],
+          "visual": [
+            46,
+            1441,
+            338,
+            926
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            2449,
+            338,
+            467
+          ],
+          "visual": [
+            46,
+            2948,
+            338,
+            1204
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            46,
+            4234,
+            338,
+            376
+          ],
+          "visual": [
+            46,
+            4642,
+            338,
+            1204
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            46,
+            5927,
+            338,
+            376
+          ],
+          "visual": [
+            46,
+            6335,
+            338,
+            1204
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 430,
+        "scrollWidth": 430,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-430-dark",
+      "ok": true,
+      "width": 430,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            1006,
+            338,
+            403
+          ],
+          "visual": [
+            46,
+            1441,
+            338,
+            926
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            2449,
+            338,
+            467
+          ],
+          "visual": [
+            46,
+            2948,
+            338,
+            1204
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            46,
+            4234,
+            338,
+            376
+          ],
+          "visual": [
+            46,
+            4642,
+            338,
+            1204
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            46,
+            5927,
+            338,
+            376
+          ],
+          "visual": [
+            46,
+            6335,
+            338,
+            1204
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 430,
+        "scrollWidth": 430,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-390-light",
+      "ok": true,
+      "width": 390,
+      "theme": "light",
+      "seed": 11,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            953,
+            298,
+            443
+          ],
+          "visual": [
+            46,
+            1429,
+            298,
+            819
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            46,
+            2330,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            2758,
+            298,
+            1237
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            4077,
+            298,
+            481
+          ],
+          "visual": [
+            46,
+            4590,
+            298,
+            1204
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            46,
+            5875,
+            298,
+            369
+          ],
+          "visual": [
+            46,
+            6276,
+            298,
+            1204
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null,
+      "screenshot": "screenshots/webkit-390-light.jpg"
+    },
+    {
+      "name": "viewport-390-dark",
+      "ok": true,
+      "width": 390,
+      "theme": "dark",
+      "seed": 11,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "balance-calendar"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            953,
+            298,
+            443
+          ],
+          "visual": [
+            46,
+            1429,
+            298,
+            819
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            46,
+            2330,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            2758,
+            298,
+            1237
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            4077,
+            298,
+            481
+          ],
+          "visual": [
+            46,
+            4590,
+            298,
+            1204
+          ]
+        },
+        {
+          "id": "balance-calendar",
+          "copy": [
+            46,
+            5875,
+            298,
+            369
+          ],
+          "visual": [
+            46,
+            6276,
+            298,
+            1204
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null,
+      "screenshot": "screenshots/webkit-390-dark.jpg"
+    },
+    {
+      "name": "viewport-375-light",
+      "ok": true,
+      "width": 375,
+      "theme": "light",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            934,
+            283,
+            443
+          ],
+          "visual": [
+            46,
+            1409,
+            283,
+            779
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            2270,
+            283,
+            508
+          ],
+          "visual": [
+            46,
+            2810,
+            283,
+            1178
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            46,
+            4070,
+            283,
+            369
+          ],
+          "visual": [
+            46,
+            4471,
+            283,
+            1178
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            46,
+            5731,
+            283,
+            369
+          ],
+          "visual": [
+            46,
+            6132,
+            283,
+            1178
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 375,
+        "scrollWidth": 375,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "viewport-375-dark",
+      "ok": true,
+      "width": 375,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            934,
+            283,
+            443
+          ],
+          "visual": [
+            46,
+            1409,
+            283,
+            779
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            2270,
+            283,
+            508
+          ],
+          "visual": [
+            46,
+            2810,
+            283,
+            1178
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            46,
+            4070,
+            283,
+            369
+          ],
+          "visual": [
+            46,
+            4471,
+            283,
+            1178
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            46,
+            5731,
+            283,
+            369
+          ],
+          "visual": [
+            46,
+            6132,
+            283,
+            1178
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 375,
+        "scrollWidth": 375,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "desktop-dark",
+      "ok": true,
+      "width": 1440,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": false,
+      "selected": [
+        "uni-note",
+        "giga-poke",
+        "smokeless",
+        "signal"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            819,
+            1606,
+            449,
+            509
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "smokeless",
+          "copy": [
+            172,
+            2466,
+            449,
+            415
+          ],
+          "visual": [
+            669,
+            2341,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "signal",
+          "copy": [
+            819,
+            3279,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            3154,
+            599,
+            665
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": true
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null,
+      "screenshot": "screenshots/webkit-desktop-dark.jpg"
+    },
+    {
+      "name": "no-js-1440-light",
+      "ok": true,
+      "width": 1440,
+      "theme": "light",
+      "seed": 1,
+      "noJS": true,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            819,
+            1670,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            172,
+            2452,
+            449,
+            509
+          ],
+          "visual": [
+            669,
+            2374,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            819,
+            3323,
+            449,
+            387
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            659
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": false
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "no-js-1440-dark",
+      "ok": true,
+      "width": 1440,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": true,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "positions": [
+        "right",
+        "left",
+        "right",
+        "left"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            172,
+            925,
+            449,
+            443
+          ],
+          "visual": [
+            669,
+            935,
+            599,
+            423
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            819,
+            1670,
+            449,
+            415
+          ],
+          "visual": [
+            172,
+            1529,
+            599,
+            698
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            172,
+            2452,
+            449,
+            509
+          ],
+          "visual": [
+            669,
+            2374,
+            599,
+            665
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            819,
+            3323,
+            449,
+            387
+          ],
+          "visual": [
+            172,
+            3187,
+            599,
+            659
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": false
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "no-js-390-light",
+      "ok": true,
+      "width": 390,
+      "theme": "light",
+      "seed": 1,
+      "noJS": true,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            991,
+            298,
+            443
+          ],
+          "visual": [
+            46,
+            1466,
+            298,
+            819
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            46,
+            2367,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            2796,
+            298,
+            1237
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            4114,
+            298,
+            481
+          ],
+          "visual": [
+            46,
+            4627,
+            298,
+            1204
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            46,
+            5913,
+            298,
+            368
+          ],
+          "visual": [
+            46,
+            6313,
+            298,
+            1137
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "theme": "light",
+        "reverseClasses": 0,
+        "groupReady": false
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    },
+    {
+      "name": "no-js-390-dark",
+      "ok": true,
+      "width": 390,
+      "theme": "dark",
+      "seed": 1,
+      "noJS": true,
+      "selected": [
+        "uni-note",
+        "oto-miru",
+        "giga-poke",
+        "nocca"
+      ],
+      "positions": [
+        "below",
+        "below",
+        "below",
+        "below"
+      ],
+      "bounds": [
+        {
+          "id": "uni-note",
+          "copy": [
+            46,
+            991,
+            298,
+            443
+          ],
+          "visual": [
+            46,
+            1466,
+            298,
+            819
+          ]
+        },
+        {
+          "id": "oto-miru",
+          "copy": [
+            46,
+            2367,
+            298,
+            396
+          ],
+          "visual": [
+            46,
+            2796,
+            298,
+            1237
+          ]
+        },
+        {
+          "id": "giga-poke",
+          "copy": [
+            46,
+            4114,
+            298,
+            481
+          ],
+          "visual": [
+            46,
+            4627,
+            298,
+            1204
+          ]
+        },
+        {
+          "id": "nocca",
+          "copy": [
+            46,
+            5913,
+            298,
+            368
+          ],
+          "visual": [
+            46,
+            6313,
+            298,
+            1137
+          ]
+        }
+      ],
+      "pageLayout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "theme": "dark",
+        "reverseClasses": 0,
+        "groupReady": false
+      },
+      "integrity": {
+        "imageSourceOrderSizingAndStyles": true,
+        "approvedCopy": true,
+        "ctaAndRegions": true,
+        "noticesOnCopySide": true,
+        "mobileSourceOrder": true
+      },
+      "initial": null,
+      "afterImages": null
+    }
+  ]
+}
