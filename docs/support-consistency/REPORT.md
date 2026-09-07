@@ -58,7 +58,7 @@ Productでは次の5行を、同じタイトル・説明・区切り線・矢印
 
 今回の本文URLの新設・移動・削除、新しいaliases・redirectはありません。独自規約3件、Privacy22件、Guide22件、FAQ22件、Product48件、Press Release8件の計125ソースファイルが変更前のSHA256と完全一致しました。[比較結果](source-preservation.json)
 
-Hugo移行前の191 URL、84記事本文、現在レビュー済みの44 Guide/FAQ本文も既存検査に通っています。検査を通すためのbaseline更新はしていません。公開HTTP結果はデプロイ後の検証記録に分離します。
+Hugo移行前の191 URL、84記事本文、現在レビュー済みの44 Guide/FAQ本文も既存検査に通っています。検査を通すためのbaseline更新はしていません。デプロイ後、全277 HTML URLが同じURLでHTTP200を返し、検証済みのローカルHTMLとSHA256が完全一致しました。[公開HTTP検証](public-verification.json)
 
 ## build・ブラウザ確認
 
@@ -90,3 +90,22 @@ Hugo移行前の191 URL、84記事本文、現在レビュー済みの44 Guide/F
 `data/company/*.json`、`data/apps.json`、`data/support.json`、`data/ux/*.json`、`layouts/_partials/support-data.html`、`layouts/_partials/support-links.html`、`layouts/product/single.html`、`assets/css/site.css`、`scripts/verify-migration.py`、`scripts/verify-support.cjs`、`README.md`。
 
 アプリ本体・既存本文Markdown・Hugoplate vendor・デプロイ設定は変更していません。新しい閲覧用JavaScriptや外部ライブラリも追加していません。
+
+## 公開確認
+
+- 実装コミット：`6fa7eaae2aa306e08348045c310a4c4d972681d1`（mainへpush済み）。
+- [Hugo build・URL検証・gh-pages更新](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34080447011)：成功。
+- gh-pages：`eed01785a818ad6e209aff5082703dfe3815ca3c`。
+- [GitHub Pages配信](https://github.com/kumakikai/kumakikai.github.io/actions/runs/34080480700)：成功。
+- 2026-09-07 12:42 JST、277/277ページHTTP200・HTML完全一致。404・内容不一致ともに0件。
+- [本番ブラウザ確認](live-browser.json)：Product・Guide・FAQを1440／390pxで6ケース確認。画像エラー・横overflow・ページJavaScriptエラーなし。撮影後にProduct Desktop、Guide Mobile、FAQ Desktopの画像も目視しました。
+- CIには既存の`actions/checkout@v4`・`actions/setup-node@v4`の実行runtimeに関する非推奨警告があります。サイトのbuildは指定のNode 22.22.0で成功しており、今回Actionsのバージョン変更は行っていません。
+
+以下はローカルpreviewではなく、公開サイトから取得した画像です。
+
+- [Product Support／Desktop](screenshots/live-products-uni-note-1440.jpg)
+- [Product Support／Mobile](screenshots/live-products-uni-note-390.jpg)
+- [Guide末尾／Desktop](screenshots/live-htu-giga-poke-1440.jpg)
+- [Guide末尾／Mobile](screenshots/live-htu-giga-poke-390.jpg)
+- [FAQ末尾／Desktop](screenshots/live-faq-giga-poke-1440.jpg)
+- [FAQ末尾／Mobile](screenshots/live-faq-giga-poke-390.jpg)
