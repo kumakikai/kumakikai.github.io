@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KUMAKIKAI</title><link>https://kumakikai.github.io/</link><description>Recent content on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Mon, 07 Sep 2026 15:26:40 +0900</lastBuildDate><atom:link href="https://kumakikai.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>よくある質問 (Nocca)</title><link>https://kumakikai.github.io/faq/nocca/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/faq/nocca/</guid><description>&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KUMAKIKAI</title><link>https://kumakikai.github.io/</link><description>Recent content on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Mon, 07 Sep 2026 16:57:50 +0900</lastBuildDate><atom:link href="https://kumakikai.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>よくある質問 (Nocca)</title><link>https://kumakikai.github.io/faq/nocca/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/faq/nocca/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;Noccaは開発中です。現在の公開前実装について案内しています。&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -1688,8 +1688,9 @@ iOS版と同じ思想・操作感で使えることを目標にしています�
 &lt;li&gt;&lt;strong&gt;通知の情報&lt;/strong&gt;：通知を許可した端末の通知用トークンと配信先を扱います。Appleのプッシュ通知サービスを通じてお知らせするために使います。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;無料体験と購入状態&lt;/strong&gt;：家族ごとのおためし開始・終了日時、利用済みの記録、購入したプラン、取引を識別する情報、有効期限、更新・失効・返金などの状態を扱います。利用できる機能の判定、購入の復元、不正利用の防止に使います。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;技術的な記録&lt;/strong&gt;：通信の成否、エラーの種類、応答時間などを記録します。障害の調査とサービスの安全な運用に使います。運用ログに通信本文、認証用の秘密情報、購入証明の全文を記録しない設計です。アクセスの集中を抑えるため、接続元の情報をハッシュ化した短期間の記録も使います。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;お問い合わせ&lt;/strong&gt;：利用者が送信したメールアドレス、名前、相談内容などを、回答と問題の解決のために扱います。お問い合わせに、パスワード、引き継ぎコード、家族の通信全文などを記載する必要はありません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;お問い合わせ&lt;/strong&gt;：利用者が送信したお問い合わせの種類、内容、任意のサポート情報、返信用メールアドレスなどを、回答と問題の解決のために扱います。サポート情報と返信用メールアドレスは空欄でも送信できます。お問い合わせに、パスワード、引き継ぎコード、家族の通信全文などを記載する必要はありません。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;対応版の「サポート情報をコピー」では、アプリ名、バージョン・ビルド番号、OS、端末の種類、アプリ内で選んだ使い方、言語、アプリ環境を端末内でコピーします。アプリから自動送信せず、利用者がフォームやメールに貼り付けて送信した場合に、お問い合わせの一部として受け取ります。&lt;/p&gt;
 &lt;p&gt;メールアドレスやパスワードによる会員登録はありません。Apple Accountのメールアドレス、パスワード、クレジットカード番号をNoccaが取得することはありません。&lt;/p&gt;
 &lt;p&gt;広告、広告目的の追跡、行動分析のためのSDKは使っていません。位置情報、端末の連絡先、カメラ、マイクへのアクセスも行いません。家族との接続情報は、端末のアドレス帳を読み取って作成するものではありません。&lt;/p&gt;
 
@@ -1759,8 +1760,7 @@ iOS版と同じ思想・操作感で使えることを目標にしています�
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;期限付きのデータは自動削除の対象となった後、クラウド側の処理により削除されます。削除対象時刻と物理的な消去時刻は一致しないことがあります。期限が過ぎた確認情報や利用権を、その遅延を理由に有効として扱うことはありません。&lt;/p&gt;
-&lt;p&gt;障害復旧用の自動バックアップは最大35日間です。更新作業などで作成する一時的なバックアップは、自動削除とは別に管理し、復旧に必要な確認を終えた後35日以内に運営者が削除します。これらには削除前のデータが残ることがあります。通常利用には戻さず、復旧時にも削除済みの情報を再び利用可能にしないよう取り扱います。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (SIGNAL)</title><link>https://kumakikai.github.io/privacy/signal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/privacy/signal/</guid><description>&lt;p&gt;本プライバシーポリシーは、SIGNAL（以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。&lt;/p&gt;
+&lt;p&gt;期限付きのデータは自動削除の対象となった後、クラウド側の処理により削除されます。削除対象時刻と物理的な消去時刻は一致しないことがあります。期限が過ぎた確認情報や利用権を、その遅延を理由に有効として扱うことはありません。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (SIGNAL)</title><link>https://kumakikai.github.io/privacy/signal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/privacy/signal/</guid><description>&lt;p&gt;本プライバシーポリシーは、SIGNAL（以下「本アプリ」）および本公式サイトにおける、ユーザー情報の取扱いについて説明するものです。&lt;/p&gt;
 
 &lt;h2 id="1-取得する情報について"&gt;1. 取得する情報について&lt;/h2&gt;
 &lt;p&gt;本アプリは、会員登録やログインを必要とせず、氏名・住所・メールアドレスなど、ユーザー個人を特定できる情報をアプリ内入力として収集しません。&lt;/p&gt;
@@ -2089,8 +2089,8 @@ iCloud Drive 等の外部保存先を利用する場合は、当該サービス�
 &lt;p&gt;この規約を変更する場合は、変更内容と適用日を公式ページ等で案内し、法令上必要な場合は同意を求めます。&lt;/p&gt;
 
 &lt;h2 id="10-お問い合わせ準拠法"&gt;10. お問い合わせ・準拠法&lt;/h2&gt;
-&lt;p&gt;お問い合わせ先：&lt;a href="mailto:kumakikai.apps@gmail.com"&gt;kumakikai.apps@gmail.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kumakikai.github.io/notes/2026-09-06-nocca/"&gt;Nocca公式サポート&lt;/a&gt;&lt;/p&gt;</description></item><item><title>利用規約 (オトミル)</title><link>https://kumakikai.github.io/terms/oto-miru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/terms/oto-miru/</guid><description>&lt;p&gt;本利用規約は、オトミル（App Store 表示名: オトミル - 聞こえを字幕でサポート。以下「本アプリ」）の利用条件を定めるものです。&lt;/p&gt;
+&lt;p&gt;お問い合わせ先：&lt;a href="https://forms.gle/JwDoPvzAh1zKaR2M8"&gt;Noccaお問い合わせフォーム&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;フォームを開けない場合は、&lt;a href="mailto:kumakikai.apps@gmail.com"&gt;kumakikai.apps@gmail.com&lt;/a&gt;へお問い合わせください。&lt;/p&gt;</description></item><item><title>利用規約 (オトミル)</title><link>https://kumakikai.github.io/terms/oto-miru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.github.io/terms/oto-miru/</guid><description>&lt;p&gt;本利用規約は、オトミル（App Store 表示名: オトミル - 聞こえを字幕でサポート。以下「本アプリ」）の利用条件を定めるものです。&lt;/p&gt;
 &lt;p&gt;本アプリを利用する前に、本利用規約および&lt;a href="https://kumakikai.github.io/privacy/oto-miru/"&gt;プライバシーポリシー&lt;/a&gt;をご確認ください。本アプリを利用した場合、本利用規約に同意したものとみなします。&lt;/p&gt;
 
 &lt;h2 id="1-適用範囲"&gt;1. 適用範囲&lt;/h2&gt;
