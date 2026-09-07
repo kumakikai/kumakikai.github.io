@@ -227,11 +227,11 @@ news_categoryは **press-release / blog / information**、UIは **Press Release 
 
 ### About・Founder
 
-KUMAKIKAIは **Yuya Nakamuraが運営するアプリ開発ブランド**。法人・架空の社員やオフィス・数値実績を作らない。表示名About・URL `/company/` を維持。Founderは **Yuya Nakamura** のみ、**Software Engineer / App Developer**、組み込み／業務／モバイル経験と `C / C++ / C# / Java / Python / Dart / Swift` を維持。勤務先・経験年数・学歴を推測しない。
+KUMAKIKAIは **Yuya Nakamuraが個人事業として運営するアプリ開発ブランド**。法人・架空の社員やオフィス・数値実績を作らない。表示名About・URL `/company/` を維持。Founderは **Yuya Nakamura** のみ、**Software Engineer / App Developer**、組み込み／業務／モバイル経験と `C / C++ / C# / Java / Python / Dart / Swift` を維持。勤務先・経験年数・学歴を推測しない。
 
 `data/company/ja.json.founderBio` は複数領域の経験、KUMAKIKAIでの企画・開発・運営、自分の不便や身近な人の困りごとから必要なものを作る、という本人のスタンス。通常Product更新で再生成せず、特定アプリだけの小話を追加しない。使用許可済み人物イラストは維持可。漢字氏名・電話番号・名刺全体を追加しない。
 
-基本情報は **名称／開発者／事業内容**。Web欄・メール欄を戻さず末尾Contact CTAへ集約。For MediaはPress Release一覧と同ページ#contactへ。アプリSupportと一般問い合わせを混同しない。
+基本情報は **名称／開発者／事業形態（個人事業）／事業内容／適格請求書発行事業者（登録済み）**。登録確認は国税庁公表サイトの本人情報へリンクし、番号・税務上の屋号・漢字氏名・住所等を転載しない。紹介文・ラベルは `data/company/<lang>.json`、確認リンクは `layouts/company/list.html` で管理する。Web欄・メール欄を戻さず末尾Contact CTAへ集約。For MediaはPress Release一覧と同ページ#contactへ。アプリSupportと一般問い合わせを混同しない。
 
 What we buildは **学習（learning）／コミュニケーション（communication）／ユーティリティ（utilities）**。カテゴリそのものを短く説明し、PDF・字幕・特典コード・期限等の個別機能に細分化しない。
 

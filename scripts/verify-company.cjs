@@ -156,10 +156,16 @@ async function company(page, locale, name, noJS = false) {
     await keyboardFocus(page, link);
     selectedAreas.push({ area: area.area, product: id });
   }
-  assert.deepEqual(await page.locator('.company-facts dt').allTextContents(), [corp.companyNameLabel, copy.founderLabel, corp.businessLabel], 'Basic information has no redundant Web or email row');
-  assert.deepEqual(await page.locator('.company-facts dd').allTextContents(), ['KUMAKIKAI', copy.founderName, corp.businessText]);
+  assert.deepEqual(await page.locator('.company-facts dt').allTextContents(), [corp.companyNameLabel, copy.founderLabel, copy.businessFormLabel, corp.businessLabel, copy.invoiceIssuerLabel], 'Basic information includes the sole proprietorship and invoice registration, without a redundant Web or email row');
+  assert.deepEqual((await page.locator('.company-facts dd').allTextContents()).slice(0, 4), ['KUMAKIKAI', copy.founderName, copy.businessForm, corp.businessText]);
+  assert.equal(await page.locator('.company-facts dd').last().locator('p').textContent(), copy.invoiceStatus);
   assert.equal(Object.hasOwn(copy, 'webLabel'), false);
-  assert.equal(await page.locator('.company-information a').count(), 0, 'Basic information does not link the current website to itself');
+  const invoiceLink = page.locator('.company-information a');
+  assert.equal(await invoiceLink.count(), 1, 'Basic information has one registration verification link, without a self-link');
+  assert.equal(await invoiceLink.getAttribute('href'), 'https://www.invoice-kohyo.nta.go.jp/regno-search/detail?selRegNo=5810091977224');
+  assert.equal((await invoiceLink.textContent()).replace('↗', '').trim(), copy.invoiceLinkLabel);
+  assert.equal(await invoiceLink.getAttribute('target'), null, 'The external link follows the same-tab policy');
+  await keyboardFocus(page, invoiceLink);
   assert.deepEqual(await page.locator('.company-philosophy h3').allTextContents(), (copy.principles || []).map(principle => principle.title));
   assert.deepEqual(await page.locator('.company-philosophy li > p').allTextContents(), (copy.principles || []).map(principle => principle.description));
   assert.equal(await page.locator('a[href^="mailto:"]').count(), 1, 'Email CTA appears only in Contact');

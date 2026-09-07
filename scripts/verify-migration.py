@@ -605,7 +605,9 @@ class Verification:
         self.require(len(title) == 1 and re.match(r"^About(?:\s|$)", title[0].text()), route, "about_title", "The page title must be About while retaining /company/")
         facts = [n for n in doc.nodes if n.has_class("company-facts")]
         corp = json.loads((self.data_file.parent / "corporate" / (lang + ".json")).read_text(encoding="utf-8"))
-        self.require(len(facts) == 1 and [n.text().strip() for n in facts[0].descendants("dt")] == [corp["companyNameLabel"], copy["founderLabel"], corp["businessLabel"]], route, "about_facts", "Basic information contains only the brand, developer, and business activity")
+        self.require(len(facts) == 1 and [n.text().strip() for n in facts[0].descendants("dt")] == [corp["companyNameLabel"], copy["founderLabel"], copy["businessFormLabel"], corp["businessLabel"], copy["invoiceIssuerLabel"]], route, "about_facts", "Basic information contains the brand, developer, sole proprietorship, business activity, and invoice registration")
+        invoice_links = list(facts[0].descendants("a")) if facts else []
+        self.require(len(invoice_links) == 1 and invoice_links[0].attrs.get("href") == "https://www.invoice-kohyo.nta.go.jp/regno-search/detail?selRegNo=5810091977224", route, "about_invoice", "Basic information links only to the operator's verified NTA registration, without republishing personal details")
         self.require(len(facts) == 1 and "kumakikai.apps@gmail.com" not in facts[0].text(), route, "about_contact", "The contact email must not be duplicated in basic information")
         areas = copy.get("areas", [])
         self.require([area.get("area") for area in areas] == ["learning", "communication", "utilities"], route, "about_areas", "About must cover the three explicit product areas")
