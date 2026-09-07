@@ -19,7 +19,12 @@ import re
 import sys
 from urllib.parse import parse_qs, unquote, urljoin, urlsplit
 import xml.etree.ElementTree as ET
-from nocca_legal_review import load_reviews as load_nocca_legal_reviews, check_article as check_nocca_legal_article
+from nocca_legal_review import (
+    LEGACY_SUPPORT_RELOCATIONS,
+    load_reviews as load_nocca_legal_reviews,
+    check_article as check_nocca_legal_article,
+    retained_legacy_links as retained_nocca_legacy_links,
+)
 
 SITE = "https://kumakikai.github.io"
 LOCAL_HOSTS = {"kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
@@ -318,6 +323,20 @@ class Verification:
             missing = sorted(set(old["ids"]) - set(doc.ids))
             self.require(not missing, route, "legacy_anchor", f"Original article anchors disappeared: {missing}")
             links = {urljoin(SITE + route, node.attrs["href"]) for node in body.descendants("a") if node.attrs.get("href")}
+            if legal_review and route in LEGACY_SUPPORT_RELOCATIONS:
+                # Nocca's reviewed legal cleanup consolidates navigation into
+                # the existing component; it does not delete legacy targets.
+                related = [node for node in doc.nodes if node.has_class("article-related")]
+                self.require(len(related) == 1, route, "support_component", "Nocca legal pages need one shared support area")
+                if len(related) == 1:
+                    apps = json.loads(self.data_file.read_text(encoding="utf-8"))
+                    app = next((app for app in apps if app["id"] == "nocca"), None)
+                    self.require(app is not None, route, "support_metadata", "Nocca legal pages need their existing Product metadata")
+                    if app is not None:
+                        self.verify_support_resources(related[0], app, "ja", route, omitted=route.split("/")[1])
+                    rows = [node for node in related[0].descendants() if node.has_class("resource-links")]
+                    support_links = {urljoin(SITE + route, node.attrs["href"]) for row in rows for node in row.descendants("a") if node.attrs.get("href")}
+                    links = retained_nocca_legacy_links(route, links, support_links)
             missing_links = sorted(set(old["links"]) - links)
             approved_removed = legal_review["removedLinks"] if legal_review else review.get("removedLinks", []) if review else []
             self.require(missing_links == sorted(approved_removed), route, "legacy_content_link", f"Unreviewed original link changes: {missing_links}; approved: {approved_removed}")

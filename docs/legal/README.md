@@ -41,10 +41,12 @@ python3 scripts/test_nocca_legal_review.py
 npm run verify
 ```
 
-The 25 focused tests cover valid input and rejection of another app's route,
+The 30 focused tests cover valid input and rejection of another app's route,
 changed baseline hashes, mismatched source paths, extra source/rendered text,
 extra links, the wrong form, extra removed links, malformed catalogs and missing
-route records. They run before the existing migration verification in CI.
+route records, plus retained shared-support destinations and rejection of missing
+or altered targets and out-of-scope relocations. They run before the existing
+migration verification in CI.
 
 Prepare and publish from a clean independent checkout containing only the
 authorized Nocca change. Preserve unrelated dirty work in the original checkout.
@@ -68,3 +70,28 @@ a recomputed review catalog. The old unrelated form remains rejected.
 Explicit Google Forms ports, trailing-dot hosts and encoded Forms paths are also
 rejected at source, catalog and rendered-link boundaries. The form allowlist
 continues to accept only the exact public Nocca short URL.
+
+## 2026-09-08 duplicate support link cleanup
+
+The user requested that Nocca's Privacy and Terms use the same shared support
+layout as the other products. Their generic related-page lists and standalone
+Product links are consolidated into the existing shared support section. The
+contact paragraph points to that section's form link; the fallback email remains
+in the legal body. The Apple Standard EULA link moves onto the existing Terms
+sentence. Legal provisions, route identities and protected anchors are retained;
+the displayed update date and lastmod record this navigation edit.
+
+The two source/rendered review entries are updated after inspecting the generated
+body and links. The immutable migration baseline and removedLinks stay unchanged.
+Only the exact internal links for these two legal routes may be satisfied by
+their shared support rows, whose destinations and structure are also verified.
+Email and EULA links must remain in the body. The historical article and other
+products' review entries are unchanged.
+
+Validation: pinned production build, 30 focused legal tests, migration checks
+(191 legacy routes / 84 article bodies), 48 Product pages and SEO checks passed.
+Chrome viewport checks passed for both legal pages at 1440, 1280, 1024, 768,
+430, 390 and 375 pixels in light/dark OS settings (28 cases). Each shared
+destination appears once, with no self-link or horizontal overflow; desktop and
+mobile screenshots were visually reviewed. These are local checks; publication
+requires the source Actions run, Pages deployment and live HTML comparison.

@@ -1,11 +1,12 @@
 ---
 title: "利用規約 (Nocca)"
 description: "Nocca の利用規約"
+lastmod: 2026-09-08
 ---
 
 {{< guide-anchor "1-適用範囲" "2-本アプリの内容" "3-医療治療監視目的ではないこと" "4-利用上の前提" "5-招待と接続" "6-会話と返信" "7-通信休止とミュート" "8-禁止事項" "9-料金について" "10-データとプライバシー" "11-免責事項" "12-仕様変更提供停止" "13-本利用規約の変更" "14-お問い合わせ" >}}
 
-最終更新日：2026年9月7日
+最終更新日：2026年9月8日
 
 運営者：kumakikai Apps
 
@@ -84,21 +85,10 @@ Appleが対象と判断した方には、購入時に最初の14日間無料の�
 
 ## 10. お問い合わせ・準拠法
 
-お問い合わせ先：[Noccaお問い合わせフォーム](https://forms.gle/JwDoPvzAh1zKaR2M8)
+お問い合わせは、ページ下部の「お問い合わせ」からご連絡ください。
 
 フォームを開けない場合は、[kumakikai.apps@gmail.com](mailto:kumakikai.apps@gmail.com)へお問い合わせください。
 
-[Nocca公式サポート](https://kumakikai.github.io/products/nocca/)
-
 この規約は日本法に準拠します。紛争が生じた場合は解決に向けて協議し、裁判が必要な場合は法令に従って管轄が定まる日本の裁判所で取り扱います。
 
-アプリの利用許諾にはAppleの標準使用許諾契約も適用されます。Appleとの購入・支払いに関する契約条件や、法令に基づく利用者の権利を、この規約で変更するものではありません。
-
----
-
-関連ページ:
-
-- [使い方 (Nocca)]({{< relref "/htu/nocca/" >}})
-- [よくある質問 (Nocca)]({{< relref "/faq/nocca/" >}})
-- [プライバシーポリシー (Nocca)]({{< relref "/privacy/nocca/" >}})
-- [Appleの標準使用許諾契約](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+アプリの利用許諾には[Appleの標準使用許諾契約](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)も適用されます。Appleとの購入・支払いに関する契約条件や、法令に基づく利用者の権利を、この規約で変更するものではありません。

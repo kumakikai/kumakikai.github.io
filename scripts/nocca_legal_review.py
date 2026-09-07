@@ -21,7 +21,26 @@ SCOPE = {
     "/terms/nocca/": ("content/terms/nocca.md", "150df3841135c7542cbe39b7318c9d1cb53b68bb2a4e2fff8c8718855da46946"),
     NOTES: ("content/notes/2026-09-06-nocca.md", "b27985ee2867507911f4fa7dbd3bfd22b314edf51ef30c03ccd15bb852096da5"),
 }
+# Only these existing navigation destinations may move from the legal body to
+# its validated shared support rows. Email and Apple EULA must stay in the body.
+LEGACY_SUPPORT_RELOCATIONS = {
+    "/privacy/nocca/": frozenset({
+        "https://kumakikai.github.io/htu/nocca/",
+        "https://kumakikai.github.io/faq/nocca/",
+        "https://kumakikai.github.io/terms/nocca/",
+    }),
+    "/terms/nocca/": frozenset({
+        "https://kumakikai.github.io/htu/nocca/",
+        "https://kumakikai.github.io/faq/nocca/",
+        "https://kumakikai.github.io/privacy/nocca/",
+    }),
+}
 FIELDS = {"source", "sourceSHA256", "baselineTextSHA256", "reviewedTextSHA256", "reviewedLinks", "removedLinks", "reason"}
+
+
+def retained_legacy_links(route, body_links, support_links):
+    """Count scoped destinations only when they still exist in shared rows."""
+    return set(body_links) | (LEGACY_SUPPORT_RELOCATIONS.get(route, frozenset()) & set(support_links))
 
 
 def digest(value):

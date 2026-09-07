@@ -135,6 +135,44 @@ class NoccaLegalReviewTests(unittest.TestCase):
         entry = self.catalog["reviews"]["/privacy/nocca/"]
         self.assertTrue(review.check_article("/terms/another-app/", entry, "approved rendered text", entry["reviewedLinks"]))
 
+    def test_legacy_navigation_retained_in_shared_support(self):
+        for route in review.LEGACY_SUPPORT_RELOCATIONS:
+            with self.subTest(route=route):
+                old = set(self.baseline["articles"][route]["links"])
+                navigation = review.LEGACY_SUPPORT_RELOCATIONS[route]
+                body = old - navigation
+                self.assertEqual(review.retained_legacy_links(route, body, navigation), old)
+
+    def test_missing_support_destination_is_not_treated_as_retained(self):
+        for route, navigation in review.LEGACY_SUPPORT_RELOCATIONS.items():
+            old = set(self.baseline["articles"][route]["links"])
+            for missing in navigation:
+                with self.subTest(route=route, missing=missing):
+                    retained = review.retained_legacy_links(route, old - navigation, navigation - {missing})
+                    self.assertEqual(old - retained, {missing})
+
+    def test_support_destination_variants_do_not_retain_original_link(self):
+        route = "/privacy/nocca/"
+        destination = "https://kumakikai.github.io/htu/nocca/"
+        for replacement in (destination + "?from=privacy", destination + "#section", destination.rstrip("/"),
+                            destination.replace("nocca", "oto-miru"), destination.replace("https:", "http:")):
+            with self.subTest(replacement=replacement):
+                self.assertNotIn(destination, review.retained_legacy_links(route, [], [replacement]))
+
+    def test_email_and_eula_cannot_move_outside_legal_body(self):
+        email = "mailto:kumakikai.apps@gmail.com"
+        eula = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        for route in review.LEGACY_SUPPORT_RELOCATIONS:
+            with self.subTest(route=route):
+                self.assertEqual(review.retained_legacy_links(route, [], [email, eula, review.APPROVED_FORM]), set())
+                self.assertEqual(review.retained_legacy_links(route, [email, eula], []), {email, eula})
+
+    def test_other_routes_cannot_relocate_legacy_navigation(self):
+        navigation = review.LEGACY_SUPPORT_RELOCATIONS["/privacy/nocca/"]
+        for route in (review.NOTES, "/privacy/oto-miru/", "/terms/oto-miru/", "/en/privacy/nocca/"):
+            with self.subTest(route=route):
+                self.assertEqual(review.retained_legacy_links(route, [], navigation), set())
+
 
     def test_exact_nocca_form_accepted_in_legal_source_and_render(self):
         for route in review.FORM_ROUTES:
