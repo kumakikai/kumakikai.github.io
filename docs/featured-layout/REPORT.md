@@ -30,6 +30,8 @@ JavaScript無効時も、静的に出力される4件へ同じCSSが働きます
 
 Hugo Extended 0.158.0／Node 22.22.0によるproduction buildは成功。[互換性検証](build-verification.json)で既存191 URL、84記事、44 Guide/FAQ本文を保持し、エラー・警告は0件でした。
 
+公開前に並行作業のNocca法務・サポート更新`006e874`を統合しました。その本文やURLを巻き戻さず、統合後のproduction build、追加の法務レビュー検査18件、URL互換性検証もすべて成功しています。今回のFeatured修正に伴う本文・URL変更はありません。
+
 ## 主な変更ファイル
 
 - `assets/css/site.css`：表示順に基づくDesktopの左右交互配置。
