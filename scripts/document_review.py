@@ -160,7 +160,8 @@ def check_structure(root, route, doc):
     else:
         require(bool(h2) and all(re.match(rf'^{i}\.\s', text) for i, text in enumerate(h2, 1)), 'numbering', 'Legal headings must have consecutive section numbers')
         require(bool(h2) and h2[-1].split('. ', 1)[-1] == ui['contact'], 'structure', 'Legal contact must be the final section')
-        require(not any(n.has_class('support-resources') or n.has_class('article-related') for n in doc.nodes), 'navigation', 'Legal documents must not repeat generic support navigation')
+        require(not any(n.has_class('support-resources') or n.has_class('article-related') for n in body.descendants()), 'navigation', 'Shared support navigation belongs after the formal legal body')
+        require(sum(n.has_class('article-related') for n in doc.nodes) == 1 and sum(n.has_class('support-resources') for n in doc.nodes) == 1, 'navigation', 'Legal pages need one shared support area after the body')
         require(sum(n.has_class('legal-dates') for n in doc.nodes) == 1, 'dates', 'Legal dates must appear once above the body')
         require('Yuya Nakamura' in body.text() and 'KUMAKIKAI' in body.text(), 'operator', 'Name the common operator')
         require(not re.search(r'GitHub|Privacy Manifest|PrivacyInfo|リポジトリ|サイト生成|ホスティング', body.text(), re.I), 'internal_details', 'Internal website/build details do not belong in app legal text')

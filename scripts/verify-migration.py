@@ -455,7 +455,7 @@ class Verification:
         return bool(re.match(r"^/(?:en/|ko/|de/|zh-hant/|fr/)?(?:notes|news)(?:/|$)", urlsplit(href).path))
 
     def verify_support_resources(self, container, app, lang, route, omitted=None):
-        """One data-backed row design for Product, Guide, and FAQ resources.
+        """One data-backed row design for Product and all product documents.
 
         This checks rendered output independently of the Hugo partial, including
         custom Terms priority, Japanese translation fallback, and external EULA
@@ -467,7 +467,7 @@ class Verification:
         shared = json.loads((self.data_file.parent / "support.json").read_text(encoding="utf-8"))
         metadata = app.get("support", {})
         kinds = [kind for kind in ("guide", "faq", "contact", "privacy", "terms") if kind != omitted]
-        if omitted in {"guide", "faq"} and route in self.document_reviews:
+        if omitted in {"guide", "faq", "privacy", "terms"} and route in self.document_reviews:
             # Contact lives once in the document body, with independently
             # validated destination and wording. Product still has all five rows.
             kinds.remove("contact")
@@ -481,7 +481,7 @@ class Verification:
         rows = [n for n in lists[0].parts if isinstance(n, Node)]
         self.require([n.attrs.get("data-support-kind") for n in rows] == kinds and all(n.tag == "li" for n in rows), route, "support_rows", f"Support rows must be ordered {kinds}; omit only the current resource")
         all_links = list(container.descendants("a"))
-        # A Guide/FAQ may have one secondary Product backlink after its rows.
+        # A product document may have one secondary Product backlink after its rows.
         expected_product = localized(lang, f"/products/{app['id']}/")
         extra_links = [n for n in all_links if n not in list(lists[0].descendants("a"))]
         self.require((not extra_links if omitted is None else len(extra_links) <= 1 and all(n.attrs.get("href") == expected_product and n.has_class("text-link") for n in extra_links)), route, "support_extra_links", "Only a secondary direct Product backlink may sit outside the resource rows")
@@ -921,7 +921,7 @@ class Verification:
                 self.require(sum(n.has_class("app-store-badge") for n in doc.nodes) == (2 if self.available(app) else 0), route, "product_download", "Product Store badges belong only to the hero and lower download sections")
                 self.require(sum(n.has_class("storefront-link") for n in doc.nodes) == len(app.get("availability", {}).get("verifiedStorefronts", [])), route, "storefront_links", "Product country links must appear only once in the hero")
                 self.verify_product_support(doc, app, lang, route)
-                for section, omitted in (("htu", "guide"), ("faq", "faq")):
+                for section, omitted in (("htu", "guide"), ("faq", "faq"), ("privacy", "privacy"), ("terms", "terms")):
                     resource_route = localized(lang, f"/{section}/{app_id}/")
                     resource_target = self.target(resource_route, "/")
                     if not resource_target or not resource_target[0].is_file():
@@ -930,7 +930,7 @@ class Verification:
                     if resource.redirect():
                         continue
                     related = [n for n in resource.nodes if n.has_class("article-related")]
-                    self.require(len(related) == 1, resource_route, "support_component", "Guide and FAQ pages need one related-support area")
+                    self.require(len(related) == 1, resource_route, "support_component", "Product documents need one related-support area")
                     if len(related) == 1:
                         self.verify_support_resources(related[0], app, lang, resource_route, omitted=omitted)
                 store_links = [node.attrs.get("href", "") for node in doc.tagged("a") if urlsplit(node.attrs.get("href", "")).hostname == "apps.apple.com"]

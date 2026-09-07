@@ -46,17 +46,16 @@ function expectedURL(app, kind, locale) {
       const page=await ctx.newPage();
       try {
         const response=await page.goto(base+p.route,{waitUntil:'load'});assert.equal(response.status(),200);
-        const legal=['privacy','terms'].includes(p.section);
-        const resourcePanel=page.locator('.support-resources');assert.equal(await resourcePanel.count(),legal?0:1);
+        const resourcePanel=page.locator('.support-resources');assert.equal(await resourcePanel.count(),1);
         const contact=page.locator('[data-document-contact]');assert.equal(await contact.count(),p.section==='products'?0:1);
-        const panel=legal?contact:resourcePanel;
+        const panel=resourcePanel;
         await panel.scrollIntoViewIfNeeded();
         r.rows=await resourcePanel.locator('li').evaluateAll(nodes=>nodes.map(n=>{
           const a=n.querySelector('a'),title=a.querySelector('.resource-title'),desc=a.querySelector('.resource-description'),style=getComputedStyle(a);
           return {kind:n.dataset.supportKind,href:a.getAttribute('href'),title:title?.textContent.trim(),description:desc?.textContent.trim(),target:a.getAttribute('target'),rel:a.getAttribute('rel'),note:a.querySelector('.sr-only')?.textContent,arrow:a.querySelector('[aria-hidden]')?.textContent.trim(),height:a.getBoundingClientRect().height,style:[style.display,style.fontSize,style.borderBottomStyle,style.borderBottomWidth,style.paddingTop,style.paddingBottom],titleSize:getComputedStyle(title).fontSize,descriptionSize:desc&&getComputedStyle(desc).fontSize};
         }));
         const currentKind=p.section==='htu'?'guide':p.section;
-        const kinds=legal?[]:['guide','faq','contact','privacy','terms'].filter(k=>k!==currentKind&&(p.section==='products'||k!=='contact'));
+        const kinds=['guide','faq','contact','privacy','terms'].filter(k=>k!==currentKind&&(p.section==='products'||k!=='contact'));
         assert.deepEqual(r.rows.map(row=>row.kind),kinds);
         const app=apps.find(a=>a.id===p.id);
         if(p.section!=='products'){
@@ -92,7 +91,7 @@ function expectedURL(app, kind, locale) {
         r.layout=await page.evaluate(()=>({width:document.documentElement.scrollWidth,dark:document.documentElement.classList.contains('dark'),oldUI:document.querySelectorAll('.related-resource,.resource-terms').length,articleLinks:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')).filter(h=>/\/(notes|news)\/[^#/?]+\//.test(h))}));
         r.lightTheme=await assertLightTheme(page);assert(r.layout.width<=width);assert.equal(r.layout.dark,false);assert.equal(r.layout.oldUI,0);assert.deepEqual(r.layout.articleLinks,[]);
         if(['privacy','terms'].includes(p.section)){
-          // Legal pages finish with contact; Product retains the five destinations.
+          // Formal legal text ends with contact; shared support follows outside it.
           r.genericRelatedLabels=await page.locator('[data-content-body] p, [data-content-body] h2, [data-content-body] h3, [data-content-body] h4').evaluateAll(nodes=>nodes.map(n=>n.textContent.trim()).filter(text=>/^(?:関連ページ|Related pages|관련 페이지|関連頁面|相關頁面|Verwandte Seiten|Pages connexes)\s*[:：]?$/i.test(text)));
           assert.deepEqual(r.genericRelatedLabels,[],'Legal pages must not repeat generic Related Pages lists');
         }

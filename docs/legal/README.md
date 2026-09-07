@@ -17,8 +17,11 @@ uses the old fixed source hash and its exact one-line removal exception.
 Only a successfully validated later catalog can supersede source checks for the
 two earlier Nocca legal records; the old review catalog is retained as historical
 evidence. Missing, malformed or out-of-scope current reviews fail verification.
-Product Support retains five destinations; legal bodies now end with contact
-only and do not repeat the generic support list. The contact shortcode uses the
+Product Support retains five destinations. Legal bodies end with the shared
+contact block, followed by the same support section used on Guide and FAQ pages.
+The section omits the current page and contact already present in the body,
+leaving Guide, FAQ and the other legal document, plus a Product backlink. The old
+handwritten related-page lists remain removed. The contact shortcode uses the
 same metadata as Product, including the exact approved Nocca form.
 
 The following sections describe earlier authorized revisions, not restrictions
