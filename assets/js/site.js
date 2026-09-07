@@ -1,13 +1,4 @@
 (() => {
-  const root = document.documentElement;
-  const media = matchMedia('(prefers-color-scheme: dark)');
-  const syncTheme = () => root.classList.toggle('dark', root.dataset.theme === 'dark' || (root.dataset.theme === 'auto' && media.matches));
-  document.getElementById('theme-toggle')?.addEventListener('click', () => {
-    root.dataset.theme = root.classList.contains('dark') ? 'light' : 'dark';
-    try { localStorage.setItem('pref-theme', root.dataset.theme); } catch (_) {}
-    syncTheme();
-  });
-  media.addEventListener('change', syncTheme);
   const menu = document.getElementById('mobile-menu');
   const toggle = document.querySelector('.menu-toggle');
   const close = () => menu.close();

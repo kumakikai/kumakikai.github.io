@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-theme.cjs');
 // Focused browser checks for the shared Product / Guide / FAQ resources.
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
@@ -37,6 +38,7 @@ function expectedURL(app, kind, locale) {
     for (const p of routes) for (const width of (p.locale==='ja'?[1440,768,390]:[1440,390])) for (const theme of (width===390&&p.locale==='ja'?['light','dark']:['light'])) {
       const r={...p,width,theme};
       const ctx=await browser.newContext({viewport:{width,height:1000},colorScheme:theme});
+      if (theme === 'dark') await seedLegacyDarkPreference(ctx);
       const page=await ctx.newPage();
       try {
         const response=await page.goto(base+p.route,{waitUntil:'load'});assert.equal(response.status(),200);
@@ -59,7 +61,7 @@ function expectedURL(app, kind, locale) {
           if (row.href===defaults.standardEULAURL) assert(row.rel==='external'&&row.note&&row.arrow==='↗');
         }
         r.layout=await page.evaluate(()=>({width:document.documentElement.scrollWidth,dark:document.documentElement.classList.contains('dark'),oldUI:document.querySelectorAll('.related-resource,.resource-terms').length,articleLinks:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')).filter(h=>/\/(notes|news)\/[^#/?]+\//.test(h))}));
-        assert(r.layout.width<=width);assert.equal(r.layout.dark,theme==='dark');assert.equal(r.layout.oldUI,0);assert.deepEqual(r.layout.articleLinks,[]);
+        r.lightTheme=await assertLightTheme(page);assert(r.layout.width<=width);assert.equal(r.layout.dark,false);assert.equal(r.layout.oldUI,0);assert.deepEqual(r.layout.articleLinks,[]);
         const links=panel.locator('a');
         for (const link of [links.first(),links.last()]) {
           await page.keyboard.press('Tab');await link.focus();

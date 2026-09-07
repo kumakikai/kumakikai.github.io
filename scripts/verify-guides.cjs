@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-theme.cjs');
 // Render every existing app guide and FAQ. UI images remain static and work
 // without site JavaScript; forced decoding here only makes QA deterministic.
 const fs=require('node:fs');
@@ -22,6 +23,7 @@ function save(pending){fs.writeFileSync(output,JSON.stringify({checkedAt:new Dat
 async function inspect(browser,p,width,theme,noJS=false){
  const name=`${p.section}-${p.app}-${p.locale}-${width}-${theme}${noJS?'-no-js':''}`;
  const ctx=await browser.newContext({viewport:{width,height:900},deviceScaleFactor:1,colorScheme:theme,javaScriptEnabled:!noJS});
+ if (theme === 'dark') await seedLegacyDarkPreference(ctx);
  if(!noJS&&engine==='chrome')await ctx.addInitScript(()=>{window.__guideShifts=[];new PerformanceObserver(list=>{for(const e of list.getEntries())if(!e.hadRecentInput)window.__guideShifts.push({value:e.value,startTime:e.startTime});}).observe({type:'layout-shift',buffered:true});});
  const page=await ctx.newPage();page.setDefaultTimeout(15000);
  const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
@@ -47,8 +49,7 @@ async function inspect(browser,p,width,theme,noJS=false){
    return {scrollWidth:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight,images,brokenImages:[...document.images].filter(i=>visible(i)&&!i.naturalWidth).map(i=>i.src),duplicateIDs:ids.filter((v,i)=>ids.indexOf(v)!==i),headingCount:document.querySelectorAll('h1').length,bodyWidth:body.getBoundingClientRect().width,headings:blocks.filter(b=>/^H/.test(b.tag)),tinyTails:blocks.filter(b=>b.lines.length>1&&b.lines.at(-1).replace(/[\s。、！？]/g,'').length<=2),dark:document.documentElement.classList.contains('dark')};
   });
   assert.equal(result.layout.headingCount,1);assert.deepEqual(result.layout.duplicateIDs,[]);assert.deepEqual(result.layout.brokenImages,[]);assert(result.layout.scrollWidth<=width,'No horizontal overflow');
-  // No-JS mode may use data-theme=auto plus CSS rather than a JS class.
-  if(!noJS)assert.equal(result.layout.dark,theme==='dark');
+  result.lightTheme = await assertLightTheme(page);
   if(p.section==='htu'){
    assert(result.layout.images.length>0,'Every app guide has real UI images');
    for(const i of result.layout.images){assert(i.alt.trim()&&i.srcset&&i.sizes&&Number(i.explicitWidth)>0&&Number(i.explicitHeight)>0);assert(i.naturalWidth>0);assert(i.width<=Math.min(result.layout.bodyWidth,762));assert(i.src.includes('.webp'),'Optimized image');}

@@ -600,6 +600,11 @@ class Verification:
             experience = [n for n in biographies[0].descendants() if n.has_class("founder-experience")]
             expected_experience = [" / ".join(copy.get("experience", [])), "C / C++ / C# / Java / Python / Dart / Swift"]
             self.require(len(copy.get("experience", [])) == 3 and len(experience) == 1 and [n.text().strip() for n in experience[0].descendants("dd")] == expected_experience, route, "about_founder_experience", "Retain the three software domains and the authorized technical experience")
+        app_copy = json.loads((self.data_file.parent / "home" / (lang + ".json")).read_text(encoding="utf-8"))
+        introductions = [n for n in doc.nodes if n.has_class("company-about")]
+        self.require(len(introductions) == 1, route, "brand_introduction", "About retains one brand introduction")
+        introduction_text = normalized("".join(n.text() for n in introductions)).casefold()
+        self.require(not any(normalized(app_copy["apps"][app["id"]]["name"]).casefold() in introduction_text for app in apps), route, "brand_introduction", "About brand copy must not single out Product examples; Product presentations belong in What we build")
         self.require("webLabel" not in copy and "buildIntro" not in copy, route, "about_copy", "About must omit the redundant Web label and category introduction")
         title = doc.tagged("title")
         self.require(len(title) == 1 and re.match(r"^About(?:\s|$)", title[0].text()), route, "about_title", "The page title must be About while retaining /company/")
@@ -728,6 +733,10 @@ class Verification:
                 home = self.document(home_target[0])
                 home_copy = json.loads((self.data_file.parent / "home" / (lang + ".json")).read_text(encoding="utf-8"))
                 self.require(home_copy["apps"]["uni-note"].get("platform") == "iPad", home_route, "ipad_wording", "Uni:Note platform must use iPad without an exclusivity claim in every language")
+                introductions = [n for n in home.nodes if n.has_class("home-about")]
+                self.require(len(introductions) == 1, home_route, "brand_introduction", "Home retains one About introduction")
+                introduction_text = normalized("".join(n.text() for n in introductions)).casefold()
+                self.require(not any(normalized(home_copy["apps"][app["id"]]["name"]).casefold() in introduction_text for app in apps), home_route, "brand_introduction", "Home About copy must not single out Product examples")
                 for app_id, old in self.baseline.get("home_app_copy", {}).get(home_route, {}).items():
                     copy_file = self.data_file.parent / "home" / (lang + ".json")
                     if copy_file.is_file():
@@ -913,6 +922,16 @@ class Verification:
                         break
                 self.counts["redirects"] += 1
                 continue
+            # Every ordinary page advertises the same light brand theme in its
+            # initial HTML, including no-JavaScript and system-dark visitors.
+            html = doc.tagged("html")
+            self.require(len(html) == 1 and not html[0].has_class("dark") and "data-theme" not in html[0].attrs, route, "light_theme", "HTML must not carry a dark or automatic theme selector")
+            self.require(doc.meta("color-scheme") == ["light"], route, "light_theme", "Only the light color scheme may be advertised")
+            theme_colors = [n for n in doc.tagged("meta") if n.attrs.get("name") == "theme-color"]
+            self.require(len(theme_colors) == 1 and theme_colors[0].attrs.get("content") == "#ffffff" and not theme_colors[0].attrs.get("media"), route, "light_theme", "Browser chrome must use the fixed white brand color")
+            self.require(not any(n.attrs.get("id") == "theme-toggle" or n.has_class("theme-toggle") for n in doc.nodes), route, "light_theme", "Removed theme controls must not be rendered")
+            inline_scripts = " ".join(part for n in doc.tagged("script") for part in n.parts if isinstance(part, str))
+            self.require(not re.search(r"pref-theme|prefers-color-scheme|dataset\.theme", inline_scripts), route, "light_theme", "Initial scripts must not restore or auto-select the removed theme")
             if not route.endswith("404.html"):
                 self.verify_seo(doc, route)
             self.require(not DEMO_TEXT.search(doc.root.text()), route, "demo_content", "Hugoplate demo/placeholder text was published")

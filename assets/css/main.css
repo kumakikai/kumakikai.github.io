@@ -2,7 +2,6 @@
 @import "tailwindcss" source(none);
 @plugin "@tailwindcss/typography";
 @source "hugo_stats.json";
-@custom-variant dark (&:where(.dark, .dark *));
 @import "./generated-theme.css";
 @import "./base.css";
 @import "./components.css";

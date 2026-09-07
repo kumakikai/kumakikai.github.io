@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-theme.cjs');
 // Browser QA for the preview of Smokeless Apple Watch support. No app/Store actions.
 const fs = require('node:fs');
 const path = require('node:path');
@@ -44,6 +45,7 @@ async function inspect(browser, locale, kind, width, theme, noJS = false) {
   if (process.env.TEST_FILTER && !new RegExp(process.env.TEST_FILTER).test(name)) return;
   const url = base + prefix(locale) + (kind === 'product' ? '/products/smokeless/' : '/htu/smokeless/');
   const context = await browser.newContext({ viewport: { width, height: width > 700 ? 1000 : 844 }, colorScheme: theme, javaScriptEnabled: !noJS, deviceScaleFactor: 1 });
+  if (theme === 'dark') await seedLegacyDarkPreference(context);
   const page = await context.newPage();
   page.setDefaultTimeout(12000);
   const failures = [];
@@ -108,7 +110,7 @@ async function inspect(browser, locale, kind, width, theme, noJS = false) {
     assert.deepEqual(result.layout.duplicateIDs, []);
     assert.deepEqual(result.layout.headingSkips, []);
     assert.deepEqual(result.layout.brokenImages, []);
-    assert.equal(result.layout.darkMode, theme === 'dark', 'Theme follows preference with or without JavaScript');
+    result.lightTheme = await assertLightTheme(page);
     for (const i of result.layout.images) { assert(i.alt && i.explicitWidth && i.explicitHeight); assert.equal(i.loading, 'lazy'); assert(i.displayedWidth > 90); }
     if (!noJS) {
       await page.addScriptTag({ content: axeSource });

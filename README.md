@@ -191,11 +191,11 @@ Newsの`#press-release`・`#blog`・`#information`は同じ一覧のカテゴリ
 
 `data/company/`の6言語を編集します。画面の名称はAbout、データの場所と公開URLは`company`のまま維持します。氏名は`founderName: "Yuya Nakamura"`に統一し、英字氏名の別フィールドや漢字氏名を重複表示しません。画像altも同じ氏名を使います。肩書き・経歴は、本人が公開を許可した事実または確認できる既存公開情報に限定してください。出典と非掲載判断は[Company拡張レポート](docs/company/REPORT.md)と[根拠](docs/company/evidence.json)に記録しています。名刺の電話番号と名刺全体はWebへ掲載しません。本人が利用を許可した人物イラストの編集方法・出典は[人物画像の記録](docs/company/portrait/asset.json)を参照してください。
 
-Aboutの紹介文には固定の件数や`%d`による数値の差し込みを使いません。`areas`の各行には`area`を設定し、同じ領域の`data/apps.json`から紹介候補を参照します。既存の`product`はJavaScript無効時の表示用IDとして残し、該当する領域内のアプリを指定します。アイコン・名称・端末・URLはProductデータを共用します。`featured`や`area`を変更しても、`status`・Store URL・提供地域の根拠は変更しません。実績のために未確認のDL数、勤務先・経験年数・学歴、法人格・所在地等を追加しないでください。主要CTAは末尾の既存メール窓口です。For Mediaから同じページの`#contact`へ直接移動できます。
+Home／AboutのKUMAKIKAI紹介文では特定Productを代表例として列挙せず、具体的なProduct紹介はProductsおよびWhat we buildへ任せます。固定の件数や`%d`による数値の差し込みも使いません。`areas`の各行には`area`を設定し、同じ領域の`data/apps.json`から紹介候補を参照します。既存の`product`はJavaScript無効時の表示用IDとして残し、該当する領域内のアプリを指定します。アイコン・名称・端末・URLはProductデータを共用します。`featured`や`area`を変更しても、`status`・Store URL・提供地域の根拠は変更しません。実績のために未確認のDL数、勤務先・経験年数・学歴、法人格・所在地等を追加しないでください。主要CTAは末尾の既存メール窓口です。For Mediaから同じページの`#contact`へ直接移動できます。
 
-Aboutの基本情報は名称・開発者・事業内容だけとし、Webやメールを重ねて載せません。問い合わせ先はContactのメールCTAへ集約します。抽象的な開発理念の3項目は使わず、Founderで出典のある開発背景を短く紹介します。日本語コピーと改行の監査記録は[コピー監査レポート](docs/copy-audit/REPORT.md)を参照してください。日本語の改行は`assets/css/site.css`で禁則処理、見出しの均等な折り返し、幅・余白を調整し、対応ブラウザでは`auto-phrase`を補助的に使用します。文章へ改行タグを足して表示幅を固定しないでください。
+Aboutの基本情報と公開する事業者情報は[運用ガイドのAbout・Founder](docs/WEBSITE_MAINTENANCE.md#aboutfounder)を正本とし、Webやメールを重ねて載せません。問い合わせ先はContactのメールCTAへ集約します。抽象的な開発理念の3項目は使わず、Founderで出典のある開発背景を短く紹介します。日本語コピーと改行の監査記録は[コピー監査レポート](docs/copy-audit/REPORT.md)を参照してください。日本語の改行はproduction buildの組版処理と`assets/css/site.css`で意味のまとまり・幅・余白を調整します。文章へ改行タグを足して表示幅を固定しないでください。
 
-AboutのSEO説明は`data/corporate/<lang>.json`の`companyDescription`で管理し、画面名は`nav.company: "About"`とします。変更時は`npm run sync:products`を実行します。同期スクリプトはこのナビゲーション名をページtitleにも使いますが、`/company/`と各言語の既存URLは変更しません。Aboutだけに公開許可済みFounderのPerson情報をOrganization schemaへ補足しています。
+AboutのSEO title／descriptionは`data/seo/<lang>.json.about`、画面名は`data/corporate/<lang>.json`の`nav.company: "About"`で管理します。生成入口に影響する変更後は`npm run sync:products`を実行します。`/company/`と各言語の既存URLは変更しません。Brand／Person等の現在のschema構造は[運用ガイドの構造化データ](docs/WEBSITE_MAINTENANCE.md#構造化データ)を参照してください。
 
 日本語の長いNewsタイトルで語中改行が起きる場合は、`data/heading_phrases.json`に元タイトルと意味のまとまりを登録できます。共通partialがNews一覧と記事見出し（本文内の見出しを含む）に同じまとまりを使い、画面幅に応じて折り返します。改行位置を固定する指定ではありません。各部分の連結は元のタイトルと必ず一致させ、1部分を長くしすぎないでください。記事本文・URL・SEOのタイトルは変わりません。
 
@@ -223,11 +223,11 @@ HugoplateのTailwind CSS v4、base typography、content typography、container�
 
 採用元は[Hugoplate公式commit `2f5a454ee708f5f2666414af9ef48df65570752a`](https://github.com/zeon-studio/hugoplate/tree/2f5a454ee708f5f2666414af9ef48df65570752a)、package 3.5.1です。`themes/hugoplate/UPSTREAM.json`に採用ファイルとSHA-256、同ディレクトリにMIT LICENSEを保存しています。デモ記事、イラスト、testimonial、slider、不要なGo Modulesは含めません。
 
-上流更新時は固定commitとの差分を調べ、採用しているruntimeだけを更新し、SHA・出典・必要バージョンを更新します。公式starterの`project-setup`／`update-theme`をこのサイトでそのまま実行すると既存構成と衝突するため、使用しません。更新後はbuild、移行検証、主要画面のresponsive／Light／Dark／キーボード操作を確認します。
+上流更新時は固定commitとの差分を調べ、採用しているruntimeだけを更新し、SHA・出典・必要バージョンを更新します。公式starterの`project-setup`／`update-theme`をこのサイトでそのまま実行すると既存構成と衝突するため、使用しません。KUMAKIKAI公式サイトはライトテーマ固定で、通常更新ではDark modeやテーマ切替を再導入しません。更新後はbuild、移行検証、主要画面のresponsive・キーボード操作と、OSのダーク設定や旧theme保存値がある場合も同じライト表示になることを確認します。
 
 build依存はTailwind、Tailwind CLI、Typographyと、日本語組版用のBudouX・parse5です。追加のWeb Font、SPA、animation frameworkは使用していません。色・フォントは`data/theme.json`と`assets/css/site.css`の既存変数を確認して変更します。
 
-Tailwindの自動ファイル探索は`source(none)`で無効化し、Hugoが実際に出力した`hugo_stats.json`だけを明示的に読み込みます。README・検証JSON・vendorデモ等の単語がCSS候補へ混ざり、ローカルとCIのfingerprintが変わることを防ぎます。JavaScriptで追加するクラスは現在`js`・`dark`・`menu-open`で、`site.css`に明示的な定義があります。
+Tailwindの自動ファイル探索は`source(none)`で無効化し、Hugoが実際に出力した`hugo_stats.json`だけを明示的に読み込みます。README・検証JSON・vendorデモ等の単語がCSS候補へ混ざり、ローカルとCIのfingerprintが変わることを防ぎます。JavaScriptで追加するクラスは現在`js`・`menu-open`で、`site.css`に明示的な定義があります。サイト配色を切り替える`dark`クラスは使用しません。
 
 画像にはWebPのresponsive variantsと実寸を設定し、Hero以外は原則lazy loadingにします。実在しないUIや未公開機能を画像で補いません。HeroとOGPの出典・加工内容は[Hero素材記録](docs/migration/hero-assets.md)、[OGP素材記録](docs/migration/og-assets.md)を参照してください。OGPのPNGはコミット済みで、通常のbuild時には再生成しません。既存のsharp環境を使い、`node scripts/generate-og.mjs uni-note`で指定Productだけ再生成できます。引数なしなら共通画像と全Productを生成します。
 

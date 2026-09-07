@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { assertLightTheme } = require('./assert-light-theme.cjs');
 // Cross-page Japanese line geometry and browser review evidence. No source UI mutation.
 const { chromium, webkit } = require('playwright');
 const fs = require('node:fs');
@@ -39,6 +40,7 @@ async function inspect(browser, route, width, seed=1) {
  let detail={};
  try {
  const response=await page.goto(base+route,{waitUntil:'load'}); assert.equal(response.status(),200);
+ await assertLightTheme(page);
  await page.evaluate(async()=>{for(const img of document.images)img.loading='eager';await Promise.all([...document.images].map(img=>img.decode().catch(()=>{})));await document.fonts.ready;});
  detail=await page.evaluate(()=>{
  const segmenter=new Intl.Segmenter('ja',{granularity:'word'});

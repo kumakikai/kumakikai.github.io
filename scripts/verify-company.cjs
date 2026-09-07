@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-theme.cjs');
 // Focused Company/News browser QA; provide playwright and axe-core through NODE_PATH.
 const { chromium } = require('playwright');
 const fs = require('node:fs');
@@ -84,6 +85,7 @@ async function keyboardFocus(page, link) {
 }
 
 async function company(page, locale, name, noJS = false) {
+  const home = read(`data/home/${locale}.json`);
   const copy = read(`data/company/${locale}.json`);
   const corp = read(`data/corporate/${locale}.json`);
   assert.equal((await page.locator('.page-heading h1').textContent()).trim(), corp.companyTitle, 'Existing Company hero title stays unchanged');
@@ -113,6 +115,8 @@ async function company(page, locale, name, noJS = false) {
     previousBottom = bounds.y + bounds.height;
   }
   assert.deepEqual(await page.locator('.company-about > div > p').allTextContents(), copy.about);
+  const introduction = (await page.locator('.company-about').innerText()).replace(/\s/g, '').toLocaleLowerCase();
+  for (const app of apps) assert.equal(introduction.includes(home.apps[app.id].name.replace(/\s/g, '').toLocaleLowerCase()), false, 'Brand introduction does not single out Product examples');
   assert.equal(copy.founderName, 'Yuya Nakamura', 'All locales use the authorized Roman name');
   assert.equal(Object.hasOwn(copy, 'founderEnglishName'), false, 'No second founder name field');
   assert.equal((await page.locator('.founder-identity h3').textContent()).trim(), copy.founderName);
@@ -126,7 +130,6 @@ async function company(page, locale, name, noJS = false) {
   assert.deepEqual(await page.locator('.company-areas h3').allTextContents(), copy.areas.map(area => area.title));
   assert.deepEqual(await page.locator('.company-areas li > div > p').allTextContents(), copy.areas.map(area => area.description));
   const selectedAreas = [];
-  const home = read(`data/home/${locale}.json`);
   assert.deepEqual(copy.areas.map(area => area.area), ['learning', 'communication', 'utilities']);
   for (const area of copy.areas) {
     const row = page.locator(`.company-areas li[data-area="${area.area}"]`);
@@ -270,6 +273,7 @@ async function newsFilters(page, locale, name, noJS) {
       if (process.env.TEST_FILTER && !new RegExp(process.env.TEST_FILTER).test(name)) return;
       const route = `${prefix(locale)}/${kind === 'home' ? '' : kind + '/'}`;
       const context = await browser.newContext({ viewport: { width, height }, colorScheme: theme, javaScriptEnabled: !noJS, deviceScaleFactor: 1 });
+      if (theme === 'dark') await seedLegacyDarkPreference(context);
       const page = await context.newPage();
       page.setDefaultTimeout(15000);
       const errors = [];
@@ -279,6 +283,7 @@ async function newsFilters(page, locale, name, noJS) {
       try {
         const response = await page.goto(base + route, { waitUntil: 'networkidle' });
         assert.equal(response.status(), 200);
+        await assertLightTheme(page);
         if (!noJS) {
           await loadImages(page);
           await page.addScriptTag({ content: axeSource });

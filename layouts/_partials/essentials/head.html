@@ -17,7 +17,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $description }}">
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -39,4 +40,4 @@
 {{ with site.Params.verification.google }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
 {{ with site.Params.verification.bing }}<meta name="msvalidate.01" content="{{ . }}">{{ end }}
 {{ if $indexable }}{{ partial "seo/schema.html" (dict "page" . "title" $title "description" $description "image" $image "productID" $productID) }}{{ end }}
-<script>!function(){var e=document.documentElement;e.classList.add('js');try{var t=localStorage.getItem('pref-theme');if(t==='light'||t==='dark')e.dataset.theme=t}catch(_){}e.classList.toggle('dark',e.dataset.theme==='dark'||(e.dataset.theme==='auto'&&matchMedia('(prefers-color-scheme:dark)').matches))}();</script>
+<script>document.documentElement.classList.add('js');</script>

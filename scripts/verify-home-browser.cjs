@@ -1,3 +1,4 @@
+const { assertLightTheme } = require('./assert-light-theme.cjs');
 // Run with Playwright installed; CHROME_PATH can select a local Chrome binary.
 const { chromium } = require('playwright');
 const fs = require('node:fs/promises');
@@ -22,7 +23,7 @@ async function main() {
         page.on('pageerror', e => errors.push(e.message));
         page.on('response', r => { if(r.status() >= 400) errors.push(`${r.status()} ${r.url()}`); });
         await page.goto(baseURL,{waitUntil:'networkidle'});
-        assert.equal(await page.locator('html').getAttribute('data-theme'),theme);
+        await assertLightTheme(page);
         // Load deferred screenshots in their actual document positions before capture.
         for (const screenshot of await page.locator('.app-screenshot img').all()) {
           await screenshot.scrollIntoViewIfNeeded();
@@ -42,10 +43,9 @@ async function main() {
         assert(metrics.images.every(i=>i.loaded),`${device} ${theme}: image failed`);
         assert.equal(metrics.overflow.length,0,JSON.stringify(metrics.overflow));
         assert.equal(errors.length,0,errors.join('\n'));
-        await page.getByRole('button',{name:'明るい表示と暗い表示を切り替える'}).click();
-        assert.equal(await page.locator('html').getAttribute('data-theme'),theme==='light'?'dark':'light');
+        await page.evaluate(() => localStorage.setItem('pref-theme', 'dark'));
         await page.reload();
-        assert.equal(await page.locator('html').getAttribute('data-theme'),theme==='light'?'dark':'light');
+        await assertLightTheme(page);
         await page.locator('.portfolio-support-links summary').first().click();
         assert(await page.locator('.portfolio-support-links details').first().getAttribute('open')!==null);
         await page.locator('.portfolio-language summary').click();

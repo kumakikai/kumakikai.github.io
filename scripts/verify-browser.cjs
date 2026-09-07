@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-theme.cjs');
 // Optional browser QA: provide playwright and axe-core through NODE_PATH.
 const { chromium } = require('playwright');
 const fs = require('node:fs');
@@ -223,6 +224,7 @@ async function inspectHomeSelection(page, javaScript = true) {
   async function inspect(name, route, width, height, theme, screenshot = false, axe = true) {
     if (process.env.TEST_FILTER && !new RegExp(process.env.TEST_FILTER).test(name)) return;
     const context = await browser.newContext({ viewport: { width, height }, colorScheme: theme, deviceScaleFactor: 1 });
+    if (theme === 'dark') await seedLegacyDarkPreference(context);
     const page = await context.newPage(), errors = [];
     page.on('pageerror', error => errors.push(String(error)));
     page.on('response', response => { if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
@@ -241,6 +243,8 @@ async function inspectHomeSelection(page, javaScript = true) {
         dark: document.documentElement.classList.contains('dark'),
       };
     });
+    try { layout.lightTheme = await assertLightTheme(page); }
+    catch (error) { errors.push(`Light theme: ${error.message}`); }
     let violations = [];
     if (axe) {
       await page.addScriptTag({ content: axeSource });
@@ -319,9 +323,17 @@ async function inspectHomeSelection(page, javaScript = true) {
     await page.locator(`#mobile-menu a[href="/${route}/"]`).click();
     await page.waitForURL(base + '/' + route + '/');
   }
-  await page.goto(base); await page.locator('#theme-toggle').click();
-  const chosen = await page.locator('html').getAttribute('data-theme'); await page.reload();
-  assert.equal(await page.locator('html').getAttribute('data-theme'), chosen);
+  // An old visitor's saved dark preference has no effect, including after reload
+  // and an operating-system theme change in an already-open tab.
+  await page.goto(base);
+  await page.evaluate(() => localStorage.setItem('pref-theme', 'dark'));
+  await page.emulateMedia({ colorScheme: 'dark' });
+  await page.reload();
+  await assertLightTheme(page);
+  await page.emulateMedia({ colorScheme: 'light' });
+  await assertLightTheme(page);
+  await page.emulateMedia({ colorScheme: 'dark' });
+  await assertLightTheme(page);
   // Products is the single selection hub for the product and its support resources.
   await page.goto(base + '/products/');
   await page.locator('.product-card[data-app-id="uni-note"] a.product-view').click();
@@ -364,8 +376,7 @@ async function inspectHomeSelection(page, javaScript = true) {
   const noJS = await browser.newContext({ viewport: { width: 393, height: 852 }, javaScriptEnabled: false, colorScheme: 'dark' });
   const noPage = await noJS.newPage(); await noPage.goto(base); await noPage.waitForLoadState('networkidle');
   assert.equal(await noPage.locator('.desktop-nav').isVisible(), true);
-  assert.equal(await noPage.locator('#theme-toggle').isVisible(), false);
-  assert.equal(await noPage.locator('body').evaluate(b => getComputedStyle(b).backgroundColor), 'rgb(23, 25, 29)');
+  await assertLightTheme(noPage);
   await inspectHomeSelection(noPage, false);
   await inspectStoreControls(noPage, '/');
   for (const image of await noPage.locator('img:visible').all()) {

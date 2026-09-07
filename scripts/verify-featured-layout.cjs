@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-theme.cjs');
 // Focused rendering regression for display-order-based Home Featured layout.
 const fs = require('node:fs');
 const assert = require('node:assert/strict');
@@ -74,7 +75,7 @@ async function inspect(page,{width,theme,noJS,seed}) {
   assert.deepEqual(rows.map(row=>row.position),width>900?['right','left','right','left']:['below','below','below','below'],'Final display index controls geometry');
   const pageLayout=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,theme:getComputedStyle(document.documentElement).colorScheme,reverseClasses:document.querySelectorAll('.app-showcase--reverse').length,groupReady:document.querySelector('[data-product-selection="3"]').hasAttribute('data-selection-ready')}));
   assert(pageLayout.scrollWidth<=width,'No horizontal overflow');
-  assert.equal(pageLayout.theme,theme);assert.equal(pageLayout.reverseClasses,0,'No product-specific reverse class');
+  pageLayout.lightTheme=await assertLightTheme(page);assert.equal(pageLayout.reverseClasses,0,'No product-specific reverse class');
   assert.equal(pageLayout.groupReady,!noJS);
   if(noJS)assert.deepEqual(rows.map(row=>row.id),['uni-note',...candidates.slice(0,3)]);
   for(const row of rows) {
@@ -132,6 +133,7 @@ async function record(name,task) {
   const browser=await(engine==='webkit'?webkit:chromium).launch({headless:true,...(engine==='chrome'?{executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'}:{})});
   async function sample({name,width=1440,theme='light',seed=1,noJS=false,screenshot=false}) {
     const ctx=await browser.newContext({viewport:{width,height:1000},colorScheme:theme,javaScriptEnabled:!noJS});
+    if (theme === 'dark') await seedLegacyDarkPreference(ctx);
     const errors=[];
     try{
       if(!noJS)await setup(ctx,seed);

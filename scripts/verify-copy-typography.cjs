@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { assertLightTheme } = require('./assert-light-theme.cjs');
 // Japanese editorial/layout QA. Dependencies are supplied through NODE_PATH.
 const { chromium, webkit, firefox } = require('playwright');
 const fs = require('node:fs');
@@ -84,6 +85,7 @@ async function inspect(browser, route, width, options = {}) {
   try {
     const response = await page.goto(base + route, { waitUntil: 'networkidle' });
     assert.equal(response.status(), 200, 'Page exists');
+    await assertLightTheme(page);
     if (options.fallback) await page.evaluate(() => {
       // Simulate unsupported auto-phrase without disabling explicit keep-all
       // rules that are part of the intended cross-browser fallback.

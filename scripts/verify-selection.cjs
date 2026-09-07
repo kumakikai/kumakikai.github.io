@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-theme.cjs');
 // Focused random product-selection QA. Supply existing Playwright and axe via NODE_PATH.
 const { chromium } = require('playwright');
 const fs = require('node:fs');
@@ -137,8 +138,7 @@ async function layout(page, theme) {
   });
   assert.ok(data.scrollWidth <= data.viewport, `Horizontal overflow at ${data.viewport}px`);
   assert.equal(data.h1, 1); assert.deepEqual(data.duplicateIDs, []); assert.deepEqual(data.headingSkips, []); assert.deepEqual(data.brokenImages, []);
-  // No-JS themes are checked through CSS media emulation separately below.
-  if (theme) assert.equal(data.dark, theme === 'dark');
+  data.lightTheme = await assertLightTheme(page);
   return data;
 }
 
@@ -221,6 +221,7 @@ async function checkSelection(page, pageType, locale, noJS = false) {
   const browser = await chromium.launch({ headless: true, executablePath: process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' });
   async function sample({ name, pageType, locale = 'ja', width = 1440, height = 1000, theme = 'light', seed = 37, noJS = false, blockExternalJS = false, screenshot = false, fast3G = false, axe = true }) {
     const context = await browser.newContext({ viewport: { width, height }, deviceScaleFactor: 1, colorScheme: theme, javaScriptEnabled: !noJS });
+    if (theme === 'dark') await seedLegacyDarkPreference(context);
     const errors = [], blocked = [];
     try {
       if (!noJS) await addInstrumentation(context, seed);
@@ -242,7 +243,7 @@ async function checkSelection(page, pageType, locale, noJS = false) {
       const initialLayoutShift = noJS ? null : await cls(page);
       await loadImages(page);
       const position = await layout(page, noJS ? null : theme);
-      assert.equal(position.colorScheme, theme, 'CSS applies the requested Light/Dark theme even without JavaScript');
+      assert.equal(position.dark, false, 'OS preference never changes the light brand theme');
       const afterImageLoading = noJS ? null : await cls(page);
       if (!noJS) {
         assert.ok(initialLayoutShift.cls <= .1, 'Initial navigation CLS remains at or below 0.1');

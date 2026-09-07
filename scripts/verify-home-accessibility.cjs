@@ -1,3 +1,4 @@
+const { assertLightTheme } = require('./assert-light-theme.cjs');
 const { chromium } = require('playwright');
 const fs = require('node:fs/promises');
 const path = require('node:path');
@@ -25,10 +26,7 @@ const assert = require('node:assert/strict');
     for (const theme of ['light','dark']) {
       const page=await browser.newPage({viewport:{width:390,height:844},colorScheme:theme,javaScriptEnabled:false});
       await page.goto(base,{waitUntil:'networkidle'});
-      assert.equal(await page.locator('html').getAttribute('data-theme'),'auto');
-      assert.equal(await page.locator('#theme-toggle').evaluate(e=>getComputedStyle(e).display),'none');
-      const background=await page.locator('.app-showcase--uni-note').evaluate(e=>getComputedStyle(e).backgroundColor);
-      assert.equal(background,theme==='dark'?'rgb(43, 41, 37)':'rgb(246, 243, 237)');
+      await assertLightTheme(page);
       await page.locator('.portfolio-language summary').click();
       assert.equal(await page.locator('.portfolio-language a:visible').count(),6);
       await page.screenshot({path:path.join(output,`iphone-${theme}-nojs.png`)});
@@ -37,6 +35,6 @@ const assert = require('node:assert/strict');
     const violations=reports.flatMap(r=>r.violations);
     await fs.writeFile(path.join(output,'accessibility-report.json'),JSON.stringify({passed:violations.length===0,noJS:true,reports},null,2));
     assert.equal(violations.length,0,JSON.stringify(violations,null,2));
-    console.log(JSON.stringify({passed:true,axeRuns:reports.length,violations:0,noJS:'light/dark passed'}));
+    console.log(JSON.stringify({passed:true,axeRuns:reports.length,violations:0,noJS:'fixed light under both OS preferences'}));
   } finally {await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

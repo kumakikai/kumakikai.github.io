@@ -1,6 +1,6 @@
 <!doctype html>
 {{/* Adapted from the pinned Hugoplate base: one shared shell, no demo plugins. */}}
-<html lang="{{ site.Language.LanguageCode }}" data-theme="auto">
+<html lang="{{ site.Language.LanguageCode }}">
 <head>
   {{ partial "essentials/head.html" . }}
   {{ with (templates.Defer (dict "key" "global-css")) }}{{ partial "essentials/style.html" . }}{{ end }}

@@ -1,10 +1,11 @@
 #!/usr/bin/env node
+const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-theme.cjs');
 // Read-only release audit against the published site, using production routes.
 const fs=require('node:fs');
 const path=require('node:path');
 const {chromium}=require('playwright');
 const base=process.env.TEST_BASE_URL||'https://kumakikai.github.io';
-const out='docs/release-audit';
+const out=process.env.TEST_OUTPUT||'docs/release-audit';
 const run=process.env.AUDIT_RUN||'before';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const apps=read('data/apps.json');
@@ -22,7 +23,9 @@ const all=files('public').filter(f=>f.endsWith('.html')).map(file=>{
   return {route,locale,section:parts[0]||'home',id:parts[1],alias:/<meta[^>]+http-equiv=["']?refresh/i.test(html)};
 });
 const routes=all.filter(p=>!p.alias);
-const cases=routes.flatMap(p=>[1440,...(['products','company'].includes(p.section)&&(p.section==='company'||p.id)?[390]:[])].map(width=>({...p,width})));
+const requestedWidths=process.env.AUDIT_WIDTHS?.split(',').map(Number);
+const osSchemes=(process.env.AUDIT_OS_SCHEMES||'light,dark').split(',');
+const cases=routes.flatMap(p=>(requestedWidths||[1440,...(['products','company'].includes(p.section)&&(p.section==='company'||p.id)?[390]:[])]).flatMap(width=>osSchemes.map(osColorScheme=>({...p,width,osColorScheme}))));
 const selected=process.env.AUDIT_ROUTES?cases.filter(p=>process.env.AUDIT_ROUTES.split(',').includes(p.route)):cases;
 fs.mkdirSync(`${out}/screenshots`,{recursive:true});
 const results=[];
@@ -32,6 +35,7 @@ function save(pending,fatal){fs.writeFileSync(`${out}/browser-${run}.json`,JSON.
   let next=0;
   async function worker(){
     const ctx=await browser.newContext({viewport:{width:1440,height:1000},colorScheme:'light'});
+    await seedLegacyDarkPreference(ctx);
     const page=await ctx.newPage();
     while(next<selected.length){
       const p=selected[next++],r={...p,errors:[],requestFailures:[],httpFailures:[],consoleErrors:[]};
@@ -41,8 +45,10 @@ function save(pending,fatal){fs.writeFileSync(`${out}/browser-${run}.json`,JSON.
       page.on('requestfailed',fail);page.on('response',response);page.on('pageerror',err);
       try{
         await page.setViewportSize({width:p.width,height:1000});
+        await page.emulateMedia({colorScheme:p.osColorScheme});
         const res=await page.goto(base+p.route,{waitUntil:'load',timeout:45000});
         r.status=res.status();if(r.status!==200)r.errors.push(`HTTP ${r.status}`);
+        r.lightTheme=await assertLightTheme(page);
         await page.evaluate(async()=>{
           const images=[...document.images];for(const i of images)i.loading='eager';
           await Promise.race([Promise.all(images.map(i=>i.decode().catch(()=>{}))),new Promise(resolve=>setTimeout(resolve,15000))]);
@@ -104,16 +110,16 @@ function save(pending,fatal){fs.writeFileSync(`${out}/browser-${run}.json`,JSON.
         }
         if(p.locale==='ja'&&['/','/products/uni-note/','/company/','/news/'].includes(p.route)){
           const label=p.route==='/'?'home':p.section==='products'?'uni-note':p.section;
-          r.screenshot=`screenshots/browser-${run}-${label}-${p.width}.jpg`;
+          r.screenshot=`screenshots/browser-${run}-${label}-${p.width}-os-${p.osColorScheme}.jpg`;
           await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:`${out}/${r.screenshot}`,type:'jpeg',quality:87});
           if(p.section==='company'){
             await page.locator('#founder').scrollIntoViewIfNeeded();
-            r.founderScreenshot=`screenshots/browser-${run}-founder-${p.width}.jpg`;
+            r.founderScreenshot=`screenshots/browser-${run}-founder-${p.width}-os-${p.osColorScheme}.jpg`;
             await page.screenshot({path:`${out}/${r.founderScreenshot}`,type:'jpeg',quality:87});
           }
           if(p.route==='/products/uni-note/'){
             await page.locator('.site-footer').scrollIntoViewIfNeeded();
-            r.footerScreenshot=`screenshots/browser-${run}-footer-${p.width}.jpg`;
+            r.footerScreenshot=`screenshots/browser-${run}-footer-${p.width}-os-${p.osColorScheme}.jpg`;
             await page.screenshot({path:`${out}/${r.footerScreenshot}`,type:'jpeg',quality:87});
           }
         }
@@ -121,11 +127,11 @@ function save(pending,fatal){fs.writeFileSync(`${out}/browser-${run}.json`,JSON.
       }catch(error){r.errors.push(error.message);}
       page.off('requestfailed',fail);page.off('response',response);page.off('pageerror',err);
       r.ok=!r.errors.length;results.push(r);save(true);
-      if(results.length%20===0||!r.ok)console.log(`${results.length}/${selected.length} ${p.route} ${p.width} ${r.ok?'PASS':r.errors.join('; ')}`);
+      if(results.length%20===0||!r.ok)console.log(`${results.length}/${selected.length} ${p.route} ${p.width} OS-${p.osColorScheme} ${r.ok?'PASS':r.errors.join('; ')}`);
     }
     await ctx.close();
   }
   try{await Promise.all([worker(),worker(),worker()]);}finally{await browser.close();save(false);}
-  console.log(JSON.stringify({cases:results.length,failures:results.filter(r=>!r.ok).map(r=>({route:r.route,width:r.width,errors:r.errors}))}));
+  console.log(JSON.stringify({cases:results.length,failures:results.filter(r=>!r.ok).map(r=>({route:r.route,width:r.width,osColorScheme:r.osColorScheme,errors:r.errors}))}));
   process.exitCode=results.every(r=>r.ok)?0:1;
 })().catch(error=>{console.error(error);save(false,error.message);process.exitCode=1;});

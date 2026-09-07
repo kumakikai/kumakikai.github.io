@@ -1,5 +1,5 @@
 // Adapted from Hugoplate 2f5a454ee708f5f2666414af9ef48df65570752a (MIT).
-// Only path resolution is changed; generated tokens belong to this site.
+// Site paths and light-only tokens are maintained outside the vendor.
 const fs = require("fs");
 const path = require("path");
 
@@ -81,27 +81,6 @@ function generateThemeCSS() {
     // Add default text colors
     if (themeConfig.colors.default?.text_color) {
       addColorsToCss(cssLines, themeConfig.colors.default.text_color);
-    }
-
-    // Add darkmode colors (if available)
-    if (themeConfig.colors.darkmode) {
-      cssLines.push("", "  /* === Darkmode Colors === */");
-
-      if (themeConfig.colors.darkmode.theme_color) {
-        addColorsToCss(
-          cssLines,
-          themeConfig.colors.darkmode.theme_color,
-          "darkmode",
-        );
-      }
-
-      if (themeConfig.colors.darkmode.text_color) {
-        addColorsToCss(
-          cssLines,
-          themeConfig.colors.darkmode.text_color,
-          "darkmode",
-        );
-      }
     }
 
     // Add font families

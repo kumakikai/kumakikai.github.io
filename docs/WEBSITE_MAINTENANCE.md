@@ -43,7 +43,9 @@
 | Contact | 取材・掲載・その他問い合わせ。現在は **`/company/#contact`**。独立した `/contact/` を仮定しない |
 | Privacy / Terms | 各アプリの既存本文URL。総合一覧を主要入口にしない |
 
-Headerは **Products / News / About** と言語切替・Light/Dark。Footerはブランド名、**Contact**、copyright、既存のApple商標表記。HeaderのサイトマップをFooterへ繰り返さず、通常追加で項目を増やさない。
+Headerは **Products / News / About** と言語切替。Footerはブランド名、**Contact**、copyright、既存のApple商標表記。HeaderのサイトマップをFooterへ繰り返さず、通常追加で項目を増やさない。
+
+**KUMAKIKAI公式サイトはライトテーマ固定。** 現在のライト配色を正式なブランドデザインとし、通常更新でDark modeやテーマ切替を再導入しない。OSの `prefers-color-scheme: dark` や旧theme保存値に反応してサイトを暗くしない。テーマ判定・保存・切替用の独自JS、Dark専用の独自CSSを追加しない。Hugoplate本体や依存を破壊的に変更する必要はない。実際のアプリにあるDark UI・スクリーンショットの配色はサイトのテーマ方針とは別で、画像を書き換えたりアプリ仕様を削除したりしない。
 
 Productsカードの「サポート」は **`/products/<id>/#support`**。対象が決まったらGuide／FAQ／Contact／Privacy／Termsへ直接進める。全アプリSupportで再選択させない。旧 `/support/` 等は互換用に残すがHeader・Footer・Homeから積極的に案内しない。
 
@@ -88,8 +90,10 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 | `assets/images/guides/<id>/` | 操作説明のcrop／画面素材。HugoがWebPへ処理 |
 | `static/images/{hero,og,badges}/` | Hero・OGP・公式バッジ。OGPは通常buildでは再生成しない |
 | `assets/images/company/yuya-nakamura.png` | 利用許可済み人物イラスト。名刺全体は掲載しない |
-| `data/theme.json` / `assets/css/{main,site}.css` | token／Hugoplate読込／共通Typography・レイアウト |
-| `assets/js/site.js` / `assets/js/select-products.js` | ナビ・テーマ・言語切替／Home・Aboutランダム選出 |
+| `data/theme.json` / `scripts/themeGenerator.js` | ライト専用token定義・生成。Dark用tokenを再追加しない |
+| `assets/css/{main,site}.css` | Hugoplate読込／共通Typography・レイアウト |
+| `assets/css/{base,components,buttons}.css` | サイト側のライト専用スタイルでHugoplate同名CSSをoverride |
+| `assets/js/site.js` / `assets/js/select-products.js` | ナビ・言語切替／Home・Aboutランダム選出 |
 | `scripts/sync-products.py` | 共通JSONから入口同期。編集記事は上書きしない |
 | `.github/workflows/deploy.yaml` | main push → build・検証 → gh-pages → Pages |
 
@@ -229,6 +233,8 @@ news_categoryは **press-release / blog / information**、UIは **Press Release 
 
 KUMAKIKAIは **Yuya Nakamuraが個人事業として運営するアプリ開発ブランド**。法人・架空の社員やオフィス・数値実績を作らない。表示名About・URL `/company/` を維持。Founderは **Yuya Nakamura** のみ、**Software Engineer / App Developer**、組み込み／業務／モバイル経験と `C / C++ / C# / Java / Python / Dart / Swift` を維持。勤務先・経験年数・学歴を推測しない。
 
+**Home／AboutのKUMAKIKAI紹介文では、特定Productを代表例として恣意的に列挙しない。** About冒頭は運営者・個人事業・iPhone／iPadアプリの企画開発とApp Storeでの公開運営、Home下部は運営者と対象端末を簡潔に伝える。具体的なProduct紹介はProductsおよびWhat we buildへ任せ、ブランド紹介の本文へ一部アプリの名称や固有機能を戻さない。編集元は `data/company/<lang>.json.about` と `data/home/<lang>.json.aboutText`。Home／AboutのSEO descriptionにも同じ方針を適用する。既存のProduct紹介・カテゴリ内代表Product・静的クロール導線は維持する。
+
 `data/company/ja.json.founderBio` は複数領域の経験、KUMAKIKAIでの企画・開発・運営、自分の不便や身近な人の困りごとから必要なものを作る、という本人のスタンス。通常Product更新で再生成せず、特定アプリだけの小話を追加しない。使用許可済み人物イラストは維持可。漢字氏名・電話番号・名刺全体を追加しない。
 
 基本情報は **名称／開発者／事業形態（個人事業）／事業内容／適格請求書発行事業者（登録済み）**。登録確認は国税庁公表サイトの本人情報へリンクし、番号・税務上の屋号・漢字氏名・住所等を転載しない。紹介文・ラベルは `data/company/<lang>.json`、確認リンクは `layouts/company/list.html` で管理する。Web欄・メール欄を戻さず末尾Contact CTAへ集約。For MediaはPress Release一覧と同ページ#contactへ。アプリSupportと一般問い合わせを混同しない。
@@ -310,7 +316,7 @@ Search Consoleは2026-09-07時点の回答では未登録。今後は接続状�
 - [ ] npm run sync:products後の生成Markdownを確認。Products静的リンク、H1、schema、canonical、hreflang、sitemap。
 - [ ] 新idの素材・地域証拠を登録。固定アプリ集合に依存するQA期待値を根拠付き拡張。baselineは緩めない。
 - [ ] production build、既存URL・Support・基本情報・SEO・画像検証。
-- [ ] Desktop／Tablet／Mobile、Light/Dark、keyboard。Home10回reload＋全候補両側、Aboutカテゴリを確認。
+- [ ] Desktop／Tablet／Mobileでライト表示・keyboardを確認。OSのダーク設定や旧theme保存値でもライト固定。Home10回reload＋全候補両側、Aboutカテゴリを確認。
 - [ ] 対象差分だけcommit/push。Actions／Pages後、Product・Products・Home等と画像を本番再取得。
 
 <a id="existing-product"></a>
@@ -380,7 +386,7 @@ TEST_BASE_URL=http://127.0.0.1:1314 NODE_PATH=/path/to/qa/node_modules node scri
 
 各script冒頭の対応環境変数を読む。CHROME_PATH、一部のTEST_ENGINE=webkit、GuideのTEST_APP / TEST_LOCALES / TEST_WIDTHS等を使用可能。previewの既定1313と多くのQAの既定1314を混同しない。TEST_REPORT等で新しい保存先を指定し、対応しない変数を推測しない。保存先固定scriptは生成差分を読み、過去証跡を無自覚に上書きしない。
 
-基本幅は **1440 / 1280 / 1024 / 768 / 430 / 390 / 375px**。Home変更時は901/900px境界も確認。共通CSS変更は全主要ページ、データ限定変更は対象と表示先へ範囲を合わせる。語中分割、末尾1〜2文字落ち、助詞・句読点、PCの細すぎる本文、MobileのCTA・国旗・画像・Supportを実読し、overflowだけで日本語PASSにしない。Dark mode、focus、menu Escape・背景スクロールも影響範囲で確認。
+基本幅は **1440 / 1280 / 1024 / 768 / 430 / 390 / 375px**。Home変更時は901/900px境界も確認。共通CSS変更は全主要ページ、データ限定変更は対象と表示先へ範囲を合わせる。語中分割、末尾1〜2文字落ち、助詞・句読点、PCの細すぎる本文、MobileのCTA・国旗・画像・Supportを実読し、overflowだけで日本語PASSにしない。OSのlight／dark両設定と旧theme保存値がある状態でも、サイトが同じライト表示になることを確認。テーマ切替UIを出さず、focus、menu Escape・背景スクロールも影響範囲で確認する。
 
 画像が増えた場合はLCP・CLS・総容量・実操作を確認し、必要ならaudit-seo-performance.mjsでLighthouse測定。Hero主要画像だけeager／fetchpriorityを検討し他はlazy。ラボTBT等を実ユーザーINPと呼ばず、Search Console field dataは得られる場合に確認する。
 
