@@ -1,0 +1,2410 @@
+{
+  "auditAt": "2026-09-07T03:27:20.933542+00:00",
+  "sourceCommit": "4e733c6bcdd05bcc377a02a6040f3f2e48581f8a",
+  "method": "Read-only inventory of immutable HEAD source and existing generated public HTML. Generated output existence is not a fresh HTTP check; deployment verification is separate. Only this audit Markdown/JSON are written.",
+  "baseURL": "https://kumakikai.github.io",
+  "locales": [
+    "ja",
+    "en",
+    "ko",
+    "de",
+    "zh-hant",
+    "fr"
+  ],
+  "apps": [
+    {
+      "id": "uni-note",
+      "name": "Uni:Note",
+      "status": "published",
+      "locales": {
+        "ja": {
+          "products": {
+            "url": "/products/uni-note/",
+            "source": "content/products/uni-note.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/uni-note/",
+            "source": "content/htu/uni-note.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/uni-note/",
+            "source": "content/faq/uni-note.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/uni-note/",
+            "source": "content/privacy/uni-note.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "en": {
+          "products": {
+            "url": "/en/products/uni-note/",
+            "source": "content/products/uni-note.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/en/htu/uni-note/",
+            "source": "content/htu/uni-note.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/en/faq/uni-note/",
+            "source": "content/faq/uni-note.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/en/privacy/uni-note/",
+            "source": "content/privacy/uni-note.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "ko": {
+          "products": {
+            "url": "/ko/products/uni-note/",
+            "source": "content/products/uni-note.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/ko/htu/uni-note/",
+            "source": "content/htu/uni-note.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/ko/faq/uni-note/",
+            "source": "content/faq/uni-note.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/ko/privacy/uni-note/",
+            "source": "content/privacy/uni-note.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%EB%AC%B8%EC%9D%98",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "de": {
+          "products": {
+            "url": "/de/products/uni-note/",
+            "source": "content/products/uni-note.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/de/htu/uni-note/",
+            "source": "content/htu/uni-note.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/de/faq/uni-note/",
+            "source": "content/faq/uni-note.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/de/privacy/uni-note/",
+            "source": "content/privacy/uni-note.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Kontakt",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "zh-hant": {
+          "products": {
+            "url": "/zh-hant/products/uni-note/",
+            "source": "content/products/uni-note.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/zh-hant/htu/uni-note/",
+            "source": "content/htu/uni-note.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/zh-hant/faq/uni-note/",
+            "source": "content/faq/uni-note.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/zh-hant/privacy/uni-note/",
+            "source": "content/privacy/uni-note.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+%E8%81%AF%E7%B5%A1",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "fr": {
+          "products": {
+            "url": "/fr/products/uni-note/",
+            "source": "content/products/uni-note.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/fr/htu/uni-note/",
+            "source": "content/htu/uni-note.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/fr/faq/uni-note/",
+            "source": "content/faq/uni-note.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/fr/privacy/uni-note/",
+            "source": "content/privacy/uni-note.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        }
+      },
+      "pressReleases": [
+        {
+          "url": "/notes/2026-03-12-uni-note/",
+          "source": "content/notes/2026-03-12-uni-note.md",
+          "locale": "ja",
+          "title": "Uni:Noteについて",
+          "generatedOutputExists": true
+        }
+      ],
+      "legacyDetailURL": "/htu/uni-note/",
+      "productPressReleaseLinksBefore": [],
+      "termsModeBefore": "missing",
+      "termsModeRequested": "apple-standard-eula"
+    },
+    {
+      "id": "oto-miru",
+      "name": "オトミル",
+      "status": "published",
+      "locales": {
+        "ja": {
+          "products": {
+            "url": "/products/oto-miru/",
+            "source": "content/products/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/oto-miru/",
+            "source": "content/htu/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/oto-miru/",
+            "source": "content/faq/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/oto-miru/",
+            "source": "content/privacy/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/oto-miru/",
+            "source": "content/terms/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AA%E3%83%88%E3%83%9F%E3%83%AB+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/oto-miru/"
+        },
+        "en": {
+          "products": {
+            "url": "/en/products/oto-miru/",
+            "source": "content/products/oto-miru.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/oto-miru/",
+            "source": "content/htu/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/oto-miru/",
+            "source": "content/faq/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/oto-miru/",
+            "source": "content/privacy/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/oto-miru/",
+            "source": "content/terms/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=OtoMiru+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/oto-miru/"
+        },
+        "ko": {
+          "products": {
+            "url": "/ko/products/oto-miru/",
+            "source": "content/products/oto-miru.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/oto-miru/",
+            "source": "content/htu/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/oto-miru/",
+            "source": "content/faq/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/oto-miru/",
+            "source": "content/privacy/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/oto-miru/",
+            "source": "content/terms/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=OtoMiru+%E2%80%94+%EB%AC%B8%EC%9D%98",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/oto-miru/"
+        },
+        "de": {
+          "products": {
+            "url": "/de/products/oto-miru/",
+            "source": "content/products/oto-miru.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/oto-miru/",
+            "source": "content/htu/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/oto-miru/",
+            "source": "content/faq/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/oto-miru/",
+            "source": "content/privacy/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/oto-miru/",
+            "source": "content/terms/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=OtoMiru+%E2%80%94+Kontakt",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/oto-miru/"
+        },
+        "zh-hant": {
+          "products": {
+            "url": "/zh-hant/products/oto-miru/",
+            "source": "content/products/oto-miru.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/oto-miru/",
+            "source": "content/htu/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/oto-miru/",
+            "source": "content/faq/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/oto-miru/",
+            "source": "content/privacy/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/oto-miru/",
+            "source": "content/terms/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=OtoMiru+%E2%80%94+%E8%81%AF%E7%B5%A1",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/oto-miru/"
+        },
+        "fr": {
+          "products": {
+            "url": "/fr/products/oto-miru/",
+            "source": "content/products/oto-miru.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/oto-miru/",
+            "source": "content/htu/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/oto-miru/",
+            "source": "content/faq/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/oto-miru/",
+            "source": "content/privacy/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/oto-miru/",
+            "source": "content/terms/oto-miru.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=OtoMiru+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/oto-miru/"
+        }
+      },
+      "pressReleases": [
+        {
+          "url": "/notes/2026-05-19-oto-miru/",
+          "source": "content/notes/2026-05-19-oto-miru.md",
+          "locale": "ja",
+          "title": "オトミルについて",
+          "generatedOutputExists": true
+        }
+      ],
+      "legacyDetailURL": "/htu/oto-miru/",
+      "productPressReleaseLinksBefore": [],
+      "termsModeBefore": "custom-separate-secondary-link",
+      "termsModeRequested": "custom"
+    },
+    {
+      "id": "giga-poke",
+      "name": "ギガポケ",
+      "status": "published",
+      "locales": {
+        "ja": {
+          "products": {
+            "url": "/products/giga-poke/",
+            "source": "content/products/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/giga-poke/",
+            "source": "content/htu/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/giga-poke/",
+            "source": "content/faq/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/giga-poke/",
+            "source": "content/privacy/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/giga-poke/",
+            "source": "content/terms/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%82%AC%E3%83%9D%E3%82%B1+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/giga-poke/"
+        },
+        "en": {
+          "products": {
+            "url": "/en/products/giga-poke/",
+            "source": "content/products/giga-poke.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/giga-poke/",
+            "source": "content/htu/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/giga-poke/",
+            "source": "content/faq/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/giga-poke/",
+            "source": "content/privacy/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/giga-poke/",
+            "source": "content/terms/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=GigaPoke+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/giga-poke/"
+        },
+        "ko": {
+          "products": {
+            "url": "/ko/products/giga-poke/",
+            "source": "content/products/giga-poke.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/giga-poke/",
+            "source": "content/htu/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/giga-poke/",
+            "source": "content/faq/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/giga-poke/",
+            "source": "content/privacy/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/giga-poke/",
+            "source": "content/terms/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=GigaPoke+%E2%80%94+%EB%AC%B8%EC%9D%98",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/giga-poke/"
+        },
+        "de": {
+          "products": {
+            "url": "/de/products/giga-poke/",
+            "source": "content/products/giga-poke.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/giga-poke/",
+            "source": "content/htu/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/giga-poke/",
+            "source": "content/faq/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/giga-poke/",
+            "source": "content/privacy/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/giga-poke/",
+            "source": "content/terms/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=GigaPoke+%E2%80%94+Kontakt",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/giga-poke/"
+        },
+        "zh-hant": {
+          "products": {
+            "url": "/zh-hant/products/giga-poke/",
+            "source": "content/products/giga-poke.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/giga-poke/",
+            "source": "content/htu/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/giga-poke/",
+            "source": "content/faq/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/giga-poke/",
+            "source": "content/privacy/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/giga-poke/",
+            "source": "content/terms/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=GigaPoke+%E2%80%94+%E8%81%AF%E7%B5%A1",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/giga-poke/"
+        },
+        "fr": {
+          "products": {
+            "url": "/fr/products/giga-poke/",
+            "source": "content/products/giga-poke.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/giga-poke/",
+            "source": "content/htu/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/giga-poke/",
+            "source": "content/faq/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/giga-poke/",
+            "source": "content/privacy/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/giga-poke/",
+            "source": "content/terms/giga-poke.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=GigaPoke+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/giga-poke/"
+        }
+      },
+      "pressReleases": [
+        {
+          "url": "/notes/2026-09-02-giga-poke/",
+          "source": "content/notes/2026-09-02-giga-poke.md",
+          "locale": "ja",
+          "title": "ギガポケについて",
+          "generatedOutputExists": true
+        }
+      ],
+      "legacyDetailURL": "/notes/2026-09-02-giga-poke/",
+      "productPressReleaseLinksBefore": [
+        {
+          "from": "/products/giga-poke/",
+          "to": "/notes/2026-09-02-giga-poke/"
+        },
+        {
+          "from": "/en/products/giga-poke/",
+          "to": "/notes/2026-09-02-giga-poke/"
+        },
+        {
+          "from": "/ko/products/giga-poke/",
+          "to": "/notes/2026-09-02-giga-poke/"
+        },
+        {
+          "from": "/de/products/giga-poke/",
+          "to": "/notes/2026-09-02-giga-poke/"
+        },
+        {
+          "from": "/zh-hant/products/giga-poke/",
+          "to": "/notes/2026-09-02-giga-poke/"
+        },
+        {
+          "from": "/fr/products/giga-poke/",
+          "to": "/notes/2026-09-02-giga-poke/"
+        }
+      ],
+      "termsModeBefore": "custom-separate-secondary-link",
+      "termsModeRequested": "custom"
+    },
+    {
+      "id": "nocca",
+      "name": "Nocca",
+      "status": "development",
+      "locales": {
+        "ja": {
+          "products": {
+            "url": "/products/nocca/",
+            "source": "content/products/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/nocca/",
+            "source": "content/htu/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/nocca/",
+            "source": "content/faq/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/nocca/",
+            "source": "content/privacy/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/nocca/",
+            "source": "content/terms/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/nocca/"
+        },
+        "en": {
+          "products": {
+            "url": "/en/products/nocca/",
+            "source": "content/products/nocca.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/nocca/",
+            "source": "content/htu/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/nocca/",
+            "source": "content/faq/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/nocca/",
+            "source": "content/privacy/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/nocca/",
+            "source": "content/terms/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/nocca/"
+        },
+        "ko": {
+          "products": {
+            "url": "/ko/products/nocca/",
+            "source": "content/products/nocca.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/nocca/",
+            "source": "content/htu/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/nocca/",
+            "source": "content/faq/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/nocca/",
+            "source": "content/privacy/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/nocca/",
+            "source": "content/terms/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%EB%AC%B8%EC%9D%98",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/nocca/"
+        },
+        "de": {
+          "products": {
+            "url": "/de/products/nocca/",
+            "source": "content/products/nocca.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/nocca/",
+            "source": "content/htu/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/nocca/",
+            "source": "content/faq/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/nocca/",
+            "source": "content/privacy/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/nocca/",
+            "source": "content/terms/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+Kontakt",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/nocca/"
+        },
+        "zh-hant": {
+          "products": {
+            "url": "/zh-hant/products/nocca/",
+            "source": "content/products/nocca.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/nocca/",
+            "source": "content/htu/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/nocca/",
+            "source": "content/faq/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/nocca/",
+            "source": "content/privacy/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/nocca/",
+            "source": "content/terms/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E8%81%AF%E7%B5%A1",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/nocca/"
+        },
+        "fr": {
+          "products": {
+            "url": "/fr/products/nocca/",
+            "source": "content/products/nocca.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/nocca/",
+            "source": "content/htu/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/nocca/",
+            "source": "content/faq/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/nocca/",
+            "source": "content/privacy/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": {
+            "url": "/terms/nocca/",
+            "source": "content/terms/nocca.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "/terms/nocca/"
+        }
+      },
+      "pressReleases": [
+        {
+          "url": "/notes/2026-09-06-nocca/",
+          "source": "content/notes/2026-09-06-nocca.md",
+          "locale": "ja",
+          "title": "Noccaについて",
+          "generatedOutputExists": true
+        }
+      ],
+      "legacyDetailURL": "/notes/2026-09-06-nocca/",
+      "productPressReleaseLinksBefore": [
+        {
+          "from": "/products/nocca/",
+          "to": "/notes/2026-09-06-nocca/"
+        },
+        {
+          "from": "/en/products/nocca/",
+          "to": "/notes/2026-09-06-nocca/"
+        },
+        {
+          "from": "/ko/products/nocca/",
+          "to": "/notes/2026-09-06-nocca/"
+        },
+        {
+          "from": "/de/products/nocca/",
+          "to": "/notes/2026-09-06-nocca/"
+        },
+        {
+          "from": "/zh-hant/products/nocca/",
+          "to": "/notes/2026-09-06-nocca/"
+        },
+        {
+          "from": "/fr/products/nocca/",
+          "to": "/notes/2026-09-06-nocca/"
+        }
+      ],
+      "termsModeBefore": "custom-separate-secondary-link",
+      "termsModeRequested": "custom"
+    },
+    {
+      "id": "uni-note-pocket",
+      "name": "Uni:Note Pocket",
+      "status": "published",
+      "locales": {
+        "ja": {
+          "products": {
+            "url": "/products/uni-note-pocket/",
+            "source": "content/products/uni-note-pocket.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/uni-note-pocket/",
+            "source": "content/htu/uni-note-pocket.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/uni-note-pocket/",
+            "source": "content/faq/uni-note-pocket.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/uni-note-pocket/",
+            "source": "content/privacy/uni-note-pocket.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "en": {
+          "products": {
+            "url": "/en/products/uni-note-pocket/",
+            "source": "content/products/uni-note-pocket.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/en/htu/uni-note-pocket/",
+            "source": "content/htu/uni-note-pocket.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/en/faq/uni-note-pocket/",
+            "source": "content/faq/uni-note-pocket.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/en/privacy/uni-note-pocket/",
+            "source": "content/privacy/uni-note-pocket.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "ko": {
+          "products": {
+            "url": "/ko/products/uni-note-pocket/",
+            "source": "content/products/uni-note-pocket.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/ko/htu/uni-note-pocket/",
+            "source": "content/htu/uni-note-pocket.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/ko/faq/uni-note-pocket/",
+            "source": "content/faq/uni-note-pocket.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/ko/privacy/uni-note-pocket/",
+            "source": "content/privacy/uni-note-pocket.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%EB%AC%B8%EC%9D%98",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "de": {
+          "products": {
+            "url": "/de/products/uni-note-pocket/",
+            "source": "content/products/uni-note-pocket.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/de/htu/uni-note-pocket/",
+            "source": "content/htu/uni-note-pocket.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/de/faq/uni-note-pocket/",
+            "source": "content/faq/uni-note-pocket.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/de/privacy/uni-note-pocket/",
+            "source": "content/privacy/uni-note-pocket.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Kontakt",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "zh-hant": {
+          "products": {
+            "url": "/zh-hant/products/uni-note-pocket/",
+            "source": "content/products/uni-note-pocket.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/zh-hant/htu/uni-note-pocket/",
+            "source": "content/htu/uni-note-pocket.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/zh-hant/faq/uni-note-pocket/",
+            "source": "content/faq/uni-note-pocket.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/zh-hant/privacy/uni-note-pocket/",
+            "source": "content/privacy/uni-note-pocket.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+%E8%81%AF%E7%B5%A1",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "fr": {
+          "products": {
+            "url": "/fr/products/uni-note-pocket/",
+            "source": "content/products/uni-note-pocket.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/fr/htu/uni-note-pocket/",
+            "source": "content/htu/uni-note-pocket.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/fr/faq/uni-note-pocket/",
+            "source": "content/faq/uni-note-pocket.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/fr/privacy/uni-note-pocket/",
+            "source": "content/privacy/uni-note-pocket.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote+Pocket+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        }
+      },
+      "pressReleases": [
+        {
+          "url": "/notes/2026-04-01-uni-note-pocket/",
+          "source": "content/notes/2026-04-01-uni-note-pocket.md",
+          "locale": "ja",
+          "title": "Uni:Note Pocketについて",
+          "generatedOutputExists": true
+        }
+      ],
+      "legacyDetailURL": "/htu/uni-note-pocket/",
+      "productPressReleaseLinksBefore": [],
+      "termsModeBefore": "missing",
+      "termsModeRequested": "apple-standard-eula"
+    },
+    {
+      "id": "balance-calendar",
+      "name": "ギャンカレ",
+      "status": "published",
+      "locales": {
+        "ja": {
+          "products": {
+            "url": "/products/balance-calendar/",
+            "source": "content/products/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/balance-calendar/",
+            "source": "content/htu/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/balance-calendar/",
+            "source": "content/faq/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/balance-calendar/",
+            "source": "content/privacy/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "en": {
+          "products": {
+            "url": "/en/products/balance-calendar/",
+            "source": "content/products/balance-calendar.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/balance-calendar/",
+            "source": "content/htu/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/balance-calendar/",
+            "source": "content/faq/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/balance-calendar/",
+            "source": "content/privacy/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Balance+Calendar+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "ko": {
+          "products": {
+            "url": "/ko/products/balance-calendar/",
+            "source": "content/products/balance-calendar.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/balance-calendar/",
+            "source": "content/htu/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/balance-calendar/",
+            "source": "content/faq/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/balance-calendar/",
+            "source": "content/privacy/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=%EB%B0%B8%EB%9F%B0%EC%8A%A4+%EC%BA%98%EB%A6%B0%EB%8D%94+%E2%80%94+%EB%AC%B8%EC%9D%98",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "de": {
+          "products": {
+            "url": "/de/products/balance-calendar/",
+            "source": "content/products/balance-calendar.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/balance-calendar/",
+            "source": "content/htu/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/balance-calendar/",
+            "source": "content/faq/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/balance-calendar/",
+            "source": "content/privacy/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Balance+Calendar+%E2%80%94+Kontakt",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "zh-hant": {
+          "products": {
+            "url": "/zh-hant/products/balance-calendar/",
+            "source": "content/products/balance-calendar.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/balance-calendar/",
+            "source": "content/htu/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/balance-calendar/",
+            "source": "content/faq/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/balance-calendar/",
+            "source": "content/privacy/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Balance+Calendar+%E2%80%94+%E8%81%AF%E7%B5%A1",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "fr": {
+          "products": {
+            "url": "/fr/products/balance-calendar/",
+            "source": "content/products/balance-calendar.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/balance-calendar/",
+            "source": "content/htu/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/balance-calendar/",
+            "source": "content/faq/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/balance-calendar/",
+            "source": "content/privacy/balance-calendar.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Balance+Calendar+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        }
+      },
+      "pressReleases": [
+        {
+          "url": "/notes/2026-01-23-introduction/",
+          "source": "content/notes/2026-01-23-introduction.md",
+          "locale": "ja",
+          "title": "ギャンカレについて",
+          "generatedOutputExists": true
+        }
+      ],
+      "legacyDetailURL": "/htu/balance-calendar/",
+      "productPressReleaseLinksBefore": [],
+      "termsModeBefore": "missing",
+      "termsModeRequested": "apple-standard-eula"
+    },
+    {
+      "id": "smokeless",
+      "name": "すわなび",
+      "status": "published",
+      "locales": {
+        "ja": {
+          "products": {
+            "url": "/products/smokeless/",
+            "source": "content/products/smokeless.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/smokeless/",
+            "source": "content/htu/smokeless.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/smokeless/",
+            "source": "content/faq/smokeless.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/smokeless/",
+            "source": "content/privacy/smokeless.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "en": {
+          "products": {
+            "url": "/en/products/smokeless/",
+            "source": "content/products/smokeless.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/en/htu/smokeless/",
+            "source": "content/htu/smokeless.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/en/faq/smokeless/",
+            "source": "content/faq/smokeless.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/en/privacy/smokeless/",
+            "source": "content/privacy/smokeless.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "ko": {
+          "products": {
+            "url": "/ko/products/smokeless/",
+            "source": "content/products/smokeless.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/ko/htu/smokeless/",
+            "source": "content/htu/smokeless.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/ko/faq/smokeless/",
+            "source": "content/faq/smokeless.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/ko/privacy/smokeless/",
+            "source": "content/privacy/smokeless.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=%EC%8A%A4%EC%99%80%EB%82%98%EB%B9%84+%E2%80%94+%EB%AC%B8%EC%9D%98",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "de": {
+          "products": {
+            "url": "/de/products/smokeless/",
+            "source": "content/products/smokeless.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/smokeless/",
+            "source": "content/htu/smokeless.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/smokeless/",
+            "source": "content/faq/smokeless.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/smokeless/",
+            "source": "content/privacy/smokeless.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+Kontakt",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "zh-hant": {
+          "products": {
+            "url": "/zh-hant/products/smokeless/",
+            "source": "content/products/smokeless.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/zh-hant/htu/smokeless/",
+            "source": "content/htu/smokeless.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/zh-hant/faq/smokeless/",
+            "source": "content/faq/smokeless.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/zh-hant/privacy/smokeless/",
+            "source": "content/privacy/smokeless.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+%E8%81%AF%E7%B5%A1",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "fr": {
+          "products": {
+            "url": "/fr/products/smokeless/",
+            "source": "content/products/smokeless.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/fr/htu/smokeless/",
+            "source": "content/htu/smokeless.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/fr/faq/smokeless/",
+            "source": "content/faq/smokeless.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/fr/privacy/smokeless/",
+            "source": "content/privacy/smokeless.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=Smokeless+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        }
+      },
+      "pressReleases": [
+        {
+          "url": "/notes/2026-03-21-smokeless/",
+          "source": "content/notes/2026-03-21-smokeless.md",
+          "locale": "ja",
+          "title": "すわなびについて",
+          "generatedOutputExists": true
+        }
+      ],
+      "legacyDetailURL": "/htu/smokeless/",
+      "productPressReleaseLinksBefore": [],
+      "termsModeBefore": "missing",
+      "termsModeRequested": "apple-standard-eula"
+    },
+    {
+      "id": "signal",
+      "name": "SIGNAL",
+      "status": "published",
+      "locales": {
+        "ja": {
+          "products": {
+            "url": "/products/signal/",
+            "source": "content/products/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/signal/",
+            "source": "content/htu/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/signal/",
+            "source": "content/faq/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/signal/",
+            "source": "content/privacy/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "en": {
+          "products": {
+            "url": "/en/products/signal/",
+            "source": "content/products/signal.en.md",
+            "locale": "en",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/signal/",
+            "source": "content/htu/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/signal/",
+            "source": "content/faq/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/signal/",
+            "source": "content/privacy/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "ko": {
+          "products": {
+            "url": "/ko/products/signal/",
+            "source": "content/products/signal.ko.md",
+            "locale": "ko",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/signal/",
+            "source": "content/htu/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/signal/",
+            "source": "content/faq/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/signal/",
+            "source": "content/privacy/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+%EB%AC%B8%EC%9D%98",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "de": {
+          "products": {
+            "url": "/de/products/signal/",
+            "source": "content/products/signal.de.md",
+            "locale": "de",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/signal/",
+            "source": "content/htu/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/signal/",
+            "source": "content/faq/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/signal/",
+            "source": "content/privacy/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+Kontakt",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "zh-hant": {
+          "products": {
+            "url": "/zh-hant/products/signal/",
+            "source": "content/products/signal.zh-hant.md",
+            "locale": "zh-hant",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/signal/",
+            "source": "content/htu/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/signal/",
+            "source": "content/faq/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/signal/",
+            "source": "content/privacy/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+%E8%81%AF%E7%B5%A1",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        },
+        "fr": {
+          "products": {
+            "url": "/fr/products/signal/",
+            "source": "content/products/signal.fr.md",
+            "locale": "fr",
+            "fallbackToJapanese": false,
+            "generatedOutputExists": true
+          },
+          "htu": {
+            "url": "/htu/signal/",
+            "source": "content/htu/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "faq": {
+            "url": "/faq/signal/",
+            "source": "content/faq/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "privacy": {
+            "url": "/privacy/signal/",
+            "source": "content/privacy/signal.md",
+            "locale": "ja",
+            "fallbackToJapanese": true,
+            "generatedOutputExists": true
+          },
+          "terms": null,
+          "contact": {
+            "url": "mailto:kumakikai.apps@gmail.com?subject=SIGNAL+%E2%80%94+Contact",
+            "kind": "email",
+            "appSubject": true
+          },
+          "expectedTermsURL": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        }
+      },
+      "pressReleases": [
+        {
+          "url": "/notes/2026-02-22-signal/",
+          "source": "content/notes/2026-02-22-signal.md",
+          "locale": "ja",
+          "title": "SIGNALについて",
+          "generatedOutputExists": true
+        }
+      ],
+      "legacyDetailURL": "/htu/signal/",
+      "productPressReleaseLinksBefore": [],
+      "termsModeBefore": "missing",
+      "termsModeRequested": "apple-standard-eula"
+    }
+  ],
+  "counts": {
+    "apps": 8,
+    "productPages": 48,
+    "guidePages": 22,
+    "faqPages": 22,
+    "privacyPages": 22,
+    "customTermsPages": 3,
+    "pressReleasePages": 8,
+    "productPressReleaseLinksBefore": 12,
+    "guideOrFaqPressReleaseLinksBefore": 0
+  },
+  "aliases": [
+    {
+      "source": "content/faq/giga-poke.md",
+      "alias": "/faq/povo-manager/",
+      "destination": "/faq/giga-poke/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/faq/uni-note-pocket.de.md",
+      "alias": "/de/faq/uni-memo/",
+      "destination": "/de/faq/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/faq/uni-note-pocket.en.md",
+      "alias": "/en/faq/uni-memo/",
+      "destination": "/en/faq/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/faq/uni-note-pocket.fr.md",
+      "alias": "/fr/faq/uni-memo/",
+      "destination": "/fr/faq/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/faq/uni-note-pocket.ko.md",
+      "alias": "/ko/faq/uni-memo/",
+      "destination": "/ko/faq/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/faq/uni-note-pocket.md",
+      "alias": "/faq/uni-memo/",
+      "destination": "/faq/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/faq/uni-note-pocket.zh-hant.md",
+      "alias": "/zh-hant/faq/uni-memo/",
+      "destination": "/zh-hant/faq/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/htu/giga-poke.md",
+      "alias": "/htu/povo-manager/",
+      "destination": "/htu/giga-poke/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/htu/smokeless.md",
+      "alias": "/htu/smoke-less/",
+      "destination": "/htu/smokeless/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/htu/uni-note-pocket.de.md",
+      "alias": "/de/htu/uni-memo/",
+      "destination": "/de/htu/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/htu/uni-note-pocket.en.md",
+      "alias": "/en/htu/uni-memo/",
+      "destination": "/en/htu/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/htu/uni-note-pocket.fr.md",
+      "alias": "/fr/htu/uni-memo/",
+      "destination": "/fr/htu/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/htu/uni-note-pocket.ko.md",
+      "alias": "/ko/htu/uni-memo/",
+      "destination": "/ko/htu/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/htu/uni-note-pocket.md",
+      "alias": "/htu/uni-memo/",
+      "destination": "/htu/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/htu/uni-note-pocket.zh-hant.md",
+      "alias": "/zh-hant/htu/uni-memo/",
+      "destination": "/zh-hant/htu/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/privacy/giga-poke.md",
+      "alias": "/privacy/povo-manager/",
+      "destination": "/privacy/giga-poke/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/privacy/smokeless.md",
+      "alias": "/privacy/smoke-less/",
+      "destination": "/privacy/smokeless/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/privacy/uni-note-pocket.de.md",
+      "alias": "/de/privacy/uni-memo/",
+      "destination": "/de/privacy/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/privacy/uni-note-pocket.en.md",
+      "alias": "/en/privacy/uni-memo/",
+      "destination": "/en/privacy/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/privacy/uni-note-pocket.fr.md",
+      "alias": "/fr/privacy/uni-memo/",
+      "destination": "/fr/privacy/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/privacy/uni-note-pocket.ko.md",
+      "alias": "/ko/privacy/uni-memo/",
+      "destination": "/ko/privacy/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/privacy/uni-note-pocket.md",
+      "alias": "/privacy/uni-memo/",
+      "destination": "/privacy/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/privacy/uni-note-pocket.zh-hant.md",
+      "alias": "/zh-hant/privacy/uni-memo/",
+      "destination": "/zh-hant/privacy/uni-note-pocket/",
+      "generatedOutputExists": true
+    },
+    {
+      "source": "content/terms/giga-poke.md",
+      "alias": "/terms/povo-manager/",
+      "destination": "/terms/giga-poke/",
+      "generatedOutputExists": true
+    }
+  ],
+  "externalLinks": {
+    "same-context": 404
+  },
+  "guideOrFaqPressReleaseLinksBefore": [],
+  "appleStandardEULARequested": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "contact": {
+    "sharedExisting": "mailto:kumakikai.apps@gmail.com with localized app/Contact subject",
+    "generalCompanyContact": "/company/#contact",
+    "standaloneContactPage": false,
+    "existingAppForm": {
+      "app": "giga-poke",
+      "url": "https://forms.gle/Enzmm94LdXRZjP8k9",
+      "source": "content/faq/giga-poke.md",
+      "purpose": "In-app contact form described by FAQ, not currently used by the shared Support partial"
+    }
+  },
+  "sourceSHA256": {
+    "content/faq/balance-calendar.md": "a5dc3dc5ebfe30a7a6fe7c1547b6bc6a996a416a54d714114ec5ed0e4f8b8f54",
+    "content/faq/giga-poke.md": "8fb977c3ee9242c13837088c4dcf8d20b91a82517bef520b0553d4882292c4b1",
+    "content/faq/nocca.md": "7e6e2a74d602061fb5c5f4e0cd7e7baf39c6245a9bc7288e48098f48be27a701",
+    "content/faq/oto-miru.md": "360ea04e229ef96e48e55c0e42e9a00e57231223352c6a99c1663cf8154bd023",
+    "content/faq/signal.md": "1dde4cbd65ac0dd490b8fb283b6c52e566ca62ba0c2109ec457af942d800ab29",
+    "content/faq/smokeless.en.md": "8fdb7ab8dc5b334369992f57d51641e92d7136b19e72cb124b7ba2e950bc744e",
+    "content/faq/smokeless.fr.md": "36862c410b0db07f01bfb8f4c356daa52fa147f24e4f4130f2a09a7a8bed5a9d",
+    "content/faq/smokeless.ko.md": "fad647e5dc82afff92d398b7a33848e9151d125ce4ff7f0ad6435b0249169cce",
+    "content/faq/smokeless.md": "ab3d6212006cbcca921be1c373012489cb87c47fc436931e84be5cc0e4811f83",
+    "content/faq/smokeless.zh-hant.md": "52b04264e109e025293ca96e549ade2d87fa844a36b3c97410e52a1006a2e3cb",
+    "content/faq/uni-note-pocket.de.md": "8d35e5be278948f340cf1f6cfb8280c5d9947e6f3c6fcf9ae89801703d37226b",
+    "content/faq/uni-note-pocket.en.md": "269953a04f39eaca6b7fcca36a949bf4254f830ced82e37d088e57b38f69a1f2",
+    "content/faq/uni-note-pocket.fr.md": "9750ceda10b9c918eece2179fd107c4626a2d23ccbc13d3295f19244efb7db50",
+    "content/faq/uni-note-pocket.ko.md": "54241e091de5491ca3e8104a273084923fb6bc9ba12e56d543d07c347d83cc5d",
+    "content/faq/uni-note-pocket.md": "95596359131d2967264a84c3b01b7c245d7dd2946928341509d58c94bb5196e5",
+    "content/faq/uni-note-pocket.zh-hant.md": "ebe1958d752d0729ce3ff8844b1fee4733f7bb63c644179588921ff0913da63f",
+    "content/faq/uni-note.de.md": "80b43f25fe7fac2fc03a2ca8a16688fa4fd339c347c3a84e5276a468feb30f69",
+    "content/faq/uni-note.en.md": "5f136ee2627fdfaa54c95826c2c9d34e9ed20e655919fb86fbbba60b2bf45768",
+    "content/faq/uni-note.fr.md": "1fb7ecf5ea0f3f605ecedb98b94d73714bd16ce52d00688a4b92123d590e20fc",
+    "content/faq/uni-note.ko.md": "940c34197ebd84b7f82b3fcf21fd756d4f466f1f61898d02e750566a166acf83",
+    "content/faq/uni-note.md": "dd55171ff9dce3ef379830afdf3351cbb460d4c961d0a40ad7fd20797afa3c74",
+    "content/faq/uni-note.zh-hant.md": "689c2185fdb102f8170f9da3477af6ef9ac62729639742033ae18dfa1c647441",
+    "content/htu/balance-calendar.md": "b8727065d50e393108ef42e1c9a96428bc740b6894be28335f4cb5ee471469c5",
+    "content/htu/giga-poke.md": "364f6ee1295425129b1135b2729d320dfcaf5b8ef4de46e33a5f9b9fe4811d2a",
+    "content/htu/nocca.md": "34ed7f3296d013bc0e6f4067e2c9163a78012e142dd99e3ecd260c3e7179dbf9",
+    "content/htu/oto-miru.md": "8ffbdc7c089bbb892a32bab5033c4efa62110a077817fd91372b07045c5ccda9",
+    "content/htu/signal.md": "b08dde44f9c3e2f0709d6cc933d31f9e656ca178ee093cd58e7ff6610e2c7a0e",
+    "content/htu/smokeless.en.md": "aede900f555f97de1788184fe759f9d836140c84c5e538555aa581cbd56b526c",
+    "content/htu/smokeless.fr.md": "71f4a6dac450a610f4bc7d4ba4da07bf3485d9d39f38525f107d27089cbd1a3a",
+    "content/htu/smokeless.ko.md": "a67c2843843945070426a4587d919808102aa0e68df75fda94d31bc3814d4970",
+    "content/htu/smokeless.md": "b23238be6ce9251aec1c7bfbfd1d37c77e0c5270ed2db6986368f4071ef9d10f",
+    "content/htu/smokeless.zh-hant.md": "1ea74722defd122bc5d3d3e52169f21e2d59203d2b45e6ca97e7122cf8759431",
+    "content/htu/uni-note-pocket.de.md": "70a6beac5c4b6b427fcfafce235dfe52d8956c0c66feb7e1b899a5fe71162655",
+    "content/htu/uni-note-pocket.en.md": "dac4d6f2e4079b5a3af7fd9a8bed2d5256eecf831d76121752642afa224798f6",
+    "content/htu/uni-note-pocket.fr.md": "0c25b1b364b225c817d2b5dd95f4b1863cc987cc2f9fd81e465c7712e6e51b2a",
+    "content/htu/uni-note-pocket.ko.md": "ee28ff8392a65a718e7b4be7af0bec02859af1e4c5e90ec5d32a6a497951a79d",
+    "content/htu/uni-note-pocket.md": "7f31459bf118f1ba9585a36b05aad201e41a01fea908b5bc86550bdbc8a564ac",
+    "content/htu/uni-note-pocket.zh-hant.md": "d8644704d0d5843580b373654252ea0b0fb132871e4a593a82168303bf377098",
+    "content/htu/uni-note.de.md": "9dd095aa7cb5b13af5f7e9396a0fafae24a3dc696c1c4934d0702b769d47ffca",
+    "content/htu/uni-note.en.md": "13f47adfcd40b3ee724961610c5ecafce3aaa1dda38c0384a9a192cab8398a36",
+    "content/htu/uni-note.fr.md": "e007c64dc3c113414719818002ba3f9d20e6896b478588f5ccc92416a7fc52a6",
+    "content/htu/uni-note.ko.md": "ff4504c2c03cf3c7e39b725f8090c405930922e1e5adbe82afe56778e387637d",
+    "content/htu/uni-note.md": "4171228e67d8353b1f1adf6c4a9f4e8fa1214fcf55852ec8498ca37a123539ae",
+    "content/htu/uni-note.zh-hant.md": "e0ec2a6b7cfd887bc363ecb9c960bdb4345cf686ed6d39776149f25226d9d58d",
+    "content/notes/2026-01-23-introduction.md": "505f88d0397d8f3b2b930b85cc42573586e1ade4bd73cd8862ff464b48addf80",
+    "content/notes/2026-02-22-signal.md": "31eb66177d7b2332f2ac3ba0e0562bd3bf86cb4cb2682c38943531cc0a1bf398",
+    "content/notes/2026-03-12-uni-note.md": "f5cff60a0f7a40ee3d00b4d51c7a256b1c2d906bddd2d640865204a3f9139f93",
+    "content/notes/2026-03-21-smokeless.md": "e996b5b8d8fc6ba67cfbaa2a95e53495cb7df906f6862d94dc15fcdfb0ac4cf8",
+    "content/notes/2026-04-01-uni-note-pocket.md": "4fafe96b4749118ffa2b54459323c4daf710c509e2e537c97af89de22b99d26e",
+    "content/notes/2026-05-19-oto-miru.md": "b12471b12228b024ace975bd198e6516b59a3ebfa09dd0ca9037c67ac05534c8",
+    "content/notes/2026-09-02-giga-poke.md": "433c4b7e255cd07abebd69f33de1e1743ad4aa9ac7dffcc6ef8f31887eaac796",
+    "content/notes/2026-09-06-nocca.md": "fac2097f72f974196aa7573287f006bf9c929755f3b026e95b72fad206f835b1",
+    "content/privacy/balance-calendar.md": "dc9b27204db105b541ccee142b99510a35118e276abfe6817a2a946cec10f5ac",
+    "content/privacy/giga-poke.md": "03731570a6f269d7bfeaf5be9e4c0e99d04d4a669e6d84762458a688ad7892ac",
+    "content/privacy/nocca.md": "8cabe07d44eb587150d4500a78aa815348dc0c657dfae73c5268ef1a65516b72",
+    "content/privacy/oto-miru.md": "64e894f76baf985bac0f16899cf04fd3a34076918bd154c751b817472840e84a",
+    "content/privacy/signal.md": "27c739515788137bb4da0b4a88f39faa4bb4afcaa2174173f5209fdad8920f0e",
+    "content/privacy/smokeless.en.md": "7f870d162358a8c52f148c0bb0306ab0ef1cc32354978cc727f2b69eaf8104bb",
+    "content/privacy/smokeless.fr.md": "9e08efdf9770df2c352842b2f57e87821b475576511f1d8db878ffedd3d22b88",
+    "content/privacy/smokeless.ko.md": "11f6b2e2ef2fc54dcf2006e8f401bb2cd4527fb10f4a55c2048408314c2ecfa7",
+    "content/privacy/smokeless.md": "c7e511c978e68e9d7e8e787f0754d430b28a2e3ad873e0b239502d4149d71dda",
+    "content/privacy/smokeless.zh-hant.md": "6578e119181cc5e1a9af90dfa16f8e9426153b1dabe168b378c50b3e0590ea19",
+    "content/privacy/uni-note-pocket.de.md": "1fc54757e4847f9c65137497655c34a2f8a76ebeb7f7c5533e95385cc9159904",
+    "content/privacy/uni-note-pocket.en.md": "e12b0d33bb0f9c9100001b0e6cdd7307d2c0d39c4428cedecef0014d3af5b893",
+    "content/privacy/uni-note-pocket.fr.md": "d9f11b2303c5979bb5170dfdd5e15f24676be73a9e67d8244f23663ba8a769ed",
+    "content/privacy/uni-note-pocket.ko.md": "09b54fb18753363215a1abb95a846b08b214db9946efd0fc4059160a69c0ea5d",
+    "content/privacy/uni-note-pocket.md": "cce2fcadaaeedb8f6f92f2520698f99de6337141cf49e517b476193df5a2eba2",
+    "content/privacy/uni-note-pocket.zh-hant.md": "f39bc5bfa42e65e6caffd5caaaa4a0029c9d212aa9f023796a241e2805589b40",
+    "content/privacy/uni-note.de.md": "a2a9d2520b7dcf0478a26fc904534868ff7ede9d5fdc6036f9b3b4492a637fa3",
+    "content/privacy/uni-note.en.md": "c73a181f6f42ca59a4f5305527d0058ca956e7418360ba9bf9f2e5c359c896a5",
+    "content/privacy/uni-note.fr.md": "b15753d82b5656b22c9f360a11e9e0ab860609e881e9c6e6045ee26a5b71f7fe",
+    "content/privacy/uni-note.ko.md": "c5c0c899be72db3d948222aa197b5654a51b81c06669ab08a41c7ef95050b2eb",
+    "content/privacy/uni-note.md": "1ce170e7fd0d14584d2ecdc468a79457f8350992ef4bb9980e9e06f86481a918",
+    "content/privacy/uni-note.zh-hant.md": "8f7d2938038bf870a9bb571877e438df7d81416186bb404b73fd0958d62be240",
+    "content/products/balance-calendar.de.md": "13d1d98fc90ff8cfe9971bac8bcc7190469010076d6de8d8610129052c39685e",
+    "content/products/balance-calendar.en.md": "ca715eb29a16c6811c57912c8c0f724140d1b0ef85e7ab9d6a75d9f185f84eb3",
+    "content/products/balance-calendar.fr.md": "e2a4504e86fb8e03b8a12283b1583306b5a0f9512d9505759228b8d154dfcf25",
+    "content/products/balance-calendar.ko.md": "2688449ccafc068e9aae29254bc5e52b2df3962d49670fe76f7bada41eeab057",
+    "content/products/balance-calendar.md": "366363b932630e91dd49047a1f586b3feb516704357c8f851453edf8d19c8f97",
+    "content/products/balance-calendar.zh-hant.md": "799302a29f9b3d2c4ed4b68cf264fcb54f419efbb70a840851e130629fa53e56",
+    "content/products/giga-poke.de.md": "1802ba8891b50438c39fcef3bd1276e3af8ec08388812d04695cd8099a14f88f",
+    "content/products/giga-poke.en.md": "52aef150af9227872f92dd8af23c442e39b74ec14f7f09951ccfc6f7d46d0fc1",
+    "content/products/giga-poke.fr.md": "f1b4551ff88ec3d1b0ac04b80d24aab3998126644066bbe1e6d86c7c92404849",
+    "content/products/giga-poke.ko.md": "71b1daad52cf8c1bf24f7a940227cb29a327261987ec699e2173028ed96af40b",
+    "content/products/giga-poke.md": "0bba73a2f2e664c8c734d6515da8c2d01a8fefb78ab82e3a1a3617c96da30ca8",
+    "content/products/giga-poke.zh-hant.md": "99481bd26a41b7d48e63edf16c84dc0a5829270aa93f2720323a9dab6fc59e41",
+    "content/products/nocca.de.md": "08337fb33ce8d40b7c4385afa9edbe8358b11dbc4070519dcb5d551affd7f75b",
+    "content/products/nocca.en.md": "605e7327b8be4d137f9ceceecc43de39a4a8f681529636fa07e2434e30e25abf",
+    "content/products/nocca.fr.md": "83563fd9e372fb4bbfeb564633095d718282f47649d9df8a260fbf79914ad3fc",
+    "content/products/nocca.ko.md": "57922715e07de7059e379a9408e6c29ee1058e6565bed43ff252d327f1744675",
+    "content/products/nocca.md": "1546b39adf4df5d62536f842d32f3d3a2eed33d747d1472296b6219a707f20d4",
+    "content/products/nocca.zh-hant.md": "d2934140053b2c5eafe9271d8988d0d78cd9bc893cbe20a48bbba251eb97c20a",
+    "content/products/oto-miru.de.md": "f91caf626466449a423b3d31f908c0761fe064590ba472337d7f4674bfe4f935",
+    "content/products/oto-miru.en.md": "a56018d775fb5f0dbed5574bf3bbce59848eb9807634fe424caa90058d4a4300",
+    "content/products/oto-miru.fr.md": "15c823c06d064c0447df7b6f027de4da83f56ef396a3f6fc18bfd1033c50173f",
+    "content/products/oto-miru.ko.md": "4cb44dfbcb602b078dc55e347b19878fb48504a240c41c48adaae68452451154",
+    "content/products/oto-miru.md": "4347ffa42cd9d296bec9602f7d834088ba3a282e0a03c216bf55bc2117e3c183",
+    "content/products/oto-miru.zh-hant.md": "f0597bece4f3a42c58c3cbd1d6a928cdb7d6d70f51509a2df1a8e17388807d61",
+    "content/products/signal.de.md": "2763c5ba0bc05fe84cfa733c64a9e32253b31920b73e5d3d5369018421132bd9",
+    "content/products/signal.en.md": "e75673290096024d84828f92e2a1eef1169c7a840a650e149e3942ecf702b19f",
+    "content/products/signal.fr.md": "2bd2f9de1bec593194895ca38f7f45f4046c29859d1106ad90579498738286a4",
+    "content/products/signal.ko.md": "405b472252dfa0f1121d6bc7d78f5af6a2e577536dfe33704f9bdab64bbac00c",
+    "content/products/signal.md": "350e0881a7f98182cf80938f2511be1378e0db92ca7c9af10b5572ad7788e929",
+    "content/products/signal.zh-hant.md": "8d621607774ffc59a6a51e534f151b75d19b563809f582c7dbf23c4bf2db08cc",
+    "content/products/smokeless.de.md": "5d93388cd1912f5f7e45c86796621c2e2ea28b9c46880c1d4717d29259fa9ddd",
+    "content/products/smokeless.en.md": "b84a44bb83d1e3fd35efb684337dc1fa78ac0799eed0d210bd235cf10d18d535",
+    "content/products/smokeless.fr.md": "d12d95f7f7494c0484aa022b76a2f13ae2210ad9feb13654c3371006ca94cbab",
+    "content/products/smokeless.ko.md": "e7687a127d5dc5172f406fe78fcb666a1f9730a6f9b8df3c7c05f4cfbeb86f3a",
+    "content/products/smokeless.md": "78f93d76708608469405535ab874cde90dc30ffad5b2d9510e1bd0dcbafb2c15",
+    "content/products/smokeless.zh-hant.md": "5f61ffb2dd8449fca32a0e3f0edb108c2d1d3a57118bcd81aff00b59de55547c",
+    "content/products/uni-note-pocket.de.md": "51271e8d70db7fc4d713f673c136253ecf6b4b7b58816cfb19bab6f624c9c86e",
+    "content/products/uni-note-pocket.en.md": "8addbab7cbc52aaf7e062bfd844fc0ae7e20450a928f46a83d8d6dd1390429a2",
+    "content/products/uni-note-pocket.fr.md": "a45369903f40ec1635a26e7fa4765f09101a36e1cc03751b9d89caf97712223e",
+    "content/products/uni-note-pocket.ko.md": "ed8f011e0f49b3eae787216789dae14bafb21a21006d8f918631cb255acaa786",
+    "content/products/uni-note-pocket.md": "2663769fd4c65c44026fb89d60164d35f24229eae272bfb4420b78944290fb9b",
+    "content/products/uni-note-pocket.zh-hant.md": "21bb267a8f1b6e353c784899645f669cfc7e34aa187f52ed2beb2980cbfa2f7d",
+    "content/products/uni-note.de.md": "f8fab87b76c717c850373cc0ae891b4cde39b150df6a53214117b7d4d6259e6e",
+    "content/products/uni-note.en.md": "9485e481309a6ad7e043b77180d288bb8b5c568e80636259cd3de5b996936c9b",
+    "content/products/uni-note.fr.md": "23ebe3b56f25d2f92e54ae4d1daa3dbdff376ecc6a5d59ee4878b84bef203482",
+    "content/products/uni-note.ko.md": "19e8e631cea0a8d0a8841d6df4ec5025b68927cec7e547749926dc1d8ccc6faf",
+    "content/products/uni-note.md": "c1250c45b64c0136a53e0bdfdd1172f6510c928cb0130d1b24bc623309f4cfa5",
+    "content/products/uni-note.zh-hant.md": "235f596ca69cdd7d64492c817ec0ecafae1cf05919b9a2cc9d8499f838f1675a",
+    "content/terms/giga-poke.md": "1adeae67b289b757291bce494e4ec24c98879a195ae6683ac5f5b4802389284c",
+    "content/terms/nocca.md": "d00e963c6be8bba1f9cdc4b3cb2df683e71c9ec5375da0096898d2e770628baf",
+    "content/terms/oto-miru.md": "4af99e930dc980952a8a1a4cde8bb5d09790941b57db040d146e641617fcd5a2"
+  }
+}

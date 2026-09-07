@@ -48,7 +48,12 @@
     "operatingSystems": [
       "iPadOS"
     ],
-    "area": "learning"
+    "area": "learning",
+    "support": {
+      "guideURL": "/htu/uni-note/",
+      "faqURL": "/faq/uni-note/",
+      "privacyURL": "/privacy/uni-note/"
+    }
   },
   {
     "id": "oto-miru",
@@ -92,7 +97,13 @@
       "iPadOS"
     ],
     "screenshotsStatus": "review",
-    "area": "communication"
+    "area": "communication",
+    "support": {
+      "guideURL": "/htu/oto-miru/",
+      "faqURL": "/faq/oto-miru/",
+      "privacyURL": "/privacy/oto-miru/",
+      "termsURL": "/terms/oto-miru/"
+    }
   },
   {
     "id": "giga-poke",
@@ -133,7 +144,13 @@
     "operatingSystems": [
       "iOS"
     ],
-    "area": "utilities"
+    "area": "utilities",
+    "support": {
+      "guideURL": "/htu/giga-poke/",
+      "faqURL": "/faq/giga-poke/",
+      "privacyURL": "/privacy/giga-poke/",
+      "termsURL": "/terms/giga-poke/"
+    }
   },
   {
     "id": "nocca",
@@ -172,7 +189,13 @@
     "operatingSystems": [
       "iOS"
     ],
-    "area": "communication"
+    "area": "communication",
+    "support": {
+      "guideURL": "/htu/nocca/",
+      "faqURL": "/faq/nocca/",
+      "privacyURL": "/privacy/nocca/",
+      "termsURL": "/terms/nocca/"
+    }
   },
   {
     "id": "uni-note-pocket",
@@ -223,7 +246,12 @@
     "operatingSystems": [
       "iOS"
     ],
-    "area": "learning"
+    "area": "learning",
+    "support": {
+      "guideURL": "/htu/uni-note-pocket/",
+      "faqURL": "/faq/uni-note-pocket/",
+      "privacyURL": "/privacy/uni-note-pocket/"
+    }
   },
   {
     "id": "balance-calendar",
@@ -266,7 +294,12 @@
     "operatingSystems": [
       "iOS"
     ],
-    "area": "utilities"
+    "area": "utilities",
+    "support": {
+      "guideURL": "/htu/balance-calendar/",
+      "faqURL": "/faq/balance-calendar/",
+      "privacyURL": "/privacy/balance-calendar/"
+    }
   },
   {
     "id": "smokeless",
@@ -313,7 +346,12 @@
     "operatingSystems": [
       "iOS"
     ],
-    "area": "utilities"
+    "area": "utilities",
+    "support": {
+      "guideURL": "/htu/smokeless/",
+      "faqURL": "/faq/smokeless/",
+      "privacyURL": "/privacy/smokeless/"
+    }
   },
   {
     "id": "signal",
@@ -354,6 +392,11 @@
     "operatingSystems": [
       "iOS"
     ],
-    "area": "utilities"
+    "area": "utilities",
+    "support": {
+      "guideURL": "/htu/signal/",
+      "faqURL": "/faq/signal/",
+      "privacyURL": "/privacy/signal/"
+    }
   }
 ]

@@ -168,7 +168,6 @@ body.menu-open { overflow: hidden; }
 .resource-copy { display: block; }
 .resource-title { font-weight: 550; }
 .resource-description { display: block; font-size: .76rem; color: var(--muted); margin-top: 3px; }
-.resource-terms { margin-top: 12px; font-size: .77rem; }
 .contact-panel { margin-top: 65px; border-top: 1px solid var(--line); }
 .contact-panel h2 { font-size: 1.75rem; }
 .contact-panel > p:not(.eyebrow) { color: var(--muted); margin-block: 20px 28px; max-width: 52em; font-size: .95rem; line-height: 1.9; }
@@ -245,8 +244,6 @@ body.menu-open { overflow: hidden; }
 .product-resources { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; border-top: 1px solid var(--line); }
 .product-resources h2 { font-size: 1.7rem; }
 .product-resources p:not(.eyebrow) { margin-top: 20px; font-size: .9rem; color: var(--muted); }
-.related-resource { padding: 30px 0 75px; }
-.related-resource > p { font-size: .78rem; color: var(--muted); }
 .product-backlinks { padding-bottom: 60px; }
 /* Product details explain the app beyond the shared Home introduction. */
 .product-section { padding-block: 72px; border-top: 1px solid var(--line); }
@@ -510,7 +507,6 @@ body.menu-open { overflow: hidden; }
   .product-intro .app-visuals { padding: 24px; }
   .product-resources { grid-template-columns: 1fr; gap: 25px; }
   .product-resources h2 { font-size: 1.45rem; }
-  .related-resource { padding-bottom: 50px; }
   .article-header { padding-block: 35px 26px; }
   .article-header h1 { font-size: 1.7rem; }
   .content { font-size: .93rem; }

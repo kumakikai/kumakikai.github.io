@@ -1,13 +1,9 @@
-{{ $app := .app }}{{ $current := .currentPage }}{{ $copy := index site.Data.home site.Language.Lang }}{{ $corp := index site.Data.corporate site.Language.Lang }}{{ $ui := index site.Data.ux site.Language.Lang }}{{ $text := index $copy.apps $app.id }}
-{{ $labels := dict "htu" $copy.howTo "faq" $copy.faq "privacy" $copy.privacy "terms" $copy.terms "contact" $corp.contactLabel }}
-{{ $descriptions := dict "htu" $ui.guideDescription "faq" $ui.faqDescription "contact" $ui.contactDescription }}
+{{- $ui := index site.Data.ux site.Language.Lang -}}
 <div class="support-resources"><ul class="resource-links">
-{{ range slice "htu" "faq" "contact" "privacy" }}{{ $kind := . }}
-  {{ $url := "" }}{{ $fallback := false }}
-  {{ if eq $kind "contact" }}{{ $url = printf "mailto:kumakikai.apps@gmail.com?subject=%s" (printf "%s — %s" $text.name $corp.contactLabel | urlquery) }}
-  {{ else }}{{ $path := printf "/%s/%s/" $kind $app.id }}{{ $page := site.GetPage $path }}{{ if not $page }}{{ $page = (index site.Sites 0).GetPage $path }}{{ $fallback = true }}{{ end }}{{ with $page }}{{ if or (not $current) (ne $current.RelPermalink .RelPermalink) }}{{ $url = .RelPermalink }}{{ end }}{{ end }}{{ end }}
-  {{ with $url }}<li><a href="{{ . | safeURL }}"><span class="resource-copy"><span class="resource-title">{{ index $labels $kind }}{{ if $fallback }} <span lang="ja">（日本語）</span>{{ end }}</span>{{ with index $descriptions $kind }}<span class="resource-description">{{ . }}</span>{{ end }}</span><span aria-hidden="true">→</span></a></li>{{ end }}
-{{ end }}</ul>
-{{ $terms := site.GetPage (printf "/terms/%s/" $app.id) }}{{ $fallback := false }}{{ if not $terms }}{{ $terms = (index site.Sites 0).GetPage (printf "/terms/%s/" $app.id) }}{{ $fallback = true }}{{ end }}
-{{ with $terms }}{{ if or (not $current) (ne $current.RelPermalink .RelPermalink) }}<a class="text-link resource-terms" href="{{ .RelPermalink }}">{{ $copy.terms }}{{ if $fallback }} <span lang="ja">（日本語）</span>{{ end }} <span aria-hidden="true">→</span></a>{{ end }}{{ end }}
-</div>
+{{- range partial "support-data.html" . -}}
+  <li data-support-kind="{{ .kind }}"><a href="{{ .url | safeURL }}"{{ if .external }} rel="external"{{ end }}{{ if .appleEULA }} title="{{ $ui.appleEULAExternal }}"{{ end }}>
+    <span class="resource-copy"><span class="resource-title">{{ .title }}{{ if .fallback }} <span lang="ja">（日本語）</span>{{ end }}</span><span class="resource-description">{{ .description }}</span>{{ if .appleEULA }}<span class="sr-only">{{ $ui.appleEULAExternal }}</span>{{ end }}</span>
+    <span aria-hidden="true">{{ if .external }}↗{{ else }}→{{ end }}</span>
+  </a></li>
+{{- end -}}
+</ul></div>

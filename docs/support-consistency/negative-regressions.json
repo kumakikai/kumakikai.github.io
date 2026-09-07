@@ -1,0 +1,34 @@
+[
+  {
+    "case": "custom Terms cannot silently fall back to EULA",
+    "rejectedBy": "support_destination"
+  },
+  {
+    "case": "fallback EULA cannot be removed",
+    "rejectedBy": "support_rows"
+  },
+  {
+    "case": "Terms must include same description",
+    "rejectedBy": "support_row_description"
+  },
+  {
+    "case": "Terms arrow cannot disappear",
+    "rejectedBy": "support_row_arrow"
+  },
+  {
+    "case": "Support cannot link to app Press Release",
+    "rejectedBy": "support_news"
+  },
+  {
+    "case": "EULA must retain external identification",
+    "rejectedBy": "support_external"
+  },
+  {
+    "case": "Guide must omit its own resource row",
+    "rejectedBy": "support_rows"
+  },
+  {
+    "case": "Founder cannot regain a named Product anecdote",
+    "rejectedBy": "about_founder_bio"
+  }
+]

@@ -7,10 +7,6 @@
 {{ partial "app-cta.html" (dict "app" $app "product" true) }}{{ with $text.note }}<p class="app-note">{{ . }}</p>{{ end }}</div>{{ partial "app-screenshots.html" (dict "app" $app "eager" true) }}</section>
 {{ partial "product-details.html" (dict "app" $app) }}
 <section class="product-resources section-sm" id="support" aria-labelledby="product-support"><div><p class="eyebrow">Support</p><h2 id="product-support">{{ $corp.productResources }}</h2><p>{{ (index site.Data.ux site.Language.Lang).supportIntro }}</p></div>{{ partial "support-links.html" (dict "app" $app) }}</section>
-{{ $legacy := site.GetPage $app.detailURL }}{{ if not $legacy }}{{ $legacy = (index site.Sites 0).GetPage $app.detailURL }}{{ end }}
-{{ with $legacy }}{{ if in (slice "notes" "news") .Section }}
-<div class="related-resource"><p>{{ $corp.relatedNews }}</p><a class="text-link" href="{{ .RelPermalink }}"{{ if ne .Language.Lang site.Language.Lang }} lang="{{ .Language.LanguageCode }}"{{ end }}>{{ .Title }} <span aria-hidden="true">↗</span></a></div>
-{{ end }}{{ end }}
 <div class="product-backlinks"><a class="text-link" href="{{ "/products/" | relLangURL }}">{{ $corp.allProducts }} <span aria-hidden="true">→</span></a></div>
 </div>
 {{ end }}

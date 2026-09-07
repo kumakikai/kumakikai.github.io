@@ -17,7 +17,7 @@ import json
 from pathlib import Path
 import re
 import sys
-from urllib.parse import unquote, urljoin, urlsplit
+from urllib.parse import parse_qs, unquote, urljoin, urlsplit
 import xml.etree.ElementTree as ET
 
 SITE = "https://kumakikai.github.io"
@@ -371,19 +371,94 @@ class Verification:
         self.require(len(sections) == 1, route, "product_support", "Product needs a directly linkable #support section")
         if not sections:
             return
-        hrefs = [n.attrs.get("href", "") for n in sections[0].descendants("a")]
-        for kind in ("htu", "faq", "privacy", "terms"):
-            original = f"/{kind}/{app['id']}/"
-            preferred = localized(lang, original)
-            target = self.target(preferred, route)
-            if not target or not target[0].is_file():
-                preferred = original
-                target = self.target(preferred, route)
-            if target and target[0].is_file():
-                self.require(hrefs.count(preferred) == 1, route, "product_support", f"Expected one direct existing resource link: {preferred}")
-                self.counts["direct_product_support_links"] += 1
-        self.require(sum(urlsplit(href).scheme == "mailto" and urlsplit(href).path == "kumakikai.apps@gmail.com" for href in hrefs) == 1, route, "product_contact", "Product support needs one direct contact email link")
-        self.require(not any(re.match(r"^/(?:en/|ko/|de/|zh-hant/|fr/)?support/", urlsplit(href).path) for href in hrefs), route, "product_support", "Product resources must not detour through the Support directory")
+        self.verify_support_resources(sections[0], app, lang, route)
+        product = [n for n in doc.nodes if n.has_class("product-page")]
+        self.require(not any(n.has_class("related-resource") for n in doc.nodes), route, "product_news", "Product pages must not append redundant related-news sections")
+        for link in (n for container in product for n in container.descendants("a")):
+            self.require(not self.is_news_link(link.attrs.get("href", "")), route, "product_news", "Product details must not link to a duplicate app announcement")
+
+    @staticmethod
+    def is_news_link(href):
+        return bool(re.match(r"^/(?:en/|ko/|de/|zh-hant/|fr/)?(?:notes|news)(?:/|$)", urlsplit(href).path))
+
+    def verify_support_resources(self, container, app, lang, route, omitted=None):
+        """One data-backed row design for Product, Guide, and FAQ resources.
+
+        This checks rendered output independently of the Hugo partial, including
+        custom Terms priority, Japanese translation fallback, and external EULA
+        semantics. It does not alter immutable article-content verification.
+        """
+        copy = json.loads((self.data_file.parent / "home" / (lang + ".json")).read_text(encoding="utf-8"))
+        corp = json.loads((self.data_file.parent / "corporate" / (lang + ".json")).read_text(encoding="utf-8"))
+        ui = json.loads((self.data_file.parent / "ux" / (lang + ".json")).read_text(encoding="utf-8"))
+        shared = json.loads((self.data_file.parent / "support.json").read_text(encoding="utf-8"))
+        metadata = app.get("support", {})
+        kinds = [kind for kind in ("guide", "faq", "contact", "privacy", "terms") if kind != omitted]
+        labels = {"guide": copy["howTo"], "faq": copy["faq"], "contact": corp["contactLabel"], "privacy": copy["privacy"], "terms": copy["terms"]}
+        resources = [n for n in container.descendants() if n.has_class("support-resources")]
+        self.require(len(resources) == 1, route, "support_component", "Expected one shared support-resources component")
+        lists = [n for n in container.descendants() if n.has_class("resource-links")]
+        self.require(len(lists) == 1 and lists[0].tag == "ul", route, "support_rows", "Support resources need one semantic row list")
+        if len(lists) != 1:
+            return
+        rows = [n for n in lists[0].parts if isinstance(n, Node)]
+        self.require([n.attrs.get("data-support-kind") for n in rows] == kinds and all(n.tag == "li" for n in rows), route, "support_rows", f"Support rows must be ordered {kinds}; omit only the current resource")
+        all_links = list(container.descendants("a"))
+        # A Guide/FAQ may have one secondary Product backlink after its rows.
+        expected_product = localized(lang, f"/products/{app['id']}/")
+        extra_links = [n for n in all_links if n not in list(lists[0].descendants("a"))]
+        self.require((not extra_links if omitted is None else len(extra_links) <= 1 and all(n.attrs.get("href") == expected_product and n.has_class("text-link") for n in extra_links)), route, "support_extra_links", "Only a secondary direct Product backlink may sit outside the resource rows")
+        self.require(not any(self.is_news_link(n.attrs.get("href", "")) for n in all_links), route, "support_news", "Support must not contain News or Press Release links")
+        self.require(not any(re.match(r"^/(?:en/|ko/|de/|zh-hant/|fr/)?support/", urlsplit(n.attrs.get("href", "")).path) for n in all_links), route, "support_direct", "Support resources must not detour through the retired Support hub")
+        for row in rows:
+            kind = row.attrs.get("data-support-kind")
+            if kind not in kinds:
+                continue
+            links = list(row.descendants("a"))
+            self.require(len(links) == 1 and links[0].parent is row, route, "support_row_structure", f"{kind}: the entire row must be one direct link")
+            if len(links) != 1:
+                continue
+            link = links[0]
+            href = link.attrs.get("href", "")
+            original = metadata.get(kind + "URL", "")
+            apple_eula = kind == "terms" and not original
+            if kind == "contact":
+                original = original or shared.get("contactURL", "")
+            elif apple_eula:
+                original = shared.get("standardEULAURL", "")
+            self.require(bool(original), route, "support_metadata", f"{app['id']}: missing {kind} destination")
+            expected, fallback = original, False
+            if original.startswith("/"):
+                expected = localized(lang, original)
+                target = self.target(expected, route)
+                if not target or not target[0].is_file():
+                    expected, fallback = original, lang != "ja"
+                    target = self.target(expected, route)
+                self.require(target and target[0].is_file() and not self.document(target[0]).redirect(), route, "support_destination", f"{kind}: retain a directly readable existing page at {expected}")
+            if urlsplit(original).scheme == "mailto" and not urlsplit(original).query:
+                expected_subject = copy["apps"][app["id"]]["name"] + " — " + corp["contactLabel"]
+                parsed = urlsplit(href)
+                self.require(parsed.scheme == "mailto" and parsed.path == urlsplit(original).path and parse_qs(parsed.query) == {"subject": [expected_subject]}, route, "support_contact", "Contact must use the configured email and localized app-specific subject")
+            else:
+                self.require(href == expected, route, "support_destination", f"{kind}: expected shared metadata destination {expected}, got {href}")
+            titles = [n for n in link.descendants() if n.has_class("resource-title")]
+            descriptions = [n for n in link.descendants() if n.has_class("resource-description")]
+            copies = [n for n in link.descendants() if n.has_class("resource-copy")]
+            expected_title = labels[kind] + (" （日本語）" if fallback else "")
+            self.require(len(titles) == 1 and normalized(titles[0].text()) == normalized(expected_title), route, "support_row_title", f"{kind}: preserve the shared localized title and explicit Japanese fallback label")
+            self.require(len(descriptions) == 1 and descriptions[0].text().strip() == ui.get(kind + "Description") and bool(descriptions[0].text().strip()), route, "support_row_description", f"{kind}: every row, including Privacy and Terms, needs its shared description")
+            self.require(len(copies) == 1 and copies[0].parent is link and all(n.parent is copies[0] for n in titles + descriptions), route, "support_row_structure", f"{kind}: use the same title/description structure")
+            external = expected.startswith("https://")
+            arrows = [n for n in link.parts if isinstance(n, Node) and n.attrs.get("aria-hidden") == "true"]
+            self.require(len(arrows) == 1 and arrows[0].text() == ("↗" if external else "→"), route, "support_row_arrow", f"{kind}: each row needs one decorative navigation arrow")
+            self.require(link.attrs.get("target") in (None, "", "_self") and (("external" in link.attrs.get("rel", "").split()) == external), route, "support_external", "External resources must follow the existing same-tab policy and declare rel=external")
+            if apple_eula:
+                self.require(link.attrs.get("title") == ui.get("appleEULAExternal") and any(n.has_class("sr-only") and n.text().strip() == ui.get("appleEULAExternal") for n in link.descendants()), route, "support_eula_accessibility", "Apple Standard EULA must be identified accessibly as an external destination")
+                self.counts["standard_eula_rows"] += 1
+            elif kind == "terms":
+                self.counts["custom_terms_rows"] += 1
+            self.counts["uniform_support_rows"] += 1
+        self.counts["uniform_support_" + ("product" if omitted is None else omitted) + "_pages"] += 1
 
     def verify_product_content(self, doc, app, detail, lang, route):
         text = detail["locales"][lang]
@@ -474,6 +549,22 @@ class Verification:
     def verify_about(self, doc, apps, lang, route):
         copy = json.loads((self.data_file.parent / "company" / (lang + ".json")).read_text(encoding="utf-8"))
         self.require(copy.get("founderName") == "Yuya Nakamura" and "founderEnglishName" not in copy, route, "about_founder", "About uses one authorized Roman-name field in every locale")
+        profiles = [n for n in doc.nodes if n.attrs.get("id") == "founder"]
+        biographies = [n for n in doc.nodes if n.has_class("founder-bio")]
+        self.require(len(profiles) == 1 and len(biographies) == 1, route, "about_founder", "About needs one Founder profile and biography")
+        if profiles and biographies:
+            names = list(profiles[0].descendants("h3"))
+            roles = [n for n in profiles[0].descendants() if n.has_class("founder-role")]
+            paragraphs = [n.text().strip() for n in biographies[0].parts if isinstance(n, Node) and n.tag == "p"]
+            self.require(len(names) == 1 and names[0].text().strip() == "Yuya Nakamura" and not re.search(r"中村|裕也", profiles[0].text()), route, "about_founder", "Founder must use only the authorized Roman name")
+            self.require(len(roles) == 1 and roles[0].text().strip() == copy.get("founderRole") == "Software Engineer / App Developer", route, "about_founder", "Founder must retain the concrete engineering/development role")
+            self.require(paragraphs == copy.get("founderBio") and len(paragraphs) == 2, route, "about_founder_bio", "Founder should render the two reviewed background and personal-development-style paragraphs")
+            app_copy = json.loads((self.data_file.parent / "home" / (lang + ".json")).read_text(encoding="utf-8"))
+            app_names = [app_copy["apps"][app["id"]]["name"] for app in apps]
+            self.require(not any(normalized(name).casefold() in normalized("".join(paragraphs)).casefold() for name in app_names), route, "about_founder_bio", "Founder biography must not single out individual Product anecdotes")
+            experience = [n for n in biographies[0].descendants() if n.has_class("founder-experience")]
+            expected_experience = [" / ".join(copy.get("experience", [])), "C / C++ / C# / Java / Python / Dart / Swift"]
+            self.require(len(copy.get("experience", [])) == 3 and len(experience) == 1 and [n.text().strip() for n in experience[0].descendants("dd")] == expected_experience, route, "about_founder_experience", "Retain the three software domains and the authorized technical experience")
         self.require("webLabel" not in copy and "buildIntro" not in copy, route, "about_copy", "About must omit the redundant Web label and category introduction")
         title = doc.tagged("title")
         self.require(len(title) == 1 and re.match(r"^About(?:\s|$)", title[0].text()), route, "about_title", "The page title must be About while retaining /company/")
@@ -528,6 +619,22 @@ class Verification:
         if isinstance(apps, dict):
             apps = apps.get("apps", [])
         by_id = {app["id"]: app for app in apps}
+        support = json.loads((self.data_file.parent / "support.json").read_text(encoding="utf-8"))
+        self.require(support.get("standardEULAURL") == "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/", "/products/", "standard_eula", "The shared fallback must use Apple's specified Standard EULA URL")
+        self.require(support.get("contactURL") == "mailto:kumakikai.apps@gmail.com", "/products/", "support_contact", "Retain the existing shared contact address")
+        for app in apps:
+            metadata = app.get("support", {})
+            for kind, section in (("guide", "htu"), ("faq", "faq"), ("privacy", "privacy"), ("terms", "terms")):
+                original = f"/{section}/{app['id']}/"
+                target = self.target(original, "/")
+                if target and target[0].is_file():
+                    self.require(metadata.get(kind + "URL") == original, original, "support_metadata", "Shared Product data must keep each existing resource URL, including custom Terms")
+                elif kind != "terms":
+                    self.require(False, original, "support_metadata", "An existing Product is missing a required Guide, FAQ, or Privacy page; do not create a placeholder")
+            if metadata.get("termsURL"):
+                self.counts["products_with_custom_terms"] += 1
+            else:
+                self.counts["products_with_standard_eula"] += 1
         details = {app["id"]: json.loads((self.data_file.parent / "product_details" / (app["id"] + ".json")).read_text(encoding="utf-8")) for app in apps}
         for app_id, detail in details.items():
             self.require(set(detail.get("locales", {})) == set(LANGUAGES), "/products/" + app_id + "/", "product_locales", "Every product requires all six localized content records")
@@ -695,6 +802,18 @@ class Verification:
                 self.require(sum(n.has_class("app-store-badge") for n in doc.nodes) == (2 if self.available(app) else 0), route, "product_download", "Product Store badges belong only to the hero and lower download sections")
                 self.require(sum(n.has_class("storefront-link") for n in doc.nodes) == len(app.get("availability", {}).get("verifiedStorefronts", [])), route, "storefront_links", "Product country links must appear only once in the hero")
                 self.verify_product_support(doc, app, lang, route)
+                for section, omitted in (("htu", "guide"), ("faq", "faq")):
+                    resource_route = localized(lang, f"/{section}/{app_id}/")
+                    resource_target = self.target(resource_route, "/")
+                    if not resource_target or not resource_target[0].is_file():
+                        continue
+                    resource = self.document(resource_target[0])
+                    if resource.redirect():
+                        continue
+                    related = [n for n in resource.nodes if n.has_class("article-related")]
+                    self.require(len(related) == 1, resource_route, "support_component", "Guide and FAQ pages need one related-support area")
+                    if len(related) == 1:
+                        self.verify_support_resources(related[0], app, lang, resource_route, omitted=omitted)
                 store_links = [node.attrs.get("href", "") for node in doc.tagged("a") if urlsplit(node.attrs.get("href", "")).hostname == "apps.apple.com"]
                 if self.available(app):
                     self.require(app.get("appStoreURL") in store_links, route, "store_cta", "Published product must link to its verified App Store URL")

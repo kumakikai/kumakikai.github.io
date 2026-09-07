@@ -1,0 +1,43 @@
+{{- /* Shared destinations. Missing translations retain their Japanese URL;
+       an explicitly configured page must exist. */ -}}
+{{- $app := .app -}}
+{{- $current := .currentPage -}}
+{{- $copy := index site.Data.home site.Language.Lang -}}
+{{- $corp := index site.Data.corporate site.Language.Lang -}}
+{{- $ui := index site.Data.ux site.Language.Lang -}}
+{{- $metadata := $app.support | default dict -}}
+{{- $labels := dict "guide" $copy.howTo "faq" $copy.faq "contact" $corp.contactLabel "privacy" $copy.privacy "terms" $copy.terms -}}
+{{- $descriptions := dict "guide" $ui.guideDescription "faq" $ui.faqDescription "contact" $ui.contactDescription "privacy" $ui.privacyDescription "terms" $ui.termsDescription -}}
+{{- $items := slice -}}
+{{- range slice "guide" "faq" "contact" "privacy" "terms" -}}
+  {{- $kind := . -}}
+  {{- $url := index $metadata (printf "%sURL" $kind) | default "" -}}
+  {{- $fallback := false -}}
+  {{- $appleEULA := false -}}
+  {{- if eq $kind "contact" -}}
+    {{- $url = $url | default site.Data.support.contactURL -}}
+    {{- if and (hasPrefix $url "mailto:") (not (strings.Contains $url "?")) -}}
+      {{- $url = printf "%s?subject=%s" $url (printf "%s — %s" (index $copy.apps $app.id).name $corp.contactLabel | urlquery) -}}
+    {{- end -}}
+  {{- else if and (eq $kind "terms") (not $url) -}}
+    {{- $url = site.Data.support.standardEULAURL -}}
+    {{- $appleEULA = true -}}
+  {{- end -}}
+  {{- if hasPrefix $url "/" -}}
+    {{- $page := site.GetPage $url -}}
+    {{- if not $page -}}
+      {{- $page = (index site.Sites 0).GetPage $url -}}
+      {{- $fallback = true -}}
+    {{- end -}}
+    {{- if not $page -}}
+      {{- errorf "Support page %q for %s (%s) does not exist" $url $app.id $kind -}}
+    {{- else -}}
+      {{- $url = $page.RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $url -}}{{ warnf "No %s URL for %s" $kind $app.id }}{{- end -}}
+  {{- if and $url (or (not $current) (ne $current.RelPermalink $url)) -}}
+    {{- $items = $items | append (dict "kind" $kind "url" $url "title" (index $labels $kind) "description" (index $descriptions $kind) "fallback" $fallback "external" (hasPrefix $url "https://") "appleEULA" $appleEULA) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $items -}}

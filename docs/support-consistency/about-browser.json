@@ -1,0 +1,944 @@
+{
+  "checkedAt": "2026-09-07T03:32:18.005Z",
+  "base": "http://127.0.0.1:1314",
+  "browser": "Chrome",
+  "method": "Real browser viewport rendering, current localized data comparison, page text and image checks. Japanese screenshots captured at normal 900px height for separate human visual review.",
+  "visualReview": {
+    "status": "passed",
+    "locale": "ja",
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "width": 390,
+        "height": 900
+      }
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "imagesReviewed": 10,
+    "method": "All 10 normal-viewport Founder, Founder bio and Contact screenshots were opened and read visually, separately from DOM assertions.",
+    "findings": [
+      "Founder: the two paragraphs read naturally at desktop and mobile widths. No isolated one- or two-character heading tails, broken Japanese words or clipped text were found.",
+      "The name is Yuya Nakamura only. The revised personal development stance is readable together with the retained technical background.",
+      "Contact: the heading stays on one line at both widths; mobile body wraps between phrases rather than splitting アプリ or プロダクト.",
+      "Light and dark mode: portrait, muted body copy and the mail CTA remain visible; no missing images or horizontal overflow were found."
+    ],
+    "limitations": [
+      "Viewport emulation in desktop Chrome; physical device rendering was not tested. Localized content equality, fact fields and overflow were checked in all six locales; detailed human Japanese line-break review covered Japanese."
+    ]
+  },
+  "ok": true,
+  "cases": 14,
+  "results": [
+    {
+      "locale": "ja",
+      "width": 1440,
+      "theme": "light",
+      "route": "/company/",
+      "screenshots": [
+        "screenshots/about-founder-1440-light.jpg",
+        "screenshots/about-contact-1440-light.jpg"
+      ],
+      "actual": {
+        "founderParagraphs": [
+          "組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。",
+          "作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。"
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\n開発者について\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。\n\n作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。\n\n開発・運営の記事を見る\n→\n開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営",
+        "factsCount": 3,
+        "contact": "Contact\n\n取材・掲載・お問い合わせ\n\n媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。\n\nメールで問い合わせる\n↗\n\nアプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+        "text": "本文へスキップ\nKUMAKIKAI\nProducts\nNews\nAbout\n◎\n日本語\n\nAbout\n\n日常の「こうしたい」を、アプリに。\n\niPhone・iPad向けのアプリを企画・開発・運営しています。\n\nKUMAKIKAIについて\n\nKUMAKIKAIは、Yuya Nakamuraが運営するアプリ開発ブランドです。\n\n手書きノートのUni:Note、字幕アプリのオトミルなどをApp Storeで公開しています。\n\nFounder\n\n開発者について\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。\n\n作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。\n\n開発・運営の記事を見る\n→\n開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\n開発しているアプリの分野\n学習\n\n学ぶ・書く・整理するためのアプリ。\n\nUni:Note\niPad\n→\nコミュニケーション\n\n会話や意思表示を支えるアプリ。\n\nNocca\niPhone · 開発中\n→\nユーティリティ\n\n日常のちょっとした手間を減らすアプリ。\n\nSIGNAL\niPhone\n→\nすべてのプロダクトを見る\n→\n\nFor Media\n\n取材・メディア関係者の方へ\n\n取材・掲載・インタビュー、プロダクトに関するご質問や協業のご相談は、下記のContactからご連絡ください。各アプリの発表記事もご覧いただけます。\n\nPress Releaseを見る\n→\n取材について問い合わせる\n↓\n基本情報\n名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営\n\nContact\n\n取材・掲載・お問い合わせ\n\n媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。\n\nメールで問い合わせる\n↗\n\nアプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。\n\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+        "dark": false,
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "組み込みシステム、業務システム、モバイルアプリなど、複数領域の",
+            "ソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・",
+            "iPad向けアプリの企画・開発・運営を行っています。"
+          ],
+          [
+            "作るものの分野は特に決めていません。自分が使っていて不便に感じた",
+            "ことや、身近な人から聞いた困りごとをきっかけに、必要だと思った",
+            "ものをアプリにしています。"
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ]
+          },
+          {
+            "text": "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。",
+            "lines": [
+              "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。"
+            ]
+          },
+          {
+            "text": "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+            "lines": [
+              "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。"
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "ja",
+      "width": 1440,
+      "theme": "dark",
+      "route": "/company/",
+      "screenshots": [
+        "screenshots/about-founder-1440-dark.jpg",
+        "screenshots/about-contact-1440-dark.jpg"
+      ],
+      "actual": {
+        "founderParagraphs": [
+          "組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。",
+          "作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。"
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\n開発者について\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。\n\n作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。\n\n開発・運営の記事を見る\n→\n開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営",
+        "factsCount": 3,
+        "contact": "Contact\n\n取材・掲載・お問い合わせ\n\n媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。\n\nメールで問い合わせる\n↗\n\nアプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+        "text": "本文へスキップ\nKUMAKIKAI\nProducts\nNews\nAbout\n◎\n日本語\n\nAbout\n\n日常の「こうしたい」を、アプリに。\n\niPhone・iPad向けのアプリを企画・開発・運営しています。\n\nKUMAKIKAIについて\n\nKUMAKIKAIは、Yuya Nakamuraが運営するアプリ開発ブランドです。\n\n手書きノートのUni:Note、字幕アプリのオトミルなどをApp Storeで公開しています。\n\nFounder\n\n開発者について\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。\n\n作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。\n\n開発・運営の記事を見る\n→\n開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\n開発しているアプリの分野\n学習\n\n学ぶ・書く・整理するためのアプリ。\n\nUni:Note Pocket\niPhone\n→\nコミュニケーション\n\n会話や意思表示を支えるアプリ。\n\nオトミル\niPhone / iPad\n→\nユーティリティ\n\n日常のちょっとした手間を減らすアプリ。\n\nギガポケ\niPhone\n→\nすべてのプロダクトを見る\n→\n\nFor Media\n\n取材・メディア関係者の方へ\n\n取材・掲載・インタビュー、プロダクトに関するご質問や協業のご相談は、下記のContactからご連絡ください。各アプリの発表記事もご覧いただけます。\n\nPress Releaseを見る\n→\n取材について問い合わせる\n↓\n基本情報\n名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営\n\nContact\n\n取材・掲載・お問い合わせ\n\n媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。\n\nメールで問い合わせる\n↗\n\nアプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。\n\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+        "dark": true,
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "組み込みシステム、業務システム、モバイルアプリなど、複数領域の",
+            "ソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・",
+            "iPad向けアプリの企画・開発・運営を行っています。"
+          ],
+          [
+            "作るものの分野は特に決めていません。自分が使っていて不便に感じた",
+            "ことや、身近な人から聞いた困りごとをきっかけに、必要だと思った",
+            "ものをアプリにしています。"
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ]
+          },
+          {
+            "text": "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。",
+            "lines": [
+              "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。"
+            ]
+          },
+          {
+            "text": "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+            "lines": [
+              "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。"
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "theme": "light",
+      "route": "/company/",
+      "screenshots": [
+        "screenshots/about-founder-390-light.jpg",
+        "screenshots/about-founder-bio-390-light.jpg",
+        "screenshots/about-contact-390-light.jpg"
+      ],
+      "actual": {
+        "founderParagraphs": [
+          "組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。",
+          "作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。"
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\n開発者について\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。\n\n作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。\n\n開発・運営の記事を見る\n→\n開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営",
+        "factsCount": 3,
+        "contact": "Contact\n\n取材・掲載・お問い合わせ\n\n媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。\n\nメールで問い合わせる\n↗\n\nアプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+        "text": "本文へスキップ\nKUMAKIKAI\n日本語\n\nAbout\n\n日常の「こうしたい」を、アプリに。\n\niPhone・iPad向けのアプリを企画・開発・運営しています。\n\nKUMAKIKAIについて\n\nKUMAKIKAIは、Yuya Nakamuraが運営するアプリ開発ブランドです。\n\n手書きノートのUni:Note、字幕アプリのオトミルなどをApp Storeで公開しています。\n\nFounder\n\n開発者について\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。\n\n作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。\n\n開発・運営の記事を見る\n→\n開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\n開発しているアプリの分野\n学習\n\n学ぶ・書く・整理するためのアプリ。\n\nUni:Note Pocket\niPhone\n→\nコミュニケーション\n\n会話や意思表示を支えるアプリ。\n\nオトミル\niPhone / iPad\n→\nユーティリティ\n\n日常のちょっとした手間を減らすアプリ。\n\nすわなび\niPhone / Apple Watch（近日対応）\n→\nすべてのプロダクトを見る\n→\n\nFor Media\n\n取材・メディア関係者の方へ\n\n取材・掲載・インタビュー、プロダクトに関するご質問や協業のご相談は、下記のContactからご連絡ください。各アプリの発表記事もご覧いただけます。\n\nPress Releaseを見る\n→\n取材について問い合わせる\n↓\n基本情報\n名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営\n\nContact\n\n取材・掲載・お問い合わせ\n\n媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。\n\nメールで問い合わせる\n↗\n\nアプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。\n\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+        "dark": false,
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "組み込みシステム、業務システム、",
+            "モバイルアプリなど、複数領域の",
+            "ソフトウェア開発を経験。現在は",
+            "KUMAKIKAIで、iPhone・iPad向けアプリの",
+            "企画・開発・運営を行っています。"
+          ],
+          [
+            "作るものの分野は特に決めていません。",
+            "自分が使っていて不便に感じたことや、",
+            "身近な人から聞いた困りごとを",
+            "きっかけに、必要だと思ったものを",
+            "アプリにしています。"
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ]
+          },
+          {
+            "text": "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。",
+            "lines": [
+              "媒体名、ご相談内容、対象のプロダクト、",
+              "希望時期を添えてご連絡ください。"
+            ]
+          },
+          {
+            "text": "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+            "lines": [
+              "アプリの使い方や不具合のご相談は、",
+              "各プロダクトページのサポートへ。"
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "ja",
+      "width": 390,
+      "theme": "dark",
+      "route": "/company/",
+      "screenshots": [
+        "screenshots/about-founder-390-dark.jpg",
+        "screenshots/about-founder-bio-390-dark.jpg",
+        "screenshots/about-contact-390-dark.jpg"
+      ],
+      "actual": {
+        "founderParagraphs": [
+          "組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。",
+          "作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。"
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\n開発者について\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。\n\n作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。\n\n開発・運営の記事を見る\n→\n開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営",
+        "factsCount": 3,
+        "contact": "Contact\n\n取材・掲載・お問い合わせ\n\n媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。\n\nメールで問い合わせる\n↗\n\nアプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+        "text": "本文へスキップ\nKUMAKIKAI\n日本語\n\nAbout\n\n日常の「こうしたい」を、アプリに。\n\niPhone・iPad向けのアプリを企画・開発・運営しています。\n\nKUMAKIKAIについて\n\nKUMAKIKAIは、Yuya Nakamuraが運営するアプリ開発ブランドです。\n\n手書きノートのUni:Note、字幕アプリのオトミルなどをApp Storeで公開しています。\n\nFounder\n\n開発者について\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n組み込みシステム、業務システム、モバイルアプリなど、複数領域のソフトウェア開発を経験。現在はKUMAKIKAIで、iPhone・iPad向けアプリの企画・開発・運営を行っています。\n\n作るものの分野は特に決めていません。自分が使っていて不便に感じたことや、身近な人から聞いた困りごとをきっかけに、必要だと思ったものをアプリにしています。\n\n開発・運営の記事を見る\n→\n開発領域\n組み込みシステム / 業務システム / モバイルアプリ\n技術経験\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\n開発しているアプリの分野\n学習\n\n学ぶ・書く・整理するためのアプリ。\n\nUni:Note Pocket\niPhone\n→\nコミュニケーション\n\n会話や意思表示を支えるアプリ。\n\nNocca\niPhone · 開発中\n→\nユーティリティ\n\n日常のちょっとした手間を減らすアプリ。\n\nギャンカレ\niPhone\n→\nすべてのプロダクトを見る\n→\n\nFor Media\n\n取材・メディア関係者の方へ\n\n取材・掲載・インタビュー、プロダクトに関するご質問や協業のご相談は、下記のContactからご連絡ください。各アプリの発表記事もご覧いただけます。\n\nPress Releaseを見る\n→\n取材について問い合わせる\n↓\n基本情報\n名称\nKUMAKIKAI\n開発者\nYuya Nakamura\n事業内容\nモバイルアプリケーションの企画・開発・運営\n\nContact\n\n取材・掲載・お問い合わせ\n\n媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。\n\nメールで問い合わせる\n↗\n\nアプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。\n\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple、Appleのロゴ、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。",
+        "dark": true,
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "組み込みシステム、業務システム、",
+            "モバイルアプリなど、複数領域の",
+            "ソフトウェア開発を経験。現在は",
+            "KUMAKIKAIで、iPhone・iPad向けアプリの",
+            "企画・開発・運営を行っています。"
+          ],
+          [
+            "作るものの分野は特に決めていません。",
+            "自分が使っていて不便に感じたことや、",
+            "身近な人から聞いた困りごとを",
+            "きっかけに、必要だと思ったものを",
+            "アプリにしています。"
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "取材・掲載・お問い合わせ",
+            "lines": [
+              "取材・掲載・お問い合わせ"
+            ]
+          },
+          {
+            "text": "媒体名、ご相談内容、対象のプロダクト、希望時期を添えてご連絡ください。",
+            "lines": [
+              "媒体名、ご相談内容、対象のプロダクト、",
+              "希望時期を添えてご連絡ください。"
+            ]
+          },
+          {
+            "text": "アプリの使い方や不具合のご相談は、各プロダクトページのサポートへ。",
+            "lines": [
+              "アプリの使い方や不具合のご相談は、",
+              "各プロダクトページのサポートへ。"
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "theme": "light",
+      "route": "/en/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "Yuya Nakamura has experience in software development across embedded systems, business systems and mobile apps. At KUMAKIKAI, Yuya currently plans, develops and operates apps for iPhone and iPad.",
+          "Yuya does not limit app development to a particular field. Ideas come from things Yuya finds inconvenient in everyday use or from problems mentioned by people close to Yuya. Yuya turns those ideas into apps when there seems to be a need for them."
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\nAbout the developer\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura has experience in software development across embedded systems, business systems and mobile apps. At KUMAKIKAI, Yuya currently plans, develops and operates apps for iPhone and iPad.\n\nYuya does not limit app development to a particular field. Ideas come from things Yuya finds inconvenient in everyday use or from problems mentioned by people close to Yuya. Yuya turns those ideas into apps when there seems to be a need for them.\n\nRead about development and operations\n→\nDevelopment experience\nEmbedded systems / Business systems / Mobile apps\nTechnical experience\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "Development experience\nEmbedded systems / Business systems / Mobile apps\nTechnical experience\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "Name\nKUMAKIKAI\nDeveloper\nYuya Nakamura\nWhat we do\nPlanning, development, and operation of mobile applications",
+        "factsCount": 3,
+        "contact": "Contact\n\nMedia and other enquiries\n\nPlease email us with your publication, the nature of your enquiry, the relevant product and your preferred timing, where applicable. For app instructions or issues, please see the support section on each Product page.\n\nContact us by email\n↗",
+        "text": "Skip to content\nKUMAKIKAI\nProducts\nNews\nAbout\n◎\nEnglish\n\nAbout\n\nEveryday needs, made into apps.\n\nKUMAKIKAI plans, develops, and maintains iPhone and iPad apps that make everyday things a little simpler.\n\nUseful tools for everyday needs.\n\nKUMAKIKAI plans, develops and operates apps for iPhone and iPad. Taking notes in class, reading a conversation that is hard to hear, keeping track of benefit codes: we build useful tools around specific moments in everyday life.\n\nOur products span learning, communication support, and everyday records and organisation. We distribute them primarily through the App Store and continue to review and improve their features and usability after release.\n\nFounder\n\nAbout the developer\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura has experience in software development across embedded systems, business systems and mobile apps. At KUMAKIKAI, Yuya currently plans, develops and operates apps for iPhone and iPad.\n\nYuya does not limit app development to a particular field. Ideas come from things Yuya finds inconvenient in everyday use or from problems mentioned by people close to Yuya. Yuya turns those ideas into apps when there seems to be a need for them.\n\nRead about development and operations\n→\nDevelopment experience\nEmbedded systems / Business systems / Mobile apps\nTechnical experience\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\nThe kinds of apps we develop\nLearning\n\nApps for learning, writing and organising ideas.\n\nUni:Note Pocket\niPhone\n→\nCommunication\n\nApps that support conversations and help people express themselves.\n\nOtoMiru\niPhone / iPad\n→\nUtilities\n\nApps that make everyday tasks easier.\n\nGigaPoke\niPhone\n→\nView all products\n→\n\nFor Media\n\nFor the media\n\nWe welcome enquiries about coverage, interviews, our products and potential collaborations. Official introductions to our apps are available under Press Release.\n\nView Press Release\n→\nContact us about media enquiries\n↓\nOverview\nName\nKUMAKIKAI\nDeveloper\nYuya Nakamura\nWhat we do\nPlanning, development, and operation of mobile applications\n\nContact\n\nMedia and other enquiries\n\nPlease email us with your publication, the nature of your enquiry, the relevant product and your preferred timing, where applicable. For app instructions or issues, please see the support section on each Product page.\n\nContact us by email\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc. App Store is a service mark of Apple Inc.",
+        "dark": false,
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "Yuya Nakamura has experience in software development across",
+            "embedded systems, business systems and mobile apps. At",
+            "KUMAKIKAI, Yuya currently plans, develops and operates apps for",
+            "iPhone and iPad."
+          ],
+          [
+            "Yuya does not limit app development to a particular field. Ideas come",
+            "from things Yuya finds inconvenient in everyday use or from problems",
+            "mentioned by people close to Yuya. Yuya turns those ideas into apps",
+            "when there seems to be a need for them."
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "Media and other enquiries",
+            "lines": [
+              "Media and other enquiries"
+            ]
+          },
+          {
+            "text": "Please email us with your publication, the nature of your enquiry, the relevant product and your preferred timing, where applicable. For app instructions or issues, please see the support section on each Product page.",
+            "lines": [
+              "Please email us with your publication, the nature of your enquiry, the relevant product and your preferred timing,",
+              "where applicable. For app instructions or issues, please see the support section on each Product page."
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "theme": "light",
+      "route": "/en/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "Yuya Nakamura has experience in software development across embedded systems, business systems and mobile apps. At KUMAKIKAI, Yuya currently plans, develops and operates apps for iPhone and iPad.",
+          "Yuya does not limit app development to a particular field. Ideas come from things Yuya finds inconvenient in everyday use or from problems mentioned by people close to Yuya. Yuya turns those ideas into apps when there seems to be a need for them."
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\nAbout the developer\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura has experience in software development across embedded systems, business systems and mobile apps. At KUMAKIKAI, Yuya currently plans, develops and operates apps for iPhone and iPad.\n\nYuya does not limit app development to a particular field. Ideas come from things Yuya finds inconvenient in everyday use or from problems mentioned by people close to Yuya. Yuya turns those ideas into apps when there seems to be a need for them.\n\nRead about development and operations\n→\nDevelopment experience\nEmbedded systems / Business systems / Mobile apps\nTechnical experience\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "Development experience\nEmbedded systems / Business systems / Mobile apps\nTechnical experience\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "Name\nKUMAKIKAI\nDeveloper\nYuya Nakamura\nWhat we do\nPlanning, development, and operation of mobile applications",
+        "factsCount": 3,
+        "contact": "Contact\n\nMedia and other enquiries\n\nPlease email us with your publication, the nature of your enquiry, the relevant product and your preferred timing, where applicable. For app instructions or issues, please see the support section on each Product page.\n\nContact us by email\n↗",
+        "text": "Skip to content\nKUMAKIKAI\nEnglish\n\nAbout\n\nEveryday needs, made into apps.\n\nKUMAKIKAI plans, develops, and maintains iPhone and iPad apps that make everyday things a little simpler.\n\nUseful tools for everyday needs.\n\nKUMAKIKAI plans, develops and operates apps for iPhone and iPad. Taking notes in class, reading a conversation that is hard to hear, keeping track of benefit codes: we build useful tools around specific moments in everyday life.\n\nOur products span learning, communication support, and everyday records and organisation. We distribute them primarily through the App Store and continue to review and improve their features and usability after release.\n\nFounder\n\nAbout the developer\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura has experience in software development across embedded systems, business systems and mobile apps. At KUMAKIKAI, Yuya currently plans, develops and operates apps for iPhone and iPad.\n\nYuya does not limit app development to a particular field. Ideas come from things Yuya finds inconvenient in everyday use or from problems mentioned by people close to Yuya. Yuya turns those ideas into apps when there seems to be a need for them.\n\nRead about development and operations\n→\nDevelopment experience\nEmbedded systems / Business systems / Mobile apps\nTechnical experience\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\nThe kinds of apps we develop\nLearning\n\nApps for learning, writing and organising ideas.\n\nUni:Note Pocket\niPhone\n→\nCommunication\n\nApps that support conversations and help people express themselves.\n\nOtoMiru\niPhone / iPad\n→\nUtilities\n\nApps that make everyday tasks easier.\n\nSmokeless\niPhone / Apple Watch (coming soon)\n→\nView all products\n→\n\nFor Media\n\nFor the media\n\nWe welcome enquiries about coverage, interviews, our products and potential collaborations. Official introductions to our apps are available under Press Release.\n\nView Press Release\n→\nContact us about media enquiries\n↓\nOverview\nName\nKUMAKIKAI\nDeveloper\nYuya Nakamura\nWhat we do\nPlanning, development, and operation of mobile applications\n\nContact\n\nMedia and other enquiries\n\nPlease email us with your publication, the nature of your enquiry, the relevant product and your preferred timing, where applicable. For app instructions or issues, please see the support section on each Product page.\n\nContact us by email\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple, the Apple logo, iPhone, and iPad are trademarks of Apple Inc. App Store is a service mark of Apple Inc.",
+        "dark": false,
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "Yuya Nakamura has experience in",
+            "software development across embedded",
+            "systems, business systems and mobile",
+            "apps. At KUMAKIKAI, Yuya currently plans,",
+            "develops and operates apps for iPhone",
+            "and iPad."
+          ],
+          [
+            "Yuya does not limit app development to a",
+            "particular field. Ideas come from things",
+            "Yuya finds inconvenient in everyday use or",
+            "from problems mentioned by people close",
+            "to Yuya. Yuya turns those ideas into apps",
+            "when there seems to be a need for them."
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "Media and other enquiries",
+            "lines": [
+              "Media and other enquiries"
+            ]
+          },
+          {
+            "text": "Please email us with your publication, the nature of your enquiry, the relevant product and your preferred timing, where applicable. For app instructions or issues, please see the support section on each Product page.",
+            "lines": [
+              "Please email us with your publication, the nature of",
+              "your enquiry, the relevant product and your preferred",
+              "timing, where applicable. For app instructions or",
+              "issues, please see the support section on each",
+              "Product page."
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "de",
+      "width": 1440,
+      "theme": "light",
+      "route": "/de/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "Yuya Nakamura hat Erfahrung in der Softwareentwicklung für eingebettete Systeme, betriebliche Anwendungen und mobile Apps. Heute umfasst die Arbeit bei KUMAKIKAI die Konzeption, Entwicklung und den Betrieb von Apps für iPhone und iPad.",
+          "Yuya legt sich bei der App-Entwicklung nicht auf ein bestimmtes Gebiet fest. Ideen entstehen aus Dingen, die im eigenen Alltag umständlich sind, oder aus Schwierigkeiten, von denen Menschen aus dem persönlichen Umfeld erzählen. Daraus werden Apps, die Yuya selbst für notwendig hält."
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\nÜber den Entwickler\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura hat Erfahrung in der Softwareentwicklung für eingebettete Systeme, betriebliche Anwendungen und mobile Apps. Heute umfasst die Arbeit bei KUMAKIKAI die Konzeption, Entwicklung und den Betrieb von Apps für iPhone und iPad.\n\nYuya legt sich bei der App-Entwicklung nicht auf ein bestimmtes Gebiet fest. Ideen entstehen aus Dingen, die im eigenen Alltag umständlich sind, oder aus Schwierigkeiten, von denen Menschen aus dem persönlichen Umfeld erzählen. Daraus werden Apps, die Yuya selbst für notwendig hält.\n\nArtikel über Entwicklung und Betrieb lesen\n→\nEntwicklungsbereiche\nEingebettete Systeme / Betriebliche Anwendungen / Mobile Apps\nTechnische Erfahrung\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "Entwicklungsbereiche\nEingebettete Systeme / Betriebliche Anwendungen / Mobile Apps\nTechnische Erfahrung\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "Name\nKUMAKIKAI\nEntwickler\nYuya Nakamura\nTätigkeitsbereich\nKonzeption, Entwicklung und Betrieb mobiler Anwendungen",
+        "factsCount": 3,
+        "contact": "Contact\n\nMedienanfragen und weitere Anliegen\n\nSchreiben Sie uns eine E-Mail und nennen Sie nach Möglichkeit Ihr Medium, Ihr Anliegen, das betreffende Produkt und den gewünschten Zeitraum. Informationen zur Bedienung oder zu Problemen mit einer App finden Sie im Supportbereich der jeweiligen Product-Seite.\n\nKontakt per E-Mail\n↗",
+        "text": "Zum Inhalt springen\nKUMAKIKAI\nProducts\nNews\nAbout\n◎\nDeutsch\n\nAbout\n\nAus Alltagswünschen werden Apps.\n\nKUMAKIKAI konzipiert, entwickelt und betreibt Apps für iPhone und iPad, die kleine Hürden im Alltag lösen.\n\nNützliche Werkzeuge für den Alltag.\n\nKUMAKIKAI konzipiert, entwickelt und betreibt Apps für iPhone und iPad. Notizen in der Vorlesung machen, schwer verständliche Gespräche als Text lesen oder erhaltene Vorteilscodes ordnen: Wir entwickeln nützliche Werkzeuge aus konkreten Alltagssituationen heraus.\n\nUnsere Produkte decken verschiedene Bereiche ab: Lernen, Unterstützung bei Gesprächen sowie alltägliche Aufzeichnungen und Organisation. Wir veröffentlichen sie vor allem im App Store und verbessern ihre Funktionen und Bedienung auch nach der Veröffentlichung weiter.\n\nFounder\n\nÜber den Entwickler\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura hat Erfahrung in der Softwareentwicklung für eingebettete Systeme, betriebliche Anwendungen und mobile Apps. Heute umfasst die Arbeit bei KUMAKIKAI die Konzeption, Entwicklung und den Betrieb von Apps für iPhone und iPad.\n\nYuya legt sich bei der App-Entwicklung nicht auf ein bestimmtes Gebiet fest. Ideen entstehen aus Dingen, die im eigenen Alltag umständlich sind, oder aus Schwierigkeiten, von denen Menschen aus dem persönlichen Umfeld erzählen. Daraus werden Apps, die Yuya selbst für notwendig hält.\n\nArtikel über Entwicklung und Betrieb lesen\n→\nEntwicklungsbereiche\nEingebettete Systeme / Betriebliche Anwendungen / Mobile Apps\nTechnische Erfahrung\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\nWelche Apps wir entwickeln\nLernen\n\nApps zum Lernen, Schreiben und Organisieren.\n\nUni:Note Pocket\niPhone\n→\nKommunikation\n\nApps, die Gespräche und das Ausdrücken eigener Wünsche unterstützen.\n\nNocca\niPhone · In Entwicklung\n→\nAlltagshelfer\n\nApps, die kleine Aufgaben im Alltag erleichtern.\n\nSmokeless\niPhone / Apple Watch (demnächst)\n→\nAlle Produkte ansehen\n→\n\nFor Media\n\nFür Medien und Redaktionsteams\n\nWir freuen uns über Anfragen zu Berichterstattung, Interviews, unseren Produkten und möglichen Kooperationen. Offizielle Vorstellungen unserer Apps finden Sie unter Press Release.\n\nPress Release ansehen\n→\nMedienanfrage senden\n↓\nGrundlegende Informationen\nName\nKUMAKIKAI\nEntwickler\nYuya Nakamura\nTätigkeitsbereich\nKonzeption, Entwicklung und Betrieb mobiler Anwendungen\n\nContact\n\nMedienanfragen und weitere Anliegen\n\nSchreiben Sie uns eine E-Mail und nennen Sie nach Möglichkeit Ihr Medium, Ihr Anliegen, das betreffende Produkt und den gewünschten Zeitraum. Informationen zur Bedienung oder zu Problemen mit einer App finden Sie im Supportbereich der jeweiligen Product-Seite.\n\nKontakt per E-Mail\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple, das Apple Logo, iPhone und iPad sind Marken von Apple Inc. App Store ist eine Dienstleistungsmarke von Apple Inc.",
+        "dark": false,
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "Yuya Nakamura hat Erfahrung in der Softwareentwicklung für",
+            "eingebettete Systeme, betriebliche Anwendungen und mobile Apps.",
+            "Heute umfasst die Arbeit bei KUMAKIKAI die Konzeption, Entwicklung",
+            "und den Betrieb von Apps für iPhone und iPad."
+          ],
+          [
+            "Yuya legt sich bei der App-Entwicklung nicht auf ein bestimmtes",
+            "Gebiet fest. Ideen entstehen aus Dingen, die im eigenen Alltag",
+            "umständlich sind, oder aus Schwierigkeiten, von denen Menschen aus",
+            "dem persönlichen Umfeld erzählen. Daraus werden Apps, die Yuya",
+            "selbst für notwendig hält."
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "Medienanfragen und weitere Anliegen",
+            "lines": [
+              "Medienanfragen und weitere Anliegen"
+            ]
+          },
+          {
+            "text": "Schreiben Sie uns eine E-Mail und nennen Sie nach Möglichkeit Ihr Medium, Ihr Anliegen, das betreffende Produkt und den gewünschten Zeitraum. Informationen zur Bedienung oder zu Problemen mit einer App finden Sie im Supportbereich der jeweiligen Product-Seite.",
+            "lines": [
+              "Schreiben Sie uns eine E-Mail und nennen Sie nach Möglichkeit Ihr Medium, Ihr Anliegen, das betreffende Produkt",
+              "und den gewünschten Zeitraum. Informationen zur Bedienung oder zu Problemen mit einer App finden Sie im",
+              "Supportbereich der jeweiligen Product-Seite."
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "de",
+      "width": 390,
+      "theme": "light",
+      "route": "/de/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "Yuya Nakamura hat Erfahrung in der Softwareentwicklung für eingebettete Systeme, betriebliche Anwendungen und mobile Apps. Heute umfasst die Arbeit bei KUMAKIKAI die Konzeption, Entwicklung und den Betrieb von Apps für iPhone und iPad.",
+          "Yuya legt sich bei der App-Entwicklung nicht auf ein bestimmtes Gebiet fest. Ideen entstehen aus Dingen, die im eigenen Alltag umständlich sind, oder aus Schwierigkeiten, von denen Menschen aus dem persönlichen Umfeld erzählen. Daraus werden Apps, die Yuya selbst für notwendig hält."
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\nÜber den Entwickler\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura hat Erfahrung in der Softwareentwicklung für eingebettete Systeme, betriebliche Anwendungen und mobile Apps. Heute umfasst die Arbeit bei KUMAKIKAI die Konzeption, Entwicklung und den Betrieb von Apps für iPhone und iPad.\n\nYuya legt sich bei der App-Entwicklung nicht auf ein bestimmtes Gebiet fest. Ideen entstehen aus Dingen, die im eigenen Alltag umständlich sind, oder aus Schwierigkeiten, von denen Menschen aus dem persönlichen Umfeld erzählen. Daraus werden Apps, die Yuya selbst für notwendig hält.\n\nArtikel über Entwicklung und Betrieb lesen\n→\nEntwicklungsbereiche\nEingebettete Systeme / Betriebliche Anwendungen / Mobile Apps\nTechnische Erfahrung\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "Entwicklungsbereiche\nEingebettete Systeme / Betriebliche Anwendungen / Mobile Apps\nTechnische Erfahrung\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "Name\nKUMAKIKAI\nEntwickler\nYuya Nakamura\nTätigkeitsbereich\nKonzeption, Entwicklung und Betrieb mobiler Anwendungen",
+        "factsCount": 3,
+        "contact": "Contact\n\nMedienanfragen und weitere Anliegen\n\nSchreiben Sie uns eine E-Mail und nennen Sie nach Möglichkeit Ihr Medium, Ihr Anliegen, das betreffende Produkt und den gewünschten Zeitraum. Informationen zur Bedienung oder zu Problemen mit einer App finden Sie im Supportbereich der jeweiligen Product-Seite.\n\nKontakt per E-Mail\n↗",
+        "text": "Zum Inhalt springen\nKUMAKIKAI\nDeutsch\n\nAbout\n\nAus Alltagswünschen werden Apps.\n\nKUMAKIKAI konzipiert, entwickelt und betreibt Apps für iPhone und iPad, die kleine Hürden im Alltag lösen.\n\nNützliche Werkzeuge für den Alltag.\n\nKUMAKIKAI konzipiert, entwickelt und betreibt Apps für iPhone und iPad. Notizen in der Vorlesung machen, schwer verständliche Gespräche als Text lesen oder erhaltene Vorteilscodes ordnen: Wir entwickeln nützliche Werkzeuge aus konkreten Alltagssituationen heraus.\n\nUnsere Produkte decken verschiedene Bereiche ab: Lernen, Unterstützung bei Gesprächen sowie alltägliche Aufzeichnungen und Organisation. Wir veröffentlichen sie vor allem im App Store und verbessern ihre Funktionen und Bedienung auch nach der Veröffentlichung weiter.\n\nFounder\n\nÜber den Entwickler\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura hat Erfahrung in der Softwareentwicklung für eingebettete Systeme, betriebliche Anwendungen und mobile Apps. Heute umfasst die Arbeit bei KUMAKIKAI die Konzeption, Entwicklung und den Betrieb von Apps für iPhone und iPad.\n\nYuya legt sich bei der App-Entwicklung nicht auf ein bestimmtes Gebiet fest. Ideen entstehen aus Dingen, die im eigenen Alltag umständlich sind, oder aus Schwierigkeiten, von denen Menschen aus dem persönlichen Umfeld erzählen. Daraus werden Apps, die Yuya selbst für notwendig hält.\n\nArtikel über Entwicklung und Betrieb lesen\n→\nEntwicklungsbereiche\nEingebettete Systeme / Betriebliche Anwendungen / Mobile Apps\nTechnische Erfahrung\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\nWelche Apps wir entwickeln\nLernen\n\nApps zum Lernen, Schreiben und Organisieren.\n\nUni:Note\niPad\n→\nKommunikation\n\nApps, die Gespräche und das Ausdrücken eigener Wünsche unterstützen.\n\nOtoMiru\niPhone / iPad\n→\nAlltagshelfer\n\nApps, die kleine Aufgaben im Alltag erleichtern.\n\nBalance Calendar\niPhone\n→\nAlle Produkte ansehen\n→\n\nFor Media\n\nFür Medien und Redaktionsteams\n\nWir freuen uns über Anfragen zu Berichterstattung, Interviews, unseren Produkten und möglichen Kooperationen. Offizielle Vorstellungen unserer Apps finden Sie unter Press Release.\n\nPress Release ansehen\n→\nMedienanfrage senden\n↓\nGrundlegende Informationen\nName\nKUMAKIKAI\nEntwickler\nYuya Nakamura\nTätigkeitsbereich\nKonzeption, Entwicklung und Betrieb mobiler Anwendungen\n\nContact\n\nMedienanfragen und weitere Anliegen\n\nSchreiben Sie uns eine E-Mail und nennen Sie nach Möglichkeit Ihr Medium, Ihr Anliegen, das betreffende Produkt und den gewünschten Zeitraum. Informationen zur Bedienung oder zu Problemen mit einer App finden Sie im Supportbereich der jeweiligen Product-Seite.\n\nKontakt per E-Mail\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple, das Apple Logo, iPhone und iPad sind Marken von Apple Inc. App Store ist eine Dienstleistungsmarke von Apple Inc.",
+        "dark": false,
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "Yuya Nakamura hat Erfahrung in der",
+            "Softwareentwicklung für eingebettete",
+            "Systeme, betriebliche Anwendungen und",
+            "mobile Apps. Heute umfasst die Arbeit bei",
+            "KUMAKIKAI die Konzeption, Entwicklung",
+            "und den Betrieb von Apps für iPhone und",
+            "iPad."
+          ],
+          [
+            "Yuya legt sich bei der App-Entwicklung",
+            "nicht auf ein bestimmtes Gebiet fest.",
+            "Ideen entstehen aus Dingen, die im",
+            "eigenen Alltag umständlich sind, oder aus",
+            "Schwierigkeiten, von denen Menschen aus",
+            "dem persönlichen Umfeld erzählen.",
+            "Daraus werden Apps, die Yuya selbst für",
+            "notwendig hält."
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "Medienanfragen und weitere Anliegen",
+            "lines": [
+              "Medienanfragen und",
+              "weitere Anliegen"
+            ]
+          },
+          {
+            "text": "Schreiben Sie uns eine E-Mail und nennen Sie nach Möglichkeit Ihr Medium, Ihr Anliegen, das betreffende Produkt und den gewünschten Zeitraum. Informationen zur Bedienung oder zu Problemen mit einer App finden Sie im Supportbereich der jeweiligen Product-Seite.",
+            "lines": [
+              "Schreiben Sie uns eine E-Mail und nennen Sie nach",
+              "Möglichkeit Ihr Medium, Ihr Anliegen, das",
+              "betreffende Produkt und den gewünschten Zeitraum.",
+              "Informationen zur Bedienung oder zu Problemen mit",
+              "einer App finden Sie im Supportbereich der",
+              "jeweiligen Product-Seite."
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "fr",
+      "width": 1440,
+      "theme": "light",
+      "route": "/fr/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "Yuya Nakamura possède une expérience du développement logiciel dans plusieurs domaines : systèmes embarqués, applications métier et apps mobiles. Son travail chez KUMAKIKAI porte aujourd’hui sur la conception, le développement et le fonctionnement d’apps pour iPhone et iPad.",
+          "Yuya ne se limite pas à un domaine particulier. Les idées viennent de difficultés rencontrées dans ses propres usages ou de problèmes dont parlent ses proches. Quand un outil lui semble nécessaire, Yuya en fait une app."
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\nÀ propos du développeur\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura possède une expérience du développement logiciel dans plusieurs domaines : systèmes embarqués, applications métier et apps mobiles. Son travail chez KUMAKIKAI porte aujourd’hui sur la conception, le développement et le fonctionnement d’apps pour iPhone et iPad.\n\nYuya ne se limite pas à un domaine particulier. Les idées viennent de difficultés rencontrées dans ses propres usages ou de problèmes dont parlent ses proches. Quand un outil lui semble nécessaire, Yuya en fait une app.\n\nLire les articles sur le développement et l’exploitation\n→\nDomaines de développement\nSystèmes embarqués / Applications métier / Apps mobiles\nExpérience technique\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "Domaines de développement\nSystèmes embarqués / Applications métier / Apps mobiles\nExpérience technique\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "Nom\nKUMAKIKAI\nDéveloppeur\nYuya Nakamura\nActivité\nConception, développement et exploitation d’applications mobiles",
+        "factsCount": 3,
+        "contact": "Contact\n\nPresse et autres demandes\n\nContactez-nous par e-mail en précisant, selon votre demande, le nom de votre média, le sujet, le produit concerné et le calendrier souhaité. Pour l’utilisation d’une app ou un problème rencontré, consultez la rubrique d’assistance de sa page Product.\n\nNous écrire\n↗",
+        "text": "Aller au contenu\nKUMAKIKAI\nProducts\nNews\nAbout\n◎\nFrançais\n\nAbout\n\nDes besoins du quotidien aux apps.\n\nKUMAKIKAI conçoit, développe et maintient des apps pour iPhone et iPad qui simplifient les petits tracas du quotidien.\n\nDes outils utiles pour les besoins du quotidien.\n\nKUMAKIKAI conçoit, développe et assure le fonctionnement d’apps pour iPhone et iPad. Prendre des notes en cours, lire une conversation difficile à entendre, organiser les codes promotionnels reçus : nous créons des outils utiles à partir de situations concrètes du quotidien.\n\nNos produits couvrent plusieurs domaines : l’apprentissage, l’aide à la communication, ainsi que le suivi et l’organisation au quotidien. Nous les distribuons principalement sur l’App Store et continuons à améliorer leurs fonctionnalités et leur utilisation après leur sortie.\n\nFounder\n\nÀ propos du développeur\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura possède une expérience du développement logiciel dans plusieurs domaines : systèmes embarqués, applications métier et apps mobiles. Son travail chez KUMAKIKAI porte aujourd’hui sur la conception, le développement et le fonctionnement d’apps pour iPhone et iPad.\n\nYuya ne se limite pas à un domaine particulier. Les idées viennent de difficultés rencontrées dans ses propres usages ou de problèmes dont parlent ses proches. Quand un outil lui semble nécessaire, Yuya en fait une app.\n\nLire les articles sur le développement et l’exploitation\n→\nDomaines de développement\nSystèmes embarqués / Applications métier / Apps mobiles\nExpérience technique\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\nLes domaines de nos apps\nApprentissage\n\nDes apps pour apprendre, écrire et organiser ses idées.\n\nUni:Note\niPad\n→\nCommunication\n\nDes apps pour faciliter les échanges et l’expression de chacun.\n\nOtoMiru\niPhone / iPad\n→\nUtilitaires\n\nDes apps pour simplifier les petites tâches du quotidien.\n\nGigaPoke\niPhone\n→\nVoir tous les produits\n→\n\nFor Media\n\nPour les médias\n\nNous accueillons les demandes de couverture médiatique, d’interview, d’information sur nos produits et de collaboration. Les présentations officielles de nos apps sont disponibles dans la catégorie Press Release.\n\nVoir Press Release\n→\nEnvoyer une demande presse\n↓\nInformations générales\nNom\nKUMAKIKAI\nDéveloppeur\nYuya Nakamura\nActivité\nConception, développement et exploitation d’applications mobiles\n\nContact\n\nPresse et autres demandes\n\nContactez-nous par e-mail en précisant, selon votre demande, le nom de votre média, le sujet, le produit concerné et le calendrier souhaité. Pour l’utilisation d’une app ou un problème rencontré, consultez la rubrique d’assistance de sa page Product.\n\nNous écrire\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple, le logo Apple, iPhone et iPad sont des marques d’Apple Inc. App Store est une marque de service d’Apple Inc.",
+        "dark": false,
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "Yuya Nakamura possède une expérience du développement logiciel",
+            "dans plusieurs domaines : systèmes embarqués, applications métier",
+            "et apps mobiles. Son travail chez KUMAKIKAI porte aujourd’hui sur la",
+            "conception, le développement et le fonctionnement d’apps pour",
+            "iPhone et iPad."
+          ],
+          [
+            "Yuya ne se limite pas à un domaine particulier. Les idées viennent de",
+            "difficultés rencontrées dans ses propres usages ou de problèmes dont",
+            "parlent ses proches. Quand un outil lui semble nécessaire, Yuya en fait",
+            "une app."
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "Presse et autres demandes",
+            "lines": [
+              "Presse et autres demandes"
+            ]
+          },
+          {
+            "text": "Contactez-nous par e-mail en précisant, selon votre demande, le nom de votre média, le sujet, le produit concerné et le calendrier souhaité. Pour l’utilisation d’une app ou un problème rencontré, consultez la rubrique d’assistance de sa page Product.",
+            "lines": [
+              "Contactez-nous par e-mail en précisant, selon votre demande, le nom de votre média, le sujet, le produit",
+              "concerné et le calendrier souhaité. Pour l’utilisation d’une app ou un problème rencontré, consultez la rubrique",
+              "d’assistance de sa page Product."
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "theme": "light",
+      "route": "/fr/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "Yuya Nakamura possède une expérience du développement logiciel dans plusieurs domaines : systèmes embarqués, applications métier et apps mobiles. Son travail chez KUMAKIKAI porte aujourd’hui sur la conception, le développement et le fonctionnement d’apps pour iPhone et iPad.",
+          "Yuya ne se limite pas à un domaine particulier. Les idées viennent de difficultés rencontrées dans ses propres usages ou de problèmes dont parlent ses proches. Quand un outil lui semble nécessaire, Yuya en fait une app."
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\nÀ propos du développeur\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura possède une expérience du développement logiciel dans plusieurs domaines : systèmes embarqués, applications métier et apps mobiles. Son travail chez KUMAKIKAI porte aujourd’hui sur la conception, le développement et le fonctionnement d’apps pour iPhone et iPad.\n\nYuya ne se limite pas à un domaine particulier. Les idées viennent de difficultés rencontrées dans ses propres usages ou de problèmes dont parlent ses proches. Quand un outil lui semble nécessaire, Yuya en fait une app.\n\nLire les articles sur le développement et l’exploitation\n→\nDomaines de développement\nSystèmes embarqués / Applications métier / Apps mobiles\nExpérience technique\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "Domaines de développement\nSystèmes embarqués / Applications métier / Apps mobiles\nExpérience technique\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "Nom\nKUMAKIKAI\nDéveloppeur\nYuya Nakamura\nActivité\nConception, développement et exploitation d’applications mobiles",
+        "factsCount": 3,
+        "contact": "Contact\n\nPresse et autres demandes\n\nContactez-nous par e-mail en précisant, selon votre demande, le nom de votre média, le sujet, le produit concerné et le calendrier souhaité. Pour l’utilisation d’une app ou un problème rencontré, consultez la rubrique d’assistance de sa page Product.\n\nNous écrire\n↗",
+        "text": "Aller au contenu\nKUMAKIKAI\nFrançais\n\nAbout\n\nDes besoins du quotidien aux apps.\n\nKUMAKIKAI conçoit, développe et maintient des apps pour iPhone et iPad qui simplifient les petits tracas du quotidien.\n\nDes outils utiles pour les besoins du quotidien.\n\nKUMAKIKAI conçoit, développe et assure le fonctionnement d’apps pour iPhone et iPad. Prendre des notes en cours, lire une conversation difficile à entendre, organiser les codes promotionnels reçus : nous créons des outils utiles à partir de situations concrètes du quotidien.\n\nNos produits couvrent plusieurs domaines : l’apprentissage, l’aide à la communication, ainsi que le suivi et l’organisation au quotidien. Nous les distribuons principalement sur l’App Store et continuons à améliorer leurs fonctionnalités et leur utilisation après leur sortie.\n\nFounder\n\nÀ propos du développeur\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\nYuya Nakamura possède une expérience du développement logiciel dans plusieurs domaines : systèmes embarqués, applications métier et apps mobiles. Son travail chez KUMAKIKAI porte aujourd’hui sur la conception, le développement et le fonctionnement d’apps pour iPhone et iPad.\n\nYuya ne se limite pas à un domaine particulier. Les idées viennent de difficultés rencontrées dans ses propres usages ou de problèmes dont parlent ses proches. Quand un outil lui semble nécessaire, Yuya en fait une app.\n\nLire les articles sur le développement et l’exploitation\n→\nDomaines de développement\nSystèmes embarqués / Applications métier / Apps mobiles\nExpérience technique\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\nLes domaines de nos apps\nApprentissage\n\nDes apps pour apprendre, écrire et organiser ses idées.\n\nUni:Note\niPad\n→\nCommunication\n\nDes apps pour faciliter les échanges et l’expression de chacun.\n\nOtoMiru\niPhone / iPad\n→\nUtilitaires\n\nDes apps pour simplifier les petites tâches du quotidien.\n\nGigaPoke\niPhone\n→\nVoir tous les produits\n→\n\nFor Media\n\nPour les médias\n\nNous accueillons les demandes de couverture médiatique, d’interview, d’information sur nos produits et de collaboration. Les présentations officielles de nos apps sont disponibles dans la catégorie Press Release.\n\nVoir Press Release\n→\nEnvoyer une demande presse\n↓\nInformations générales\nNom\nKUMAKIKAI\nDéveloppeur\nYuya Nakamura\nActivité\nConception, développement et exploitation d’applications mobiles\n\nContact\n\nPresse et autres demandes\n\nContactez-nous par e-mail en précisant, selon votre demande, le nom de votre média, le sujet, le produit concerné et le calendrier souhaité. Pour l’utilisation d’une app ou un problème rencontré, consultez la rubrique d’assistance de sa page Product.\n\nNous écrire\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple, le logo Apple, iPhone et iPad sont des marques d’Apple Inc. App Store est une marque de service d’Apple Inc.",
+        "dark": false,
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "Yuya Nakamura possède une expérience",
+            "du développement logiciel dans plusieurs",
+            "domaines : systèmes embarqués,",
+            "applications métier et apps mobiles. Son",
+            "travail chez KUMAKIKAI porte aujourd’hui",
+            "sur la conception, le développement et le",
+            "fonctionnement d’apps pour iPhone et",
+            "iPad."
+          ],
+          [
+            "Yuya ne se limite pas à un domaine",
+            "particulier. Les idées viennent de",
+            "difficultés rencontrées dans ses propres",
+            "usages ou de problèmes dont parlent ses",
+            "proches. Quand un outil lui semble",
+            "nécessaire, Yuya en fait une app."
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "Presse et autres demandes",
+            "lines": [
+              "Presse et autres demandes"
+            ]
+          },
+          {
+            "text": "Contactez-nous par e-mail en précisant, selon votre demande, le nom de votre média, le sujet, le produit concerné et le calendrier souhaité. Pour l’utilisation d’une app ou un problème rencontré, consultez la rubrique d’assistance de sa page Product.",
+            "lines": [
+              "Contactez-nous par e-mail en précisant, selon votre",
+              "demande, le nom de votre média, le sujet, le produit",
+              "concerné et le calendrier souhaité. Pour l’utilisation",
+              "d’une app ou un problème rencontré, consultez la",
+              "rubrique d’assistance de sa page Product."
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "ko",
+      "width": 1440,
+      "theme": "light",
+      "route": "/ko/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "임베디드 시스템, 업무 시스템, 모바일 앱 등 여러 분야에서 소프트웨어 개발을 경험했습니다. 현재 KUMAKIKAI에서 iPhone·iPad용 앱을 기획·개발·운영하고 있습니다.",
+          "만드는 앱의 분야를 따로 정해 두지는 않았습니다. 직접 사용하면서 불편했던 점이나 주변 사람들에게 들은 어려움을 계기로, 필요하다고 생각한 것을 앱으로 만듭니다."
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\n개발자 소개\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n임베디드 시스템, 업무 시스템, 모바일 앱 등 여러 분야에서 소프트웨어 개발을 경험했습니다. 현재 KUMAKIKAI에서 iPhone·iPad용 앱을 기획·개발·운영하고 있습니다.\n\n만드는 앱의 분야를 따로 정해 두지는 않았습니다. 직접 사용하면서 불편했던 점이나 주변 사람들에게 들은 어려움을 계기로, 필요하다고 생각한 것을 앱으로 만듭니다.\n\n개발·운영 이야기 보기\n→\n개발 분야\n임베디드 시스템 / 업무 시스템 / 모바일 앱\n기술 경험\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "개발 분야\n임베디드 시스템 / 업무 시스템 / 모바일 앱\n기술 경험\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "운영명\nKUMAKIKAI\n개발자\nYuya Nakamura\n사업 내용\n모바일 애플리케이션 기획·개발·운영",
+        "factsCount": 3,
+        "contact": "Contact\n\n취재·기사 게재·기타 문의\n\n매체명, 문의 내용, 대상 프로덕트, 희망 일정 등을 적어 이메일로 연락해 주세요. 앱 사용법이나 문제에 대해서는 각 Product 페이지의 지원 섹션을 확인하실 수 있습니다.\n\n이메일로 문의하기\n↗",
+        "text": "본문으로 건너뛰기\nKUMAKIKAI\nProducts\nNews\nAbout\n◎\n한국어\n\nAbout\n\n일상의 작은 바람을, 앱으로.\n\nKUMAKIKAI는 일상의 작은 불편을 해결하는 iPhone과 iPad용 앱을 기획·개발·운영합니다.\n\n일상의 불편을, 쓸모 있는 도구로.\n\nKUMAKIKAI는 iPhone·iPad용 앱을 기획·개발·운영합니다. 수업 시간에 필기하기, 잘 들리지 않는 대화를 글로 확인하기, 받은 혜택 코드를 정리하기. 일상의 구체적인 상황에서 출발해 유용한 도구를 만듭니다.\n\n학습, 대화 지원, 일상의 기록과 관리 등 한 분야에 국한되지 않고 다양한 프로덕트를 개발합니다. App Store를 중심으로 앱을 제공하며, 출시 후에도 사용 방식과 기능을 검토하고 개선을 이어갑니다.\n\nFounder\n\n개발자 소개\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n임베디드 시스템, 업무 시스템, 모바일 앱 등 여러 분야에서 소프트웨어 개발을 경험했습니다. 현재 KUMAKIKAI에서 iPhone·iPad용 앱을 기획·개발·운영하고 있습니다.\n\n만드는 앱의 분야를 따로 정해 두지는 않았습니다. 직접 사용하면서 불편했던 점이나 주변 사람들에게 들은 어려움을 계기로, 필요하다고 생각한 것을 앱으로 만듭니다.\n\n개발·운영 이야기 보기\n→\n개발 분야\n임베디드 시스템 / 업무 시스템 / 모바일 앱\n기술 경험\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\n개발하는 앱의 분야\n학습\n\n배우고, 쓰고, 정리하기 위한 앱.\n\nUni:Note\niPad\n→\n커뮤니케이션\n\n대화와 의사 표현을 돕는 앱.\n\nOtoMiru\niPhone / iPad\n→\n유틸리티\n\n일상의 작은 번거로움을 줄이는 앱.\n\n밸런스 캘린더\niPhone\n→\n모든 프로덕트 보기\n→\n\nFor Media\n\n취재·미디어 관계자 안내\n\n취재·기사 게재·인터뷰, 프로덕트 관련 문의 및 협업 제안을 받고 있습니다. 각 앱의 공식 소개는 Press Release에서 확인하실 수 있습니다.\n\nPress Release 보기\n→\n취재 문의하기\n↓\n기본 정보\n운영명\nKUMAKIKAI\n개발자\nYuya Nakamura\n사업 내용\n모바일 애플리케이션 기획·개발·운영\n\nContact\n\n취재·기사 게재·기타 문의\n\n매체명, 문의 내용, 대상 프로덕트, 희망 일정 등을 적어 이메일로 연락해 주세요. 앱 사용법이나 문제에 대해서는 각 Product 페이지의 지원 섹션을 확인하실 수 있습니다.\n\n이메일로 문의하기\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple, Apple 로고, iPhone 및 iPad는 Apple Inc.의 상표입니다. App Store는 Apple Inc.의 서비스 마크입니다.",
+        "dark": false,
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "임베디드 시스템, 업무 시스템, 모바일 앱 등 여러 분야에서 소프트웨어 개발을 경험",
+            "했습니다. 현재 KUMAKIKAI에서 iPhone·iPad용 앱을 기획·개발·운영하고 있습",
+            "니다."
+          ],
+          [
+            "만드는 앱의 분야를 따로 정해 두지는 않았습니다. 직접 사용하면서 불편했던 점이",
+            "나 주변 사람들에게 들은 어려움을 계기로, 필요하다고 생각한 것을 앱으로 만듭니",
+            "다."
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "취재·기사 게재·기타 문의",
+            "lines": [
+              "취재·기사 게재·기타 문의"
+            ]
+          },
+          {
+            "text": "매체명, 문의 내용, 대상 프로덕트, 희망 일정 등을 적어 이메일로 연락해 주세요. 앱 사용법이나 문제에 대해서는 각 Product 페이지의 지원 섹션을 확인하실 수 있습니다.",
+            "lines": [
+              "매체명, 문의 내용, 대상 프로덕트, 희망 일정 등을 적어 이메일로 연락해 주세요. 앱 사용법이나 문제에 대해서는 각 Product 페이지의",
+              "지원 섹션을 확인하실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "ko",
+      "width": 390,
+      "theme": "light",
+      "route": "/ko/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "임베디드 시스템, 업무 시스템, 모바일 앱 등 여러 분야에서 소프트웨어 개발을 경험했습니다. 현재 KUMAKIKAI에서 iPhone·iPad용 앱을 기획·개발·운영하고 있습니다.",
+          "만드는 앱의 분야를 따로 정해 두지는 않았습니다. 직접 사용하면서 불편했던 점이나 주변 사람들에게 들은 어려움을 계기로, 필요하다고 생각한 것을 앱으로 만듭니다."
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\n개발자 소개\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n임베디드 시스템, 업무 시스템, 모바일 앱 등 여러 분야에서 소프트웨어 개발을 경험했습니다. 현재 KUMAKIKAI에서 iPhone·iPad용 앱을 기획·개발·운영하고 있습니다.\n\n만드는 앱의 분야를 따로 정해 두지는 않았습니다. 직접 사용하면서 불편했던 점이나 주변 사람들에게 들은 어려움을 계기로, 필요하다고 생각한 것을 앱으로 만듭니다.\n\n개발·운영 이야기 보기\n→\n개발 분야\n임베디드 시스템 / 업무 시스템 / 모바일 앱\n기술 경험\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "개발 분야\n임베디드 시스템 / 업무 시스템 / 모바일 앱\n기술 경험\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "운영명\nKUMAKIKAI\n개발자\nYuya Nakamura\n사업 내용\n모바일 애플리케이션 기획·개발·운영",
+        "factsCount": 3,
+        "contact": "Contact\n\n취재·기사 게재·기타 문의\n\n매체명, 문의 내용, 대상 프로덕트, 희망 일정 등을 적어 이메일로 연락해 주세요. 앱 사용법이나 문제에 대해서는 각 Product 페이지의 지원 섹션을 확인하실 수 있습니다.\n\n이메일로 문의하기\n↗",
+        "text": "본문으로 건너뛰기\nKUMAKIKAI\n한국어\n\nAbout\n\n일상의 작은 바람을, 앱으로.\n\nKUMAKIKAI는 일상의 작은 불편을 해결하는 iPhone과 iPad용 앱을 기획·개발·운영합니다.\n\n일상의 불편을, 쓸모 있는 도구로.\n\nKUMAKIKAI는 iPhone·iPad용 앱을 기획·개발·운영합니다. 수업 시간에 필기하기, 잘 들리지 않는 대화를 글로 확인하기, 받은 혜택 코드를 정리하기. 일상의 구체적인 상황에서 출발해 유용한 도구를 만듭니다.\n\n학습, 대화 지원, 일상의 기록과 관리 등 한 분야에 국한되지 않고 다양한 프로덕트를 개발합니다. App Store를 중심으로 앱을 제공하며, 출시 후에도 사용 방식과 기능을 검토하고 개선을 이어갑니다.\n\nFounder\n\n개발자 소개\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n임베디드 시스템, 업무 시스템, 모바일 앱 등 여러 분야에서 소프트웨어 개발을 경험했습니다. 현재 KUMAKIKAI에서 iPhone·iPad용 앱을 기획·개발·운영하고 있습니다.\n\n만드는 앱의 분야를 따로 정해 두지는 않았습니다. 직접 사용하면서 불편했던 점이나 주변 사람들에게 들은 어려움을 계기로, 필요하다고 생각한 것을 앱으로 만듭니다.\n\n개발·운영 이야기 보기\n→\n개발 분야\n임베디드 시스템 / 업무 시스템 / 모바일 앱\n기술 경험\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\n개발하는 앱의 분야\n학습\n\n배우고, 쓰고, 정리하기 위한 앱.\n\nUni:Note Pocket\niPhone\n→\n커뮤니케이션\n\n대화와 의사 표현을 돕는 앱.\n\nNocca\niPhone · 개발 중\n→\n유틸리티\n\n일상의 작은 번거로움을 줄이는 앱.\n\nSIGNAL\niPhone\n→\n모든 프로덕트 보기\n→\n\nFor Media\n\n취재·미디어 관계자 안내\n\n취재·기사 게재·인터뷰, 프로덕트 관련 문의 및 협업 제안을 받고 있습니다. 각 앱의 공식 소개는 Press Release에서 확인하실 수 있습니다.\n\nPress Release 보기\n→\n취재 문의하기\n↓\n기본 정보\n운영명\nKUMAKIKAI\n개발자\nYuya Nakamura\n사업 내용\n모바일 애플리케이션 기획·개발·운영\n\nContact\n\n취재·기사 게재·기타 문의\n\n매체명, 문의 내용, 대상 프로덕트, 희망 일정 등을 적어 이메일로 연락해 주세요. 앱 사용법이나 문제에 대해서는 각 Product 페이지의 지원 섹션을 확인하실 수 있습니다.\n\n이메일로 문의하기\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple, Apple 로고, iPhone 및 iPad는 Apple Inc.의 상표입니다. App Store는 Apple Inc.의 서비스 마크입니다.",
+        "dark": false,
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "임베디드 시스템, 업무 시스템, 모바일 앱 등 여러",
+            "분야에서 소프트웨어 개발을 경험했습니다. 현재",
+            "KUMAKIKAI에서 iPhone·iPad용 앱을 기획·개",
+            "발·운영하고 있습니다."
+          ],
+          [
+            "만드는 앱의 분야를 따로 정해 두지는 않았습니다.",
+            "직접 사용하면서 불편했던 점이나 주변 사람들에",
+            "게 들은 어려움을 계기로, 필요하다고 생각한 것을",
+            "앱으로 만듭니다."
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "취재·기사 게재·기타 문의",
+            "lines": [
+              "취재·기사 게재·기타 문의"
+            ]
+          },
+          {
+            "text": "매체명, 문의 내용, 대상 프로덕트, 희망 일정 등을 적어 이메일로 연락해 주세요. 앱 사용법이나 문제에 대해서는 각 Product 페이지의 지원 섹션을 확인하실 수 있습니다.",
+            "lines": [
+              "매체명, 문의 내용, 대상 프로덕트, 희망 일정 등을 적어 이메일",
+              "로 연락해 주세요. 앱 사용법이나 문제에 대해서는 각 Product",
+              "페이지의 지원 섹션을 확인하실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "zh-hant",
+      "width": 1440,
+      "theme": "light",
+      "route": "/zh-hant/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "具備嵌入式系統、企業應用系統及行動 App 等多個領域的軟體開發經驗。目前在 KUMAKIKAI 規劃、開發及營運 iPhone・iPad App。",
+          "沒有特別限定開發的領域。從自己使用時感到不方便的地方，或身邊的人提到的困擾出發，把覺得需要的工具做成 App。"
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\n關於開發者\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n具備嵌入式系統、企業應用系統及行動 App 等多個領域的軟體開發經驗。目前在 KUMAKIKAI 規劃、開發及營運 iPhone・iPad App。\n\n沒有特別限定開發的領域。從自己使用時感到不方便的地方，或身邊的人提到的困擾出發，把覺得需要的工具做成 App。\n\n閱讀開發與營運文章\n→\n開發領域\n嵌入式系統 / 企業應用系統 / 行動 App\n技術經驗\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "開發領域\n嵌入式系統 / 企業應用系統 / 行動 App\n技術經驗\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "營運名稱\nKUMAKIKAI\n開發者\nYuya Nakamura\n業務內容\n行動應用程式的企劃、開發與營運",
+        "factsCount": 3,
+        "contact": "Contact\n\n採訪、報導及其他洽詢\n\n請以電子郵件聯絡，並附上媒體名稱、洽詢內容、相關產品及希望安排的時間等資訊。若需要 App 使用說明或遇到問題，可查看各 Product 頁面的支援區域。\n\n透過電子郵件聯絡\n↗",
+        "text": "跳至主要內容\nKUMAKIKAI\nProducts\nNews\nAbout\n◎\n繁體中文\n\nAbout\n\n把日常的小小心願，做成 App。\n\nKUMAKIKAI 企劃、開發並營運 iPhone 與 iPad App，解決日常生活中的小小不便。\n\n從生活中的不便，做出實用的工具。\n\nKUMAKIKAI 規劃、開發及營運 iPhone・iPad App。上課做筆記、用文字確認聽不清楚的對話、整理收到的優惠代碼。我們從日常的具體情境出發，製作實用的工具。\n\n我們的產品不限於單一領域，涵蓋學習、溝通輔助，以及日常記錄與管理。主要透過 App Store 提供服務，並在上架後持續檢視操作方式與功能，逐步改善產品。\n\nFounder\n\n關於開發者\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n具備嵌入式系統、企業應用系統及行動 App 等多個領域的軟體開發經驗。目前在 KUMAKIKAI 規劃、開發及營運 iPhone・iPad App。\n\n沒有特別限定開發的領域。從自己使用時感到不方便的地方，或身邊的人提到的困擾出發，把覺得需要的工具做成 App。\n\n閱讀開發與營運文章\n→\n開發領域\n嵌入式系統 / 企業應用系統 / 行動 App\n技術經驗\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\n我們開發的 App 類型\n學習\n\n幫助學習、書寫與整理的 App。\n\nUni:Note\niPad\n→\n溝通\n\n協助對話與表達意願的 App。\n\nOtoMiru\niPhone / iPad\n→\n實用工具\n\n減少日常瑣事的 App。\n\nGigaPoke\niPhone\n→\n查看所有產品\n→\n\nFor Media\n\n媒體與採訪聯絡\n\n歡迎洽詢採訪、報導、專訪、產品相關問題及合作事宜。各 App 的正式介紹可於 Press Release 查看。\n\n查看 Press Release\n→\n洽詢採訪事宜\n↓\n基本資訊\n營運名稱\nKUMAKIKAI\n開發者\nYuya Nakamura\n業務內容\n行動應用程式的企劃、開發與營運\n\nContact\n\n採訪、報導及其他洽詢\n\n請以電子郵件聯絡，並附上媒體名稱、洽詢內容、相關產品及希望安排的時間等資訊。若需要 App 使用說明或遇到問題，可查看各 Product 頁面的支援區域。\n\n透過電子郵件聯絡\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple、Apple 標誌、iPhone 和 iPad 是 Apple Inc. 的商標。App Store 是 Apple Inc. 的服務標記。",
+        "dark": false,
+        "scrollWidth": 1440,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "具備嵌入式系統、企業應用系統及行動 App 等多個領域的軟體開發經",
+            "驗。目前在 KUMAKIKAI 規劃、開發及營運 iPhone・iPad App。"
+          ],
+          [
+            "沒有特別限定開發的領域。從自己使用時感到不方便的地方，或身邊的人",
+            "提到的困擾出發，把覺得需要的工具做成 App。"
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "採訪、報導及其他洽詢",
+            "lines": [
+              "採訪、報導及其他洽詢"
+            ]
+          },
+          {
+            "text": "請以電子郵件聯絡，並附上媒體名稱、洽詢內容、相關產品及希望安排的時間等資訊。若需要 App 使用說明或遇到問題，可查看各 Product 頁面的支援區域。",
+            "lines": [
+              "請以電子郵件聯絡，並附上媒體名稱、洽詢內容、相關產品及希望安排的時間等資訊。若需要 App 使用說明或遇到問",
+              "題，可查看各 Product 頁面的支援區域。"
+            ]
+          }
+        ]
+      },
+      "ok": true
+    },
+    {
+      "locale": "zh-hant",
+      "width": 390,
+      "theme": "light",
+      "route": "/zh-hant/company/",
+      "screenshots": [],
+      "actual": {
+        "founderParagraphs": [
+          "具備嵌入式系統、企業應用系統及行動 App 等多個領域的軟體開發經驗。目前在 KUMAKIKAI 規劃、開發及營運 iPhone・iPad App。",
+          "沒有特別限定開發的領域。從自己使用時感到不方便的地方，或身邊的人提到的困擾出發，把覺得需要的工具做成 App。"
+        ],
+        "founderName": "Yuya Nakamura",
+        "founderRole": "Software Engineer / App Developer",
+        "founderText": "Founder\n\n關於開發者\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n具備嵌入式系統、企業應用系統及行動 App 等多個領域的軟體開發經驗。目前在 KUMAKIKAI 規劃、開發及營運 iPhone・iPad App。\n\n沒有特別限定開發的領域。從自己使用時感到不方便的地方，或身邊的人提到的困擾出發，把覺得需要的工具做成 App。\n\n閱讀開發與營運文章\n→\n開發領域\n嵌入式系統 / 企業應用系統 / 行動 App\n技術經驗\nC / C++ / C# / Java / Python / Dart / Swift",
+        "technicalExperience": "開發領域\n嵌入式系統 / 企業應用系統 / 行動 App\n技術經驗\nC / C++ / C# / Java / Python / Dart / Swift",
+        "facts": "營運名稱\nKUMAKIKAI\n開發者\nYuya Nakamura\n業務內容\n行動應用程式的企劃、開發與營運",
+        "factsCount": 3,
+        "contact": "Contact\n\n採訪、報導及其他洽詢\n\n請以電子郵件聯絡，並附上媒體名稱、洽詢內容、相關產品及希望安排的時間等資訊。若需要 App 使用說明或遇到問題，可查看各 Product 頁面的支援區域。\n\n透過電子郵件聯絡\n↗",
+        "text": "跳至主要內容\nKUMAKIKAI\n繁體中文\n\nAbout\n\n把日常的小小心願，做成 App。\n\nKUMAKIKAI 企劃、開發並營運 iPhone 與 iPad App，解決日常生活中的小小不便。\n\n從生活中的不便，做出實用的工具。\n\nKUMAKIKAI 規劃、開發及營運 iPhone・iPad App。上課做筆記、用文字確認聽不清楚的對話、整理收到的優惠代碼。我們從日常的具體情境出發，製作實用的工具。\n\n我們的產品不限於單一領域，涵蓋學習、溝通輔助，以及日常記錄與管理。主要透過 App Store 提供服務，並在上架後持續檢視操作方式與功能，逐步改善產品。\n\nFounder\n\n關於開發者\nYuya Nakamura\n\nSoftware Engineer / App Developer\n\n具備嵌入式系統、企業應用系統及行動 App 等多個領域的軟體開發經驗。目前在 KUMAKIKAI 規劃、開發及營運 iPhone・iPad App。\n\n沒有特別限定開發的領域。從自己使用時感到不方便的地方，或身邊的人提到的困擾出發，把覺得需要的工具做成 App。\n\n閱讀開發與營運文章\n→\n開發領域\n嵌入式系統 / 企業應用系統 / 行動 App\n技術經驗\nC / C++ / C# / Java / Python / Dart / Swift\n\nWhat we build\n\n我們開發的 App 類型\n學習\n\n幫助學習、書寫與整理的 App。\n\nUni:Note Pocket\niPhone\n→\n溝通\n\n協助對話與表達意願的 App。\n\nOtoMiru\niPhone / iPad\n→\n實用工具\n\n減少日常瑣事的 App。\n\nBalance Calendar\niPhone\n→\n查看所有產品\n→\n\nFor Media\n\n媒體與採訪聯絡\n\n歡迎洽詢採訪、報導、專訪、產品相關問題及合作事宜。各 App 的正式介紹可於 Press Release 查看。\n\n查看 Press Release\n→\n洽詢採訪事宜\n↓\n基本資訊\n營運名稱\nKUMAKIKAI\n開發者\nYuya Nakamura\n業務內容\n行動應用程式的企劃、開發與營運\n\nContact\n\n採訪、報導及其他洽詢\n\n請以電子郵件聯絡，並附上媒體名稱、洽詢內容、相關產品及希望安排的時間等資訊。若需要 App 使用說明或遇到問題，可查看各 Product 頁面的支援區域。\n\n透過電子郵件聯絡\n↗\nKUMAKIKAI\nContact\n\n© 2026 KUMAKIKAI\n\nApple、Apple 標誌、iPhone 和 iPad 是 Apple Inc. 的商標。App Store 是 Apple Inc. 的服務標記。",
+        "dark": false,
+        "scrollWidth": 390,
+        "brokenImages": [],
+        "founderLines": [
+          [
+            "具備嵌入式系統、企業應用系統及行動 App",
+            "等多個領域的軟體開發經驗。目前在",
+            "KUMAKIKAI 規劃、開發及營運 iPhone・",
+            "iPad App。"
+          ],
+          [
+            "沒有特別限定開發的領域。從自己使用時感",
+            "到不方便的地方，或身邊的人提到的困擾出",
+            "發，把覺得需要的工具做成 App。"
+          ]
+        ],
+        "contactLines": [
+          {
+            "text": "Contact",
+            "lines": [
+              "Contact"
+            ]
+          },
+          {
+            "text": "採訪、報導及其他洽詢",
+            "lines": [
+              "採訪、報導及其他洽詢"
+            ]
+          },
+          {
+            "text": "請以電子郵件聯絡，並附上媒體名稱、洽詢內容、相關產品及希望安排的時間等資訊。若需要 App 使用說明或遇到問題，可查看各 Product 頁面的支援區域。",
+            "lines": [
+              "請以電子郵件聯絡，並附上媒體名稱、洽詢內容、相關",
+              "產品及希望安排的時間等資訊。若需要 App 使用說明或",
+              "遇到問題，可查看各 Product 頁面的支援區域。"
+            ]
+          }
+        ]
+      },
+      "ok": true
+    }
+  ]
+}

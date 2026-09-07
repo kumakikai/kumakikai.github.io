@@ -72,7 +72,8 @@ npm run verify
 | 場所 | 役割 |
 |---|---|
 | `hugo.toml` | 言語・公開URL・theme・Tailwind buildの設定 |
-| `data/apps.json` | アプリID、一覧の表示順、Home掲載候補、開発領域、公開状態、Store URL、既存詳細URL、画像 |
+| `data/apps.json` | アプリID、一覧の表示順、Home掲載候補、開発領域、公開状態、Store URL、既存詳細URL、画像、Supportの本文URL |
+| `data/support.json` | 共通問い合わせ先とApple Standard EULAのフォールバックURL |
 | `data/home/<lang>.json` | 6言語の既存トップコピー、アプリ名・説明・対応端末・画像alt |
 | `data/product_details/<id>.json` | 各Product専用の概要・機能・画像付き紹介・利用シーン・確認済み対応OS |
 | `data/product_ui/<lang>.json` | Product詳細の見出し・基本情報ラベル・下部CTAの6言語コピー |
@@ -100,7 +101,7 @@ npm run verify
 1. `data/apps.json`にアプリを追加します。`id`はURLに使用する固定slug、配列順はProducts一覧の表示順です。`featured: true`はHomeの紹介候補を意味し、常時表示や公開済みという意味ではありません。現在の全8アプリを候補に含め、Uni:Noteの先頭固定はレイアウト側で扱います。`area`には下表の開発領域を設定します。
 2. `data/home/`の6言語すべてへ、同じIDでアプリ名・短い説明・`platform`・必要な`taglineLines`・`imageAlts`を追加します。既存コピーの変更には仕様上の根拠が必要です。`taglineLines`がないアプリは、`data/product_details/<id>.json`の各言語の既存`overviewTitle`を共通紹介の見出しとして参照します。同じコピーを重複定義する必要はありません。Uni:Noteの対応端末表記は全言語で`iPad`に統一します。
 3. 実際のアイコン・スクリーンショットを`static/images/apps/<id>/`へ配置し、`data/apps.json`に幅・高さとsmall／large画像を登録します。素材がない場合は`screenshots: []`にします。
-4. 使い方、FAQ、Privacy、Termsがある場合は既存の規則で`content/<section>/<id>.md`を用意します。Product下部のSupportは同じIDからこれらのページを探し、翻訳がなければ日本語ページへ案内します。
+4. 使い方、FAQ、Privacy、Termsがある場合は既存の規則で`content/<section>/<id>.md`を用意し、`data/apps.json`の`support`に`guideURL`・`faqURL`・`privacyURL`・必要なら`termsURL`を設定します。既存ページは現在のURLをそのまま指定します。問い合わせ先が共通と異なる場合だけ`contactURL`を設定してください。翻訳がなければ日本語ページへ案内します。
 5. `data/product_details/<id>.json`へ、Homeとは別の製品紹介を6言語で追加します。公開版とローカル開発版を区別して確認し、根拠と素材の出典を`docs/products/`へ残します。下の「Product詳細の編集」を参照してください。
 6. `npm run sync:products`、`npm run build`、`npm run verify`を実行し、差分とブラウザ表示を確認します。
 
@@ -196,7 +197,11 @@ AboutのSEO説明は`data/corporate/<lang>.json`の`companyDescription`で管理
 
 既存の`/htu/`、`/faq/`、`/privacy/`、`/terms/`、`/notes/`と各言語URLはApp Store Connectや外部記事から参照されている可能性があります。ファイル名・slugを変更する場合は、旧URLを維持するかHugoの`aliases`で到達可能にしてください。各アプリのPrivacy／Termsは統合しません。
 
-Product下部の`#support`は使い方・FAQ・問い合わせ・Privacyへ直接案内します。ProductからSupport一覧へ移動して同じアプリを再選択させないでください。HeaderはProducts／News／About、FooterはContactだけを担当します。アプリ選択はProductsに一本化し、各カードの「製品を見る」は`/products/<id>/`、「サポート」は同じProductページの`#support`へ直接進めます。アプリ名・端末・既存のキャッチコピーまたは説明・公開状況は共通データから表示し、一覧には使い方やFAQを展開しません。
+Product下部の`#support`は使い方・FAQ・問い合わせ・Privacy・Termsの5項目へ直接案内します。ProductからSupport一覧へ移動して同じアプリを再選択させないでください。HeaderはProducts／News／About、FooterはContactだけを担当します。アプリ選択はProductsに一本化し、各カードの「製品を見る」は`/products/<id>/`、「サポート」は同じProductページの`#support`へ直接進めます。アプリ名・端末・既存のキャッチコピーまたは説明・公開状況は共通データから表示し、一覧には使い方やFAQを展開しません。
+
+Product・使い方・FAQは`support-data.html`で同じSupportデータを解決し、`support-links.html`で同じ行UIを表示します。使い方・FAQでは閲覧中の項目を省きます。`termsURL`が未設定の場合だけ、`data/support.json`のApple Standard EULAへ案内します。独自規約のURLが設定されているのにページがない場合はbuildエラーにし、別の規約へ黙って切り替えません。外部リンクも同じタブで開き、EULAは外部矢印・title・読み上げ用補足で行き先を示します。Press ReleaseはNewsから案内し、ProductやSupportの末尾に重ねて載せません。
+
+この構成の監査記録は[Support統一レポート](docs/support-consistency/REPORT.md)を参照してください。`npm run verify`は5項目の順序・文言・URL・EULA・閲覧中ページの除外も検証します。実ブラウザではローカルpreviewを起動し、`TEST_BASE_URL=http://127.0.0.1:1313 NODE_PATH=/path/to/qa/node_modules node scripts/verify-support.cjs`で全Product・使い方・FAQを確認できます。
 
 旧`/support/`、`/htu/`、`/faq/`、`/privacy/`、`/terms/`の集約URLは互換用にHTTP成功・自己canonicalを維持し、`noindex, follow`とProductsへの簡潔な案内を付けます。これらは主要ナビやHomeから案内しません。旧Supportの`#<id>`・`#support-<id>`はCSSの`:target`で対象アプリの直接Supportリンクだけを表示し、`#contact`も維持します。個別本文・Privacy・利用規約URLは変更しません。Homeの旧`#support`はHeroのProducts CTAへ接続します。
 
