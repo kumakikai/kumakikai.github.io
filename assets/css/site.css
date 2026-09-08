@@ -262,9 +262,9 @@ body.menu-open { overflow: hidden; }
 .product-story--reverse .product-story-copy { grid-column: 2; grid-row: 1; }
 .product-story--reverse .product-story-visual { grid-column: 1; grid-row: 1; }
 .product-story-visual { min-width: 0; margin: 0; }
-.product-story-visual a { display: block; max-width: 290px; margin-inline: auto; border-radius: 14px; box-shadow: 0 12px 26px #0002; }
+.product-story-visual .screenshot-frame { display: block; max-width: 290px; margin-inline: auto; border-radius: 14px; box-shadow: 0 12px 26px #0002; }
 .product-story-visual img { display: block; width: 100%; border-radius: inherit; }
-.product-story--tablet .product-story-visual a { max-width: 450px; }
+.product-story--tablet .product-story-visual .screenshot-frame { max-width: 450px; }
 .product-story figcaption { font-size: .7rem; color: var(--muted); text-align: center; line-height: 1.8; margin: 12px auto 0; max-width: 450px; }
 .product-audience { margin-top: 72px; }
 .product-facts dl > div { display: grid; grid-template-columns: 145px 1fr; gap: 20px; padding-block: 15px; border-bottom: 1px solid var(--line); font-size: .9rem; }
@@ -289,14 +289,14 @@ body.menu-open { overflow: hidden; }
 .watch-requirements p:not(.eyebrow) { font-size: .77rem; }
 .watch-product-media { display: grid; grid-template-columns: minmax(0,.85fr) minmax(0,1fr); gap: 18px; align-items: center; width: 100%; max-width: 510px; margin-inline: auto; }
 .watch-product-media figure { min-width: 0; margin: 0; }
-.watch-product-media a { display: block; border-radius: 14px; overflow: hidden; box-shadow: 0 10px 24px #0002; }
+.watch-product-media .screenshot-frame { display: block; border-radius: 14px; overflow: hidden; box-shadow: 0 10px 24px #0002; }
 .watch-product-media img { display: block; width: 100%; }
 .watch-product-media figcaption { margin-top: 14px; color: var(--muted); font-size: .68rem; line-height: 1.8; }
-.watch-device-figure--raw a { border: 4px solid #30343a; border-radius: 30px; }
+.watch-device-figure--raw .screenshot-frame { border: 4px solid #30343a; border-radius: 30px; }
 .watch-guide { margin-top: 64px; padding-top: 16px; border-top: 1px solid var(--line); }
 .watch-guide-layout { display: grid; grid-template-columns: 240px minmax(0,1fr); align-items: start; gap: 38px; margin-top: 36px; }
 .content .watch-guide-figure { margin: 0; }
-.watch-guide-figure a { display: block; border: 5px solid #30343a; border-radius: 30px; overflow: hidden; }
+.watch-guide-figure .screenshot-frame { display: block; border: 5px solid #30343a; border-radius: 30px; overflow: hidden; }
 .content .watch-guide-figure img { display: block; width: 100%; margin: 0; }
 .watch-guide-figure figcaption { margin-top: 15px; font-size: .75rem; line-height: 1.85; color: var(--muted); }
 .content .watch-guide-steps { margin-top: 0; padding-left: 1.35em; }
@@ -329,7 +329,7 @@ body.menu-open { overflow: hidden; }
   .product-story-copy { max-width: none; }
   .product-story--reverse .product-story-copy,.product-story--reverse .product-story-visual { grid-column: auto; grid-row: auto; }
   .product-story-copy h2 { font-size: 1.6rem; margin-bottom: 14px; }
-  .product-story--tablet .product-story-visual a { max-width: 450px; }
+  .product-story--tablet .product-story-visual .screenshot-frame { max-width: 450px; }
   .product-audience { margin-top: 48px; }
   .product-facts dl > div { grid-template-columns: minmax(100px,.6fr) minmax(0,1fr); gap: 16px; }
   .product-download { flex-direction: column; align-items: flex-start; padding: 28px 24px; margin-bottom: 48px; gap: 16px; }
@@ -354,7 +354,7 @@ body.menu-open { overflow: hidden; }
 .content thead { background: var(--surface-soft); }
 .content hr { border-color: var(--line); }
 /* Operation guides: original UI crops, readable on a phone without giant
-   device mockups. Every image reserves its own ratio and opens at 2x. */
+   device mockups. Every image reserves its own ratio and keeps its responsive sources. */
 .article-history-note { border-left: 3px solid var(--line); padding-left: 18px; color: var(--muted); font-size: .88rem; line-height: 1.8; margin-bottom: 30px; }
 .guide-updated,.version-context { color: var(--muted); font-size: .76rem; margin: -16px 0 30px; }
 .guide-toc { border-block: 1px solid var(--line); padding-block: 10px; margin-bottom: 36px; }
@@ -369,7 +369,7 @@ body.menu-open { overflow: hidden; }
 .visual-guide blockquote p::before,.visual-guide blockquote p::after { content: none; }
 .visual-guide :not(pre) > code::before,.visual-guide :not(pre) > code::after { content: none; }
 .content .guide-figure { width: 100%; max-width: var(--guide-image-width, 560px); margin: 28px auto 44px; }
-.content .guide-figure a { display: block; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; box-shadow: 0 3px 14px #0000000b; }
+.content .guide-figure .screenshot-frame { display: block; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; box-shadow: 0 3px 14px #0000000b; }
 .content .guide-figure img { display: block; width: 100%; height: auto; margin: 0; }
 .content .guide-figure figcaption { margin: 12px 0 0; font-size: .78rem; line-height: 1.85; color: var(--muted); text-align: center; }
 @media (max-width: 600px) {

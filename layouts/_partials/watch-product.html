@@ -20,11 +20,11 @@
     </div>
     <div class="watch-product-media">
       <figure class="watch-phone-figure">
-        <a href="{{ $phone.large }}" aria-label="{{ $appText.name }} — {{ index $appText.imageAlts 0 }} — {{ $home.expandImage }}"><img src="{{ $phone.small }}" srcset="{{ $phone.small }} {{ $phone.width }}w, {{ $phone.large }} {{ $phone.largeWidth }}w" sizes="(max-width: 600px) 44vw, 230px" width="{{ $phone.width }}" height="{{ $phone.height }}" alt="{{ index $appText.imageAlts 0 }}" loading="lazy" decoding="async"></a>
+        <div class="screenshot-frame"><img src="{{ $phone.small }}" srcset="{{ $phone.small }} {{ $phone.width }}w, {{ $phone.large }} {{ $phone.largeWidth }}w" sizes="(max-width: 600px) 44vw, 230px" width="{{ $phone.width }}" height="{{ $phone.height }}" alt="{{ index $appText.imageAlts 0 }}" loading="lazy" decoding="async"></div>
         <figcaption>{{ $text.phoneCaption }}</figcaption>
       </figure>
       <figure class="watch-device-figure{{ if eq $assetPath .media.raw }} watch-device-figure--raw{{ end }}">
-        <a href="{{ $image.RelPermalink }}" aria-label="{{ $appText.name }} — Apple Watch — {{ $home.expandImage }}"><img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $image.RelPermalink }} {{ $image.Width }}w" sizes="(max-width: 600px) 40vw, 260px" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $text.watchAlt }}" loading="lazy" decoding="async"></a>
+        <div class="screenshot-frame"><img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $image.RelPermalink }} {{ $image.Width }}w" sizes="(max-width: 600px) 40vw, 260px" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $text.watchAlt }}" loading="lazy" decoding="async"></div>
         <figcaption>{{ $text.watchCaption }}</figcaption>
       </figure>
     </div>

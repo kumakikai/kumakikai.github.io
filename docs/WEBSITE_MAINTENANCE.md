@@ -206,8 +206,9 @@ Guideは「見出し → 短い説明／Step → 実UI画像 → 必要な補足
     alt="記録画面右上の追加ボタン" mode="crop" >}}
 ```
 
-書式例のパスは実ファイルへ置換する。modeは **crop / screen / tablet**。最大表示幅560 / 320 / 760px、HugoでWebP q92・1x/2x srcset・width/height・lazy・decoding・拡大リンクを生成し、元画像以上に拡大しない。**cropモード自体は切り抜かない**ので、入力素材を適切にcropして用意する。
+書式例のパスは実ファイルへ置換する。modeは **crop / screen / tablet**。最大表示幅560 / 320 / 760px、HugoでWebP q92・1x/2x srcset・width/height・lazy・decodingを生成し、元画像以上に拡大しない。**cropモード自体は切り抜かない**ので、入力素材を適切にcropして用意する。
 
+- スクリーンショットはHome／Product／Guide／Apple Watchを通して非リンクの画像表示とする。クリック・タップで画像ページへ遷移させず、フォーカス可能な操作要素にしない。既存のホバー時の上下移動、画像・srcset・寸法・altは保持する。高解像度画像の公開URLとApp Storeバッジ等の通常リンクは維持する。
 - 内容が分かるファイル名・alt、必要なcaptionを付ける。UIを書き換えず、補助枠・矢印は必要時だけ。
 - 原本は可能ならアプリ側。サイトrepoは制作・再生成に必要なcrop素材とWeb成果物だけ。raw動画、大量原寸PNG、一時撮影物を蓄積しない。
 - Home Heroのオトミルとギガポケは同じiPhone縦横比で表示する。Dynamic Islandを含む採用済み素材を使い、全画面の原本から等比で書き出す。宣伝画像の下端で切れた端末を全画面として扱わず、CSSで画面を縦に引き伸ばさない。現在の共通書き出し寸法は320×693／640×1386。
@@ -465,8 +466,8 @@ macOSでCA参照が必要ならSSL_CERT_FILE=/etc/ssl/cert.pemを指定し、TLS
 
 2026-09-08の修正前一覧と判断は [最終監査](audits/2026-09-08-final/BEFORE.md) を参照。監査の正本は現在のローカルソース。公開ページを検索キャッシュから推測しない。
 
-production build後に `python3 scripts/audit-site-structure.py --build public --output /tmp/site-structure-audit --check` で全HTML・href・画像等の参照・アンカー・重複候補・到達性・文章候補・状態表記を出力する。CIも同じ検証を実行する。生の重複数だけで失敗させず、内部切れ、不正/重複ID、旧汎用ブロック、孤立するindexableページ、本文と共通欄の重複メール、明白なラベル/節不一致を検出する。PC/モバイルの排他的メニュー、本文中の必要な法務参照、画像拡大、Product上下のStore CTAは役割に応じて保持する。意味の最終判断は人によるレビューを併用する。
+production build後に `python3 scripts/audit-site-structure.py --build public --output /tmp/site-structure-audit --check` で全HTML・href・画像等の参照・アンカー・重複候補・到達性・文章候補・状態表記を出力する。CIも同じ検証を実行する。生の重複数だけで失敗させず、内部切れ、不正/重複ID、旧汎用ブロック、孤立するindexableページ、本文と共通欄の重複メール、明白なラベル/節不一致を検出する。PC/モバイルの排他的メニュー、本文中の必要な法務参照、Product上下のStore CTAは役割に応じて保持する。意味の最終判断は人によるレビューを併用する。
 
 公開確認は `scripts/verify-published-site.py` にローカルbuildと該当gh-pages成果物を渡し、全ファイルをcurlで直接GETして一覧・SHA256を比較する。no-cacheヘッダーと固有queryを送り、取得HTMLも同じ走査器へ渡す。Actionsが追加する空の `.nojekyll` を配信制御ファイルとして区別し、公開HTMLは例外なく比較する。
 
-画像の公開照合で縮小生成の差が確認されたオトミル `mode-and-settings` は、`guide-image` の `single-source=true` により同じ1120px版を表示・拡大に共用する。表示幅は既存560pxのまま。旧560pxの公開WebPは `static/images/guides/oto-miru/` に既存バイトを保持する。全画像へ機械的に適用せず、既存URLと画質・表示幅を保護する。
+画像の公開照合で縮小生成の差が確認されたオトミル `mode-and-settings` は、`guide-image` の `single-source=true` により同じ1120px版を表示用のsrcとsrcsetに共用する。表示幅は既存560pxのまま。旧560pxの公開WebPは `static/images/guides/oto-miru/` に既存バイトを保持する。全画像へ機械的に適用せず、既存URLと画質・表示幅を保護する。

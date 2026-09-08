@@ -10,7 +10,7 @@
   <p>{{ $text.requirement }}</p>
   <p>{{ $text.environment }}</p>
   <div class="watch-guide-layout">
-    <figure class="watch-guide-figure"><a href="{{ $image.RelPermalink }}"><img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $image.RelPermalink }} {{ $image.Width }}w" sizes="(max-width: 600px) 210px, 240px" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $text.guideImageAlt }}" loading="lazy" decoding="async"></a><figcaption>{{ $text.guideCaption }}</figcaption></figure>
+    <figure class="watch-guide-figure"><div class="screenshot-frame"><img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $image.RelPermalink }} {{ $image.Width }}w" sizes="(max-width: 600px) 210px, 240px" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $text.guideImageAlt }}" loading="lazy" decoding="async"></div><figcaption>{{ $text.guideCaption }}</figcaption></figure>
     <ol class="watch-guide-steps">{{ range $text.guideSteps }}<li><h3>{{ .title }}</h3><p>{{ .description }}</p></li>{{ end }}</ol>
   </div>
 </section>

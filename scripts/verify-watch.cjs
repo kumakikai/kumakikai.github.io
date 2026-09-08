@@ -101,7 +101,7 @@ async function inspect(browser, locale, kind, width, theme, noJS = false) {
       return { width: innerWidth, scrollWidth: document.documentElement.scrollWidth, h1Count: document.querySelectorAll('h1').length,
         duplicateIDs: ids.filter((id, i) => ids.indexOf(id) !== i),
         headingSkips: hs.flatMap((n, i) => i && Number(n.tagName[1]) > Number(hs[i-1].tagName[1]) + 1 ? [n.textContent] : []),
-        images: [...document.querySelectorAll('#apple-watch img')].map(i => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight, displayedWidth: i.getBoundingClientRect().width, alt: i.alt, loading: i.loading, explicitWidth: i.getAttribute('width'), explicitHeight: i.getAttribute('height') })),
+        images: [...document.querySelectorAll('#apple-watch img')].map(i => ({ src: i.currentSrc, srcset: i.getAttribute('srcset'), width: i.naturalWidth, height: i.naturalHeight, displayedWidth: i.getBoundingClientRect().width, alt: i.alt, loading: i.loading, explicitWidth: i.getAttribute('width'), explicitHeight: i.getAttribute('height'), interactive: !!i.closest('a,button,[role="link"],[role="button"],[tabindex]:not([tabindex="-1"]),[onclick]') })),
         brokenImages: [...document.images].filter(i => visible(i) && !i.naturalWidth).map(i => i.getAttribute('src')),
         darkMode: document.documentElement.classList.contains('dark') };
     });
@@ -111,15 +111,18 @@ async function inspect(browser, locale, kind, width, theme, noJS = false) {
     assert.deepEqual(result.layout.headingSkips, []);
     assert.deepEqual(result.layout.brokenImages, []);
     result.lightTheme = await assertLightTheme(page);
-    for (const i of result.layout.images) { assert(i.alt && i.explicitWidth && i.explicitHeight); assert.equal(i.loading, 'lazy'); assert(i.displayedWidth > 90); }
+    for (const i of result.layout.images) { assert(i.alt && i.explicitWidth && i.explicitHeight && i.srcset); assert.equal(i.loading, 'lazy'); assert(i.width > 0 && i.height > 0 && i.displayedWidth > 90); assert.equal(i.interactive, false, 'Watch screenshots have no link, button or keyboard interaction'); }
+    const currentURL = page.url(), pageCount = context.pages().length;
+    for (const image of await section.locator('figure img').all()) {
+      await image.click();
+      assert.equal(page.url(), currentURL, 'Watch screenshot click keeps the current page');
+      assert.equal(context.pages().length, pageCount, 'Watch screenshot click opens no image tab');
+    }
+    result.screenshotInteraction = { noninteractive: true, clickKeepsPage: true, opensNoTab: true };
     if (!noJS) {
       await page.addScriptTag({ content: axeSource });
       result.axe = await page.evaluate(async () => (await axe.run(document, { runOnly: { type: 'tag', values: ['wcag2a','wcag2aa','wcag21a','wcag21aa','best-practice'] } })).violations.map(v => ({ id:v.id, impact:v.impact, targets:v.nodes.map(n=>n.target) })));
       assert.deepEqual(result.axe, [], 'No automated accessibility violations');
-      const imageLink = section.locator('figure a').last();
-      await imageLink.focus(); await page.keyboard.press('Tab'); await page.keyboard.press('Shift+Tab');
-      result.keyboardFocus = await imageLink.evaluate(n => n === document.activeElement && getComputedStyle(n).outlineStyle !== 'none' && parseFloat(getComputedStyle(n).outlineWidth) > 0);
-      assert(result.keyboardFocus, 'Image link keyboard focus is visible');
     } else result.axe = 'not run: JavaScript disabled; semantic DOM, image, release, links and layout checks performed';
     if (!noJS && locale === 'ja' && theme === 'light') {
       await page.evaluate(() => document.activeElement?.blur());

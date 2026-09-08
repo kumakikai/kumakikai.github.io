@@ -591,7 +591,7 @@ class Verification:
                 expected = {"src": shot["small"], "width": str(shot["width"]), "height": str(shot["height"]), "alt": alt, "loading": "lazy", "decoding": "async"}
                 self.require(all(image.attrs.get(key) == value for key, value in expected.items()), route, "product_media", "Use-case image must preserve its asset, dimensions, alt, and lazy decoding")
                 self.require(bool(image.attrs.get("sizes")) and shot["large"] in image.attrs.get("srcset", ""), route, "product_media", "Use-case image needs responsive sizes and its larger source")
-                self.require([n.attrs.get("href") for n in story.descendants("a")] == [shot["large"]], route, "product_media", "Use-case image must open the real larger asset")
+                self.require(image.parent.tag == "div" and image.parent.has_class("screenshot-frame") and not any(story.descendants("a")), route, "product_media", "Use-case screenshots must be noninteractive while preserving their responsive sources")
             self.counts["product_story_images"] += 1
         facts = sections["facts"]
         self.verify_product_facts(facts, app, detail, lang, route)

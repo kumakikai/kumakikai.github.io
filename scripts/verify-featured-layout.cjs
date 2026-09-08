@@ -6,7 +6,7 @@ const assert = require('node:assert/strict');
 const {chromium, webkit} = require('playwright');
 const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:1314';
 const engine = process.env.TEST_ENGINE || 'chrome';
-const out = 'docs/featured-layout';
+const out = process.env.TEST_OUTPUT_DIR || 'docs/featured-layout';
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const apps = read('data/apps.json'), copy = read('data/home/ja.json');
 const byID = Object.fromEntries(apps.map(app => [app.id, app]));
@@ -62,7 +62,7 @@ async function inspect(page,{width,theme,noJS,seed}) {
       note:copy.querySelector('.app-note')?.textContent.trim()||null,
       actions:[...copy.querySelectorAll('.app-actions a')].map(n=>({href:n.getAttribute('href'),badge:n.matches('.app-store-badge')})),
       regions:[...copy.querySelectorAll('.storefront-link')].map(n=>({country:n.dataset.country,href:n.getAttribute('href')})),
-      screenshots:screenshotNodes.map(n=>{const img=n.querySelector('img'),style=getComputedStyle(n);return{src:img.getAttribute('src'),href:n.getAttribute('href'),alt:img.alt,width:img.width,height:img.height,rect:rect(n),naturalWidth:img.naturalWidth,loading:img.loading,style:{boxShadow:style.boxShadow,transform:style.transform,overflow:style.overflow,borderRadius:style.borderRadius,marginTop:style.marginTop}};}),
+      screenshots:screenshotNodes.map(n=>{const img=n.querySelector('img'),style=getComputedStyle(n);return{src:img.getAttribute('src'),srcset:img.getAttribute('srcset'),href:n.getAttribute('href'),interactive:!!img.closest('a,button,[role="link"],[role="button"],[tabindex]:not([tabindex="-1"]),[onclick]'),alt:img.alt,width:img.width,height:img.height,rect:rect(n),naturalWidth:img.naturalWidth,loading:img.loading,style:{boxShadow:style.boxShadow,transform:style.transform,overflow:style.overflow,borderRadius:style.borderRadius,marginTop:style.marginTop}};}),
       status:copy.querySelector('.status-label')?.textContent.trim()||null,
       caption:visual.querySelector('.app-visual-caption')?.textContent.trim()||null,
       noteInside:!node.querySelector('.app-note')||copy.contains(node.querySelector('.app-note')),
@@ -90,7 +90,8 @@ async function inspect(page,{width,theme,noJS,seed}) {
     assert.equal(row.screenshots.length,app.screenshots.length);
     for(let index=0;index<row.screenshots.length;index++) {
       const shot=row.screenshots[index],source=app.screenshots[index];
-      assert.equal(shot.src,source.small);assert.equal(shot.href,source.large);assert.equal(shot.alt,text.imageAlts[index]);
+      assert.equal(shot.src,source.small);assert.equal(shot.srcset,`${source.small} ${source.width}w, ${source.large} ${source.largeWidth}w`);assert.equal(shot.alt,text.imageAlts[index]);
+      assert.equal(shot.href,null);assert.equal(shot.interactive,false,'Screenshots have no link, button or keyboard interaction');
       assert(shot.naturalWidth>0&&shot.width>0&&shot.height>0,'Real screenshot loaded with intrinsic space');
       assert(shot.rect.x>=row.card.x&&shot.rect.right<=row.card.right+.5,'Screenshots remain inside the section');
     }
@@ -113,6 +114,16 @@ async function inspect(page,{width,theme,noJS,seed}) {
   return {selected:rows.map(r=>r.id),positions:rows.map(r=>r.position),bounds,pageLayout,
     integrity:{imageSourceOrderSizingAndStyles:true,approvedCopy:true,ctaAndRegions:true,noticesOnCopySide:true,mobileSourceOrder:true}};
 }
+// Poll from Node so CSS transitions can settle with page JavaScript disabled.
+async function waitForStyle(read,matches,message) {
+  const deadline=Date.now()+3000;
+  do {
+    const value=await read();
+    if(matches(value))return value;
+    await new Promise(resolve=>setTimeout(resolve,25));
+  } while(Date.now()<deadline);
+  assert.fail(message);
+}
 async function checkPage(page,options) {
   const initial=await performance(page);
   await page.evaluate(async()=>{for(const img of document.images)img.loading='eager';await Promise.all([...document.images].map(img=>img.decode().catch(()=>{})));});
@@ -121,9 +132,28 @@ async function checkPage(page,options) {
   const afterImages=await performance(page);
   if(initial)assert(initial.cls<=.1,'Initial CLS <= 0.1');
   if(afterImages)assert(afterImages.cls<=.1,'Full-image CLS <= 0.1');
-  return {...data,initial,afterImages};
+  const url=page.url(),pageCount=page.context().pages().length;
+  const screenshots=page.locator('.portfolio-featured .app-screenshot');
+  for(const screenshot of await screenshots.all()) {
+    await screenshot.click();
+    assert.equal(page.url(),url,'Screenshot click keeps the current page');
+    assert.equal(page.context().pages().length,pageCount,'Screenshot click opens no image tab');
+  }
+  let hoverLift=null;
+  if(options.width>900) {
+    await screenshots.first().hover();
+    hoverLift=await waitForStyle(
+      ()=>screenshots.first().evaluate(n=>new DOMMatrixReadOnly(getComputedStyle(n).transform).m42),
+      value=>Math.abs(value+3)<.05,'Existing desktop screenshot hover lifts by 3px');
+  }
+  await page.mouse.move(0,0);
+  await waitForStyle(
+    ()=>screenshots.evaluateAll(nodes=>nodes.every(n=>getComputedStyle(n).transform==='none')),
+    value=>value,'Screenshot hover resets after the pointer leaves');
+  return {...data,initial,afterImages,screenshotInteraction:{clickKeepsPage:true,opensNoTab:true,hoverLift}};
 }
 async function record(name,task) {
+  if(process.env.TEST_FILTER&&!new RegExp(process.env.TEST_FILTER).test(name))return;
   try{results.push({name,ok:true,...await task()});console.log(`PASS ${name}`);}
   catch(error){results.push({name,ok:false,error:error.message});console.log(`FAIL ${name}: ${error.message}`);}
   save(true);

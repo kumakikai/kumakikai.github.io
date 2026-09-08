@@ -9,7 +9,7 @@ const {chromium,webkit}=require('playwright');
 const base=process.env.TEST_BASE_URL||'http://127.0.0.1:1314';
 const engine=process.env.TEST_ENGINE||'chrome';
 const output=process.env.TEST_REPORT||`docs/visual-guides/${engine}-browser.json`;
-const shots='docs/visual-guides/screenshots';
+const shots=process.env.TEST_SCREENSHOTS||'docs/visual-guides/screenshots';
 const widths=(process.env.TEST_WIDTHS||'1440,1280,1024,768,430,390,375').split(',').map(Number);
 const locales=process.env.TEST_LOCALES?.split(',');
 const results=[];
@@ -44,7 +44,7 @@ async function inspect(browser,p,width,theme,noJS=false){
     return rows.sort((a,b)=>a.middle-b.middle).map(r=>r.text.trim()).filter(Boolean);
    }
    const blocks=[...body.querySelectorAll('h2,h3,p,li,figcaption')].filter(n=>!n.querySelector('p,li,figcaption,h2,h3')).map(n=>({tag:n.tagName,text:n.textContent.trim(),lines:lines(n)}));
-   const images=figures.map(f=>{const i=f.querySelector('img'),r=f.getBoundingClientRect();return {src:i.currentSrc,alt:i.alt,naturalWidth:i.naturalWidth,naturalHeight:i.naturalHeight,width:Math.round(r.width),height:Math.round(r.height),mode:f.className,explicitWidth:i.getAttribute('width'),explicitHeight:i.getAttribute('height'),srcset:i.getAttribute('srcset'),sizes:i.getAttribute('sizes'),url:f.querySelector('a').getAttribute('href')};});
+   const images=figures.map(f=>{const i=f.querySelector('img'),r=f.getBoundingClientRect();return {src:i.currentSrc,alt:i.alt,naturalWidth:i.naturalWidth,naturalHeight:i.naturalHeight,width:Math.round(r.width),height:Math.round(r.height),mode:f.className,explicitWidth:i.getAttribute('width'),explicitHeight:i.getAttribute('height'),srcset:i.getAttribute('srcset'),sizes:i.getAttribute('sizes'),interactive:!!i.closest('a,button,[role="link"],[role="button"],[tabindex]:not([tabindex="-1"]),[onclick]')};});
    const ids=[...document.querySelectorAll('[id]')].map(n=>n.id);
    return {scrollWidth:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight,images,brokenImages:[...document.images].filter(i=>visible(i)&&!i.naturalWidth).map(i=>i.src),duplicateIDs:ids.filter((v,i)=>ids.indexOf(v)!==i),headingCount:document.querySelectorAll('h1').length,bodyWidth:body.getBoundingClientRect().width,headings:blocks.filter(b=>/^H/.test(b.tag)),tinyTails:blocks.filter(b=>b.lines.length>1&&b.lines.at(-1).replace(/[\s。、！？]/g,'').length<=2),dark:document.documentElement.classList.contains('dark')};
   });
@@ -52,19 +52,18 @@ async function inspect(browser,p,width,theme,noJS=false){
   result.lightTheme = await assertLightTheme(page);
   if(p.section==='htu'){
    assert(result.layout.images.length>0,'Every app guide has real UI images');
-   for(const i of result.layout.images){assert(i.alt.trim()&&i.srcset&&i.sizes&&Number(i.explicitWidth)>0&&Number(i.explicitHeight)>0);assert(i.naturalWidth>0);assert(i.width<=Math.min(result.layout.bodyWidth,762));assert(i.src.includes('.webp'),'Optimized image');}
+   for(const i of result.layout.images){assert(i.alt.trim()&&i.srcset&&i.sizes&&Number(i.explicitWidth)>0&&Number(i.explicitHeight)>0);assert(i.naturalWidth>0);assert(i.width<=Math.min(result.layout.bodyWidth,762));assert(i.src.includes('.webp'),'Optimized image');assert.equal(i.interactive,false,'Guide screenshots have no link, button or keyboard interaction');}
    const toc=page.locator('.guide-toc');
    if(await toc.count()){
     await toc.locator('summary').focus();await page.keyboard.press('Enter');assert(await toc.getAttribute('open')!==null,'Keyboard opens contents');
     const first=toc.locator('a').first();const anchor=await first.getAttribute('href');await first.click();assert.equal(decodeURIComponent(new URL(page.url()).hash),decodeURIComponent(anchor),'Contents jumps directly to guide section');
     await toc.locator('summary').click();
    }
-   // WebKit's default macOS Tab traversal skips links. Establish keyboard
-   // modality first, then focus the specific link; do not assume Shift+Tab
-   // returns to it. The focused node itself must have a visible outline.
-   const link=page.locator('.guide-figure a,.watch-guide-figure a').first();await page.keyboard.press('Tab');await link.focus();
-   result.visibleFocus=await link.evaluate(n=>document.activeElement===n&&getComputedStyle(n).outlineStyle!=='none'&&parseFloat(getComputedStyle(n).outlineWidth)>0);assert(result.visibleFocus,'Visible image-link focus');
-   const target=await link.getAttribute('href');const imageResponse=await page.request.get(new URL(target,base).href);assert.equal(imageResponse.status(),200,'Enlargement source resolves');
+   const image=page.locator('.guide-figure img,.watch-guide-figure img').first();
+   const url=page.url(),pageCount=ctx.pages().length;
+   await image.click();assert.equal(page.url(),url,'Guide screenshot click keeps the current page');assert.equal(ctx.pages().length,pageCount,'Guide screenshot click opens no image tab');
+   result.screenshotInteraction={noninteractive:true,clickKeepsPage:true,opensNoTab:true};
+   const imageResponse=await page.request.get(result.layout.images[0].src);assert.equal(imageResponse.status(),200,'Displayed image source resolves');
   }
   if(!noJS&&engine==='chrome'){result.layoutShifts=await page.evaluate(()=>window.__guideShifts||[]);assert(result.layoutShifts.reduce((v,s)=>v+s.value,0)<=.1,'No material image layout shift');}
   if(!noJS&&[390,1440].includes(width)){
