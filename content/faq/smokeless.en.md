@@ -97,7 +97,7 @@ If it was just deleted, you can restore it with `Undo`.
 
 ### Why are Apple Watch records not appearing on iPhone? {#why-are-apple-watch-records-not-appearing-on-iphone}
 
-The Apple Watch update is under review. See the [Apple Watch guide]({{< relref "/htu/smokeless/" >}}#apple-watch) for requirements, offline storage and transfer after reconnection.
+See the [Apple Watch guide]({{< relref "/htu/smokeless/" >}}#apple-watch) for requirements, offline storage and transfer after reconnection.
 
 ### What should I do if something goes wrong? {#troubleshooting}
 

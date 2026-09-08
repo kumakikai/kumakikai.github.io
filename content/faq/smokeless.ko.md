@@ -97,7 +97,7 @@ iOS 14 이상을 사용하는 iPhone에서 이용할 수 있습니다.
 
 ### Apple Watch 기록이 iPhone에 표시되지 않아요 {#apple-watch-기록이-iphone에-표시되지-않아요}
 
-Apple Watch 지원 버전은 심사 중입니다. 이용 조건, 미연결 상태 저장과 재연결 후 전송은 [Apple Watch 사용 방법]({{< relref "/htu/smokeless/" >}}#apple-watch)을 확인하세요.
+이용 조건, 미연결 상태 저장과 재연결 후 전송은 [Apple Watch 사용 방법]({{< relref "/htu/smokeless/" >}}#apple-watch)을 확인하세요.
 
 ### 문제가 발생하면 어떻게 하나요? {#troubleshooting}
 

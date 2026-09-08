@@ -97,7 +97,7 @@ Juste après la suppression, vous pouvez le restaurer avec `Annuler`.
 
 ### Pourquoi les enregistrements Apple Watch n’apparaissent-ils pas sur l’iPhone ? {#pourquoi-les-enregistrements-apple-watch-napparaissent-ils-pas-sur-liphone-}
 
-La mise à jour Apple Watch est en cours de validation. Consultez le [guide Apple Watch]({{< relref "/htu/smokeless/" >}}#apple-watch) pour les conditions, le stockage hors connexion et le transfert après reconnexion.
+Consultez le [guide Apple Watch]({{< relref "/htu/smokeless/" >}}#apple-watch) pour les conditions, le stockage hors connexion et le transfert après reconnexion.
 
 ### Que faire en cas de problème ? {#troubleshooting}
 

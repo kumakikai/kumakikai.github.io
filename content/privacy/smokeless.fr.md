@@ -26,7 +26,7 @@ Les enregistrements servent à afficher les nombres de cigarettes fumées et év
 
 Les enregistrements et réglages sont conservés sur votre appareil. Nous ne les récupérons ni ne les consultons automatiquement. Le widget partage les totaux du jour et les informations nécessaires à la saisie sur le même iPhone. L’app ne propose pas de synchronisation cloud propre ni d’exportation des enregistrements sous forme de fichiers de sauvegarde.
 
-**La mise à jour Apple Watch est en cours de validation. Les informations suivantes s’appliqueront à l’utilisation d’Apple Watch après sa publication.** L’iPhone et la Watch jumelés échangent l’heure de la saisie, son type fumée ou évitée, un identifiant empêchant les doublons, les totaux du jour et l’état du droit d’accès aux fonctions Watch. Les saisies hors connexion sont conservées sur la Watch puis importées sur l’iPhone après reconnexion. Cette liaison est distincte d’une sauvegarde cloud.
+L’iPhone et la Watch jumelés échangent l’heure de la saisie, son type fumée ou évitée, un identifiant empêchant les doublons, les totaux du jour et l’état du droit d’accès aux fonctions Watch. Les saisies hors connexion sont conservées sur la Watch puis importées sur l’iPhone après reconnexion. Cette liaison est distincte d’une sauvegarde cloud.
 
 Les sauvegardes de l’appareil réalisées par le système sont distinctes d’une synchronisation gérée par l’app.
 

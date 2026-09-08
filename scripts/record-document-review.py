@@ -30,6 +30,9 @@ product_reason = {
     'balance-calendar': 'Preserve local income/expense records and PIN controls, actual advertising data and three one-time purchases; do not infer cloud sync from an entitlement.',
     'signal': 'Separate local feed/learning settings from feed, thumbnail and article-site requests; distinguish learning reset from clearing all web data.',
 }
+watch = json.loads((root / 'data/product_details/smokeless.json').read_text())['watch']
+if watch['status'] == 'published':
+    product_reason['smokeless'] = 'Preserve local smoking records, actual advertising data, two one-time purchases and the published Watch support conditions.'
 for route, source in sorted(scope.items()):
     doc = m.Document((args.build / route.strip('/') / 'index.html').read_text())
     if errors := check_structure(root, route, doc):

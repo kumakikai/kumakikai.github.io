@@ -26,7 +26,7 @@ Records are used to show smoked and avoided counts, totals by period and charts.
 
 Records and settings are stored on your device. We do not automatically obtain or view them. The home widget shares today’s counts and information needed for recording within the same iPhone. The app does not provide its own cloud sync or export of records as backup files.
 
-**The Apple Watch update is under review. The following applies when using Apple Watch after the supporting update is released.** The paired iPhone and Watch exchange the record time, smoked or avoided type, an identifier that prevents duplicate imports, today’s counts and the status of access to Watch features. Records made while disconnected are stored on Watch and imported into iPhone after reconnection. This is separate from cloud backup.
+The paired iPhone and Watch exchange the record time, smoked or avoided type, an identifier that prevents duplicate imports, today’s counts and the status of access to Watch features. Records made while disconnected are stored on Watch and imported into iPhone after reconnection. This is separate from cloud backup.
 
 Device backups provided by the operating system are separate from app-managed sync.
 

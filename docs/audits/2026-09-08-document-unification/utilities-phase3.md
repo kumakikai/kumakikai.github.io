@@ -39,3 +39,9 @@
 ## 全体比較後の追記
 
 全Privacyの共通見出し比較を受け、Smokeless en / fr / ko / zh-hant の計8見出しをUni:Note・Pocketと同じ表現に揃えた。変更は見出し本文だけで、`section-N`の明示IDと旧見出しの互換アンカーを保持した。共通5章は日本語8製品と各実在翻訳で一致する。
+
+## すわなび公開後の文言整理（2026-09-08）
+
+ユーザーの最新版公開連絡を、[Apple Lookup](https://itunes.apple.com/lookup?id=6760842941,6770774613&country=jp)のすわなび1.2.0、公開日時2026-09-07T18:18:35Z、Apple Watch対応のリリースノートと照合した。上記の公開未確認記録は当時の記録として保持する。
+
+Watchの公開状態をpublishedへ変更し、Product・Guide・FAQ・Privacy・Termsの公開前／審査中の注記だけ削除した。Watchの2種の買い切り購入条件、ペアリング、保存・同期の説明、画像、URL、アンカーは保持。5言語のGuideは共通Watch欄の注記が消えるため、Markdownに変更がなくても本文レビューを更新する。

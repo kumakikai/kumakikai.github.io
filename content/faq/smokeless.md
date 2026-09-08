@@ -96,7 +96,7 @@ iOS 14以降のiPhoneに対応しています。
 
 ### Apple Watchの記録がiPhoneに反映されません {#apple-watchの記録がiphoneに反映されません}
 
-Apple Watch対応版は審査中です。利用条件、未接続時の保存、再接続後の取り込みは[Apple Watchの使い方]({{< relref "/htu/smokeless/" >}}#apple-watch)をご確認ください。
+利用条件、未接続時の保存、再接続後の取り込みは[Apple Watchの使い方]({{< relref "/htu/smokeless/" >}}#apple-watch)をご確認ください。
 
 ### 不具合が発生した場合は？ {#troubleshooting}
 

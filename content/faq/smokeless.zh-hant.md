@@ -97,7 +97,7 @@ lastmod: 2026-09-08
 
 ### Apple Watch記錄沒有顯示在iPhone上 {#apple-watch記錄沒有顯示在iphone上}
 
-Apple Watch支援版本仍在審查中。使用條件、未連線時的儲存與重新連線後的傳送，請參閱[Apple Watch使用說明]({{< relref "/htu/smokeless/" >}}#apple-watch)。
+使用條件、未連線時的儲存與重新連線後的傳送，請參閱[Apple Watch使用說明]({{< relref "/htu/smokeless/" >}}#apple-watch)。
 
 ### 發生問題時該怎麼辦？ {#troubleshooting}
 
