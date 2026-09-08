@@ -26,4 +26,26 @@
   const languages = document.querySelector('.language-menu');
   document.addEventListener('click', e => { if (!languages?.contains(e.target)) languages?.removeAttribute('open'); });
   languages?.addEventListener('keydown', e => { if (e.key === 'Escape') { languages.removeAttribute('open'); languages.querySelector('summary').focus(); } });
+
+  const news = document.querySelector('.news-directory');
+  const emptyNews = news?.querySelector('.news-filter-empty');
+  if (emptyNews) {
+    const categories = new Set([...news.querySelectorAll('.news-filters a')].map(link => link.hash.slice(1)));
+    const filterNews = () => {
+      let fragment = location.hash.slice(1);
+      try { fragment = decodeURIComponent(fragment); } catch { /* Invalid fragments use All. */ }
+      const category = categories.has(fragment) ? fragment : 'all-news';
+      let visibleCount = 0;
+      news.querySelectorAll('.news-row').forEach(row => {
+        const matches = category === 'all-news' || row.dataset.category === category;
+        row.hidden = !matches;
+        if (matches) visibleCount += 1;
+      });
+      emptyNews.hidden = visibleCount > 0;
+      // Native hidden now owns visibility; :target remains the no-JS fallback.
+      news.dataset.newsFilterReady = '';
+    };
+    filterNews();
+    window.addEventListener('hashchange', filterNews);
+  }
 })();

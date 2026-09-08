@@ -245,7 +245,7 @@ news_categoryは **press-release / blog / information**、UIは **Press Release 
 
 旧記事は `data/news.json` のcategory / relatedProductsで補助、新記事のfront matterが優先。related_productsは実際に扱うアプリのみ指定し、Press Release → Productの静的リンクを保つ。全Blogに全Productを自動列挙しない。公開時は本文・日付・draftを確認（未来日は通常build対象外）。翻訳は同basenameのsuffix。現行Newsは日本語記事を他言語一覧にも日本語と明示して案内する。
 
-カテゴリは `/news/#press-release` / `#blog` / `#information` / `#all-news`。CSSで同じ一覧を絞り込み、重複カテゴリページ・追加JSを作らない。初期「All」でempty stateを出さず、本当に0件のカテゴリ選択時だけ表示。
+カテゴリは `/news/#press-release` / `#blog` / `#information` / `#all-news`。既存ハッシュURLと一覧を維持し、共通JSで初期表示とhashchangeのたびに記事の絞り込み・件数・empty stateを同時に更新する。Allも全記事を同じ条件で数え、選択結果が0件の場合だけempty stateを表示する。不明なfragmentはAllとして扱う。JS無効時はHugoで同じ記事集合から算出した空カテゴリー情報とCSSの`:target`で動作し、JS初期化後は`hidden`属性の制御へ切り替える。重複カテゴリページは作らない。
 
 ### About・Founder
 

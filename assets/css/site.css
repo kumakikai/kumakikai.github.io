@@ -209,11 +209,11 @@ body.menu-open { overflow: hidden; }
 .news-filters a { display: inline-flex; align-items: center; min-height: 44px; padding: 6px 2px; border-bottom: 2px solid transparent; font-size: .83rem; color: var(--muted); }
 .news-filters a:hover { color: var(--accent); }
 .news-filters a:target,.news-directory:not(:has(#press-release:target,#blog:target,#information:target)) #all-news { color: var(--ink); border-color: var(--ink); font-weight: 650; }
-.news-directory:has(#press-release:target) .news-row:not([data-category="press-release"]),.news-directory:has(#blog:target) .news-row:not([data-category="blog"]),.news-directory:has(#information:target) .news-row:not([data-category="information"]) { display: none; }
-.news-filter-empty { display: none; padding-block: 25px; color: var(--muted); font-size: .94rem; }
-/* Override the native-hidden reset in its own layer, only for the selected category. */
+.news-directory:not([data-news-filter-ready]):has(#press-release:target) .news-row:not([data-category="press-release"]),.news-directory:not([data-news-filter-ready]):has(#blog:target) .news-row:not([data-category="blog"]),.news-directory:not([data-news-filter-ready]):has(#information:target) .news-row:not([data-category="information"]) { display: none; }
+.news-filter-empty { padding-block: 25px; color: var(--muted); font-size: .94rem; }
+/* Before JS (or without it), use the same article set counted by Hugo. */
 @layer base {
-.news-directory:has(#press-release:target) .news-filter-empty[data-category="press-release"],.news-directory:has(#blog:target) .news-filter-empty[data-category="blog"],.news-directory:has(#information:target) .news-filter-empty[data-category="information"] { display: block !important; }
+.news-directory:not([data-news-filter-ready]):has(#press-release:target) .news-filter-empty[data-empty-categories~="press-release"],.news-directory:not([data-news-filter-ready]):has(#blog:target) .news-filter-empty[data-empty-categories~="blog"],.news-directory:not([data-news-filter-ready]):has(#information:target) .news-filter-empty[data-empty-categories~="information"] { display: block !important; }
 }
 @media (max-width: 900px) {
   .company-about,.company-media { gap: 36px; }
