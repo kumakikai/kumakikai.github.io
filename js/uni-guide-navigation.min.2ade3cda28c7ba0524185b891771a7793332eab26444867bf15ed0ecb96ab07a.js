@@ -1,1 +1,0 @@
-document.querySelectorAll("[data-guide-toggle]").forEach(e=>{const t=document.getElementById(e.getAttribute("aria-controls"));if(!t)return;const n=n=>{t.hidden=!n,e.setAttribute("aria-expanded",String(n)),e.setAttribute("aria-label",`${e.dataset.categoryTitle}の項目を${n?"収納":"展開"}`)};n(!1),e.hidden=!1,e.addEventListener("click",()=>{n(e.getAttribute("aria-expanded")!=="true")})})
