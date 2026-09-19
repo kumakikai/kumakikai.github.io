@@ -1,0 +1,50 @@
+{
+  "ja": {
+    "title": "使い方を検索",
+    "description": "知りたい操作や機能の名前を入力すると、該当する説明へ直接進めます。",
+    "label": "使い方を検索",
+    "placeholder": "例：PDF、録音、バックアップ",
+    "result": "{count}件の使い方が見つかりました。",
+    "noResults": "該当する使い方が見つかりませんでした。別の言葉で検索してください。"
+  },
+  "en": {
+    "title": "Search this guide",
+    "description": "Enter a feature or action to jump directly to the relevant instructions.",
+    "label": "Search this guide",
+    "placeholder": "For example: PDF, recording, backup",
+    "result": "{count} matching sections found.",
+    "noResults": "No matching instructions were found. Try another term."
+  },
+  "ko": {
+    "title": "사용 방법 검색",
+    "description": "기능이나 작업을 입력하면 관련 설명으로 바로 이동할 수 있습니다.",
+    "label": "사용 방법 검색",
+    "placeholder": "예: PDF, 녹음, 백업",
+    "result": "관련 설명 {count}개를 찾았습니다.",
+    "noResults": "일치하는 사용 방법을 찾지 못했습니다. 다른 단어로 검색해 보세요."
+  },
+  "de": {
+    "title": "Anleitung durchsuchen",
+    "description": "Gib eine Funktion oder Aktion ein, um direkt zur passenden Anleitung zu gelangen.",
+    "label": "Anleitung durchsuchen",
+    "placeholder": "Zum Beispiel: PDF, Aufnahme, Backup",
+    "result": "{count} passende Abschnitte gefunden.",
+    "noResults": "Keine passende Anleitung gefunden. Versuche einen anderen Begriff."
+  },
+  "zh-hant": {
+    "title": "搜尋使用方法",
+    "description": "輸入功能或操作名稱，即可直接前往相關說明。",
+    "label": "搜尋使用方法",
+    "placeholder": "例如：PDF、錄音、備份",
+    "result": "找到 {count} 個相關說明。",
+    "noResults": "找不到相關使用方法，請嘗試其他關鍵字。"
+  },
+  "fr": {
+    "title": "Rechercher dans le guide",
+    "description": "Saisissez une fonction ou une action pour accéder directement aux instructions correspondantes.",
+    "label": "Rechercher dans le guide",
+    "placeholder": "Par exemple : PDF, enregistrement, sauvegarde",
+    "result": "{count} sections correspondantes trouvées.",
+    "noResults": "Aucune instruction correspondante. Essayez un autre terme."
+  }
+}

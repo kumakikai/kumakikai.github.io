@@ -178,7 +178,7 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 
 `support-data.html` が共通Productデータを読み、`support-links.html` が **使い方 → よくある質問 → お問い合わせ → プライバシーポリシー → 利用規約** を同じtitle・description・divider・arrowで表示。Termsだけ小さなリンクにしない。
 
-- Productは5項目。Guide／FAQ／Privacy／Termsは自分のページと本文末尾にある同一の問い合わせ先を省き、残る3項目を共通の「使い方とサポート」欄に表示する。同欄末尾にProductへのリンクを置く。再選択や不要な中間画面を作らない。正式な問い合わせ窓口は本文の最後の節に一度だけ置く。
+- ProductとSupport配下のGuide／FAQ／Privacy／Termsは、現在ページや本文内の問い合わせ先も除外せず、同じ5項目を同じ順序で共通の「使い方とサポート」欄に表示する。SupportトップであるProductの定義を正本とし、個別ページ専用の項目を追加しない。同欄末尾にProductへのリンクを置く。正式な問い合わせ窓口は本文にも必要な情報として維持し、共通欄はページ間Navigationとして扱う。
 - termsURL未設定時だけ `data/support.json.standardEULAURL` の [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) へfallback。独自Terms URLを設定したのに本文がない場合はbuildエラー。黙って別規約へ切り替えない。
 - 公式サイト全体の問い合わせ先は `data/support.json.contactURL` の共通メールに統一する。本文のメール作成CTAは「メールで問い合わせる」（各言語の対応する表記）とし、製品の問い合わせにはアプリ名を件名として補う。Product共通行の「お問い合わせ」やFooterの「Contact」等、Navigationの項目名は維持する。About末尾の一般Contactも同じメールを使う。アプリ内専用の問い合わせフォームをProduct、Guide、FAQ、Privacy、Terms、News等のWeb導線へ転載しない。
 - Privacyに記載した、アプリ内フォームによる取得情報・Google Formsでの保存等の正式なデータ処理説明は維持する。Webの問い合わせ先変更を理由に、アプリ内の機能やデータ処理まで削除・変更しない。
@@ -186,7 +186,7 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 - 翻訳がなければ日本語実ページをその旨付きで案内。`layouts/single.html` はFile.ContentBaseNameでProductを特定するため、新Guide／FAQ等のbasenameはidに合わせる。既存例外URLは変更せず必要なら紐付け処理を限定対応。
 - **現在の検証は全ProductにGuide／FAQ／Privacy実ページを要求する**。本当に不要なGuide／FAQはダミーを作らず理由を報告。必要性が判断された省略はUI・検証の該当契約だけを意図的に対応し、無条件に検証を外さない。
 - アプリ別Privacy・Termsは統合せず、実データ処理・公開条件に合わせる。未公開機能を公開済みとして法務へ記載しない。
-- 法務ページ本文の後にはGuide／FAQと同じ共通サポート欄を置き、使い方・FAQ・もう一方の法務の3項目とProductへのリンクを表示する。旧手書きの「関連ページ」一覧は戻さず、本文と同一の問い合わせ先を共通欄に重ねない。ページ上部のProduct名から該当Productの `#support` に戻れる。法務上必要な参照は本文の対応節に残す。正式問い合わせは `document-contact` で共通メールへの導線を一度だけ生成する。
+- 法務ページ本文の後にはGuide／FAQと同じ共通サポート欄を置き、現在の法務ページと問い合わせ先を含む5項目すべて、およびProductへのリンクを表示する。旧手書きの「関連ページ」一覧は戻さない。ページ上部のProduct名から該当Productの `#support` に戻れる。法務上必要な参照は本文の対応節に残す。正式問い合わせは `document-contact` で共通メールへの導線を生成し、共通欄の問い合わせ行とは本文情報とNavigationの別役割として扱う。
 - 重複確認は全Productと実在する全言語のGuide／FAQ／Privacy／Termsを対象にする。FAQ回答・法務条文の参照は文脈があるため保持する。2026-09-08の全製品4文書統一は [標準構成](audits/2026-09-08-document-unification/STANDARD.md) に従う。`scripts/document_review.py` が既存69文書と新設5Termsの限定範囲、元source/本文、レビュー後source/本文/link、実装監査、画像・旧アンカーを検証する。元のmigration baselineと監査前スナップショットは固定し、差分を隠す再取得をしない。以前のNocca・4法務導線・韓国語用語の限定検証は過去の承認範囲として残し、今回の有効なレビューがある文書だけを後継レビューで検証する。Noccaの過去News本文は後継レビューの対象外。
 - Product／Guide／FAQ末尾に同ProductのPress Releaseを重ねない。記事本文・URLは維持しNewsから案内する。
 - 同一ページの重複は完全な遷移先（query・fragmentを含む）で確認する。Product先頭と `#support` は別の役割。アンカーが存在しても、表示ラベル・回答文脈と対象節が一致するか確認する。FAQから初回設定・カレンダー・ウィジェット等を案内するときは意味の合う既存節へ進める。
@@ -205,7 +205,7 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 - 基準は一般公開3.5.0（ユーザー確認build 6）。指描画・未確認の次期画面・Premium Plus固有購入などのHOLDは公開本文に加えない。内部安定化の技術説明もガイドへ加えない。
 - 設計、196操作の掲載先、画像の再評価、保留、検証は `docs/uni-note-guide-phase2/`。元の調査・migration baselineは変更しない。旧ガイドの画像配置固定という監査条件は、この日本語ガイドに限り、同ディレクトリの限定レビューへ引き継ぐ。旧画像ファイル自体は保持する。
 - このチャットで増えた44個別ページは、公開後でも互換補完不要という明示指示により削除。既存トップ・旧HTUアンカーと12レシピは維持する。統合前後の対応、196操作、画像の移動は `docs/uni-note-guide-phase2/ia-revision/`。
-- トップ本文は説明、検索、機能から探すだけにする。FAQ・お問い合わせ・法務はProductの「使い方とサポート」導線に集約し、ガイド本文・末尾の回遊リンクとして重ねない。既存の困ったとき中継URLはFAQへ互換させる。
+- トップ本文は説明、検索、機能から探すだけにする。本文へFAQ・お問い合わせ・法務の単純な回遊リンクを追加せず、末尾の共通Supportナビゲーションに5項目を表示する。既存の困ったとき中継URLはFAQへ互換させる。
 - `python3 scripts/verify-uninote-guide.py` でカバレッジ、リンク、アンカー、画像台帳、公開本文の境界を検証する。通常のbuild・migration・SEO検証も続ける。画像の差し替え時は撮影版・内容・alt・利用目的を確認して台帳と限定レビューを更新する。
 
 Productは最新正式App Store提出／公開画像 → アプリ内fastlane / metadata / screenshots / marketing / docs / release素材 → 既存Webの順で探索する。提出中画像は状態を区別し、古い仕様・ダミーで補わない。

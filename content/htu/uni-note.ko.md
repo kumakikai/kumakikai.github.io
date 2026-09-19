@@ -11,6 +11,8 @@ lastmod: 2026-09-08
 
 iPadOS 17.0 이상을 실행하는 iPad가 필요합니다. 손글씨에는 Apple Pencil을 사용합니다. 녹음 문자 변환에는 지원되는 iPadOS 26 이상 환경이 필요합니다.
 
+{{< uni-guide-search mode="local" >}}
+
 ## 기본 사용법
 
 {{< guide-anchor "1-홈에서-과목과-폴더를-정리합니다" "2-첫-노트를-엽니다" >}}

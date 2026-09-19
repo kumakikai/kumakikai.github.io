@@ -170,7 +170,8 @@ def check_structure(root, route, doc):
             if lang == 'ja':
                 require(h2[:2] == ['使い方を検索', '機能から探す'], 'structure', 'Japanese Uni:Note guide must focus on search and categories')
             else:
-                require(h2[:2] == [ui['introduction'], ui['basics']], 'structure', 'Localized Uni:Note guide must retain its operation sections')
+                search_ui = json.loads((root / 'data/uni_guide_search_ui.json').read_text())[lang]
+                require(h2[:3] == [ui['introduction'], search_ui['title'], ui['basics']], 'structure', 'Localized Uni:Note guide must keep search between its introduction and operation sections')
             require(ui['trouble'] not in h2 and ui['contact'] not in h2, 'structure', 'Uni:Note guide must not duplicate FAQ or contact sections')
         else:
             require(h2[:2] == [ui['introduction'], ui['basics']], 'structure', 'Guide must begin with introduction and basic use')

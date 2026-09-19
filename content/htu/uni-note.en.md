@@ -11,6 +11,8 @@ Use these real screens to follow the main Uni:Note 3.4.0 operations. Tap an imag
 
 Requires an iPad with iPadOS 17.0 or later. Handwriting uses Apple Pencil. Recording transcription requires a supported environment with iPadOS 26 or later.
 
+{{< uni-guide-search mode="local" >}}
+
 ## Basic use
 
 {{< guide-anchor "1-organize-subjects-and-folders-on-home" "2-open-the-first-note" >}}

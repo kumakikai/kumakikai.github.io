@@ -11,6 +11,8 @@ Diese echten App-Bildschirme zeigen die wichtigsten Schritte in Uni:Note 3.4.0. 
 
 Erfordert ein iPad mit iPadOS 17.0 oder neuer. Handschrift nutzt Apple Pencil. Die Transkription benötigt eine unterstützte Umgebung mit iPadOS 26 oder neuer.
 
+{{< uni-guide-search mode="local" >}}
+
 ## Grundlegende Nutzung
 
 {{< guide-anchor "1-fächer-und-ordner-auf-der-startseite-organisieren" "2-die-erste-notiz-öffnen" >}}

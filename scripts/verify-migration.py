@@ -475,11 +475,7 @@ class Verification:
         ui = json.loads((self.data_file.parent / "ux" / (lang + ".json")).read_text(encoding="utf-8"))
         shared = json.loads((self.data_file.parent / "support.json").read_text(encoding="utf-8"))
         metadata = app.get("support", {})
-        kinds = [kind for kind in ("guide", "faq", "contact", "privacy", "terms") if kind != omitted]
-        if omitted in {"guide", "faq", "privacy", "terms"} and route in self.document_reviews:
-            # Contact lives once in the document body, with independently
-            # validated destination and wording. Product still has all five rows.
-            kinds.remove("contact")
+        kinds = ["guide", "faq", "contact", "privacy", "terms"]
         labels = {"guide": copy["howTo"], "faq": copy["faq"], "contact": corp["contactLabel"], "privacy": copy["privacy"], "terms": copy["terms"]}
         resources = [n for n in container.descendants() if n.has_class("support-resources")]
         self.require(len(resources) == 1, route, "support_component", "Expected one shared support-resources component")
@@ -488,7 +484,7 @@ class Verification:
         if len(lists) != 1:
             return
         rows = [n for n in lists[0].parts if isinstance(n, Node)]
-        self.require([n.attrs.get("data-support-kind") for n in rows] == kinds and all(n.tag == "li" for n in rows), route, "support_rows", f"Support rows must be ordered {kinds}; omit only the current resource")
+        self.require([n.attrs.get("data-support-kind") for n in rows] == kinds and all(n.tag == "li" for n in rows), route, "support_rows", f"Support rows must always match the Product support order {kinds}")
         all_links = list(container.descendants("a"))
         # A product document may have one secondary Product backlink after its rows.
         expected_product = localized(lang, f"/products/{app['id']}/")
@@ -939,9 +935,6 @@ class Verification:
                     if resource.redirect():
                         continue
                     related = [n for n in resource.nodes if n.has_class("article-related")]
-                    if app_id == "uni-note" and section == "htu":
-                        self.require(not related, resource_route, "support_component", "Uni:Note guides use the parent support page and must not duplicate support resources")
-                        continue
                     self.require(len(related) == 1, resource_route, "support_component", "Product documents need one related-support area")
                     if len(related) == 1:
                         self.verify_support_resources(related[0], app, lang, resource_route, omitted=omitted)
@@ -1034,11 +1027,6 @@ class Verification:
                 self.require([(n.visible_label(), n.attrs.get("href")) for n in nav.descendants("a")] == [(label, localized(lang, f"/{section}/")) for label, section in (("Products", "products"), ("News", "news"), ("About", "company"))], route, "header_navigation", "Primary navigation must use Products, News, and About while retaining /company/")
             if route.endswith("404.html"):
                 self.require(not any(urlsplit(n.attrs.get("href", "")).path == localized(lang, "/support/") for n in doc.tagged("a")), route, "404_navigation", "404 recovery must lead to Products instead of the old Support directory")
-            for aside in [n for n in doc.nodes if n.has_class("article-related")]:
-                for resource in [n for n in aside.descendants() if n.has_class("resource-links")]:
-                    for link in resource.descendants("a"):
-                        target = self.target(link.attrs.get("href", ""), route)
-                        self.require(not target or target[0] != path.resolve(), route, "support_self_link", "Related support resources must omit the current page")
             for guide in [n for n in doc.nodes if n.has_class("visual-guide")]:
                 images = [image for figure in guide.descendants("figure") if figure.has_class("guide-figure") or figure.has_class("watch-guide-figure") for image in figure.descendants("img")]
                 self.require(bool(images), route, "visual_guide", "Each app guide needs current operation screenshots")

@@ -121,6 +121,24 @@ def verify(build):
         require(set(plan['anchors']) <= set(top.ids), 'Legacy anchor lost')
         require('機能から探す' in top.ids, 'Guide category section missing')
         require(top.canonical() == [SITE + '/htu/uni-note/'] and not top.redirect(), 'Top URL identity changed')
+        top_html = (build / 'htu/uni-note/index.html').read_text()
+        index_match = re.search(r'<script[^>]+id=["\']?uni-guide-search-index["\']?[^>]*>(.*?)</script>', top_html, re.S)
+        try:
+            search_items = json.loads(index_match.group(1)) if index_match else None
+        except json.JSONDecodeError:
+            search_items = None
+        require(isinstance(search_items, list) and len(search_items) == len(navigation['pages']), 'Guide search index must be a JSON array generated from navigation data')
+        require('data-guide-search-input' in top_html and 'data-guide-search-status' in top_html, 'Guide search controls missing')
+        require('class="sr-only" for="uni-guide-search-input"' in top_html, 'Guide search label must remain accessible without repeating visually')
+        require(top_html.find('article-related') < top_html.find('site-footer'), 'Shared support navigation must precede the site footer')
+    search_ui = json.loads((ROOT / 'data/uni_guide_search_ui.json').read_text())
+    for lang in ('en', 'ko', 'de', 'zh-hant', 'fr'):
+        localized = build / lang / 'htu/uni-note/index.html'
+        require(localized.is_file(), 'Missing localized Uni:Note guide: ' + lang)
+        if localized.is_file():
+            localized_html = localized.read_text()
+            require('data-guide-search-mode="local"' in localized_html and search_ui[lang]['title'] in localized_html, 'Localized guide search missing: ' + lang)
+            require(localized_html.find('article-related') < localized_html.find('site-footer'), 'Localized support navigation must precede site footer: ' + lang)
     workflow_pages = [p for p in mapping['pages'] if p['category'] == 'workflows']
     require(len(workflow_pages) == 12 and all(p['hero_masters'] for p in workflow_pages), '12 workflows each need hero reservations')
     preservation = json.loads((DIRECTORY / 'preservation.json').read_text())['tracked']

@@ -1,16 +1,23 @@
 {{- $navigation := site.Data.uni_guide_navigation -}}
+{{- $lang := site.Language.Lang -}}
+{{- $ui := index site.Data.uni_guide_search_ui $lang -}}
+{{- $mode := .Get "mode" | default "navigation" -}}
 {{- $items := slice -}}
-{{- range $navigation.pages -}}
-  {{- if ne .category "troubleshooting" -}}
-    {{- $items = $items | append (dict "title" .title "url" .url "category" (index $navigation.categories .category) "description" (index $navigation.descriptions .category)) -}}
+{{- if eq $mode "navigation" -}}
+  {{- range $navigation.pages -}}
+    {{- if ne .category "troubleshooting" -}}
+      {{- $items = $items | append (dict "title" .title "url" .url "category" (index $navigation.categories .category) "description" (index $navigation.descriptions .category)) -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
-<section class="uni-guide-search" aria-labelledby="guide-search-title">
-  <h2 id="guide-search-title">使い方を検索</h2>
-  <p>知りたい操作や機能の名前を入力すると、該当する説明へ直接進めます。</p>
-  <label for="uni-guide-search-input">使い方を検索</label>
-  <input id="uni-guide-search-input" type="search" autocomplete="off" placeholder="例：PDF、録音、バックアップ" data-guide-search-input>
+<section class="uni-guide-search" aria-labelledby="guide-search-title" data-guide-search-mode="{{ $mode }}" data-result-message="{{ $ui.result }}" data-no-results-message="{{ $ui.noResults }}">
+  <h2 id="guide-search-title">{{ $ui.title }}</h2>
+  <p>{{ $ui.description }}</p>
+  <label class="sr-only" for="uni-guide-search-input">{{ $ui.label }}</label>
+  <input id="uni-guide-search-input" type="search" autocomplete="off" placeholder="{{ $ui.placeholder }}" data-guide-search-input>
   <p class="uni-guide-search-status" aria-live="polite" data-guide-search-status></p>
   <ul class="uni-guide-search-results" data-guide-search-results hidden></ul>
-  <script type="application/json" id="uni-guide-search-index">{{ $items | jsonify }}</script>
+  <script type="application/json" id="uni-guide-search-index">{{ $items | jsonify | safeJS }}</script>
 </section>
+{{- $js := resources.Get "js/uni-guide-navigation.js" | minify | fingerprint -}}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>

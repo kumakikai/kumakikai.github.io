@@ -11,6 +11,8 @@ lastmod: 2026-09-08
 
 需使用 iPadOS 17.0 以上的 iPad。手寫使用 Apple Pencil。錄音轉錄另需支援的 iPadOS 26 以上環境。
 
+{{< uni-guide-search mode="local" >}}
+
 ## 基本使用方式
 
 {{< guide-anchor "1-在首頁整理科目與資料夾" "2-開啟第一本筆記" >}}

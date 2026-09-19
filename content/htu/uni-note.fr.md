@@ -11,6 +11,8 @@ Ces captures réelles présentent les opérations principales d’Uni:Note 3.4.0
 
 Nécessite un iPad sous iPadOS 17.0 ou version ultérieure. L’écriture utilise Apple Pencil. La transcription exige un environnement compatible sous iPadOS 26 ou version ultérieure.
 
+{{< uni-guide-search mode="local" >}}
+
 ## Utilisation de base
 
 {{< guide-anchor "1-organiser-les-matières-et-les-dossiers-sur-laccueil" "2-ouvrir-la-première-note" >}}

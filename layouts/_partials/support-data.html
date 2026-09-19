@@ -1,7 +1,6 @@
 {{- /* Shared destinations. Missing translations retain their Japanese URL;
        an explicitly configured page must exist. */ -}}
 {{- $app := .app -}}
-{{- $current := .currentPage -}}
 {{- $copy := index site.Data.home site.Language.Lang -}}
 {{- $corp := index site.Data.corporate site.Language.Lang -}}
 {{- $ui := index site.Data.ux site.Language.Lang -}}
@@ -37,7 +36,7 @@
     {{- end -}}
   {{- end -}}
   {{- if not $url -}}{{ warnf "No %s URL for %s" $kind $app.id }}{{- end -}}
-  {{- if and $url (or (not $current) (ne $current.RelPermalink $url)) -}}
+  {{- if $url -}}
     {{- $items = $items | append (dict "kind" $kind "url" $url "title" (index $labels $kind) "description" (index $descriptions $kind) "fallback" $fallback "external" (hasPrefix $url "https://") "appleEULA" $appleEULA) -}}
   {{- end -}}
 {{- end -}}
