@@ -210,6 +210,16 @@
 &lt;p&gt;一般筆記以垂直捲動閱讀，雙指縮放或點兩下可放大。直式筆記以橫向翻頁。在設定開啟從上次位置繼續，即可從上次閱讀的頁面開始。&lt;/p&gt;</description></item><item><title>使用說明 (Uni:Note)</title><link>https://kumakikai.github.io/zh-hant/htu/uni-note/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/zh-hant/htu/uni-note/</guid><description>&lt;h2 id="開始使用"&gt;開始使用&lt;/h2&gt;
 &lt;p&gt;以下使用實際畫面說明 Uni:Note 3.4.0 的主要操作。點一下圖片可放大。使用 Apple Pencil 書寫，以手指捲動或移動貼附資料。&lt;/p&gt;
 &lt;p&gt;需使用 iPadOS 17.0 以上的 iPad。手寫使用 Apple Pencil。錄音轉錄另需支援的 iPadOS 26 以上環境。&lt;/p&gt;
+&lt;section class="uni-guide-search" aria-labelledby="guide-search-title" data-guide-search-mode="local" data-result-message="找到 {count} 個相關說明。" data-no-results-message="找不到相關使用方法，請嘗試其他關鍵字。"&gt;
+ &lt;h2 id="guide-search-title"&gt;搜尋使用方法&lt;/h2&gt;
+ &lt;p&gt;輸入功能或操作名稱，即可直接前往相關說明。&lt;/p&gt;
+ &lt;label class="sr-only" for="uni-guide-search-input"&gt;搜尋使用方法&lt;/label&gt;
+ &lt;input id="uni-guide-search-input" type="search" autocomplete="off" placeholder="例如：PDF、錄音、備份" data-guide-search-input&gt;
+ &lt;p class="uni-guide-search-status" aria-live="polite" data-guide-search-status&gt;&lt;/p&gt;
+ &lt;ul class="uni-guide-search-results" data-guide-search-results hidden&gt;&lt;/ul&gt;
+ &lt;script type="application/json" id="uni-guide-search-index"&gt;[]&lt;/script&gt;
+&lt;/section&gt;&lt;script src="https://kumakikai.github.io/js/uni-guide-navigation.min.924bd215c1b510875834d57434ae1c4323e0cd8c63ceb8cff67afb6da36fd534.js" integrity="sha256-kkvSFcG1EIdYNNV0NK4cQyPgzYxjzrjP9nr7baNv1TQ=" defer&gt;&lt;/script&gt;
+
 
 &lt;h2 id="基本使用方式"&gt;基本使用方式&lt;/h2&gt;
 &lt;div id="1-在首頁整理科目與資料夾" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-開啟第一本筆記" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
@@ -243,11 +253,7 @@
  &lt;/div&gt;
  
 &lt;/figure&gt;
-&lt;p&gt;拖移工具盤可改變位置。從上方顯示尺，用手指移動、旋轉，再用 Pencil 沿著附近畫直線。範圍移動會選取完整手寫筆畫；照片、PDF、便利貼需分別操作。直式筆記以橫向翻頁，建立後無法更改方向。&lt;/p&gt;
-&lt;div id="6-使用-筆記列表-與-頁面列表" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
-
-&lt;h2 id="find"&gt;切換筆記、搜尋標題&lt;/h2&gt;
-&lt;p&gt;在首頁搜尋欄輸入部分筆記標題，再點選結果。不會搜尋手寫內容、頁面本文、PDF 或科目名稱。&lt;/p&gt;</description></item><item><title>隱私權政策 (Smokeless)</title><link>https://kumakikai.github.io/zh-hant/privacy/smokeless/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/zh-hant/privacy/smokeless/</guid><description>&lt;h2 id="section-1"&gt;1. 開始使用&lt;/h2&gt;
+&lt;p&gt;拖移工具盤可改變位置。從上方顯示尺，用手指移動、旋轉，再用 Pencil 沿著附近畫直線。範圍移動會選取完整手寫筆畫；照片、PDF、便利貼需分別操作。直式筆記以橫向翻頁，建立後無法更改方向。&lt;/p&gt;</description></item><item><title>隱私權政策 (Smokeless)</title><link>https://kumakikai.github.io/zh-hant/privacy/smokeless/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/zh-hant/privacy/smokeless/</guid><description>&lt;h2 id="section-1"&gt;1. 開始使用&lt;/h2&gt;
 &lt;p&gt;由 Yuya Nakamura 經營的App開發品牌 KUMAKIKAI（以下稱「我們」）在本隱私權政策中說明，使用 Smokeless（以下稱「本App」）或就本App提出詢問時所處理的資訊。&lt;/p&gt;
 
 &lt;div id="1-蒐集的資訊" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
