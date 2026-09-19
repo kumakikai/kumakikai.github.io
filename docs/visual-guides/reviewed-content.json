@@ -1,17 +1,17 @@
 {
   "/de/faq/uni-note/": {
     "source": "content/faq/uni-note.de.md",
-    "sourceSHA256": "4d926cfd32a4df17784f4ef741a969864ea4ebe8b845d4fef2b64dfca511f04c",
+    "sourceSHA256": "12482dcb66ef5d00cb508f203cc1344b7f3d325aec44f5f975c71435115209c2",
     "baselineTextSHA256": "28bbaff2b8874691c449f5ce2dabdb05b6ec1582ba9f0b07d78dc29443fcc1e9",
-    "reviewedTextSHA256": "a5e6beeaaf4f93151e161b007dd1eaf2373d6f646a2e9fb25155fe889111c7cd",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "284e2ac5484e1c9db8115c6caaa8ff86029d0cff80d5b7b47fa2679fc13db359",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": []
   },
   "/de/faq/uni-note-pocket/": {
     "source": "content/faq/uni-note-pocket.de.md",
-    "sourceSHA256": "8d35e5be278948f340cf1f6cfb8280c5d9947e6f3c6fcf9ae89801703d37226b",
+    "sourceSHA256": "93c03dece365d5e59e533ddc7adb2352d520e2581aed6373920797f02f581272",
     "baselineTextSHA256": "1be33a77d905ff130ac3213945ba1ab282821660233f83bba3139c5422200a69",
-    "reviewedTextSHA256": "3abdd630dfba88de710e3b8b4110533d54a63e7f9f00b194c3f84f67c63d8781",
+    "reviewedTextSHA256": "37616753378508b79b3b54e7b25c37840044ac1ce97f989b5811c83e684d2eb3",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/de/htu/uni-note-pocket/",
@@ -20,10 +20,10 @@
   },
   "/de/htu/uni-note/": {
     "source": "content/htu/uni-note.de.md",
-    "sourceSHA256": "058a054f08bc3ac0e5d0d1a63b404a8f86693f6ae3212879dc7d389ee076463a",
+    "sourceSHA256": "1f2386c7af097e64390185acd49370d4c6ff0430ca638a43913ecf39730571a0",
     "baselineTextSHA256": "65f68ff2e7b70bff28dcd58b530e206b83d814b0f7f95d14975f7c32f0180d07",
-    "reviewedTextSHA256": "735dc8d47d9533c5650dd9cc69988377419293d128b084065f0c68c266260e72",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "f778e972c334423d92263138700f026073191fbbbbf76d547e37cfeb56921829",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/de/faq/uni-note/",
       "https://kumakikai.github.io/de/privacy/uni-note/"
@@ -31,9 +31,9 @@
   },
   "/de/htu/uni-note-pocket/": {
     "source": "content/htu/uni-note-pocket.de.md",
-    "sourceSHA256": "70a6beac5c4b6b427fcfafce235dfe52d8956c0c66feb7e1b899a5fe71162655",
+    "sourceSHA256": "fc48b7d79304be8a473f0644eb0d172c0a94a7327918e44908863913ab9e7d58",
     "baselineTextSHA256": "804b3abd4aaf9997b162456815c3739604564007ff7192002f7cc6cae6444bd4",
-    "reviewedTextSHA256": "b8f4b21646b7ef0a8aee2872b7cde31df4eda669bd9b21e6d5789db8fcc6c67b",
+    "reviewedTextSHA256": "4d301ad3f756e71a2c2c737c8191c53d9d67ee25528619ec5a24af625e7d7cda",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/de/faq/uni-note-pocket/",
@@ -42,25 +42,25 @@
   },
   "/en/faq/smokeless/": {
     "source": "content/faq/smokeless.en.md",
-    "sourceSHA256": "9d969ddb89b5a704d2c9763bbce44b6b368125120e981b3e2fa50d8c7e95364f",
+    "sourceSHA256": "c7ea9d0027d2c138848cd04b17ae7450457e87cf3e0252c35892cfe7914aa9ec",
     "baselineTextSHA256": "6f63008c793c3a89915e286c2c5f167a62069a6657f497205b15ac7bfebe9317",
-    "reviewedTextSHA256": "7982d940b1ca4c75c4c329f0ee1178a306d68340b9df0f5c5bafb00939419f03",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md 2026-09-08 final audit: align FAQ labels with the existing setup/calendar/widget sections. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "12c6a1d68461f811e698e789db3c35f4aca2796c10a09c37e9c4d14ec38d648d",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": []
   },
   "/en/faq/uni-note/": {
     "source": "content/faq/uni-note.en.md",
-    "sourceSHA256": "34b327a28fff14a7c82ae1bff3a02e595712c39e5adf9b824972efdbcd4857e7",
+    "sourceSHA256": "6c9e744e392f9d2d2d2c6509159636e1ef9cd459564ed60e3413ac47c306d26f",
     "baselineTextSHA256": "c5b0c347ae3b742052d411cde897a0419b6d59b89b1ac515dc3bb6e5be3bcf51",
-    "reviewedTextSHA256": "d40d330642c0dfe4d51909523b5ba71a0e688f218c06be3b43f1d6f603c4a8d0",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "5dd91cbc8d65ccb6eca74af9aa7664443594b33621e8714221171515c50a10a3",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": []
   },
   "/en/faq/uni-note-pocket/": {
     "source": "content/faq/uni-note-pocket.en.md",
-    "sourceSHA256": "269953a04f39eaca6b7fcca36a949bf4254f830ced82e37d088e57b38f69a1f2",
+    "sourceSHA256": "2d88c831dab252a13b60f34018ad3e79bcad13f4f13ca4dea6b5d5bf073a017f",
     "baselineTextSHA256": "b7206e789bd9018b5249b1f5300195dbe47476da1b04dddf57ea9a27f5e43eae",
-    "reviewedTextSHA256": "ed0c1bf2d6f71a3f31fcfaec6215942c79536c61d102562b41d2082719107ddd",
+    "reviewedTextSHA256": "82e2db07fcda0efbfcf47692f4d3772d91883645fb18a2a5b295f507e97dbc16",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/en/htu/uni-note-pocket/",
@@ -69,9 +69,9 @@
   },
   "/en/htu/smokeless/": {
     "source": "content/htu/smokeless.en.md",
-    "sourceSHA256": "aede900f555f97de1788184fe759f9d836140c84c5e538555aa581cbd56b526c",
+    "sourceSHA256": "34e90d169b65a449364a40fc0e62e36eca7bae1f255eeb25024366744a9b66c4",
     "baselineTextSHA256": "6ba76f92332c5d20c3b15cea0c99932df5f187dae551d415e8905ec807e52f26",
-    "reviewedTextSHA256": "6c44b63e39368a8a50ab018db59fcf65fd5f1a1fe79d0777657028d9a95ed832",
+    "reviewedTextSHA256": "ce3a08c5746220699b8ea5fa50d7075bb7eea0774e309f9e3f696916fdb72bae",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/en/faq/smokeless/",
@@ -80,10 +80,10 @@
   },
   "/en/htu/uni-note/": {
     "source": "content/htu/uni-note.en.md",
-    "sourceSHA256": "e79c85645c0379d9b269c9955c1bae1e544ff1beeb97a65ba64994146d8096cc",
+    "sourceSHA256": "7d4f1cfc79d58f517251ef7907ebd8ee029f2f97d0dead4d87778a05219365c2",
     "baselineTextSHA256": "a26b5bab23dc299994a244f3487439f466613882df23bea152e792997f643601",
-    "reviewedTextSHA256": "574c780c59cc918e2ad26acafebd73e239cb80c1773bc395811634781a6701be",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "92b09ff776cf48b7d1673edbf0def64668576b34251bce6cd2adeeb1ce1264a1",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/en/faq/uni-note/",
       "https://kumakikai.github.io/en/privacy/uni-note/"
@@ -91,9 +91,9 @@
   },
   "/en/htu/uni-note-pocket/": {
     "source": "content/htu/uni-note-pocket.en.md",
-    "sourceSHA256": "dac4d6f2e4079b5a3af7fd9a8bed2d5256eecf831d76121752642afa224798f6",
+    "sourceSHA256": "554b4dc5cf7bf950ac17d7c9665064e797af0912724c8bbdc773a20dcf74e06f",
     "baselineTextSHA256": "19876f6162fd5641c292f2f9ea0aa38abfb30ab2bbde1234810538a7aab26f4c",
-    "reviewedTextSHA256": "d61fc1cbf97d39eaa102c62bd8f9d0eebf63ab55564cb23ce13daeaa7d92fdb0",
+    "reviewedTextSHA256": "cc8b1f66604b8b0b6ee3f575b26133cd71c57a27d0b18a035bcdccf6cd611059",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/en/faq/uni-note-pocket/",
@@ -102,30 +102,32 @@
   },
   "/faq/balance-calendar/": {
     "source": "content/faq/balance-calendar.md",
-    "sourceSHA256": "a5dc3dc5ebfe30a7a6fe7c1547b6bc6a996a416a54d714114ec5ed0e4f8b8f54",
+    "sourceSHA256": "c685c47c6c7c99716f8aace3dab13a35115660c3ba38a24843ebde0e9c6466c3",
     "baselineTextSHA256": "836fdf5dc93fb25e2856655521a24233c6bb55d2169fa8b192251fdc2c95ec34",
-    "reviewedTextSHA256": "ec70d74101f5ecbb6554c5e8fa897891f2acf72854ae3e78c366e5423267da64",
+    "reviewedTextSHA256": "8b2106f11d2f5b2e42b8b1b15a9755c3d36f8e202a9fb9756ebf4139b5985dca",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": []
   },
   "/faq/giga-poke/": {
     "source": "content/faq/giga-poke.md",
-    "sourceSHA256": "8fb977c3ee9242c13837088c4dcf8d20b91a82517bef520b0553d4882292c4b1",
+    "sourceSHA256": "23c2d629c20e8bdd7ee2e0fb1606f00f15eaf65d645c969c34505968650dd7d4",
     "baselineTextSHA256": "d4a89d9d4222a14a49485aca1ca0f38f5df63a0e54b0acb740c6928a44e0fc64",
-    "reviewedTextSHA256": "2eb3835d18fdbc47c34a901148101201eaa97aa2c132e8c96379c6948b675266",
+    "reviewedTextSHA256": "addca4e27a02707feb56f43f8ef6987c4d1e7c271510cb20bbdd3f6dfee338b6",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
     "removedLinks": [
+      "https://forms.gle/Enzmm94LdXRZjP8k9",
       "https://kumakikai.github.io/htu/giga-poke/",
       "https://kumakikai.github.io/privacy/giga-poke/",
-      "https://kumakikai.github.io/terms/giga-poke/"
+      "https://kumakikai.github.io/terms/giga-poke/",
+      "mailto:kumakikai.apps@gmail.com"
     ]
   },
   "/faq/nocca/": {
     "source": "content/faq/nocca.md",
-    "sourceSHA256": "954c15e69ebd3b06af364d1022e4a2d2537563785ec3727626d55c6acc56c43f",
+    "sourceSHA256": "eb65e8408062e46b9ddeaca33a453209a3727cab4b37bab694ffeec339174ae1",
     "baselineTextSHA256": "8366bc8f438e0e409218b257bbb21ccbdf3089847803c04088f66b4f06ce5076",
-    "reviewedTextSHA256": "c88a44fa9660ef22cbe95e71283a87cde4efa82633cc364626223ac928acb594",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md 2026-09-07 Nocca-only legal clarification: trial starts on owner approval; deletion retains disclosed minimum records and does not cancel Apple subscriptions.",
+    "reviewedTextSHA256": "e61c43c578c802e04ce8f12af6e0657b2388435adbdf7e96ec818a944fa56156",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/htu/nocca/",
       "https://kumakikai.github.io/privacy/nocca/",
@@ -134,45 +136,46 @@
   },
   "/faq/oto-miru/": {
     "source": "content/faq/oto-miru.md",
-    "sourceSHA256": "360ea04e229ef96e48e55c0e42e9a00e57231223352c6a99c1663cf8154bd023",
+    "sourceSHA256": "fb2f8810df268df222aeed3a178dbde6f567226cedd47c78a9c9796c72333b92",
     "baselineTextSHA256": "3627707d38dab179918c9132fc9d5870a0de91d1a079bed68fb935ed774b67ea",
-    "reviewedTextSHA256": "24b451c0df45475fc5287a7e7feaa65a03ded43eee89e5d2042aeaa812681165",
+    "reviewedTextSHA256": "f50e61a0c5585256dba189e79d47557a6b46c204fe985b7b501dc87eaddb1b54",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/htu/oto-miru/",
       "https://kumakikai.github.io/privacy/oto-miru/",
-      "https://kumakikai.github.io/terms/oto-miru/"
+      "https://kumakikai.github.io/terms/oto-miru/",
+      "mailto:kumakikai.apps@gmail.com"
     ]
   },
   "/faq/signal/": {
     "source": "content/faq/signal.md",
-    "sourceSHA256": "1dde4cbd65ac0dd490b8fb283b6c52e566ca62ba0c2109ec457af942d800ab29",
+    "sourceSHA256": "8f6a466549aacf5dddf42a317f825149000d5e17863d551cff46379c4c35fdc0",
     "baselineTextSHA256": "c5cce85ff87b3664c68165e8d6bc91702e0b5b8c9c3fbd26b155ec53aa83b9bf",
-    "reviewedTextSHA256": "ca9c7418e03910082af1f1a08a86ec82db0a69fd5d16572ec80a76f2c71781bf",
+    "reviewedTextSHA256": "8ed312901fff532993983841070b9f40b4d2776143cded9f113a8e3c64e9a2ef",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/signal-audit.md",
     "removedLinks": []
   },
   "/faq/smokeless/": {
     "source": "content/faq/smokeless.md",
-    "sourceSHA256": "ec04c431d54f3600acc71cedfbe96a1acd0a4f14c5f0255961b563f4586f0ad3",
+    "sourceSHA256": "efd0075c9f5217cd9b9c9521d2d28da3671842aedb80838975e80224fe089af4",
     "baselineTextSHA256": "9bdaa8d4b661582817d5a8637062e0b8bbacb1e7f697f19a5b068be13a014967",
-    "reviewedTextSHA256": "93ef024e2654ffd1b1f5e134646fa706e0857e0cc3f91449a00a62eeb62b94db",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md 2026-09-08 final audit: align FAQ labels with the existing setup/calendar/widget sections. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "b40731be1a01766b0832b5b646a89011a29ff23de9d68f8eb3852216add0c5f0",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": []
   },
   "/faq/uni-note/": {
     "source": "content/faq/uni-note.md",
-    "sourceSHA256": "a1fb551aa7303b9cc02b457497bcbb634c50834980626eb97e45f9b126769195",
+    "sourceSHA256": "2b38bd1bf534e620a02f1a72455e4d7fb9b54a314d7879da47a24c1e2000d88e",
     "baselineTextSHA256": "3a379875305564aae60b184ea5fb30cbb594e14edf0117c63062cce5d191a761",
-    "reviewedTextSHA256": "59b2a2e4dedd92f4c31acbb489debd595c9075eced07f2bb35907287d58ed992",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "c0f7e00cec10d4f77f7098ea24a525fadade7618ee6cd1b5b23d4402d7cc2955",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": []
   },
   "/faq/uni-note-pocket/": {
     "source": "content/faq/uni-note-pocket.md",
-    "sourceSHA256": "95596359131d2967264a84c3b01b7c245d7dd2946928341509d58c94bb5196e5",
+    "sourceSHA256": "d0065142bed536ca9636a6454780b0ede780af8361f18b3729c3a9d055e33238",
     "baselineTextSHA256": "4c618c343cf620e251973f058105e4b506648dc3bddf2ca97e885e2ac6968839",
-    "reviewedTextSHA256": "786f7ac466ba1702772e860b06fcc03803b0975fbddc734cd8da1b0961b2f228",
+    "reviewedTextSHA256": "bb355dc8ce8b13440c7497361f20c9f2ac9e1fe7e8ca66d723fde39ebf827bf9",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/htu/uni-note-pocket/",
@@ -181,25 +184,25 @@
   },
   "/fr/faq/smokeless/": {
     "source": "content/faq/smokeless.fr.md",
-    "sourceSHA256": "ff118b4127b6a74cad80514a7cb22754593a2b3d0f34ad64484ab3e1e8aa4f49",
+    "sourceSHA256": "7d814b0036f62cc43176de57421ee958cb85f0449d8a7b02ee878e63c95e7eea",
     "baselineTextSHA256": "af2e4b1f84f2b8041ffcee92321b821657e1a83d79a41b91138955be39ae89e2",
-    "reviewedTextSHA256": "2a2a861a7d7f8db913717bfa0038eedb879dea0a023dea1adbadbe66c1138ff9",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md 2026-09-08 final audit: align FAQ labels with the existing setup/calendar/widget sections. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "8bc193e4b6b2b9c2c6a62053952920ca1208787fe47b0134499a21a21b549cc4",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": []
   },
   "/fr/faq/uni-note/": {
     "source": "content/faq/uni-note.fr.md",
-    "sourceSHA256": "df2d63296b88e7a8a42045efd71202fc2d1e8b9aef9afc4983008a9b4b6491cf",
+    "sourceSHA256": "2ca41b630d00f16d16f395dcf063e1ae76727fd2d882b219f230d3adc1755b50",
     "baselineTextSHA256": "51fa09d03f0ed11482ca3990e1c0adf3acfef35821425454a5adfcae65e542f0",
-    "reviewedTextSHA256": "9f83ab24741ba32c0cd2792f0632f5f6ebdb52e9fd23a0580c911ed261b2ff6c",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "815b362692f151b707fa9e642b83fe1fcb622fa991fad5d9cc3383179e5a2348",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": []
   },
   "/fr/faq/uni-note-pocket/": {
     "source": "content/faq/uni-note-pocket.fr.md",
-    "sourceSHA256": "9750ceda10b9c918eece2179fd107c4626a2d23ccbc13d3295f19244efb7db50",
+    "sourceSHA256": "94fcb52c570556bcf85ceb3022900ea6649311b7f77eef8184f8be4ef45e9ad3",
     "baselineTextSHA256": "ccce10940297e090a69c38237d64fb7162cd8735a810e51b0c1f690aa51fa2f6",
-    "reviewedTextSHA256": "8017675aaa2f6fecffe59d50fdb9514fd4915eb19d3af21b9650caa98240a463",
+    "reviewedTextSHA256": "4e3c9e5488581d40c5f58e390b0a165a2c74b31de4243abe2035e88f08059fb1",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/fr/htu/uni-note-pocket/",
@@ -208,9 +211,9 @@
   },
   "/fr/htu/smokeless/": {
     "source": "content/htu/smokeless.fr.md",
-    "sourceSHA256": "71f4a6dac450a610f4bc7d4ba4da07bf3485d9d39f38525f107d27089cbd1a3a",
+    "sourceSHA256": "e2c86f1b1514133fba263aa5397a6f039e056df4d9e237da51755a54a90822c9",
     "baselineTextSHA256": "905212aa2e4d97d7f8edbf3d2960d9abffb15ddfaae2b7f05b5ed9f7bf197daa",
-    "reviewedTextSHA256": "1f85cd72183813955c98e407cb58ed1f69e11455699ab4a19b01dc56034ce2cf",
+    "reviewedTextSHA256": "afed2192b1a42726d91c89130931e5a5ed43865781cc0d667d1be782603806ad",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/fr/faq/smokeless/",
@@ -219,10 +222,10 @@
   },
   "/fr/htu/uni-note/": {
     "source": "content/htu/uni-note.fr.md",
-    "sourceSHA256": "5f031450582be5fe983d7d71f9f179857047f147dcb8fdeec921c6ce12d8ffd0",
+    "sourceSHA256": "72a32f4db59a41b236060698bbcfb6ebe5bf3b4c70f4d7869e7b900a8fc50ba0",
     "baselineTextSHA256": "d9d8754e59fa8e812c9e7fcb2e3826dab146ef19f6aa38a7e2b4bd0bca83dc58",
-    "reviewedTextSHA256": "63b6f078a3a0a92203cb8f766446005f84c1f7f6ecc5e47f9635384ea156cf31",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "0724f11ffd0db10485fb5ad73b9c596e73fa151296b197337bb0cdbba8821041",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/fr/faq/uni-note/",
       "https://kumakikai.github.io/fr/privacy/uni-note/"
@@ -230,9 +233,9 @@
   },
   "/fr/htu/uni-note-pocket/": {
     "source": "content/htu/uni-note-pocket.fr.md",
-    "sourceSHA256": "0c25b1b364b225c817d2b5dd95f4b1863cc987cc2f9fd81e465c7712e6e51b2a",
+    "sourceSHA256": "9138f23fd9e523dd7933f63fbc84ea4b5d7db1a040ff7292295e7fe11d8645d4",
     "baselineTextSHA256": "bd1f86cda13b4db5cb574edcd5c9ee61bcedfcfe2279b8af92e70a5c30066477",
-    "reviewedTextSHA256": "68439da75fd072fed7775dd287c0e2648d55f9fd38becd88d0b6c14ddc49fdd0",
+    "reviewedTextSHA256": "593f3579011726f569e418b196bd85c2b922f7b5495ed558c118f4a770c11c6a",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/fr/faq/uni-note-pocket/",
@@ -241,9 +244,9 @@
   },
   "/htu/balance-calendar/": {
     "source": "content/htu/balance-calendar.md",
-    "sourceSHA256": "b8727065d50e393108ef42e1c9a96428bc740b6894be28335f4cb5ee471469c5",
+    "sourceSHA256": "5d5b12a05f9be446a7fe884c8ed1c21a55b7a296461ad7469351b602601204e3",
     "baselineTextSHA256": "9d2fff06477cc4a1864ca38ca5e15548ba729eb4f39f71eddeb85ec472633294",
-    "reviewedTextSHA256": "813acd17ca1a8a508b00a2954879ad46efab14107ec7369fc7d4b2605b59769b",
+    "reviewedTextSHA256": "abc7fbf6df1a288198a6ae6dc8568fa2706bc18d424c4011ee08ce4ee88338ba",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/faq/balance-calendar/",
@@ -252,9 +255,9 @@
   },
   "/htu/giga-poke/": {
     "source": "content/htu/giga-poke.md",
-    "sourceSHA256": "364f6ee1295425129b1135b2729d320dfcaf5b8ef4de46e33a5f9b9fe4811d2a",
+    "sourceSHA256": "a5606ab18728a3a7970fcf5a4626ec663794fbf0a868cb31380ea3a4a97f46af",
     "baselineTextSHA256": "b24622ffc958442c2c108227960d725241227a958ca810d29c399f9aa9093ea1",
-    "reviewedTextSHA256": "9042591ea032768fdb822f5519465c75e59561feff119e574212491a0d126dce",
+    "reviewedTextSHA256": "144877de08551910e51e8a684739636187dfec64ff19ddcfeb19ce255cca616c",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/faq/giga-poke/",
@@ -264,21 +267,22 @@
   },
   "/htu/nocca/": {
     "source": "content/htu/nocca.md",
-    "sourceSHA256": "d75c30ba4b080e390c2b0d152199d3a501c13f7d1d5092bf251beae7037cee0f",
+    "sourceSHA256": "66fa3262d157d44fc625deb4554b8f274d84301fe7f410f0c7b7d2f50e668b7e",
     "baselineTextSHA256": "a299355f1982620db4fb8b37de052b745fda9a90386541a105e8a806377dd9bd",
-    "reviewedTextSHA256": "05cba4256ea8d61d59e350840d5837bd93bead3c3fcb80822d56b63f0428132f",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md 2026-09-07 Nocca-only legal clarification: trial starts on owner approval; deletion retains disclosed minimum records and does not cancel Apple subscriptions.",
+    "reviewedTextSHA256": "ea34d41bebff8feeeca08f863945a99ec72adec326504940d41c9ed5a8d8ed93",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/faq/nocca/",
+      "https://kumakikai.github.io/privacy/nocca/",
       "https://kumakikai.github.io/terms/nocca/"
     ]
   },
   "/htu/oto-miru/": {
     "source": "content/htu/oto-miru.md",
-    "sourceSHA256": "683181c1d7d4d71e844b4d96fdf9dd5bd67a065c49414037bd55cfdb4ba79cd9",
+    "sourceSHA256": "6bfca144974259f654eb221386ea9da749f5f65d1d60d0c086e9bac7659a360d",
     "baselineTextSHA256": "d97e4e6b252fb1eb446e43ac6a9fff2934524131a2d910e252328f44b34f94ac",
-    "reviewedTextSHA256": "c141430a2dbb0a0d9eb21e75c0e30109fcf5732d25d8fe8fbb2a29c079a2adfe",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md 2026-09-08 publication comparison: reuse the matching 1120px source for one crop; keep its existing full-image link and preserve the prior 560px URL as a static compatibility asset.",
+    "reviewedTextSHA256": "b2482368326b3eea388886f731240e06f3fc8d01981efec7d600a62a1b13057c",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/faq/oto-miru/",
       "https://kumakikai.github.io/privacy/oto-miru/",
@@ -287,9 +291,9 @@
   },
   "/htu/signal/": {
     "source": "content/htu/signal.md",
-    "sourceSHA256": "b08dde44f9c3e2f0709d6cc933d31f9e656ca178ee093cd58e7ff6610e2c7a0e",
+    "sourceSHA256": "7d4d79cdcdfa0e1d012743fccdd5b84251712e0384037798a36d5ae78988b4cf",
     "baselineTextSHA256": "1225119ef5c726a37293c39cc153e8109a76d6857f11b08de3fee0ad29a2f722",
-    "reviewedTextSHA256": "ae9f3d71d41e7d68ce59ee88e4a7d52fe1e6c0aba1d4291ca62f47a48df68ca1",
+    "reviewedTextSHA256": "46ba3bd10dc90b56093b85dd0d249400a1020703afc57612e4099c94b5907b4e",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/signal-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/faq/signal/",
@@ -298,9 +302,9 @@
   },
   "/htu/smokeless/": {
     "source": "content/htu/smokeless.md",
-    "sourceSHA256": "b23238be6ce9251aec1c7bfbfd1d37c77e0c5270ed2db6986368f4071ef9d10f",
+    "sourceSHA256": "d767d9cb2593d3f2dfb9b4fcb5f407eb08e0506a9083045ab81f60c4338cc4a7",
     "baselineTextSHA256": "a1e899ff4cccce60926fc50c7ded5df3b47b2a74ea189fc96f41d69024fb1730",
-    "reviewedTextSHA256": "f2ef9a581b4e707a75f8caceaaa79cb9ba1f4ef191565eb5005131c32128de52",
+    "reviewedTextSHA256": "4f8d8153fcde4c6575437c0824d751c0cc4ab3cce4b565b5ac62d7c0298d517d",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/faq/smokeless/",
@@ -309,10 +313,10 @@
   },
   "/htu/uni-note/": {
     "source": "content/htu/uni-note.md",
-    "sourceSHA256": "d2fc93f6645e97e085bc3e420b1e73568bbfbf9776d0877408d5703a5fdbcdd3",
+    "sourceSHA256": "879b0380e49e5d7f821b930099af51f484977942a01ec601c292c131be1b4a3f",
     "baselineTextSHA256": "9047a537b892dae04996352f8ee10a832b3218654f44e403b0be5e83e3b94b80",
-    "reviewedTextSHA256": "698db0713f026f28740ba64279a52e97a19864f4cdd483651f63e32d65b8d8b8",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "78ff0deeb9e4bd0afec105c2e6cd4e1f112f281256fe3761557aa258b0781dd9",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/faq/uni-note/",
       "https://kumakikai.github.io/privacy/uni-note/"
@@ -320,9 +324,9 @@
   },
   "/htu/uni-note-pocket/": {
     "source": "content/htu/uni-note-pocket.md",
-    "sourceSHA256": "7f31459bf118f1ba9585a36b05aad201e41a01fea908b5bc86550bdbc8a564ac",
+    "sourceSHA256": "960b0bf9ed82d91ca65f837de69f418dfe0e492aa879695420cb5cb990226194",
     "baselineTextSHA256": "5b4c2887f919adbc3a615eeb7457f14288e782320a7a6b11ab17cf4a5535d7ad",
-    "reviewedTextSHA256": "5fc01e5fe833fee0e1d3a920f1c0c988406670c6c07c044169969dc795ccbe2b",
+    "reviewedTextSHA256": "d85d339e317db218586dff9ac8aec7f9344ba0ed8bdd68b85a72c37d72f80737",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/faq/uni-note-pocket/",
@@ -331,25 +335,25 @@
   },
   "/ko/faq/smokeless/": {
     "source": "content/faq/smokeless.ko.md",
-    "sourceSHA256": "21b4a48e444d4e37979b8aee49c9f1adb61190598edf4c1ef81f19feacf15c11",
+    "sourceSHA256": "5a1ecaa0013a892de4a48883afe2d339828b4f1dfb8310bbf52442d947d37772",
     "baselineTextSHA256": "aec4d416e9e1d4885217829088f281162a71f61a99a59b80a24be9144c4ffe33",
-    "reviewedTextSHA256": "9ad204f78c6f36a53b145c901f0ad5a66c64be47d6cf056fc79e602f4584bf36",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md 2026-09-08 final audit: align FAQ labels with the existing setup/calendar/widget sections. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "346acebed9ce97e807f91aca5c9487201390eff308ae40f0a0e8f15a43ec8ec2",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": []
   },
   "/ko/faq/uni-note/": {
     "source": "content/faq/uni-note.ko.md",
-    "sourceSHA256": "01b1d79013a0628acae4bf7f1eebc6fefd801e0096e0a08adf7ab8bfd5c49a2f",
+    "sourceSHA256": "4b100afdf2616a314f7a6ea140585c8d5cda9d9ee7af808d0bdbabe7d28a36d0",
     "baselineTextSHA256": "d6bfc78516d3e47ab028cc83d22e6ec5c532cfc043ce88c8a6f4663d7331b065",
-    "reviewedTextSHA256": "d48a711090daa2f52d3d32b9bbd5ba4e13e02e93f10b6e057fb24ea8cea2f339",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "64fcbcdfd4d3fd4d862bd291884e9f2779e225a7ffe868c0d4965508f4995734",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": []
   },
   "/ko/faq/uni-note-pocket/": {
     "source": "content/faq/uni-note-pocket.ko.md",
-    "sourceSHA256": "54241e091de5491ca3e8104a273084923fb6bc9ba12e56d543d07c347d83cc5d",
+    "sourceSHA256": "24a787b0c91bfccfc23b7d1941478b40aa8fb86169943592e06cfc0f425658cf",
     "baselineTextSHA256": "945e77fa263444378700b9e78b369ea9c178f29a83d8e0ef45caae9085556c6f",
-    "reviewedTextSHA256": "2f34a3a98ebfb02f7ad10feaa8a147018c8c39f8229d247860fc4801c4764bbe",
+    "reviewedTextSHA256": "44e65f8f917bbe27e9c56f75f3ca59b1c10d168f83f634ff56c9de6ed2b05f65",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/ko/htu/uni-note-pocket/",
@@ -358,9 +362,9 @@
   },
   "/ko/htu/smokeless/": {
     "source": "content/htu/smokeless.ko.md",
-    "sourceSHA256": "a67c2843843945070426a4587d919808102aa0e68df75fda94d31bc3814d4970",
+    "sourceSHA256": "b0879c1970ecc217409003f7575494548be62a5a53e4b846170eb502a7b58a98",
     "baselineTextSHA256": "650b67e93542072c1e0f9eada065187ea346b56acc1473dd4319731a20ccbb96",
-    "reviewedTextSHA256": "bb0490d97dc6db9439e45d0a6376d6f48256bf91262d71b14793d3f6cdd97a91",
+    "reviewedTextSHA256": "77c5b3b3499ccf87d3e9706e80aacb6662231ed812bed2c583d40928e2022f3a",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/ko/faq/smokeless/",
@@ -369,10 +373,10 @@
   },
   "/ko/htu/uni-note/": {
     "source": "content/htu/uni-note.ko.md",
-    "sourceSHA256": "c02e5a556d594b33a22567cefb065a2d6e1939eb14b4e9fda06099ab2bcd386b",
+    "sourceSHA256": "05605b48d22688475ea1c83ae68bac21767a37300f967c1cf52f20288185dbab",
     "baselineTextSHA256": "6767264d91f95d305e2611b5ac966b9f9afbb6fc3ef6fccf6c799be4100c6ade",
-    "reviewedTextSHA256": "a46dd6fc77e3ad746cfa78d571fa6825649a92da4bf99a8d7f819461cfa86600",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "1274de82ac943f49507073f221f1856148b6f3080d2f1a0822e5c4c638946b1a",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/ko/faq/uni-note/",
       "https://kumakikai.github.io/ko/privacy/uni-note/"
@@ -380,9 +384,9 @@
   },
   "/ko/htu/uni-note-pocket/": {
     "source": "content/htu/uni-note-pocket.ko.md",
-    "sourceSHA256": "ee28ff8392a65a718e7b4be7af0bec02859af1e4c5e90ec5d32a6a497951a79d",
+    "sourceSHA256": "e4ef4432d4bd64b753086c055d5ede2ec918e1b992e7401a774fb5b5d91e8181",
     "baselineTextSHA256": "7d4547ed05e14ea2bc0515df242463c390b73e518c7358a8360f8652de5e4e1f",
-    "reviewedTextSHA256": "a4500bbd810e473dcdcb3536c278d9c6c932a4d39d40a882633a896d8e2b37e2",
+    "reviewedTextSHA256": "9ce25216d16bb25c894d04814849c66e3144995bfcc58fa52344c865c95526ea",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/ko/faq/uni-note-pocket/",
@@ -391,25 +395,25 @@
   },
   "/zh-hant/faq/smokeless/": {
     "source": "content/faq/smokeless.zh-hant.md",
-    "sourceSHA256": "dd92e2b4d0c559a341c0e2627e2d4013501403d5d929cfa20bfdd9a299440d11",
+    "sourceSHA256": "3c535d4dc42030ab807a5c6e5114cae300758403118b495448ddad27b517a143",
     "baselineTextSHA256": "1d467fbee67e80a19743e3bf2e6fa9a81fa4e3e786a3f2e5000eb3d661336334",
-    "reviewedTextSHA256": "a8a575541e99fdad8db714d9b8d4fb071e4ec33200171163179a00351263e632",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md 2026-09-08 final audit: align FAQ labels with the existing setup/calendar/widget sections. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "e1c9bf7f9059c0f9de20e63ba68d54b6030fe0f354b707a8c80a2ac6fa56ff24",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": []
   },
   "/zh-hant/faq/uni-note/": {
     "source": "content/faq/uni-note.zh-hant.md",
-    "sourceSHA256": "760510d14056f16380f2b75585381379265a8bf9f4deef814e73301814e5e498",
+    "sourceSHA256": "fa4e51d400b60e425e8c6578dee315d48c3e20fdf2d94ce3b46b57eef147857a",
     "baselineTextSHA256": "e5027cf3968e430bbe79884cf082764d3272930fc9dc60a6f0ead3410c5f0e65",
-    "reviewedTextSHA256": "4c3b50b16769f6e832440984259e31d29d02986aadfe71d169479778258dd01f",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "19382770b598092fb7bd1ada6566565687fe2cb6c33dae5f360e723acb824d6e",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": []
   },
   "/zh-hant/faq/uni-note-pocket/": {
     "source": "content/faq/uni-note-pocket.zh-hant.md",
-    "sourceSHA256": "ebe1958d752d0729ce3ff8844b1fee4733f7bb63c644179588921ff0913da63f",
+    "sourceSHA256": "75bd36e93c00319d570bb9efdb46db2d13c099185727a9a7dff0ffb0acd99292",
     "baselineTextSHA256": "99235884db2595491be725b536bb009a3e154846f6723958c55916a85af9fbb2",
-    "reviewedTextSHA256": "61593cec9d627323f0d2213dfc72b575c04c66176fd45c5b7ff9baa413ea718e",
+    "reviewedTextSHA256": "caaa56b29ad3ab22ea1b5265c5ec16b579c338fa70cfb165a072a4a96b3cd1cc",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/zh-hant/htu/uni-note-pocket/",
@@ -418,9 +422,9 @@
   },
   "/zh-hant/htu/smokeless/": {
     "source": "content/htu/smokeless.zh-hant.md",
-    "sourceSHA256": "1ea74722defd122bc5d3d3e52169f21e2d59203d2b45e6ca97e7122cf8759431",
+    "sourceSHA256": "6d4e8f43eeea426f15192ea1ddbe5fe616c31a5d339f349cb4cb004333135734",
     "baselineTextSHA256": "06052a4c4f2449707ce62c182207346fc79c0ba6f086278cb1a11dabe9f82ad2",
-    "reviewedTextSHA256": "ee839527bbb865263e12ce47c318395cc940e38ad6ac1fe503c5a48a613d13c0",
+    "reviewedTextSHA256": "32f684f3d370195781ca12aaab5867bc4c727a63623c08580552a02ec6d2a2ae",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/utilities-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/zh-hant/faq/smokeless/",
@@ -429,10 +433,10 @@
   },
   "/zh-hant/htu/uni-note/": {
     "source": "content/htu/uni-note.zh-hant.md",
-    "sourceSHA256": "4e963f8e757eaa220cf8d5a54add967f2856c83b9ad68dc5a711e876f2d03b07",
+    "sourceSHA256": "f97ab0a6d0628ac284d755caca754a766547e7a3a33183c3c95f2bf77401c496",
     "baselineTextSHA256": "0ad93001924502ebcc8317108accca5d624457ff10510110e77257615d1e888a",
-    "reviewedTextSHA256": "06b63488a3c0dc963b235d071dba3b6b232014188b4f31b31a4ab95b99a50c3b",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md 2026-09-08 final audit: show the version comparison date outside the body; align the Korean AI Balance feature label where applicable. See docs/audits/2026-09-08-final/BEFORE.md.",
+    "reviewedTextSHA256": "c17e3d5f423b8c9a09cac8208ea3f83400d95db810590808dcfed8f42b35b77f",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/zh-hant/faq/uni-note/",
       "https://kumakikai.github.io/zh-hant/privacy/uni-note/"
@@ -440,9 +444,9 @@
   },
   "/zh-hant/htu/uni-note-pocket/": {
     "source": "content/htu/uni-note-pocket.zh-hant.md",
-    "sourceSHA256": "d8644704d0d5843580b373654252ea0b0fb132871e4a593a82168303bf377098",
+    "sourceSHA256": "605e0c1da5287b78087bdef692d5556a0dc81ac5e11567c051a59ea54d9106cc",
     "baselineTextSHA256": "090656e3cbbd8821493987765b875c741c01918737873381f3ad7bedf3a915fc",
-    "reviewedTextSHA256": "f0238347ca4e1c01f7cd691585f70c20f5df97966137e7388626b93e1f0ef4b1",
+    "reviewedTextSHA256": "c6562ce66a6b030efcbab58141648c40a10dbb46693f206b050467ddb82d6b69",
     "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/zh-hant/faq/uni-note-pocket/",
