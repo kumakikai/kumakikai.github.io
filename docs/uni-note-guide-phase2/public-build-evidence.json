@@ -1,0 +1,27 @@
+{
+  "user_confirmed_release": "3.5.0 build 6",
+  "archive": "/Users/yuya/Library/Developer/Xcode/Archives/2026-09-15/UniNote 2026-09-15, 16.34.xcarchive",
+  "archive_marketing_version": "3.5.0",
+  "archive_local_build": "1",
+  "uploaded_build": "6",
+  "upload_destination": "App Store",
+  "upload_date": "2026-09-15T07:36:50Z",
+  "binary_sha256": "acc811e55c3fa71c8ec6d46a8d28142ebbe06b8ab6499870fc84144605cf477c",
+  "localization_sha256": "3f4465b8a5c5f60e942b9d1cbba14199e4029c77196c189091c190f3a26b38b1",
+  "archive_ja_keys": 946,
+  "matching_70fed02_ja_values": 946,
+  "localized_release_evidence": {
+    "settings.ai_response_language": "AI回答言語",
+    "settings.ai_response_language.description": "囲って解答・問題集生成・AI要約で使用する回答言語",
+    "settings.home.show_problem_sets": "ホームに問題集を表示",
+    "settings.ui.navigation_bar.points": "・ボタンをドラッグして配置を変更できます。\n・よく使う機能はナビゲーションバーに、たまに使う機能は「…」メニューに配置できます。\n・プレビューで未使用の部分は、ノートでは自動的に詰めて表示されます。\n・「戻る」「ノートタイトル」「その他」は固定です。\n・左右それぞれ4枠まで配置できます。\n・この設定はすべてのノートに適用されます。",
+    "settings.ui.palette.points": "・ツールをドラッグして並び順を変更できます。\n・不要なツールは非表示にできます。\n・プレビューの未使用部分はノートでは表示されず、その分パレットが小さく表示されます。\n・「戻る」「やり直し」は固定です。\n・この設定はすべてのノートに適用されます。",
+    "laser_pointer.status.active": "実行中",
+    "startup.crash_recovery.bookshelf_fallback.message": "前回このノートでクラッシュしたため、本棚に戻しました。"
+  },
+  "limitations": [
+    "Archive upload linkage + user public-build confirmation. No physical-device or Simulator run.",
+    "Localization equality is not complete source/binary equality. Exact source commit is not asserted.",
+    "Premium Plus production purchase/grant is not proven by bundled release notes."
+  ]
+}

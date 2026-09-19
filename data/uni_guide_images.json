@@ -1,0 +1,3112 @@
+{
+  "start-screens--n-m01": {
+    "page": "start/screens",
+    "master": "N-M01",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N01-01",
+      "N02-03",
+      "N05-01",
+      "N06-01",
+      "N10-01",
+      "N13-02",
+      "N14-02",
+      "N69-02",
+      "S01-01"
+    ],
+    "purpose": "ホームの完成状態",
+    "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "start-screens--n-m05": {
+    "page": "start/screens",
+    "master": "N-M05",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N01-02",
+      "N06-02",
+      "N08-01",
+      "N11-01"
+    ],
+    "purpose": "教科内のノート一覧",
+    "state": "「第8回 マクロ経済」「第8回 演習」等があり、ページ数・新規ノート・ハンドルが見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "start-screens--m-m14": {
+    "page": "start/screens",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "start-first-note--n-m02": {
+    "page": "start/first-note",
+    "master": "N-M02",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N02-01"
+    ],
+    "purpose": "ホームの追加メニュー",
+    "state": "ホーム＋を開き、教科・フォルダの追加項目を表示。",
+    "role": "step",
+    "status": "legacy-approved",
+    "release_status": "capture-published-3.5",
+    "mode": "crop",
+    "src": "images/guides/uni-note/ja/create-menu.png",
+    "alt": "教科とフォルダの作成メニュー",
+    "caption": "ホームの＋から開く作成メニュー。",
+    "source_sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148"
+  },
+  "start-first-note--n-m01": {
+    "page": "start/first-note",
+    "master": "N-M01",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N01-01",
+      "N02-03",
+      "N05-01",
+      "N06-01",
+      "N10-01",
+      "N13-02",
+      "N14-02",
+      "N69-02",
+      "S01-01"
+    ],
+    "purpose": "ホームの完成状態",
+    "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "start-first-note--m-m14": {
+    "page": "start/first-note",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-subjects--n-m01": {
+    "page": "library/subjects",
+    "master": "N-M01",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N01-01",
+      "N02-03",
+      "N05-01",
+      "N06-01",
+      "N10-01",
+      "N13-02",
+      "N14-02",
+      "N69-02",
+      "S01-01"
+    ],
+    "purpose": "ホームの完成状態",
+    "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-subjects--n-m04": {
+    "page": "library/subjects",
+    "master": "N-M04",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N04-01"
+    ],
+    "purpose": "教科の長押しメニュー",
+    "state": "経済学カード長押し。編集・削除等の項目が見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-subjects--n-m08": {
+    "page": "library/subjects",
+    "master": "N-M08",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N10-02"
+    ],
+    "purpose": "本棚カードの並べ替え途中",
+    "state": "経済学カードの並べ替えハンドルを保持し、挿入位置を表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-subjects--n-m20": {
+    "page": "library/subjects",
+    "master": "N-M20",
+    "session": "CAP-19",
+    "shot_ids": [
+      "N56-01"
+    ],
+    "purpose": "教科削除の確認",
+    "state": "削除確認用教科と配下の削除確認用ノートを削除する確認。対象名・配下データへの影響を表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-subjects--s-m15": {
+    "page": "library/subjects",
+    "master": "S-M15",
+    "session": "CAP-21",
+    "shot_ids": [
+      "N56-02",
+      "N57-02",
+      "S27-02",
+      "S28-01",
+      "S29-01",
+      "S30-01"
+    ],
+    "purpose": "ゴミ箱で教科・個別ノートを見分ける",
+    "state": "削除確認用教科（子＝削除確認用ノート）と、経済学から個別削除した教材操作練習が見えるゴミ箱。教科と個別ノートの復元/完全削除の対象を区別できる。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-folders--n-m01": {
+    "page": "library/folders",
+    "master": "N-M01",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N01-01",
+      "N02-03",
+      "N05-01",
+      "N06-01",
+      "N10-01",
+      "N13-02",
+      "N14-02",
+      "N69-02",
+      "S01-01"
+    ],
+    "purpose": "ホームの完成状態",
+    "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-folders--n-m11": {
+    "page": "library/folders",
+    "master": "N-M11",
+    "session": "CAP-02",
+    "shot_ids": [
+      "N15-01"
+    ],
+    "purpose": "教科をフォルダへ入れる途中",
+    "state": "教科カード本体をドラッグし、フォルダが受入ハイライト状態。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-folders--n-m12": {
+    "page": "library/folders",
+    "master": "N-M12",
+    "session": "CAP-02",
+    "shot_ids": [
+      "N15-02",
+      "N16-01"
+    ],
+    "purpose": "フォルダ内一覧",
+    "state": "経済学・資料ほかの教科行と、ノート一覧・ハンドル・閉じるを表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-folders--n-m13": {
+    "page": "library/folders",
+    "master": "N-M13",
+    "session": "CAP-02",
+    "shot_ids": [
+      "N17-01"
+    ],
+    "purpose": "フォルダ内の並べ替え途中",
+    "state": "教科行のハンドルを保持し、挿入位置が変わった状態。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-folders--n-m14": {
+    "page": "library/folders",
+    "master": "N-M14",
+    "session": "CAP-02",
+    "shot_ids": [
+      "N18-01"
+    ],
+    "purpose": "フォルダの長押しメニュー",
+    "state": "ホームのフォルダを長押しし編集・削除を表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-folders--n-m15": {
+    "page": "library/folders",
+    "master": "N-M15",
+    "session": "CAP-02",
+    "shot_ids": [
+      "N20-01"
+    ],
+    "purpose": "教科を残してフォルダを削除する確認",
+    "state": "削除確認文・キャンセル・削除が見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-folders--n-m17": {
+    "page": "library/folders",
+    "master": "N-M17",
+    "session": "CAP-02",
+    "shot_ids": [
+      "N19-01"
+    ],
+    "purpose": "フォルダ内教科のメニュー",
+    "state": "資料教科のメニューで「フォルダから出す」を表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-folders--n-m18": {
+    "page": "library/folders",
+    "master": "N-M18",
+    "session": "CAP-02",
+    "shot_ids": [
+      "N68-01"
+    ],
+    "purpose": "フォルダから本棚へ戻すドラッグ",
+    "state": "フォルダ内の教科を保持し、本棚へ戻すドロップ領域を表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "library-search--n-m09": {
+    "page": "library/search",
+    "master": "N-M09",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N12-01",
+      "N13-01"
+    ],
+    "purpose": "タイトル検索結果",
+    "state": "「第8回」で検索し、所属教科が異なるノートの結果を表示。",
+    "role": "step",
+    "status": "legacy-approved",
+    "release_status": "capture-published-3.5",
+    "mode": "crop",
+    "src": "images/guides/uni-note/ja/home-search.png",
+    "alt": "ホーム上部のノートタイトル検索欄",
+    "caption": "ノートのタイトルを入力します。",
+    "source_sha256": "d89e38068d76971f084cae3b07aae86d94e623adc6105f585ed9f8ad29154236"
+  },
+  "library-search--n-m01": {
+    "page": "library/search",
+    "master": "N-M01",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N01-01",
+      "N02-03",
+      "N05-01",
+      "N06-01",
+      "N10-01",
+      "N13-02",
+      "N14-02",
+      "N69-02",
+      "S01-01"
+    ],
+    "purpose": "ホームの完成状態",
+    "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-manage--n-m01": {
+    "page": "notebooks/manage",
+    "master": "N-M01",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N01-01",
+      "N02-03",
+      "N05-01",
+      "N06-01",
+      "N10-01",
+      "N13-02",
+      "N14-02",
+      "N69-02",
+      "S01-01"
+    ],
+    "purpose": "ホームの完成状態",
+    "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-manage--n-m05": {
+    "page": "notebooks/manage",
+    "master": "N-M05",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N01-02",
+      "N06-02",
+      "N08-01",
+      "N11-01"
+    ],
+    "purpose": "教科内のノート一覧",
+    "state": "「第8回 マクロ経済」「第8回 演習」等があり、ページ数・新規ノート・ハンドルが見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-manage--n-m06": {
+    "page": "notebooks/manage",
+    "master": "N-M06",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N09-01",
+      "N57-01",
+      "S25-01"
+    ],
+    "purpose": "ノート行のスワイプメニュー",
+    "state": "「教材操作練習」ノートを左へスワイプし、名前編集・保護・削除が見える。未保護。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-manage--n-m07": {
+    "page": "notebooks/manage",
+    "master": "N-M07",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N11-02"
+    ],
+    "purpose": "ノート一覧の並べ替え途中",
+    "state": "「第8回 演習」のハンドルをつかみ、別の位置へ移動中。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-manage--n-m58": {
+    "page": "notebooks/manage",
+    "master": "N-M58",
+    "session": "CAP-31",
+    "shot_ids": [
+      "N07-01"
+    ],
+    "purpose": "ノートを表示しながら開くノート一覧",
+    "state": "本文と同じ教科の一覧ペインを同時表示。選択中ノートが分かる。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-manage--s-m15": {
+    "page": "notebooks/manage",
+    "master": "S-M15",
+    "session": "CAP-21",
+    "shot_ids": [
+      "N56-02",
+      "N57-02",
+      "S27-02",
+      "S28-01",
+      "S29-01",
+      "S30-01"
+    ],
+    "purpose": "ゴミ箱で教科・個別ノートを見分ける",
+    "state": "削除確認用教科（子＝削除確認用ノート）と、経済学から個別削除した教材操作練習が見えるゴミ箱。教科と個別ノートの復元/完全削除の対象を区別できる。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-pages--n-m31": {
+    "page": "notebooks/pages",
+    "master": "N-M31",
+    "session": "CAP-31",
+    "shot_ids": [
+      "N21-01",
+      "N22-02",
+      "N23-02"
+    ],
+    "purpose": "通常ノートのページ境界",
+    "state": "末尾側に筆記済みページと次の空白ページの境界・番号が見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-pages--n-m33": {
+    "page": "notebooks/pages",
+    "master": "N-M33",
+    "session": "CAP-31",
+    "shot_ids": [
+      "N25-01",
+      "N26-03"
+    ],
+    "purpose": "ページ一覧の静止状態",
+    "state": "3ページ以上の教材サムネイル・ページ番号・選択中ページを表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-pages--n-m34": {
+    "page": "notebooks/pages",
+    "master": "N-M34",
+    "session": "CAP-31",
+    "shot_ids": [
+      "N26-02"
+    ],
+    "purpose": "ページサムネイルの並べ替え途中",
+    "state": "サムネイルが持ち上がり、挿入先が見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-pages--n-m35": {
+    "page": "notebooks/pages",
+    "master": "N-M35",
+    "session": "CAP-31",
+    "shot_ids": [
+      "N27-01"
+    ],
+    "purpose": "ページの削除メニュー",
+    "state": "サムネイル長押し後、削除項目が見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-pages--n-m36": {
+    "page": "notebooks/pages",
+    "master": "N-M36",
+    "session": "CAP-31",
+    "shot_ids": [
+      "N27-02"
+    ],
+    "purpose": "ページ削除の確認",
+    "state": "元に戻せない削除の確認文と操作ボタンを表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-vertical--n-m19": {
+    "page": "notebooks/vertical",
+    "master": "N-M19",
+    "session": "CAP-01",
+    "shot_ids": [
+      "M14-01",
+      "N23-01"
+    ],
+    "purpose": "縦ノート教科の作成フォーム",
+    "state": "縦罫を選び、「縦ノート（見開き表示）として使う」がON。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-vertical--n-m31": {
+    "page": "notebooks/vertical",
+    "master": "N-M31",
+    "session": "CAP-31",
+    "shot_ids": [
+      "N21-01",
+      "N22-02",
+      "N23-02"
+    ],
+    "purpose": "通常ノートのページ境界",
+    "state": "末尾側に筆記済みページと次の空白ページの境界・番号が見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-vertical--m-m14": {
+    "page": "notebooks/vertical",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "notebooks-vertical--m-m18": {
+    "page": "notebooks/vertical",
+    "master": "M-M18",
+    "session": "CAP-33",
+    "shot_ids": [
+      "M14-03",
+      "N23-03",
+      "N65-02"
+    ],
+    "purpose": "縦ノートに大きなPDFと手書き注釈",
+    "state": "縦ノートに教材PDFがフィットし、資料上に注釈。ページ四辺と縦横比由来の余白が見える",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-pens--n-m37": {
+    "page": "writing/pens",
+    "master": "N-M37",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N28-01",
+      "N29-01",
+      "N30-01",
+      "N31-01"
+    ],
+    "purpose": "ペンの詳細パネル",
+    "state": "3線種、固定色、カスタム色、太さを表示。カスタム色枠が選択された状態。",
+    "role": "step",
+    "status": "legacy-approved",
+    "release_status": "capture-published-3.5",
+    "mode": "crop",
+    "src": "images/guides/uni-note/common/writing-tools.png",
+    "alt": "ペン・蛍光ペン・消しゴム・付箋マーカーのパレット",
+    "caption": "道具を選ぶパレット。配置はカスタマイズできます。",
+    "source_sha256": "bbf99dd18878c9e5ae1f9c8fade516de08b1ad9ea704ffd6752f0197b990e789"
+  },
+  "writing-pens--n-m39": {
+    "page": "writing/pens",
+    "master": "N-M39",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N31-02",
+      "N33-02"
+    ],
+    "purpose": "システムの色選択画面",
+    "state": "カスタム色を開いた標準カラーピッカー。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-pens--n-m40": {
+    "page": "writing/pens",
+    "master": "N-M40",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N32-01",
+      "N33-01"
+    ],
+    "purpose": "蛍光ペンの詳細パネル",
+    "state": "蛍光ペンの色・太さ・濃さスライダーが見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-pens--m-m14": {
+    "page": "writing/pens",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-erasing--n-m41": {
+    "page": "writing/erasing",
+    "master": "N-M41",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N34-01",
+      "N35-01",
+      "N36-01"
+    ],
+    "purpose": "消しゴムの詳細パネル",
+    "state": "線消し選択中で、ピクセルとページをクリアも見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-erasing--n-m42": {
+    "page": "writing/erasing",
+    "master": "N-M42",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N34-02",
+      "N35-02"
+    ],
+    "purpose": "線消しと部分消去の結果比較",
+    "state": "同様に描いた3つの線を用意し、原形・線全体消去後・一部分消去後を同一ページに残す。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-erasing--n-m43": {
+    "page": "writing/erasing",
+    "master": "N-M43",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N36-02"
+    ],
+    "purpose": "手書きだけを削除する確認",
+    "state": "「ページをクリア」後の確認文を表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-erasing--n-m44": {
+    "page": "writing/erasing",
+    "master": "N-M44",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N36-03"
+    ],
+    "purpose": "手書きクリア後に残る素材",
+    "state": "M-M14と同じ対象ページで、手書きのみをクリアした実結果。資料と暗記マーカーは残る。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-palette--n-m45": {
+    "page": "writing/palette",
+    "master": "N-M45",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N39-02",
+      "S06-02"
+    ],
+    "purpose": "移動したパレット",
+    "state": "通常ノートでパレットを左側へ移した実状態。基本全景M-M14の右側配置とは別原本。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-palette--n-m47": {
+    "page": "writing/palette",
+    "master": "N-M47",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N40-02",
+      "S10-03"
+    ],
+    "purpose": "収納中のパレット",
+    "state": "自動収納が働き、小さなツールアイコンだけが見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-palette--m-m14": {
+    "page": "writing/palette",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-ruler--n-m49": {
+    "page": "writing/ruler",
+    "master": "N-M49",
+    "session": "CAP-35",
+    "shot_ids": [
+      "M50-01",
+      "N41-01",
+      "N42-01",
+      "N42-02",
+      "N43-01"
+    ],
+    "purpose": "定規の位置と角度",
+    "state": "蛍光ペンを選択し、定規が45度の実状態。定規の辺と角度表示が読める。付箋への定規補正は含めない。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-ruler--m-m14": {
+    "page": "writing/ruler",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-move--n-m50": {
+    "page": "writing/move",
+    "master": "N-M50",
+    "session": "CAP-35",
+    "shot_ids": [
+      "N44-02",
+      "N44-03",
+      "N45-01",
+      "N60-02"
+    ],
+    "purpose": "手書き範囲の選択状態",
+    "state": "M-M14の余白にある注釈をPencilで囲み、選択した筆跡が浮いている。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-move--n-m51": {
+    "page": "writing/move",
+    "master": "N-M51",
+    "session": "CAP-35",
+    "shot_ids": [
+      "N44-04",
+      "N60-03"
+    ],
+    "purpose": "手書きの配置を整えた 完成",
+    "state": "余白の注釈を移し、直線・資料との位置関係が整った状態。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "writing-move--m-m14": {
+    "page": "writing/move",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-photos--m-m02": {
+    "page": "materials/photos",
+    "master": "M-M02",
+    "session": "CAP-09",
+    "shot_ids": [
+      "M02-01"
+    ],
+    "purpose": "書類写真の取得元メニュー",
+    "state": "「カメラで撮影」「写真から選択」の2経路",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-photos--m-m03": {
+    "page": "materials/photos",
+    "master": "M-M03",
+    "session": "CAP-09",
+    "shot_ids": [
+      "M02-03",
+      "M03-01"
+    ],
+    "purpose": "書類写真の四隅補正",
+    "state": "自作プリントを斜めに写した写真。4ハンドルと「適用」が見える",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-photos--m-m19": {
+    "page": "materials/photos",
+    "master": "M-M19",
+    "session": "CAP-33",
+    "shot_ids": [
+      "M01-03",
+      "M15-01"
+    ],
+    "purpose": "縦ノートへ普通の写真を貼った初期状態",
+    "state": "書類写真ではなく通常の写真貼付。初期サイズ、未拡大",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-photos--r-m05": {
+    "page": "materials/photos",
+    "master": "R-M05",
+    "session": "CAP-24",
+    "shot_ids": [
+      "M01-01",
+      "Q01-01"
+    ],
+    "purpose": "その他メニュー",
+    "state": "写真・書類写真・PDF貼付・PDF出力・問題集生成の実メニューを表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-pdf--m-m06": {
+    "page": "materials/pdf",
+    "master": "M-M06",
+    "session": "CAP-10",
+    "shot_ids": [
+      "M04-02"
+    ],
+    "purpose": "PDF 1ページ選択",
+    "state": "4ページのうち1ページだけ選択。ページ番号・選択状態・貼付操作",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-pdf--m-m07": {
+    "page": "materials/pdf",
+    "master": "M-M07",
+    "session": "CAP-10",
+    "shot_ids": [
+      "M05-01"
+    ],
+    "purpose": "PDF複数ページの選択",
+    "state": "通常4ページのうち1・3ページを選択。全選択UIも見える",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-pdf--m-m08": {
+    "page": "materials/pdf",
+    "master": "M-M08",
+    "session": "CAP-10",
+    "shot_ids": [
+      "M06-01",
+      "M06-02"
+    ],
+    "purpose": "見開きPDF分割ON",
+    "state": "見開き2ページPDFを選択し「見開きを分割」ON。左右の紙面がサムネイルで見える",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-pdf--m-m09": {
+    "page": "materials/pdf",
+    "master": "M-M09",
+    "session": "CAP-25",
+    "shot_ids": [
+      "M06-03"
+    ],
+    "purpose": "分割PDFの左半分・注釈後",
+    "state": "ノート本文に分割後の左半分（元教材p1、識別A）が見え、短い実注釈がある。ページ一覧の代替サムネイルでは撮らない。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-pdf--m-m10": {
+    "page": "materials/pdf",
+    "master": "M-M10",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M04-03",
+      "M07-01",
+      "M57-01",
+      "O06-03"
+    ],
+    "purpose": "通常ノートのPDF初期配置",
+    "state": "PDF初期貼付後で固定。文字を書いていない通常ノート",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-pdf--m-m09r": {
+    "page": "materials/pdf",
+    "master": "M-M09R",
+    "session": "CAP-25",
+    "shot_ids": [
+      "M06-03"
+    ],
+    "purpose": "分割PDFの右半分・注釈後",
+    "state": "同じ分割取込みで次にできた右半分（元教材p2、識別B）。左半分と異なる実ノートページ。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-arrange--m-m10": {
+    "page": "materials/arrange",
+    "master": "M-M10",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M04-03",
+      "M07-01",
+      "M57-01",
+      "O06-03"
+    ],
+    "purpose": "通常ノートのPDF初期配置",
+    "state": "PDF初期貼付後で固定。文字を書いていない通常ノート",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-arrange--m-m11": {
+    "page": "materials/arrange",
+    "master": "M-M11",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M07-02",
+      "M08-01",
+      "M09-01",
+      "M10-01"
+    ],
+    "purpose": "PDF固定解除・選択中",
+    "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-arrange--m-m12": {
+    "page": "materials/arrange",
+    "master": "M-M12",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M08-02"
+    ],
+    "purpose": "PDFを移動した結果",
+    "state": "M-M11から資料位置だけを変更。サイズ・倍率・紙面罫線は同じ",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-arrange--m-m13": {
+    "page": "materials/arrange",
+    "master": "M-M13",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M09-02"
+    ],
+    "purpose": "PDFサイズを変更した結果",
+    "state": "M-M12と同じ位置基準で資料自身を縮小。ページ全体の倍率は変えない",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-arrange--m-m14": {
+    "page": "materials/arrange",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-arrange--m-m15": {
+    "page": "materials/arrange",
+    "master": "M-M15",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M12-01"
+    ],
+    "purpose": "素材の削除操作",
+    "state": "固定を解除した資料を長押しし削除操作が出ている",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-vertical--n-m19": {
+    "page": "materials/vertical",
+    "master": "N-M19",
+    "session": "CAP-01",
+    "shot_ids": [
+      "M14-01",
+      "N23-01"
+    ],
+    "purpose": "縦ノート教科の作成フォーム",
+    "state": "縦罫を選び、「縦ノート（見開き表示）として使う」がON。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-vertical--m-m14": {
+    "page": "materials/vertical",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-vertical--m-m18": {
+    "page": "materials/vertical",
+    "master": "M-M18",
+    "session": "CAP-33",
+    "shot_ids": [
+      "M14-03",
+      "N23-03",
+      "N65-02"
+    ],
+    "purpose": "縦ノートに大きなPDFと手書き注釈",
+    "state": "縦ノートに教材PDFがフィットし、資料上に注釈。ページ四辺と縦横比由来の余白が見える",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-vertical--m-m19": {
+    "page": "materials/vertical",
+    "master": "M-M19",
+    "session": "CAP-33",
+    "shot_ids": [
+      "M01-03",
+      "M15-01"
+    ],
+    "purpose": "縦ノートへ普通の写真を貼った初期状態",
+    "state": "書類写真ではなく通常の写真貼付。初期サイズ、未拡大",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-vertical--m-m20": {
+    "page": "materials/vertical",
+    "master": "M-M20",
+    "session": "CAP-33",
+    "shot_ids": [
+      "M15-02"
+    ],
+    "purpose": "縦ノートで普通の写真を拡大した選択状態",
+    "state": "M-M19の写真自身が大きくなり、選択枠がある。画面倍率は同じ",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "materials-export--m-m21": {
+    "page": "materials/export",
+    "master": "M-M21",
+    "session": "CAP-11",
+    "shot_ids": [
+      "M17-01",
+      "M18-01"
+    ],
+    "purpose": "PDF出力範囲の選択",
+    "state": "「このノートのみ」が選択され、全体の選択肢と対象名も確認できる",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-capture--m-m23": {
+    "page": "recording/capture",
+    "master": "M-M23",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M20-01",
+      "M32-02"
+    ],
+    "purpose": "録音開始前パネル",
+    "state": "日本語を選択した待機中。赤い開始ボタン・言語表示",
+    "role": "step",
+    "status": "legacy-approved",
+    "release_status": "capture-published-3.5",
+    "mode": "crop",
+    "src": "images/guides/uni-note/common/record-button.png",
+    "alt": "文字起こし言語と赤い録音開始ボタン",
+    "caption": "画面例の文字起こし言語は英語です。",
+    "source_sha256": "105f8ee9f3a4ce05b145cfb5fcf50e28aa191abd23859e6c59db8ce6852696b5"
+  },
+  "recording-capture--m-m24": {
+    "page": "recording/capture",
+    "master": "M-M24",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M20-03",
+      "M21-02",
+      "M22-01",
+      "M33-03"
+    ],
+    "purpose": "録音中・文字起こし中パネル",
+    "state": "経過時間・一時停止・停止と時刻付き文字起こし。保存前",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-capture--m-m25": {
+    "page": "recording/capture",
+    "master": "M-M25",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M21-01"
+    ],
+    "purpose": "録音の一時停止",
+    "state": "再開ボタンと停止ボタンを併記する一時停止状態",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-capture--m-m26": {
+    "page": "recording/capture",
+    "master": "M-M26",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M22-02",
+      "M24-02",
+      "M25-01",
+      "M28-02",
+      "M29-01",
+      "M30-01"
+    ],
+    "purpose": "保存済み録音の展開行",
+    "state": "「第8回 前半」を展開。タイトル・時間・再生・共有・削除が読める",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-capture--m-m27": {
+    "page": "recording/capture",
+    "master": "M-M27",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M24-01"
+    ],
+    "purpose": "録音中に離れる際の確認",
+    "state": "キャンセル／保存して戻るの確認が表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-play--m-m26": {
+    "page": "recording/play",
+    "master": "M-M26",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M22-02",
+      "M24-02",
+      "M25-01",
+      "M28-02",
+      "M29-01",
+      "M30-01"
+    ],
+    "purpose": "保存済み録音の展開行",
+    "state": "「第8回 前半」を展開。タイトル・時間・再生・共有・削除が読める",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-play--m-m28": {
+    "page": "recording/play",
+    "master": "M-M28",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M25-02",
+      "M26-01",
+      "M27-01",
+      "M35-01",
+      "M36-01"
+    ],
+    "purpose": "保存録音の再生と文字起こし追従",
+    "state": "音声再生中。1.5x表示、スライダー、±15秒、対応文章の強調",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-transcribe--m-m23": {
+    "page": "recording/transcribe",
+    "master": "M-M23",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M20-01",
+      "M32-02"
+    ],
+    "purpose": "録音開始前パネル",
+    "state": "日本語を選択した待機中。赤い開始ボタン・言語表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-transcribe--m-m24": {
+    "page": "recording/transcribe",
+    "master": "M-M24",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M20-03",
+      "M21-02",
+      "M22-01",
+      "M33-03"
+    ],
+    "purpose": "録音中・文字起こし中パネル",
+    "state": "経過時間・一時停止・停止と時刻付き文字起こし。保存前",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-transcribe--m-m28": {
+    "page": "recording/transcribe",
+    "master": "M-M28",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M25-02",
+      "M26-01",
+      "M27-01",
+      "M35-01",
+      "M36-01"
+    ],
+    "purpose": "保存録音の再生と文字起こし追従",
+    "state": "音声再生中。1.5x表示、スライダー、±15秒、対応文章の強調",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-transcribe--m-m29": {
+    "page": "recording/transcribe",
+    "master": "M-M29",
+    "session": "CAP-12",
+    "shot_ids": [
+      "M32-01"
+    ],
+    "purpose": "文字起こし言語一覧",
+    "state": "認識する言語の選択肢・日本語の選択状態",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-transcribe--m-m30": {
+    "page": "recording/transcribe",
+    "master": "M-M30",
+    "session": "CAP-26",
+    "shot_ids": [
+      "M34-01"
+    ],
+    "purpose": "講義録音・文字起こしと手書きの全体像",
+    "state": "手書きメモ済みのノートと録音中文字起こしパネルが同時に見える",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-summary--m-m31": {
+    "page": "recording/summary",
+    "master": "M-M31",
+    "session": "CAP-13",
+    "shot_ids": [
+      "M37-01",
+      "M38-01",
+      "S43-03"
+    ],
+    "purpose": "AI要約の対象・用途・消費量確認",
+    "state": "前半・後半2録音が選択され、勉強用／打ち合わせ用と合計文字数・予想消費が見える",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-summary--m-m32": {
+    "page": "recording/summary",
+    "master": "M-M32",
+    "session": "CAP-13",
+    "shot_ids": [
+      "M37-02",
+      "M38-02",
+      "M41-01"
+    ],
+    "purpose": "生成されたAI要約結果",
+    "state": "要約タイトル・本文・「ノートに貼る」・共有が読める",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-summary--m-m33": {
+    "page": "recording/summary",
+    "master": "M-M33",
+    "session": "CAP-13",
+    "shot_ids": [
+      "M39-01"
+    ],
+    "purpose": "保存済み要約の再表示",
+    "state": "録音ペインのAI要約タブと保存済み本文。新規生成中ではない",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-summary--r-m01": {
+    "page": "recording/summary",
+    "master": "R-M01",
+    "session": "CAP-05",
+    "shot_ids": [
+      "A01-01",
+      "Q18-01",
+      "S43-01"
+    ],
+    "purpose": "学習支援の共通設定全体",
+    "state": "AI回答言語＝日本語、文字起こし言語＝日本語、AI要約既定形式＝勉強用、ホーム問題集表示ON。6行を縦向きで読める位置。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-paste--m-m32": {
+    "page": "recording/paste",
+    "master": "M-M32",
+    "session": "CAP-13",
+    "shot_ids": [
+      "M37-02",
+      "M38-02",
+      "M41-01"
+    ],
+    "purpose": "生成されたAI要約結果",
+    "state": "要約タイトル・本文・「ノートに貼る」・共有が読める",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "recording-paste--m-m35": {
+    "page": "recording/paste",
+    "master": "M-M35",
+    "session": "CAP-26",
+    "shot_ids": [
+      "M41-02",
+      "M41-03"
+    ],
+    "purpose": "AI要約をノートへ貼って復習した完成例",
+    "state": "現在ノートに貼った要約画像へ手書き追記と付箋マーカー",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-sticky--m-m38": {
+    "page": "study/sticky",
+    "master": "M-M38",
+    "session": "CAP-36",
+    "shot_ids": [
+      "M43-02",
+      "M45-01",
+      "M47-01",
+      "M62-02"
+    ],
+    "purpose": "PDF教材を付箋で隠した暗記の完成例",
+    "state": "固定PDF上でC/I/G/NXの定義または解答を付箋で隠す。PDFの本文と付箋が読める",
+    "role": "step",
+    "status": "legacy-approved",
+    "release_status": "capture-published-3.5",
+    "mode": "crop",
+    "src": "images/guides/uni-note/common/sticky-marker.png",
+    "alt": "手書きの答えを隠した付箋マーカー",
+    "caption": "手書きの答えを隠した例。PDFや写真の上でも使えます。",
+    "source_sha256": "c12a20b4ecc5cf91e40c7c41c27a41d3e4dcb726e9697af97580bbf1c6ea4a48"
+  },
+  "study-sticky--n-m56": {
+    "page": "study/sticky",
+    "master": "N-M56",
+    "session": "CAP-38",
+    "shot_ids": [
+      "M42-01",
+      "N49-01",
+      "N50-01"
+    ],
+    "purpose": "3.5.0パレット配置設定",
+    "state": "パレットの順序と利用できるツール欄が見える。付箋マーカーは一旦非表示状態。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-sticky--m-m37": {
+    "page": "study/sticky",
+    "master": "M-M37",
+    "session": "CAP-36",
+    "shot_ids": [
+      "M42-02",
+      "M43-01",
+      "M44-01"
+    ],
+    "purpose": "付箋マーカーの設定パネル",
+    "state": "付箋を選択し、色チップ・3段階の太さ・選択アイコンを表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-sticky--m-m39": {
+    "page": "study/sticky",
+    "master": "M-M39",
+    "session": "CAP-36",
+    "shot_ids": [
+      "M45-02",
+      "M47-02"
+    ],
+    "purpose": "付箋の一部を透過して答え合わせ",
+    "state": "M-M38と同じ紙面で1か所だけ透過。他の付箋は不透明",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-sticky--m-m40": {
+    "page": "study/sticky",
+    "master": "M-M40",
+    "session": "CAP-36",
+    "shot_ids": [
+      "M46-01"
+    ],
+    "purpose": "付箋の削除ボタン",
+    "state": "対象付箋を指長押しした削除UI",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-pomodoro--m-m42": {
+    "page": "study/pomodoro",
+    "master": "M-M42",
+    "session": "CAP-27",
+    "shot_ids": [
+      "M52-01"
+    ],
+    "purpose": "ポモドーロ開始前の設定",
+    "state": "集中・休憩・セット数を設定したpopover。開始前",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-pomodoro--m-m43": {
+    "page": "study/pomodoro",
+    "master": "M-M43",
+    "session": "CAP-27",
+    "shot_ids": [
+      "M52-03",
+      "M55-03"
+    ],
+    "purpose": "ポモドーロを使いながら筆記した完成例",
+    "state": "教材ノートに手書きメモがあり、上部で集中状態・残り時間が表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-pomodoro--m-m44": {
+    "page": "study/pomodoro",
+    "master": "M-M44",
+    "session": "CAP-27",
+    "shot_ids": [
+      "M53-01"
+    ],
+    "purpose": "ポモドーロ実行中の停止操作",
+    "state": "実行中popoverの状態・現在セット・残り時間・停止",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-pomodoro--m-m46": {
+    "page": "study/pomodoro",
+    "master": "M-M46",
+    "session": "CAP-14",
+    "shot_ids": [
+      "M54-01"
+    ],
+    "purpose": "ポモドーロの既定時間設定",
+    "state": "設定→学習支援で集中時間・休憩時間・セット数",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-laser--m-m10": {
+    "page": "study/laser",
+    "master": "M-M10",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M04-03",
+      "M07-01",
+      "M57-01",
+      "O06-03"
+    ],
+    "purpose": "通常ノートのPDF初期配置",
+    "state": "PDF初期貼付後で固定。文字を書いていない通常ノート",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "study-laser--m-m48": {
+    "page": "study/laser",
+    "master": "M-M48",
+    "session": "CAP-39",
+    "shot_ids": [
+      "M57-02",
+      "M58-01"
+    ],
+    "purpose": "PDFをレーザーポインターで説明",
+    "state": "固定PDF上にPencil接触中の赤い点・軌跡と確定後レーザーON UI",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "ai-answer--r-m04": {
+    "page": "ai/answer",
+    "master": "R-M04",
+    "session": "CAP-23",
+    "shot_ids": [
+      "A03-02",
+      "A05-01",
+      "A06-01",
+      "A08-03"
+    ],
+    "purpose": "解答結果・説明・コピー共有",
+    "state": "DS-P p3の演習に対する実際のAI解答。原文と計算を照合済み",
+    "role": "step",
+    "status": "legacy-approved",
+    "release_status": "capture-published-3.5",
+    "mode": "crop",
+    "src": "images/guides/uni-note/ja/problem-answer.png",
+    "alt": "解答結果のコピーと共有ボタン",
+    "caption": "コピーは左、共有は右です。",
+    "source_sha256": "2bcbc0d57a527c31cc7d6f889a770fbb3db5b1ad18337000965fffcf308f5df4"
+  },
+  "ai-answer--r-m02": {
+    "page": "ai/answer",
+    "master": "R-M02",
+    "session": "CAP-37",
+    "shot_ids": [
+      "A02-01",
+      "A02-02",
+      "A08-02",
+      "A08-03"
+    ],
+    "purpose": "PDFの演習を囲んだ状態",
+    "state": "通常ノートのPDF p3。Y=70+15+20−5の条件全体を閉じた線で囲んだ状態",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "ai-answer--r-m03": {
+    "page": "ai/answer",
+    "master": "R-M03",
+    "session": "CAP-23",
+    "shot_ids": [
+      "A02-03",
+      "A03-01",
+      "A04-01",
+      "A07-02"
+    ],
+    "purpose": "囲って解答の範囲確認",
+    "state": "読み取る問題、予想消費量、解答する、キャンセルが読める確認画面",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "ai-settings--r-m01": {
+    "page": "ai/settings",
+    "master": "R-M01",
+    "session": "CAP-05",
+    "shot_ids": [
+      "A01-01",
+      "Q18-01",
+      "S43-01"
+    ],
+    "purpose": "学習支援の共通設定全体",
+    "state": "AI回答言語＝日本語、文字起こし言語＝日本語、AI要約既定形式＝勉強用、ホーム問題集表示ON。6行を縦向きで読める位置。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-generate--r-m05": {
+    "page": "problem-sets/generate",
+    "master": "R-M05",
+    "session": "CAP-24",
+    "shot_ids": [
+      "M01-01",
+      "Q01-01"
+    ],
+    "purpose": "その他メニュー",
+    "state": "写真・書類写真・PDF貼付・PDF出力・問題集生成の実メニューを表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-generate--r-m06": {
+    "page": "problem-sets/generate",
+    "master": "R-M06",
+    "session": "CAP-06",
+    "shot_ids": [
+      "Q01-02",
+      "Q02-03",
+      "Q03-01"
+    ],
+    "purpose": "問題集生成の実行確認",
+    "state": "第8回 マクロ経済のp1〜p3選択後。目安問題数・消費量・残量を表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-generate--r-m07": {
+    "page": "problem-sets/generate",
+    "master": "R-M07",
+    "session": "CAP-06",
+    "shot_ids": [
+      "Q02-02",
+      "Q17-01"
+    ],
+    "purpose": "問題集の対象ページ選択",
+    "state": "6ページ中p1,p2,p3のみ選択。p4〜p6は未選択",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-generate--r-m09": {
+    "page": "problem-sets/generate",
+    "master": "R-M09",
+    "session": "CAP-06",
+    "shot_ids": [
+      "Q05-01",
+      "Q06-01",
+      "Q06-02",
+      "Q17-02"
+    ],
+    "purpose": "AI問題の候補レビュー",
+    "state": "実生成候補の問題・答え・解説・出典/元ページ・採否操作が読める",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-generate--r-m10": {
+    "page": "problem-sets/generate",
+    "master": "R-M10",
+    "session": "CAP-06",
+    "shot_ids": [
+      "Q07-01"
+    ],
+    "purpose": "問題集の保存確認",
+    "state": "タイトル『第8回 GDPの復習』、実採用数、元ノート、保存操作",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-review--r-m11": {
+    "page": "problem-sets/review",
+    "master": "R-M11",
+    "session": "CAP-08",
+    "shot_ids": [
+      "Q08-01",
+      "Q11-01",
+      "Q11-03",
+      "Q18-03"
+    ],
+    "purpose": "ホームの問題集一覧",
+    "state": "AI由来『第8回 GDPの復習』と手動『第8回 用語チェック』の2カード、＋、切替",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-review--r-m13": {
+    "page": "problem-sets/review",
+    "master": "R-M13",
+    "session": "CAP-08",
+    "shot_ids": [
+      "Q08-03",
+      "Q09-01",
+      "Q10-01"
+    ],
+    "purpose": "答えを隠した復習カード",
+    "state": "GDP計算問題の答えを隠した初期状態。前へ/次へと問題番号",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-review--r-m14": {
+    "page": "problem-sets/review",
+    "master": "R-M14",
+    "session": "CAP-08",
+    "shot_ids": [
+      "Q09-02",
+      "Q12-03"
+    ],
+    "purpose": "手修正後の解答を表示した復習",
+    "state": "同じ問題の答えを開き、追記した解説を表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-edit--r-m11": {
+    "page": "problem-sets/edit",
+    "master": "R-M11",
+    "session": "CAP-08",
+    "shot_ids": [
+      "Q08-01",
+      "Q11-01",
+      "Q11-03",
+      "Q18-03"
+    ],
+    "purpose": "ホームの問題集一覧",
+    "state": "AI由来『第8回 GDPの復習』と手動『第8回 用語チェック』の2カード、＋、切替",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-edit--r-m14": {
+    "page": "problem-sets/edit",
+    "master": "R-M14",
+    "session": "CAP-08",
+    "shot_ids": [
+      "Q09-02",
+      "Q12-03"
+    ],
+    "purpose": "手修正後の解答を表示した復習",
+    "state": "同じ問題の答えを開き、追記した解説を表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-edit--r-m15": {
+    "page": "problem-sets/edit",
+    "master": "R-M15",
+    "session": "CAP-07",
+    "shot_ids": [
+      "Q11-02"
+    ],
+    "purpose": "手動問題集の入力",
+    "state": "第8回 用語チェックを新規作成。必須と任意欄を短い自作問題で入力",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-edit--r-m16": {
+    "page": "problem-sets/edit",
+    "master": "R-M16",
+    "session": "CAP-07",
+    "shot_ids": [
+      "Q12-01",
+      "Q16-01"
+    ],
+    "purpose": "問題集カード長押しメニュー",
+    "state": "GDPの復習カードを長押し。編集と削除を表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-edit--r-m17": {
+    "page": "problem-sets/edit",
+    "master": "R-M17",
+    "session": "CAP-07",
+    "shot_ids": [
+      "Q12-02",
+      "Q17-03"
+    ],
+    "purpose": "既存AI問題集の手修正",
+    "state": "既存問題の解説に『純輸出が負の場合は差し引く』を追記。保存前",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-edit--r-m18": {
+    "page": "problem-sets/edit",
+    "master": "R-M18",
+    "session": "CAP-07",
+    "shot_ids": [
+      "Q13-01",
+      "Q14-01"
+    ],
+    "purpose": "問題の追加と削除の編集下部",
+    "state": "2問以上の問題集。下部へスクロールし削除対象カードと追加操作を表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-home--r-m01": {
+    "page": "problem-sets/home",
+    "master": "R-M01",
+    "session": "CAP-05",
+    "shot_ids": [
+      "A01-01",
+      "Q18-01",
+      "S43-01"
+    ],
+    "purpose": "学習支援の共通設定全体",
+    "state": "AI回答言語＝日本語、文字起こし言語＝日本語、AI要約既定形式＝勉強用、ホーム問題集表示ON。6行を縦向きで読める位置。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-home--r-m11": {
+    "page": "problem-sets/home",
+    "master": "R-M11",
+    "session": "CAP-08",
+    "shot_ids": [
+      "Q08-01",
+      "Q11-01",
+      "Q11-03",
+      "Q18-03"
+    ],
+    "purpose": "ホームの問題集一覧",
+    "state": "AI由来『第8回 GDPの復習』と手動『第8回 用語チェック』の2カード、＋、切替",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "problem-sets-home--r-m20": {
+    "page": "problem-sets/home",
+    "master": "R-M20",
+    "session": "CAP-08",
+    "shot_ids": [
+      "Q18-02"
+    ],
+    "purpose": "問題集を非表示にしたホーム",
+    "state": "同じ教材データを保持したままホームの問題集表示をOFFにした結果",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-settings--n-m01": {
+    "page": "customize/settings",
+    "master": "N-M01",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N01-01",
+      "N02-03",
+      "N05-01",
+      "N06-01",
+      "N10-01",
+      "N13-02",
+      "N14-02",
+      "N69-02",
+      "S01-01"
+    ],
+    "purpose": "ホームの完成状態",
+    "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-settings--s-m01": {
+    "page": "customize/settings",
+    "master": "S-M01",
+    "session": "CAP-30",
+    "shot_ids": [
+      "P01-01",
+      "P02-03",
+      "P04-01",
+      "P07-02",
+      "S01-02",
+      "S38-01"
+    ],
+    "purpose": "3.5.0の設定トップ",
+    "state": "次版UIが確定した設定トップ。買い切りPremiumが確認済みのテスト状態。Plusなし。AI残量は実取得値。指描画OFF。カテゴリ・現在プラン・AI残量を読める位置。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-paper--n-m45": {
+    "page": "customize/paper",
+    "master": "N-M45",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N39-02",
+      "S06-02"
+    ],
+    "purpose": "移動したパレット",
+    "state": "通常ノートでパレットを左側へ移した実状態。基本全景M-M14の右側配置とは別原本。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-paper--m-m14": {
+    "page": "customize/paper",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-display--n-m47": {
+    "page": "customize/display",
+    "master": "N-M47",
+    "session": "CAP-34",
+    "shot_ids": [
+      "N40-02",
+      "S10-03"
+    ],
+    "purpose": "収納中のパレット",
+    "state": "自動収納が働き、小さなツールアイコンだけが見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-display--m-m14": {
+    "page": "customize/display",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-toolbar--n-m52": {
+    "page": "customize/toolbar",
+    "master": "N-M52",
+    "session": "CAP-38",
+    "shot_ids": [
+      "N46-02",
+      "N47-01",
+      "N48-02",
+      "N51-01",
+      "N66-02"
+    ],
+    "purpose": "3.5.0ナビゲーション配置の設定全体",
+    "state": "次版で確定した配置UIを表示。1つの補助機能をメニューへ移し、利用できるボタン欄も見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-toolbar--n-m53": {
+    "page": "customize/toolbar",
+    "master": "N-M53",
+    "session": "CAP-38",
+    "shot_ids": [
+      "N48-01",
+      "N66-01"
+    ],
+    "purpose": "3.5.0配置のタップ操作メニュー",
+    "state": "配置ボタンをタップして移動・非表示等の操作を表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-toolbar--n-m54": {
+    "page": "customize/toolbar",
+    "master": "N-M54",
+    "session": "CAP-38",
+    "shot_ids": [
+      "N46-03",
+      "N49-02",
+      "N50-02"
+    ],
+    "purpose": "3.5.0カスタマイズ後のノート",
+    "state": "ナビゲーションとパレットを並べ替え、付箋入口も表示した完成状態。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-toolbar--n-m55": {
+    "page": "customize/toolbar",
+    "master": "N-M55",
+    "session": "CAP-38",
+    "shot_ids": [
+      "N47-02"
+    ],
+    "purpose": "カスタマイズ後のその他メニュー",
+    "state": "メニューへ移した機能がノートのその他メニューに表示。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-toolbar--n-m56": {
+    "page": "customize/toolbar",
+    "master": "N-M56",
+    "session": "CAP-38",
+    "shot_ids": [
+      "M42-01",
+      "N49-01",
+      "N50-01"
+    ],
+    "purpose": "3.5.0パレット配置設定",
+    "state": "パレットの順序と利用できるツール欄が見える。付箋マーカーは一旦非表示状態。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "customize-toolbar--m-m14": {
+    "page": "customize/toolbar",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "data-protect--n-m06": {
+    "page": "data/protect",
+    "master": "N-M06",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N09-01",
+      "N57-01",
+      "S25-01"
+    ],
+    "purpose": "ノート行のスワイプメニュー",
+    "state": "「教材操作練習」ノートを左へスワイプし、名前編集・保護・削除が見える。未保護。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "data-protect--s-m14": {
+    "page": "data/protect",
+    "master": "S-M14",
+    "session": "CAP-20",
+    "shot_ids": [
+      "S25-02",
+      "S26-01"
+    ],
+    "purpose": "ノートの保護解除スワイプ",
+    "state": "同じ「教材操作練習」ノートを保護後、左へスワイプ。「解除」と鍵状態が見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "data-trash--s-m15": {
+    "page": "data/trash",
+    "master": "S-M15",
+    "session": "CAP-21",
+    "shot_ids": [
+      "N56-02",
+      "N57-02",
+      "S27-02",
+      "S28-01",
+      "S29-01",
+      "S30-01"
+    ],
+    "purpose": "ゴミ箱で教科・個別ノートを見分ける",
+    "state": "削除確認用教科（子＝削除確認用ノート）と、経済学から個別削除した教材操作練習が見えるゴミ箱。教科と個別ノートの復元/完全削除の対象を区別できる。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "data-trash--s-m16": {
+    "page": "data/trash",
+    "master": "S-M16",
+    "session": "CAP-21",
+    "shot_ids": [
+      "S30-02"
+    ],
+    "purpose": "完全削除の最終確認",
+    "state": "「削除確認用ノート」を対象にした完全削除確認ダイアログ。キャンセルと完全削除が見える。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "backup-save--s-m08": {
+    "page": "backup/save",
+    "master": "S-M08",
+    "session": "CAP-18",
+    "shot_ids": [
+      "S18-01",
+      "S19-01",
+      "S20-01",
+      "S21-01",
+      "S21-02",
+      "S23-01"
+    ],
+    "purpose": "バックアップ方式と録音対象の全体",
+    "state": "Premium買い切り。教材の録音を1件保存し、音声を含めるON。かんたんバックアップ更新済みで日時が表示されたバックアップ詳細。",
+    "role": "step",
+    "status": "legacy-approved",
+    "release_status": "capture-published-3.5",
+    "mode": "crop",
+    "src": "images/guides/uni-note/common/backup-file-actions.png",
+    "alt": "バックアップを書き出す・ファイルから復元の項目",
+    "caption": "保存は上の行、復元は下の行から行います。",
+    "source_sha256": "db52978b744b30f78013007c35ec56fca5bd50c8ade2bd384ce8817ce2c9d504"
+  },
+  "backup-save--s-m10": {
+    "page": "backup/save",
+    "master": "S-M10",
+    "session": "CAP-18",
+    "shot_ids": [
+      "S20-03"
+    ],
+    "purpose": "バックアップZIPの保存先",
+    "state": "iPadOSファイル保存画面。撮影用ローカルフォルダ「UniNoteガイド教材」、保存前。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "backup-restore--s-m08": {
+    "page": "backup/restore",
+    "master": "S-M08",
+    "session": "CAP-18",
+    "shot_ids": [
+      "S18-01",
+      "S19-01",
+      "S20-01",
+      "S21-01",
+      "S21-02",
+      "S23-01"
+    ],
+    "purpose": "バックアップ方式と録音対象の全体",
+    "state": "Premium買い切り。教材の録音を1件保存し、音声を含めるON。かんたんバックアップ更新済みで日時が表示されたバックアップ詳細。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "backup-restore--s-m11": {
+    "page": "backup/restore",
+    "master": "S-M11",
+    "session": "CAP-18",
+    "shot_ids": [
+      "S22-01"
+    ],
+    "purpose": "バックアップZIPを選んで復元",
+    "state": "ファイルから復元を選び、教材専用フォルダの作成済みZIPが見えるファイル選択画面。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "backup-restore--s-m12": {
+    "page": "backup/restore",
+    "master": "S-M12",
+    "session": "CAP-18",
+    "shot_ids": [
+      "S22-03",
+      "S23-02"
+    ],
+    "purpose": "復元完了と再起動案内",
+    "state": "ファイル復元が正常終了し、「復元が完了しました」案内が表示された状態。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "plans-usage--s-m01": {
+    "page": "plans/usage",
+    "master": "S-M01",
+    "session": "CAP-30",
+    "shot_ids": [
+      "P01-01",
+      "P02-03",
+      "P04-01",
+      "P07-02",
+      "S01-02",
+      "S38-01"
+    ],
+    "purpose": "3.5.0の設定トップ",
+    "state": "次版UIが確定した設定トップ。買い切りPremiumが確認済みのテスト状態。Plusなし。AI残量は実取得値。指描画OFF。カテゴリ・現在プラン・AI残量を読める位置。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "plans-usage--r-m21": {
+    "page": "plans/usage",
+    "master": "R-M21",
+    "session": "CAP-28",
+    "shot_ids": [
+      "P02-01"
+    ],
+    "purpose": "一般Premiumの購入対象確認",
+    "state": "公開/次版で提供が確認できた買い切りPremiumを選択。実価格・CTAを表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "exact-screen-hold",
+    "mode": "crop"
+  },
+  "plans-usage--r-m23": {
+    "page": "plans/usage",
+    "master": "R-M23",
+    "session": "CAP-28",
+    "shot_ids": [
+      "P05-01",
+      "P05-02"
+    ],
+    "purpose": "AI残量パックの選択",
+    "state": "実在する4パックと選択パック・価格・CTA。数値は実取得値",
+    "role": "step",
+    "status": "pending",
+    "release_status": "exact-screen-hold",
+    "mode": "crop"
+  },
+  "troubleshooting-help--s-m01": {
+    "page": "troubleshooting/help",
+    "master": "S-M01",
+    "session": "CAP-30",
+    "shot_ids": [
+      "P01-01",
+      "P02-03",
+      "P04-01",
+      "P07-02",
+      "S01-02",
+      "S38-01"
+    ],
+    "purpose": "3.5.0の設定トップ",
+    "state": "次版UIが確定した設定トップ。買い切りPremiumが確認済みのテスト状態。Plusなし。AI残量は実取得値。指描画OFF。カテゴリ・現在プラン・AI残量を読める位置。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "ipados-windows--r-m24": {
+    "page": "ipados/windows",
+    "master": "R-M24",
+    "session": "CAP-16",
+    "shot_ids": [
+      "O01-02"
+    ],
+    "purpose": "OSからUni:Noteの新規ウインドウを開く",
+    "state": "主撮影OSのアプリアイコン長押し等、実在する新規ウインドウ入口",
+    "role": "step",
+    "status": "pending",
+    "release_status": "exact-screen-hold",
+    "mode": "crop"
+  },
+  "ipados-windows--r-m25": {
+    "page": "ipados/windows",
+    "master": "R-M25",
+    "session": "CAP-29",
+    "shot_ids": [
+      "O01-03",
+      "O02-02"
+    ],
+    "purpose": "左資料・右別ノートの完成形",
+    "state": "左＝経済学・資料/第8回 配布資料、右＝経済学/第8回 マクロ経済。別ノートで右に実筆記",
+    "role": "step",
+    "status": "pending",
+    "release_status": "exact-screen-hold",
+    "mode": "crop"
+  },
+  "ipados-files--m-m10": {
+    "page": "ipados/files",
+    "master": "M-M10",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M04-03",
+      "M07-01",
+      "M57-01",
+      "O06-03"
+    ],
+    "purpose": "通常ノートのPDF初期配置",
+    "state": "PDF初期貼付後で固定。文字を書いていない通常ノート",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-vertical-annotate--m-m18": {
+    "page": "workflows/vertical-annotate",
+    "master": "M-M18",
+    "session": "CAP-33",
+    "shot_ids": [
+      "M14-03",
+      "N23-03",
+      "N65-02"
+    ],
+    "purpose": "縦ノートに大きなPDFと手書き注釈",
+    "state": "縦ノートに教材PDFがフィットし、資料上に注釈。ページ四辺と縦横比由来の余白が見える",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-vertical-annotate--n-m19": {
+    "page": "workflows/vertical-annotate",
+    "master": "N-M19",
+    "session": "CAP-01",
+    "shot_ids": [
+      "M14-01",
+      "N23-01"
+    ],
+    "purpose": "縦ノート教科の作成フォーム",
+    "state": "縦罫を選び、「縦ノート（見開き表示）として使う」がON。",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-vertical-annotate--m-m11": {
+    "page": "workflows/vertical-annotate",
+    "master": "M-M11",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M07-02",
+      "M08-01",
+      "M09-01",
+      "M10-01"
+    ],
+    "purpose": "PDF固定解除・選択中",
+    "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-vertical-annotate--m-m13": {
+    "page": "workflows/vertical-annotate",
+    "master": "M-M13",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M09-02"
+    ],
+    "purpose": "PDFサイズを変更した結果",
+    "state": "M-M12と同じ位置基準で資料自身を縮小。ページ全体の倍率は変えない",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-split-spread--m-m09": {
+    "page": "workflows/split-spread",
+    "master": "M-M09",
+    "session": "CAP-25",
+    "shot_ids": [
+      "M06-03"
+    ],
+    "purpose": "分割PDFの左半分・注釈後",
+    "state": "ノート本文に分割後の左半分（元教材p1、識別A）が見え、短い実注釈がある。ページ一覧の代替サムネイルでは撮らない。",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-split-spread--m-m09r": {
+    "page": "workflows/split-spread",
+    "master": "M-M09R",
+    "session": "CAP-25",
+    "shot_ids": [
+      "M06-03"
+    ],
+    "purpose": "分割PDFの右半分・注釈後",
+    "state": "同じ分割取込みで次にできた右半分（元教材p2、識別B）。左半分と異なる実ノートページ。",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-split-spread--m-m08": {
+    "page": "workflows/split-spread",
+    "master": "M-M08",
+    "session": "CAP-10",
+    "shot_ids": [
+      "M06-01",
+      "M06-02"
+    ],
+    "purpose": "見開きPDF分割ON",
+    "state": "見開き2ページPDFを選択し「見開きを分割」ON。左右の紙面がサムネイルで見える",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-material-margin--m-m14": {
+    "page": "workflows/material-margin",
+    "master": "M-M14",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M11-02",
+      "M14-02",
+      "M16-02",
+      "M50-02",
+      "M51-01",
+      "N01-03",
+      "N05-02",
+      "N28-02",
+      "N39-01",
+      "N40-03",
+      "N43-02",
+      "N44-01",
+      "N45-02",
+      "N48-03",
+      "N51-03",
+      "N60-01",
+      "N65-01",
+      "N69-01",
+      "N69-03",
+      "S08-02",
+      "S09-03",
+      "S10-02"
+    ],
+    "purpose": "資料の横に手書き余白を残した完成ノート",
+    "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-material-margin--m-m11": {
+    "page": "workflows/material-margin",
+    "master": "M-M11",
+    "session": "CAP-32",
+    "shot_ids": [
+      "M07-02",
+      "M08-01",
+      "M09-01",
+      "M10-01"
+    ],
+    "purpose": "PDF固定解除・選択中",
+    "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-sticky-material--m-m38": {
+    "page": "workflows/sticky-material",
+    "master": "M-M38",
+    "session": "CAP-36",
+    "shot_ids": [
+      "M43-02",
+      "M45-01",
+      "M47-01",
+      "M62-02"
+    ],
+    "purpose": "PDF教材を付箋で隠した暗記の完成例",
+    "state": "固定PDF上でC/I/G/NXの定義または解答を付箋で隠す。PDFの本文と付箋が読める",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-sticky-material--m-m37": {
+    "page": "workflows/sticky-material",
+    "master": "M-M37",
+    "session": "CAP-36",
+    "shot_ids": [
+      "M42-02",
+      "M43-01",
+      "M44-01"
+    ],
+    "purpose": "付箋マーカーの設定パネル",
+    "state": "付箋を選択し、色チップ・3段階の太さ・選択アイコンを表示",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-sticky-material--m-m39": {
+    "page": "workflows/sticky-material",
+    "master": "M-M39",
+    "session": "CAP-36",
+    "shot_ids": [
+      "M45-02",
+      "M47-02"
+    ],
+    "purpose": "付箋の一部を透過して答え合わせ",
+    "state": "M-M38と同じ紙面で1か所だけ透過。他の付箋は不透明",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-record-review--m-m30": {
+    "page": "workflows/record-review",
+    "master": "M-M30",
+    "session": "CAP-26",
+    "shot_ids": [
+      "M34-01"
+    ],
+    "purpose": "講義録音・文字起こしと手書きの全体像",
+    "state": "手書きメモ済みのノートと録音中文字起こしパネルが同時に見える",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-record-review--m-m32": {
+    "page": "workflows/record-review",
+    "master": "M-M32",
+    "session": "CAP-13",
+    "shot_ids": [
+      "M37-02",
+      "M38-02",
+      "M41-01"
+    ],
+    "purpose": "生成されたAI要約結果",
+    "state": "要約タイトル・本文・「ノートに貼る」・共有が読める",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-record-review--m-m31": {
+    "page": "workflows/record-review",
+    "master": "M-M31",
+    "session": "CAP-13",
+    "shot_ids": [
+      "M37-01",
+      "M38-01",
+      "S43-03"
+    ],
+    "purpose": "AI要約の対象・用途・消費量確認",
+    "state": "前半・後半2録音が選択され、勉強用／打ち合わせ用と合計文字数・予想消費が見える",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-summary-annotate--m-m35": {
+    "page": "workflows/summary-annotate",
+    "master": "M-M35",
+    "session": "CAP-26",
+    "shot_ids": [
+      "M41-02",
+      "M41-03"
+    ],
+    "purpose": "AI要約をノートへ貼って復習した完成例",
+    "state": "現在ノートに貼った要約画像へ手書き追記と付箋マーカー",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-quiz-review--r-m14": {
+    "page": "workflows/quiz-review",
+    "master": "R-M14",
+    "session": "CAP-08",
+    "shot_ids": [
+      "Q09-02",
+      "Q12-03"
+    ],
+    "purpose": "手修正後の解答を表示した復習",
+    "state": "同じ問題の答えを開き、追記した解説を表示",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-quiz-review--r-m09": {
+    "page": "workflows/quiz-review",
+    "master": "R-M09",
+    "session": "CAP-06",
+    "shot_ids": [
+      "Q05-01",
+      "Q06-01",
+      "Q06-02",
+      "Q17-02"
+    ],
+    "purpose": "AI問題の候補レビュー",
+    "state": "実生成候補の問題・答え・解説・出典/元ページ・採否操作が読める",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-quiz-review--r-m17": {
+    "page": "workflows/quiz-review",
+    "master": "R-M17",
+    "session": "CAP-07",
+    "shot_ids": [
+      "Q12-02",
+      "Q17-03"
+    ],
+    "purpose": "既存AI問題集の手修正",
+    "state": "既存問題の解説に『純輸出が負の場合は差し引く』を追記。保存前",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-focus--m-m43": {
+    "page": "workflows/focus",
+    "master": "M-M43",
+    "session": "CAP-27",
+    "shot_ids": [
+      "M52-03",
+      "M55-03"
+    ],
+    "purpose": "ポモドーロを使いながら筆記した完成例",
+    "state": "教材ノートに手書きメモがあり、上部で集中状態・残り時間が表示",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-focus--m-m42": {
+    "page": "workflows/focus",
+    "master": "M-M42",
+    "session": "CAP-27",
+    "shot_ids": [
+      "M52-01"
+    ],
+    "purpose": "ポモドーロ開始前の設定",
+    "state": "集中・休憩・セット数を設定したpopover。開始前",
+    "role": "step",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "crop"
+  },
+  "workflows-explain--m-m48": {
+    "page": "workflows/explain",
+    "master": "M-M48",
+    "session": "CAP-39",
+    "shot_ids": [
+      "M57-02",
+      "M58-01"
+    ],
+    "purpose": "PDFをレーザーポインターで説明",
+    "state": "固定PDF上にPencil接触中の赤い点・軌跡と確定後レーザーON UI",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "capture-published-3.5",
+    "mode": "tablet"
+  },
+  "workflows-two-notes--r-m25": {
+    "page": "workflows/two-notes",
+    "master": "R-M25",
+    "session": "CAP-29",
+    "shot_ids": [
+      "O01-03",
+      "O02-02"
+    ],
+    "purpose": "左資料・右別ノートの完成形",
+    "state": "左＝経済学・資料/第8回 配布資料、右＝経済学/第8回 マクロ経済。別ノートで右に実筆記",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "exact-screen-hold",
+    "mode": "tablet"
+  },
+  "workflows-two-notes--r-m24": {
+    "page": "workflows/two-notes",
+    "master": "R-M24",
+    "session": "CAP-16",
+    "shot_ids": [
+      "O01-02"
+    ],
+    "purpose": "OSからUni:Noteの新規ウインドウを開く",
+    "state": "主撮影OSのアプリアイコン長押し等、実在する新規ウインドウ入口",
+    "role": "step",
+    "status": "pending",
+    "release_status": "exact-screen-hold",
+    "mode": "crop"
+  },
+  "workflows-external-material--r-m27": {
+    "page": "workflows/external-material",
+    "master": "R-M27",
+    "session": "CAP-29",
+    "shot_ids": [
+      "O04-01",
+      "O04-02"
+    ],
+    "purpose": "外部資料とUni:Noteの完成形",
+    "state": "左の対応PDF閲覧アプリに自作PDF、右のUni:Noteに実筆記。アプリ名も区別可能",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "exact-screen-hold",
+    "mode": "tablet"
+  },
+  "workflows-external-material--r-m26": {
+    "page": "workflows/external-material",
+    "master": "R-M26",
+    "session": "CAP-16",
+    "shot_ids": [
+      "O02-01"
+    ],
+    "purpose": "OSの並列配置操作",
+    "state": "実OSのウインドウ配置選択。アプリUIはcrop対象外",
+    "role": "step",
+    "status": "pending",
+    "release_status": "exact-screen-hold",
+    "mode": "crop"
+  },
+  "workflows-pip--r-m28": {
+    "page": "workflows/pip",
+    "master": "R-M28",
+    "session": "CAP-29",
+    "shot_ids": [
+      "O05-02",
+      "O05-03"
+    ],
+    "purpose": "PiP動画と筆記の完成形",
+    "state": "自作講義動画のPiPを隅へ配置し、Uni:Noteの本文とパレットを隠さない",
+    "role": "hero",
+    "status": "pending",
+    "release_status": "exact-screen-hold",
+    "mode": "tablet"
+  },
+  "top--n-m02": {
+    "page": "top",
+    "master": "N-M02",
+    "session": "CAP-01",
+    "shot_ids": [
+      "N02-01"
+    ],
+    "purpose": "ホームの追加メニュー",
+    "state": "ホーム＋を開き、教科・フォルダの追加項目を表示。",
+    "role": "step",
+    "status": "legacy-approved",
+    "release_status": "capture-published-3.5",
+    "mode": "crop",
+    "src": "images/guides/uni-note/ja/create-menu.png",
+    "alt": "教科とフォルダの作成メニュー",
+    "caption": "ホームの＋から開く作成メニュー。",
+    "source_sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148"
+  }
+}

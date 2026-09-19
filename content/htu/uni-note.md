@@ -1,141 +1,164 @@
 ---
-version_context_date: "2026-09-07"
 title: "使い方 (Uni:Note)"
-lastmod: 2026-09-08
+description: "Uni:Note 3.5.0の公式ユーザーガイド。ノート作成、Apple Pencil、写真・PDF、録音、AI、問題集、バックアップ、便利な使い方を目的から探せます。"
+seo_title: "使い方 (Uni:Note) | Uni:Note 使い方"
+type: "uni-guide"
+url: "/htu/uni-note/"
+lastmod: "2026-09-19"
+guide_category: ""
+guide_kind: "top"
 ---
 
 ## はじめに
 
-Apple Pencilで書き始めるところから、PDF、復習、バックアップまでを実画面で案内します。画像は操作部分を抜き出しており、タップすると拡大できます。公開中の3.4.0の基本操作を中心にしています。
+一般公開版3.5.0の基本操作を案内します。初めてのノート作成から、資料・録音・AIを組み合わせた復習まで、目的に合わせて説明を選べます。
 
-対応端末はiPad、対応OSはiPadOS 17.0以降です。手書きにはApple Pencilを使います。録音の文字起こしには、対応するiPadOS 26以降の環境が必要です。
+対応端末はiPad、対応OSはiPadOS 17.0以降です。手書きにはApple Pencilを使います。文字起こしには対応するiPadOS 26以降の環境が必要です。
 
 ## 基本的な使い方
 
-{{< guide-anchor "1-ホームで教科とフォルダを整理する" "2-最初のノートを開く" >}}
+### 初めて使う
 
-### 教科と最初のノートを作る {#create}
+1. [画面とノートの仕組みを知る](/htu/uni-note/start/screens/)
+2. [最初の教科とノートを作る](/htu/uni-note/start/first-note/)
+3. [ペンを選んで書く](/htu/uni-note/writing/pens/)
+4. [バックアップを保存する](/htu/uni-note/backup/save/)
 
-1. ホーム右下の「＋」をタップし、「教科を追加」を選びます。
+{{< uni-guide-image slot="top--n-m02" >}}
 
-{{< guide-image src="images/guides/uni-note/ja/create-menu.png" alt="ホーム右下の＋から開く「教科を追加」と「フォルダを作成」のメニュー" mode="crop" caption="右下の＋をタップしたあとの作成メニュー。" >}}
+## やりたいことから探す
 
-2. 教科名、罫線、紙色、表紙カラーを選びます。
-3. 作成した教科を開き、最初のノート名を入力します。空欄なら今日の日付で始められます。
+- [ノートを探す・切り替える](/htu/uni-note/notebooks/manage/)
+- [PDFの必要なページを取り込む](/htu/uni-note/materials/pdf/)
+- [録音を文字で読み返す](/htu/uni-note/recording/transcribe/)
+- [問題集を自分で作る・直す](/htu/uni-note/problem-sets/edit/)
+- [使うボタンと道具を並べ替える](/htu/uni-note/customize/toolbar/)
+- [削除したノートを戻す](/htu/uni-note/data/trash/)
 
-教科をまとめたいときは、同じ「＋」からフォルダを作成します。教科をフォルダへドラッグして移動でき、フォルダを削除しても中の教科はホームに戻ります。教科の長押しから名前や紙の設定を編集できます。
+## 機能から探す
 
-{{< guide-anchor "3-apple-pencilで書く" "4-2本指でズームする" "5-ツールを切り替える" "9-定規-を使う" >}}
+{{< guide-anchor "1-ホームで教科とフォルダを整理する" "2-最初のノートを開く" "create" >}}
 
-## ペンを選んで書く {#write}
+### [はじめに](/htu/uni-note/start/)
 
-1. パレットのペン・蛍光ペン・消しゴムから使う道具を選びます。
-2. Apple Pencilで書き、指でスクロールします。2本指のピンチで拡大・縮小できます。
-3. 最後のページに書き始めると、次のページが自動で追加されます。
+初めて使うときは、画面の仕組みを確認してから最初のノートを作ります。
 
-{{< guide-image src="images/guides/uni-note/common/writing-tools.png" alt="Uni:Noteのペン・蛍光ペン・消しゴム・付箋マーカー・戻る・やり直しパレット" mode="crop" >}}
+[最初の教科とノートを作る](/htu/uni-note/start/first-note/)
 
-パレットはドラッグで移動できます。ノート上部の「定規」を出すと、指で位置・角度を調整し、近くをApple Pencilでなぞって直線を引けます。「範囲移動」は手書きの線を囲んで移す操作です。写真・PDF・付箋は個別に動かします。
+### [教科・フォルダ](/htu/uni-note/library/)
 
-縦ノートは横方向にページを送ります。ノートの向きは作成後に変更できません。
+教科を名前やフォルダで整理し、必要なノートを探します。
 
-{{< guide-anchor "6-ノート一覧-と-ページ一覧-を使う" >}}
+{{< guide-anchor "6-ノート一覧-と-ページ一覧-を使う" "find" >}}
 
-## ノートを切り替える・探す {#find}
+### [ノート・ページ](/htu/uni-note/notebooks/)
 
-ホームの「ノートタイトルを検索」にタイトルの一部を入力し、結果をタップします。検索対象はノートのタイトルです。手書き本文・PDF・教科名は検索しません。
+ノートを増やす・切り替える操作と、ページの移動・整理を扱います。
 
-{{< guide-image src="images/guides/uni-note/ja/home-search.png" alt="Uni:Noteホーム上部のノートタイトル検索欄" mode="crop" >}}
+[ノート一覧で切り替える](/htu/uni-note/notebooks/manage/) ／ [ページ一覧で移動する](/htu/uni-note/notebooks/pages/)
 
-ノート画面の「ノート一覧」から同じ教科の別ノートを開いたり、「新規ノート」を追加したりできます。ノート一覧を左へスワイプすると名前変更・保護・削除を選べます。「ページ一覧」はサムネイルをタップして移動し、長押しでページを削除します。
+{{< guide-anchor "3-apple-pencilで書く" "4-2本指でズームする" "5-ツールを切り替える" "9-定規-を使う" "write" >}}
 
-**3.5.0の公開前情報:** 教科カード内から「ノート一覧」を開く導線や、ノート画面のボタン配置・パレットのカスタマイズが追加されています。公開中の3.4.0では上記のノート画面から操作してください。
+### [手書き](/htu/uni-note/writing/)
 
-{{< guide-anchor "7-その他-メニューを使う" "8-写真とpdfを使う" >}}
+Apple Pencilで書く基本から、道具・線の整理・定規の使い方へ進めます。
 
-## 写真・PDFを入れる、書き出す {#pdf}
+[ペンを選んで書く](/htu/uni-note/writing/pens/) ／ [スクロール・ズーム](/htu/uni-note/notebooks/pages/) ／ [定規](/htu/uni-note/writing/ruler/)
 
-1. ノート画面右上の「その他」を開きます。
-2. 「写真貼付」「写真を書類として貼付」「PDF貼付」から素材を選びます。
-3. PDFは必要なページを選んで貼り付けます。見開き資料は「見開きを分割」を選べます。
+{{< guide-anchor "7-その他-メニューを使う" "8-写真とpdfを使う" "pdf" >}}
 
-{{< guide-image src="images/guides/uni-note/ja/attachment-menu.png" alt="Uni:Noteのその他メニューにある写真貼付・書類写真・PDF貼付・PDF出力" mode="crop" >}}
+### [写真・PDF](/htu/uni-note/materials/)
 
-貼り付けた写真・PDFは指で選択して移動・拡大縮小し、ダブルタップで固定・固定解除します。固定した資料の上にもApple Pencilで書き込めます。
+写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。
 
-{{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="講義PDFへApple Pencilで書き込んだUni:Noteの画面" mode="tablet" >}}
+[PDFを貼り付ける](/htu/uni-note/materials/pdf/) ／ [写真を貼り付ける](/htu/uni-note/materials/photos/)
 
-共有するときは「その他 → PDF出力」で、このノートまたは教科全体を選びます。背景色は設定で紙色・白を切り替えられます。
+写真・PDFは、固定を解除してから個別に動かします。[配置と固定の手順](/htu/uni-note/materials/arrange/)へ進めます。
 
-{{< guide-anchor "10-録音文字起こしai要約を使う" >}}
+{{< guide-anchor "10-録音文字起こしai要約を使う" "recording" >}}
 
-## 授業を録音する {#recording}
+### [録音・文字起こし](/htu/uni-note/recording/)
 
-1. ノート上部のマイクをタップして録音パネルを開きます。
-2. 赤い録音ボタンで開始し、必要なら一時停止・再開します。
-3. 停止して保存した録音を選ぶと、再生できます。
+授業の録音から再生、文字起こし、AI要約までを順に使えます。
 
-{{< guide-image src="images/guides/uni-note/common/record-button.png" alt="Uni:Note録音パネルの文字起こし言語と赤い録音開始ボタン" mode="crop" caption="画面例では文字起こし言語を英語にしています。" >}}
+[録音を始める](/htu/uni-note/recording/capture/) ／ [AI要約を作る](/htu/uni-note/recording/summary/)
 
-録音・再生・文字起こし閲覧はPremium機能です。1録音は最大30分で自動分割され、1ノートに5件まで保存できます。ホームへ戻る・スリープする前に停止して保存してください。
+{{< guide-anchor "11-暗記を使う" "review" >}}
 
-対応するiPadOS 26以降の環境では、録音中の文字起こしを表示できます。文字起こし言語は「設定 → 学習支援 → 録音サポート」で変更します。AI要約は文字起こしテキストから作り、AI残量を使用します。実行前に対象と予想消費量を確認してください。
+### [暗記・集中](/htu/uni-note/study/)
 
-{{< guide-anchor "11-暗記を使う" "12-囲って解答アシスタント-を使う" "13-問題集を作る" >}}
+答えを隠して復習し、勉強時間を区切り、資料を指し示します。
 
-## 付箋・問題集で復習する {#review}
+付箋マーカーはパレットから選びます。タップで表示を切り替え、長押しから削除できます。[詳しい使い方](/htu/uni-note/study/sticky/)を確認してください。
 
-「設定 → 学習支援」で暗記マーカーをオンにします。パレットの付箋マーカーを選び、Apple Pencilで隠したい部分をなぞります。付箋を指でタップすると、透過・不透明を切り替えられます。付箋を削除するときは、長押しして表示される削除ボタンをタップします。
+{{< guide-anchor "12-囲って解答アシスタント-を使う" >}}
 
-{{< guide-image src="images/guides/uni-note/common/sticky-marker.png" alt="Uni:Noteの講義ノート上で答えを隠している黄色い付箋マーカー" mode="crop" >}}
+### [AI](/htu/uni-note/ai/)
 
-「囲って解答アシスタント」は、設定でオンにしてからノート上部のボタンを選びます。問題をApple Pencilで囲み、範囲を確認して「解答する」をタップします。
+問題を囲って解答を確認します。録音からの要約や問題集生成へも進めます。
 
-結果を別のアプリへ渡すときは、解答結果の右上にあるコピー（左）または共有（右）のボタンをタップします。
+[囲って解答アシスタントを使う](/htu/uni-note/ai/answer/)
 
-{{< guide-image src="images/guides/uni-note/ja/problem-answer.png" alt="解答結果の右上にあるコピー（左）と共有（右）のボタン" mode="crop" >}}
+{{< guide-anchor "13-問題集を作る" >}}
 
-問題集を作るときは「その他 → 問題集を作る」でページを選択します。生成された候補を追加・破棄し、「問題集として保存」をタップします。ホームの「問題集」から復習できます。
+### [問題集](/htu/uni-note/problem-sets/)
 
-AIの解答・問題集生成にはAI残量が必要です。解答が正しいかは授業資料などと照らして確認してください。
+AIでの生成と手動作成を選び、内容を編集して復習します。
 
-**3.5.0の公開前情報:** 問題集の手動作成と保存後の編集、ホームの問題集切り替え表示設定が追加されています。公開中の3.4.0では上記の生成・保存・復習を利用できます。
+[AI問題集を作る](/htu/uni-note/problem-sets/generate/) ／ [手動で作成・編集する](/htu/uni-note/problem-sets/edit/)
 
-{{< guide-anchor "14-保護ゴミ箱" >}}
+### [カスタマイズ](/htu/uni-note/customize/)
 
-## 保護・削除・復元 {#protect}
+紙・左右の配置・表示・道具を、自分の使い方に合わせます。
 
-ノート一覧の「保護」は書き込みを防ぐための機能です。設定で保護解除時の生体認証を有効にできます。
+{{< guide-anchor "14-保護ゴミ箱" "protect" >}}
 
-削除した教科・ノートは、ホームのゴミ箱から対象を選んで復元します。フォルダの削除では中の教科は消えません。
+### [保護・データ管理](/htu/uni-note/data/)
 
-**補足:** ページと問題集の削除、ゴミ箱内での完全削除は元に戻せません。1ページだけのノートでページを削除すると、ページ自体ではなく内容が消去されます。
+書き込みの保護と、削除した教科・ノートの復元を扱います。
 
-ゴミ箱に移した教科・ノートは30日経過後の整理で完全に削除されます。必要なものは期限内に復元してください。
+[ノートを保護する](/htu/uni-note/data/protect/) ／ [ゴミ箱から復元する](/htu/uni-note/data/trash/)
 
+{{< guide-anchor "15-設定バックアップ" "backup" >}}
 
-{{< guide-anchor "15-設定バックアップ" >}}
+### [バックアップ](/htu/uni-note/backup/)
 
-## バックアップしておく {#backup}
+バックアップを保管し、必要なときにデータを復元します。
 
-1. ホームの歯車から「設定 → バックアップ」を開きます。
-2. Pocketで録音も聴く場合は、書き出す前に「録音音声もバックアップに含める」をオンにします。
-3. 「バックアップを書き出す」で保存先を選びます。
+[バックアップを保存する](/htu/uni-note/backup/save/) ／ [復元する](/htu/uni-note/backup/restore/)
 
-{{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Uni:Noteのバックアップ設定にある「バックアップを書き出す」と「ファイルから復元」" mode="crop" caption="「設定 → バックアップ」のファイル操作。保存するときは上の行、保存済みファイルを戻すときは下の行を選びます。" >}}
+### [プラン・AI残量](/htu/uni-note/plans/)
 
-「かんたんバックアップを更新」と「かんたんバックアップから復元」はPremium機能です。iCloudへのファイル保存・読み込みであり、ノートの自動同期ではありません。
+プランの対象機能とAI残量を分けて確認します。
 
-復元は「ファイルから復元」でバックアップを選びます。完了後はアプリの案内に従って閉じ、開き直してください。言語、左利き設定、教科の呼び方なども設定から変更できます。
+{{< guide-anchor "split-view--slide-over--2ペインで使う" "windows" >}}
 
-{{< guide-anchor "split-view--slide-over--2ペインで使う" >}}
+### [iPadOSとの組み合わせ](/htu/uni-note/ipados/)
 
-## iPadで2つのウインドウを使う {#windows}
+ウインドウ、ファイルアプリ、共有シートなどiPadOS標準機能と組み合わせます。
 
-iPadのウインドウ操作でUni:Noteと別のアプリを並べると、資料や動画を見ながら書けます。Uni:Noteを2つ開くこともできます。Dockからの操作や「Split View」「Slide Over」などの表示名は、iPadOSのバージョンと設定によって異なります。
+[ウインドウ操作を確認する](/htu/uni-note/ipados/windows/)
+
+## 便利な使い方
+
+[活用例をまとめて見る](/htu/uni-note/workflows/)
+
+- [縦ノートで資料を大きく表示して書き込む](/htu/uni-note/workflows/vertical-annotate/)
+- [見開きPDFを左右に分割して学習する](/htu/uni-note/workflows/split-spread/)
+- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)
+- [PDF・写真に付箋を付けて暗記する](/htu/uni-note/workflows/sticky-material/)
+- [録音・文字起こし・AI要約で授業を復習する](/htu/uni-note/workflows/record-review/)
+- [AI要約をノートへ貼って追記する](/htu/uni-note/workflows/summary-annotate/)
+- [AI問題集を手修正して復習する](/htu/uni-note/workflows/quiz-review/)
+- [ポモドーロを使いながら勉強する](/htu/uni-note/workflows/focus/)
+- [レーザーポインターで資料を説明する](/htu/uni-note/workflows/explain/)
+- [資料用と筆記用の2つのノートを並べる](/htu/uni-note/workflows/two-notes/)
+- [SafariやPDF閲覧アプリと並べて書く](/htu/uni-note/workflows/external-material/)
+- [動画を小さく表示しながら書く](/htu/uni-note/workflows/pip/)
 
 ## 困ったとき
 
+[設定・保存・問い合わせの確認手順](/htu/uni-note/troubleshooting/help/)から、状況に合う項目へ進めます。
 
 {{< document-help >}}
 

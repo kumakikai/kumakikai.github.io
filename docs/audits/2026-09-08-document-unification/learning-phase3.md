@@ -64,3 +64,10 @@ source段階で担当38文書の構造・日付・旧ID・画像と操作保持�
 ユーザーの明示指示「スクショクリックできなくていい」「カーソルを合わせると上下に少し動くアニメーションはそのまま」に従い、共通Guide／Watch Guide画像ラッパーを非リンク要素へ変更した。本文・操作手順・画像・alt・caption・srcset・寸法・各文書URLは変更していない。拡大画像ファイルの公開URLも保持する。
 
 変更前後の282 HTMLを独立照合し、全1,029画像要素の属性と本文文字列が一致、残る5,628リンクの属性・本文・順序も一致した。削除対象は5共通部品のスクショ画像リンク454件だけ。GuideのreviewedLinksは対象22ページの148画像リンクのみを除去し、この承認理由を追記する。元baselineと本文／sourceのhashは更新しない。画像333ファイルのURL集合・SHA256も一致した。比較証跡：`/tmp/screenshot-click-20260908-preservation.json`。
+# 2026-09-19追記：Uni:Note日本語Guide Phase 2
+
+ユーザーの明示依頼で、日本語 `/htu/uni-note/` だけをトップ・カテゴリ・目的別記事へ再構成した。公開版3.5.0 build 6を基準とし、適用済みP0 Hotfixを維持。ほかのGuide翻訳・FAQ・Privacy・Termsは未変更。
+
+後継の実装監査・本文レビューは [Phase 2限定レビュー](../../uni-note-guide-phase2/04-content-review.md)、[公開版との境界](../../uni-note-guide-phase2/03-release-boundary.md)、[操作カバレッジ](../../uni-note-guide-phase2/05-operation-coverage.md)。旧URLと25アンカーは維持。旧画像9素材のうち7点を意味の合う個別記事へ移し、元ファイルを削除・加工していない。未入手の画像スロットはHTML非表示。
+
+`reviewed-content.json` の更新対象は `/htu/uni-note/` のみ。画像位置・属性を前回のまま固定する条件だけは、今回の再構成指示に合わせて `docs/uni-note-guide-phase2/reviewed-output.json` の限定レビューへ引き継ぐ。元baselineと監査前snapshot、残り73文書の条件は維持する。

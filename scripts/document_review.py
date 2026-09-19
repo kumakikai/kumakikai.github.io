@@ -108,9 +108,23 @@ def check_article(route, row, doc, before):
         errors.append(issue(route, 'links', 'Rendered links differ from reviewed output'))
     if missing := sorted(set(before.get(route, {}).get('ids', [])) - set(doc.ids)):
         errors.append(issue(route, 'anchors', 'Pre-revision anchors disappeared: ' + repr(missing)))
-    # User requested structural editing, not replacing real operation pictures.
+    # The 2026-09-19 Japanese Uni:Note revision has its own exact image review.
+    # All other documents retain the original image-preservation contract.
     images = [n.attrs for n in body.descendants('img')]
-    if images != before.get(route, {}).get('images', []):
+    expected_images = before.get(route, {}).get('images', [])
+    if route == '/htu/uni-note/':
+        root = Path(__file__).resolve().parents[1]
+        try:
+            approved = json.loads((root / 'docs/uni-note-guide-phase2/reviewed-output.json').read_text())
+            if approved['route'] != route or approved['sourceSHA256'] != row['sourceSHA256']:
+                raise ValueError('Uni:Note review source binding mismatch')
+            for name, checksum in approved['dependencies'].items():
+                if digest((root / name).read_bytes()) != checksum:
+                    raise ValueError('Uni:Note reviewed dependency changed: ' + name)
+            expected_images = approved['topImages']
+        except (OSError, ValueError, KeyError, TypeError) as exc:
+            errors.append(issue(route, 'images', str(exc)))
+    if images != expected_images:
         errors.append(issue(route, 'images', 'Operation images, alternatives, or dimensions changed'))
     if route.endswith('/nocca/'):
         from nocca_legal_review import has_form_reference, APPROVED_FORM

@@ -1,0 +1,19 @@
+{{- $id := .Get "slot" -}}
+{{- $slot := index site.Data.uni_guide_images $id -}}
+{{- if not $slot -}}{{ errorf "Unknown Uni:Note image slot %q at %s" $id .Position }}{{- end -}}
+{{- /* Pending slots deliberately emit no markup, labels, IDs, or empty figures. */ -}}
+{{- if in (slice "approved" "legacy-approved") $slot.status -}}
+  {{- if not (and $slot.src $slot.alt) -}}{{ errorf "Approved image slot needs src and alt: %s" $id }}{{- end -}}
+  {{- with resources.Get $slot.src -}}
+    {{- $display := 560 -}}
+    {{- if eq $slot.mode "tablet" -}}{{ $display = 760 }}{{- end -}}
+    {{- $large := .Resize (printf "%dx webp q92" (int (math.Min .Width (mul $display 2)))) -}}
+    {{- $small := .Resize (printf "%dx webp q92" (int (math.Min .Width $display))) -}}
+<figure class="guide-figure guide-figure--{{ $slot.mode }}" style="--guide-image-width: {{ int (math.Min .Width $display) }}px" data-guide-image>
+  <div class="screenshot-frame"><img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w{{ if ne $small.Width $large.Width }}, {{ $large.RelPermalink }} {{ $large.Width }}w{{ end }}" sizes="(max-width: 600px) calc(100vw - 64px), {{ $display }}px" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $slot.alt }}" loading="lazy" decoding="async"></div>
+  {{ with $slot.caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+  {{- else -}}{{ errorf "Missing approved Uni:Note image %s" $slot.src }}{{- end -}}
+{{- else if ne $slot.status "pending" -}}
+  {{- errorf "Unknown Uni:Note image status for %s" $id -}}
+{{- end -}}
