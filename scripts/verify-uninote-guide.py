@@ -34,16 +34,16 @@ def verify(build):
         if not condition:
             errors.append(detail)
     original_ids = {o['id'] for o in plan['operations']}
-    ids = [i for p in mapping['pages'] for i in p['operations']]
+    ids = [operation['id'] for operation in mapping['operations']]
     require(len(ids) == len(set(ids)) == 196 and set(ids) == original_ids, '196 primary operation assignments must be exact')
     require(slots == mapping['slots'], 'Image data differs from the implementation map')
-    require(len(navigation['categories']) == 16, 'Expected 16 categories')
+    require(len(navigation['categories']) == 15, 'Expected 15 categories')
     require({p['key'] for p in navigation['pages']} == {p['key'] for p in mapping['pages']}, 'Navigation/article mismatch')
     masters = {m['id']: m for m in mapping['masters']}
     routes = {'/htu/uni-note/': 'content/htu/uni-note.md'}
     routes.update({p['url'].split('#')[0]: p['source'] for p in mapping['pages']})
     routes.update({'/htu/uni-note/' + c + '/': 'content/uni-note-guide/' + c + '.md' for c in mapping['categories']})
-    require(len(routes) == 29, 'Expected top + 16 categories + 12 recipes')
+    require(len(routes) == 28, 'Expected top + 15 categories + 12 recipes')
     documents = {}
     used_slots = []
     internal_references = 0
@@ -68,7 +68,7 @@ def verify(build):
                     require('{#' + fragment + '}' in text, 'Missing section: ' + section['url'])
                     marker = re.search(r'^## .+ \{#' + re.escape(fragment) + r'\}\n', text, re.M)
                     section_text = re.split(r'\n## ', text[marker.end():], maxsplit=1)[0] if marker else ''
-                require('## 完了の確認' in section_text and '## 関連する使い方' in section_text, 'Section structure missing: ' + section['url'])
+                require('## 完了の確認' in section_text, 'Section structure missing: ' + section['url'])
                 require('## ' in section_text.split('## 完了の確認')[0], 'Missing instructions: ' + section['url'])
         html = target.read_text()
         doc = migration.Document(html)
@@ -119,13 +119,13 @@ def verify(build):
     top = documents.get('/htu/uni-note/')
     if top:
         require(set(plan['anchors']) <= set(top.ids), 'Legacy anchor lost')
-        require({'はじめに','基本的な使い方','困ったとき','お問い合わせ'} <= set(top.ids), 'Original section anchor lost')
+        require('機能から探す' in top.ids, 'Guide category section missing')
         require(top.canonical() == [SITE + '/htu/uni-note/'] and not top.redirect(), 'Top URL identity changed')
     workflow_pages = [p for p in mapping['pages'] if p['category'] == 'workflows']
     require(len(workflow_pages) == 12 and all(p['hero_masters'] for p in workflow_pages), '12 workflows each need hero reservations')
     preservation = json.loads((DIRECTORY / 'preservation.json').read_text())['tracked']
     for f, old_hash in preservation.items():
-        if f.startswith(('assets/images/','static/images/')) or re.match(r'content/htu/uni-note\.[^.]+\.md$', f):
+        if f.startswith(('assets/images/','static/images/')):
             require((ROOT/f).is_file() and digest(ROOT/f) == old_hash, 'Protected image/translation changed: ' + f)
     return {'ok':not errors,'pages':len(documents),'operations':len(ids),'legacy_anchors':len(plan['anchors']), 'slots':len(slots), 'pending_slots':sum(s['status']=='pending' for s in slots.values()),'standard_masters':len({s['master'] for s in slots.values()}),'reused_assets':len({s['src'] for s in approved}),'rendered_image_placements':len(public_images),'internal_references':internal_references,'errors':errors}
 

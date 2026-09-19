@@ -40,9 +40,3 @@ operation_ids: ["O02"]
 ## 注意事項
 
 この例は資料用と筆記用を別ノートにします。同じノートの同時編集を前提にしません。
-
-## 関連する使い方
-
-- [iPadのウインドウ操作を使う](/htu/uni-note/ipados/#windows)
-- [ノートを書き込みから保護する](/htu/uni-note/data/#protect)
-- [ノートを開く・増やす・整理する](/htu/uni-note/notebooks/#manage)

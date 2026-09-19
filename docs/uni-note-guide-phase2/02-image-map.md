@@ -152,7 +152,6 @@ slotはソース上の掲載位置。原本数とは異なる。未入手画像�
 | [plans/usage](/htu/uni-note/plans/#usage) | plans-usage--s-m01 | S-M01 / CAP-30 | pending | 3.5.0の設定トップ |
 | [plans/usage](/htu/uni-note/plans/#usage) | plans-usage--r-m21 | R-M21 / CAP-28 | pending | 一般Premiumの購入対象確認 |
 | [plans/usage](/htu/uni-note/plans/#usage) | plans-usage--r-m23 | R-M23 / CAP-28 | pending | AI残量パックの選択 |
-| [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | troubleshooting-help--s-m01 | S-M01 / CAP-30 | pending | 3.5.0の設定トップ |
 | [ipados/windows](/htu/uni-note/ipados/#windows) | ipados-windows--r-m24 | R-M24 / CAP-16 | pending | OSからUni:Noteの新規ウインドウを開く |
 | [ipados/windows](/htu/uni-note/ipados/#windows) | ipados-windows--r-m25 | R-M25 / CAP-29 | pending | 左資料・右別ノートの完成形 |
 | [ipados/files](/htu/uni-note/ipados/#files) | ipados-files--m-m10 | M-M10 / CAP-32 | pending | 通常ノートのPDF初期配置 |
@@ -183,4 +182,3 @@ slotはソース上の掲載位置。原本数とは異なる。未入手画像�
 | [workflows/external-material](/htu/uni-note/workflows/external-material/) | workflows-external-material--r-m27 | R-M27 / CAP-29 | pending | 外部資料とUni:Noteの完成形 |
 | [workflows/external-material](/htu/uni-note/workflows/external-material/) | workflows-external-material--r-m26 | R-M26 / CAP-16 | pending | OSの並列配置操作 |
 | [workflows/pip](/htu/uni-note/workflows/pip/) | workflows-pip--r-m28 | R-M28 / CAP-29 | pending | PiP動画と筆記の完成形 |
-| [top](/htu/uni-note/) | top--n-m02 | N-M02 / CAP-01 | legacy-approved | ホームの追加メニュー |

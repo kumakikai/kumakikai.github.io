@@ -55,12 +55,6 @@ operation_ids: ["M01", "M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09", "
 
 ノート上に写真、または四隅を補正した書類写真が表示されます。
 
-### 関連する使い方 {#photos-関連する使い方}
-
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)
-- [縦ノートで資料の大きさを整える](/htu/uni-note/materials/#vertical)
-- [PDF・写真に付箋を付けて暗記する](/htu/uni-note/workflows/sticky-material/)
-
 ## PDFのページを選んで貼り付ける {#pdf}
 
 PDFから必要なページだけを選んでノートに貼り付けます。複数ページや見開きの資料も扱えます。
@@ -111,16 +105,6 @@ PDFの1ページが、ノートの2ページ分になります。[完成例と�
 ### 注意事項 {#pdf-注意事項}
 
 位置や大きさを変えるときは先に固定を解除します。元のPDFファイルそのものを編集する操作ではありません。
-
-### 関連する使い方 {#pdf-関連する使い方}
-
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)
-- [ノートをPDFにして保存・共有する](/htu/uni-note/materials/#export)
-- [見開きPDFを左右に分割して学習する](/htu/uni-note/workflows/split-spread/)
-
-### 便利な使い方 {#pdf-便利な使い方}
-
-- [見開きPDFを左右に分割して学習する](/htu/uni-note/workflows/split-spread/)
 
 ## 写真・PDFを動かして固定する {#arrange}
 
@@ -178,18 +162,6 @@ PDFと書類写真は貼り付け直後に固定されます。動かない場�
 
 写真・PDFの削除は手書きの取り消し操作では戻せません。
 
-### 関連する使い方 {#arrange-関連する使い方}
-
-- [手書きを囲んで移動する](/htu/uni-note/writing/#selection)
-- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)
-- [縦ノートで資料を大きく表示して書き込む](/htu/uni-note/workflows/vertical-annotate/)
-
-### 便利な使い方 {#arrange-便利な使い方}
-
-- [縦ノートで資料を大きく表示して書き込む](/htu/uni-note/workflows/vertical-annotate/)
-- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)
-- [PDF・写真に付箋を付けて暗記する](/htu/uni-note/workflows/sticky-material/)
-
 ## 縦ノートで資料の大きさを整える {#vertical}
 
 縦ノートでは、PDFや書類写真を大きく配置して読めます。普通の写真は貼り付け後に手動で大きさを整えます。
@@ -234,16 +206,6 @@ PDFと書類写真は貼り付け直後に固定されます。動かない場�
 
 PDF・書類写真の初期配置と、普通の写真の初期配置は同じではありません。
 
-### 関連する使い方 {#vertical-関連する使い方}
-
-- [縦ノートを作る](/htu/uni-note/notebooks/#vertical)
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)
-- [縦ノートで資料を大きく表示して書き込む](/htu/uni-note/workflows/vertical-annotate/)
-
-### 便利な使い方 {#vertical-便利な使い方}
-
-- [縦ノートで資料を大きく表示して書き込む](/htu/uni-note/workflows/vertical-annotate/)
-
 ## ノートをPDFにして保存・共有する {#export}
 
 ノート単体または教科全体をPDFにして、ファイル保存や共有に使えます。印刷用には白背景も選べます。
@@ -277,9 +239,3 @@ PDF・書類写真の初期配置と、普通の写真の初期配置は同じ�
 ### 注意事項 {#export-注意事項}
 
 PDF出力は閲覧・共有用です。Uni:Noteへ戻すためのバックアップとは異なります。
-
-### 関連する使い方 {#export-関連する使い方}
-
-- [ファイルアプリと共有シートを使う](/htu/uni-note/ipados/#files)
-- [バックアップを保存する](/htu/uni-note/backup/#save)
-- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)

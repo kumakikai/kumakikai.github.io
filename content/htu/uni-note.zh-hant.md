@@ -124,12 +124,3 @@ lastmod: 2026-09-08
 透過 iPad 視窗操作，將 Uni:Note 排在文件或影片旁邊，也可開啟兩個 Uni:Note 視窗。
 
 Dock 操作及 Split View、Slide Over 等名稱，依 iPadOS 版本與視窗設定而異。
-
-## 遇到問題時
-
-
-{{< document-help >}}
-
-## 聯絡我們
-
-{{< document-contact >}}

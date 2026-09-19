@@ -57,12 +57,6 @@ Apple Pencil。通信環境とAI残量。
 
 AIの出力が常に正しいとは限りません。図・条件の切れや読みにくさがある場合は範囲を見直してください。
 
-### 関連する使い方 {#answer-関連する使い方}
-
-- [PremiumとAI残量を確認する](/htu/uni-note/plans/#usage)
-- [文字起こし言語とAIの設定を確認する](/htu/uni-note/ai/#settings)
-- [ノートからAI問題集を作る](/htu/uni-note/problem-sets/#generate)
-
 ## 文字起こし言語とAIの設定を確認する {#settings}
 
 録音する音声の言語と、AIが返す文章の言語は別の役割です。文字起こしを始める前に、まず音声の言語を確認します。
@@ -92,9 +86,3 @@ AIの出力が常に正しいとは限りません。図・条件の切れや読
 ### 完了の確認 {#settings-完了の確認}
 
 文字起こしの設定とAIの出力を区別して確認できます。
-
-### 関連する使い方 {#settings-関連する使い方}
-
-- [録音を文字起こしする](/htu/uni-note/recording/#transcribe)
-- [文字起こしからAI要約を作る](/htu/uni-note/recording/#summary)
-- [困ったときの確認と問い合わせ](/htu/uni-note/troubleshooting/#help)

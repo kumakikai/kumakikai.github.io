@@ -38,8 +38,3 @@ operation_ids: []
 ## 完了の確認
 
 筆記をしながら集中・休憩を区切り、予定したセットを終えられます。
-
-## 関連する使い方
-
-- [ポモドーロで集中と休憩を区切る](/htu/uni-note/study/#pomodoro)
-- [保存した問題集で復習する](/htu/uni-note/problem-sets/#review)

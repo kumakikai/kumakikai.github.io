@@ -939,6 +939,9 @@ class Verification:
                     if resource.redirect():
                         continue
                     related = [n for n in resource.nodes if n.has_class("article-related")]
+                    if app_id == "uni-note" and section == "htu":
+                        self.require(not related, resource_route, "support_component", "Uni:Note guides use the parent support page and must not duplicate support resources")
+                        continue
                     self.require(len(related) == 1, resource_route, "support_component", "Product documents need one related-support area")
                     if len(related) == 1:
                         self.verify_support_resources(related[0], app, lang, resource_route, omitted=omitted)

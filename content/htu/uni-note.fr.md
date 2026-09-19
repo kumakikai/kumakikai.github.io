@@ -124,12 +124,3 @@ La mise à jour et la restauration de la sauvegarde rapide nécessitent Premium.
 Placez Uni:Note à côté d’un document ou d’une vidéo avec les commandes de fenêtres d’iPad. Vous pouvez aussi ouvrir deux fenêtres Uni:Note.
 
 Les gestes du Dock et les noms Split View ou Slide Over dépendent de la version d’iPadOS et des réglages de fenêtres.
-
-## En cas de difficulté
-
-
-{{< document-help >}}
-
-## Contact
-
-{{< document-contact >}}

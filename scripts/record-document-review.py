@@ -48,6 +48,8 @@ for route, source in sorted(scope.items()):
     reason += ' Common operator, terminology, headings, dates and official contact use the shared standard.'
     if 'htu' in route.strip('/').split('/'):
         reason += ' Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved.'
+    if app == 'uni-note' and 'htu' in route.strip('/').split('/'):
+        reason += ' Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed.'
     if app in {'nocca', 'giga-poke'}:
         reason += ' Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged.'
     if any(x.startswith('mailto:') for x in removed):

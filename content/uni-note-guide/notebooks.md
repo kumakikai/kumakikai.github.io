@@ -58,13 +58,6 @@ operation_ids: ["N06", "N07", "N08", "N09", "N11", "N57", "N21", "N22", "N25", "
 
 一覧から授業ごとのノートをすぐ開ける状態になります。
 
-### 関連する使い方 {#manage-関連する使い方}
-
-- [ノートをタイトルで探す](/htu/uni-note/library/#search)
-- [ノートを書き込みから保護する](/htu/uni-note/data/#protect)
-- [ゴミ箱から教科・ノートを復元する](/htu/uni-note/data/#trash)
-- [ページを送る・並べ替える・削除する](/htu/uni-note/notebooks/#pages)
-
 ## ページを送る・並べ替える・削除する {#pages}
 
 ページを送り、サムネイルから目的の位置へ移動できます。同じノート内のページを並べ替えることもできます。
@@ -112,16 +105,6 @@ operation_ids: ["N06", "N07", "N08", "N09", "N11", "N57", "N21", "N22", "N25", "
 
 ページ削除はゴミ箱から復元できません。1ページしかないノートでは、そのページの内容を消去します。必要なら先にバックアップしてください。
 
-### 関連する使い方 {#pages-関連する使い方}
-
-- [ノートを開く・増やす・整理する](/htu/uni-note/notebooks/#manage)
-- [縦ノートを作る](/htu/uni-note/notebooks/#vertical)
-- [バックアップを保存する](/htu/uni-note/backup/#save)
-
-### 便利な使い方 {#pages-便利な使い方}
-
-- [見開きPDFを左右に分割して学習する](/htu/uni-note/workflows/split-spread/)
-
 ## 縦ノートを作る {#vertical}
 
 縦長の資料を大きく置きたいときは、作成時に縦ノートを選びます。通常ノートとはページを送る方向も異なります。
@@ -154,13 +137,3 @@ operation_ids: ["N06", "N07", "N08", "N09", "N11", "N57", "N21", "N22", "N25", "
 ### 完了の確認 {#vertical-完了の確認}
 
 新しく作った縦ノートが開き、横方向へページを送れます。
-
-### 関連する使い方 {#vertical-関連する使い方}
-
-- [縦ノートで資料の大きさを整える](/htu/uni-note/materials/#vertical)
-- [縦ノートで資料を大きく表示して書き込む](/htu/uni-note/workflows/vertical-annotate/)
-- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)
-
-### 便利な使い方 {#vertical-便利な使い方}
-
-- [縦ノートで資料を大きく表示して書き込む](/htu/uni-note/workflows/vertical-annotate/)

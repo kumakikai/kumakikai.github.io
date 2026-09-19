@@ -36,9 +36,3 @@ operation_ids: ["O05"]
 ## 注意事項
 
 すべての動画やサービスがPiPに対応するわけではありません。小窓の再生機能は動画アプリとiPadOSが提供し、Uni:Note内の動画再生機能ではありません。
-
-## 関連する使い方
-
-- [iPadのウインドウ操作を使う](/htu/uni-note/ipados/#windows)
-- [SafariやPDF閲覧アプリと並べて書く](/htu/uni-note/workflows/external-material/)
-- [ペンと蛍光ペンを使う](/htu/uni-note/writing/#pen)

@@ -58,18 +58,6 @@ Apple Pencilで書く基本から、道具・線の整理・定規の使い方�
 
 線の種類や強調の濃さを使い分けて筆記できます。
 
-### 関連する使い方 {#pen-関連する使い方}
-
-- [消しゴム・取り消し・やり直し](/htu/uni-note/writing/#eraser)
-- [定規で直線を引く](/htu/uni-note/writing/#ruler)
-- [パレットを動かす・収納する](/htu/uni-note/writing/#palette)
-- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)
-
-### 便利な使い方 {#便利な使い方}
-
-- [AI要約をノートへ貼って追記する](/htu/uni-note/workflows/summary-annotate/)
-- [動画を小さく表示しながら書く](/htu/uni-note/workflows/pip/)
-
 ## 消しゴム・取り消し・やり直し {#eraser}
 
 線全体を消す方法と、触れた部分だけを消す方法を選べます。取り消し・やり直しとページ全体の消去は別の操作です。
@@ -113,12 +101,6 @@ Apple Pencil。ダブルタップは対応するApple Pencilで利用できま�
 
 目的に応じた範囲だけを消せます。全消去後も資料が残っていることを確認できます。
 
-### 関連する使い方 {#eraser-関連する使い方}
-
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)
-- [付箋マーカーで答えを隠す](/htu/uni-note/study/#sticky)
-- [ペンと蛍光ペンを使う](/htu/uni-note/writing/#pen)
-
 ## パレットを動かす・収納する {#palette}
 
 筆記する場所に合わせて道具のパレットを動かせます。紙面を広く使いたいときは収納します。
@@ -146,12 +128,6 @@ Apple Pencil。ダブルタップは対応するApple Pencilで利用できま�
 ### 完了の確認 {#palette-完了の確認}
 
 紙面の書きたい場所を空けたまま、必要な道具を再表示できます。
-
-### 関連する使い方 {#palette-関連する使い方}
-
-- [紙・左右の配置・ページ情報を設定する](/htu/uni-note/customize/#paper)
-- [ボタンとパレットの配置を変える](/htu/uni-note/customize/#toolbar)
-- [ペンと蛍光ペンを使う](/htu/uni-note/writing/#pen)
 
 ## 定規で直線を引く {#ruler}
 
@@ -184,11 +160,6 @@ Apple Pencil。
 
 画面上の定規を実物の長さの計測器としては使わないでください。
 
-### 関連する使い方 {#ruler-関連する使い方}
-
-- [ペンと蛍光ペンを使う](/htu/uni-note/writing/#pen)
-- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)
-
 ## 手書きを囲んで移動する {#selection}
 
 書いた文字や図を囲み、同じページ内で場所を整えます。資料と手書きの余白を調整するときに便利です。
@@ -220,8 +191,3 @@ Apple Pencil。
 ### 注意事項 {#selection-注意事項}
 
 範囲移動の対象は手書きの線です。写真・PDFは固定を解除して個別に動かします。この操作をコピーや拡大・縮小としては使いません。
-
-### 関連する使い方 {#selection-関連する使い方}
-
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)
-- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)

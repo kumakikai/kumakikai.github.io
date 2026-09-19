@@ -42,9 +42,3 @@ operation_ids: []
 ## 完了の確認
 
 左右それぞれが独立したノートページになり、読みたい側を大きく表示して学習できます。
-
-## 関連する使い方
-
-- [PDFのページを選んで貼り付ける](/htu/uni-note/materials/#pdf)
-- [ページを送る・並べ替える・削除する](/htu/uni-note/notebooks/#pages)
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)

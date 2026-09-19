@@ -64,10 +64,3 @@ Freeで使う基本の筆記・ノート整理と、Premium対象の録音・再
 ### 完了の確認 {#完了の確認}
 
 使いたい機能の条件とAI残量を確認し、購入後の反映を確かめられます。
-
-### 関連する使い方 {#関連する使い方}
-
-- [問題集を手動作成・編集する](/htu/uni-note/problem-sets/#edit)
-- [問題を囲って解答を確認する](/htu/uni-note/ai/#answer)
-- [文字起こしからAI要約を作る](/htu/uni-note/recording/#summary)
-- [困ったときの確認と問い合わせ](/htu/uni-note/troubleshooting/#help)

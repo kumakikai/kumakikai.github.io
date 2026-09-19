@@ -15,8 +15,7 @@
     "backup": "バックアップ",
     "plans": "プラン・AI残量",
     "workflows": "便利な使い方",
-    "ipados": "iPadOSとの組み合わせ",
-    "troubleshooting": "困ったとき"
+    "ipados": "iPadOSとの組み合わせ"
   },
   "pages": [
     {
@@ -1268,36 +1267,6 @@
       "previous_url": "/htu/uni-note/plans/usage/",
       "previous_source": "content/uni-note-guide/plans-usage.md",
       "anchor": "usage",
-      "kind": "section"
-    },
-    {
-      "key": "troubleshooting/help",
-      "category": "troubleshooting",
-      "title": "困ったときの確認と問い合わせ",
-      "url": "/htu/uni-note/troubleshooting/#help",
-      "source": "content/uni-note-guide/troubleshooting.md",
-      "operations": [
-        "S32",
-        "S33",
-        "S34",
-        "S35",
-        "S36",
-        "S37",
-        "S38",
-        "S40",
-        "S41"
-      ],
-      "supporting_operations": [],
-      "hero_masters": [],
-      "masters": [
-        "S-M01"
-      ],
-      "slot_masters": [
-        "S-M01"
-      ],
-      "previous_url": "/htu/uni-note/troubleshooting/help/",
-      "previous_source": "content/uni-note-guide/troubleshooting-help.md",
-      "anchor": "help",
       "kind": "section"
     },
     {
@@ -3928,8 +3897,8 @@
     {
       "id": "S32",
       "title": "使い方とプライバシーポリシーをアプリから開く",
-      "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/#help",
+      "page": "faq/uni-note",
+      "url": "/faq/uni-note/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:695-844",
@@ -3940,8 +3909,8 @@
     {
       "id": "S33",
       "title": "フォームで意見や質問を送る",
-      "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/#help",
+      "page": "faq/uni-note",
+      "url": "/faq/uni-note/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:733-740",
@@ -3952,8 +3921,8 @@
     {
       "id": "S34",
       "title": "メールで詳細な不具合を問い合わせる",
-      "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/#help",
+      "page": "faq/uni-note",
+      "url": "/faq/uni-note/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3842-3866",
@@ -3965,8 +3934,8 @@
     {
       "id": "S35",
       "title": "サポート情報をコピーする",
-      "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/#help",
+      "page": "faq/uni-note",
+      "url": "/faq/uni-note/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3992-4000",
@@ -3977,8 +3946,8 @@
     {
       "id": "S36",
       "title": "App Storeでレビューする",
-      "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/#help",
+      "page": "faq/uni-note",
+      "url": "/faq/uni-note/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3977-3989",
@@ -3989,8 +3958,8 @@
     {
       "id": "S37",
       "title": "Uni:Note Pocketの案内を開く・リンクを共有する",
-      "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/#help",
+      "page": "faq/uni-note",
+      "url": "/faq/uni-note/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:4011-4073"
@@ -4000,8 +3969,8 @@
     {
       "id": "S38",
       "title": "更新内容・既知の問題・今後の開発を確認する",
-      "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/#help",
+      "page": "faq/uni-note",
+      "url": "/faq/uni-note/#help",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_NEWS.md:5-32",
@@ -4013,8 +3982,8 @@
     {
       "id": "S40",
       "title": "新しいバージョンの案内からApp Storeを開く",
-      "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/#help",
+      "page": "faq/uni-note",
+      "url": "/faq/uni-note/#help",
       "status": "documented",
       "evidence": [
         "App/ReviewPromptController.swift:305-355",
@@ -4026,8 +3995,8 @@
     {
       "id": "S41",
       "title": "クラッシュ後にホームへ戻ったとき対応する",
-      "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/#help",
+      "page": "faq/uni-note",
+      "url": "/faq/uni-note/#help",
       "status": "documented",
       "evidence": [
         "ja.lproj/Localizable.strings:161",
@@ -11803,26 +11772,6 @@
       "mode": "crop",
       "url": "/htu/uni-note/plans/#usage"
     },
-    "troubleshooting-help--s-m01": {
-      "page": "troubleshooting/help",
-      "master": "S-M01",
-      "session": "CAP-30",
-      "shot_ids": [
-        "P01-01",
-        "P02-03",
-        "P04-01",
-        "P07-02",
-        "S01-02",
-        "S38-01"
-      ],
-      "purpose": "3.5.0の設定トップ",
-      "state": "次版UIが確定した設定トップ。買い切りPremiumが確認済みのテスト状態。Plusなし。AI残量は実取得値。指描画OFF。カテゴリ・現在プラン・AI残量を読める位置。",
-      "role": "step",
-      "status": "pending",
-      "release_status": "capture-published-3.5",
-      "mode": "crop",
-      "url": "/htu/uni-note/troubleshooting/#help"
-    },
     "ipados-windows--r-m24": {
       "page": "ipados/windows",
       "master": "R-M24",
@@ -12328,25 +12277,6 @@
       "release_status": "exact-screen-hold",
       "mode": "tablet",
       "url": "/htu/uni-note/workflows/pip/"
-    },
-    "top--n-m02": {
-      "page": "top",
-      "master": "N-M02",
-      "session": "CAP-01",
-      "shot_ids": [
-        "N02-01"
-      ],
-      "purpose": "ホームの追加メニュー",
-      "state": "ホーム＋を開き、教科・フォルダの追加項目を表示。",
-      "role": "step",
-      "status": "legacy-approved",
-      "release_status": "capture-published-3.5",
-      "mode": "crop",
-      "src": "images/guides/uni-note/ja/create-menu.png",
-      "alt": "教科とフォルダの作成メニュー",
-      "caption": "ホームの＋から開く作成メニュー。",
-      "source_sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148",
-      "url": "/htu/uni-note/"
     }
   },
   "information_architecture": "top-category-sections",
@@ -12935,6 +12865,13 @@
         "完了の確認": "files-完了の確認",
         "関連する使い方": "files-関連する使い方"
       }
+    }
+  ],
+  "retired_routes": [
+    {
+      "url": "/htu/uni-note/troubleshooting/",
+      "target": "/faq/uni-note/",
+      "reason": "FAQへの直接導線へ統合"
     }
   ]
 }

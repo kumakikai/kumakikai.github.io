@@ -65,16 +65,6 @@ AIでの生成と手動作成を選び、内容を編集して復習します。
 
 生成だけでは候補の選別は終わりません。解答の正しさを確認し、保存後も必要に応じて編集してください。
 
-### 関連する使い方 {#generate-関連する使い方}
-
-- [保存した問題集で復習する](/htu/uni-note/problem-sets/#review)
-- [問題集を手動作成・編集する](/htu/uni-note/problem-sets/#edit)
-- [AI問題集を手修正して復習する](/htu/uni-note/workflows/quiz-review/)
-
-### 便利な使い方 {#generate-便利な使い方}
-
-- [AI問題集を手修正して復習する](/htu/uni-note/workflows/quiz-review/)
-
 ## 保存した問題集で復習する {#review}
 
 保存した問題集をカード形式で開き、答えを隠した状態から復習できます。
@@ -108,15 +98,6 @@ AIでの生成と手動作成を選び、内容を編集して復習します。
 ### 完了の確認 {#review-完了の確認}
 
 問題ごとに自分で答えてから解答を確認できます。
-
-### 関連する使い方 {#review-関連する使い方}
-
-- [問題集を手動作成・編集する](/htu/uni-note/problem-sets/#edit)
-- [AI問題集を手修正して復習する](/htu/uni-note/workflows/quiz-review/)
-
-### 便利な使い方 {#review-便利な使い方}
-
-- [AI問題集を手修正して復習する](/htu/uni-note/workflows/quiz-review/)
 
 ## 問題集を手動作成・編集する {#edit}
 
@@ -171,15 +152,6 @@ AIで作成した問題集も同じ方法で直せます。
 
 問題集全体の削除はゴミ箱から復元できません。
 
-### 関連する使い方 {#edit-関連する使い方}
-
-- [保存した問題集で復習する](/htu/uni-note/problem-sets/#review)
-- [AI問題集を手修正して復習する](/htu/uni-note/workflows/quiz-review/)
-
-### 便利な使い方 {#edit-便利な使い方}
-
-- [AI問題集を手修正して復習する](/htu/uni-note/workflows/quiz-review/)
-
 ## ホームの問題集表示を変える {#home}
 
 ホームの問題集の入口を表示するか選べます。非表示にしても、保存した問題集を削除することにはなりません。
@@ -202,8 +174,3 @@ AIで作成した問題集も同じ方法で直せます。
 ### 完了の確認 {#home-完了の確認}
 
 ホームの入口を使い方に合わせて表示・非表示にできます。
-
-### 関連する使い方 {#home-関連する使い方}
-
-- [保存した問題集で復習する](/htu/uni-note/problem-sets/#review)
-- [設定を開いて目的の項目を探す](/htu/uni-note/customize/#settings)

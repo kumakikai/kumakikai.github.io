@@ -150,7 +150,11 @@ def check_structure(root, route, doc):
     h2 = [flat(n.text()) for n in body.descendants('h2')]
     h3 = [flat(n.text()) for n in body.descendants('h3')]
     contacts = [n for n in body.descendants() if 'data-document-contact' in n.attrs]
-    require(len(contacts) == 1, 'contact', 'Exactly one shared contact block is required')
+    guide_without_support = section == 'htu' and app_id == 'uni-note'
+    if guide_without_support:
+        require(not contacts, 'contact', 'Uni:Note guides must use the parent support page for contact')
+    else:
+        require(len(contacts) == 1, 'contact', 'Exactly one shared contact block is required')
     app = next(a for a in json.loads((root / 'data/apps.json').read_text()) if a['id'] == app_id)
     expected = app['support'].get('contactURL', 'mailto:kumakikai.apps@gmail.com')
     all_links = [n.attrs.get('href') for n in body.descendants('a')]
@@ -162,10 +166,17 @@ def check_structure(root, route, doc):
             require(len(contact_links) == 2 and contact_links[0] == expected and contact_links[1].startswith('mailto:kumakikai.apps@gmail.com?subject='), 'contact', 'Official form plus fallback email required')
         require(all(all_links.count(url) == 1 for url in contact_links), 'contact', 'Contact destinations repeated in body')
     if section == 'htu':
-        require(h2[:2] == [ui['introduction'], ui['basics']], 'structure', 'Guide must begin with introduction and basic use')
-        require(h2[-2:] == [ui['trouble'], ui['contact']], 'structure', 'Guide must end with help and contact')
-        faq_route = route.replace('/htu/', '/faq/') + '#help'
-        require(faq_route in all_links, 'help', 'Guide help must lead to the corresponding FAQ help section')
+        if app_id == 'uni-note':
+            if lang == 'ja':
+                require(h2[:2] == ['使い方を検索', '機能から探す'], 'structure', 'Japanese Uni:Note guide must focus on search and categories')
+            else:
+                require(h2[:2] == [ui['introduction'], ui['basics']], 'structure', 'Localized Uni:Note guide must retain its operation sections')
+            require(ui['trouble'] not in h2 and ui['contact'] not in h2, 'structure', 'Uni:Note guide must not duplicate FAQ or contact sections')
+        else:
+            require(h2[:2] == [ui['introduction'], ui['basics']], 'structure', 'Guide must begin with introduction and basic use')
+            require(h2[-2:] == [ui['trouble'], ui['contact']], 'structure', 'Guide must end with help and contact')
+            faq_route = route.replace('/htu/', '/faq/') + '#help'
+            require(faq_route in all_links, 'help', 'Guide help must lead to the corresponding FAQ help section')
     elif section == 'faq':
         require(h2 and h2[0] == ui['introduction'] and h2[-1] == ui['trouble'], 'structure', 'FAQ must begin with introduction and end with help')
         require(h3[-2:] == [ui['failureQuestion'], ui['contactQuestion']], 'structure', 'FAQ must end with the shared troubleshooting and contact questions')

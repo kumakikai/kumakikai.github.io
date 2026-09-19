@@ -182,15 +182,15 @@
 | P06 | 購入状態を更新する | [plans/usage](/htu/uni-note/plans/#usage) | documented |
 | P07 | 月次付与分と購入分の違いを理解する | [plans/usage](/htu/uni-note/plans/#usage) | documented |
 | P08 | 残量不足・購入情報未取得・付与待ちを区別する | [plans/usage](/htu/uni-note/plans/#usage) | documented |
-| S32 | 使い方とプライバシーポリシーをアプリから開く | [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | documented |
-| S33 | フォームで意見や質問を送る | [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | documented |
-| S34 | メールで詳細な不具合を問い合わせる | [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | documented |
-| S35 | サポート情報をコピーする | [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | documented |
-| S36 | App Storeでレビューする | [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | documented |
-| S37 | Uni:Note Pocketの案内を開く・リンクを共有する | [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | documented |
-| S38 | 更新内容・既知の問題・今後の開発を確認する | [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | documented |
-| S40 | 新しいバージョンの案内からApp Storeを開く | [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | documented |
-| S41 | クラッシュ後にホームへ戻ったとき対応する | [troubleshooting/help](/htu/uni-note/troubleshooting/#help) | documented |
+| S32 | 使い方とプライバシーポリシーをアプリから開く | [よくある質問](/faq/uni-note/#help) | documented |
+| S33 | フォームで意見や質問を送る | [よくある質問](/faq/uni-note/#help) | documented |
+| S34 | メールで詳細な不具合を問い合わせる | [よくある質問](/faq/uni-note/#help) | documented |
+| S35 | サポート情報をコピーする | [よくある質問](/faq/uni-note/#help) | documented |
+| S36 | App Storeでレビューする | [よくある質問](/faq/uni-note/#help) | documented |
+| S37 | Uni:Note Pocketの案内を開く・リンクを共有する | [よくある質問](/faq/uni-note/#help) | documented |
+| S38 | 更新内容・既知の問題・今後の開発を確認する | [よくある質問](/faq/uni-note/#help) | documented |
+| S40 | 新しいバージョンの案内からApp Storeを開く | [よくある質問](/faq/uni-note/#help) | documented |
+| S41 | クラッシュ後にホームへ戻ったとき対応する | [よくある質問](/faq/uni-note/#help) | documented |
 | O01 | Uni:Noteを2つ開く | [ipados/windows](/htu/uni-note/ipados/#windows) | documented |
 | O03 | 開いているUni:Noteウインドウを選び直す／閉じる | [ipados/windows](/htu/uni-note/ipados/#windows) | documented |
 | O06 | ファイルに保存した資料をUni:Noteへ取り込む | [ipados/files](/htu/uni-note/ipados/#files) | documented |

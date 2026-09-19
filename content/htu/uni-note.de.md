@@ -124,12 +124,3 @@ Aktualisieren und Wiederherstellen des einfachen Backups benötigen Premium. Dab
 Ordne Uni:Note über die iPad-Fenstersteuerung neben einem Dokument oder Video an. Auch zwei Uni:Note-Fenster sind möglich.
 
 Dock-Gesten und Bezeichnungen wie Split View oder Slide Over hängen von iPadOS und den Fenstereinstellungen ab.
-
-## Hilfe
-
-
-{{< document-help >}}
-
-## Kontakt
-
-{{< document-contact >}}

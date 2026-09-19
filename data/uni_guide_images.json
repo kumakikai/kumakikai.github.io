@@ -2744,26 +2744,6 @@
     "mode": "crop",
     "url": "/htu/uni-note/plans/#usage"
   },
-  "troubleshooting-help--s-m01": {
-    "page": "troubleshooting/help",
-    "master": "S-M01",
-    "session": "CAP-30",
-    "shot_ids": [
-      "P01-01",
-      "P02-03",
-      "P04-01",
-      "P07-02",
-      "S01-02",
-      "S38-01"
-    ],
-    "purpose": "3.5.0の設定トップ",
-    "state": "次版UIが確定した設定トップ。買い切りPremiumが確認済みのテスト状態。Plusなし。AI残量は実取得値。指描画OFF。カテゴリ・現在プラン・AI残量を読める位置。",
-    "role": "step",
-    "status": "pending",
-    "release_status": "capture-published-3.5",
-    "mode": "crop",
-    "url": "/htu/uni-note/troubleshooting/#help"
-  },
   "ipados-windows--r-m24": {
     "page": "ipados/windows",
     "master": "R-M24",
@@ -3269,24 +3249,5 @@
     "release_status": "exact-screen-hold",
     "mode": "tablet",
     "url": "/htu/uni-note/workflows/pip/"
-  },
-  "top--n-m02": {
-    "page": "top",
-    "master": "N-M02",
-    "session": "CAP-01",
-    "shot_ids": [
-      "N02-01"
-    ],
-    "purpose": "ホームの追加メニュー",
-    "state": "ホーム＋を開き、教科・フォルダの追加項目を表示。",
-    "role": "step",
-    "status": "legacy-approved",
-    "release_status": "capture-published-3.5",
-    "mode": "crop",
-    "src": "images/guides/uni-note/ja/create-menu.png",
-    "alt": "教科とフォルダの作成メニュー",
-    "caption": "ホームの＋から開く作成メニュー。",
-    "source_sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148",
-    "url": "/htu/uni-note/"
   }
 }

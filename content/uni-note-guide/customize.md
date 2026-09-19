@@ -43,13 +43,6 @@ operation_ids: ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "
 
 変えたい項目へ進み、変更後にノートやホームで結果を確認できます。
 
-### 関連する使い方 {#settings-関連する使い方}
-
-- [紙・左右の配置・ページ情報を設定する](/htu/uni-note/customize/#paper)
-- [起動・表示・言語を設定する](/htu/uni-note/customize/#display)
-- [ボタンとパレットの配置を変える](/htu/uni-note/customize/#toolbar)
-- [PremiumとAI残量を確認する](/htu/uni-note/plans/#usage)
-
 ## 紙・左右の配置・ページ情報を設定する {#paper}
 
 新しいノートの紙と、左右の配置の初期値を選びます。教科名やページ番号を紙の四隅へ表示することもできます。
@@ -87,16 +80,6 @@ operation_ids: ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "
 
 新規作成時の紙と、ノート上の情報・左右配置を用途に合わせられます。
 
-### 関連する使い方 {#paper-関連する使い方}
-
-- [縦ノートを作る](/htu/uni-note/notebooks/#vertical)
-- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)
-- [パレットを動かす・収納する](/htu/uni-note/writing/#palette)
-
-### 便利な使い方 {#便利な使い方}
-
-- [資料の横に手書きスペースを残す](/htu/uni-note/workflows/material-margin/)
-
 ## 起動・表示・言語を設定する {#display}
 
 起動時の画面、教科の並びや呼び方、スリープ、アプリの言語を選べます。
@@ -133,12 +116,6 @@ operation_ids: ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "
 ### 完了の確認 {#display-完了の確認}
 
 起動先やホームの表示、ノートを開いている間の動作が選んだ設定になります。
-
-### 関連する使い方 {#display-関連する使い方}
-
-- [設定を開いて目的の項目を探す](/htu/uni-note/customize/#settings)
-- [ノートを書き込みから保護する](/htu/uni-note/data/#protect)
-- [ホームの問題集表示を変える](/htu/uni-note/problem-sets/#home)
 
 ## ボタンとパレットの配置を変える {#toolbar}
 
@@ -189,9 +166,3 @@ operation_ids: ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "
 ### 注意事項 {#注意事項}
 
 「付箋マーカー」はパレット、「囲って解答アシスタント」はナビゲーションバー側の配置で管理します。見つからないときは非表示になっていないか確認してください。
-
-### 関連する使い方 {#toolbar-関連する使い方}
-
-- [付箋マーカーで答えを隠す](/htu/uni-note/study/#sticky)
-- [問題を囲って解答を確認する](/htu/uni-note/ai/#answer)
-- [パレットを動かす・収納する](/htu/uni-note/writing/#palette)

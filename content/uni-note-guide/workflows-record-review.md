@@ -49,10 +49,3 @@ Premium。マイク権限。文字起こしは対応するiPadOS 26以降の端�
 ## 注意事項
 
 録音は30分ごとに分割され、1ノート5件までです。ホームへ戻る・スリープする前に停止して保存してください。
-
-## 関連する使い方
-
-- [授業を録音して保存する](/htu/uni-note/recording/#capture)
-- [録音を文字起こしする](/htu/uni-note/recording/#transcribe)
-- [文字起こしからAI要約を作る](/htu/uni-note/recording/#summary)
-- [AI要約をノートへ貼って追記する](/htu/uni-note/workflows/summary-annotate/)

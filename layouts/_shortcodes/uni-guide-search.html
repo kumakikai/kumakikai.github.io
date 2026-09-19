@@ -1,0 +1,16 @@
+{{- $navigation := site.Data.uni_guide_navigation -}}
+{{- $items := slice -}}
+{{- range $navigation.pages -}}
+  {{- if ne .category "troubleshooting" -}}
+    {{- $items = $items | append (dict "title" .title "url" .url "category" (index $navigation.categories .category) "description" (index $navigation.descriptions .category)) -}}
+  {{- end -}}
+{{- end -}}
+<section class="uni-guide-search" aria-labelledby="guide-search-title">
+  <h2 id="guide-search-title">使い方を検索</h2>
+  <p>知りたい操作や機能の名前を入力すると、該当する説明へ直接進めます。</p>
+  <label for="uni-guide-search-input">使い方を検索</label>
+  <input id="uni-guide-search-input" type="search" autocomplete="off" placeholder="例：PDF、録音、バックアップ" data-guide-search-input>
+  <p class="uni-guide-search-status" aria-live="polite" data-guide-search-status></p>
+  <ul class="uni-guide-search-results" data-guide-search-results hidden></ul>
+  <script type="application/json" id="uni-guide-search-index">{{ $items | jsonify }}</script>
+</section>

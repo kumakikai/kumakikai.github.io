@@ -57,16 +57,6 @@ Premium。マイクの使用許可。
 
 録音一覧に保存された音声が表示され、再生できる状態になります。
 
-### 関連する使い方 {#capture-関連する使い方}
-
-- [録音を再生・整理・共有する](/htu/uni-note/recording/#play)
-- [録音を文字起こしする](/htu/uni-note/recording/#transcribe)
-- [録音・文字起こし・AI要約で授業を復習する](/htu/uni-note/workflows/record-review/)
-
-### 便利な使い方 {#capture-便利な使い方}
-
-- [録音・文字起こし・AI要約で授業を復習する](/htu/uni-note/workflows/record-review/)
-
 ## 録音を再生・整理・共有する {#play}
 
 保存した授業音声を、再生位置や速さを変えながら聴き直せます。名前の変更や音声ファイルの共有もできます。
@@ -106,11 +96,6 @@ Premium。保存済みの録音。
 ### 注意事項 {#play-注意事項}
 
 録音の削除をゴミ箱で復元する手順はありません。音声共有と文字起こしテキストの共有は別です。
-
-### 関連する使い方 {#play-関連する使い方}
-
-- [録音を文字起こしする](/htu/uni-note/recording/#transcribe)
-- [バックアップを保存する](/htu/uni-note/backup/#save)
 
 ## 録音を文字起こしする {#transcribe}
 
@@ -164,16 +149,6 @@ Premium。対応するiPadOS 26以降の端末・言語・音声認識環境。�
 
 iPadOS 26以降であっても、端末・言語・準備状態によって利用できない場合があります。文字起こしが使えない環境でも、録音とは切り分けて確認してください。認識結果は音声と照合します。
 
-### 関連する使い方 {#transcribe-関連する使い方}
-
-- [授業を録音して保存する](/htu/uni-note/recording/#capture)
-- [文字起こしからAI要約を作る](/htu/uni-note/recording/#summary)
-- [文字起こし言語とAIの設定を確認する](/htu/uni-note/ai/#settings)
-
-### 便利な使い方 {#transcribe-便利な使い方}
-
-- [録音・文字起こし・AI要約で授業を復習する](/htu/uni-note/workflows/record-review/)
-
 ## 文字起こしからAI要約を作る {#summary}
 
 保存した文字起こしをAIで要約します。勉強用と打ち合わせ用を選び、同じノートの複数録音をまとめることもできます。
@@ -219,16 +194,6 @@ Premiumの録音機能で保存した文字起こし。通信環境とAI残量�
 
 要約は授業資料や文字起こしと照合してください。生成にはAI残量を使います。
 
-### 関連する使い方 {#summary-関連する使い方}
-
-- [AI要約を現在のノートへ貼る](/htu/uni-note/recording/#paste)
-- [PremiumとAI残量を確認する](/htu/uni-note/plans/#usage)
-- [録音・文字起こし・AI要約で授業を復習する](/htu/uni-note/workflows/record-review/)
-
-### 便利な使い方 {#summary-便利な使い方}
-
-- [録音・文字起こし・AI要約で授業を復習する](/htu/uni-note/workflows/record-review/)
-
 ## AI要約を現在のノートへ貼る {#paste}
 
 生成したAI要約を、現在開いているノートへ画像として貼り付けます。要点の横へ手書きで補足できます。
@@ -259,13 +224,3 @@ Premiumの録音機能で保存した文字起こし。通信環境とAI残量�
 ### 完了の確認 {#paste-完了の確認}
 
 開いているノートに要約と手書きの補足が残ります。
-
-### 関連する使い方 {#paste-関連する使い方}
-
-- [文字起こしからAI要約を作る](/htu/uni-note/recording/#summary)
-- [AI要約をノートへ貼って追記する](/htu/uni-note/workflows/summary-annotate/)
-- [付箋マーカーで答えを隠す](/htu/uni-note/study/#sticky)
-
-### 便利な使い方 {#paste-便利な使い方}
-
-- [AI要約をノートへ貼って追記する](/htu/uni-note/workflows/summary-annotate/)

@@ -56,17 +56,6 @@ iPadOSのアプリスイッチャーやウインドウの一覧から、使う�
 
 このガイドの2ウインドウ例は別々のノートを使います。OSごとの配置画面が異なる場合は、Appleの該当バージョンの説明を参照してください。
 
-### 関連する使い方 {#windows-関連する使い方}
-
-- [資料用と筆記用の2つのノートを並べる](/htu/uni-note/workflows/two-notes/)
-- [SafariやPDF閲覧アプリと並べて書く](/htu/uni-note/workflows/external-material/)
-- [動画を小さく表示しながら書く](/htu/uni-note/workflows/pip/)
-
-### 便利な使い方 {#便利な使い方}
-
-- [資料用と筆記用の2つのノートを並べる](/htu/uni-note/workflows/two-notes/)
-- [SafariやPDF閲覧アプリと並べて書く](/htu/uni-note/workflows/external-material/)
-
 ## ファイルアプリと共有シートを使う {#files}
 
 外部から受け取ったPDFをファイルアプリへ保存し、Uni:Noteで取り込めます。書き出したPDFの保存や受け渡しにもiPadOSの共有シートを使います。
@@ -98,9 +87,3 @@ PDFを保存できる外部アプリと、ファイルアプリの保存先。
 ### 完了の確認 {#files-完了の確認}
 
 外部PDFをノートに取り込み、Uni:Noteから出力したPDFを別の場所で確認できます。
-
-### 関連する使い方 {#files-関連する使い方}
-
-- [PDFのページを選んで貼り付ける](/htu/uni-note/materials/#pdf)
-- [ノートをPDFにして保存・共有する](/htu/uni-note/materials/#export)
-- [バックアップを保存する](/htu/uni-note/backup/#save)

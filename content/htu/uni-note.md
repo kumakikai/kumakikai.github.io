@@ -9,31 +9,11 @@ guide_category: ""
 guide_kind: "top"
 ---
 
-## はじめに
-
 一般公開版3.5.0の基本操作を案内します。初めてのノート作成から、資料・録音・AIを組み合わせた復習まで、目的に合わせて説明を選べます。
 
 対応端末はiPad、対応OSはiPadOS 17.0以降です。手書きにはApple Pencilを使います。文字起こしには対応するiPadOS 26以降の環境が必要です。
 
-## 基本的な使い方
-
-### 初めて使う
-
-1. [画面とノートの仕組みを知る](/htu/uni-note/start/#screens)
-2. [最初の教科とノートを作る](/htu/uni-note/start/#first-note)
-3. [ペンを選んで書く](/htu/uni-note/writing/#pen)
-4. [バックアップを保存する](/htu/uni-note/backup/#save)
-
-{{< uni-guide-image slot="top--n-m02" >}}
-
-## やりたいことから探す
-
-- [ノートを探す・切り替える](/htu/uni-note/notebooks/#manage)
-- [PDFの必要なページを取り込む](/htu/uni-note/materials/#pdf)
-- [録音を文字で読み返す](/htu/uni-note/recording/#transcribe)
-- [問題集を自分で作る・直す](/htu/uni-note/problem-sets/#edit)
-- [使うボタンと道具を並べ替える](/htu/uni-note/customize/#toolbar)
-- [削除したノートを戻す](/htu/uni-note/data/#trash)
+{{< uni-guide-search >}}
 
 ## 機能から探す
 
@@ -89,16 +69,4 @@ guide_kind: "top"
 
 {{< uni-guide-category category="ipados" >}}
 
-## 便利な使い方
-
 {{< uni-guide-category category="workflows" >}}
-
-## 困ったとき
-
-{{< uni-guide-category category="troubleshooting" >}}
-
-{{< document-help >}}
-
-## お問い合わせ
-
-{{< document-contact >}}

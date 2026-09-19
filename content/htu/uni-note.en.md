@@ -124,12 +124,3 @@ Easy Backup update/restore requires Premium. It saves and loads an iCloud file; 
 Use iPad window controls to place Uni:Note next to a document or video. You can also open two Uni:Note windows.
 
 Dock gestures and names such as Split View or Slide Over depend on the iPadOS version and window settings.
-
-## Help
-
-
-{{< document-help >}}
-
-## Contact
-
-{{< document-contact >}}

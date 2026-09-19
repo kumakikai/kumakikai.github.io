@@ -124,12 +124,3 @@ iPadOS 17.0 이상을 실행하는 iPad가 필요합니다. 손글씨에는 Appl
 iPad 창 조작으로 Uni:Note를 자료나 동영상 옆에 배치할 수 있습니다. Uni:Note 창 두 개도 열 수 있습니다.
 
 Dock 조작과 Split View·Slide Over 등의 이름은 iPadOS 버전과 창 설정에 따라 다릅니다.
-
-## 문제 해결
-
-
-{{< document-help >}}
-
-## 문의
-
-{{< document-contact >}}

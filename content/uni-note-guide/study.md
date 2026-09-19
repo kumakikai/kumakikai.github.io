@@ -57,15 +57,6 @@ operation_ids: ["M42", "M43", "M44", "M45", "M46", "M62", "M52", "M53", "M54", "
 
 隠した答えを1つずつタップして確認できる暗記教材になります。
 
-### 関連する使い方 {#sticky-関連する使い方}
-
-- [PDF・写真に付箋を付けて暗記する](/htu/uni-note/workflows/sticky-material/)
-- [ペンと蛍光ペンを使う](/htu/uni-note/writing/#pen)
-
-### 便利な使い方 {#sticky-便利な使い方}
-
-- [PDF・写真に付箋を付けて暗記する](/htu/uni-note/workflows/sticky-material/)
-
 ## ポモドーロで集中と休憩を区切る {#pomodoro}
 
 集中する時間と休憩を1セットにして、勉強を区切ります。ノートを切り替えても同じタイマーを使えます。
@@ -107,15 +98,6 @@ operation_ids: ["M42", "M43", "M44", "M45", "M46", "M62", "M52", "M53", "M54", "
 
 集中・休憩の状態を見ながら、決めた時間だけ学習できます。
 
-### 関連する使い方 {#pomodoro-関連する使い方}
-
-- [ポモドーロを使いながら勉強する](/htu/uni-note/workflows/focus/)
-- [設定を開いて目的の項目を探す](/htu/uni-note/customize/#settings)
-
-### 便利な使い方 {#pomodoro-便利な使い方}
-
-- [ポモドーロを使いながら勉強する](/htu/uni-note/workflows/focus/)
-
 ## レーザーポインターを使う {#laser}
 
 資料を説明するとき、Apple Pencilで一時的な光の軌跡を示せます。説明の跡を手書きとして残したくない場面に使います。
@@ -143,12 +125,3 @@ Apple Pencil。
 ### 完了の確認 {#laser-完了の確認}
 
 資料上を指し示し、必要な補足だけを手書きとして残せます。
-
-### 関連する使い方 {#laser-関連する使い方}
-
-- [レーザーポインターで資料を説明する](/htu/uni-note/workflows/explain/)
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)
-
-### 便利な使い方 {#laser-便利な使い方}
-
-- [レーザーポインターで資料を説明する](/htu/uni-note/workflows/explain/)

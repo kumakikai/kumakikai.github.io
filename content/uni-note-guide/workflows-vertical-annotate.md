@@ -50,10 +50,3 @@ operation_ids: ["N60"]
 ## 注意事項
 
 資料の縦横比によって余白は残ります。端まで無理に広げず、必要な内容が読める大きさに合わせてください。
-
-## 関連する使い方
-
-- [縦ノートを作る](/htu/uni-note/notebooks/#vertical)
-- [縦ノートで資料の大きさを整える](/htu/uni-note/materials/#vertical)
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)
-- [手書きを囲んで移動する](/htu/uni-note/writing/#selection)

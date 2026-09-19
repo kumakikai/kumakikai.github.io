@@ -50,12 +50,6 @@ operation_ids: ["S25", "S26", "S27", "S28", "S29", "S30", "S31"]
 
 この保護は編集防止です。ノートの閲覧をロックする機能としては扱わないでください。
 
-### 関連する使い方 {#protect-関連する使い方}
-
-- [ゴミ箱から教科・ノートを復元する](/htu/uni-note/data/#trash)
-- [資料用と筆記用の2つのノートを並べる](/htu/uni-note/workflows/two-notes/)
-- [起動・表示・言語を設定する](/htu/uni-note/customize/#display)
-
 ## ゴミ箱から教科・ノートを復元する {#trash}
 
 削除した教科とノートをゴミ箱から戻せます。ページや問題集の削除とは、復元できる範囲が異なります。
@@ -94,9 +88,3 @@ operation_ids: ["S25", "S26", "S27", "S28", "S29", "S30", "S31"]
 ### 完了の確認 {#trash-完了の確認}
 
 必要なノートや教科がホームへ戻り、開いて内容を確認できます。
-
-### 関連する使い方 {#trash-関連する使い方}
-
-- [教科を編集・並べ替え・削除する](/htu/uni-note/library/#subjects)
-- [ノートを開く・増やす・整理する](/htu/uni-note/notebooks/#manage)
-- [バックアップを保存する](/htu/uni-note/backup/#save)
