@@ -15,7 +15,7 @@
   <article>
     <header class="article-header"><h1>{{ partial "heading-text.html" .Title }}</h1></header>
     <p class="guide-updated">更新日 <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time></p>
-    {{ if and (eq .Params.guide_kind "article") (gt (len .Fragments.Identifiers) 4) }}
+    {{ if or (eq .Params.guide_kind "category") (and (eq .Params.guide_kind "article") (gt (len .Fragments.Identifiers) 4)) }}
     <details class="guide-toc"><summary>このページの内容</summary>{{ .Fragments.ToHTML 2 2 false }}</details>
     {{ end }}
     <div class="content post-content{{ if in .Content "data-guide-image" }} visual-guide{{ end }}" data-content-body>{{ .Content }}</div>
@@ -32,4 +32,8 @@
     <a class="text-link" href="/products/uni-note/">Uni:Note <span aria-hidden="true">→</span></a>
   </aside>
 </div>
+{{ if eq .Params.guide_kind "top" }}
+{{ $js := resources.Get "js/uni-guide-navigation.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
 {{ end }}

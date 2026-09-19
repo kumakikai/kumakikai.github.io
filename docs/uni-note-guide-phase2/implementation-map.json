@@ -23,8 +23,8 @@
       "key": "start/screens",
       "category": "start",
       "title": "画面とノートの仕組み",
-      "url": "/htu/uni-note/start/screens/",
-      "source": "content/uni-note-guide/start-screens.md",
+      "url": "/htu/uni-note/start/#screens",
+      "source": "content/uni-note-guide/start.md",
       "operations": [
         "N01",
         "S39"
@@ -40,14 +40,18 @@
         "N-M01",
         "N-M05",
         "M-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/start/screens/",
+      "previous_source": "content/uni-note-guide/start-screens.md",
+      "anchor": "screens",
+      "kind": "section"
     },
     {
       "key": "start/first-note",
       "category": "start",
       "title": "最初の教科とノートを作る",
-      "url": "/htu/uni-note/start/first-note/",
-      "source": "content/uni-note-guide/start-first-note.md",
+      "url": "/htu/uni-note/start/#first-note",
+      "source": "content/uni-note-guide/start.md",
       "operations": [
         "N02",
         "N03",
@@ -65,14 +69,18 @@
         "N-M01",
         "N-M02",
         "M-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/start/first-note/",
+      "previous_source": "content/uni-note-guide/start-first-note.md",
+      "anchor": "first-note",
+      "kind": "section"
     },
     {
       "key": "library/subjects",
       "category": "library",
       "title": "教科を編集・並べ替え・削除する",
-      "url": "/htu/uni-note/library/subjects/",
-      "source": "content/uni-note-guide/library-subjects.md",
+      "url": "/htu/uni-note/library/#subjects",
+      "source": "content/uni-note-guide/library.md",
       "operations": [
         "N04",
         "N10",
@@ -93,14 +101,18 @@
         "N-M08",
         "N-M20",
         "S-M15"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/library/subjects/",
+      "previous_source": "content/uni-note-guide/library-subjects.md",
+      "anchor": "subjects",
+      "kind": "section"
     },
     {
       "key": "library/folders",
       "category": "library",
       "title": "教科をフォルダで整理する",
-      "url": "/htu/uni-note/library/folders/",
-      "source": "content/uni-note-guide/library-folders.md",
+      "url": "/htu/uni-note/library/#folders",
+      "source": "content/uni-note-guide/library.md",
       "operations": [
         "N14",
         "N15",
@@ -132,14 +144,18 @@
         "N-M15",
         "N-M17",
         "N-M18"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/library/folders/",
+      "previous_source": "content/uni-note-guide/library-folders.md",
+      "anchor": "folders",
+      "kind": "section"
     },
     {
       "key": "library/search",
       "category": "library",
       "title": "ノートをタイトルで探す",
-      "url": "/htu/uni-note/library/search/",
-      "source": "content/uni-note-guide/library-search.md",
+      "url": "/htu/uni-note/library/#search",
+      "source": "content/uni-note-guide/library.md",
       "operations": [
         "N12",
         "N13"
@@ -153,14 +169,18 @@
       "slot_masters": [
         "N-M01",
         "N-M09"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/library/search/",
+      "previous_source": "content/uni-note-guide/library-search.md",
+      "anchor": "search",
+      "kind": "section"
     },
     {
       "key": "notebooks/manage",
       "category": "notebooks",
       "title": "ノートを開く・増やす・整理する",
-      "url": "/htu/uni-note/notebooks/manage/",
-      "source": "content/uni-note-guide/notebooks-manage.md",
+      "url": "/htu/uni-note/notebooks/#manage",
+      "source": "content/uni-note-guide/notebooks.md",
       "operations": [
         "N06",
         "N07",
@@ -186,14 +206,18 @@
         "N-M07",
         "N-M58",
         "S-M15"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/notebooks/manage/",
+      "previous_source": "content/uni-note-guide/notebooks-manage.md",
+      "anchor": "manage",
+      "kind": "section"
     },
     {
       "key": "notebooks/pages",
       "category": "notebooks",
       "title": "ページを送る・並べ替える・削除する",
-      "url": "/htu/uni-note/notebooks/pages/",
-      "source": "content/uni-note-guide/notebooks-pages.md",
+      "url": "/htu/uni-note/notebooks/#pages",
+      "source": "content/uni-note-guide/notebooks.md",
       "operations": [
         "N21",
         "N22",
@@ -217,14 +241,18 @@
         "N-M34",
         "N-M35",
         "N-M36"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/notebooks/pages/",
+      "previous_source": "content/uni-note-guide/notebooks-pages.md",
+      "anchor": "pages",
+      "kind": "section"
     },
     {
       "key": "notebooks/vertical",
       "category": "notebooks",
       "title": "縦ノートを作る",
-      "url": "/htu/uni-note/notebooks/vertical/",
-      "source": "content/uni-note-guide/notebooks-vertical.md",
+      "url": "/htu/uni-note/notebooks/#vertical",
+      "source": "content/uni-note-guide/notebooks.md",
       "operations": [
         "N23",
         "N65"
@@ -242,14 +270,18 @@
         "N-M31",
         "M-M14",
         "M-M18"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/notebooks/vertical/",
+      "previous_source": "content/uni-note-guide/notebooks-vertical.md",
+      "anchor": "vertical",
+      "kind": "section"
     },
     {
       "key": "writing/pens",
       "category": "writing",
       "title": "ペンと蛍光ペンを使う",
-      "url": "/htu/uni-note/writing/pens/",
-      "source": "content/uni-note-guide/writing-pens.md",
+      "url": "/htu/uni-note/writing/#pen",
+      "source": "content/uni-note-guide/writing.md",
       "operations": [
         "N28",
         "N29",
@@ -271,14 +303,18 @@
         "N-M39",
         "N-M40",
         "M-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/writing/pens/",
+      "previous_source": "content/uni-note-guide/writing-pens.md",
+      "anchor": "pen",
+      "kind": "section"
     },
     {
       "key": "writing/erasing",
       "category": "writing",
       "title": "消しゴム・取り消し・やり直し",
-      "url": "/htu/uni-note/writing/erasing/",
-      "source": "content/uni-note-guide/writing-erasing.md",
+      "url": "/htu/uni-note/writing/#eraser",
+      "source": "content/uni-note-guide/writing.md",
       "operations": [
         "N34",
         "N35",
@@ -299,14 +335,18 @@
         "N-M42",
         "N-M43",
         "N-M44"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/writing/erasing/",
+      "previous_source": "content/uni-note-guide/writing-erasing.md",
+      "anchor": "eraser",
+      "kind": "section"
     },
     {
       "key": "writing/palette",
       "category": "writing",
       "title": "パレットを動かす・収納する",
-      "url": "/htu/uni-note/writing/palette/",
-      "source": "content/uni-note-guide/writing-palette.md",
+      "url": "/htu/uni-note/writing/#palette",
+      "source": "content/uni-note-guide/writing.md",
       "operations": [
         "N39",
         "N40"
@@ -322,14 +362,18 @@
         "N-M45",
         "N-M47",
         "M-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/writing/palette/",
+      "previous_source": "content/uni-note-guide/writing-palette.md",
+      "anchor": "palette",
+      "kind": "section"
     },
     {
       "key": "writing/ruler",
       "category": "writing",
       "title": "定規で直線を引く",
-      "url": "/htu/uni-note/writing/ruler/",
-      "source": "content/uni-note-guide/writing-ruler.md",
+      "url": "/htu/uni-note/writing/#ruler",
+      "source": "content/uni-note-guide/writing.md",
       "operations": [
         "N41",
         "N42",
@@ -346,14 +390,18 @@
       "slot_masters": [
         "N-M49",
         "M-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/writing/ruler/",
+      "previous_source": "content/uni-note-guide/writing-ruler.md",
+      "anchor": "ruler",
+      "kind": "section"
     },
     {
       "key": "writing/move",
       "category": "writing",
       "title": "手書きを囲んで移動する",
-      "url": "/htu/uni-note/writing/move/",
-      "source": "content/uni-note-guide/writing-move.md",
+      "url": "/htu/uni-note/writing/#selection",
+      "source": "content/uni-note-guide/writing.md",
       "operations": [
         "N44",
         "N45"
@@ -369,14 +417,18 @@
         "N-M50",
         "N-M51",
         "M-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/writing/move/",
+      "previous_source": "content/uni-note-guide/writing-move.md",
+      "anchor": "selection",
+      "kind": "section"
     },
     {
       "key": "materials/photos",
       "category": "materials",
       "title": "写真・紙の資料を貼り付ける",
-      "url": "/htu/uni-note/materials/photos/",
-      "source": "content/uni-note-guide/materials-photos.md",
+      "url": "/htu/uni-note/materials/#photos",
+      "source": "content/uni-note-guide/materials.md",
       "operations": [
         "M01",
         "M02",
@@ -395,14 +447,18 @@
         "M-M03",
         "M-M19",
         "R-M05"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/materials/photos/",
+      "previous_source": "content/uni-note-guide/materials-photos.md",
+      "anchor": "photos",
+      "kind": "section"
     },
     {
       "key": "materials/pdf",
       "category": "materials",
       "title": "PDFのページを選んで貼り付ける",
-      "url": "/htu/uni-note/materials/pdf/",
-      "source": "content/uni-note-guide/materials-pdf.md",
+      "url": "/htu/uni-note/materials/#pdf",
+      "source": "content/uni-note-guide/materials.md",
       "operations": [
         "M04",
         "M05",
@@ -425,14 +481,18 @@
         "M-M09",
         "M-M10",
         "M-M09R"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/materials/pdf/",
+      "previous_source": "content/uni-note-guide/materials-pdf.md",
+      "anchor": "pdf",
+      "kind": "section"
     },
     {
       "key": "materials/arrange",
       "category": "materials",
       "title": "写真・PDFを動かして固定する",
-      "url": "/htu/uni-note/materials/arrange/",
-      "source": "content/uni-note-guide/materials-arrange.md",
+      "url": "/htu/uni-note/materials/#arrange",
+      "source": "content/uni-note-guide/materials.md",
       "operations": [
         "M07",
         "M08",
@@ -459,14 +519,18 @@
         "M-M13",
         "M-M14",
         "M-M15"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/materials/arrange/",
+      "previous_source": "content/uni-note-guide/materials-arrange.md",
+      "anchor": "arrange",
+      "kind": "section"
     },
     {
       "key": "materials/vertical",
       "category": "materials",
       "title": "縦ノートで資料の大きさを整える",
-      "url": "/htu/uni-note/materials/vertical/",
-      "source": "content/uni-note-guide/materials-vertical.md",
+      "url": "/htu/uni-note/materials/#vertical",
+      "source": "content/uni-note-guide/materials.md",
       "operations": [
         "M14",
         "M15"
@@ -486,14 +550,18 @@
         "M-M18",
         "M-M19",
         "M-M20"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/materials/vertical/",
+      "previous_source": "content/uni-note-guide/materials-vertical.md",
+      "anchor": "vertical",
+      "kind": "section"
     },
     {
       "key": "materials/export",
       "category": "materials",
       "title": "ノートをPDFにして保存・共有する",
-      "url": "/htu/uni-note/materials/export/",
-      "source": "content/uni-note-guide/materials-export.md",
+      "url": "/htu/uni-note/materials/#export",
+      "source": "content/uni-note-guide/materials.md",
       "operations": [
         "M17",
         "M18",
@@ -507,14 +575,18 @@
       ],
       "slot_masters": [
         "M-M21"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/materials/export/",
+      "previous_source": "content/uni-note-guide/materials-export.md",
+      "anchor": "export",
+      "kind": "section"
     },
     {
       "key": "recording/capture",
       "category": "recording",
       "title": "授業を録音して保存する",
-      "url": "/htu/uni-note/recording/capture/",
-      "source": "content/uni-note-guide/recording-capture.md",
+      "url": "/htu/uni-note/recording/#capture",
+      "source": "content/uni-note-guide/recording.md",
       "operations": [
         "M20",
         "M21",
@@ -537,14 +609,18 @@
         "M-M25",
         "M-M26",
         "M-M27"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/recording/capture/",
+      "previous_source": "content/uni-note-guide/recording-capture.md",
+      "anchor": "capture",
+      "kind": "section"
     },
     {
       "key": "recording/play",
       "category": "recording",
       "title": "録音を再生・整理・共有する",
-      "url": "/htu/uni-note/recording/play/",
-      "source": "content/uni-note-guide/recording-play.md",
+      "url": "/htu/uni-note/recording/#play",
+      "source": "content/uni-note-guide/recording.md",
       "operations": [
         "M25",
         "M26",
@@ -562,14 +638,18 @@
       "slot_masters": [
         "M-M26",
         "M-M28"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/recording/play/",
+      "previous_source": "content/uni-note-guide/recording-play.md",
+      "anchor": "play",
+      "kind": "section"
     },
     {
       "key": "recording/transcribe",
       "category": "recording",
       "title": "録音を文字起こしする",
-      "url": "/htu/uni-note/recording/transcribe/",
-      "source": "content/uni-note-guide/recording-transcribe.md",
+      "url": "/htu/uni-note/recording/#transcribe",
+      "source": "content/uni-note-guide/recording.md",
       "operations": [
         "M32",
         "M33",
@@ -592,14 +672,18 @@
         "M-M28",
         "M-M29",
         "M-M30"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/recording/transcribe/",
+      "previous_source": "content/uni-note-guide/recording-transcribe.md",
+      "anchor": "transcribe",
+      "kind": "section"
     },
     {
       "key": "recording/summary",
       "category": "recording",
       "title": "文字起こしからAI要約を作る",
-      "url": "/htu/uni-note/recording/summary/",
-      "source": "content/uni-note-guide/recording-summary.md",
+      "url": "/htu/uni-note/recording/#summary",
+      "source": "content/uni-note-guide/recording.md",
       "operations": [
         "M37",
         "M38",
@@ -620,14 +704,18 @@
         "M-M32",
         "M-M33",
         "R-M01"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/recording/summary/",
+      "previous_source": "content/uni-note-guide/recording-summary.md",
+      "anchor": "summary",
+      "kind": "section"
     },
     {
       "key": "recording/paste",
       "category": "recording",
       "title": "AI要約を現在のノートへ貼る",
-      "url": "/htu/uni-note/recording/paste/",
-      "source": "content/uni-note-guide/recording-paste.md",
+      "url": "/htu/uni-note/recording/#paste",
+      "source": "content/uni-note-guide/recording.md",
       "operations": [
         "M41"
       ],
@@ -640,14 +728,18 @@
       "slot_masters": [
         "M-M32",
         "M-M35"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/recording/paste/",
+      "previous_source": "content/uni-note-guide/recording-paste.md",
+      "anchor": "paste",
+      "kind": "section"
     },
     {
       "key": "study/sticky",
       "category": "study",
       "title": "付箋マーカーで答えを隠す",
-      "url": "/htu/uni-note/study/sticky/",
-      "source": "content/uni-note-guide/study-sticky.md",
+      "url": "/htu/uni-note/study/#sticky",
+      "source": "content/uni-note-guide/study.md",
       "operations": [
         "M42",
         "M43",
@@ -671,14 +763,18 @@
         "M-M38",
         "M-M39",
         "M-M40"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/study/sticky/",
+      "previous_source": "content/uni-note-guide/study-sticky.md",
+      "anchor": "sticky",
+      "kind": "section"
     },
     {
       "key": "study/pomodoro",
       "category": "study",
       "title": "ポモドーロで集中と休憩を区切る",
-      "url": "/htu/uni-note/study/pomodoro/",
-      "source": "content/uni-note-guide/study-pomodoro.md",
+      "url": "/htu/uni-note/study/#pomodoro",
+      "source": "content/uni-note-guide/study.md",
       "operations": [
         "M52",
         "M53",
@@ -699,14 +795,18 @@
         "M-M43",
         "M-M44",
         "M-M46"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/study/pomodoro/",
+      "previous_source": "content/uni-note-guide/study-pomodoro.md",
+      "anchor": "pomodoro",
+      "kind": "section"
     },
     {
       "key": "study/laser",
       "category": "study",
       "title": "レーザーポインターを使う",
-      "url": "/htu/uni-note/study/laser/",
-      "source": "content/uni-note-guide/study-laser.md",
+      "url": "/htu/uni-note/study/#laser",
+      "source": "content/uni-note-guide/study.md",
       "operations": [
         "M57",
         "M58"
@@ -720,14 +820,18 @@
       "slot_masters": [
         "M-M10",
         "M-M48"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/study/laser/",
+      "previous_source": "content/uni-note-guide/study-laser.md",
+      "anchor": "laser",
+      "kind": "section"
     },
     {
       "key": "ai/answer",
       "category": "ai",
       "title": "問題を囲って解答を確認する",
-      "url": "/htu/uni-note/ai/answer/",
-      "source": "content/uni-note-guide/ai-answer.md",
+      "url": "/htu/uni-note/ai/#answer",
+      "source": "content/uni-note-guide/ai.md",
       "operations": [
         "A02",
         "A03",
@@ -748,14 +852,18 @@
         "R-M02",
         "R-M03",
         "R-M04"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/ai/answer/",
+      "previous_source": "content/uni-note-guide/ai-answer.md",
+      "anchor": "answer",
+      "kind": "section"
     },
     {
       "key": "ai/settings",
       "category": "ai",
       "title": "文字起こし言語とAIの設定を確認する",
-      "url": "/htu/uni-note/ai/settings/",
-      "source": "content/uni-note-guide/ai-settings.md",
+      "url": "/htu/uni-note/ai/#settings",
+      "source": "content/uni-note-guide/ai.md",
       "operations": [
         "A01"
       ],
@@ -766,14 +874,18 @@
       ],
       "slot_masters": [
         "R-M01"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/ai/settings/",
+      "previous_source": "content/uni-note-guide/ai-settings.md",
+      "anchor": "settings",
+      "kind": "section"
     },
     {
       "key": "problem-sets/generate",
       "category": "problem-sets",
       "title": "ノートからAI問題集を作る",
-      "url": "/htu/uni-note/problem-sets/generate/",
-      "source": "content/uni-note-guide/problem-sets-generate.md",
+      "url": "/htu/uni-note/problem-sets/#generate",
+      "source": "content/uni-note-guide/problem-sets.md",
       "operations": [
         "Q01",
         "Q02",
@@ -798,14 +910,18 @@
         "R-M07",
         "R-M09",
         "R-M10"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/problem-sets/generate/",
+      "previous_source": "content/uni-note-guide/problem-sets-generate.md",
+      "anchor": "generate",
+      "kind": "section"
     },
     {
       "key": "problem-sets/review",
       "category": "problem-sets",
       "title": "保存した問題集で復習する",
-      "url": "/htu/uni-note/problem-sets/review/",
-      "source": "content/uni-note-guide/problem-sets-review.md",
+      "url": "/htu/uni-note/problem-sets/#review",
+      "source": "content/uni-note-guide/problem-sets.md",
       "operations": [
         "Q08",
         "Q09",
@@ -822,14 +938,18 @@
         "R-M11",
         "R-M13",
         "R-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/problem-sets/review/",
+      "previous_source": "content/uni-note-guide/problem-sets-review.md",
+      "anchor": "review",
+      "kind": "section"
     },
     {
       "key": "problem-sets/edit",
       "category": "problem-sets",
       "title": "問題集を手動作成・編集する",
-      "url": "/htu/uni-note/problem-sets/edit/",
-      "source": "content/uni-note-guide/problem-sets-edit.md",
+      "url": "/htu/uni-note/problem-sets/#edit",
+      "source": "content/uni-note-guide/problem-sets.md",
       "operations": [
         "Q11",
         "Q12",
@@ -855,14 +975,18 @@
         "R-M16",
         "R-M17",
         "R-M18"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/problem-sets/edit/",
+      "previous_source": "content/uni-note-guide/problem-sets-edit.md",
+      "anchor": "edit",
+      "kind": "section"
     },
     {
       "key": "problem-sets/home",
       "category": "problem-sets",
       "title": "ホームの問題集表示を変える",
-      "url": "/htu/uni-note/problem-sets/home/",
-      "source": "content/uni-note-guide/problem-sets-home.md",
+      "url": "/htu/uni-note/problem-sets/#home",
+      "source": "content/uni-note-guide/problem-sets.md",
       "operations": [
         "Q18"
       ],
@@ -877,14 +1001,18 @@
         "R-M01",
         "R-M11",
         "R-M20"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/problem-sets/home/",
+      "previous_source": "content/uni-note-guide/problem-sets-home.md",
+      "anchor": "home",
+      "kind": "section"
     },
     {
       "key": "customize/settings",
       "category": "customize",
       "title": "設定を開いて目的の項目を探す",
-      "url": "/htu/uni-note/customize/settings/",
-      "source": "content/uni-note-guide/customize-settings.md",
+      "url": "/htu/uni-note/customize/#settings",
+      "source": "content/uni-note-guide/customize.md",
       "operations": [
         "S01"
       ],
@@ -897,14 +1025,18 @@
       "slot_masters": [
         "N-M01",
         "S-M01"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/customize/settings/",
+      "previous_source": "content/uni-note-guide/customize-settings.md",
+      "anchor": "settings",
+      "kind": "section"
     },
     {
       "key": "customize/paper",
       "category": "customize",
       "title": "紙・左右の配置・ページ情報を設定する",
-      "url": "/htu/uni-note/customize/paper/",
-      "source": "content/uni-note-guide/customize-paper.md",
+      "url": "/htu/uni-note/customize/#paper",
+      "source": "content/uni-note-guide/customize.md",
       "operations": [
         "S02",
         "S03",
@@ -924,14 +1056,18 @@
       "slot_masters": [
         "N-M45",
         "M-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/customize/paper/",
+      "previous_source": "content/uni-note-guide/customize-paper.md",
+      "anchor": "paper",
+      "kind": "section"
     },
     {
       "key": "customize/display",
       "category": "customize",
       "title": "起動・表示・言語を設定する",
-      "url": "/htu/uni-note/customize/display/",
-      "source": "content/uni-note-guide/customize-display.md",
+      "url": "/htu/uni-note/customize/#display",
+      "source": "content/uni-note-guide/customize.md",
       "operations": [
         "S10",
         "S11",
@@ -950,14 +1086,18 @@
       "slot_masters": [
         "N-M47",
         "M-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/customize/display/",
+      "previous_source": "content/uni-note-guide/customize-display.md",
+      "anchor": "display",
+      "kind": "section"
     },
     {
       "key": "customize/toolbar",
       "category": "customize",
       "title": "ボタンとパレットの配置を変える",
-      "url": "/htu/uni-note/customize/toolbar/",
-      "source": "content/uni-note-guide/customize-toolbar.md",
+      "url": "/htu/uni-note/customize/#toolbar",
+      "source": "content/uni-note-guide/customize.md",
       "operations": [
         "N46",
         "N47",
@@ -984,14 +1124,18 @@
         "N-M55",
         "N-M56",
         "M-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/customize/toolbar/",
+      "previous_source": "content/uni-note-guide/customize-toolbar.md",
+      "anchor": "toolbar",
+      "kind": "section"
     },
     {
       "key": "data/protect",
       "category": "data",
       "title": "ノートを書き込みから保護する",
-      "url": "/htu/uni-note/data/protect/",
-      "source": "content/uni-note-guide/data-protect.md",
+      "url": "/htu/uni-note/data/#protect",
+      "source": "content/uni-note-guide/data.md",
       "operations": [
         "S25",
         "S26"
@@ -1005,14 +1149,18 @@
       "slot_masters": [
         "N-M06",
         "S-M14"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/data/protect/",
+      "previous_source": "content/uni-note-guide/data-protect.md",
+      "anchor": "protect",
+      "kind": "section"
     },
     {
       "key": "data/trash",
       "category": "data",
       "title": "ゴミ箱から教科・ノートを復元する",
-      "url": "/htu/uni-note/data/trash/",
-      "source": "content/uni-note-guide/data-trash.md",
+      "url": "/htu/uni-note/data/#trash",
+      "source": "content/uni-note-guide/data.md",
       "operations": [
         "S27",
         "S28",
@@ -1029,14 +1177,18 @@
       "slot_masters": [
         "S-M15",
         "S-M16"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/data/trash/",
+      "previous_source": "content/uni-note-guide/data-trash.md",
+      "anchor": "trash",
+      "kind": "section"
     },
     {
       "key": "backup/save",
       "category": "backup",
       "title": "バックアップを保存する",
-      "url": "/htu/uni-note/backup/save/",
-      "source": "content/uni-note-guide/backup-save.md",
+      "url": "/htu/uni-note/backup/#save",
+      "source": "content/uni-note-guide/backup.md",
       "operations": [
         "S18",
         "S19",
@@ -1052,14 +1204,18 @@
       "slot_masters": [
         "S-M08",
         "S-M10"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/backup/save/",
+      "previous_source": "content/uni-note-guide/backup-save.md",
+      "anchor": "save",
+      "kind": "section"
     },
     {
       "key": "backup/restore",
       "category": "backup",
       "title": "バックアップから復元する",
-      "url": "/htu/uni-note/backup/restore/",
-      "source": "content/uni-note-guide/backup-restore.md",
+      "url": "/htu/uni-note/backup/#restore",
+      "source": "content/uni-note-guide/backup.md",
       "operations": [
         "S22",
         "S23",
@@ -1076,14 +1232,18 @@
         "S-M08",
         "S-M11",
         "S-M12"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/backup/restore/",
+      "previous_source": "content/uni-note-guide/backup-restore.md",
+      "anchor": "restore",
+      "kind": "section"
     },
     {
       "key": "plans/usage",
       "category": "plans",
       "title": "PremiumとAI残量を確認する",
-      "url": "/htu/uni-note/plans/usage/",
-      "source": "content/uni-note-guide/plans-usage.md",
+      "url": "/htu/uni-note/plans/#usage",
+      "source": "content/uni-note-guide/plans.md",
       "operations": [
         "P01",
         "P02",
@@ -1104,14 +1264,18 @@
         "S-M01",
         "R-M21",
         "R-M23"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/plans/usage/",
+      "previous_source": "content/uni-note-guide/plans-usage.md",
+      "anchor": "usage",
+      "kind": "section"
     },
     {
       "key": "troubleshooting/help",
       "category": "troubleshooting",
       "title": "困ったときの確認と問い合わせ",
-      "url": "/htu/uni-note/troubleshooting/help/",
-      "source": "content/uni-note-guide/troubleshooting-help.md",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "source": "content/uni-note-guide/troubleshooting.md",
       "operations": [
         "S32",
         "S33",
@@ -1130,14 +1294,18 @@
       ],
       "slot_masters": [
         "S-M01"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/troubleshooting/help/",
+      "previous_source": "content/uni-note-guide/troubleshooting-help.md",
+      "anchor": "help",
+      "kind": "section"
     },
     {
       "key": "ipados/windows",
       "category": "ipados",
       "title": "iPadのウインドウ操作を使う",
-      "url": "/htu/uni-note/ipados/windows/",
-      "source": "content/uni-note-guide/ipados-windows.md",
+      "url": "/htu/uni-note/ipados/#windows",
+      "source": "content/uni-note-guide/ipados.md",
       "operations": [
         "O01",
         "O03"
@@ -1151,14 +1319,18 @@
       "slot_masters": [
         "R-M24",
         "R-M25"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/ipados/windows/",
+      "previous_source": "content/uni-note-guide/ipados-windows.md",
+      "anchor": "windows",
+      "kind": "section"
     },
     {
       "key": "ipados/files",
       "category": "ipados",
       "title": "ファイルアプリと共有シートを使う",
-      "url": "/htu/uni-note/ipados/files/",
-      "source": "content/uni-note-guide/ipados-files.md",
+      "url": "/htu/uni-note/ipados/#files",
+      "source": "content/uni-note-guide/ipados.md",
       "operations": [
         "O06",
         "O07"
@@ -1170,7 +1342,11 @@
       ],
       "slot_masters": [
         "M-M10"
-      ]
+      ],
+      "previous_url": "/htu/uni-note/ipados/files/",
+      "previous_source": "content/uni-note-guide/ipados-files.md",
+      "anchor": "files",
+      "kind": "section"
     },
     {
       "key": "workflows/vertical-annotate",
@@ -1210,7 +1386,8 @@
         "N-M19",
         "M-M11",
         "M-M13"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/split-spread",
@@ -1243,7 +1420,8 @@
         "M-M09",
         "M-M09R",
         "M-M08"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/material-margin",
@@ -1275,7 +1453,8 @@
       "slot_masters": [
         "M-M14",
         "M-M11"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/sticky-material",
@@ -1309,7 +1488,8 @@
         "M-M38",
         "M-M37",
         "M-M39"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/record-review",
@@ -1351,7 +1531,8 @@
         "M-M30",
         "M-M32",
         "M-M31"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/summary-annotate",
@@ -1375,7 +1556,8 @@
       ],
       "slot_masters": [
         "M-M35"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/quiz-review",
@@ -1415,7 +1597,8 @@
         "R-M14",
         "R-M09",
         "R-M17"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/focus",
@@ -1443,7 +1626,8 @@
       "slot_masters": [
         "M-M43",
         "M-M42"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/explain",
@@ -1467,7 +1651,8 @@
       ],
       "slot_masters": [
         "M-M48"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/two-notes",
@@ -1493,7 +1678,8 @@
       "slot_masters": [
         "R-M25",
         "R-M24"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/external-material",
@@ -1518,7 +1704,8 @@
       "slot_masters": [
         "R-M27",
         "R-M26"
-      ]
+      ],
+      "kind": "recipe"
     },
     {
       "key": "workflows/pip",
@@ -1542,7 +1729,8 @@
       ],
       "slot_masters": [
         "R-M28"
-      ]
+      ],
+      "kind": "recipe"
     }
   ],
   "operations": [
@@ -1550,970 +1738,1054 @@
       "id": "N01",
       "title": "教科・ノート・ページの関係を知る",
       "page": "start/screens",
-      "url": "/htu/uni-note/start/screens/",
+      "url": "/htu/uni-note/start/#screens",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_NOTE_TITLE_SEARCH.md:7",
         "UI/BookshelfViewController.swift:1463",
         "UI/SectionListViewController.swift:160"
-      ]
+      ],
+      "anchor": "screens"
     },
     {
       "id": "S39",
       "title": "初回案内から使い始める・使い方へ進む",
       "page": "start/screens",
-      "url": "/htu/uni-note/start/screens/",
+      "url": "/htu/uni-note/start/#screens",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:2153-2169",
         "ja.lproj/Localizable.strings:166-169"
-      ]
+      ],
+      "anchor": "screens"
     },
     {
       "id": "N02",
       "title": "教科を作成する",
       "page": "start/first-note",
-      "url": "/htu/uni-note/start/first-note/",
+      "url": "/htu/uni-note/start/#first-note",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:758",
         "UI/CreateNotebookViewController.swift:170",
         "UI/CreateNotebookViewController.swift:288"
-      ]
+      ],
+      "anchor": "first-note"
     },
     {
       "id": "N03",
       "title": "最初のノートを作る",
       "page": "start/first-note",
-      "url": "/htu/uni-note/start/first-note/",
+      "url": "/htu/uni-note/start/#first-note",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1513",
         "UI/BookshelfViewController.swift:1572"
-      ]
+      ],
+      "anchor": "first-note"
     },
     {
       "id": "N05",
       "title": "教科・最近使ったノートから再開する",
       "page": "start/first-note",
-      "url": "/htu/uni-note/start/first-note/",
+      "url": "/htu/uni-note/start/#first-note",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1422",
         "docs/FEATURE_NOTE_EDITOR.md:55"
-      ]
+      ],
+      "anchor": "first-note"
     },
     {
       "id": "N69",
       "title": "ノートを閉じて再開し、自動保存を確認する",
       "page": "start/first-note",
-      "url": "/htu/uni-note/start/first-note/",
+      "url": "/htu/uni-note/start/#first-note",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:8868",
         "800c0c3:UI/NotebookViewController.swift:8900",
         "800c0c3:UI/NotebookViewController.swift:9267"
-      ]
+      ],
+      "anchor": "first-note"
     },
     {
       "id": "N04",
       "title": "教科名・用紙・表紙を編集する",
       "page": "library/subjects",
-      "url": "/htu/uni-note/library/subjects/",
+      "url": "/htu/uni-note/library/#subjects",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:828",
         "UI/BookshelfViewController.swift:1256",
         "UI/CreateNotebookViewController.swift:475"
-      ]
+      ],
+      "anchor": "subjects"
     },
     {
       "id": "N10",
       "title": "教科とフォルダを並べ替える",
       "page": "library/subjects",
-      "url": "/htu/uni-note/library/subjects/",
+      "url": "/htu/uni-note/library/#subjects",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1867",
         "UI/BookshelfViewController.swift:1911",
         "docs/FEATURE_BOOKSHELF_FOLDERS.md:33"
-      ]
+      ],
+      "anchor": "subjects"
     },
     {
       "id": "N56",
       "title": "教科をゴミ箱へ移す",
       "page": "library/subjects",
-      "url": "/htu/uni-note/library/subjects/",
+      "url": "/htu/uni-note/library/#subjects",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1672",
         "UI/BookshelfViewController.swift:1700"
-      ]
+      ],
+      "anchor": "subjects"
     },
     {
       "id": "N14",
       "title": "フォルダを作り複数の教科をまとめる",
       "page": "library/folders",
-      "url": "/htu/uni-note/library/folders/",
+      "url": "/htu/uni-note/library/#folders",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:793",
         "docs/FEATURE_BOOKSHELF_FOLDERS.md:25"
-      ]
+      ],
+      "anchor": "folders"
     },
     {
       "id": "N15",
       "title": "教科カードをドラッグしてフォルダへ移す",
       "page": "library/folders",
-      "url": "/htu/uni-note/library/folders/",
+      "url": "/htu/uni-note/library/#folders",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:2953",
         "UI/BookshelfViewController.swift:2032"
-      ]
+      ],
+      "anchor": "folders"
     },
     {
       "id": "N16",
       "title": "フォルダ内の教科・ノートを開く",
       "page": "library/folders",
-      "url": "/htu/uni-note/library/folders/",
+      "url": "/htu/uni-note/library/#folders",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1765",
         "docs/FEATURE_BOOKSHELF_FOLDERS.md:55"
-      ]
+      ],
+      "anchor": "folders"
     },
     {
       "id": "N17",
       "title": "フォルダ内の教科を並べ替える",
       "page": "library/folders",
-      "url": "/htu/uni-note/library/folders/",
+      "url": "/htu/uni-note/library/#folders",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_BOOKSHELF_FOLDERS.md:29",
         "UI/BookshelfViewController.swift:3938"
-      ]
+      ],
+      "anchor": "folders"
     },
     {
       "id": "N18",
       "title": "フォルダ名・色・所属教科を変更する",
       "page": "library/folders",
-      "url": "/htu/uni-note/library/folders/",
+      "url": "/htu/uni-note/library/#folders",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1791",
         "UI/BookshelfViewController.swift:2757"
-      ]
+      ],
+      "anchor": "folders"
     },
     {
       "id": "N19",
       "title": "教科をフォルダから出す",
       "page": "library/folders",
-      "url": "/htu/uni-note/library/folders/",
+      "url": "/htu/uni-note/library/#folders",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:4028",
         "docs/FEATURE_BOOKSHELF_FOLDERS.md:38"
-      ]
+      ],
+      "anchor": "folders"
     },
     {
       "id": "N20",
       "title": "フォルダだけを削除する",
       "page": "library/folders",
-      "url": "/htu/uni-note/library/folders/",
+      "url": "/htu/uni-note/library/#folders",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1831",
         "docs/FEATURE_BOOKSHELF_FOLDERS.md:42"
-      ]
+      ],
+      "anchor": "folders"
     },
     {
       "id": "N68",
       "title": "ドラッグで教科をフォルダから本棚へ戻す",
       "page": "library/folders",
-      "url": "/htu/uni-note/library/folders/",
+      "url": "/htu/uni-note/library/#folders",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:4053",
         "docs/FEATURE_BOOKSHELF_FOLDERS.md:38"
-      ]
+      ],
+      "anchor": "folders"
     },
     {
       "id": "N12",
       "title": "タイトルでノートを検索する",
       "page": "library/search",
-      "url": "/htu/uni-note/library/search/",
+      "url": "/htu/uni-note/library/#search",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:476",
         "UI/BookshelfViewController.swift:1643",
         "docs/FEATURE_NOTE_TITLE_SEARCH.md:11"
-      ]
+      ],
+      "anchor": "search"
     },
     {
       "id": "N13",
       "title": "検索を解除して本棚へ戻る",
       "page": "library/search",
-      "url": "/htu/uni-note/library/search/",
+      "url": "/htu/uni-note/library/#search",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_NOTE_TITLE_SEARCH.md:35",
         "UI/BookshelfViewController.swift:1235"
-      ]
+      ],
+      "anchor": "search"
     },
     {
       "id": "N06",
       "title": "教科カードからノート一覧を開く",
       "page": "notebooks/manage",
-      "url": "/htu/uni-note/notebooks/manage/",
+      "url": "/htu/uni-note/notebooks/#manage",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1463",
         "docs/FEATURE_BOOKSHELF_FOLDERS.md:46"
-      ]
+      ],
+      "anchor": "manage"
     },
     {
       "id": "N07",
       "title": "ノート画面から同じ教科のノートへ切り替える",
       "page": "notebooks/manage",
-      "url": "/htu/uni-note/notebooks/manage/",
+      "url": "/htu/uni-note/notebooks/#manage",
       "status": "documented",
       "evidence": [
         "UI/SectionListViewController.swift:160",
         "docs/FEATURE_NOTE_EDITOR.md:80"
-      ]
+      ],
+      "anchor": "manage"
     },
     {
       "id": "N08",
       "title": "新しいノートを追加する",
       "page": "notebooks/manage",
-      "url": "/htu/uni-note/notebooks/manage/",
+      "url": "/htu/uni-note/notebooks/#manage",
       "status": "documented",
       "evidence": [
         "UI/SectionListViewController.swift:529",
         "UI/SectionListViewController.swift:627"
-      ]
+      ],
+      "anchor": "manage"
     },
     {
       "id": "N09",
       "title": "ノート名を変更する",
       "page": "notebooks/manage",
-      "url": "/htu/uni-note/notebooks/manage/",
+      "url": "/htu/uni-note/notebooks/#manage",
       "status": "documented",
       "evidence": [
         "UI/SectionListViewController.swift:166",
         "UI/SectionListViewController.swift:529",
         "UI/SectionListViewController.swift:661"
-      ]
+      ],
+      "anchor": "manage"
     },
     {
       "id": "N11",
       "title": "同じ教科のノートを並べ替える",
       "page": "notebooks/manage",
-      "url": "/htu/uni-note/notebooks/manage/",
+      "url": "/htu/uni-note/notebooks/#manage",
       "status": "documented",
       "evidence": [
         "UI/SectionListViewController.swift:331",
         "UI/SectionListViewController.swift:470"
-      ]
+      ],
+      "anchor": "manage"
     },
     {
       "id": "N57",
       "title": "ノートをゴミ箱へ移す",
       "page": "notebooks/manage",
-      "url": "/htu/uni-note/notebooks/manage/",
+      "url": "/htu/uni-note/notebooks/#manage",
       "status": "documented",
       "evidence": [
         "UI/SectionListViewController.swift:201",
         "UI/SectionListViewController.swift:826"
-      ]
+      ],
+      "anchor": "manage"
     },
     {
       "id": "N21",
       "title": "通常ノートをスクロール・拡大縮小する",
       "page": "notebooks/pages",
-      "url": "/htu/uni-note/notebooks/pages/",
+      "url": "/htu/uni-note/notebooks/#pages",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:10943",
         "UI/NotebookViewController.swift:11223"
-      ]
+      ],
+      "anchor": "pages"
     },
     {
       "id": "N22",
       "title": "自動追加された次ページへ書き続ける",
       "page": "notebooks/pages",
-      "url": "/htu/uni-note/notebooks/pages/",
+      "url": "/htu/uni-note/notebooks/#pages",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:14442",
         "Domain/Section.swift:7"
-      ]
+      ],
+      "anchor": "pages"
     },
     {
       "id": "N25",
       "title": "ページ一覧から指定ページへ移動する",
       "page": "notebooks/pages",
-      "url": "/htu/uni-note/notebooks/pages/",
+      "url": "/htu/uni-note/notebooks/#pages",
       "status": "documented",
       "evidence": [
         "UI/ThumbnailGridViewController.swift:239",
         "UI/ThumbnailGridViewController.swift:272"
-      ]
+      ],
+      "anchor": "pages"
     },
     {
       "id": "N26",
       "title": "ページを並べ替える",
       "page": "notebooks/pages",
-      "url": "/htu/uni-note/notebooks/pages/",
+      "url": "/htu/uni-note/notebooks/#pages",
       "status": "documented",
       "evidence": [
         "UI/ThumbnailGridViewController.swift:366",
         "UI/ThumbnailGridViewController.swift:429",
         "docs/FEATURE_NOTE_EDITOR.md:87"
-      ]
+      ],
+      "anchor": "pages"
     },
     {
       "id": "N27",
       "title": "ページを削除する",
       "page": "notebooks/pages",
-      "url": "/htu/uni-note/notebooks/pages/",
+      "url": "/htu/uni-note/notebooks/#pages",
       "status": "documented",
       "evidence": [
         "UI/ThumbnailGridViewController.swift:563",
         "UI/ThumbnailGridViewController.swift:622",
         "UI/NotebookViewController.swift:10307"
-      ]
+      ],
+      "anchor": "pages"
     },
     {
       "id": "N63",
       "title": "ページが増やせないときに新しいノートへ続ける",
       "page": "notebooks/pages",
-      "url": "/htu/uni-note/notebooks/pages/",
+      "url": "/htu/uni-note/notebooks/#pages",
       "status": "documented",
       "evidence": [
         "Domain/Section.swift:7",
         "Persistence/DatabaseManager.swift:593",
         "UI/NotebookViewController.swift:14581"
-      ]
+      ],
+      "anchor": "pages"
     },
     {
       "id": "N23",
       "title": "縦ノートを新規作成する",
       "page": "notebooks/vertical",
-      "url": "/htu/uni-note/notebooks/vertical/",
+      "url": "/htu/uni-note/notebooks/#vertical",
       "status": "documented",
       "evidence": [
         "UI/CreateNotebookViewController.swift:288",
         "UI/CreateNotebookViewController.swift:614",
         "Domain/Notebook.swift:173",
         "UI/NotebookViewController.swift:11227"
-      ]
+      ],
+      "anchor": "vertical"
     },
     {
       "id": "N65",
       "title": "通常と縦ノートを目的で使い分ける",
       "page": "notebooks/vertical",
-      "url": "/htu/uni-note/notebooks/vertical/",
+      "url": "/htu/uni-note/notebooks/#vertical",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:11223",
         "Domain/PagePDFAttachment.swift:113",
         "UI/PageAssetView.swift:27"
-      ]
+      ],
+      "anchor": "vertical"
     },
     {
       "id": "N28",
       "title": "ペンで書き、ツールの詳細を開閉する",
       "page": "writing/pens",
-      "url": "/htu/uni-note/writing/pens/",
+      "url": "/htu/uni-note/writing/#pen",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:27998",
         "Drawing/ToolController.swift:322"
-      ]
+      ],
+      "anchor": "pen"
     },
     {
       "id": "N29",
       "title": "シャーペン・ボールペン・モノラインを選ぶ",
       "page": "writing/pens",
-      "url": "/htu/uni-note/writing/pens/",
+      "url": "/htu/uni-note/writing/#pen",
       "status": "documented",
       "evidence": [
         "Drawing/ToolController.swift:84",
         "UI/NotebookViewController.swift:28035",
         "ja.lproj/Localizable.strings:447"
-      ]
+      ],
+      "anchor": "pen"
     },
     {
       "id": "N30",
       "title": "ペンの色・太さを変える",
       "page": "writing/pens",
-      "url": "/htu/uni-note/writing/pens/",
+      "url": "/htu/uni-note/writing/#pen",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:28035",
         "Drawing/ToolController.swift:339"
-      ]
+      ],
+      "anchor": "pen"
     },
     {
       "id": "N31",
       "title": "カスタムペン色を設定する",
       "page": "writing/pens",
-      "url": "/htu/uni-note/writing/pens/",
+      "url": "/htu/uni-note/writing/#pen",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:28187",
         "UI/NotebookViewController.swift:28249",
         "docs/FEATURE_NOTE_EDITOR.md:89"
-      ]
+      ],
+      "anchor": "pen"
     },
     {
       "id": "N32",
       "title": "蛍光ペンを使う",
       "page": "writing/pens",
-      "url": "/htu/uni-note/writing/pens/",
+      "url": "/htu/uni-note/writing/#pen",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:28072",
         "Drawing/ToolController.swift:362"
-      ]
+      ],
+      "anchor": "pen"
     },
     {
       "id": "N33",
       "title": "蛍光ペンの濃さ・カスタム色を変える",
       "page": "writing/pens",
-      "url": "/htu/uni-note/writing/pens/",
+      "url": "/htu/uni-note/writing/#pen",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:28073",
         "UI/NotebookViewController.swift:28195",
         "Drawing/ToolController.swift:389"
-      ]
+      ],
+      "anchor": "pen"
     },
     {
       "id": "N34",
       "title": "線全体を消す",
       "page": "writing/erasing",
-      "url": "/htu/uni-note/writing/erasing/",
+      "url": "/htu/uni-note/writing/#eraser",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:28111",
         "Drawing/ToolController.swift:67",
         "ja.lproj/Localizable.strings:453"
-      ]
+      ],
+      "anchor": "eraser"
     },
     {
       "id": "N35",
       "title": "線の一部だけを消す",
       "page": "writing/erasing",
-      "url": "/htu/uni-note/writing/erasing/",
+      "url": "/htu/uni-note/writing/#eraser",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:28111",
         "Drawing/ToolController.swift:67",
         "ja.lproj/Localizable.strings:452"
-      ]
+      ],
+      "anchor": "eraser"
     },
     {
       "id": "N36",
       "title": "ページの手書きだけを一括削除する",
       "page": "writing/erasing",
-      "url": "/htu/uni-note/writing/erasing/",
+      "url": "/htu/uni-note/writing/#eraser",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:27877",
         "UI/NotebookViewController.swift:27919",
         "docs/FEATURE_NOTE_EDITOR.md:92"
-      ]
+      ],
+      "anchor": "eraser"
     },
     {
       "id": "N37",
       "title": "手書き操作を戻す・やり直す",
       "page": "writing/erasing",
-      "url": "/htu/uni-note/writing/erasing/",
+      "url": "/htu/uni-note/writing/#eraser",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:17220",
         "UI/NotebookViewController.swift:4601"
-      ]
+      ],
+      "anchor": "eraser"
     },
     {
       "id": "N38",
       "title": "Apple Pencilのダブルタップでペンと消しゴムを切り替える",
       "page": "writing/erasing",
-      "url": "/htu/uni-note/writing/erasing/",
+      "url": "/htu/uni-note/writing/#eraser",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:10928"
-      ]
+      ],
+      "anchor": "eraser"
     },
     {
       "id": "N39",
       "title": "パレットを好きな位置へ動かす",
       "page": "writing/palette",
-      "url": "/htu/uni-note/writing/palette/",
+      "url": "/htu/uni-note/writing/#palette",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:21181",
         "UI/ToolbarView.swift:340"
-      ]
+      ],
+      "anchor": "palette"
     },
     {
       "id": "N40",
       "title": "自動収納したパレットを再び開く",
       "page": "writing/palette",
-      "url": "/htu/uni-note/writing/palette/",
+      "url": "/htu/uni-note/writing/#palette",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:20397",
         "UI/NotebookViewController.swift:20409",
         "UI/NotebookViewController.swift:17244"
-      ]
+      ],
+      "anchor": "palette"
     },
     {
       "id": "N41",
       "title": "定規を出し移動する",
       "page": "writing/ruler",
-      "url": "/htu/uni-note/writing/ruler/",
+      "url": "/htu/uni-note/writing/#ruler",
       "status": "documented",
       "evidence": [
         "Drawing/RulerController.swift:46",
         "Drawing/RulerController.swift:114",
         "Drawing/RulerController.swift:302"
-      ]
+      ],
+      "anchor": "ruler"
     },
     {
       "id": "N42",
       "title": "定規の角度を調整する",
       "page": "writing/ruler",
-      "url": "/htu/uni-note/writing/ruler/",
+      "url": "/htu/uni-note/writing/#ruler",
       "status": "documented",
       "evidence": [
         "Drawing/RulerController.swift:55",
         "Drawing/RulerController.swift:316",
         "Drawing/RulerController.swift:369"
-      ]
+      ],
+      "anchor": "ruler"
     },
     {
       "id": "N43",
       "title": "定規に沿って直線・図表を描く",
       "page": "writing/ruler",
-      "url": "/htu/uni-note/writing/ruler/",
+      "url": "/htu/uni-note/writing/#ruler",
       "status": "documented",
       "evidence": [
         "Drawing/RulerController.swift:127",
         "Drawing/RulerController.swift:266",
         "Drawing/RulerController.swift:387"
-      ]
+      ],
+      "anchor": "ruler"
     },
     {
       "id": "M50",
       "title": "定規の角度の目安を使い蛍光ペンで直線を引く",
       "page": "writing/ruler",
-      "url": "/htu/uni-note/writing/ruler/",
+      "url": "/htu/uni-note/writing/#ruler",
       "status": "documented",
       "evidence": [
         "800c0c3:Drawing/RulerController.swift:365",
         "800c0c3:Drawing/RulerController.swift:387",
         "800c0c3:docs/FEATURE_RULER.md:23"
-      ]
+      ],
+      "anchor": "ruler"
     },
     {
       "id": "M51",
       "title": "定規を隠し通常の筆記へ戻る",
       "page": "writing/ruler",
-      "url": "/htu/uni-note/writing/ruler/",
+      "url": "/htu/uni-note/writing/#ruler",
       "status": "documented",
       "evidence": [
         "800c0c3:Drawing/RulerController.swift:114",
         "800c0c3:docs/FEATURE_RULER.md:28"
-      ]
+      ],
+      "anchor": "ruler"
     },
     {
       "id": "N44",
       "title": "手書きを囲んで同じページ内で移す",
       "page": "writing/move",
-      "url": "/htu/uni-note/writing/move/",
+      "url": "/htu/uni-note/writing/#selection",
       "status": "documented",
       "evidence": [
         "Drawing/RangeMoveController.swift:91",
         "Drawing/RangeMoveController.swift:169",
         "Drawing/RangeMoveController.swift:268",
         "UI/NotebookViewController.swift:26057"
-      ]
+      ],
+      "anchor": "selection"
     },
     {
       "id": "N45",
       "title": "範囲移動を取りやめる",
       "page": "writing/move",
-      "url": "/htu/uni-note/writing/move/",
+      "url": "/htu/uni-note/writing/#selection",
       "status": "documented",
       "evidence": [
         "Drawing/RangeMoveController.swift:110",
         "Drawing/RangeMoveController.swift:188",
         "UI/NotebookViewController.swift:26033"
-      ]
+      ],
+      "anchor": "selection"
     },
     {
       "id": "M01",
       "title": "写真を1枚貼り付ける",
       "page": "materials/photos",
-      "url": "/htu/uni-note/materials/photos/",
+      "url": "/htu/uni-note/materials/#photos",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:10171",
         "800c0c3:UI/NotebookViewController.swift:23635"
-      ]
+      ],
+      "anchor": "photos"
     },
     {
       "id": "M02",
       "title": "紙の資料を撮影して書類写真として貼り付ける",
       "page": "materials/photos",
-      "url": "/htu/uni-note/materials/photos/",
+      "url": "/htu/uni-note/materials/#photos",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:23552",
         "800c0c3:UI/DocumentPhotoAdjustmentViewController.swift:464",
         "800c0c3:UI/NotebookViewController.swift:25519"
-      ]
+      ],
+      "anchor": "photos"
     },
     {
       "id": "M03",
       "title": "保存済みの資料写真を四隅補正して貼る",
       "page": "materials/photos",
-      "url": "/htu/uni-note/materials/photos/",
+      "url": "/htu/uni-note/materials/#photos",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:23565",
         "800c0c3:UI/DocumentPhotoAdjustmentViewController.swift:415",
         "800c0c3:UI/DocumentPhotoAdjustmentViewController.swift:520"
-      ]
+      ],
+      "anchor": "photos"
     },
     {
       "id": "M04",
       "title": "PDFファイルを選んで1ページ貼る",
       "page": "materials/pdf",
-      "url": "/htu/uni-note/materials/pdf/",
+      "url": "/htu/uni-note/materials/#pdf",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:23648",
         "800c0c3:UI/PDFPagePickerViewController.swift:284",
         "800c0c3:UI/NotebookViewController.swift:24117"
-      ]
+      ],
+      "anchor": "pdf"
     },
     {
       "id": "M05",
       "title": "PDFを複数ページ選択・全選択・選択解除して貼る",
       "page": "materials/pdf",
-      "url": "/htu/uni-note/materials/pdf/",
+      "url": "/htu/uni-note/materials/#pdf",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/PDFPagePickerViewController.swift:319",
         "800c0c3:UI/PDFPagePickerViewController.swift:460",
         "800c0c3:UI/PDFPagePickerViewController.swift:492",
         "800c0c3:UI/NotebookViewController.swift:24001"
-      ]
+      ],
+      "anchor": "pdf"
     },
     {
       "id": "M06",
       "title": "見開きPDFを左右に分割して貼る",
       "page": "materials/pdf",
-      "url": "/htu/uni-note/materials/pdf/",
+      "url": "/htu/uni-note/materials/#pdf",
       "status": "documented",
       "evidence": [
         "800c0c3:Persistence/PagePDFAttachmentStore.swift:60",
         "800c0c3:UI/PDFPagePickerViewController.swift:229",
         "800c0c3:UI/NotebookViewController.swift:24022"
-      ]
+      ],
+      "anchor": "pdf"
     },
     {
       "id": "M07",
       "title": "資料の固定を解除して選択する",
       "page": "materials/arrange",
-      "url": "/htu/uni-note/materials/arrange/",
+      "url": "/htu/uni-note/materials/#arrange",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:16776",
         "800c0c3:UI/NotebookViewController.swift:22597"
-      ]
+      ],
+      "anchor": "arrange"
     },
     {
       "id": "M08",
       "title": "写真・書類写真・PDFを移動する",
       "page": "materials/arrange",
-      "url": "/htu/uni-note/materials/arrange/",
+      "url": "/htu/uni-note/materials/#arrange",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/PageAssetView.swift:604",
         "800c0c3:UI/NotebookViewController.swift:21060"
-      ]
+      ],
+      "anchor": "arrange"
     },
     {
       "id": "M09",
       "title": "写真・書類写真・PDFの大きさを変える",
       "page": "materials/arrange",
-      "url": "/htu/uni-note/materials/arrange/",
+      "url": "/htu/uni-note/materials/#arrange",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/PageAssetView.swift:568",
         "800c0c3:UI/NotebookViewController.swift:21080"
-      ]
+      ],
+      "anchor": "arrange"
     },
     {
       "id": "M10",
       "title": "書類写真・PDFを90度ずつ回転する",
       "page": "materials/arrange",
-      "url": "/htu/uni-note/materials/arrange/",
+      "url": "/htu/uni-note/materials/#arrange",
       "status": "documented",
       "evidence": [
         "800c0c3:Domain/PageAsset.swift:8",
         "800c0c3:UI/NotebookViewController.swift:22199",
         "800c0c3:UI/NotebookViewController.swift:22785"
-      ]
+      ],
+      "anchor": "arrange"
     },
     {
       "id": "M11",
       "title": "資料を固定し直して上から手書きする",
       "page": "materials/arrange",
-      "url": "/htu/uni-note/materials/arrange/",
+      "url": "/htu/uni-note/materials/#arrange",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:16776",
         "800c0c3:UI/NotebookViewController.swift:24113"
-      ]
+      ],
+      "anchor": "arrange"
     },
     {
       "id": "M12",
       "title": "貼り付けた写真・PDFを削除する",
       "page": "materials/arrange",
-      "url": "/htu/uni-note/materials/arrange/",
+      "url": "/htu/uni-note/materials/#arrange",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_NOTE_EDITOR.md:66",
         "800c0c3:UI/NotebookViewController.swift:16887",
         "800c0c3:UI/NotebookViewController.swift:23237"
-      ]
+      ],
+      "anchor": "arrange"
     },
     {
       "id": "M13",
       "title": "同じノートページへ複数のPDFを追加する",
       "page": "materials/arrange",
-      "url": "/htu/uni-note/materials/arrange/",
+      "url": "/htu/uni-note/materials/#arrange",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_NOTE_EDITOR.md:44",
         "800c0c3:UI/NotebookViewController.swift:24118"
-      ]
+      ],
+      "anchor": "arrange"
     },
     {
       "id": "M14",
       "title": "縦ノートでPDF・書類写真をページ全体に合わせる",
       "page": "materials/vertical",
-      "url": "/htu/uni-note/materials/vertical/",
+      "url": "/htu/uni-note/materials/#vertical",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_NOTE_EDITOR.md:58",
         "800c0c3:UI/PageAssetView.swift:150",
         "800c0c3:Domain/PagePDFAttachment.swift:123",
         "800c0c3:Domain/PagePDFAttachment.swift:321"
-      ]
+      ],
+      "anchor": "vertical"
     },
     {
       "id": "M15",
       "title": "縦ノートで普通の写真を大きく配置する",
       "page": "materials/vertical",
-      "url": "/htu/uni-note/materials/vertical/",
+      "url": "/htu/uni-note/materials/#vertical",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/PageAssetView.swift:10",
         "800c0c3:UI/PageAssetView.swift:92",
         "800c0c3:UI/PageAssetView.swift:310",
         "800c0c3:UI/PageAssetView.swift:568"
-      ]
+      ],
+      "anchor": "vertical"
     },
     {
       "id": "M17",
       "title": "このノートだけPDFに書き出す",
       "page": "materials/export",
-      "url": "/htu/uni-note/materials/export/",
+      "url": "/htu/uni-note/materials/#export",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/PDFExportScopeViewController.swift:61",
         "800c0c3:UI/PDFExportScopeViewController.swift:174",
         "800c0c3:UI/NotebookViewController.swift:25028"
-      ]
+      ],
+      "anchor": "export"
     },
     {
       "id": "M18",
       "title": "教科全体をPDFに書き出す",
       "page": "materials/export",
-      "url": "/htu/uni-note/materials/export/",
+      "url": "/htu/uni-note/materials/#export",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/PDFExportScopeViewController.swift:174",
         "800c0c3:ja.lproj/Localizable.strings:255"
-      ]
+      ],
+      "anchor": "export"
     },
     {
       "id": "S17",
       "title": "PDF書き出しの背景を紙色／白にする",
       "page": "materials/export",
-      "url": "/htu/uni-note/materials/export/",
+      "url": "/htu/uni-note/materials/#export",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3331-3352",
         "App/AppSessionStore.swift:826-840",
         "ja.lproj/Localizable.strings:345-349"
-      ]
+      ],
+      "anchor": "export"
     },
     {
       "id": "S42",
       "title": "印刷用PDFを白背景で作る",
       "page": "materials/export",
-      "url": "/htu/uni-note/materials/export/",
+      "url": "/htu/uni-note/materials/#export",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3331-3352",
         "ja.lproj/Localizable.strings:345-349"
-      ]
+      ],
+      "anchor": "export"
     },
     {
       "id": "M20",
       "title": "録音を開始する",
       "page": "recording/capture",
-      "url": "/htu/uni-note/recording/capture/",
+      "url": "/htu/uni-note/recording/#capture",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_RECORDING.md:53",
         "800c0c3:UI/NotebookViewController.swift:30253"
-      ]
+      ],
+      "anchor": "capture"
     },
     {
       "id": "M21",
       "title": "録音を一時停止・再開する",
       "page": "recording/capture",
-      "url": "/htu/uni-note/recording/capture/",
+      "url": "/htu/uni-note/recording/#capture",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:30406",
         "800c0c3:UI/LectureRecordingPanelView.swift:46"
-      ]
+      ],
+      "anchor": "capture"
     },
     {
       "id": "M22",
       "title": "録音を停止して保存する",
       "page": "recording/capture",
-      "url": "/htu/uni-note/recording/capture/",
+      "url": "/htu/uni-note/recording/#capture",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:30434",
         "800c0c3:UI/NotebookViewController.swift:30438"
-      ]
+      ],
+      "anchor": "capture"
     },
     {
       "id": "M23",
       "title": "長い授業の自動分割と5件上限を把握する",
       "page": "recording/capture",
-      "url": "/htu/uni-note/recording/capture/",
+      "url": "/htu/uni-note/recording/#capture",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:2083",
         "800c0c3:UI/NotebookViewController.swift:31399"
-      ]
+      ],
+      "anchor": "capture"
     },
     {
       "id": "M24",
       "title": "録音中にノートを閉じる・スリープするときの扱い",
       "page": "recording/capture",
-      "url": "/htu/uni-note/recording/capture/",
+      "url": "/htu/uni-note/recording/#capture",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:9283",
         "800c0c3:UI/NotebookViewController.swift:8965"
-      ]
+      ],
+      "anchor": "capture"
     },
     {
       "id": "M25",
       "title": "録音一覧から再生・一時停止する",
       "page": "recording/play",
-      "url": "/htu/uni-note/recording/play/",
+      "url": "/htu/uni-note/recording/#play",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/LectureRecordingPanelView.swift:1486",
         "800c0c3:UI/NotebookViewController.swift:30541"
-      ]
+      ],
+      "anchor": "play"
     },
     {
       "id": "M26",
       "title": "再生位置を移動し15秒戻す・進める",
       "page": "recording/play",
-      "url": "/htu/uni-note/recording/play/",
+      "url": "/htu/uni-note/recording/#play",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/LectureRecordingPanelView.swift:1615",
         "800c0c3:UI/LectureRecordingPanelView.swift:1642"
-      ]
+      ],
+      "anchor": "play"
     },
     {
       "id": "M27",
       "title": "録音の再生速度を変える",
       "page": "recording/play",
-      "url": "/htu/uni-note/recording/play/",
+      "url": "/htu/uni-note/recording/#play",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:30640"
-      ]
+      ],
+      "anchor": "play"
     },
     {
       "id": "M28",
       "title": "録音名を変更する",
       "page": "recording/play",
-      "url": "/htu/uni-note/recording/play/",
+      "url": "/htu/uni-note/recording/#play",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/LectureRecordingPanelView.swift:1585",
         "800c0c3:UI/NotebookViewController.swift:30648"
-      ]
+      ],
+      "anchor": "play"
     },
     {
       "id": "M29",
       "title": "録音音声を共有・ファイル保存する",
       "page": "recording/play",
-      "url": "/htu/uni-note/recording/play/",
+      "url": "/htu/uni-note/recording/#play",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/LectureRecordingPanelView.swift:1657",
         "800c0c3:UI/NotebookViewController.swift:30758"
-      ]
+      ],
+      "anchor": "play"
     },
     {
       "id": "M30",
       "title": "不要な録音を削除する",
       "page": "recording/play",
-      "url": "/htu/uni-note/recording/play/",
+      "url": "/htu/uni-note/recording/#play",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/LectureRecordingPanelView.swift:1651",
         "800c0c3:UI/NotebookViewController.swift:30726"
-      ]
+      ],
+      "anchor": "play"
     },
     {
       "id": "M32",
       "title": "文字起こし言語を選ぶ",
       "page": "recording/transcribe",
-      "url": "/htu/uni-note/recording/transcribe/",
+      "url": "/htu/uni-note/recording/#transcribe",
       "status": "documented",
       "evidence": [
         "800c0c3:Domain/LectureRecording.swift:350",
         "800c0c3:UI/NotebookViewController.swift:30785"
-      ]
+      ],
+      "anchor": "transcribe"
     },
     {
       "id": "M33",
       "title": "文字起こし対応条件と非対応時の録音を理解する",
       "page": "recording/transcribe",
-      "url": "/htu/uni-note/recording/transcribe/",
+      "url": "/htu/uni-note/recording/#transcribe",
       "status": "documented",
       "evidence": [
         "800c0c3:App/RealtimeLectureTranscriptionController.swift:66",
@@ -2521,142 +2793,154 @@
         "800c0c3:App/RealtimeLectureTranscriptionController.swift:804",
         "800c0c3:docs/FEATURE_RECORDING.md:62",
         "800c0c3:UI/NotebookViewController.swift:30273"
-      ]
+      ],
+      "anchor": "transcribe"
     },
     {
       "id": "M34",
       "title": "録音中の文字起こしを表示して手書きする",
       "page": "recording/transcribe",
-      "url": "/htu/uni-note/recording/transcribe/",
+      "url": "/htu/uni-note/recording/#transcribe",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_RECORDING.md:31",
         "800c0c3:UI/NotebookViewController.swift:29217",
         "800c0c3:UI/NotebookViewController.swift:30026"
-      ]
+      ],
+      "anchor": "transcribe"
     },
     {
       "id": "M35",
       "title": "保存した文字起こしを再生とともに読む",
       "page": "recording/transcribe",
-      "url": "/htu/uni-note/recording/transcribe/",
+      "url": "/htu/uni-note/recording/#transcribe",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/LectureRecordingPanelView.swift:997",
         "800c0c3:docs/FEATURE_RECORDING.md:95"
-      ]
+      ],
+      "anchor": "transcribe"
     },
     {
       "id": "M36",
       "title": "文字起こしのテキストを共有する",
       "page": "recording/transcribe",
-      "url": "/htu/uni-note/recording/transcribe/",
+      "url": "/htu/uni-note/recording/#transcribe",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:31010",
         "800c0c3:docs/FEATURE_RECORDING.md:46"
-      ]
+      ],
+      "anchor": "transcribe"
     },
     {
       "id": "M37",
       "title": "文字起こしからAI要約を作る",
       "page": "recording/summary",
-      "url": "/htu/uni-note/recording/summary/",
+      "url": "/htu/uni-note/recording/#summary",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:30834",
         "800c0c3:docs/FEATURE_RECORDING.md:37",
         "800c0c3:docs/FEATURE_RECORDING.md:49"
-      ]
+      ],
+      "anchor": "summary"
     },
     {
       "id": "M38",
       "title": "分割録音・複数録音をまとめて要約する",
       "page": "recording/summary",
-      "url": "/htu/uni-note/recording/summary/",
+      "url": "/htu/uni-note/recording/#summary",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:30952",
         "800c0c3:UI/NotebookViewController.swift:30987",
         "800c0c3:docs/FEATURE_RECORDING.md:47"
-      ]
+      ],
+      "anchor": "summary"
     },
     {
       "id": "M39",
       "title": "保存済みの文字起こしとAI要約を切り替える",
       "page": "recording/summary",
-      "url": "/htu/uni-note/recording/summary/",
+      "url": "/htu/uni-note/recording/#summary",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/LectureRecordingPanelView.swift:392",
         "800c0c3:UI/LectureRecordingPanelView.swift:877",
         "800c0c3:UI/NotebookViewController.swift:30817"
-      ]
+      ],
+      "anchor": "summary"
     },
     {
       "id": "M40",
       "title": "AI要約をテキストまたはJSONで共有する",
       "page": "recording/summary",
-      "url": "/htu/uni-note/recording/summary/",
+      "url": "/htu/uni-note/recording/#summary",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:31045",
         "800c0c3:UI/NotebookViewController.swift:31113"
-      ]
+      ],
+      "anchor": "summary"
     },
     {
       "id": "S43",
       "title": "AI要約の既定形式を変更する",
       "page": "recording/summary",
-      "url": "/htu/uni-note/recording/summary/",
+      "url": "/htu/uni-note/recording/#summary",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/SettingsViewController.swift:2307",
         "800c0c3:UI/SettingsViewController.swift:3270",
         "UI/NotebookViewController.swift:31132",
         "App/AppSessionStore.swift:4019"
-      ]
+      ],
+      "anchor": "summary"
     },
     {
       "id": "M41",
       "title": "AI要約をノートに貼って追記・暗記に使う",
       "page": "recording/paste",
-      "url": "/htu/uni-note/recording/paste/",
+      "url": "/htu/uni-note/recording/#paste",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:31080",
         "800c0c3:UI/NotebookViewController.swift:31138",
         "800c0c3:UI/NotebookViewController.swift:31251"
-      ]
+      ],
+      "anchor": "paste"
     },
     {
       "id": "M42",
       "title": "付箋マーカーをパレットに表示する",
       "page": "study/sticky",
-      "url": "/htu/uni-note/study/sticky/",
+      "url": "/htu/uni-note/study/#sticky",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_NOTE_EDITOR.md:11",
         "800c0c3:docs/FEATURE_NOTE_EDITOR.md:21"
-      ]
+      ],
+      "anchor": "sticky"
     },
     {
       "id": "M43",
       "title": "答えの上に付箋マーカーを引く",
       "page": "study/sticky",
-      "url": "/htu/uni-note/study/sticky/",
+      "url": "/htu/uni-note/study/#sticky",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:15875",
         "800c0c3:UI/NotebookViewController.swift:16253",
         "800c0c3:Drawing/StickyNoteOverlayView.swift:91"
-      ]
+      ],
+      "anchor": "sticky"
     },
     {
       "id": "M44",
       "title": "付箋マーカーの色・太さを選ぶ",
       "page": "study/sticky",
-      "url": "/htu/uni-note/study/sticky/",
+      "url": "/htu/uni-note/study/#sticky",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:28037",
@@ -2665,1051 +2949,1144 @@
         "800c0c3:UI/NotebookViewController.swift:17124",
         "800c0c3:UI/NotebookViewController.swift:25778",
         "800c0c3:Drawing/ToolController.swift:405"
-      ]
+      ],
+      "anchor": "sticky"
     },
     {
       "id": "M45",
       "title": "付箋をタップして答えを確認・隠し直す",
       "page": "study/sticky",
-      "url": "/htu/uni-note/study/sticky/",
+      "url": "/htu/uni-note/study/#sticky",
       "status": "documented",
       "evidence": [
         "800c0c3:Drawing/StickyNoteOverlayView.swift:31",
         "800c0c3:UI/NotebookViewController.swift:16348"
-      ]
+      ],
+      "anchor": "sticky"
     },
     {
       "id": "M46",
       "title": "付箋マーカーを削除する",
       "page": "study/sticky",
-      "url": "/htu/uni-note/study/sticky/",
+      "url": "/htu/uni-note/study/#sticky",
       "status": "documented",
       "evidence": [
         "800c0c3:Drawing/StickyNoteOverlayView.swift:37",
         "800c0c3:UI/NotebookViewController.swift:16362",
         "800c0c3:UI/NotebookViewController.swift:16426"
-      ]
+      ],
+      "anchor": "sticky"
     },
     {
       "id": "M62",
       "title": "対応Pencilのホバーで付箋の幅・色・向きを確認する",
       "page": "study/sticky",
-      "url": "/htu/uni-note/study/sticky/",
+      "url": "/htu/uni-note/study/#sticky",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/NotebookViewController.swift:16111",
         "800c0c3:Drawing/PencilCanvasView.swift:413",
         "https://support.apple.com/ja-jp/120123",
         "https://support.apple.com/ja-jp/108937"
-      ]
+      ],
+      "anchor": "sticky"
     },
     {
       "id": "M52",
       "title": "集中時間・休憩時間・セット数を決めて開始する",
       "page": "study/pomodoro",
-      "url": "/htu/uni-note/study/pomodoro/",
+      "url": "/htu/uni-note/study/#pomodoro",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:13",
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:65",
         "800c0c3:UI/PomodoroViewController.swift"
-      ]
+      ],
+      "anchor": "pomodoro"
     },
     {
       "id": "M53",
       "title": "集中・休憩を確認し途中で停止する",
       "page": "study/pomodoro",
-      "url": "/htu/uni-note/study/pomodoro/",
+      "url": "/htu/uni-note/study/#pomodoro",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:19",
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:66"
-      ]
+      ],
+      "anchor": "pomodoro"
     },
     {
       "id": "M54",
       "title": "既定の時間とセット数を変更する",
       "page": "study/pomodoro",
-      "url": "/htu/uni-note/study/pomodoro/",
+      "url": "/htu/uni-note/study/#pomodoro",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:27",
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:50"
-      ]
+      ],
+      "anchor": "pomodoro"
     },
     {
       "id": "M55",
       "title": "キャラクターを選ぶ・キャラなしにする",
       "page": "study/pomodoro",
-      "url": "/htu/uni-note/study/pomodoro/",
+      "url": "/htu/uni-note/study/#pomodoro",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:33",
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:50"
-      ]
+      ],
+      "anchor": "pomodoro"
     },
     {
       "id": "M56",
       "title": "ノートを切り替えても同じタイマーで勉強する",
       "page": "study/pomodoro",
-      "url": "/htu/uni-note/study/pomodoro/",
+      "url": "/htu/uni-note/study/#pomodoro",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:68",
         "800c0c3:docs/FEATURE_POMODORO_TIMER.md:85"
-      ]
+      ],
+      "anchor": "pomodoro"
     },
     {
       "id": "M57",
       "title": "Apple Pencilで一時的に指し示す",
       "page": "study/laser",
-      "url": "/htu/uni-note/study/laser/",
+      "url": "/htu/uni-note/study/#laser",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_LASER_POINTER.md:9",
         "800c0c3:Drawing/LaserPointerOverlayView.swift",
         "800c0c3:UI/NotebookViewController.swift:9807"
-      ]
+      ],
+      "anchor": "laser"
     },
     {
       "id": "M58",
       "title": "貼付PDFを指し示し、指でページ移動する",
       "page": "study/laser",
-      "url": "/htu/uni-note/study/laser/",
+      "url": "/htu/uni-note/study/#laser",
       "status": "documented",
       "evidence": [
         "800c0c3:docs/FEATURE_LASER_POINTER.md:12",
         "800c0c3:docs/FEATURE_LASER_POINTER.md:24"
-      ]
+      ],
+      "anchor": "laser"
     },
     {
       "id": "A02",
       "title": "囲って解答を開始して範囲を選ぶ",
       "page": "ai/answer",
-      "url": "/htu/uni-note/ai/answer/",
+      "url": "/htu/uni-note/ai/#answer",
       "status": "documented",
       "evidence": [
         "UI/ProblemAssistSelectionController.swift:7",
         "UI/NotebookViewController.swift:32489",
         "docs/FEATURE_AI_ASSISTANT.md:143"
-      ]
+      ],
+      "anchor": "answer"
     },
     {
       "id": "A03",
       "title": "予想消費量を確認して解答する",
       "page": "ai/answer",
-      "url": "/htu/uni-note/ai/answer/",
+      "url": "/htu/uni-note/ai/#answer",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_AI_ASSISTANT.md:143",
         "UI/ProblemAssistResultPresenter.swift:120"
-      ]
+      ],
+      "anchor": "answer"
     },
     {
       "id": "A04",
       "title": "囲みを取り消し通常の筆記へ戻る",
       "page": "ai/answer",
-      "url": "/htu/uni-note/ai/answer/",
+      "url": "/htu/uni-note/ai/#answer",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_AI_ASSISTANT.md:150",
         "UI/NotebookViewController.swift:32523"
-      ]
+      ],
+      "anchor": "answer"
     },
     {
       "id": "A05",
       "title": "解答をコピーする",
       "page": "ai/answer",
-      "url": "/htu/uni-note/ai/answer/",
+      "url": "/htu/uni-note/ai/#answer",
       "status": "documented",
       "evidence": [
         "UI/ProblemAssistResultPresenter.swift:965"
-      ]
+      ],
+      "anchor": "answer"
     },
     {
       "id": "A06",
       "title": "解答を共有する",
       "page": "ai/answer",
-      "url": "/htu/uni-note/ai/answer/",
+      "url": "/htu/uni-note/ai/#answer",
       "status": "documented",
       "evidence": [
         "UI/ProblemAssistResultPresenter.swift:977"
-      ]
+      ],
+      "anchor": "answer"
     },
     {
       "id": "A07",
       "title": "解答できない理由に応じて選び直す",
       "page": "ai/answer",
-      "url": "/htu/uni-note/ai/answer/",
+      "url": "/htu/uni-note/ai/#answer",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_AI_ASSISTANT.md:280",
         "ja.lproj/Localizable.strings:580"
-      ]
+      ],
+      "anchor": "answer"
     },
     {
       "id": "A08",
       "title": "貼ったPDF・書類写真の問題を囲って解答する",
       "page": "ai/answer",
-      "url": "/htu/uni-note/ai/answer/",
+      "url": "/htu/uni-note/ai/#answer",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_AI_ASSISTANT.md:147",
         "UI/ProblemAssistSelectionController.swift:12"
-      ]
+      ],
+      "anchor": "answer"
     },
     {
       "id": "A01",
       "title": "AI回答言語を選ぶ",
       "page": "ai/settings",
-      "url": "/htu/uni-note/ai/settings/",
+      "url": "/htu/uni-note/ai/#settings",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_AI_ASSISTANT.md:67",
         "UI/SettingsViewController.swift:3268"
-      ]
+      ],
+      "anchor": "settings"
     },
     {
       "id": "Q01",
       "title": "ノートから問題集生成を開く",
       "page": "problem-sets/generate",
-      "url": "/htu/uni-note/problem-sets/generate/",
+      "url": "/htu/uni-note/problem-sets/#generate",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_AI_ASSISTANT.md:115",
         "UI/NotebookViewController.swift:9436"
-      ]
+      ],
+      "anchor": "generate"
     },
     {
       "id": "Q02",
       "title": "生成対象ページを選択・解除する",
       "page": "problem-sets/generate",
-      "url": "/htu/uni-note/problem-sets/generate/",
+      "url": "/htu/uni-note/problem-sets/#generate",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:765",
         "UI/ProblemGenerationViewControllers.swift:1324",
         "App/ProblemSetGeneration.swift:56"
-      ]
+      ],
+      "anchor": "generate"
     },
     {
       "id": "Q03",
       "title": "目安問題数とAI消費量を確認して生成する",
       "page": "problem-sets/generate",
-      "url": "/htu/uni-note/problem-sets/generate/",
+      "url": "/htu/uni-note/problem-sets/#generate",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:782",
         "docs/FEATURE_AI_ASSISTANT.md:250"
-      ]
+      ],
+      "anchor": "generate"
     },
     {
       "id": "Q04",
       "title": "生成を中止する",
       "page": "problem-sets/generate",
-      "url": "/htu/uni-note/problem-sets/generate/",
+      "url": "/htu/uni-note/problem-sets/#generate",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:555",
         "UI/ProblemGenerationViewControllers.swift:1501"
-      ]
+      ],
+      "anchor": "generate"
     },
     {
       "id": "Q05",
       "title": "生成候補を追加・破棄する",
       "page": "problem-sets/generate",
-      "url": "/htu/uni-note/problem-sets/generate/",
+      "url": "/htu/uni-note/problem-sets/#generate",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:1693",
         "UI/ProblemGenerationViewControllers.swift:2148"
-      ]
+      ],
+      "anchor": "generate"
     },
     {
       "id": "Q06",
       "title": "左右スワイプで候補を素早く選別する",
       "page": "problem-sets/generate",
-      "url": "/htu/uni-note/problem-sets/generate/",
+      "url": "/htu/uni-note/problem-sets/#generate",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:1747",
         "UI/ProblemGenerationViewControllers.swift:1801"
-      ]
+      ],
+      "anchor": "generate"
     },
     {
       "id": "Q07",
       "title": "採用した問題へ名前を付けて保存する",
       "page": "problem-sets/generate",
-      "url": "/htu/uni-note/problem-sets/generate/",
+      "url": "/htu/uni-note/problem-sets/#generate",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:2401",
         "UI/ProblemGenerationViewControllers.swift:150"
-      ]
+      ],
+      "anchor": "generate"
     },
     {
       "id": "Q08",
       "title": "保存した問題集を開く",
       "page": "problem-sets/review",
-      "url": "/htu/uni-note/problem-sets/review/",
+      "url": "/htu/uni-note/problem-sets/#review",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:2311",
         "UI/ProblemGenerationViewControllers.swift:3078",
         "docs/FEATURE_AI_ASSISTANT.md:119"
-      ]
+      ],
+      "anchor": "review"
     },
     {
       "id": "Q09",
       "title": "答えを隠して思い出し、タップして確認する",
       "page": "problem-sets/review",
-      "url": "/htu/uni-note/problem-sets/review/",
+      "url": "/htu/uni-note/problem-sets/#review",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:1693",
         "UI/ProblemGenerationViewControllers.swift:2148"
-      ]
+      ],
+      "anchor": "review"
     },
     {
       "id": "Q10",
       "title": "前後の問題へ移動する",
       "page": "problem-sets/review",
-      "url": "/htu/uni-note/problem-sets/review/",
+      "url": "/htu/uni-note/problem-sets/#review",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:1717",
         "UI/ProblemGenerationViewControllers.swift:1801"
-      ]
+      ],
+      "anchor": "review"
     },
     {
       "id": "Q11",
       "title": "問題集を手動で新規作成する",
       "page": "problem-sets/edit",
-      "url": "/htu/uni-note/problem-sets/edit/",
+      "url": "/htu/uni-note/problem-sets/#edit",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1209",
         "UI/ProblemGenerationViewControllers.swift:2705"
-      ]
+      ],
+      "anchor": "edit"
     },
     {
       "id": "Q12",
       "title": "既存問題集のタイトル・問題・解答・解説を編集する",
       "page": "problem-sets/edit",
-      "url": "/htu/uni-note/problem-sets/edit/",
+      "url": "/htu/uni-note/problem-sets/#edit",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:2724",
         "UI/ProblemGenerationViewControllers.swift:2797"
-      ]
+      ],
+      "anchor": "edit"
     },
     {
       "id": "Q13",
       "title": "問題を追加する",
       "page": "problem-sets/edit",
-      "url": "/htu/uni-note/problem-sets/edit/",
+      "url": "/htu/uni-note/problem-sets/#edit",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:2838",
         "UI/ProblemGenerationViewControllers.swift:2883"
-      ]
+      ],
+      "anchor": "edit"
     },
     {
       "id": "Q14",
       "title": "問題を削除する",
       "page": "problem-sets/edit",
-      "url": "/htu/uni-note/problem-sets/edit/",
+      "url": "/htu/uni-note/problem-sets/#edit",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:2585",
         "docs/FEATURE_AI_ASSISTANT.md:257"
-      ]
+      ],
+      "anchor": "edit"
     },
     {
       "id": "Q15",
       "title": "未保存変更を破棄する／入力不備を直す",
       "page": "problem-sets/edit",
-      "url": "/htu/uni-note/problem-sets/edit/",
+      "url": "/htu/uni-note/problem-sets/#edit",
       "status": "documented",
       "evidence": [
         "UI/ProblemGenerationViewControllers.swift:3035",
         "UI/ProblemGenerationViewControllers.swift:3057"
-      ]
+      ],
+      "anchor": "edit"
     },
     {
       "id": "Q16",
       "title": "問題集全体を削除する",
       "page": "problem-sets/edit",
-      "url": "/htu/uni-note/problem-sets/edit/",
+      "url": "/htu/uni-note/problem-sets/#edit",
       "status": "documented",
       "evidence": [
         "UI/BookshelfViewController.swift:1687",
         "UI/BookshelfViewController.swift:2742"
-      ]
+      ],
+      "anchor": "edit"
     },
     {
       "id": "Q18",
       "title": "ホームの問題集を非表示にし、再表示する",
       "page": "problem-sets/home",
-      "url": "/htu/uni-note/problem-sets/home/",
+      "url": "/htu/uni-note/problem-sets/#home",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/SettingsViewController.swift:2264",
         "800c0c3:App/AppSessionStore.swift:3631",
         "UI/BookshelfViewController.swift:666",
         "ja.lproj/Localizable.strings:874"
-      ]
+      ],
+      "anchor": "home"
     },
     {
       "id": "S01",
       "title": "設定トップとカテゴリへ移動する",
       "page": "customize/settings",
-      "url": "/htu/uni-note/customize/settings/",
+      "url": "/htu/uni-note/customize/#settings",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:44-268"
-      ]
+      ],
+      "anchor": "settings"
     },
     {
       "id": "S02",
       "title": "新規ノートの既定テンプレートを決める",
       "page": "customize/paper",
-      "url": "/htu/uni-note/customize/paper/",
+      "url": "/htu/uni-note/customize/#paper",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:1890-1940",
         "UI/SettingsViewController.swift:6121-6140",
         "App/AppSessionStore.swift:3019"
-      ]
+      ],
+      "anchor": "paper"
     },
     {
       "id": "S03",
       "title": "新規ノートの既定ベース色を決める",
       "page": "customize/paper",
-      "url": "/htu/uni-note/customize/paper/",
+      "url": "/htu/uni-note/customize/#paper",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:6141-6160",
         "UI/SettingsViewController.swift:3232-3244"
-      ]
+      ],
+      "anchor": "paper"
     },
     {
       "id": "S04",
       "title": "縦ノートの既定値を設定する",
       "page": "customize/paper",
-      "url": "/htu/uni-note/customize/paper/",
+      "url": "/htu/uni-note/customize/#paper",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:5784-5797",
         "docs/FEATURE_NOTE_EDITOR.md:90"
-      ]
+      ],
+      "anchor": "paper"
     },
     {
       "id": "S05",
       "title": "左利きモードを一括で設定する",
       "page": "customize/paper",
-      "url": "/htu/uni-note/customize/paper/",
+      "url": "/htu/uni-note/customize/#paper",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:1955-1967",
         "App/AppSessionStore.swift:2926-2996"
-      ]
+      ],
+      "anchor": "paper"
     },
     {
       "id": "S06",
       "title": "パレットの基準位置を左右で選ぶ",
       "page": "customize/paper",
-      "url": "/htu/uni-note/customize/paper/",
+      "url": "/htu/uni-note/customize/#paper",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:6164-6180",
         "App/AppSessionStore.swift:2972-2983"
-      ]
+      ],
+      "anchor": "paper"
     },
     {
       "id": "S07",
       "title": "横罫ノートの赤縦線の位置を変える",
       "page": "customize/paper",
-      "url": "/htu/uni-note/customize/paper/",
+      "url": "/htu/uni-note/customize/#paper",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:6164-6180",
         "App/AppSessionStore.swift:2964-2981"
-      ]
+      ],
+      "anchor": "paper"
     },
     {
       "id": "S08",
       "title": "PDF貼付の初期位置を左右で選ぶ",
       "page": "customize/paper",
-      "url": "/htu/uni-note/customize/paper/",
+      "url": "/htu/uni-note/customize/#paper",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:6164-6180",
         "App/AppSessionStore.swift:2979-2996"
-      ]
+      ],
+      "anchor": "paper"
     },
     {
       "id": "S09",
       "title": "ヘッダー・フッターの4隅に情報を置く",
       "page": "customize/paper",
-      "url": "/htu/uni-note/customize/paper/",
+      "url": "/htu/uni-note/customize/#paper",
       "status": "documented",
       "evidence": [
         "App/AppSessionStore.swift:727-823",
         "UI/SettingsViewController.swift:3020-3038",
         "UI/SettingsViewController.swift:6182-6197"
-      ]
+      ],
+      "anchor": "paper"
     },
     {
       "id": "S10",
       "title": "パレットの自動収納を設定する",
       "page": "customize/display",
-      "url": "/htu/uni-note/customize/display/",
+      "url": "/htu/uni-note/customize/#display",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:1854-1863",
         "App/AppSessionStore.swift:2908-2917",
         "ja.lproj/Localizable.strings:306-320"
-      ]
+      ],
+      "anchor": "display"
     },
     {
       "id": "S11",
       "title": "起動時に開く画面を選ぶ",
       "page": "customize/display",
-      "url": "/htu/uni-note/customize/display/",
+      "url": "/htu/uni-note/customize/#display",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3154-3180"
-      ]
+      ],
+      "anchor": "display"
     },
     {
       "id": "S12",
       "title": "教科を最近開いた順に自動で並べる",
       "page": "customize/display",
-      "url": "/htu/uni-note/customize/display/",
+      "url": "/htu/uni-note/customize/#display",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:2230-2238",
         "UI/SettingsViewController.swift:4518-4523"
-      ]
+      ],
+      "anchor": "display"
     },
     {
       "id": "S13",
       "title": "教科の呼び方を変える",
       "page": "customize/display",
-      "url": "/htu/uni-note/customize/display/",
+      "url": "/htu/uni-note/customize/#display",
       "status": "documented",
       "evidence": [
         "App/AppSessionStore.swift:565-602",
         "UI/SettingsViewController.swift:3183-3203"
-      ]
+      ],
+      "anchor": "display"
     },
     {
       "id": "S14",
       "title": "ノート表示中の自動スリープを防ぐ",
       "page": "customize/display",
-      "url": "/htu/uni-note/customize/display/",
+      "url": "/htu/uni-note/customize/#display",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:2262-2271",
         "App/AppSessionStore.swift:3716-3731"
-      ]
+      ],
+      "anchor": "display"
     },
     {
       "id": "S15",
       "title": "保護解除時の認証を設定する",
       "page": "customize/display",
-      "url": "/htu/uni-note/customize/display/",
+      "url": "/htu/uni-note/customize/#display",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:2271-2281",
         "App/AppSessionStore.swift:4060-4069",
         "UI/SectionListViewController.swift:761-809"
-      ]
+      ],
+      "anchor": "display"
     },
     {
       "id": "S16",
       "title": "アプリの表示言語を変更する",
       "page": "customize/display",
-      "url": "/htu/uni-note/customize/display/",
+      "url": "/htu/uni-note/customize/#display",
       "status": "documented",
       "evidence": [
         "App/AppSessionStore.swift:6-39",
         "UI/SettingsViewController.swift:3247-3266",
         "UI/SettingsViewController.swift:1345-1371"
-      ]
+      ],
+      "anchor": "display"
     },
     {
       "id": "N46",
       "title": "ナビゲーションのボタン順を変更する",
       "page": "customize/toolbar",
-      "url": "/htu/uni-note/customize/toolbar/",
+      "url": "/htu/uni-note/customize/#toolbar",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_NOTE_EDITOR.md:24",
         "App/AppSessionStore.swift:1238",
         "UI/SettingsViewController.swift:10359"
-      ]
+      ],
+      "anchor": "toolbar"
     },
     {
       "id": "N47",
       "title": "ボタンを「…」メニューへ移し順番を変える",
       "page": "customize/toolbar",
-      "url": "/htu/uni-note/customize/toolbar/",
+      "url": "/htu/uni-note/customize/#toolbar",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_NOTE_EDITOR.md:26",
         "UI/SettingsViewController.swift:9868"
-      ]
+      ],
+      "anchor": "toolbar"
     },
     {
       "id": "N48",
       "title": "ボタンを非表示にし、再表示する",
       "page": "customize/toolbar",
-      "url": "/htu/uni-note/customize/toolbar/",
+      "url": "/htu/uni-note/customize/#toolbar",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:9885",
         "ja.lproj/Localizable.strings:856",
         "docs/FEATURE_NOTE_EDITOR.md:26"
-      ]
+      ],
+      "anchor": "toolbar"
     },
     {
       "id": "N49",
       "title": "パレットのツールを並べ替える",
       "page": "customize/toolbar",
-      "url": "/htu/uni-note/customize/toolbar/",
+      "url": "/htu/uni-note/customize/#toolbar",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_NOTE_EDITOR.md:30",
         "UI/SettingsViewController.swift:9897"
-      ]
+      ],
+      "anchor": "toolbar"
     },
     {
       "id": "N50",
       "title": "パレットのツールを非表示・再表示する",
       "page": "customize/toolbar",
-      "url": "/htu/uni-note/customize/toolbar/",
+      "url": "/htu/uni-note/customize/#toolbar",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_NOTE_EDITOR.md:34",
         "UI/SettingsViewController.swift:9885"
-      ]
+      ],
+      "anchor": "toolbar"
     },
     {
       "id": "N51",
       "title": "配置を初期状態へ戻す",
       "page": "customize/toolbar",
-      "url": "/htu/uni-note/customize/toolbar/",
+      "url": "/htu/uni-note/customize/#toolbar",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:10403",
         "UI/SettingsViewController.swift:10426"
-      ]
+      ],
+      "anchor": "toolbar"
     },
     {
       "id": "N66",
       "title": "ドラッグせずタップメニューで配置を変える",
       "page": "customize/toolbar",
-      "url": "/htu/uni-note/customize/toolbar/",
+      "url": "/htu/uni-note/customize/#toolbar",
       "status": "documented",
       "evidence": [
         "800c0c3:UI/SettingsViewController.swift:9909",
         "800c0c3:ja.lproj/Localizable.strings:862"
-      ]
+      ],
+      "anchor": "toolbar"
     },
     {
       "id": "S25",
       "title": "ノートを書き込みから保護する",
       "page": "data/protect",
-      "url": "/htu/uni-note/data/protect/",
+      "url": "/htu/uni-note/data/#protect",
       "status": "documented",
       "evidence": [
         "UI/SectionListViewController.swift:179-206",
         "UI/SectionListViewController.swift:743-758"
-      ]
+      ],
+      "anchor": "protect"
     },
     {
       "id": "S26",
       "title": "保護したノートを解除する",
       "page": "data/protect",
-      "url": "/htu/uni-note/data/protect/",
+      "url": "/htu/uni-note/data/#protect",
       "status": "documented",
       "evidence": [
         "UI/SectionListViewController.swift:187-199",
         "UI/SectionListViewController.swift:761-826"
-      ]
+      ],
+      "anchor": "protect"
     },
     {
       "id": "S27",
       "title": "ゴミ箱で削除したノートを探す",
       "page": "data/trash",
-      "url": "/htu/uni-note/data/trash/",
+      "url": "/htu/uni-note/data/#trash",
       "status": "documented",
       "evidence": [
         "UI/TrashViewController.swift:68-119",
         "UI/TrashViewController.swift:124-165"
-      ]
+      ],
+      "anchor": "trash"
     },
     {
       "id": "S28",
       "title": "ゴミ箱から個別ノートを復元する",
       "page": "data/trash",
-      "url": "/htu/uni-note/data/trash/",
+      "url": "/htu/uni-note/data/#trash",
       "status": "documented",
       "evidence": [
         "UI/TrashViewController.swift:110-119",
         "UI/TrashViewController.swift:270-282",
         "Persistence/DatabaseManager.swift:2427-2429",
         "Persistence/DatabaseManager.swift:3799"
-      ]
+      ],
+      "anchor": "trash"
     },
     {
       "id": "S29",
       "title": "ゴミ箱から教科を復元する",
       "page": "data/trash",
-      "url": "/htu/uni-note/data/trash/",
+      "url": "/htu/uni-note/data/#trash",
       "status": "documented",
       "evidence": [
         "UI/TrashViewController.swift:82-105",
         "Persistence/DatabaseManager.swift:2381-2424"
-      ]
+      ],
+      "anchor": "trash"
     },
     {
       "id": "S30",
       "title": "ゴミ箱のデータを完全に削除する",
       "page": "data/trash",
-      "url": "/htu/uni-note/data/trash/",
+      "url": "/htu/uni-note/data/#trash",
       "status": "documented",
       "evidence": [
         "UI/TrashViewController.swift:285-316",
         "ja.lproj/Localizable.strings:465-473"
-      ]
+      ],
+      "anchor": "trash"
     },
     {
       "id": "S31",
       "title": "30日の保存期限と復元できない削除を区別する",
       "page": "data/trash",
-      "url": "/htu/uni-note/data/trash/",
+      "url": "/htu/uni-note/data/#trash",
       "status": "documented",
       "evidence": [
         "Persistence/DatabaseManager.swift:3757-3790",
         "App/AppSessionStore.swift:2999-3010",
         "content/htu/uni-note.md:112-115"
-      ]
+      ],
+      "anchor": "trash"
     },
     {
       "id": "S18",
       "title": "ファイルバックアップとかんたんバックアップを選び分ける",
       "page": "backup/save",
-      "url": "/htu/uni-note/backup/save/",
+      "url": "/htu/uni-note/backup/#save",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_BACKUP_RESTORE.md:5-25",
         "UI/SettingsViewController.swift:601-689",
         "UI/SettingsViewController.swift:2397-2442"
-      ]
+      ],
+      "anchor": "save"
     },
     {
       "id": "S19",
       "title": "録音音声を含めるか選ぶ",
       "page": "backup/save",
-      "url": "/htu/uni-note/backup/save/",
+      "url": "/htu/uni-note/backup/#save",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3450-3495",
         "UI/SettingsViewController.swift:3545-3574",
         "docs/FEATURE_BACKUP_RESTORE.md:25-59"
-      ]
+      ],
+      "anchor": "save"
     },
     {
       "id": "S20",
       "title": "バックアップファイルを書き出す",
       "page": "backup/save",
-      "url": "/htu/uni-note/backup/save/",
+      "url": "/htu/uni-note/backup/#save",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3450-3543",
         "UI/SettingsViewController.swift:3770-3805",
         "UI/SettingsViewController.swift:4161"
-      ]
+      ],
+      "anchor": "save"
     },
     {
       "id": "S21",
       "title": "かんたんバックアップを更新する",
       "page": "backup/save",
-      "url": "/htu/uni-note/backup/save/",
+      "url": "/htu/uni-note/backup/#save",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:2397-2406",
         "UI/SettingsViewController.swift:3545-3610",
         "Backup/BackupManager.swift:659-714"
-      ]
+      ],
+      "anchor": "save"
     },
     {
       "id": "S22",
       "title": "バックアップファイルから復元する",
       "page": "backup/restore",
-      "url": "/htu/uni-note/backup/restore/",
+      "url": "/htu/uni-note/backup/#restore",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3705-3722",
         "UI/SettingsViewController.swift:3809-3840",
         "UI/SettingsViewController.swift:4151-4159",
         "Backup/BackupManager.swift:1861-1957"
-      ]
+      ],
+      "anchor": "restore"
     },
     {
       "id": "S23",
       "title": "かんたんバックアップから復元する",
       "page": "backup/restore",
-      "url": "/htu/uni-note/backup/restore/",
+      "url": "/htu/uni-note/backup/#restore",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:2402-2406",
         "UI/SettingsViewController.swift:3725-3768",
         "UI/SettingsViewController.swift:4151-4159"
-      ]
+      ],
+      "anchor": "restore"
     },
     {
       "id": "S24",
       "title": "バックアップ／復元に失敗したとき確認する",
       "page": "backup/restore",
-      "url": "/htu/uni-note/backup/restore/",
+      "url": "/htu/uni-note/backup/#restore",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_BACKUP_RESTORE.md:61-70",
         "ja.lproj/Localizable.strings:2-14",
         "ja.lproj/Localizable.strings:53-60"
-      ]
+      ],
+      "anchor": "restore"
     },
     {
       "id": "P01",
       "title": "Free・Premium・Premium Plusの利用条件を確認する",
       "page": "plans/usage",
-      "url": "/htu/uni-note/plans/usage/",
+      "url": "/htu/uni-note/plans/#usage",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_SUBSCRIPTION.md:18",
         "UI/SettingsViewController.swift:7366"
-      ]
+      ],
+      "anchor": "usage"
     },
     {
       "id": "P02",
       "title": "買い切りPremiumの購入手順を確認する",
       "page": "plans/usage",
-      "url": "/htu/uni-note/plans/usage/",
+      "url": "/htu/uni-note/plans/#usage",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:8207",
         "UI/SettingsViewController.swift:8277"
-      ]
+      ],
+      "anchor": "usage"
     },
     {
       "id": "P04",
       "title": "AI残量の合計と内訳を確認する",
       "page": "plans/usage",
-      "url": "/htu/uni-note/plans/usage/",
+      "url": "/htu/uni-note/plans/#usage",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_SUBSCRIPTION.md:25",
         "UI/SettingsViewController.swift:3368"
-      ]
+      ],
+      "anchor": "usage"
     },
     {
       "id": "P05",
       "title": "AI残量パックを選び追加する",
       "page": "plans/usage",
-      "url": "/htu/uni-note/plans/usage/",
+      "url": "/htu/uni-note/plans/#usage",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_SUBSCRIPTION.md:50",
         "UI/SettingsViewController.swift:8277"
-      ]
+      ],
+      "anchor": "usage"
     },
     {
       "id": "P06",
       "title": "購入状態を更新する",
       "page": "plans/usage",
-      "url": "/htu/uni-note/plans/usage/",
+      "url": "/htu/uni-note/plans/#usage",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:8291",
         "docs/FEATURE_SUBSCRIPTION.md:34"
-      ]
+      ],
+      "anchor": "usage"
     },
     {
       "id": "P07",
       "title": "月次付与分と購入分の違いを理解する",
       "page": "plans/usage",
-      "url": "/htu/uni-note/plans/usage/",
+      "url": "/htu/uni-note/plans/#usage",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_SUBSCRIPTION.md:66",
         "docs/FEATURE_SUBSCRIPTION.md:91"
-      ]
+      ],
+      "anchor": "usage"
     },
     {
       "id": "P08",
       "title": "残量不足・購入情報未取得・付与待ちを区別する",
       "page": "plans/usage",
-      "url": "/htu/uni-note/plans/usage/",
+      "url": "/htu/uni-note/plans/#usage",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_SUBSCRIPTION.md:162",
         "UI/ProblemGenerationViewControllers.swift:903",
         "UI/SettingsViewController.swift:8305"
-      ]
+      ],
+      "anchor": "usage"
     },
     {
       "id": "S32",
       "title": "使い方とプライバシーポリシーをアプリから開く",
       "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/help/",
+      "url": "/htu/uni-note/troubleshooting/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:695-844",
         "UI/SettingsViewController.swift:3977-4009"
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "S33",
       "title": "フォームで意見や質問を送る",
       "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/help/",
+      "url": "/htu/uni-note/troubleshooting/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:733-740",
         "docs/FEATURE_DIAGNOSTICS.md:15-30"
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "S34",
       "title": "メールで詳細な不具合を問い合わせる",
       "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/help/",
+      "url": "/htu/uni-note/troubleshooting/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3842-3866",
         "UI/SettingsViewController.swift:4126-4148",
         "docs/FEATURE_DIAGNOSTICS.md:15-30"
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "S35",
       "title": "サポート情報をコピーする",
       "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/help/",
+      "url": "/htu/uni-note/troubleshooting/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3992-4000",
         "docs/FEATURE_DIAGNOSTICS.md:27-30"
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "S36",
       "title": "App Storeでレビューする",
       "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/help/",
+      "url": "/htu/uni-note/troubleshooting/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:3977-3989",
         "UI/SettingsViewController.swift:739-740"
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "S37",
       "title": "Uni:Note Pocketの案内を開く・リンクを共有する",
       "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/help/",
+      "url": "/htu/uni-note/troubleshooting/#help",
       "status": "documented",
       "evidence": [
         "UI/SettingsViewController.swift:4011-4073"
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "S38",
       "title": "更新内容・既知の問題・今後の開発を確認する",
       "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/help/",
+      "url": "/htu/uni-note/troubleshooting/#help",
       "status": "documented",
       "evidence": [
         "docs/FEATURE_NEWS.md:5-32",
         "UI/SettingsViewController.swift:3425-3427",
         "UI/SettingsViewController.swift:4620-4799"
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "S40",
       "title": "新しいバージョンの案内からApp Storeを開く",
       "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/help/",
+      "url": "/htu/uni-note/troubleshooting/#help",
       "status": "documented",
       "evidence": [
         "App/ReviewPromptController.swift:305-355",
         "App/ReviewPromptController.swift:422-445",
         "ja.lproj/Localizable.strings:175-180"
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "S41",
       "title": "クラッシュ後にホームへ戻ったとき対応する",
       "page": "troubleshooting/help",
-      "url": "/htu/uni-note/troubleshooting/help/",
+      "url": "/htu/uni-note/troubleshooting/#help",
       "status": "documented",
       "evidence": [
         "ja.lproj/Localizable.strings:161",
         "ja.lproj/Localizable.strings:955-957",
         "docs/FEATURE_DIAGNOSTICS.md:95-120",
         "UI/SectionListViewController.swift:681-738"
-      ]
+      ],
+      "anchor": "help"
     },
     {
       "id": "O01",
       "title": "Uni:Noteを2つ開く",
       "page": "ipados/windows",
-      "url": "/htu/uni-note/ipados/windows/",
+      "url": "/htu/uni-note/ipados/#windows",
       "status": "documented",
       "evidence": [
         "App/Info.plist:39",
         "App/SceneDelegate.swift:45",
         "https://support.apple.com/ja-jp/guide/ipad/ipad8dfdf86b/ipados"
-      ]
+      ],
+      "anchor": "windows"
     },
     {
       "id": "O03",
       "title": "開いているUni:Noteウインドウを選び直す／閉じる",
       "page": "ipados/windows",
-      "url": "/htu/uni-note/ipados/windows/",
+      "url": "/htu/uni-note/ipados/#windows",
       "status": "documented",
       "evidence": [
         "https://support.apple.com/ja-jp/guide/ipad/ipad8dfdf86b/ipados",
         "https://support.apple.com/ja-jp/125309"
-      ]
+      ],
+      "anchor": "windows"
     },
     {
       "id": "O06",
       "title": "ファイルに保存した資料をUni:Noteへ取り込む",
       "page": "ipados/files",
-      "url": "/htu/uni-note/ipados/files/",
+      "url": "/htu/uni-note/ipados/#files",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:23735",
         "UI/NotebookViewController.swift:23916",
         "UI/PDFPagePickerViewController.swift:1"
-      ]
+      ],
+      "anchor": "files"
     },
     {
       "id": "O07",
       "title": "書き出したPDFをファイルへ保存／OS共有する",
       "page": "ipados/files",
-      "url": "/htu/uni-note/ipados/files/",
+      "url": "/htu/uni-note/ipados/#files",
       "status": "documented",
       "evidence": [
         "UI/NotebookViewController.swift:10284",
         "UI/NotebookViewController.swift:25115",
         "UI/PDFExportScopeViewController.swift:1"
-      ]
+      ],
+      "anchor": "files"
     },
     {
       "id": "N60",
@@ -3795,31 +4172,31 @@
     }
   ],
   "anchors": {
-    "1-ホームで教科とフォルダを整理する": "/htu/uni-note/start/first-note/",
-    "2-最初のノートを開く": "/htu/uni-note/start/first-note/",
-    "create": "/htu/uni-note/start/first-note/",
-    "3-apple-pencilで書く": "/htu/uni-note/writing/pens/",
-    "4-2本指でズームする": "/htu/uni-note/writing/pens/",
-    "5-ツールを切り替える": "/htu/uni-note/writing/pens/",
-    "9-定規-を使う": "/htu/uni-note/writing/ruler/",
-    "write": "/htu/uni-note/writing/pens/",
-    "6-ノート一覧-と-ページ一覧-を使う": "/htu/uni-note/notebooks/manage/",
-    "find": "/htu/uni-note/notebooks/manage/",
-    "7-その他-メニューを使う": "/htu/uni-note/materials/pdf/",
-    "8-写真とpdfを使う": "/htu/uni-note/materials/pdf/",
-    "pdf": "/htu/uni-note/materials/pdf/",
-    "10-録音文字起こしai要約を使う": "/htu/uni-note/recording/capture/",
-    "recording": "/htu/uni-note/recording/capture/",
-    "11-暗記を使う": "/htu/uni-note/study/sticky/",
-    "12-囲って解答アシスタント-を使う": "/htu/uni-note/ai/answer/",
-    "13-問題集を作る": "/htu/uni-note/problem-sets/generate/",
-    "review": "/htu/uni-note/study/sticky/",
-    "14-保護ゴミ箱": "/htu/uni-note/data/protect/",
-    "protect": "/htu/uni-note/data/protect/",
-    "15-設定バックアップ": "/htu/uni-note/backup/save/",
-    "backup": "/htu/uni-note/backup/save/",
-    "split-view--slide-over--2ペインで使う": "/htu/uni-note/ipados/windows/",
-    "windows": "/htu/uni-note/ipados/windows/"
+    "1-ホームで教科とフォルダを整理する": "/htu/uni-note/start/#first-note",
+    "2-最初のノートを開く": "/htu/uni-note/start/#first-note",
+    "create": "/htu/uni-note/start/#first-note",
+    "3-apple-pencilで書く": "/htu/uni-note/writing/#pen",
+    "4-2本指でズームする": "/htu/uni-note/writing/#pen",
+    "5-ツールを切り替える": "/htu/uni-note/writing/#pen",
+    "9-定規-を使う": "/htu/uni-note/writing/#ruler",
+    "write": "/htu/uni-note/writing/#pen",
+    "6-ノート一覧-と-ページ一覧-を使う": "/htu/uni-note/notebooks/#manage",
+    "find": "/htu/uni-note/notebooks/#manage",
+    "7-その他-メニューを使う": "/htu/uni-note/materials/#pdf",
+    "8-写真とpdfを使う": "/htu/uni-note/materials/#pdf",
+    "pdf": "/htu/uni-note/materials/#pdf",
+    "10-録音文字起こしai要約を使う": "/htu/uni-note/recording/#capture",
+    "recording": "/htu/uni-note/recording/#capture",
+    "11-暗記を使う": "/htu/uni-note/study/#sticky",
+    "12-囲って解答アシスタント-を使う": "/htu/uni-note/ai/#answer",
+    "13-問題集を作る": "/htu/uni-note/problem-sets/#generate",
+    "review": "/htu/uni-note/study/#sticky",
+    "14-保護ゴミ箱": "/htu/uni-note/data/#protect",
+    "protect": "/htu/uni-note/data/#protect",
+    "15-設定バックアップ": "/htu/uni-note/backup/#save",
+    "backup": "/htu/uni-note/backup/#save",
+    "split-view--slide-over--2ペインで使う": "/htu/uni-note/ipados/#windows",
+    "windows": "/htu/uni-note/ipados/#windows"
   },
   "holds": {
     "HF-H-01": "作成後の向き変更は可否とも記載しない。作成時だけ説明。",
@@ -8701,7 +9078,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/start/#screens"
     },
     "start-screens--n-m05": {
       "page": "start/screens",
@@ -8718,7 +9096,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/start/#screens"
     },
     "start-screens--m-m14": {
       "page": "start/screens",
@@ -8753,7 +9132,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/start/#screens"
     },
     "start-first-note--n-m02": {
       "page": "start/first-note",
@@ -8771,7 +9151,8 @@
       "src": "images/guides/uni-note/ja/create-menu.png",
       "alt": "教科とフォルダの作成メニュー",
       "caption": "ホームの＋から開く作成メニュー。",
-      "source_sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148"
+      "source_sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148",
+      "url": "/htu/uni-note/start/#first-note"
     },
     "start-first-note--n-m01": {
       "page": "start/first-note",
@@ -8793,7 +9174,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/start/#first-note"
     },
     "start-first-note--m-m14": {
       "page": "start/first-note",
@@ -8828,7 +9210,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/start/#first-note"
     },
     "library-subjects--n-m01": {
       "page": "library/subjects",
@@ -8850,7 +9233,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#subjects"
     },
     "library-subjects--n-m04": {
       "page": "library/subjects",
@@ -8864,7 +9248,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#subjects"
     },
     "library-subjects--n-m08": {
       "page": "library/subjects",
@@ -8878,7 +9263,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#subjects"
     },
     "library-subjects--n-m20": {
       "page": "library/subjects",
@@ -8892,7 +9278,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#subjects"
     },
     "library-subjects--s-m15": {
       "page": "library/subjects",
@@ -8911,7 +9298,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#subjects"
     },
     "library-folders--n-m01": {
       "page": "library/folders",
@@ -8933,7 +9321,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#folders"
     },
     "library-folders--n-m11": {
       "page": "library/folders",
@@ -8947,7 +9336,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#folders"
     },
     "library-folders--n-m12": {
       "page": "library/folders",
@@ -8962,7 +9352,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#folders"
     },
     "library-folders--n-m13": {
       "page": "library/folders",
@@ -8976,7 +9367,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#folders"
     },
     "library-folders--n-m14": {
       "page": "library/folders",
@@ -8990,7 +9382,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#folders"
     },
     "library-folders--n-m15": {
       "page": "library/folders",
@@ -9004,7 +9397,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#folders"
     },
     "library-folders--n-m17": {
       "page": "library/folders",
@@ -9018,7 +9412,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#folders"
     },
     "library-folders--n-m18": {
       "page": "library/folders",
@@ -9032,7 +9427,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#folders"
     },
     "library-search--n-m09": {
       "page": "library/search",
@@ -9051,7 +9447,8 @@
       "src": "images/guides/uni-note/ja/home-search.png",
       "alt": "ホーム上部のノートタイトル検索欄",
       "caption": "ノートのタイトルを入力します。",
-      "source_sha256": "d89e38068d76971f084cae3b07aae86d94e623adc6105f585ed9f8ad29154236"
+      "source_sha256": "d89e38068d76971f084cae3b07aae86d94e623adc6105f585ed9f8ad29154236",
+      "url": "/htu/uni-note/library/#search"
     },
     "library-search--n-m01": {
       "page": "library/search",
@@ -9073,7 +9470,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/library/#search"
     },
     "notebooks-manage--n-m01": {
       "page": "notebooks/manage",
@@ -9095,7 +9493,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#manage"
     },
     "notebooks-manage--n-m05": {
       "page": "notebooks/manage",
@@ -9112,7 +9511,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#manage"
     },
     "notebooks-manage--n-m06": {
       "page": "notebooks/manage",
@@ -9128,7 +9528,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#manage"
     },
     "notebooks-manage--n-m07": {
       "page": "notebooks/manage",
@@ -9142,7 +9543,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#manage"
     },
     "notebooks-manage--n-m58": {
       "page": "notebooks/manage",
@@ -9156,7 +9558,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#manage"
     },
     "notebooks-manage--s-m15": {
       "page": "notebooks/manage",
@@ -9175,7 +9578,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#manage"
     },
     "notebooks-pages--n-m31": {
       "page": "notebooks/pages",
@@ -9191,7 +9595,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#pages"
     },
     "notebooks-pages--n-m33": {
       "page": "notebooks/pages",
@@ -9206,7 +9611,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#pages"
     },
     "notebooks-pages--n-m34": {
       "page": "notebooks/pages",
@@ -9220,7 +9626,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#pages"
     },
     "notebooks-pages--n-m35": {
       "page": "notebooks/pages",
@@ -9234,7 +9641,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#pages"
     },
     "notebooks-pages--n-m36": {
       "page": "notebooks/pages",
@@ -9248,7 +9656,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#pages"
     },
     "notebooks-vertical--n-m19": {
       "page": "notebooks/vertical",
@@ -9263,7 +9672,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#vertical"
     },
     "notebooks-vertical--n-m31": {
       "page": "notebooks/vertical",
@@ -9279,7 +9689,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#vertical"
     },
     "notebooks-vertical--m-m14": {
       "page": "notebooks/vertical",
@@ -9314,7 +9725,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#vertical"
     },
     "notebooks-vertical--m-m18": {
       "page": "notebooks/vertical",
@@ -9330,7 +9742,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/notebooks/#vertical"
     },
     "writing-pens--n-m37": {
       "page": "writing/pens",
@@ -9351,7 +9764,8 @@
       "src": "images/guides/uni-note/common/writing-tools.png",
       "alt": "ペン・蛍光ペン・消しゴム・付箋マーカーのパレット",
       "caption": "道具を選ぶパレット。配置はカスタマイズできます。",
-      "source_sha256": "bbf99dd18878c9e5ae1f9c8fade516de08b1ad9ea704ffd6752f0197b990e789"
+      "source_sha256": "bbf99dd18878c9e5ae1f9c8fade516de08b1ad9ea704ffd6752f0197b990e789",
+      "url": "/htu/uni-note/writing/#pen"
     },
     "writing-pens--n-m39": {
       "page": "writing/pens",
@@ -9366,7 +9780,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#pen"
     },
     "writing-pens--n-m40": {
       "page": "writing/pens",
@@ -9381,7 +9796,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#pen"
     },
     "writing-pens--m-m14": {
       "page": "writing/pens",
@@ -9416,7 +9832,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#pen"
     },
     "writing-erasing--n-m41": {
       "page": "writing/erasing",
@@ -9432,7 +9849,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#eraser"
     },
     "writing-erasing--n-m42": {
       "page": "writing/erasing",
@@ -9447,7 +9865,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#eraser"
     },
     "writing-erasing--n-m43": {
       "page": "writing/erasing",
@@ -9461,7 +9880,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#eraser"
     },
     "writing-erasing--n-m44": {
       "page": "writing/erasing",
@@ -9475,7 +9895,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#eraser"
     },
     "writing-palette--n-m45": {
       "page": "writing/palette",
@@ -9490,7 +9911,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#palette"
     },
     "writing-palette--n-m47": {
       "page": "writing/palette",
@@ -9505,7 +9927,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#palette"
     },
     "writing-palette--m-m14": {
       "page": "writing/palette",
@@ -9540,7 +9963,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#palette"
     },
     "writing-ruler--n-m49": {
       "page": "writing/ruler",
@@ -9558,7 +9982,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#ruler"
     },
     "writing-ruler--m-m14": {
       "page": "writing/ruler",
@@ -9593,7 +10018,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#ruler"
     },
     "writing-move--n-m50": {
       "page": "writing/move",
@@ -9610,7 +10036,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#selection"
     },
     "writing-move--n-m51": {
       "page": "writing/move",
@@ -9625,7 +10052,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#selection"
     },
     "writing-move--m-m14": {
       "page": "writing/move",
@@ -9660,7 +10088,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/writing/#selection"
     },
     "materials-photos--m-m02": {
       "page": "materials/photos",
@@ -9674,7 +10103,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#photos"
     },
     "materials-photos--m-m03": {
       "page": "materials/photos",
@@ -9689,7 +10119,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#photos"
     },
     "materials-photos--m-m19": {
       "page": "materials/photos",
@@ -9704,7 +10135,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#photos"
     },
     "materials-photos--r-m05": {
       "page": "materials/photos",
@@ -9719,7 +10151,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#photos"
     },
     "materials-pdf--m-m06": {
       "page": "materials/pdf",
@@ -9733,7 +10166,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#pdf"
     },
     "materials-pdf--m-m07": {
       "page": "materials/pdf",
@@ -9747,7 +10181,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#pdf"
     },
     "materials-pdf--m-m08": {
       "page": "materials/pdf",
@@ -9762,7 +10197,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#pdf"
     },
     "materials-pdf--m-m09": {
       "page": "materials/pdf",
@@ -9776,7 +10212,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#pdf"
     },
     "materials-pdf--m-m10": {
       "page": "materials/pdf",
@@ -9793,7 +10230,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#pdf"
     },
     "materials-pdf--m-m09r": {
       "page": "materials/pdf",
@@ -9807,7 +10245,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#pdf"
     },
     "materials-arrange--m-m10": {
       "page": "materials/arrange",
@@ -9824,7 +10263,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#arrange"
     },
     "materials-arrange--m-m11": {
       "page": "materials/arrange",
@@ -9841,7 +10281,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#arrange"
     },
     "materials-arrange--m-m12": {
       "page": "materials/arrange",
@@ -9855,7 +10296,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#arrange"
     },
     "materials-arrange--m-m13": {
       "page": "materials/arrange",
@@ -9869,7 +10311,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#arrange"
     },
     "materials-arrange--m-m14": {
       "page": "materials/arrange",
@@ -9904,7 +10347,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#arrange"
     },
     "materials-arrange--m-m15": {
       "page": "materials/arrange",
@@ -9918,7 +10362,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#arrange"
     },
     "materials-vertical--n-m19": {
       "page": "materials/vertical",
@@ -9933,7 +10378,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#vertical"
     },
     "materials-vertical--m-m14": {
       "page": "materials/vertical",
@@ -9968,7 +10414,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#vertical"
     },
     "materials-vertical--m-m18": {
       "page": "materials/vertical",
@@ -9984,7 +10431,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#vertical"
     },
     "materials-vertical--m-m19": {
       "page": "materials/vertical",
@@ -9999,7 +10447,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#vertical"
     },
     "materials-vertical--m-m20": {
       "page": "materials/vertical",
@@ -10013,7 +10462,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#vertical"
     },
     "materials-export--m-m21": {
       "page": "materials/export",
@@ -10028,7 +10478,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/materials/#export"
     },
     "recording-capture--m-m23": {
       "page": "recording/capture",
@@ -10047,7 +10498,8 @@
       "src": "images/guides/uni-note/common/record-button.png",
       "alt": "文字起こし言語と赤い録音開始ボタン",
       "caption": "画面例の文字起こし言語は英語です。",
-      "source_sha256": "105f8ee9f3a4ce05b145cfb5fcf50e28aa191abd23859e6c59db8ce6852696b5"
+      "source_sha256": "105f8ee9f3a4ce05b145cfb5fcf50e28aa191abd23859e6c59db8ce6852696b5",
+      "url": "/htu/uni-note/recording/#capture"
     },
     "recording-capture--m-m24": {
       "page": "recording/capture",
@@ -10064,7 +10516,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#capture"
     },
     "recording-capture--m-m25": {
       "page": "recording/capture",
@@ -10078,7 +10531,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#capture"
     },
     "recording-capture--m-m26": {
       "page": "recording/capture",
@@ -10097,7 +10551,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#capture"
     },
     "recording-capture--m-m27": {
       "page": "recording/capture",
@@ -10111,7 +10566,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#capture"
     },
     "recording-play--m-m26": {
       "page": "recording/play",
@@ -10130,7 +10586,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#play"
     },
     "recording-play--m-m28": {
       "page": "recording/play",
@@ -10148,7 +10605,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#play"
     },
     "recording-transcribe--m-m23": {
       "page": "recording/transcribe",
@@ -10163,7 +10621,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#transcribe"
     },
     "recording-transcribe--m-m24": {
       "page": "recording/transcribe",
@@ -10180,7 +10639,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#transcribe"
     },
     "recording-transcribe--m-m28": {
       "page": "recording/transcribe",
@@ -10198,7 +10658,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#transcribe"
     },
     "recording-transcribe--m-m29": {
       "page": "recording/transcribe",
@@ -10212,7 +10673,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#transcribe"
     },
     "recording-transcribe--m-m30": {
       "page": "recording/transcribe",
@@ -10226,7 +10688,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#transcribe"
     },
     "recording-summary--m-m31": {
       "page": "recording/summary",
@@ -10242,7 +10705,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#summary"
     },
     "recording-summary--m-m32": {
       "page": "recording/summary",
@@ -10258,7 +10722,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#summary"
     },
     "recording-summary--m-m33": {
       "page": "recording/summary",
@@ -10272,7 +10737,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#summary"
     },
     "recording-summary--r-m01": {
       "page": "recording/summary",
@@ -10288,7 +10754,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#summary"
     },
     "recording-paste--m-m32": {
       "page": "recording/paste",
@@ -10304,7 +10771,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#paste"
     },
     "recording-paste--m-m35": {
       "page": "recording/paste",
@@ -10319,7 +10787,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/recording/#paste"
     },
     "study-sticky--m-m38": {
       "page": "study/sticky",
@@ -10340,7 +10809,8 @@
       "src": "images/guides/uni-note/common/sticky-marker.png",
       "alt": "手書きの答えを隠した付箋マーカー",
       "caption": "手書きの答えを隠した例。PDFや写真の上でも使えます。",
-      "source_sha256": "c12a20b4ecc5cf91e40c7c41c27a41d3e4dcb726e9697af97580bbf1c6ea4a48"
+      "source_sha256": "c12a20b4ecc5cf91e40c7c41c27a41d3e4dcb726e9697af97580bbf1c6ea4a48",
+      "url": "/htu/uni-note/study/#sticky"
     },
     "study-sticky--n-m56": {
       "page": "study/sticky",
@@ -10356,7 +10826,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#sticky"
     },
     "study-sticky--m-m37": {
       "page": "study/sticky",
@@ -10372,7 +10843,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#sticky"
     },
     "study-sticky--m-m39": {
       "page": "study/sticky",
@@ -10387,7 +10859,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#sticky"
     },
     "study-sticky--m-m40": {
       "page": "study/sticky",
@@ -10401,7 +10874,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#sticky"
     },
     "study-pomodoro--m-m42": {
       "page": "study/pomodoro",
@@ -10415,7 +10889,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#pomodoro"
     },
     "study-pomodoro--m-m43": {
       "page": "study/pomodoro",
@@ -10430,7 +10905,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#pomodoro"
     },
     "study-pomodoro--m-m44": {
       "page": "study/pomodoro",
@@ -10444,7 +10920,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#pomodoro"
     },
     "study-pomodoro--m-m46": {
       "page": "study/pomodoro",
@@ -10458,7 +10935,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#pomodoro"
     },
     "study-laser--m-m10": {
       "page": "study/laser",
@@ -10475,7 +10953,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#laser"
     },
     "study-laser--m-m48": {
       "page": "study/laser",
@@ -10490,7 +10969,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/study/#laser"
     },
     "ai-answer--r-m04": {
       "page": "ai/answer",
@@ -10511,7 +10991,8 @@
       "src": "images/guides/uni-note/ja/problem-answer.png",
       "alt": "解答結果のコピーと共有ボタン",
       "caption": "コピーは左、共有は右です。",
-      "source_sha256": "2bcbc0d57a527c31cc7d6f889a770fbb3db5b1ad18337000965fffcf308f5df4"
+      "source_sha256": "2bcbc0d57a527c31cc7d6f889a770fbb3db5b1ad18337000965fffcf308f5df4",
+      "url": "/htu/uni-note/ai/#answer"
     },
     "ai-answer--r-m02": {
       "page": "ai/answer",
@@ -10528,7 +11009,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/ai/#answer"
     },
     "ai-answer--r-m03": {
       "page": "ai/answer",
@@ -10545,7 +11027,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/ai/#answer"
     },
     "ai-settings--r-m01": {
       "page": "ai/settings",
@@ -10561,7 +11044,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/ai/#settings"
     },
     "problem-sets-generate--r-m05": {
       "page": "problem-sets/generate",
@@ -10576,7 +11060,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#generate"
     },
     "problem-sets-generate--r-m06": {
       "page": "problem-sets/generate",
@@ -10592,7 +11077,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#generate"
     },
     "problem-sets-generate--r-m07": {
       "page": "problem-sets/generate",
@@ -10607,7 +11093,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#generate"
     },
     "problem-sets-generate--r-m09": {
       "page": "problem-sets/generate",
@@ -10624,7 +11111,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#generate"
     },
     "problem-sets-generate--r-m10": {
       "page": "problem-sets/generate",
@@ -10638,7 +11126,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#generate"
     },
     "problem-sets-review--r-m11": {
       "page": "problem-sets/review",
@@ -10655,7 +11144,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#review"
     },
     "problem-sets-review--r-m13": {
       "page": "problem-sets/review",
@@ -10671,7 +11161,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#review"
     },
     "problem-sets-review--r-m14": {
       "page": "problem-sets/review",
@@ -10686,7 +11177,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#review"
     },
     "problem-sets-edit--r-m11": {
       "page": "problem-sets/edit",
@@ -10703,7 +11195,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#edit"
     },
     "problem-sets-edit--r-m14": {
       "page": "problem-sets/edit",
@@ -10718,7 +11211,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#edit"
     },
     "problem-sets-edit--r-m15": {
       "page": "problem-sets/edit",
@@ -10732,7 +11226,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#edit"
     },
     "problem-sets-edit--r-m16": {
       "page": "problem-sets/edit",
@@ -10747,7 +11242,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#edit"
     },
     "problem-sets-edit--r-m17": {
       "page": "problem-sets/edit",
@@ -10762,7 +11258,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#edit"
     },
     "problem-sets-edit--r-m18": {
       "page": "problem-sets/edit",
@@ -10777,7 +11274,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#edit"
     },
     "problem-sets-home--r-m01": {
       "page": "problem-sets/home",
@@ -10793,7 +11291,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#home"
     },
     "problem-sets-home--r-m11": {
       "page": "problem-sets/home",
@@ -10810,7 +11309,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#home"
     },
     "problem-sets-home--r-m20": {
       "page": "problem-sets/home",
@@ -10824,7 +11324,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/problem-sets/#home"
     },
     "customize-settings--n-m01": {
       "page": "customize/settings",
@@ -10846,7 +11347,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#settings"
     },
     "customize-settings--s-m01": {
       "page": "customize/settings",
@@ -10865,7 +11367,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#settings"
     },
     "customize-paper--n-m45": {
       "page": "customize/paper",
@@ -10880,7 +11383,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#paper"
     },
     "customize-paper--m-m14": {
       "page": "customize/paper",
@@ -10915,7 +11419,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#paper"
     },
     "customize-display--n-m47": {
       "page": "customize/display",
@@ -10930,7 +11435,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#display"
     },
     "customize-display--m-m14": {
       "page": "customize/display",
@@ -10965,7 +11471,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#display"
     },
     "customize-toolbar--n-m52": {
       "page": "customize/toolbar",
@@ -10983,7 +11490,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#toolbar"
     },
     "customize-toolbar--n-m53": {
       "page": "customize/toolbar",
@@ -10998,7 +11506,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#toolbar"
     },
     "customize-toolbar--n-m54": {
       "page": "customize/toolbar",
@@ -11014,7 +11523,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#toolbar"
     },
     "customize-toolbar--n-m55": {
       "page": "customize/toolbar",
@@ -11028,7 +11538,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#toolbar"
     },
     "customize-toolbar--n-m56": {
       "page": "customize/toolbar",
@@ -11044,7 +11555,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#toolbar"
     },
     "customize-toolbar--m-m14": {
       "page": "customize/toolbar",
@@ -11079,7 +11591,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/customize/#toolbar"
     },
     "data-protect--n-m06": {
       "page": "data/protect",
@@ -11095,7 +11608,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/data/#protect"
     },
     "data-protect--s-m14": {
       "page": "data/protect",
@@ -11110,7 +11624,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/data/#protect"
     },
     "data-trash--s-m15": {
       "page": "data/trash",
@@ -11129,7 +11644,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/data/#trash"
     },
     "data-trash--s-m16": {
       "page": "data/trash",
@@ -11143,7 +11659,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/data/#trash"
     },
     "backup-save--s-m08": {
       "page": "backup/save",
@@ -11166,7 +11683,8 @@
       "src": "images/guides/uni-note/common/backup-file-actions.png",
       "alt": "バックアップを書き出す・ファイルから復元の項目",
       "caption": "保存は上の行、復元は下の行から行います。",
-      "source_sha256": "db52978b744b30f78013007c35ec56fca5bd50c8ade2bd384ce8817ce2c9d504"
+      "source_sha256": "db52978b744b30f78013007c35ec56fca5bd50c8ade2bd384ce8817ce2c9d504",
+      "url": "/htu/uni-note/backup/#save"
     },
     "backup-save--s-m10": {
       "page": "backup/save",
@@ -11180,7 +11698,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/backup/#save"
     },
     "backup-restore--s-m08": {
       "page": "backup/restore",
@@ -11199,7 +11718,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/backup/#restore"
     },
     "backup-restore--s-m11": {
       "page": "backup/restore",
@@ -11213,7 +11733,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/backup/#restore"
     },
     "backup-restore--s-m12": {
       "page": "backup/restore",
@@ -11228,7 +11749,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/backup/#restore"
     },
     "plans-usage--s-m01": {
       "page": "plans/usage",
@@ -11247,7 +11769,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/plans/#usage"
     },
     "plans-usage--r-m21": {
       "page": "plans/usage",
@@ -11261,7 +11784,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "exact-screen-hold",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/plans/#usage"
     },
     "plans-usage--r-m23": {
       "page": "plans/usage",
@@ -11276,7 +11800,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "exact-screen-hold",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/plans/#usage"
     },
     "troubleshooting-help--s-m01": {
       "page": "troubleshooting/help",
@@ -11295,7 +11820,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/troubleshooting/#help"
     },
     "ipados-windows--r-m24": {
       "page": "ipados/windows",
@@ -11309,7 +11835,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "exact-screen-hold",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/ipados/#windows"
     },
     "ipados-windows--r-m25": {
       "page": "ipados/windows",
@@ -11324,7 +11851,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "exact-screen-hold",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/ipados/#windows"
     },
     "ipados-files--m-m10": {
       "page": "ipados/files",
@@ -11341,7 +11869,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/ipados/#files"
     },
     "workflows-vertical-annotate--m-m18": {
       "page": "workflows/vertical-annotate",
@@ -11357,7 +11886,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/vertical-annotate/"
     },
     "workflows-vertical-annotate--n-m19": {
       "page": "workflows/vertical-annotate",
@@ -11372,7 +11902,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/vertical-annotate/"
     },
     "workflows-vertical-annotate--m-m11": {
       "page": "workflows/vertical-annotate",
@@ -11389,7 +11920,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/vertical-annotate/"
     },
     "workflows-vertical-annotate--m-m13": {
       "page": "workflows/vertical-annotate",
@@ -11403,7 +11935,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/vertical-annotate/"
     },
     "workflows-split-spread--m-m09": {
       "page": "workflows/split-spread",
@@ -11417,7 +11950,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/split-spread/"
     },
     "workflows-split-spread--m-m09r": {
       "page": "workflows/split-spread",
@@ -11431,7 +11965,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/split-spread/"
     },
     "workflows-split-spread--m-m08": {
       "page": "workflows/split-spread",
@@ -11446,7 +11981,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/split-spread/"
     },
     "workflows-material-margin--m-m14": {
       "page": "workflows/material-margin",
@@ -11481,7 +12017,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/material-margin/"
     },
     "workflows-material-margin--m-m11": {
       "page": "workflows/material-margin",
@@ -11498,7 +12035,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/material-margin/"
     },
     "workflows-sticky-material--m-m38": {
       "page": "workflows/sticky-material",
@@ -11515,7 +12053,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/sticky-material/"
     },
     "workflows-sticky-material--m-m37": {
       "page": "workflows/sticky-material",
@@ -11531,7 +12070,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/sticky-material/"
     },
     "workflows-sticky-material--m-m39": {
       "page": "workflows/sticky-material",
@@ -11546,7 +12086,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/sticky-material/"
     },
     "workflows-record-review--m-m30": {
       "page": "workflows/record-review",
@@ -11560,7 +12101,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/record-review/"
     },
     "workflows-record-review--m-m32": {
       "page": "workflows/record-review",
@@ -11576,7 +12118,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/record-review/"
     },
     "workflows-record-review--m-m31": {
       "page": "workflows/record-review",
@@ -11592,7 +12135,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/record-review/"
     },
     "workflows-summary-annotate--m-m35": {
       "page": "workflows/summary-annotate",
@@ -11607,7 +12151,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/summary-annotate/"
     },
     "workflows-quiz-review--r-m14": {
       "page": "workflows/quiz-review",
@@ -11622,7 +12167,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/quiz-review/"
     },
     "workflows-quiz-review--r-m09": {
       "page": "workflows/quiz-review",
@@ -11639,7 +12185,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/quiz-review/"
     },
     "workflows-quiz-review--r-m17": {
       "page": "workflows/quiz-review",
@@ -11654,7 +12201,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/quiz-review/"
     },
     "workflows-focus--m-m43": {
       "page": "workflows/focus",
@@ -11669,7 +12217,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/focus/"
     },
     "workflows-focus--m-m42": {
       "page": "workflows/focus",
@@ -11683,7 +12232,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/focus/"
     },
     "workflows-explain--m-m48": {
       "page": "workflows/explain",
@@ -11698,7 +12248,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "capture-published-3.5",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/explain/"
     },
     "workflows-two-notes--r-m25": {
       "page": "workflows/two-notes",
@@ -11713,7 +12264,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "exact-screen-hold",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/two-notes/"
     },
     "workflows-two-notes--r-m24": {
       "page": "workflows/two-notes",
@@ -11727,7 +12279,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "exact-screen-hold",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/two-notes/"
     },
     "workflows-external-material--r-m27": {
       "page": "workflows/external-material",
@@ -11742,7 +12295,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "exact-screen-hold",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/external-material/"
     },
     "workflows-external-material--r-m26": {
       "page": "workflows/external-material",
@@ -11756,7 +12310,8 @@
       "role": "step",
       "status": "pending",
       "release_status": "exact-screen-hold",
-      "mode": "crop"
+      "mode": "crop",
+      "url": "/htu/uni-note/workflows/external-material/"
     },
     "workflows-pip--r-m28": {
       "page": "workflows/pip",
@@ -11771,7 +12326,8 @@
       "role": "hero",
       "status": "pending",
       "release_status": "exact-screen-hold",
-      "mode": "tablet"
+      "mode": "tablet",
+      "url": "/htu/uni-note/workflows/pip/"
     },
     "top--n-m02": {
       "page": "top",
@@ -11789,7 +12345,596 @@
       "src": "images/guides/uni-note/ja/create-menu.png",
       "alt": "教科とフォルダの作成メニュー",
       "caption": "ホームの＋から開く作成メニュー。",
-      "source_sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148"
+      "source_sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148",
+      "url": "/htu/uni-note/"
     }
-  }
+  },
+  "information_architecture": "top-category-sections",
+  "removed_pages": [
+    {
+      "url": "/htu/uni-note/start/screens/",
+      "target": "/htu/uni-note/start/#screens",
+      "source": "content/uni-note-guide/start-screens.md",
+      "fragments": {
+        "必要な条件": "screens-必要な条件",
+        "ホームからノートへ": "ホームからノートへ",
+        "ノート画面で使うもの": "ノート画面で使うもの",
+        "初回案内を終える": "初回案内を終える",
+        "完了の確認": "screens-完了の確認",
+        "関連する使い方": "screens-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/start/first-note/",
+      "target": "/htu/uni-note/start/#first-note",
+      "source": "content/uni-note-guide/start-first-note.md",
+      "fragments": {
+        "必要な条件": "first-note-必要な条件",
+        "教科を作る": "教科を作る",
+        "最初のノートを開く": "最初のノートを開く",
+        "続きから使う": "続きから使う",
+        "完了の確認": "first-note-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "first-note-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/library/subjects/",
+      "target": "/htu/uni-note/library/#subjects",
+      "source": "content/uni-note-guide/library-subjects.md",
+      "fragments": {
+        "名前紙表紙を編集する": "名前紙表紙を編集する",
+        "カードを並べ替える": "カードを並べ替える",
+        "教科を削除する": "教科を削除する",
+        "完了の確認": "subjects-完了の確認",
+        "関連する使い方": "subjects-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/library/folders/",
+      "target": "/htu/uni-note/library/#folders",
+      "source": "content/uni-note-guide/library-folders.md",
+      "fragments": {
+        "フォルダを作る": "フォルダを作る",
+        "教科を入れる並べる": "教科を入れる並べる",
+        "内容を編集する教科を外へ出す": "内容を編集する教科を外へ出す",
+        "フォルダだけを削除する": "フォルダだけを削除する",
+        "完了の確認": "folders-完了の確認",
+        "関連する使い方": "folders-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/library/search/",
+      "target": "/htu/uni-note/library/#search",
+      "source": "content/uni-note-guide/library-search.md",
+      "fragments": {
+        "タイトルで探す": "タイトルで探す",
+        "通常のホームへ戻す": "通常のホームへ戻す",
+        "完了の確認": "search-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "search-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/notebooks/manage/",
+      "target": "/htu/uni-note/notebooks/#manage",
+      "source": "content/uni-note-guide/notebooks-manage.md",
+      "fragments": {
+        "ノートを選ぶ追加する": "ノートを選ぶ追加する",
+        "名前や順番を変える": "名前や順番を変える",
+        "ノートを削除する": "ノートを削除する",
+        "完了の確認": "manage-完了の確認",
+        "関連する使い方": "manage-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/notebooks/pages/",
+      "target": "/htu/uni-note/notebooks/#pages",
+      "source": "content/uni-note-guide/notebooks-pages.md",
+      "fragments": {
+        "スクロールズームページ追加": "スクロールズームページ追加",
+        "目的のページへ移動する": "目的のページへ移動する",
+        "ページを並べ替える": "ページを並べ替える",
+        "ページを削除する": "ページを削除する",
+        "完了の確認": "pages-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "pages-関連する使い方",
+        "便利な使い方": "pages-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/notebooks/vertical/",
+      "target": "/htu/uni-note/notebooks/#vertical",
+      "source": "content/uni-note-guide/notebooks-vertical.md",
+      "fragments": {
+        "縦ノートを新しく作る": "縦ノートを新しく作る",
+        "通常ノートとの選び分け": "通常ノートとの選び分け",
+        "完了の確認": "vertical-完了の確認",
+        "関連する使い方": "vertical-関連する使い方",
+        "便利な使い方": "vertical-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/writing/pens/",
+      "target": "/htu/uni-note/writing/#pen",
+      "source": "content/uni-note-guide/writing-pens.md",
+      "fragments": {
+        "必要な条件": "pen-必要な条件",
+        "ペンで書く": "ペンで書く",
+        "自分の色を登録する": "自分の色を登録する",
+        "蛍光ペンで強調する": "蛍光ペンで強調する",
+        "完了の確認": "pen-完了の確認",
+        "関連する使い方": "pen-関連する使い方",
+        "便利な使い方": "便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/writing/erasing/",
+      "target": "/htu/uni-note/writing/#eraser",
+      "source": "content/uni-note-guide/writing-erasing.md",
+      "fragments": {
+        "必要な条件": "eraser-必要な条件",
+        "線全体一部分を消す": "線全体一部分を消す",
+        "取り消しやり直し": "取り消しやり直し",
+        "ページの手書きをまとめて消す": "ページの手書きをまとめて消す",
+        "apple-pencilのダブルタップ": "apple-pencilのダブルタップ",
+        "完了の確認": "eraser-完了の確認",
+        "関連する使い方": "eraser-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/writing/palette/",
+      "target": "/htu/uni-note/writing/#palette",
+      "source": "content/uni-note-guide/writing-palette.md",
+      "fragments": {
+        "位置を変える": "位置を変える",
+        "収納再表示": "収納再表示",
+        "完了の確認": "palette-完了の確認",
+        "関連する使い方": "palette-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/writing/ruler/",
+      "target": "/htu/uni-note/writing/#ruler",
+      "source": "content/uni-note-guide/writing-ruler.md",
+      "fragments": {
+        "必要な条件": "ruler-必要な条件",
+        "定規を置いて線を引く": "定規を置いて線を引く",
+        "完了の確認": "ruler-完了の確認",
+        "注意事項": "ruler-注意事項",
+        "関連する使い方": "ruler-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/writing/move/",
+      "target": "/htu/uni-note/writing/#selection",
+      "source": "content/uni-note-guide/writing-move.md",
+      "fragments": {
+        "必要な条件": "selection-必要な条件",
+        "手書きを囲んで移す": "手書きを囲んで移す",
+        "完了の確認": "selection-完了の確認",
+        "注意事項": "selection-注意事項",
+        "関連する使い方": "selection-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/materials/photos/",
+      "target": "/htu/uni-note/materials/#photos",
+      "source": "content/uni-note-guide/materials-photos.md",
+      "fragments": {
+        "必要な条件": "photos-必要な条件",
+        "写真をそのまま貼る": "写真をそのまま貼る",
+        "紙資料を撮って貼る": "紙資料を撮って貼る",
+        "保存済み写真を紙資料として使う": "保存済み写真を紙資料として使う",
+        "完了の確認": "photos-完了の確認",
+        "関連する使い方": "photos-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/materials/pdf/",
+      "target": "/htu/uni-note/materials/#pdf",
+      "source": "content/uni-note-guide/materials-pdf.md",
+      "fragments": {
+        "必要な条件": "pdf-必要な条件",
+        "1ページを選んで貼る": "1ページを選んで貼る",
+        "複数ページ全ページを選ぶ": "複数ページ全ページを選ぶ",
+        "見開きを左右に分割する": "見開きを左右に分割する",
+        "完了の確認": "pdf-完了の確認",
+        "注意事項": "pdf-注意事項",
+        "関連する使い方": "pdf-関連する使い方",
+        "便利な使い方": "pdf-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/materials/arrange/",
+      "target": "/htu/uni-note/materials/#arrange",
+      "source": "content/uni-note-guide/materials-arrange.md",
+      "fragments": {
+        "必要な条件": "arrange-必要な条件",
+        "固定を解除して選ぶ": "固定を解除して選ぶ",
+        "移動サイズ変更回転": "移動サイズ変更回転",
+        "固定して書く": "固定して書く",
+        "資料を削除する": "資料を削除する",
+        "完了の確認": "arrange-完了の確認",
+        "注意事項": "arrange-注意事項",
+        "関連する使い方": "arrange-関連する使い方",
+        "便利な使い方": "arrange-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/materials/vertical/",
+      "target": "/htu/uni-note/materials/#vertical",
+      "source": "content/uni-note-guide/materials-vertical.md",
+      "fragments": {
+        "必要な条件": "vertical-必要な条件",
+        "pdf書類写真を大きく使う": "pdf書類写真を大きく使う",
+        "普通の写真を大きくする": "普通の写真を大きくする",
+        "完了の確認": "vertical-完了の確認",
+        "注意事項": "vertical-注意事項",
+        "関連する使い方": "vertical-関連する使い方",
+        "便利な使い方": "vertical-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/materials/export/",
+      "target": "/htu/uni-note/materials/#export",
+      "source": "content/uni-note-guide/materials-export.md",
+      "fragments": {
+        "必要な条件": "export-必要な条件",
+        "背景を決める": "背景を決める",
+        "pdfを書き出す": "pdfを書き出す",
+        "完了の確認": "export-完了の確認",
+        "注意事項": "export-注意事項",
+        "関連する使い方": "export-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/recording/capture/",
+      "target": "/htu/uni-note/recording/#capture",
+      "source": "content/uni-note-guide/recording-capture.md",
+      "fragments": {
+        "必要な条件": "capture-必要な条件",
+        "録音を始める": "録音を始める",
+        "一時停止再開保存": "一時停止再開保存",
+        "ノートを離れる前に": "ノートを離れる前に",
+        "完了の確認": "capture-完了の確認",
+        "関連する使い方": "capture-関連する使い方",
+        "便利な使い方": "capture-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/recording/play/",
+      "target": "/htu/uni-note/recording/#play",
+      "source": "content/uni-note-guide/recording-play.md",
+      "fragments": {
+        "必要な条件": "play-必要な条件",
+        "聴きたい箇所を再生する": "聴きたい箇所を再生する",
+        "名前を変える": "名前を変える",
+        "音声を書き出す": "音声を書き出す",
+        "不要な録音を削除する": "不要な録音を削除する",
+        "完了の確認": "play-完了の確認",
+        "注意事項": "play-注意事項",
+        "関連する使い方": "play-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/recording/transcribe/",
+      "target": "/htu/uni-note/recording/#transcribe",
+      "source": "content/uni-note-guide/recording-transcribe.md",
+      "fragments": {
+        "必要な条件": "transcribe-必要な条件",
+        "文字起こしの言語を選ぶ": "文字起こしの言語を選ぶ",
+        "録音しながら文字を見る": "録音しながら文字を見る",
+        "保存後に読む共有する": "保存後に読む共有する",
+        "完了の確認": "transcribe-完了の確認",
+        "注意事項": "transcribe-注意事項",
+        "関連する使い方": "transcribe-関連する使い方",
+        "便利な使い方": "transcribe-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/recording/summary/",
+      "target": "/htu/uni-note/recording/#summary",
+      "source": "content/uni-note-guide/recording-summary.md",
+      "fragments": {
+        "必要な条件": "summary-必要な条件",
+        "対象と形式を選んで生成する": "対象と形式を選んで生成する",
+        "保存した結果を読む共有する": "保存した結果を読む共有する",
+        "いつも使う形式を決める": "いつも使う形式を決める",
+        "完了の確認": "summary-完了の確認",
+        "注意事項": "summary-注意事項",
+        "関連する使い方": "summary-関連する使い方",
+        "便利な使い方": "summary-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/recording/paste/",
+      "target": "/htu/uni-note/recording/#paste",
+      "source": "content/uni-note-guide/recording-paste.md",
+      "fragments": {
+        "必要な条件": "paste-必要な条件",
+        "貼り付け先を決める": "貼り付け先を決める",
+        "要約を貼って追記する": "要約を貼って追記する",
+        "完了の確認": "paste-完了の確認",
+        "関連する使い方": "paste-関連する使い方",
+        "便利な使い方": "paste-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/study/sticky/",
+      "target": "/htu/uni-note/study/#sticky",
+      "source": "content/uni-note-guide/study-sticky.md",
+      "fragments": {
+        "必要な条件": "sticky-必要な条件",
+        "付箋を引く": "付箋を引く",
+        "答えを見せる隠す": "答えを見せる隠す",
+        "色太さを変える付箋を削除する": "色太さを変える付箋を削除する",
+        "完了の確認": "sticky-完了の確認",
+        "関連する使い方": "sticky-関連する使い方",
+        "便利な使い方": "sticky-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/study/pomodoro/",
+      "target": "/htu/uni-note/study/#pomodoro",
+      "source": "content/uni-note-guide/study-pomodoro.md",
+      "fragments": {
+        "必要な条件": "pomodoro-必要な条件",
+        "時間とセット数を決める": "時間とセット数を決める",
+        "実行中終了時": "実行中終了時",
+        "既定値とキャラクターを選ぶ": "既定値とキャラクターを選ぶ",
+        "完了の確認": "pomodoro-完了の確認",
+        "関連する使い方": "pomodoro-関連する使い方",
+        "便利な使い方": "pomodoro-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/study/laser/",
+      "target": "/htu/uni-note/study/#laser",
+      "source": "content/uni-note-guide/study-laser.md",
+      "fragments": {
+        "必要な条件": "laser-必要な条件",
+        "指し示す": "指し示す",
+        "書き込みへ戻る": "書き込みへ戻る",
+        "完了の確認": "laser-完了の確認",
+        "関連する使い方": "laser-関連する使い方",
+        "便利な使い方": "laser-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/ai/answer/",
+      "target": "/htu/uni-note/ai/#answer",
+      "source": "content/uni-note-guide/ai-answer.md",
+      "fragments": {
+        "必要な条件": "必要な条件",
+        "問題の範囲を選ぶ": "問題の範囲を選ぶ",
+        "結果を読む渡す": "結果を読む渡す",
+        "完了の確認": "answer-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "answer-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/ai/settings/",
+      "target": "/htu/uni-note/ai/#settings",
+      "source": "content/uni-note-guide/ai-settings.md",
+      "fragments": {
+        "文字起こしの言語を確認する": "文字起こしの言語を確認する",
+        "aiの回答言語を選ぶ": "aiの回答言語を選ぶ",
+        "aiの出力を確認する": "aiの出力を確認する",
+        "完了の確認": "settings-完了の確認",
+        "関連する使い方": "settings-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/problem-sets/generate/",
+      "target": "/htu/uni-note/problem-sets/#generate",
+      "source": "content/uni-note-guide/problem-sets-generate.md",
+      "fragments": {
+        "必要な条件": "generate-必要な条件",
+        "対象を決めて生成する": "対象を決めて生成する",
+        "候補を採用破棄する": "候補を採用破棄する",
+        "問題集として保存する": "問題集として保存する",
+        "完了の確認": "generate-完了の確認",
+        "注意事項": "generate-注意事項",
+        "関連する使い方": "generate-関連する使い方",
+        "便利な使い方": "generate-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/problem-sets/review/",
+      "target": "/htu/uni-note/problem-sets/#review",
+      "source": "content/uni-note-guide/problem-sets-review.md",
+      "fragments": {
+        "必要な条件": "review-必要な条件",
+        "問題集を開く": "問題集を開く",
+        "答えを確認して次へ進む": "答えを確認して次へ進む",
+        "完了の確認": "review-完了の確認",
+        "関連する使い方": "review-関連する使い方",
+        "便利な使い方": "review-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/problem-sets/edit/",
+      "target": "/htu/uni-note/problem-sets/#edit",
+      "source": "content/uni-note-guide/problem-sets-edit.md",
+      "fragments": {
+        "手動で作成する": "手動で作成する",
+        "保存した問題集を編集する": "保存した問題集を編集する",
+        "問題を追加削除する": "問題を追加削除する",
+        "問題集全体を削除する": "問題集全体を削除する",
+        "完了の確認": "edit-完了の確認",
+        "注意事項": "edit-注意事項",
+        "関連する使い方": "edit-関連する使い方",
+        "便利な使い方": "edit-便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/problem-sets/home/",
+      "target": "/htu/uni-note/problem-sets/#home",
+      "source": "content/uni-note-guide/problem-sets-home.md",
+      "fragments": {
+        "表示を切り替える": "表示を切り替える",
+        "完了の確認": "home-完了の確認",
+        "関連する使い方": "home-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/customize/settings/",
+      "target": "/htu/uni-note/customize/#settings",
+      "source": "content/uni-note-guide/customize-settings.md",
+      "fragments": {
+        "設定を開く": "設定を開く",
+        "完了の確認": "settings-完了の確認",
+        "関連する使い方": "settings-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/customize/paper/",
+      "target": "/htu/uni-note/customize/#paper",
+      "source": "content/uni-note-guide/customize-paper.md",
+      "fragments": {
+        "新規ノートの紙を決める": "新規ノートの紙を決める",
+        "左利きモード左右の個別設定": "左利きモード左右の個別設定",
+        "四隅に教科名ページ番号などを置く": "四隅に教科名ページ番号などを置く",
+        "完了の確認": "paper-完了の確認",
+        "関連する使い方": "paper-関連する使い方",
+        "便利な使い方": "便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/customize/display/",
+      "target": "/htu/uni-note/customize/#display",
+      "source": "content/uni-note-guide/customize-display.md",
+      "fragments": {
+        "起動とホームの表示": "起動とホームの表示",
+        "筆記中の表示": "筆記中の表示",
+        "保護解除時の認証": "保護解除時の認証",
+        "表示言語を変える": "表示言語を変える",
+        "完了の確認": "display-完了の確認",
+        "関連する使い方": "display-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/customize/toolbar/",
+      "target": "/htu/uni-note/customize/#toolbar",
+      "source": "content/uni-note-guide/customize-toolbar.md",
+      "fragments": {
+        "ナビゲーションバーを変える": "ナビゲーションバーを変える",
+        "ドラッグせずに移動する": "ドラッグせずに移動する",
+        "パレットの道具を変える": "パレットの道具を変える",
+        "初期配置へ戻す": "初期配置へ戻す",
+        "完了の確認": "toolbar-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "toolbar-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/data/protect/",
+      "target": "/htu/uni-note/data/#protect",
+      "source": "content/uni-note-guide/data-protect.md",
+      "fragments": {
+        "必要な条件": "必要な条件",
+        "書き込みから保護する": "書き込みから保護する",
+        "編集できる状態へ戻す": "編集できる状態へ戻す",
+        "完了の確認": "protect-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "protect-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/data/trash/",
+      "target": "/htu/uni-note/data/#trash",
+      "source": "content/uni-note-guide/data-trash.md",
+      "fragments": {
+        "削除したノートを探す": "削除したノートを探す",
+        "ノート教科を復元する": "ノート教科を復元する",
+        "完全に削除する": "完全に削除する",
+        "完了の確認": "trash-完了の確認",
+        "関連する使い方": "trash-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/backup/save/",
+      "target": "/htu/uni-note/backup/#save",
+      "source": "content/uni-note-guide/backup-save.md",
+      "fragments": {
+        "必要な条件": "save-必要な条件",
+        "保存方法と音声の扱いを決める": "保存方法と音声の扱いを決める",
+        "バックアップファイルを保存する": "バックアップファイルを保存する",
+        "かんたんバックアップを更新する": "かんたんバックアップを更新する",
+        "完了の確認": "save-完了の確認",
+        "注意事項": "save-注意事項",
+        "関連する使い方": "save-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/backup/restore/",
+      "target": "/htu/uni-note/backup/#restore",
+      "source": "content/uni-note-guide/backup-restore.md",
+      "fragments": {
+        "必要な条件": "restore-必要な条件",
+        "復元前に現在のデータを残す": "復元前に現在のデータを残す",
+        "ファイルから戻す": "ファイルから戻す",
+        "かんたんバックアップから戻す": "かんたんバックアップから戻す",
+        "復元できないとき": "復元できないとき",
+        "完了の確認": "restore-完了の確認",
+        "注意事項": "restore-注意事項",
+        "関連する使い方": "restore-関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/plans/usage/",
+      "target": "/htu/uni-note/plans/#usage",
+      "source": "content/uni-note-guide/plans-usage.md",
+      "fragments": {
+        "必要な条件": "必要な条件",
+        "プランを確認選択する": "プランを確認選択する",
+        "ai残量を確認追加する": "ai残量を確認追加する",
+        "購入状態を更新する": "購入状態を更新する",
+        "完了の確認": "完了の確認",
+        "関連する使い方": "関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/troubleshooting/help/",
+      "target": "/htu/uni-note/troubleshooting/#help",
+      "source": "content/uni-note-guide/troubleshooting-help.md",
+      "fragments": {
+        "まず確認すること": "まず確認すること",
+        "お知らせと更新を確認する": "お知らせと更新を確認する",
+        "サポートへ伝える": "サポートへ伝える",
+        "サポート画面のほかの項目": "サポート画面のほかの項目",
+        "完了の確認": "完了の確認",
+        "関連する使い方": "関連する使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/ipados/windows/",
+      "target": "/htu/uni-note/ipados/#windows",
+      "source": "content/uni-note-guide/ipados-windows.md",
+      "fragments": {
+        "必要な条件": "windows-必要な条件",
+        "自分のosの操作を確認する": "自分のosの操作を確認する",
+        "uninoteをもう1つ開く": "uninoteをもう1つ開く",
+        "切り替える閉じる": "切り替える閉じる",
+        "完了の確認": "windows-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "windows-関連する使い方",
+        "便利な使い方": "便利な使い方"
+      }
+    },
+    {
+      "url": "/htu/uni-note/ipados/files/",
+      "target": "/htu/uni-note/ipados/#files",
+      "source": "content/uni-note-guide/ipados-files.md",
+      "fragments": {
+        "必要な条件": "files-必要な条件",
+        "外部のpdfを取り込む": "外部のpdfを取り込む",
+        "書き出したpdfを保存確認する": "書き出したpdfを保存確認する",
+        "完了の確認": "files-完了の確認",
+        "関連する使い方": "files-関連する使い方"
+      }
+    }
+  ]
 }

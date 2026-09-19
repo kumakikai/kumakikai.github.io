@@ -42,7 +42,7 @@ operation_ids: ["M16"]
 
 ## 関連する使い方
 
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/arrange/)
-- [紙・左右の配置・ページ情報を設定する](/htu/uni-note/customize/paper/)
-- [手書きを囲んで移動する](/htu/uni-note/writing/move/)
-- [定規で直線を引く](/htu/uni-note/writing/ruler/)
+- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)
+- [紙・左右の配置・ページ情報を設定する](/htu/uni-note/customize/#paper)
+- [手書きを囲んで移動する](/htu/uni-note/writing/#selection)
+- [定規で直線を引く](/htu/uni-note/writing/#ruler)

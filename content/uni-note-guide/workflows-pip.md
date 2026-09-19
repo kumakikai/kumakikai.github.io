@@ -39,6 +39,6 @@ operation_ids: ["O05"]
 
 ## 関連する使い方
 
-- [iPadのウインドウ操作を使う](/htu/uni-note/ipados/windows/)
+- [iPadのウインドウ操作を使う](/htu/uni-note/ipados/#windows)
 - [SafariやPDF閲覧アプリと並べて書く](/htu/uni-note/workflows/external-material/)
-- [ペンと蛍光ペンを使う](/htu/uni-note/writing/pens/)
+- [ペンと蛍光ペンを使う](/htu/uni-note/writing/#pen)

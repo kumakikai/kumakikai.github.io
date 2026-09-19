@@ -1,0 +1,18 @@
+{{- $category := .Get "category" -}}
+{{- $navigation := site.Data.uni_guide_navigation -}}
+{{- $title := index $navigation.categories $category -}}
+{{- $id := printf "guide-sections-%s" $category -}}
+<section class="uni-guide-category" aria-labelledby="guide-category-{{ $category }}">
+  <div class="uni-guide-category-row">
+    <button type="button" class="uni-guide-toggle" aria-expanded="true" aria-controls="{{ $id }}" aria-label="{{ $title }}の項目を収納" data-guide-toggle data-category-title="{{ $title }}" hidden>
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5 2l7 6-7 6z" fill="currentColor"/></svg>
+    </button>
+    <h3 id="guide-category-{{ $category }}"><a href="/htu/uni-note/{{ $category }}/">{{ $title }}</a></h3>
+  </div>
+  <p class="uni-guide-category-description">{{ index $navigation.descriptions $category }}</p>
+  <ul class="uni-guide-children" id="{{ $id }}">
+    {{- range where $navigation.pages "category" $category }}
+    <li><a href="{{ .url }}">{{ .title }}</a></li>
+    {{- end }}
+  </ul>
+</section>

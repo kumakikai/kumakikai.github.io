@@ -47,6 +47,6 @@ AI生成時は通信環境とAI残量。手動編集と手動作成はAI残量�
 
 ## 関連する使い方
 
-- [ノートからAI問題集を作る](/htu/uni-note/problem-sets/generate/)
-- [問題集を手動作成・編集する](/htu/uni-note/problem-sets/edit/)
-- [保存した問題集で復習する](/htu/uni-note/problem-sets/review/)
+- [ノートからAI問題集を作る](/htu/uni-note/problem-sets/#generate)
+- [問題集を手動作成・編集する](/htu/uni-note/problem-sets/#edit)
+- [保存した問題集で復習する](/htu/uni-note/problem-sets/#review)

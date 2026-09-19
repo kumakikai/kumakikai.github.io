@@ -1,0 +1,5339 @@
+{
+  "source_commit": "6787e1c07e6f6d8cbdd2b2e71a4c7e7d26a9c7f4",
+  "categories": {
+    "start": "はじめに",
+    "library": "教科・フォルダ",
+    "notebooks": "ノート・ページ",
+    "writing": "手書き",
+    "materials": "写真・PDF",
+    "recording": "録音・文字起こし",
+    "study": "暗記・集中",
+    "ai": "AI",
+    "problem-sets": "問題集",
+    "customize": "カスタマイズ",
+    "data": "保護・データ管理",
+    "backup": "バックアップ",
+    "plans": "プラン・AI残量",
+    "workflows": "便利な使い方",
+    "ipados": "iPadOSとの組み合わせ",
+    "troubleshooting": "困ったとき"
+  },
+  "merges": [
+    {
+      "key": "start/screens",
+      "category": "start",
+      "title": "画面とノートの仕組み",
+      "url": "/htu/uni-note/start/screens/",
+      "source": "content/uni-note-guide/start-screens.md",
+      "operations": [
+        "N01",
+        "S39"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M01",
+        "N-M05",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "N-M01",
+        "N-M05",
+        "M-M14"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "ホームからノートへ",
+        "ノート画面で使うもの",
+        "初回案内を終える",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "b55aee88e53e2d08403d45ed3785994cbc8c6e4714e693ea6f077fb74cac2253",
+      "anchor": "screens",
+      "target_url": "/htu/uni-note/start/#screens",
+      "target_source": "content/uni-note-guide/start.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "ホームからノートへ"
+        ],
+        [
+          "##",
+          "ノート画面で使うもの"
+        ],
+        [
+          "##",
+          "初回案内を終える"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "screens-必要な条件",
+        "ホームからノートへ": "ホームからノートへ",
+        "ノート画面で使うもの": "ノート画面で使うもの",
+        "初回案内を終える": "初回案内を終える",
+        "完了の確認": "screens-完了の確認",
+        "関連する使い方": "screens-関連する使い方"
+      }
+    },
+    {
+      "key": "start/first-note",
+      "category": "start",
+      "title": "最初の教科とノートを作る",
+      "url": "/htu/uni-note/start/first-note/",
+      "source": "content/uni-note-guide/start-first-note.md",
+      "operations": [
+        "N02",
+        "N03",
+        "N05",
+        "N69"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M01",
+        "N-M02",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "N-M01",
+        "N-M02",
+        "M-M14"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "教科を作る",
+        "最初のノートを開く",
+        "続きから使う",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "c93dcb0d9f7ae547a4c0befd6ba6199d506386c0f451803821b7331b197b3733",
+      "anchor": "first-note",
+      "target_url": "/htu/uni-note/start/#first-note",
+      "target_source": "content/uni-note-guide/start.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "教科を作る"
+        ],
+        [
+          "##",
+          "最初のノートを開く"
+        ],
+        [
+          "##",
+          "続きから使う"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "first-note-必要な条件",
+        "教科を作る": "教科を作る",
+        "最初のノートを開く": "最初のノートを開く",
+        "続きから使う": "続きから使う",
+        "完了の確認": "first-note-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "first-note-関連する使い方"
+      }
+    },
+    {
+      "key": "library/subjects",
+      "category": "library",
+      "title": "教科を編集・並べ替え・削除する",
+      "url": "/htu/uni-note/library/subjects/",
+      "source": "content/uni-note-guide/library-subjects.md",
+      "operations": [
+        "N04",
+        "N10",
+        "N56"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M01",
+        "N-M04",
+        "N-M08",
+        "N-M20",
+        "S-M15"
+      ],
+      "slot_masters": [
+        "N-M01",
+        "N-M04",
+        "N-M08",
+        "N-M20",
+        "S-M15"
+      ],
+      "old_heading_ids": [
+        "名前紙表紙を編集する",
+        "カードを並べ替える",
+        "教科を削除する",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "6f0b60e0e1f6ba5d67eb8c0193eb620a2da80bff3a9a7f37b23691ae7c3bf070",
+      "anchor": "subjects",
+      "target_url": "/htu/uni-note/library/#subjects",
+      "target_source": "content/uni-note-guide/library.md",
+      "headings": [
+        [
+          "##",
+          "名前・紙・表紙を編集する"
+        ],
+        [
+          "##",
+          "カードを並べ替える"
+        ],
+        [
+          "##",
+          "教科を削除する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "名前紙表紙を編集する": "名前紙表紙を編集する",
+        "カードを並べ替える": "カードを並べ替える",
+        "教科を削除する": "教科を削除する",
+        "完了の確認": "subjects-完了の確認",
+        "関連する使い方": "subjects-関連する使い方"
+      }
+    },
+    {
+      "key": "library/folders",
+      "category": "library",
+      "title": "教科をフォルダで整理する",
+      "url": "/htu/uni-note/library/folders/",
+      "source": "content/uni-note-guide/library-folders.md",
+      "operations": [
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N18",
+        "N19",
+        "N20",
+        "N68"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M01",
+        "N-M11",
+        "N-M12",
+        "N-M13",
+        "N-M14",
+        "N-M15",
+        "N-M17",
+        "N-M18"
+      ],
+      "slot_masters": [
+        "N-M01",
+        "N-M11",
+        "N-M12",
+        "N-M13",
+        "N-M14",
+        "N-M15",
+        "N-M17",
+        "N-M18"
+      ],
+      "old_heading_ids": [
+        "フォルダを作る",
+        "教科を入れる並べる",
+        "内容を編集する教科を外へ出す",
+        "フォルダだけを削除する",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "2c0f62101dee1213a55ef8e1cb5c6ba18f7ee7faf6da630d73a32e7555279835",
+      "anchor": "folders",
+      "target_url": "/htu/uni-note/library/#folders",
+      "target_source": "content/uni-note-guide/library.md",
+      "headings": [
+        [
+          "##",
+          "フォルダを作る"
+        ],
+        [
+          "##",
+          "教科を入れる・並べる"
+        ],
+        [
+          "##",
+          "内容を編集する・教科を外へ出す"
+        ],
+        [
+          "##",
+          "フォルダだけを削除する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "フォルダを作る": "フォルダを作る",
+        "教科を入れる並べる": "教科を入れる並べる",
+        "内容を編集する教科を外へ出す": "内容を編集する教科を外へ出す",
+        "フォルダだけを削除する": "フォルダだけを削除する",
+        "完了の確認": "folders-完了の確認",
+        "関連する使い方": "folders-関連する使い方"
+      }
+    },
+    {
+      "key": "library/search",
+      "category": "library",
+      "title": "ノートをタイトルで探す",
+      "url": "/htu/uni-note/library/search/",
+      "source": "content/uni-note-guide/library-search.md",
+      "operations": [
+        "N12",
+        "N13"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M01",
+        "N-M09"
+      ],
+      "slot_masters": [
+        "N-M01",
+        "N-M09"
+      ],
+      "old_heading_ids": [
+        "タイトルで探す",
+        "通常のホームへ戻す",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "3d64e6ffc3d82f57d2e5c41bdaf8cbdc4cdf5879eba33161fa433d707c9096ae",
+      "anchor": "search",
+      "target_url": "/htu/uni-note/library/#search",
+      "target_source": "content/uni-note-guide/library.md",
+      "headings": [
+        [
+          "##",
+          "タイトルで探す"
+        ],
+        [
+          "##",
+          "通常のホームへ戻す"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "タイトルで探す": "タイトルで探す",
+        "通常のホームへ戻す": "通常のホームへ戻す",
+        "完了の確認": "search-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "search-関連する使い方"
+      }
+    },
+    {
+      "key": "notebooks/manage",
+      "category": "notebooks",
+      "title": "ノートを開く・増やす・整理する",
+      "url": "/htu/uni-note/notebooks/manage/",
+      "source": "content/uni-note-guide/notebooks-manage.md",
+      "operations": [
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N11",
+        "N57"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M01",
+        "N-M05",
+        "N-M06",
+        "N-M07",
+        "N-M58",
+        "S-M15"
+      ],
+      "slot_masters": [
+        "N-M01",
+        "N-M05",
+        "N-M06",
+        "N-M07",
+        "N-M58",
+        "S-M15"
+      ],
+      "old_heading_ids": [
+        "ノートを選ぶ追加する",
+        "名前や順番を変える",
+        "ノートを削除する",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "4a331e8f94f58e9e10d0cce97f4674f38799464e098997e695c437bf6a405705",
+      "anchor": "manage",
+      "target_url": "/htu/uni-note/notebooks/#manage",
+      "target_source": "content/uni-note-guide/notebooks.md",
+      "headings": [
+        [
+          "##",
+          "ノートを選ぶ・追加する"
+        ],
+        [
+          "##",
+          "名前や順番を変える"
+        ],
+        [
+          "##",
+          "ノートを削除する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "ノートを選ぶ追加する": "ノートを選ぶ追加する",
+        "名前や順番を変える": "名前や順番を変える",
+        "ノートを削除する": "ノートを削除する",
+        "完了の確認": "manage-完了の確認",
+        "関連する使い方": "manage-関連する使い方"
+      }
+    },
+    {
+      "key": "notebooks/pages",
+      "category": "notebooks",
+      "title": "ページを送る・並べ替える・削除する",
+      "url": "/htu/uni-note/notebooks/pages/",
+      "source": "content/uni-note-guide/notebooks-pages.md",
+      "operations": [
+        "N21",
+        "N22",
+        "N25",
+        "N26",
+        "N27",
+        "N63"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M31",
+        "N-M33",
+        "N-M34",
+        "N-M35",
+        "N-M36"
+      ],
+      "slot_masters": [
+        "N-M31",
+        "N-M33",
+        "N-M34",
+        "N-M35",
+        "N-M36"
+      ],
+      "old_heading_ids": [
+        "スクロールズームページ追加",
+        "目的のページへ移動する",
+        "ページを並べ替える",
+        "ページを削除する",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "737eddb87469fc1ba18064e8d25d2d1a3bc186d05ce9fdc0e17b13567e58d205",
+      "anchor": "pages",
+      "target_url": "/htu/uni-note/notebooks/#pages",
+      "target_source": "content/uni-note-guide/notebooks.md",
+      "headings": [
+        [
+          "##",
+          "スクロール・ズーム・ページ追加"
+        ],
+        [
+          "##",
+          "目的のページへ移動する"
+        ],
+        [
+          "##",
+          "ページを並べ替える"
+        ],
+        [
+          "##",
+          "ページを削除する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "スクロールズームページ追加": "スクロールズームページ追加",
+        "目的のページへ移動する": "目的のページへ移動する",
+        "ページを並べ替える": "ページを並べ替える",
+        "ページを削除する": "ページを削除する",
+        "完了の確認": "pages-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "pages-関連する使い方",
+        "便利な使い方": "pages-便利な使い方"
+      }
+    },
+    {
+      "key": "notebooks/vertical",
+      "category": "notebooks",
+      "title": "縦ノートを作る",
+      "url": "/htu/uni-note/notebooks/vertical/",
+      "source": "content/uni-note-guide/notebooks-vertical.md",
+      "operations": [
+        "N23",
+        "N65"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M19",
+        "N-M31",
+        "M-M14",
+        "M-M18"
+      ],
+      "slot_masters": [
+        "N-M19",
+        "N-M31",
+        "M-M14",
+        "M-M18"
+      ],
+      "old_heading_ids": [
+        "縦ノートを新しく作る",
+        "通常ノートとの選び分け",
+        "完了の確認",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "d36a4bb4417854c5e1b0ffb9409052c944773b2f1846f9ad5435fac61f86cf5b",
+      "anchor": "vertical",
+      "target_url": "/htu/uni-note/notebooks/#vertical",
+      "target_source": "content/uni-note-guide/notebooks.md",
+      "headings": [
+        [
+          "##",
+          "縦ノートを新しく作る"
+        ],
+        [
+          "##",
+          "通常ノートとの選び分け"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "縦ノートを新しく作る": "縦ノートを新しく作る",
+        "通常ノートとの選び分け": "通常ノートとの選び分け",
+        "完了の確認": "vertical-完了の確認",
+        "関連する使い方": "vertical-関連する使い方",
+        "便利な使い方": "vertical-便利な使い方"
+      }
+    },
+    {
+      "key": "writing/pens",
+      "category": "writing",
+      "title": "ペンと蛍光ペンを使う",
+      "url": "/htu/uni-note/writing/pens/",
+      "source": "content/uni-note-guide/writing-pens.md",
+      "operations": [
+        "N28",
+        "N29",
+        "N30",
+        "N31",
+        "N32",
+        "N33"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M37",
+        "N-M39",
+        "N-M40",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "N-M37",
+        "N-M39",
+        "N-M40",
+        "M-M14"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "ペンで書く",
+        "自分の色を登録する",
+        "蛍光ペンで強調する",
+        "完了の確認",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "2e35d7ef6f9e2a809de7902d34d86842bb8df2c046520b5ba94933aca225fa5e",
+      "anchor": "pen",
+      "target_url": "/htu/uni-note/writing/#pen",
+      "target_source": "content/uni-note-guide/writing.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "ペンで書く"
+        ],
+        [
+          "##",
+          "自分の色を登録する"
+        ],
+        [
+          "##",
+          "蛍光ペンで強調する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "pen-必要な条件",
+        "ペンで書く": "ペンで書く",
+        "自分の色を登録する": "自分の色を登録する",
+        "蛍光ペンで強調する": "蛍光ペンで強調する",
+        "完了の確認": "pen-完了の確認",
+        "関連する使い方": "pen-関連する使い方",
+        "便利な使い方": "便利な使い方"
+      }
+    },
+    {
+      "key": "writing/erasing",
+      "category": "writing",
+      "title": "消しゴム・取り消し・やり直し",
+      "url": "/htu/uni-note/writing/erasing/",
+      "source": "content/uni-note-guide/writing-erasing.md",
+      "operations": [
+        "N34",
+        "N35",
+        "N36",
+        "N37",
+        "N38"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M41",
+        "N-M42",
+        "N-M43",
+        "N-M44"
+      ],
+      "slot_masters": [
+        "N-M41",
+        "N-M42",
+        "N-M43",
+        "N-M44"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "線全体一部分を消す",
+        "取り消しやり直し",
+        "ページの手書きをまとめて消す",
+        "apple-pencilのダブルタップ",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "9af8e447c5af4722cdec8326e04c03c5f2d5fda286daba3420ef0ada0d7d7d7c",
+      "anchor": "eraser",
+      "target_url": "/htu/uni-note/writing/#eraser",
+      "target_source": "content/uni-note-guide/writing.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "線全体／一部分を消す"
+        ],
+        [
+          "##",
+          "取り消し・やり直し"
+        ],
+        [
+          "##",
+          "ページの手書きをまとめて消す"
+        ],
+        [
+          "##",
+          "Apple Pencilのダブルタップ"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "eraser-必要な条件",
+        "線全体一部分を消す": "線全体一部分を消す",
+        "取り消しやり直し": "取り消しやり直し",
+        "ページの手書きをまとめて消す": "ページの手書きをまとめて消す",
+        "apple-pencilのダブルタップ": "apple-pencilのダブルタップ",
+        "完了の確認": "eraser-完了の確認",
+        "関連する使い方": "eraser-関連する使い方"
+      }
+    },
+    {
+      "key": "writing/palette",
+      "category": "writing",
+      "title": "パレットを動かす・収納する",
+      "url": "/htu/uni-note/writing/palette/",
+      "source": "content/uni-note-guide/writing-palette.md",
+      "operations": [
+        "N39",
+        "N40"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M45",
+        "N-M47",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "N-M45",
+        "N-M47",
+        "M-M14"
+      ],
+      "old_heading_ids": [
+        "位置を変える",
+        "収納再表示",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "55ad5bf32d1d964dc18fa457c128d9c34a09e3205c6e78214fb59a214095f6d9",
+      "anchor": "palette",
+      "target_url": "/htu/uni-note/writing/#palette",
+      "target_source": "content/uni-note-guide/writing.md",
+      "headings": [
+        [
+          "##",
+          "位置を変える"
+        ],
+        [
+          "##",
+          "収納・再表示"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "位置を変える": "位置を変える",
+        "収納再表示": "収納再表示",
+        "完了の確認": "palette-完了の確認",
+        "関連する使い方": "palette-関連する使い方"
+      }
+    },
+    {
+      "key": "writing/ruler",
+      "category": "writing",
+      "title": "定規で直線を引く",
+      "url": "/htu/uni-note/writing/ruler/",
+      "source": "content/uni-note-guide/writing-ruler.md",
+      "operations": [
+        "N41",
+        "N42",
+        "N43",
+        "M50",
+        "M51"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M49",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "N-M49",
+        "M-M14"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "定規を置いて線を引く",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "342ac1702b175901fcb271cacc055672ade2a0ce785745006b545aeb2d1a9e8d",
+      "anchor": "ruler",
+      "target_url": "/htu/uni-note/writing/#ruler",
+      "target_source": "content/uni-note-guide/writing.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "定規を置いて線を引く"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "ruler-必要な条件",
+        "定規を置いて線を引く": "定規を置いて線を引く",
+        "完了の確認": "ruler-完了の確認",
+        "注意事項": "ruler-注意事項",
+        "関連する使い方": "ruler-関連する使い方"
+      }
+    },
+    {
+      "key": "writing/move",
+      "category": "writing",
+      "title": "手書きを囲んで移動する",
+      "url": "/htu/uni-note/writing/move/",
+      "source": "content/uni-note-guide/writing-move.md",
+      "operations": [
+        "N44",
+        "N45"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M50",
+        "N-M51",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "N-M50",
+        "N-M51",
+        "M-M14"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "手書きを囲んで移す",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "ded1b831a7d334c96f72f366e3eb914153bfcc87b0e756fb0ec653e0db63a229",
+      "anchor": "selection",
+      "target_url": "/htu/uni-note/writing/#selection",
+      "target_source": "content/uni-note-guide/writing.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "手書きを囲んで移す"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "selection-必要な条件",
+        "手書きを囲んで移す": "手書きを囲んで移す",
+        "完了の確認": "selection-完了の確認",
+        "注意事項": "selection-注意事項",
+        "関連する使い方": "selection-関連する使い方"
+      }
+    },
+    {
+      "key": "materials/photos",
+      "category": "materials",
+      "title": "写真・紙の資料を貼り付ける",
+      "url": "/htu/uni-note/materials/photos/",
+      "source": "content/uni-note-guide/materials-photos.md",
+      "operations": [
+        "M01",
+        "M02",
+        "M03"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M02",
+        "M-M03",
+        "M-M19",
+        "R-M05"
+      ],
+      "slot_masters": [
+        "M-M02",
+        "M-M03",
+        "M-M19",
+        "R-M05"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "写真をそのまま貼る",
+        "紙資料を撮って貼る",
+        "保存済み写真を紙資料として使う",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "82f7425eea8143a76314997b4062c09c34b9cecc1ddecd4a616d1433ae6c8f2b",
+      "anchor": "photos",
+      "target_url": "/htu/uni-note/materials/#photos",
+      "target_source": "content/uni-note-guide/materials.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "写真をそのまま貼る"
+        ],
+        [
+          "##",
+          "紙資料を撮って貼る"
+        ],
+        [
+          "##",
+          "保存済み写真を紙資料として使う"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "photos-必要な条件",
+        "写真をそのまま貼る": "写真をそのまま貼る",
+        "紙資料を撮って貼る": "紙資料を撮って貼る",
+        "保存済み写真を紙資料として使う": "保存済み写真を紙資料として使う",
+        "完了の確認": "photos-完了の確認",
+        "関連する使い方": "photos-関連する使い方"
+      }
+    },
+    {
+      "key": "materials/pdf",
+      "category": "materials",
+      "title": "PDFのページを選んで貼り付ける",
+      "url": "/htu/uni-note/materials/pdf/",
+      "source": "content/uni-note-guide/materials-pdf.md",
+      "operations": [
+        "M04",
+        "M05",
+        "M06"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M06",
+        "M-M07",
+        "M-M08",
+        "M-M09",
+        "M-M10",
+        "M-M09R"
+      ],
+      "slot_masters": [
+        "M-M06",
+        "M-M07",
+        "M-M08",
+        "M-M09",
+        "M-M10",
+        "M-M09R"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "1ページを選んで貼る",
+        "複数ページ全ページを選ぶ",
+        "見開きを左右に分割する",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "f6c73834748241720249188ef0bbade52e8064522eb329e1e0d204b288646e00",
+      "anchor": "pdf",
+      "target_url": "/htu/uni-note/materials/#pdf",
+      "target_source": "content/uni-note-guide/materials.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "1ページを選んで貼る"
+        ],
+        [
+          "##",
+          "複数ページ・全ページを選ぶ"
+        ],
+        [
+          "##",
+          "見開きを左右に分割する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "pdf-必要な条件",
+        "1ページを選んで貼る": "1ページを選んで貼る",
+        "複数ページ全ページを選ぶ": "複数ページ全ページを選ぶ",
+        "見開きを左右に分割する": "見開きを左右に分割する",
+        "完了の確認": "pdf-完了の確認",
+        "注意事項": "pdf-注意事項",
+        "関連する使い方": "pdf-関連する使い方",
+        "便利な使い方": "pdf-便利な使い方"
+      }
+    },
+    {
+      "key": "materials/arrange",
+      "category": "materials",
+      "title": "写真・PDFを動かして固定する",
+      "url": "/htu/uni-note/materials/arrange/",
+      "source": "content/uni-note-guide/materials-arrange.md",
+      "operations": [
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12",
+        "M13"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M10",
+        "M-M11",
+        "M-M12",
+        "M-M13",
+        "M-M14",
+        "M-M15"
+      ],
+      "slot_masters": [
+        "M-M10",
+        "M-M11",
+        "M-M12",
+        "M-M13",
+        "M-M14",
+        "M-M15"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "固定を解除して選ぶ",
+        "移動サイズ変更回転",
+        "固定して書く",
+        "資料を削除する",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "b6bcca9af25f340e185e0b7f620b999293d750fdb62b3b721114233b83517940",
+      "anchor": "arrange",
+      "target_url": "/htu/uni-note/materials/#arrange",
+      "target_source": "content/uni-note-guide/materials.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "固定を解除して選ぶ"
+        ],
+        [
+          "##",
+          "移動・サイズ変更・回転"
+        ],
+        [
+          "##",
+          "固定して書く"
+        ],
+        [
+          "##",
+          "資料を削除する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "arrange-必要な条件",
+        "固定を解除して選ぶ": "固定を解除して選ぶ",
+        "移動サイズ変更回転": "移動サイズ変更回転",
+        "固定して書く": "固定して書く",
+        "資料を削除する": "資料を削除する",
+        "完了の確認": "arrange-完了の確認",
+        "注意事項": "arrange-注意事項",
+        "関連する使い方": "arrange-関連する使い方",
+        "便利な使い方": "arrange-便利な使い方"
+      }
+    },
+    {
+      "key": "materials/vertical",
+      "category": "materials",
+      "title": "縦ノートで資料の大きさを整える",
+      "url": "/htu/uni-note/materials/vertical/",
+      "source": "content/uni-note-guide/materials-vertical.md",
+      "operations": [
+        "M14",
+        "M15"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M19",
+        "M-M14",
+        "M-M18",
+        "M-M19",
+        "M-M20"
+      ],
+      "slot_masters": [
+        "N-M19",
+        "M-M14",
+        "M-M18",
+        "M-M19",
+        "M-M20"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "pdf書類写真を大きく使う",
+        "普通の写真を大きくする",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "b060be70f531c34aaa22674d8759c82490fc7a1ffb61f992522cc1f2ca58736c",
+      "anchor": "vertical",
+      "target_url": "/htu/uni-note/materials/#vertical",
+      "target_source": "content/uni-note-guide/materials.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "PDF・書類写真を大きく使う"
+        ],
+        [
+          "##",
+          "普通の写真を大きくする"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "vertical-必要な条件",
+        "pdf書類写真を大きく使う": "pdf書類写真を大きく使う",
+        "普通の写真を大きくする": "普通の写真を大きくする",
+        "完了の確認": "vertical-完了の確認",
+        "注意事項": "vertical-注意事項",
+        "関連する使い方": "vertical-関連する使い方",
+        "便利な使い方": "vertical-便利な使い方"
+      }
+    },
+    {
+      "key": "materials/export",
+      "category": "materials",
+      "title": "ノートをPDFにして保存・共有する",
+      "url": "/htu/uni-note/materials/export/",
+      "source": "content/uni-note-guide/materials-export.md",
+      "operations": [
+        "M17",
+        "M18",
+        "S17",
+        "S42"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M21"
+      ],
+      "slot_masters": [
+        "M-M21"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "背景を決める",
+        "pdfを書き出す",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "5f464919fe5101c2865ea55c04f0098b94a6a5f042a1504004423861a83ea0b1",
+      "anchor": "export",
+      "target_url": "/htu/uni-note/materials/#export",
+      "target_source": "content/uni-note-guide/materials.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "背景を決める"
+        ],
+        [
+          "##",
+          "PDFを書き出す"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "export-必要な条件",
+        "背景を決める": "背景を決める",
+        "pdfを書き出す": "pdfを書き出す",
+        "完了の確認": "export-完了の確認",
+        "注意事項": "export-注意事項",
+        "関連する使い方": "export-関連する使い方"
+      }
+    },
+    {
+      "key": "recording/capture",
+      "category": "recording",
+      "title": "授業を録音して保存する",
+      "url": "/htu/uni-note/recording/capture/",
+      "source": "content/uni-note-guide/recording-capture.md",
+      "operations": [
+        "M20",
+        "M21",
+        "M22",
+        "M23",
+        "M24"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M23",
+        "M-M24",
+        "M-M25",
+        "M-M26",
+        "M-M27"
+      ],
+      "slot_masters": [
+        "M-M23",
+        "M-M24",
+        "M-M25",
+        "M-M26",
+        "M-M27"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "録音を始める",
+        "一時停止再開保存",
+        "ノートを離れる前に",
+        "完了の確認",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "6aff23c290ecbf17080531f303b0b13c5a74b7e035deb8dce20354d072d725f3",
+      "anchor": "capture",
+      "target_url": "/htu/uni-note/recording/#capture",
+      "target_source": "content/uni-note-guide/recording.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "録音を始める"
+        ],
+        [
+          "##",
+          "一時停止・再開・保存"
+        ],
+        [
+          "##",
+          "ノートを離れる前に"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "capture-必要な条件",
+        "録音を始める": "録音を始める",
+        "一時停止再開保存": "一時停止再開保存",
+        "ノートを離れる前に": "ノートを離れる前に",
+        "完了の確認": "capture-完了の確認",
+        "関連する使い方": "capture-関連する使い方",
+        "便利な使い方": "capture-便利な使い方"
+      }
+    },
+    {
+      "key": "recording/play",
+      "category": "recording",
+      "title": "録音を再生・整理・共有する",
+      "url": "/htu/uni-note/recording/play/",
+      "source": "content/uni-note-guide/recording-play.md",
+      "operations": [
+        "M25",
+        "M26",
+        "M27",
+        "M28",
+        "M29",
+        "M30"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M26",
+        "M-M28"
+      ],
+      "slot_masters": [
+        "M-M26",
+        "M-M28"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "聴きたい箇所を再生する",
+        "名前を変える",
+        "音声を書き出す",
+        "不要な録音を削除する",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "2b445bb276d72ae7b523262266f221bcc8c9b9d1e3c51fe5123b5c0d04e50cbb",
+      "anchor": "play",
+      "target_url": "/htu/uni-note/recording/#play",
+      "target_source": "content/uni-note-guide/recording.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "聴きたい箇所を再生する"
+        ],
+        [
+          "##",
+          "名前を変える"
+        ],
+        [
+          "##",
+          "音声を書き出す"
+        ],
+        [
+          "##",
+          "不要な録音を削除する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "play-必要な条件",
+        "聴きたい箇所を再生する": "聴きたい箇所を再生する",
+        "名前を変える": "名前を変える",
+        "音声を書き出す": "音声を書き出す",
+        "不要な録音を削除する": "不要な録音を削除する",
+        "完了の確認": "play-完了の確認",
+        "注意事項": "play-注意事項",
+        "関連する使い方": "play-関連する使い方"
+      }
+    },
+    {
+      "key": "recording/transcribe",
+      "category": "recording",
+      "title": "録音を文字起こしする",
+      "url": "/htu/uni-note/recording/transcribe/",
+      "source": "content/uni-note-guide/recording-transcribe.md",
+      "operations": [
+        "M32",
+        "M33",
+        "M34",
+        "M35",
+        "M36"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M23",
+        "M-M24",
+        "M-M28",
+        "M-M29",
+        "M-M30"
+      ],
+      "slot_masters": [
+        "M-M23",
+        "M-M24",
+        "M-M28",
+        "M-M29",
+        "M-M30"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "文字起こしの言語を選ぶ",
+        "録音しながら文字を見る",
+        "保存後に読む共有する",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "1fe4c20ce36e3ffed60b92ed3a822adfdfb31a85aaa2387720d562a2126f1145",
+      "anchor": "transcribe",
+      "target_url": "/htu/uni-note/recording/#transcribe",
+      "target_source": "content/uni-note-guide/recording.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "文字起こしの言語を選ぶ"
+        ],
+        [
+          "##",
+          "録音しながら文字を見る"
+        ],
+        [
+          "##",
+          "保存後に読む・共有する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "transcribe-必要な条件",
+        "文字起こしの言語を選ぶ": "文字起こしの言語を選ぶ",
+        "録音しながら文字を見る": "録音しながら文字を見る",
+        "保存後に読む共有する": "保存後に読む共有する",
+        "完了の確認": "transcribe-完了の確認",
+        "注意事項": "transcribe-注意事項",
+        "関連する使い方": "transcribe-関連する使い方",
+        "便利な使い方": "transcribe-便利な使い方"
+      }
+    },
+    {
+      "key": "recording/summary",
+      "category": "recording",
+      "title": "文字起こしからAI要約を作る",
+      "url": "/htu/uni-note/recording/summary/",
+      "source": "content/uni-note-guide/recording-summary.md",
+      "operations": [
+        "M37",
+        "M38",
+        "M39",
+        "M40",
+        "S43"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M31",
+        "M-M32",
+        "M-M33",
+        "R-M01"
+      ],
+      "slot_masters": [
+        "M-M31",
+        "M-M32",
+        "M-M33",
+        "R-M01"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "対象と形式を選んで生成する",
+        "保存した結果を読む共有する",
+        "いつも使う形式を決める",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "daf8ca9efc6e2a110a4784fa1bc5be58299635c18026724f0239def4b95e55df",
+      "anchor": "summary",
+      "target_url": "/htu/uni-note/recording/#summary",
+      "target_source": "content/uni-note-guide/recording.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "対象と形式を選んで生成する"
+        ],
+        [
+          "##",
+          "保存した結果を読む・共有する"
+        ],
+        [
+          "##",
+          "いつも使う形式を決める"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "summary-必要な条件",
+        "対象と形式を選んで生成する": "対象と形式を選んで生成する",
+        "保存した結果を読む共有する": "保存した結果を読む共有する",
+        "いつも使う形式を決める": "いつも使う形式を決める",
+        "完了の確認": "summary-完了の確認",
+        "注意事項": "summary-注意事項",
+        "関連する使い方": "summary-関連する使い方",
+        "便利な使い方": "summary-便利な使い方"
+      }
+    },
+    {
+      "key": "recording/paste",
+      "category": "recording",
+      "title": "AI要約を現在のノートへ貼る",
+      "url": "/htu/uni-note/recording/paste/",
+      "source": "content/uni-note-guide/recording-paste.md",
+      "operations": [
+        "M41"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M32",
+        "M-M35"
+      ],
+      "slot_masters": [
+        "M-M32",
+        "M-M35"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "貼り付け先を決める",
+        "要約を貼って追記する",
+        "完了の確認",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "963a88fb5adc82dcc4a6d554c8c84790049029d005735420e6e1f7995c7f28a9",
+      "anchor": "paste",
+      "target_url": "/htu/uni-note/recording/#paste",
+      "target_source": "content/uni-note-guide/recording.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "貼り付け先を決める"
+        ],
+        [
+          "##",
+          "要約を貼って追記する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "paste-必要な条件",
+        "貼り付け先を決める": "貼り付け先を決める",
+        "要約を貼って追記する": "要約を貼って追記する",
+        "完了の確認": "paste-完了の確認",
+        "関連する使い方": "paste-関連する使い方",
+        "便利な使い方": "paste-便利な使い方"
+      }
+    },
+    {
+      "key": "study/sticky",
+      "category": "study",
+      "title": "付箋マーカーで答えを隠す",
+      "url": "/htu/uni-note/study/sticky/",
+      "source": "content/uni-note-guide/study-sticky.md",
+      "operations": [
+        "M42",
+        "M43",
+        "M44",
+        "M45",
+        "M46",
+        "M62"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M56",
+        "M-M37",
+        "M-M38",
+        "M-M39",
+        "M-M40"
+      ],
+      "slot_masters": [
+        "N-M56",
+        "M-M37",
+        "M-M38",
+        "M-M39",
+        "M-M40"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "付箋を引く",
+        "答えを見せる隠す",
+        "色太さを変える付箋を削除する",
+        "完了の確認",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "06c4213e55f8e7adde661d1bd62df18a1ec434361569f1ffae8b0bd477dd884e",
+      "anchor": "sticky",
+      "target_url": "/htu/uni-note/study/#sticky",
+      "target_source": "content/uni-note-guide/study.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "付箋を引く"
+        ],
+        [
+          "##",
+          "答えを見せる・隠す"
+        ],
+        [
+          "##",
+          "色・太さを変える、付箋を削除する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "sticky-必要な条件",
+        "付箋を引く": "付箋を引く",
+        "答えを見せる隠す": "答えを見せる隠す",
+        "色太さを変える付箋を削除する": "色太さを変える付箋を削除する",
+        "完了の確認": "sticky-完了の確認",
+        "関連する使い方": "sticky-関連する使い方",
+        "便利な使い方": "sticky-便利な使い方"
+      }
+    },
+    {
+      "key": "study/pomodoro",
+      "category": "study",
+      "title": "ポモドーロで集中と休憩を区切る",
+      "url": "/htu/uni-note/study/pomodoro/",
+      "source": "content/uni-note-guide/study-pomodoro.md",
+      "operations": [
+        "M52",
+        "M53",
+        "M54",
+        "M55",
+        "M56"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M42",
+        "M-M43",
+        "M-M44",
+        "M-M46"
+      ],
+      "slot_masters": [
+        "M-M42",
+        "M-M43",
+        "M-M44",
+        "M-M46"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "時間とセット数を決める",
+        "実行中終了時",
+        "既定値とキャラクターを選ぶ",
+        "完了の確認",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "afb58ef28b2a244504d58116f4e9c9961e55763829f36894953786d3b053ba0d",
+      "anchor": "pomodoro",
+      "target_url": "/htu/uni-note/study/#pomodoro",
+      "target_source": "content/uni-note-guide/study.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "時間とセット数を決める"
+        ],
+        [
+          "##",
+          "実行中・終了時"
+        ],
+        [
+          "##",
+          "既定値とキャラクターを選ぶ"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "pomodoro-必要な条件",
+        "時間とセット数を決める": "時間とセット数を決める",
+        "実行中終了時": "実行中終了時",
+        "既定値とキャラクターを選ぶ": "既定値とキャラクターを選ぶ",
+        "完了の確認": "pomodoro-完了の確認",
+        "関連する使い方": "pomodoro-関連する使い方",
+        "便利な使い方": "pomodoro-便利な使い方"
+      }
+    },
+    {
+      "key": "study/laser",
+      "category": "study",
+      "title": "レーザーポインターを使う",
+      "url": "/htu/uni-note/study/laser/",
+      "source": "content/uni-note-guide/study-laser.md",
+      "operations": [
+        "M57",
+        "M58"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M10",
+        "M-M48"
+      ],
+      "slot_masters": [
+        "M-M10",
+        "M-M48"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "指し示す",
+        "書き込みへ戻る",
+        "完了の確認",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "515950412715818fc00428e2f0c71e728b6ec874f80554a92f4d95655b4e4aab",
+      "anchor": "laser",
+      "target_url": "/htu/uni-note/study/#laser",
+      "target_source": "content/uni-note-guide/study.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "指し示す"
+        ],
+        [
+          "##",
+          "書き込みへ戻る"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "laser-必要な条件",
+        "指し示す": "指し示す",
+        "書き込みへ戻る": "書き込みへ戻る",
+        "完了の確認": "laser-完了の確認",
+        "関連する使い方": "laser-関連する使い方",
+        "便利な使い方": "laser-便利な使い方"
+      }
+    },
+    {
+      "key": "ai/answer",
+      "category": "ai",
+      "title": "問題を囲って解答を確認する",
+      "url": "/htu/uni-note/ai/answer/",
+      "source": "content/uni-note-guide/ai-answer.md",
+      "operations": [
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "R-M02",
+        "R-M03",
+        "R-M04"
+      ],
+      "slot_masters": [
+        "R-M02",
+        "R-M03",
+        "R-M04"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "問題の範囲を選ぶ",
+        "結果を読む渡す",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "e59a84daeb96f384c5408688605abbe132a012d2268364321aa446e320f21cc3",
+      "anchor": "answer",
+      "target_url": "/htu/uni-note/ai/#answer",
+      "target_source": "content/uni-note-guide/ai.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "問題の範囲を選ぶ"
+        ],
+        [
+          "##",
+          "結果を読む・渡す"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "必要な条件",
+        "問題の範囲を選ぶ": "問題の範囲を選ぶ",
+        "結果を読む渡す": "結果を読む渡す",
+        "完了の確認": "answer-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "answer-関連する使い方"
+      }
+    },
+    {
+      "key": "ai/settings",
+      "category": "ai",
+      "title": "文字起こし言語とAIの設定を確認する",
+      "url": "/htu/uni-note/ai/settings/",
+      "source": "content/uni-note-guide/ai-settings.md",
+      "operations": [
+        "A01"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "R-M01"
+      ],
+      "slot_masters": [
+        "R-M01"
+      ],
+      "old_heading_ids": [
+        "文字起こしの言語を確認する",
+        "aiの回答言語を選ぶ",
+        "aiの出力を確認する",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "23bddb259fc3453e92038d04e9871281d309c5d72a1c89def6801129639250ff",
+      "anchor": "settings",
+      "target_url": "/htu/uni-note/ai/#settings",
+      "target_source": "content/uni-note-guide/ai.md",
+      "headings": [
+        [
+          "##",
+          "文字起こしの言語を確認する"
+        ],
+        [
+          "##",
+          "AIの回答言語を選ぶ"
+        ],
+        [
+          "##",
+          "AIの出力を確認する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "文字起こしの言語を確認する": "文字起こしの言語を確認する",
+        "aiの回答言語を選ぶ": "aiの回答言語を選ぶ",
+        "aiの出力を確認する": "aiの出力を確認する",
+        "完了の確認": "settings-完了の確認",
+        "関連する使い方": "settings-関連する使い方"
+      }
+    },
+    {
+      "key": "problem-sets/generate",
+      "category": "problem-sets",
+      "title": "ノートからAI問題集を作る",
+      "url": "/htu/uni-note/problem-sets/generate/",
+      "source": "content/uni-note-guide/problem-sets-generate.md",
+      "operations": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "R-M05",
+        "R-M06",
+        "R-M07",
+        "R-M09",
+        "R-M10"
+      ],
+      "slot_masters": [
+        "R-M05",
+        "R-M06",
+        "R-M07",
+        "R-M09",
+        "R-M10"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "対象を決めて生成する",
+        "候補を採用破棄する",
+        "問題集として保存する",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "6e29d325480e74d3d32e9321dd8a9d110b1da93e863e2dbb84c5d09d7470bb72",
+      "anchor": "generate",
+      "target_url": "/htu/uni-note/problem-sets/#generate",
+      "target_source": "content/uni-note-guide/problem-sets.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "対象を決めて生成する"
+        ],
+        [
+          "##",
+          "候補を採用・破棄する"
+        ],
+        [
+          "##",
+          "問題集として保存する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "generate-必要な条件",
+        "対象を決めて生成する": "対象を決めて生成する",
+        "候補を採用破棄する": "候補を採用破棄する",
+        "問題集として保存する": "問題集として保存する",
+        "完了の確認": "generate-完了の確認",
+        "注意事項": "generate-注意事項",
+        "関連する使い方": "generate-関連する使い方",
+        "便利な使い方": "generate-便利な使い方"
+      }
+    },
+    {
+      "key": "problem-sets/review",
+      "category": "problem-sets",
+      "title": "保存した問題集で復習する",
+      "url": "/htu/uni-note/problem-sets/review/",
+      "source": "content/uni-note-guide/problem-sets-review.md",
+      "operations": [
+        "Q08",
+        "Q09",
+        "Q10"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "R-M11",
+        "R-M13",
+        "R-M14"
+      ],
+      "slot_masters": [
+        "R-M11",
+        "R-M13",
+        "R-M14"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "問題集を開く",
+        "答えを確認して次へ進む",
+        "完了の確認",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "ed55204e18699d83819b4626be3dae49d1c1a34d7e3f08e434d843d9d1365bc7",
+      "anchor": "review",
+      "target_url": "/htu/uni-note/problem-sets/#review",
+      "target_source": "content/uni-note-guide/problem-sets.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "問題集を開く"
+        ],
+        [
+          "##",
+          "答えを確認して次へ進む"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "review-必要な条件",
+        "問題集を開く": "問題集を開く",
+        "答えを確認して次へ進む": "答えを確認して次へ進む",
+        "完了の確認": "review-完了の確認",
+        "関連する使い方": "review-関連する使い方",
+        "便利な使い方": "review-便利な使い方"
+      }
+    },
+    {
+      "key": "problem-sets/edit",
+      "category": "problem-sets",
+      "title": "問題集を手動作成・編集する",
+      "url": "/htu/uni-note/problem-sets/edit/",
+      "source": "content/uni-note-guide/problem-sets-edit.md",
+      "operations": [
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "R-M11",
+        "R-M14",
+        "R-M15",
+        "R-M16",
+        "R-M17",
+        "R-M18"
+      ],
+      "slot_masters": [
+        "R-M11",
+        "R-M14",
+        "R-M15",
+        "R-M16",
+        "R-M17",
+        "R-M18"
+      ],
+      "old_heading_ids": [
+        "手動で作成する",
+        "保存した問題集を編集する",
+        "問題を追加削除する",
+        "問題集全体を削除する",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "3acbc31dac79a53d2449fe73b5aa67a216653aa3516b44a6cb07aa747aa7762f",
+      "anchor": "edit",
+      "target_url": "/htu/uni-note/problem-sets/#edit",
+      "target_source": "content/uni-note-guide/problem-sets.md",
+      "headings": [
+        [
+          "##",
+          "手動で作成する"
+        ],
+        [
+          "##",
+          "保存した問題集を編集する"
+        ],
+        [
+          "##",
+          "問題を追加・削除する"
+        ],
+        [
+          "##",
+          "問題集全体を削除する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "手動で作成する": "手動で作成する",
+        "保存した問題集を編集する": "保存した問題集を編集する",
+        "問題を追加削除する": "問題を追加削除する",
+        "問題集全体を削除する": "問題集全体を削除する",
+        "完了の確認": "edit-完了の確認",
+        "注意事項": "edit-注意事項",
+        "関連する使い方": "edit-関連する使い方",
+        "便利な使い方": "edit-便利な使い方"
+      }
+    },
+    {
+      "key": "problem-sets/home",
+      "category": "problem-sets",
+      "title": "ホームの問題集表示を変える",
+      "url": "/htu/uni-note/problem-sets/home/",
+      "source": "content/uni-note-guide/problem-sets-home.md",
+      "operations": [
+        "Q18"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "R-M01",
+        "R-M11",
+        "R-M20"
+      ],
+      "slot_masters": [
+        "R-M01",
+        "R-M11",
+        "R-M20"
+      ],
+      "old_heading_ids": [
+        "表示を切り替える",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "752d0503cdc4c1c776f301e309aad908d5a5756e20765111d0da406a0d9aa313",
+      "anchor": "home",
+      "target_url": "/htu/uni-note/problem-sets/#home",
+      "target_source": "content/uni-note-guide/problem-sets.md",
+      "headings": [
+        [
+          "##",
+          "表示を切り替える"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "表示を切り替える": "表示を切り替える",
+        "完了の確認": "home-完了の確認",
+        "関連する使い方": "home-関連する使い方"
+      }
+    },
+    {
+      "key": "customize/settings",
+      "category": "customize",
+      "title": "設定を開いて目的の項目を探す",
+      "url": "/htu/uni-note/customize/settings/",
+      "source": "content/uni-note-guide/customize-settings.md",
+      "operations": [
+        "S01"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M01",
+        "S-M01"
+      ],
+      "slot_masters": [
+        "N-M01",
+        "S-M01"
+      ],
+      "old_heading_ids": [
+        "設定を開く",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "491c843f23ebfcbfa406dc4648e74b191aa424d6df69d0525389ce0c8dfd338c",
+      "anchor": "settings",
+      "target_url": "/htu/uni-note/customize/#settings",
+      "target_source": "content/uni-note-guide/customize.md",
+      "headings": [
+        [
+          "##",
+          "設定を開く"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "設定を開く": "設定を開く",
+        "完了の確認": "settings-完了の確認",
+        "関連する使い方": "settings-関連する使い方"
+      }
+    },
+    {
+      "key": "customize/paper",
+      "category": "customize",
+      "title": "紙・左右の配置・ページ情報を設定する",
+      "url": "/htu/uni-note/customize/paper/",
+      "source": "content/uni-note-guide/customize-paper.md",
+      "operations": [
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M45",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "N-M45",
+        "M-M14"
+      ],
+      "old_heading_ids": [
+        "新規ノートの紙を決める",
+        "左利きモード左右の個別設定",
+        "四隅に教科名ページ番号などを置く",
+        "完了の確認",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "1a1dd42f2f089f68b485ca2fc1fd48e293e8f4abae37501a1541bb220f0498cb",
+      "anchor": "paper",
+      "target_url": "/htu/uni-note/customize/#paper",
+      "target_source": "content/uni-note-guide/customize.md",
+      "headings": [
+        [
+          "##",
+          "新規ノートの紙を決める"
+        ],
+        [
+          "##",
+          "左利きモード・左右の個別設定"
+        ],
+        [
+          "##",
+          "四隅に教科名・ページ番号などを置く"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "新規ノートの紙を決める": "新規ノートの紙を決める",
+        "左利きモード左右の個別設定": "左利きモード左右の個別設定",
+        "四隅に教科名ページ番号などを置く": "四隅に教科名ページ番号などを置く",
+        "完了の確認": "paper-完了の確認",
+        "関連する使い方": "paper-関連する使い方",
+        "便利な使い方": "便利な使い方"
+      }
+    },
+    {
+      "key": "customize/display",
+      "category": "customize",
+      "title": "起動・表示・言語を設定する",
+      "url": "/htu/uni-note/customize/display/",
+      "source": "content/uni-note-guide/customize-display.md",
+      "operations": [
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M47",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "N-M47",
+        "M-M14"
+      ],
+      "old_heading_ids": [
+        "起動とホームの表示",
+        "筆記中の表示",
+        "保護解除時の認証",
+        "表示言語を変える",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "669b3ca62c369d62c7e1788a6ba74483cff2036f7443242c73e64e52c1920472",
+      "anchor": "display",
+      "target_url": "/htu/uni-note/customize/#display",
+      "target_source": "content/uni-note-guide/customize.md",
+      "headings": [
+        [
+          "##",
+          "起動とホームの表示"
+        ],
+        [
+          "##",
+          "筆記中の表示"
+        ],
+        [
+          "##",
+          "保護解除時の認証"
+        ],
+        [
+          "##",
+          "表示言語を変える"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "起動とホームの表示": "起動とホームの表示",
+        "筆記中の表示": "筆記中の表示",
+        "保護解除時の認証": "保護解除時の認証",
+        "表示言語を変える": "表示言語を変える",
+        "完了の確認": "display-完了の確認",
+        "関連する使い方": "display-関連する使い方"
+      }
+    },
+    {
+      "key": "customize/toolbar",
+      "category": "customize",
+      "title": "ボタンとパレットの配置を変える",
+      "url": "/htu/uni-note/customize/toolbar/",
+      "source": "content/uni-note-guide/customize-toolbar.md",
+      "operations": [
+        "N46",
+        "N47",
+        "N48",
+        "N49",
+        "N50",
+        "N51",
+        "N66"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M52",
+        "N-M53",
+        "N-M54",
+        "N-M55",
+        "N-M56",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "N-M52",
+        "N-M53",
+        "N-M54",
+        "N-M55",
+        "N-M56",
+        "M-M14"
+      ],
+      "old_heading_ids": [
+        "ナビゲーションバーを変える",
+        "ドラッグせずに移動する",
+        "パレットの道具を変える",
+        "初期配置へ戻す",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "1c8dcacd24ca13327f6dcff349160754948f6922cfc65ca31a7b4dad4f54c677",
+      "anchor": "toolbar",
+      "target_url": "/htu/uni-note/customize/#toolbar",
+      "target_source": "content/uni-note-guide/customize.md",
+      "headings": [
+        [
+          "##",
+          "ナビゲーションバーを変える"
+        ],
+        [
+          "##",
+          "ドラッグせずに移動する"
+        ],
+        [
+          "##",
+          "パレットの道具を変える"
+        ],
+        [
+          "##",
+          "初期配置へ戻す"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "ナビゲーションバーを変える": "ナビゲーションバーを変える",
+        "ドラッグせずに移動する": "ドラッグせずに移動する",
+        "パレットの道具を変える": "パレットの道具を変える",
+        "初期配置へ戻す": "初期配置へ戻す",
+        "完了の確認": "toolbar-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "toolbar-関連する使い方"
+      }
+    },
+    {
+      "key": "data/protect",
+      "category": "data",
+      "title": "ノートを書き込みから保護する",
+      "url": "/htu/uni-note/data/protect/",
+      "source": "content/uni-note-guide/data-protect.md",
+      "operations": [
+        "S25",
+        "S26"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "N-M06",
+        "S-M14"
+      ],
+      "slot_masters": [
+        "N-M06",
+        "S-M14"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "書き込みから保護する",
+        "編集できる状態へ戻す",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "acfcb1e56594bf302710cc594a9a9fe5b81be2777a4879aad181765e80c458b7",
+      "anchor": "protect",
+      "target_url": "/htu/uni-note/data/#protect",
+      "target_source": "content/uni-note-guide/data.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "書き込みから保護する"
+        ],
+        [
+          "##",
+          "編集できる状態へ戻す"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "必要な条件",
+        "書き込みから保護する": "書き込みから保護する",
+        "編集できる状態へ戻す": "編集できる状態へ戻す",
+        "完了の確認": "protect-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "protect-関連する使い方"
+      }
+    },
+    {
+      "key": "data/trash",
+      "category": "data",
+      "title": "ゴミ箱から教科・ノートを復元する",
+      "url": "/htu/uni-note/data/trash/",
+      "source": "content/uni-note-guide/data-trash.md",
+      "operations": [
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "S-M15",
+        "S-M16"
+      ],
+      "slot_masters": [
+        "S-M15",
+        "S-M16"
+      ],
+      "old_heading_ids": [
+        "削除したノートを探す",
+        "ノート教科を復元する",
+        "完全に削除する",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "b597efe638e0527ddda325568bbbe0af48cc36e195411696e1500f029b43b7c1",
+      "anchor": "trash",
+      "target_url": "/htu/uni-note/data/#trash",
+      "target_source": "content/uni-note-guide/data.md",
+      "headings": [
+        [
+          "##",
+          "削除したノートを探す"
+        ],
+        [
+          "##",
+          "ノート・教科を復元する"
+        ],
+        [
+          "##",
+          "完全に削除する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "削除したノートを探す": "削除したノートを探す",
+        "ノート教科を復元する": "ノート教科を復元する",
+        "完全に削除する": "完全に削除する",
+        "完了の確認": "trash-完了の確認",
+        "関連する使い方": "trash-関連する使い方"
+      }
+    },
+    {
+      "key": "backup/save",
+      "category": "backup",
+      "title": "バックアップを保存する",
+      "url": "/htu/uni-note/backup/save/",
+      "source": "content/uni-note-guide/backup-save.md",
+      "operations": [
+        "S18",
+        "S19",
+        "S20",
+        "S21"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "S-M08",
+        "S-M10"
+      ],
+      "slot_masters": [
+        "S-M08",
+        "S-M10"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "保存方法と音声の扱いを決める",
+        "バックアップファイルを保存する",
+        "かんたんバックアップを更新する",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "7a4eab96e00805bc65bdc43ee2e705e7d8337a6a53f8dc7b23cb15ca4b9117f5",
+      "anchor": "save",
+      "target_url": "/htu/uni-note/backup/#save",
+      "target_source": "content/uni-note-guide/backup.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "保存方法と音声の扱いを決める"
+        ],
+        [
+          "##",
+          "バックアップファイルを保存する"
+        ],
+        [
+          "##",
+          "かんたんバックアップを更新する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "save-必要な条件",
+        "保存方法と音声の扱いを決める": "保存方法と音声の扱いを決める",
+        "バックアップファイルを保存する": "バックアップファイルを保存する",
+        "かんたんバックアップを更新する": "かんたんバックアップを更新する",
+        "完了の確認": "save-完了の確認",
+        "注意事項": "save-注意事項",
+        "関連する使い方": "save-関連する使い方"
+      }
+    },
+    {
+      "key": "backup/restore",
+      "category": "backup",
+      "title": "バックアップから復元する",
+      "url": "/htu/uni-note/backup/restore/",
+      "source": "content/uni-note-guide/backup-restore.md",
+      "operations": [
+        "S22",
+        "S23",
+        "S24"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "S-M08",
+        "S-M11",
+        "S-M12"
+      ],
+      "slot_masters": [
+        "S-M08",
+        "S-M11",
+        "S-M12"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "復元前に現在のデータを残す",
+        "ファイルから戻す",
+        "かんたんバックアップから戻す",
+        "復元できないとき",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方"
+      ],
+      "source_sha256": "c507ba338bcd72bd344a9fa936f489d95df462aeeaf70f5c7f2eb7d9ab65e897",
+      "anchor": "restore",
+      "target_url": "/htu/uni-note/backup/#restore",
+      "target_source": "content/uni-note-guide/backup.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "復元前に現在のデータを残す"
+        ],
+        [
+          "##",
+          "ファイルから戻す"
+        ],
+        [
+          "##",
+          "かんたんバックアップから戻す"
+        ],
+        [
+          "##",
+          "復元できないとき"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "restore-必要な条件",
+        "復元前に現在のデータを残す": "復元前に現在のデータを残す",
+        "ファイルから戻す": "ファイルから戻す",
+        "かんたんバックアップから戻す": "かんたんバックアップから戻す",
+        "復元できないとき": "復元できないとき",
+        "完了の確認": "restore-完了の確認",
+        "注意事項": "restore-注意事項",
+        "関連する使い方": "restore-関連する使い方"
+      }
+    },
+    {
+      "key": "plans/usage",
+      "category": "plans",
+      "title": "PremiumとAI残量を確認する",
+      "url": "/htu/uni-note/plans/usage/",
+      "source": "content/uni-note-guide/plans-usage.md",
+      "operations": [
+        "P01",
+        "P02",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "S-M01",
+        "R-M21",
+        "R-M23"
+      ],
+      "slot_masters": [
+        "S-M01",
+        "R-M21",
+        "R-M23"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "プランを確認選択する",
+        "ai残量を確認追加する",
+        "購入状態を更新する",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "92e59b17135d10d2e244a7b874016800db77ac8b09dc1b6ede7a44ac5baaa938",
+      "anchor": "usage",
+      "target_url": "/htu/uni-note/plans/#usage",
+      "target_source": "content/uni-note-guide/plans.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "プランを確認・選択する"
+        ],
+        [
+          "##",
+          "AI残量を確認・追加する"
+        ],
+        [
+          "##",
+          "購入状態を更新する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "必要な条件",
+        "プランを確認選択する": "プランを確認選択する",
+        "ai残量を確認追加する": "ai残量を確認追加する",
+        "購入状態を更新する": "購入状態を更新する",
+        "完了の確認": "完了の確認",
+        "関連する使い方": "関連する使い方"
+      }
+    },
+    {
+      "key": "troubleshooting/help",
+      "category": "troubleshooting",
+      "title": "困ったときの確認と問い合わせ",
+      "url": "/htu/uni-note/troubleshooting/help/",
+      "source": "content/uni-note-guide/troubleshooting-help.md",
+      "operations": [
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S40",
+        "S41"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "S-M01"
+      ],
+      "slot_masters": [
+        "S-M01"
+      ],
+      "old_heading_ids": [
+        "まず確認すること",
+        "お知らせと更新を確認する",
+        "サポートへ伝える",
+        "サポート画面のほかの項目",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "7c62d4614cf4b8dfe47e2f64d3e88f1dc831157b1056a9412fb589ad1fb7df00",
+      "anchor": "help",
+      "target_url": "/htu/uni-note/troubleshooting/#help",
+      "target_source": "content/uni-note-guide/troubleshooting.md",
+      "headings": [
+        [
+          "##",
+          "まず確認すること"
+        ],
+        [
+          "##",
+          "お知らせと更新を確認する"
+        ],
+        [
+          "##",
+          "サポートへ伝える"
+        ],
+        [
+          "##",
+          "サポート画面のほかの項目"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "まず確認すること": "まず確認すること",
+        "お知らせと更新を確認する": "お知らせと更新を確認する",
+        "サポートへ伝える": "サポートへ伝える",
+        "サポート画面のほかの項目": "サポート画面のほかの項目",
+        "完了の確認": "完了の確認",
+        "関連する使い方": "関連する使い方"
+      }
+    },
+    {
+      "key": "ipados/windows",
+      "category": "ipados",
+      "title": "iPadのウインドウ操作を使う",
+      "url": "/htu/uni-note/ipados/windows/",
+      "source": "content/uni-note-guide/ipados-windows.md",
+      "operations": [
+        "O01",
+        "O03"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "R-M24",
+        "R-M25"
+      ],
+      "slot_masters": [
+        "R-M24",
+        "R-M25"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "自分のosの操作を確認する",
+        "uninoteをもう1つ開く",
+        "切り替える閉じる",
+        "完了の確認",
+        "注意事項",
+        "関連する使い方",
+        "便利な使い方"
+      ],
+      "source_sha256": "1495af7edabdae941846499a496ef2b496f8c72f58dff4a91afd428371d7e476",
+      "anchor": "windows",
+      "target_url": "/htu/uni-note/ipados/#windows",
+      "target_source": "content/uni-note-guide/ipados.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "自分のOSの操作を確認する"
+        ],
+        [
+          "##",
+          "Uni:Noteをもう1つ開く"
+        ],
+        [
+          "##",
+          "切り替える・閉じる"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "注意事項"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ],
+        [
+          "##",
+          "便利な使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "windows-必要な条件",
+        "自分のosの操作を確認する": "自分のosの操作を確認する",
+        "uninoteをもう1つ開く": "uninoteをもう1つ開く",
+        "切り替える閉じる": "切り替える閉じる",
+        "完了の確認": "windows-完了の確認",
+        "注意事項": "注意事項",
+        "関連する使い方": "windows-関連する使い方",
+        "便利な使い方": "便利な使い方"
+      }
+    },
+    {
+      "key": "ipados/files",
+      "category": "ipados",
+      "title": "ファイルアプリと共有シートを使う",
+      "url": "/htu/uni-note/ipados/files/",
+      "source": "content/uni-note-guide/ipados-files.md",
+      "operations": [
+        "O06",
+        "O07"
+      ],
+      "supporting_operations": [],
+      "hero_masters": [],
+      "masters": [
+        "M-M10"
+      ],
+      "slot_masters": [
+        "M-M10"
+      ],
+      "old_heading_ids": [
+        "必要な条件",
+        "外部のpdfを取り込む",
+        "書き出したpdfを保存確認する",
+        "完了の確認",
+        "関連する使い方"
+      ],
+      "source_sha256": "1cde3f26fd982313da5cbd0d2538fa0febc8173cdf32b5b6580bbc33d0ee18ac",
+      "anchor": "files",
+      "target_url": "/htu/uni-note/ipados/#files",
+      "target_source": "content/uni-note-guide/ipados.md",
+      "headings": [
+        [
+          "##",
+          "必要な条件"
+        ],
+        [
+          "##",
+          "外部のPDFを取り込む"
+        ],
+        [
+          "##",
+          "書き出したPDFを保存・確認する"
+        ],
+        [
+          "##",
+          "完了の確認"
+        ],
+        [
+          "##",
+          "関連する使い方"
+        ]
+      ],
+      "fragment_map": {
+        "必要な条件": "files-必要な条件",
+        "外部のpdfを取り込む": "外部のpdfを取り込む",
+        "書き出したpdfを保存確認する": "書き出したpdfを保存確認する",
+        "完了の確認": "files-完了の確認",
+        "関連する使い方": "files-関連する使い方"
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "key": "workflows/vertical-annotate",
+      "category": "workflows",
+      "title": "縦ノートで資料を大きく表示して書き込む",
+      "url": "/htu/uni-note/workflows/vertical-annotate/",
+      "source": "content/uni-note-guide/workflows-vertical-annotate.md",
+      "operations": [
+        "N60"
+      ],
+      "supporting_operations": [
+        "N23",
+        "M14",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11"
+      ],
+      "hero_masters": [
+        "M-M18"
+      ],
+      "masters": [
+        "M-M18",
+        "N-M19",
+        "N-M31",
+        "N-M50",
+        "N-M51",
+        "M-M10",
+        "M-M11",
+        "M-M12",
+        "M-M13",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "M-M18",
+        "N-M19",
+        "M-M11",
+        "M-M13"
+      ]
+    },
+    {
+      "key": "workflows/split-spread",
+      "category": "workflows",
+      "title": "見開きPDFを左右に分割して学習する",
+      "url": "/htu/uni-note/workflows/split-spread/",
+      "source": "content/uni-note-guide/workflows-split-spread.md",
+      "operations": [],
+      "supporting_operations": [
+        "M04",
+        "M05",
+        "M06",
+        "N26"
+      ],
+      "hero_masters": [
+        "M-M09",
+        "M-M09R"
+      ],
+      "masters": [
+        "M-M09",
+        "M-M09R",
+        "N-M33",
+        "N-M34",
+        "M-M06",
+        "M-M07",
+        "M-M08",
+        "M-M10"
+      ],
+      "slot_masters": [
+        "M-M09",
+        "M-M09R",
+        "M-M08"
+      ]
+    },
+    {
+      "key": "workflows/material-margin",
+      "category": "workflows",
+      "title": "資料の横に手書きスペースを残す",
+      "url": "/htu/uni-note/workflows/material-margin/",
+      "source": "content/uni-note-guide/workflows-material-margin.md",
+      "operations": [
+        "M16"
+      ],
+      "supporting_operations": [
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "S08"
+      ],
+      "hero_masters": [
+        "M-M14"
+      ],
+      "masters": [
+        "M-M14",
+        "M-M10",
+        "M-M11",
+        "M-M12",
+        "M-M13"
+      ],
+      "slot_masters": [
+        "M-M14",
+        "M-M11"
+      ]
+    },
+    {
+      "key": "workflows/sticky-material",
+      "category": "workflows",
+      "title": "PDF・写真に付箋を付けて暗記する",
+      "url": "/htu/uni-note/workflows/sticky-material/",
+      "source": "content/uni-note-guide/workflows-sticky-material.md",
+      "operations": [
+        "M47"
+      ],
+      "supporting_operations": [
+        "M11",
+        "M42",
+        "M43",
+        "M44",
+        "M45",
+        "M46"
+      ],
+      "hero_masters": [
+        "M-M38"
+      ],
+      "masters": [
+        "M-M38",
+        "N-M56",
+        "M-M14",
+        "M-M37",
+        "M-M39",
+        "M-M40"
+      ],
+      "slot_masters": [
+        "M-M38",
+        "M-M37",
+        "M-M39"
+      ]
+    },
+    {
+      "key": "workflows/record-review",
+      "category": "workflows",
+      "title": "録音・文字起こし・AI要約で授業を復習する",
+      "url": "/htu/uni-note/workflows/record-review/",
+      "source": "content/uni-note-guide/workflows-record-review.md",
+      "operations": [],
+      "supporting_operations": [
+        "M20",
+        "M21",
+        "M22",
+        "M32",
+        "M33",
+        "M34",
+        "M35",
+        "M36",
+        "M37",
+        "M38",
+        "M39"
+      ],
+      "hero_masters": [
+        "M-M30",
+        "M-M32"
+      ],
+      "masters": [
+        "M-M30",
+        "M-M32",
+        "M-M23",
+        "M-M24",
+        "M-M25",
+        "M-M26",
+        "M-M28",
+        "M-M29",
+        "M-M31",
+        "M-M33"
+      ],
+      "slot_masters": [
+        "M-M30",
+        "M-M32",
+        "M-M31"
+      ]
+    },
+    {
+      "key": "workflows/summary-annotate",
+      "category": "workflows",
+      "title": "AI要約をノートへ貼って追記する",
+      "url": "/htu/uni-note/workflows/summary-annotate/",
+      "source": "content/uni-note-guide/workflows-summary-annotate.md",
+      "operations": [],
+      "supporting_operations": [
+        "M41",
+        "N28"
+      ],
+      "hero_masters": [
+        "M-M35"
+      ],
+      "masters": [
+        "M-M35",
+        "N-M37",
+        "M-M14",
+        "M-M32"
+      ],
+      "slot_masters": [
+        "M-M35"
+      ]
+    },
+    {
+      "key": "workflows/quiz-review",
+      "category": "workflows",
+      "title": "AI問題集を手修正して復習する",
+      "url": "/htu/uni-note/workflows/quiz-review/",
+      "source": "content/uni-note-guide/workflows-quiz-review.md",
+      "operations": [
+        "Q17"
+      ],
+      "supporting_operations": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q05",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q12"
+      ],
+      "hero_masters": [
+        "R-M14"
+      ],
+      "masters": [
+        "R-M14",
+        "R-M05",
+        "R-M06",
+        "R-M07",
+        "R-M09",
+        "R-M10",
+        "R-M11",
+        "R-M13",
+        "R-M16",
+        "R-M17"
+      ],
+      "slot_masters": [
+        "R-M14",
+        "R-M09",
+        "R-M17"
+      ]
+    },
+    {
+      "key": "workflows/focus",
+      "category": "workflows",
+      "title": "ポモドーロを使いながら勉強する",
+      "url": "/htu/uni-note/workflows/focus/",
+      "source": "content/uni-note-guide/workflows-focus.md",
+      "operations": [],
+      "supporting_operations": [
+        "M52",
+        "M53",
+        "M54",
+        "M55",
+        "M56"
+      ],
+      "hero_masters": [
+        "M-M43"
+      ],
+      "masters": [
+        "M-M43",
+        "M-M42",
+        "M-M44",
+        "M-M46"
+      ],
+      "slot_masters": [
+        "M-M43",
+        "M-M42"
+      ]
+    },
+    {
+      "key": "workflows/explain",
+      "category": "workflows",
+      "title": "レーザーポインターで資料を説明する",
+      "url": "/htu/uni-note/workflows/explain/",
+      "source": "content/uni-note-guide/workflows-explain.md",
+      "operations": [],
+      "supporting_operations": [
+        "M57",
+        "M58",
+        "M11"
+      ],
+      "hero_masters": [
+        "M-M48"
+      ],
+      "masters": [
+        "M-M48",
+        "M-M10",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "M-M48"
+      ]
+    },
+    {
+      "key": "workflows/two-notes",
+      "category": "workflows",
+      "title": "資料用と筆記用の2つのノートを並べる",
+      "url": "/htu/uni-note/workflows/two-notes/",
+      "source": "content/uni-note-guide/workflows-two-notes.md",
+      "operations": [
+        "O02"
+      ],
+      "supporting_operations": [
+        "O01",
+        "O03"
+      ],
+      "hero_masters": [
+        "R-M25"
+      ],
+      "masters": [
+        "R-M25",
+        "R-M24",
+        "R-M26"
+      ],
+      "slot_masters": [
+        "R-M25",
+        "R-M24"
+      ]
+    },
+    {
+      "key": "workflows/external-material",
+      "category": "workflows",
+      "title": "SafariやPDF閲覧アプリと並べて書く",
+      "url": "/htu/uni-note/workflows/external-material/",
+      "source": "content/uni-note-guide/workflows-external-material.md",
+      "operations": [
+        "O04"
+      ],
+      "supporting_operations": [
+        "O01"
+      ],
+      "hero_masters": [
+        "R-M27"
+      ],
+      "masters": [
+        "R-M27",
+        "R-M24",
+        "R-M25"
+      ],
+      "slot_masters": [
+        "R-M27",
+        "R-M26"
+      ]
+    },
+    {
+      "key": "workflows/pip",
+      "category": "workflows",
+      "title": "動画を小さく表示しながら書く",
+      "url": "/htu/uni-note/workflows/pip/",
+      "source": "content/uni-note-guide/workflows-pip.md",
+      "operations": [
+        "O05"
+      ],
+      "supporting_operations": [
+        "N28"
+      ],
+      "hero_masters": [
+        "R-M28"
+      ],
+      "masters": [
+        "R-M28",
+        "N-M37",
+        "M-M14"
+      ],
+      "slot_masters": [
+        "R-M28"
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "id": "N01",
+      "page": "/htu/uni-note/start/",
+      "anchor": "screens",
+      "url": "/htu/uni-note/start/#screens",
+      "previous_url": "/htu/uni-note/start/screens/"
+    },
+    {
+      "id": "S39",
+      "page": "/htu/uni-note/start/",
+      "anchor": "screens",
+      "url": "/htu/uni-note/start/#screens",
+      "previous_url": "/htu/uni-note/start/screens/"
+    },
+    {
+      "id": "N02",
+      "page": "/htu/uni-note/start/",
+      "anchor": "first-note",
+      "url": "/htu/uni-note/start/#first-note",
+      "previous_url": "/htu/uni-note/start/first-note/"
+    },
+    {
+      "id": "N03",
+      "page": "/htu/uni-note/start/",
+      "anchor": "first-note",
+      "url": "/htu/uni-note/start/#first-note",
+      "previous_url": "/htu/uni-note/start/first-note/"
+    },
+    {
+      "id": "N05",
+      "page": "/htu/uni-note/start/",
+      "anchor": "first-note",
+      "url": "/htu/uni-note/start/#first-note",
+      "previous_url": "/htu/uni-note/start/first-note/"
+    },
+    {
+      "id": "N69",
+      "page": "/htu/uni-note/start/",
+      "anchor": "first-note",
+      "url": "/htu/uni-note/start/#first-note",
+      "previous_url": "/htu/uni-note/start/first-note/"
+    },
+    {
+      "id": "N04",
+      "page": "/htu/uni-note/library/",
+      "anchor": "subjects",
+      "url": "/htu/uni-note/library/#subjects",
+      "previous_url": "/htu/uni-note/library/subjects/"
+    },
+    {
+      "id": "N10",
+      "page": "/htu/uni-note/library/",
+      "anchor": "subjects",
+      "url": "/htu/uni-note/library/#subjects",
+      "previous_url": "/htu/uni-note/library/subjects/"
+    },
+    {
+      "id": "N56",
+      "page": "/htu/uni-note/library/",
+      "anchor": "subjects",
+      "url": "/htu/uni-note/library/#subjects",
+      "previous_url": "/htu/uni-note/library/subjects/"
+    },
+    {
+      "id": "N14",
+      "page": "/htu/uni-note/library/",
+      "anchor": "folders",
+      "url": "/htu/uni-note/library/#folders",
+      "previous_url": "/htu/uni-note/library/folders/"
+    },
+    {
+      "id": "N15",
+      "page": "/htu/uni-note/library/",
+      "anchor": "folders",
+      "url": "/htu/uni-note/library/#folders",
+      "previous_url": "/htu/uni-note/library/folders/"
+    },
+    {
+      "id": "N16",
+      "page": "/htu/uni-note/library/",
+      "anchor": "folders",
+      "url": "/htu/uni-note/library/#folders",
+      "previous_url": "/htu/uni-note/library/folders/"
+    },
+    {
+      "id": "N17",
+      "page": "/htu/uni-note/library/",
+      "anchor": "folders",
+      "url": "/htu/uni-note/library/#folders",
+      "previous_url": "/htu/uni-note/library/folders/"
+    },
+    {
+      "id": "N18",
+      "page": "/htu/uni-note/library/",
+      "anchor": "folders",
+      "url": "/htu/uni-note/library/#folders",
+      "previous_url": "/htu/uni-note/library/folders/"
+    },
+    {
+      "id": "N19",
+      "page": "/htu/uni-note/library/",
+      "anchor": "folders",
+      "url": "/htu/uni-note/library/#folders",
+      "previous_url": "/htu/uni-note/library/folders/"
+    },
+    {
+      "id": "N20",
+      "page": "/htu/uni-note/library/",
+      "anchor": "folders",
+      "url": "/htu/uni-note/library/#folders",
+      "previous_url": "/htu/uni-note/library/folders/"
+    },
+    {
+      "id": "N68",
+      "page": "/htu/uni-note/library/",
+      "anchor": "folders",
+      "url": "/htu/uni-note/library/#folders",
+      "previous_url": "/htu/uni-note/library/folders/"
+    },
+    {
+      "id": "N12",
+      "page": "/htu/uni-note/library/",
+      "anchor": "search",
+      "url": "/htu/uni-note/library/#search",
+      "previous_url": "/htu/uni-note/library/search/"
+    },
+    {
+      "id": "N13",
+      "page": "/htu/uni-note/library/",
+      "anchor": "search",
+      "url": "/htu/uni-note/library/#search",
+      "previous_url": "/htu/uni-note/library/search/"
+    },
+    {
+      "id": "N06",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "manage",
+      "url": "/htu/uni-note/notebooks/#manage",
+      "previous_url": "/htu/uni-note/notebooks/manage/"
+    },
+    {
+      "id": "N07",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "manage",
+      "url": "/htu/uni-note/notebooks/#manage",
+      "previous_url": "/htu/uni-note/notebooks/manage/"
+    },
+    {
+      "id": "N08",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "manage",
+      "url": "/htu/uni-note/notebooks/#manage",
+      "previous_url": "/htu/uni-note/notebooks/manage/"
+    },
+    {
+      "id": "N09",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "manage",
+      "url": "/htu/uni-note/notebooks/#manage",
+      "previous_url": "/htu/uni-note/notebooks/manage/"
+    },
+    {
+      "id": "N11",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "manage",
+      "url": "/htu/uni-note/notebooks/#manage",
+      "previous_url": "/htu/uni-note/notebooks/manage/"
+    },
+    {
+      "id": "N57",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "manage",
+      "url": "/htu/uni-note/notebooks/#manage",
+      "previous_url": "/htu/uni-note/notebooks/manage/"
+    },
+    {
+      "id": "N21",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "pages",
+      "url": "/htu/uni-note/notebooks/#pages",
+      "previous_url": "/htu/uni-note/notebooks/pages/"
+    },
+    {
+      "id": "N22",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "pages",
+      "url": "/htu/uni-note/notebooks/#pages",
+      "previous_url": "/htu/uni-note/notebooks/pages/"
+    },
+    {
+      "id": "N25",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "pages",
+      "url": "/htu/uni-note/notebooks/#pages",
+      "previous_url": "/htu/uni-note/notebooks/pages/"
+    },
+    {
+      "id": "N26",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "pages",
+      "url": "/htu/uni-note/notebooks/#pages",
+      "previous_url": "/htu/uni-note/notebooks/pages/"
+    },
+    {
+      "id": "N27",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "pages",
+      "url": "/htu/uni-note/notebooks/#pages",
+      "previous_url": "/htu/uni-note/notebooks/pages/"
+    },
+    {
+      "id": "N63",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "pages",
+      "url": "/htu/uni-note/notebooks/#pages",
+      "previous_url": "/htu/uni-note/notebooks/pages/"
+    },
+    {
+      "id": "N23",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "vertical",
+      "url": "/htu/uni-note/notebooks/#vertical",
+      "previous_url": "/htu/uni-note/notebooks/vertical/"
+    },
+    {
+      "id": "N65",
+      "page": "/htu/uni-note/notebooks/",
+      "anchor": "vertical",
+      "url": "/htu/uni-note/notebooks/#vertical",
+      "previous_url": "/htu/uni-note/notebooks/vertical/"
+    },
+    {
+      "id": "N28",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "pen",
+      "url": "/htu/uni-note/writing/#pen",
+      "previous_url": "/htu/uni-note/writing/pens/"
+    },
+    {
+      "id": "N29",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "pen",
+      "url": "/htu/uni-note/writing/#pen",
+      "previous_url": "/htu/uni-note/writing/pens/"
+    },
+    {
+      "id": "N30",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "pen",
+      "url": "/htu/uni-note/writing/#pen",
+      "previous_url": "/htu/uni-note/writing/pens/"
+    },
+    {
+      "id": "N31",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "pen",
+      "url": "/htu/uni-note/writing/#pen",
+      "previous_url": "/htu/uni-note/writing/pens/"
+    },
+    {
+      "id": "N32",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "pen",
+      "url": "/htu/uni-note/writing/#pen",
+      "previous_url": "/htu/uni-note/writing/pens/"
+    },
+    {
+      "id": "N33",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "pen",
+      "url": "/htu/uni-note/writing/#pen",
+      "previous_url": "/htu/uni-note/writing/pens/"
+    },
+    {
+      "id": "N34",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "eraser",
+      "url": "/htu/uni-note/writing/#eraser",
+      "previous_url": "/htu/uni-note/writing/erasing/"
+    },
+    {
+      "id": "N35",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "eraser",
+      "url": "/htu/uni-note/writing/#eraser",
+      "previous_url": "/htu/uni-note/writing/erasing/"
+    },
+    {
+      "id": "N36",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "eraser",
+      "url": "/htu/uni-note/writing/#eraser",
+      "previous_url": "/htu/uni-note/writing/erasing/"
+    },
+    {
+      "id": "N37",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "eraser",
+      "url": "/htu/uni-note/writing/#eraser",
+      "previous_url": "/htu/uni-note/writing/erasing/"
+    },
+    {
+      "id": "N38",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "eraser",
+      "url": "/htu/uni-note/writing/#eraser",
+      "previous_url": "/htu/uni-note/writing/erasing/"
+    },
+    {
+      "id": "N39",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "palette",
+      "url": "/htu/uni-note/writing/#palette",
+      "previous_url": "/htu/uni-note/writing/palette/"
+    },
+    {
+      "id": "N40",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "palette",
+      "url": "/htu/uni-note/writing/#palette",
+      "previous_url": "/htu/uni-note/writing/palette/"
+    },
+    {
+      "id": "N41",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "ruler",
+      "url": "/htu/uni-note/writing/#ruler",
+      "previous_url": "/htu/uni-note/writing/ruler/"
+    },
+    {
+      "id": "N42",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "ruler",
+      "url": "/htu/uni-note/writing/#ruler",
+      "previous_url": "/htu/uni-note/writing/ruler/"
+    },
+    {
+      "id": "N43",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "ruler",
+      "url": "/htu/uni-note/writing/#ruler",
+      "previous_url": "/htu/uni-note/writing/ruler/"
+    },
+    {
+      "id": "M50",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "ruler",
+      "url": "/htu/uni-note/writing/#ruler",
+      "previous_url": "/htu/uni-note/writing/ruler/"
+    },
+    {
+      "id": "M51",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "ruler",
+      "url": "/htu/uni-note/writing/#ruler",
+      "previous_url": "/htu/uni-note/writing/ruler/"
+    },
+    {
+      "id": "N44",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "selection",
+      "url": "/htu/uni-note/writing/#selection",
+      "previous_url": "/htu/uni-note/writing/move/"
+    },
+    {
+      "id": "N45",
+      "page": "/htu/uni-note/writing/",
+      "anchor": "selection",
+      "url": "/htu/uni-note/writing/#selection",
+      "previous_url": "/htu/uni-note/writing/move/"
+    },
+    {
+      "id": "M01",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "photos",
+      "url": "/htu/uni-note/materials/#photos",
+      "previous_url": "/htu/uni-note/materials/photos/"
+    },
+    {
+      "id": "M02",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "photos",
+      "url": "/htu/uni-note/materials/#photos",
+      "previous_url": "/htu/uni-note/materials/photos/"
+    },
+    {
+      "id": "M03",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "photos",
+      "url": "/htu/uni-note/materials/#photos",
+      "previous_url": "/htu/uni-note/materials/photos/"
+    },
+    {
+      "id": "M04",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "pdf",
+      "url": "/htu/uni-note/materials/#pdf",
+      "previous_url": "/htu/uni-note/materials/pdf/"
+    },
+    {
+      "id": "M05",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "pdf",
+      "url": "/htu/uni-note/materials/#pdf",
+      "previous_url": "/htu/uni-note/materials/pdf/"
+    },
+    {
+      "id": "M06",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "pdf",
+      "url": "/htu/uni-note/materials/#pdf",
+      "previous_url": "/htu/uni-note/materials/pdf/"
+    },
+    {
+      "id": "M07",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "arrange",
+      "url": "/htu/uni-note/materials/#arrange",
+      "previous_url": "/htu/uni-note/materials/arrange/"
+    },
+    {
+      "id": "M08",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "arrange",
+      "url": "/htu/uni-note/materials/#arrange",
+      "previous_url": "/htu/uni-note/materials/arrange/"
+    },
+    {
+      "id": "M09",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "arrange",
+      "url": "/htu/uni-note/materials/#arrange",
+      "previous_url": "/htu/uni-note/materials/arrange/"
+    },
+    {
+      "id": "M10",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "arrange",
+      "url": "/htu/uni-note/materials/#arrange",
+      "previous_url": "/htu/uni-note/materials/arrange/"
+    },
+    {
+      "id": "M11",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "arrange",
+      "url": "/htu/uni-note/materials/#arrange",
+      "previous_url": "/htu/uni-note/materials/arrange/"
+    },
+    {
+      "id": "M12",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "arrange",
+      "url": "/htu/uni-note/materials/#arrange",
+      "previous_url": "/htu/uni-note/materials/arrange/"
+    },
+    {
+      "id": "M13",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "arrange",
+      "url": "/htu/uni-note/materials/#arrange",
+      "previous_url": "/htu/uni-note/materials/arrange/"
+    },
+    {
+      "id": "M14",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "vertical",
+      "url": "/htu/uni-note/materials/#vertical",
+      "previous_url": "/htu/uni-note/materials/vertical/"
+    },
+    {
+      "id": "M15",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "vertical",
+      "url": "/htu/uni-note/materials/#vertical",
+      "previous_url": "/htu/uni-note/materials/vertical/"
+    },
+    {
+      "id": "M17",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "export",
+      "url": "/htu/uni-note/materials/#export",
+      "previous_url": "/htu/uni-note/materials/export/"
+    },
+    {
+      "id": "M18",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "export",
+      "url": "/htu/uni-note/materials/#export",
+      "previous_url": "/htu/uni-note/materials/export/"
+    },
+    {
+      "id": "S17",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "export",
+      "url": "/htu/uni-note/materials/#export",
+      "previous_url": "/htu/uni-note/materials/export/"
+    },
+    {
+      "id": "S42",
+      "page": "/htu/uni-note/materials/",
+      "anchor": "export",
+      "url": "/htu/uni-note/materials/#export",
+      "previous_url": "/htu/uni-note/materials/export/"
+    },
+    {
+      "id": "M20",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "capture",
+      "url": "/htu/uni-note/recording/#capture",
+      "previous_url": "/htu/uni-note/recording/capture/"
+    },
+    {
+      "id": "M21",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "capture",
+      "url": "/htu/uni-note/recording/#capture",
+      "previous_url": "/htu/uni-note/recording/capture/"
+    },
+    {
+      "id": "M22",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "capture",
+      "url": "/htu/uni-note/recording/#capture",
+      "previous_url": "/htu/uni-note/recording/capture/"
+    },
+    {
+      "id": "M23",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "capture",
+      "url": "/htu/uni-note/recording/#capture",
+      "previous_url": "/htu/uni-note/recording/capture/"
+    },
+    {
+      "id": "M24",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "capture",
+      "url": "/htu/uni-note/recording/#capture",
+      "previous_url": "/htu/uni-note/recording/capture/"
+    },
+    {
+      "id": "M25",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "play",
+      "url": "/htu/uni-note/recording/#play",
+      "previous_url": "/htu/uni-note/recording/play/"
+    },
+    {
+      "id": "M26",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "play",
+      "url": "/htu/uni-note/recording/#play",
+      "previous_url": "/htu/uni-note/recording/play/"
+    },
+    {
+      "id": "M27",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "play",
+      "url": "/htu/uni-note/recording/#play",
+      "previous_url": "/htu/uni-note/recording/play/"
+    },
+    {
+      "id": "M28",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "play",
+      "url": "/htu/uni-note/recording/#play",
+      "previous_url": "/htu/uni-note/recording/play/"
+    },
+    {
+      "id": "M29",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "play",
+      "url": "/htu/uni-note/recording/#play",
+      "previous_url": "/htu/uni-note/recording/play/"
+    },
+    {
+      "id": "M30",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "play",
+      "url": "/htu/uni-note/recording/#play",
+      "previous_url": "/htu/uni-note/recording/play/"
+    },
+    {
+      "id": "M32",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "transcribe",
+      "url": "/htu/uni-note/recording/#transcribe",
+      "previous_url": "/htu/uni-note/recording/transcribe/"
+    },
+    {
+      "id": "M33",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "transcribe",
+      "url": "/htu/uni-note/recording/#transcribe",
+      "previous_url": "/htu/uni-note/recording/transcribe/"
+    },
+    {
+      "id": "M34",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "transcribe",
+      "url": "/htu/uni-note/recording/#transcribe",
+      "previous_url": "/htu/uni-note/recording/transcribe/"
+    },
+    {
+      "id": "M35",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "transcribe",
+      "url": "/htu/uni-note/recording/#transcribe",
+      "previous_url": "/htu/uni-note/recording/transcribe/"
+    },
+    {
+      "id": "M36",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "transcribe",
+      "url": "/htu/uni-note/recording/#transcribe",
+      "previous_url": "/htu/uni-note/recording/transcribe/"
+    },
+    {
+      "id": "M37",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "summary",
+      "url": "/htu/uni-note/recording/#summary",
+      "previous_url": "/htu/uni-note/recording/summary/"
+    },
+    {
+      "id": "M38",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "summary",
+      "url": "/htu/uni-note/recording/#summary",
+      "previous_url": "/htu/uni-note/recording/summary/"
+    },
+    {
+      "id": "M39",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "summary",
+      "url": "/htu/uni-note/recording/#summary",
+      "previous_url": "/htu/uni-note/recording/summary/"
+    },
+    {
+      "id": "M40",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "summary",
+      "url": "/htu/uni-note/recording/#summary",
+      "previous_url": "/htu/uni-note/recording/summary/"
+    },
+    {
+      "id": "S43",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "summary",
+      "url": "/htu/uni-note/recording/#summary",
+      "previous_url": "/htu/uni-note/recording/summary/"
+    },
+    {
+      "id": "M41",
+      "page": "/htu/uni-note/recording/",
+      "anchor": "paste",
+      "url": "/htu/uni-note/recording/#paste",
+      "previous_url": "/htu/uni-note/recording/paste/"
+    },
+    {
+      "id": "M42",
+      "page": "/htu/uni-note/study/",
+      "anchor": "sticky",
+      "url": "/htu/uni-note/study/#sticky",
+      "previous_url": "/htu/uni-note/study/sticky/"
+    },
+    {
+      "id": "M43",
+      "page": "/htu/uni-note/study/",
+      "anchor": "sticky",
+      "url": "/htu/uni-note/study/#sticky",
+      "previous_url": "/htu/uni-note/study/sticky/"
+    },
+    {
+      "id": "M44",
+      "page": "/htu/uni-note/study/",
+      "anchor": "sticky",
+      "url": "/htu/uni-note/study/#sticky",
+      "previous_url": "/htu/uni-note/study/sticky/"
+    },
+    {
+      "id": "M45",
+      "page": "/htu/uni-note/study/",
+      "anchor": "sticky",
+      "url": "/htu/uni-note/study/#sticky",
+      "previous_url": "/htu/uni-note/study/sticky/"
+    },
+    {
+      "id": "M46",
+      "page": "/htu/uni-note/study/",
+      "anchor": "sticky",
+      "url": "/htu/uni-note/study/#sticky",
+      "previous_url": "/htu/uni-note/study/sticky/"
+    },
+    {
+      "id": "M62",
+      "page": "/htu/uni-note/study/",
+      "anchor": "sticky",
+      "url": "/htu/uni-note/study/#sticky",
+      "previous_url": "/htu/uni-note/study/sticky/"
+    },
+    {
+      "id": "M52",
+      "page": "/htu/uni-note/study/",
+      "anchor": "pomodoro",
+      "url": "/htu/uni-note/study/#pomodoro",
+      "previous_url": "/htu/uni-note/study/pomodoro/"
+    },
+    {
+      "id": "M53",
+      "page": "/htu/uni-note/study/",
+      "anchor": "pomodoro",
+      "url": "/htu/uni-note/study/#pomodoro",
+      "previous_url": "/htu/uni-note/study/pomodoro/"
+    },
+    {
+      "id": "M54",
+      "page": "/htu/uni-note/study/",
+      "anchor": "pomodoro",
+      "url": "/htu/uni-note/study/#pomodoro",
+      "previous_url": "/htu/uni-note/study/pomodoro/"
+    },
+    {
+      "id": "M55",
+      "page": "/htu/uni-note/study/",
+      "anchor": "pomodoro",
+      "url": "/htu/uni-note/study/#pomodoro",
+      "previous_url": "/htu/uni-note/study/pomodoro/"
+    },
+    {
+      "id": "M56",
+      "page": "/htu/uni-note/study/",
+      "anchor": "pomodoro",
+      "url": "/htu/uni-note/study/#pomodoro",
+      "previous_url": "/htu/uni-note/study/pomodoro/"
+    },
+    {
+      "id": "M57",
+      "page": "/htu/uni-note/study/",
+      "anchor": "laser",
+      "url": "/htu/uni-note/study/#laser",
+      "previous_url": "/htu/uni-note/study/laser/"
+    },
+    {
+      "id": "M58",
+      "page": "/htu/uni-note/study/",
+      "anchor": "laser",
+      "url": "/htu/uni-note/study/#laser",
+      "previous_url": "/htu/uni-note/study/laser/"
+    },
+    {
+      "id": "A02",
+      "page": "/htu/uni-note/ai/",
+      "anchor": "answer",
+      "url": "/htu/uni-note/ai/#answer",
+      "previous_url": "/htu/uni-note/ai/answer/"
+    },
+    {
+      "id": "A03",
+      "page": "/htu/uni-note/ai/",
+      "anchor": "answer",
+      "url": "/htu/uni-note/ai/#answer",
+      "previous_url": "/htu/uni-note/ai/answer/"
+    },
+    {
+      "id": "A04",
+      "page": "/htu/uni-note/ai/",
+      "anchor": "answer",
+      "url": "/htu/uni-note/ai/#answer",
+      "previous_url": "/htu/uni-note/ai/answer/"
+    },
+    {
+      "id": "A05",
+      "page": "/htu/uni-note/ai/",
+      "anchor": "answer",
+      "url": "/htu/uni-note/ai/#answer",
+      "previous_url": "/htu/uni-note/ai/answer/"
+    },
+    {
+      "id": "A06",
+      "page": "/htu/uni-note/ai/",
+      "anchor": "answer",
+      "url": "/htu/uni-note/ai/#answer",
+      "previous_url": "/htu/uni-note/ai/answer/"
+    },
+    {
+      "id": "A07",
+      "page": "/htu/uni-note/ai/",
+      "anchor": "answer",
+      "url": "/htu/uni-note/ai/#answer",
+      "previous_url": "/htu/uni-note/ai/answer/"
+    },
+    {
+      "id": "A08",
+      "page": "/htu/uni-note/ai/",
+      "anchor": "answer",
+      "url": "/htu/uni-note/ai/#answer",
+      "previous_url": "/htu/uni-note/ai/answer/"
+    },
+    {
+      "id": "A01",
+      "page": "/htu/uni-note/ai/",
+      "anchor": "settings",
+      "url": "/htu/uni-note/ai/#settings",
+      "previous_url": "/htu/uni-note/ai/settings/"
+    },
+    {
+      "id": "Q01",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "generate",
+      "url": "/htu/uni-note/problem-sets/#generate",
+      "previous_url": "/htu/uni-note/problem-sets/generate/"
+    },
+    {
+      "id": "Q02",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "generate",
+      "url": "/htu/uni-note/problem-sets/#generate",
+      "previous_url": "/htu/uni-note/problem-sets/generate/"
+    },
+    {
+      "id": "Q03",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "generate",
+      "url": "/htu/uni-note/problem-sets/#generate",
+      "previous_url": "/htu/uni-note/problem-sets/generate/"
+    },
+    {
+      "id": "Q04",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "generate",
+      "url": "/htu/uni-note/problem-sets/#generate",
+      "previous_url": "/htu/uni-note/problem-sets/generate/"
+    },
+    {
+      "id": "Q05",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "generate",
+      "url": "/htu/uni-note/problem-sets/#generate",
+      "previous_url": "/htu/uni-note/problem-sets/generate/"
+    },
+    {
+      "id": "Q06",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "generate",
+      "url": "/htu/uni-note/problem-sets/#generate",
+      "previous_url": "/htu/uni-note/problem-sets/generate/"
+    },
+    {
+      "id": "Q07",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "generate",
+      "url": "/htu/uni-note/problem-sets/#generate",
+      "previous_url": "/htu/uni-note/problem-sets/generate/"
+    },
+    {
+      "id": "Q08",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "review",
+      "url": "/htu/uni-note/problem-sets/#review",
+      "previous_url": "/htu/uni-note/problem-sets/review/"
+    },
+    {
+      "id": "Q09",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "review",
+      "url": "/htu/uni-note/problem-sets/#review",
+      "previous_url": "/htu/uni-note/problem-sets/review/"
+    },
+    {
+      "id": "Q10",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "review",
+      "url": "/htu/uni-note/problem-sets/#review",
+      "previous_url": "/htu/uni-note/problem-sets/review/"
+    },
+    {
+      "id": "Q11",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "edit",
+      "url": "/htu/uni-note/problem-sets/#edit",
+      "previous_url": "/htu/uni-note/problem-sets/edit/"
+    },
+    {
+      "id": "Q12",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "edit",
+      "url": "/htu/uni-note/problem-sets/#edit",
+      "previous_url": "/htu/uni-note/problem-sets/edit/"
+    },
+    {
+      "id": "Q13",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "edit",
+      "url": "/htu/uni-note/problem-sets/#edit",
+      "previous_url": "/htu/uni-note/problem-sets/edit/"
+    },
+    {
+      "id": "Q14",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "edit",
+      "url": "/htu/uni-note/problem-sets/#edit",
+      "previous_url": "/htu/uni-note/problem-sets/edit/"
+    },
+    {
+      "id": "Q15",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "edit",
+      "url": "/htu/uni-note/problem-sets/#edit",
+      "previous_url": "/htu/uni-note/problem-sets/edit/"
+    },
+    {
+      "id": "Q16",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "edit",
+      "url": "/htu/uni-note/problem-sets/#edit",
+      "previous_url": "/htu/uni-note/problem-sets/edit/"
+    },
+    {
+      "id": "Q18",
+      "page": "/htu/uni-note/problem-sets/",
+      "anchor": "home",
+      "url": "/htu/uni-note/problem-sets/#home",
+      "previous_url": "/htu/uni-note/problem-sets/home/"
+    },
+    {
+      "id": "S01",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "settings",
+      "url": "/htu/uni-note/customize/#settings",
+      "previous_url": "/htu/uni-note/customize/settings/"
+    },
+    {
+      "id": "S02",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "paper",
+      "url": "/htu/uni-note/customize/#paper",
+      "previous_url": "/htu/uni-note/customize/paper/"
+    },
+    {
+      "id": "S03",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "paper",
+      "url": "/htu/uni-note/customize/#paper",
+      "previous_url": "/htu/uni-note/customize/paper/"
+    },
+    {
+      "id": "S04",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "paper",
+      "url": "/htu/uni-note/customize/#paper",
+      "previous_url": "/htu/uni-note/customize/paper/"
+    },
+    {
+      "id": "S05",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "paper",
+      "url": "/htu/uni-note/customize/#paper",
+      "previous_url": "/htu/uni-note/customize/paper/"
+    },
+    {
+      "id": "S06",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "paper",
+      "url": "/htu/uni-note/customize/#paper",
+      "previous_url": "/htu/uni-note/customize/paper/"
+    },
+    {
+      "id": "S07",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "paper",
+      "url": "/htu/uni-note/customize/#paper",
+      "previous_url": "/htu/uni-note/customize/paper/"
+    },
+    {
+      "id": "S08",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "paper",
+      "url": "/htu/uni-note/customize/#paper",
+      "previous_url": "/htu/uni-note/customize/paper/"
+    },
+    {
+      "id": "S09",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "paper",
+      "url": "/htu/uni-note/customize/#paper",
+      "previous_url": "/htu/uni-note/customize/paper/"
+    },
+    {
+      "id": "S10",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "display",
+      "url": "/htu/uni-note/customize/#display",
+      "previous_url": "/htu/uni-note/customize/display/"
+    },
+    {
+      "id": "S11",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "display",
+      "url": "/htu/uni-note/customize/#display",
+      "previous_url": "/htu/uni-note/customize/display/"
+    },
+    {
+      "id": "S12",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "display",
+      "url": "/htu/uni-note/customize/#display",
+      "previous_url": "/htu/uni-note/customize/display/"
+    },
+    {
+      "id": "S13",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "display",
+      "url": "/htu/uni-note/customize/#display",
+      "previous_url": "/htu/uni-note/customize/display/"
+    },
+    {
+      "id": "S14",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "display",
+      "url": "/htu/uni-note/customize/#display",
+      "previous_url": "/htu/uni-note/customize/display/"
+    },
+    {
+      "id": "S15",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "display",
+      "url": "/htu/uni-note/customize/#display",
+      "previous_url": "/htu/uni-note/customize/display/"
+    },
+    {
+      "id": "S16",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "display",
+      "url": "/htu/uni-note/customize/#display",
+      "previous_url": "/htu/uni-note/customize/display/"
+    },
+    {
+      "id": "N46",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "toolbar",
+      "url": "/htu/uni-note/customize/#toolbar",
+      "previous_url": "/htu/uni-note/customize/toolbar/"
+    },
+    {
+      "id": "N47",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "toolbar",
+      "url": "/htu/uni-note/customize/#toolbar",
+      "previous_url": "/htu/uni-note/customize/toolbar/"
+    },
+    {
+      "id": "N48",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "toolbar",
+      "url": "/htu/uni-note/customize/#toolbar",
+      "previous_url": "/htu/uni-note/customize/toolbar/"
+    },
+    {
+      "id": "N49",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "toolbar",
+      "url": "/htu/uni-note/customize/#toolbar",
+      "previous_url": "/htu/uni-note/customize/toolbar/"
+    },
+    {
+      "id": "N50",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "toolbar",
+      "url": "/htu/uni-note/customize/#toolbar",
+      "previous_url": "/htu/uni-note/customize/toolbar/"
+    },
+    {
+      "id": "N51",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "toolbar",
+      "url": "/htu/uni-note/customize/#toolbar",
+      "previous_url": "/htu/uni-note/customize/toolbar/"
+    },
+    {
+      "id": "N66",
+      "page": "/htu/uni-note/customize/",
+      "anchor": "toolbar",
+      "url": "/htu/uni-note/customize/#toolbar",
+      "previous_url": "/htu/uni-note/customize/toolbar/"
+    },
+    {
+      "id": "S25",
+      "page": "/htu/uni-note/data/",
+      "anchor": "protect",
+      "url": "/htu/uni-note/data/#protect",
+      "previous_url": "/htu/uni-note/data/protect/"
+    },
+    {
+      "id": "S26",
+      "page": "/htu/uni-note/data/",
+      "anchor": "protect",
+      "url": "/htu/uni-note/data/#protect",
+      "previous_url": "/htu/uni-note/data/protect/"
+    },
+    {
+      "id": "S27",
+      "page": "/htu/uni-note/data/",
+      "anchor": "trash",
+      "url": "/htu/uni-note/data/#trash",
+      "previous_url": "/htu/uni-note/data/trash/"
+    },
+    {
+      "id": "S28",
+      "page": "/htu/uni-note/data/",
+      "anchor": "trash",
+      "url": "/htu/uni-note/data/#trash",
+      "previous_url": "/htu/uni-note/data/trash/"
+    },
+    {
+      "id": "S29",
+      "page": "/htu/uni-note/data/",
+      "anchor": "trash",
+      "url": "/htu/uni-note/data/#trash",
+      "previous_url": "/htu/uni-note/data/trash/"
+    },
+    {
+      "id": "S30",
+      "page": "/htu/uni-note/data/",
+      "anchor": "trash",
+      "url": "/htu/uni-note/data/#trash",
+      "previous_url": "/htu/uni-note/data/trash/"
+    },
+    {
+      "id": "S31",
+      "page": "/htu/uni-note/data/",
+      "anchor": "trash",
+      "url": "/htu/uni-note/data/#trash",
+      "previous_url": "/htu/uni-note/data/trash/"
+    },
+    {
+      "id": "S18",
+      "page": "/htu/uni-note/backup/",
+      "anchor": "save",
+      "url": "/htu/uni-note/backup/#save",
+      "previous_url": "/htu/uni-note/backup/save/"
+    },
+    {
+      "id": "S19",
+      "page": "/htu/uni-note/backup/",
+      "anchor": "save",
+      "url": "/htu/uni-note/backup/#save",
+      "previous_url": "/htu/uni-note/backup/save/"
+    },
+    {
+      "id": "S20",
+      "page": "/htu/uni-note/backup/",
+      "anchor": "save",
+      "url": "/htu/uni-note/backup/#save",
+      "previous_url": "/htu/uni-note/backup/save/"
+    },
+    {
+      "id": "S21",
+      "page": "/htu/uni-note/backup/",
+      "anchor": "save",
+      "url": "/htu/uni-note/backup/#save",
+      "previous_url": "/htu/uni-note/backup/save/"
+    },
+    {
+      "id": "S22",
+      "page": "/htu/uni-note/backup/",
+      "anchor": "restore",
+      "url": "/htu/uni-note/backup/#restore",
+      "previous_url": "/htu/uni-note/backup/restore/"
+    },
+    {
+      "id": "S23",
+      "page": "/htu/uni-note/backup/",
+      "anchor": "restore",
+      "url": "/htu/uni-note/backup/#restore",
+      "previous_url": "/htu/uni-note/backup/restore/"
+    },
+    {
+      "id": "S24",
+      "page": "/htu/uni-note/backup/",
+      "anchor": "restore",
+      "url": "/htu/uni-note/backup/#restore",
+      "previous_url": "/htu/uni-note/backup/restore/"
+    },
+    {
+      "id": "P01",
+      "page": "/htu/uni-note/plans/",
+      "anchor": "usage",
+      "url": "/htu/uni-note/plans/#usage",
+      "previous_url": "/htu/uni-note/plans/usage/"
+    },
+    {
+      "id": "P02",
+      "page": "/htu/uni-note/plans/",
+      "anchor": "usage",
+      "url": "/htu/uni-note/plans/#usage",
+      "previous_url": "/htu/uni-note/plans/usage/"
+    },
+    {
+      "id": "P04",
+      "page": "/htu/uni-note/plans/",
+      "anchor": "usage",
+      "url": "/htu/uni-note/plans/#usage",
+      "previous_url": "/htu/uni-note/plans/usage/"
+    },
+    {
+      "id": "P05",
+      "page": "/htu/uni-note/plans/",
+      "anchor": "usage",
+      "url": "/htu/uni-note/plans/#usage",
+      "previous_url": "/htu/uni-note/plans/usage/"
+    },
+    {
+      "id": "P06",
+      "page": "/htu/uni-note/plans/",
+      "anchor": "usage",
+      "url": "/htu/uni-note/plans/#usage",
+      "previous_url": "/htu/uni-note/plans/usage/"
+    },
+    {
+      "id": "P07",
+      "page": "/htu/uni-note/plans/",
+      "anchor": "usage",
+      "url": "/htu/uni-note/plans/#usage",
+      "previous_url": "/htu/uni-note/plans/usage/"
+    },
+    {
+      "id": "P08",
+      "page": "/htu/uni-note/plans/",
+      "anchor": "usage",
+      "url": "/htu/uni-note/plans/#usage",
+      "previous_url": "/htu/uni-note/plans/usage/"
+    },
+    {
+      "id": "S32",
+      "page": "/htu/uni-note/troubleshooting/",
+      "anchor": "help",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "previous_url": "/htu/uni-note/troubleshooting/help/"
+    },
+    {
+      "id": "S33",
+      "page": "/htu/uni-note/troubleshooting/",
+      "anchor": "help",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "previous_url": "/htu/uni-note/troubleshooting/help/"
+    },
+    {
+      "id": "S34",
+      "page": "/htu/uni-note/troubleshooting/",
+      "anchor": "help",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "previous_url": "/htu/uni-note/troubleshooting/help/"
+    },
+    {
+      "id": "S35",
+      "page": "/htu/uni-note/troubleshooting/",
+      "anchor": "help",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "previous_url": "/htu/uni-note/troubleshooting/help/"
+    },
+    {
+      "id": "S36",
+      "page": "/htu/uni-note/troubleshooting/",
+      "anchor": "help",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "previous_url": "/htu/uni-note/troubleshooting/help/"
+    },
+    {
+      "id": "S37",
+      "page": "/htu/uni-note/troubleshooting/",
+      "anchor": "help",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "previous_url": "/htu/uni-note/troubleshooting/help/"
+    },
+    {
+      "id": "S38",
+      "page": "/htu/uni-note/troubleshooting/",
+      "anchor": "help",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "previous_url": "/htu/uni-note/troubleshooting/help/"
+    },
+    {
+      "id": "S40",
+      "page": "/htu/uni-note/troubleshooting/",
+      "anchor": "help",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "previous_url": "/htu/uni-note/troubleshooting/help/"
+    },
+    {
+      "id": "S41",
+      "page": "/htu/uni-note/troubleshooting/",
+      "anchor": "help",
+      "url": "/htu/uni-note/troubleshooting/#help",
+      "previous_url": "/htu/uni-note/troubleshooting/help/"
+    },
+    {
+      "id": "O01",
+      "page": "/htu/uni-note/ipados/",
+      "anchor": "windows",
+      "url": "/htu/uni-note/ipados/#windows",
+      "previous_url": "/htu/uni-note/ipados/windows/"
+    },
+    {
+      "id": "O03",
+      "page": "/htu/uni-note/ipados/",
+      "anchor": "windows",
+      "url": "/htu/uni-note/ipados/#windows",
+      "previous_url": "/htu/uni-note/ipados/windows/"
+    },
+    {
+      "id": "O06",
+      "page": "/htu/uni-note/ipados/",
+      "anchor": "files",
+      "url": "/htu/uni-note/ipados/#files",
+      "previous_url": "/htu/uni-note/ipados/files/"
+    },
+    {
+      "id": "O07",
+      "page": "/htu/uni-note/ipados/",
+      "anchor": "files",
+      "url": "/htu/uni-note/ipados/#files",
+      "previous_url": "/htu/uni-note/ipados/files/"
+    },
+    {
+      "id": "N60",
+      "page": "/htu/uni-note/workflows/vertical-annotate/",
+      "anchor": null,
+      "url": "/htu/uni-note/workflows/vertical-annotate/",
+      "previous_url": "/htu/uni-note/workflows/vertical-annotate/"
+    },
+    {
+      "id": "M16",
+      "page": "/htu/uni-note/workflows/material-margin/",
+      "anchor": null,
+      "url": "/htu/uni-note/workflows/material-margin/",
+      "previous_url": "/htu/uni-note/workflows/material-margin/"
+    },
+    {
+      "id": "M47",
+      "page": "/htu/uni-note/workflows/sticky-material/",
+      "anchor": null,
+      "url": "/htu/uni-note/workflows/sticky-material/",
+      "previous_url": "/htu/uni-note/workflows/sticky-material/"
+    },
+    {
+      "id": "Q17",
+      "page": "/htu/uni-note/workflows/quiz-review/",
+      "anchor": null,
+      "url": "/htu/uni-note/workflows/quiz-review/",
+      "previous_url": "/htu/uni-note/workflows/quiz-review/"
+    },
+    {
+      "id": "O02",
+      "page": "/htu/uni-note/workflows/two-notes/",
+      "anchor": null,
+      "url": "/htu/uni-note/workflows/two-notes/",
+      "previous_url": "/htu/uni-note/workflows/two-notes/"
+    },
+    {
+      "id": "O04",
+      "page": "/htu/uni-note/workflows/external-material/",
+      "anchor": null,
+      "url": "/htu/uni-note/workflows/external-material/",
+      "previous_url": "/htu/uni-note/workflows/external-material/"
+    },
+    {
+      "id": "O05",
+      "page": "/htu/uni-note/workflows/pip/",
+      "anchor": null,
+      "url": "/htu/uni-note/workflows/pip/",
+      "previous_url": "/htu/uni-note/workflows/pip/"
+    }
+  ],
+  "publication": [
+    {
+      "url": "/htu/uni-note/start/screens/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/start-screens.html"
+    },
+    {
+      "url": "/htu/uni-note/start/first-note/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/start-first-note.html"
+    },
+    {
+      "url": "/htu/uni-note/library/subjects/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/library-subjects.html"
+    },
+    {
+      "url": "/htu/uni-note/library/folders/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/library-folders.html"
+    },
+    {
+      "url": "/htu/uni-note/library/search/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/library-search.html"
+    },
+    {
+      "url": "/htu/uni-note/notebooks/manage/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/notebooks-manage.html"
+    },
+    {
+      "url": "/htu/uni-note/notebooks/pages/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/notebooks-pages.html"
+    },
+    {
+      "url": "/htu/uni-note/notebooks/vertical/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/notebooks-vertical.html"
+    },
+    {
+      "url": "/htu/uni-note/writing/pens/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/writing-pens.html"
+    },
+    {
+      "url": "/htu/uni-note/writing/erasing/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/writing-erasing.html"
+    },
+    {
+      "url": "/htu/uni-note/writing/palette/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/writing-palette.html"
+    },
+    {
+      "url": "/htu/uni-note/writing/ruler/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/writing-ruler.html"
+    },
+    {
+      "url": "/htu/uni-note/writing/move/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/writing-move.html"
+    },
+    {
+      "url": "/htu/uni-note/materials/photos/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/materials-photos.html"
+    },
+    {
+      "url": "/htu/uni-note/materials/pdf/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/materials-pdf.html"
+    },
+    {
+      "url": "/htu/uni-note/materials/arrange/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/materials-arrange.html"
+    },
+    {
+      "url": "/htu/uni-note/materials/vertical/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/materials-vertical.html"
+    },
+    {
+      "url": "/htu/uni-note/materials/export/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/materials-export.html"
+    },
+    {
+      "url": "/htu/uni-note/recording/capture/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/recording-capture.html"
+    },
+    {
+      "url": "/htu/uni-note/recording/play/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/recording-play.html"
+    },
+    {
+      "url": "/htu/uni-note/recording/transcribe/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/recording-transcribe.html"
+    },
+    {
+      "url": "/htu/uni-note/recording/summary/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/recording-summary.html"
+    },
+    {
+      "url": "/htu/uni-note/recording/paste/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/recording-paste.html"
+    },
+    {
+      "url": "/htu/uni-note/study/sticky/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/study-sticky.html"
+    },
+    {
+      "url": "/htu/uni-note/study/pomodoro/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/study-pomodoro.html"
+    },
+    {
+      "url": "/htu/uni-note/study/laser/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/study-laser.html"
+    },
+    {
+      "url": "/htu/uni-note/ai/answer/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/ai-answer.html"
+    },
+    {
+      "url": "/htu/uni-note/ai/settings/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/ai-settings.html"
+    },
+    {
+      "url": "/htu/uni-note/problem-sets/generate/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/problem-sets-generate.html"
+    },
+    {
+      "url": "/htu/uni-note/problem-sets/review/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/problem-sets-review.html"
+    },
+    {
+      "url": "/htu/uni-note/problem-sets/edit/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/problem-sets-edit.html"
+    },
+    {
+      "url": "/htu/uni-note/problem-sets/home/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/problem-sets-home.html"
+    },
+    {
+      "url": "/htu/uni-note/customize/settings/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/customize-settings.html"
+    },
+    {
+      "url": "/htu/uni-note/customize/paper/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/customize-paper.html"
+    },
+    {
+      "url": "/htu/uni-note/customize/display/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/customize-display.html"
+    },
+    {
+      "url": "/htu/uni-note/customize/toolbar/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/customize-toolbar.html"
+    },
+    {
+      "url": "/htu/uni-note/data/protect/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/data-protect.html"
+    },
+    {
+      "url": "/htu/uni-note/data/trash/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/data-trash.html"
+    },
+    {
+      "url": "/htu/uni-note/backup/save/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/backup-save.html"
+    },
+    {
+      "url": "/htu/uni-note/backup/restore/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/backup-restore.html"
+    },
+    {
+      "url": "/htu/uni-note/plans/usage/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/plans-usage.html"
+    },
+    {
+      "url": "/htu/uni-note/troubleshooting/help/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/troubleshooting-help.html"
+    },
+    {
+      "url": "/htu/uni-note/ipados/windows/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/ipados-windows.html"
+    },
+    {
+      "url": "/htu/uni-note/ipados/files/",
+      "status": "200",
+      "exit": 0,
+      "file": "/private/tmp/uninote-ia-before/ipados-files.html"
+    }
+  ],
+  "delete_candidates": [
+    "content/uni-note-guide/start-screens.md",
+    "content/uni-note-guide/start-first-note.md",
+    "content/uni-note-guide/library-subjects.md",
+    "content/uni-note-guide/library-folders.md",
+    "content/uni-note-guide/library-search.md",
+    "content/uni-note-guide/notebooks-manage.md",
+    "content/uni-note-guide/notebooks-pages.md",
+    "content/uni-note-guide/notebooks-vertical.md",
+    "content/uni-note-guide/writing-pens.md",
+    "content/uni-note-guide/writing-erasing.md",
+    "content/uni-note-guide/writing-palette.md",
+    "content/uni-note-guide/writing-ruler.md",
+    "content/uni-note-guide/writing-move.md",
+    "content/uni-note-guide/materials-photos.md",
+    "content/uni-note-guide/materials-pdf.md",
+    "content/uni-note-guide/materials-arrange.md",
+    "content/uni-note-guide/materials-vertical.md",
+    "content/uni-note-guide/materials-export.md",
+    "content/uni-note-guide/recording-capture.md",
+    "content/uni-note-guide/recording-play.md",
+    "content/uni-note-guide/recording-transcribe.md",
+    "content/uni-note-guide/recording-summary.md",
+    "content/uni-note-guide/recording-paste.md",
+    "content/uni-note-guide/study-sticky.md",
+    "content/uni-note-guide/study-pomodoro.md",
+    "content/uni-note-guide/study-laser.md",
+    "content/uni-note-guide/ai-answer.md",
+    "content/uni-note-guide/ai-settings.md",
+    "content/uni-note-guide/problem-sets-generate.md",
+    "content/uni-note-guide/problem-sets-review.md",
+    "content/uni-note-guide/problem-sets-edit.md",
+    "content/uni-note-guide/problem-sets-home.md",
+    "content/uni-note-guide/customize-settings.md",
+    "content/uni-note-guide/customize-paper.md",
+    "content/uni-note-guide/customize-display.md",
+    "content/uni-note-guide/customize-toolbar.md",
+    "content/uni-note-guide/data-protect.md",
+    "content/uni-note-guide/data-trash.md",
+    "content/uni-note-guide/backup-save.md",
+    "content/uni-note-guide/backup-restore.md",
+    "content/uni-note-guide/plans-usage.md",
+    "content/uni-note-guide/troubleshooting-help.md",
+    "content/uni-note-guide/ipados-windows.md",
+    "content/uni-note-guide/ipados-files.md"
+  ],
+  "policy": "User explicitly permits removing URLs added in this chat, even though published. Move all 44 bodies into category sections and delete former individual pages without redirects. Preserve pre-Phase-2 top URL and anchors. No change to specifications or HOLD."
+}

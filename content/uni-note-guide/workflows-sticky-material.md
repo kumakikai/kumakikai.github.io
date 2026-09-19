@@ -47,6 +47,6 @@ PDFや写真にある答えを付箋で隠し、タップで答え合わせで�
 
 ## 関連する使い方
 
-- [付箋マーカーで答えを隠す](/htu/uni-note/study/sticky/)
-- [写真・紙の資料を貼り付ける](/htu/uni-note/materials/photos/)
-- [PDFのページを選んで貼り付ける](/htu/uni-note/materials/pdf/)
+- [付箋マーカーで答えを隠す](/htu/uni-note/study/#sticky)
+- [写真・紙の資料を貼り付ける](/htu/uni-note/materials/#photos)
+- [PDFのページを選んで貼り付ける](/htu/uni-note/materials/#pdf)

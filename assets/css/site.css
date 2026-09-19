@@ -521,4 +521,19 @@ body.menu-open { overflow: hidden; }
   .breadcrumbs { font-size: .7rem; padding-top: 25px; }
   .error-page h1 { font-size: 1.7rem; }
 }
+/* Uni:Note guide index: disclosure and navigation are separate controls. */
+.uni-guide .uni-guide-category { border-bottom: 1px solid var(--line); padding: 14px 0; }
+.uni-guide .uni-guide-category-row { display: flex; align-items: center; gap: 8px; }
+.uni-guide .uni-guide-category-row h3 { margin: 0; min-width: 0; }
+.uni-guide .uni-guide-category-row h3 a { display: flex; align-items: center; min-height: 44px; color: inherit; text-decoration: none; }
+.uni-guide .uni-guide-category-row h3 a:hover { text-decoration: underline; }
+.uni-guide .uni-guide-toggle { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 44px; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 8px; background: transparent; color: inherit; cursor: pointer; }
+.uni-guide .uni-guide-toggle[hidden], .uni-guide .uni-guide-children[hidden] { display: none; }
+.uni-guide .uni-guide-toggle[aria-expanded="true"] svg { transform: rotate(90deg); }
+.uni-guide .uni-guide-toggle:focus-visible, .uni-guide .uni-guide-category a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.uni-guide .uni-guide-category-description { margin: 4px 0 4px 52px; }
+.uni-guide .uni-guide-children { margin: 8px 0 0 52px; padding: 0; list-style: none; }
+.uni-guide .uni-guide-children li { margin: 0; padding: 0; }
+.uni-guide .uni-guide-children a { display: flex; align-items: center; min-height: 44px; padding: 8px 0; }
+.uni-guide .content h2[id], .uni-guide .content h3[id] { scroll-margin-top: 100px; }
 @media (prefers-reduced-motion: reduce) { *,*::before,*::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }

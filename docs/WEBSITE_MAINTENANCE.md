@@ -197,13 +197,14 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 
 ### Uni:Note日本語ガイド（Phase 2）
 
-2026-09-19の明示依頼により、日本語Uni:Noteだけをトップ → カテゴリ → 目的別記事へ再構成する。既存 `/htu/uni-note/` と旧25アンカーはトップ本文に残す。翻訳版・FAQ・他製品はこの再構成の対象外。
+2026-09-19の明示依頼により、日本語Uni:Noteだけをトップ → 大項目の完全ガイド → 同一ページ内アンカーへ再構成する。既存 `/htu/uni-note/` と旧25アンカーはトップ本文に残す。翻訳版・FAQ・他製品はこの再構成の対象外。
 
-- トップ本文は `content/htu/uni-note.md`、新記事は `content/uni-note-guide/`。各記事の `url` は `/htu/uni-note/<category>/<article>/`、カテゴリは `/htu/uni-note/<category>/`。ソース格納用セクション自体は公開しない。
-- `layouts/uni-guide/single.html` は既存shell・Typography・画像shortcode・共通Supportを使用する。`data/uni_guide_navigation.json` はカテゴリと記事の索引。
+- トップ本文は `content/htu/uni-note.md`、新記事は `content/uni-note-guide/`。通常機能は `/htu/uni-note/<category>/#<section>` に集約する。複数機能を横断する12レシピだけ `/htu/uni-note/workflows/<recipe>/` を維持する。ソース格納用セクション自体は公開しない。
+- `layouts/uni-guide/single.html` は既存shell・Typography・画像shortcode・共通Supportを使用する。`data/uni_guide_navigation.json` は大項目と節・レシピの索引。トップの三角buttonは展開だけ、大項目リンクはガイド先頭へ、子リンクは節へ移動する。通常ガイドは上部に同一ページ内目次を持つ。JS無効でも子リンクを利用可能にする。
 - `data/uni_guide_images.json` と `uni-guide-image` shortcodeで掲載位置とPhase 1.5の原本／撮影セッション／旧画像IDを対応付ける。画像未入手の `pending` はHTMLを一切出力しない。内部IDや準備中文言を利用者へ表示しない。
 - 基準は一般公開3.5.0（ユーザー確認build 6）。指描画・未確認の次期画面・Premium Plus固有購入などのHOLDは公開本文に加えない。内部安定化の技術説明もガイドへ加えない。
 - 設計、196操作の掲載先、画像の再評価、保留、検証は `docs/uni-note-guide-phase2/`。元の調査・migration baselineは変更しない。旧ガイドの画像配置固定という監査条件は、この日本語ガイドに限り、同ディレクトリの限定レビューへ引き継ぐ。旧画像ファイル自体は保持する。
+- このチャットで増えた44個別ページは、公開後でも互換補完不要という明示指示により削除。既存トップ・旧HTUアンカーと12レシピは維持する。統合前後の対応、196操作、画像の移動は `docs/uni-note-guide-phase2/ia-revision/`。
 - `python3 scripts/verify-uninote-guide.py` でカバレッジ、リンク、アンカー、画像台帳、公開本文の境界を検証する。通常のbuild・migration・SEO検証も続ける。画像の差し替え時は撮影版・内容・alt・利用目的を確認して台帳と限定レビューを更新する。
 
 Productは最新正式App Store提出／公開画像 → アプリ内fastlane / metadata / screenshots / marketing / docs / release素材 → 既存Webの順で探索する。提出中画像は状態を区別し、古い仕様・ダミーで補わない。

@@ -36,6 +36,6 @@ AI要約の要点をノートへ置き、自分が理解したことや覚えた
 
 ## 関連する使い方
 
-- [AI要約を現在のノートへ貼る](/htu/uni-note/recording/paste/)
-- [ペンと蛍光ペンを使う](/htu/uni-note/writing/pens/)
-- [付箋マーカーで答えを隠す](/htu/uni-note/study/sticky/)
+- [AI要約を現在のノートへ貼る](/htu/uni-note/recording/#paste)
+- [ペンと蛍光ペンを使う](/htu/uni-note/writing/#pen)
+- [付箋マーカーで答えを隠す](/htu/uni-note/study/#sticky)

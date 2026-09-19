@@ -42,6 +42,6 @@ iPadOS 26のウインドウ表示では、別のアプリをDockなどから左�
 
 ## 関連する使い方
 
-- [iPadのウインドウ操作を使う](/htu/uni-note/ipados/windows/)
-- [ファイルアプリと共有シートを使う](/htu/uni-note/ipados/files/)
-- [PDFのページを選んで貼り付ける](/htu/uni-note/materials/pdf/)
+- [iPadのウインドウ操作を使う](/htu/uni-note/ipados/#windows)
+- [ファイルアプリと共有シートを使う](/htu/uni-note/ipados/#files)
+- [PDFのページを選んで貼り付ける](/htu/uni-note/materials/#pdf)

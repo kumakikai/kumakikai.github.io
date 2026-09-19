@@ -37,5 +37,5 @@ Apple Pencil。資料を貼ったノート。
 
 ## 関連する使い方
 
-- [レーザーポインターを使う](/htu/uni-note/study/laser/)
-- [写真・PDFを動かして固定する](/htu/uni-note/materials/arrange/)
+- [レーザーポインターを使う](/htu/uni-note/study/#laser)
+- [写真・PDFを動かして固定する](/htu/uni-note/materials/#arrange)

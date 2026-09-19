@@ -41,9 +41,9 @@ def verify(build):
     require({p['key'] for p in navigation['pages']} == {p['key'] for p in mapping['pages']}, 'Navigation/article mismatch')
     masters = {m['id']: m for m in mapping['masters']}
     routes = {'/htu/uni-note/': 'content/htu/uni-note.md'}
-    routes.update({p['url']: p['source'] for p in mapping['pages']})
+    routes.update({p['url'].split('#')[0]: p['source'] for p in mapping['pages']})
     routes.update({'/htu/uni-note/' + c + '/': 'content/uni-note-guide/' + c + '.md' for c in mapping['categories']})
-    require(len(routes) == 73, 'Expected top + 16 categories + 56 articles')
+    require(len(routes) == 29, 'Expected top + 16 categories + 12 recipes')
     documents = {}
     used_slots = []
     internal_references = 0
@@ -56,11 +56,20 @@ def verify(build):
             continue
         text = source.read_text()
         used_slots += re.findall(r'uni-guide-image slot="([^"]+)"', text)
-        if page := next((p for p in mapping['pages'] if p['url'] == route), None):
+        sections = [p for p in mapping['pages'] if p['url'].split('#')[0] == route]
+        if sections:
             match = re.search(r'^operation_ids: (.+)$', text, re.M)
-            require(match is not None and json.loads(match[1]) == page['operations'], 'Operation IDs differ in source: ' + route)
-            require('## 完了の確認' in text and '## 関連する使い方' in text, 'Article structure missing: ' + route)
-            require('## ' in text.split('## 完了の確認')[0], 'Missing instructions: ' + route)
+            expected = [i for p in sections for i in p['operations']]
+            require(match is not None and json.loads(match[1]) == expected, 'Operation IDs differ in source: ' + route)
+            for section in sections:
+                fragment = section.get('anchor')
+                section_text = text
+                if fragment:
+                    require('{#' + fragment + '}' in text, 'Missing section: ' + section['url'])
+                    marker = re.search(r'^## .+ \{#' + re.escape(fragment) + r'\}\n', text, re.M)
+                    section_text = re.split(r'\n## ', text[marker.end():], maxsplit=1)[0] if marker else ''
+                require('## 完了の確認' in section_text and '## 関連する使い方' in section_text, 'Section structure missing: ' + section['url'])
+                require('## ' in section_text.split('## 完了の確認')[0], 'Missing instructions: ' + section['url'])
         html = target.read_text()
         doc = migration.Document(html)
         documents[route] = doc

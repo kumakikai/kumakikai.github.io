@@ -23,7 +23,7 @@ operation_ids: ["O02"]
 1. 資料用ノートにPDFなどを貼り付けておきます。
 2. 同じ教科などに、筆記用の別ノートを作ります。
 3. 1つ目のUni:Noteで資料用ノートを開きます。
-4. [iPadOSの新規ウインドウ操作](/htu/uni-note/ipados/windows/)でUni:Noteをもう1つ開きます。
+4. [iPadOSの新規ウインドウ操作](/htu/uni-note/ipados/#windows)でUni:Noteをもう1つ開きます。
 5. 2つ目のウインドウで筆記用ノートを開きます。
 6. iPadOSの配置操作で、資料を左、筆記を右へ並べます。
 7. 資料側のページや表示倍率を調整します。
@@ -43,6 +43,6 @@ operation_ids: ["O02"]
 
 ## 関連する使い方
 
-- [iPadのウインドウ操作を使う](/htu/uni-note/ipados/windows/)
-- [ノートを書き込みから保護する](/htu/uni-note/data/protect/)
-- [ノートを開く・増やす・整理する](/htu/uni-note/notebooks/manage/)
+- [iPadのウインドウ操作を使う](/htu/uni-note/ipados/#windows)
+- [ノートを書き込みから保護する](/htu/uni-note/data/#protect)
+- [ノートを開く・増やす・整理する](/htu/uni-note/notebooks/#manage)

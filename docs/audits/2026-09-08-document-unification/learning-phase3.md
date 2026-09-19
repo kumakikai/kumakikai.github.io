@@ -71,3 +71,7 @@ source段階で担当38文書の構造・日付・旧ID・画像と操作保持�
 後継の実装監査・本文レビューは [Phase 2限定レビュー](../../uni-note-guide-phase2/04-content-review.md)、[公開版との境界](../../uni-note-guide-phase2/03-release-boundary.md)、[操作カバレッジ](../../uni-note-guide-phase2/05-operation-coverage.md)。旧URLと25アンカーは維持。旧画像9素材のうち7点を意味の合う個別記事へ移し、元ファイルを削除・加工していない。未入手の画像スロットはHTML非表示。
 
 `reviewed-content.json` の更新対象は `/htu/uni-note/` のみ。画像位置・属性を前回のまま固定する条件だけは、今回の再構成指示に合わせて `docs/uni-note-guide-phase2/reviewed-output.json` の限定レビューへ引き継ぐ。元baselineと監査前snapshot、残り73文書の条件は維持する。
+
+### Uni:Note大項目への統合
+
+後続の明示依頼によりトップの独立展開ボタンと大項目完全ガイドへ変更。196操作・180画像スロット・旧HTUアンカー・P0/HOLDを継承。44個別URLは互換不要の追加指示で削除する。移動対応と本文の照合を `docs/uni-note-guide-phase2/ia-revision/` に記録。本ルートだけの出力bindingを更新し、他73文書のレビューとimmutable baselineは変更しない。
