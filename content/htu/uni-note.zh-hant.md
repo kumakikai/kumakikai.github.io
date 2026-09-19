@@ -21,7 +21,7 @@ lastmod: 2026-09-08
 
 1. 點首頁右下角的 **+**，再選擇 **新增科目**。
 
-{{< guide-image src="images/guides/uni-note/zh-hant/create-menu.png" alt="首頁右下角 + 開啟的新增科目與建立資料夾選單" mode="crop" caption="點首頁右下角 + 後開啟的建立選單。" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-002-home-add-menu-ja.png" alt="首頁右下角 + 開啟的新增科目與建立資料夾選單" mode="crop" caption="點首頁右下角 + 後開啟的建立選單。" >}}
 
 2. 選擇名稱、格線、紙張及封面顏色。
 3. 開啟科目並輸入第一本筆記名稱；留白會使用今天的日期。
@@ -36,7 +36,7 @@ lastmod: 2026-09-08
 2. 使用 Apple Pencil 書寫，以雙指縮放。
 3. 在最後一頁開始書寫時，會自動新增下一頁。
 
-{{< guide-image src="images/guides/uni-note/common/writing-tools.png" alt="筆、螢光筆、橡皮擦、便利貼及復原工具盤" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="筆、螢光筆、橡皮擦、便利貼及復原工具盤" mode="crop" >}}
 
 拖移工具盤可改變位置。從上方顯示尺，用手指移動、旋轉，再用 Pencil 沿著附近畫直線。範圍移動會選取完整手寫筆畫；照片、PDF、便利貼需分別操作。直式筆記以橫向翻頁，建立後無法更改方向。
 
@@ -46,7 +46,7 @@ lastmod: 2026-09-08
 
 在首頁搜尋欄輸入部分筆記標題，再點選結果。不會搜尋手寫內容、頁面本文、PDF 或科目名稱。
 
-{{< guide-image src="images/guides/uni-note/zh-hant/home-search.png" alt="首頁的筆記標題搜尋欄" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-008-note-search-results-ja.png" alt="首頁的筆記標題搜尋欄" mode="crop" >}}
 
 筆記內的 **筆記列表** 可開啟同科目的其他筆記或新增筆記。向左滑可重新命名、保護或刪除。**頁面列表** 可點縮圖跳轉，長按可刪除。
 
@@ -60,7 +60,7 @@ lastmod: 2026-09-08
 2. 選擇照片、文件照片或 PDF 貼附。
 3. 選擇要貼附的 PDF 頁面；跨頁資料可分割後貼入。
 
-{{< guide-image src="images/guides/uni-note/zh-hant/attachment-menu.png" alt="照片、文件照片、PDF 貼附與匯出選單" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-063-more-menu-ja.png" alt="照片、文件照片、PDF 貼附與匯出選單" mode="crop" >}}
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Uni:Note 中已加手寫註記的課程 PDF" mode="tablet" >}}
 
@@ -74,7 +74,7 @@ lastmod: 2026-09-08
 2. 按紅色錄音鈕開始，必要時暫停、繼續。
 3. 停止並儲存，再選擇錄音播放。
 
-{{< guide-image src="images/guides/uni-note/common/record-button.png" alt="錄音面板的語言與紅色開始按鈕" mode="crop" caption="範例的轉錄語言為英文。" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-042-recording-ready-ja.png" alt="錄音面板的語言與紅色開始按鈕" mode="crop" caption="範例為選擇日文的錄音面板。" >}}
 
 錄音、播放及檢視轉錄為 Premium 功能。每 30 分鐘分割一次，每本筆記最多 5 筆。返回首頁或讓 iPad 休眠前請停止並儲存。支援的 iPadOS 26 裝置可在錄音時轉錄。語言可在 **設定 → 學習支援 → 錄音支援** 選擇。AI 摘要使用轉錄文字及 AI 餘額，執行前請確認預估用量。
 
@@ -84,7 +84,7 @@ lastmod: 2026-09-08
 
 在學習支援設定開啟記憶功能。選擇便利貼標記，以 Apple Pencil 劃過要隱藏的文字，再用手指點標記切換透明與不透明。若要刪除便利貼標記，請長按後點選出現的刪除按鈕。
 
-{{< guide-image src="images/guides/uni-note/common/sticky-marker.png" alt="遮住課程答案的便利貼標記" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-053-sticky-pdf-common.png" alt="遮住課程答案的便利貼標記" mode="crop" >}}
 
 開啟問題解答助理後，選擇筆記上方的對應按鈕，以 Pencil 圈住問題、確認範圍，再要求解答。
 

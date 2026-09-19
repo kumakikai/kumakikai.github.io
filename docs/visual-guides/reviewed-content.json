@@ -20,10 +20,10 @@
   },
   "/de/htu/uni-note/": {
     "source": "content/htu/uni-note.de.md",
-    "sourceSHA256": "1f2386c7af097e64390185acd49370d4c6ff0430ca638a43913ecf39730571a0",
+    "sourceSHA256": "3060750f6a506c3ca3fa6e8ae8afc99e05691520cb224aeabddddb2b52c21b60",
     "baselineTextSHA256": "65f68ff2e7b70bff28dcd58b530e206b83d814b0f7f95d14975f7c32f0180d07",
-    "reviewedTextSHA256": "f778e972c334423d92263138700f026073191fbbbbf76d547e37cfeb56921829",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "da9ca56534a96ed68a3a1df1ea2bf3fb4893ffab9d73bc6434a14e6259e2eaf2",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
     "removedLinks": [
       "https://kumakikai.github.io/de/faq/uni-note/",
       "https://kumakikai.github.io/de/privacy/uni-note/"
@@ -80,10 +80,10 @@
   },
   "/en/htu/uni-note/": {
     "source": "content/htu/uni-note.en.md",
-    "sourceSHA256": "7d4f1cfc79d58f517251ef7907ebd8ee029f2f97d0dead4d87778a05219365c2",
+    "sourceSHA256": "7e6b3c025c0b3a060df4b389bf19c791b57dcf69efa604c6dc4d38a6a0f7f1f8",
     "baselineTextSHA256": "a26b5bab23dc299994a244f3487439f466613882df23bea152e792997f643601",
-    "reviewedTextSHA256": "92b09ff776cf48b7d1673edbf0def64668576b34251bce6cd2adeeb1ce1264a1",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "685791d3095c059e566d16e93040c6c076504511b034d14127cc2d4c333949ca",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
     "removedLinks": [
       "https://kumakikai.github.io/en/faq/uni-note/",
       "https://kumakikai.github.io/en/privacy/uni-note/"
@@ -222,10 +222,10 @@
   },
   "/fr/htu/uni-note/": {
     "source": "content/htu/uni-note.fr.md",
-    "sourceSHA256": "72a32f4db59a41b236060698bbcfb6ebe5bf3b4c70f4d7869e7b900a8fc50ba0",
+    "sourceSHA256": "53051c34fd08a77f9e81788674e500a0fd27e9c93a9d2a57755831e149a12873",
     "baselineTextSHA256": "d9d8754e59fa8e812c9e7fcb2e3826dab146ef19f6aa38a7e2b4bd0bca83dc58",
-    "reviewedTextSHA256": "0724f11ffd0db10485fb5ad73b9c596e73fa151296b197337bb0cdbba8821041",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "38edfbfb806c3f2f2c5a8833015029d5b95d305aa2afdd32d0336538efdf94a4",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
     "removedLinks": [
       "https://kumakikai.github.io/fr/faq/uni-note/",
       "https://kumakikai.github.io/fr/privacy/uni-note/"
@@ -373,10 +373,10 @@
   },
   "/ko/htu/uni-note/": {
     "source": "content/htu/uni-note.ko.md",
-    "sourceSHA256": "05605b48d22688475ea1c83ae68bac21767a37300f967c1cf52f20288185dbab",
+    "sourceSHA256": "7af17de17dde3cb3c32c31e585175d80489be700179e29dfd7f0064aa4c66119",
     "baselineTextSHA256": "6767264d91f95d305e2611b5ac966b9f9afbb6fc3ef6fccf6c799be4100c6ade",
-    "reviewedTextSHA256": "1274de82ac943f49507073f221f1856148b6f3080d2f1a0822e5c4c638946b1a",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "dbb0aea2820f8b577d7a98c62361cdb6329905a8ae9f9814f691beb307efdb2b",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
     "removedLinks": [
       "https://kumakikai.github.io/ko/faq/uni-note/",
       "https://kumakikai.github.io/ko/privacy/uni-note/"
@@ -433,10 +433,10 @@
   },
   "/zh-hant/htu/uni-note/": {
     "source": "content/htu/uni-note.zh-hant.md",
-    "sourceSHA256": "f97ab0a6d0628ac284d755caca754a766547e7a3a33183c3c95f2bf77401c496",
+    "sourceSHA256": "d218dfc8f8af19aaef8316abf8025a49ccad44f968dec56b6a6f2fd204ae5153",
     "baselineTextSHA256": "0ad93001924502ebcc8317108accca5d624457ff10510110e77257615d1e888a",
-    "reviewedTextSHA256": "c17e3d5f423b8c9a09cac8208ea3f83400d95db810590808dcfed8f42b35b77f",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "bffebb9b4fe6b510276b17cc48dd11b8176e7a167a0665ac0918cbc2e21a06ae",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
     "removedLinks": [
       "https://kumakikai.github.io/zh-hant/faq/uni-note/",
       "https://kumakikai.github.io/zh-hant/privacy/uni-note/"

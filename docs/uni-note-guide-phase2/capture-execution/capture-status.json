@@ -1,0 +1,2399 @@
+{
+  "scope": "Actual Simulator captures and partial local integration; incomplete",
+  "logical_ids": 87,
+  "physical_originals_target": 86,
+  "placement_target": 111,
+  "placement_target_is_inherited_not_verified_mapping": true,
+  "captured": 72,
+  "approved": 71,
+  "new_placements": 86,
+  "alias": {
+    "UN35-027": "UN35-087"
+  },
+  "evidence": {
+    "source_commit": "35fa888d65aadadb3258165c28a7ebd3d90b4a52",
+    "source_basis": "User explicitly authorized this source, including finger input solely as capture assistance; not asserted identical to App Store build 6",
+    "worktree": "/private/tmp/uninote-guide-35fa888",
+    "configuration": "Release",
+    "build_result": "SUCCEEDED",
+    "build_adjustments": [
+      "CODE_SIGNING_ALLOWED=NO",
+      "UNINOTE_DISABLE_CRASHLYTICS_UPLOAD=1"
+    ],
+    "source_changes": [],
+    "marketing_version": "3.5.0",
+    "local_build": "1",
+    "binary_sha256": "c1629f7fad244a8834a9bc5c6c78fde30083f3336732dc7e48d585ac6931f2a6",
+    "device": "757529CE-626E-4AD2-B7CC-DD8028257ED4",
+    "runtime": "iOS 26.5",
+    "public_japanese_keys_matching": 946,
+    "public_japanese_keys_changed": 0,
+    "additional_keys": [
+      "settings.finger_drawing",
+      "settings.finger_drawing.description",
+      "attachment.transform"
+    ],
+    "developer_menu_visible": false,
+    "six_ids_recaptured": [
+      "UN35-018",
+      "UN35-019",
+      "UN35-020",
+      "UN35-042",
+      "UN35-046",
+      "UN35-052"
+    ],
+    "approved": false
+  },
+  "images": [
+    {
+      "id": "UN35-001",
+      "canonical_id": "UN35-001",
+      "previous_master": "N-M01",
+      "purpose": "ホームの完成状態",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-001.png",
+      "web_file": "images/guides/uni-note/un35/un35-001-home-overview-ja.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "e2255b164e4b0103659babb3ffafc09a80161f5d1385e760dcca324a0b7f9a7b",
+      "web_sha256": "196ed85cf6ff3505b226924f05eff3032ba23af700dfd01c4ebeb6d6579aeddd",
+      "placements": [
+        "start-screens--n-m01",
+        "library-subjects--n-m01"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-002",
+      "canonical_id": "UN35-002",
+      "previous_master": "N-M02",
+      "purpose": "ホームの追加メニュー",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-002.png",
+      "web_file": "images/guides/uni-note/un35/un35-002-home-add-menu-ja.png",
+      "crop": [
+        1740,
+        1430,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "d50ec0ffd7f0f6a809c3772ae5a7119b917e165369bc1a4733244b6f66e70e6e",
+      "web_sha256": "32eddf77d4eefb25f661f791320e7655e28a7ad419110edded1afffcecd43e9f",
+      "placements": [
+        "start-first-note--n-m02"
+      ],
+      "localized_placements": [
+        {
+          "id": "UN35-002",
+          "language": "en",
+          "source": "content/htu/uni-note.en.md"
+        },
+        {
+          "id": "UN35-002",
+          "language": "ko",
+          "source": "content/htu/uni-note.ko.md"
+        },
+        {
+          "id": "UN35-002",
+          "language": "de",
+          "source": "content/htu/uni-note.de.md"
+        },
+        {
+          "id": "UN35-002",
+          "language": "zh-hant",
+          "source": "content/htu/uni-note.zh-hant.md"
+        },
+        {
+          "id": "UN35-002",
+          "language": "fr",
+          "source": "content/htu/uni-note.fr.md"
+        }
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-003",
+      "canonical_id": "UN35-003",
+      "previous_master": "N-M04",
+      "purpose": "教科の長押しメニュー",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-003.png",
+      "web_file": "images/guides/uni-note/un35/un35-003-subject-menu-ja.png",
+      "crop": [
+        860,
+        860,
+        1920,
+        1460
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "364debf742d456e13e1dd4ebaae40897d6f59dd0a653eae3f5d9c87694d37881",
+      "placements": [
+        "library-subjects--n-m04"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-004",
+      "canonical_id": "UN35-004",
+      "previous_master": "N-M05",
+      "purpose": "教科内のノート一覧",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-004.png",
+      "web_file": "images/guides/uni-note/un35/un35-004-note-list-ja.png",
+      "crop": [
+        690,
+        640,
+        2070,
+        1460
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "d4e9d1383020f47a59bd047c5cc895b32239ed670cfbe7cbcdda57a8879273a2",
+      "placements": [
+        "start-screens--n-m05",
+        "notebooks-manage--n-m05"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-005",
+      "canonical_id": "UN35-005",
+      "previous_master": "N-M06",
+      "purpose": "ノート行のスワイプメニュー",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-005.png",
+      "web_file": "images/guides/uni-note/un35/un35-005-note-swipe-menu-ja.png",
+      "crop": [
+        720,
+        670,
+        2040,
+        1430
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "43b83b82ffb42276dffefd0227ec9040ceb405ca0783f100f9d9896513d5b28e",
+      "placements": [
+        "notebooks-manage--n-m06",
+        "data-protect--n-m06"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-006",
+      "canonical_id": "UN35-006",
+      "previous_master": "N-M07",
+      "purpose": "ノート一覧の並べ替え途中",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-006.png",
+      "web_file": "images/guides/uni-note/un35/un35-006-note-reorder-common.png",
+      "crop": [
+        720,
+        670,
+        2040,
+        1430
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "0d5cddc285551843b491f69c5fe6705323a19f962a0be1fb87a984b3bb5445dd",
+      "placements": [
+        "notebooks-manage--n-m07"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-007",
+      "canonical_id": "UN35-007",
+      "previous_master": "N-M08",
+      "purpose": "本棚カードの並べ替え途中",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-007.png",
+      "web_file": "images/guides/uni-note/un35/un35-007-subject-reorder-common.png",
+      "crop": [
+        0,
+        300,
+        2100,
+        1660
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "fc0207d5f93410a4df706a79e41d52140ca609f507c066d418dc236b55ca5b1c",
+      "placements": [
+        "library-subjects--n-m08"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-008",
+      "canonical_id": "UN35-008",
+      "previous_master": "N-M09",
+      "purpose": "タイトル検索結果",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-008.png",
+      "web_file": "images/guides/uni-note/un35/un35-008-note-search-results-ja.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        690
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "8c358287bac582764806da491f9e77448c0646af41fc743d149ae6f7edb7a1a4",
+      "web_sha256": "05fd7ba43d187dc685bcae590e8a159f8ac32c780c383e7d0026d1b970063a2a",
+      "placements": [
+        "library-search--n-m09"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-009",
+      "canonical_id": "UN35-009",
+      "previous_master": "N-M11",
+      "purpose": "教科をフォルダへ入れる途中",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-009.png",
+      "web_file": "images/guides/uni-note/un35/un35-009-subject-drag-folder-common.png",
+      "crop": [
+        0,
+        300,
+        2100,
+        1660
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "3c1acd84f8a32813787b9ddef9d3b26d00697876b6984f30ea260b4f335f851a",
+      "placements": [
+        "library-folders--n-m11"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-010",
+      "canonical_id": "UN35-010",
+      "previous_master": "N-M12",
+      "purpose": "フォルダ内一覧",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-010.png",
+      "web_file": "images/guides/uni-note/un35/un35-010-folder-contents-ja.png",
+      "crop": [
+        725,
+        350,
+        2040,
+        1740
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "df3b196a12076e2f4a78a5f2b8be6688cbc91dba8db63c3d16ef73fed033b47f",
+      "web_sha256": "ad1b24aeeef938dde53c597f55d626a136a1ab79de7617f18519655dd282c122",
+      "placements": [
+        "library-folders--n-m12"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-011",
+      "canonical_id": "UN35-011",
+      "previous_master": "N-M14",
+      "purpose": "フォルダの長押しメニュー",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-011.png",
+      "web_file": "images/guides/uni-note/un35/un35-011-folder-menu-ja.png",
+      "crop": [
+        0,
+        850,
+        1090,
+        1490
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "3c882e9c3d3354ff935630790a619999edfb9aefa5bd92b5731f9158ea7c5bc5",
+      "placements": [
+        "library-folders--n-m14"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-012",
+      "canonical_id": "UN35-012",
+      "previous_master": "N-M18",
+      "purpose": "フォルダから本棚へ戻すドラッグ",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-012.png",
+      "web_file": "images/guides/uni-note/un35/un35-012-folder-return-drag-ja.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "6f3360f64062b7c9c4d813bc181b39e374547da64349f6145c01a5345af49d9c",
+      "placements": [
+        "library-folders--n-m18"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-013",
+      "canonical_id": "UN35-013",
+      "previous_master": "N-M19",
+      "purpose": "縦ノート教科の作成フォーム",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-013.png",
+      "web_file": "images/guides/uni-note/un35/un35-013-vertical-subject-form-ja.png",
+      "crop": [
+        740,
+        330,
+        2030,
+        1730
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "ad5e60a78718948050973334aa0f0043e200441c9f7aebc43e4a062778232960",
+      "web_sha256": "b3a43b329f6eda3a6bb54903ab872e95d8478ddef4a3a9322536ce153acb60a6",
+      "placements": [
+        "notebooks-vertical--n-m19"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-014",
+      "canonical_id": "UN35-014",
+      "previous_master": "N-M20",
+      "purpose": "教科削除の確認",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-014.png",
+      "web_file": "images/guides/uni-note/un35/un35-014-subject-delete-confirm-ja.png",
+      "crop": [
+        850,
+        800,
+        2740,
+        1300
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "2e873a80d808ada21ca79cee906a3e1c399b1dfde088698fd0bc113ae36be509",
+      "placements": [
+        "library-subjects--n-m20"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-015",
+      "canonical_id": "UN35-015",
+      "previous_master": "N-M31",
+      "purpose": "通常ノートのページ境界",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-015.png",
+      "web_file": "images/guides/uni-note/un35/un35-015-page-boundary-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "bf7db37d2e08c8ca8440c52ee2aa761e44d2eed0611e89921c187cd9c722291b",
+      "placements": [
+        "notebooks-pages--n-m31"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-016",
+      "canonical_id": "UN35-016",
+      "previous_master": "N-M33",
+      "purpose": "ページ一覧の静止状態",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-016.png",
+      "web_file": "images/guides/uni-note/un35/un35-016-page-list-common.png",
+      "crop": [
+        420,
+        65,
+        2330,
+        780
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "a873a73ac46c15c9561d7b2f27b00998b5ab9cf1b4b9a1da3851bde10bdb3a75",
+      "placements": [
+        "notebooks-pages--n-m33"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-017",
+      "canonical_id": "UN35-017",
+      "previous_master": "N-M35",
+      "purpose": "ページの削除メニュー",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-017.png",
+      "web_file": "images/guides/uni-note/un35/un35-017-page-delete-menu-ja.png",
+      "crop": [
+        420,
+        65,
+        2330,
+        850
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "0e2a73dbf5fb556fe4819e94d31d1bb532f29a9400de690ea889be224356af25",
+      "placements": [
+        "notebooks-pages--n-m35"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-018",
+      "canonical_id": "UN35-018",
+      "previous_master": "N-M37",
+      "purpose": "ペンの詳細パネル",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-018.png",
+      "web_file": "images/guides/uni-note/un35/un35-018-pen-panel-ja.png",
+      "crop": [
+        1300,
+        90,
+        2250,
+        730
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "sha256": "3400854fec48a6c9aa5c948ced1c59511be98f4fcca5209eb8067e0c42a63f97",
+      "pixel_dimensions": [
+        2752,
+        2064
+      ],
+      "previous_candidate": "docs/uni-note-guide-phase2/capture-execution/raw/UN35-018.png",
+      "original_sha256": "d8b0a9c874ac8e2b9d8ea8c4ab4ec57abc52e7815ebfa885c644bf7d356a0b4d",
+      "web_sha256": "5e0b14a36f4b774f8f56fe47e37a2438af3cc37c9940698ae30ca7edaaa253f0",
+      "placements": [
+        "writing-pens--n-m37"
+      ],
+      "localized_placements": [
+        {
+          "id": "UN35-018",
+          "language": "en",
+          "source": "content/htu/uni-note.en.md"
+        },
+        {
+          "id": "UN35-018",
+          "language": "ko",
+          "source": "content/htu/uni-note.ko.md"
+        },
+        {
+          "id": "UN35-018",
+          "language": "de",
+          "source": "content/htu/uni-note.de.md"
+        },
+        {
+          "id": "UN35-018",
+          "language": "zh-hant",
+          "source": "content/htu/uni-note.zh-hant.md"
+        },
+        {
+          "id": "UN35-018",
+          "language": "fr",
+          "source": "content/htu/uni-note.fr.md"
+        }
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-019",
+      "canonical_id": "UN35-019",
+      "previous_master": "N-M40",
+      "purpose": "蛍光ペンの詳細パネル",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-019.png",
+      "web_file": "images/guides/uni-note/un35/un35-019-highlighter-panel-ja.png",
+      "crop": [
+        1300,
+        90,
+        2250,
+        800
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "sha256": "f78ebda49321f664ffd4eb201feb1d2dec337d6e655b6fe074a35dd9dda7fdba",
+      "pixel_dimensions": [
+        2752,
+        2064
+      ],
+      "previous_candidate": "docs/uni-note-guide-phase2/capture-execution/raw/UN35-019.png",
+      "original_sha256": "ea3bbfb4597ccf46796a564986be0ed89340076d74747c836eb1ce5c816373f8",
+      "web_sha256": "0437199ff8bbf8bfff79815f29982318bc791e6b516ebfb9e90a3f9c883de29f",
+      "placements": [
+        "writing-pens--n-m40"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-020",
+      "canonical_id": "UN35-020",
+      "previous_master": "N-M41",
+      "purpose": "消しゴムの詳細パネル",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-020.png",
+      "web_file": "images/guides/uni-note/un35/un35-020-eraser-panel-ja.png",
+      "crop": [
+        1300,
+        90,
+        2250,
+        720
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "sha256": "d761496a5bbaa1630a7deeef30f55d59b7d16741144e5b9842a671cc570c5d6f",
+      "pixel_dimensions": [
+        2752,
+        2064
+      ],
+      "previous_candidate": "docs/uni-note-guide-phase2/capture-execution/raw/UN35-020.png",
+      "original_sha256": "40814d0dc08ee4c9ebdd098761094e03c21658a89bd445e8472ae1692f384beb",
+      "web_sha256": "17c9f9bbc11968a1e17a258ffbab4b7b3274a32eb7213d3d1659ab5fe66777d7",
+      "placements": [
+        "writing-erasing--n-m41"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-021",
+      "canonical_id": "UN35-021",
+      "previous_master": "N-M42",
+      "purpose": "線消しと部分消去の結果比較",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-021.png",
+      "web_file": "images/guides/uni-note/un35/un35-021-eraser-comparison-common.png",
+      "crop": [
+        0,
+        0,
+        2500,
+        1400
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "7770c52b79ce8966e2c850475fff80b191b237a07435621a8bc2dfa3e39768cf",
+      "placements": [
+        "writing-erasing--n-m42"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-022",
+      "canonical_id": "UN35-022",
+      "previous_master": "N-M45",
+      "purpose": "移動したパレット",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-022.png",
+      "web_file": "images/guides/uni-note/un35/un35-022-palette-left-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "61241a2e94c4604f44a34f328bc0c2cf18f2935a35108b575fc694fdd24e97eb",
+      "placements": [
+        "writing-palette--n-m45"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-023",
+      "canonical_id": "UN35-023",
+      "previous_master": "N-M47",
+      "purpose": "収納中のパレット",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-023.png",
+      "web_file": "images/guides/uni-note/un35/un35-023-palette-collapsed-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "1a532ce23033d2fb7417f2a271a2853266c138f423f41e5025e723db15a33357",
+      "placements": [
+        "writing-palette--n-m47"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-024",
+      "canonical_id": "UN35-024",
+      "previous_master": "N-M49",
+      "purpose": "定規の位置と角度",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-024.png",
+      "web_file": "images/guides/uni-note/un35/un35-024-ruler-active-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "e337119a2b0902136637a647a64e9d2e3de65c2ed824ff5a9ed44cc730580445",
+      "placements": [
+        "writing-ruler--n-m49"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-025",
+      "canonical_id": "UN35-025",
+      "previous_master": "N-M50",
+      "purpose": "手書き範囲の選択状態",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-025.png",
+      "web_file": "images/guides/uni-note/un35/un35-025-handwriting-selection-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "07314f4ad1bbfcde60ad8f19663bb0ebb10f8bade62f4994767568ed6b088aa1",
+      "placements": [
+        "writing-move--n-m50"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-026",
+      "canonical_id": "UN35-026",
+      "previous_master": "N-M51",
+      "purpose": "手書きの配置を整えた 完成",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-026.png",
+      "web_file": "images/guides/uni-note/un35/un35-026-handwriting-moved-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "dd937e017513adc28e5fe52eeaace4ff8e17035c0cb7667de825cabe82294d4b",
+      "placements": [
+        "writing-move--n-m51"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-027",
+      "canonical_id": "UN35-087",
+      "previous_master": "N-M56",
+      "purpose": "公開3.5.0パレット配置設定（UN35-087参照）",
+      "status": "alias",
+      "original_file": null,
+      "web_file": "images/guides/uni-note/un35/un35-087-palette-configuration-ja.png",
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "UN35-087を参照。物理原本を追加しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "確定台帳の状態を実操作で再現し、原本・crop・本文の一致を検証する。",
+      "previous_candidate": null,
+      "classification": "参照エイリアス（物理原本集計外）"
+    },
+    {
+      "id": "UN35-028",
+      "canonical_id": "UN35-028",
+      "previous_master": "N-M58",
+      "purpose": "ノートを表示しながら開くノート一覧",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-028.png",
+      "web_file": "images/guides/uni-note/un35/un35-028-note-list-pane-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "410696a8aef539e0ff61e94e2da0d776d1a6c2ec346669dfbb4f46c2bb90fed4",
+      "placements": [
+        "notebooks-manage--n-m58"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-029",
+      "canonical_id": "UN35-029",
+      "previous_master": "M-M03",
+      "purpose": "書類写真の四隅補正",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-029.png",
+      "web_file": "images/guides/uni-note/un35/un35-029-document-crop-ja.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "333134344359e7fa460c8af5546a144c64f40747a12675eb9edbb349986ff89b",
+      "placements": [
+        "materials-photos--m-m03"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-030",
+      "canonical_id": "UN35-030",
+      "previous_master": "M-M07",
+      "purpose": "PDF複数ページの選択",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-030.png",
+      "web_file": "images/guides/uni-note/un35/un35-030-pdf-page-selection-ja.png",
+      "crop": [
+        740,
+        330,
+        2030,
+        1730
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "0d5dcabc66574458d173642d9328dc909cdc6397f8b419bffd8e1963ab257a2a",
+      "placements": [
+        "materials-pdf--m-m07"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-031",
+      "canonical_id": "UN35-031",
+      "previous_master": "M-M08",
+      "purpose": "見開きPDF分割ON",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-031.png",
+      "web_file": "images/guides/uni-note/un35/un35-031-pdf-split-toggle-ja.png",
+      "crop": [
+        740,
+        330,
+        2030,
+        1730
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "0f9799c1627f417fe4b0294e7c689c11b6686d6ceb6b21c01bdf05c854fbc5ed",
+      "web_sha256": "02eb7b467ed9c5e82e76f88a90fcdc6621d3f3a8fc5cb87d331373d45ce8e741",
+      "placements": [
+        "materials-pdf--m-m08",
+        "workflows-split-spread--m-m08"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-032",
+      "canonical_id": "UN35-032",
+      "previous_master": "M-M09",
+      "purpose": "分割PDFの左半分・注釈後",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-032.png",
+      "web_file": "images/guides/uni-note/un35/un35-032-split-pdf-left-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "ffc2e790b188c8563373a4df6fa445e4ca69deaf248761316da4ce0dd5349367",
+      "placements": [
+        "materials-pdf--m-m09",
+        "workflows-split-spread--m-m09"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-033",
+      "canonical_id": "UN35-033",
+      "previous_master": "M-M09R",
+      "purpose": "分割PDFの右半分・注釈後",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-033.png",
+      "web_file": "images/guides/uni-note/un35/un35-033-split-pdf-right-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "61c029ce61e0148cebd1561be563c2ffd1d5fcd1076888162a0e22661572f96b",
+      "placements": [
+        "materials-pdf--m-m09r",
+        "workflows-split-spread--m-m09r"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-034",
+      "canonical_id": "UN35-034",
+      "previous_master": "M-M10",
+      "purpose": "通常ノートのPDF初期配置",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-034.png",
+      "web_file": "images/guides/uni-note/un35/un35-034-pdf-initial-position-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "84d50ceaec525d477efed81b5ee6bf6eeb7f1e203e60c26b61ed453373f1deb8",
+      "web_sha256": "12271c53c70ed9937014e00c5224d3a5d02d855d5b9d916697175c8484cfd24c",
+      "placements": [
+        "materials-pdf--m-m10"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-035",
+      "canonical_id": "UN35-035",
+      "previous_master": "M-M11",
+      "purpose": "PDF固定解除・選択中",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-035.png",
+      "web_file": "images/guides/uni-note/un35/un35-035-pdf-unlocked-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "b990f575c5463f921f9c71686d6ca846220ff19626ba515d38dae06f7a8fbb44",
+      "placements": [
+        "materials-arrange--m-m11"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-036",
+      "canonical_id": "UN35-036",
+      "previous_master": "M-M13",
+      "purpose": "PDFサイズを変更した結果",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-036.png",
+      "web_file": "images/guides/uni-note/un35/un35-036-pdf-resized-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "093d531c60396c51c32397c0123fc12c546f5348c84db32b25683f740ed22bc1",
+      "placements": [
+        "materials-arrange--m-m13"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-037",
+      "canonical_id": "UN35-037",
+      "previous_master": "M-M14",
+      "purpose": "資料の横に手書き余白を残した完成ノート",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-037.png",
+      "web_file": "images/guides/uni-note/un35/un35-037-material-margin-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "fa06408375033dbce9690e7956605a5f158b57973a0b178f6befd11b5190abb3",
+      "placements": [
+        "start-screens--m-m14",
+        "workflows-material-margin--m-m14"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-038",
+      "canonical_id": "UN35-038",
+      "previous_master": "M-M18",
+      "purpose": "縦ノートに大きなPDFと手書き注釈",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-038.png",
+      "web_file": "images/guides/uni-note/un35/un35-038-vertical-pdf-annotated-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "1592314aa9baf82d3efda5162cc4157592a600e015051f9d2a4d7f8be7a1cb5e",
+      "placements": [
+        "notebooks-vertical--m-m18",
+        "materials-vertical--m-m18",
+        "workflows-vertical-annotate--m-m18"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-039",
+      "canonical_id": "UN35-039",
+      "previous_master": "M-M19",
+      "purpose": "縦ノートへ普通の写真を貼った初期状態",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-039.png",
+      "web_file": "images/guides/uni-note/un35/un35-039-photo-initial-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "c59b67f5945a9448df7bb8d15c0e089da391e38b683ec172db3b921acf680717",
+      "placements": [
+        "materials-photos--m-m19"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-040",
+      "canonical_id": "UN35-040",
+      "previous_master": "M-M20",
+      "purpose": "縦ノートで普通の写真を拡大した選択状態",
+      "status": "recapture-required",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-040.png",
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "写真を拡大した実画面は取得済みだが、最終台帳が求める選択枠のある状態ではなく固定後だった。再起動・ページ再選択・ダブルタップでも選択枠を確認できなかったため、その原本は採用しない。",
+      "preparation": "縦ノート・自作資料JPEG・実ピンチ拡大・固定後の候補画像まで準備済み。",
+      "completion_conditions": "写真が選択中である枠・ハンドルを実画面で確認して再撮影。写真の拡大自体はSimulatorで成功しており実機必須ではない。",
+      "previous_candidate": null,
+      "classification": "再撮影待ち",
+      "original_sha256": "0d64c38521b897dbd94cd96bf3a963a5439420bd828733bc0e3a61497d1b9c44"
+    },
+    {
+      "id": "UN35-041",
+      "canonical_id": "UN35-041",
+      "previous_master": "M-M21",
+      "purpose": "PDF出力範囲の選択",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-041.png",
+      "web_file": "images/guides/uni-note/un35/un35-041-pdf-export-range-ja.png",
+      "crop": [
+        780,
+        610,
+        2040,
+        1370
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "f6b1a2da046643d10fafb82e61c8f4bdaaf0422568397747f67f61f1c39c0ee8",
+      "web_sha256": "c09c4c129db575be38514b209eb0fa4dd8c23364985115641369a77bdc4a0b31",
+      "placements": [
+        "materials-export--m-m21"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-042",
+      "canonical_id": "UN35-042",
+      "previous_master": "M-M23",
+      "purpose": "録音開始前パネル",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-042.png",
+      "web_file": "images/guides/uni-note/un35/un35-042-recording-ready-ja.png",
+      "crop": [
+        0,
+        0,
+        880,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "sha256": "3aa383ed0927ef79162a48e41e236640b6958be7fb04762d286e3369a66933d9",
+      "pixel_dimensions": [
+        2752,
+        2064
+      ],
+      "previous_candidate": "docs/uni-note-guide-phase2/capture-execution/raw/UN35-042.png",
+      "original_sha256": "b9825e24ac20ce1b6f1fdc8744a07ad685ee7c326ae27ce0602d4ecb3be256b0",
+      "web_sha256": "d6eb4ede4638b6da4b10d1b9b8fad3ac5694b3d6460c6f3822f650d081aec5f5",
+      "placements": [
+        "recording-capture--m-m23"
+      ],
+      "localized_placements": [
+        {
+          "id": "UN35-042",
+          "language": "en",
+          "source": "content/htu/uni-note.en.md"
+        },
+        {
+          "id": "UN35-042",
+          "language": "ko",
+          "source": "content/htu/uni-note.ko.md"
+        },
+        {
+          "id": "UN35-042",
+          "language": "de",
+          "source": "content/htu/uni-note.de.md"
+        },
+        {
+          "id": "UN35-042",
+          "language": "zh-hant",
+          "source": "content/htu/uni-note.zh-hant.md"
+        },
+        {
+          "id": "UN35-042",
+          "language": "fr",
+          "source": "content/htu/uni-note.fr.md"
+        }
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-043",
+      "canonical_id": "UN35-043",
+      "previous_master": "M-M24",
+      "purpose": "録音中・文字起こし中パネル",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "音声認識権限許可後も撮影用Simulatorで文字起こし利用不可。録音を開始・停止すると音声なしとなり、有効な録音中の認識内容を取得できない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "有効な音声入力とSpeech認識を利用できる録音環境。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-044",
+      "canonical_id": "UN35-044",
+      "previous_master": "M-M26",
+      "purpose": "保存済み録音の展開行",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "録音停止後に音声なしとなり、実際に再生できる保存済み録音を作成できない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "正常に録音保存できる入力環境。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-045",
+      "canonical_id": "UN35-045",
+      "previous_master": "M-M28",
+      "purpose": "保存録音の再生と文字起こし追従",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "保存可能な録音も時刻付き文字起こしも得られず、再生・追従の実結果を撮れない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "有効な録音・文字起こしを保存し再生できる環境。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-046",
+      "canonical_id": "UN35-046",
+      "previous_master": "M-M29",
+      "purpose": "文字起こし言語一覧",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-046.png",
+      "web_file": "images/guides/uni-note/un35/un35-046-transcription-language-ja.png",
+      "crop": [
+        640,
+        600,
+        1500,
+        1660
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "sha256": "928cffd1fca9f53646769776b0aaf9b2cef119ef601bc0f576a4e6d534cabbda",
+      "pixel_dimensions": [
+        2752,
+        2064
+      ],
+      "previous_candidate": "docs/uni-note-guide-phase2/capture-execution/raw/UN35-046.png",
+      "original_sha256": "8b680a9cce062e5d1f6bce884c0bc56fa9547413866abac249d59f9070c0e41b",
+      "web_sha256": "2a3ef65fc52efa6236e4487836331282f1ad8df79289f537ffeca6c823d7b87b",
+      "placements": [
+        "recording-transcribe--m-m29"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-047",
+      "canonical_id": "UN35-047",
+      "previous_master": "M-M30",
+      "purpose": "講義録音・文字起こしと手書きの全体像",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "通常筆跡は作成済み。録音と文字起こしが取得できないため、両者を含む完成状態は成立しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "録音と文字起こしの正常実行。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-048",
+      "canonical_id": "UN35-048",
+      "previous_master": "M-M31",
+      "purpose": "AI要約の対象・用途・消費量確認",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "要約対象にできる有効な録音・文字起こしがない。AI endpointも未設定である。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "有効な講義録音・文字起こしと承認済みAI接続・利用条件。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-049",
+      "canonical_id": "UN35-049",
+      "previous_master": "M-M32",
+      "purpose": "生成されたAI要約結果",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "入力となる講義文字起こしが取得できず、AI endpoint未設定。実AI要約結果を得られない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "実録音の文字起こしを実AIで要約できる接続環境。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-050",
+      "canonical_id": "UN35-050",
+      "previous_master": "M-M33",
+      "purpose": "保存済み要約の再表示",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "実AI要約が生成されておらず、保存済み要約を再表示できない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "実AI要約の生成・保存完了。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-051",
+      "canonical_id": "UN35-051",
+      "previous_master": "M-M35",
+      "purpose": "AI要約をノートへ貼って復習した完成例",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "ノートと手書きは準備済み。実AI要約がないため、貼り付け済み完成形を作れない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "実録音由来のAI要約の生成・保存・貼付成功。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-052",
+      "canonical_id": "UN35-052",
+      "previous_master": "M-M37",
+      "purpose": "付箋マーカーの設定パネル",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-052.png",
+      "web_file": "images/guides/uni-note/un35/un35-052-sticky-panel-common.png",
+      "crop": [
+        1320,
+        90,
+        2260,
+        730
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "sha256": "2357bc006897815d8b705f43d8c33c753b7d5debcee8a2276e282aff462d0811",
+      "pixel_dimensions": [
+        2752,
+        2064
+      ],
+      "previous_candidate": "docs/uni-note-guide-phase2/capture-execution/raw/UN35-052.png",
+      "original_sha256": "d8255320287856f654d7419d1e76ea35fe0fb091783e7e3393bab683960018de",
+      "web_sha256": "5f6292e3449a10bd157c77b16708674682236c801bba9fd293f6822bfd3ed045",
+      "placements": [
+        "study-sticky--m-m37"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-053",
+      "canonical_id": "UN35-053",
+      "previous_master": "M-M38",
+      "purpose": "PDF教材を付箋で隠した暗記の完成例",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-053.png",
+      "web_file": "images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "fb4da778c52d428a576ae775e3642d2d9a446223ef11cef79930d0090a1ee202",
+      "placements": [
+        "study-sticky--m-m38",
+        "workflows-sticky-material--m-m38"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-054",
+      "canonical_id": "UN35-054",
+      "previous_master": "M-M39",
+      "purpose": "付箋の一部を透過して答え合わせ",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-054.png",
+      "web_file": "images/guides/uni-note/un35/un35-054-sticky-reveal-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "af76749cd2b4e74e337f981b827535197a15919522506e93ff3bea725e95d40a",
+      "placements": [
+        "study-sticky--m-m39",
+        "workflows-sticky-material--m-m39"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-055",
+      "canonical_id": "UN35-055",
+      "previous_master": "M-M42",
+      "purpose": "ポモドーロ開始前の設定",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-055.png",
+      "web_file": "images/guides/uni-note/un35/un35-055-pomodoro-setup-ja.png",
+      "crop": [
+        1840,
+        0,
+        2752,
+        1350
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "0dedcced680ae159b8ae804d13f538617430ccf1fff00da4a042f5a10bc9572f",
+      "web_sha256": "f95110f132b5998cf45d90e30af62244d551e16fb7eb55ab636dfcc18ff743cf",
+      "placements": [
+        "study-pomodoro--m-m42"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-056",
+      "canonical_id": "UN35-056",
+      "previous_master": "M-M43",
+      "purpose": "ポモドーロを使いながら筆記した完成例",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-056.png",
+      "web_file": "images/guides/uni-note/un35/un35-056-pomodoro-writing-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "4d30008e5f04a033abd9ce73bd1d6f5da9766b8b8261f1380c5a4f4c88262ab3",
+      "placements": [
+        "study-pomodoro--m-m43",
+        "workflows-focus--m-m43"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-057",
+      "canonical_id": "UN35-057",
+      "previous_master": "M-M44",
+      "purpose": "ポモドーロ実行中の停止操作",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-057.png",
+      "web_file": "images/guides/uni-note/un35/un35-057-pomodoro-stop-ja.png",
+      "crop": [
+        1840,
+        0,
+        2752,
+        1350
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "1b34fed2d21d0b142d70da4ecb5a5eae67b184413002de8e93152e7b462fbcf0",
+      "web_sha256": "4deb13ef3128d424d7563aa8218f52e3c2209ca0771694bacb93959996625c29",
+      "placements": [
+        "study-pomodoro--m-m44"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-058",
+      "canonical_id": "UN35-058",
+      "previous_master": "M-M48",
+      "purpose": "PDFをレーザーポインターで説明",
+      "status": "device-required",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "レーザーONでUI Testの直接タッチ・ドラッグを複数回試したがレーザー軌跡にならない。LaserPointerOverlayView.swiftの160・175・202行でpencil入力に限定。通常の指描画補助では代用できない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "対応実機とApple Pencilで実際のレーザー軌跡を取得。",
+      "previous_candidate": null,
+      "classification": "実機待ち"
+    },
+    {
+      "id": "UN35-059",
+      "canonical_id": "UN35-059",
+      "previous_master": "R-M01",
+      "purpose": "学習支援の共通設定全体",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-059.png",
+      "web_file": "images/guides/uni-note/un35/un35-059-learning-settings-ja.png",
+      "crop": [
+        0,
+        0,
+        2064,
+        1510
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "23905796feb7687037dec0daa6ff108e7b7630c9e766bc7229b504ca827cb763",
+      "web_sha256": "53cf0c069c33e2bd18f83eb4c418ce5489752573cbec348b364eeb4dd431ab42",
+      "placements": [
+        "ai-settings--r-m01",
+        "problem-sets-home--r-m01"
+      ],
+      "localized_placements": [],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-060",
+      "canonical_id": "UN35-060",
+      "previous_master": "R-M02",
+      "purpose": "PDFの演習を囲んだ状態",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-060.png",
+      "web_file": "images/guides/uni-note/un35/un35-060-answer-selection-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "cd7028cf9a116534b9626715669104e3e2c123e37cb3b82f858517585b9e378a",
+      "placements": [
+        "ai-answer--r-m02"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-061",
+      "canonical_id": "UN35-061",
+      "previous_master": "R-M03",
+      "purpose": "囲って解答の範囲確認",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-061.png",
+      "web_file": "images/guides/uni-note/un35/un35-061-answer-confirm-ja.png",
+      "crop": [
+        0,
+        840,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "81c8b348324575d6104fdeaa9a8be826f221f82431ddb351bbd71caf165b2029",
+      "placements": [
+        "ai-answer--r-m03"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-062",
+      "canonical_id": "UN35-062",
+      "previous_master": "R-M04",
+      "purpose": "解答結果・説明・コピー共有",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "対象問題の囲みと確認画面は撮影済み。AI接続先が空で実行できず、実際の解答結果を取得できない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "承認済みAI接続・残量を用意し実際に正しい解答を生成。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-063",
+      "canonical_id": "UN35-063",
+      "previous_master": "R-M05",
+      "purpose": "その他メニュー",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-063.png",
+      "web_file": "images/guides/uni-note/un35/un35-063-more-menu-ja.png",
+      "crop": [
+        2060,
+        0,
+        2752,
+        650
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "a048987dae9e51ada905844dede05ea5d8774537e066cb644fe27c719de50010",
+      "web_sha256": "4bb3063c866669e18a088de2881ef694e9655618ba55508c001b0837efbef834",
+      "placements": [
+        "materials-photos--r-m05",
+        "problem-sets-generate--r-m05"
+      ],
+      "localized_placements": [
+        {
+          "id": "UN35-063",
+          "language": "en",
+          "source": "content/htu/uni-note.en.md"
+        },
+        {
+          "id": "UN35-063",
+          "language": "ko",
+          "source": "content/htu/uni-note.ko.md"
+        },
+        {
+          "id": "UN35-063",
+          "language": "de",
+          "source": "content/htu/uni-note.de.md"
+        },
+        {
+          "id": "UN35-063",
+          "language": "zh-hant",
+          "source": "content/htu/uni-note.zh-hant.md"
+        },
+        {
+          "id": "UN35-063",
+          "language": "fr",
+          "source": "content/htu/uni-note.fr.md"
+        }
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-064",
+      "canonical_id": "UN35-064",
+      "previous_master": "R-M06",
+      "purpose": "問題集生成の実行確認",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-064.png",
+      "web_file": "images/guides/uni-note/un35/un35-064-quiz-generation-confirm-ja.png",
+      "crop": [
+        0,
+        380,
+        2752,
+        1350
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "a7e08ee4d9f25dcca8345e211164784cef5d0b09393f68c9f1a1633bcc2d67fb",
+      "placements": [
+        "problem-sets-generate--r-m06"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-065",
+      "canonical_id": "UN35-065",
+      "previous_master": "R-M07",
+      "purpose": "問題集の対象ページ選択",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-065.png",
+      "web_file": "images/guides/uni-note/un35/un35-065-quiz-page-selection-ja.png",
+      "crop": [
+        0,
+        380,
+        2752,
+        1500
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "1ee387b80566b3b5b1056a6faecda0f300ba6cca0d0ffeefba7225f55a0338d0",
+      "placements": [
+        "problem-sets-generate--r-m07"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-066",
+      "canonical_id": "UN35-066",
+      "previous_master": "R-M09",
+      "purpose": "AI問題の候補レビュー",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "問題集生成を実行したが「AI endpoint is not configured.」で失敗。候補レビューに進めない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "承認済みAI接続・残量で実問題候補を生成。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-067",
+      "canonical_id": "UN35-067",
+      "previous_master": "R-M10",
+      "purpose": "問題集の保存確認",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "AI生成が接続先未設定で失敗し、保存確認の対象となるAI問題がない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "実AI問題を生成して保存確認へ進む。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-068",
+      "canonical_id": "UN35-068",
+      "previous_master": "R-M11",
+      "purpose": "ホームの問題集一覧",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-068.png",
+      "web_file": "images/guides/uni-note/un35/un35-068-quiz-home-ja.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "252caf69e0558423de4c05230b69e530794f4c1faa3f95fe0262b9adbd29ca53",
+      "placements": [
+        "problem-sets-home--r-m11"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-069",
+      "canonical_id": "UN35-069",
+      "previous_master": "R-M13",
+      "purpose": "答えを隠した復習カード",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-069.png",
+      "web_file": "images/guides/uni-note/un35/un35-069-quiz-hidden-answer-ja.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        1550
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "dbf4028416a94a430b8a0741231b3e4ffa46f47ae4a6f8502b2c09306ba742bb",
+      "placements": [
+        "problem-sets-review--r-m13"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-070",
+      "canonical_id": "UN35-070",
+      "previous_master": "R-M14",
+      "purpose": "手修正後の解答を表示した復習",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-070.png",
+      "web_file": "images/guides/uni-note/un35/un35-070-quiz-revealed-answer-ja.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        1550
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "94075dad120cdd9974047bc98ddad98fd23f8aa1a0d630a158e6a8923c109632",
+      "placements": [
+        "problem-sets-review--r-m14"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-071",
+      "canonical_id": "UN35-071",
+      "previous_master": "R-M15",
+      "purpose": "手動問題集の入力",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-071.png",
+      "web_file": "images/guides/uni-note/un35/un35-071-quiz-manual-entry-ja.png",
+      "crop": [
+        740,
+        320,
+        2020,
+        1720
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "ce4a6f49a48ace3a5d472db05bb779ac9eeb627a6217686ac3cadb9126f0ad17",
+      "placements": [
+        "problem-sets-edit--r-m15"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-072",
+      "canonical_id": "UN35-072",
+      "previous_master": "R-M16",
+      "purpose": "問題集カード長押しメニュー",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-072.png",
+      "web_file": "images/guides/uni-note/un35/un35-072-quiz-card-menu-ja.png",
+      "crop": [
+        0,
+        350,
+        1600,
+        1450
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "c21e96fe11ca0115554543ef1a77439b1d8becf4d32bcbf3a261dc02a25ab70c",
+      "placements": [
+        "problem-sets-edit--r-m16"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-073",
+      "canonical_id": "UN35-073",
+      "previous_master": "R-M17",
+      "purpose": "既存AI問題集の手修正",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "手動問題集の編集・復習は取得済みだが、AI生成が失敗しAI問題集は未取得。手動問題集をAI由来と偽って代用しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "実AI生成問題集を保存したうえで手修正する。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-074",
+      "canonical_id": "UN35-074",
+      "previous_master": "R-M18",
+      "purpose": "問題の追加と削除の編集下部",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-074.png",
+      "web_file": "images/guides/uni-note/un35/un35-074-quiz-add-delete-ja.png",
+      "crop": [
+        740,
+        330,
+        2030,
+        1730
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "40228f865316d2a129372670adfabc13238a28b4e53f4cf8be0673fdd89e7413",
+      "placements": [
+        "problem-sets-edit--r-m18"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-075",
+      "canonical_id": "UN35-075",
+      "previous_master": "R-M25",
+      "purpose": "左資料・右別ノートの完成形",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-075.png",
+      "web_file": "images/guides/uni-note/un35/un35-075-two-uninote-windows-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "4b346c5d28a3df32242c1cfb66d1456393304438167bd60baadf6dc5df3e79da",
+      "placements": [
+        "ipados-windows--r-m25",
+        "workflows-two-notes--r-m25"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-076",
+      "canonical_id": "UN35-076",
+      "previous_master": "R-M27",
+      "purpose": "外部資料とUni:Noteの完成形",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-076.png",
+      "web_file": "images/guides/uni-note/un35/un35-076-external-pdf-and-note-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "ed3eb715258bfa9615aa1b9eea64f821e4cf5e1adab3dce98ab96f34cd94ed50",
+      "placements": [
+        "workflows-external-material--r-m27"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-077",
+      "canonical_id": "UN35-077",
+      "previous_master": "R-M28",
+      "purpose": "PiP動画と筆記の完成形",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-077.png",
+      "web_file": "images/guides/uni-note/un35/un35-077-pip-note-common.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        2064
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "c355664047ce3a6ef030fa7ded3116fc781738f55f68d672a55cc7550fe6eae2",
+      "placements": [
+        "workflows-pip--r-m28"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-078",
+      "canonical_id": "UN35-078",
+      "previous_master": "S-M08",
+      "purpose": "バックアップ方式と録音対象の全体",
+      "status": "external-environment-wait",
+      "original_file": null,
+      "web_file": null,
+      "crop": null,
+      "actual_capture_version": null,
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "撮影用SimulatorはiCloud未接続。更新済みかんたんバックアップの正しい状態を用意できない。FilesのZIP保存・復元選択は079・080で取得済み。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "撮影専用の正規iCloud環境でバックアップ状態を確認。",
+      "previous_candidate": null,
+      "classification": "外部環境／サービス待ち"
+    },
+    {
+      "id": "UN35-079",
+      "canonical_id": "UN35-079",
+      "previous_master": "S-M10",
+      "purpose": "バックアップZIPの保存先",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-079.png",
+      "web_file": "images/guides/uni-note/un35/un35-079-backup-save-files-ja.png",
+      "crop": [
+        200,
+        690,
+        1870,
+        2110
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "a56db9880bd5db921d97f440cb4a4d44b7356d676d45c04e0744dce364bfd1e9",
+      "placements": [
+        "backup-save--s-m10"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-080",
+      "canonical_id": "UN35-080",
+      "previous_master": "S-M11",
+      "purpose": "バックアップZIPを選んで復元",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-080.png",
+      "web_file": "images/guides/uni-note/un35/un35-080-backup-restore-files-ja.png",
+      "crop": [
+        200,
+        690,
+        1870,
+        2110
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "b1e71df47c2f689afa8c5a9416c093c478aba201c04648c98e2afff3d7d5569a",
+      "placements": [
+        "backup-restore--s-m11"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-081",
+      "canonical_id": "UN35-081",
+      "previous_master": "S-M14",
+      "purpose": "ノートの保護解除スワイプ",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-081.png",
+      "web_file": "images/guides/uni-note/un35/un35-081-note-unprotect-ja.png",
+      "crop": [
+        720,
+        670,
+        2040,
+        1430
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "17550ad0b892c5a84dd729a6856bf794dd0f3acdee2650ad425e7853e048e6b0",
+      "placements": [
+        "data-protect--s-m14"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-082",
+      "canonical_id": "UN35-082",
+      "previous_master": "S-M15",
+      "purpose": "ゴミ箱で教科・個別ノートを見分ける",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-082.png",
+      "web_file": "images/guides/uni-note/un35/un35-082-trash-overview-ja.png",
+      "crop": [
+        0,
+        0,
+        2752,
+        650
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "a9499c0e129943d7b1e3271a800f97cae1f0220e05de64122215e22c0b42348d",
+      "placements": [
+        "data-trash--s-m15"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-083",
+      "canonical_id": "UN35-083",
+      "previous_master": "C-M01",
+      "purpose": "設定トップ",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-083.png",
+      "web_file": "images/guides/uni-note/un35/un35-083-settings-home-ja.png",
+      "crop": [
+        0,
+        1100,
+        2064,
+        2240
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "90e3a8c109ce105a40306e180ae40ee919b5457adea31fd210e9aa6ad15547a2",
+      "placements": [
+        "customize-settings--s-m01"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-084",
+      "canonical_id": "UN35-084",
+      "previous_master": "C-M02",
+      "purpose": "ノート設定",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-084.png",
+      "web_file": "images/guides/uni-note/un35/un35-084-notebook-settings-ja.png",
+      "crop": [
+        0,
+        0,
+        2064,
+        2110
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "ad24805dbe0de1d31b2631cf22c4e2fc432ef055ef2c347c5a5ed76e50acfe7a",
+      "placements": [
+        "customize-paper--c-m02"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-085",
+      "canonical_id": "UN35-085",
+      "previous_master": "C-M03",
+      "purpose": "表示設定",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-085.png",
+      "web_file": "images/guides/uni-note/un35/un35-085-display-settings-ja.png",
+      "crop": [
+        0,
+        0,
+        2064,
+        2040
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "f6609b6a9c57bd06ee2a8b1c0dc4801588fe2771ccb013fced41043919d90522",
+      "placements": [
+        "customize-display--c-m03"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-086",
+      "canonical_id": "UN35-086",
+      "previous_master": "C-M04",
+      "purpose": "ナビゲーション配置設定",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-086.png",
+      "web_file": "images/guides/uni-note/un35/un35-086-navigation-configuration-ja.png",
+      "crop": [
+        0,
+        0,
+        2064,
+        1850
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "13210102db3d63155efe4adf7d602725cbbf6090ad5032be3ab5c1900eec2594",
+      "placements": [
+        "customize-toolbar--n-m52"
+      ],
+      "classification": "撮影・採用"
+    },
+    {
+      "id": "UN35-087",
+      "canonical_id": "UN35-087",
+      "previous_master": "C-M05",
+      "purpose": "パレット配置設定",
+      "status": "approved",
+      "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-087.png",
+      "web_file": "images/guides/uni-note/un35/un35-087-palette-configuration-ja.png",
+      "crop": [
+        0,
+        0,
+        2064,
+        1460
+      ],
+      "actual_capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+      "required_capture_version": "3.5.0 build 6",
+      "reason": "原本とWeb cropの内容を目視監査。ユーザー許容35fa888環境の実UIとして採用。App Store配布バイナリとの同一性は主張しない。",
+      "preparation": "35fa888の独立Release環境、自作教科・通常ノート・縦ノート・PDF・ZIPを準備済み。",
+      "completion_conditions": "取得・crop・ローカル掲載検証済み。App Store実機バイナリの同一性は未主張。",
+      "previous_candidate": null,
+      "original_sha256": "fa3c50cbab34781d293372a95382bc4c07ec62f7e00f1112186e9afee1433489",
+      "placements": [
+        "customize-toolbar--n-m56"
+      ],
+      "classification": "撮影・採用"
+    }
+  ],
+  "capture_candidates": 72,
+  "release_verified_captures": 0,
+  "historical_attempt": {
+    "archive_binary_sha256": "acc811e55c3fa71c8ec6d46a8d28142ebbe06b8ab6499870fc84144605cf477c",
+    "binary_platform": "IOS (not IOSSIMULATOR)",
+    "device_check": "devicectl: paired iPad unavailable; physical iPhone available; no accessible physical iPad",
+    "simulators": "User authorized Simulator capture. Dedicated iPad Pro 13-inch M5 / iOS 26.5; UUID 757529CE-626E-4AD2-B7CC-DD8028257ED4.",
+    "source_identity": "public-build-evidence.json explicitly does not prove complete source/binary equality",
+    "simulator_binary_sha256": "9e8760c8e1489610a5202907de787b0b524977aad28c82fac9535cd3f809bbeb",
+    "simulator_source": "Existing 2026-09-13 release-gate Debug app associated with 800c0c3; 3.5.0 local build 1. NOT public build 6 binary.",
+    "version_mismatch": "Simulator more menu includes Simulate CH-001 recovery. Navigation and palette points localization differs from public-build-evidence.json archive values. Exact released UI equivalence not established."
+  },
+  "source_exception": "Finger drawing differences exempt per user; no public guide prose added; other differences still require per-image verification.",
+  "localized_replaced_placements": 30,
+  "public_ui_reviewed_under_user_source_exception": 13,
+  "updated_at": "2026-09-20T05:50:21.937009+09:00",
+  "premium_environment": "premium-test-environment.json",
+  "remaining_physical_originals": 15,
+  "release_verified_captures_note": "App Store配布build 6とのバイナリ同一性を検証した原本は0。採用71枚はユーザー指定35fa888 / local build 1の許容条件による。",
+  "final_classification_counts": {
+    "adopted": 71,
+    "recapture_required": 1,
+    "device_required": 1,
+    "external_environment_wait": 13,
+    "specification_hold": 0,
+    "merged_or_unnecessary": 0
+  },
+  "unclassified": 0,
+  "recaptured_this_continuation": [
+    "UN35-001",
+    "UN35-010",
+    "UN35-013",
+    "UN35-028"
+  ],
+  "raw_physical_count": 72,
+  "legacy_japanese_replaced": 5,
+  "legacy_japanese_remaining": 2,
+  "phase2_status": "本体完了・環境依存15原本を保留して一旦終了",
+  "future_work": [
+    "UN35-040 再撮影",
+    "UN35-058 実機Apple Pencil",
+    "録音・文字起こしと録音由来AI結果",
+    "AI接続・実生成結果",
+    "iCloud接続",
+    "次版公開後の指描画F01〜F09"
+  ]
+}

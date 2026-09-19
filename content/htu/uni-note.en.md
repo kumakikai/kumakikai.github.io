@@ -21,7 +21,7 @@ Requires an iPad with iPadOS 17.0 or later. Handwriting uses Apple Pencil. Recor
 
 1. Tap **+** at the bottom right of Home, then choose **New Subject**.
 
-{{< guide-image src="images/guides/uni-note/en/create-menu.png" alt="New Subject and Create Folder in the Home Add menu" mode="crop" caption="The creation menu opened by the bottom-right + button." >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-002-home-add-menu-ja.png" alt="New Subject and Create Folder in the Home Add menu" mode="crop" caption="The creation menu opened by the bottom-right + button." >}}
 
 2. Choose the name, ruling, paper color and cover color.
 3. Open the subject and name its first note. Leave the name blank to use today’s date.
@@ -36,7 +36,7 @@ The same + menu creates folders. Drag subjects into them; deleting a folder retu
 2. Write with Apple Pencil. Pinch with two fingers to zoom.
 3. Writing on the last page adds the next page automatically.
 
-{{< guide-image src="images/guides/uni-note/common/writing-tools.png" alt="Pen, highlighter, eraser, sticky marker, undo and redo palette" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="Pen, highlighter, eraser, sticky marker, undo and redo palette" mode="crop" >}}
 
 Drag the palette to reposition it. The Ruler button shows a ruler you can move and rotate with your fingers. Draw near it with Apple Pencil for straight lines. Range Move selects whole handwriting strokes; move photos, PDFs and sticky markers separately. Vertical notebooks scroll sideways, and their orientation cannot be changed after creation.
 
@@ -46,7 +46,7 @@ Drag the palette to reposition it. The Ruler button shows a ruler you can move a
 
 Type part of a note title in **Search note titles** on Home and tap a result. Search covers titles, not handwriting, page text, PDFs or subject names.
 
-{{< guide-image src="images/guides/uni-note/en/home-search.png" alt="Search note titles field on Home" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-008-note-search-results-ja.png" alt="Search note titles field on Home" mode="crop" >}}
 
 Inside a note, **Note List** opens other notes in the subject and lets you create one. Swipe left for rename, protection or deletion. **Pages** opens thumbnails: tap to navigate, long-press to delete.
 
@@ -60,7 +60,7 @@ Inside a note, **Note List** opens other notes in the subject and lets you creat
 2. Choose a photo, document photo or PDF attachment.
 3. Select the PDF pages to insert; use the spread-splitting option for facing-page documents.
 
-{{< guide-image src="images/guides/uni-note/en/attachment-menu.png" alt="Photo, document photo, PDF attachment and PDF export menu" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-063-more-menu-ja.png" alt="Photo, document photo, PDF attachment and PDF export menu" mode="crop" >}}
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Lecture PDF with handwriting in Uni:Note" mode="tablet" >}}
 
@@ -74,7 +74,7 @@ Select an attachment with your finger to move or resize it. Double-tap to lock o
 2. Tap the red record button; pause and resume when needed.
 3. Stop to save, then select the saved recording to play it.
 
-{{< guide-image src="images/guides/uni-note/common/record-button.png" alt="Recording panel language and red record button" mode="crop" caption="The recording-language example uses English." >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-042-recording-ready-ja.png" alt="Recording panel language and red record button" mode="crop" caption="The example shows the recording panel with Japanese selected." >}}
 
 Recording, playback and transcript viewing require Premium. Recordings split after 30 minutes, with up to five per note. Stop and save before returning Home or putting the iPad to sleep. Supported iPadOS 26 devices can transcribe during recording. Set the language in **Settings → Study Support → Recording Support**. AI summaries use transcript text and AI balance; review the estimated usage before starting.
 
@@ -84,7 +84,7 @@ Recording, playback and transcript viewing require Premium. Recordings split aft
 
 Enable memorization in Study Support settings. Choose the sticky-marker tool, cover text with Apple Pencil, and tap a marker with your finger to reveal or hide it. To delete a marker, long-press it and tap the Delete button that appears.
 
-{{< guide-image src="images/guides/uni-note/common/sticky-marker.png" alt="Sticky markers hiding answers in lecture notes" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-053-sticky-pdf-common.png" alt="Sticky markers hiding answers in lecture notes" mode="crop" >}}
 
 Enable **Problem Solver Assistant**, choose its note toolbar button, enclose a problem with Apple Pencil, check the area and request an answer.
 

@@ -71,16 +71,16 @@
     },
     "/de/htu/uni-note/": {
       "source": "content/htu/uni-note.de.md",
-      "sourceSHA256": "1f2386c7af097e64390185acd49370d4c6ff0430ca638a43913ecf39730571a0",
+      "sourceSHA256": "3060750f6a506c3ca3fa6e8ae8afc99e05691520cb224aeabddddb2b52c21b60",
       "beforeSourceSHA256": "058a054f08bc3ac0e5d0d1a63b404a8f86693f6ae3212879dc7d389ee076463a",
       "baselineTextSHA256": "65f68ff2e7b70bff28dcd58b530e206b83d814b0f7f95d14975f7c32f0180d07",
-      "reviewedTextSHA256": "dc09ddd4c38d9f4460f62ac85d6dbf8f3dffbf0ef061e6b89c6c1b7db83db2c7",
+      "reviewedTextSHA256": "bd6afed3ac670ac7d946138ba884ced9c7a65d8b116db14f739155475fad71d2",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/de/faq/uni-note/",
         "https://kumakikai.github.io/de/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain. Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -235,16 +235,16 @@
     },
     "/en/htu/uni-note/": {
       "source": "content/htu/uni-note.en.md",
-      "sourceSHA256": "7d4f1cfc79d58f517251ef7907ebd8ee029f2f97d0dead4d87778a05219365c2",
+      "sourceSHA256": "7e6b3c025c0b3a060df4b389bf19c791b57dcf69efa604c6dc4d38a6a0f7f1f8",
       "beforeSourceSHA256": "e79c85645c0379d9b269c9955c1bae1e544ff1beeb97a65ba64994146d8096cc",
       "baselineTextSHA256": "a26b5bab23dc299994a244f3487439f466613882df23bea152e792997f643601",
-      "reviewedTextSHA256": "1e071efc7af1a2c869e8168ce0d04ff8a76e3526d2f1102863463fe473dc43af",
+      "reviewedTextSHA256": "5831e86194525ff85b1aef6f325ee12e3b3e3fc5b3ecc81a9a900230f44872a3",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/en/faq/uni-note/",
         "https://kumakikai.github.io/en/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain. Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -606,16 +606,16 @@
     },
     "/fr/htu/uni-note/": {
       "source": "content/htu/uni-note.fr.md",
-      "sourceSHA256": "72a32f4db59a41b236060698bbcfb6ebe5bf3b4c70f4d7869e7b900a8fc50ba0",
+      "sourceSHA256": "53051c34fd08a77f9e81788674e500a0fd27e9c93a9d2a57755831e149a12873",
       "beforeSourceSHA256": "5f031450582be5fe983d7d71f9f179857047f147dcb8fdeec921c6ce12d8ffd0",
       "baselineTextSHA256": "d9d8754e59fa8e812c9e7fcb2e3826dab146ef19f6aa38a7e2b4bd0bca83dc58",
-      "reviewedTextSHA256": "ddb2fb64468b2daed3878cda66f7198139acaa3fa714626c616a9b85f353cbcc",
+      "reviewedTextSHA256": "ec963ffb42539ddcd9ba6c3f73c4c4ff19e1edcea6100213e8f9ca39e06b4f85",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/fr/faq/uni-note/",
         "https://kumakikai.github.io/fr/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain. Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -1023,16 +1023,16 @@
     },
     "/ko/htu/uni-note/": {
       "source": "content/htu/uni-note.ko.md",
-      "sourceSHA256": "05605b48d22688475ea1c83ae68bac21767a37300f967c1cf52f20288185dbab",
+      "sourceSHA256": "7af17de17dde3cb3c32c31e585175d80489be700179e29dfd7f0064aa4c66119",
       "beforeSourceSHA256": "c02e5a556d594b33a22567cefb065a2d6e1939eb14b4e9fda06099ab2bcd386b",
       "baselineTextSHA256": "6767264d91f95d305e2611b5ac966b9f9afbb6fc3ef6fccf6c799be4100c6ade",
-      "reviewedTextSHA256": "3064c7968d149eca739fbfa9ffa2ed3d30436a6b154c37d6f391fa6d6a02566e",
+      "reviewedTextSHA256": "741d0b78b66e71e66e7d99160869647be328d1185332b1f1ad079fb2850258d8",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/ko/faq/uni-note/",
         "https://kumakikai.github.io/ko/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain. Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -1531,16 +1531,16 @@
     },
     "/zh-hant/htu/uni-note/": {
       "source": "content/htu/uni-note.zh-hant.md",
-      "sourceSHA256": "f97ab0a6d0628ac284d755caca754a766547e7a3a33183c3c95f2bf77401c496",
+      "sourceSHA256": "d218dfc8f8af19aaef8316abf8025a49ccad44f968dec56b6a6f2fd204ae5153",
       "beforeSourceSHA256": "4e963f8e757eaa220cf8d5a54add967f2856c83b9ad68dc5a711e876f2d03b07",
       "baselineTextSHA256": "0ad93001924502ebcc8317108accca5d624457ff10510110e77257615d1e888a",
-      "reviewedTextSHA256": "311d64ba40357c69cee527cf8ce7ccc674846f594f3640051e1eadeafbd33e2b",
+      "reviewedTextSHA256": "1474f2743ba3242bee1160e00a9d860577d65a9511128cc23faf304e2b064522",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/zh-hant/faq/uni-note/",
         "https://kumakikai.github.io/zh-hant/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user instruction: the guide is limited to finding and using features; FAQ and contact remain on the parent support page, so duplicate Help/Contact end sections are removed. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain. Phase 2 closure: six existing image references per translated guide use audited shared Simulator originals; recording caption now correctly says Japanese. No operation prose or links changed. Evidence: docs/uni-note-guide-phase2/capture-execution/README.md.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"

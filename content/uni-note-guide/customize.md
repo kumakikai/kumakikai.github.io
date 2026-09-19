@@ -76,6 +76,8 @@ operation_ids: ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "
 
 {{< uni-guide-image slot="customize-paper--m-m14" >}}
 
+{{< uni-guide-image slot="customize-paper--c-m02" >}}
+
 ### 完了の確認 {#paper-完了の確認}
 
 新規作成時の紙と、ノート上の情報・左右配置を用途に合わせられます。
@@ -112,6 +114,8 @@ operation_ids: ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "
 {{< uni-guide-image slot="customize-display--n-m47" >}}
 
 {{< uni-guide-image slot="customize-display--m-m14" >}}
+
+{{< uni-guide-image slot="customize-display--c-m03" >}}
 
 ### 完了の確認 {#display-完了の確認}
 

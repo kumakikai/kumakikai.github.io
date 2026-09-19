@@ -21,7 +21,7 @@ Nécessite un iPad sous iPadOS 17.0 ou version ultérieure. L’écriture utilis
 
 1. Touchez **+** en bas à droite de l’accueil, puis **Ajouter une matière**.
 
-{{< guide-image src="images/guides/uni-note/fr/create-menu.png" alt="Ajouter une matière et Créer un dossier dans le menu + de l’accueil" mode="crop" caption="Le menu de création ouvert par le bouton + en bas à droite." >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-002-home-add-menu-ja.png" alt="Ajouter une matière et Créer un dossier dans le menu + de l’accueil" mode="crop" caption="Le menu de création ouvert par le bouton + en bas à droite." >}}
 
 2. Choisissez le nom, les lignes, la couleur du papier et de la couverture.
 3. Ouvrez la matière et nommez sa première note. Un nom vide utilise la date du jour.
@@ -36,7 +36,7 @@ Le même + permet de créer des dossiers. Glissez-y les matières ; supprimer un
 2. Écrivez avec l’Apple Pencil ; pincez avec deux doigts pour zoomer.
 3. Écrire sur la dernière page ajoute automatiquement la suivante.
 
-{{< guide-image src="images/guides/uni-note/common/writing-tools.png" alt="Palette avec stylo, surligneur, gomme, repère et annulation" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="Palette avec stylo, surligneur, gomme, repère et annulation" mode="crop" >}}
 
 Déplacez la palette en la faisant glisser. Affichez la règle en haut, déplacez-la ou tournez-la avec les doigts et tracez à proximité avec le Pencil. Le déplacement de zone sélectionne des traits manuscrits entiers ; photos, PDF et repères se déplacent séparément. Les carnets verticaux défilent horizontalement. Leur orientation ne change plus après création.
 
@@ -46,7 +46,7 @@ Déplacez la palette en la faisant glisser. Affichez la règle en haut, déplace
 
 Saisissez une partie du titre dans la recherche de l’accueil, puis touchez le résultat. La recherche ne porte pas sur l’écriture, le texte des pages, les PDF ni les noms de matières.
 
-{{< guide-image src="images/guides/uni-note/fr/home-search.png" alt="Recherche de titres sur l’accueil" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-008-note-search-results-ja.png" alt="Recherche de titres sur l’accueil" mode="crop" >}}
 
 Dans une note, **Liste des notes** ouvre les autres notes de la matière ou en crée une. Balayez à gauche pour renommer, protéger ou supprimer. **Pages** affiche les miniatures : touchez pour naviguer, maintenez pour supprimer.
 
@@ -60,7 +60,7 @@ Dans une note, **Liste des notes** ouvre les autres notes de la matière ou en c
 2. Choisissez une photo, une photo de document ou un PDF.
 3. Sélectionnez les pages PDF à joindre ; les doubles pages peuvent être séparées.
 
-{{< guide-image src="images/guides/uni-note/fr/attachment-menu.png" alt="Menu photo, document photo, pièce jointe PDF et export PDF" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-063-more-menu-ja.png" alt="Menu photo, document photo, pièce jointe PDF et export PDF" mode="crop" >}}
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="PDF de cours annoté dans Uni:Note" mode="tablet" >}}
 
@@ -74,7 +74,7 @@ Sélectionnez la pièce jointe avec le doigt pour la déplacer ou la redimension
 2. Démarrez avec le bouton rouge ; mettez en pause et reprenez si nécessaire.
 3. Arrêtez pour enregistrer, puis sélectionnez l’enregistrement pour l’écouter.
 
-{{< guide-image src="images/guides/uni-note/common/record-button.png" alt="Langue et bouton rouge du panneau d’enregistrement" mode="crop" caption="L’exemple utilise l’anglais comme langue de transcription." >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-042-recording-ready-ja.png" alt="Langue et bouton rouge du panneau d’enregistrement" mode="crop" caption="L’exemple montre le panneau d’enregistrement avec le japonais sélectionné." >}}
 
 L’enregistrement, la lecture et l’affichage de la transcription nécessitent Premium. Un fichier est divisé après 30 minutes, avec cinq enregistrements par note au maximum. Arrêtez et sauvegardez avant l’accueil ou la veille. Les iPad compatibles sous iPadOS 26 peuvent transcrire pendant l’enregistrement. Choisissez la langue dans **Réglages → Aide à l’étude → Aide à l’enregistrement**. Le résumé IA utilise le texte transcrit et le solde IA ; vérifiez l’estimation avant de lancer.
 
@@ -84,7 +84,7 @@ L’enregistrement, la lecture et l’affichage de la transcription nécessitent
 
 Activez la mémorisation dans les réglages d’étude. Choisissez le repère adhésif, masquez du texte avec l’Apple Pencil et touchez le repère avec le doigt pour révéler ou masquer. Pour supprimer un repère, maintenez-le puis touchez le bouton de suppression qui apparaît.
 
-{{< guide-image src="images/guides/uni-note/common/sticky-marker.png" alt="Repères adhésifs masquant les réponses dans les notes" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-053-sticky-pdf-common.png" alt="Repères adhésifs masquant les réponses dans les notes" mode="crop" >}}
 
 Activez l’assistant de résolution, choisissez son bouton dans la note, entourez une question avec le Pencil et vérifiez la zone avant de demander la réponse.
 

@@ -90,6 +90,29 @@ class ReviewTests(unittest.TestCase):
         self.assertTrue(any(e['check'].endswith('_anchors') for e in errors))
         self.assertTrue(any(e['check'].endswith('_images') for e in errors))
 
+    def test_uninote_translated_image_review_is_exact_and_bound(self):
+        from unittest.mock import patch
+        route = '/en/htu/uni-note/'
+        row = self.catalog['reviews'][route]
+        image = {'src': '/audited.webp', 'alt': 'Reviewed example'}
+        manifest = {'dependencies': {}, 'localizedImages': {route: {
+            'route': route, 'sourceSHA256': row['sourceSHA256'], 'topImages': [image],
+        }}}
+        target = self.root / 'docs/uni-note-guide-phase2/reviewed-output.json'
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(json.dumps(manifest))
+        before = {route: {'ids': [], 'images': []}}
+        good = m.Document('<div data-content-body>Reviewed text<img src="/audited.webp" alt="Reviewed example"></div>')
+        with patch.object(r, '__file__', str(self.root / 'scripts/document_review.py')):
+            self.assertEqual(r.check_article(route, row, good, before), [])
+            bad = m.Document('<div data-content-body>Reviewed text<img src="/unreviewed.webp" alt="Reviewed example"></div>')
+            self.assertTrue(r.check_article(route, row, bad, before))
+            manifest['localizedImages'][route]['sourceSHA256'] = '0' * 64
+            target.write_text(json.dumps(manifest))
+            self.assertTrue(r.check_article(route, row, good, before))
+            target.unlink()
+            self.assertTrue(r.check_article(route, row, good, before))
+
     def test_nocca_form_cannot_be_relabelled_to_other_form(self):
         route = '/privacy/nocca/'; row = copy.deepcopy(self.catalog['reviews'][route])
         doc = m.Document('<div data-content-body><a href="https://forms.gle/Enzmm94LdXRZjP8k9">Reviewed text</a></div>')

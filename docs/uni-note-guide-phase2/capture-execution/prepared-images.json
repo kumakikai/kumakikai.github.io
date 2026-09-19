@@ -1,0 +1,1849 @@
+[
+  {
+    "id": "UN35-001",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-001.png",
+    "web": "images/guides/uni-note/un35/un35-001-home-overview-ja.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "c2fb92ef3506e9f4e6a01889cacd1fc346e7eff325f9ce121e5961ce98a87f8e",
+    "original_sha256": "e2255b164e4b0103659babb3ffafc09a80161f5d1385e760dcca324a0b7f9a7b",
+    "placements": [
+      "start-screens--n-m01",
+      "library-subjects--n-m01"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "最近使ったノート、教科カード、学期フォルダが並ぶホーム",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-002",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-002.png",
+    "web": "images/guides/uni-note/un35/un35-002-home-add-menu-ja.png",
+    "crop": [
+      1740,
+      1430,
+      2752,
+      2064
+    ],
+    "source_sha256": "32eddf77d4eefb25f661f791320e7655e28a7ad419110edded1afffcecd43e9f",
+    "original_sha256": "d50ec0ffd7f0f6a809c3772ae5a7119b917e165369bc1a4733244b6f66e70e6e",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "start-first-note--n-m02"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": [
+      {
+        "id": "UN35-002",
+        "language": "en",
+        "source": "content/htu/uni-note.en.md"
+      },
+      {
+        "id": "UN35-002",
+        "language": "ko",
+        "source": "content/htu/uni-note.ko.md"
+      },
+      {
+        "id": "UN35-002",
+        "language": "de",
+        "source": "content/htu/uni-note.de.md"
+      },
+      {
+        "id": "UN35-002",
+        "language": "zh-hant",
+        "source": "content/htu/uni-note.zh-hant.md"
+      },
+      {
+        "id": "UN35-002",
+        "language": "fr",
+        "source": "content/htu/uni-note.fr.md"
+      }
+    ]
+  },
+  {
+    "id": "UN35-003",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-003.png",
+    "web": "images/guides/uni-note/un35/un35-003-subject-menu-ja.png",
+    "crop": [
+      860,
+      860,
+      1920,
+      1460
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "2e6299454f1b83e74beac943b6dc6eb9ccf8fcaf198b5c458770d4ec1c5c668f",
+    "original_sha256": "364debf742d456e13e1dd4ebaae40897d6f59dd0a653eae3f5d9c87694d37881",
+    "placements": [
+      "library-subjects--n-m04"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-004",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-004.png",
+    "web": "images/guides/uni-note/un35/un35-004-note-list-ja.png",
+    "crop": [
+      690,
+      640,
+      2070,
+      1460
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "a763eaa66c3305a663ed96409d9f4597fc6888c150c4d1eb4e1e731b406541b6",
+    "original_sha256": "d4e9d1383020f47a59bd047c5cc895b32239ed670cfbe7cbcdda57a8879273a2",
+    "placements": [
+      "start-screens--n-m05",
+      "notebooks-manage--n-m05"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": []
+  },
+  {
+    "id": "UN35-005",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-005.png",
+    "web": "images/guides/uni-note/un35/un35-005-note-swipe-menu-ja.png",
+    "crop": [
+      720,
+      670,
+      2040,
+      1430
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "3ec9c1a6e41da17cbd0f8488732be93ab8bfed7d9c96805ec653fa9ddf0a50dc",
+    "original_sha256": "43b83b82ffb42276dffefd0227ec9040ceb405ca0783f100f9d9896513d5b28e",
+    "placements": [
+      "notebooks-manage--n-m06",
+      "data-protect--n-m06"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "ノート行をスワイプして表示した削除・保護・編集ボタン",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-006",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-006.png",
+    "web": "images/guides/uni-note/un35/un35-006-note-reorder-common.png",
+    "crop": [
+      720,
+      670,
+      2040,
+      1430
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "f104adb2372f5bb8b5624dd673d81c2ec5e49076ab23039fed80a4556e00db3c",
+    "original_sha256": "0d5cddc285551843b491f69c5fe6705323a19f962a0be1fb87a984b3bb5445dd",
+    "placements": [
+      "notebooks-manage--n-m07"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "ノート一覧で並べ替えハンドルをドラッグしている状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-007",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-007.png",
+    "web": "images/guides/uni-note/un35/un35-007-subject-reorder-common.png",
+    "crop": [
+      0,
+      300,
+      2100,
+      1660
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "07f0c082c9fa5010832d611ff9990933c3cc8c5379474428fb569fccdfa8ac13",
+    "original_sha256": "fc0207d5f93410a4df706a79e41d52140ca609f507c066d418dc236b55ca5b1c",
+    "placements": [
+      "library-subjects--n-m08"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "本棚で教科カードをドラッグして並べ替えている状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-008",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-008.png",
+    "web": "images/guides/uni-note/un35/un35-008-note-search-results-ja.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      690
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "75064b4172a34a4acc59d7bd040ead3a7ecc02568dd868aa0cd2c3c4c579f4c9",
+    "original_sha256": "8c358287bac582764806da491f9e77448c0646af41fc743d149ae6f7edb7a1a4",
+    "placements": [
+      "library-search--n-m09"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": [
+      {
+        "id": "UN35-008",
+        "language": "en",
+        "source": "content/htu/uni-note.en.md"
+      },
+      {
+        "id": "UN35-008",
+        "language": "ko",
+        "source": "content/htu/uni-note.ko.md"
+      },
+      {
+        "id": "UN35-008",
+        "language": "de",
+        "source": "content/htu/uni-note.de.md"
+      },
+      {
+        "id": "UN35-008",
+        "language": "zh-hant",
+        "source": "content/htu/uni-note.zh-hant.md"
+      },
+      {
+        "id": "UN35-008",
+        "language": "fr",
+        "source": "content/htu/uni-note.fr.md"
+      }
+    ]
+  },
+  {
+    "id": "UN35-009",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-009.png",
+    "web": "images/guides/uni-note/un35/un35-009-subject-drag-folder-common.png",
+    "crop": [
+      0,
+      300,
+      2100,
+      1660
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "45b8769f865cfd409b9b74b7ac4a6fb8c3c04d680e39555aa4c976d93ca14597",
+    "original_sha256": "3c1acd84f8a32813787b9ddef9d3b26d00697876b6984f30ea260b4f335f851a",
+    "placements": [
+      "library-folders--n-m11"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "教科カードを学期フォルダへ重ねて移動している状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-010",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-010.png",
+    "web": "images/guides/uni-note/un35/un35-010-folder-contents-ja.png",
+    "crop": [
+      725,
+      350,
+      2040,
+      1740
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "32f567faa9cd2fac48eaae63fb9541c838f75966a027c16e2ec9323e30b31968",
+    "original_sha256": "df3b196a12076e2f4a78a5f2b8be6688cbc91dba8db63c3d16ef73fed033b47f",
+    "placements": [
+      "library-folders--n-m12"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "2026年度 秋学期フォルダ内の経済学と資料用教科",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-011",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-011.png",
+    "web": "images/guides/uni-note/un35/un35-011-folder-menu-ja.png",
+    "crop": [
+      0,
+      850,
+      1090,
+      1490
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "b195a6ca2ab560c570d886d948292a9c8c6b3fc2b54ea5d6266cbf00ec95f55d",
+    "original_sha256": "3c882e9c3d3354ff935630790a619999edfb9aefa5bd92b5731f9158ea7c5bc5",
+    "placements": [
+      "library-folders--n-m14"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-012",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-012.png",
+    "web": "images/guides/uni-note/un35/un35-012-folder-return-drag-ja.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "d874952e72cbb87ba9e232a72d83f566fe4ae20a3a7795cf0876f5023c214fc4",
+    "original_sha256": "6f3360f64062b7c9c4d813bc181b39e374547da64349f6145c01a5345af49d9c",
+    "placements": [
+      "library-folders--n-m18"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "フォルダから教科を本棚へ戻すドラッグと画面下部の移動先",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-013",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-013.png",
+    "web": "images/guides/uni-note/un35/un35-013-vertical-subject-form-ja.png",
+    "crop": [
+      740,
+      330,
+      2030,
+      1730
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "91d9307337dafd07569b76ae7b24c743fdc425fd2f32f6d655dec851446d094e",
+    "original_sha256": "ad5e60a78718948050973334aa0f0043e200441c9f7aebc43e4a062778232960",
+    "placements": [
+      "notebooks-vertical--n-m19"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "縦罫を選び縦ノートを有効にした教科作成画面",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-014",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-014.png",
+    "web": "images/guides/uni-note/un35/un35-014-subject-delete-confirm-ja.png",
+    "crop": [
+      850,
+      800,
+      2740,
+      1300
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "8acc95114cc7ed62b46ac79ccde3ebb15623ab95030b34aa00310ac889e32328",
+    "original_sha256": "2e873a80d808ada21ca79cee906a3e1c399b1dfde088698fd0bc113ae36be509",
+    "placements": [
+      "library-subjects--n-m20"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "教科をゴミ箱へ移す前の削除確認",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-015",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-015.png",
+    "web": "images/guides/uni-note/un35/un35-015-page-boundary-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "7f8364635febeabbd602b50eda2d5aee4476eb95785154819eaa7ed96d6a2b7a",
+    "original_sha256": "bf7db37d2e08c8ca8440c52ee2aa761e44d2eed0611e89921c187cd9c722291b",
+    "placements": [
+      "notebooks-pages--n-m31"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "通常ノートでページ2の下端と次のページが見える状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-016",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-016.png",
+    "web": "images/guides/uni-note/un35/un35-016-page-list-common.png",
+    "crop": [
+      420,
+      65,
+      2330,
+      780
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "50e715c317b5223906738f58777fac6b4f5d5d9d5091739061de4a515ebd9f9c",
+    "original_sha256": "a873a73ac46c15c9561d7b2f27b00998b5ab9cf1b4b9a1da3851bde10bdb3a75",
+    "placements": [
+      "notebooks-pages--n-m33"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-017",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-017.png",
+    "web": "images/guides/uni-note/un35/un35-017-page-delete-menu-ja.png",
+    "crop": [
+      420,
+      65,
+      2330,
+      850
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "9f82f3b6a1c2056bd589ae4c23b92977bc64c1abf03c89b41820117d03b534ae",
+    "original_sha256": "0e2a73dbf5fb556fe4819e94d31d1bb532f29a9400de690ea889be224356af25",
+    "placements": [
+      "notebooks-pages--n-m35"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-018",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-018.png",
+    "web": "images/guides/uni-note/un35/un35-018-pen-panel-ja.png",
+    "crop": [
+      1300,
+      90,
+      2250,
+      730
+    ],
+    "source_sha256": "5e0b14a36f4b774f8f56fe47e37a2438af3cc37c9940698ae30ca7edaaa253f0",
+    "original_sha256": "d8b0a9c874ac8e2b9d8ea8c4ab4ec57abc52e7815ebfa885c644bf7d356a0b4d",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "writing-pens--n-m37"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": [
+      {
+        "id": "UN35-018",
+        "language": "en",
+        "source": "content/htu/uni-note.en.md"
+      },
+      {
+        "id": "UN35-018",
+        "language": "ko",
+        "source": "content/htu/uni-note.ko.md"
+      },
+      {
+        "id": "UN35-018",
+        "language": "de",
+        "source": "content/htu/uni-note.de.md"
+      },
+      {
+        "id": "UN35-018",
+        "language": "zh-hant",
+        "source": "content/htu/uni-note.zh-hant.md"
+      },
+      {
+        "id": "UN35-018",
+        "language": "fr",
+        "source": "content/htu/uni-note.fr.md"
+      }
+    ]
+  },
+  {
+    "id": "UN35-019",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-019.png",
+    "web": "images/guides/uni-note/un35/un35-019-highlighter-panel-ja.png",
+    "crop": [
+      1300,
+      90,
+      2250,
+      800
+    ],
+    "source_sha256": "0437199ff8bbf8bfff79815f29982318bc791e6b516ebfb9e90a3f9c883de29f",
+    "original_sha256": "ea3bbfb4597ccf46796a564986be0ed89340076d74747c836eb1ce5c816373f8",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "writing-pens--n-m40"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-020",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-020.png",
+    "web": "images/guides/uni-note/un35/un35-020-eraser-panel-ja.png",
+    "crop": [
+      1300,
+      90,
+      2250,
+      720
+    ],
+    "source_sha256": "17c9f9bbc11968a1e17a258ffbab4b7b3274a32eb7213d3d1659ab5fe66777d7",
+    "original_sha256": "40814d0dc08ee4c9ebdd098761094e03c21658a89bd445e8472ae1692f384beb",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "writing-erasing--n-m41"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-021",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-021.png",
+    "web": "images/guides/uni-note/un35/un35-021-eraser-comparison-common.png",
+    "crop": [
+      0,
+      0,
+      2500,
+      1400
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "d6f8a9d98eeb39877bbd45271cd8ed2e8ac9ced9f7c4f74fdca990581fc0077a",
+    "original_sha256": "7770c52b79ce8966e2c850475fff80b191b237a07435621a8bc2dfa3e39768cf",
+    "placements": [
+      "writing-erasing--n-m42"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "線消しで下の線全体を消した左側と、部分消去で線の中央だけを消した右側",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-022",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-022.png",
+    "web": "images/guides/uni-note/un35/un35-022-palette-left-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "4dcde2a87561dcda54427a7d538a59f06a84d7ce1bebf037d337e518c8af1ec0",
+    "original_sha256": "61241a2e94c4604f44a34f328bc0c2cf18f2935a35108b575fc694fdd24e97eb",
+    "placements": [
+      "writing-palette--n-m45"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "handwriting_method": "Actual direct-touch UI Test strokes with user-authorized finger drawing assistance; no pixel editing or injected PKDrawing."
+  },
+  {
+    "id": "UN35-023",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-023.png",
+    "web": "images/guides/uni-note/un35/un35-023-palette-collapsed-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "7e26f153c39e97426fb03cc06741753bb27fffc46a501920786cade5aac27167",
+    "original_sha256": "1a532ce23033d2fb7417f2a271a2853266c138f423f41e5025e723db15a33357",
+    "placements": [
+      "writing-palette--n-m47"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "筆記中に小さく収納されたパレット",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-024",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-024.png",
+    "web": "images/guides/uni-note/un35/un35-024-ruler-active-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "254c7341f2ae70622f65c47c537a8b5d5021e6c42beeb46cb49bd21a4696486a",
+    "original_sha256": "e337119a2b0902136637a647a64e9d2e3de65c2ed824ff5a9ed44cc730580445",
+    "placements": [
+      "writing-ruler--n-m49"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "handwriting_method": "Actual direct-touch UI Test strokes with user-authorized finger drawing assistance; no pixel editing or injected PKDrawing."
+  },
+  {
+    "id": "UN35-025",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-025.png",
+    "web": "images/guides/uni-note/un35/un35-025-handwriting-selection-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "754ebe74e5108e981e70d96b651d944a5e81425618aadf6ba9640841e4e4205f",
+    "original_sha256": "07314f4ad1bbfcde60ad8f19663bb0ebb10f8bade62f4994767568ed6b088aa1",
+    "placements": [
+      "writing-move--n-m50"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "手書きの式を囲んで選択した状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-026",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-026.png",
+    "web": "images/guides/uni-note/un35/un35-026-handwriting-moved-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "ef0a4bc9eb45150fa92af558207ffa06e19e2397d6a3c32101adf19c331f9f69",
+    "original_sha256": "dd937e017513adc28e5fe52eeaace4ff8e17035c0cb7667de825cabe82294d4b",
+    "placements": [
+      "writing-move--n-m51"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "選択した手書きの式を余白の下方へ移動した結果",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-028",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-028.png",
+    "web": "images/guides/uni-note/un35/un35-028-note-list-pane-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "010f668bdc13e479fb83d459101ba83bbdb163662b5a565a25b70d8bdbffcadd",
+    "original_sha256": "410696a8aef539e0ff61e94e2da0d776d1a6c2ec346669dfbb4f46c2bb90fed4",
+    "placements": [
+      "notebooks-manage--n-m58"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "ノートを表示したまま左側に開いた同じ教科のノート一覧",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-029",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-029.png",
+    "web": "images/guides/uni-note/un35/un35-029-document-crop-ja.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "4eb403b41a529ad9813cc927c1af84e9c1e6701f87af8e6b2225d9266885fc4c",
+    "original_sha256": "333134344359e7fa460c8af5546a144c64f40747a12675eb9edbb349986ff89b",
+    "placements": [
+      "materials-photos--m-m03"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "自作の資料画像を写真ライブラリから読み込み、書類の四隅を合わせる画面",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-030",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-030.png",
+    "web": "images/guides/uni-note/un35/un35-030-pdf-page-selection-ja.png",
+    "crop": [
+      740,
+      330,
+      2030,
+      1730
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "cd59511bd25e0fd6dfe6f33c2297c7111bd6d94dd0d102ed62d779df4629e03f",
+    "original_sha256": "0d5dcabc66574458d173642d9328dc909cdc6397f8b419bffd8e1963ab257a2a",
+    "placements": [
+      "materials-pdf--m-m07"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-031",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-031.png",
+    "web": "images/guides/uni-note/un35/un35-031-pdf-split-toggle-ja.png",
+    "crop": [
+      740,
+      330,
+      2030,
+      1730
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "b82848dfd73bd5910dbf369cc290f8fa86fc91538d1c11f27d0178abf9de37d8",
+    "original_sha256": "0f9799c1627f417fe4b0294e7c689c11b6686d6ceb6b21c01bdf05c854fbc5ed",
+    "placements": [
+      "materials-pdf--m-m08",
+      "workflows-split-spread--m-m08"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-032",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-032.png",
+    "web": "images/guides/uni-note/un35/un35-032-split-pdf-left-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "3d0eb5a572dde77dbf504d61560d50f0c36792adfa437fcf6f57d89489c52d56",
+    "original_sha256": "ffc2e790b188c8563373a4df6fa445e4ca69deaf248761316da4ce0dd5349367",
+    "placements": [
+      "materials-pdf--m-m09",
+      "workflows-split-spread--m-m09"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "見開きPDFから分割した左半分の資料と手書きの注釈",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-033",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-033.png",
+    "web": "images/guides/uni-note/un35/un35-033-split-pdf-right-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "2d20ad894bc9bbc6e76aae7734cbecd72c2e916da3264c859f1870f77d2d0dec",
+    "original_sha256": "61c029ce61e0148cebd1561be563c2ffd1d5fcd1076888162a0e22661572f96b",
+    "placements": [
+      "materials-pdf--m-m09r",
+      "workflows-split-spread--m-m09r"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "見開きPDFから分割した右半分の資料と手書きの下線",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-034",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-034.png",
+    "web": "images/guides/uni-note/un35/un35-034-pdf-initial-position-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "source_sha256": "12271c53c70ed9937014e00c5224d3a5d02d855d5b9d916697175c8484cfd24c",
+    "original_sha256": "84d50ceaec525d477efed81b5ee6bf6eeb7f1e203e60c26b61ed453373f1deb8",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "materials-pdf--m-m10"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-035",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-035.png",
+    "web": "images/guides/uni-note/un35/un35-035-pdf-unlocked-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "df47358de0b73dfc58f85422748fb2c5437114638e9e3d1438744f9e6f36d25c",
+    "original_sha256": "b990f575c5463f921f9c71686d6ca846220ff19626ba515d38dae06f7a8fbb44",
+    "placements": [
+      "materials-arrange--m-m11"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "移動中のPDFを示す青い選択枠とサイズ変更ハンドル",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "limitation": "Actual selected/resized PDF state; capture used context menu and handle, not evidence of every gesture described in prose."
+  },
+  {
+    "id": "UN35-036",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-036.png",
+    "web": "images/guides/uni-note/un35/un35-036-pdf-resized-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "c7d310e01a2aba11132ca468e5b6eda5a869595b096917511eecb814c7e5a818",
+    "original_sha256": "093d531c60396c51c32397c0123fc12c546f5348c84db32b25683f740ed22bc1",
+    "placements": [
+      "materials-arrange--m-m13"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "PDFだけを縮小し、周囲に余白を作った結果",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "limitation": "Actual selected/resized PDF state; capture used context menu and handle, not evidence of every gesture described in prose."
+  },
+  {
+    "id": "UN35-037",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-037.png",
+    "web": "images/guides/uni-note/un35/un35-037-material-margin-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "2f209d5543c28f5ac3d1f05448b6be3bab44ea416f4b78d7286a83f0b37f6295",
+    "original_sha256": "fa06408375033dbce9690e7956605a5f158b57973a0b178f6befd11b5190abb3",
+    "placements": [
+      "start-screens--m-m14",
+      "workflows-material-margin--m-m14"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "左側にGDP資料、右側の余白に手書きの式を配置したノート",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-038",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-038.png",
+    "web": "images/guides/uni-note/un35/un35-038-vertical-pdf-annotated-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "2db2dcefaa5b49a3f0e286a97ce7bb56c4f09ef53901041f69b65d3812540d1b",
+    "original_sha256": "1592314aa9baf82d3efda5162cc4157592a600e015051f9d2a4d7f8be7a1cb5e",
+    "placements": [
+      "notebooks-vertical--m-m18",
+      "materials-vertical--m-m18",
+      "workflows-vertical-annotate--m-m18"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-039",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-039.png",
+    "web": "images/guides/uni-note/un35/un35-039-photo-initial-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "4f7909ef364d8f2711d8d387db9d36954bf1f97179b22b5425724e24b26f372c",
+    "original_sha256": "c59b67f5945a9448df7bb8d15c0e089da391e38b683ec172db3b921acf680717",
+    "placements": [
+      "materials-photos--m-m19"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "縦ノートに写真ライブラリから小さく貼り付けた資料画像",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-041",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-041.png",
+    "web": "images/guides/uni-note/un35/un35-041-pdf-export-range-ja.png",
+    "crop": [
+      780,
+      610,
+      2040,
+      1370
+    ],
+    "source_sha256": "c09c4c129db575be38514b209eb0fa4dd8c23364985115641369a77bdc4a0b31",
+    "original_sha256": "f6b1a2da046643d10fafb82e61c8f4bdaaf0422568397747f67f61f1c39c0ee8",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "materials-export--m-m21"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-042",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-042.png",
+    "web": "images/guides/uni-note/un35/un35-042-recording-ready-ja.png",
+    "crop": [
+      0,
+      0,
+      880,
+      2064
+    ],
+    "source_sha256": "d6eb4ede4638b6da4b10d1b9b8fad3ac5694b3d6460c6f3822f650d081aec5f5",
+    "original_sha256": "b9825e24ac20ce1b6f1fdc8744a07ad685ee7c326ae27ce0602d4ecb3be256b0",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "recording-capture--m-m23"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": [
+      {
+        "id": "UN35-042",
+        "language": "en",
+        "source": "content/htu/uni-note.en.md"
+      },
+      {
+        "id": "UN35-042",
+        "language": "ko",
+        "source": "content/htu/uni-note.ko.md"
+      },
+      {
+        "id": "UN35-042",
+        "language": "de",
+        "source": "content/htu/uni-note.de.md"
+      },
+      {
+        "id": "UN35-042",
+        "language": "zh-hant",
+        "source": "content/htu/uni-note.zh-hant.md"
+      },
+      {
+        "id": "UN35-042",
+        "language": "fr",
+        "source": "content/htu/uni-note.fr.md"
+      }
+    ]
+  },
+  {
+    "id": "UN35-046",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-046.png",
+    "web": "images/guides/uni-note/un35/un35-046-transcription-language-ja.png",
+    "crop": [
+      640,
+      600,
+      1500,
+      1660
+    ],
+    "source_sha256": "2a3ef65fc52efa6236e4487836331282f1ad8df79289f537ffeca6c823d7b87b",
+    "original_sha256": "8b680a9cce062e5d1f6bce884c0bc56fa9547413866abac249d59f9070c0e41b",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "recording-transcribe--m-m29"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-052",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-052.png",
+    "web": "images/guides/uni-note/un35/un35-052-sticky-panel-common.png",
+    "crop": [
+      1320,
+      90,
+      2260,
+      730
+    ],
+    "source_sha256": "5f6292e3449a10bd157c77b16708674682236c801bba9fd293f6822bfd3ed045",
+    "original_sha256": "d8255320287856f654d7419d1e76ea35fe0fb091783e7e3393bab683960018de",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "study-sticky--m-m37"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-053",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-053.png",
+    "web": "images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "cae5a793f9166f494a472f0451c26217d0d2a04e1074b6858f39a147f04bc539",
+    "original_sha256": "fb4da778c52d428a576ae775e3642d2d9a446223ef11cef79930d0090a1ee202",
+    "placements": [
+      "study-sticky--m-m38",
+      "workflows-sticky-material--m-m38"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "PDFの用語と計算結果を黄色い付箋で隠した暗記教材",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits.",
+    "localized_placements": [
+      {
+        "id": "UN35-053",
+        "language": "en",
+        "source": "content/htu/uni-note.en.md"
+      },
+      {
+        "id": "UN35-053",
+        "language": "ko",
+        "source": "content/htu/uni-note.ko.md"
+      },
+      {
+        "id": "UN35-053",
+        "language": "de",
+        "source": "content/htu/uni-note.de.md"
+      },
+      {
+        "id": "UN35-053",
+        "language": "zh-hant",
+        "source": "content/htu/uni-note.zh-hant.md"
+      },
+      {
+        "id": "UN35-053",
+        "language": "fr",
+        "source": "content/htu/uni-note.fr.md"
+      }
+    ]
+  },
+  {
+    "id": "UN35-054",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-054.png",
+    "web": "images/guides/uni-note/un35/un35-054-sticky-reveal-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "b80d0f34be71b058b782bb56257632137b6511a64749de67e157e2946c1661cb",
+    "original_sha256": "af76749cd2b4e74e337f981b827535197a15919522506e93ff3bea725e95d40a",
+    "placements": [
+      "study-sticky--m-m39",
+      "workflows-sticky-material--m-m39"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "上側の付箋だけを透過し、用語の答えを確認した状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-055",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-055.png",
+    "web": "images/guides/uni-note/un35/un35-055-pomodoro-setup-ja.png",
+    "crop": [
+      1840,
+      0,
+      2752,
+      1350
+    ],
+    "source_sha256": "f95110f132b5998cf45d90e30af62244d551e16fb7eb55ab636dfcc18ff743cf",
+    "original_sha256": "0dedcced680ae159b8ae804d13f538617430ccf1fff00da4a042f5a10bc9572f",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "study-pomodoro--m-m42"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-056",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-056.png",
+    "web": "images/guides/uni-note/un35/un35-056-pomodoro-writing-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "ebebaf3a65db0b8526a1be5e5a6d1b3bdb38283bfadefa1bd11cb32f7f62ca2c",
+    "original_sha256": "4d30008e5f04a033abd9ce73bd1d6f5da9766b8b8261f1380c5a4f4c88262ab3",
+    "placements": [
+      "study-pomodoro--m-m43",
+      "workflows-focus--m-m43"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "handwriting_method": "Actual direct-touch UI Test strokes with user-authorized finger drawing assistance; no pixel editing or injected PKDrawing."
+  },
+  {
+    "id": "UN35-057",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-057.png",
+    "web": "images/guides/uni-note/un35/un35-057-pomodoro-stop-ja.png",
+    "crop": [
+      1840,
+      0,
+      2752,
+      1350
+    ],
+    "source_sha256": "4deb13ef3128d424d7563aa8218f52e3c2209ca0771694bacb93959996625c29",
+    "original_sha256": "1b34fed2d21d0b142d70da4ecb5a5eae67b184413002de8e93152e7b462fbcf0",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "study-pomodoro--m-m44"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-059",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-059.png",
+    "web": "images/guides/uni-note/un35/un35-059-learning-settings-ja.png",
+    "crop": [
+      0,
+      0,
+      2064,
+      1510
+    ],
+    "source_sha256": "53cf0c069c33e2bd18f83eb4c418ce5489752573cbec348b364eeb4dd431ab42",
+    "original_sha256": "23905796feb7687037dec0daa6ff108e7b7630c9e766bc7229b504ca827cb763",
+    "original_size": [
+      2064,
+      2752
+    ],
+    "placements": [
+      "ai-settings--r-m01",
+      "problem-sets-home--r-m01"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-060",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-060.png",
+    "web": "images/guides/uni-note/un35/un35-060-answer-selection-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "bd6ff5f51ea29ced9cf2e0b4b60de11ab9be95ffd094caaf66194f24e4d4563e",
+    "original_sha256": "cd7028cf9a116534b9626715669104e3e2c123e37cb3b82f858517585b9e378a",
+    "placements": [
+      "ai-answer--r-m02"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "PDF内のGDP問題を囲って解答の対象として選んだ状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-061",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-061.png",
+    "web": "images/guides/uni-note/un35/un35-061-answer-confirm-ja.png",
+    "crop": [
+      0,
+      840,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "07ef2f4bbd0bfa1a0794a3cca9e87914cf790f726e9f7bc8cf52f7ee52b6ecdf",
+    "original_sha256": "81c8b348324575d6104fdeaa9a8be826f221f82431ddb351bbd71caf165b2029",
+    "placements": [
+      "ai-answer--r-m03"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "囲んだ問題の内容を解析前に確認する画面",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-063",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-063.png",
+    "web": "images/guides/uni-note/un35/un35-063-more-menu-ja.png",
+    "crop": [
+      2060,
+      0,
+      2752,
+      650
+    ],
+    "source_sha256": "4bb3063c866669e18a088de2881ef694e9655618ba55508c001b0837efbef834",
+    "original_sha256": "a048987dae9e51ada905844dede05ea5d8774537e066cb644fe27c719de50010",
+    "original_size": [
+      2752,
+      2064
+    ],
+    "placements": [
+      "materials-photos--r-m05",
+      "problem-sets-generate--r-m05"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": [
+      {
+        "id": "UN35-063",
+        "language": "en",
+        "source": "content/htu/uni-note.en.md"
+      },
+      {
+        "id": "UN35-063",
+        "language": "ko",
+        "source": "content/htu/uni-note.ko.md"
+      },
+      {
+        "id": "UN35-063",
+        "language": "de",
+        "source": "content/htu/uni-note.de.md"
+      },
+      {
+        "id": "UN35-063",
+        "language": "zh-hant",
+        "source": "content/htu/uni-note.zh-hant.md"
+      },
+      {
+        "id": "UN35-063",
+        "language": "fr",
+        "source": "content/htu/uni-note.fr.md"
+      }
+    ]
+  },
+  {
+    "id": "UN35-064",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-064.png",
+    "web": "images/guides/uni-note/un35/un35-064-quiz-generation-confirm-ja.png",
+    "crop": [
+      0,
+      380,
+      2752,
+      1350
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "3cdba3ba9af500132f0de70b6f41f03b17eae7ce8a315da763b86d93a11d53bc",
+    "original_sha256": "a7e08ee4d9f25dcca8345e211164784cef5d0b09393f68c9f1a1633bcc2d67fb",
+    "placements": [
+      "problem-sets-generate--r-m06"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "問題集作成前に対象ノートと対象ページを確認する画面",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "limitation": "Pre-execution UI only. AI endpoint unconfigured; no generated result claimed."
+  },
+  {
+    "id": "UN35-065",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-065.png",
+    "web": "images/guides/uni-note/un35/un35-065-quiz-page-selection-ja.png",
+    "crop": [
+      0,
+      380,
+      2752,
+      1500
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "8c8f3e626ac05fee6721b01798f0991f70846b0e0387c703227d9733a1848652",
+    "original_sha256": "1ee387b80566b3b5b1056a6faecda0f300ba6cca0d0ffeefba7225f55a0338d0",
+    "placements": [
+      "problem-sets-generate--r-m07"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "問題集に使うノートのページ2を選択した状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "limitation": "Pre-execution UI only. AI endpoint unconfigured; no generated result claimed."
+  },
+  {
+    "id": "UN35-068",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-068.png",
+    "web": "images/guides/uni-note/un35/un35-068-quiz-home-ja.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "d36734efae86d62d9335acb52ee82735d11a703db23da53877375a6f86686600",
+    "original_sha256": "252caf69e0558423de4c05230b69e530794f4c1faa3f95fe0262b9adbd29ca53",
+    "placements": [
+      "problem-sets-home--r-m11"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "ホームの問題集タブに表示した手動問題集",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-069",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-069.png",
+    "web": "images/guides/uni-note/un35/un35-069-quiz-hidden-answer-ja.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      1550
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "864fe47ed73ad0e2afb63f21bdedcee48b5cabedd2d2b23912bba9886cbe7bdc",
+    "original_sha256": "dbf4028416a94a430b8a0741231b3e4ffa46f47ae4a6f8502b2c09306ba742bb",
+    "placements": [
+      "problem-sets-review--r-m13"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "手動問題集の復習カードで解答を隠した状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-070",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-070.png",
+    "web": "images/guides/uni-note/un35/un35-070-quiz-revealed-answer-ja.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      1550
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "f6b49d85d3712615c4a100eb448a39cdeff5194e0fe85b4f43437c5f620d29fc",
+    "original_sha256": "94075dad120cdd9974047bc98ddad98fd23f8aa1a0d630a158e6a8923c109632",
+    "placements": [
+      "problem-sets-review--r-m14"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "手動で作成・編集したGDP問題の解答と解説を表示した復習カード",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "excluded_placements": [
+      "workflows-quiz-review--r-m14"
+    ],
+    "limitation": "Manual problem set. Must not be represented as AI-generated."
+  },
+  {
+    "id": "UN35-071",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-071.png",
+    "web": "images/guides/uni-note/un35/un35-071-quiz-manual-entry-ja.png",
+    "crop": [
+      740,
+      320,
+      2020,
+      1720
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "82894f0d729fbd3f93ae731592b29d095d8bc4c675035edeff1610ee56d8ccf3",
+    "original_sha256": "ce4a6f49a48ace3a5d472db05bb779ac9eeb627a6217686ac3cadb9126f0ad17",
+    "placements": [
+      "problem-sets-edit--r-m15"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": []
+  },
+  {
+    "id": "UN35-072",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-072.png",
+    "web": "images/guides/uni-note/un35/un35-072-quiz-card-menu-ja.png",
+    "crop": [
+      0,
+      350,
+      1600,
+      1450
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "4ca39fa257ff86f19e3fb3b639305d3d75ab51b8d2fae7962780bb68606e5d9e",
+    "original_sha256": "c21e96fe11ca0115554543ef1a77439b1d8becf4d32bcbf3a261dc02a25ab70c",
+    "placements": [
+      "problem-sets-edit--r-m16"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "問題集カードの長押しで表示した編集・削除メニュー",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-074",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-074.png",
+    "web": "images/guides/uni-note/un35/un35-074-quiz-add-delete-ja.png",
+    "crop": [
+      740,
+      330,
+      2030,
+      1730
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "8bc8d23fcec5c59ded36ef179df754627c6694e73810cb6a438eddadefa58bbc",
+    "original_sha256": "40228f865316d2a129372670adfabc13238a28b4e53f4cf8be0673fdd89e7413",
+    "placements": [
+      "problem-sets-edit--r-m18"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "問題集の編集画面にある問題文・解答・解説と問題の追加・削除ボタン",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-075",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-075.png",
+    "web": "images/guides/uni-note/un35/un35-075-two-uninote-windows-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "9501e579f6da55a8bbfda72c983c27f3e55df6025cc3dfd4532ac3cd272660bc",
+    "original_sha256": "4b346c5d28a3df32242c1cfb66d1456393304438167bd60baadf6dc5df3e79da",
+    "placements": [
+      "ipados-windows--r-m25",
+      "workflows-two-notes--r-m25"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "左に資料用ノート、右に別の筆記用ノートを開いたUni:Noteの2ウインドウ",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-076",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-076.png",
+    "web": "images/guides/uni-note/un35/un35-076-external-pdf-and-note-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "29173fb63469c8aa834294530c257893fe161d13701b79fe543d2dda1863c99f",
+    "original_sha256": "ed3eb715258bfa9615aa1b9eea64f821e4cf5e1adab3dce98ab96f34cd94ed50",
+    "placements": [
+      "workflows-external-material--r-m27"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "左にiPadOSのプレビューで開いたPDF、右にUni:Noteを配置した状態",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-077",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-077.png",
+    "web": "images/guides/uni-note/un35/un35-077-pip-note-common.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      2064
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "bab6a80f64e6588aa5919b0dacf1c7c37d69cc0de02fb1c8765d54e5199a78bb",
+    "original_sha256": "c355664047ce3a6ef030fa7ded3116fc781738f55f68d672a55cc7550fe6eae2",
+    "placements": [
+      "workflows-pip--r-m28"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "Safariで再生した自作講義動画をiPadOSのPiPで表示した筆記画面",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately.",
+    "handwriting_method": "Actual UI touch strokes using user-authorized finger drawing assistance; no injected drawing data or pixel edits."
+  },
+  {
+    "id": "UN35-079",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-079.png",
+    "web": "images/guides/uni-note/un35/un35-079-backup-save-files-ja.png",
+    "crop": [
+      200,
+      690,
+      1870,
+      2110
+    ],
+    "original_size": [
+      2064,
+      2752
+    ],
+    "source_sha256": "bb83aca3a99f75bdf28e027ade711716f4db8dc937369dfd7f906f28cb210bc3",
+    "original_sha256": "a56db9880bd5db921d97f440cb4a4d44b7356d676d45c04e0744dce364bfd1e9",
+    "placements": [
+      "backup-save--s-m10"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-080",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-080.png",
+    "web": "images/guides/uni-note/un35/un35-080-backup-restore-files-ja.png",
+    "crop": [
+      200,
+      690,
+      1870,
+      2110
+    ],
+    "original_size": [
+      2064,
+      2752
+    ],
+    "source_sha256": "b11f308116911a299a6ce64be8ca1cbfe9bd110a0c4fefcd72f56b67371a2e97",
+    "original_sha256": "b1e71df47c2f689afa8c5a9416c093c478aba201c04648c98e2afff3d7d5569a",
+    "placements": [
+      "backup-restore--s-m11"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-081",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-081.png",
+    "web": "images/guides/uni-note/un35/un35-081-note-unprotect-ja.png",
+    "crop": [
+      720,
+      670,
+      2040,
+      1430
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "2dde63822b721eccd232b6ac4f8424dbf7bcf216f57f7c2b422eecda5961eec1",
+    "original_sha256": "17550ad0b892c5a84dd729a6856bf794dd0f3acdee2650ad425e7853e048e6b0",
+    "placements": [
+      "data-protect--s-m14"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "保護されたノート行をスワイプして表示した保護解除ボタン",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-082",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-082.png",
+    "web": "images/guides/uni-note/un35/un35-082-trash-overview-ja.png",
+    "crop": [
+      0,
+      0,
+      2752,
+      650
+    ],
+    "original_size": [
+      2752,
+      2064
+    ],
+    "source_sha256": "c8f4af77aca1d5ced9940835517d223b387c1976592b8fe7ce63c2be93f2d946",
+    "original_sha256": "a9499c0e129943d7b1e3271a800f97cae1f0220e05de64122215e22c0b42348d",
+    "placements": [
+      "data-trash--s-m15"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "capture_state": "教科と個別ノートが並ぶゴミ箱と復元・削除ボタン",
+    "visual_audit": "Actual raw/crop visually inspected; real UI and self-authored teaching data. Publication rendering checked separately."
+  },
+  {
+    "id": "UN35-083",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-083.png",
+    "web": "images/guides/uni-note/un35/un35-083-settings-home-ja.png",
+    "crop": [
+      0,
+      1100,
+      2064,
+      2240
+    ],
+    "original_size": [
+      2064,
+      2752
+    ],
+    "source_sha256": "55e99b26bc5e2f807ea18e33c94e1caee18fc27503967177fe12817a65e0e328",
+    "original_sha256": "90e3a8c109ce105a40306e180ae40ee919b5457adea31fd210e9aa6ad15547a2",
+    "placements": [
+      "customize-settings--s-m01"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": []
+  },
+  {
+    "id": "UN35-084",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-084.png",
+    "web": "images/guides/uni-note/un35/un35-084-notebook-settings-ja.png",
+    "crop": [
+      0,
+      0,
+      2064,
+      2110
+    ],
+    "original_size": [
+      2064,
+      2752
+    ],
+    "source_sha256": "b1aea7bacf1f0d7a1439782de18182097f2f3a413aa4c89263c16c0dff38f041",
+    "original_sha256": "ad24805dbe0de1d31b2631cf22c4e2fc432ef055ef2c347c5a5ed76e50acfe7a",
+    "placements": [
+      "customize-paper--c-m02"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-085",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-085.png",
+    "web": "images/guides/uni-note/un35/un35-085-display-settings-ja.png",
+    "crop": [
+      0,
+      0,
+      2064,
+      2040
+    ],
+    "original_size": [
+      2064,
+      2752
+    ],
+    "source_sha256": "1d7e417f7c680fbe4e059bf5f5f9e0dca4154a3e12996a7ad9da27d29c9bd340",
+    "original_sha256": "f6609b6a9c57bd06ee2a8b1c0dc4801588fe2771ccb013fced41043919d90522",
+    "placements": [
+      "customize-display--c-m03"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+  },
+  {
+    "id": "UN35-086",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-086.png",
+    "web": "images/guides/uni-note/un35/un35-086-navigation-configuration-ja.png",
+    "crop": [
+      0,
+      0,
+      2064,
+      1850
+    ],
+    "original_size": [
+      2064,
+      2752
+    ],
+    "source_sha256": "c7e9b6e6128f780f476ea50519fa2787b43a5c5f21362c5878c7ef66530b26cb",
+    "original_sha256": "13210102db3d63155efe4adf7d602725cbbf6090ad5032be3ab5c1900eec2594",
+    "placements": [
+      "customize-toolbar--n-m52"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": []
+  },
+  {
+    "id": "UN35-087",
+    "original": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-087.png",
+    "web": "images/guides/uni-note/un35/un35-087-palette-configuration-ja.png",
+    "crop": [
+      0,
+      0,
+      2064,
+      1460
+    ],
+    "original_size": [
+      2064,
+      2752
+    ],
+    "source_sha256": "f1c56b3c352b41cc12bb958b426eb6a7f2cce238f1353638f6a3e6fef0a0f197",
+    "original_sha256": "fa3c50cbab34781d293372a95382bc4c07ec62f7e00f1112186e9afee1433489",
+    "placements": [
+      "customize-toolbar--n-m56"
+    ],
+    "status": "approved",
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "localized_placements": []
+  }
+]

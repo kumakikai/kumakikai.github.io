@@ -21,7 +21,7 @@ Erfordert ein iPad mit iPadOS 17.0 oder neuer. Handschrift nutzt Apple Pencil. D
 
 1. Tippe unten rechts auf der Startseite auf **+** und wähle **Neues Fach**.
 
-{{< guide-image src="images/guides/uni-note/de/create-menu.png" alt="Neues Fach und Ordner erstellen im Plus-Menü der Startseite" mode="crop" caption="Das Menü nach dem Tippen auf + unten rechts." >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-002-home-add-menu-ja.png" alt="Neues Fach und Ordner erstellen im Plus-Menü der Startseite" mode="crop" caption="Das Menü nach dem Tippen auf + unten rechts." >}}
 
 2. Wähle Name, Lineatur, Papier- und Umschlagfarbe.
 3. Öffne das Fach und benenne die erste Notiz. Ohne Namen wird das heutige Datum verwendet.
@@ -36,7 +36,7 @@ Erfordert ein iPad mit iPadOS 17.0 oder neuer. Handschrift nutzt Apple Pencil. D
 2. Schreibe mit dem Apple Pencil. Ziehe zwei Finger auseinander oder zusammen zum Zoomen.
 3. Beim Schreiben auf der letzten Seite wird eine weitere angelegt.
 
-{{< guide-image src="images/guides/uni-note/common/writing-tools.png" alt="Palette mit Stift, Marker, Radierer, Haftmarker und Rückgängig" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="Palette mit Stift, Marker, Radierer, Haftmarker und Rückgängig" mode="crop" >}}
 
 Die Palette lässt sich verschieben. Blende das Lineal oben ein, bewege oder drehe es mit den Fingern und zeichne mit dem Pencil daran entlang. Die Bereichsverschiebung bewegt ganze handschriftliche Striche; Fotos, PDFs und Haftmarker werden einzeln bewegt. Vertikale Notizbücher blättern horizontal. Die Ausrichtung lässt sich nach dem Erstellen nicht ändern.
 
@@ -46,7 +46,7 @@ Die Palette lässt sich verschieben. Blende das Lineal oben ein, bewege oder dre
 
 Gib auf der Startseite einen Teil des Notiztitels in die Suche ein und tippe auf ein Ergebnis. Handschrift, Seiteninhalt, PDFs und Fachnamen werden nicht durchsucht.
 
-{{< guide-image src="images/guides/uni-note/de/home-search.png" alt="Suche nach Notiztiteln auf der Startseite" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-008-note-search-results-ja.png" alt="Suche nach Notiztiteln auf der Startseite" mode="crop" >}}
 
 Über **Notizliste** in der Notiz wechselst du innerhalb des Fachs oder erstellst eine neue Notiz. Wische nach links für Umbenennen, Schutz oder Löschen. Unter **Seiten** springst du per Miniatur zur Seite; langes Drücken öffnet das Löschen.
 
@@ -60,7 +60,7 @@ Gib auf der Startseite einen Teil des Notiztitels in die Suche ein und tippe auf
 2. Wähle Foto, Dokumentfoto oder PDF.
 3. Wähle die einzufügenden PDF-Seiten. Doppelseiten lassen sich beim Einfügen teilen.
 
-{{< guide-image src="images/guides/uni-note/de/attachment-menu.png" alt="Menü für Foto, Dokumentfoto, PDF-Anhang und PDF-Export" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-063-more-menu-ja.png" alt="Menü für Foto, Dokumentfoto, PDF-Anhang und PDF-Export" mode="crop" >}}
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Vorlesungs-PDF mit Handschrift in Uni:Note" mode="tablet" >}}
 
@@ -74,7 +74,7 @@ Wähle den Anhang mit dem Finger zum Verschieben oder Skalieren. Mit Doppeltippe
 2. Starte über den roten Aufnahmeknopf; bei Bedarf pausieren und fortsetzen.
 3. Stoppe zum Speichern und wähle die Aufnahme zur Wiedergabe.
 
-{{< guide-image src="images/guides/uni-note/common/record-button.png" alt="Sprache und roter Aufnahmeknopf im Aufnahmebereich" mode="crop" caption="Im Beispiel ist Englisch als Aufnahmesprache gewählt." >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-042-recording-ready-ja.png" alt="Sprache und roter Aufnahmeknopf im Aufnahmebereich" mode="crop" caption="Das Beispiel zeigt das Aufnahmefeld mit Japanisch als gewählter Sprache." >}}
 
 Aufnahme, Wiedergabe und Transkriptansicht benötigen Premium. Nach 30 Minuten wird geteilt; pro Notiz sind fünf Aufnahmen möglich. Vor Startseite oder Ruhezustand stoppen und speichern. Unterstützte Geräte mit iPadOS 26 können währenddessen transkribieren. Die Sprache steht unter **Einstellungen → Lernhilfe → Aufnahmeunterstützung**. KI-Zusammenfassungen nutzen Transkripttext und KI-Guthaben; prüfe den geschätzten Verbrauch vorab.
 
@@ -84,7 +84,7 @@ Aufnahme, Wiedergabe und Transkriptansicht benötigen Premium. Nach 30 Minuten w
 
 Aktiviere die Lernfunktion in den Einstellungen. Wähle den Haftmarker, verdecke Text mit dem Apple Pencil und tippe mit dem Finger auf den Marker zum Ein- oder Ausblenden. Zum Löschen hältst du den Marker gedrückt und tippst auf die eingeblendete Löschtaste.
 
-{{< guide-image src="images/guides/uni-note/common/sticky-marker.png" alt="Haftmarker verdecken Antworten in der Vorlesungsnotiz" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-053-sticky-pdf-common.png" alt="Haftmarker verdecken Antworten in der Vorlesungsnotiz" mode="crop" >}}
 
 Aktiviere den Aufgabenassistenten, wähle dessen Schaltfläche in der Notiz, umkreise eine Aufgabe mit dem Pencil und prüfe den Bereich, bevor du eine Antwort anforderst.
 

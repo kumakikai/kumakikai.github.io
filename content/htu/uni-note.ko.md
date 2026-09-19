@@ -21,7 +21,7 @@ iPadOS 17.0 이상을 실행하는 iPad가 필요합니다. 손글씨에는 Appl
 
 1. 홈 오른쪽 아래의 **+**를 탭하고 **새 과목**을 선택합니다.
 
-{{< guide-image src="images/guides/uni-note/ko/create-menu.png" alt="홈 오른쪽 아래 +에서 연 새 과목과 폴더 만들기 메뉴" mode="crop" caption="오른쪽 아래 +를 탭한 뒤 표시되는 생성 메뉴입니다." >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-002-home-add-menu-ja.png" alt="홈 오른쪽 아래 +에서 연 새 과목과 폴더 만들기 메뉴" mode="crop" caption="오른쪽 아래 +를 탭한 뒤 표시되는 생성 메뉴입니다." >}}
 
 2. 이름, 줄, 종이색, 표지색을 선택합니다.
 3. 과목을 열어 첫 노트의 이름을 입력합니다. 비워 두면 오늘 날짜가 이름이 됩니다.
@@ -36,7 +36,7 @@ iPadOS 17.0 이상을 실행하는 iPad가 필요합니다. 손글씨에는 Appl
 2. Apple Pencil로 쓰고 두 손가락 핀치로 확대·축소합니다.
 3. 마지막 페이지에 쓰기 시작하면 다음 페이지가 자동으로 추가됩니다.
 
-{{< guide-image src="images/guides/uni-note/common/writing-tools.png" alt="펜·형광펜·지우개·스티커·실행 취소 팔레트" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="펜·형광펜·지우개·스티커·실행 취소 팔레트" mode="crop" >}}
 
 팔레트는 드래그로 옮길 수 있습니다. 상단에서 자를 표시하고 손가락으로 이동·회전한 뒤 Pencil로 자 주변을 그으면 직선이 됩니다. 범위 이동은 손글씨 획 전체를 선택합니다. 사진·PDF·스티커는 따로 조작합니다. 세로 노트는 가로로 넘기며, 만든 뒤 방향을 변경할 수 없습니다.
 
@@ -46,7 +46,7 @@ iPadOS 17.0 이상을 실행하는 iPad가 필요합니다. 손글씨에는 Appl
 
 홈 검색창에 노트 제목의 일부를 입력하고 결과를 탭합니다. 손글씨, 페이지 본문, PDF, 과목 이름은 검색하지 않습니다.
 
-{{< guide-image src="images/guides/uni-note/ko/home-search.png" alt="홈의 노트 제목 검색창" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-008-note-search-results-ja.png" alt="홈의 노트 제목 검색창" mode="crop" >}}
 
 노트 안의 **노트 목록**에서 같은 과목의 다른 노트를 열거나 새 노트를 만듭니다. 왼쪽으로 밀면 이름 변경·보호·삭제를 선택할 수 있습니다. **페이지 목록**에서 썸네일을 탭해 이동하고 길게 눌러 삭제합니다.
 
@@ -60,7 +60,7 @@ iPadOS 17.0 이상을 실행하는 iPad가 필요합니다. 손글씨에는 Appl
 2. 사진, 문서 사진 또는 PDF 첨부를 선택합니다.
 3. 붙일 PDF 페이지를 고릅니다. 펼침면 문서는 나누어 붙일 수 있습니다.
 
-{{< guide-image src="images/guides/uni-note/ko/attachment-menu.png" alt="사진·문서 사진·PDF 첨부·PDF 내보내기 메뉴" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-063-more-menu-ja.png" alt="사진·문서 사진·PDF 첨부·PDF 내보내기 메뉴" mode="crop" >}}
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Uni:Note에서 손글씨를 쓴 강의 PDF" mode="tablet" >}}
 
@@ -74,7 +74,7 @@ iPadOS 17.0 이상을 실행하는 iPad가 필요합니다. 손글씨에는 Appl
 2. 빨간 녹음 버튼으로 시작하고 필요하면 일시정지·재개합니다.
 3. 중지해 저장한 뒤 녹음을 선택해 재생합니다.
 
-{{< guide-image src="images/guides/uni-note/common/record-button.png" alt="녹음 패널의 언어와 빨간 시작 버튼" mode="crop" caption="예시의 문자 변환 언어는 영어입니다." >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-042-recording-ready-ja.png" alt="녹음 패널의 언어와 빨간 시작 버튼" mode="crop" caption="예시는 일본어를 선택한 녹음 패널입니다." >}}
 
 녹음, 재생, 변환된 텍스트 보기는 Premium 기능입니다. 30분마다 나누어 저장하며 노트당 최대 5개입니다. 홈으로 돌아가거나 잠자기 전에 중지해 저장하세요. 지원되는 iPadOS 26 기기에서는 녹음 중 문자 변환이 가능합니다. 언어는 **설정 → 학습 지원 → 녹음 지원**에서 고릅니다. AI 요약은 변환된 텍스트와 AI 잔액을 사용하므로 예상 사용량을 먼저 확인하세요.
 
@@ -84,7 +84,7 @@ iPadOS 17.0 이상을 실행하는 iPad가 필요합니다. 손글씨에는 Appl
 
 학습 지원 설정에서 암기 기능을 켭니다. 스티커 마커로 숨길 부분을 Apple Pencil로 긋고 손가락으로 마커를 탭해 표시·투명을 전환합니다. 삭제하려면 마커를 길게 누른 뒤 나타나는 삭제 버튼을 탭합니다.
 
-{{< guide-image src="images/guides/uni-note/common/sticky-marker.png" alt="강의 노트의 답을 숨긴 스티커 마커" mode="crop" >}}
+{{< guide-image src="images/guides/uni-note/un35/un35-053-sticky-pdf-common.png" alt="강의 노트의 답을 숨긴 스티커 마커" mode="crop" >}}
 
 문제 풀이 어시스턴트를 켠 뒤 노트 위의 해당 버튼을 누릅니다. Pencil로 문제를 둘러싸고 범위를 확인한 다음 풀이를 요청합니다.
 

@@ -1,0 +1,28 @@
+{
+  "source_commit": "35fa888d65aadadb3258165c28a7ebd3d90b4a52",
+  "worktree": "/private/tmp/uninote-guide-35fa888",
+  "scheme": "UniNoteStoreKitTesting",
+  "configuration": "Release",
+  "test": "UniNoteStoreKitTests/StoreKitRestartTests/testPreparePremium",
+  "result": "TEST SUCCEEDED",
+  "device": "757529CE-626E-4AD2-B7CC-DD8028257ED4",
+  "entitlement_method": "Existing SKTestSession local StoreKit purchase; app source unchanged",
+  "real_charge": false,
+  "build_settings": {
+    "ENABLE_TESTABILITY": "YES",
+    "CODE_SIGNING_ALLOWED": "YES",
+    "CODE_SIGN_IDENTITY": "-",
+    "CODE_SIGN_ENTITLEMENTS": "UniNoteStoreKitTests/StoreKitTesting.entitlements",
+    "AWS_AI_BASE_URL": "",
+    "AWS_AI_CLIENT_ID": "",
+    "UNINOTE_DISABLE_CRASHLYTICS_UPLOAD": "1"
+  },
+  "ui_verified": "Settings displays Premium and Premiumの機能を利用できます after normal app launch",
+  "recording": "Recording UI entered after permission; stopped. The app displayed transcription-unavailable message while recording and 音声なし after stopping. No usable audio/transcript obtained; no capture approved.",
+  "backup": "Premium backup UI available; update fails because iCloud is not connected",
+  "ai": "AI balance unavailable; local StoreKit transaction does not establish production AI entitlement",
+  "log": "/private/tmp/un35-storekit-premium.log",
+  "checked_at": "2026-09-19T18:29:25.918483+00:00",
+  "speech_recognition_authorization": "User explicitly approved transmission of self-authored capture lecture audio to Apple on 2026-09-20; Allow pressed in Simulator.",
+  "transcription_code_evidence": "App/RealtimeLectureTranscriptionController.swift checkAvailability checks SpeechTranscriber.isAvailable and supported locale. Several unavailable cases share the same displayed iPadOS26 message; exact failing case not isolated."
+}

@@ -1,0 +1,34 @@
+{
+  "source_commit": "35fa888d65aadadb3258165c28a7ebd3d90b4a52",
+  "source_basis": "User explicitly authorized this source, including finger input solely as capture assistance; not asserted identical to App Store build 6",
+  "worktree": "/private/tmp/uninote-guide-35fa888",
+  "configuration": "Release",
+  "build_result": "SUCCEEDED",
+  "build_adjustments": [
+    "CODE_SIGNING_ALLOWED=NO",
+    "UNINOTE_DISABLE_CRASHLYTICS_UPLOAD=1"
+  ],
+  "source_changes": [],
+  "marketing_version": "3.5.0",
+  "local_build": "1",
+  "binary_sha256": "c1629f7fad244a8834a9bc5c6c78fde30083f3336732dc7e48d585ac6931f2a6",
+  "device": "757529CE-626E-4AD2-B7CC-DD8028257ED4",
+  "runtime": "iOS 26.5",
+  "public_japanese_keys_matching": 946,
+  "public_japanese_keys_changed": 0,
+  "additional_keys": [
+    "settings.finger_drawing",
+    "settings.finger_drawing.description",
+    "attachment.transform"
+  ],
+  "developer_menu_visible": false,
+  "six_ids_recaptured": [
+    "UN35-018",
+    "UN35-019",
+    "UN35-020",
+    "UN35-042",
+    "UN35-046",
+    "UN35-052"
+  ],
+  "approved": false
+}

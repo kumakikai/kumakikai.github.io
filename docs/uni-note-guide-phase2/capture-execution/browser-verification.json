@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-09-20T05:56:10.205290+09:00",
+  "browser": "Codex In-app Browser, actual Chromium UI",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "japanese_routes": 28,
+  "translated_routes": 5,
+  "page_viewport_checks": 66,
+  "rendered_image_checks": 266,
+  "broken_images": 0,
+  "missing_alt": 0,
+  "horizontal_overflow": 0,
+  "support_navigation_missing": 0,
+  "site_footer_missing": 0,
+  "javascript_errors": [],
+  "search_checks": [
+    {
+      "query": "PDF",
+      "results": 8,
+      "followed": "/htu/uni-note/materials/#pdf"
+    },
+    {
+      "query": "録音",
+      "results": 12
+    },
+    {
+      "query": "問題集",
+      "results": 7
+    },
+    {
+      "query": "存在しない撮影検証語987",
+      "results": 0,
+      "message_visible": true
+    }
+  ],
+  "method": "Each guide figure image was scrolled into view by locator click, then complete/naturalWidth/alt/bounds were read from the real DOM. PC two-notes and mobile sticky-material also visually reviewed. Five existing translated monolithic guides checked in both widths; no claim of 28 translated pages per language."
+}

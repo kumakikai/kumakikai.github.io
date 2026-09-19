@@ -108,20 +108,22 @@ def check_article(route, row, doc, before):
         errors.append(issue(route, 'links', 'Rendered links differ from reviewed output'))
     if missing := sorted(set(before.get(route, {}).get('ids', [])) - set(doc.ids)):
         errors.append(issue(route, 'anchors', 'Pre-revision anchors disappeared: ' + repr(missing)))
-    # The 2026-09-19 Japanese Uni:Note revision has its own exact image review.
-    # All other documents retain the original image-preservation contract.
+    # Uni:Note Phase 2 has exact image reviews for Japanese and the five
+    # existing translated guides. Other documents retain their original images.
     images = [n.attrs for n in body.descendants('img')]
     expected_images = before.get(route, {}).get('images', [])
-    if route == '/htu/uni-note/':
+    uni_routes = {'/htu/uni-note/'} | {f'/{lang}/htu/uni-note/' for lang in ('en', 'ko', 'de', 'zh-hant', 'fr')}
+    if route in uni_routes:
         root = Path(__file__).resolve().parents[1]
         try:
             approved = json.loads((root / 'docs/uni-note-guide-phase2/reviewed-output.json').read_text())
-            if approved['route'] != route or approved['sourceSHA256'] != row['sourceSHA256']:
+            image_review = approved if route == '/htu/uni-note/' else approved['localizedImages'][route]
+            if image_review['route'] != route or image_review['sourceSHA256'] != row['sourceSHA256']:
                 raise ValueError('Uni:Note review source binding mismatch')
             for name, checksum in approved['dependencies'].items():
                 if digest((root / name).read_bytes()) != checksum:
                     raise ValueError('Uni:Note reviewed dependency changed: ' + name)
-            expected_images = approved['topImages']
+            expected_images = image_review['topImages']
         except (OSError, ValueError, KeyError, TypeError) as exc:
             errors.append(issue(route, 'images', str(exc)))
     if images != expected_images:

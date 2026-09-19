@@ -4,17 +4,17 @@
   "topImages": [],
   "dependencies": {
     "content/htu/uni-note.md": "879b0380e49e5d7f821b930099af51f484977942a01ec601c292c131be1b4a3f",
-    "data/uni_guide_images.json": "799e4d9f28f0b95220ba1444afe33aad5574abe9c4bdafeb0e2e4322724b0431",
+    "data/uni_guide_images.json": "f8ddc22540749c5f84e1c0669f7b754c7f4fa26b4aeba399276830d92b863765",
     "data/uni_guide_navigation.json": "41e57f485f1eaeb68b18db86019b976e5aaecc53fedcc172b59bea00a1bec8f8",
     "layouts/uni-guide/single.html": "9a88f18b8cf053bf373c1a4a3a3226d276342aa984d2793c7e69788601d9061c",
     "layouts/_shortcodes/uni-guide-image.html": "5ded074435a82fb9324ef2d2a9f24e884a131d43516bf490ec3a859d435943b0",
-    "docs/uni-note-guide-phase2/implementation-map.json": "270554e903ac5fc01764bacc19a674751057e51db9e7da2908f113a107efe6b0",
+    "docs/uni-note-guide-phase2/implementation-map.json": "81e2616a3da55450cb57b863d4831d8a75b16b2e59d89f968d23d6511da626b1",
     "docs/uni-note-guide-phase2/public-build-evidence.json": "78c629cc2976c74be5493215c9720fed6b1cfcaa27d3416588d2345477159266",
     "docs/uni-note-guide-phase2/04-content-review.md": "fd6cd3de77753bcda9051c3f471a2148af1555735f03353bcc9c3b8a026f4fa3",
     "content/uni-note-guide/_index.md": "b00ae82e772fef1bdf3df1100cc5cf886e92a9bb62646c48827898ada97b181a",
     "content/uni-note-guide/ai.md": "eb0f42cd00dccb1807c09855495620cbdbf9e80b84b2c930957dc102169f0a52",
     "content/uni-note-guide/backup.md": "736f6052d4bacd4424304fce4bcdada69a8d4362b5fac7398fc5376f0a5518c8",
-    "content/uni-note-guide/customize.md": "8e923cf3a6b54c03913773cc2e3485f1b2d3c17569bc0d7fda2679358cd4e0e8",
+    "content/uni-note-guide/customize.md": "5c203ea66921f51f175cad82a9d5a1956d80c1b59ce2dcea6e8eb68dd49664cc",
     "content/uni-note-guide/data.md": "ea111bd6d333455818fdd93a900cfbf3fe032d798d182314f7264fe8d74e1445",
     "content/uni-note-guide/ipados.md": "16485eacd1b4921ba97e2faaa8856a9a4f741cffb2ffc58817868e83b6cb0cf1",
     "content/uni-note-guide/library.md": "32d178dea641e3a52a00a97960950c0d76e28fd081ab630c85736a160a025b7e",
@@ -46,9 +46,501 @@
     "docs/uni-note-guide-phase2/ia-revision/02-implementation-record.md": "c89623484fffc91cd14ff0f644870b6e655c8b40521a624f867058fd8a7b9813",
     "layouts/_shortcodes/uni-guide-search.html": "116d935f0676608b4ff2c9cb8730ef27aaa950daa616b5d51579bb4ce3207857",
     "layouts/single.html": "5d0dd329f0fac8cdcae7993b4b5930b5465c4463a800d2703372b4b3f2cf48f8",
-    "scripts/document_review.py": "7806d3f36565db65198d331d79ee1e6992d1f07c2bcd6c0b6fd529ed55b51f98",
+    "scripts/document_review.py": "6243f5b00433c4ee8fb5f49c972e3c83a611d492f95a0aa24ecb1e0d7473bec7",
     "scripts/verify-uninote-guide.py": "c480a3ba4280e102b4cd6e912156654fd27da9a02ba4ad323ead41d587ee74db",
     "data/uni_guide_search_ui.json": "6da4b4a50b2be1265d49e6bf0e098dbad07f67887a9b60cac13737980b6d5695",
-    "scripts/verify-migration.py": "e60d16a6024e62ba31d6db352e27e1f063b98f22389c753ccf8575635efd094d"
+    "scripts/verify-migration.py": "e60d16a6024e62ba31d6db352e27e1f063b98f22389c753ccf8575635efd094d",
+    "content/htu/uni-note.en.md": "7e6b3c025c0b3a060df4b389bf19c791b57dcf69efa604c6dc4d38a6a0f7f1f8",
+    "content/htu/uni-note.ko.md": "7af17de17dde3cb3c32c31e585175d80489be700179e29dfd7f0064aa4c66119",
+    "content/htu/uni-note.de.md": "3060750f6a506c3ca3fa6e8ae8afc99e05691520cb224aeabddddb2b52c21b60",
+    "content/htu/uni-note.zh-hant.md": "d218dfc8f8af19aaef8316abf8025a49ccad44f968dec56b6a6f2fd204ae5153",
+    "content/htu/uni-note.fr.md": "53051c34fd08a77f9e81788674e500a0fd27e9c93a9d2a57755831e149a12873"
+  },
+  "localizedImages": {
+    "/en/htu/uni-note/": {
+      "route": "/en/htu/uni-note/",
+      "sourceSHA256": "7e6b3c025c0b3a060df4b389bf19c791b57dcf69efa604c6dc4d38a6a0f7f1f8",
+      "topImages": [
+        {
+          "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp 560w, /images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_8cfc71d82e5da2ce.webp 1012w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1012",
+          "height": "634",
+          "alt": "New Subject and Create Folder in the Home Add menu",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp 560w, /images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_8e50e7d16e4381c0.webp 950w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "950",
+          "height": "640",
+          "alt": "Pen, highlighter, eraser, sticky marker, undo and redo palette",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp 560w, /images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_78ee882004e07c59.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "281",
+          "alt": "Search note titles field on Home",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp 560w, /images/guides/uni-note/un35/un35-063-more-menu-ja_hu_ee6808155a73127f.webp 692w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "692",
+          "height": "650",
+          "alt": "Photo, document photo, PDF attachment and PDF export menu",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp",
+          "srcset": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp 760w, /images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp 1250w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 760px",
+          "width": "1250",
+          "height": "950",
+          "alt": "Lecture PDF with handwriting in Uni:Note",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp 560w, /images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_44e1baba18d300e6.webp 880w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "880",
+          "height": "2064",
+          "alt": "Recording panel language and red record button",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp 560w, /images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_e384562c2a21e0d9.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "840",
+          "alt": "Sticky markers hiding answers in lecture notes",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/en/problem-answer_hu_c106d2159d2d1bf4.webp",
+          "srcset": "/images/guides/uni-note/en/problem-answer_hu_c106d2159d2d1bf4.webp 260w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "260",
+          "height": "145",
+          "alt": "Copy on the left and Share on the right in the answer sheet",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp",
+          "srcset": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp 560w, /images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp 680w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "680",
+          "height": "335",
+          "alt": "Export Backup and Restore from File in Uni:Note Backup settings",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+    },
+    "/ko/htu/uni-note/": {
+      "route": "/ko/htu/uni-note/",
+      "sourceSHA256": "7af17de17dde3cb3c32c31e585175d80489be700179e29dfd7f0064aa4c66119",
+      "topImages": [
+        {
+          "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp 560w, /images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_8cfc71d82e5da2ce.webp 1012w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1012",
+          "height": "634",
+          "alt": "홈 오른쪽 아래 +에서 연 새 과목과 폴더 만들기 메뉴",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp 560w, /images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_8e50e7d16e4381c0.webp 950w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "950",
+          "height": "640",
+          "alt": "펜·형광펜·지우개·스티커·실행 취소 팔레트",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp 560w, /images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_78ee882004e07c59.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "281",
+          "alt": "홈의 노트 제목 검색창",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp 560w, /images/guides/uni-note/un35/un35-063-more-menu-ja_hu_ee6808155a73127f.webp 692w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "692",
+          "height": "650",
+          "alt": "사진·문서 사진·PDF 첨부·PDF 내보내기 메뉴",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp",
+          "srcset": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp 760w, /images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp 1250w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 760px",
+          "width": "1250",
+          "height": "950",
+          "alt": "Uni:Note에서 손글씨를 쓴 강의 PDF",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp 560w, /images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_44e1baba18d300e6.webp 880w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "880",
+          "height": "2064",
+          "alt": "녹음 패널의 언어와 빨간 시작 버튼",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp 560w, /images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_e384562c2a21e0d9.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "840",
+          "alt": "강의 노트의 답을 숨긴 스티커 마커",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/ko/problem-answer_hu_c106d2159d2d1bf4.webp",
+          "srcset": "/images/guides/uni-note/ko/problem-answer_hu_c106d2159d2d1bf4.webp 260w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "260",
+          "height": "145",
+          "alt": "풀이 결과 오른쪽 위의 복사 버튼과 공유 버튼",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp",
+          "srcset": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp 560w, /images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp 680w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "680",
+          "height": "335",
+          "alt": "Uni:Note 백업 설정의 백업 내보내기와 파일에서 복원",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+    },
+    "/de/htu/uni-note/": {
+      "route": "/de/htu/uni-note/",
+      "sourceSHA256": "3060750f6a506c3ca3fa6e8ae8afc99e05691520cb224aeabddddb2b52c21b60",
+      "topImages": [
+        {
+          "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp 560w, /images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_8cfc71d82e5da2ce.webp 1012w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1012",
+          "height": "634",
+          "alt": "Neues Fach und Ordner erstellen im Plus-Menü der Startseite",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp 560w, /images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_8e50e7d16e4381c0.webp 950w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "950",
+          "height": "640",
+          "alt": "Palette mit Stift, Marker, Radierer, Haftmarker und Rückgängig",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp 560w, /images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_78ee882004e07c59.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "281",
+          "alt": "Suche nach Notiztiteln auf der Startseite",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp 560w, /images/guides/uni-note/un35/un35-063-more-menu-ja_hu_ee6808155a73127f.webp 692w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "692",
+          "height": "650",
+          "alt": "Menü für Foto, Dokumentfoto, PDF-Anhang und PDF-Export",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp",
+          "srcset": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp 760w, /images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp 1250w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 760px",
+          "width": "1250",
+          "height": "950",
+          "alt": "Vorlesungs-PDF mit Handschrift in Uni:Note",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp 560w, /images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_44e1baba18d300e6.webp 880w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "880",
+          "height": "2064",
+          "alt": "Sprache und roter Aufnahmeknopf im Aufnahmebereich",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp 560w, /images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_e384562c2a21e0d9.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "840",
+          "alt": "Haftmarker verdecken Antworten in der Vorlesungsnotiz",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/de/problem-answer_hu_c106d2159d2d1bf4.webp",
+          "srcset": "/images/guides/uni-note/de/problem-answer_hu_c106d2159d2d1bf4.webp 260w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "260",
+          "height": "145",
+          "alt": "Kopieren links und Teilen rechts im Ergebnisfenster",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp",
+          "srcset": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp 560w, /images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp 680w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "680",
+          "height": "335",
+          "alt": "Backup exportieren und Aus Datei wiederherstellen in den Uni:Note-Einstellungen",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+    },
+    "/zh-hant/htu/uni-note/": {
+      "route": "/zh-hant/htu/uni-note/",
+      "sourceSHA256": "d218dfc8f8af19aaef8316abf8025a49ccad44f968dec56b6a6f2fd204ae5153",
+      "topImages": [
+        {
+          "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp 560w, /images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_8cfc71d82e5da2ce.webp 1012w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1012",
+          "height": "634",
+          "alt": "首頁右下角 + 開啟的新增科目與建立資料夾選單",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp 560w, /images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_8e50e7d16e4381c0.webp 950w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "950",
+          "height": "640",
+          "alt": "筆、螢光筆、橡皮擦、便利貼及復原工具盤",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp 560w, /images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_78ee882004e07c59.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "281",
+          "alt": "首頁的筆記標題搜尋欄",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp 560w, /images/guides/uni-note/un35/un35-063-more-menu-ja_hu_ee6808155a73127f.webp 692w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "692",
+          "height": "650",
+          "alt": "照片、文件照片、PDF 貼附與匯出選單",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp",
+          "srcset": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp 760w, /images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp 1250w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 760px",
+          "width": "1250",
+          "height": "950",
+          "alt": "Uni:Note 中已加手寫註記的課程 PDF",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp 560w, /images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_44e1baba18d300e6.webp 880w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "880",
+          "height": "2064",
+          "alt": "錄音面板的語言與紅色開始按鈕",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp 560w, /images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_e384562c2a21e0d9.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "840",
+          "alt": "遮住課程答案的便利貼標記",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/zh-hant/problem-answer_hu_c106d2159d2d1bf4.webp",
+          "srcset": "/images/guides/uni-note/zh-hant/problem-answer_hu_c106d2159d2d1bf4.webp 260w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "260",
+          "height": "145",
+          "alt": "解答結果右上方的複製與分享按鈕",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp",
+          "srcset": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp 560w, /images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp 680w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "680",
+          "height": "335",
+          "alt": "Uni:Note 備份設定中的匯出備份與從檔案還原",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+    },
+    "/fr/htu/uni-note/": {
+      "route": "/fr/htu/uni-note/",
+      "sourceSHA256": "53051c34fd08a77f9e81788674e500a0fd27e9c93a9d2a57755831e149a12873",
+      "topImages": [
+        {
+          "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp 560w, /images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_8cfc71d82e5da2ce.webp 1012w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1012",
+          "height": "634",
+          "alt": "Ajouter une matière et Créer un dossier dans le menu + de l’accueil",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp 560w, /images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_8e50e7d16e4381c0.webp 950w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "950",
+          "height": "640",
+          "alt": "Palette avec stylo, surligneur, gomme, repère et annulation",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp 560w, /images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_78ee882004e07c59.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "281",
+          "alt": "Recherche de titres sur l’accueil",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp 560w, /images/guides/uni-note/un35/un35-063-more-menu-ja_hu_ee6808155a73127f.webp 692w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "692",
+          "height": "650",
+          "alt": "Menu photo, document photo, pièce jointe PDF et export PDF",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp",
+          "srcset": "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp 760w, /images/guides/uni-note/common/pdf-writing_hu_88adc9231b2a4e13.webp 1250w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 760px",
+          "width": "1250",
+          "height": "950",
+          "alt": "PDF de cours annoté dans Uni:Note",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp 560w, /images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_44e1baba18d300e6.webp 880w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "880",
+          "height": "2064",
+          "alt": "Langue et bouton rouge du panneau d’enregistrement",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp",
+          "srcset": "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp 560w, /images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_e384562c2a21e0d9.webp 1120w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "1120",
+          "height": "840",
+          "alt": "Repères adhésifs masquant les réponses dans les notes",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/fr/problem-answer_hu_c106d2159d2d1bf4.webp",
+          "srcset": "/images/guides/uni-note/fr/problem-answer_hu_c106d2159d2d1bf4.webp 260w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "260",
+          "height": "145",
+          "alt": "Boutons Copier à gauche et Partager à droite du panneau de réponse",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp",
+          "srcset": "/images/guides/uni-note/common/backup-file-actions_hu_712beabe42e422ce.webp 560w, /images/guides/uni-note/common/backup-file-actions_hu_4f88dd0103d86c7b.webp 680w",
+          "sizes": "(max-width: 600px) calc(100vw - 64px), 560px",
+          "width": "680",
+          "height": "335",
+          "alt": "Exporter une sauvegarde et Restaurer depuis un fichier dans Uni:Note",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+    }
   }
 }
