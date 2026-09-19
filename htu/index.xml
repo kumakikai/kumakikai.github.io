@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使い方 on KUMAKIKAI</title><link>https://kumakikai.github.io/htu/</link><description>Recent content in 使い方 on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><atom:link href="https://kumakikai.github.io/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使い方 (Nocca)</title><link>https://kumakikai.github.io/htu/nocca/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/nocca/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使い方 on KUMAKIKAI</title><link>https://kumakikai.github.io/htu/</link><description>Recent content in 使い方 on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><atom:link href="https://kumakikai.github.io/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使い方 (Uni:Note)</title><link>https://kumakikai.github.io/htu/uni-note/</link><pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/uni-note/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;一般公開版3.5.0の基本操作を案内します。初めてのノート作成から、資料・録音・AIを組み合わせた復習まで、目的に合わせて説明を選べます。&lt;/p&gt;
+&lt;p&gt;対応端末はiPad、対応OSはiPadOS 17.0以降です。手書きにはApple Pencilを使います。文字起こしには対応するiPadOS 26以降の環境が必要です。&lt;/p&gt;
+
+&lt;h2 id="基本的な使い方"&gt;基本的な使い方&lt;/h2&gt;
+
+&lt;h3 id="初めて使う"&gt;初めて使う&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/start/screens/"&gt;画面とノートの仕組みを知る&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/start/first-note/"&gt;最初の教科とノートを作る&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/writing/pens/"&gt;ペンを選んで書く&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/backup/save/"&gt;バックアップを保存する&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 540px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.github.io/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp 540w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="540" height="285" alt="教科とフォルダの作成メニュー" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;figcaption&gt;ホームの＋から開く作成メニュー。&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="やりたいことから探す"&gt;やりたいことから探す&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/notebooks/manage/"&gt;ノートを探す・切り替える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/materials/pdf/"&gt;PDFの必要なページを取り込む&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/recording/transcribe/"&gt;録音を文字で読み返す&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/problem-sets/edit/"&gt;問題集を自分で作る・直す&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/customize/toolbar/"&gt;使うボタンと道具を並べ替える&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/data/trash/"&gt;削除したノートを戻す&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="機能から探す"&gt;機能から探す&lt;/h2&gt;
+&lt;div id="1-ホームで教科とフォルダを整理する" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-最初のノートを開く" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="create" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="はじめに-1"&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/start/"&gt;はじめに&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;初めて使うときは、画面の仕組みを確認してから最初のノートを作ります。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/start/first-note/"&gt;最初の教科とノートを作る&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="教科フォルダ"&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/library/"&gt;教科・フォルダ&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;教科を名前やフォルダで整理し、必要なノートを探します。&lt;/p&gt;
+&lt;div id="6-ノート一覧-と-ページ一覧-を使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="find" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="ノートページ"&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/notebooks/"&gt;ノート・ページ&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;ノートを増やす・切り替える操作と、ページの移動・整理を扱います。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/notebooks/manage/"&gt;ノート一覧で切り替える&lt;/a&gt; ／ &lt;a href="https://kumakikai.github.io/htu/uni-note/notebooks/pages/"&gt;ページ一覧で移動する&lt;/a&gt;&lt;/p&gt;
+&lt;div id="3-apple-pencilで書く" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="4-2本指でズームする" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="5-ツールを切り替える" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="9-定規-を使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="write" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="手書き"&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/writing/"&gt;手書き&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Apple Pencilで書く基本から、道具・線の整理・定規の使い方へ進めます。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/writing/pens/"&gt;ペンを選んで書く&lt;/a&gt; ／ &lt;a href="https://kumakikai.github.io/htu/uni-note/notebooks/pages/"&gt;スクロール・ズーム&lt;/a&gt; ／ &lt;a href="https://kumakikai.github.io/htu/uni-note/writing/ruler/"&gt;定規&lt;/a&gt;&lt;/p&gt;
+&lt;div id="7-その他-メニューを使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="8-写真とpdfを使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="pdf" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="写真pdf"&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/materials/"&gt;写真・PDF&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/materials/pdf/"&gt;PDFを貼り付ける&lt;/a&gt; ／ &lt;a href="https://kumakikai.github.io/htu/uni-note/materials/photos/"&gt;写真を貼り付ける&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;写真・PDFは、固定を解除してから個別に動かします。&lt;a href="https://kumakikai.github.io/htu/uni-note/materials/arrange/"&gt;配置と固定の手順&lt;/a&gt;へ進めます。&lt;/p&gt;
+&lt;div id="10-録音文字起こしai要約を使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="recording" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="録音文字起こし"&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/recording/"&gt;録音・文字起こし&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;授業の録音から再生、文字起こし、AI要約までを順に使えます。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/recording/capture/"&gt;録音を始める&lt;/a&gt; ／ &lt;a href="https://kumakikai.github.io/htu/uni-note/recording/summary/"&gt;AI要約を作る&lt;/a&gt;&lt;/p&gt;
+&lt;div id="11-暗記を使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="review" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="暗記集中"&gt;&lt;a href="https://kumakikai.github.io/htu/uni-note/study/"&gt;暗記・集中&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;答えを隠して復習し、勉強時間を区切り、資料を指し示します。&lt;/p&gt;</description></item><item><title>使い方 (Nocca)</title><link>https://kumakikai.github.io/htu/nocca/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/nocca/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;Noccaは、家族へ自分のペースで意思を伝えるためのアプリです。本人と家族、それぞれにiOS 17以降のiPhoneが必要です。家族との接続・通信にはインターネット接続を使います。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Noccaは現在開発中です。このガイドは公開前の現在のiPhone実装に基づきます。画面内の家族・メッセージ・招待コードは説明用のデモで、実際には利用できません。&lt;/p&gt;
@@ -154,71 +215,7 @@
  &lt;/div&gt;
  
 &lt;/figure&gt;
-&lt;p&gt;「設定 → 前回位置から再開」をオンにすると、前回見ていたページから再開できます。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note)</title><link>https://kumakikai.github.io/htu/uni-note/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/uni-note/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;Apple Pencilで書き始めるところから、PDF、復習、バックアップまでを実画面で案内します。画像は操作部分を抜き出しており、タップすると拡大できます。公開中の3.4.0の基本操作を中心にしています。&lt;/p&gt;
-&lt;p&gt;対応端末はiPad、対応OSはiPadOS 17.0以降です。手書きにはApple Pencilを使います。録音の文字起こしには、対応するiPadOS 26以降の環境が必要です。&lt;/p&gt;
-
-&lt;h2 id="基本的な使い方"&gt;基本的な使い方&lt;/h2&gt;
-&lt;div id="1-ホームで教科とフォルダを整理する" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-最初のノートを開く" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
-
-&lt;h3 id="create"&gt;教科と最初のノートを作る&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;ホーム右下の「＋」をタップし、「教科を追加」を選びます。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 540px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;
- &lt;img src="https://kumakikai.github.io/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp 540w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="540" height="285" alt="ホーム右下の＋から開く「教科を追加」と「フォルダを作成」のメニュー" loading="lazy" decoding="async"&gt;
- &lt;/div&gt;
- &lt;figcaption&gt;右下の＋をタップしたあとの作成メニュー。&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ol start="2"&gt;
-&lt;li&gt;教科名、罫線、紙色、表紙カラーを選びます。&lt;/li&gt;
-&lt;li&gt;作成した教科を開き、最初のノート名を入力します。空欄なら今日の日付で始められます。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;教科をまとめたいときは、同じ「＋」からフォルダを作成します。教科をフォルダへドラッグして移動でき、フォルダを削除しても中の教科はホームに戻ります。教科の長押しから名前や紙の設定を編集できます。&lt;/p&gt;
-&lt;div id="3-apple-pencilで書く" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="4-2本指でズームする" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="5-ツールを切り替える" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="9-定規-を使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
-
-&lt;h2 id="write"&gt;ペンを選んで書く&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;パレットのペン・蛍光ペン・消しゴムから使う道具を選びます。&lt;/li&gt;
-&lt;li&gt;Apple Pencilで書き、指でスクロールします。2本指のピンチで拡大・縮小できます。&lt;/li&gt;
-&lt;li&gt;最後のページに書き始めると、次のページが自動で追加されます。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;
- &lt;img src="https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_6af907cb544e3ed.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_6af907cb544e3ed.webp 560w, https://kumakikai.github.io/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp 655w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="655" height="150" alt="Uni:Noteのペン・蛍光ペン・消しゴム・付箋マーカー・戻る・やり直しパレット" loading="lazy" decoding="async"&gt;
- &lt;/div&gt;
- 
-&lt;/figure&gt;
-&lt;p&gt;パレットはドラッグで移動できます。ノート上部の「定規」を出すと、指で位置・角度を調整し、近くをApple Pencilでなぞって直線を引けます。「範囲移動」は手書きの線を囲んで移す操作です。写真・PDF・付箋は個別に動かします。&lt;/p&gt;
-&lt;p&gt;縦ノートは横方向にページを送ります。ノートの向きは作成後に変更できません。&lt;/p&gt;
-&lt;div id="6-ノート一覧-と-ページ一覧-を使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
-
-&lt;h2 id="find"&gt;ノートを切り替える・探す&lt;/h2&gt;
-&lt;p&gt;ホームの「ノートタイトルを検索」にタイトルの一部を入力し、結果をタップします。検索対象はノートのタイトルです。手書き本文・PDF・教科名は検索しません。&lt;/p&gt;
-&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;
- &lt;img src="https://kumakikai.github.io/images/guides/uni-note/ja/home-search_hu_8693c69367742712.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/ja/home-search_hu_8693c69367742712.webp 560w, https://kumakikai.github.io/images/guides/uni-note/ja/home-search_hu_7b350f746a0ebcd6.webp 670w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="670" height="125" alt="Uni:Noteホーム上部のノートタイトル検索欄" loading="lazy" decoding="async"&gt;
- &lt;/div&gt;
- 
-&lt;/figure&gt;
-&lt;p&gt;ノート画面の「ノート一覧」から同じ教科の別ノートを開いたり、「新規ノート」を追加したりできます。ノート一覧を左へスワイプすると名前変更・保護・削除を選べます。「ページ一覧」はサムネイルをタップして移動し、長押しでページを削除します。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3.5.0の公開前情報:&lt;/strong&gt; 教科カード内から「ノート一覧」を開く導線や、ノート画面のボタン配置・パレットのカスタマイズが追加されています。公開中の3.4.0では上記のノート画面から操作してください。&lt;/p&gt;
-&lt;div id="7-その他-メニューを使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="8-写真とpdfを使う" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
-
-&lt;h2 id="pdf"&gt;写真・PDFを入れる、書き出す&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;ノート画面右上の「その他」を開きます。&lt;/li&gt;
-&lt;li&gt;「写真貼付」「写真を書類として貼付」「PDF貼付」から素材を選びます。&lt;/li&gt;
-&lt;li&gt;PDFは必要なページを選んで貼り付けます。見開き資料は「見開きを分割」を選べます。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 460px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;
- &lt;img src="https://kumakikai.github.io/images/guides/uni-note/ja/attachment-menu_hu_e3feefa9ba739ba3.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/ja/attachment-menu_hu_e3feefa9ba739ba3.webp 460w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="460" height="335" alt="Uni:Noteのその他メニューにある写真貼付・書類写真・PDF貼付・PDF出力" loading="lazy" decoding="async"&gt;
- &lt;/div&gt;
- 
-&lt;/figure&gt;
-&lt;p&gt;貼り付けた写真・PDFは指で選択して移動・拡大縮小し、ダブルタップで固定・固定解除します。固定した資料の上にもApple Pencilで書き込めます。&lt;/p&gt;</description></item><item><title>使い方 (オトミル)</title><link>https://kumakikai.github.io/htu/oto-miru/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/oto-miru/</guid><description>&lt;div id="1-利用前に確認すること" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;p&gt;「設定 → 前回位置から再開」をオンにすると、前回見ていたページから再開できます。&lt;/p&gt;</description></item><item><title>使い方 (オトミル)</title><link>https://kumakikai.github.io/htu/oto-miru/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/htu/oto-miru/</guid><description>&lt;div id="1-利用前に確認すること" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
 &lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;オトミルは、iPhone / iPadのマイクで拾った音声を、大きな日本語字幕で表示します。&lt;/p&gt;
