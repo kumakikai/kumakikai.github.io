@@ -1,17 +1,17 @@
 ---
 title: "使い方 (Uni:Note)"
-description: "Uni:Note 3.5.0の公式ユーザーガイド。ノート作成、Apple Pencil、写真・PDF、録音、AI、問題集、バックアップ、便利な使い方を目的から探せます。"
+description: "Uni:Noteの公式ユーザーガイド。ノート作成、Apple Pencil、指での描画、写真・PDF、録音、AI、問題集、バックアップ、便利な使い方を目的から探せます。"
 seo_title: "使い方 (Uni:Note) | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/"
-lastmod: "2026-09-19"
+lastmod: "2026-09-22"
 guide_category: ""
 guide_kind: "top"
 ---
 
-一般公開版3.5.0の基本操作を案内します。初めてのノート作成から、資料・録音・AIを組み合わせた復習まで、目的に合わせて説明を選べます。
+現行版の基本操作を案内します。初めてのノート作成から、資料・録音・AIを組み合わせた復習まで、目的に合わせて説明を選べます。
 
-対応端末はiPad、対応OSはiPadOS 17.0以降です。手書きにはApple Pencilを使います。文字起こしには対応するiPadOS 26以降の環境が必要です。
+対応端末はiPad、対応OSはiPadOS 17.0以降です。Apple Pencilで従来どおり手書きでき、「指で描画」をONにすると1本指でも書けます。文字起こしには対応するiPadOS 26以降の環境が必要です。
 
 {{< uni-guide-search >}}
 

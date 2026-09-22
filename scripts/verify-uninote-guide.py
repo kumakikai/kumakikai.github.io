@@ -78,7 +78,7 @@ def verify(build):
         if body is None:
             continue
         visible = body.text()
-        require(not re.search(r'指描画|指で描画|指で書き|CoreHandwriting|Premium Plus|SHOT-|CAP-\d|[NMSR]-M\d|画像準備中|3\.4\.0|公開前情報', visible), 'Unreleased/internal/old-version text: ' + route)
+        require(not re.search(r'CoreHandwriting|Premium Plus|SHOT-|CAP-\d|[NMSR]-M\d|画像準備中|3\.4\.0|公開前情報', visible), 'Unreleased/internal/old-version text: ' + route)
         require(not re.search(r'ノートの向きは作成後に変更でき|写真・PDF・付箋は個別に動か', visible), 'HOLD assertion reintroduced: ' + route)
         require(not re.search(r'学習支援.{0,12}暗記マーカー.{0,8}オン|設定でオンにしてから', visible), 'Old activation route: ' + route)
         require(not re.search(r'(?<![A-Za-z])(?:top|[a-z]+-[a-z]+)--[nmsr]-m\d+', html), 'Slot ID leaked in HTML: ' + route)

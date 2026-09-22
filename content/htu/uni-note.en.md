@@ -1,15 +1,15 @@
 ---
-version_context_date: "2026-09-07"
+version_context_date: "2026-09-22"
 title: "How to Use (Uni:Note)"
 description: "How to Use for Uni:Note."
-lastmod: 2026-09-08
+lastmod: 2026-09-22
 ---
 
 ## Introduction
 
-Use these real screens to follow the main Uni:Note 3.4.0 operations. Tap an image to enlarge it. Apple Pencil is used for writing; fingers are used for scrolling and moving attachments.
+Use these real screens to follow the main Uni:Note operations. Tap an image to enlarge it. You can keep writing with Apple Pencil, or turn on **Draw with Finger** to write with one finger.
 
-Requires an iPad with iPadOS 17.0 or later. Handwriting uses Apple Pencil. Recording transcription requires a supported environment with iPadOS 26 or later.
+Requires an iPad with iPadOS 17.0 or later. Recording transcription requires a supported environment with iPadOS 26 or later.
 
 {{< uni-guide-search mode="local" >}}
 
@@ -33,8 +33,10 @@ The same + menu creates folders. Drag subjects into them; deleting a folder retu
 ## Choose a tool and write {#write}
 
 1. Select the pen, highlighter or eraser in the palette.
-2. Write with Apple Pencil. Pinch with two fingers to zoom.
+2. Write with Apple Pencil. When **Draw with Finger** is on, you can also draw or erase with one finger.
 3. Writing on the last page adds the next page automatically.
+
+**Draw with Finger** is directly below the current-plan card on the main Settings screen and is also available in the first-run guidance. When it is off, scroll with one finger. When it is on, one finger draws, so scroll with two fingers. Pinch with two fingers to zoom in either state. Turning it off restores one-finger scrolling. Apple Pencil remains available in both states.
 
 {{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="Pen, highlighter, eraser, sticky marker, undo and redo palette" mode="crop" >}}
 
@@ -50,8 +52,6 @@ Type part of a note title in **Search note titles** on Home and tap a result. Se
 
 Inside a note, **Note List** opens other notes in the subject and lets you create one. Swipe left for rename, protection or deletion. **Pages** opens thumbnails: tap to navigate, long-press to delete.
 
-**Before the 3.5.0 release:** a subject-card shortcut to Note List and toolbar/palette customization exist in the local upcoming version. In the published 3.4.0, use the controls inside the note as described above.
-
 {{< guide-anchor "7-use-more" "8-use-photos-and-pdfs" >}}
 
 ## Attach photos or PDFs and export {#pdf}
@@ -64,7 +64,7 @@ Inside a note, **Note List** opens other notes in the subject and lets you creat
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Lecture PDF with handwriting in Uni:Note" mode="tablet" >}}
 
-Select an attachment with your finger to move or resize it. Double-tap to lock or unlock it, then write over the document with Apple Pencil. For sharing, choose **More → Export PDF**, then the current note or the whole subject. Settings lets you use the paper color or white as the PDF background.
+To select, move, resize, lock, unlock, or otherwise operate a photo or PDF, first turn off **Draw with Finger** in Settings. Then select the attachment with your finger to move or resize it. Double-tap to lock or unlock it, then write over the document with Apple Pencil. For sharing, choose **More → Export PDF**, then the current note or the whole subject. Settings lets you use the paper color or white as the PDF background.
 
 {{< guide-anchor "10-use-recording-transcription-and-ai-summary" >}}
 
@@ -94,8 +94,6 @@ To send the result to another app, tap Copy on the left or Share on the right at
 
 For practice sets, choose **More → Create Practice Set**, select pages, keep or discard candidates and save the set. Open **Practice Sets** on Home to review it. AI answers and generation use AI balance; check results against your learning materials.
 
-**Before the 3.5.0 release:** manual set creation, editing saved sets and hiding the Home practice-set switch are upcoming-version operations. Published 3.4.0 supports the generation and review flow above.
-
 {{< guide-anchor "14-protect-notes-and-use-trash" >}}
 
 ## Protect, delete and restore {#protect}
@@ -124,5 +122,7 @@ Easy Backup update/restore requires Premium. It saves and loads an iCloud file; 
 ## Use two iPad windows {#windows}
 
 Use iPad window controls to place Uni:Note next to a document or video. You can also open two Uni:Note windows.
+
+The **Draw with Finger** setting is shared by all Uni:Note windows on the same device. Changing it in one window also changes whether one or two fingers are used for scrolling in the other window.
 
 Dock gestures and names such as Split View or Slide Over depend on the iPadOS version and window settings.

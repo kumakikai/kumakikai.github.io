@@ -1,14 +1,14 @@
 {
   "route": "/htu/uni-note/",
-  "sourceSHA256": "879b0380e49e5d7f821b930099af51f484977942a01ec601c292c131be1b4a3f",
+  "sourceSHA256": "9fb4136fc04bb6d94f8fd6b366d09338e5af2b02ac4e8266766fef08a6808b7e",
   "topImages": [],
   "dependencies": {
-    "content/htu/uni-note.md": "879b0380e49e5d7f821b930099af51f484977942a01ec601c292c131be1b4a3f",
+    "content/htu/uni-note.md": "9fb4136fc04bb6d94f8fd6b366d09338e5af2b02ac4e8266766fef08a6808b7e",
     "data/uni_guide_images.json": "f8ddc22540749c5f84e1c0669f7b754c7f4fa26b4aeba399276830d92b863765",
-    "data/uni_guide_navigation.json": "41e57f485f1eaeb68b18db86019b976e5aaecc53fedcc172b59bea00a1bec8f8",
+    "data/uni_guide_navigation.json": "b643dfc09d3d8c4a856c66337a4a279ccb2d52502778c25a9bf692e0a9b52298",
     "layouts/uni-guide/single.html": "9a88f18b8cf053bf373c1a4a3a3226d276342aa984d2793c7e69788601d9061c",
     "layouts/_shortcodes/uni-guide-image.html": "5ded074435a82fb9324ef2d2a9f24e884a131d43516bf490ec3a859d435943b0",
-    "docs/uni-note-guide-phase2/implementation-map.json": "81e2616a3da55450cb57b863d4831d8a75b16b2e59d89f968d23d6511da626b1",
+    "docs/uni-note-guide-phase2/implementation-map.json": "e102711f869e02c01aa4a3c34cd88ff2d21b3ede9783411e537a5b1069b01f79",
     "docs/uni-note-guide-phase2/public-build-evidence.json": "78c629cc2976c74be5493215c9720fed6b1cfcaa27d3416588d2345477159266",
     "docs/uni-note-guide-phase2/04-content-review.md": "fd6cd3de77753bcda9051c3f471a2148af1555735f03353bcc9c3b8a026f4fa3",
     "content/uni-note-guide/_index.md": "b00ae82e772fef1bdf3df1100cc5cf886e92a9bb62646c48827898ada97b181a",
@@ -16,29 +16,29 @@
     "content/uni-note-guide/backup.md": "736f6052d4bacd4424304fce4bcdada69a8d4362b5fac7398fc5376f0a5518c8",
     "content/uni-note-guide/customize.md": "5c203ea66921f51f175cad82a9d5a1956d80c1b59ce2dcea6e8eb68dd49664cc",
     "content/uni-note-guide/data.md": "ea111bd6d333455818fdd93a900cfbf3fe032d798d182314f7264fe8d74e1445",
-    "content/uni-note-guide/ipados.md": "16485eacd1b4921ba97e2faaa8856a9a4f741cffb2ffc58817868e83b6cb0cf1",
+    "content/uni-note-guide/ipados.md": "098484bf40c5a81df35d29d6bb4363908b33195f44d4ba2b16e5934b79c0540a",
     "content/uni-note-guide/library.md": "32d178dea641e3a52a00a97960950c0d76e28fd081ab630c85736a160a025b7e",
-    "content/uni-note-guide/materials.md": "f7e14de0f629f99d8d527ca42a5eec44a8b82d0e1c90beeaaee977cff5868fe7",
-    "content/uni-note-guide/notebooks.md": "e6cf2c931a961734854acfc930ae4e27b68598cab049ce20381c2570ac0da253",
+    "content/uni-note-guide/materials.md": "d89b12552ce80d9c206aac2dde8c3094387fafd42ccc4a6809f275dddccd6a12",
+    "content/uni-note-guide/notebooks.md": "652a27b01a01e4c29a0c3a4f1547481db12148f7306f977064de4b816677eda4",
     "content/uni-note-guide/plans.md": "2ce0ae4abc90a87cea3e249bddf2031bb4c184cb9814f39193c741a5ef2988a2",
     "content/uni-note-guide/problem-sets.md": "540bd10131c3673b7f2612a945e805ad597c56dafe1daca3e1e0373a532196d8",
     "content/uni-note-guide/recording.md": "6352013cf2036afbde0a05fa7158f6df474f055275e2803cf29f2d20e03f5f56",
-    "content/uni-note-guide/start.md": "5e33dbf8afb1e74645f752641d71075a4aa9e6b3dcb009c5b0c38afe2940b652",
-    "content/uni-note-guide/study.md": "ace02a4f40d2cba0a9a91ff44304300d7975373a4ed717b6b1538a3746e4d593",
-    "content/uni-note-guide/workflows-explain.md": "b8ed8a51005b2f4891087431ae2c1e609619a87da47d046fff27cc6ee6f296e6",
+    "content/uni-note-guide/start.md": "3277fff5063ff9d0ff1e93775df5df5288fead327498cc88795365eed1e047cf",
+    "content/uni-note-guide/study.md": "885fb564f4509d3060805657d10109850a6e9704ad9c948442c01bb7828955ad",
+    "content/uni-note-guide/workflows-explain.md": "e18c5cc419b70901c69a1ae9d2cff5d639a703533ba44700d2cc612d8e1ece98",
     "content/uni-note-guide/workflows-external-material.md": "47f55ffd5627589543655dc7268e2b6376d7831391c9fe8dc020bf52c665ba80",
     "content/uni-note-guide/workflows-focus.md": "4096c73ed59f3bfc0af419a6f522fd8da3d29614e5e408b94d3da1dddcb74470",
-    "content/uni-note-guide/workflows-material-margin.md": "31d0eb1c0e126607b96776e4495047b01ec66e8da8a241cd2bbdae7f957749da",
+    "content/uni-note-guide/workflows-material-margin.md": "4e35e419a7b66916e188dbc81db699c9dac57921e4b5935214caf42a7d4226da",
     "content/uni-note-guide/workflows-pip.md": "5bdb9c1ceba5e9b3bcb23ae47f6490d7c3bfb7f8447b3147b20becd052bf015b",
     "content/uni-note-guide/workflows-quiz-review.md": "19f402700d394ac14b57586181ed89099af12201718e9a8939c7613bb8a8e4c1",
     "content/uni-note-guide/workflows-record-review.md": "6ce37fe95daaf5f454d1ab61913e29a24773a983e983c6d6b6f4b7e1d672dac9",
     "content/uni-note-guide/workflows-split-spread.md": "42d441302cd92cf4afb7eb07168f699a76e6a9315b977172eebe0af574b3f55a",
     "content/uni-note-guide/workflows-sticky-material.md": "e3126d5e9769c02e50945ee8d5ceb1564988217597ec233aa939afb93dff30b1",
     "content/uni-note-guide/workflows-summary-annotate.md": "ec4ab8a966419e939f39e5a231874d3a3fc102b55a5fcb006e5f6b10757f3501",
-    "content/uni-note-guide/workflows-two-notes.md": "75ae927f2a370c6010e63fb5f3f311e695e958b11c67953fe4ee1d3959f46788",
-    "content/uni-note-guide/workflows-vertical-annotate.md": "d0dd657f2549f5fe743343634c98d431e508055a68f0c202f6ce7f15b106dab9",
+    "content/uni-note-guide/workflows-two-notes.md": "c5896b75fc4b3419d37f3daccf3a10f195980a02de59a81c5ece35afa50e5631",
+    "content/uni-note-guide/workflows-vertical-annotate.md": "5852a95d844125adb60ffdd3a005235e3864b047590403ac14afcb2acdd3faf7",
     "content/uni-note-guide/workflows.md": "594807078d03228a516a4b08e5b4cd3ba318c768e2947f5e8e36c0053b03b880",
-    "content/uni-note-guide/writing.md": "b2cf7fed954374d49e3b017d66631279e1a785290ee90381beda68307530fba4",
+    "content/uni-note-guide/writing.md": "f9435375f20cac49c48994ebdd109e47df8531ff004a49c9464ff3ae984382a6",
     "assets/css/site.css": "3f3b842806aa4457ff997a1b08361407d9de734726386b57d85147bdeec26074",
     "assets/js/uni-guide-navigation.js": "d455044b7f8253a0a41c3515080667229442fc5f618f19e8867c013ac13078ef",
     "layouts/_shortcodes/uni-guide-category.html": "e1039c75971899592b69d0d6e8bf58458f89e63da6e4e102d011c1610cc0c5a7",
@@ -47,19 +47,19 @@
     "layouts/_shortcodes/uni-guide-search.html": "116d935f0676608b4ff2c9cb8730ef27aaa950daa616b5d51579bb4ce3207857",
     "layouts/single.html": "5d0dd329f0fac8cdcae7993b4b5930b5465c4463a800d2703372b4b3f2cf48f8",
     "scripts/document_review.py": "6243f5b00433c4ee8fb5f49c972e3c83a611d492f95a0aa24ecb1e0d7473bec7",
-    "scripts/verify-uninote-guide.py": "c480a3ba4280e102b4cd6e912156654fd27da9a02ba4ad323ead41d587ee74db",
+    "scripts/verify-uninote-guide.py": "58739fc62e587e1c856d4587bf9c61bd81f7a3288659e3abd2057ad4ce6adfdc",
     "data/uni_guide_search_ui.json": "6da4b4a50b2be1265d49e6bf0e098dbad07f67887a9b60cac13737980b6d5695",
     "scripts/verify-migration.py": "e60d16a6024e62ba31d6db352e27e1f063b98f22389c753ccf8575635efd094d",
-    "content/htu/uni-note.en.md": "7e6b3c025c0b3a060df4b389bf19c791b57dcf69efa604c6dc4d38a6a0f7f1f8",
-    "content/htu/uni-note.ko.md": "7af17de17dde3cb3c32c31e585175d80489be700179e29dfd7f0064aa4c66119",
-    "content/htu/uni-note.de.md": "3060750f6a506c3ca3fa6e8ae8afc99e05691520cb224aeabddddb2b52c21b60",
-    "content/htu/uni-note.zh-hant.md": "d218dfc8f8af19aaef8316abf8025a49ccad44f968dec56b6a6f2fd204ae5153",
-    "content/htu/uni-note.fr.md": "53051c34fd08a77f9e81788674e500a0fd27e9c93a9d2a57755831e149a12873"
+    "content/htu/uni-note.en.md": "ea479640043e0ba56b15a2a1a244ce0d1118fa43826f971f9d1c5b29c3938744",
+    "content/htu/uni-note.ko.md": "b51f91628060ecd07030e790bee9bb04d503caeccc0957ce62338a6be18ebb89",
+    "content/htu/uni-note.de.md": "a3488862cd83159b63ee5ea034b43f4d8f8236b1ee5e62962a0ee6fa7e988b1b",
+    "content/htu/uni-note.zh-hant.md": "689f5391cf771b54c636774b9420a2c85b585a0abb7f1de90311866d42ac4875",
+    "content/htu/uni-note.fr.md": "1d3818b004e3db32701a2f202123508627fa01369b9311164c90089cbf6ffd82"
   },
   "localizedImages": {
     "/en/htu/uni-note/": {
       "route": "/en/htu/uni-note/",
-      "sourceSHA256": "7e6b3c025c0b3a060df4b389bf19c791b57dcf69efa604c6dc4d38a6a0f7f1f8",
+      "sourceSHA256": "ea479640043e0ba56b15a2a1a244ce0d1118fa43826f971f9d1c5b29c3938744",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
@@ -156,7 +156,7 @@
     },
     "/ko/htu/uni-note/": {
       "route": "/ko/htu/uni-note/",
-      "sourceSHA256": "7af17de17dde3cb3c32c31e585175d80489be700179e29dfd7f0064aa4c66119",
+      "sourceSHA256": "b51f91628060ecd07030e790bee9bb04d503caeccc0957ce62338a6be18ebb89",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
@@ -253,7 +253,7 @@
     },
     "/de/htu/uni-note/": {
       "route": "/de/htu/uni-note/",
-      "sourceSHA256": "3060750f6a506c3ca3fa6e8ae8afc99e05691520cb224aeabddddb2b52c21b60",
+      "sourceSHA256": "a3488862cd83159b63ee5ea034b43f4d8f8236b1ee5e62962a0ee6fa7e988b1b",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
@@ -350,7 +350,7 @@
     },
     "/zh-hant/htu/uni-note/": {
       "route": "/zh-hant/htu/uni-note/",
-      "sourceSHA256": "d218dfc8f8af19aaef8316abf8025a49ccad44f968dec56b6a6f2fd204ae5153",
+      "sourceSHA256": "689f5391cf771b54c636774b9420a2c85b585a0abb7f1de90311866d42ac4875",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
@@ -447,7 +447,7 @@
     },
     "/fr/htu/uni-note/": {
       "route": "/fr/htu/uni-note/",
-      "sourceSHA256": "53051c34fd08a77f9e81788674e500a0fd27e9c93a9d2a57755831e149a12873",
+      "sourceSHA256": "1d3818b004e3db32701a2f202123508627fa01369b9311164c90089cbf6ffd82",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",

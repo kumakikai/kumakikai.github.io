@@ -4,7 +4,7 @@ description: "ウインドウ、ファイルアプリ、共有シートなどiPa
 seo_title: "iPadOSとの組み合わせ | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/ipados/"
-lastmod: "2026-09-19"
+lastmod: "2026-09-22"
 guide_category: "ipados"
 guide_kind: "category"
 operation_ids: ["O01", "O03", "O06", "O07"]
@@ -39,6 +39,8 @@ iPadOS 26系では、iPadの設定の「マルチタスクとジェスチャ」�
 5. iPadOSの配置操作で左右に並べます。
 
 この入口が表示されない場合は、使用中のOSのマルチタスク設定とAppleの案内を確認します。
+
+「指で描画」のON／OFFは、同じ端末内で開いているUni:Noteの各ウインドウで共通です。1つのウインドウで変更したら、もう1つのウインドウでも同じ設定として使われます。
 
 ### 切り替える・閉じる {#切り替える閉じる}
 

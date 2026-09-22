@@ -4,7 +4,7 @@ description: "初めて使うときは、画面の仕組みを確認してから
 seo_title: "はじめに | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/start/"
-lastmod: "2026-09-19"
+lastmod: "2026-09-22"
 guide_category: "start"
 guide_kind: "category"
 operation_ids: ["N01", "S39", "N02", "N03", "N05", "N69"]
@@ -20,7 +20,7 @@ Uni:Noteは「教科 → ノート → ページ」の順に整理します。�
 
 ### 必要な条件 {#screens-必要な条件}
 
-iPad／iPadOS 17.0以降。手書きには対応するApple Pencilを使います。
+iPad／iPadOS 17.0以降。Apple Pencilで従来どおり手書きできます。「指で描画」をONにすると1本指でも書けます。
 
 ### ホームからノートへ {#ホームからノートへ}
 
@@ -58,7 +58,7 @@ iPad／iPadOS 17.0以降。手書きには対応するApple Pencilを使いま�
 
 ### 必要な条件 {#first-note-必要な条件}
 
-手書きにはApple Pencil。
+手書きにはApple Pencil、または「指で描画」をONにした状態の1本指。
 
 ### 教科を作る {#教科を作る}
 
@@ -76,7 +76,7 @@ iPad／iPadOS 17.0以降。手書きには対応するApple Pencilを使いま�
 1. 作成した教科を開きます。
 2. ノート名を入力します。空欄なら今日の日付が使われます。
 3. ノートを作成します。
-4. パレットでペンを選び、Apple Pencilで書きます。
+4. パレットでペンを選び、Apple Pencilで書きます。「指で描画」がONの場合は1本指でも書けます。
 
 ### 続きから使う {#続きから使う}
 

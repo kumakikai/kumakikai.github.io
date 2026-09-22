@@ -4,7 +4,7 @@ description: "左に資料用ノート、右に筆記用の別ノートを置き
 seo_title: "資料用と筆記用の2つのノートを並べる | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/workflows/two-notes/"
-lastmod: "2026-09-19"
+lastmod: "2026-09-22"
 guide_category: "workflows"
 guide_kind: "article"
 operation_ids: ["O02"]
@@ -30,6 +30,8 @@ operation_ids: ["O02"]
 8. 筆記側でペンを選び、要点を書きます。
 
 資料用ノートを書き込みから保護しておく使い方もできます。ウインドウの開き方・並べ方はOSと設定に合わせて確認してください。
+
+「指で描画」のON／OFFは端末内のUni:Noteウインドウで共通です。片方で変更すると、もう片方の筆記とスクロールの操作も同じ設定に従います。
 
 {{< uni-guide-image slot="workflows-two-notes--r-m24" >}}
 

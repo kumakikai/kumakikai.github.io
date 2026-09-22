@@ -1,15 +1,15 @@
 ---
-version_context_date: "2026-09-07"
+version_context_date: "2026-09-22"
 title: "Anleitung (Uni:Note)"
 description: "Anleitung für Uni:Note."
-lastmod: 2026-09-08
+lastmod: 2026-09-22
 ---
 
 ## Einführung
 
-Diese echten App-Bildschirme zeigen die wichtigsten Schritte in Uni:Note 3.4.0. Bilder lassen sich durch Antippen vergrößern. Schreibe mit dem Apple Pencil; mit den Fingern scrollst du und bewegst Anhänge.
+Diese echten App-Bildschirme zeigen die wichtigsten Schritte in Uni:Note. Du kannst weiterhin mit dem Apple Pencil schreiben oder **Mit Finger zeichnen** aktivieren, um mit einem Finger zu schreiben.
 
-Erfordert ein iPad mit iPadOS 17.0 oder neuer. Handschrift nutzt Apple Pencil. Die Transkription benötigt eine unterstützte Umgebung mit iPadOS 26 oder neuer.
+Erfordert ein iPad mit iPadOS 17.0 oder neuer. Die Transkription benötigt eine unterstützte Umgebung mit iPadOS 26 oder neuer.
 
 {{< uni-guide-search mode="local" >}}
 
@@ -33,8 +33,10 @@ Erfordert ein iPad mit iPadOS 17.0 oder neuer. Handschrift nutzt Apple Pencil. D
 ## Werkzeug wählen und schreiben {#write}
 
 1. Wähle Stift, Textmarker oder Radierer in der Palette.
-2. Schreibe mit dem Apple Pencil. Ziehe zwei Finger auseinander oder zusammen zum Zoomen.
+2. Schreibe mit dem Apple Pencil. Wenn **Mit Finger zeichnen** aktiviert ist, kannst du auch mit einem Finger zeichnen oder radieren.
 3. Beim Schreiben auf der letzten Seite wird eine weitere angelegt.
+
+**Mit Finger zeichnen** befindet sich direkt unter der Karte des aktuellen Tarifs auf der Hauptseite der Einstellungen und ist auch in der Einführung beim ersten Start verfügbar. Wenn es deaktiviert ist, scrollst du mit einem Finger. Wenn es aktiviert ist, zeichnet ein Finger; scrolle deshalb mit zwei Fingern. Zoome in beiden Zuständen mit einer Zwei-Finger-Geste. Nach dem Deaktivieren funktioniert das Scrollen wieder mit einem Finger. Der Apple Pencil bleibt immer verwendbar.
 
 {{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="Palette mit Stift, Marker, Radierer, Haftmarker und Rückgängig" mode="crop" >}}
 
@@ -50,8 +52,6 @@ Gib auf der Startseite einen Teil des Notiztitels in die Suche ein und tippe auf
 
 Über **Notizliste** in der Notiz wechselst du innerhalb des Fachs oder erstellst eine neue Notiz. Wische nach links für Umbenennen, Schutz oder Löschen. Unter **Seiten** springst du per Miniatur zur Seite; langes Drücken öffnet das Löschen.
 
-**Vor Veröffentlichung von 3.5.0:** Der direkte Zugang zur Notizliste auf der Fachkarte und anpassbare Werkzeugleisten sind Funktionen der kommenden Version. In der veröffentlichten 3.4.0 gelten die oben beschriebenen Wege innerhalb der Notiz.
-
 {{< guide-anchor "7-mehr-verwenden" "8-fotos-und-pdfs-verwenden" >}}
 
 ## Fotos und PDFs einfügen oder exportieren {#pdf}
@@ -64,7 +64,7 @@ Gib auf der Startseite einen Teil des Notiztitels in die Suche ein und tippe auf
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Vorlesungs-PDF mit Handschrift in Uni:Note" mode="tablet" >}}
 
-Wähle den Anhang mit dem Finger zum Verschieben oder Skalieren. Mit Doppeltippen fixierst oder löst du ihn; anschließend kannst du mit dem Apple Pencil darauf schreiben. Über **Mehr → PDF exportieren** teilst du die Notiz oder das gesamte Fach. Als Hintergrund ist Papierfarbe oder Weiß wählbar.
+Bevor du ein Foto oder PDF auswählst, verschiebst, skalierst, fixierst, die Fixierung löst oder das Material selbst bearbeitest, deaktiviere **Mit Finger zeichnen** in den Einstellungen. Wähle danach den Anhang mit dem Finger zum Verschieben oder Skalieren. Mit Doppeltippen fixierst oder löst du ihn; anschließend kannst du mit dem Apple Pencil darauf schreiben. Über **Mehr → PDF exportieren** teilst du die Notiz oder das gesamte Fach. Als Hintergrund ist Papierfarbe oder Weiß wählbar.
 
 {{< guide-anchor "10-aufnahme-transkription-und-ki-zusammenfassung-verwenden" >}}
 
@@ -94,8 +94,6 @@ Um das Ergebnis an eine andere App zu übergeben, tippe oben rechts im Ergebnisf
 
 Über **Mehr → Aufgabenset erstellen** wählst du Seiten, behältst oder verwirfst Vorschläge und speicherst das Set. Öffne die Aufgabensets auf der Startseite zur Wiederholung. KI-Antworten und Generierung nutzen KI-Guthaben; gleiche Ergebnisse mit deinen Unterlagen ab.
 
-**Vor Veröffentlichung von 3.5.0:** Manuelle Sets, nachträgliche Bearbeitung und das Ausblenden der Set-Umschaltung gehören zur kommenden Version. In 3.4.0 gilt der oben beschriebene Ablauf.
-
 {{< guide-anchor "14-notizen-schützen-und-papierkorb-verwenden" >}}
 
 ## Schützen, löschen und wiederherstellen {#protect}
@@ -124,5 +122,7 @@ Aktualisieren und Wiederherstellen des einfachen Backups benötigen Premium. Dab
 ## Zwei iPad-Fenster verwenden {#windows}
 
 Ordne Uni:Note über die iPad-Fenstersteuerung neben einem Dokument oder Video an. Auch zwei Uni:Note-Fenster sind möglich.
+
+Die Einstellung **Mit Finger zeichnen** gilt gemeinsam für alle Uni:Note-Fenster auf demselben Gerät. Eine Änderung in einem Fenster ändert auch im anderen Fenster, ob zum Scrollen ein oder zwei Finger verwendet werden.
 
 Dock-Gesten und Bezeichnungen wie Split View oder Slide Over hängen von iPadOS und den Fenstereinstellungen ab.

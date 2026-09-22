@@ -1,15 +1,15 @@
 ---
-version_context_date: "2026-09-07"
+version_context_date: "2026-09-22"
 title: "Mode d’emploi (Uni:Note)"
 description: "Mode d’emploi pour Uni:Note."
-lastmod: 2026-09-08
+lastmod: 2026-09-22
 ---
 
 ## Introduction
 
-Ces captures réelles présentent les opérations principales d’Uni:Note 3.4.0. Touchez une image pour l’agrandir. Écrivez avec l’Apple Pencil ; utilisez les doigts pour défiler et déplacer les pièces jointes.
+Ces captures réelles présentent les opérations principales d’Uni:Note. Vous pouvez toujours écrire avec l’Apple Pencil, ou activer **Dessiner au doigt** pour écrire avec un doigt.
 
-Nécessite un iPad sous iPadOS 17.0 ou version ultérieure. L’écriture utilise Apple Pencil. La transcription exige un environnement compatible sous iPadOS 26 ou version ultérieure.
+Nécessite un iPad sous iPadOS 17.0 ou version ultérieure. La transcription exige un environnement compatible sous iPadOS 26 ou version ultérieure.
 
 {{< uni-guide-search mode="local" >}}
 
@@ -33,8 +33,10 @@ Le même + permet de créer des dossiers. Glissez-y les matières ; supprimer un
 ## Choisir un outil et écrire {#write}
 
 1. Sélectionnez le stylo, le surligneur ou la gomme dans la palette.
-2. Écrivez avec l’Apple Pencil ; pincez avec deux doigts pour zoomer.
+2. Écrivez avec l’Apple Pencil. Lorsque **Dessiner au doigt** est activé, vous pouvez aussi dessiner ou effacer avec un doigt.
 3. Écrire sur la dernière page ajoute automatiquement la suivante.
+
+**Dessiner au doigt** se trouve directement sous la carte du forfait actuel dans l’écran principal des réglages et figure aussi dans le guide de première utilisation. Lorsque l’option est désactivée, faites défiler avec un doigt. Lorsqu’elle est activée, un doigt sert à dessiner ; utilisez donc deux doigts pour déplacer la page. Le zoom se fait toujours par pincement à deux doigts. La désactivation rétablit le défilement à un doigt. L’Apple Pencil reste utilisable dans les deux cas.
 
 {{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="Palette avec stylo, surligneur, gomme, repère et annulation" mode="crop" >}}
 
@@ -50,8 +52,6 @@ Saisissez une partie du titre dans la recherche de l’accueil, puis touchez le 
 
 Dans une note, **Liste des notes** ouvre les autres notes de la matière ou en crée une. Balayez à gauche pour renommer, protéger ou supprimer. **Pages** affiche les miniatures : touchez pour naviguer, maintenez pour supprimer.
 
-**Avant la publication de 3.5.0 :** le raccourci vers la liste depuis la carte de matière et la personnalisation des barres d’outils appartiennent à la prochaine version. Dans la version publiée 3.4.0, utilisez les commandes de la note décrites ci-dessus.
-
 {{< guide-anchor "7-utiliser-plus" "8-utiliser-des-photos-et-des-pdf" >}}
 
 ## Joindre des photos ou PDF et exporter {#pdf}
@@ -64,7 +64,7 @@ Dans une note, **Liste des notes** ouvre les autres notes de la matière ou en c
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="PDF de cours annoté dans Uni:Note" mode="tablet" >}}
 
-Sélectionnez la pièce jointe avec le doigt pour la déplacer ou la redimensionner. Touchez deux fois pour la verrouiller ou déverrouiller, puis annotez avec l’Apple Pencil. Pour partager, utilisez **Plus → Exporter en PDF**, pour la note ou toute la matière. Le fond peut être blanc ou de la couleur du papier.
+Avant de sélectionner, déplacer, redimensionner, verrouiller, déverrouiller ou manipuler une photo ou un PDF, désactivez **Dessiner au doigt** dans les réglages. Sélectionnez ensuite la pièce jointe avec le doigt pour la déplacer ou la redimensionner. Touchez deux fois pour la verrouiller ou déverrouiller, puis annotez avec l’Apple Pencil. Pour partager, utilisez **Plus → Exporter en PDF**, pour la note ou toute la matière. Le fond peut être blanc ou de la couleur du papier.
 
 {{< guide-anchor "10-utiliser-lenregistrement-la-transcription-et-le-résumé-ia" >}}
 
@@ -94,8 +94,6 @@ Pour envoyer le résultat dans une autre app, touchez Copier à gauche ou Partag
 
 Dans **Plus → Créer un lot d’exercices**, sélectionnez les pages, gardez ou écartez les propositions et enregistrez le lot. Retrouvez-le dans les exercices de l’accueil. Réponses et génération IA utilisent le solde IA ; vérifiez les résultats avec vos cours.
 
-**Avant la publication de 3.5.0 :** création manuelle, modification des lots enregistrés et masquage du sélecteur d’exercices sont prévus dans la prochaine version. La version 3.4.0 propose le parcours de génération et de révision ci-dessus.
-
 {{< guide-anchor "14-protéger-les-notes-et-utiliser-la-corbeille" >}}
 
 ## Protéger, supprimer et restaurer {#protect}
@@ -124,5 +122,7 @@ La mise à jour et la restauration de la sauvegarde rapide nécessitent Premium.
 ## Utiliser deux fenêtres sur iPad {#windows}
 
 Placez Uni:Note à côté d’un document ou d’une vidéo avec les commandes de fenêtres d’iPad. Vous pouvez aussi ouvrir deux fenêtres Uni:Note.
+
+Le réglage **Dessiner au doigt** est commun à toutes les fenêtres Uni:Note du même appareil. Le modifier dans une fenêtre change aussi l’utilisation d’un ou deux doigts pour le défilement dans l’autre.
 
 Les gestes du Dock et les noms Split View ou Slide Over dépendent de la version d’iPadOS et des réglages de fenêtres.

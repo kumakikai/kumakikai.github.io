@@ -4,7 +4,7 @@ description: "答えを隠して復習し、勉強時間を区切り、資料を
 seo_title: "暗記・集中 | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/study/"
-lastmod: "2026-09-19"
+lastmod: "2026-09-22"
 guide_category: "study"
 guide_kind: "category"
 operation_ids: ["M42", "M43", "M44", "M45", "M46", "M62", "M52", "M53", "M54", "M55", "M56", "M57", "M58"]
@@ -112,7 +112,7 @@ Apple Pencil。
 2. Apple Pencilで説明したい箇所をなぞります。
 3. Apple Pencilを離します。
 
-軌跡は一時的に表示され、手書きの線として保存されません。指のスクロールや2本指のズームで資料の表示を調整できます。
+軌跡は一時的に表示され、手書きの線として保存されません。「指で描画」がOFFなら1本指、ONなら2本指でスクロールします。ズームはどちらも2本指で行います。
 
 ### 書き込みへ戻る {#書き込みへ戻る}
 
