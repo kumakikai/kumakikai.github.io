@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使用說明 on KUMAKIKAI</title><link>https://kumakikai.github.io/zh-hant/htu/</link><description>Recent content in 使用說明 on KUMAKIKAI</description><generator>Hugo</generator><language>zh-Hant</language><atom:link href="https://kumakikai.github.io/zh-hant/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使用說明 (Smokeless)</title><link>https://kumakikai.github.io/zh-hant/htu/smokeless/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/zh-hant/htu/smokeless/</guid><description>&lt;h2 id="introduction"&gt;開始使用&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使用說明 on KUMAKIKAI</title><link>https://kumakikai.github.io/zh-hant/htu/</link><description>Recent content in 使用說明 on KUMAKIKAI</description><generator>Hugo</generator><language>zh-Hant</language><atom:link href="https://kumakikai.github.io/zh-hant/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使用說明 (Uni:Note)</title><link>https://kumakikai.github.io/zh-hant/htu/uni-note/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/zh-hant/htu/uni-note/</guid><description>&lt;h2 id="開始使用"&gt;開始使用&lt;/h2&gt;
+&lt;p&gt;以下使用實際畫面說明 Uni:Note 的主要操作。Apple Pencil 仍可如常書寫；開啟&lt;strong&gt;用手指繪圖&lt;/strong&gt;後，也可用單指書寫。&lt;/p&gt;
+&lt;p&gt;需使用 iPadOS 17.0 以上的 iPad。錄音轉錄另需支援的 iPadOS 26 以上環境。&lt;/p&gt;
+&lt;section class="uni-guide-search" aria-labelledby="guide-search-title" data-guide-search-mode="local" data-result-message="找到 {count} 個相關說明。" data-no-results-message="找不到相關使用方法，請嘗試其他關鍵字。"&gt;
+ &lt;h2 id="guide-search-title"&gt;搜尋使用方法&lt;/h2&gt;
+ &lt;p&gt;輸入功能或操作名稱，即可直接前往相關說明。&lt;/p&gt;
+ &lt;label class="sr-only" for="uni-guide-search-input"&gt;搜尋使用方法&lt;/label&gt;
+ &lt;input id="uni-guide-search-input" type="search" autocomplete="off" placeholder="例如：PDF、錄音、備份" data-guide-search-input&gt;
+ &lt;p class="uni-guide-search-status" aria-live="polite" data-guide-search-status&gt;&lt;/p&gt;
+ &lt;ul class="uni-guide-search-results" data-guide-search-results hidden&gt;&lt;/ul&gt;
+ &lt;script type="application/json" id="uni-guide-search-index"&gt;[]&lt;/script&gt;
+&lt;/section&gt;&lt;script src="https://kumakikai.github.io/js/uni-guide-navigation.min.924bd215c1b510875834d57434ae1c4323e0cd8c63ceb8cff67afb6da36fd534.js" integrity="sha256-kkvSFcG1EIdYNNV0NK4cQyPgzYxjzrjP9nr7baNv1TQ=" defer&gt;&lt;/script&gt;
+
+
+&lt;h2 id="基本使用方式"&gt;基本使用方式&lt;/h2&gt;
+&lt;div id="1-在首頁整理科目與資料夾" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-開啟第一本筆記" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="create"&gt;建立科目和第一本筆記&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;點首頁右下角的 &lt;strong&gt;+&lt;/strong&gt;，再選擇 &lt;strong&gt;新增科目&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;
+ &lt;img src="https://kumakikai.github.io/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp 560w, https://kumakikai.github.io/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_8cfc71d82e5da2ce.webp 1012w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1012" height="634" alt="首頁右下角 &amp;#43; 開啟的新增科目與建立資料夾選單" loading="lazy" decoding="async"&gt;
+ &lt;/div&gt;
+ &lt;figcaption&gt;點首頁右下角 &amp;#43; 後開啟的建立選單。&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;選擇名稱、格線、紙張及封面顏色。&lt;/li&gt;
+&lt;li&gt;開啟科目並輸入第一本筆記名稱；留白會使用今天的日期。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;同一個 + 也能建立資料夾。把科目拖入即可整理；刪除資料夾後，科目會回到首頁。長按科目可修改名稱與紙張設定。&lt;/p&gt;
+&lt;div id="3-使用-apple-pencil-書寫" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="4-用雙指縮放" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="5-切換工具" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="9-使用-尺" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="write"&gt;選擇工具並書寫&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在工具盤選擇筆、螢光筆或橡皮擦。&lt;/li&gt;
+&lt;li&gt;使用 Apple Pencil 書寫。開啟&lt;strong&gt;用手指繪圖&lt;/strong&gt;後，也可用單指繪圖或擦除。&lt;/li&gt;
+&lt;li&gt;在最後一頁開始書寫時，會自動新增下一頁。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;用手指繪圖&lt;/strong&gt;位於「設定」主畫面目前方案卡片的正下方，初次使用的說明畫面也有相同開關。關閉時以單指捲動；開啟時單指會用於繪圖，因此請以雙指捲動。不論開啟或關閉，都以雙指縮放。關閉後會恢復單指捲動。Apple Pencil 始終可使用。&lt;/p&gt;</description></item><item><title>使用說明 (Smokeless)</title><link>https://kumakikai.github.io/zh-hant/htu/smokeless/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/zh-hant/htu/smokeless/</guid><description>&lt;h2 id="introduction"&gt;開始使用&lt;/h2&gt;
 &lt;p&gt;用綠色按鈕記錄忍住，用紅色按鈕記錄吸菸。以下實際畫面說明如何記錄、查看與調整設定。&lt;/p&gt;
 &lt;p&gt;支援搭載iOS 14或以上版本的iPhone。&lt;/p&gt;
 
@@ -90,50 +130,4 @@
  &lt;/div&gt;
  
 &lt;/figure&gt;
-&lt;p&gt;一般筆記以垂直捲動閱讀，雙指縮放或點兩下可放大。直式筆記以橫向翻頁。在設定開啟從上次位置繼續，即可從上次閱讀的頁面開始。&lt;/p&gt;</description></item><item><title>使用說明 (Uni:Note)</title><link>https://kumakikai.github.io/zh-hant/htu/uni-note/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.github.io/zh-hant/htu/uni-note/</guid><description>&lt;h2 id="開始使用"&gt;開始使用&lt;/h2&gt;
-&lt;p&gt;以下使用實際畫面說明 Uni:Note 3.4.0 的主要操作。點一下圖片可放大。使用 Apple Pencil 書寫，以手指捲動或移動貼附資料。&lt;/p&gt;
-&lt;p&gt;需使用 iPadOS 17.0 以上的 iPad。手寫使用 Apple Pencil。錄音轉錄另需支援的 iPadOS 26 以上環境。&lt;/p&gt;
-&lt;section class="uni-guide-search" aria-labelledby="guide-search-title" data-guide-search-mode="local" data-result-message="找到 {count} 個相關說明。" data-no-results-message="找不到相關使用方法，請嘗試其他關鍵字。"&gt;
- &lt;h2 id="guide-search-title"&gt;搜尋使用方法&lt;/h2&gt;
- &lt;p&gt;輸入功能或操作名稱，即可直接前往相關說明。&lt;/p&gt;
- &lt;label class="sr-only" for="uni-guide-search-input"&gt;搜尋使用方法&lt;/label&gt;
- &lt;input id="uni-guide-search-input" type="search" autocomplete="off" placeholder="例如：PDF、錄音、備份" data-guide-search-input&gt;
- &lt;p class="uni-guide-search-status" aria-live="polite" data-guide-search-status&gt;&lt;/p&gt;
- &lt;ul class="uni-guide-search-results" data-guide-search-results hidden&gt;&lt;/ul&gt;
- &lt;script type="application/json" id="uni-guide-search-index"&gt;[]&lt;/script&gt;
-&lt;/section&gt;&lt;script src="https://kumakikai.github.io/js/uni-guide-navigation.min.924bd215c1b510875834d57434ae1c4323e0cd8c63ceb8cff67afb6da36fd534.js" integrity="sha256-kkvSFcG1EIdYNNV0NK4cQyPgzYxjzrjP9nr7baNv1TQ=" defer&gt;&lt;/script&gt;
-
-
-&lt;h2 id="基本使用方式"&gt;基本使用方式&lt;/h2&gt;
-&lt;div id="1-在首頁整理科目與資料夾" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-開啟第一本筆記" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
-
-&lt;h3 id="create"&gt;建立科目和第一本筆記&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;點首頁右下角的 &lt;strong&gt;+&lt;/strong&gt;，再選擇 &lt;strong&gt;新增科目&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;
- &lt;img src="https://kumakikai.github.io/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp 560w, https://kumakikai.github.io/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_8cfc71d82e5da2ce.webp 1012w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1012" height="634" alt="首頁右下角 &amp;#43; 開啟的新增科目與建立資料夾選單" loading="lazy" decoding="async"&gt;
- &lt;/div&gt;
- &lt;figcaption&gt;點首頁右下角 &amp;#43; 後開啟的建立選單。&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ol start="2"&gt;
-&lt;li&gt;選擇名稱、格線、紙張及封面顏色。&lt;/li&gt;
-&lt;li&gt;開啟科目並輸入第一本筆記名稱；留白會使用今天的日期。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;同一個 + 也能建立資料夾。把科目拖入即可整理；刪除資料夾後，科目會回到首頁。長按科目可修改名稱與紙張設定。&lt;/p&gt;
-&lt;div id="3-使用-apple-pencil-書寫" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="4-用雙指縮放" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="5-切換工具" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="9-使用-尺" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
-
-&lt;h2 id="write"&gt;選擇工具並書寫&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;在工具盤選擇筆、螢光筆或橡皮擦。&lt;/li&gt;
-&lt;li&gt;使用 Apple Pencil 書寫，以雙指縮放。&lt;/li&gt;
-&lt;li&gt;在最後一頁開始書寫時，會自動新增下一頁。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;
- &lt;img src="https://kumakikai.github.io/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp" srcset="https://kumakikai.github.io/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp 560w, https://kumakikai.github.io/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_8e50e7d16e4381c0.webp 950w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="950" height="640" alt="筆、螢光筆、橡皮擦、便利貼及復原工具盤" loading="lazy" decoding="async"&gt;
- &lt;/div&gt;
- 
-&lt;/figure&gt;
-&lt;p&gt;拖移工具盤可改變位置。從上方顯示尺，用手指移動、旋轉，再用 Pencil 沿著附近畫直線。範圍移動會選取完整手寫筆畫；照片、PDF、便利貼需分別操作。直式筆記以橫向翻頁，建立後無法更改方向。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;一般筆記以垂直捲動閱讀，雙指縮放或點兩下可放大。直式筆記以橫向翻頁。在設定開啟從上次位置繼續，即可從上次閱讀的頁面開始。&lt;/p&gt;</description></item></channel></rss>
