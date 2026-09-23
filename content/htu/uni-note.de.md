@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-09-22"
+version_context_date: "2026-09-23"
 title: "Anleitung (Uni:Note)"
 description: "Anleitung für Uni:Note."
-lastmod: 2026-09-22
+lastmod: 2026-09-23
 ---
 
 ## Einführung
@@ -64,7 +64,7 @@ Gib auf der Startseite einen Teil des Notiztitels in die Suche ein und tippe auf
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Vorlesungs-PDF mit Handschrift in Uni:Note" mode="tablet" >}}
 
-Bevor du ein Foto oder PDF auswählst, verschiebst, skalierst, fixierst, die Fixierung löst oder das Material selbst bearbeitest, deaktiviere **Mit Finger zeichnen** in den Einstellungen. Wähle danach den Anhang mit dem Finger zum Verschieben oder Skalieren. Mit Doppeltippen fixierst oder löst du ihn; anschließend kannst du mit dem Apple Pencil darauf schreiben. Über **Mehr → PDF exportieren** teilst du die Notiz oder das gesamte Fach. Als Hintergrund ist Papierfarbe oder Weiß wählbar.
+Wie du Material auswählst, hängt von **Mit Finger zeichnen** ab. Ist die Funktion deaktiviert, tippe einmal auf ein Foto oder PDF. Ist sie aktiviert, halte das Material gedrückt und wähle im Menü **Verschieben & Größe ändern**. Du kannst die Funktion aktiviert lassen, während du das ausgewählte Material verschiebst oder skalierst. Mit einer Zwei-Finger-Geste zoomst du die Notiz selbst; im Fingerzeichenmodus änderst du die Materialgröße über den Größenänderungsgriff. Mit dem Apple Pencil kannst du weiterhin auf dem Dokument schreiben. Über **Mehr → PDF exportieren** teilst du die Notiz oder das gesamte Fach. Als Hintergrund ist Papierfarbe oder Weiß wählbar.
 
 {{< guide-anchor "10-aufnahme-transkription-und-ki-zusammenfassung-verwenden" >}}
 

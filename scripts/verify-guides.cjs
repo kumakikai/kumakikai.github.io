@@ -14,10 +14,16 @@ const widths=(process.env.TEST_WIDTHS||'1440,1280,1024,768,430,390,375').split('
 const locales=process.env.TEST_LOCALES?.split(',');
 const results=[];
 const axeSource=fs.readFileSync(require.resolve('axe-core/axe.min.js'),'utf8');
-const pages=['htu','faq'].flatMap(section=>fs.readdirSync(`content/${section}`).filter(f=>f.endsWith('.md')&&!f.startsWith('_')).map(file=>{
+const directPages=['htu','faq'].flatMap(section=>fs.readdirSync(`content/${section}`).filter(f=>f.endsWith('.md')&&!f.startsWith('_')).map(file=>{
  const [app,locale='ja']=file.slice(0,-3).split('.');
  return {section,app,locale,route:(locale==='ja'?'':'/'+locale)+`/${section}/${app}/`};
-})).filter(p=>(!locales||locales.includes(p.locale))&&(!process.env.TEST_APP||p.app===process.env.TEST_APP));
+}));
+const integratedUniPages=fs.readdirSync('content/uni-note-guide').filter(f=>f.endsWith('.md')&&!f.startsWith('_')).flatMap(file=>{
+ const source=fs.readFileSync(path.join('content/uni-note-guide',file),'utf8');
+ const route=source.match(/^url:\s*["']([^"']+)["']/m)?.[1];
+ return route?[{section:'htu',app:'uni-note',locale:'ja',route,integrated:true}]:[];
+});
+const pages=[...directPages,...integratedUniPages].filter(p=>(!locales||locales.includes(p.locale))&&(!process.env.TEST_APP||p.app===process.env.TEST_APP));
 fs.mkdirSync(shots,{recursive:true});
 function save(pending){fs.writeFileSync(output,JSON.stringify({checkedAt:new Date().toISOString(),base,engine,pending,ok:!pending&&results.every(r=>r.ok),cases:results.length,widths,pages:pages.length,method:'Actual desktop-browser viewport renders. Every guide image decoded; dimensions, alt, links, focus, TOC, overflow and accessibility checked. Japanese lines reconstructed from DOM Range for editorial review. Screenshots and human visual reading are separate from these mechanical checks.',limitations:['Viewport emulation, not physical devices. Browser rendering does not prove operation inside the app; current source and app capture evidence is in the app audit reports.'],failures:results.filter(r=>!r.ok),results},null,2)+'\n');}
 async function inspect(browser,p,width,theme,noJS=false){
@@ -51,7 +57,6 @@ async function inspect(browser,p,width,theme,noJS=false){
   assert.equal(result.layout.headingCount,1);assert.deepEqual(result.layout.duplicateIDs,[]);assert.deepEqual(result.layout.brokenImages,[]);assert(result.layout.scrollWidth<=width,'No horizontal overflow');
   result.lightTheme = await assertLightTheme(page);
   if(p.section==='htu'){
-   assert(result.layout.images.length>0,'Every app guide has real UI images');
    for(const i of result.layout.images){assert(i.alt.trim()&&i.srcset&&i.sizes&&Number(i.explicitWidth)>0&&Number(i.explicitHeight)>0);assert(i.naturalWidth>0);assert(i.width<=Math.min(result.layout.bodyWidth,762));assert(i.src.includes('.webp'),'Optimized image');assert.equal(i.interactive,false,'Guide screenshots have no link, button or keyboard interaction');}
    const toc=page.locator('.guide-toc');
    if(await toc.count()){
@@ -59,11 +64,13 @@ async function inspect(browser,p,width,theme,noJS=false){
     const first=toc.locator('a').first();const anchor=await first.getAttribute('href');await first.click();assert.equal(decodeURIComponent(new URL(page.url()).hash),decodeURIComponent(anchor),'Contents jumps directly to guide section');
     await toc.locator('summary').click();
    }
-   const image=page.locator('.guide-figure img,.watch-guide-figure img').first();
-   const url=page.url(),pageCount=ctx.pages().length;
-   await image.click();assert.equal(page.url(),url,'Guide screenshot click keeps the current page');assert.equal(ctx.pages().length,pageCount,'Guide screenshot click opens no image tab');
-   result.screenshotInteraction={noninteractive:true,clickKeepsPage:true,opensNoTab:true};
-   const imageResponse=await page.request.get(result.layout.images[0].src);assert.equal(imageResponse.status(),200,'Displayed image source resolves');
+   if(result.layout.images.length){
+    const image=page.locator('.guide-figure img,.watch-guide-figure img').first();
+    const url=page.url(),pageCount=ctx.pages().length;
+    await image.click();assert.equal(page.url(),url,'Guide screenshot click keeps the current page');assert.equal(ctx.pages().length,pageCount,'Guide screenshot click opens no image tab');
+    result.screenshotInteraction={noninteractive:true,clickKeepsPage:true,opensNoTab:true};
+    const imageResponse=await page.request.get(result.layout.images[0].src);assert.equal(imageResponse.status(),200,'Displayed image source resolves');
+   }
   }
   if(!noJS&&engine==='chrome'){result.layoutShifts=await page.evaluate(()=>window.__guideShifts||[]);assert(result.layoutShifts.reduce((v,s)=>v+s.value,0)<=.1,'No material image layout shift');}
   if(!noJS&&[390,1440].includes(width)){

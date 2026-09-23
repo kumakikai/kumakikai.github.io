@@ -4,7 +4,7 @@ description: "PDFや写真を見せながらApple Pencilで要点を指し示し
 seo_title: "レーザーポインターで資料を説明する | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/workflows/explain/"
-lastmod: "2026-09-22"
+lastmod: "2026-09-23"
 guide_category: "workflows"
 guide_kind: "article"
 operation_ids: []
@@ -21,7 +21,7 @@ Apple Pencil。資料を貼ったノート。
 ## 資料を使って説明する
 
 1. 説明する資料をノートで開きます。
-2. 資料の位置と大きさを整えて固定します。
+2. 資料の位置と大きさを整えます。
 3. レーザーポインターを選びます。
 4. Apple Pencilで図や語句をなぞって示します。
 5. 別の箇所を見せるときは、「指で描画」がOFFなら1本指、ONなら2本指でスクロールします。ズームはどちらも2本指で行います。

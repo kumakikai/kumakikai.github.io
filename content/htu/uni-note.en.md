@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-09-22"
+version_context_date: "2026-09-23"
 title: "How to Use (Uni:Note)"
 description: "How to Use for Uni:Note."
-lastmod: 2026-09-22
+lastmod: 2026-09-23
 ---
 
 ## Introduction
@@ -64,7 +64,7 @@ Inside a note, **Note List** opens other notes in the subject and lets you creat
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Lecture PDF with handwriting in Uni:Note" mode="tablet" >}}
 
-To select, move, resize, lock, unlock, or otherwise operate a photo or PDF, first turn off **Draw with Finger** in Settings. Then select the attachment with your finger to move or resize it. Double-tap to lock or unlock it, then write over the document with Apple Pencil. For sharing, choose **More → Export PDF**, then the current note or the whole subject. Settings lets you use the paper color or white as the PDF background.
+Material selection depends on **Draw with Finger**. When it is off, tap a photo or PDF once to select it. When it is on, touch and hold the material, then choose **Move & Resize** from the menu. You can keep Draw with Finger on while moving or resizing the selected material. A two-finger pinch zooms the note itself; in finger drawing mode, resize the selected material with its resize handle. You can continue writing over the document with Apple Pencil. For sharing, choose **More → Export PDF**, then the current note or the whole subject. Settings lets you use the paper color or white as the PDF background.
 
 {{< guide-anchor "10-use-recording-transcription-and-ai-summary" >}}
 

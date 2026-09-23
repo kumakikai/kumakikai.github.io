@@ -4,7 +4,7 @@
     "sourceSHA256": "12482dcb66ef5d00cb508f203cc1344b7f3d325aec44f5f975c71435115209c2",
     "baselineTextSHA256": "28bbaff2b8874691c449f5ce2dabdb05b6ec1582ba9f0b07d78dc29443fcc1e9",
     "reviewedTextSHA256": "284e2ac5484e1c9db8115c6caaa8ff86029d0cff80d5b7b47fa2679fc13db359",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reason": "2026-09-23 Finger Drawing material-selection correction: OFF uses a single tap; ON uses a long press followed by the localized Move & Resize action, without disabling Finger Drawing. Canvas pinch and selected-material resizing remain distinct. Retiring material double-tap lock guidance is removed. Existing image files and links are unchanged.",
     "removedLinks": []
   },
   "/de/faq/uni-note-pocket/": {
@@ -12,7 +12,7 @@
     "sourceSHA256": "93c03dece365d5e59e533ddc7adb2352d520e2581aed6373920797f02f581272",
     "baselineTextSHA256": "1be33a77d905ff130ac3213945ba1ab282821660233f83bba3139c5422200a69",
     "reviewedTextSHA256": "37616753378508b79b3b54e7b25c37840044ac1ce97f989b5811c83e684d2eb3",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reason": "2026-09-23 Finger Drawing material-selection correction: OFF uses a single tap; ON uses a long press followed by the localized Move & Resize action, without disabling Finger Drawing. Canvas pinch and selected-material resizing remain distinct. Retiring material double-tap lock guidance is removed. Existing image files and links are unchanged.",
     "removedLinks": [
       "https://kumakikai.github.io/de/htu/uni-note-pocket/",
       "https://kumakikai.github.io/de/privacy/uni-note-pocket/"
@@ -20,10 +20,10 @@
   },
   "/de/htu/uni-note/": {
     "source": "content/htu/uni-note.de.md",
-    "sourceSHA256": "a3488862cd83159b63ee5ea034b43f4d8f8236b1ee5e62962a0ee6fa7e988b1b",
+    "sourceSHA256": "f91558669907b28c223004cfae3719de7687e5ec7306c5b6222d576ad19f2b82",
     "baselineTextSHA256": "65f68ff2e7b70bff28dcd58b530e206b83d814b0f7f95d14975f7c32f0180d07",
-    "reviewedTextSHA256": "0aa626da4ac8bd82593c3d8110bbd3f174522c845a7d99202a51cdaae5463e48",
-    "reason": "2026-09-22 Finger Drawing release review: add the official localized label, one- and two-finger scroll and pinch behavior, material-operation OFF guidance, and shared multi-window setting. Existing images and links are unchanged.",
+    "reviewedTextSHA256": "95388de3d0fc7bf44ab0ec372bd07aac08f11b0c9f4b2fb263d3b8aaf7e14bb8",
+    "reason": "2026-09-23 Finger Drawing material-selection correction: OFF uses a single tap; ON uses a long press followed by the localized Move & Resize action, without disabling Finger Drawing. Canvas pinch and selected-material resizing remain distinct. Retiring material double-tap lock guidance is removed. Existing image files and links are unchanged.",
     "removedLinks": [
       "https://kumakikai.github.io/de/faq/uni-note/",
       "https://kumakikai.github.io/de/privacy/uni-note/"
@@ -34,7 +34,7 @@
     "sourceSHA256": "fc48b7d79304be8a473f0644eb0d172c0a94a7327918e44908863913ab9e7d58",
     "baselineTextSHA256": "804b3abd4aaf9997b162456815c3739604564007ff7192002f7cc6cae6444bd4",
     "reviewedTextSHA256": "4d301ad3f756e71a2c2c737c8191c53d9d67ee25528619ec5a24af625e7d7cda",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reason": "2026-09-23 Finger Drawing material-selection correction: OFF uses a single tap; ON uses a long press followed by the localized Move & Resize action, without disabling Finger Drawing. Canvas pinch and selected-material resizing remain distinct. Retiring material double-tap lock guidance is removed. Existing image files and links are unchanged.",
     "removedLinks": [
       "https://kumakikai.github.io/de/faq/uni-note-pocket/",
       "https://kumakikai.github.io/de/privacy/uni-note-pocket/"
@@ -53,7 +53,7 @@
     "sourceSHA256": "6c9e744e392f9d2d2d2c6509159636e1ef9cd459564ed60e3413ac47c306d26f",
     "baselineTextSHA256": "c5b0c347ae3b742052d411cde897a0419b6d59b89b1ac515dc3bb6e5be3bcf51",
     "reviewedTextSHA256": "5dd91cbc8d65ccb6eca74af9aa7664443594b33621e8714221171515c50a10a3",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reason": "2026-09-23 Finger Drawing material-selection correction: OFF uses a single tap; ON uses a long press followed by the localized Move & Resize action, without disabling Finger Drawing. Canvas pinch and selected-material resizing remain distinct. Retiring material double-tap lock guidance is removed. Existing image files and links are unchanged.",
     "removedLinks": []
   },
   "/en/faq/uni-note-pocket/": {
@@ -61,7 +61,7 @@
     "sourceSHA256": "2d88c831dab252a13b60f34018ad3e79bcad13f4f13ca4dea6b5d5bf073a017f",
     "baselineTextSHA256": "b7206e789bd9018b5249b1f5300195dbe47476da1b04dddf57ea9a27f5e43eae",
     "reviewedTextSHA256": "82e2db07fcda0efbfcf47692f4d3772d91883645fb18a2a5b295f507e97dbc16",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reason": "2026-09-23 Finger Drawing material-selection correction: OFF uses a single tap; ON uses a long press followed by the localized Move & Resize action, without disabling Finger Drawing. Canvas pinch and selected-material resizing remain distinct. Retiring material double-tap lock guidance is removed. Existing image files and links are unchanged.",
     "removedLinks": [
       "https://kumakikai.github.io/en/htu/uni-note-pocket/",
       "https://kumakikai.github.io/en/privacy/uni-note-pocket/"
@@ -80,10 +80,10 @@
   },
   "/en/htu/uni-note/": {
     "source": "content/htu/uni-note.en.md",
-    "sourceSHA256": "ea479640043e0ba56b15a2a1a244ce0d1118fa43826f971f9d1c5b29c3938744",
+    "sourceSHA256": "421a1145e01a76acb68c0a4fa4914cdeddce07f8ffd6d8ba1b27a1b8e307c618",
     "baselineTextSHA256": "a26b5bab23dc299994a244f3487439f466613882df23bea152e792997f643601",
-    "reviewedTextSHA256": "bd23917abe6ed704c95ce770e7ab617ff5b12c53fe815882282e1a75fdee572f",
-    "reason": "2026-09-22 Finger Drawing release review: add the official localized label, one- and two-finger scroll and pinch behavior, material-operation OFF guidance, and shared multi-window setting. Existing images and links are unchanged.",
+    "reviewedTextSHA256": "ffee5cd293018588f4588846da3347602c601620503407c4d11812b2e67bc3f4",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/en/faq/uni-note/",
       "https://kumakikai.github.io/en/privacy/uni-note/"
@@ -222,10 +222,10 @@
   },
   "/fr/htu/uni-note/": {
     "source": "content/htu/uni-note.fr.md",
-    "sourceSHA256": "1d3818b004e3db32701a2f202123508627fa01369b9311164c90089cbf6ffd82",
+    "sourceSHA256": "4910107e9d2710741391f6151b86a667394bace47692191da36bfee755df024e",
     "baselineTextSHA256": "d9d8754e59fa8e812c9e7fcb2e3826dab146ef19f6aa38a7e2b4bd0bca83dc58",
-    "reviewedTextSHA256": "25c4dcbef01091497f2be8b228119103866dca7d55b71fc07be70c790ecac8af",
-    "reason": "2026-09-22 Finger Drawing release review: add the official localized label, one- and two-finger scroll and pinch behavior, material-operation OFF guidance, and shared multi-window setting. Existing images and links are unchanged.",
+    "reviewedTextSHA256": "b71eb2bca091361841305dc2f5829cb4af0a42c08a49456d1da17ac4510e2c36",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/fr/faq/uni-note/",
       "https://kumakikai.github.io/fr/privacy/uni-note/"
@@ -316,7 +316,7 @@
     "sourceSHA256": "9fb4136fc04bb6d94f8fd6b366d09338e5af2b02ac4e8266766fef08a6808b7e",
     "baselineTextSHA256": "9047a537b892dae04996352f8ee10a832b3218654f44e403b0be5e83e3b94b80",
     "reviewedTextSHA256": "a681cf711b2d09a44ceeed17dbf6453c0169af07d5b842a6f961daec58b1b5f6",
-    "reason": "2026-09-22 Finger Drawing release review: add the official localized label, one- and two-finger scroll and pinch behavior, material-operation OFF guidance, and shared multi-window setting. Existing images and links are unchanged.",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/faq/uni-note/",
       "https://kumakikai.github.io/privacy/uni-note/"
@@ -373,10 +373,10 @@
   },
   "/ko/htu/uni-note/": {
     "source": "content/htu/uni-note.ko.md",
-    "sourceSHA256": "b51f91628060ecd07030e790bee9bb04d503caeccc0957ce62338a6be18ebb89",
+    "sourceSHA256": "a5a9e6e5d201d63201ec16040847258a35a29e0dd5bf77c83089832840d6bcfb",
     "baselineTextSHA256": "6767264d91f95d305e2611b5ac966b9f9afbb6fc3ef6fccf6c799be4100c6ade",
-    "reviewedTextSHA256": "e99259825227732236e367ccb5aad15eced03f5da76ded3ef5b6cf07785bc13a",
-    "reason": "2026-09-22 Finger Drawing release review: add the official localized label, one- and two-finger scroll and pinch behavior, material-operation OFF guidance, and shared multi-window setting. Existing images and links are unchanged.",
+    "reviewedTextSHA256": "abe1cf396eaf762d3caf1ab2a062aec518eb232118c6454cb454393b4bb89281",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/ko/faq/uni-note/",
       "https://kumakikai.github.io/ko/privacy/uni-note/"
@@ -433,10 +433,10 @@
   },
   "/zh-hant/htu/uni-note/": {
     "source": "content/htu/uni-note.zh-hant.md",
-    "sourceSHA256": "689f5391cf771b54c636774b9420a2c85b585a0abb7f1de90311866d42ac4875",
+    "sourceSHA256": "60d776591d48865f3aa83bd1677ebeea2ad3b726d104b1c0f599cc5afcdd90ee",
     "baselineTextSHA256": "0ad93001924502ebcc8317108accca5d624457ff10510110e77257615d1e888a",
-    "reviewedTextSHA256": "5e83c53fe11fb30c0b8b056ceb86afc5e04ba0030a6445d0ef473a397f80285d",
-    "reason": "2026-09-22 Finger Drawing release review: add the official localized label, one- and two-finger scroll and pinch behavior, material-operation OFF guidance, and shared multi-window setting. Existing images and links are unchanged.",
+    "reviewedTextSHA256": "b586fed5c950c6577d7bc9692e3b41153677e0ca6fd1ffc4e7e0b71ccdf6c1c2",
+    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
     "removedLinks": [
       "https://kumakikai.github.io/zh-hant/faq/uni-note/",
       "https://kumakikai.github.io/zh-hant/privacy/uni-note/"

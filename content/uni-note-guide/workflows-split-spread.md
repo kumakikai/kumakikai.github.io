@@ -4,7 +4,7 @@ description: "見開きのPDFを左右に分け、片側ずつ読みながら書
 seo_title: "見開きPDFを左右に分割して学習する | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/workflows/split-spread/"
-lastmod: "2026-09-19"
+lastmod: "2026-09-23"
 guide_category: "workflows"
 guide_kind: "article"
 operation_ids: []
@@ -32,8 +32,8 @@ operation_ids: []
 
 1. 貼り付け開始ページで左半分を確認します。
 2. 次のページで右半分を確認します。
-3. 位置や大きさを変える場合は資料の固定を解除して調整します。
-4. 固定した資料へApple Pencilで注釈します。
+3. 位置や大きさを変える場合は、[写真・PDFの選択方法](/htu/uni-note/materials/#arrange)に従って資料を選び、調整します。
+4. 資料へApple Pencilで注釈します。
 
 複数のPDFページは元のページ番号順で入り、それぞれ左半分→右半分となります。読む順番を変えたい場合は、貼り付け後にページ一覧でサムネイルを長押しして並べ替えます。
 

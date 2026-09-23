@@ -1784,8 +1784,8 @@
       "M09-01",
       "M10-01"
     ],
-    "purpose": "PDF固定解除・選択中",
-    "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+    "purpose": "PDF選択中",
+    "state": "同じPDFを選択し、選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
     "role": "step",
     "status": "approved",
     "release_status": "capture-published-3.5",
@@ -1793,8 +1793,8 @@
     "url": "/htu/uni-note/materials/#arrange",
     "src": "images/guides/uni-note/un35/un35-035-pdf-unlocked-common.png",
     "source_sha256": "df47358de0b73dfc58f85422748fb2c5437114638e9e3d1438744f9e6f36d25c",
-    "alt": "移動中のPDFを示す青い選択枠とサイズ変更ハンドル",
-    "caption": "移動中のPDFを示す青い選択枠とサイズ変更ハンドル。",
+    "alt": "選択されたPDFの青い選択枠とサイズ変更ハンドル",
+    "caption": "PDFを選択すると、青い選択枠とサイズ変更ハンドルが表示されます。",
     "capture_id": "UN35-035",
     "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-035.png",
     "original_sha256": "b990f575c5463f921f9c71686d6ca846220ff19626ba515d38dae06f7a8fbb44",
@@ -1805,7 +1805,7 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "移動中のPDFを示す青い選択枠とサイズ変更ハンドル"
+    "capture_state": "選択されたPDFの青い選択枠とサイズ変更ハンドル"
   },
   "materials-arrange--m-m12": {
     "page": "materials/arrange",
@@ -3911,8 +3911,8 @@
       "M09-01",
       "M10-01"
     ],
-    "purpose": "PDF固定解除・選択中",
-    "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+    "purpose": "PDF選択中",
+    "state": "同じPDFを選択し、選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
     "role": "step",
     "status": "pending",
     "release_status": "capture-published-3.5",
@@ -4086,8 +4086,8 @@
       "M09-01",
       "M10-01"
     ],
-    "purpose": "PDF固定解除・選択中",
-    "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+    "purpose": "PDF選択中",
+    "state": "同じPDFを選択し、選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
     "role": "step",
     "status": "pending",
     "release_status": "capture-published-3.5",

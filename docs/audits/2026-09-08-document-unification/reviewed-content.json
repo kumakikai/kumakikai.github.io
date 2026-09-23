@@ -71,16 +71,16 @@
     },
     "/de/htu/uni-note/": {
       "source": "content/htu/uni-note.de.md",
-      "sourceSHA256": "a3488862cd83159b63ee5ea034b43f4d8f8236b1ee5e62962a0ee6fa7e988b1b",
+      "sourceSHA256": "f91558669907b28c223004cfae3719de7687e5ec7306c5b6222d576ad19f2b82",
       "beforeSourceSHA256": "058a054f08bc3ac0e5d0d1a63b404a8f86693f6ae3212879dc7d389ee076463a",
       "baselineTextSHA256": "65f68ff2e7b70bff28dcd58b530e206b83d814b0f7f95d14975f7c32f0180d07",
-      "reviewedTextSHA256": "0950240bf134b01dd343b3fadb9cf6dbeab7570303c98d4a63701957440c8f19",
+      "reviewedTextSHA256": "4e079b2cd4b13b0f20b10279ecc352d52faa04270307e13cd59b842a0a726a78",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/de/faq/uni-note/",
         "https://kumakikai.github.io/de/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text and captions are preserved. The 2026-09-22 Finger Drawing release update adds the official localized label, gesture differences, material-operation OFF guidance and shared multi-window setting. FAQ and contact remain on the parent support page; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. The 2026-09-23 Finger Drawing correction replaces material-operation OFF guidance with OFF single-tap and ON long-press selection using the official localized action, distinguishes canvas zoom from material resizing, and removes retiring material double-tap lock guidance. FAQ and contact remain on the parent support page; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -235,16 +235,16 @@
     },
     "/en/htu/uni-note/": {
       "source": "content/htu/uni-note.en.md",
-      "sourceSHA256": "ea479640043e0ba56b15a2a1a244ce0d1118fa43826f971f9d1c5b29c3938744",
+      "sourceSHA256": "421a1145e01a76acb68c0a4fa4914cdeddce07f8ffd6d8ba1b27a1b8e307c618",
       "beforeSourceSHA256": "e79c85645c0379d9b269c9955c1bae1e544ff1beeb97a65ba64994146d8096cc",
       "baselineTextSHA256": "a26b5bab23dc299994a244f3487439f466613882df23bea152e792997f643601",
-      "reviewedTextSHA256": "596535e395edd0c190e5c0995fb64e79592ac4bbb0caec7857a4907fa48041c4",
+      "reviewedTextSHA256": "6959147e7daf7ccd68362546fe3ddd26c26beb2d74b00ca7e904cbf58c1f04d6",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/en/faq/uni-note/",
         "https://kumakikai.github.io/en/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text and captions are preserved. The 2026-09-22 Finger Drawing release update adds the official localized label, gesture differences, material-operation OFF guidance and shared multi-window setting. FAQ and contact remain on the parent support page; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. The 2026-09-23 Finger Drawing correction replaces material-operation OFF guidance with OFF single-tap and ON long-press selection using the official localized action, distinguishes canvas zoom from material resizing, and removes retiring material double-tap lock guidance. FAQ and contact remain on the parent support page; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -606,16 +606,16 @@
     },
     "/fr/htu/uni-note/": {
       "source": "content/htu/uni-note.fr.md",
-      "sourceSHA256": "1d3818b004e3db32701a2f202123508627fa01369b9311164c90089cbf6ffd82",
+      "sourceSHA256": "4910107e9d2710741391f6151b86a667394bace47692191da36bfee755df024e",
       "beforeSourceSHA256": "5f031450582be5fe983d7d71f9f179857047f147dcb8fdeec921c6ce12d8ffd0",
       "baselineTextSHA256": "d9d8754e59fa8e812c9e7fcb2e3826dab146ef19f6aa38a7e2b4bd0bca83dc58",
-      "reviewedTextSHA256": "e542f7a8f3fc423dbbfb2f99fb84304fc1268ad4b6570a20915b560e61ef76f5",
+      "reviewedTextSHA256": "5a7c7923f589999c837c2ad1dee9dda4879e6e7010e4f6e7ecd528040a974ef9",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/fr/faq/uni-note/",
         "https://kumakikai.github.io/fr/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text and captions are preserved. The 2026-09-22 Finger Drawing release update adds the official localized label, gesture differences, material-operation OFF guidance and shared multi-window setting. FAQ and contact remain on the parent support page; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. The 2026-09-23 Finger Drawing correction replaces material-operation OFF guidance with OFF single-tap and ON long-press selection using the official localized action, distinguishes canvas zoom from material resizing, and removes retiring material double-tap lock guidance. FAQ and contact remain on the parent support page; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -909,7 +909,7 @@
         "https://kumakikai.github.io/faq/uni-note/",
         "https://kumakikai.github.io/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text and captions are preserved. The 2026-09-22 Finger Drawing release update adds the official localized label, gesture differences, material-operation OFF guidance and shared multi-window setting. FAQ and contact remain on the parent support page; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. The 2026-09-23 Finger Drawing correction replaces material-operation OFF guidance with OFF single-tap and ON long-press selection using the official localized action, distinguishes canvas zoom from material resizing, and removes retiring material double-tap lock guidance. FAQ and contact remain on the parent support page; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -1024,16 +1024,16 @@
     },
     "/ko/htu/uni-note/": {
       "source": "content/htu/uni-note.ko.md",
-      "sourceSHA256": "b51f91628060ecd07030e790bee9bb04d503caeccc0957ce62338a6be18ebb89",
+      "sourceSHA256": "a5a9e6e5d201d63201ec16040847258a35a29e0dd5bf77c83089832840d6bcfb",
       "beforeSourceSHA256": "c02e5a556d594b33a22567cefb065a2d6e1939eb14b4e9fda06099ab2bcd386b",
       "baselineTextSHA256": "6767264d91f95d305e2611b5ac966b9f9afbb6fc3ef6fccf6c799be4100c6ade",
-      "reviewedTextSHA256": "500fb5156fd3001586149a2d20ba07972b934519e604ea9719eb9ce7d093589b",
+      "reviewedTextSHA256": "192c74426c9a72b44d21db806c6977e157f66ed36524f17bf86860b3a28c1672",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/ko/faq/uni-note/",
         "https://kumakikai.github.io/ko/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text and captions are preserved. The 2026-09-22 Finger Drawing release update adds the official localized label, gesture differences, material-operation OFF guidance and shared multi-window setting. FAQ and contact remain on the parent support page; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. The 2026-09-23 Finger Drawing correction replaces material-operation OFF guidance with OFF single-tap and ON long-press selection using the official localized action, distinguishes canvas zoom from material resizing, and removes retiring material double-tap lock guidance. FAQ and contact remain on the parent support page; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -1532,16 +1532,16 @@
     },
     "/zh-hant/htu/uni-note/": {
       "source": "content/htu/uni-note.zh-hant.md",
-      "sourceSHA256": "689f5391cf771b54c636774b9420a2c85b585a0abb7f1de90311866d42ac4875",
+      "sourceSHA256": "60d776591d48865f3aa83bd1677ebeea2ad3b726d104b1c0f599cc5afcdd90ee",
       "beforeSourceSHA256": "4e963f8e757eaa220cf8d5a54add967f2856c83b9ad68dc5a711e876f2d03b07",
       "baselineTextSHA256": "0ad93001924502ebcc8317108accca5d624457ff10510110e77257615d1e888a",
-      "reviewedTextSHA256": "0edd5db44f4c4e58c872c0d12481f30f8fdd9da3935ffd7f3e8e2d25ed95c9bc",
+      "reviewedTextSHA256": "d30643bf1021191354860e064da2f81818ec7e96282ab8b294a4e40487aa4ee8",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/zh-hant/faq/uni-note/",
         "https://kumakikai.github.io/zh-hant/privacy/uni-note/"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text and captions are preserved. The 2026-09-22 Finger Drawing release update adds the official localized label, gesture differences, material-operation OFF guidance and shared multi-window setting. FAQ and contact remain on the parent support page; all formal routes remain.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. The 2026-09-23 Finger Drawing correction replaces material-operation OFF guidance with OFF single-tap and ON long-press selection using the official localized action, distinguishes canvas zoom from material resizing, and removes retiring material double-tap lock guidance. FAQ and contact remain on the parent support page; all formal routes remain.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"

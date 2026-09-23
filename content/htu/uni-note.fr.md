@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-09-22"
+version_context_date: "2026-09-23"
 title: "Mode d’emploi (Uni:Note)"
 description: "Mode d’emploi pour Uni:Note."
-lastmod: 2026-09-22
+lastmod: 2026-09-23
 ---
 
 ## Introduction
@@ -64,7 +64,7 @@ Dans une note, **Liste des notes** ouvre les autres notes de la matière ou en c
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="PDF de cours annoté dans Uni:Note" mode="tablet" >}}
 
-Avant de sélectionner, déplacer, redimensionner, verrouiller, déverrouiller ou manipuler une photo ou un PDF, désactivez **Dessiner au doigt** dans les réglages. Sélectionnez ensuite la pièce jointe avec le doigt pour la déplacer ou la redimensionner. Touchez deux fois pour la verrouiller ou déverrouiller, puis annotez avec l’Apple Pencil. Pour partager, utilisez **Plus → Exporter en PDF**, pour la note ou toute la matière. Le fond peut être blanc ou de la couleur du papier.
+La sélection d’un document dépend du réglage **Dessiner au doigt**. Lorsqu’il est désactivé, touchez une fois la photo ou le PDF pour le sélectionner. Lorsqu’il est activé, effectuez un appui prolongé sur le document, puis choisissez **Déplacer et redimensionner** dans le menu. Vous pouvez laisser Dessiner au doigt activé pendant le déplacement ou le redimensionnement du document sélectionné. Le pincement à deux doigts zoome la note elle-même ; en mode de dessin au doigt, utilisez la poignée de redimensionnement du document sélectionné. Vous pouvez toujours écrire sur le document avec l’Apple Pencil. Pour partager, utilisez **Plus → Exporter en PDF**, pour la note ou toute la matière. Le fond peut être blanc ou de la couleur du papier.
 
 {{< guide-anchor "10-utiliser-lenregistrement-la-transcription-et-le-résumé-ia" >}}
 

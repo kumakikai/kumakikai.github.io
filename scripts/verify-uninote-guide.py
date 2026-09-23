@@ -48,6 +48,29 @@ def verify(build):
     used_slots = []
     internal_references = 0
     public_images = []
+    material_sources = [
+        ROOT / 'content/uni-note-guide/materials.md',
+        ROOT / 'content/uni-note-guide/workflows-material-margin.md',
+        ROOT / 'content/uni-note-guide/workflows-vertical-annotate.md',
+        ROOT / 'content/uni-note-guide/workflows-sticky-material.md',
+    ]
+    material_text = '\n'.join(path.read_text() for path in material_sources)
+    require('OFFの場合は、資料を指で1回タップ（シングルタップ）' in material_text, 'Finger Drawing OFF material selection must use a single tap')
+    require('長押しし、表示されるメニューから「移動・サイズ変更」を選びます' in material_text, 'Finger Drawing ON material selection must use the long-press menu')
+    require('素材操作のためにOFFへ切り替える必要はありません' in material_text, 'Finger Drawing ON must remain enabled for material operations')
+    require('ダブルタップ' not in material_text, 'Retiring material double-tap operation must not be recommended')
+    require(not re.search(r'指で描画.{0,24}OFFにし|指で描画.{0,24}OFFにして', material_text), 'Material operation must not require turning Finger Drawing off')
+    localized_material_markers = {
+        'en': ('tap a photo or PDF once', 'touch and hold the material', 'Move & Resize'),
+        'ko': ('사진이나 PDF를 한 번 탭', '자료를 길게 누른 뒤', '이동 및 크기 조절'),
+        'de': ('tippe einmal auf ein Foto oder PDF', 'halte das Material gedrückt', 'Verschieben & Größe ändern'),
+        'zh-hant': ('點一下照片或 PDF', '長按素材', '移動與調整大小'),
+        'fr': ('touchez une fois la photo ou le PDF', 'effectuez un appui prolongé', 'Déplacer et redimensionner'),
+    }
+    for lang, markers in localized_material_markers.items():
+        localized_source = (ROOT / f'content/htu/uni-note.{lang}.md').read_text()
+        require(all(marker in localized_source for marker in markers), 'Localized material selection is incomplete: ' + lang)
+        require(not re.search(r'Double-tap|Doppeltipp|두 번 탭|點兩下|Touchez deux fois', localized_source), 'Retiring material double-tap remains: ' + lang)
     for route, source_name in routes.items():
         source = ROOT / source_name
         target = build / route.strip('/') / 'index.html'

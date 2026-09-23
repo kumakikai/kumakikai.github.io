@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "guidePages": 22,
+  "guidePages": 49,
   "apps": [
     "balance-calendar",
     "giga-poke",
@@ -11,16 +11,16 @@
     "uni-note",
     "uni-note-pocket"
   ],
-  "sourceImages": 117,
-  "renderedUses": 143,
+  "sourceImages": 167,
+  "renderedUses": 222,
   "modes": {
-    "crop": 108,
+    "crop": 152,
     "screen": 29,
-    "tablet": 6
+    "tablet": 41
   },
-  "sourceBytes": 10458389,
-  "generatedVariants": 218,
-  "generatedBytes": 4310646,
+  "sourceBytes": 27376476,
+  "generatedVariants": 331,
+  "generatedBytes": 6963704,
   "errors": [],
   "pages": [
     {
@@ -708,25 +708,25 @@
       "locale": "de",
       "images": [
         {
-          "source": "assets/images/guides/uni-note/de/create-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-002-home-add-menu-ja.png",
           "mode": "crop",
           "alt": "Neues Fach und Ordner erstellen im Plus-Menü der Startseite",
           "caption": "Das Menü nach dem Tippen auf + unten rechts."
         },
         {
-          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "source": "assets/images/guides/uni-note/un35/un35-018-pen-panel-ja.png",
           "mode": "crop",
           "alt": "Palette mit Stift, Marker, Radierer, Haftmarker und Rückgängig",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/de/home-search.png",
+          "source": "assets/images/guides/uni-note/un35/un35-008-note-search-results-ja.png",
           "mode": "crop",
           "alt": "Suche nach Notiztiteln auf der Startseite",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/de/attachment-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-063-more-menu-ja.png",
           "mode": "crop",
           "alt": "Menü für Foto, Dokumentfoto, PDF-Anhang und PDF-Export",
           "caption": null
@@ -738,13 +738,13 @@
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "source": "assets/images/guides/uni-note/un35/un35-042-recording-ready-ja.png",
           "mode": "crop",
           "alt": "Sprache und roter Aufnahmeknopf im Aufnahmebereich",
-          "caption": "Im Beispiel ist Englisch als Aufnahmesprache gewählt."
+          "caption": "Das Beispiel zeigt das Aufnahmefeld mit Japanisch als gewählter Sprache."
         },
         {
-          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "source": "assets/images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
           "mode": "crop",
           "alt": "Haftmarker verdecken Antworten in der Vorlesungsnotiz",
           "caption": null
@@ -771,25 +771,25 @@
       "locale": "en",
       "images": [
         {
-          "source": "assets/images/guides/uni-note/en/create-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-002-home-add-menu-ja.png",
           "mode": "crop",
           "alt": "New Subject and Create Folder in the Home Add menu",
           "caption": "The creation menu opened by the bottom-right + button."
         },
         {
-          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "source": "assets/images/guides/uni-note/un35/un35-018-pen-panel-ja.png",
           "mode": "crop",
           "alt": "Pen, highlighter, eraser, sticky marker, undo and redo palette",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/en/home-search.png",
+          "source": "assets/images/guides/uni-note/un35/un35-008-note-search-results-ja.png",
           "mode": "crop",
           "alt": "Search note titles field on Home",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/en/attachment-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-063-more-menu-ja.png",
           "mode": "crop",
           "alt": "Photo, document photo, PDF attachment and PDF export menu",
           "caption": null
@@ -801,13 +801,13 @@
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "source": "assets/images/guides/uni-note/un35/un35-042-recording-ready-ja.png",
           "mode": "crop",
           "alt": "Recording panel language and red record button",
-          "caption": "The recording-language example uses English."
+          "caption": "The example shows the recording panel with Japanese selected."
         },
         {
-          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "source": "assets/images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
           "mode": "crop",
           "alt": "Sticky markers hiding answers in lecture notes",
           "caption": null
@@ -834,25 +834,25 @@
       "locale": "fr",
       "images": [
         {
-          "source": "assets/images/guides/uni-note/fr/create-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-002-home-add-menu-ja.png",
           "mode": "crop",
           "alt": "Ajouter une matière et Créer un dossier dans le menu + de l’accueil",
           "caption": "Le menu de création ouvert par le bouton + en bas à droite."
         },
         {
-          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "source": "assets/images/guides/uni-note/un35/un35-018-pen-panel-ja.png",
           "mode": "crop",
           "alt": "Palette avec stylo, surligneur, gomme, repère et annulation",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/fr/home-search.png",
+          "source": "assets/images/guides/uni-note/un35/un35-008-note-search-results-ja.png",
           "mode": "crop",
           "alt": "Recherche de titres sur l’accueil",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/fr/attachment-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-063-more-menu-ja.png",
           "mode": "crop",
           "alt": "Menu photo, document photo, pièce jointe PDF et export PDF",
           "caption": null
@@ -864,13 +864,13 @@
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "source": "assets/images/guides/uni-note/un35/un35-042-recording-ready-ja.png",
           "mode": "crop",
           "alt": "Langue et bouton rouge du panneau d’enregistrement",
-          "caption": "L’exemple utilise l’anglais comme langue de transcription."
+          "caption": "L’exemple montre le panneau d’enregistrement avec le japonais sélectionné."
         },
         {
-          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "source": "assets/images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
           "mode": "crop",
           "alt": "Repères adhésifs masquant les réponses dans les notes",
           "caption": null
@@ -897,25 +897,25 @@
       "locale": "ko",
       "images": [
         {
-          "source": "assets/images/guides/uni-note/ko/create-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-002-home-add-menu-ja.png",
           "mode": "crop",
           "alt": "홈 오른쪽 아래 +에서 연 새 과목과 폴더 만들기 메뉴",
           "caption": "오른쪽 아래 +를 탭한 뒤 표시되는 생성 메뉴입니다."
         },
         {
-          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "source": "assets/images/guides/uni-note/un35/un35-018-pen-panel-ja.png",
           "mode": "crop",
           "alt": "펜·형광펜·지우개·스티커·실행 취소 팔레트",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/ko/home-search.png",
+          "source": "assets/images/guides/uni-note/un35/un35-008-note-search-results-ja.png",
           "mode": "crop",
           "alt": "홈의 노트 제목 검색창",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/ko/attachment-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-063-more-menu-ja.png",
           "mode": "crop",
           "alt": "사진·문서 사진·PDF 첨부·PDF 내보내기 메뉴",
           "caption": null
@@ -927,13 +927,13 @@
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "source": "assets/images/guides/uni-note/un35/un35-042-recording-ready-ja.png",
           "mode": "crop",
           "alt": "녹음 패널의 언어와 빨간 시작 버튼",
-          "caption": "예시의 문자 변환 언어는 영어입니다."
+          "caption": "예시는 일본어를 선택한 녹음 패널입니다."
         },
         {
-          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "source": "assets/images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
           "mode": "crop",
           "alt": "강의 노트의 답을 숨긴 스티커 마커",
           "caption": null
@@ -958,62 +958,7 @@
       "route": "/htu/uni-note/",
       "app": "uni-note",
       "locale": "ja",
-      "images": [
-        {
-          "source": "assets/images/guides/uni-note/ja/create-menu.png",
-          "mode": "crop",
-          "alt": "ホーム右下の＋から開く「教科を追加」と「フォルダを作成」のメニュー",
-          "caption": "右下の＋をタップしたあとの作成メニュー。"
-        },
-        {
-          "source": "assets/images/guides/uni-note/common/writing-tools.png",
-          "mode": "crop",
-          "alt": "Uni:Noteのペン・蛍光ペン・消しゴム・付箋マーカー・戻る・やり直しパレット",
-          "caption": null
-        },
-        {
-          "source": "assets/images/guides/uni-note/ja/home-search.png",
-          "mode": "crop",
-          "alt": "Uni:Noteホーム上部のノートタイトル検索欄",
-          "caption": null
-        },
-        {
-          "source": "assets/images/guides/uni-note/ja/attachment-menu.png",
-          "mode": "crop",
-          "alt": "Uni:Noteのその他メニューにある写真貼付・書類写真・PDF貼付・PDF出力",
-          "caption": null
-        },
-        {
-          "source": "assets/images/guides/uni-note/common/pdf-writing.png",
-          "mode": "tablet",
-          "alt": "講義PDFへApple Pencilで書き込んだUni:Noteの画面",
-          "caption": null
-        },
-        {
-          "source": "assets/images/guides/uni-note/common/record-button.png",
-          "mode": "crop",
-          "alt": "Uni:Note録音パネルの文字起こし言語と赤い録音開始ボタン",
-          "caption": "画面例では文字起こし言語を英語にしています。"
-        },
-        {
-          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
-          "mode": "crop",
-          "alt": "Uni:Noteの講義ノート上で答えを隠している黄色い付箋マーカー",
-          "caption": null
-        },
-        {
-          "source": "assets/images/guides/uni-note/ja/problem-answer.png",
-          "mode": "crop",
-          "alt": "解答結果の右上にあるコピー（左）と共有（右）のボタン",
-          "caption": null
-        },
-        {
-          "source": "assets/images/guides/uni-note/common/backup-file-actions.png",
-          "mode": "crop",
-          "alt": "Uni:Noteのバックアップ設定にある「バックアップを書き出す」と「ファイルから復元」",
-          "caption": "「設定 → バックアップ」のファイル操作。保存するときは上の行、保存済みファイルを戻すときは下の行を選びます。"
-        }
-      ],
+      "images": [],
       "watchGuide": false
     },
     {
@@ -1023,25 +968,25 @@
       "locale": "zh-hant",
       "images": [
         {
-          "source": "assets/images/guides/uni-note/zh-hant/create-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-002-home-add-menu-ja.png",
           "mode": "crop",
           "alt": "首頁右下角 + 開啟的新增科目與建立資料夾選單",
           "caption": "點首頁右下角 + 後開啟的建立選單。"
         },
         {
-          "source": "assets/images/guides/uni-note/common/writing-tools.png",
+          "source": "assets/images/guides/uni-note/un35/un35-018-pen-panel-ja.png",
           "mode": "crop",
           "alt": "筆、螢光筆、橡皮擦、便利貼及復原工具盤",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/zh-hant/home-search.png",
+          "source": "assets/images/guides/uni-note/un35/un35-008-note-search-results-ja.png",
           "mode": "crop",
           "alt": "首頁的筆記標題搜尋欄",
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/zh-hant/attachment-menu.png",
+          "source": "assets/images/guides/uni-note/un35/un35-063-more-menu-ja.png",
           "mode": "crop",
           "alt": "照片、文件照片、PDF 貼附與匯出選單",
           "caption": null
@@ -1053,13 +998,13 @@
           "caption": null
         },
         {
-          "source": "assets/images/guides/uni-note/common/record-button.png",
+          "source": "assets/images/guides/uni-note/un35/un35-042-recording-ready-ja.png",
           "mode": "crop",
           "alt": "錄音面板的語言與紅色開始按鈕",
-          "caption": "範例的轉錄語言為英文。"
+          "caption": "範例為選擇日文的錄音面板。"
         },
         {
-          "source": "assets/images/guides/uni-note/common/sticky-marker.png",
+          "source": "assets/images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
           "mode": "crop",
           "alt": "遮住課程答案的便利貼標記",
           "caption": null
@@ -1075,6 +1020,771 @@
           "mode": "crop",
           "alt": "Uni:Note 備份設定中的匯出備份與從檔案還原",
           "caption": "畫面為日文介面：上方項目匯出備份，下方項目從已儲存的檔案還原。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/ai.md",
+      "route": "/htu/uni-note/ai/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/ja/problem-answer.png",
+          "mode": "crop",
+          "alt": "解答結果のコピーと共有ボタン",
+          "caption": "コピーは左、共有は右です。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-060-answer-selection-common.png",
+          "mode": "tablet",
+          "alt": "PDF内のGDP問題を囲って解答の対象として選んだ状態",
+          "caption": "PDF内のGDP問題を囲って解答の対象として選んだ状態。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-061-answer-confirm-ja.png",
+          "mode": "crop",
+          "alt": "囲んだ問題の内容を解析前に確認する画面",
+          "caption": "囲んだ問題の内容を解析前に確認する画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-059-learning-settings-ja.png",
+          "mode": "crop",
+          "alt": "AI回答言語・文字起こし言語・要約形式・問題集表示の設定",
+          "caption": "AI回答言語・文字起こし言語・要約形式・問題集表示の設定。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/backup.md",
+      "route": "/htu/uni-note/backup/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/common/backup-file-actions.png",
+          "mode": "crop",
+          "alt": "バックアップを書き出す・ファイルから復元の項目",
+          "caption": "保存は上の行、復元は下の行から行います。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-079-backup-save-files-ja.png",
+          "mode": "crop",
+          "alt": "バックアップZIPをFilesの撮影教材フォルダへ保存する画面",
+          "caption": "バックアップZIPをFilesの撮影教材フォルダへ保存する画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-080-backup-restore-files-ja.png",
+          "mode": "crop",
+          "alt": "復元対象として実際に保存したバックアップZIPを選ぶFiles画面",
+          "caption": "復元対象として実際に保存したバックアップZIPを選ぶFiles画面。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/customize.md",
+      "route": "/htu/uni-note/customize/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-083-settings-home-ja.png",
+          "mode": "crop",
+          "alt": "設定に並ぶノート設定、表示設定、学習支援、バックアップ、サポートのカテゴリ",
+          "caption": "設定に並ぶノート設定、表示設定、学習支援、バックアップ、サポートのカテゴリ。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-084-notebook-settings-ja.png",
+          "mode": "crop",
+          "alt": "紙の種類・色・パレットの位置・ページ情報を設定するノート設定",
+          "caption": "紙の種類・色・パレットの位置・ページ情報を設定するノート設定。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-085-display-settings-ja.png",
+          "mode": "crop",
+          "alt": "起動時の表示、認証、ナビゲーションバー、パレット、言語の表示設定",
+          "caption": "起動時の表示、認証、ナビゲーションバー、パレット、言語の表示設定。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-086-navigation-configuration-ja.png",
+          "mode": "crop",
+          "alt": "ナビゲーションバーのプレビューとメニュー内のボタンを確認する配置設定",
+          "caption": "ナビゲーションバーのプレビューとメニュー内のボタンを確認する配置設定。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-087-palette-configuration-ja.png",
+          "mode": "crop",
+          "alt": "パレットに配置した道具の順序と利用できるツール欄を確認する設定",
+          "caption": "パレットに配置した道具の順序と利用できるツール欄を確認する設定。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/data.md",
+      "route": "/htu/uni-note/data/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-005-note-swipe-menu-ja.png",
+          "mode": "crop",
+          "alt": "ノート行をスワイプして表示した削除・保護・編集ボタン",
+          "caption": "ノート行をスワイプして表示した削除・保護・編集ボタン。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-081-note-unprotect-ja.png",
+          "mode": "crop",
+          "alt": "保護されたノート行をスワイプして表示した保護解除ボタン",
+          "caption": "保護されたノート行をスワイプして表示した保護解除ボタン。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-082-trash-overview-ja.png",
+          "mode": "crop",
+          "alt": "教科と個別ノートが並ぶゴミ箱と復元・削除ボタン",
+          "caption": "教科と個別ノートが並ぶゴミ箱と復元・削除ボタン。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/ipados.md",
+      "route": "/htu/uni-note/ipados/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-075-two-uninote-windows-common.png",
+          "mode": "tablet",
+          "alt": "左に資料用ノート、右に別の筆記用ノートを開いたUni:Noteの2ウインドウ",
+          "caption": "左に資料用ノート、右に別の筆記用ノートを開いたUni:Noteの2ウインドウ。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/library.md",
+      "route": "/htu/uni-note/library/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-001-home-overview-ja.png",
+          "mode": "tablet",
+          "alt": "最近使ったノート、教科カード、学期フォルダが並ぶホーム",
+          "caption": "最近使ったノート、教科カード、学期フォルダが並ぶホーム。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-003-subject-menu-ja.png",
+          "mode": "crop",
+          "alt": "教科カードを長押しして表示した編集・削除メニュー",
+          "caption": "教科カードを長押しして表示した編集・削除メニュー。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-007-subject-reorder-common.png",
+          "mode": "crop",
+          "alt": "本棚で教科カードをドラッグして並べ替えている状態",
+          "caption": "本棚で教科カードをドラッグして並べ替えている状態。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-014-subject-delete-confirm-ja.png",
+          "mode": "crop",
+          "alt": "教科をゴミ箱へ移す前の削除確認",
+          "caption": "教科をゴミ箱へ移す前の削除確認。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-009-subject-drag-folder-common.png",
+          "mode": "crop",
+          "alt": "教科カードを学期フォルダへ重ねて移動している状態",
+          "caption": "教科カードを学期フォルダへ重ねて移動している状態。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-010-folder-contents-ja.png",
+          "mode": "crop",
+          "alt": "2026年度 秋学期フォルダ内の経済学と資料用教科",
+          "caption": "2026年度 秋学期フォルダ内の経済学と資料用教科。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-011-folder-menu-ja.png",
+          "mode": "crop",
+          "alt": "学期フォルダを長押しして表示した編集・フォルダ削除メニュー",
+          "caption": "学期フォルダを長押しして表示した編集・フォルダ削除メニュー。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-012-folder-return-drag-ja.png",
+          "mode": "tablet",
+          "alt": "フォルダから教科を本棚へ戻すドラッグと画面下部の移動先",
+          "caption": "フォルダから教科を本棚へ戻すドラッグと画面下部の移動先。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-008-note-search-results-ja.png",
+          "mode": "crop",
+          "alt": "第8回で検索し、複数のノートが見つかった検索結果",
+          "caption": "第8回で検索し、複数のノートが見つかった検索結果。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/materials.md",
+      "route": "/htu/uni-note/materials/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-029-document-crop-ja.png",
+          "mode": "tablet",
+          "alt": "自作の資料画像を写真ライブラリから読み込み、書類の四隅を合わせる画面",
+          "caption": "自作の資料画像を写真ライブラリから読み込み、書類の四隅を合わせる画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-039-photo-initial-common.png",
+          "mode": "tablet",
+          "alt": "縦ノートに写真ライブラリから小さく貼り付けた資料画像",
+          "caption": "縦ノートに写真ライブラリから小さく貼り付けた資料画像。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-063-more-menu-ja.png",
+          "mode": "crop",
+          "alt": "写真・書類写真・PDF・問題集の入口が並ぶその他メニュー",
+          "caption": "写真・書類写真・PDF・問題集の入口が並ぶその他メニュー。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-030-pdf-page-selection-ja.png",
+          "mode": "crop",
+          "alt": "6ページのPDFから1〜3ページを選んだ貼付画面",
+          "caption": "6ページのPDFから1〜3ページを選んだ貼付画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-031-pdf-split-toggle-ja.png",
+          "mode": "crop",
+          "alt": "2ページの見開きPDFから1ページを選び、見開きを分割を有効にした画面",
+          "caption": "2ページの見開きPDFから1ページを選び、見開きを分割を有効にした画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-032-split-pdf-left-common.png",
+          "mode": "tablet",
+          "alt": "見開きPDFから分割した左半分の資料と手書きの注釈",
+          "caption": "見開きPDFから分割した左半分の資料と手書きの注釈。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-034-pdf-initial-position-common.png",
+          "mode": "tablet",
+          "alt": "通常ノートの左側にPDFを貼り付けた直後の画面",
+          "caption": "通常ノートの左側にPDFを貼り付けた直後の画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-033-split-pdf-right-common.png",
+          "mode": "tablet",
+          "alt": "見開きPDFから分割した右半分の資料と手書きの下線",
+          "caption": "見開きPDFから分割した右半分の資料と手書きの下線。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-035-pdf-unlocked-common.png",
+          "mode": "tablet",
+          "alt": "選択されたPDFの青い選択枠とサイズ変更ハンドル",
+          "caption": "PDFを選択すると、青い選択枠とサイズ変更ハンドルが表示されます。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-036-pdf-resized-common.png",
+          "mode": "tablet",
+          "alt": "PDFだけを縮小し、周囲に余白を作った結果",
+          "caption": "PDFだけを縮小し、周囲に余白を作った結果。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-038-vertical-pdf-annotated-common.png",
+          "mode": "tablet",
+          "alt": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み",
+          "caption": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-041-pdf-export-range-ja.png",
+          "mode": "crop",
+          "alt": "対象ノートと出力範囲を選ぶPDF出力画面",
+          "caption": "対象ノートと出力範囲を選ぶPDF出力画面。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/notebooks.md",
+      "route": "/htu/uni-note/notebooks/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-004-note-list-ja.png",
+          "mode": "crop",
+          "alt": "経済学のノート一覧と新規ノートボタン、各ノートの並べ替えハンドル",
+          "caption": "経済学のノート一覧と新規ノートボタン、各ノートの並べ替えハンドル。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-005-note-swipe-menu-ja.png",
+          "mode": "crop",
+          "alt": "ノート行をスワイプして表示した削除・保護・編集ボタン",
+          "caption": "ノート行をスワイプして表示した削除・保護・編集ボタン。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-006-note-reorder-common.png",
+          "mode": "crop",
+          "alt": "ノート一覧で並べ替えハンドルをドラッグしている状態",
+          "caption": "ノート一覧で並べ替えハンドルをドラッグしている状態。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-028-note-list-pane-common.png",
+          "mode": "tablet",
+          "alt": "ノートを表示したまま左側に開いた同じ教科のノート一覧",
+          "caption": "ノートを表示したまま左側に開いた同じ教科のノート一覧。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-015-page-boundary-common.png",
+          "mode": "tablet",
+          "alt": "通常ノートでページ2の下端と次のページが見える状態",
+          "caption": "通常ノートでページ2の下端と次のページが見える状態。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-016-page-list-common.png",
+          "mode": "crop",
+          "alt": "ページ一覧のページ番号と現在選択しているページの青い枠",
+          "caption": "ページ一覧のページ番号と現在選択しているページの青い枠。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-017-page-delete-menu-ja.png",
+          "mode": "crop",
+          "alt": "ページ一覧で対象ページを長押しして表示した削除メニュー",
+          "caption": "ページ一覧で対象ページを長押しして表示した削除メニュー。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-013-vertical-subject-form-ja.png",
+          "mode": "crop",
+          "alt": "縦罫を選び縦ノートを有効にした教科作成画面",
+          "caption": "縦罫を選び縦ノートを有効にした教科作成画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-038-vertical-pdf-annotated-common.png",
+          "mode": "tablet",
+          "alt": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み",
+          "caption": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/plans.md",
+      "route": "/htu/uni-note/plans/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/problem-sets.md",
+      "route": "/htu/uni-note/problem-sets/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-063-more-menu-ja.png",
+          "mode": "crop",
+          "alt": "写真・書類写真・PDF・問題集の入口が並ぶその他メニュー",
+          "caption": "写真・書類写真・PDF・問題集の入口が並ぶその他メニュー。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-064-quiz-generation-confirm-ja.png",
+          "mode": "crop",
+          "alt": "問題集作成前に対象ノートと対象ページを確認する画面",
+          "caption": "問題集作成前に対象ノートと対象ページを確認する画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-065-quiz-page-selection-ja.png",
+          "mode": "crop",
+          "alt": "問題集に使うノートのページ2を選択した状態",
+          "caption": "問題集に使うノートのページ2を選択した状態。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-069-quiz-hidden-answer-ja.png",
+          "mode": "crop",
+          "alt": "手動問題集の復習カードで解答を隠した状態",
+          "caption": "手動問題集の復習カードで解答を隠した状態。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-070-quiz-revealed-answer-ja.png",
+          "mode": "crop",
+          "alt": "手動で作成・編集したGDP問題の解答と解説を表示した復習カード",
+          "caption": "手動で作成・編集したGDP問題の解答と解説を表示した復習カード。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-071-quiz-manual-entry-ja.png",
+          "mode": "crop",
+          "alt": "問題集タイトル、問題文、解答、解説を入力した手動作成画面",
+          "caption": "問題集タイトル、問題文、解答、解説を入力した手動作成画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-072-quiz-card-menu-ja.png",
+          "mode": "crop",
+          "alt": "問題集カードの長押しで表示した編集・削除メニュー",
+          "caption": "問題集カードの長押しで表示した編集・削除メニュー。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-074-quiz-add-delete-ja.png",
+          "mode": "crop",
+          "alt": "問題集の編集画面にある問題文・解答・解説と問題の追加・削除ボタン",
+          "caption": "問題集の編集画面にある問題文・解答・解説と問題の追加・削除ボタン。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-059-learning-settings-ja.png",
+          "mode": "crop",
+          "alt": "AI回答言語・文字起こし言語・要約形式・問題集表示の設定",
+          "caption": "AI回答言語・文字起こし言語・要約形式・問題集表示の設定。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-068-quiz-home-ja.png",
+          "mode": "tablet",
+          "alt": "ホームの問題集タブに表示した手動問題集",
+          "caption": "ホームの問題集タブに表示した手動問題集。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/recording.md",
+      "route": "/htu/uni-note/recording/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-042-recording-ready-ja.png",
+          "mode": "crop",
+          "alt": "日本語を選んだ録音パネルと赤い開始ボタン",
+          "caption": "日本語を選んだ録音パネルと赤い開始ボタン。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-046-transcription-language-ja.png",
+          "mode": "crop",
+          "alt": "録音パネルから開いた文字起こし言語の選択肢",
+          "caption": "録音パネルから開いた文字起こし言語の選択肢。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/start.md",
+      "route": "/htu/uni-note/start/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-001-home-overview-ja.png",
+          "mode": "tablet",
+          "alt": "最近使ったノート、教科カード、学期フォルダが並ぶホーム",
+          "caption": "最近使ったノート、教科カード、学期フォルダが並ぶホーム。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-004-note-list-ja.png",
+          "mode": "crop",
+          "alt": "経済学のノート一覧と新規ノートボタン、各ノートの並べ替えハンドル",
+          "caption": "経済学のノート一覧と新規ノートボタン、各ノートの並べ替えハンドル。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-037-material-margin-common.png",
+          "mode": "tablet",
+          "alt": "左側にGDP資料、右側の余白に手書きの式を配置したノート",
+          "caption": "左側にGDP資料、右側の余白に手書きの式を配置したノート。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-002-home-add-menu-ja.png",
+          "mode": "crop",
+          "alt": "ホーム右下の追加メニューと教科・フォルダの作成項目",
+          "caption": "ホーム右下の追加メニューと教科・フォルダの作成項目。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/study.md",
+      "route": "/htu/uni-note/study/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
+          "mode": "tablet",
+          "alt": "PDFの用語と計算結果を黄色い付箋で隠した暗記教材",
+          "caption": "PDFの用語と計算結果を黄色い付箋で隠した暗記教材。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-052-sticky-panel-common.png",
+          "mode": "crop",
+          "alt": "付箋マーカーの太さと色を選ぶパレット設定",
+          "caption": "付箋マーカーの太さと色を選ぶパレット設定。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-054-sticky-reveal-common.png",
+          "mode": "tablet",
+          "alt": "上側の付箋だけを透過し、用語の答えを確認した状態",
+          "caption": "上側の付箋だけを透過し、用語の答えを確認した状態。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-055-pomodoro-setup-ja.png",
+          "mode": "crop",
+          "alt": "集中25分・休憩5分・4セットのポモドーロ設定",
+          "caption": "集中25分・休憩5分・4セットのポモドーロ設定。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-056-pomodoro-writing-common.png",
+          "mode": "tablet",
+          "alt": "自作GDP資料の横に式を書き、ポモドーロを実行しているノート",
+          "caption": "自作GDP資料の横に式を書き、ポモドーロを実行しているノート。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-057-pomodoro-stop-ja.png",
+          "mode": "crop",
+          "alt": "現在のセットと残り時間、停止ボタンを表示するポモドーロ",
+          "caption": "現在のセットと残り時間、停止ボタンを表示するポモドーロ。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-explain.md",
+      "route": "/htu/uni-note/workflows/explain/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-external-material.md",
+      "route": "/htu/uni-note/workflows/external-material/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-076-external-pdf-and-note-common.png",
+          "mode": "tablet",
+          "alt": "左にiPadOSのプレビューで開いたPDF、右にUni:Noteを配置した状態",
+          "caption": "左にiPadOSのプレビューで開いたPDF、右にUni:Noteを配置した状態。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-focus.md",
+      "route": "/htu/uni-note/workflows/focus/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-056-pomodoro-writing-common.png",
+          "mode": "tablet",
+          "alt": "自作GDP資料の横に式を書き、ポモドーロを実行しているノート",
+          "caption": "自作GDP資料の横に式を書き、ポモドーロを実行しているノート。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-material-margin.md",
+      "route": "/htu/uni-note/workflows/material-margin/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-037-material-margin-common.png",
+          "mode": "tablet",
+          "alt": "左側にGDP資料、右側の余白に手書きの式を配置したノート",
+          "caption": "左側にGDP資料、右側の余白に手書きの式を配置したノート。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-pip.md",
+      "route": "/htu/uni-note/workflows/pip/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-077-pip-note-common.png",
+          "mode": "tablet",
+          "alt": "Safariで再生した自作講義動画をiPadOSのPiPで表示した筆記画面",
+          "caption": "Safariで再生した自作講義動画をiPadOSのPiPで表示した筆記画面。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-quiz-review.md",
+      "route": "/htu/uni-note/workflows/quiz-review/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-record-review.md",
+      "route": "/htu/uni-note/workflows/record-review/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-split-spread.md",
+      "route": "/htu/uni-note/workflows/split-spread/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-032-split-pdf-left-common.png",
+          "mode": "tablet",
+          "alt": "見開きPDFから分割した左半分の資料と手書きの注釈",
+          "caption": "見開きPDFから分割した左半分の資料と手書きの注釈。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-033-split-pdf-right-common.png",
+          "mode": "tablet",
+          "alt": "見開きPDFから分割した右半分の資料と手書きの下線",
+          "caption": "見開きPDFから分割した右半分の資料と手書きの下線。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-031-pdf-split-toggle-ja.png",
+          "mode": "crop",
+          "alt": "2ページの見開きPDFから1ページを選び、見開きを分割を有効にした画面",
+          "caption": "2ページの見開きPDFから1ページを選び、見開きを分割を有効にした画面。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-sticky-material.md",
+      "route": "/htu/uni-note/workflows/sticky-material/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
+          "mode": "tablet",
+          "alt": "PDFの用語と計算結果を黄色い付箋で隠した暗記教材",
+          "caption": "PDFの用語と計算結果を黄色い付箋で隠した暗記教材。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-054-sticky-reveal-common.png",
+          "mode": "tablet",
+          "alt": "上側の付箋だけを透過し、用語の答えを確認した状態",
+          "caption": "上側の付箋だけを透過し、用語の答えを確認した状態。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-summary-annotate.md",
+      "route": "/htu/uni-note/workflows/summary-annotate/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-two-notes.md",
+      "route": "/htu/uni-note/workflows/two-notes/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-075-two-uninote-windows-common.png",
+          "mode": "tablet",
+          "alt": "左に資料用ノート、右に別の筆記用ノートを開いたUni:Noteの2ウインドウ",
+          "caption": "左に資料用ノート、右に別の筆記用ノートを開いたUni:Noteの2ウインドウ。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows-vertical-annotate.md",
+      "route": "/htu/uni-note/workflows/vertical-annotate/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-038-vertical-pdf-annotated-common.png",
+          "mode": "tablet",
+          "alt": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み",
+          "caption": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み。"
+        }
+      ],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/workflows.md",
+      "route": "/htu/uni-note/workflows/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [],
+      "watchGuide": false
+    },
+    {
+      "source": "content/uni-note-guide/writing.md",
+      "route": "/htu/uni-note/writing/",
+      "app": "uni-note",
+      "locale": "ja",
+      "images": [
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-018-pen-panel-ja.png",
+          "mode": "crop",
+          "alt": "パレットから開いたペンの種類・色・太さの設定",
+          "caption": "パレットから開いたペンの種類・色・太さの設定。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-019-highlighter-panel-ja.png",
+          "mode": "crop",
+          "alt": "パレットから開いた蛍光ペンの色・太さ・濃さの設定",
+          "caption": "パレットから開いた蛍光ペンの色・太さ・濃さの設定。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-020-eraser-panel-ja.png",
+          "mode": "crop",
+          "alt": "線消し・ピクセル消し・ページをクリアの選択画面",
+          "caption": "線消し・ピクセル消し・ページをクリアの選択画面。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-021-eraser-comparison-common.png",
+          "mode": "crop",
+          "alt": "線消しで下の線全体を消した左側と、部分消去で線の中央だけを消した右側",
+          "caption": "線消しで下の線全体を消した左側と、部分消去で線の中央だけを消した右側。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-022-palette-left-common.png",
+          "mode": "tablet",
+          "alt": "ノート画面の左側に配置したパレット",
+          "caption": "ノート画面の左側に配置したパレット。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-023-palette-collapsed-common.png",
+          "mode": "tablet",
+          "alt": "筆記中に小さく収納されたパレット",
+          "caption": "筆記中に小さく収納されたパレット。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-024-ruler-active-common.png",
+          "mode": "tablet",
+          "alt": "資料と手書きのあるノートで表示した横向きの定規",
+          "caption": "資料と手書きのあるノートで表示した横向きの定規。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-025-handwriting-selection-common.png",
+          "mode": "tablet",
+          "alt": "手書きの式を囲んで選択した状態",
+          "caption": "手書きの式を囲んで選択した状態。"
+        },
+        {
+          "source": "assets/images/guides/uni-note/un35/un35-026-handwriting-moved-common.png",
+          "mode": "tablet",
+          "alt": "選択した手書きの式を余白の下方へ移動した結果",
+          "caption": "選択した手書きの式を余白の下方へ移動した結果。"
         }
       ],
       "watchGuide": false
@@ -1433,33 +2143,33 @@
       "bytes": 115502,
       "sha256": "86738095e6974ae04261cdb7511f5206d9fda07e86bb75b3dfd467b29cc83c39"
     },
-    "assets/images/guides/uni-note/de/create-menu.png": {
-      "bytes": 17667,
-      "sha256": "57fc098bd6cb51dfbabf00f3804baf2940f3cf8b4368909d47463ce6a52fdac7"
+    "assets/images/guides/uni-note/un35/un35-002-home-add-menu-ja.png": {
+      "bytes": 27485,
+      "sha256": "32eddf77d4eefb25f661f791320e7655e28a7ad419110edded1afffcecd43e9f"
     },
-    "assets/images/guides/uni-note/common/writing-tools.png": {
-      "bytes": 59401,
-      "sha256": "bbf99dd18878c9e5ae1f9c8fade516de08b1ad9ea704ffd6752f0197b990e789"
+    "assets/images/guides/uni-note/un35/un35-018-pen-panel-ja.png": {
+      "bytes": 102461,
+      "sha256": "5e0b14a36f4b774f8f56fe47e37a2438af3cc37c9940698ae30ca7edaaa253f0"
     },
-    "assets/images/guides/uni-note/de/home-search.png": {
-      "bytes": 12431,
-      "sha256": "0f34ecf69928166bf8abc13c718dabe4717a8acb2ef6c25caee55ff7527a949a"
+    "assets/images/guides/uni-note/un35/un35-008-note-search-results-ja.png": {
+      "bytes": 129301,
+      "sha256": "75064b4172a34a4acc59d7bd040ead3a7ecc02568dd868aa0cd2c3c4c579f4c9"
     },
-    "assets/images/guides/uni-note/de/attachment-menu.png": {
-      "bytes": 31679,
-      "sha256": "064cd7a9493951804d4946b261c4eccb72b8a5ce2ecda29ec8e706bbcb6ebb2f"
+    "assets/images/guides/uni-note/un35/un35-063-more-menu-ja.png": {
+      "bytes": 66606,
+      "sha256": "4bb3063c866669e18a088de2881ef694e9655618ba55508c001b0837efbef834"
     },
     "assets/images/guides/uni-note/common/pdf-writing.png": {
       "bytes": 236930,
       "sha256": "5b196594988ea7f0ee0e7f627b1e2446a8e593e6c31f9dea577ee07f775c03f5"
     },
-    "assets/images/guides/uni-note/common/record-button.png": {
-      "bytes": 9087,
-      "sha256": "105f8ee9f3a4ce05b145cfb5fcf50e28aa191abd23859e6c59db8ce6852696b5"
+    "assets/images/guides/uni-note/un35/un35-042-recording-ready-ja.png": {
+      "bytes": 82822,
+      "sha256": "d6eb4ede4638b6da4b10d1b9b8fad3ac5694b3d6460c6f3822f650d081aec5f5"
     },
-    "assets/images/guides/uni-note/common/sticky-marker.png": {
-      "bytes": 217173,
-      "sha256": "c12a20b4ecc5cf91e40c7c41c27a41d3e4dcb726e9697af97580bbf1c6ea4a48"
+    "assets/images/guides/uni-note/un35/un35-053-sticky-pdf-common.png": {
+      "bytes": 294943,
+      "sha256": "cae5a793f9166f494a472f0451c26217d0d2a04e1074b6858f39a147f04bc539"
     },
     "assets/images/guides/uni-note/de/problem-answer.png": {
       "bytes": 5979,
@@ -1469,85 +2179,285 @@
       "bytes": 31659,
       "sha256": "db52978b744b30f78013007c35ec56fca5bd50c8ade2bd384ce8817ce2c9d504"
     },
-    "assets/images/guides/uni-note/en/create-menu.png": {
-      "bytes": 18361,
-      "sha256": "d2f8060763b61d1e73f61f7bcb8f38987fd9f9a96b2d891d7db1e81cb283ebdb"
-    },
-    "assets/images/guides/uni-note/en/home-search.png": {
-      "bytes": 12215,
-      "sha256": "c98aec709d4eece8ce4dbb6783496b478fc3387c1e3c2d090c4386a4f3ea081e"
-    },
-    "assets/images/guides/uni-note/en/attachment-menu.png": {
-      "bytes": 31755,
-      "sha256": "54ddf588d383e7249543e25748eb485e15213f0b15d3248796f046ec596e029f"
-    },
     "assets/images/guides/uni-note/en/problem-answer.png": {
       "bytes": 5979,
       "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
-    },
-    "assets/images/guides/uni-note/fr/create-menu.png": {
-      "bytes": 19638,
-      "sha256": "c564438de1bf8d1f53845cb22ba93afee38def40b946c2f6770655fcbb886422"
-    },
-    "assets/images/guides/uni-note/fr/home-search.png": {
-      "bytes": 12079,
-      "sha256": "07818e19c4564e6242d4dacb97f1a793751024dc8fc538c95554138678c297e3"
-    },
-    "assets/images/guides/uni-note/fr/attachment-menu.png": {
-      "bytes": 33581,
-      "sha256": "3aa1bb6e2acc1521b07b47c2e230a11102e8ae1e8ef625e667be9e0a3bb7f147"
     },
     "assets/images/guides/uni-note/fr/problem-answer.png": {
       "bytes": 5979,
       "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
     },
-    "assets/images/guides/uni-note/ko/create-menu.png": {
-      "bytes": 13780,
-      "sha256": "3e7ba9a361707741f52857dc5f9da03a15bdd3fc80359a0a9d98e28df169a2aa"
-    },
-    "assets/images/guides/uni-note/ko/home-search.png": {
-      "bytes": 10876,
-      "sha256": "d491e69ae81e574ab567ff07f90af1a534a3bd462a40e308b05cfe6c4a874541"
-    },
-    "assets/images/guides/uni-note/ko/attachment-menu.png": {
-      "bytes": 27648,
-      "sha256": "efa8a45b23c1dff1060464c56f440a4f3d5ab2cd884632b8abf94ac7563d753d"
-    },
     "assets/images/guides/uni-note/ko/problem-answer.png": {
       "bytes": 5979,
       "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
     },
-    "assets/images/guides/uni-note/ja/create-menu.png": {
-      "bytes": 20650,
-      "sha256": "9a98a1ba84363ff9bdf71b9ccc20e0fc49a082278c4f5ab4a27ade588d9ce148"
-    },
-    "assets/images/guides/uni-note/ja/home-search.png": {
-      "bytes": 13415,
-      "sha256": "d89e38068d76971f084cae3b07aae86d94e623adc6105f585ed9f8ad29154236"
-    },
-    "assets/images/guides/uni-note/ja/attachment-menu.png": {
-      "bytes": 51178,
-      "sha256": "64bf7c7d3be4a85598b5559f9037ff203b30d236209d81148e247ce946eb44b7"
+    "assets/images/guides/uni-note/zh-hant/problem-answer.png": {
+      "bytes": 5979,
+      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
     },
     "assets/images/guides/uni-note/ja/problem-answer.png": {
       "bytes": 5689,
       "sha256": "2bcbc0d57a527c31cc7d6f889a770fbb3db5b1ad18337000965fffcf308f5df4"
     },
-    "assets/images/guides/uni-note/zh-hant/create-menu.png": {
-      "bytes": 18641,
-      "sha256": "bc3dc944e361b1823b72e73d896cd6483461c90526720c5175c60a1dd00f25df"
+    "assets/images/guides/uni-note/un35/un35-060-answer-selection-common.png": {
+      "bytes": 391829,
+      "sha256": "bd6ff5f51ea29ced9cf2e0b4b60de11ab9be95ffd094caaf66194f24e4d4563e"
     },
-    "assets/images/guides/uni-note/zh-hant/home-search.png": {
-      "bytes": 12940,
-      "sha256": "82fbec6228c1e8c12e075f0ef7b9fdbba8de1562b422e6a91ff8442a8c5bda02"
+    "assets/images/guides/uni-note/un35/un35-061-answer-confirm-ja.png": {
+      "bytes": 498298,
+      "sha256": "07ef2f4bbd0bfa1a0794a3cca9e87914cf790f726e9f7bc8cf52f7ee52b6ecdf"
     },
-    "assets/images/guides/uni-note/zh-hant/attachment-menu.png": {
-      "bytes": 28122,
-      "sha256": "a7aeedf2f004ba3cce761ba1f848706f0958e10ceeb23df5d5868e4d285b80e6"
+    "assets/images/guides/uni-note/un35/un35-059-learning-settings-ja.png": {
+      "bytes": 179005,
+      "sha256": "53cf0c069c33e2bd18f83eb4c418ce5489752573cbec348b364eeb4dd431ab42"
     },
-    "assets/images/guides/uni-note/zh-hant/problem-answer.png": {
-      "bytes": 5979,
-      "sha256": "41a1bc5112e3557527db42cfd6b163bec9bee5773b6154843b99b91c0a33d8cd"
+    "assets/images/guides/uni-note/un35/un35-079-backup-save-files-ja.png": {
+      "bytes": 191864,
+      "sha256": "bb83aca3a99f75bdf28e027ade711716f4db8dc937369dfd7f906f28cb210bc3"
+    },
+    "assets/images/guides/uni-note/un35/un35-080-backup-restore-files-ja.png": {
+      "bytes": 179535,
+      "sha256": "b11f308116911a299a6ce64be8ca1cbfe9bd110a0c4fefcd72f56b67371a2e97"
+    },
+    "assets/images/guides/uni-note/un35/un35-083-settings-home-ja.png": {
+      "bytes": 96766,
+      "sha256": "55e99b26bc5e2f807ea18e33c94e1caee18fc27503967177fe12817a65e0e328"
+    },
+    "assets/images/guides/uni-note/un35/un35-084-notebook-settings-ja.png": {
+      "bytes": 276503,
+      "sha256": "b1aea7bacf1f0d7a1439782de18182097f2f3a413aa4c89263c16c0dff38f041"
+    },
+    "assets/images/guides/uni-note/un35/un35-085-display-settings-ja.png": {
+      "bytes": 253068,
+      "sha256": "1d7e417f7c680fbe4e059bf5f5f9e0dca4154a3e12996a7ad9da27d29c9bd340"
+    },
+    "assets/images/guides/uni-note/un35/un35-086-navigation-configuration-ja.png": {
+      "bytes": 243349,
+      "sha256": "c7e9b6e6128f780f476ea50519fa2787b43a5c5f21362c5878c7ef66530b26cb"
+    },
+    "assets/images/guides/uni-note/un35/un35-087-palette-configuration-ja.png": {
+      "bytes": 152350,
+      "sha256": "f1c56b3c352b41cc12bb958b426eb6a7f2cce238f1353638f6a3e6fef0a0f197"
+    },
+    "assets/images/guides/uni-note/un35/un35-005-note-swipe-menu-ja.png": {
+      "bytes": 60391,
+      "sha256": "3ec9c1a6e41da17cbd0f8488732be93ab8bfed7d9c96805ec653fa9ddf0a50dc"
+    },
+    "assets/images/guides/uni-note/un35/un35-081-note-unprotect-ja.png": {
+      "bytes": 62642,
+      "sha256": "2dde63822b721eccd232b6ac4f8424dbf7bcf216f57f7c2b422eecda5961eec1"
+    },
+    "assets/images/guides/uni-note/un35/un35-082-trash-overview-ja.png": {
+      "bytes": 55788,
+      "sha256": "c8f4af77aca1d5ced9940835517d223b387c1976592b8fe7ce63c2be93f2d946"
+    },
+    "assets/images/guides/uni-note/un35/un35-075-two-uninote-windows-common.png": {
+      "bytes": 1364241,
+      "sha256": "9501e579f6da55a8bbfda72c983c27f3e55df6025cc3dfd4532ac3cd272660bc"
+    },
+    "assets/images/guides/uni-note/un35/un35-001-home-overview-ja.png": {
+      "bytes": 317646,
+      "sha256": "c2fb92ef3506e9f4e6a01889cacd1fc346e7eff325f9ce121e5961ce98a87f8e"
+    },
+    "assets/images/guides/uni-note/un35/un35-003-subject-menu-ja.png": {
+      "bytes": 124474,
+      "sha256": "2e6299454f1b83e74beac943b6dc6eb9ccf8fcaf198b5c458770d4ec1c5c668f"
+    },
+    "assets/images/guides/uni-note/un35/un35-007-subject-reorder-common.png": {
+      "bytes": 340472,
+      "sha256": "07f0c082c9fa5010832d611ff9990933c3cc8c5379474428fb569fccdfa8ac13"
+    },
+    "assets/images/guides/uni-note/un35/un35-014-subject-delete-confirm-ja.png": {
+      "bytes": 130447,
+      "sha256": "8acc95114cc7ed62b46ac79ccde3ebb15623ab95030b34aa00310ac889e32328"
+    },
+    "assets/images/guides/uni-note/un35/un35-009-subject-drag-folder-common.png": {
+      "bytes": 319334,
+      "sha256": "45b8769f865cfd409b9b74b7ac4a6fb8c3c04d680e39555aa4c976d93ca14597"
+    },
+    "assets/images/guides/uni-note/un35/un35-010-folder-contents-ja.png": {
+      "bytes": 55090,
+      "sha256": "32f567faa9cd2fac48eaae63fb9541c838f75966a027c16e2ec9323e30b31968"
+    },
+    "assets/images/guides/uni-note/un35/un35-011-folder-menu-ja.png": {
+      "bytes": 132264,
+      "sha256": "b195a6ca2ab560c570d886d948292a9c8c6b3fc2b54ea5d6266cbf00ec95f55d"
+    },
+    "assets/images/guides/uni-note/un35/un35-012-folder-return-drag-ja.png": {
+      "bytes": 333616,
+      "sha256": "d874952e72cbb87ba9e232a72d83f566fe4ae20a3a7795cf0876f5023c214fc4"
+    },
+    "assets/images/guides/uni-note/un35/un35-029-document-crop-ja.png": {
+      "bytes": 287232,
+      "sha256": "4eb403b41a529ad9813cc927c1af84e9c1e6701f87af8e6b2225d9266885fc4c"
+    },
+    "assets/images/guides/uni-note/un35/un35-039-photo-initial-common.png": {
+      "bytes": 500891,
+      "sha256": "4f7909ef364d8f2711d8d387db9d36954bf1f97179b22b5425724e24b26f372c"
+    },
+    "assets/images/guides/uni-note/un35/un35-030-pdf-page-selection-ja.png": {
+      "bytes": 183988,
+      "sha256": "cd59511bd25e0fd6dfe6f33c2297c7111bd6d94dd0d102ed62d779df4629e03f"
+    },
+    "assets/images/guides/uni-note/un35/un35-031-pdf-split-toggle-ja.png": {
+      "bytes": 123441,
+      "sha256": "b82848dfd73bd5910dbf369cc290f8fa86fc91538d1c11f27d0178abf9de37d8"
+    },
+    "assets/images/guides/uni-note/un35/un35-032-split-pdf-left-common.png": {
+      "bytes": 277340,
+      "sha256": "3d0eb5a572dde77dbf504d61560d50f0c36792adfa437fcf6f57d89489c52d56"
+    },
+    "assets/images/guides/uni-note/un35/un35-034-pdf-initial-position-common.png": {
+      "bytes": 326937,
+      "sha256": "12271c53c70ed9937014e00c5224d3a5d02d855d5b9d916697175c8484cfd24c"
+    },
+    "assets/images/guides/uni-note/un35/un35-033-split-pdf-right-common.png": {
+      "bytes": 378030,
+      "sha256": "2d20ad894bc9bbc6e76aae7734cbecd72c2e916da3264c859f1870f77d2d0dec"
+    },
+    "assets/images/guides/uni-note/un35/un35-035-pdf-unlocked-common.png": {
+      "bytes": 498701,
+      "sha256": "df47358de0b73dfc58f85422748fb2c5437114638e9e3d1438744f9e6f36d25c"
+    },
+    "assets/images/guides/uni-note/un35/un35-036-pdf-resized-common.png": {
+      "bytes": 590997,
+      "sha256": "c7d310e01a2aba11132ca468e5b6eda5a869595b096917511eecb814c7e5a818"
+    },
+    "assets/images/guides/uni-note/un35/un35-038-vertical-pdf-annotated-common.png": {
+      "bytes": 473755,
+      "sha256": "2db2dcefaa5b49a3f0e286a97ce7bb56c4f09ef53901041f69b65d3812540d1b"
+    },
+    "assets/images/guides/uni-note/un35/un35-041-pdf-export-range-ja.png": {
+      "bytes": 105577,
+      "sha256": "c09c4c129db575be38514b209eb0fa4dd8c23364985115641369a77bdc4a0b31"
+    },
+    "assets/images/guides/uni-note/un35/un35-004-note-list-ja.png": {
+      "bytes": 73906,
+      "sha256": "a763eaa66c3305a663ed96409d9f4597fc6888c150c4d1eb4e1e731b406541b6"
+    },
+    "assets/images/guides/uni-note/un35/un35-006-note-reorder-common.png": {
+      "bytes": 65895,
+      "sha256": "f104adb2372f5bb8b5624dd673d81c2ec5e49076ab23039fed80a4556e00db3c"
+    },
+    "assets/images/guides/uni-note/un35/un35-028-note-list-pane-common.png": {
+      "bytes": 276122,
+      "sha256": "010f668bdc13e479fb83d459101ba83bbdb163662b5a565a25b70d8bdbffcadd"
+    },
+    "assets/images/guides/uni-note/un35/un35-015-page-boundary-common.png": {
+      "bytes": 279356,
+      "sha256": "7f8364635febeabbd602b50eda2d5aee4476eb95785154819eaa7ed96d6a2b7a"
+    },
+    "assets/images/guides/uni-note/un35/un35-016-page-list-common.png": {
+      "bytes": 69870,
+      "sha256": "50e715c317b5223906738f58777fac6b4f5d5d9d5091739061de4a515ebd9f9c"
+    },
+    "assets/images/guides/uni-note/un35/un35-017-page-delete-menu-ja.png": {
+      "bytes": 83120,
+      "sha256": "9f82f3b6a1c2056bd589ae4c23b92977bc64c1abf03c89b41820117d03b534ae"
+    },
+    "assets/images/guides/uni-note/un35/un35-013-vertical-subject-form-ja.png": {
+      "bytes": 136788,
+      "sha256": "91d9307337dafd07569b76ae7b24c743fdc425fd2f32f6d655dec851446d094e"
+    },
+    "assets/images/guides/uni-note/un35/un35-064-quiz-generation-confirm-ja.png": {
+      "bytes": 116946,
+      "sha256": "3cdba3ba9af500132f0de70b6f41f03b17eae7ce8a315da763b86d93a11d53bc"
+    },
+    "assets/images/guides/uni-note/un35/un35-065-quiz-page-selection-ja.png": {
+      "bytes": 108736,
+      "sha256": "8c8f3e626ac05fee6721b01798f0991f70846b0e0387c703227d9733a1848652"
+    },
+    "assets/images/guides/uni-note/un35/un35-069-quiz-hidden-answer-ja.png": {
+      "bytes": 99493,
+      "sha256": "864fe47ed73ad0e2afb63f21bdedcee48b5cabedd2d2b23912bba9886cbe7bdc"
+    },
+    "assets/images/guides/uni-note/un35/un35-070-quiz-revealed-answer-ja.png": {
+      "bytes": 127771,
+      "sha256": "f6b49d85d3712615c4a100eb448a39cdeff5194e0fe85b4f43437c5f620d29fc"
+    },
+    "assets/images/guides/uni-note/un35/un35-071-quiz-manual-entry-ja.png": {
+      "bytes": 117266,
+      "sha256": "82894f0d729fbd3f93ae731592b29d095d8bc4c675035edeff1610ee56d8ccf3"
+    },
+    "assets/images/guides/uni-note/un35/un35-072-quiz-card-menu-ja.png": {
+      "bytes": 104502,
+      "sha256": "4ca39fa257ff86f19e3fb3b639305d3d75ab51b8d2fae7962780bb68606e5d9e"
+    },
+    "assets/images/guides/uni-note/un35/un35-074-quiz-add-delete-ja.png": {
+      "bytes": 128109,
+      "sha256": "8bc8d23fcec5c59ded36ef179df754627c6694e73810cb6a438eddadefa58bbc"
+    },
+    "assets/images/guides/uni-note/un35/un35-068-quiz-home-ja.png": {
+      "bytes": 118359,
+      "sha256": "d36734efae86d62d9335acb52ee82735d11a703db23da53877375a6f86686600"
+    },
+    "assets/images/guides/uni-note/un35/un35-046-transcription-language-ja.png": {
+      "bytes": 117847,
+      "sha256": "2a3ef65fc52efa6236e4487836331282f1ad8df79289f537ffeca6c823d7b87b"
+    },
+    "assets/images/guides/uni-note/un35/un35-037-material-margin-common.png": {
+      "bytes": 335191,
+      "sha256": "2f209d5543c28f5ac3d1f05448b6be3bab44ea416f4b78d7286a83f0b37f6295"
+    },
+    "assets/images/guides/uni-note/un35/un35-052-sticky-panel-common.png": {
+      "bytes": 84802,
+      "sha256": "5f6292e3449a10bd157c77b16708674682236c801bba9fd293f6822bfd3ed045"
+    },
+    "assets/images/guides/uni-note/un35/un35-054-sticky-reveal-common.png": {
+      "bytes": 313924,
+      "sha256": "b80d0f34be71b058b782bb56257632137b6511a64749de67e157e2946c1661cb"
+    },
+    "assets/images/guides/uni-note/un35/un35-055-pomodoro-setup-ja.png": {
+      "bytes": 174489,
+      "sha256": "f95110f132b5998cf45d90e30af62244d551e16fb7eb55ab636dfcc18ff743cf"
+    },
+    "assets/images/guides/uni-note/un35/un35-056-pomodoro-writing-common.png": {
+      "bytes": 332301,
+      "sha256": "ebebaf3a65db0b8526a1be5e5a6d1b3bdb38283bfadefa1bd11cb32f7f62ca2c"
+    },
+    "assets/images/guides/uni-note/un35/un35-057-pomodoro-stop-ja.png": {
+      "bytes": 121328,
+      "sha256": "4deb13ef3128d424d7563aa8218f52e3c2209ca0771694bacb93959996625c29"
+    },
+    "assets/images/guides/uni-note/un35/un35-076-external-pdf-and-note-common.png": {
+      "bytes": 1199072,
+      "sha256": "29173fb63469c8aa834294530c257893fe161d13701b79fe543d2dda1863c99f"
+    },
+    "assets/images/guides/uni-note/un35/un35-077-pip-note-common.png": {
+      "bytes": 686705,
+      "sha256": "bab6a80f64e6588aa5919b0dacf1c7c37d69cc0de02fb1c8765d54e5199a78bb"
+    },
+    "assets/images/guides/uni-note/un35/un35-019-highlighter-panel-ja.png": {
+      "bytes": 112846,
+      "sha256": "0437199ff8bbf8bfff79815f29982318bc791e6b516ebfb9e90a3f9c883de29f"
+    },
+    "assets/images/guides/uni-note/un35/un35-020-eraser-panel-ja.png": {
+      "bytes": 87661,
+      "sha256": "17c9f9bbc11968a1e17a258ffbab4b7b3274a32eb7213d3d1659ab5fe66777d7"
+    },
+    "assets/images/guides/uni-note/un35/un35-021-eraser-comparison-common.png": {
+      "bytes": 231522,
+      "sha256": "d6f8a9d98eeb39877bbd45271cd8ed2e8ac9ced9f7c4f74fdca990581fc0077a"
+    },
+    "assets/images/guides/uni-note/un35/un35-022-palette-left-common.png": {
+      "bytes": 334579,
+      "sha256": "4dcde2a87561dcda54427a7d538a59f06a84d7ce1bebf037d337e518c8af1ec0"
+    },
+    "assets/images/guides/uni-note/un35/un35-023-palette-collapsed-common.png": {
+      "bytes": 320266,
+      "sha256": "7e26f153c39e97426fb03cc06741753bb27fffc46a501920786cade5aac27167"
+    },
+    "assets/images/guides/uni-note/un35/un35-024-ruler-active-common.png": {
+      "bytes": 332850,
+      "sha256": "254c7341f2ae70622f65c47c537a8b5d5021e6c42beeb46cb49bd21a4696486a"
+    },
+    "assets/images/guides/uni-note/un35/un35-025-handwriting-selection-common.png": {
+      "bytes": 353023,
+      "sha256": "754ebe74e5108e981e70d96b651d944a5e81425618aadf6ba9640841e4e4205f"
+    },
+    "assets/images/guides/uni-note/un35/un35-026-handwriting-moved-common.png": {
+      "bytes": 336280,
+      "sha256": "ef0a4bc9eb45150fa92af558207ffa06e19e2397d6a3c32101adf19c331f9f69"
     }
   },
   "generatedAssets": {
@@ -1718,10 +2628,6 @@
     "/images/guides/oto-miru/simple-mode-buttons_hu_bebe78b9f7a9b177.webp": {
       "bytes": 41352,
       "sha256": "1c2077deec02c51498f0c9c2abd9856402321ec6c3e63f97e2c24375a20c9ef0"
-    },
-    "/images/guides/oto-miru/mode-and-settings_hu_b7a2a8f33d9f4a9d.webp": {
-      "bytes": 4864,
-      "sha256": "d0ba7ad80c0f646254e004082e26743ceebde164781ddf1ffd553fcde616812a"
     },
     "/images/guides/oto-miru/mode-and-settings_hu_f9784e73ab1ba219.webp": {
       "bytes": 9888,
@@ -2263,29 +3169,37 @@
       "bytes": 30998,
       "sha256": "74c1f66c3486558755655679929f451cbeaf2fb0af87c34387e62201e54c1981"
     },
-    "/images/guides/uni-note/de/create-menu_hu_5df5a353b2d8f196.webp": {
-      "bytes": 6124,
-      "sha256": "c56b2279a885657efdad6016c81e2c43db8d57774706558279cc92af427f6481"
+    "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp": {
+      "bytes": 3784,
+      "sha256": "1e989b136083193146c9a79ed7c1055d2b9f73bb2b40cedcd7c68caa1d58b0eb"
     },
-    "/images/guides/uni-note/common/writing-tools_hu_6af907cb544e3ed.webp": {
-      "bytes": 8424,
-      "sha256": "cb53610f0d76dfee91dbef4195770edef15ee4a5435c0165a8c2ed5392a6498f"
+    "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_8cfc71d82e5da2ce.webp": {
+      "bytes": 8782,
+      "sha256": "5c91404b04f9fa665e351b2ab9c05060f04f237194391bffd9de946a6d6da755"
     },
-    "/images/guides/uni-note/common/writing-tools_hu_2e879d63908d7445.webp": {
-      "bytes": 10784,
-      "sha256": "5eb7586681834d26a09caeebc0f16a42ed96f0cfd96ae17458a00abc105053f0"
+    "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_98b5494545800db4.webp": {
+      "bytes": 10986,
+      "sha256": "ec272d045f1c9749788e959d44fa5a690bedff56a90b0c0f1ac3db2c088fc012"
     },
-    "/images/guides/uni-note/de/home-search_hu_1d683ea73443e0db.webp": {
-      "bytes": 4878,
-      "sha256": "6581dd914815e59e003a497ce0843e9e1a7d06668f8fa6d7cfb89a71c3d1839f"
+    "/images/guides/uni-note/un35/un35-018-pen-panel-ja_hu_8e50e7d16e4381c0.webp": {
+      "bytes": 21832,
+      "sha256": "c4485206b8b824e1745c9c21721deb6b6c80fd9a792b5deb620a749d3eac782c"
     },
-    "/images/guides/uni-note/de/home-search_hu_913d5cdb22670c4.webp": {
-      "bytes": 5830,
-      "sha256": "af8ef54081a7c470ebd7c67998f2eaa3814bd4f736b14b9126e1931abb04a5b2"
+    "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_dd45554cf620793b.webp": {
+      "bytes": 5090,
+      "sha256": "d92842a1e9d1ed25a2cd752f5b2bc0512c3462640e4148edcdbfbddaaa809645"
     },
-    "/images/guides/uni-note/de/attachment-menu_hu_65cd1a88b729cef6.webp": {
-      "bytes": 12284,
-      "sha256": "8c7600e65ebcef250067ff44fa83d51f55f2a5cc887281b9d72b20de0d1f2c01"
+    "/images/guides/uni-note/un35/un35-008-note-search-results-ja_hu_78ee882004e07c59.webp": {
+      "bytes": 12440,
+      "sha256": "cf7071505e16c6d7b078ef50c1ebf10cb548d330ff029610deedac0f2fefc199"
+    },
+    "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_499df6642f051f01.webp": {
+      "bytes": 12916,
+      "sha256": "758daa2e02f93178c1ec9cfb20b6eb15340933e788270ee51f47fd4b254e50f7"
+    },
+    "/images/guides/uni-note/un35/un35-063-more-menu-ja_hu_ee6808155a73127f.webp": {
+      "bytes": 17268,
+      "sha256": "38566cb0d28661126082ef08e5fbe850600ea9a8a903d4c911b0088b41c6ab2b"
     },
     "/images/guides/uni-note/common/pdf-writing_hu_26dbd235cbcb3ff9.webp": {
       "bytes": 28642,
@@ -2295,21 +3209,21 @@
       "bytes": 49830,
       "sha256": "6f8bae6f4ad93b2b1c514f9582ee5347a062ca73497904379c42d389edaa9e74"
     },
-    "/images/guides/uni-note/common/record-button_hu_216cab99aedb04db.webp": {
-      "bytes": 4336,
-      "sha256": "68934f45be3521dabc8f0de9b0f4081122b2f9411942a8b6ddef00c0e01e1c6a"
+    "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_d1ab73543eb03ae7.webp": {
+      "bytes": 10898,
+      "sha256": "bd9fe0a51885d0cfa27ab32b4a514c6920e47e431b65ae40414b1c2051fa4fcd"
     },
-    "/images/guides/uni-note/common/record-button_hu_13f73f872eba72d2.webp": {
-      "bytes": 4890,
-      "sha256": "222bd42e9147f86cd35901f46fd1aa8a1b66c2e22d8ec926b31314f143247618"
+    "/images/guides/uni-note/un35/un35-042-recording-ready-ja_hu_44e1baba18d300e6.webp": {
+      "bytes": 18886,
+      "sha256": "44a1f97ceee252d89d2d5aff824d7fdffe6c76171b18f1e783cd704261309eb9"
     },
-    "/images/guides/uni-note/common/sticky-marker_hu_56e88bf7f3c9f64f.webp": {
-      "bytes": 29752,
-      "sha256": "1cfc8f44396936479e9d774f740d4769723bbd6c369a111c121e844b69c92bb2"
+    "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_29a1ecc0ced2f94a.webp": {
+      "bytes": 7396,
+      "sha256": "c9b507ffc831cf392d5a539cd3a7905830099a1e0ad86a05e9fe8bc73030b800"
     },
-    "/images/guides/uni-note/common/sticky-marker_hu_10a4dfc1433c315b.webp": {
-      "bytes": 60900,
-      "sha256": "17d748dd3aed428da3b1f6b8bc0ad6a8cf3b5a3aa1cc8ecf2bd3bfe49327ffe4"
+    "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_e384562c2a21e0d9.webp": {
+      "bytes": 18580,
+      "sha256": "9c5ba415f6fa530b260f986f93ff2eb8769ff87e3d92c1c26a068c8aad8dd98b"
     },
     "/images/guides/uni-note/de/problem-answer_hu_c106d2159d2d1bf4.webp": {
       "bytes": 1922,
@@ -2323,105 +3237,553 @@
       "bytes": 18116,
       "sha256": "4f214d5ef2f15163f70905f82f9bb0240310734f97fc78d89800cfad9592a937"
     },
-    "/images/guides/uni-note/en/create-menu_hu_698fac02f12a1dbd.webp": {
-      "bytes": 6050,
-      "sha256": "ccacaac9c7ec2cac93a57600a97c6a5bd666adb3a8ca476a20a5ed37af10f800"
-    },
-    "/images/guides/uni-note/en/home-search_hu_67c8b79e362eca3e.webp": {
-      "bytes": 4386,
-      "sha256": "6e7ae961f21d52dee1e57d222e909eaa30752c3fab22635e1fd57d251d4e6d9f"
-    },
-    "/images/guides/uni-note/en/home-search_hu_866b5bc1559041ab.webp": {
-      "bytes": 5252,
-      "sha256": "0e024125821cf4f9cc75dbdea292c87f5a37ca1928d29f9a07df13e89b6b46d0"
-    },
-    "/images/guides/uni-note/en/attachment-menu_hu_bdf8e3fb3f759294.webp": {
-      "bytes": 11322,
-      "sha256": "f497b4a8bdf2e463ab597256d0663843f600f79380c581299588467c54175cca"
-    },
     "/images/guides/uni-note/en/problem-answer_hu_c106d2159d2d1bf4.webp": {
       "bytes": 1922,
       "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
-    },
-    "/images/guides/uni-note/fr/create-menu_hu_a328c5cb04b0709d.webp": {
-      "bytes": 7244,
-      "sha256": "d36b68c154383051e4108641e18f4ad48da1bf82e47fdf7e2104d7f8c194f29c"
-    },
-    "/images/guides/uni-note/fr/home-search_hu_8edf7c5b3f7b045a.webp": {
-      "bytes": 4796,
-      "sha256": "7aff83bbc99d06c8b713189c32a426ae7bc5b051b56de8b7d52603d900569f92"
-    },
-    "/images/guides/uni-note/fr/home-search_hu_7acf7b0df8b867e6.webp": {
-      "bytes": 5786,
-      "sha256": "1a97971bae61c05017511ebb4967836bef10b69f28e30fca0cdd9de44fd7a8e5"
-    },
-    "/images/guides/uni-note/fr/attachment-menu_hu_1dfaba038f30b4e3.webp": {
-      "bytes": 13224,
-      "sha256": "967448b0c9c2f3a1b50447ec06c6db0a95c851d4bf902c08fe9aeb5572891432"
     },
     "/images/guides/uni-note/fr/problem-answer_hu_c106d2159d2d1bf4.webp": {
       "bytes": 1922,
       "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
     },
-    "/images/guides/uni-note/ko/create-menu_hu_820b6b5c21a273f8.webp": {
-      "bytes": 4176,
-      "sha256": "8c35fb79d6b6eb68260e347303c9549f3d9ef94ff547df77ef9405d526e431f7"
-    },
-    "/images/guides/uni-note/ko/home-search_hu_90646363d408a14.webp": {
-      "bytes": 3608,
-      "sha256": "a01884480d7370b1c29b42c6aadf7382934fa635600e0e0d2d876b0ee6545ec5"
-    },
-    "/images/guides/uni-note/ko/home-search_hu_dbb5e37c2876a66c.webp": {
-      "bytes": 4364,
-      "sha256": "733274f3687fafd1e197a415322f2052bb58112d0b2f92e818b93c8f1295979d"
-    },
-    "/images/guides/uni-note/ko/attachment-menu_hu_2f951b489c290c55.webp": {
-      "bytes": 10328,
-      "sha256": "d5107f2d34403efd5f0d72ca43587f109fd7993eb3d461a1b543fa044a8badcc"
-    },
     "/images/guides/uni-note/ko/problem-answer_hu_c106d2159d2d1bf4.webp": {
       "bytes": 1922,
       "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
     },
-    "/images/guides/uni-note/ja/create-menu_hu_48b23f7ec77d79ed.webp": {
-      "bytes": 6242,
-      "sha256": "65e389c39304710264b77a89d11a7eb97170758bce5b43bada168ddc3ec9f32c"
-    },
-    "/images/guides/uni-note/ja/home-search_hu_8693c69367742712.webp": {
-      "bytes": 4352,
-      "sha256": "1335afafb991bba67b6774ad1fc92e63828546f5ebf4c5c278217bb9e75ba20f"
-    },
-    "/images/guides/uni-note/ja/home-search_hu_7b350f746a0ebcd6.webp": {
-      "bytes": 5280,
-      "sha256": "72a407e30b11e68d16f02043e0dee216c771398062bab5d8786ea57eaed99566"
-    },
-    "/images/guides/uni-note/ja/attachment-menu_hu_e3feefa9ba739ba3.webp": {
-      "bytes": 11754,
-      "sha256": "ff166f7a1baaa2df1412c7aab82b54e5ef26983bfa5d1ace8f83c7d6bd45395d"
+    "/images/guides/uni-note/zh-hant/problem-answer_hu_c106d2159d2d1bf4.webp": {
+      "bytes": 1922,
+      "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
     },
     "/images/guides/uni-note/ja/problem-answer_hu_f51b0825aa5c9903.webp": {
       "bytes": 1922,
       "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
     },
-    "/images/guides/uni-note/zh-hant/create-menu_hu_c33303a47f9ae482.webp": {
-      "bytes": 6062,
-      "sha256": "c71e47e93c1d355b9544ccfbc391421d1a2d72ba1610e3e3eaf6c4964e33df97"
+    "/images/guides/uni-note/un35/un35-060-answer-selection-common_hu_909d047943c388df.webp": {
+      "bytes": 13396,
+      "sha256": "70afc9ac59fc78056a3ff17784cb4e56d99cce66ba0e7d129ef9b194940c27e9"
     },
-    "/images/guides/uni-note/zh-hant/home-search_hu_94ad9a4f59ebdebc.webp": {
-      "bytes": 4594,
-      "sha256": "18fb9524ba0a3a6f3d2bdb8415a022866ec96100da28d304b2778e03b20d5235"
+    "/images/guides/uni-note/un35/un35-060-answer-selection-common_hu_33882e355f469a48.webp": {
+      "bytes": 34198,
+      "sha256": "bb9cf08daa44643a9530840c8425998b5c8a9e78eed809cdd7a4a480a77950a3"
     },
-    "/images/guides/uni-note/zh-hant/home-search_hu_2c3e4e013bd8ae69.webp": {
-      "bytes": 5460,
-      "sha256": "02d86b968ff79035883db181327241d5dc9ba6c242b96ac6263d64081d0b3039"
+    "/images/guides/uni-note/un35/un35-061-answer-confirm-ja_hu_855c83ca84ef6e15.webp": {
+      "bytes": 9388,
+      "sha256": "a17505a09c1938aabb90970dab50fffc6521d854ad669e65af369bc150b981ff"
     },
-    "/images/guides/uni-note/zh-hant/attachment-menu_hu_4390b8e3da541e85.webp": {
-      "bytes": 10256,
-      "sha256": "0f05648ef63c3c91c5ee6ceda6a9f65cb672c9a95de17925ef1904a46697214e"
+    "/images/guides/uni-note/un35/un35-061-answer-confirm-ja_hu_522f74453219ea84.webp": {
+      "bytes": 22958,
+      "sha256": "802a6539bad5260389882b66588494fa143f1bbba8a031fa5df4c87e2353de58"
     },
-    "/images/guides/uni-note/zh-hant/problem-answer_hu_c106d2159d2d1bf4.webp": {
-      "bytes": 1922,
-      "sha256": "212e4bf535b6346cef5a828e0754fc1dc83a3d100b9bbd49b2a8c20f875f4022"
+    "/images/guides/uni-note/un35/un35-059-learning-settings-ja_hu_a1c5ee0e06bbd607.webp": {
+      "bytes": 13502,
+      "sha256": "ba80035195db21f814707330a4095db13dc78779974e3f31a8efaabf245f1ea1"
+    },
+    "/images/guides/uni-note/un35/un35-059-learning-settings-ja_hu_dd9291c996767a5d.webp": {
+      "bytes": 35742,
+      "sha256": "1560c4b921a3a8f69217848b7504e77a9d79e0eba4a62afc7dbbf85cf90698c3"
+    },
+    "/images/guides/uni-note/un35/un35-079-backup-save-files-ja_hu_ff0b266bb7580886.webp": {
+      "bytes": 14552,
+      "sha256": "32d99ef0f908d59125cd024637741c5c47cecd61f2cccf3069b5e2bdddc5309d"
+    },
+    "/images/guides/uni-note/un35/un35-079-backup-save-files-ja_hu_10f4f0431e46a504.webp": {
+      "bytes": 35426,
+      "sha256": "9cf3e16fd49959070cfb822efc5bfc087d227a27495724e4068c9d913071e2ba"
+    },
+    "/images/guides/uni-note/un35/un35-080-backup-restore-files-ja_hu_b900bd316239e9cf.webp": {
+      "bytes": 13430,
+      "sha256": "a6c70c467250b8646a9467e34ab716bb81f02a7b397a2d55e2375463c29e5a85"
+    },
+    "/images/guides/uni-note/un35/un35-080-backup-restore-files-ja_hu_c76de454ca606e87.webp": {
+      "bytes": 33038,
+      "sha256": "34cb982389d58b3782de647ee0cb9b2841e4542776a3e431f7588763a9d4b147"
+    },
+    "/images/guides/uni-note/un35/un35-083-settings-home-ja_hu_62f0df50d11b39a3.webp": {
+      "bytes": 7952,
+      "sha256": "4015c6deb138b5f49bb5b394cf91cd54d901cd841d819a88d09e53857b1f1f6f"
+    },
+    "/images/guides/uni-note/un35/un35-083-settings-home-ja_hu_853cc9efbf67f9ea.webp": {
+      "bytes": 19556,
+      "sha256": "0eee56a56e066d55fc943dd2600d9017f33f89446dd06001f0facdf8e5a5230f"
+    },
+    "/images/guides/uni-note/un35/un35-084-notebook-settings-ja_hu_a0b30e71f818f3ce.webp": {
+      "bytes": 22326,
+      "sha256": "73da46416ca4382363ebe98c9b77b1aa848565c221ee36f2d8fc43d7b56402c4"
+    },
+    "/images/guides/uni-note/un35/un35-084-notebook-settings-ja_hu_903d423d2d5f6f40.webp": {
+      "bytes": 54712,
+      "sha256": "12c15e92809edc27fda06778addfbea4354ea5c8e564b932d55b3660898ec118"
+    },
+    "/images/guides/uni-note/un35/un35-085-display-settings-ja_hu_1d634442f693a092.webp": {
+      "bytes": 18784,
+      "sha256": "9b566e2091e78126d2a47532a160eb0909e143cdfff67cb3d3434aea487754c3"
+    },
+    "/images/guides/uni-note/un35/un35-085-display-settings-ja_hu_2822ecfcac917223.webp": {
+      "bytes": 50136,
+      "sha256": "cb72fc8200f03eb7ddbb48aac509fa10ae5394eae8fe8ead3682b321f863dcdd"
+    },
+    "/images/guides/uni-note/un35/un35-086-navigation-configuration-ja_hu_3141ff8977e252db.webp": {
+      "bytes": 19938,
+      "sha256": "6d60f46882eed0b645acd8757f33af3f79e948b0aa9059a6ddec6909a5404ade"
+    },
+    "/images/guides/uni-note/un35/un35-086-navigation-configuration-ja_hu_cc9662adaf3d6416.webp": {
+      "bytes": 53166,
+      "sha256": "7292f6a15b61a8e619e78ad983e0d185451521647324c920a3abc9cd8ed4bfc3"
+    },
+    "/images/guides/uni-note/un35/un35-087-palette-configuration-ja_hu_fd7fea6b5c027cd0.webp": {
+      "bytes": 11420,
+      "sha256": "489951f64c49703bc7f22e37d14279293466738dd1a177005670a096cb862d7b"
+    },
+    "/images/guides/uni-note/un35/un35-087-palette-configuration-ja_hu_59a4d4e1f8b55cd3.webp": {
+      "bytes": 30306,
+      "sha256": "ae4690676fbe68b27c5d2a3655016546d5abcc57706f34a11fa151f78d052406"
+    },
+    "/images/guides/uni-note/un35/un35-005-note-swipe-menu-ja_hu_75828e93618c4b2b.webp": {
+      "bytes": 8608,
+      "sha256": "18de25101b0ff00784eb5005475d5cfa702caebf8eb3a135d47827263a3343fa"
+    },
+    "/images/guides/uni-note/un35/un35-005-note-swipe-menu-ja_hu_4f17a88dcc0306fe.webp": {
+      "bytes": 20530,
+      "sha256": "e46f40e98da4774b5801cca08c400894e29fe8bbf3821ba1d2206ddc253b2389"
+    },
+    "/images/guides/uni-note/un35/un35-081-note-unprotect-ja_hu_82063c8222d4d11e.webp": {
+      "bytes": 8410,
+      "sha256": "c84e82d7a7db65b70b62eb4b6af32572322c86777cd54a46e2fab59a34886364"
+    },
+    "/images/guides/uni-note/un35/un35-081-note-unprotect-ja_hu_a31d3f232041d007.webp": {
+      "bytes": 20408,
+      "sha256": "c565badf3e66a88ae366c45f655bd242e28268e6802b4e232b9bf67d43ba1d09"
+    },
+    "/images/guides/uni-note/un35/un35-082-trash-overview-ja_hu_579bacc8f72bce3.webp": {
+      "bytes": 2636,
+      "sha256": "908c86f675e891ef7ccd14caae2965d2d5ee9900859e2426d798e367f8e50a2a"
+    },
+    "/images/guides/uni-note/un35/un35-082-trash-overview-ja_hu_b93a2a68e6924d50.webp": {
+      "bytes": 6688,
+      "sha256": "cce343cf1fc24a059f731031ec6e1fc89619c6c8c060138bec1f99be3de8d538"
+    },
+    "/images/guides/uni-note/un35/un35-075-two-uninote-windows-common_hu_d947f8d6b7dc155b.webp": {
+      "bytes": 26078,
+      "sha256": "e13509e99365493d45022bfde8ca016830e366a1ba844185a7b649bdb8983002"
+    },
+    "/images/guides/uni-note/un35/un35-075-two-uninote-windows-common_hu_9b45fa06d1ceee4b.webp": {
+      "bytes": 64582,
+      "sha256": "d15cb121b73fbb6bc471aa0b25a3484580ed86218bfa26288133b64ca95a61b1"
+    },
+    "/images/guides/uni-note/un35/un35-001-home-overview-ja_hu_63cf360c017eb893.webp": {
+      "bytes": 13632,
+      "sha256": "b9d703638a1adfd0f79541a9ada31543f46d572d44ed710bc91b6ce71e7f92a1"
+    },
+    "/images/guides/uni-note/un35/un35-001-home-overview-ja_hu_86c2d5b12aa01875.webp": {
+      "bytes": 37722,
+      "sha256": "d37422ee916dab02881c742319dbe094a316926acf32d23200a2abd66bbe2164"
+    },
+    "/images/guides/uni-note/un35/un35-003-subject-menu-ja_hu_e2ac245439f96e14.webp": {
+      "bytes": 7828,
+      "sha256": "4f58c485ff05536f4ca97a8d96d05a227c93a9d757c939fe497b0149d8e45c1a"
+    },
+    "/images/guides/uni-note/un35/un35-003-subject-menu-ja_hu_d22f23cfb4581a1d.webp": {
+      "bytes": 18040,
+      "sha256": "dc5bf6a874b4fd860f0f9effc151bf716797dd87df75a5cd363572e9429ba1b6"
+    },
+    "/images/guides/uni-note/un35/un35-007-subject-reorder-common_hu_b06d5993642bfc65.webp": {
+      "bytes": 9942,
+      "sha256": "a496bdc0e19db1b11aa52bd306d7618ba7e220c4af155f0800554d68700c4f51"
+    },
+    "/images/guides/uni-note/un35/un35-007-subject-reorder-common_hu_f5dd0a1a40e92c06.webp": {
+      "bytes": 27500,
+      "sha256": "12534c4a4d61b61c26ea01642cb16d3b107c67600e845615c0c251f2cad4c5e4"
+    },
+    "/images/guides/uni-note/un35/un35-014-subject-delete-confirm-ja_hu_c3518c8df136ca00.webp": {
+      "bytes": 6226,
+      "sha256": "51c82c58c223790c8ed22759be2a7f31ba3ab55137489b4521fa62a0270ba580"
+    },
+    "/images/guides/uni-note/un35/un35-014-subject-delete-confirm-ja_hu_4090b04c7de3e23b.webp": {
+      "bytes": 14820,
+      "sha256": "546c8be8730c8e567b6964847cc0c054469e2f336b2e586fdaacecdab737995c"
+    },
+    "/images/guides/uni-note/un35/un35-009-subject-drag-folder-common_hu_24dbe93eba6330eb.webp": {
+      "bytes": 9706,
+      "sha256": "b4bb0ecb265cc6ae02a9d38b64f5ddc91879e08f9bff4fd76acd5dabc32950bf"
+    },
+    "/images/guides/uni-note/un35/un35-009-subject-drag-folder-common_hu_f9bcdf4d00297534.webp": {
+      "bytes": 26578,
+      "sha256": "75c8d178715e6aa5b59c8128b47f628c126b2d5e121cb236379b867ec3d6ee74"
+    },
+    "/images/guides/uni-note/un35/un35-010-folder-contents-ja_hu_16650cd0ae8373aa.webp": {
+      "bytes": 6978,
+      "sha256": "3751b5fee734ba904b7718ff60222e3b80a1ff975d23c3abe615c822c38d3f7d"
+    },
+    "/images/guides/uni-note/un35/un35-010-folder-contents-ja_hu_defc271624da5f34.webp": {
+      "bytes": 18164,
+      "sha256": "c966d2718be4d18334f2845ad86ffedb6f59dfd1f5fd2c1766f07fd058cb946e"
+    },
+    "/images/guides/uni-note/un35/un35-011-folder-menu-ja_hu_c2987c0ea7ce3f51.webp": {
+      "bytes": 10542,
+      "sha256": "a62068e8fe42c77049b4c3a780d5d1a9c280671557ec34332506c53a9fb22b7f"
+    },
+    "/images/guides/uni-note/un35/un35-011-folder-menu-ja_hu_3245be5ab73b9466.webp": {
+      "bytes": 24678,
+      "sha256": "fd656e4cca906db2c40656a939f899301df9e82f9f354fb237742a457588f33d"
+    },
+    "/images/guides/uni-note/un35/un35-012-folder-return-drag-ja_hu_19ae78c5756a71f0.webp": {
+      "bytes": 13690,
+      "sha256": "122856e695b0602eae2f56f3d8648be13ae24b94f53af65b94d2d75ab38e93b0"
+    },
+    "/images/guides/uni-note/un35/un35-012-folder-return-drag-ja_hu_dc64f5db91d04703.webp": {
+      "bytes": 36806,
+      "sha256": "5a714ad28cbcf0da1eb949161267a4cac5545054716ebcbd913769a3faa1d236"
+    },
+    "/images/guides/uni-note/un35/un35-029-document-crop-ja_hu_c55df0670e21841a.webp": {
+      "bytes": 11816,
+      "sha256": "0a56fc8872e2531fad33763326bea31c957c5f9f3aad2f9c5832f3f8ceb74cbb"
+    },
+    "/images/guides/uni-note/un35/un35-029-document-crop-ja_hu_d8291a089b542baf.webp": {
+      "bytes": 28954,
+      "sha256": "7c509f3d37117f0f93598687acb3f6f9492fcc3e6aed57ef1744bb8786de9d01"
+    },
+    "/images/guides/uni-note/un35/un35-039-photo-initial-common_hu_78b068b58b8eafa1.webp": {
+      "bytes": 15576,
+      "sha256": "493d3ef14dc57e5946496a3028dd67b3d8b625035583441ea225f149606c7ce9"
+    },
+    "/images/guides/uni-note/un35/un35-039-photo-initial-common_hu_2b20a36c87f24bea.webp": {
+      "bytes": 41960,
+      "sha256": "216b2ac52f99dbcc1c5bbe5d182363ccc24bda440e9b56915509b58190f3b8c3"
+    },
+    "/images/guides/uni-note/un35/un35-030-pdf-page-selection-ja_hu_c93be618644f9710.webp": {
+      "bytes": 17602,
+      "sha256": "1647ab9fac8a143156a9ba0b22a3a96d6af5076925a97bce63617890969e18f4"
+    },
+    "/images/guides/uni-note/un35/un35-030-pdf-page-selection-ja_hu_9a15db14eec2b5a4.webp": {
+      "bytes": 45234,
+      "sha256": "a211b135bf1ea14e340d3b78ae366f148643d4b426ae62d7b347f16b5e9247af"
+    },
+    "/images/guides/uni-note/un35/un35-031-pdf-split-toggle-ja_hu_eaeac4e7f24cc06.webp": {
+      "bytes": 10628,
+      "sha256": "d84e6832eefc0804a499cebb36a865d0a71335c2d17e720d2f8a97f5be1ed819"
+    },
+    "/images/guides/uni-note/un35/un35-031-pdf-split-toggle-ja_hu_7f72a31109a940eb.webp": {
+      "bytes": 30710,
+      "sha256": "bc4b73d3f0d4753bc229ed06ab5c1ed8a8151fa76daad356fc17e76c33515aa4"
+    },
+    "/images/guides/uni-note/un35/un35-032-split-pdf-left-common_hu_6ebef948d4b95380.webp": {
+      "bytes": 14340,
+      "sha256": "245135d0ea86a1545fdb3e3d0e3cdd1510592b59f28d5a474ac0cafdcf85f597"
+    },
+    "/images/guides/uni-note/un35/un35-032-split-pdf-left-common_hu_56ebd61387b43bdb.webp": {
+      "bytes": 39672,
+      "sha256": "4ae9f8ebad7c99414eb912ed3044e01514ee21ba1ba6ac4fc318be8f7a7b190c"
+    },
+    "/images/guides/uni-note/un35/un35-034-pdf-initial-position-common_hu_f6147a6bfa16fd41.webp": {
+      "bytes": 13338,
+      "sha256": "ec9a90c1f8d965f557fee730c13704c5892cc04ba76a6990f8f0379834142da0"
+    },
+    "/images/guides/uni-note/un35/un35-034-pdf-initial-position-common_hu_9c08091828286afb.webp": {
+      "bytes": 35150,
+      "sha256": "a4bb7848612c9002023d8ab23a8e246f553e935752c13514ac65d7ab3169c227"
+    },
+    "/images/guides/uni-note/un35/un35-033-split-pdf-right-common_hu_1ca82f6901ecdef.webp": {
+      "bytes": 11036,
+      "sha256": "fb8bbf2a12458b1aec91e31f9a346a9db000a7f887dd7a0dc42b558d47dcdc97"
+    },
+    "/images/guides/uni-note/un35/un35-033-split-pdf-right-common_hu_e26f3ef82c4f1dd9.webp": {
+      "bytes": 28388,
+      "sha256": "9125ab404795c353b44282f82ab5f16272b3418921f9436cb653ba312d8a99e4"
+    },
+    "/images/guides/uni-note/un35/un35-035-pdf-unlocked-common_hu_39dc31036ce557bf.webp": {
+      "bytes": 17074,
+      "sha256": "78546e918215425a5d7848770da5f240d14715ee196e1a3f48cb34f3cb9c3c35"
+    },
+    "/images/guides/uni-note/un35/un35-035-pdf-unlocked-common_hu_6f790016ae0d3d63.webp": {
+      "bytes": 45234,
+      "sha256": "23ddc5c5036f84434b5304af3a139d284a66c68f5253f9057ebcb3e09cf11410"
+    },
+    "/images/guides/uni-note/un35/un35-036-pdf-resized-common_hu_3213608b74d43c9f.webp": {
+      "bytes": 14996,
+      "sha256": "ed97a2780b05b19537ce6a084c620b2d9b72e16cd1c2f0fe32b3939b773e6d84"
+    },
+    "/images/guides/uni-note/un35/un35-036-pdf-resized-common_hu_e7b83b2556c158a0.webp": {
+      "bytes": 37370,
+      "sha256": "0da45bbb01d8570f4a8eb076ac8ad4456e5dfb3cdd9c256569f7747d486fd51e"
+    },
+    "/images/guides/uni-note/un35/un35-038-vertical-pdf-annotated-common_hu_231a4e11579473fd.webp": {
+      "bytes": 14494,
+      "sha256": "4e8a55b04f46c3e4691ae28f6eb09f198474cb0e1dada3e111bc50f1b941df10"
+    },
+    "/images/guides/uni-note/un35/un35-038-vertical-pdf-annotated-common_hu_6d4e7e5dd0f50bba.webp": {
+      "bytes": 39262,
+      "sha256": "e326dead44d335e41ba8689b5f8f14cbf354335bcbba75573787e9bbcfcc894c"
+    },
+    "/images/guides/uni-note/un35/un35-041-pdf-export-range-ja_hu_d706cf83990cbaac.webp": {
+      "bytes": 11362,
+      "sha256": "013904669416a849ae9042df962e04bc62c506c9e121794276f622869ff2f23a"
+    },
+    "/images/guides/uni-note/un35/un35-041-pdf-export-range-ja_hu_5893ed65676e2722.webp": {
+      "bytes": 28772,
+      "sha256": "afa63f6d37cc7c0456353f017ed296a6c42b32327c33c1ccfa4d01fa64623ed5"
+    },
+    "/images/guides/uni-note/un35/un35-004-note-list-ja_hu_e50372d13100e314.webp": {
+      "bytes": 8276,
+      "sha256": "1d19516e9c747c4c032f598ccf88645339a9ce0eb209667a094da1c79afeff96"
+    },
+    "/images/guides/uni-note/un35/un35-004-note-list-ja_hu_51dae1a9af11fa35.webp": {
+      "bytes": 19998,
+      "sha256": "97f6ac6c26837b15188e7043aba84ac2041610d8b2091d8dec7c87dd947d023c"
+    },
+    "/images/guides/uni-note/un35/un35-006-note-reorder-common_hu_6706b8c873f65a58.webp": {
+      "bytes": 8826,
+      "sha256": "ef38ed7e1a97dcbaec46e8636b5195c3712b22eb9c81e7082a0c091e0fa67399"
+    },
+    "/images/guides/uni-note/un35/un35-006-note-reorder-common_hu_8a81caa614d2fdb1.webp": {
+      "bytes": 21098,
+      "sha256": "8a5c448e940d52d366e19920a96a392eac736b7d2623c21fecd19f79a52ec09b"
+    },
+    "/images/guides/uni-note/un35/un35-028-note-list-pane-common_hu_55c1e40a9d055702.webp": {
+      "bytes": 10218,
+      "sha256": "5869644d045791e900ce6d2bd9095d71839fd4b7f9b21cbf3ec89b431147a006"
+    },
+    "/images/guides/uni-note/un35/un35-028-note-list-pane-common_hu_80558fb43bfb2772.webp": {
+      "bytes": 24300,
+      "sha256": "4ea92f92653b318c8beb4fa425a3bf32402aca56bd63c1735dc2c3597a304138"
+    },
+    "/images/guides/uni-note/un35/un35-015-page-boundary-common_hu_d08a2c9480fab746.webp": {
+      "bytes": 8182,
+      "sha256": "fa289bdb7a6ec23981b3580dbe62a0f08368c290e4e80271efe8c1d0fb44f863"
+    },
+    "/images/guides/uni-note/un35/un35-015-page-boundary-common_hu_752ec6cbc850e22d.webp": {
+      "bytes": 19694,
+      "sha256": "e4d5f74e93f67cae8b6cae20d6064e06038f81de8b5c5032dd48bb50453155c0"
+    },
+    "/images/guides/uni-note/un35/un35-016-page-list-common_hu_9363246d4fff47ab.webp": {
+      "bytes": 3910,
+      "sha256": "83248a7262272936604fcdf61a6afb3916ee504a03ee886167ecb866cd2a7834"
+    },
+    "/images/guides/uni-note/un35/un35-016-page-list-common_hu_921a3bca9ed30590.webp": {
+      "bytes": 9230,
+      "sha256": "c808b5d837166935a0013c8ff5947075037933fa9a01c788de7b5449b53afb76"
+    },
+    "/images/guides/uni-note/un35/un35-017-page-delete-menu-ja_hu_63ebc7d82beab0d9.webp": {
+      "bytes": 4248,
+      "sha256": "211e9995cc71d72eac6cabb41739959a473b98d75927c374da408b3ee57f6971"
+    },
+    "/images/guides/uni-note/un35/un35-017-page-delete-menu-ja_hu_13c4e6d08f7445d7.webp": {
+      "bytes": 10800,
+      "sha256": "08e37d392c92f0fb1ec2cc2063d2684e88d93fe7d9f25201f88bd0f342b20471"
+    },
+    "/images/guides/uni-note/un35/un35-013-vertical-subject-form-ja_hu_aee6a95988e1d81.webp": {
+      "bytes": 19322,
+      "sha256": "6c20ea180a3e8d5aed4bd75850497fa7e547a30fa54e1eadd909964d4184678a"
+    },
+    "/images/guides/uni-note/un35/un35-013-vertical-subject-form-ja_hu_66da90438fb6e83c.webp": {
+      "bytes": 46428,
+      "sha256": "026503e8c37a0831625845f5d582ba41e2dde70270b5b61174f0c87910427d33"
+    },
+    "/images/guides/uni-note/un35/un35-064-quiz-generation-confirm-ja_hu_aff61297a9e37af9.webp": {
+      "bytes": 5712,
+      "sha256": "9faa66692dad50f55b7d5ee1b263025ec7bc9bda275638d2fdfe0ee23b4a0c1a"
+    },
+    "/images/guides/uni-note/un35/un35-064-quiz-generation-confirm-ja_hu_76d0384ba8b28f7.webp": {
+      "bytes": 13692,
+      "sha256": "72b8045634a9267e0924f0e6995e32f1cf62dcfa6defa4f1c2aa968a337d16e1"
+    },
+    "/images/guides/uni-note/un35/un35-065-quiz-page-selection-ja_hu_4016d69e8e2e1a20.webp": {
+      "bytes": 4690,
+      "sha256": "c998762f547d2ac9cc34ff75356467ab091e58a4d4b65b303b697a5c4d79835d"
+    },
+    "/images/guides/uni-note/un35/un35-065-quiz-page-selection-ja_hu_295f52fd4d7b7ad8.webp": {
+      "bytes": 12568,
+      "sha256": "7e361c0760cc7424963c44f4171c7b2a986cdef1c3eb38d6c848d713ba7c8c94"
+    },
+    "/images/guides/uni-note/un35/un35-069-quiz-hidden-answer-ja_hu_e47ba719c08b428.webp": {
+      "bytes": 5408,
+      "sha256": "d53bccd37227587b0dfa58f9ec07e3e28ffe20c4e64798fbc5399c538176ffdb"
+    },
+    "/images/guides/uni-note/un35/un35-069-quiz-hidden-answer-ja_hu_31746ae948fa25ef.webp": {
+      "bytes": 14538,
+      "sha256": "62a8c26a7fb2a3c352c80cfc47f0eb036df34aea01f31971bda67901f39ce95b"
+    },
+    "/images/guides/uni-note/un35/un35-070-quiz-revealed-answer-ja_hu_e2ac0845f3c1430c.webp": {
+      "bytes": 7404,
+      "sha256": "3776be42decb18d29330659f6485975b37c71c701193a7d6f9b93704d41a7fc4"
+    },
+    "/images/guides/uni-note/un35/un35-070-quiz-revealed-answer-ja_hu_c536548953e586a6.webp": {
+      "bytes": 18958,
+      "sha256": "e9b9421ceb438dbdb35d9b7d9f23616caa1b3c7c513e5f7f1063f8cffc0d7311"
+    },
+    "/images/guides/uni-note/un35/un35-071-quiz-manual-entry-ja_hu_95d3941c938dbfb6.webp": {
+      "bytes": 19180,
+      "sha256": "72dc3156521a8e7a31aaadb1f4777dd1731b1ff8dcee7bae4d64e77ba07fcfd8"
+    },
+    "/images/guides/uni-note/un35/un35-071-quiz-manual-entry-ja_hu_61106ae0d966e33c.webp": {
+      "bytes": 48834,
+      "sha256": "6db2ba756c93f2a13733682e4966d6c1a810fbf54adeee8c8c30e6f3405538b2"
+    },
+    "/images/guides/uni-note/un35/un35-072-quiz-card-menu-ja_hu_e9e4d196e0bca95f.webp": {
+      "bytes": 4570,
+      "sha256": "22b497ab21e0f054ec77ed85c5e49a9e656fc4af07916b5a3dd1f2676a8dbfa6"
+    },
+    "/images/guides/uni-note/un35/un35-072-quiz-card-menu-ja_hu_10c550e7900b094c.webp": {
+      "bytes": 13440,
+      "sha256": "26d63b17739e5d69ef6a759e296b21135064cd7cae44b2f0fb5337a6df1c6371"
+    },
+    "/images/guides/uni-note/un35/un35-074-quiz-add-delete-ja_hu_2df06d60b444ed15.webp": {
+      "bytes": 20444,
+      "sha256": "3da81e4c64070fdf34866ef63e8678a25decaf87593e64056a090aa56bbbc173"
+    },
+    "/images/guides/uni-note/un35/un35-074-quiz-add-delete-ja_hu_69625336204b0815.webp": {
+      "bytes": 51356,
+      "sha256": "b634dd00612c023dad2e89ba80428ee4287022b3607aa3e7e29bcd5c14651dc9"
+    },
+    "/images/guides/uni-note/un35/un35-068-quiz-home-ja_hu_518225aa04293c5a.webp": {
+      "bytes": 7056,
+      "sha256": "e3d6d3f6eb8cbef265f01577b56cc44f86288f7699dd54b8ad1f7618fbd9a799"
+    },
+    "/images/guides/uni-note/un35/un35-068-quiz-home-ja_hu_451ad159f293e203.webp": {
+      "bytes": 19080,
+      "sha256": "398bfd28a4e3e2c3849db35a8e16ce467600e069095aa33ff793655ea5d81b62"
+    },
+    "/images/guides/uni-note/un35/un35-046-transcription-language-ja_hu_7b71048747d7118b.webp": {
+      "bytes": 12886,
+      "sha256": "0ce7c1c188890a1c11e2a95e0be70a1ac124e6e152cc2a0343b3c64ebdc78f33"
+    },
+    "/images/guides/uni-note/un35/un35-046-transcription-language-ja_hu_2126c53263fc3205.webp": {
+      "bytes": 24256,
+      "sha256": "4fe82d5f67ece68ea9cd4e4e2be76cb480c7accfdad7c159891884d160fb9394"
+    },
+    "/images/guides/uni-note/un35/un35-037-material-margin-common_hu_d7b9a9c3a790bf91.webp": {
+      "bytes": 12464,
+      "sha256": "8f9ad73499b0bea984c8341963aeea28dc0a1b69f9aeed11c9033bc9de7462b7"
+    },
+    "/images/guides/uni-note/un35/un35-037-material-margin-common_hu_e23ee5baab3d3b3.webp": {
+      "bytes": 31194,
+      "sha256": "2d519862ca584ded84f26f56de8d7014ab91cf46c8221926bc26c4f9400bdcef"
+    },
+    "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_6d957969da858372.webp": {
+      "bytes": 11106,
+      "sha256": "64993c470a6362d6d1aafe9b2199bf34d12ecdb99fe6d9e5857b45837b95c2c8"
+    },
+    "/images/guides/uni-note/un35/un35-053-sticky-pdf-common_hu_7ef7bbcfaf901265.webp": {
+      "bytes": 27978,
+      "sha256": "044986874b7713b93fdb38d0c3bbb500e21b8a1d3690e49236617d054625e522"
+    },
+    "/images/guides/uni-note/un35/un35-052-sticky-panel-common_hu_1bf8f31361a934cc.webp": {
+      "bytes": 8126,
+      "sha256": "3f221c5d36487a8d0938752ac81cdfeec49fe74942ca57d0deff228dc177f48d"
+    },
+    "/images/guides/uni-note/un35/un35-052-sticky-panel-common_hu_1bf349e1e89b91da.webp": {
+      "bytes": 16450,
+      "sha256": "0225457c8d078b746143952d35e4aa52a599ef3fec02f24b93e1febfc0d0d6d3"
+    },
+    "/images/guides/uni-note/un35/un35-054-sticky-reveal-common_hu_a1862f348ea4fe72.webp": {
+      "bytes": 11948,
+      "sha256": "e8cd036744c0637e20f922d9fc5d4e30653e4d514bc9f7bdcfc41245b702a14a"
+    },
+    "/images/guides/uni-note/un35/un35-054-sticky-reveal-common_hu_aca3c55fab94e52f.webp": {
+      "bytes": 30244,
+      "sha256": "580504954398d17197b7b4b07fb3e201d241c03687848e23e273134b1a20adf5"
+    },
+    "/images/guides/uni-note/un35/un35-055-pomodoro-setup-ja_hu_67aebde1fb304825.webp": {
+      "bytes": 23292,
+      "sha256": "dbe58dd4aa155f9b2a88cb7232e088eddaaf649d110247c1989072654a4092d4"
+    },
+    "/images/guides/uni-note/un35/un35-055-pomodoro-setup-ja_hu_f65d0fc874a01347.webp": {
+      "bytes": 44008,
+      "sha256": "7e07bc99116670224a8df2a3c7af81ddc6f60c01f3fb84928cb927b7a3798399"
+    },
+    "/images/guides/uni-note/un35/un35-056-pomodoro-writing-common_hu_c8a20d06dfa7e563.webp": {
+      "bytes": 13560,
+      "sha256": "e298ca7d3e8fc1585ec0c3a1cbfb829bb916bb171d368622f33813c0c47d55c9"
+    },
+    "/images/guides/uni-note/un35/un35-056-pomodoro-writing-common_hu_9199f7757f5726eb.webp": {
+      "bytes": 33186,
+      "sha256": "a76bb9a206362697072647099445e1750a6e618cc571ada4390a0839c2ac5a67"
+    },
+    "/images/guides/uni-note/un35/un35-057-pomodoro-stop-ja_hu_852d8b128cb3feac.webp": {
+      "bytes": 11622,
+      "sha256": "65f7f5fab8488c6b9ea1f1ed9872c1da908886bb96239b2120b36494a40db382"
+    },
+    "/images/guides/uni-note/un35/un35-057-pomodoro-stop-ja_hu_969a809ad768ca7c.webp": {
+      "bytes": 21502,
+      "sha256": "d801c1cf4434a940271090c91d838083ba169ca21f25d60cde48589135a38f7f"
+    },
+    "/images/guides/uni-note/un35/un35-076-external-pdf-and-note-common_hu_8ede31ac007fd348.webp": {
+      "bytes": 29138,
+      "sha256": "1e0fbd736a34cda1e91dd67fb7f9bbfe825e4686e2d9c5e787fb047a0a0c2958"
+    },
+    "/images/guides/uni-note/un35/un35-076-external-pdf-and-note-common_hu_bc62e5c5e9cd969a.webp": {
+      "bytes": 70402,
+      "sha256": "891bd6808e45bd6edaa69b86c81a23dfc81549a47132013f688a875ff2bbe03d"
+    },
+    "/images/guides/uni-note/un35/un35-077-pip-note-common_hu_803632b03ddc13cd.webp": {
+      "bytes": 15076,
+      "sha256": "cdd9075410036010488b2e40ca5f23fcc2e1e587a172b966575785f33dc3bfd3"
+    },
+    "/images/guides/uni-note/un35/un35-077-pip-note-common_hu_4786be0d7c11a52a.webp": {
+      "bytes": 38708,
+      "sha256": "1632a3bdb4673d1410b9040599dfa9a54c70943a151d8d4132452a4e2bff8de7"
+    },
+    "/images/guides/uni-note/un35/un35-019-highlighter-panel-ja_hu_79e761c8a0c54223.webp": {
+      "bytes": 10436,
+      "sha256": "d9544dd728bb7dd6040d939e8ae31d505ce12a01c3f61c6a1858bf128dd6265d"
+    },
+    "/images/guides/uni-note/un35/un35-019-highlighter-panel-ja_hu_a9f6315087d55b60.webp": {
+      "bytes": 21032,
+      "sha256": "7152e15f09d3b69b70e89521d2ab96147b9c578a1b3676719027c446ad3eb162"
+    },
+    "/images/guides/uni-note/un35/un35-020-eraser-panel-ja_hu_23eac9c5097b8cc4.webp": {
+      "bytes": 9182,
+      "sha256": "6f4c7b7a349965c08addcd5c81c47f4ecd819d650d830731e11cc02da9d613ee"
+    },
+    "/images/guides/uni-note/un35/un35-020-eraser-panel-ja_hu_9e0d6b856682d859.webp": {
+      "bytes": 18670,
+      "sha256": "4b00cc313b7dc448ee61465c6fee1a378c3a0a10bdfdeb55a91f06f6a7d6def7"
+    },
+    "/images/guides/uni-note/un35/un35-021-eraser-comparison-common_hu_d4bea1f97b08c6f0.webp": {
+      "bytes": 5846,
+      "sha256": "9da5f4323de2a74d25b6d930833d5631f4dde370647f9d837a61d35db65d518e"
+    },
+    "/images/guides/uni-note/un35/un35-021-eraser-comparison-common_hu_2f030249a0ac0a93.webp": {
+      "bytes": 13918,
+      "sha256": "13ccfff93d28784b653754914455b75b31290deaee3ffc37f1cd3beb71923d76"
+    },
+    "/images/guides/uni-note/un35/un35-022-palette-left-common_hu_6d0dc87907f9908.webp": {
+      "bytes": 12462,
+      "sha256": "7280173424c781348df73543a5dca723305509280881bb4d675817757b515cc7"
+    },
+    "/images/guides/uni-note/un35/un35-022-palette-left-common_hu_1c684b477275fdaf.webp": {
+      "bytes": 31142,
+      "sha256": "018122d8758b822c1606f6d6cd60f63df66861a96044b9b09c3e0bd33d683d4f"
+    },
+    "/images/guides/uni-note/un35/un35-023-palette-collapsed-common_hu_85f49837e13ac51a.webp": {
+      "bytes": 11974,
+      "sha256": "802b823d8f03cacf30d490f9bc0951630ddf624baf50b5b4ff3bee7de4e93b24"
+    },
+    "/images/guides/uni-note/un35/un35-023-palette-collapsed-common_hu_df8d44210196bb55.webp": {
+      "bytes": 30834,
+      "sha256": "c6f74fb121d6af87f1bd34e56262ff81e753afabb8a083db8e7a0b38b3c878fc"
+    },
+    "/images/guides/uni-note/un35/un35-024-ruler-active-common_hu_6dec334cbf0ec2f0.webp": {
+      "bytes": 14624,
+      "sha256": "19c7a3803d77b75a1a6d29af5e7ee262aa06c2c0d1d7c26eec84b64252134e07"
+    },
+    "/images/guides/uni-note/un35/un35-024-ruler-active-common_hu_694ed0f107d9e4e8.webp": {
+      "bytes": 34986,
+      "sha256": "90eac844e1797b507ed3eff2926d7f26c4c5ce13d24c201fca5d7fa88f7d780d"
+    },
+    "/images/guides/uni-note/un35/un35-025-handwriting-selection-common_hu_cf67299f616706f.webp": {
+      "bytes": 16720,
+      "sha256": "c6c9c6903767d31b55a11c5105d3734357824e4a5cc6e4a64d861dc4a30ce912"
+    },
+    "/images/guides/uni-note/un35/un35-025-handwriting-selection-common_hu_438599cdb2afe0cd.webp": {
+      "bytes": 39602,
+      "sha256": "bcf560e09f0414019528242e3bc935a22671a8bea633186f9198b454877732ba"
+    },
+    "/images/guides/uni-note/un35/un35-026-handwriting-moved-common_hu_287ae3faeeb8483.webp": {
+      "bytes": 12466,
+      "sha256": "14490d1de6faa1a8ad5cf4d5ad4bfccf3bc59d26c1e2d7318dff000a50c7c48a"
+    },
+    "/images/guides/uni-note/un35/un35-026-handwriting-moved-common_hu_6a5be294ddec1042.webp": {
+      "bytes": 31616,
+      "sha256": "9d2c61b3096f613a6c0dc62de74682f0dd408de7499029c10fda5599b7eec0f5"
     }
   }
 }

@@ -6068,8 +6068,8 @@
     {
       "id": "M-M11",
       "session_id": "CAP-32",
-      "title": "PDF固定解除・選択中",
-      "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+      "title": "PDF選択中",
+      "state": "同じPDFを選択し、選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
       "dataset": "自作「経済学」／「第8回 マクロ経済」。Y=C+I+G+NX、60+20+15+5=100。",
       "shot_ids": [
         "M07-02",
@@ -6080,18 +6080,17 @@
       "timing": 2,
       "importance": "must",
       "steps": [
-        "指描画OFFにする。",
-        "M-M10のPDFをダブルタップして固定解除。",
+        "指描画OFFでM-M10のPDFを1回タップして選択する。",
         "PDFを選択し、選択枠と回転操作が見える状態を撮る。"
       ],
       "plan": "Freeで可（既存ノートを使用）",
       "hardware": "iPad。UI確定後の対象公開版。筆記を含む場合は対応Apple Pencil。",
       "verify": [
-        "指描画OFF。",
+        "指描画OFFで1回タップして選択。",
         "選択枠と回転ボタンが同じ実状態で表示されることを実機で確認。",
         "初期状態から移動・拡大していない。"
       ],
-      "before_after_note": "固定／解除は別原本。移動・拡大前の共通状態として4操作で再利用。",
+      "before_after_note": "移動・拡大前の共通選択状態として4操作で再利用。",
       "crop": "PDF選択枠・回転ボタン・周辺罫線。通知は必須要件にせず、消えかけの瞬間を狙う撮影は避ける。",
       "operation_ids": [
         "M07",
@@ -6103,7 +6102,7 @@
       "phase2_status": "capture-published-3.5",
       "phase2_reason": "公開build6の配布記録・同梱表示文言と継承実装を照合。次版待ちを解除し、指描画のない3.5.0で撮影可能。",
       "release_note": "次版用という元の撮影指示は3.5.0撮影に適用しない。指描画設定を撮らない。",
-      "phase2_title": "PDF固定解除・選択中"
+      "phase2_title": "PDF選択中"
     },
     {
       "id": "M-M12",
@@ -6405,7 +6404,7 @@
       "timing": 2,
       "importance": "must",
       "steps": [
-        "指描画OFFで写真を選択する。",
+        "指描画OFFで写真を1回タップして選択する。",
         "写真をピンチで拡大し位置調整。",
         "選択枠とページ境界を含めて撮る。"
       ],
@@ -10848,8 +10847,8 @@
         "M09-01",
         "M10-01"
       ],
-      "purpose": "PDF固定解除・選択中",
-      "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+      "purpose": "PDF選択中",
+      "state": "同じPDFを選択し、選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
       "role": "step",
       "status": "approved",
       "release_status": "capture-published-3.5",
@@ -10857,8 +10856,8 @@
       "url": "/htu/uni-note/materials/#arrange",
       "src": "images/guides/uni-note/un35/un35-035-pdf-unlocked-common.png",
       "source_sha256": "df47358de0b73dfc58f85422748fb2c5437114638e9e3d1438744f9e6f36d25c",
-      "alt": "移動中のPDFを示す青い選択枠とサイズ変更ハンドル",
-      "caption": "移動中のPDFを示す青い選択枠とサイズ変更ハンドル。",
+      "alt": "選択されたPDFの青い選択枠とサイズ変更ハンドル",
+      "caption": "PDFを選択すると、青い選択枠とサイズ変更ハンドルが表示されます。",
       "capture_id": "UN35-035",
       "original_file": "docs/uni-note-guide-phase2/capture-execution/raw-35fa888/UN35-035.png",
       "original_sha256": "b990f575c5463f921f9c71686d6ca846220ff19626ba515d38dae06f7a8fbb44",
@@ -10869,7 +10868,7 @@
         2064
       ],
       "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-      "capture_state": "移動中のPDFを示す青い選択枠とサイズ変更ハンドル"
+      "capture_state": "選択されたPDFの青い選択枠とサイズ変更ハンドル"
     },
     "materials-arrange--m-m12": {
       "page": "materials/arrange",
@@ -12975,8 +12974,8 @@
         "M09-01",
         "M10-01"
       ],
-      "purpose": "PDF固定解除・選択中",
-      "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+      "purpose": "PDF選択中",
+      "state": "同じPDFを選択し、選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",
@@ -13150,8 +13149,8 @@
         "M09-01",
         "M10-01"
       ],
-      "purpose": "PDF固定解除・選択中",
-      "state": "同じPDFの固定を解除し選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
+      "purpose": "PDF選択中",
+      "state": "同じPDFを選択し、選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
       "role": "step",
       "status": "pending",
       "release_status": "capture-published-3.5",

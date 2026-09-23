@@ -4,7 +4,7 @@ description: "Apple Pencilや指で書く基本から、道具・線の整理・
 seo_title: "手書き | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/writing/"
-lastmod: "2026-09-22"
+lastmod: "2026-09-23"
 guide_category: "writing"
 guide_kind: "category"
 operation_ids: ["N28", "N29", "N30", "N31", "N32", "N33", "N34", "N35", "N36", "N37", "N38", "N39", "N40", "N41", "N42", "N43", "M50", "M51", "N44", "N45"]
@@ -205,4 +205,4 @@ Apple Pencil。
 
 ### 注意事項 {#selection-注意事項}
 
-範囲移動の対象は手書きの線です。写真・PDFは固定を解除して個別に動かします。この操作をコピーや拡大・縮小としては使いません。
+範囲移動の対象は手書きの線です。写真・PDFは素材自体を選択して個別に動かします。この操作をコピーや拡大・縮小としては使いません。
