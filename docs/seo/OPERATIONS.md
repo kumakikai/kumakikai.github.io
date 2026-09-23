@@ -2,7 +2,7 @@
 
 ## 正式URLと管理場所
 
-正式サイトは `https://kumakikai.github.io/`。Aboutは `/company/`、既存記事は `/notes/<既存slug>/` のまま。検索対策を理由にSupport・Privacy・Guide・FAQ・Press ReleaseのURLを移動しない。
+正式サイトは `https://kumakikai.top/`。Aboutは `/company/`、既存記事は `/notes/<既存slug>/` のまま。検索対策を理由にSupport・Privacy・Guide・FAQ・Press ReleaseのURLを移動しない。
 
 - `data/seo/<lang>.json`：Home・About・全Productの固有title／description。
 - `scripts/sync-products.py`：Product／Aboutの `seo_title` とdescriptionを生成。H1用のtitleは正式名称を維持。
@@ -48,28 +48,28 @@ SoftwareApplicationのcreator/publisherはPerson、Person.brandはKUMAKIKAIのBr
 
 ## Google Search Console（ユーザー対応）
 
-2026-09-07、ユーザー回答で未登録を確認。verification値は発行されておらず、空欄のまま公開する。
+2026-09-07時点では未登録との回答。2026-09-24のドメイン移行時点ではGoogleアカウント内を操作せず、現在の登録状態は未確認。verification値は空欄のままで、推測して追加しない。
 
-1. [Search Console](https://search.google.com/search-console/) を開き、**URLプレフィックス**のプロパティとして `https://kumakikai.github.io/` を登録する。GitHub管理の `github.io` DNSを編集するDomain方式は使わない。
-2. 所有権確認で **HTMLタグ** を選ぶ。発行された `<meta name="google-site-verification" content="…">` の **content値だけ**を `hugo.toml` の `[params.verification] google` へ設定する。値の発行・推測・生成をサイト側で行わない。
-3. production build・commit・push後、トップのHTML sourceにmetaがあることを確認してから、Search Consoleの「確認」を実行する。確認後もタグを削除しない。
-4. 「サイトマップ」で **`https://kumakikai.github.io/sitemap.xml`** を送信する。全言語の検索対象URLを含む。
-5. 「URL検査」で以下を確認し、必要に応じて「公開URLをテスト」→「インデックス登録をリクエスト」を実行する。大量の自動送信はしない。
+1. [Search Console](https://search.google.com/search-console/) で新ドメイン `kumakikai.top` のDomainプロパティを追加し、発行されたTXTをSpaceshipへ設定して所有権を確認する。URLプレフィックス `https://kumakikai.top/` とHTMLタグ方式も利用可能。
+2. HTMLタグ方式なら、発行された `<meta name="google-site-verification" content="…">` の **content値だけ**を `hugo.toml` の `[params.verification] google` へ設定する。build・公開後のHTML sourceでmetaを確認してからSearch Consoleで「確認」を実行する。確認用TXT・タグは維持する。
+3. 旧サイト `https://kumakikai.github.io/` はURLプレフィックスで所有権を確認・維持する（GitHub管理のDNSへTXTは追加できない）。新旧の所有権確認と旧→新の恒久転送確認後、旧プロパティの「設定 → アドレス変更」で新サイトへの移転を通知する。[Google公式・アドレス変更](https://support.google.com/webmasters/answer/9370220?hl=ja)
+4. 「サイトマップ」で **`https://kumakikai.top/sitemap.xml`** を送信する。全言語の検索対象URLを含む。
+5. 「URL検査」で以下を確認し、必要な主要ページのみ「公開URLをテスト」→「インデックス登録をリクエスト」を実行する。Googleが選択したcanonical・ページ登録状況・クロールエラー・検索パフォーマンスを移行前後で観測する。
 
 優先URL：
 
-- https://kumakikai.github.io/
-- https://kumakikai.github.io/products/
-- https://kumakikai.github.io/company/
-- https://kumakikai.github.io/products/uni-note/
-- https://kumakikai.github.io/products/oto-miru/
-- https://kumakikai.github.io/products/giga-poke/
-- https://kumakikai.github.io/products/nocca/
-- https://kumakikai.github.io/products/signal/
-- https://kumakikai.github.io/products/smokeless/
-- https://kumakikai.github.io/products/uni-note-pocket/
-- https://kumakikai.github.io/products/balance-calendar/
-- https://kumakikai.github.io/news/
+- https://kumakikai.top/
+- https://kumakikai.top/products/
+- https://kumakikai.top/company/
+- https://kumakikai.top/products/uni-note/
+- https://kumakikai.top/products/oto-miru/
+- https://kumakikai.top/products/giga-poke/
+- https://kumakikai.top/products/nocca/
+- https://kumakikai.top/products/signal/
+- https://kumakikai.top/products/smokeless/
+- https://kumakikai.top/products/uni-note-pocket/
+- https://kumakikai.top/products/balance-calendar/
+- https://kumakikai.top/news/
 
 旧タイトルが検索表示に残った `/notes/2026-01-23-introduction/` と `/notes/2026-04-01-uni-note-pocket/` もURL検査対象にする。以後「ページのインデックス登録」「サイトマップ」「ウェブに関する主な指標」「検索パフォーマンス」を確認し、KUMAKIKAI／kumakikai、Yuya Nakamura、正式アプリ名とブランド・氏名の組み合わせを観測する。
 

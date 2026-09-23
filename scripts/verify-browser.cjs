@@ -353,7 +353,7 @@ async function inspectHomeSelection(page, javaScript = true) {
       assert.equal(response.status(), 200, 'Legacy directories remain reachable');
       assert.match(await page.locator('meta[name="robots"]').getAttribute('content'), /noindex/);
       assert.match(await page.locator('meta[name="robots"]').getAttribute('content'), /\bfollow\b/);
-      assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), 'https://kumakikai.github.io' + route);
+      assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), 'https://kumakikai.top' + route);
       assert.equal(await page.locator('.privacy-directory-links, .legacy-list article, .product-card, .support-grid').count(), 0, 'Compatibility pages do not duplicate the app list');
       assert.deepEqual(await page.locator('main a').evaluateAll(nodes => nodes.filter(n => n.checkVisibility()).map(n => n.getAttribute('href'))), [`${prefix}/products/`], 'The normal compatibility notice has one Products destination');
       if (section === 'support') {

@@ -16,7 +16,7 @@ from urllib.request import Request, urlopen
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--build', type=Path, default=Path('public'))
-parser.add_argument('--base-url', default='https://kumakikai.github.io')
+parser.add_argument('--base-url', default='https://kumakikai.top')
 parser.add_argument('--output', type=Path, default=Path('artifacts/migration/live.json'))
 args = parser.parse_args()
 

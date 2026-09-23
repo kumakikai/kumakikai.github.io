@@ -1,6 +1,6 @@
 # KUMAKIKAI公式サイト
 
-[kumakikai.github.io](https://kumakikai.github.io/) のソースです。Hugo ExtendedとHugoplateを基盤に、iPhone・iPadアプリのProducts、News、Aboutを提供します。Productsは製品情報とアプリ別サポートへ入る共通ハブです。日本語、英語、韓国語、ドイツ語、繁体字中国語、フランス語に対応しています。Aboutの公開URLは既存の`/company/`を維持します。
+[kumakikai.top](https://kumakikai.top/) のソースです。Hugo ExtendedとHugoplateを基盤に、iPhone・iPadアプリのProducts、News、Aboutを提供します。Productsは製品情報とアプリ別サポートへ入る共通ハブです。日本語、英語、韓国語、ドイツ語、繁体字中国語、フランス語に対応しています。Aboutの公開URLは既存の`/company/`を維持します。
 
 トップページはUni:Noteを先頭の主力プロダクトとして扱い、ほかのアプリを共通の紹介候補から表示します。全アプリの入口はProductsにまとめ、既存の主要キャッチコピーと実画面を使います。既存の使い方、FAQ、プライバシーポリシー、利用規約、Notesの記事URLを保護することを優先します。
 
@@ -243,7 +243,9 @@ title・description・構造化データの管理、実際の更新日の記録�
 4. rootの`app-ads.txt`があれば`public/app-ads.txt`へコピー。
 5. 移行・リンク・SEO検証に成功した場合だけ`public/`を`gh-pages`へ公開。
 
-GitHub Pagesは既存の`gh-pages`公開方式を維持します。生成物を手動で`main`に追加する必要はありません。公開完了はActionsの成功だけでなく、`gh-pages`の生成物と[公開サイト](https://kumakikai.github.io/)への反映を確認してください。ローカルbuild成功は公開反映の証明ではありません。
+GitHub Pagesは既存の`gh-pages`公開方式を維持します。生成物を手動で`main`に追加する必要はありません。公開完了はActionsの成功だけでなく、`gh-pages`の生成物と[公開サイト](https://kumakikai.top/)への反映を確認してください。ローカルbuild成功は公開反映の証明ではありません。
+
+正式ドメインは `kumakikai.top`。`static/CNAME` はHugoが `public/CNAME` へコピーし、毎回の `gh-pages` 公開で維持します。CIの `scripts/verify-domain.py` はCNAME・baseURLの一致、旧ドメインの公開出力への混入、RSS・sitemapを検証します。DNS・HTTPS・旧URL転送の確認手順は [独自ドメイン運用](docs/DOMAIN_MIGRATION.md) を参照してください。
 
 ## ブラウザ・公開後の確認
 

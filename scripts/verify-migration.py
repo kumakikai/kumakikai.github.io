@@ -35,8 +35,18 @@ from legal_terminology_review import ROUTE as KOREAN_PRIVACY_ROUTE, check_articl
 from document_review import load_reviews as load_document_reviews, check_article as check_document_article, check_structure as check_document_structure
 from news_contact_review import ROUTE as GIGA_NEWS_CONTACT_ROUTE, check_article as check_giga_news_contact, removed_links as giga_news_removed_links
 
+# Historical body-link comparisons remain bound to the immutable review ledgers.
+# Only the explicitly authorized production origin changes; paths stay exact.
 SITE = "https://kumakikai.github.io"
-LOCAL_HOSTS = {"kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
+PRODUCTION_SITE = "https://kumakikai.top"
+
+
+def production_url(historical_url):
+    prefix = SITE + "/"
+    return PRODUCTION_SITE + historical_url[len(SITE):] if historical_url.startswith(prefix) else historical_url
+
+
+LOCAL_HOSTS = {"kumakikai.top", "kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
 LANGUAGES = ("ja", "en", "ko", "de", "zh-hant", "fr")
 FEATURED = ("uni-note", "oto-miru", "giga-poke", "nocca")
 OTHER = ("uni-note-pocket", "balance-calendar", "smokeless", "signal")
@@ -278,9 +288,10 @@ class Verification:
                 continue
             doc = self.document(target[0])
             self.require(not doc.redirect(), route, "permanent_direct_url", "An original content URL must never become a redirect to a new company/product URL")
-            self.require(doc.canonical() == original_canonicals.get(route), route, "permanent_canonical", "Original canonical URL changed; externally registered URLs must retain their canonical identity")
+            self.require(doc.canonical() == [production_url(url) for url in original_canonicals.get(route, [])], route, "permanent_canonical", "Canonical path changed beyond the authorized production-origin migration")
             self.counts["permanent_direct_urls"] += 1
-        for route, destination in self.baseline["redirects"].items():
+        for route, historical_destination in self.baseline["redirects"].items():
+            destination = production_url(historical_destination)
             target = self.target(route, "/")
             if not target or not target[0].is_file():
                 continue
@@ -708,7 +719,7 @@ class Verification:
             self.counts["about_inert_candidates"] += len(links) - len(active)
 
     def verify_compatibility_page(self, doc, apps, lang, route, section):
-        self.require(not doc.redirect() and doc.canonical() == [SITE + route], route, "directory_compatibility", "Old directory URLs must remain real pages with their own canonical")
+        self.require(not doc.redirect() and doc.canonical() == [PRODUCTION_SITE + route], route, "directory_compatibility", "Old directory URLs must remain real pages with their own canonical")
         robots = " ".join(doc.meta("robots"))
         self.require(re.search(r"\bnoindex\b", robots) and re.search(r"\bfollow\b", robots), route, "directory_compatibility", "Compatibility directories must use noindex, follow")
         self.require(not any(n.has_class("privacy-directory-links") or n.has_class("product-card") or n.has_class("support-grid") or n.has_class("support-card") or (n.tag == "article" and n.parent.has_class("legacy-list")) for n in doc.nodes), route, "directory_compatibility", "Compatibility directories must not duplicate the Products app list")
@@ -953,7 +964,7 @@ class Verification:
         description = doc.meta("description")
         self.require(len(description) == 1 and description[0].strip(), route, "description", "Expected one nonempty meta description")
         canonical = doc.canonical()
-        self.require(len(canonical) == 1 and canonical[0].startswith(SITE + "/"), route, "canonical", "Expected one production canonical URL")
+        self.require(len(canonical) == 1 and canonical[0].startswith(PRODUCTION_SITE + "/"), route, "canonical", "Expected one production canonical URL")
         if canonical:
             self.reference(canonical[0], route, "canonical")
         for key in ("og:title", "og:description", "og:type", "og:url", "og:image", "twitter:card"):
@@ -962,7 +973,7 @@ class Verification:
         self.require(doc.meta("og:url") == canonical, route, "ogp", "Open Graph URL must match canonical")
         for key in ("og:image", "twitter:image"):
             for value in doc.meta(key):
-                self.require(value.startswith(SITE + "/"), route, "ogp", f"Expected absolute production {key}")
+                self.require(value.startswith(PRODUCTION_SITE + "/"), route, "ogp", f"Expected absolute production {key}")
                 self.reference(value, route, key)
         language = doc.tagged("html")
         self.require(len(language) == 1 and language[0].attrs.get("lang"), route, "language", "Missing document language")
@@ -1069,7 +1080,7 @@ class Verification:
         if robots.is_file():
             text = robots.read_text(encoding="utf-8")
             self.require(not re.search(r"^Disallow:\s*/\s*$", text, re.M), "/robots.txt", "robots", "Production site is blocked from crawling")
-            self.require(SITE + "/sitemap.xml" in text, "/robots.txt", "robots", "Missing production sitemap declaration")
+            self.require(PRODUCTION_SITE + "/sitemap.xml" in text, "/robots.txt", "robots", "Missing production sitemap declaration")
 
     def verify_documents(self):
         root = Path(__file__).resolve().parent.parent

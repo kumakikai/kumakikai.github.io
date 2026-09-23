@@ -56,7 +56,7 @@ const common = [
   ...copy.heroLines.map((line, index) => text(line, 76, 245 + index * 66, 42, 600)),
   '<path d="M76 490H1124" stroke="#d7dfe9" stroke-width="2"/>',
   text('iPhone & iPad Apps', 76, 548, 27, 500, muted),
-  text('kumakikai.github.io', 1124, 548, 22, 400, muted, 'text-anchor="end"')
+  text('kumakikai.top', 1124, 548, 22, 400, muted, 'text-anchor="end"')
 ].join('');
 const commonIcons = [];
 for (const [index, app] of apps.entries()) {
@@ -76,7 +76,7 @@ for (const app of apps) {
     ...tagline.map((line, index) => text(line, 76, 325 + index * 68, 47, 600)),
     '<path d="M76 506H1124" stroke="#d7dfe9" stroke-width="2"/>',
     text(local.platform, 76, 562, 26, 500, muted),
-    text(app.status === 'development' ? copy.development : 'kumakikai.github.io', 1124, 562, 24, 500, muted, 'text-anchor="end"')
+    text(app.status === 'development' ? copy.development : 'kumakikai.top', 1124, 562, 24, 500, muted, 'text-anchor="end"')
   ].join('');
   await save(app.id, svg(background), [{ input: await icon(app, 232), left: 860, top: 192 }]);
 }

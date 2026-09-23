@@ -291,6 +291,10 @@ Home Aboutは運営者とブランド、About冒頭はブランド・個人事�
 
 ## 8. 恒久URL・SEO
 
+正式originは **`https://kumakikai.top/`**。2026-09-24の明示依頼による独自ドメイン移行はoriginのみを変更し、既存path・query・fragmentを維持する。`www.kumakikai.top` と旧 `kumakikai.github.io` はGitHub Pagesで正式originへ転送する。`static/CNAME` を毎回のbuildに含め、Pagesは既存 `gh-pages` rootの公開方式を維持する。DNS・HTTPS・公開確認は [独自ドメイン運用](DOMAIN_MIGRATION.md) を参照。
+
+過去のmigration baselineと本文レビュー台帳は書き換えない。`verify-migration.py` は歴史的なリンク比較を維持し、canonical・aliasに限って許可済みorigin変更を適用する。現行SEO・公開先の検証は新originを必須とし、旧domainの公開出力への混入は `verify-domain.py` で拒否する。
+
 **通常更新で既存公開URLを変更しない。** Support、Marketing、Privacy、Press Release、Guide、FAQ、Terms、Contact、翻訳URL・アンカーを保護。App Store Connectで利用の可能性がある本文は同URLの正式ページとして維持しredirectへ置換しない。
 
 基準は `docs/migration/baseline.json` と `docs/migration/permanent-urls.json` / `permanent-urls.md`。旧正式本文と過去aliasを区別し、検証を通すためにbaselineを作り直さない。既存alias維持は新たな本文移動の推奨ではない。明示的な移行時だけ影響を調べ、HugoのHTML aliasがHTTP 301そのものではない点を区別。JS redirect、404経由、一括slug変更を避ける。
@@ -299,7 +303,7 @@ Home Aboutは運営者とブランド、About冒頭はブランド・個人事�
 
 ### App Store Connect Support URL
 
-新規アプリのSupport URLは原則として、そのアプリの正式Product詳細ページ **`https://kumakikai.github.io/products/<id>/`** を使用する。例: `https://kumakikai.github.io/products/uni-note/`。Product概要・機能・対応環境と、使い方／FAQ／お問い合わせ／Privacy／Termsへの直接導線を備える正式入口として扱う。Support URLのために「アプリ名について」の記事を作成しない。
+新規アプリのSupport URLは原則として、そのアプリの正式Product詳細ページ **`https://kumakikai.top/products/<id>/`** を使用する。例: `https://kumakikai.top/products/uni-note/`。Product概要・機能・対応環境と、使い方／FAQ／お問い合わせ／Privacy／Termsへの直接導線を備える正式入口として扱う。Support URLのために「アプリ名について」の記事を作成しない。
 
 App Store Connect登録用はProductページ自体の正式URL。サイト内カードから同ページ下部へ進む `/products/<id>/#support` とは用途を分ける。旧互換情報の `data/apps.json.detailURL` を新規登録先として機械的に採用しない。
 
@@ -310,7 +314,7 @@ App Store Connect登録用はProductページ自体の正式URL。サイト内�
 - Product名で検索する人向けの正式ランディングページは **`/products/<id>/`**。固有metadata・schema・静的リンクを中心に整備し、Press Releaseを作らない代わりの検索用記事を追加しない。
 - titleは正式Product名＋KUMAKIKAI等の固有値、descriptionは用途。Product H1には正式名をHTMLで含める。KUMAKIKAI／Yuya Nakamura表記を統一。
 - Home・About・Productは `data/seo/<lang>.json`、記事はfront matter。Heroや本文へ検索語を詰め込まず、別表記は確認できる必要な範囲だけ。
-- canonicalは正式 `https://kumakikai.github.io/` の各ページ自身。翻訳を日本語へ統合せずlocalhost／previewを出さない。
+- canonicalは正式 `https://kumakikai.top/` の各ページ自身。翻訳を日本語へ統合せずlocalhost／previewを出さない。
 - `seo/alternates.html` は実在・index可能な翻訳間のみ相互hreflang、日本語があればx-default。言語正規化は `seo/language.html` の ja / en / ko / de / zh-Hant / frに従う。
 - OGP／Twitter Card／og:site_nameを維持。ページimages指定・該当Product OGP・共通画像のfallbackを確認。`scripts/generate-og.mjs <id>` で対象だけ再生成できる（既存sharp QA環境使用）。無指定は全画像と共通OGPを再生成するので通常更新では使わない。共通OGPは固定配置のためアプリ増加時に無条件再生成しない。
 - root **`/sitemap.xml`** は `sitemapindex.xml` から全言語index対象を列挙するurlsetを生成。Home／Products／Product／About／News記事／Guide／FAQ／個別Privacy／Termsを確認。既存言語sitemapも維持。
@@ -324,9 +328,9 @@ App Store Connect登録用はProductページ自体の正式URL。サイト内�
 
 | Entity | ID・関係 |
 | --- | --- |
-| Brand | `https://kumakikai.github.io/#brand`、KUMAKIKAI |
-| Person | `https://kumakikai.github.io/company/#person`、Yuya Nakamura、brandでBrand参照 |
-| WebSite | `https://kumakikai.github.io/#website`、publisherはPerson、aboutはBrand |
+| Brand | `https://kumakikai.top/#brand`、KUMAKIKAI |
+| Person | `https://kumakikai.top/company/#person`、Yuya Nakamura、brandでBrand参照 |
+| WebSite | `https://kumakikai.top/#website`、publisherはPerson、aboutはBrand |
 | SoftwareApplication | `/products/<id>/#software`。creator／publisherは同じPerson。名称・説明・画像・OS・area由来category |
 | Article / BlogPosting | Press Release等はArticle、BlogはBlogPosting。実date／lastmod・Person著者・関連Productのみmentions |
 | WebPage / AboutPage / BreadcrumbList | 各正式URLと可視のページ階層に一致 |

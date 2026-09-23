@@ -20,7 +20,7 @@ Document, route_for = module.Document, module.route_for
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--build', type=Path, required=True)
 parser.add_argument('--output', type=Path, required=True)
-parser.add_argument('--base', default='https://kumakikai.github.io')
+parser.add_argument('--base', default='https://kumakikai.top')
 args = parser.parse_args()
 base=args.base.rstrip('/')
 HEADERS = ['date','cache-control','age','etag','last-modified','vary','x-cache','x-cache-hits','x-served-by','content-type','server']

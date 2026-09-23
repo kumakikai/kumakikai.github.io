@@ -4,7 +4,7 @@ r"""Compare a local build, a deployed artifact, and every directly fetched file.
 Example (run only after Pages has finished publishing):
   python3 scripts/verify-published-site.py --local-build public \
     --deployed-build /tmp/gh-pages-artifact --output /tmp/published-check \
-    --base-url https://kumakikai.github.io
+    --base-url https://kumakikai.top
 
 The output directory must be new or empty. report.json and both complete file
 manifests are saved there. responses/ mirrors the deployed directory layout so
@@ -198,7 +198,7 @@ def arguments(argv=None):
     parser.add_argument('--deployed-build', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True,
                         help='New or empty run directory (report.json, manifests, responses, headers)')
-    parser.add_argument('--base-url', default='https://kumakikai.github.io')
+    parser.add_argument('--base-url', default='https://kumakikai.top')
     parser.add_argument('--jobs', type=int, default=4, help='Concurrent curl GETs, 1–8 (default: 4)')
     parser.add_argument('--timeout', type=int, default=30, help='Maximum seconds per curl transfer')
     parser.add_argument('--retries', type=int, default=1, help='curl retries for transient failures (0–3)')

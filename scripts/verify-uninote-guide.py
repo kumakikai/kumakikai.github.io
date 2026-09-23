@@ -14,7 +14,7 @@ from urllib.parse import urljoin, urlsplit, unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 DIRECTORY = ROOT / 'docs/uni-note-guide-phase2'
-SITE = 'https://kumakikai.github.io'
+SITE = 'https://kumakikai.top'
 
 
 def digest(path):
@@ -112,7 +112,7 @@ def verify(build):
                 if not (value := node.attrs.get(attr)):
                     continue
                 url = urlsplit(urljoin(SITE + route, value))
-                if url.scheme not in ('https','http') or url.netloc != 'kumakikai.github.io':
+                if url.scheme not in ('https','http') or url.netloc != 'kumakikai.top':
                     continue
                 path = build / unquote(url.path).lstrip('/')
                 if url.path.endswith('/'):

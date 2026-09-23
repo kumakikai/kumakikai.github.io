@@ -19,7 +19,7 @@ from urllib.parse import unquote, urljoin, urlsplit, urlunsplit
 sys.path.insert(0, str(Path(__file__).parent))
 spec = importlib.util.spec_from_file_location('migration', Path(__file__).with_name('verify-migration.py'))
 m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
-SITE = 'https://kumakikai.github.io'
+SITE = 'https://kumakikai.top'
 LOCALES = {'en', 'ko', 'de', 'zh-hant', 'fr'}
 STATE = re.compile(r'開発中|開発しています|現在のところ|公開中|予定|審査中|審査待ち|近日(?:対応|公開|予定)?|公開前|公開準備|現在の(?:バージョン|公開版)|未公開|次回|今後|準備中|リリース予定|coming soon|under review|in review|upcoming|not released|in development|currently|current (?:version|release)|not yet|unreleased|bientôt|en cours|demnächst|derzeit|noch nicht|veröffentlicht|개발 중|심사 중|출시 예정|출시 전|출시된|검토 중|目前|即將|審核|尚未', re.I)
 RELATED = re.compile(r'^(?:関連ページ|関連リンク|Related (?:pages|links)|관련 페이지|관련 링크|相關頁面|相關連結|Verwandte Seiten|Pages connexes)\s*[:：]?$', re.I)

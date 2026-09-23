@@ -19,7 +19,7 @@ import sys
 from urllib.parse import unquote, urljoin, urlsplit
 import xml.etree.ElementTree as ET
 
-SITE = "https://kumakikai.github.io/"
+SITE = "https://kumakikai.top/"
 LANGS = ("ja", "en", "ko", "de", "zh-hant", "fr")
 HREFLANG = {"ja": "ja", "en": "en", "ko": "ko", "de": "de", "zh-hant": "zh-Hant", "fr": "fr"}
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}

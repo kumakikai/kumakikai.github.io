@@ -4,7 +4,7 @@ const { assertLightTheme, seedLegacyDarkPreference } = require('./assert-light-t
 const fs=require('node:fs');
 const path=require('node:path');
 const {chromium}=require('playwright');
-const base=process.env.TEST_BASE_URL||'https://kumakikai.github.io';
+const base=process.env.TEST_BASE_URL||'https://kumakikai.top';
 const out=process.env.TEST_OUTPUT||'docs/release-audit';
 const run=process.env.AUDIT_RUN||'before';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
