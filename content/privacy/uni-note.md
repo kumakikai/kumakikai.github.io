@@ -1,6 +1,6 @@
 ---
 title: "プライバシーポリシー (Uni:Note)"
-lastmod: 2026-09-08
+lastmod: 2026-09-25
 ---
 
 ## 1. はじめに {#introduction}
@@ -67,7 +67,7 @@ AI処理と残量・取引管理にはAmazon Web Services（AWS）、AIの生成
 
 本アプリは、広告配信SDKを利用していません。
 
-Google Analytics for Firebase による利用状況イベントの収集は行いません。Firebase は、Crashlytics による診断・クラッシュ解析の目的で利用します。
+Google Analytics for Firebase を、アプリ改善のための利用状況・機能別利用率・継続利用・購入導線の分析に使用します。Firebase は、Crashlytics による診断・クラッシュ解析にも使用します。Analytics が自動生成するアプリインスタンスIDと、アプリ起動などの自動イベント、ノート作成・添付・録音・AI機能・バックアップなどの固定された利用イベントを収集します。ノートの内容、手書き、OCR、問題文、AIへの入力・回答、文字起こし、録音・PDF・画像の内容、ファイル名、氏名、メールアドレス、ノートやページの内部IDをAnalyticsの独自イベントに含めません。広告識別子IDFA、広告パーソナライズ、他のアプリやサービスをまたぐ追跡には使用しません。
 
 {{< guide-anchor "6-診断データクラッシュデータについて" >}}
 

@@ -75,3 +75,6 @@ source段階で担当38文書の構造・日付・旧ID・画像と操作保持�
 ### Uni:Note大項目への統合
 
 後続の明示依頼によりトップの独立展開ボタンと大項目完全ガイドへ変更。196操作・180画像スロット・旧HTUアンカー・P0/HOLDを継承。44個別URLは互換不要の追加指示で削除する。移動対応と本文の照合を `docs/uni-note-guide-phase2/ia-revision/` に記録。本ルートだけの出力bindingを更新し、他73文書のレビューとimmutable baselineは変更しない。
+# 2026-09-25 Uni:Note Analytics Privacy Policy review
+
+The six Uni:Note Privacy pages (ja, en, ko, de, fr, zh-Hant) change only the Analytics paragraph in the external-services section and `lastmod`. The previous statement that Google Analytics for Firebase is unused is replaced with the current implementation: product usage, feature adoption, retention and purchase-flow analysis; automatically generated app-instance ID and automatic/fixed events; continued Crashlytics diagnostics; no custom-event note content, handwriting, OCR, questions, AI input/output, transcripts, recording/PDF/image content, filenames, personal names, email addresses or internal note/page IDs; no IDFA, ad personalization or cross-app/service tracking. The six paragraphs have the same scope. Existing links, anchors, other data-processing descriptions and support navigation are preserved. This review binds the exact rendered output through the existing document review catalog after the pinned production build. It does not assert live Firebase delivery or App Store release.

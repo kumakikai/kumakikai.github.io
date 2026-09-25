@@ -1,7 +1,7 @@
 ---
 title: "隱私權政策 (Uni:Note)"
 description: "Uni:Note 隱私權政策。"
-lastmod: 2026-09-08
+lastmod: 2026-09-25
 ---
 
 ## 1. 開始使用 {#introduction}
@@ -68,7 +68,7 @@ AI 請求、餘額與交易管理使用 Amazon Web Services（AWS），AI 生成
 
 本App不使用廣告 SDK。
 
-本App 不會透過 Google Analytics for Firebase 收集使用事件。Firebase 會透過 Crashlytics 用於診斷與當機分析。
+我們使用 Google Analytics for Firebase 分析 App 使用情況、各功能使用率、持續使用與購買流程，以改善產品。Firebase Crashlytics 仍用於診斷與當機分析。Analytics 會收集自動產生的 App 執行個體 ID、開啟 App 等自動事件，以及筆記、附件、錄音、AI、備份等固定的使用事件。我們自訂的 Analytics 事件不包含筆記內容、手寫、OCR 結果、題目、AI 輸入或回答、逐字稿、錄音、PDF 或圖片內容、檔名、姓名、電子郵件地址，或筆記與頁面的內部 ID。我們不使用 IDFA、廣告個人化或跨 App／跨服務追蹤。
 
 {{< guide-anchor "6-診斷資料與當機資料" >}}
 

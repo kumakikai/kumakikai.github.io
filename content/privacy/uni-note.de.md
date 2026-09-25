@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung (Uni:Note)"
 description: "Datenschutzerklärung für Uni:Note."
-lastmod: 2026-09-08
+lastmod: 2026-09-25
 ---
 
 ## 1. Einführung {#introduction}
@@ -68,7 +68,7 @@ Zum Umgang mit Informationen der einzelnen Dienste siehe [AWS-Datenschutz](https
 
 Die App verwendet keine Werbe-SDKs.
 
-Die App erfasst keine Nutzungsereignisse mit Google Analytics for Firebase. Firebase wird über Crashlytics für Diagnose- und Absturzanalysen verwendet.
+Wir verwenden Google Analytics for Firebase, um App-Nutzung, Funktionsnutzung, wiederkehrende Nutzung und Kaufwege zur Produktverbesserung auszuwerten. Firebase Crashlytics verwenden wir weiterhin für Diagnose und Absturzanalyse. Analytics erfasst eine automatisch erzeugte App-Instanz-ID, automatische Ereignisse wie App-Starts und fest definierte Nutzungsereignisse für Notizen, Anhänge, Aufnahmen, KI und Backups. Unsere eigenen Analytics-Ereignisse enthalten keine Notizinhalte, Handschrift, OCR-Ergebnisse, Aufgaben, KI-Eingaben oder -Antworten, Transkripte, Audio-, PDF- oder Bildinhalte, Dateinamen, Namen, E-Mail-Adressen oder interne Notiz- und Seiten-IDs. IDFA, personalisierte Werbung und Tracking über Apps oder Dienste hinweg verwenden wir nicht.
 
 {{< guide-anchor "6-diagnose--und-absturzdaten" >}}
 

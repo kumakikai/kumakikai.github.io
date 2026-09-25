@@ -1,7 +1,7 @@
 ---
 title: "Politique de confidentialité (Uni:Note)"
 description: "Politique de confidentialité pour Uni:Note."
-lastmod: 2026-09-08
+lastmod: 2026-09-25
 ---
 
 ## 1. Introduction {#introduction}
@@ -68,7 +68,7 @@ Pour le traitement des informations par chaque service, consultez la [confidenti
 
 L’application n’utilise pas de SDK publicitaire.
 
-L'application ne collecte pas d'événements d'utilisation avec Google Analytics for Firebase. Firebase est utilisé pour les diagnostics et l'analyse des plantages via Crashlytics.
+Nous utilisons Google Analytics for Firebase pour analyser l'utilisation de l'app, l'adoption des fonctions, la fidélisation et les parcours d'achat afin d'améliorer le produit. Firebase Crashlytics reste utilisé pour les diagnostics et l'analyse des plantages. Analytics collecte un identifiant d'instance d'app généré automatiquement, des événements automatiques tels que l'ouverture de l'app et des événements d'utilisation prédéfinis pour les notes, pièces jointes, enregistrements, fonctions IA et sauvegardes. Nos événements Analytics personnalisés ne contiennent ni contenu des notes, ni écriture manuscrite, résultats OCR, énoncés, entrées ou réponses IA, transcriptions, contenus audio, PDF ou image, noms de fichiers, noms, adresses e-mail ou identifiants internes de notes ou de pages. Nous n'utilisons pas l'IDFA, la personnalisation publicitaire ni le suivi entre apps ou services.
 
 {{< guide-anchor "6-données-de-diagnostic-et-de-plantage" >}}
 

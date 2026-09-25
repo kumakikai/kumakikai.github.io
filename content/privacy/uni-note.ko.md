@@ -1,7 +1,7 @@
 ---
 title: "개인정보 처리방침 (Uni:Note)"
 description: "Uni:Note 개인정보 처리방침입니다."
-lastmod: 2026-09-08
+lastmod: 2026-09-25
 ---
 
 ## 1. 시작하기 {#introduction}
@@ -68,7 +68,7 @@ AI 요청과 잔액·거래 관리에는 Amazon Web Services(AWS), AI 생성·�
 
 본 앱은 광고 SDK를 사용하지 않습니다.
 
-Google Analytics for Firebase를 통한 사용 이벤트 수집은 하지 않습니다. Firebase는 Crashlytics를 통한 진단 및 크래시 분석 목적으로 사용됩니다.
+제품 개선을 위해 Google Analytics for Firebase로 앱 이용 현황, 기능별 이용률, 지속 이용 및 구매 경로를 분석합니다. Firebase Crashlytics는 진단과 충돌 분석에 사용합니다. Analytics는 자동 생성되는 앱 인스턴스 ID, 앱 실행 등의 자동 이벤트와 노트, 첨부, 녹음, AI, 백업 등의 고정된 이용 이벤트를 수집합니다. 맞춤 Analytics 이벤트에는 노트 내용, 필기, OCR, 문제, AI 입력과 응답, 음성 기록, 녹음·PDF·이미지 내용, 파일 이름, 성명, 이메일 주소, 노트나 페이지의 내부 ID를 포함하지 않습니다. IDFA, 광고 개인화, 앱 또는 서비스 간 추적에는 사용하지 않습니다.
 
 {{< guide-anchor "6-진단-데이터-및-크래시-데이터" >}}
 

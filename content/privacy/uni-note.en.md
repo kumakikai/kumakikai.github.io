@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy (Uni:Note)"
 description: "Privacy policy for Uni:Note."
-lastmod: 2026-09-08
+lastmod: 2026-09-25
 ---
 
 ## 1. Introduction {#introduction}
@@ -68,7 +68,7 @@ For each service’s information handling, see [AWS data privacy](https://aws.am
 
 The app does not use advertising SDKs.
 
-The app does not collect usage events with Google Analytics for Firebase. Firebase is used for diagnostics and crash analysis through Crashlytics.
+We use Google Analytics for Firebase to understand app usage, feature adoption, retention, and purchase flows for product improvement. We also use Firebase Crashlytics for diagnostics and crash analysis. Analytics collects an automatically generated app instance ID, automatic events such as app launches, and fixed usage events for features such as notes, attachments, recording, AI, and backups. Our custom Analytics events do not include note content, handwriting, OCR, questions, AI inputs or answers, transcripts, audio, PDF or image content, file names, names, email addresses, or internal note or page IDs. We do not use IDFA, ad personalization, or cross-app or cross-service tracking.
 
 {{< guide-anchor "6-diagnostics-and-crash-data" >}}
 

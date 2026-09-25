@@ -106,10 +106,10 @@
     },
     "/de/privacy/uni-note/": {
       "source": "content/privacy/uni-note.de.md",
-      "sourceSHA256": "5066e1cf5455aa53d706ef3f9672e6ad5db4990db7d40ae6805b7be78a919224",
+      "sourceSHA256": "b799b6eb453fd6423aadaadcc84581394705b588e935458b7a2b78a0afbf9621",
       "beforeSourceSHA256": "a2a9d2520b7dcf0478a26fc904534868ff7ede9d5fdc6036f9b3b4492a637fa3",
       "baselineTextSHA256": "2338803776318eced4362b8cbf089a26607625d4f267e494410cf5de07b23635",
-      "reviewedTextSHA256": "c522a7c78820d386fbe5181be9a7942ce882f19207dc0b869eeef4150800b9a6",
+      "reviewedTextSHA256": "0672d775d15564cb1d24b373a7f2c51a6eb67de0c0bee77219f770eba5c1eaf9",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -120,7 +120,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -290,10 +290,10 @@
     },
     "/en/privacy/uni-note/": {
       "source": "content/privacy/uni-note.en.md",
-      "sourceSHA256": "85826ea1128082d16413e7d0ea785bd71cb79bac810a9f87218d1887f76e930d",
+      "sourceSHA256": "1fc89cb429cf7c76217fd0f57edc22a9381de09778e13fa028d65855403bc913",
       "beforeSourceSHA256": "c73a181f6f42ca59a4f5305527d0058ca956e7418360ba9bf9f2e5c359c896a5",
       "baselineTextSHA256": "0033f348c79ca449e91a23ea1b90264b5f49adfb87e339d66bfe5e5459add4e9",
-      "reviewedTextSHA256": "4f7022650e1e9b72f68b11409ae8a3839386b6c45e4f1a962624f2e5afc08e85",
+      "reviewedTextSHA256": "0164983b29795cfb4153d083566fe4f8ef4dce6324c3b7c5bd8fd0df3fe9791c",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -304,7 +304,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -661,10 +661,10 @@
     },
     "/fr/privacy/uni-note/": {
       "source": "content/privacy/uni-note.fr.md",
-      "sourceSHA256": "bcedb9d30933d748f17733844fce50ab28008738fb40cec80c85ab53d0b9c4fc",
+      "sourceSHA256": "7e5c90af30af05e83f3df1f4c24e17b63d511c2c003e2c18898527130d3f5d7e",
       "beforeSourceSHA256": "b15753d82b5656b22c9f360a11e9e0ab860609e881e9c6e6045ee26a5b71f7fe",
       "baselineTextSHA256": "da242f812c979b9336393c15225e4bfcc241ec1cdd8882a2a1022dfa14bd3159",
-      "reviewedTextSHA256": "01d0c51904033145c7b3834ad3fbeed49ed64751ae84b3c3cede74e785987bca",
+      "reviewedTextSHA256": "6ddc07824214f0d566f0a58bbc34f245aebcc0e440255d86c2354f38afa65f9f",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -675,7 +675,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -1079,10 +1079,10 @@
     },
     "/ko/privacy/uni-note/": {
       "source": "content/privacy/uni-note.ko.md",
-      "sourceSHA256": "6693f3ae402f54521a53bb188a57d13210dc5a170e13bf03e079ea6f4271f389",
+      "sourceSHA256": "678c6053a8dabed59759c665258a5231719206e99fef563f6f5b97ba6972cdb6",
       "beforeSourceSHA256": "a1a81360a1307c34c2b30c115f2c13f2e236c33bbe4107af1b76a987c2b1e6c2",
       "baselineTextSHA256": "aeb5d85dc1364e5806d5ee6194b4486080c1375e55711049fffbbd55aeed6170",
-      "reviewedTextSHA256": "09bc87ff92b85fcb736d2d6d2fba25fa641605eac4655fd006dd734e3d1e7523",
+      "reviewedTextSHA256": "eb189c6993b14479fd9c3ee223814d2bd3af259b2c318d9aa4933f960e956e65",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -1093,7 +1093,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -1248,10 +1248,10 @@
     },
     "/privacy/uni-note/": {
       "source": "content/privacy/uni-note.md",
-      "sourceSHA256": "e5bb43afca94e5292d8fb1b11bfee0a0e9798b5e7414c20a3d4c441366c1bb18",
+      "sourceSHA256": "cf85bdc4ddb17df31b978669379bcdf19e097e9e2d2716ab59b5fad71977f913",
       "beforeSourceSHA256": "1ce170e7fd0d14584d2ecdc468a79457f8350992ef4bb9980e9e06f86481a918",
       "baselineTextSHA256": "93803e6b2db56b741b03fe641f5af12a7328a15a4fc537c6d651365c2531d538",
-      "reviewedTextSHA256": "bbe0c3c73ffd761ca8a283b5f81b014679b08d7bf1c94a9d3108f5668e15a7b5",
+      "reviewedTextSHA256": "8eb1716f70ac3817dabd33c3993efa9e4df227145edba3796349d6cb0f506707",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -1262,7 +1262,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -1587,10 +1587,10 @@
     },
     "/zh-hant/privacy/uni-note/": {
       "source": "content/privacy/uni-note.zh-hant.md",
-      "sourceSHA256": "4db8357d7193727b005055543ed45e3ecd2b4e99a1a53f6f59b96783b8557eaf",
+      "sourceSHA256": "b924aa28b6c87c1293d607a454e7d27d0813f7af9e15711c7d6fa6236ad3d787",
       "beforeSourceSHA256": "8f7d2938038bf870a9bb571877e438df7d81416186bb404b73fd0958d62be240",
       "baselineTextSHA256": "e779d5289199b13919a9473c3b8e88099904c4228a897fbfebf1048afd55da09",
-      "reviewedTextSHA256": "1f14c6b28e774f220cb46e91f76a6be95719eb972f79efdadbb92c8bb6553ecc",
+      "reviewedTextSHA256": "cc9beae0bdc4aef1d924d9e68f0cc91f82b7f782a9f6e328437d680c52d1a98b",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -1601,7 +1601,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject.",
+      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
