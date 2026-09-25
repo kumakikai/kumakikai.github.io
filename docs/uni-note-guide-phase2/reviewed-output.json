@@ -1,11 +1,11 @@
 {
   "route": "/htu/uni-note/",
-  "sourceSHA256": "9fb4136fc04bb6d94f8fd6b366d09338e5af2b02ac4e8266766fef08a6808b7e",
+  "sourceSHA256": "981e67887700e900feca37dc2b64f820edada6cb22104022bce9201cb580ef87",
   "topImages": [],
   "dependencies": {
-    "content/htu/uni-note.md": "9fb4136fc04bb6d94f8fd6b366d09338e5af2b02ac4e8266766fef08a6808b7e",
+    "content/htu/uni-note.md": "981e67887700e900feca37dc2b64f820edada6cb22104022bce9201cb580ef87",
     "data/uni_guide_images.json": "4fc5fb741d3f3b7bf6d9fd65b485533482130ffb46141c34b016184f6afd76fd",
-    "data/uni_guide_navigation.json": "b643dfc09d3d8c4a856c66337a4a279ccb2d52502778c25a9bf692e0a9b52298",
+    "data/uni_guide_navigation.json": "8e5e26c582e539a134b877038c106dd541d3e012d6b80067cd5c42260da20f39",
     "layouts/uni-guide/single.html": "9a88f18b8cf053bf373c1a4a3a3226d276342aa984d2793c7e69788601d9061c",
     "layouts/_shortcodes/uni-guide-image.html": "5ded074435a82fb9324ef2d2a9f24e884a131d43516bf490ec3a859d435943b0",
     "docs/uni-note-guide-phase2/implementation-map.json": "4e7dd05422a0b488bf530dbbc76fb812a5cf51e04e9825b350d38bbef7f3d511",
@@ -13,22 +13,22 @@
     "docs/uni-note-guide-phase2/04-content-review.md": "fd6cd3de77753bcda9051c3f471a2148af1555735f03353bcc9c3b8a026f4fa3",
     "content/uni-note-guide/_index.md": "b00ae82e772fef1bdf3df1100cc5cf886e92a9bb62646c48827898ada97b181a",
     "content/uni-note-guide/ai.md": "eb0f42cd00dccb1807c09855495620cbdbf9e80b84b2c930957dc102169f0a52",
-    "content/uni-note-guide/backup.md": "736f6052d4bacd4424304fce4bcdada69a8d4362b5fac7398fc5376f0a5518c8",
+    "content/uni-note-guide/backup.md": "11e29be442d4f27c8c66cc9a11caa3470d84bf25fa81f8a8e45831a787b2141d",
     "content/uni-note-guide/customize.md": "5c203ea66921f51f175cad82a9d5a1956d80c1b59ce2dcea6e8eb68dd49664cc",
     "content/uni-note-guide/data.md": "ea111bd6d333455818fdd93a900cfbf3fe032d798d182314f7264fe8d74e1445",
     "content/uni-note-guide/ipados.md": "098484bf40c5a81df35d29d6bb4363908b33195f44d4ba2b16e5934b79c0540a",
     "content/uni-note-guide/library.md": "32d178dea641e3a52a00a97960950c0d76e28fd081ab630c85736a160a025b7e",
-    "content/uni-note-guide/materials.md": "73a0b94fac1ef5f7e8b2efcd763894159ba9ec00f22f7035af62dcfe2bac8258",
+    "content/uni-note-guide/materials.md": "16f0c4174a0321218086a65b9d8a94e8e98a9a0a020899e840a655475338971d",
     "content/uni-note-guide/notebooks.md": "652a27b01a01e4c29a0c3a4f1547481db12148f7306f977064de4b816677eda4",
-    "content/uni-note-guide/plans.md": "2ce0ae4abc90a87cea3e249bddf2031bb4c184cb9814f39193c741a5ef2988a2",
+    "content/uni-note-guide/plans.md": "0be11eab12f909ad70705d3c3305bddabb4a92b5e9452c3f4e68b780fd6cf0f4",
     "content/uni-note-guide/problem-sets.md": "540bd10131c3673b7f2612a945e805ad597c56dafe1daca3e1e0373a532196d8",
-    "content/uni-note-guide/recording.md": "6352013cf2036afbde0a05fa7158f6df474f055275e2803cf29f2d20e03f5f56",
+    "content/uni-note-guide/recording.md": "1877b61a910ac6e79299c137557176f56c58fbad6221f747af90cd21d679ed33",
     "content/uni-note-guide/start.md": "3277fff5063ff9d0ff1e93775df5df5288fead327498cc88795365eed1e047cf",
     "content/uni-note-guide/study.md": "885fb564f4509d3060805657d10109850a6e9704ad9c948442c01bb7828955ad",
     "content/uni-note-guide/workflows-explain.md": "7518b93b4d8a1a0656a15b1c7aa5e9fffac61f7f58f588d1a5514feb587e093e",
     "content/uni-note-guide/workflows-external-material.md": "47f55ffd5627589543655dc7268e2b6376d7831391c9fe8dc020bf52c665ba80",
     "content/uni-note-guide/workflows-focus.md": "4096c73ed59f3bfc0af419a6f522fd8da3d29614e5e408b94d3da1dddcb74470",
-    "content/uni-note-guide/workflows-material-margin.md": "48179c8eb8cce2170ff52e972a94f336ce4a303fb2e6c6211cff5d4967e8070a",
+    "content/uni-note-guide/workflows-material-margin.md": "b8dc5fb798788acdfc6ec78f30dc06106609994a4997bc50b6f2301fc794c39b",
     "content/uni-note-guide/workflows-pip.md": "5bdb9c1ceba5e9b3bcb23ae47f6490d7c3bfb7f8447b3147b20becd052bf015b",
     "content/uni-note-guide/workflows-quiz-review.md": "19f402700d394ac14b57586181ed89099af12201718e9a8939c7613bb8a8e4c1",
     "content/uni-note-guide/workflows-record-review.md": "6ce37fe95daaf5f454d1ab61913e29a24773a983e983c6d6b6f4b7e1d672dac9",
@@ -36,9 +36,9 @@
     "content/uni-note-guide/workflows-sticky-material.md": "d3197a6a1dec6260aee4038ced63073299bd7060b9822071036cc2cb6a6a5935",
     "content/uni-note-guide/workflows-summary-annotate.md": "ec4ab8a966419e939f39e5a231874d3a3fc102b55a5fcb006e5f6b10757f3501",
     "content/uni-note-guide/workflows-two-notes.md": "c5896b75fc4b3419d37f3daccf3a10f195980a02de59a81c5ece35afa50e5631",
-    "content/uni-note-guide/workflows-vertical-annotate.md": "a90cad9a6d7f515f9ddba25b12886e122ff5b21699c615a45f5fcb373568bf45",
+    "content/uni-note-guide/workflows-vertical-annotate.md": "f8cfbdeae32064a24e7d2a016d09cfdd66d2e250745b8a46e9751a77f1207601",
     "content/uni-note-guide/workflows.md": "594807078d03228a516a4b08e5b4cd3ba318c768e2947f5e8e36c0053b03b880",
-    "content/uni-note-guide/writing.md": "3ed87358de951175412347fadc73e93ab653053b9748671bae50d7452a5fd3f5",
+    "content/uni-note-guide/writing.md": "11ae8a61572e520427dfeb08d5751501fccbace5c1a29d9e1db5de9a1dab84be",
     "assets/css/site.css": "3f3b842806aa4457ff997a1b08361407d9de734726386b57d85147bdeec26074",
     "assets/js/uni-guide-navigation.js": "d455044b7f8253a0a41c3515080667229442fc5f618f19e8867c013ac13078ef",
     "layouts/_shortcodes/uni-guide-category.html": "e1039c75971899592b69d0d6e8bf58458f89e63da6e4e102d011c1610cc0c5a7",
@@ -47,19 +47,19 @@
     "layouts/_shortcodes/uni-guide-search.html": "116d935f0676608b4ff2c9cb8730ef27aaa950daa616b5d51579bb4ce3207857",
     "layouts/single.html": "5d0dd329f0fac8cdcae7993b4b5930b5465c4463a800d2703372b4b3f2cf48f8",
     "scripts/document_review.py": "6243f5b00433c4ee8fb5f49c972e3c83a611d492f95a0aa24ecb1e0d7473bec7",
-    "scripts/verify-uninote-guide.py": "b957af33a4f6e0e17ff4a393e0bf31b596c74df0383bbca4a70fc8593b4c12a3",
+    "scripts/verify-uninote-guide.py": "3f627bfa67f8804434fac64d553b711c82248834cde854d12bd91c2bed7ba0ca",
     "data/uni_guide_search_ui.json": "6da4b4a50b2be1265d49e6bf0e098dbad07f67887a9b60cac13737980b6d5695",
     "scripts/verify-migration.py": "e5546141c08c38b7838e4549c4adf1099b169ac55e33f96638b0aca89e5a49a9",
-    "content/htu/uni-note.en.md": "421a1145e01a76acb68c0a4fa4914cdeddce07f8ffd6d8ba1b27a1b8e307c618",
-    "content/htu/uni-note.ko.md": "a5a9e6e5d201d63201ec16040847258a35a29e0dd5bf77c83089832840d6bcfb",
-    "content/htu/uni-note.de.md": "f91558669907b28c223004cfae3719de7687e5ec7306c5b6222d576ad19f2b82",
-    "content/htu/uni-note.zh-hant.md": "60d776591d48865f3aa83bd1677ebeea2ad3b726d104b1c0f599cc5afcdd90ee",
-    "content/htu/uni-note.fr.md": "4910107e9d2710741391f6151b86a667394bace47692191da36bfee755df024e"
+    "content/htu/uni-note.en.md": "5fa63e9c1b231e6f7587542a26295ffbd0436ffaeb83958efd6d583331960b78",
+    "content/htu/uni-note.ko.md": "0cd57c7f374839d762a35e116e36aaa74a3b293c749e7253428921910c9f53a5",
+    "content/htu/uni-note.de.md": "46add866324d960986e4b29197b0b1f7c7812e22fa76f30f2849e46530a3b2e1",
+    "content/htu/uni-note.zh-hant.md": "952e0601b9f0bb5eb41104b04171b850d0e70605b341cc855e2a38cf54dd85a9",
+    "content/htu/uni-note.fr.md": "6ea53e1e4a43f45428b16f974d616b134c9b1602a24d3892aeae0240b9fda418"
   },
   "localizedImages": {
     "/en/htu/uni-note/": {
       "route": "/en/htu/uni-note/",
-      "sourceSHA256": "421a1145e01a76acb68c0a4fa4914cdeddce07f8ffd6d8ba1b27a1b8e307c618",
+      "sourceSHA256": "5fa63e9c1b231e6f7587542a26295ffbd0436ffaeb83958efd6d583331960b78",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
@@ -152,11 +152,11 @@
           "decoding": "async"
         }
       ],
-      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+      "reason": "3.7.0 localized operation text reviewed against the current app, with existing real screenshots and their display metadata retained. See docs/uni-note-3.7-site-audit.md."
     },
     "/ko/htu/uni-note/": {
       "route": "/ko/htu/uni-note/",
-      "sourceSHA256": "a5a9e6e5d201d63201ec16040847258a35a29e0dd5bf77c83089832840d6bcfb",
+      "sourceSHA256": "0cd57c7f374839d762a35e116e36aaa74a3b293c749e7253428921910c9f53a5",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
@@ -249,11 +249,11 @@
           "decoding": "async"
         }
       ],
-      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+      "reason": "3.7.0 localized operation text reviewed against the current app, with existing real screenshots and their display metadata retained. See docs/uni-note-3.7-site-audit.md."
     },
     "/de/htu/uni-note/": {
       "route": "/de/htu/uni-note/",
-      "sourceSHA256": "f91558669907b28c223004cfae3719de7687e5ec7306c5b6222d576ad19f2b82",
+      "sourceSHA256": "46add866324d960986e4b29197b0b1f7c7812e22fa76f30f2849e46530a3b2e1",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
@@ -346,11 +346,11 @@
           "decoding": "async"
         }
       ],
-      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+      "reason": "3.7.0 localized operation text reviewed against the current app, with existing real screenshots and their display metadata retained. See docs/uni-note-3.7-site-audit.md."
     },
     "/zh-hant/htu/uni-note/": {
       "route": "/zh-hant/htu/uni-note/",
-      "sourceSHA256": "60d776591d48865f3aa83bd1677ebeea2ad3b726d104b1c0f599cc5afcdd90ee",
+      "sourceSHA256": "952e0601b9f0bb5eb41104b04171b850d0e70605b341cc855e2a38cf54dd85a9",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
@@ -443,11 +443,11 @@
           "decoding": "async"
         }
       ],
-      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+      "reason": "3.7.0 localized operation text reviewed against the current app, with existing real screenshots and their display metadata retained. See docs/uni-note-3.7-site-audit.md."
     },
     "/fr/htu/uni-note/": {
       "route": "/fr/htu/uni-note/",
-      "sourceSHA256": "4910107e9d2710741391f6151b86a667394bace47692191da36bfee755df024e",
+      "sourceSHA256": "6ea53e1e4a43f45428b16f974d616b134c9b1602a24d3892aeae0240b9fda418",
       "topImages": [
         {
           "src": "/images/guides/uni-note/un35/un35-002-home-add-menu-ja_hu_860a2b962b222cdb.webp",
@@ -540,7 +540,7 @@
           "decoding": "async"
         }
       ],
-      "reason": "Six audited shared-original substitutions. Existing localized alt and operation prose retained; recording caption corrected to Japanese. See capture-execution/README.md."
+      "reason": "3.7.0 localized operation text reviewed against the current app, with existing real screenshots and their display metadata retained. See docs/uni-note-3.7-site-audit.md."
     }
   }
 }

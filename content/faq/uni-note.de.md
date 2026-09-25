@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-09-07"
+version_context_date: "2026-09-26"
 title: "FAQ (Uni:Note)"
 description: "Häufig gestellte Fragen zu Uni:Note."
-lastmod: 2026-09-08
+lastmod: 2026-09-26
 ---
 
 ## Einführung
@@ -15,7 +15,7 @@ Uni:Note organisiert handschriftliche Notizen und PDFs auf dem iPad und unterst�
 
 Erfordert ein iPad mit iPadOS 17.0 oder neuer.
 
-Handschrift nutzt iPad und Apple Pencil. Finger scrollen und bewegen Anhänge. Ein eigenes App-Konto ist nicht nötig. Unterstützt werden Japanisch, Englisch, Koreanisch, Deutsch, traditionelles Chinesisch und Französisch.
+Schreibe mit dem Apple Pencil oder aktiviere „Mit Finger zeichnen“, um mit einem Finger zu schreiben. Scrolle dann mit zwei Fingern; bei deaktivierter Funktion mit einem. Ein eigenes App-Konto ist nicht nötig. Unterstützt werden Japanisch, Englisch, Koreanisch, Deutsch, traditionelles Chinesisch und Französisch.
 
 ## Notizen und Anhänge
 
@@ -39,11 +39,17 @@ Mit einer Zwei-Finger-Geste zoomst du. Die Bereichsverschiebung wählt und beweg
 
 [Zoom und Handschrift bedienen]({{< relref "/htu/uni-note/" >}}#write) →
 
+### Lassen sich getippter Text oder Tabellenzellen später bearbeiten?
+
+Platzierten Text kannst du verschieben und skalieren, aber nicht erneut inhaltlich bearbeiten. In Tabellenzellen lässt sich kein Text direkt eingeben; Zeilen und Spalten bleiben nach dem Einfügen fest.
+
+[Text, Formen und Tabellen]({{< relref "/htu/uni-note/" >}}#text-shapes) →
+
 {{< guide-anchor "fotos-und-pdfs" "kann-ich-fotos-einfügen" "kann-ich-ein-foto-als-dokument-anheften" "kann-ich-pdfs-einfügen" "kann-ich-pdfs-exportieren" >}}
 
 ### Warum kann ich Fotos oder PDFs nicht verschieben? {#help-3}
 
-Löse ein fixiertes Foto oder PDF durch Doppeltippen. Anhänge werden getrennt von handschriftlichen Bereichen bewegt. Seitenhandschrift allein löschst du über Seite leeren in den Radierereinstellungen.
+Ist „Mit Finger zeichnen“ deaktiviert, entsperre ein fixiertes Foto oder PDF durch Doppeltippen und wähle es durch einfaches Tippen aus. Ist es aktiviert, tippe auf Bearbeiten und dann in der Objektauswahl auf das Material. Anhänge werden getrennt von handschriftlichen Bereichen bewegt. Nur Handschrift löschst du über „Seite leeren“.
 
 Auch PDF-Import hält die Grenze von 150 Seiten ein. Teile große Dokumente bei Bedarf auf mehrere Notizen auf. Foto-, Dokumentfoto-, PDF- und Exportabläufe stehen im Bildleitfaden.
 
@@ -55,9 +61,9 @@ Auch PDF-Import hält die Grenze von 150 Seiten ein. Teile große Dokumente bei 
 
 ### Warum sind Aufnahme oder Transkription nicht verfügbar? {#help-4}
 
-Aufnahme, Wiedergabe und Transkriptansicht benötigen Premium. Mikrofonzugriff ist für die Aufnahme erforderlich. Transkription erfordert iPadOS 26 sowie unterstütztes Apple-Sprachmodell und Sprache. Die App nennt fehlende Voraussetzungen; Aufnahme und Wiedergabe bleiben möglich.
+Aufnahme, Wiedergabe und Transkriptansicht benötigen einmalig gekauftes Premium oder monatliches Premium Plus. Mikrofonzugriff ist erforderlich. Transkription erfordert iPadOS 26 und ein unterstütztes Apple-Sprachmodell sowie eine unterstützte Sprache. Die App nennt fehlende Voraussetzungen; Aufnahme und Wiedergabe bleiben möglich.
 
-Aufnahmen werden nach 30 Minuten geteilt, mit fünf je Notiz. KI-Zusammenfassungen verwenden vorhandenen Transkripttext statt Audio-Uploads. Schließe Audio beim Backup ein, wenn du es wiederherstellen oder in Pocket hören willst.
+Aufnahmen werden nach 30 Minuten geteilt, mit fünf je Notiz. „Transkriptionsgenauigkeit bevorzugen“ ist unter Einstellungen → Lernhilfe → Aufnahmeunterstützung standardmäßig aktiviert. Aus zeigt Text schneller, möglicherweise weniger genau; die Änderung gilt ab der nächsten Aufnahme. KI-Zusammenfassungen verwenden Transkripttext statt Audio-Uploads. Schließe Audio beim Backup ein, um es wiederherzustellen oder in Pocket zu hören.
 
 [Aufnahmeschritte]({{< relref "/htu/uni-note/" >}}#recording) →
 
@@ -67,7 +73,7 @@ Aufnahmen werden nach 30 Minuten geteilt, mit fünf je Notiz. KI-Zusammenfassung
 
 Aktiviere Haftmarker und Aufgabenassistent in den Lernhilfe-Einstellungen. Jeder Marker wird einzeln umgeschaltet; die alte Gesamtseiten-Maske wird nicht mehr verwendet.
 
-Antworten, Set-Generierung und Zusammenfassungen nutzen gemeinsames KI-Guthaben. Die Tarifansicht zeigt den Stand. Lange Texte, offene oder diagrammlastige Aufgaben werden möglicherweise nicht unterstützt. Prüfe Ergebnisse anhand deiner Unterlagen. Der Leitfaden kennzeichnet unveröffentlichte 3.5.0-Funktionen.
+KI-Antworten, Aufgabensets und Zusammenfassungen nutzen KI-Guthaben aus den Einstellungen und der Tarifansicht. Manuelles Erstellen und Bearbeiten von Aufgabensets verbraucht kein Guthaben. Lange Texte, offene oder diagrammlastige Aufgaben werden möglicherweise nicht unterstützt. Prüfe Ergebnisse anhand deiner Unterlagen.
 
 [Wiederholen mit Markern und Sets]({{< relref "/htu/uni-note/" >}}#review) →
 
@@ -77,7 +83,7 @@ Antworten, Set-Generierung und Zusammenfassungen nutzen gemeinsames KI-Guthaben.
 
 ### Wie werden Backups, gespeicherte Daten und Diagnosen behandelt? {#help-6}
 
-Notizen bleiben in der App. Einfaches Backup speichert und lädt eine iCloud-Datei ohne automatische Synchronisierung. Zip-Export und Dateiwiederherstellung sind ohne Premium möglich. Öffne die App nach Wiederherstellung gemäß Hinweis erneut.
+Notizen bleiben in der App. Einfaches Backup mit Premium oder Premium Plus speichert und lädt eine iCloud-Datei ohne automatische Synchronisierung. Zip-Export und Dateiwiederherstellung funktionieren auch in Free. Öffne die App nach Wiederherstellung gemäß Hinweis erneut.
 
 Technische Absturzdiagnosen können über Firebase Crashlytics gesendet werden. Notiztext, Handschrift, Bilder, PDFs und Aufnahmeinhalte stehen nicht in Diagnoselogs. Details erläutert die Datenschutzerklärung in den Supportlinks unten.
 
@@ -87,20 +93,20 @@ Technische Absturzdiagnosen können über Firebase Crashlytics gesendet werden. 
 
 {{< guide-anchor "gibt-es-einschränkungen-in-der-kostenlosen-version" >}}
 
-### Was unterscheidet Free und Premium?
+### Was unterscheidet Free, Premium und Premium Plus?
 
-Free erlaubt 10 Fächer und 6 Notizen je Fach. Premium hebt diese Grenzen auf und ermöglicht Aufnahme und einfaches Backup. **Bereichsverschiebung und Titelsuche sind auch in Free verfügbar.** Preise und Käufe stehen in der Tarifansicht der App.
+Free erlaubt 10 Fächer und 6 Notizen je Fach. Einmalig gekauftes Premium und monatliches Premium Plus heben die Grenzen auf und ermöglichen Aufnahme und einfaches Backup. Premium gewährt zu Monatsbeginn 500 KI-Guthaben, Premium Plus 10.000 pro Abonnementzeitraum; Restguthaben wird nicht übertragen. **Bereichsverschiebung und Titelsuche sind auch in Free verfügbar.** Preise und Käufe stehen in der App.
 
 ### Wie kaufe ich KI-Guthaben?
 
-Prüfe Menge und Kaufbedingungen in der Tarifansicht, bevor du zusätzliches KI-Guthaben kaufst. Antworten, Aufgabensets und Zusammenfassungen verwenden dasselbe Guthaben. Es ist ein eigenes Produkt neben dem einmaligen Premium-Kauf. Dauert die Gutschrift länger, beachte die Hinweise in der App und prüfe den Stand.
+Prüfe Menge und Kaufbedingungen vor dem Kauf zusätzlichen KI-Guthabens. KI-Antworten, Aufgabensets und Zusammenfassungen verwenden es; separat gekauftes Guthaben verfällt nicht. Falls ein Kauf nicht erscheint, nutze „Kaufstatus aktualisieren“, bevor du erneut kaufst.
 
 ## Hilfe {#help}
 {{< guide-anchor "einstellungen" "welche-einstellungen-gibt-es" "kann-ich-die-fachbezeichnung-ändern" "was-kann-ich-im-linkshänder-modus-ändern" "kann-ich-die-sprache-ändern" "wo-kann-ich-die-anleitungsseite-öffnen" "was-sind-die-wichtigsten-aktuellen-änderungen" "kann-ich-die-app-mit-split-view-oder-slide-over-verwenden" "kann-ich-zwei-uninote-fenster-gleichzeitig-öffnen" >}}
 
 ### Warum sieht mein Bildschirm anders aus? {#help-7}
 
-Sprache, Linkshänderoptionen und Fachbezeichnung verändern die Anzeige. Zwischen öffentlicher 3.4.0 und kommender 3.5.0 unterscheiden sich außerdem Notizlisten-Zugänge und Werkzeugleisten. Der Leitfaden markiert kommende Funktionen.
+Sprache, Linkshänderoptionen, Fachbezeichnung sowie angepasste Notizleiste und Palette verändern die Anzeige. Der Leitfaden beschreibt Uni:Note 3.7.0.
 
 Aktualisierungen findest du unter Mitteilungen im Supportbereich der Einstellungen. Mehrfenstersteuerung hängt von iPadOS ab.
 

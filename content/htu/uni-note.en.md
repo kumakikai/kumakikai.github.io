@@ -1,13 +1,13 @@
 ---
-version_context_date: "2026-09-23"
+version_context_date: "2026-09-26"
 title: "How to Use (Uni:Note)"
 description: "How to Use for Uni:Note."
-lastmod: 2026-09-23
+lastmod: 2026-09-26
 ---
 
 ## Introduction
 
-Use these real screens to follow the main Uni:Note operations. Tap an image to enlarge it. You can keep writing with Apple Pencil, or turn on **Draw with Finger** to write with one finger.
+Use these real screens to follow the main Uni:Note operations. You can keep writing with Apple Pencil, or turn on **Draw with Finger** to write with one finger.
 
 Requires an iPad with iPadOS 17.0 or later. Recording transcription requires a supported environment with iPadOS 26 or later.
 
@@ -40,7 +40,7 @@ The same + menu creates folders. Drag subjects into them; deleting a folder retu
 
 {{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="Pen, highlighter, eraser, sticky marker, undo and redo palette" mode="crop" >}}
 
-Drag the palette to reposition it. The Ruler button shows a ruler you can move and rotate with your fingers. Draw near it with Apple Pencil for straight lines. Range Move selects whole handwriting strokes; move photos, PDFs and sticky markers separately. Vertical notebooks scroll sideways, and their orientation cannot be changed after creation.
+Move the palette by dragging it. Show the ruler from the note toolbar, move it with one finger, then rotate its visible handle with one finger around the ruler center. Draw along its edge with Apple Pencil; Draw with Finger also works when enabled. Range Move selects whole handwriting strokes. Photos, PDFs and sticky markers are handled separately. Vertical notebooks scroll sideways, and their orientation cannot be changed after creation.
 
 {{< guide-anchor "6-use-note-list-and-pages" >}}
 
@@ -64,7 +64,11 @@ Inside a note, **Note List** opens other notes in the subject and lets you creat
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Lecture PDF with handwriting in Uni:Note" mode="tablet" >}}
 
-Material selection depends on **Draw with Finger**. When it is off, tap a photo or PDF once to select it. When it is on, touch and hold the material, then choose **Move & Resize** from the menu. You can keep Draw with Finger on while moving or resizing the selected material. A two-finger pinch zooms the note itself; in finger drawing mode, resize the selected material with its resize handle. You can continue writing over the document with Apple Pencil. For sharing, choose **More → Export PDF**, then the current note or the whole subject. Settings lets you use the paper color or white as the PDF background.
+With **Draw with Finger** off, double-tap a locked photo or PDF to unlock it, then tap once to select it. With it on, tap **Edit** to enter **Selecting Objects**, then tap the object. Drag or use its resize handle; tap blank space or Edit again to resume finger writing. Pinch with two fingers to zoom the note. For documents and PDFs, drag the rotation handle at the upper right around the object to rotate it. You can still write over the document with Apple Pencil. Export from **More → Export PDF**.
+
+## Add typed text, shapes and tables {#text-shapes}
+
+Choose **More → Text**, tap the page, type and choose **Add as Image** on the keyboard. You can move or resize the placed text, but cannot edit its wording afterward; it is not included in note-title search. Choose **More → Shapes** to create a rectangle, circle or ellipse, callout or table. Set its color, line width and style; for a table, choose rows and columns. Drag the placed shape or its handles to move, resize or rotate it. With Draw with Finger on, tap Edit before selecting an existing shape. Table cells do not accept direct text entry, and rows or columns cannot be changed after placement.
 
 {{< guide-anchor "10-use-recording-transcription-and-ai-summary" >}}
 
@@ -76,7 +80,9 @@ Material selection depends on **Draw with Finger**. When it is off, tap a photo 
 
 {{< guide-image src="images/guides/uni-note/un35/un35-042-recording-ready-ja.png" alt="Recording panel language and red record button" mode="crop" caption="The example shows the recording panel with Japanese selected." >}}
 
-Recording, playback and transcript viewing require Premium. Recordings split after 30 minutes, with up to five per note. Stop and save before returning Home or putting the iPad to sleep. Supported iPadOS 26 devices can transcribe during recording. Set the language in **Settings → Study Support → Recording Support**. AI summaries use transcript text and AI balance; review the estimated usage before starting.
+Recording, playback and transcript viewing require Premium or Premium Plus. Recordings split after 30 minutes, with up to five per note. Stop and save before returning Home or putting the iPad to sleep. Supported iPadOS 26 devices can transcribe during recording. Set the language in **Settings → Study Support → Recording Support**. AI summaries use transcript text and AI balance; review the estimated usage before starting.
+
+In **Settings → Study Support → Recording Support**, **Prioritize Transcription Accuracy** is on by default. Turn it off for faster appearing text with potentially lower accuracy. Changes apply to the next recording.
 
 {{< guide-anchor "11-use-memorization-feature" "12-use-problem-solver-assistant" "13-use-create-practice-set" >}}
 
@@ -94,6 +100,8 @@ To send the result to another app, tap Copy on the left or Share on the right at
 
 For practice sets, choose **More → Create Practice Set**, select pages, keep or discard candidates and save the set. Open **Practice Sets** on Home to review it. AI answers and generation use AI balance; check results against your learning materials.
 
+You can also create and edit practice sets manually without using AI Balance. For focus sessions, open Pomodoro from the note toolbar; its durations and character are in Study Support settings. Select Laser Pointer to trace a temporary path with Apple Pencil; the path is not saved as handwriting. Customize note toolbar buttons and palette tools under **Settings → Display Settings → Note Screen**.
+
 {{< guide-anchor "14-protect-notes-and-use-trash" >}}
 
 ## Protect, delete and restore {#protect}
@@ -105,6 +113,10 @@ Restore deleted subjects and notes from Home’s Trash. Deleting a folder keeps 
 Subjects and notes in Trash are permanently removed during cleanup after 30 days. Restore anything you need before then.
 
 
+## Plans and AI Balance {#plans}
+
+Free allows 10 subjects and 6 notes per subject. One-time Premium and monthly Premium Plus remove those limits and enable recording and Easy Backup. Premium grants 500 AI Balance at the start of each month; Premium Plus grants 10,000 for each subscription period. Unused period grants do not roll over. Purchased AI Balance has no expiry. AI answers, practice-set generation and AI summaries use AI Balance under either plan. Check the current plan, balance and StoreKit price in Settings; use **Update Purchase Status** if a purchase has not appeared.
+
 {{< guide-anchor "15-settings-and-backup" >}}
 
 ## Keep a backup {#backup}
@@ -115,7 +127,7 @@ Subjects and notes in Trash are permanently removed during cleanup after 30 days
 
 {{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Export Backup and Restore from File in Uni:Note Backup settings" mode="crop" caption="Japanese UI: the upper row exports a backup; the lower row restores a saved file." >}}
 
-Easy Backup update/restore requires Premium. It saves and loads an iCloud file; it is not automatic note sync. Use **Restore from File** for a saved zip, then follow the app’s instruction to close and reopen it. Language, left-handed controls and the subject label can also be changed in Settings.
+Easy Backup update and restore require Premium or Premium Plus. They save and load an iCloud file, not automatically synchronized notes. Zip export and Restore from File also work in Free. Reopen the app after restoration as instructed. Language, left-handed controls and the subject label can also be changed in Settings.
 
 {{< guide-anchor "use-split-view-slide-over-and-two-panes" >}}
 

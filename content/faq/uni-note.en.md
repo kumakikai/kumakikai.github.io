@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-09-07"
+version_context_date: "2026-09-26"
 title: "FAQ (Uni:Note)"
 description: "Frequently asked questions about Uni:Note."
-lastmod: 2026-09-08
+lastmod: 2026-09-26
 ---
 
 ## Introduction
@@ -15,7 +15,7 @@ Uni:Note helps you organize handwritten notes and PDFs on iPad and review them u
 
 Requires an iPad running iPadOS 17.0 or later.
 
-Handwriting uses iPad and Apple Pencil. Fingers scroll and manipulate attachments. No separate app account is required. Japanese, English, Korean, German, Traditional Chinese and French are supported.
+Write with Apple Pencil, or enable Draw with Finger to write with one finger. Scroll with two fingers when it is on and one finger when it is off. No separate app account is required. Japanese, English, Korean, German, Traditional Chinese and French are supported.
 
 ## Notes and attachments
 
@@ -39,11 +39,17 @@ Pinch with two fingers to zoom. Range Move selects and moves whole handwriting s
 
 [Zoom and handwriting controls]({{< relref "/htu/uni-note/" >}}#write) →
 
+### Can I edit typed text or table cells after placement?
+
+Placed text can be moved and resized, but its wording cannot be edited afterward. Tables are shapes: cells do not accept direct text input, and rows or columns cannot be changed after placement.
+
+[Text, shapes and tables]({{< relref "/htu/uni-note/" >}}#text-shapes) →
+
 {{< guide-anchor "photos-and-pdfs" "can-i-insert-photos" "can-i-attach-a-photo-as-a-document" "can-i-insert-pdfs" "can-i-export-pdfs" >}}
 
 ### What if I cannot move a photo or PDF? {#help-3}
 
-Double-tap a locked photo or PDF to unlock it. Moving attachments is separate from Range Move for handwriting. To erase only handwriting, use Clear Page in eraser settings.
+With Draw with Finger off, double-tap a locked photo or PDF to unlock it, then tap to select. With it on, tap Edit to enter Selecting Objects, then tap the material. This is separate from Range Move for handwriting. To erase only handwriting, use Clear Page in eraser settings.
 
 PDF insertion still respects the 150-page limit. Split large documents across notes if needed. Photo, document-photo, PDF insertion and export steps are in the visual guide.
 
@@ -55,9 +61,9 @@ PDF insertion still respects the 150-page limit. Split large documents across no
 
 ### Why are recording or transcription unavailable? {#help-4}
 
-Recording, playback and transcript viewing require Premium. Microphone access is required when recording. Transcription needs iPadOS 26 or later plus a supported Apple speech model and language. The app explains unsupported conditions; recording and playback remain available.
+Recording, playback and transcript viewing require one-time Premium or monthly Premium Plus. Microphone access is required when recording. Transcription needs iPadOS 26 or later plus a supported Apple speech model and language. The app explains unsupported conditions; recording and playback remain available.
 
-Recordings split every 30 minutes, with five per note. AI summaries use existing transcript text, not audio-file uploads. Include recording audio when exporting a backup if you want restored or Pocket playback.
+Recordings split every 30 minutes, with five per note. Prioritize Transcription Accuracy is on by default under Settings → Study Support → Recording Support; turning it off favors display speed, and changes apply to the next recording. AI summaries use existing transcript text, not audio-file uploads. Include recording audio in a backup for restored or Pocket playback.
 
 [Recording steps]({{< relref "/htu/uni-note/" >}}#recording) →
 
@@ -67,7 +73,7 @@ Recordings split every 30 minutes, with five per note. AI summaries use existing
 
 Enable sticky markers and Problem Solver Assistant in Study Support settings. Tap each sticky separately to reveal or hide it; the old whole-page mask switch is no longer used.
 
-Answers, practice-set generation and AI summaries share AI balance, shown in the plan screen. Long passages, open-ended questions or diagram-heavy problems may not be supported. Check results against your materials. The guide separates upcoming 3.5.0 features from the public version.
+AI answers, practice-set generation and summaries use AI Balance, shown in Settings and the plan screen. Creating or editing practice sets manually does not use AI Balance. Long passages, open-ended questions or diagram-heavy problems may not be supported. Check results against your materials.
 
 [Review steps]({{< relref "/htu/uni-note/" >}}#review) →
 
@@ -77,7 +83,7 @@ Answers, practice-set generation and AI summaries share AI balance, shown in the
 
 ### How are backups, stored data and diagnostics handled? {#help-6}
 
-Notes are stored in the app. Easy Backup saves and restores an iCloud file; it does not sync notes automatically. Zip export and file restoration are available without Premium. Follow the app’s instruction to reopen it after restoration.
+Notes are stored in the app. Easy Backup, available with Premium or Premium Plus, saves and restores an iCloud file; it does not sync notes automatically. Zip export and file restoration are available in Free. Follow the app’s instruction to reopen it after restoration.
 
 Technical crash diagnostics may be sent through Firebase Crashlytics. Note text, handwriting, images, PDFs and recording contents are not included in diagnostic logs. See the Privacy Policy in the support links below for details.
 
@@ -87,20 +93,20 @@ Technical crash diagnostics may be sent through Firebase Crashlytics. Note text,
 
 {{< guide-anchor "are-there-limits-on-the-free-plan" >}}
 
-### How do Free and Premium differ?
+### How do Free, Premium and Premium Plus differ?
 
-Free allows 10 subjects and 6 notes per subject. Premium removes those limits and enables recording and Easy Backup. **Range Move and note-title search are also available in Free.** Check current prices and purchases in the in-app plan screen.
+Free allows 10 subjects and 6 notes per subject. One-time Premium and monthly Premium Plus remove those limits and enable recording and Easy Backup. Premium grants 500 AI Balance at the start of each month; Premium Plus grants 10,000 per subscription period. Unused period balance does not roll over. **Range Move and note-title search are also available in Free.** Check current prices and purchases in the app.
 
 ### How do I purchase AI Balance?
 
-Check the amount and purchase conditions in the plan screen before buying additional AI Balance. The same balance is used for answers, practice-set generation and AI summaries. It is a separate product from the one-time Premium purchase. If crediting takes time, follow the app’s instructions and check your balance.
+Check the amount and purchase conditions in the plan screen before buying additional AI Balance. AI answers, practice-set generation and summaries use it; separately purchased balance does not expire. If a purchase has not appeared, use Update Purchase Status before buying again.
 
 ## Help {#help}
 {{< guide-anchor "settings" "what-settings-are-available" "can-i-change-the-subject-label" "what-can-i-change-in-left-handed-mode" "can-i-change-the-language" "where-can-i-open-the-how-to-use-page" "what-are-the-recent-major-changes" "can-i-use-it-with-split-view-or-slide-over" "can-i-open-two-uninote-windows-at-the-same-time" >}}
 
 ### Why does my screen look different? {#help-7}
 
-Language, left-handed settings and the subject label affect the UI. The published 3.4.0 and upcoming 3.5.0 also differ in Note List shortcuts and toolbar customization. Unreleased operations are marked in the guide.
+Language, left-handed settings, the subject label and customized toolbar or palette can change the screen. The guide describes the operations in Uni:Note 3.7.0.
 
 Check Notices in the Settings support section for in-app update information. Multiwindow controls depend on iPadOS.
 

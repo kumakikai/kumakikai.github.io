@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-09-23"
+version_context_date: "2026-09-26"
 title: "Anleitung (Uni:Note)"
 description: "Anleitung für Uni:Note."
-lastmod: 2026-09-23
+lastmod: 2026-09-26
 ---
 
 ## Einführung
@@ -40,7 +40,7 @@ Erfordert ein iPad mit iPadOS 17.0 oder neuer. Die Transkription benötigt eine 
 
 {{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="Palette mit Stift, Marker, Radierer, Haftmarker und Rückgängig" mode="crop" >}}
 
-Die Palette lässt sich verschieben. Blende das Lineal oben ein, bewege oder drehe es mit den Fingern und zeichne mit dem Pencil daran entlang. Die Bereichsverschiebung bewegt ganze handschriftliche Striche; Fotos, PDFs und Haftmarker werden einzeln bewegt. Vertikale Notizbücher blättern horizontal. Die Ausrichtung lässt sich nach dem Erstellen nicht ändern.
+Die Palette lässt sich verschieben. Blenden Sie das Lineal in der Notiz ein, bewegen Sie es mit einem Finger und drehen Sie den sichtbaren Griff mit einem Finger um die Linealmitte. Zeichnen Sie mit dem Apple Pencil entlang der Kante; bei aktiviertem „Mit Finger zeichnen“ funktioniert auch ein Finger. „Bereich verschieben“ bewegt ganze handschriftliche Striche. Fotos, PDFs und Haftmarker werden separat bedient. Vertikale Notizbücher blättern horizontal; die Ausrichtung kann danach nicht geändert werden.
 
 {{< guide-anchor "6-notizliste-und-seiten-verwenden" >}}
 
@@ -64,7 +64,11 @@ Gib auf der Startseite einen Teil des Notiztitels in die Suche ein und tippe auf
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="Vorlesungs-PDF mit Handschrift in Uni:Note" mode="tablet" >}}
 
-Wie du Material auswählst, hängt von **Mit Finger zeichnen** ab. Ist die Funktion deaktiviert, tippe einmal auf ein Foto oder PDF. Ist sie aktiviert, halte das Material gedrückt und wähle im Menü **Verschieben & Größe ändern**. Du kannst die Funktion aktiviert lassen, während du das ausgewählte Material verschiebst oder skalierst. Mit einer Zwei-Finger-Geste zoomst du die Notiz selbst; im Fingerzeichenmodus änderst du die Materialgröße über den Größenänderungsgriff. Mit dem Apple Pencil kannst du weiterhin auf dem Dokument schreiben. Über **Mehr → PDF exportieren** teilst du die Notiz oder das gesamte Fach. Als Hintergrund ist Papierfarbe oder Weiß wählbar.
+Bei deaktiviertem **Mit Finger zeichnen** entsperrst du ein fixiertes Foto oder PDF durch Doppeltippen und wählst es dann durch einfaches Tippen aus. Bei aktivierter Funktion tippst du auf **Bearbeiten**, wechselst zur **Objektauswahl** und tippst auf das Objekt. Verschiebe es oder nutze den Größenänderungsgriff. Tippe auf eine freie Stelle oder erneut auf Bearbeiten, um mit dem Finger weiterzuschreiben. Eine Zwei-Finger-Geste zoomt die Notiz. Dokumentfotos und PDFs drehst du mit dem Griff rechts oben um ihre Mitte. Exportiere über **Mehr → PDF exportieren**.
+
+## Getippten Text, Formen und Tabellen einfügen {#text-shapes}
+
+Wähle **Mehr → Text**, tippe auf die Seite, gib Text ein und bestätige auf der Tastatur mit **Als Bild einfügen**. Danach kannst du Position und Größe ändern, den Wortlaut aber nicht erneut bearbeiten; die Titelsuche erfasst ihn nicht. Unter **Mehr → Formen** erstellst du Rechtecke, Kreise/Ellipsen, Sprechblasen oder Tabellen. Lege Farbe, Linienbreite und -stil fest; bei Tabellen auch Zeilen und Spalten. Nach dem Einfügen kannst du Position, Größe und Winkel ändern. Ist das Zeichnen mit Finger aktiv, tippe vor der Auswahl auf Bearbeiten. Tabellenzellen nehmen keinen direkt eingegebenen Text auf; Zeilen und Spalten lassen sich später nicht ändern.
 
 {{< guide-anchor "10-aufnahme-transkription-und-ki-zusammenfassung-verwenden" >}}
 
@@ -76,7 +80,9 @@ Wie du Material auswählst, hängt von **Mit Finger zeichnen** ab. Ist die Funkt
 
 {{< guide-image src="images/guides/uni-note/un35/un35-042-recording-ready-ja.png" alt="Sprache und roter Aufnahmeknopf im Aufnahmebereich" mode="crop" caption="Das Beispiel zeigt das Aufnahmefeld mit Japanisch als gewählter Sprache." >}}
 
-Aufnahme, Wiedergabe und Transkriptansicht benötigen Premium. Nach 30 Minuten wird geteilt; pro Notiz sind fünf Aufnahmen möglich. Vor Startseite oder Ruhezustand stoppen und speichern. Unterstützte Geräte mit iPadOS 26 können währenddessen transkribieren. Die Sprache steht unter **Einstellungen → Lernhilfe → Aufnahmeunterstützung**. KI-Zusammenfassungen nutzen Transkripttext und KI-Guthaben; prüfe den geschätzten Verbrauch vorab.
+Aufnahme, Wiedergabe und Transkriptansicht benötigen Premium oder Premium Plus. Nach 30 Minuten wird geteilt; pro Notiz sind fünf Aufnahmen möglich. Vor Startseite oder Ruhezustand stoppen und speichern. Unterstützte Geräte mit iPadOS 26 können währenddessen transkribieren. Die Sprache steht unter **Einstellungen → Lernhilfe → Aufnahmeunterstützung**. KI-Zusammenfassungen nutzen Transkripttext und KI-Guthaben; prüfe den geschätzten Verbrauch vorab.
+
+Unter **Einstellungen → Lernhilfe → Aufnahmeunterstützung** ist **Transkriptionsgenauigkeit bevorzugen** zunächst aktiviert. Deaktiviere es für schneller angezeigten Text, möglicherweise mit geringerer Genauigkeit. Änderungen gelten ab der nächsten Aufnahme.
 
 {{< guide-anchor "11-lernfunktion-verwenden" "12-aufgabenassistent-verwenden" "13-aufgabenset-erstellen-verwenden" >}}
 
@@ -94,6 +100,8 @@ Um das Ergebnis an eine andere App zu übergeben, tippe oben rechts im Ergebnisf
 
 Über **Mehr → Aufgabenset erstellen** wählst du Seiten, behältst oder verwirfst Vorschläge und speicherst das Set. Öffne die Aufgabensets auf der Startseite zur Wiederholung. KI-Antworten und Generierung nutzen KI-Guthaben; gleiche Ergebnisse mit deinen Unterlagen ab.
 
+Aufgabensets kannst du auch manuell erstellen und bearbeiten, ohne KI-Guthaben zu verwenden. Starte Pomodoro über die Notizleiste; Zeiten und Figur wählst du in den Lernhilfe-Einstellungen. Der Laserpointer zeigt mit dem Apple Pencil eine vorübergehende Spur, die nicht als Handschrift gespeichert wird. Notizschaltflächen und Palette ordnest du unter **Einstellungen → Anzeige → Notizbildschirm** an.
+
 {{< guide-anchor "14-notizen-schützen-und-papierkorb-verwenden" >}}
 
 ## Schützen, löschen und wiederherstellen {#protect}
@@ -105,6 +113,10 @@ Gelöschte Fächer und Notizen lassen sich im Papierkorb der Startseite wiederhe
 Fächer und Notizen im Papierkorb werden bei der Bereinigung nach 30 Tagen endgültig entfernt. Stelle benötigte Inhalte vorher wieder her.
 
 
+## Tarife und KI-Guthaben {#plans}
+
+Free erlaubt 10 Fächer und 6 Notizen je Fach. Einmalig gekauftes Premium und monatliches Premium Plus heben diese Grenzen auf und ermöglichen Aufnahme und einfaches Backup. Premium gewährt zu Monatsbeginn 500 KI-Guthaben; Premium Plus gewährt 10.000 je Abonnementzeitraum. Nicht verbrauchtes Zeitraumguthaben wird nicht übertragen; zusätzlich gekauftes Guthaben verfällt nicht. KI-Antworten, Aufgabensets und KI-Zusammenfassungen verbrauchen unter beiden Tarifen Guthaben. Prüfe Tarif, Guthaben und aktuellen Preis in den Einstellungen. Falls ein Kauf fehlt, nutze **Kaufstatus aktualisieren**.
+
 {{< guide-anchor "15-einstellungen-und-backups" >}}
 
 ## Ein Backup sichern {#backup}
@@ -115,7 +127,7 @@ Fächer und Notizen im Papierkorb werden bei der Bereinigung nach 30 Tagen endg�
 
 {{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Backup exportieren und Aus Datei wiederherstellen in den Uni:Note-Einstellungen" mode="crop" caption="Japanische Oberfläche: Die obere Zeile exportiert ein Backup, die untere stellt eine gespeicherte Datei wieder her." >}}
 
-Aktualisieren und Wiederherstellen des einfachen Backups benötigen Premium. Dabei wird eine iCloud-Datei gespeichert oder geladen; es ist keine automatische Notizsynchronisierung. Wähle eine zip-Datei zum Wiederherstellen und öffne die App danach gemäß Hinweis erneut. Sprache, Linkshänderoptionen und Fachbezeichnung stehen ebenfalls in den Einstellungen.
+Für einfaches Backup und dessen Wiederherstellung benötigst du Premium oder Premium Plus. Es speichert und liest eine iCloud-Datei, ohne Notizen automatisch zu synchronisieren. Zip-Export und Wiederherstellung aus Datei funktionieren auch in Free. Öffne die App danach gemäß Hinweis erneut. Sprache, Linkshänderoptionen und Fachbezeichnung lassen sich in den Einstellungen ändern.
 
 {{< guide-anchor "split-view-slide-over-und-zwei-bereiche-verwenden" >}}
 

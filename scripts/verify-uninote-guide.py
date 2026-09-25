@@ -38,7 +38,12 @@ def verify(build):
     require(len(ids) == len(set(ids)) == 196 and set(ids) == original_ids, '196 primary operation assignments must be exact')
     require(slots == mapping['slots'], 'Image data differs from the implementation map')
     require(len(navigation['categories']) == 15, 'Expected 15 categories')
-    require({p['key'] for p in navigation['pages']} == {p['key'] for p in mapping['pages']}, 'Navigation/article mismatch')
+    mapped_keys = {p['key'] for p in mapping['pages']}
+    navigation_keys = {p['key'] for p in navigation['pages']}
+    require(navigation_keys - mapped_keys == {'writing/text-shapes'} and mapped_keys <= navigation_keys,
+            'Navigation/article mismatch')
+    require(any(p['key'] == 'writing/text-shapes' and p['url'] == '/htu/uni-note/writing/#text-shapes'
+                for p in navigation['pages']), '3.7.0 text and shapes guide link missing')
     masters = {m['id']: m for m in mapping['masters']}
     routes = {'/htu/uni-note/': 'content/htu/uni-note.md'}
     routes.update({p['url'].split('#')[0]: p['source'] for p in mapping['pages']})
@@ -55,22 +60,24 @@ def verify(build):
         ROOT / 'content/uni-note-guide/workflows-sticky-material.md',
     ]
     material_text = '\n'.join(path.read_text() for path in material_sources)
-    require('OFFの場合は、資料を指で1回タップ（シングルタップ）' in material_text, 'Finger Drawing OFF material selection must use a single tap')
-    require('長押しし、表示されるメニューから「移動・サイズ変更」を選びます' in material_text, 'Finger Drawing ON material selection must use the long-press menu')
+    require('固定中の資料をダブルタップして固定を解除し' in material_text, 'Finger Drawing OFF material unlock must use a double tap')
+    require('「編集」を押して「素材選択中」にし' in material_text, 'Finger Drawing ON material selection must use Edit mode')
     require('素材操作のためにOFFへ切り替える必要はありません' in material_text, 'Finger Drawing ON must remain enabled for material operations')
-    require('ダブルタップ' not in material_text, 'Retiring material double-tap operation must not be recommended')
+    require('長押しし、表示されるメニューから「移動・サイズ変更」' not in material_text,
+            'Retired Finger Drawing ON long-press selection remains')
     require(not re.search(r'指で描画.{0,24}OFFにし|指で描画.{0,24}OFFにして', material_text), 'Material operation must not require turning Finger Drawing off')
     localized_material_markers = {
-        'en': ('tap a photo or PDF once', 'touch and hold the material', 'Move & Resize'),
-        'ko': ('사진이나 PDF를 한 번 탭', '자료를 길게 누른 뒤', '이동 및 크기 조절'),
-        'de': ('tippe einmal auf ein Foto oder PDF', 'halte das Material gedrückt', 'Verschieben & Größe ändern'),
-        'zh-hant': ('點一下照片或 PDF', '長按素材', '移動與調整大小'),
-        'fr': ('touchez une fois la photo ou le PDF', 'effectuez un appui prolongé', 'Déplacer et redimensionner'),
+        'en': ('double-tap a locked photo or PDF', '**Edit**', '**Selecting Objects**'),
+        'ko': ('두 번 탭해 잠금을 해제', '**편집**', '**개체 선택 중**'),
+        'de': ('durch Doppeltippen', '**Bearbeiten**', '**Objektauswahl**'),
+        'zh-hant': ('點兩下固定中的照片或 PDF', '**編輯**', '**正在選取物件**'),
+        'fr': ('touchez deux fois une photo ou un PDF', '**Modifier**', '**Sélection d’objets**'),
     }
     for lang, markers in localized_material_markers.items():
         localized_source = (ROOT / f'content/htu/uni-note.{lang}.md').read_text()
         require(all(marker in localized_source for marker in markers), 'Localized material selection is incomplete: ' + lang)
-        require(not re.search(r'Double-tap|Doppeltipp|두 번 탭|點兩下|Touchez deux fois', localized_source), 'Retiring material double-tap remains: ' + lang)
+        require(not re.search(r'touch and hold the material|자료를 길게 누른 뒤|halte das Material gedrückt|長按素材|appui prolongé sur le document', localized_source),
+                'Retired Finger Drawing ON long-press selection remains: ' + lang)
     for route, source_name in routes.items():
         source = ROOT / source_name
         target = build / route.strip('/') / 'index.html'
@@ -101,7 +108,7 @@ def verify(build):
         if body is None:
             continue
         visible = body.text()
-        require(not re.search(r'CoreHandwriting|Premium Plus|SHOT-|CAP-\d|[NMSR]-M\d|画像準備中|3\.4\.0|公開前情報', visible), 'Unreleased/internal/old-version text: ' + route)
+        require(not re.search(r'CoreHandwriting|SHOT-|CAP-\d|[NMSR]-M\d|画像準備中|3\.4\.0|公開前情報', visible), 'Unreleased/internal/old-version text: ' + route)
         require(not re.search(r'ノートの向きは作成後に変更でき|写真・PDF・付箋は個別に動か', visible), 'HOLD assertion reintroduced: ' + route)
         require(not re.search(r'学習支援.{0,12}暗記マーカー.{0,8}オン|設定でオンにしてから', visible), 'Old activation route: ' + route)
         require(not re.search(r'(?<![A-Za-z])(?:top|[a-z]+-[a-z]+)--[nmsr]-m\d+', html), 'Slot ID leaked in HTML: ' + route)

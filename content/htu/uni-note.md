@@ -4,7 +4,7 @@ description: "Uni:Noteの公式ユーザーガイド。ノート作成、Apple P
 seo_title: "使い方 (Uni:Note) | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/"
-lastmod: "2026-09-22"
+lastmod: "2026-09-26"
 guide_category: ""
 guide_kind: "top"
 ---

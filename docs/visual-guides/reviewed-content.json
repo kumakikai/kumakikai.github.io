@@ -1,10 +1,10 @@
 {
   "/de/faq/uni-note/": {
     "source": "content/faq/uni-note.de.md",
-    "sourceSHA256": "12482dcb66ef5d00cb508f203cc1344b7f3d325aec44f5f975c71435115209c2",
+    "sourceSHA256": "464c097edeaf0830e51b215013d050a37f456ade80aa1ac384bf10decb1df34d",
     "baselineTextSHA256": "28bbaff2b8874691c449f5ce2dabdb05b6ec1582ba9f0b07d78dc29443fcc1e9",
-    "reviewedTextSHA256": "284e2ac5484e1c9db8115c6caaa8ff86029d0cff80d5b7b47fa2679fc13db359",
-    "reason": "2026-09-23 Finger Drawing material-selection correction: OFF uses a single tap; ON uses a long press followed by the localized Move & Resize action, without disabling Finger Drawing. Canvas pinch and selected-material resizing remain distinct. Retiring material double-tap lock guidance is removed. Existing image files and links are unchanged.",
+    "reviewedTextSHA256": "779289e9877317b88bb2faf1951de5c5e248e0675a64a3ebc64dcc84d6af98bc",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": []
   },
   "/de/faq/uni-note-pocket/": {
@@ -20,10 +20,10 @@
   },
   "/de/htu/uni-note/": {
     "source": "content/htu/uni-note.de.md",
-    "sourceSHA256": "f91558669907b28c223004cfae3719de7687e5ec7306c5b6222d576ad19f2b82",
+    "sourceSHA256": "46add866324d960986e4b29197b0b1f7c7812e22fa76f30f2849e46530a3b2e1",
     "baselineTextSHA256": "65f68ff2e7b70bff28dcd58b530e206b83d814b0f7f95d14975f7c32f0180d07",
-    "reviewedTextSHA256": "95388de3d0fc7bf44ab0ec372bd07aac08f11b0c9f4b2fb263d3b8aaf7e14bb8",
-    "reason": "2026-09-23 Finger Drawing material-selection correction: OFF uses a single tap; ON uses a long press followed by the localized Move & Resize action, without disabling Finger Drawing. Canvas pinch and selected-material resizing remain distinct. Retiring material double-tap lock guidance is removed. Existing image files and links are unchanged.",
+    "reviewedTextSHA256": "90644986a922394fa9e420dcc980bd677441b1a38d4ed52b6a032f09a06159da",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": [
       "https://kumakikai.github.io/de/faq/uni-note/",
       "https://kumakikai.github.io/de/privacy/uni-note/"
@@ -50,10 +50,10 @@
   },
   "/en/faq/uni-note/": {
     "source": "content/faq/uni-note.en.md",
-    "sourceSHA256": "6c9e744e392f9d2d2d2c6509159636e1ef9cd459564ed60e3413ac47c306d26f",
+    "sourceSHA256": "6f56cafc1111ce91afab8c84cd4b29f3992b85d34ac217ef292a1bc105ee12a6",
     "baselineTextSHA256": "c5b0c347ae3b742052d411cde897a0419b6d59b89b1ac515dc3bb6e5be3bcf51",
-    "reviewedTextSHA256": "5dd91cbc8d65ccb6eca74af9aa7664443594b33621e8714221171515c50a10a3",
-    "reason": "2026-09-23 Finger Drawing material-selection correction: OFF uses a single tap; ON uses a long press followed by the localized Move & Resize action, without disabling Finger Drawing. Canvas pinch and selected-material resizing remain distinct. Retiring material double-tap lock guidance is removed. Existing image files and links are unchanged.",
+    "reviewedTextSHA256": "0da8765204a09f2ee242f9595ee0e814e7b8321e387df25875185c4fa7b2ca84",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": []
   },
   "/en/faq/uni-note-pocket/": {
@@ -80,10 +80,10 @@
   },
   "/en/htu/uni-note/": {
     "source": "content/htu/uni-note.en.md",
-    "sourceSHA256": "421a1145e01a76acb68c0a4fa4914cdeddce07f8ffd6d8ba1b27a1b8e307c618",
+    "sourceSHA256": "5fa63e9c1b231e6f7587542a26295ffbd0436ffaeb83958efd6d583331960b78",
     "baselineTextSHA256": "a26b5bab23dc299994a244f3487439f466613882df23bea152e792997f643601",
-    "reviewedTextSHA256": "ffee5cd293018588f4588846da3347602c601620503407c4d11812b2e67bc3f4",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "c976b7315e23f8878f189c27b84a6c469791f81cd8955de4710b8f4aeed67739",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": [
       "https://kumakikai.github.io/en/faq/uni-note/",
       "https://kumakikai.github.io/en/privacy/uni-note/"
@@ -165,10 +165,10 @@
   },
   "/faq/uni-note/": {
     "source": "content/faq/uni-note.md",
-    "sourceSHA256": "2b38bd1bf534e620a02f1a72455e4d7fb9b54a314d7879da47a24c1e2000d88e",
+    "sourceSHA256": "0618af3fe41795a41ef2b1ff6b2cd1c1a43b63160cfeaa2df5e45f02d2f76424",
     "baselineTextSHA256": "3a379875305564aae60b184ea5fb30cbb594e14edf0117c63062cce5d191a761",
-    "reviewedTextSHA256": "c0f7e00cec10d4f77f7098ea24a525fadade7618ee6cd1b5b23d4402d7cc2955",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "f1b3dc4d12c474b9c2c1ae13b1c1ae75f11225ccb42e272b29d45fd190c9617c",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": []
   },
   "/faq/uni-note-pocket/": {
@@ -192,10 +192,10 @@
   },
   "/fr/faq/uni-note/": {
     "source": "content/faq/uni-note.fr.md",
-    "sourceSHA256": "2ca41b630d00f16d16f395dcf063e1ae76727fd2d882b219f230d3adc1755b50",
+    "sourceSHA256": "f68ab2c4e823478e338d5b99e34a8de469e86c460fa1ebd3648eb26c0cf25316",
     "baselineTextSHA256": "51fa09d03f0ed11482ca3990e1c0adf3acfef35821425454a5adfcae65e542f0",
-    "reviewedTextSHA256": "815b362692f151b707fa9e642b83fe1fcb622fa991fad5d9cc3383179e5a2348",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "36f551a9b97b4da12986f5577d0a6698bafe973fa591b8dc8eb9b8c2b3d871b7",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": []
   },
   "/fr/faq/uni-note-pocket/": {
@@ -222,10 +222,10 @@
   },
   "/fr/htu/uni-note/": {
     "source": "content/htu/uni-note.fr.md",
-    "sourceSHA256": "4910107e9d2710741391f6151b86a667394bace47692191da36bfee755df024e",
+    "sourceSHA256": "6ea53e1e4a43f45428b16f974d616b134c9b1602a24d3892aeae0240b9fda418",
     "baselineTextSHA256": "d9d8754e59fa8e812c9e7fcb2e3826dab146ef19f6aa38a7e2b4bd0bca83dc58",
-    "reviewedTextSHA256": "b71eb2bca091361841305dc2f5829cb4af0a42c08a49456d1da17ac4510e2c36",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "b4fa4a192067143db478802ac8f570c92b6fa8e3e279f40239a369938b785684",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": [
       "https://kumakikai.github.io/fr/faq/uni-note/",
       "https://kumakikai.github.io/fr/privacy/uni-note/"
@@ -313,10 +313,10 @@
   },
   "/htu/uni-note/": {
     "source": "content/htu/uni-note.md",
-    "sourceSHA256": "9fb4136fc04bb6d94f8fd6b366d09338e5af2b02ac4e8266766fef08a6808b7e",
+    "sourceSHA256": "981e67887700e900feca37dc2b64f820edada6cb22104022bce9201cb580ef87",
     "baselineTextSHA256": "9047a537b892dae04996352f8ee10a832b3218654f44e403b0be5e83e3b94b80",
-    "reviewedTextSHA256": "a681cf711b2d09a44ceeed17dbf6453c0169af07d5b842a6f961daec58b1b5f6",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "3895f6441644b1275881333dcd99734f48499d17676a894656b3dfbb08eccdf5",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": [
       "https://kumakikai.github.io/faq/uni-note/",
       "https://kumakikai.github.io/privacy/uni-note/"
@@ -343,10 +343,10 @@
   },
   "/ko/faq/uni-note/": {
     "source": "content/faq/uni-note.ko.md",
-    "sourceSHA256": "4b100afdf2616a314f7a6ea140585c8d5cda9d9ee7af808d0bdbabe7d28a36d0",
+    "sourceSHA256": "b98a1fb3a0e8809e4bfa6340aedd7e037a5b80ad9f01f6d051129c689a160769",
     "baselineTextSHA256": "d6bfc78516d3e47ab028cc83d22e6ec5c532cfc043ce88c8a6f4663d7331b065",
-    "reviewedTextSHA256": "64fcbcdfd4d3fd4d862bd291884e9f2779e225a7ffe868c0d4965508f4995734",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "e2c800f4f517e5570b5c899203ca3631d8690cd2de0517d9aecbbe4e780d21a1",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": []
   },
   "/ko/faq/uni-note-pocket/": {
@@ -373,10 +373,10 @@
   },
   "/ko/htu/uni-note/": {
     "source": "content/htu/uni-note.ko.md",
-    "sourceSHA256": "a5a9e6e5d201d63201ec16040847258a35a29e0dd5bf77c83089832840d6bcfb",
+    "sourceSHA256": "0cd57c7f374839d762a35e116e36aaa74a3b293c749e7253428921910c9f53a5",
     "baselineTextSHA256": "6767264d91f95d305e2611b5ac966b9f9afbb6fc3ef6fccf6c799be4100c6ade",
-    "reviewedTextSHA256": "abe1cf396eaf762d3caf1ab2a062aec518eb232118c6454cb454393b4bb89281",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "cb7d763aede203d12ce95ee36f005d9b1e7412fe90185e5a1c01c12340c4157c",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": [
       "https://kumakikai.github.io/ko/faq/uni-note/",
       "https://kumakikai.github.io/ko/privacy/uni-note/"
@@ -403,10 +403,10 @@
   },
   "/zh-hant/faq/uni-note/": {
     "source": "content/faq/uni-note.zh-hant.md",
-    "sourceSHA256": "fa4e51d400b60e425e8c6578dee315d48c3e20fdf2d94ce3b46b57eef147857a",
+    "sourceSHA256": "cd5af1cca8cdbee4f251233e3843257131488b72f5929b888b234f4a9f1af2d9",
     "baselineTextSHA256": "e5027cf3968e430bbe79884cf082764d3272930fc9dc60a6f0ead3410c5f0e65",
-    "reviewedTextSHA256": "19382770b598092fb7bd1ada6566565687fe2cb6c33dae5f360e723acb824d6e",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "ed012198bd458536dee526f38e1e3f3a5b43e9a68b4afe179581732d7a083511",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": []
   },
   "/zh-hant/faq/uni-note-pocket/": {
@@ -433,10 +433,10 @@
   },
   "/zh-hant/htu/uni-note/": {
     "source": "content/htu/uni-note.zh-hant.md",
-    "sourceSHA256": "60d776591d48865f3aa83bd1677ebeea2ad3b726d104b1c0f599cc5afcdd90ee",
+    "sourceSHA256": "952e0601b9f0bb5eb41104b04171b850d0e70605b341cc855e2a38cf54dd85a9",
     "baselineTextSHA256": "0ad93001924502ebcc8317108accca5d624457ff10510110e77257615d1e888a",
-    "reviewedTextSHA256": "b586fed5c950c6577d7bc9692e3b41153677e0ca6fd1ffc4e7e0b71ccdf6c1c2",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/learning-audit.md",
+    "reviewedTextSHA256": "1c41878fc7e4d977c233289e788666a2288af0c099e9b813cece9e1802c72cba",
+    "reason": "Uni:Note 3.7.0 source and rendered text reviewed against current specs and implementation; corrected material selection, plans, AI Balance, recording, and user operations without changing the page structure or screenshots. See docs/uni-note-3.7-site-audit.md and docs/visual-guides/learning-audit.md.",
     "removedLinks": [
       "https://kumakikai.github.io/zh-hant/faq/uni-note/",
       "https://kumakikai.github.io/zh-hant/privacy/uni-note/"

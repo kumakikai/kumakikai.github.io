@@ -20,7 +20,7 @@
     "ja": {
       "overviewTitle": "授業で書いたノートを、復習につなげる。",
       "overview": [
-        "Uni:Noteは、大学の授業をiPadにまとめるための手書きノートアプリです。Apple Pencilで板書や考えを書き留め、配布されたPDFにも直接書き込めます。教科とフォルダで整理して、必要なノートを見つけやすくします。",
+        "Uni:Noteは、大学の授業をiPadにまとめるための手書きノートアプリです。Apple Pencilで板書や考えを書き留め、配布されたPDFにも直接書き込めます。教科とフォルダで整理して、必要なノートを見つけやすくします。キーボードで入力した文字や図形・表もノートに配置できます。",
         "授業後は、ノートを読み返すだけでなく、囲った問題をAIに質問したり、ノートから問題集を作成したりできます。書く場所と復習する場所をまとめることで、授業中の記録を次の学習に生かせます。"
       ],
       "features": [
@@ -45,8 +45,8 @@
           "description": "学習内容をAIで問題に変換。作成した問題を使い、答えや解説を確認しながら復習できます。"
         },
         {
-          "title": "付箋マーカーで暗記",
-          "description": "覚えたい部分を隠し、指でタップして表示を切り替え。ノートのまま知識を確かめられます。"
+          "title": "録音・文字起こし",
+          "description": "講義を録音し、対応環境では録音中に文字起こし。文字起こしからAI要約も作れます。"
         }
       ],
       "stories": [
@@ -84,15 +84,16 @@
         }
       ],
       "notes": [
-        "手書き入力にはApple Pencilを使用します。",
-        "AIによる質問・問題集生成にはインターネット接続とAI残量が必要です。",
+        "Apple Pencilで書くほか、「指で描画」をONにすると1本指でも書けます。",
+        "AIによる質問・問題集生成・AI要約にはインターネット接続とAI残量が必要です。",
+        "録音・再生・文字起こし閲覧は買い切りPremiumまたは月額Premium Plusで利用できます。",
         "AIの回答は学習内容と照らし合わせて確認してください。"
       ]
     },
     "en": {
       "overviewTitle": "Turn lecture notes into revision.",
       "overview": [
-        "Uni:Note is a handwriting app for taking university lecture notes on iPad. Write with Apple Pencil, annotate handouts in PDF format, and organize your notes by subject and folder so you can find them again.",
+        "Uni:Note is a handwriting app for taking university lecture notes on iPad. Write with Apple Pencil, annotate handouts in PDF format, and organize your notes by subject and folder so you can find them again. You can also place typed text, shapes and tables in a note.",
         "After class, ask AI about a selected problem or create a practice set from your notes. Keeping note-taking and revision together helps you return to what you wrote and test your understanding."
       ],
       "features": [
@@ -117,8 +118,8 @@
           "description": "Use AI to turn your study material into questions, then review their answers and explanations."
         },
         {
-          "title": "Sticky markers for recall",
-          "description": "Cover what you want to memorize and tap to reveal or hide it while reviewing."
+          "title": "Recording and transcription",
+          "description": "Record lectures, transcribe on supported devices and create AI summaries from transcripts."
         }
       ],
       "stories": [
@@ -156,15 +157,16 @@
         }
       ],
       "notes": [
-        "Handwriting uses Apple Pencil.",
-        "AI questions and practice set generation require an internet connection and available AI Balance.",
+        "Write with Apple Pencil, or turn on Draw with Finger to write with one finger.",
+        "AI answers, practice-set generation and AI summaries require internet access and available AI Balance.",
+        "Recording, playback and transcript viewing require either one-time Premium or monthly Premium Plus.",
         "Check AI responses against your study material."
       ]
     },
     "ko": {
       "overviewTitle": "수업에서 쓴 노트를 복습으로 이어가세요.",
       "overview": [
-        "Uni:Note는 대학 수업을 iPad에 정리하는 손글씨 노트 앱입니다. Apple Pencil로 판서와 생각을 적고, 배포된 PDF에도 바로 메모할 수 있습니다. 과목과 폴더로 분류해 필요한 노트를 찾기 쉽게 정리하세요.",
+        "Uni:Note는 대학 수업을 iPad에 정리하는 손글씨 노트 앱입니다. Apple Pencil로 판서와 생각을 적고, 배포된 PDF에도 바로 메모할 수 있습니다. 과목과 폴더로 분류해 필요한 노트를 찾기 쉽게 정리하세요. 키보드로 입력한 글과 도형·표도 노트에 배치할 수 있습니다.",
         "수업이 끝나면 노트를 다시 읽는 데서 더 나아가, 선택한 문제를 AI에 질문하거나 노트로 문제집을 만들 수 있습니다. 필기와 복습을 한곳에 모아 수업 기록을 다음 학습에 활용하세요."
       ],
       "features": [
@@ -189,8 +191,8 @@
           "description": "AI로 학습 내용을 문제로 바꾸고, 답과 해설을 확인하며 복습합니다."
         },
         {
-          "title": "스티키 마커로 암기",
-          "description": "외우고 싶은 부분을 가리고 탭으로 표시를 전환해 기억을 확인합니다."
+          "title": "녹음과 문자 변환",
+          "description": "강의를 녹음하고 지원 환경에서는 녹음 중 문자로 변환합니다. 변환된 텍스트로 AI 요약도 만들 수 있습니다."
         }
       ],
       "stories": [
@@ -228,15 +230,16 @@
         }
       ],
       "notes": [
-        "손글씨 입력에는 Apple Pencil을 사용합니다.",
-        "AI 질문 및 문제집 생성에는 인터넷 연결과 사용 가능한 AI 잔액이 필요합니다.",
+        "Apple Pencil로 쓰거나 손가락으로 그리기를 켜 한 손가락으로 쓸 수 있습니다.",
+        "AI 풀이·문제집 생성·AI 요약에는 인터넷 연결과 사용 가능한 AI 잔액이 필요합니다.",
+        "녹음·재생·변환 텍스트 보기는 일회성 Premium 또는 월간 Premium Plus에서 사용할 수 있습니다.",
         "AI 답변은 학습 자료와 비교해 확인하세요."
       ]
     },
     "de": {
       "overviewTitle": "Aus Vorlesungsnotizen wird Wiederholung.",
       "overview": [
-        "Uni:Note ist eine App für handschriftliche Vorlesungsnotizen auf dem iPad. Schreiben Sie mit Apple Pencil, ergänzen Sie PDF-Unterlagen und ordnen Sie Ihre Notizen nach Fächern und Ordnern, damit Sie sie später wiederfinden.",
+        "Uni:Note ist eine App für handschriftliche Vorlesungsnotizen auf dem iPad. Schreiben Sie mit Apple Pencil, ergänzen Sie PDF-Unterlagen und ordnen Sie Ihre Notizen nach Fächern und Ordnern, damit Sie sie später wiederfinden. Auch getippter Text, Formen und Tabellen lassen sich in der Notiz platzieren.",
         "Nach der Vorlesung können Sie die KI zu einer markierten Aufgabe befragen oder aus Ihren Notizen einen Übungssatz erstellen. So bleiben Mitschrift und Wiederholung an einem Ort."
       ],
       "features": [
@@ -261,8 +264,8 @@
           "description": "Wandeln Sie Lernmaterial mit KI in Fragen um und wiederholen Sie es mit Antworten und Erklärungen."
         },
         {
-          "title": "Mit Markierungen lernen",
-          "description": "Verdecken Sie wichtige Stellen und blenden Sie sie zum Prüfen per Tippen wieder ein."
+          "title": "Aufnahme und Transkription",
+          "description": "Nehmen Sie Vorlesungen auf, transkribieren Sie sie auf unterstützten Geräten und erstellen Sie KI-Zusammenfassungen aus dem Transkript."
         }
       ],
       "stories": [
@@ -300,15 +303,16 @@
         }
       ],
       "notes": [
-        "Für handschriftliche Eingaben wird Apple Pencil verwendet.",
-        "KI-Fragen und die Erstellung von Übungssätzen benötigen Internet und verfügbares KI-Guthaben.",
+        "Schreiben Sie mit dem Apple Pencil oder aktivieren Sie „Mit Finger zeichnen“, um mit einem Finger zu schreiben.",
+        "KI-Antworten, Aufgabensets und KI-Zusammenfassungen benötigen Internet und verfügbares KI-Guthaben.",
+        "Aufnahme, Wiedergabe und Transkriptansicht erfordern das einmalig gekaufte Premium oder das monatliche Premium Plus.",
         "Prüfen Sie KI-Antworten anhand Ihrer Lernunterlagen."
       ]
     },
     "fr": {
       "overviewTitle": "Des notes de cours à la révision.",
       "overview": [
-        "Uni:Note est une app de prise de notes manuscrites pour les cours universitaires sur iPad. Écrivez avec Apple Pencil, annotez les PDF distribués en cours et classez vos notes par matière et dossier pour les retrouver.",
+        "Uni:Note est une app de prise de notes manuscrites pour les cours universitaires sur iPad. Écrivez avec Apple Pencil, annotez les PDF distribués en cours et classez vos notes par matière et dossier pour les retrouver. Vous pouvez aussi placer du texte saisi, des formes et des tableaux dans une note.",
         "Après le cours, interrogez l’IA sur un exercice sélectionné ou créez une série de questions à partir de vos notes. Regrouper la prise de notes et la révision permet de revenir sur ce que vous avez écrit et de vérifier votre compréhension."
       ],
       "features": [
@@ -333,8 +337,8 @@
           "description": "Transformez vos notes en questions avec l’IA, puis révisez à l’aide des réponses et explications."
         },
         {
-          "title": "Marqueurs de mémorisation",
-          "description": "Masquez les passages à retenir et touchez-les pour les révéler ou les cacher."
+          "title": "Enregistrement et transcription",
+          "description": "Enregistrez les cours, transcrivez-les sur un appareil compatible et créez des résumés IA à partir du texte transcrit."
         }
       ],
       "stories": [
@@ -372,15 +376,16 @@
         }
       ],
       "notes": [
-        "L’écriture manuscrite utilise Apple Pencil.",
-        "Les questions à l’IA et la création d’exercices nécessitent Internet et un Solde IA disponible.",
+        "Écrivez avec l’Apple Pencil ou activez Dessiner au doigt pour écrire avec un doigt.",
+        "Les réponses IA, la création d’exercices et les résumés IA nécessitent Internet et un Solde IA disponible.",
+        "L’enregistrement, la lecture et la consultation des transcriptions nécessitent Premium (achat unique) ou Premium Plus (mensuel).",
         "Vérifiez les réponses de l’IA avec vos supports de cours."
       ]
     },
     "zh-hant": {
       "overviewTitle": "把課堂筆記，延伸成複習。",
       "overview": [
-        "Uni:Note 是為大學課堂設計的 iPad 手寫筆記 App。使用 Apple Pencil 記下板書與想法，也能直接在講義 PDF 上註記。透過科目與資料夾分類，方便日後找到需要的筆記。",
+        "Uni:Note 是為大學課堂設計的 iPad 手寫筆記 App。使用 Apple Pencil 記下板書與想法，也能直接在講義 PDF 上註記。透過科目與資料夾分類，方便日後找到需要的筆記。也能在筆記中放入鍵盤輸入的文字、圖形與表格。",
         "下課後，除了重新閱讀筆記，也能圈選題目向 AI 提問，或從筆記建立題庫。將書寫與複習放在同一個地方，讓課堂紀錄繼續用於下一次學習。"
       ],
       "features": [
@@ -405,8 +410,8 @@
           "description": "使用 AI 將學習內容轉為題目，配合答案與解說複習。"
         },
         {
-          "title": "便條標記輔助記憶",
-          "description": "遮住想記住的內容，點一下切換顯示，直接用原本的筆記確認記憶。"
+          "title": "錄音與轉錄",
+          "description": "錄下課程，在支援的裝置上即時轉錄，並以轉錄文字製作 AI 摘要。"
         }
       ],
       "stories": [
@@ -444,8 +449,9 @@
         }
       ],
       "notes": [
-        "手寫輸入使用 Apple Pencil。",
-        "AI 提問與題庫生成需要網路連線及可用的 AI 餘額。",
+        "可使用 Apple Pencil 書寫，或開啟「用手指繪圖」以單指書寫。",
+        "AI 解答、題庫生成與 AI 摘要需要網路連線及可用的 AI 餘額。",
+        "錄音、播放及檢視轉錄需使用一次購買的 Premium 或月費 Premium Plus。",
         "請對照學習資料確認 AI 回答。"
       ]
     }

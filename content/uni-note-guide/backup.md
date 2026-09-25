@@ -4,7 +4,7 @@ description: "バックアップを保管し、必要なときにデータを復
 seo_title: "バックアップ | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/backup/"
-lastmod: "2026-09-19"
+lastmod: "2026-09-26"
 guide_category: "backup"
 guide_kind: "category"
 operation_ids: ["S18", "S19", "S20", "S21", "S22", "S23", "S24"]
@@ -16,11 +16,11 @@ operation_ids: ["S18", "S19", "S20", "S21", "S22", "S23", "S24"]
 
 ## バックアップを保存する {#save}
 
-ノートのデータをバックアップとして保管します。ファイルを書き出す方法と、Premiumのかんたんバックアップがあります。
+ノートのデータをバックアップとして保管します。Freeでも使えるファイルの書き出しと、PremiumまたはPremium Plusのかんたんバックアップがあります。
 
 ### 必要な条件 {#save-必要な条件}
 
-かんたんバックアップはPremiumとiCloudへの接続。保存先の空き容量。
+かんたんバックアップはPremiumまたはPremium PlusとiCloudへの接続。保存先の空き容量。
 
 ### 保存方法と音声の扱いを決める {#保存方法と音声の扱いを決める}
 
@@ -65,7 +65,7 @@ operation_ids: ["S18", "S19", "S20", "S21", "S22", "S23", "S24"]
 
 ### 必要な条件 {#restore-必要な条件}
 
-復元するバックアップ。かんたんバックアップはPremiumとiCloudへの接続。
+復元するバックアップ。かんたんバックアップはPremiumまたはPremium PlusとiCloudへの接続。
 
 ### 復元前に現在のデータを残す {#復元前に現在のデータを残す}
 

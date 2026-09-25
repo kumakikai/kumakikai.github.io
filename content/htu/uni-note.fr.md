@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-09-23"
+version_context_date: "2026-09-26"
 title: "Mode d’emploi (Uni:Note)"
 description: "Mode d’emploi pour Uni:Note."
-lastmod: 2026-09-23
+lastmod: 2026-09-26
 ---
 
 ## Introduction
@@ -40,7 +40,7 @@ Le même + permet de créer des dossiers. Glissez-y les matières ; supprimer un
 
 {{< guide-image src="images/guides/uni-note/un35/un35-018-pen-panel-ja.png" alt="Palette avec stylo, surligneur, gomme, repère et annulation" mode="crop" >}}
 
-Déplacez la palette en la faisant glisser. Affichez la règle en haut, déplacez-la ou tournez-la avec les doigts et tracez à proximité avec le Pencil. Le déplacement de zone sélectionne des traits manuscrits entiers ; photos, PDF et repères se déplacent séparément. Les carnets verticaux défilent horizontalement. Leur orientation ne change plus après création.
+Déplacez la palette en la faisant glisser. Affichez la règle dans la note, déplacez-la d’un doigt, puis faites tourner sa poignée visible d’un doigt autour de son centre. Tracez le long du bord avec l’Apple Pencil ; un doigt fonctionne aussi si Dessiner au doigt est activé. Le déplacement de zone sélectionne des traits manuscrits entiers. Photos, PDF et repères se manipulent séparément. Les carnets verticaux défilent horizontalement et leur orientation ne change plus après création.
 
 {{< guide-anchor "6-utiliser-liste-des-notes-et-pages" >}}
 
@@ -64,7 +64,11 @@ Dans une note, **Liste des notes** ouvre les autres notes de la matière ou en c
 
 {{< guide-image src="images/guides/uni-note/common/pdf-writing.png" alt="PDF de cours annoté dans Uni:Note" mode="tablet" >}}
 
-La sélection d’un document dépend du réglage **Dessiner au doigt**. Lorsqu’il est désactivé, touchez une fois la photo ou le PDF pour le sélectionner. Lorsqu’il est activé, effectuez un appui prolongé sur le document, puis choisissez **Déplacer et redimensionner** dans le menu. Vous pouvez laisser Dessiner au doigt activé pendant le déplacement ou le redimensionnement du document sélectionné. Le pincement à deux doigts zoome la note elle-même ; en mode de dessin au doigt, utilisez la poignée de redimensionnement du document sélectionné. Vous pouvez toujours écrire sur le document avec l’Apple Pencil. Pour partager, utilisez **Plus → Exporter en PDF**, pour la note ou toute la matière. Le fond peut être blanc ou de la couleur du papier.
+Si **Dessiner au doigt** est désactivé, touchez deux fois une photo ou un PDF verrouillé pour le déverrouiller, puis touchez-le une fois pour le sélectionner. Si l’option est activée, touchez **Modifier** pour passer en **Sélection d’objets**, puis touchez le document. Déplacez-le ou utilisez sa poignée de redimensionnement. Touchez une zone vide ou de nouveau Modifier pour reprendre l’écriture au doigt. Le pincement à deux doigts zoome la note. Faites tourner les photos de documents et les PDF avec la poignée en haut à droite autour de leur centre. Exportez via **Plus → Exporter en PDF**.
+
+## Ajouter du texte, des formes et des tableaux {#text-shapes}
+
+Choisissez **Plus → Texte**, touchez la page, saisissez le texte, puis confirmez avec **Ajouter comme image** sur le clavier. Vous pouvez ensuite déplacer et redimensionner le texte, mais pas modifier son contenu ; la recherche de titres ne le parcourt pas. Sous **Plus → Formes**, créez un rectangle, un cercle/une ellipse, une bulle ou un tableau. Choisissez couleur, épaisseur et style de trait ; pour un tableau, définissez lignes et colonnes. Après insertion, réglez position, taille et angle. Si Dessiner au doigt est activé, touchez Modifier avant de sélectionner une forme. Les cellules du tableau ne reçoivent pas directement du texte, et le nombre de lignes ou colonnes ne se modifie pas après insertion.
 
 {{< guide-anchor "10-utiliser-lenregistrement-la-transcription-et-le-résumé-ia" >}}
 
@@ -76,7 +80,9 @@ La sélection d’un document dépend du réglage **Dessiner au doigt**. Lorsqu�
 
 {{< guide-image src="images/guides/uni-note/un35/un35-042-recording-ready-ja.png" alt="Langue et bouton rouge du panneau d’enregistrement" mode="crop" caption="L’exemple montre le panneau d’enregistrement avec le japonais sélectionné." >}}
 
-L’enregistrement, la lecture et l’affichage de la transcription nécessitent Premium. Un fichier est divisé après 30 minutes, avec cinq enregistrements par note au maximum. Arrêtez et sauvegardez avant l’accueil ou la veille. Les iPad compatibles sous iPadOS 26 peuvent transcrire pendant l’enregistrement. Choisissez la langue dans **Réglages → Aide à l’étude → Aide à l’enregistrement**. Le résumé IA utilise le texte transcrit et le solde IA ; vérifiez l’estimation avant de lancer.
+L’enregistrement, la lecture et l’affichage de la transcription nécessitent Premium ou Premium Plus. Un fichier est divisé après 30 minutes, avec cinq enregistrements par note au maximum. Arrêtez et sauvegardez avant l’accueil ou la veille. Les iPad compatibles sous iPadOS 26 peuvent transcrire pendant l’enregistrement. Choisissez la langue dans **Réglages → Aide à l’étude → Aide à l’enregistrement**. Le résumé IA utilise le texte transcrit et le solde IA ; vérifiez l’estimation avant de lancer.
+
+Dans **Réglages → Aide à l’étude → Aide à l’enregistrement**, **Privilégier la précision de la transcription** est activé par défaut. Désactivez-le pour voir le texte plus vite, avec une précision potentiellement moindre. Le changement s’applique au prochain enregistrement.
 
 {{< guide-anchor "11-utiliser-la-fonction-de-mémorisation" "12-utiliser-lassistant-de-résolution" "13-utiliser-créer-un-lot-dexercices" >}}
 
@@ -94,6 +100,8 @@ Pour envoyer le résultat dans une autre app, touchez Copier à gauche ou Partag
 
 Dans **Plus → Créer un lot d’exercices**, sélectionnez les pages, gardez ou écartez les propositions et enregistrez le lot. Retrouvez-le dans les exercices de l’accueil. Réponses et génération IA utilisent le solde IA ; vérifiez les résultats avec vos cours.
 
+Vous pouvez aussi créer et modifier des exercices manuellement sans consommer de solde IA. Lancez Pomodoro depuis la barre de la note ; réglez les durées et le personnage dans l’aide à l’étude. Le pointeur laser trace une ligne temporaire avec l’Apple Pencil, sans l’enregistrer comme écriture. Personnalisez les boutons et la palette sous **Réglages → Affichage → Écran de note**.
+
 {{< guide-anchor "14-protéger-les-notes-et-utiliser-la-corbeille" >}}
 
 ## Protéger, supprimer et restaurer {#protect}
@@ -105,6 +113,10 @@ Restaurez les matières et notes supprimées dans la corbeille de l’accueil. S
 Les matières et notes de la corbeille sont supprimées définitivement lors du nettoyage après 30 jours. Restaurez-les avant ce délai si nécessaire.
 
 
+## Formules et solde IA {#plans}
+
+Free permet 10 matières et 6 notes par matière. Premium (achat unique) et Premium Plus (mensuel) suppriment ces limites et donnent accès à l’enregistrement et à la sauvegarde rapide. Premium attribue 500 unités de solde IA au début de chaque mois ; Premium Plus en attribue 10 000 par période d’abonnement. Le solde non utilisé d’une période n’est pas reporté ; le solde acheté séparément n’expire pas. Réponses IA, génération d’exercices et résumés IA consomment du solde sous chaque formule. Vérifiez formule, solde et prix dans les réglages ; si un achat manque, utilisez **Mettre à jour le statut des achats**.
+
 {{< guide-anchor "15-réglages-et-sauvegarde" >}}
 
 ## Conserver une sauvegarde {#backup}
@@ -115,7 +127,7 @@ Les matières et notes de la corbeille sont supprimées définitivement lors du 
 
 {{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Exporter une sauvegarde et Restaurer depuis un fichier dans Uni:Note" mode="crop" caption="Interface japonaise : la ligne du haut exporte une sauvegarde ; celle du bas restaure un fichier enregistré." >}}
 
-La mise à jour et la restauration de la sauvegarde rapide nécessitent Premium. Elles enregistrent ou lisent un fichier iCloud, sans synchronisation automatique des notes. Choisissez un zip pour restaurer puis fermez et rouvrez l’app selon son message. Langue, options gaucher et nom des matières se règlent également ici.
+La mise à jour et la restauration de la sauvegarde rapide nécessitent Premium ou Premium Plus. Elle utilise un fichier iCloud sans synchronisation automatique. Export zip et restauration depuis un fichier fonctionnent aussi avec Free. Rouvrez l’app après restauration selon son message. Langue, commandes gaucher et nom des matières se règlent également dans les réglages.
 
 {{< guide-anchor "utiliser-split-view-slide-over-et-deux-volets" >}}
 
