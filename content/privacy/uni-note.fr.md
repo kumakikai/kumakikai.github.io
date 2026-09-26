@@ -1,7 +1,7 @@
 ---
 title: "Politique de confidentialité (Uni:Note)"
 description: "Politique de confidentialité pour Uni:Note."
-lastmod: 2026-09-25
+lastmod: 2026-09-26
 ---
 
 ## 1. Introduction {#introduction}
@@ -68,7 +68,7 @@ Pour le traitement des informations par chaque service, consultez la [confidenti
 
 L’application n’utilise pas de SDK publicitaire.
 
-Nous utilisons Google Analytics for Firebase pour analyser l'utilisation de l'app, l'adoption des fonctions, la fidélisation et les parcours d'achat afin d'améliorer le produit. Firebase Crashlytics reste utilisé pour les diagnostics et l'analyse des plantages. Analytics collecte un identifiant d'instance d'app généré automatiquement, des événements automatiques tels que l'ouverture de l'app et des événements d'utilisation prédéfinis pour les notes, pièces jointes, enregistrements, fonctions IA et sauvegardes. Nos événements Analytics personnalisés ne contiennent ni contenu des notes, ni écriture manuscrite, résultats OCR, énoncés, entrées ou réponses IA, transcriptions, contenus audio, PDF ou image, noms de fichiers, noms, adresses e-mail ou identifiants internes de notes ou de pages. Nous n'utilisons pas l'IDFA, la personnalisation publicitaire ni le suivi entre apps ou services.
+Google Analytics for Firebase regroupe des événements prédéfinis qui indiquent quand certaines fonctions de l’app sont utilisées. Par exemple, il enregistre qu’une note a été créée ou ouverte, qu’une pièce jointe a été ajoutée (selon une catégorie fixe : photo, photo de document ou PDF), qu’un enregistrement a commencé ou qu’une action liée à l’IA, à l’achat ou à la sauvegarde a eu lieu. Ces événements décrivent l’action et sa catégorie ou son étape fixe ; Analytics ne reçoit pas la note, la pièce jointe ni l’enregistrement lui-même. Lorsqu’une fonction IA est utilisée, le contenu choisi peut être envoyé pour traitement IA externe, comme indiqué dans « Traitement de l’IA et de l’audio » ; ce contenu n’est pas envoyé à Analytics. Analytics collecte aussi un identifiant d’instance d’app généré automatiquement et des événements automatiques tels que l’ouverture de l’app. Nos événements personnalisés ne contiennent ni écriture manuscrite, résultats OCR, texte des questions, entrées ou réponses IA, transcriptions, contenus audio, PDF ou image, noms de fichiers, noms, adresses e-mail ni identifiants internes de notes ou de pages. Firebase Crashlytics sert aux diagnostics et à l’analyse des plantages. Nous n’utilisons pas l’IDFA, la personnalisation publicitaire ni le suivi entre apps ou services.
 
 {{< guide-anchor "6-données-de-diagnostic-et-de-plantage" >}}
 

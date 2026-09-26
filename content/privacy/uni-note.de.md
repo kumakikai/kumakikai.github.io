@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung (Uni:Note)"
 description: "Datenschutzerklärung für Uni:Note."
-lastmod: 2026-09-25
+lastmod: 2026-09-26
 ---
 
 ## 1. Einführung {#introduction}
@@ -68,7 +68,7 @@ Zum Umgang mit Informationen der einzelnen Dienste siehe [AWS-Datenschutz](https
 
 Die App verwendet keine Werbe-SDKs.
 
-Wir verwenden Google Analytics for Firebase, um App-Nutzung, Funktionsnutzung, wiederkehrende Nutzung und Kaufwege zur Produktverbesserung auszuwerten. Firebase Crashlytics verwenden wir weiterhin für Diagnose und Absturzanalyse. Analytics erfasst eine automatisch erzeugte App-Instanz-ID, automatische Ereignisse wie App-Starts und fest definierte Nutzungsereignisse für Notizen, Anhänge, Aufnahmen, KI und Backups. Unsere eigenen Analytics-Ereignisse enthalten keine Notizinhalte, Handschrift, OCR-Ergebnisse, Aufgaben, KI-Eingaben oder -Antworten, Transkripte, Audio-, PDF- oder Bildinhalte, Dateinamen, Namen, E-Mail-Adressen oder interne Notiz- und Seiten-IDs. IDFA, personalisierte Werbung und Tracking über Apps oder Dienste hinweg verwenden wir nicht.
+Google Analytics for Firebase wertet feste Ereignisse aus, die anzeigen, wann ausgewählte App-Funktionen verwendet werden. Erfasst wird zum Beispiel, dass eine Notiz erstellt oder geöffnet, ein Anhang hinzugefügt (mit fester Kategorie: Foto, Dokumentfoto oder PDF), eine Aufnahme gestartet oder eine KI-, Kauf- oder Backup-Aktion ausgeführt wurde. Diese Ereignisse beschreiben die Aktion sowie ihre feste Kategorie oder Phase; die Notiz, der Anhang oder die Aufnahme selbst wird nicht an Analytics gesendet. Bei einer KI-Funktion können ausgewählte Inhalte zur Verarbeitung an einen externen KI-Dienst gesendet werden, wie unter „KI- und Audioverarbeitung“ beschrieben. Diese Inhalte gehen nicht an Analytics. Analytics erfasst außerdem eine automatisch erzeugte App-Instanz-ID und automatische Ereignisse wie App-Starts. Unsere eigenen Ereignisse enthalten keine Handschrift, OCR-Ergebnisse, Aufgabentexte, KI-Eingaben oder -Antworten, Transkripte, Audio-, PDF- oder Bildinhalte, Dateinamen, Namen, E-Mail-Adressen oder interne Notiz- und Seiten-IDs. Firebase Crashlytics verwenden wir für Diagnose und Absturzanalyse. IDFA, personalisierte Werbung und Tracking über Apps oder Dienste hinweg verwenden wir nicht.
 
 {{< guide-anchor "6-diagnose--und-absturzdaten" >}}
 

@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy (Uni:Note)"
 description: "Privacy policy for Uni:Note."
-lastmod: 2026-09-25
+lastmod: 2026-09-26
 ---
 
 ## 1. Introduction {#introduction}
@@ -68,7 +68,7 @@ For each service’s information handling, see [AWS data privacy](https://aws.am
 
 The app does not use advertising SDKs.
 
-We use Google Analytics for Firebase to understand app usage, feature adoption, retention, and purchase flows for product improvement. We also use Firebase Crashlytics for diagnostics and crash analysis. Analytics collects an automatically generated app instance ID, automatic events such as app launches, and fixed usage events for features such as notes, attachments, recording, AI, and backups. Our custom Analytics events do not include note content, handwriting, OCR, questions, AI inputs or answers, transcripts, audio, PDF or image content, file names, names, email addresses, or internal note or page IDs. We do not use IDFA, ad personalization, or cross-app or cross-service tracking.
+Google Analytics for Firebase aggregates fixed events that indicate when selected app functions are used. For example, it records that a note was created or opened, an attachment was added (by fixed type: photo, document photo, or PDF), recording started, or an AI, purchase, or backup flow was used. These events describe the action and its fixed category or stage; Analytics does not receive the note, attachment, or recording itself. When you use an AI feature, selected content may be sent for AI processing as described under “AI and audio processing”; that content is not sent to Analytics. Analytics also collects an automatically generated app instance ID and automatic events such as app launches. Our custom events do not include handwriting, OCR, question text, AI inputs or answers, transcripts, audio, PDF or image contents, file names, names, email addresses, or internal note or page IDs. We use Firebase Crashlytics for diagnostics and crash analysis. We do not use IDFA, ad personalization, or cross-app or cross-service tracking.
 
 {{< guide-anchor "6-diagnostics-and-crash-data" >}}
 
