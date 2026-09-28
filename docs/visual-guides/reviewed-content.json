@@ -124,10 +124,10 @@
   },
   "/faq/nocca/": {
     "source": "content/faq/nocca.md",
-    "sourceSHA256": "eb65e8408062e46b9ddeaca33a453209a3727cab4b37bab694ffeec339174ae1",
+    "sourceSHA256": "212c8946aa43a9b08387dc3fb69d671bf6ca3580e9c740c7e97d9b6a687a6267",
     "baselineTextSHA256": "8366bc8f438e0e409218b257bbb21ccbdf3089847803c04088f66b4f06ce5076",
-    "reviewedTextSHA256": "e61c43c578c802e04ce8f12af6e0657b2388435adbdf7e96ec818a944fa56156",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
+    "reviewedTextSHA256": "c48319b4bf61ad7dac162bdda98d2987c23bf000e374f75a8031011021f9befc",
+    "reason": "2026-09-28 App Store release review: Japanese iPhone availability and currently free billing matched to Apple Lookup and Nocca source; guide links and anchors preserved.",
     "removedLinks": [
       "https://kumakikai.github.io/htu/nocca/",
       "https://kumakikai.github.io/privacy/nocca/",
@@ -267,10 +267,10 @@
   },
   "/htu/nocca/": {
     "source": "content/htu/nocca.md",
-    "sourceSHA256": "66fa3262d157d44fc625deb4554b8f274d84301fe7f410f0c7b7d2f50e668b7e",
+    "sourceSHA256": "dd4f703d3610d441b84cae6eb2672507edfb99fc8f0e43e1cb10dc4b520fbfca",
     "baselineTextSHA256": "a299355f1982620db4fb8b37de052b745fda9a90386541a105e8a806377dd9bd",
-    "reviewedTextSHA256": "ea34d41bebff8feeeca08f863945a99ec72adec326504940d41c9ed5a8d8ed93",
-    "reason": "Replace outdated operation text with current-UI steps and real screenshots; keep FAQ focused on problems and link to operations. See docs/visual-guides/communication-codes-audit.md",
+    "reviewedTextSHA256": "e91ad3e7b12e7af0c0e77cc915187d73d96f6671ec6477575cfea127e0817669",
+    "reason": "2026-09-28 App Store release review: removed the development notice and unavailable purchase guidance; existing operation images, links and anchors preserved.",
     "removedLinks": [
       "https://kumakikai.github.io/faq/nocca/",
       "https://kumakikai.github.io/privacy/nocca/",

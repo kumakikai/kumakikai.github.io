@@ -1,5 +1,16 @@
 # Nocca legal content review — 2026-09-07
 
+## 2026-09-28 release-state review
+
+The public Japanese App Store listing and the app's current billing switch were
+checked for the Nocca release update. The current Privacy and Terms now describe
+the publicly available iPhone app and its currently free access; the old active
+seven-day trial and subscription claims were removed. Exact source and rendered
+bindings for these two routes are recorded in the later all-document catalog.
+The original Nocca legal catalog below remains historical. See
+`docs/audits/2026-09-28-nocca-release.md` for evidence and the remaining App Store
+metadata discrepancy.
+
 ## Current review: all product documents, 2026-09-08
 
 The user subsequently authorized a full, implementation-checked rewrite of every

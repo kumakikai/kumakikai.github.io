@@ -59,7 +59,7 @@ Productsカードの「Support」は **`/products/<id>/#support`**。対象が�
 
 ### Home Featured
 
-- **Uni:Note先頭固定＋ほかの `featured: true` から重複なしのランダム3件**。現行候補は公開済みアプリと紹介可能な開発中Nocca。未公開候補にStore CTAを出さない。
+- **Uni:Note先頭固定＋ほかの `featured: true` から重複なしのランダム3件**。現行候補は公開済みアプリ。未公開候補にStore CTAを出さない。
 - `layouts/home.html` が静的fallbackと候補 `template` を出力し、`select-products.html` / `assets/js/select-products.js` がページロード中に一度選ぶ。外部ライブラリ、Cookie、Geo-IP、自動カルーセルを追加しない。
 - **表示順確定後**に `assets/css/site.css` がindex相当の `nth-of-type` で画像を **右→左→右→左** へ。固定先頭と別のランダムgroup内の奇数番目が全体2・4件目。Productデータに左右属性を持たせない。
 - 901px以上は交互2カラム、900px以下は説明→CTA／地域／補足→画像の縦順。非公式表記等はテキスト側に残す。

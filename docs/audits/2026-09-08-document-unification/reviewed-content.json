@@ -107,10 +107,10 @@
     },
     "/de/privacy/uni-note/": {
       "source": "content/privacy/uni-note.de.md",
-      "sourceSHA256": "b799b6eb453fd6423aadaadcc84581394705b588e935458b7a2b78a0afbf9621",
+      "sourceSHA256": "1c9f6bf3c5ed7c9c816b5a95a1f67fbba9c3ed55ed72203a32d7ba489de23723",
       "beforeSourceSHA256": "a2a9d2520b7dcf0478a26fc904534868ff7ede9d5fdc6036f9b3b4492a637fa3",
       "baselineTextSHA256": "2338803776318eced4362b8cbf089a26607625d4f267e494410cf5de07b23635",
-      "reviewedTextSHA256": "0672d775d15564cb1d24b373a7f2c51a6eb67de0c0bee77219f770eba5c1eaf9",
+      "reviewedTextSHA256": "ab34eaaa44f3dd194a52b573da0fc449bf686803edaa724cabe17f6aaf568715",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -121,7 +121,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
+      "reason": "2026-09-26 Uni:Note Analytics wording clarification reviewed in learning-phase3.md: fixed action categories and separate AI processing are explained; route, anchors, links and other sections are retained.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -292,10 +292,10 @@
     },
     "/en/privacy/uni-note/": {
       "source": "content/privacy/uni-note.en.md",
-      "sourceSHA256": "1fc89cb429cf7c76217fd0f57edc22a9381de09778e13fa028d65855403bc913",
+      "sourceSHA256": "745b3d8071680b9f7f776223642a12d02287e8af39c9070b7a1971b1c89913e5",
       "beforeSourceSHA256": "c73a181f6f42ca59a4f5305527d0058ca956e7418360ba9bf9f2e5c359c896a5",
       "baselineTextSHA256": "0033f348c79ca449e91a23ea1b90264b5f49adfb87e339d66bfe5e5459add4e9",
-      "reviewedTextSHA256": "0164983b29795cfb4153d083566fe4f8ef4dce6324c3b7c5bd8fd0df3fe9791c",
+      "reviewedTextSHA256": "ee9fe93691651d2df3b0279210304780550bd0edec311d39e2d8d06a9776ada9",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -306,7 +306,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
+      "reason": "2026-09-26 Uni:Note Analytics wording clarification reviewed in learning-phase3.md: fixed action categories and separate AI processing are explained; route, anchors, links and other sections are retained.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -358,10 +358,10 @@
     },
     "/faq/nocca/": {
       "source": "content/faq/nocca.md",
-      "sourceSHA256": "eb65e8408062e46b9ddeaca33a453209a3727cab4b37bab694ffeec339174ae1",
+      "sourceSHA256": "212c8946aa43a9b08387dc3fb69d671bf6ca3580e9c740c7e97d9b6a687a6267",
       "beforeSourceSHA256": "954c15e69ebd3b06af364d1022e4a2d2537563785ec3727626d55c6acc56c43f",
       "baselineTextSHA256": "8366bc8f438e0e409218b257bbb21ccbdf3089847803c04088f66b4f06ce5076",
-      "reviewedTextSHA256": "ad479339a4a45c7bd72ae4468559b6827e3817dde39157e5ce40ffc0c47b5d56",
+      "reviewedTextSHA256": "f63572f6dfb2d6191258b6b198d7b512f21712c607490694b57212c3610ced6e",
       "reviewedLinks": [
         "https://kumakikai.github.io/htu/nocca/#1-%E6%9C%80%E5%88%9D%E3%81%AB%E5%BD%B9%E5%89%B2%E3%82%92%E9%81%B8%E3%81%B6",
         "https://kumakikai.github.io/htu/nocca/#3-%E5%AE%B6%E6%97%8F%E3%82%92%E6%8B%9B%E5%BE%85%E3%81%99%E3%82%8B",
@@ -370,7 +370,6 @@
         "https://kumakikai.github.io/htu/nocca/#reply",
         "https://kumakikai.github.io/htu/nocca/#send-signal",
         "https://kumakikai.github.io/privacy/nocca/#5-%E5%89%8A%E9%99%A4%E3%81%A8%E5%88%A9%E7%94%A8%E8%80%85%E3%81%AE%E9%81%B8%E6%8A%9E",
-        "https://kumakikai.github.io/terms/nocca/#4-%E6%9C%88%E9%A1%8D%E5%B9%B4%E9%A1%8D%E3%83%97%E3%83%A9%E3%83%B3%E3%81%A8apple%E3%81%AE%E7%84%A1%E6%96%99%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB",
         "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
       ],
       "removedLinks": [
@@ -378,7 +377,7 @@
         "https://kumakikai.github.io/privacy/nocca/",
         "https://kumakikai.github.io/terms/nocca/"
       ],
-      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "2026-09-28 release review: App Store availability and currently free billing replace obsolete review and subscription claims. Current operation links, support structure and historical anchors remain. See docs/audits/2026-09-28-nocca-release.md.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/communication-phase1.md",
         "docs/audits/2026-09-08-document-unification/communication-phase3.md"
@@ -665,10 +664,10 @@
     },
     "/fr/privacy/uni-note/": {
       "source": "content/privacy/uni-note.fr.md",
-      "sourceSHA256": "7e5c90af30af05e83f3df1f4c24e17b63d511c2c003e2c18898527130d3f5d7e",
+      "sourceSHA256": "9e9b0ef790f1ab504e0b681257cef35d85937bced4855040f2212a3741e402a7",
       "beforeSourceSHA256": "b15753d82b5656b22c9f360a11e9e0ab860609e881e9c6e6045ee26a5b71f7fe",
       "baselineTextSHA256": "da242f812c979b9336393c15225e4bfcc241ec1cdd8882a2a1022dfa14bd3159",
-      "reviewedTextSHA256": "6ddc07824214f0d566f0a58bbc34f245aebcc0e440255d86c2354f38afa65f9f",
+      "reviewedTextSHA256": "d07630330cf968dc56ef204352ffd9234f6ee55e3d308fb1c18a8f837020312f",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -679,7 +678,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
+      "reason": "2026-09-26 Uni:Note Analytics wording clarification reviewed in learning-phase3.md: fixed action categories and separate AI processing are explained; route, anchors, links and other sections are retained.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -728,10 +727,10 @@
     },
     "/htu/nocca/": {
       "source": "content/htu/nocca.md",
-      "sourceSHA256": "66fa3262d157d44fc625deb4554b8f274d84301fe7f410f0c7b7d2f50e668b7e",
+      "sourceSHA256": "dd4f703d3610d441b84cae6eb2672507edfb99fc8f0e43e1cb10dc4b520fbfca",
       "beforeSourceSHA256": "d75c30ba4b080e390c2b0d152199d3a501c13f7d1d5092bf251beae7037cee0f",
       "baselineTextSHA256": "a299355f1982620db4fb8b37de052b745fda9a90386541a105e8a806377dd9bd",
-      "reviewedTextSHA256": "fa0398a5ac52ffd47533aa320ff647a6887b4a50ff8d73856d54be7aa6a2049f",
+      "reviewedTextSHA256": "77c51166dbd2cc9e8f4eeed2545583556469fb9bb25228a030a27576a11755cd",
       "reviewedLinks": [
         "https://kumakikai.github.io/faq/nocca/#help",
         "https://kumakikai.github.io/privacy/nocca/#5-%E5%89%8A%E9%99%A4%E3%81%A8%E5%88%A9%E7%94%A8%E8%80%85%E3%81%AE%E9%81%B8%E6%8A%9E",
@@ -742,7 +741,7 @@
         "https://kumakikai.github.io/privacy/nocca/",
         "https://kumakikai.github.io/terms/nocca/"
       ],
-      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user instruction: screenshots no longer link to image pages; image sources, responsive sizes, alternative text, captions and operation text are preserved. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "2026-09-28 release review: development notice and inactive billing guidance removed. Existing images, operation links, support structure and historical anchors remain. See docs/audits/2026-09-28-nocca-release.md.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/communication-phase1.md",
         "docs/audits/2026-09-08-document-unification/communication-phase3.md"
@@ -1085,10 +1084,10 @@
     },
     "/ko/privacy/uni-note/": {
       "source": "content/privacy/uni-note.ko.md",
-      "sourceSHA256": "678c6053a8dabed59759c665258a5231719206e99fef563f6f5b97ba6972cdb6",
+      "sourceSHA256": "af68f2ed7808b7f19d44c3ccb5b291e9eacb888dba939278fcdaf97feececfee",
       "beforeSourceSHA256": "a1a81360a1307c34c2b30c115f2c13f2e236c33bbe4107af1b76a987c2b1e6c2",
       "baselineTextSHA256": "aeb5d85dc1364e5806d5ee6194b4486080c1375e55711049fffbbd55aeed6170",
-      "reviewedTextSHA256": "eb189c6993b14479fd9c3ee223814d2bd3af259b2c318d9aa4933f960e956e65",
+      "reviewedTextSHA256": "485f4a7a16447ca8f2b58f775aa32ec77d3512dc7f18bc5ed4064f5182222193",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -1099,7 +1098,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
+      "reason": "2026-09-26 Uni:Note Analytics wording clarification reviewed in learning-phase3.md: fixed action categories and separate AI processing are explained; route, anchors, links and other sections are retained.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -1152,10 +1151,10 @@
     },
     "/privacy/nocca/": {
       "source": "content/privacy/nocca.md",
-      "sourceSHA256": "e9f205538c018334f51de7fd1f8fa3c468cc5a26d89fc526c6f1bb96584bd6c1",
+      "sourceSHA256": "6b0aa945f3d661d734abf224590ae68f67c262c4aa3ac359c2add91fc225d562",
       "beforeSourceSHA256": "7d9eaae429457e4b2c481ab797b369a4dcc699cff74270ad071449abb768d692",
       "baselineTextSHA256": "e01d5993ef49c080b2b2a9c5b30ce12b125ce15e6cca69d3c5d51cd3bf7a1fff",
-      "reviewedTextSHA256": "d4ce65a6bd5a14eba4752df13ff00bdcd41aadc3c6f3a651cfd8c47ae3d279d2",
+      "reviewedTextSHA256": "87a16e71a8f80b1085e6bf1473ef0799531293f3aaf7ebfbaab00bbbb69b4eb5",
       "reviewedLinks": [
         "mailto:kumakikai.apps@gmail.com?subject=Nocca+%E2%80%94+%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
       ],
@@ -1165,7 +1164,7 @@
         "https://kumakikai.github.io/terms/nocca/",
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "2026-09-28 release review: current App Store and Nocca source show free access with billing unavailable. Removed active trial and purchase claims while preserving privacy, retention for current data, routes, links, and historical anchors. See docs/audits/2026-09-28-nocca-release.md.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/communication-phase1.md",
         "docs/audits/2026-09-08-document-unification/communication-phase3.md"
@@ -1254,10 +1253,10 @@
     },
     "/privacy/uni-note/": {
       "source": "content/privacy/uni-note.md",
-      "sourceSHA256": "cf85bdc4ddb17df31b978669379bcdf19e097e9e2d2716ab59b5fad71977f913",
+      "sourceSHA256": "b6d755429417609550c94ff608e84706cd338ca707556af4f7e0c3ed58bfc1ce",
       "beforeSourceSHA256": "1ce170e7fd0d14584d2ecdc468a79457f8350992ef4bb9980e9e06f86481a918",
       "baselineTextSHA256": "93803e6b2db56b741b03fe641f5af12a7328a15a4fc537c6d651365c2531d538",
-      "reviewedTextSHA256": "8eb1716f70ac3817dabd33c3993efa9e4df227145edba3796349d6cb0f506707",
+      "reviewedTextSHA256": "ff1710a1e19b1e8458e0c3694fcb5742890b694b87a2662235c25941d04cc21b",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -1268,7 +1267,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
+      "reason": "2026-09-26 Uni:Note Analytics wording clarification reviewed in learning-phase3.md: fixed action categories and separate AI processing are explained; route, anchors, links and other sections are retained.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"
@@ -1317,10 +1316,10 @@
     },
     "/terms/nocca/": {
       "source": "content/terms/nocca.md",
-      "sourceSHA256": "c6b00884a99b263531d77bfc7ffd06b1cbbde24a8bb61d559c8f5a08b1a65297",
+      "sourceSHA256": "fb6d0a319079fedcc273bc1919d208aad7ca83020c39b9337cfc9d089ec4642f",
       "beforeSourceSHA256": "f38d28bb3d8f86088ce345b38f2bd4b696deeac918094bae311b8a302d1679c9",
       "baselineTextSHA256": "150df3841135c7542cbe39b7318c9d1cb53b68bb2a4e2fff8c8718855da46946",
-      "reviewedTextSHA256": "e1ba87f847342f52f72386249e1960fa27aad7f9f4ad9f892b0c1b937d407e42",
+      "reviewedTextSHA256": "37d60de566a35acfa597ad6a6770f8cf497133ed8ec8e63fcab7f1bdbe529a09",
       "reviewedLinks": [
         "https://kumakikai.github.io/privacy/nocca/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
@@ -1331,7 +1330,7 @@
         "https://kumakikai.github.io/htu/nocca/",
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Preserve AWS family communication, identifier and retention exceptions, owner/member deletion, trial and subscription distinctions. Common operator, terminology, headings, dates and official contact use the shared standard. Follow-up user decision recorded in STANDARD.md: website contact uses the official mailbox; inquiry forms remain app-only navigation. Product-specific data handling is unchanged. Bare email references are replaced by the same official mailbox with a localized product subject. Generic document-root links move to shared Product/Guide/FAQ navigation or a meaning-matched section reference; all formal routes remain.",
+      "reason": "2026-09-28 release review: current App Store and Nocca source show free access with billing unavailable. Removed outdated active trial and subscription terms, retained the future-change notice, existing links, route and historical anchors. See docs/audits/2026-09-28-nocca-release.md.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/communication-phase1.md",
         "docs/audits/2026-09-08-document-unification/communication-phase3.md"
@@ -1594,10 +1593,10 @@
     },
     "/zh-hant/privacy/uni-note/": {
       "source": "content/privacy/uni-note.zh-hant.md",
-      "sourceSHA256": "b924aa28b6c87c1293d607a454e7d27d0813f7af9e15711c7d6fa6236ad3d787",
+      "sourceSHA256": "b1c983ea24e7fa9a964105cbbfa4593e86a1362d83a21b1766cfed5cbb40aa04",
       "beforeSourceSHA256": "8f7d2938038bf870a9bb571877e438df7d81416186bb404b73fd0958d62be240",
       "baselineTextSHA256": "e779d5289199b13919a9473c3b8e88099904c4228a897fbfebf1048afd55da09",
-      "reviewedTextSHA256": "cc9beae0bdc4aef1d924d9e68f0cc91f82b7f782a9f6e328437d680c52d1a98b",
+      "reviewedTextSHA256": "f7bff47d6a39b8725d03a107507332f51aee3aba8d276e6957a58e26d059661f",
       "reviewedLinks": [
         "https://ai.google.dev/gemini-api/terms",
         "https://aws.amazon.com/compliance/data-privacy/",
@@ -1608,7 +1607,7 @@
       "removedLinks": [
         "mailto:kumakikai.apps@gmail.com"
       ],
-      "reason": "User-authorized four-document unification. Distinguish local notes, selected AI inputs, AWS/Gemini processing, purchase ledgers, Speech and Crashlytics; retain version and recording limits. Common operator, terminology, headings, dates and official contact use the shared standard. Bare email references are replaced by the same official mailbox with a localized product subject. 2026-09-25 user-authorized Analytics disclosure: the prior no-Analytics sentence is replaced with product usage purposes, automatic app-instance ID/events, fixed feature events and explicit content/advertising exclusions; other legal text and links remain unchanged. See learning-phase3.md review.",
+      "reason": "2026-09-26 Uni:Note Analytics wording clarification reviewed in learning-phase3.md: fixed action categories and separate AI processing are explained; route, anchors, links and other sections are retained.",
       "evidence": [
         "docs/audits/2026-09-08-document-unification/learning-phase1.md",
         "docs/audits/2026-09-08-document-unification/learning-phase3.md"

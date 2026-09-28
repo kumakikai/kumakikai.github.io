@@ -154,7 +154,8 @@
   {
     "id": "nocca",
     "featured": true,
-    "status": "development",
+    "status": "published",
+    "appStoreURL": "https://apps.apple.com/jp/app/id6809145321",
     "detailURL": "/notes/2026-09-06-nocca/",
     "icon": "/images/apps/nocca/icon.webp",
     "screenshots": [
@@ -176,13 +177,15 @@
       }
     ],
     "availability": {
-      "verifiedStorefronts": [],
-      "plannedStorefronts": [
+      "storefront": "jp",
+      "verifiedStorefronts": [
         "jp"
       ],
-      "coverage": "unreleased",
-      "checkedAt": "2026-09-07",
-      "storefrontURLs": {}
+      "coverage": "partial",
+      "checkedAt": "2026-09-28",
+      "storefrontURLs": {
+        "jp": "https://apps.apple.com/jp/app/nocca-%E9%9D%99%E3%81%8B%E3%81%AA%E5%AE%B6%E6%97%8F%E9%80%9A%E4%BF%A1/id6809145321?uo=4"
+      }
     },
     "operatingSystems": [
       "iOS"

@@ -128,11 +128,24 @@
     },
     "nocca": {
       "appleID": "6809145321",
-      "verifiedStorefronts": [],
-      "storefrontURLs": {},
-      "checkedAt": "2026-09-07",
-      "coverage": "unreleased",
-      "metadataByStorefront": {}
+      "verifiedStorefronts": [
+        "jp"
+      ],
+      "storefrontURLs": {
+        "jp": "https://apps.apple.com/jp/app/nocca-%E9%9D%99%E3%81%8B%E3%81%AA%E5%AE%B6%E6%97%8F%E9%80%9A%E4%BF%A1/id6809145321?uo=4"
+      },
+      "checkedAt": "2026-09-28",
+      "coverage": "partial",
+      "metadataByStorefront": {
+        "jp": {
+          "trackId": 6809145321,
+          "trackName": "Nocca - 静かな家族通信",
+          "version": "0.1.0",
+          "price": 0.0,
+          "currency": "JPY",
+          "formattedPrice": "無料"
+        }
+      }
     },
     "uni-note-pocket": {
       "appleID": "6761449487",
@@ -387,6 +400,19 @@
     }
   },
   "pageEvidence": {
+    "nocca": {
+      "jp": {
+        "url": "https://apps.apple.com/jp/app/nocca-%E9%9D%99%E3%81%8B%E3%81%AA%E5%AE%B6%E6%97%8F%E9%80%9A%E4%BF%A1/id6809145321?uo=4",
+        "finalURL": "https://apps.apple.com/jp/app/nocca-%E9%9D%99%E3%81%8B%E3%81%AA%E5%AE%B6%E6%97%8F%E9%80%9A%E4%BF%A1/id6809145321?uo=4",
+        "httpStatus": 200,
+        "canonical": "https://apps.apple.com/jp/app/nocca-%E9%9D%99%E3%81%8B%E3%81%AA%E5%AE%B6%E6%97%8F%E9%80%9A%E4%BF%A1/id6809145321",
+        "ogURL": "https://apps.apple.com/jp/app/nocca-%E9%9D%99%E3%81%8B%E3%81%AA%E5%AE%B6%E6%97%8F%E9%80%9A%E4%BF%A1/id6809145321",
+        "title": "‎Nocca - 静かな家族通信アプリ - App Store",
+        "sameAppAndStorefront": true,
+        "sha256": "b85226bb425f32ac852a7f6f359d736148c90fcfb9de853d29c1dd9baa0f461f",
+        "lookupURL": "https://itunes.apple.com/lookup?id=6809145321&country=jp"
+      }
+    },
     "smokeless": {
       "fr": {
         "url": "https://apps.apple.com/fr/app/smokeless-compteur-tabac/id6760842941?uo=4",
