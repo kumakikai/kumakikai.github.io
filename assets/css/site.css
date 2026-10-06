@@ -551,3 +551,4 @@ body.menu-open { overflow: hidden; }
   .uni-guide .uni-guide-search-results li { align-items: flex-start; flex-direction: column; gap: 0; }
 }
 @media (prefers-reduced-motion: reduce) { *,*::before,*::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
+.uni-guide .uni-upcoming-badge { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 999px; background: var(--surface-soft); border: 1px solid var(--line); font-size: .72rem; line-height: 1.7; color: var(--muted); white-space: nowrap; }

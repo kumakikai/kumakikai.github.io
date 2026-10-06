@@ -4,7 +4,7 @@ description: "集中する時間を決め、ノートを書きながら残り時
 seo_title: "ポモドーロを使いながら勉強する | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/workflows/focus/"
-lastmod: "2026-09-19"
+lastmod: "2026-10-06"
 guide_category: "workflows"
 guide_kind: "article"
 operation_ids: []
@@ -31,7 +31,7 @@ operation_ids: []
 
 ## 自分のペースを既定値にする
 
-「設定 → 学習支援 → ポモドーロ」で、次回使う時間とセット数を設定します。キャラクターも選べます。実行中のセッションの時間を変更する設定ではありません。
+「設定 → 学習支援」のポモドーロで、次回使うセット数とキャラクターを設定します。集中時間と休憩時間は、ポモドーロを開いたときに選びます。実行中のセッションの時間を変更する設定ではありません。
 
 {{< uni-guide-image slot="workflows-focus--m-m42" >}}
 

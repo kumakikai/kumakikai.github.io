@@ -1,0 +1,15 @@
+{{- /* Uni:Note 4.0.0 content. Use with % notation so inner Markdown keeps headings, TOC and nested shortcodes.
+     Switch in data/uni_note_release.json: upcoming / released / hidden. */ -}}
+{{- $r := site.Data.uni_note_release -}}
+{{- $l := index $r.labels site.Language.Lang | default (index $r.labels "ja") -}}
+{{- $note := .Get "note" | default "" -}}
+{{- $label := ne (.Get "label") "false" -}}
+{{- if and (eq $r.mode "upcoming") $label }}
+> **{{ replace (replace $l.upcoming "{v}" $r.version) "{d}" $l.date }}**{{ with $note }} {{ . }}{{ end }} {{ replace $l.notYet "{c}" $r.current }}
+
+{{ .Inner }}
+{{- else if or (eq $r.mode "released") (eq $r.mode "upcoming") }}
+{{ .Inner }}
+{{- else if ne $r.mode "hidden" -}}
+{{- errorf "Unknown Uni:Note release mode %q" $r.mode -}}
+{{- end -}}

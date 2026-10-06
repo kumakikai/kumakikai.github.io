@@ -1,0 +1,27 @@
+{
+  "_comment": "Uni:Note 4.0.0対応（2026-10-06）で追加した使い方の節・ページ。Phase 2の196操作台帳の外で管理する。",
+  "navigation_keys": [
+    "library/two-pane",
+    "timetable/setup",
+    "timetable/open",
+    "study/sticky-note",
+    "problem-sets/list",
+    "problem-sets/create",
+    "problem-sets/bulk",
+    "workflows/timetable-launch",
+    "workflows/sticky-note-memo",
+    "workflows/problem-set-sheet",
+    "workflows/web-screenshot",
+    "writing/text-shapes"
+  ],
+  "routes": {
+    "/htu/uni-note/timetable/": "content/uni-note-guide/timetable.md",
+    "/htu/uni-note/workflows/timetable-launch/": "content/uni-note-guide/workflows-timetable-launch.md",
+    "/htu/uni-note/workflows/sticky-note-memo/": "content/uni-note-guide/workflows-sticky-note-memo.md",
+    "/htu/uni-note/workflows/problem-set-sheet/": "content/uni-note-guide/workflows-problem-set-sheet.md",
+    "/htu/uni-note/workflows/web-screenshot/": "content/uni-note-guide/workflows-web-screenshot.md"
+  },
+  "categories": [
+    "timetable"
+  ]
+}

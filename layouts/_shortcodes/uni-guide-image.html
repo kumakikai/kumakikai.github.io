@@ -1,8 +1,10 @@
 {{- $id := .Get "slot" -}}
 {{- $slot := index site.Data.uni_guide_images $id -}}
+{{- $hiddenRelease := and (.Get "release") (eq site.Data.uni_note_release.mode "hidden") -}}
 {{- if not $slot -}}{{ errorf "Unknown Uni:Note image slot %q at %s" $id .Position }}{{- end -}}
 {{- /* Pending slots deliberately emit no markup, labels, IDs, or empty figures. */ -}}
-{{- if in (slice "approved" "legacy-approved") $slot.status -}}
+{{- if $hiddenRelease -}}
+{{- else if in (slice "approved" "legacy-approved") $slot.status -}}
   {{- if not (and $slot.src $slot.alt) -}}{{ errorf "Approved image slot needs src and alt: %s" $id }}{{- end -}}
   {{- with resources.Get $slot.src -}}
     {{- $display := 560 -}}

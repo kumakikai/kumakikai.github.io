@@ -17,7 +17,7 @@
     "purpose": "ホームの完成状態",
     "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/start/#screens",
@@ -35,7 +35,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "最近使ったノート、教科カード、学期フォルダが並ぶホーム"
+    "capture_state": "最近使ったノート、教科カード、学期フォルダが並ぶホーム",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "start-screens--n-m05": {
     "page": "start/screens",
@@ -50,7 +51,7 @@
     "purpose": "教科内のノート一覧",
     "state": "「第8回 マクロ経済」「第8回 演習」等があり、ページ数・新規ノート・ハンドルが見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/start/#screens",
@@ -68,7 +69,8 @@
       1460
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "経済学のノート一覧と新規ノートボタン、各ノートの並べ替えハンドル"
+    "capture_state": "経済学のノート一覧と新規ノートボタン、各ノートの並べ替えハンドル",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "start-screens--m-m14": {
     "page": "start/screens",
@@ -101,7 +103,7 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/start/#screens",
@@ -119,7 +121,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "左側にGDP資料、右側の余白に手書きの式を配置したノート"
+    "capture_state": "左側にGDP資料、右側の余白に手書きの式を配置したノート",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "start-first-note--n-m02": {
     "page": "start/first-note",
@@ -131,7 +134,7 @@
     "purpose": "ホームの追加メニュー",
     "state": "ホーム＋を開き、教科・フォルダの追加項目を表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "src": "images/guides/uni-note/un35/un35-002-home-add-menu-ja.png",
@@ -148,7 +151,8 @@
       2752,
       2064
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "start-first-note--n-m01": {
     "page": "start/first-note",
@@ -168,10 +172,11 @@
     "purpose": "ホームの完成状態",
     "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/start/#first-note"
+    "url": "/htu/uni-note/start/#first-note",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "start-first-note--m-m14": {
     "page": "start/first-note",
@@ -204,10 +209,11 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/start/#first-note"
+    "url": "/htu/uni-note/start/#first-note",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-subjects--n-m01": {
     "page": "library/subjects",
@@ -227,7 +233,7 @@
     "purpose": "ホームの完成状態",
     "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/library/#subjects",
@@ -245,7 +251,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "最近使ったノート、教科カード、学期フォルダが並ぶホーム"
+    "capture_state": "最近使ったノート、教科カード、学期フォルダが並ぶホーム",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-subjects--n-m04": {
     "page": "library/subjects",
@@ -257,7 +264,7 @@
     "purpose": "教科の長押しメニュー",
     "state": "経済学カード長押し。編集・削除等の項目が見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/library/#subjects",
@@ -275,7 +282,8 @@
       1460
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "教科カードを長押しして表示した編集・削除メニュー"
+    "capture_state": "教科カードを長押しして表示した編集・削除メニュー",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-subjects--n-m08": {
     "page": "library/subjects",
@@ -287,7 +295,7 @@
     "purpose": "本棚カードの並べ替え途中",
     "state": "経済学カードの並べ替えハンドルを保持し、挿入位置を表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/library/#subjects",
@@ -305,7 +313,8 @@
       1660
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "本棚で教科カードをドラッグして並べ替えている状態"
+    "capture_state": "本棚で教科カードをドラッグして並べ替えている状態",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-subjects--n-m20": {
     "page": "library/subjects",
@@ -317,7 +326,7 @@
     "purpose": "教科削除の確認",
     "state": "削除確認用教科と配下の削除確認用ノートを削除する確認。対象名・配下データへの影響を表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/library/#subjects",
@@ -335,7 +344,8 @@
       1300
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "教科をゴミ箱へ移す前の削除確認"
+    "capture_state": "教科をゴミ箱へ移す前の削除確認",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-subjects--s-m15": {
     "page": "library/subjects",
@@ -352,10 +362,11 @@
     "purpose": "ゴミ箱で教科・個別ノートを見分ける",
     "state": "削除確認用教科（子＝削除確認用ノート）と、経済学から個別削除した教材操作練習が見えるゴミ箱。教科と個別ノートの復元/完全削除の対象を区別できる。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/library/#subjects"
+    "url": "/htu/uni-note/library/#subjects",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-folders--n-m01": {
     "page": "library/folders",
@@ -375,10 +386,11 @@
     "purpose": "ホームの完成状態",
     "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/library/#folders"
+    "url": "/htu/uni-note/library/#folders",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-folders--n-m11": {
     "page": "library/folders",
@@ -390,7 +402,7 @@
     "purpose": "教科をフォルダへ入れる途中",
     "state": "教科カード本体をドラッグし、フォルダが受入ハイライト状態。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/library/#folders",
@@ -408,7 +420,8 @@
       1660
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "教科カードを学期フォルダへ重ねて移動している状態"
+    "capture_state": "教科カードを学期フォルダへ重ねて移動している状態",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-folders--n-m12": {
     "page": "library/folders",
@@ -421,7 +434,7 @@
     "purpose": "フォルダ内一覧",
     "state": "経済学・資料ほかの教科行と、ノート一覧・ハンドル・閉じるを表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/library/#folders",
@@ -439,7 +452,8 @@
       1740
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "2026年度 秋学期フォルダ内の経済学と資料用教科"
+    "capture_state": "2026年度 秋学期フォルダ内の経済学と資料用教科",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-folders--n-m13": {
     "page": "library/folders",
@@ -451,10 +465,11 @@
     "purpose": "フォルダ内の並べ替え途中",
     "state": "教科行のハンドルを保持し、挿入位置が変わった状態。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/library/#folders"
+    "url": "/htu/uni-note/library/#folders",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-folders--n-m14": {
     "page": "library/folders",
@@ -466,7 +481,7 @@
     "purpose": "フォルダの長押しメニュー",
     "state": "ホームのフォルダを長押しし編集・削除を表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/library/#folders",
@@ -484,7 +499,8 @@
       1490
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "学期フォルダを長押しして表示した編集・フォルダ削除メニュー"
+    "capture_state": "学期フォルダを長押しして表示した編集・フォルダ削除メニュー",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-folders--n-m15": {
     "page": "library/folders",
@@ -496,10 +512,11 @@
     "purpose": "教科を残してフォルダを削除する確認",
     "state": "削除確認文・キャンセル・削除が見える。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/library/#folders"
+    "url": "/htu/uni-note/library/#folders",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-folders--n-m17": {
     "page": "library/folders",
@@ -511,10 +528,11 @@
     "purpose": "フォルダ内教科のメニュー",
     "state": "資料教科のメニューで「フォルダから出す」を表示。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/library/#folders"
+    "url": "/htu/uni-note/library/#folders",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-folders--n-m18": {
     "page": "library/folders",
@@ -526,7 +544,7 @@
     "purpose": "フォルダから本棚へ戻すドラッグ",
     "state": "フォルダ内の教科を保持し、本棚へ戻すドロップ領域を表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/library/#folders",
@@ -544,7 +562,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "フォルダから教科を本棚へ戻すドラッグと画面下部の移動先"
+    "capture_state": "フォルダから教科を本棚へ戻すドラッグと画面下部の移動先",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-search--n-m09": {
     "page": "library/search",
@@ -557,7 +576,7 @@
     "purpose": "タイトル検索結果",
     "state": "「第8回」で検索し、所属教科が異なるノートの結果を表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "src": "images/guides/uni-note/un35/un35-008-note-search-results-ja.png",
@@ -575,7 +594,8 @@
       690
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "第8回で検索し、複数のノートが見つかった検索結果"
+    "capture_state": "第8回で検索し、複数のノートが見つかった検索結果",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "library-search--n-m01": {
     "page": "library/search",
@@ -595,10 +615,11 @@
     "purpose": "ホームの完成状態",
     "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/library/#search"
+    "url": "/htu/uni-note/library/#search",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-manage--n-m01": {
     "page": "notebooks/manage",
@@ -618,10 +639,11 @@
     "purpose": "ホームの完成状態",
     "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/notebooks/#manage"
+    "url": "/htu/uni-note/notebooks/#manage",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-manage--n-m05": {
     "page": "notebooks/manage",
@@ -636,7 +658,7 @@
     "purpose": "教科内のノート一覧",
     "state": "「第8回 マクロ経済」「第8回 演習」等があり、ページ数・新規ノート・ハンドルが見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/notebooks/#manage",
@@ -654,7 +676,8 @@
       1460
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "経済学のノート一覧と新規ノートボタン、各ノートの並べ替えハンドル"
+    "capture_state": "経済学のノート一覧と新規ノートボタン、各ノートの並べ替えハンドル",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-manage--n-m06": {
     "page": "notebooks/manage",
@@ -668,7 +691,7 @@
     "purpose": "ノート行のスワイプメニュー",
     "state": "「教材操作練習」ノートを左へスワイプし、名前編集・保護・削除が見える。未保護。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/notebooks/#manage",
@@ -686,7 +709,8 @@
       1430
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "ノート行をスワイプして表示した削除・保護・編集ボタン"
+    "capture_state": "ノート行をスワイプして表示した削除・保護・編集ボタン",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-manage--n-m07": {
     "page": "notebooks/manage",
@@ -698,7 +722,7 @@
     "purpose": "ノート一覧の並べ替え途中",
     "state": "「第8回 演習」のハンドルをつかみ、別の位置へ移動中。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/notebooks/#manage",
@@ -716,7 +740,8 @@
       1430
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "ノート一覧で並べ替えハンドルをドラッグしている状態"
+    "capture_state": "ノート一覧で並べ替えハンドルをドラッグしている状態",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-manage--n-m58": {
     "page": "notebooks/manage",
@@ -728,7 +753,7 @@
     "purpose": "ノートを表示しながら開くノート一覧",
     "state": "本文と同じ教科の一覧ペインを同時表示。選択中ノートが分かる。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/notebooks/#manage",
@@ -746,7 +771,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "ノートを表示したまま左側に開いた同じ教科のノート一覧"
+    "capture_state": "ノートを表示したまま左側に開いた同じ教科のノート一覧",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-manage--s-m15": {
     "page": "notebooks/manage",
@@ -763,10 +789,11 @@
     "purpose": "ゴミ箱で教科・個別ノートを見分ける",
     "state": "削除確認用教科（子＝削除確認用ノート）と、経済学から個別削除した教材操作練習が見えるゴミ箱。教科と個別ノートの復元/完全削除の対象を区別できる。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/notebooks/#manage"
+    "url": "/htu/uni-note/notebooks/#manage",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-pages--n-m31": {
     "page": "notebooks/pages",
@@ -780,7 +807,7 @@
     "purpose": "通常ノートのページ境界",
     "state": "末尾側に筆記済みページと次の空白ページの境界・番号が見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/notebooks/#pages",
@@ -798,7 +825,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "通常ノートでページ2の下端と次のページが見える状態"
+    "capture_state": "通常ノートでページ2の下端と次のページが見える状態",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-pages--n-m33": {
     "page": "notebooks/pages",
@@ -811,7 +839,7 @@
     "purpose": "ページ一覧の静止状態",
     "state": "3ページ以上の教材サムネイル・ページ番号・選択中ページを表示。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/notebooks/#pages",
@@ -829,7 +857,8 @@
       780
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "ページ一覧のページ番号と現在選択しているページの青い枠"
+    "capture_state": "ページ一覧のページ番号と現在選択しているページの青い枠",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-pages--n-m34": {
     "page": "notebooks/pages",
@@ -841,10 +870,11 @@
     "purpose": "ページサムネイルの並べ替え途中",
     "state": "サムネイルが持ち上がり、挿入先が見える。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/notebooks/#pages"
+    "url": "/htu/uni-note/notebooks/#pages",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-pages--n-m35": {
     "page": "notebooks/pages",
@@ -856,7 +886,7 @@
     "purpose": "ページの削除メニュー",
     "state": "サムネイル長押し後、削除項目が見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/notebooks/#pages",
@@ -874,7 +904,8 @@
       850
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "ページ一覧で対象ページを長押しして表示した削除メニュー"
+    "capture_state": "ページ一覧で対象ページを長押しして表示した削除メニュー",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-pages--n-m36": {
     "page": "notebooks/pages",
@@ -886,10 +917,11 @@
     "purpose": "ページ削除の確認",
     "state": "元に戻せない削除の確認文と操作ボタンを表示。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/notebooks/#pages"
+    "url": "/htu/uni-note/notebooks/#pages",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-vertical--n-m19": {
     "page": "notebooks/vertical",
@@ -902,7 +934,7 @@
     "purpose": "縦ノート教科の作成フォーム",
     "state": "縦罫を選び、「縦ノート（見開き表示）として使う」がON。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/notebooks/#vertical",
@@ -920,7 +952,8 @@
       1730
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "縦罫を選び縦ノートを有効にした教科作成画面"
+    "capture_state": "縦罫を選び縦ノートを有効にした教科作成画面",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-vertical--n-m31": {
     "page": "notebooks/vertical",
@@ -934,10 +967,11 @@
     "purpose": "通常ノートのページ境界",
     "state": "末尾側に筆記済みページと次の空白ページの境界・番号が見える。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/notebooks/#vertical"
+    "url": "/htu/uni-note/notebooks/#vertical",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-vertical--m-m14": {
     "page": "notebooks/vertical",
@@ -970,10 +1004,11 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/notebooks/#vertical"
+    "url": "/htu/uni-note/notebooks/#vertical",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "notebooks-vertical--m-m18": {
     "page": "notebooks/vertical",
@@ -987,7 +1022,7 @@
     "purpose": "縦ノートに大きなPDFと手書き注釈",
     "state": "縦ノートに教材PDFがフィットし、資料上に注釈。ページ四辺と縦横比由来の余白が見える",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/notebooks/#vertical",
@@ -1005,7 +1040,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み"
+    "capture_state": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-pens--n-m37": {
     "page": "writing/pens",
@@ -1020,7 +1056,7 @@
     "purpose": "ペンの詳細パネル",
     "state": "3線種、固定色、カスタム色、太さを表示。カスタム色枠が選択された状態。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "src": "images/guides/uni-note/un35/un35-018-pen-panel-ja.png",
@@ -1037,7 +1073,8 @@
       2250,
       730
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-pens--n-m39": {
     "page": "writing/pens",
@@ -1050,10 +1087,11 @@
     "purpose": "システムの色選択画面",
     "state": "カスタム色を開いた標準カラーピッカー。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/writing/#pen"
+    "url": "/htu/uni-note/writing/#pen",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-pens--n-m40": {
     "page": "writing/pens",
@@ -1066,7 +1104,7 @@
     "purpose": "蛍光ペンの詳細パネル",
     "state": "蛍光ペンの色・太さ・濃さスライダーが見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/writing/#pen",
@@ -1083,7 +1121,8 @@
       2250,
       800
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-pens--m-m14": {
     "page": "writing/pens",
@@ -1116,10 +1155,11 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/writing/#pen"
+    "url": "/htu/uni-note/writing/#pen",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-erasing--n-m41": {
     "page": "writing/erasing",
@@ -1133,7 +1173,7 @@
     "purpose": "消しゴムの詳細パネル",
     "state": "線消し選択中で、ピクセルとページをクリアも見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/writing/#eraser",
@@ -1150,7 +1190,8 @@
       2250,
       720
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-erasing--n-m42": {
     "page": "writing/erasing",
@@ -1163,7 +1204,7 @@
     "purpose": "線消しと部分消去の結果比較",
     "state": "同様に描いた3つの線を用意し、原形・線全体消去後・一部分消去後を同一ページに残す。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/writing/#eraser",
@@ -1181,7 +1222,8 @@
       1400
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "線消しで下の線全体を消した左側と、部分消去で線の中央だけを消した右側"
+    "capture_state": "線消しで下の線全体を消した左側と、部分消去で線の中央だけを消した右側",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-erasing--n-m43": {
     "page": "writing/erasing",
@@ -1193,10 +1235,11 @@
     "purpose": "手書きだけを削除する確認",
     "state": "「ページをクリア」後の確認文を表示。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/writing/#eraser"
+    "url": "/htu/uni-note/writing/#eraser",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-erasing--n-m44": {
     "page": "writing/erasing",
@@ -1208,10 +1251,11 @@
     "purpose": "手書きクリア後に残る素材",
     "state": "M-M14と同じ対象ページで、手書きのみをクリアした実結果。資料と暗記マーカーは残る。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/writing/#eraser"
+    "url": "/htu/uni-note/writing/#eraser",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-palette--n-m45": {
     "page": "writing/palette",
@@ -1224,7 +1268,7 @@
     "purpose": "移動したパレット",
     "state": "通常ノートでパレットを左側へ移した実状態。基本全景M-M14の右側配置とは別原本。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/writing/#palette",
@@ -1242,7 +1286,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "ノート画面の左側に配置したパレット"
+    "capture_state": "ノート画面の左側に配置したパレット",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-palette--n-m47": {
     "page": "writing/palette",
@@ -1255,7 +1300,7 @@
     "purpose": "収納中のパレット",
     "state": "自動収納が働き、小さなツールアイコンだけが見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/writing/#palette",
@@ -1273,7 +1318,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "筆記中に小さく収納されたパレット"
+    "capture_state": "筆記中に小さく収納されたパレット",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-palette--m-m14": {
     "page": "writing/palette",
@@ -1306,10 +1352,11 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/writing/#palette"
+    "url": "/htu/uni-note/writing/#palette",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-ruler--n-m49": {
     "page": "writing/ruler",
@@ -1325,7 +1372,7 @@
     "purpose": "定規の位置と角度",
     "state": "蛍光ペンを選択し、定規が45度の実状態。定規の辺と角度表示が読める。付箋への定規補正は含めない。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/writing/#ruler",
@@ -1343,7 +1390,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "資料と手書きのあるノートで表示した横向きの定規"
+    "capture_state": "資料と手書きのあるノートで表示した横向きの定規",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-ruler--m-m14": {
     "page": "writing/ruler",
@@ -1376,10 +1424,11 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/writing/#ruler"
+    "url": "/htu/uni-note/writing/#ruler",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-move--n-m50": {
     "page": "writing/move",
@@ -1394,7 +1443,7 @@
     "purpose": "手書き範囲の選択状態",
     "state": "M-M14の余白にある注釈をPencilで囲み、選択した筆跡が浮いている。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/writing/#selection",
@@ -1412,7 +1461,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "手書きの式を囲んで選択した状態"
+    "capture_state": "手書きの式を囲んで選択した状態",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-move--n-m51": {
     "page": "writing/move",
@@ -1425,7 +1475,7 @@
     "purpose": "手書きの配置を整えた 完成",
     "state": "余白の注釈を移し、直線・資料との位置関係が整った状態。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/writing/#selection",
@@ -1443,7 +1493,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "選択した手書きの式を余白の下方へ移動した結果"
+    "capture_state": "選択した手書きの式を余白の下方へ移動した結果",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "writing-move--m-m14": {
     "page": "writing/move",
@@ -1476,10 +1527,11 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/writing/#selection"
+    "url": "/htu/uni-note/writing/#selection",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-photos--m-m02": {
     "page": "materials/photos",
@@ -1491,10 +1543,11 @@
     "purpose": "書類写真の取得元メニュー",
     "state": "「カメラで撮影」「写真から選択」の2経路",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#photos"
+    "url": "/htu/uni-note/materials/#photos",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-photos--m-m03": {
     "page": "materials/photos",
@@ -1538,7 +1591,7 @@
     "purpose": "縦ノートへ普通の写真を貼った初期状態",
     "state": "書類写真ではなく通常の写真貼付。初期サイズ、未拡大",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/materials/#photos",
@@ -1556,7 +1609,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "縦ノートに写真ライブラリから小さく貼り付けた資料画像"
+    "capture_state": "縦ノートに写真ライブラリから小さく貼り付けた資料画像",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-photos--r-m05": {
     "page": "materials/photos",
@@ -1569,7 +1623,7 @@
     "purpose": "その他メニュー",
     "state": "写真・書類写真・PDF貼付・PDF出力・問題集生成の実メニューを表示",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/materials/#photos",
@@ -1586,7 +1640,8 @@
       2752,
       650
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-pdf--m-m06": {
     "page": "materials/pdf",
@@ -1598,10 +1653,11 @@
     "purpose": "PDF 1ページ選択",
     "state": "4ページのうち1ページだけ選択。ページ番号・選択状態・貼付操作",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#pdf"
+    "url": "/htu/uni-note/materials/#pdf",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-pdf--m-m07": {
     "page": "materials/pdf",
@@ -1674,7 +1730,7 @@
     "purpose": "分割PDFの左半分・注釈後",
     "state": "ノート本文に分割後の左半分（元教材p1、識別A）が見え、短い実注釈がある。ページ一覧の代替サムネイルでは撮らない。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/materials/#pdf",
@@ -1692,7 +1748,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "見開きPDFから分割した左半分の資料と手書きの注釈"
+    "capture_state": "見開きPDFから分割した左半分の資料と手書きの注釈",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-pdf--m-m10": {
     "page": "materials/pdf",
@@ -1707,7 +1764,7 @@
     "purpose": "通常ノートのPDF初期配置",
     "state": "PDF初期貼付後で固定。文字を書いていない通常ノート",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/materials/#pdf",
@@ -1724,7 +1781,8 @@
       2752,
       2064
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-pdf--m-m09r": {
     "page": "materials/pdf",
@@ -1736,7 +1794,7 @@
     "purpose": "分割PDFの右半分・注釈後",
     "state": "同じ分割取込みで次にできた右半分（元教材p2、識別B）。左半分と異なる実ノートページ。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/materials/#pdf",
@@ -1754,7 +1812,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "見開きPDFから分割した右半分の資料と手書きの下線"
+    "capture_state": "見開きPDFから分割した右半分の資料と手書きの下線",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-arrange--m-m10": {
     "page": "materials/arrange",
@@ -1769,10 +1828,11 @@
     "purpose": "通常ノートのPDF初期配置",
     "state": "PDF初期貼付後で固定。文字を書いていない通常ノート",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#arrange"
+    "url": "/htu/uni-note/materials/#arrange",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-arrange--m-m11": {
     "page": "materials/arrange",
@@ -1787,7 +1847,7 @@
     "purpose": "PDF選択中",
     "state": "同じPDFを選択し、選択枠と回転ボタンが表示。配置・サイズはまだ初期状態",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/materials/#arrange",
@@ -1805,7 +1865,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "選択されたPDFの青い選択枠とサイズ変更ハンドル"
+    "capture_state": "選択されたPDFの青い選択枠とサイズ変更ハンドル",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-arrange--m-m12": {
     "page": "materials/arrange",
@@ -1817,10 +1878,11 @@
     "purpose": "PDFを移動した結果",
     "state": "M-M11から資料位置だけを変更。サイズ・倍率・紙面罫線は同じ",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#arrange"
+    "url": "/htu/uni-note/materials/#arrange",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-arrange--m-m13": {
     "page": "materials/arrange",
@@ -1832,7 +1894,7 @@
     "purpose": "PDFサイズを変更した結果",
     "state": "M-M12と同じ位置基準で資料自身を縮小。ページ全体の倍率は変えない",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/materials/#arrange",
@@ -1850,7 +1912,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "PDFだけを縮小し、周囲に余白を作った結果"
+    "capture_state": "PDFだけを縮小し、周囲に余白を作った結果",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-arrange--m-m14": {
     "page": "materials/arrange",
@@ -1883,10 +1946,11 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#arrange"
+    "url": "/htu/uni-note/materials/#arrange",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-arrange--m-m15": {
     "page": "materials/arrange",
@@ -1898,10 +1962,11 @@
     "purpose": "素材の削除操作",
     "state": "固定を解除した資料を長押しし削除操作が出ている",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#arrange"
+    "url": "/htu/uni-note/materials/#arrange",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-vertical--n-m19": {
     "page": "materials/vertical",
@@ -1914,10 +1979,11 @@
     "purpose": "縦ノート教科の作成フォーム",
     "state": "縦罫を選び、「縦ノート（見開き表示）として使う」がON。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#vertical"
+    "url": "/htu/uni-note/materials/#vertical",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-vertical--m-m14": {
     "page": "materials/vertical",
@@ -1950,10 +2016,11 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#vertical"
+    "url": "/htu/uni-note/materials/#vertical",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-vertical--m-m18": {
     "page": "materials/vertical",
@@ -1967,7 +2034,7 @@
     "purpose": "縦ノートに大きなPDFと手書き注釈",
     "state": "縦ノートに教材PDFがフィットし、資料上に注釈。ページ四辺と縦横比由来の余白が見える",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/materials/#vertical",
@@ -1985,7 +2052,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み"
+    "capture_state": "縦ノートに大きく配置したPDFへの手書きの下線と丸囲み",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-vertical--m-m19": {
     "page": "materials/vertical",
@@ -1998,10 +2066,11 @@
     "purpose": "縦ノートへ普通の写真を貼った初期状態",
     "state": "書類写真ではなく通常の写真貼付。初期サイズ、未拡大",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#vertical"
+    "url": "/htu/uni-note/materials/#vertical",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-vertical--m-m20": {
     "page": "materials/vertical",
@@ -2013,10 +2082,11 @@
     "purpose": "縦ノートで普通の写真を拡大した選択状態",
     "state": "M-M19の写真自身が大きくなり、選択枠がある。画面倍率は同じ",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/materials/#vertical"
+    "url": "/htu/uni-note/materials/#vertical",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "materials-export--m-m21": {
     "page": "materials/export",
@@ -2029,7 +2099,7 @@
     "purpose": "PDF出力範囲の選択",
     "state": "「このノートのみ」が選択され、全体の選択肢と対象名も確認できる",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/materials/#export",
@@ -2046,7 +2116,8 @@
       2040,
       1370
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "recording-capture--m-m23": {
     "page": "recording/capture",
@@ -2059,7 +2130,7 @@
     "purpose": "録音開始前パネル",
     "state": "日本語を選択した待機中。赤い開始ボタン・言語表示",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "src": "images/guides/uni-note/un35/un35-042-recording-ready-ja.png",
@@ -2076,7 +2147,8 @@
       880,
       2064
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "recording-capture--m-m24": {
     "page": "recording/capture",
@@ -2343,10 +2415,11 @@
     "purpose": "学習支援の共通設定全体",
     "state": "AI回答言語＝日本語、文字起こし言語＝日本語、AI要約既定形式＝勉強用、ホーム問題集表示ON。6行を縦向きで読める位置。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/recording/#summary"
+    "url": "/htu/uni-note/recording/#summary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "recording-paste--m-m32": {
     "page": "recording/paste",
@@ -2394,7 +2467,7 @@
     "purpose": "PDF教材を付箋で隠した暗記の完成例",
     "state": "固定PDF上でC/I/G/NXの定義または解答を付箋で隠す。PDFの本文と付箋が読める",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "src": "images/guides/uni-note/un35/un35-053-sticky-pdf-common.png",
@@ -2412,7 +2485,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "PDFの用語と計算結果を黄色い付箋で隠した暗記教材"
+    "capture_state": "PDFの用語と計算結果を黄色い付箋で隠した暗記教材",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-sticky--n-m56": {
     "page": "study/sticky",
@@ -2426,10 +2500,11 @@
     "purpose": "3.5.0パレット配置設定",
     "state": "パレットの順序と利用できるツール欄が見える。付箋マーカーは一旦非表示状態。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/study/#sticky"
+    "url": "/htu/uni-note/study/#sticky",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-sticky--m-m37": {
     "page": "study/sticky",
@@ -2443,7 +2518,7 @@
     "purpose": "付箋マーカーの設定パネル",
     "state": "付箋を選択し、色チップ・3段階の太さ・選択アイコンを表示",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/study/#sticky",
@@ -2460,7 +2535,8 @@
       2260,
       730
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-sticky--m-m39": {
     "page": "study/sticky",
@@ -2473,7 +2549,7 @@
     "purpose": "付箋の一部を透過して答え合わせ",
     "state": "M-M38と同じ紙面で1か所だけ透過。他の付箋は不透明",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/study/#sticky",
@@ -2491,7 +2567,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "上側の付箋だけを透過し、用語の答えを確認した状態"
+    "capture_state": "上側の付箋だけを透過し、用語の答えを確認した状態",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-sticky--m-m40": {
     "page": "study/sticky",
@@ -2503,10 +2580,11 @@
     "purpose": "付箋の削除ボタン",
     "state": "対象付箋を指長押しした削除UI",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/study/#sticky"
+    "url": "/htu/uni-note/study/#sticky",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-pomodoro--m-m42": {
     "page": "study/pomodoro",
@@ -2518,7 +2596,7 @@
     "purpose": "ポモドーロ開始前の設定",
     "state": "集中・休憩・セット数を設定したpopover。開始前",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/study/#pomodoro",
@@ -2535,7 +2613,8 @@
       2752,
       1350
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-pomodoro--m-m43": {
     "page": "study/pomodoro",
@@ -2548,7 +2627,7 @@
     "purpose": "ポモドーロを使いながら筆記した完成例",
     "state": "教材ノートに手書きメモがあり、上部で集中状態・残り時間が表示",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/study/#pomodoro",
@@ -2566,7 +2645,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "自作GDP資料の横に式を書き、ポモドーロを実行しているノート"
+    "capture_state": "自作GDP資料の横に式を書き、ポモドーロを実行しているノート",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-pomodoro--m-m44": {
     "page": "study/pomodoro",
@@ -2578,7 +2658,7 @@
     "purpose": "ポモドーロ実行中の停止操作",
     "state": "実行中popoverの状態・現在セット・残り時間・停止",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/study/#pomodoro",
@@ -2595,7 +2675,8 @@
       2752,
       1350
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-pomodoro--m-m46": {
     "page": "study/pomodoro",
@@ -2607,10 +2688,11 @@
     "purpose": "ポモドーロの既定時間設定",
     "state": "設定→学習支援で集中時間・休憩時間・セット数",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/study/#pomodoro"
+    "url": "/htu/uni-note/study/#pomodoro",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-laser--m-m10": {
     "page": "study/laser",
@@ -2625,10 +2707,11 @@
     "purpose": "通常ノートのPDF初期配置",
     "state": "PDF初期貼付後で固定。文字を書いていない通常ノート",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/study/#laser"
+    "url": "/htu/uni-note/study/#laser",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "study-laser--m-m48": {
     "page": "study/laser",
@@ -2641,10 +2724,11 @@
     "purpose": "PDFをレーザーポインターで説明",
     "state": "固定PDF上にPencil接触中の赤い点・軌跡と確定後レーザーON UI",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/study/#laser"
+    "url": "/htu/uni-note/study/#laser",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "ai-answer--r-m04": {
     "page": "ai/answer",
@@ -2681,7 +2765,7 @@
     "purpose": "PDFの演習を囲んだ状態",
     "state": "通常ノートのPDF p3。Y=70+15+20−5の条件全体を閉じた線で囲んだ状態",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/ai/#answer",
@@ -2699,7 +2783,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "PDF内のGDP問題を囲って解答の対象として選んだ状態"
+    "capture_state": "PDF内のGDP問題を囲って解答の対象として選んだ状態",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "ai-answer--r-m03": {
     "page": "ai/answer",
@@ -2714,7 +2799,7 @@
     "purpose": "囲って解答の範囲確認",
     "state": "読み取る問題、予想消費量、解答する、キャンセルが読める確認画面",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/ai/#answer",
@@ -2732,7 +2817,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "囲んだ問題の内容を解析前に確認する画面"
+    "capture_state": "囲んだ問題の内容を解析前に確認する画面",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "ai-settings--r-m01": {
     "page": "ai/settings",
@@ -2746,7 +2832,7 @@
     "purpose": "学習支援の共通設定全体",
     "state": "AI回答言語＝日本語、文字起こし言語＝日本語、AI要約既定形式＝勉強用、ホーム問題集表示ON。6行を縦向きで読める位置。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/ai/#settings",
@@ -2763,7 +2849,8 @@
       2064,
       1510
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "problem-sets-generate--r-m05": {
     "page": "problem-sets/generate",
@@ -2776,7 +2863,7 @@
     "purpose": "その他メニュー",
     "state": "写真・書類写真・PDF貼付・PDF出力・問題集生成の実メニューを表示",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/#generate",
@@ -2793,7 +2880,8 @@
       2752,
       650
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-generate--r-m06": {
     "page": "problem-sets/generate",
@@ -2807,7 +2895,7 @@
     "purpose": "問題集生成の実行確認",
     "state": "第8回 マクロ経済のp1〜p3選択後。目安問題数・消費量・残量を表示",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/#generate",
@@ -2825,7 +2913,8 @@
       1350
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "問題集作成前に対象ノートと対象ページを確認する画面"
+    "capture_state": "問題集作成前に対象ノートと対象ページを確認する画面",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-generate--r-m07": {
     "page": "problem-sets/generate",
@@ -2838,7 +2927,7 @@
     "purpose": "問題集の対象ページ選択",
     "state": "6ページ中p1,p2,p3のみ選択。p4〜p6は未選択",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/#generate",
@@ -2856,7 +2945,8 @@
       1500
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "問題集に使うノートのページ2を選択した状態"
+    "capture_state": "問題集に使うノートのページ2を選択した状態",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-generate--r-m09": {
     "page": "problem-sets/generate",
@@ -2871,10 +2961,11 @@
     "purpose": "AI問題の候補レビュー",
     "state": "実生成候補の問題・答え・解説・出典/元ページ・採否操作が読める",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/problem-sets/#generate"
+    "url": "/htu/uni-note/problem-sets/#generate",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-generate--r-m10": {
     "page": "problem-sets/generate",
@@ -2886,10 +2977,11 @@
     "purpose": "問題集の保存確認",
     "state": "タイトル『第8回 GDPの復習』、実採用数、元ノート、保存操作",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/problem-sets/#generate"
+    "url": "/htu/uni-note/problem-sets/#generate",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-review--r-m11": {
     "page": "problem-sets/review",
@@ -2904,10 +2996,11 @@
     "purpose": "ホームの問題集一覧",
     "state": "AI由来『第8回 GDPの復習』と手動『第8回 用語チェック』の2カード、＋、切替",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/problem-sets/#review"
+    "url": "/htu/uni-note/problem-sets/#review",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-review--r-m13": {
     "page": "problem-sets/review",
@@ -2921,7 +3014,7 @@
     "purpose": "答えを隠した復習カード",
     "state": "GDP計算問題の答えを隠した初期状態。前へ/次へと問題番号",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/#review",
@@ -2939,7 +3032,8 @@
       1550
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "手動問題集の復習カードで解答を隠した状態"
+    "capture_state": "手動問題集の復習カードで解答を隠した状態",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-review--r-m14": {
     "page": "problem-sets/review",
@@ -2952,7 +3046,7 @@
     "purpose": "手修正後の解答を表示した復習",
     "state": "同じ問題の答えを開き、追記した解説を表示",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/#review",
@@ -2970,7 +3064,8 @@
       1550
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "手動で作成・編集したGDP問題の解答と解説を表示した復習カード"
+    "capture_state": "手動で作成・編集したGDP問題の解答と解説を表示した復習カード",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-edit--r-m11": {
     "page": "problem-sets/edit",
@@ -2985,10 +3080,11 @@
     "purpose": "ホームの問題集一覧",
     "state": "AI由来『第8回 GDPの復習』と手動『第8回 用語チェック』の2カード、＋、切替",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/problem-sets/#edit"
+    "url": "/htu/uni-note/problem-sets/#edit",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-edit--r-m14": {
     "page": "problem-sets/edit",
@@ -3001,10 +3097,11 @@
     "purpose": "手修正後の解答を表示した復習",
     "state": "同じ問題の答えを開き、追記した解説を表示",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/problem-sets/#edit"
+    "url": "/htu/uni-note/problem-sets/#edit",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-edit--r-m15": {
     "page": "problem-sets/edit",
@@ -3016,7 +3113,7 @@
     "purpose": "手動問題集の入力",
     "state": "第8回 用語チェックを新規作成。必須と任意欄を短い自作問題で入力",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/#edit",
@@ -3034,7 +3131,8 @@
       1720
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "問題集タイトル、問題文、解答、解説を入力した手動作成画面"
+    "capture_state": "問題集タイトル、問題文、解答、解説を入力した手動作成画面",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-edit--r-m16": {
     "page": "problem-sets/edit",
@@ -3047,7 +3145,7 @@
     "purpose": "問題集カード長押しメニュー",
     "state": "GDPの復習カードを長押し。編集と削除を表示",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/#edit",
@@ -3065,7 +3163,8 @@
       1450
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "問題集カードの長押しで表示した編集・削除メニュー"
+    "capture_state": "問題集カードの長押しで表示した編集・削除メニュー",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-edit--r-m17": {
     "page": "problem-sets/edit",
@@ -3078,10 +3177,11 @@
     "purpose": "既存AI問題集の手修正",
     "state": "既存問題の解説に『純輸出が負の場合は差し引く』を追記。保存前",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/problem-sets/#edit"
+    "url": "/htu/uni-note/problem-sets/#edit",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-edit--r-m18": {
     "page": "problem-sets/edit",
@@ -3094,7 +3194,7 @@
     "purpose": "問題の追加と削除の編集下部",
     "state": "2問以上の問題集。下部へスクロールし削除対象カードと追加操作を表示",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/#edit",
@@ -3112,7 +3212,8 @@
       1730
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "問題集の編集画面にある問題文・解答・解説と問題の追加・削除ボタン"
+    "capture_state": "問題集の編集画面にある問題文・解答・解説と問題の追加・削除ボタン",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-home--r-m01": {
     "page": "problem-sets/home",
@@ -3126,7 +3227,7 @@
     "purpose": "学習支援の共通設定全体",
     "state": "AI回答言語＝日本語、文字起こし言語＝日本語、AI要約既定形式＝勉強用、ホーム問題集表示ON。6行を縦向きで読める位置。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/#home",
@@ -3143,7 +3244,8 @@
       2064,
       1510
     ],
-    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary"
+    "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-home--r-m11": {
     "page": "problem-sets/home",
@@ -3158,7 +3260,7 @@
     "purpose": "ホームの問題集一覧",
     "state": "AI由来『第8回 GDPの復習』と手動『第8回 用語チェック』の2カード、＋、切替",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "tablet",
     "url": "/htu/uni-note/problem-sets/#home",
@@ -3176,7 +3278,8 @@
       2064
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "ホームの問題集タブに表示した手動問題集"
+    "capture_state": "ホームの問題集タブに表示した手動問題集",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "problem-sets-home--r-m20": {
     "page": "problem-sets/home",
@@ -3188,10 +3291,11 @@
     "purpose": "問題集を非表示にしたホーム",
     "state": "同じ教材データを保持したままホームの問題集表示をOFFにした結果",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/problem-sets/#home"
+    "url": "/htu/uni-note/problem-sets/#home",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "customize-settings--n-m01": {
     "page": "customize/settings",
@@ -3211,10 +3315,11 @@
     "purpose": "ホームの完成状態",
     "state": "「最近使ったノート」「すべての教科」、経済学カード、格納済みフォルダを同時に表示。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/customize/#settings"
+    "url": "/htu/uni-note/customize/#settings",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "customize-settings--s-m01": {
     "page": "customize/settings",
@@ -3231,7 +3336,7 @@
     "purpose": "3.5.0の設定トップ",
     "state": "次版UIが確定した設定トップ。買い切りPremiumが確認済みのテスト状態。Plusなし。AI残量は実取得値。指描画OFF。カテゴリ・現在プラン・AI残量を読める位置。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/customize/#settings",
@@ -3249,7 +3354,8 @@
       2240
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "設定に並ぶノート設定、表示設定、学習支援、バックアップ、サポートのカテゴリ"
+    "capture_state": "設定に並ぶノート設定、表示設定、学習支援、バックアップ、サポートのカテゴリ",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "customize-paper--n-m45": {
     "page": "customize/paper",
@@ -3314,10 +3420,11 @@
     "purpose": "収納中のパレット",
     "state": "自動収納が働き、小さなツールアイコンだけが見える。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/customize/#display"
+    "url": "/htu/uni-note/customize/#display",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "customize-display--m-m14": {
     "page": "customize/display",
@@ -3350,10 +3457,11 @@
     "purpose": "資料の横に手書き余白を残した完成ノート",
     "state": "通常ノートの左に固定PDF、右に手書きの式と要点、定規で引いた蛍光直線、暗記マーカー。ページ四隅に教科名/ノート名/実際のページ作成日/番号。標準ナビ、右パレット。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/customize/#display"
+    "url": "/htu/uni-note/customize/#display",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "customize-toolbar--n-m52": {
     "page": "customize/toolbar",
@@ -3369,7 +3477,7 @@
     "purpose": "3.5.0ナビゲーション配置の設定全体",
     "state": "次版で確定した配置UIを表示。1つの補助機能をメニューへ移し、利用できるボタン欄も見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/customize/#toolbar",
@@ -3387,7 +3495,8 @@
       1850
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "ナビゲーションバーのプレビューとメニュー内のボタンを確認する配置設定"
+    "capture_state": "ナビゲーションバーのプレビューとメニュー内のボタンを確認する配置設定",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "customize-toolbar--n-m53": {
     "page": "customize/toolbar",
@@ -3449,7 +3558,7 @@
     "purpose": "3.5.0パレット配置設定",
     "state": "パレットの順序と利用できるツール欄が見える。付箋マーカーは一旦非表示状態。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/customize/#toolbar",
@@ -3467,7 +3576,8 @@
       1460
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "パレットに配置した道具の順序と利用できるツール欄を確認する設定"
+    "capture_state": "パレットに配置した道具の順序と利用できるツール欄を確認する設定",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "customize-toolbar--m-m14": {
     "page": "customize/toolbar",
@@ -3517,7 +3627,7 @@
     "purpose": "ノート行のスワイプメニュー",
     "state": "「教材操作練習」ノートを左へスワイプし、名前編集・保護・削除が見える。未保護。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/data/#protect",
@@ -3535,7 +3645,8 @@
       1430
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "ノート行をスワイプして表示した削除・保護・編集ボタン"
+    "capture_state": "ノート行をスワイプして表示した削除・保護・編集ボタン",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "data-protect--s-m14": {
     "page": "data/protect",
@@ -3548,7 +3659,7 @@
     "purpose": "ノートの保護解除スワイプ",
     "state": "同じ「教材操作練習」ノートを保護後、左へスワイプ。「解除」と鍵状態が見える。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/data/#protect",
@@ -3566,7 +3677,8 @@
       1430
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "保護されたノート行をスワイプして表示した保護解除ボタン"
+    "capture_state": "保護されたノート行をスワイプして表示した保護解除ボタン",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "data-trash--s-m15": {
     "page": "data/trash",
@@ -3583,7 +3695,7 @@
     "purpose": "ゴミ箱で教科・個別ノートを見分ける",
     "state": "削除確認用教科（子＝削除確認用ノート）と、経済学から個別削除した教材操作練習が見えるゴミ箱。教科と個別ノートの復元/完全削除の対象を区別できる。",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/data/#trash",
@@ -3601,7 +3713,8 @@
       650
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "教科と個別ノートが並ぶゴミ箱と復元・削除ボタン"
+    "capture_state": "教科と個別ノートが並ぶゴミ箱と復元・削除ボタン",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "data-trash--s-m16": {
     "page": "data/trash",
@@ -3613,10 +3726,11 @@
     "purpose": "完全削除の最終確認",
     "state": "「削除確認用ノート」を対象にした完全削除確認ダイアログ。キャンセルと完全削除が見える。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/data/#trash"
+    "url": "/htu/uni-note/data/#trash",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
   },
   "backup-save--s-m08": {
     "page": "backup/save",
@@ -3633,14 +3747,15 @@
     "purpose": "バックアップ方式と録音対象の全体",
     "state": "Premium買い切り。教材の録音を1件保存し、音声を含めるON。かんたんバックアップ更新済みで日時が表示されたバックアップ詳細。",
     "role": "step",
-    "status": "legacy-approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "src": "images/guides/uni-note/common/backup-file-actions.png",
     "alt": "バックアップを書き出す・ファイルから復元の項目",
     "caption": "保存は上の行、復元は下の行から行います。",
     "source_sha256": "db52978b744b30f78013007c35ec56fca5bd50c8ade2bd384ce8817ce2c9d504",
-    "url": "/htu/uni-note/backup/#save"
+    "url": "/htu/uni-note/backup/#save",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "backup-save--s-m10": {
     "page": "backup/save",
@@ -3687,10 +3802,11 @@
     "purpose": "バックアップ方式と録音対象の全体",
     "state": "Premium買い切り。教材の録音を1件保存し、音声を含めるON。かんたんバックアップ更新済みで日時が表示されたバックアップ詳細。",
     "role": "step",
-    "status": "pending",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
-    "url": "/htu/uni-note/backup/#restore"
+    "url": "/htu/uni-note/backup/#restore",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "backup-restore--s-m11": {
     "page": "backup/restore",
@@ -4483,7 +4599,7 @@
     "purpose": "紙の種類・色・パレットの位置・ページ情報を設定するノート設定",
     "state": "紙の種類・色・パレットの位置・ページ情報を設定するノート設定",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/customize/#paper",
@@ -4501,7 +4617,8 @@
       2110
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "紙の種類・色・パレットの位置・ページ情報を設定するノート設定"
+    "capture_state": "紙の種類・色・パレットの位置・ページ情報を設定するノート設定",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応で、旧UIの画像を本文から外した（後継はv4-スロット）"
   },
   "customize-display--c-m03": {
     "page": "customize/display",
@@ -4511,7 +4628,7 @@
     "purpose": "起動時の表示、認証、ナビゲーションバー、パレット、言語の表示設定",
     "state": "起動時の表示、認証、ナビゲーションバー、パレット、言語の表示設定",
     "role": "step",
-    "status": "approved",
+    "status": "retired",
     "release_status": "capture-published-3.5",
     "mode": "crop",
     "url": "/htu/uni-note/customize/#display",
@@ -4529,6 +4646,1197 @@
       2040
     ],
     "capture_version": "35fa888 Release / 3.5.0 local build 1 / Simulator iOS 26.5; user-authorized source, not App Store binary",
-    "capture_state": "起動時の表示、認証、ナビゲーションバー、パレット、言語の表示設定"
+    "capture_state": "起動時の表示、認証、ナビゲーションバー、パレット、言語の表示設定",
+    "retired_reason": "2026-10-06 Uni:Note 4.0.0対応の本文改訂で掲載位置を外した（旧UIのため、または後継のv4-スロットへ置換）"
+  },
+  "v4-start-home-legacy": {
+    "page": "start/screens",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/start/",
+    "src": "images/guides/uni-note/v40/start-home-legacy.png",
+    "source_sha256": "f3ff9050a81b70d45b9e48bb40091eecda621649db0ccfa29c4a62368fa428d1",
+    "alt": "最近使ったノート、教科カード、学期フォルダが並ぶ従来表示のホーム",
+    "caption": "従来表示のホーム。左上にゴミ箱・2ペイン切り替え・問題集・時間割、右上に検索と設定が並びます。",
+    "capture_id": "a01-home",
+    "original_sha256": "ef677c1884cdb73e96d4ffab2cd8e15ec8106122b9ebc9f16afcf14418423f61",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-start-note-screen": {
+    "page": "start/screens",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/start/",
+    "src": "images/guides/uni-note/v40/start-note-screen.png",
+    "source_sha256": "2a55a40072c7d2bfe5df481735a18e3d8150acb36118a5e0823d8e33305cb279",
+    "alt": "上部にナビゲーションバー、右上にパレットがあるノート画面",
+    "caption": "ノート画面。上部の左右にナビゲーションバー、右上にパレットが表示されます。",
+    "capture_id": "b01-note",
+    "original_sha256": "207622b7806ce4a1bb28fdb0c8fdfd0ff675b2dff0dfb160d91349a342dd99df",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-library-two-pane": {
+    "page": "library/two-pane",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/library/",
+    "src": "images/guides/uni-note/v40/library-two-pane.png",
+    "source_sha256": "c1cf06b59b971f5758847feecae1ba48bd719bd6608d7a58f3163f325ffae46a",
+    "alt": "左に最近使ったノート・フォルダ・教科、右に選んだ教科のノートが並ぶ2ペイン表示",
+    "caption": "2ペイン表示。左で教科を選ぶと、右にその教科のノートが表示されます。",
+    "capture_id": "a11-two-pane-subject",
+    "original_sha256": "37eff1a6c6ed29d05b76b59c75b0324c674150b024e2cbda88dfd690b3564fa4",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-library-two-pane-list": {
+    "page": "library/two-pane",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/library/",
+    "src": "images/guides/uni-note/v40/library-two-pane-list.png",
+    "source_sha256": "d8858d0f098fa9d8bcf404363d17ae51c81eecc6c68e71ba5f1a415351627608",
+    "alt": "右側のノートを一覧表示に切り替えた2ペイン表示",
+    "caption": "右上のボタンで、ノートをカード表示と一覧表示に切り替えられます。",
+    "capture_id": "a12-two-pane-list",
+    "original_sha256": "f61eb0c2d3f4d6034e377d48ad4fe1987edff9c79cce3f7e746a62b6b52ea79e",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-notebooks-list": {
+    "page": "notebooks/manage",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/notebooks/",
+    "src": "images/guides/uni-note/v40/notebooks-list.png",
+    "source_sha256": "58de718d6ce9bb9ed4531b501e6960ae28d3a28eb15dae382ef39aeeebe0f7e4",
+    "alt": "ノート画面の左に開いたノート一覧と新規ノートボタン",
+    "caption": "ノート画面の「ノート一覧」。同じ教科のノートへ切り替えたり、新規ノートを作ったりできます。",
+    "capture_id": "c08-note-list",
+    "original_sha256": "345010fbbd585b7c7aed315c65ea680c0c0e4aef780e560061a25db4348c6846",
+    "crop": [
+      0,
+      50,
+      460,
+      330
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-notebooks-page-list": {
+    "page": "notebooks/pages",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/notebooks/",
+    "src": "images/guides/uni-note/v40/notebooks-page-list.png",
+    "source_sha256": "2d0972cb20714b5be88166a46294240b76880a76854139e3a2b77db36a004d37",
+    "alt": "ページ一覧に並ぶページのサムネイル",
+    "caption": "「ページ一覧」。サムネイルをタップするとそのページへ移動します。",
+    "capture_id": "c07-page-list",
+    "original_sha256": "3e617a7f9fb0611b13cc9b35cc45518076b977766ff00b70e0aa71bd62609c13",
+    "crop": [
+      200,
+      20,
+      1160,
+      330
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-timetable-grid": {
+    "page": "timetable/setup",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/timetable/",
+    "src": "images/guides/uni-note/v40/timetable-grid.png",
+    "source_sha256": "8dbfddc60e6747b39fcb3342151a66c117f69bd3d8a911de49f4f28e11e74a83",
+    "alt": "月曜から金曜、1限から6限の時間割に教科が配置された画面",
+    "caption": "「あなたの時間割」。今の授業のマスは青い枠で表示されます。",
+    "capture_id": "a20-timetable",
+    "original_sha256": "726c5e9b83857bb81bd8507a12765c9b244d620bd0e58ead30dc97d67bd7f769",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-timetable-edit": {
+    "page": "timetable/setup",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/timetable/",
+    "src": "images/guides/uni-note/v40/timetable-edit.png",
+    "source_sha256": "bd8e9bfd4c3a331ac41ccf0b08b58d29c1fe8d081e4f33375abd9115ba44c6f7",
+    "alt": "編集中の時間割。各マスに外すボタン、画面下に教科カードが並ぶ",
+    "caption": "「編集」中は、下の教科カードをマスへドラッグして配置できます。",
+    "capture_id": "a22-timetable-edit",
+    "original_sha256": "41dfb5c1bffdf46ddd66268396fd37fea7a037b159d439013232831fc776095d",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-timetable-time": {
+    "page": "timetable/setup",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/timetable/",
+    "src": "images/guides/uni-note/v40/timetable-time.png",
+    "source_sha256": "786437a105f86122823baf518ca04dbad182d63507ed306ed54417f2db54706b",
+    "alt": "1限の開始と終了の時刻を選ぶ時間設定",
+    "caption": "時限をタップすると、開始・終了の時刻を設定できます。",
+    "capture_id": "a23-timetable-time",
+    "original_sha256": "668ade39be5216340978f7b6324aac70d64c6027d1256b3f04f03d03109d64dc",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-timetable-note-list": {
+    "page": "timetable/open",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/timetable/",
+    "src": "images/guides/uni-note/v40/timetable-note-list.png",
+    "source_sha256": "fcc986c5b7dca1d50c7cbb6b3d7d3fe011ab1c8823cd868e4d186e8c2cbf6a56",
+    "alt": "時間割の上に開いた統計学入門のノート一覧",
+    "caption": "教科のマスをタップすると、時間割の上にノート一覧が開きます。",
+    "capture_id": "a25-timetable-notes",
+    "original_sha256": "ac3ccca5bd349e3378dbde2272202b77a26c02c47f154d5012d0e56ce224910d",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-timetable-launch": {
+    "page": "timetable/open",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/timetable/",
+    "src": "images/guides/uni-note/v40/timetable-launch.png",
+    "source_sha256": "bc73fd9cf9e60a8111cf46e7e56a30ba11133766c4c551c12820a4542004805c",
+    "alt": "起動時に開く画面の5つの選択肢",
+    "caption": "「起動時に開く画面」。時間割を使う3つの選択肢があります。",
+    "capture_id": "a36-launch",
+    "original_sha256": "87b1b741deab65fa1bf597170662be1a8131d81b4767ac7e4f3152d1222f2bac",
+    "crop": [
+      0,
+      0,
+      1376,
+      540
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-finger-setting": {
+    "page": "writing/finger-drawing",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-finger-setting.png",
+    "source_sha256": "ea141a9f1613a14e62d02ee745ace7d03011c4eefa0c043f39572be60728e949",
+    "alt": "設定トップにある指で描画のスイッチ",
+    "caption": "設定トップの「指で描画」。",
+    "capture_id": "a30-settings-top",
+    "original_sha256": "7a181ecd58cc353992cdf48d3a2fc4906eac3949db3e34681b77f42cced2dd3c",
+    "crop": [
+      0,
+      450,
+      1376,
+      560
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-pen-detail": {
+    "page": "writing/pens",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-pen-detail.png",
+    "source_sha256": "4510c63f12b3fc532230dd56d01a01ea8d9833fd8782dc43681e1b8f2ac3891d",
+    "alt": "ペンの種類・太さ・色を選ぶ詳細パネル",
+    "caption": "ペンの詳細。種類（シャーペン・ボールペン・モノライン）、太さ、色を選びます。",
+    "capture_id": "e02-pen-1",
+    "original_sha256": "a46ece0199d589d12b91e5361eba912626bc081da9754ffa321930f3c9332d8a",
+    "crop": [
+      1000,
+      100,
+      1376,
+      330
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-marker-detail": {
+    "page": "writing/pens",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-marker-detail.png",
+    "source_sha256": "79fb83f26e4501b13e09d77dc3adf7c321187c0e6c88cb20aba1814bd80575f1",
+    "alt": "蛍光ペンの太さ・濃さ・色を選ぶ詳細パネル",
+    "caption": "蛍光ペンの詳細。太さ・濃さ・色を調整します。",
+    "capture_id": "e01-marker-1",
+    "original_sha256": "49be69dd8bb855944267a2422ff0dc50dca92bf4c4e74f13ed1d94a7ee9be0d2",
+    "crop": [
+      1000,
+      100,
+      1376,
+      330
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-eraser-detail": {
+    "page": "writing/erasing",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-eraser-detail.png",
+    "source_sha256": "13c98faefa82bb33eb69705b59591718bc1cdf18b59f96c9968e473c6bdb6bfb",
+    "alt": "線消しとピクセルの切り替え、ページをクリアのボタン",
+    "caption": "消しゴムの詳細。「線消し」「ピクセル」と「ページをクリア」があります。",
+    "capture_id": "e03-eraser-1",
+    "original_sha256": "582835154faf06d43e06962c794fb0950f37ab5cc40890ec2a53b1fdb44736e3",
+    "crop": [
+      1000,
+      40,
+      1376,
+      270
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-palette": {
+    "page": "writing/palette",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-palette.png",
+    "source_sha256": "23c280b0941c97e989cbc6823abc00ff50bad0d9a79de8e6b7f2fe29984d9bc6",
+    "alt": "ペン・蛍光ペン・消しゴム・付箋マーカー・戻る・やり直しが並ぶパレット",
+    "caption": "パレット。移動用部分をドラッグして位置を変えられます。",
+    "capture_id": "b01-note",
+    "original_sha256": "207622b7806ce4a1bb28fdb0c8fdfd0ff675b2dff0dfb160d91349a342dd99df",
+    "crop": [
+      980,
+      80,
+      1376,
+      200
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-ruler": {
+    "page": "writing/ruler",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-ruler.png",
+    "source_sha256": "608b0aa539c7263cb03f3c40a5aad8cb6cc6c15bf0073cc35404ebc8ba875989",
+    "alt": "ノート上に置いた定規と中央の•••ボタン、右端の回転ハンドル",
+    "caption": "定規。右端の回転ハンドルで向きを変えます。",
+    "capture_id": "b10-ruler",
+    "original_sha256": "cb1e9b5031b3dee29452e2784e61a039dccffafa475a053d9a9706bd7c6facae",
+    "crop": [
+      300,
+      380,
+      1100,
+      640
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-text-input": {
+    "page": "writing/text-shapes",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-text-input.png",
+    "source_sha256": "dc198a087cdae449b4b6794920b472526f7ea39c272ae42f7dc0c86f13ee7220",
+    "alt": "上部にテキスト入力の表示があり、ノート上に文字を入力している画面",
+    "caption": "テキスト入力中。上部の「テキスト入力」の×、または入力欄の外をタップすると確定します。",
+    "capture_id": "e11-text-input",
+    "original_sha256": "89f559a46b315e6bc630394249fb3acce25efaf3d02cd235bc6e21c89a83f37e",
+    "crop": [
+      0,
+      60,
+      1376,
+      540
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-shape-create": {
+    "page": "writing/text-shapes",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-shape-create.png",
+    "source_sha256": "21b3b30c60f8ce437476f7f1142f31e6d3a34f43d6b65cb959bb53d3b181766a",
+    "alt": "吹き出しを選び、向き・線の種類・色・線幅を設定する図形の画面",
+    "caption": "図形の作成画面。吹き出しでは向きも選べます。「配置」で追加します。",
+    "capture_id": "b09-shape-callout",
+    "original_sha256": "818f6715816f405855d987164629581a7832cb9f31ae50b1b2bdda5bf37640a4",
+    "crop": [
+      390,
+      200,
+      980,
+      810
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-range-move": {
+    "page": "writing/move",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-range-move.png",
+    "source_sha256": "bc13cfa495f9cee6ae96d04b2a48b9fa40bb235e18755597c300d483b2a4aeda",
+    "alt": "範囲移動中の表示と、囲った線の扱いの説明",
+    "caption": "「範囲移動」を選ぶと上部に「範囲移動中」と表示されます。",
+    "capture_id": "b11-range-move",
+    "original_sha256": "c5fcfdccc16eda4071bcf7b12fb90268263618ba8e4eca210ce1519eb40fc595",
+    "crop": [
+      0,
+      0,
+      1376,
+      700
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-materials-photo-source": {
+    "page": "materials/photos",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/materials/",
+    "src": "images/guides/uni-note/v40/materials-photo-source.png",
+    "source_sha256": "c47c43d6c747433b41394be77e96a5e6bbdfba31c4d970ff5fa5c224f75f83e5",
+    "alt": "写真貼付のカメラで撮影と写真から選択",
+    "caption": "「写真貼付」では「カメラで撮影」か「写真から選択」を選びます。",
+    "capture_id": "c09-photo-source",
+    "original_sha256": "c07e30158fb6d0cb3e451c05c641d7f02cf91dfd853499b2f5717771a2b76781",
+    "crop": [
+      1000,
+      40,
+      1376,
+      260
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-materials-edit-button": {
+    "page": "materials/arrange",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/materials/",
+    "src": "images/guides/uni-note/v40/materials-edit-button.png",
+    "source_sha256": "eb6b5f6499869e88f7540383e11ffadc720c091393770ce2db20fc2b260f4135",
+    "alt": "指で描画がONのとき左上に表示される青い編集ボタン",
+    "caption": "「指で描画」ON時の「編集」ボタン。青い間は素材を選べます。",
+    "capture_id": "c22-edit-mode",
+    "original_sha256": "96f72e62ad13968102f24a3e0b0d8176b37e5d4ab62b8ebbcae469c1e7b6adb7",
+    "crop": [
+      0,
+      0,
+      800,
+      260
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-materials-pdf-settings": {
+    "page": "materials/export",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/materials/",
+    "src": "images/guides/uni-note/v40/materials-pdf-settings.png",
+    "source_sha256": "e41dcb21b1f8a4fd668b2216017fedcc54f4bba06fd4f87818b3f498d026a2e0",
+    "alt": "PDF出力設定の紙色・付箋マーカー・付箋のスイッチ",
+    "caption": "「表示設定」の「PDF出力設定」（4.0.0の画面）。",
+    "capture_id": "a35-display-settings-2",
+    "original_sha256": "e3475f6489232a1af90eac443b762a61eaaceeb79c255267a4ae5d650e61e205",
+    "crop": [
+      0,
+      630,
+      1376,
+      860
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-materials-export-scope": {
+    "page": "materials/export",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/materials/",
+    "src": "images/guides/uni-note/v40/materials-export-scope.png",
+    "source_sha256": "b73904c38ec01aab6bbff44b194657bd85138e710a1c5dfb7c09caeefbe641f2",
+    "alt": "このノートのみか全体を選ぶPDF出力の画面",
+    "caption": "「PDF出力」の画面。「出力範囲」を選んで「出力」をタップします。",
+    "capture_id": "e06-export-scope",
+    "original_sha256": "c036b31f84bb8388161ea3f7e0e5ad7be2146eb9bfcaddc51f23014703b834b9",
+    "crop": [
+      440,
+      350,
+      940,
+      680
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-customize-settings-top": {
+    "page": "customize/settings",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/customize/",
+    "src": "images/guides/uni-note/v40/customize-settings-top.png",
+    "source_sha256": "98f8db250977061ab576a7d0360fa339a24fdd3032779c7141eb5c30b3bb060e",
+    "alt": "指で描画、ノート設定、表示設定、学習支援、バックアップ、お知らせが並ぶ設定トップ",
+    "caption": "設定トップ。目的に合う項目を開きます。",
+    "capture_id": "a30-settings-top",
+    "original_sha256": "7a181ecd58cc353992cdf48d3a2fc4906eac3949db3e34681b77f42cced2dd3c",
+    "crop": [
+      0,
+      440,
+      1376,
+      1032
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-customize-launch": {
+    "page": "customize/display",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/customize/",
+    "src": "images/guides/uni-note/v40/customize-launch.png",
+    "source_sha256": "bc73fd9cf9e60a8111cf46e7e56a30ba11133766c4c551c12820a4542004805c",
+    "alt": "ホーム・前回のノート・時間割などから選ぶ起動時に開く画面",
+    "caption": "「起動時に開く画面」の5つの選択肢。",
+    "capture_id": "a36-launch",
+    "original_sha256": "87b1b741deab65fa1bf597170662be1a8131d81b4767ac7e4f3152d1222f2bac",
+    "crop": [
+      0,
+      0,
+      1376,
+      540
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-customize-display": {
+    "page": "customize/display",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/customize/",
+    "src": "images/guides/uni-note/v40/customize-display.png",
+    "source_sha256": "f1ffbceb8a10a8808035d2e4b983291d66fa304569ec082c059802c48d0f9822",
+    "alt": "起動・表示設定、ノート画面、PDF出力設定が並ぶ表示設定",
+    "caption": "「表示設定」。2ペイン表示の既定もここで選びます。",
+    "capture_id": "a34-display-settings",
+    "original_sha256": "1477f0af1bcc94df574ef5d94891233269bf657836bfaeaa8441ebcb74c66976",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-customize-notebook-settings": {
+    "page": "customize/paper",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/customize/",
+    "src": "images/guides/uni-note/v40/customize-notebook-settings.png",
+    "source_sha256": "d339b53447e27fbe79f643ebaf4f6638408660d43c89e63c5b17d42d3dbc4344",
+    "alt": "テンプレート・ベース色・左利きモード・項目ごとの設定・ヘッダーフッターが並ぶノート設定",
+    "caption": "「ノート設定」。新規ノートの紙、左利き、ページの四隅の表示などを設定します。",
+    "capture_id": "a32-notebook-settings",
+    "original_sha256": "b274ef47cf7da4276b2d5e6c461a15a92f8f451f98204006aad5138449fc5e81",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-study-marker-detail": {
+    "page": "study/sticky",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/study/",
+    "src": "images/guides/uni-note/v40/study-marker-detail.png",
+    "source_sha256": "77ab7310ce2c5bc941c694cfe6c090a4a551812d9532f7f61ed923437f0b2f11",
+    "alt": "付箋マーカーと付箋の切り替え、3段階の太さと4色",
+    "caption": "付箋マーカーの詳細。上部の切り替えで「付箋マーカー」と「付箋」を選びます。",
+    "capture_id": "e05-sticky-marker",
+    "original_sha256": "92634b56120c75f289c90aeed49c80bf984e9c4e786227d0ea5e7ce97a7bea0d",
+    "crop": [
+      1000,
+      110,
+      1376,
+      340
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-study-sticky-note-written": {
+    "page": "study/sticky-note",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/study/",
+    "src": "images/guides/uni-note/v40/study-sticky-note-written.png",
+    "source_sha256": "9251ce1ce00f49b7f0a5f3e23a9c621f7f740a0f3196bbd1ec9f781e68fe366c",
+    "alt": "ノートに貼った黄色の付箋に手書きでメモを書いた状態",
+    "caption": "貼った付箋。上端の糊の部分をドラッグして動かします。",
+    "capture_id": "e13-sticky-written",
+    "original_sha256": "bfdd510bc5de7f971711e46c915fd9fd9d047d766860106795193581d073b72d",
+    "crop": [
+      700,
+      600,
+      1376,
+      1032
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-study-pomodoro": {
+    "page": "study/pomodoro",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/study/",
+    "src": "images/guides/uni-note/v40/study-pomodoro.png",
+    "source_sha256": "3fe37c09f3f42af092849092e05871947f3ba86f17b7165589d09f91b67e05d2",
+    "alt": "集中時間・休憩時間・自動終了までのセット数と開始ボタン",
+    "caption": "ポモドーロ。時間とセット数を選んで「開始」をタップします。",
+    "capture_id": "e07-pomodoro",
+    "original_sha256": "40523e286f534352e668551556799c12dfc99d7ab750e9a0023593fb8240a4f9",
+    "crop": [
+      960,
+      60,
+      1376,
+      680
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-recording-settings": {
+    "page": "recording/transcribe",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/recording/",
+    "src": "images/guides/uni-note/v40/recording-settings.png",
+    "source_sha256": "52077ad0829b6e9f71b6a7fc24cfb71b654c31c489f32e0bbc1661692e98c2b1",
+    "alt": "録音の文字起こし言語、文字起こしの精度を優先、AI要約の既定形式",
+    "caption": "「学習支援」の「録音サポート」。",
+    "capture_id": "a37-learning",
+    "original_sha256": "74bd6a9ae0eb71135a8e10996cf7de428ae0d43d495e112ca09e523ee091c4ed",
+    "crop": [
+      0,
+      150,
+      1376,
+      470
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-backup-screen": {
+    "page": "backup/save",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/backup/",
+    "src": "images/guides/uni-note/v40/backup-screen.png",
+    "source_sha256": "dc97df44b9c774dd80c42e0b04a9175ff513ca9703c1f9ce56fde92ee891a9bc",
+    "alt": "かんたんバックアップ、録音、ファイルの3つに分かれたバックアップ画面",
+    "caption": "「バックアップ」画面。",
+    "capture_id": "a40-backup",
+    "original_sha256": "04539774687116bacc18ae8ccd1183da6ec57320f9deb1c22dfd6e98b82e048d",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-home": {
+    "page": "problem-sets/list",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-home.png",
+    "source_sha256": "bfa4847cfc0b056b2358a700e72f524d08487a6ab0e57dcea726cd7a8cf05fa5",
+    "alt": "教科ごとに問題集のカードが並び、右上にシャッフルと使い方のボタンがある問題集表示",
+    "caption": "「あなたの問題集」。教科ごとに分かれ、出典と問題数が表示されます。",
+    "capture_id": "d01-ps-home",
+    "original_sha256": "7ee8b33501ee2b7f8f639b23dcecba8ced4066b557bee2efd6f7f673b878eb49",
+    "crop": [
+      0,
+      0,
+      1376,
+      560
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-guide": {
+    "page": "problem-sets/list",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-guide.png",
+    "source_sha256": "3b9c4d415e1305f2acf3b425ac2ca36aeed0fe0641f2df9709dd1c797aed68fd",
+    "alt": "問題集の使い方の1ページ目。AI生成・1問ずつ・まとめて作る",
+    "caption": "「?」で開く「問題集の使い方」。",
+    "capture_id": "d02-guide-1",
+    "original_sha256": "96b971ea1fa6b0d8b6373667964bc12c11bf7ccfc4cf843a6c4884812bfd35ec",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-start": {
+    "page": "problem-sets/review",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-start.png",
+    "source_sha256": "e202f97711888d6bdcdeff5426bdd2b944bc8f068f048654c6eed7ee765cb8a2",
+    "alt": "前回の記録と、続きから・最初から・終了するのボタン",
+    "caption": "学習記録がある問題集の開始画面。",
+    "capture_id": "d26-start-screen",
+    "original_sha256": "1ddd979a231952b2e48dd391e82c641b6fc6e47e9f7b72c041b3bf78edcad368",
+    "crop": [
+      300,
+      300,
+      1076,
+      820
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-study-answer": {
+    "page": "problem-sets/review",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-study-answer.png",
+    "source_sha256": "09ef833f5df16ec9401eb67011f30166388343bae01c43156049b76d28dd1791",
+    "alt": "問題と解答、出典のチップ、覚えていないと覚えたのボタン",
+    "caption": "解答を表示した状態。下に出典が表示されます。",
+    "capture_id": "d22-answer",
+    "original_sha256": "e38b99491951535ebc13877c991e624261ae574d66f740b90cc5c92ea0968db3",
+    "crop": [
+      330,
+      250,
+      1050,
+      820
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-study-reference": {
+    "page": "problem-sets/review",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-study-reference.png",
+    "source_sha256": "8dd112d7e6e260f63b231dde2171e6dbfe7c2bc76609dcf8bb3142394f88d70e",
+    "alt": "左に元のノートのページ、右に問題と解答が並ぶ学習画面",
+    "caption": "出典をタップすると、左に元のノートが表示されます。",
+    "capture_id": "d23-reference",
+    "original_sha256": "ec695514277d3154b2e4473f66acae4beb6ec6f030648d6a1548de0d5c36cb6f",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-menu": {
+    "page": "problem-sets/edit",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-menu.png",
+    "source_sha256": "a2decb643c595df7f14263bc1b9eef2c11c9346e1daf49b34f091e3e6fe1c0a3",
+    "alt": "問題を追加・問題集を編集・削除の長押しメニュー",
+    "caption": "問題集の長押しメニュー（ノートから作った問題集の例）。",
+    "capture_id": "d09-ps-menu",
+    "original_sha256": "edaad6d9de9363cbbf5cfe1eb5e6671864fe5a5d19954fda165af8c491fd31ba",
+    "crop": [
+      0,
+      100,
+      700,
+      600
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-editor": {
+    "page": "problem-sets/edit",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-editor.png",
+    "source_sha256": "e60c23220ad798252cd966921f823f5906450ea0b2b6bfdd5a060da7021907da",
+    "alt": "問題がカードで並び、右端にゴミ箱、下に問題を追加ボタンがある編集画面",
+    "caption": "「問題集を編集」。カードをタップすると1問ずつ直せます。",
+    "capture_id": "d10-editor",
+    "original_sha256": "509b087c40f707b8c6793825dbe70620edee5497cec28d1a6da57c29268e510c",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-workflows-timetable-launch": {
+    "page": "workflows/timetable-launch",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/workflows/",
+    "src": "images/guides/uni-note/v40/workflows-timetable-launch.png",
+    "source_sha256": "8dbfddc60e6747b39fcb3342151a66c117f69bd3d8a911de49f4f28e11e74a83",
+    "alt": "教科を登録した時間割",
+    "caption": "授業を登録した時間割。",
+    "capture_id": "a20-timetable",
+    "original_sha256": "726c5e9b83857bb81bd8507a12765c9b244d620bd0e58ead30dc97d67bd7f769",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-workflows-sticky-note-memo": {
+    "page": "workflows/sticky-note-memo",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/workflows/",
+    "src": "images/guides/uni-note/v40/workflows-sticky-note-memo.png",
+    "source_sha256": "103904d12454cc3ee6026994e02b09c439e895d6eae28612ce0103bddde24cb0",
+    "alt": "ノートの右下に貼った付箋へ手書きでメモした画面",
+    "caption": "ノートに貼った付箋へメモを書いた例。",
+    "capture_id": "e13-sticky-written",
+    "original_sha256": "bfdd510bc5de7f971711e46c915fd9fd9d047d766860106795193581d073b72d",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-workflows-problem-set-sheet": {
+    "page": "workflows/problem-set-sheet",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/workflows/",
+    "src": "images/guides/uni-note/v40/workflows-problem-set-sheet.png",
+    "source_sha256": "1b61831a5720edd84f7dee7dc11cbbf326617104a7c94bd9aee258d3b5896c29",
+    "alt": "スプレッドシートでの書き方とTSVの例を示す使い方ガイド",
+    "caption": "「?」の2ページ目。表の書き方とファイルの中身の例です。",
+    "capture_id": "d02-guide-2",
+    "original_sha256": "1758fe7ca3a8f2406170983dde295a647a6ad9331618d00716e7a660c5ecded3",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-generate-entry": {
+    "page": "problem-sets/generate",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-generate-entry.png",
+    "source_sha256": "d11cfb1cf4faf0bb0b3ae1d2c1e717e04129713d5213083faf4cee5edca1d355",
+    "alt": "対象ページを選んで問題集を作成する画面",
+    "caption": "「問題集を作る」の画面。「対象ページ」で範囲を選びます。",
+    "capture_id": "e10-generate-entry",
+    "original_sha256": "453e9b834fa63ad7ba75a7f5a2c9227e70ff0a25f7bbdc9eab019ab6e18a80c0",
+    "crop": [
+      0,
+      365,
+      1376,
+      620
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-ai-answer-mode": {
+    "page": "ai/answer",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/ai/",
+    "src": "images/guides/uni-note/v40/ai-answer-mode.png",
+    "source_sha256": "82baba70395534cba96087563378131ec857437864c8579bc6bbe4b229ee03a2",
+    "alt": "上部に囲って解答中の表示があるノート画面",
+    "caption": "「囲って解答アシスタント」を選ぶと、上部に「囲って解答中」と表示されます。",
+    "capture_id": "e09-problem-assist",
+    "original_sha256": "4f55ae0ea73da2ccfb450efd4338b48f521e4c8e81f72a631e2138dc2d63f539",
+    "crop": [
+      0,
+      0,
+      1376,
+      200
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-ai-settings": {
+    "page": "ai/settings",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/ai/",
+    "src": "images/guides/uni-note/v40/ai-settings.png",
+    "source_sha256": "349a76d99841eecf25f27d03750caefbf4befa242a580f9a7ffa9288f6ac8d9b",
+    "alt": "学習支援のAIにあるAI回答言語",
+    "caption": "「学習支援」の「AI回答言語」。",
+    "capture_id": "a37-learning",
+    "original_sha256": "74bd6a9ae0eb71135a8e10996cf7de428ae0d43d495e112ca09e523ee091c4ed",
+    "crop": [
+      0,
+      60,
+      1376,
+      240
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-customize-navbar": {
+    "page": "customize/toolbar",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/customize/",
+    "src": "images/guides/uni-note/v40/customize-navbar.png",
+    "source_sha256": "a30223a619b63cd6c5f79f58ce33c5537d91c02d4d0b44699684d856cafeabd9",
+    "alt": "ナビゲーションバーのプレビュー、「…」メニュー内、利用できるボタンが並ぶ設定画面",
+    "caption": "「ナビゲーションバー」の設定。ボタンをドラッグして配置を変えます。",
+    "capture_id": "g50-navbar",
+    "original_sha256": "88f79233396a20217600a630dee53ed13b72f7a6d5da136ed4967c34282171b7",
+    "crop": [
+      0,
+      0,
+      1376,
+      540
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-data-protect": {
+    "page": "data/protect",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/data/",
+    "src": "images/guides/uni-note/v40/data-protect.png",
+    "source_sha256": "499bc855d7531e72efcf239172e90306fdc2eb4bf61be2ff70bb02f262afbb52",
+    "alt": "ロックアイコンが付いた保護中のノートと、長押しで表示された解除のメニュー",
+    "caption": "保護中のノートにはロックのアイコンが付き、長押しメニューは「解除」だけになります。",
+    "capture_id": "g07-protected-menu",
+    "original_sha256": "0481a4c8bc855c18a14774e376c2fe804df0ef784199d9003b402c2768508824",
+    "crop": [
+      340,
+      340,
+      1010,
+      640
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-data-trash": {
+    "page": "data/trash",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/data/",
+    "src": "images/guides/uni-note/v40/data-trash.png",
+    "source_sha256": "3f2016a6cdfecf86c6713d3a987c27f1fc74744bb3106c6560867994bea4f4fa",
+    "alt": "ゴミ箱に削除した教科が表示され、復元と削除のボタンが並ぶ画面",
+    "caption": "「ゴミ箱」。行ごとに「復元」と「削除」を選べます（4.0.0の画面）。",
+    "capture_id": "g24-trash-expanded",
+    "original_sha256": "65ec3d7f1a19534ead1893a1d72004e20bfddaa86cd36315d485c8a705725683",
+    "crop": [
+      0,
+      0,
+      1376,
+      200
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-library-folder-create": {
+    "page": "library/folders",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/library/",
+    "src": "images/guides/uni-note/v40/library-folder-create.png",
+    "source_sha256": "9029ccc9b40b27349248a2ae7484e16d4d05bbf5491c48d0a42c9bb75a9acb2b",
+    "alt": "フォルダ名、フォルダカラー、追加する教科を選ぶフォルダ作成画面",
+    "caption": "「フォルダを作成」。名前・色・入れる教科を選びます。",
+    "capture_id": "g03-folder-create",
+    "original_sha256": "2a1f054a2935c9c683ed849ca03d35ae413435ee68b281d88745b36fa315f352",
+    "crop": [
+      400,
+      20,
+      960,
+      540
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-library-folder-open": {
+    "page": "library/folders",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/library/",
+    "src": "images/guides/uni-note/v40/library-folder-open.png",
+    "source_sha256": "e3ed6f49e0963471b3a115899f12ac0b12b00dab8b13974dd69a695b564467aa",
+    "alt": "2026年前期フォルダを開き、中の3教科とノート一覧ボタンが並ぶ画面",
+    "caption": "フォルダを開いた状態。教科の「ノート一覧」や並べ替え用ハンドルを使えます。",
+    "capture_id": "g02-folder-open",
+    "original_sha256": "1b45f0cb26a46f11db5bf0497091eda652e808c8fe091e9eda33d398252ab689",
+    "crop": [
+      330,
+      160,
+      1010,
+      560
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-library-search": {
+    "page": "library/search",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/library/",
+    "src": "images/guides/uni-note/v40/library-search.png",
+    "source_sha256": "483201a247de164db5fdf5d5b3e9ba84c96fd902e084fd4421bad31ee5946ea2",
+    "alt": "ノートタイトルを検索に「回」と入力し、検索結果に3冊のノートが並ぶ画面",
+    "caption": "「ノートタイトルを検索」の検索結果。",
+    "capture_id": "g08-search",
+    "original_sha256": "c62a1f3e11e886977148930dfb07c665c8e1ba32a94ad9050c5f7166b429afc9",
+    "crop": [
+      0,
+      0,
+      1376,
+      250
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-library-subject-menu": {
+    "page": "library/subjects",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/library/",
+    "src": "images/guides/uni-note/v40/library-subject-menu.png",
+    "source_sha256": "8ce0b9a516e7a094f3519dda14631e93aa71bac6586955b8416d451b5d906446",
+    "alt": "教科カードを長押しして表示した編集と削除のメニュー",
+    "caption": "教科カードを長押しすると「編集」「削除」を選べます。",
+    "capture_id": "g01-subject-menu",
+    "original_sha256": "59580141d8da743e60d45b2ae8c6beef49ddb5c165b4b95e2929267859896720",
+    "crop": [
+      0,
+      380,
+      520,
+      720
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-library-two-pane-edit": {
+    "page": "library/two-pane",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/library/",
+    "src": "images/guides/uni-note/v40/library-two-pane-edit.png",
+    "source_sha256": "b6ae13af6978096f805470991e1b5727371e569f77c014cb285a4a4b8be394c0",
+    "alt": "2ペイン表示の編集中。左に並べ替えハンドルと削除、右のノートに保護・編集・削除のボタン",
+    "caption": "2ペイン表示の「編集」中（4.0.0の画面。右側のノートのボタンは4.0.0から）。",
+    "capture_id": "g10-two-pane-edit",
+    "original_sha256": "eacb136a954a379435dd8cb8aa68d9cc1391869af0370fe81cad26818a2000d0",
+    "crop": null,
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-notebooks-list-menu": {
+    "page": "notebooks/manage",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/notebooks/",
+    "src": "images/guides/uni-note/v40/notebooks-list-menu.png",
+    "source_sha256": "f0986e8c631e8f9be40831dce398010c86e4db81ae6dfe3dedbca8a9f4a7b7ac",
+    "alt": "ノート一覧でノートを長押しして表示した編集・保護・削除のメニュー",
+    "caption": "ノートを長押しすると「編集」「保護」「削除」を選べます。",
+    "capture_id": "g05-note-menu",
+    "original_sha256": "d600a88f8c8a4663d1cbaa1bf12fec88c60c465c30b527e637a2677c3070c5f7",
+    "crop": [
+      340,
+      320,
+      1010,
+      660
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-bulk": {
+    "page": "problem-sets/bulk",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-bulk.png",
+    "source_sha256": "6ff2a2115aadd411ea49b66019194ffcd281ff19bc1d24a41587b91814195d34",
+    "alt": "貼り付けた3問が行ごとに表示され、教科・行を追加・問題集を作成のボタンがある一括作成画面",
+    "caption": "「一括作成」。内容を確認・修正して「問題集を作成」をタップします。",
+    "capture_id": "f08-bulk",
+    "original_sha256": "7435a6412d1e750ad3fb64e4cd8a92f62be838661a9c0a511b600410074044cd",
+    "crop": [
+      0,
+      40,
+      1376,
+      560
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-create-handwriting": {
+    "page": "problem-sets/create",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-create-handwriting.png",
+    "source_sha256": "5c80d2a74280206a803b12aa6fe0060aea1031876cf0249b9d9db2e36b195257",
+    "alt": "手書きを選び、ペン・消しゴム・取り消す・やり直すと問題文・解答の手書き欄が表示された画面",
+    "caption": "「手書き」を選ぶと、問題文と解答をApple Pencilで書けます。",
+    "capture_id": "f05-create-handwriting",
+    "original_sha256": "42a2a36aaa99feecf56da0bfb747593596ec41afd54fdf7ba594c67c6323481b",
+    "crop": [
+      0,
+      40,
+      1376,
+      700
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-create-keyboard": {
+    "page": "problem-sets/create",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-create-keyboard.png",
+    "source_sha256": "02382692f9f17096dbd7fa191e02914e2243e10da57dd6c3c8d6dd5ad8c68a66",
+    "alt": "問題集のタイトル、教科、入力方法の切り替え、問題文と解答の欄、保存して次へのボタン",
+    "caption": "「1問ずつ作成」のキーボード入力。「保存して次へ」で1問ずつ保存します。",
+    "capture_id": "f04-create-keyboard-filled",
+    "original_sha256": "248ab9b0e6a9996ae3f58e28fb1d06900ba4f38d038469d964e761ee0a47d21f",
+    "crop": [
+      0,
+      40,
+      1376,
+      560
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-result": {
+    "page": "problem-sets/review",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-result.png",
+    "source_sha256": "6858d18b3593aff87db2f2c40b33f3c4636bb89235b33c25449dc896afec30c3",
+    "alt": "1周目おつかれさまの結果画面と、覚えていない問題をもう一周するボタン",
+    "caption": "1周の結果。覚えていない問題だけをもう一周できます。",
+    "capture_id": "f12-result",
+    "original_sha256": "65ff93d4a10c0dca4257216e9121290247ba2774e188e54e86c450c307c1ddbf",
+    "crop": [
+      300,
+      330,
+      1076,
+      830
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-study-swipe": {
+    "page": "problem-sets/review",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-study-swipe.png",
+    "source_sha256": "a6592a2ec014619bdb4ef4f65fa84531e609ee6433ca628adaf932206d8cc9bd",
+    "alt": "問題、Apple Pencilの解答欄、覚えていないと覚えたのボタン",
+    "caption": "「覚えた」「覚えていない」はボタンでも、左右のスワイプでも記録できます。",
+    "capture_id": "f11-swipe",
+    "original_sha256": "0cac0a0a1cde52be823c3a578eaa69e029bfbc3119abb44ee71c2e2ce87e6513",
+    "crop": [
+      330,
+      240,
+      1050,
+      900
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-recording-panel": {
+    "page": "recording/capture",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "screen",
+    "url": "/htu/uni-note/recording/",
+    "src": "images/guides/uni-note/v40/recording-panel.png",
+    "source_sha256": "86143501dea332b0db3b40f03ac3641b8973892b77023c08b6e2480d059441a2",
+    "alt": "ノートの左に開いた録音パネルと言語ボタン、赤い録音ボタン",
+    "caption": "録音パネル。下の「言語」で文字起こしの言語を選び、赤いボタンで録音を始めます。",
+    "capture_id": "e08-recording",
+    "original_sha256": "6ac7ca95fa5ac683bdb29ee3757ab6a59959d82d9e54593218bbedc49e1a972e",
+    "crop": [
+      0,
+      40,
+      420,
+      1032
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-start-create-subject": {
+    "page": "start/first-note",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/start/",
+    "src": "images/guides/uni-note/v40/start-create-subject.png",
+    "source_sha256": "ba9bc73e00b17e50c0b5f8a6e8b41194ef835ebc7a9cc283b13d4ecc085d0c21",
+    "alt": "教科名、罫線、紙色、表紙カラーを選ぶ教科を追加の画面",
+    "caption": "「教科を追加」。名前・罫線・紙色・表紙カラーを選んで「作成」します。",
+    "capture_id": "g20-create-subject",
+    "original_sha256": "b7b0a7de86cc66415cebb602f87732abb506e7100e7bdc5ac668c52d9feed1e3",
+    "crop": [
+      360,
+      20,
+      1000,
+      520
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-start-first-note-title": {
+    "page": "start/first-note",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/start/",
+    "src": "images/guides/uni-note/v40/start-first-note-title.png",
+    "source_sha256": "7d6280bbda44a67084aa9413e00eadc180db71db375877302d9ee13f3b56a5f4",
+    "alt": "最初のノートのタイトルを入力するダイアログ",
+    "caption": "「最初のノートのタイトル」。空欄なら今日の日付がタイトルになります。",
+    "capture_id": "g22-first-note-title-filled",
+    "original_sha256": "bfa44d34c7e135d9599e4b85c0eb2871572ffdbb1481f2efa84d5ca877539cbc",
+    "crop": [
+      500,
+      90,
+      880,
+      470
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-writing-ruler-size": {
+    "page": "writing/ruler",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "crop",
+    "url": "/htu/uni-note/writing/",
+    "src": "images/guides/uni-note/v40/writing-ruler-size.png",
+    "source_sha256": "464d1c44b36f3737b2d159a1c91d42387beceb7ee69cc15fbc6a6d1b778bb188",
+    "alt": "定規の•••から開いた小・中・大の大きさメニュー",
+    "caption": "定規の「•••」から大きさを切り替えられます。",
+    "capture_id": "g42-ruler-size",
+    "original_sha256": "f44f9ab3ecdd3a6000edd701c0ec2c58340bd20d3767261e3bc31228188726a9",
+    "crop": [
+      300,
+      400,
+      1100,
+      700
+    ],
+    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   }
 }

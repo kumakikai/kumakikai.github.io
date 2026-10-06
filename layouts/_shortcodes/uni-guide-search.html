@@ -4,8 +4,9 @@
 {{- $mode := .Get "mode" | default "navigation" -}}
 {{- $items := slice -}}
 {{- if eq $mode "navigation" -}}
+  {{- $release := site.Data.uni_note_release -}}
   {{- range $navigation.pages -}}
-    {{- if ne .category "troubleshooting" -}}
+    {{- if and (ne .category "troubleshooting") (not (and .release (eq $release.mode "hidden"))) -}}
       {{- $items = $items | append (dict "title" .title "url" .url "category" (index $navigation.categories .category) "description" (index $navigation.descriptions .category)) -}}
     {{- end -}}
   {{- end -}}

@@ -11,8 +11,11 @@
   </div>
   <p class="uni-guide-category-description">{{ index $navigation.descriptions $category }}</p>
   <ul class="uni-guide-children" id="{{ $id }}">
+    {{- $release := site.Data.uni_note_release -}}
     {{- range where $navigation.pages "category" $category }}
-    <li><a href="{{ .url }}">{{ .title }}</a></li>
+    {{- if not (and .release (eq $release.mode "hidden")) }}
+    <li><a href="{{ .url }}">{{ .title }}{{ if and .release (eq $release.mode "upcoming") }}<span class="uni-upcoming-badge">{{ replace (replace (index $release.labels "ja").badge "{v}" $release.version) "{d}" (index $release.labels "ja").date }}</span>{{ end }}</a></li>
+    {{- end }}
     {{- end }}
   </ul>
 </section>

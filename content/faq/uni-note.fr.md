@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-09-26"
+version_context_date: "2026-10-06"
 title: "FAQ (Uni:Note)"
 description: "Questions fréquentes sur Uni:Note."
-lastmod: 2026-09-26
+lastmod: 2026-10-06
 ---
 
 ## Introduction
@@ -15,7 +15,7 @@ Uni:Note permet de rassembler notes manuscrites et PDF sur iPad, puis de les rev
 
 Nécessite un iPad sous iPadOS 17.0 ou version ultérieure.
 
-Écrivez avec l’Apple Pencil ou activez Dessiner au doigt pour écrire d’un doigt. Faites alors défiler avec deux doigts, ou avec un seul lorsque l’option est désactivée. Aucun compte propre à l’app n’est nécessaire. Japonais, anglais, coréen, allemand, chinois traditionnel et français sont disponibles.
+Écrivez avec l’Apple Pencil ou activez Dessiner au doigt pour écrire d’un doigt. Faites alors défiler avec deux doigts. Lorsque l’option est désactivée, un doigt suffit, sauf si Faire défiler avec deux doigts est activé dans Réglages → Réglages du note. Aucun compte propre à l’app n’est nécessaire. Japonais, anglais, coréen, allemand, chinois traditionnel et français sont disponibles.
 
 ## Notes et pièces jointes
 
@@ -25,7 +25,7 @@ Nécessite un iPad sous iPadOS 17.0 ou version ultérieure.
 
 Une note est limitée à 150 pages. Créez une autre note dans la matière si nécessaire. Un titre vide utilise la date. La recherche couvre les titres saisis, pas l’écriture, le contenu, les PDF ou les matières.
 
-L’orientation ne change plus après création. Supprimer un dossier conserve les matières. La corbeille restaure matières et notes, mais pas les pages, lots ou éléments définitivement supprimés. Une note protégée ne peut pas être annotée.
+L’orientation ne change plus après création. Supprimer un dossier conserve les matières. La corbeille restaure matières et notes, mais pas les pages, lots ou éléments définitivement supprimés. Une note protégée ne peut pas être annotée. Dans les listes, touchez une note pour l’ouvrir et maintenez-la pour Modifier, Protéger ou Supprimer ; Supprimer la place aussitôt dans la corbeille.
 
 Les matières et notes de la corbeille sont supprimées définitivement lors du nettoyage après 30 jours. Restaurez-les avant ce délai si nécessaire.
 
@@ -41,7 +41,7 @@ Pincez avec deux doigts pour zoomer. Le déplacement de zone sélectionne et dé
 
 ### Peut-on modifier du texte ou les cellules d’un tableau après insertion ?
 
-Le texte placé peut être déplacé et redimensionné, mais pas réécrit. Les cellules de tableau ne permettent pas la saisie directe et le nombre de lignes ou colonnes ne change plus après insertion.
+Le texte placé peut être déplacé, redimensionné et pivoté, mais pas réécrit. Il est placé lorsque vous touchez en dehors de la saisie, choisissez de nouveau Texte ou touchez × sur l’étiquette Saisie de texte ; masquer le clavier ne suffit pas. Les cellules de tableau ne permettent pas la saisie directe et le nombre de lignes ou colonnes ne change plus après insertion.
 
 [Texte, formes et tableaux]({{< relref "/htu/uni-note/" >}}#text-shapes) →
 
@@ -49,7 +49,7 @@ Le texte placé peut être déplacé et redimensionné, mais pas réécrit. Les 
 
 ### Pourquoi ne puis-je pas déplacer une photo ou un PDF ? {#help-3}
 
-Si Dessiner au doigt est désactivé, touchez deux fois une photo ou un PDF fixé pour le déverrouiller, puis une fois pour le sélectionner. Si l’option est activée, touchez Modifier pour passer en sélection d’objets, puis touchez le document. Ce déplacement est distinct de la sélection manuscrite. Pour effacer uniquement l’écriture, utilisez l’effacement de page.
+Si Dessiner au doigt est désactivé, touchez deux fois une photo ou un PDF fixé pour le déverrouiller, puis une fois pour le sélectionner. Si l’option est activée, touchez le bouton Modifier, du côté opposé à la palette, pour qu’il devienne bleu, puis touchez le document. Ce déplacement est distinct de la sélection manuscrite. Pour effacer uniquement l’écriture, utilisez l’effacement de page.
 
 L’insertion de PDF respecte aussi la limite de 150 pages. Répartissez un grand document sur plusieurs notes. Les opérations photo, document photo, PDF et export figurent dans le guide illustré.
 
@@ -63,7 +63,11 @@ L’insertion de PDF respecte aussi la limite de 150 pages. Répartissez un gran
 
 L’enregistrement, la lecture et la consultation des transcriptions nécessitent Premium (achat unique) ou Premium Plus (mensuel). L’autorisation du microphone est nécessaire. La transcription exige iPadOS 26, un modèle vocal Apple et une langue compatibles. L’app indique les conditions manquantes ; enregistrement et lecture restent disponibles.
 
-Les fichiers sont divisés après 30 minutes, avec cinq par note. « Privilégier la précision de la transcription » est activé par défaut sous Réglages → Aide à l’étude → Aide à l’enregistrement. Le désactiver accélère l’affichage, mais peut réduire la précision ; le changement vaut pour le prochain enregistrement. Le résumé IA utilise la transcription, sans envoyer l’audio. Incluez l’audio dans la sauvegarde pour le restaurer ou l’écouter dans Pocket.
+Les fichiers sont divisés après 30 minutes, avec cinq par note. Lorsque Uni:Note passe en arrière-plan, l’enregistrement est sauvegardé et arrêté automatiquement. Sous Réglages → Aide à l’étude → Aide à l’enregistrement, « Privilégier la précision de la transcription » activé favorise la précision, désactivé la vitesse ; le changement vaut à partir du prochain enregistrement. Le résumé IA utilise la transcription, sans envoyer l’audio. Incluez l’audio dans la sauvegarde pour le restaurer ou l’écouter dans Pocket.
+
+{{% uni-v4 %}}
+Lors d’une nouvelle installation de 4.0.0, « Privilégier la précision de la transcription » est désactivé au départ.
+{{% /uni-v4 %}}
 
 [Étapes d’enregistrement]({{< relref "/htu/uni-note/" >}}#recording) →
 
@@ -71,9 +75,19 @@ Les fichiers sont divisés après 30 minutes, avec cinq par note. « Privilégie
 
 ### Où trouver les repères et les outils IA ? {#help-5}
 
-Activez les repères et l’assistant dans les réglages d’étude. Chaque repère se bascule séparément ; l’ancien masque de page entière n’est plus utilisé.
+Sélectionnez le Marqueur pense-bête dans la palette ; aucun réglage de l’aide à l’étude n’est nécessaire. Chaque marqueur se bascule séparément ; l’ancien masque de page entière n’est plus utilisé. Passez sur Note adhésive dans les détails de l’outil pour coller des notes adhésives sur lesquelles écrire. L’Assistant de résolution par encerclement est un bouton de la barre de navigation de la note ; affichez-le ou masquez-le sous Réglages → Affichage → Écran de note.
 
-Réponses IA, génération d’exercices et résumés utilisent le solde IA visible dans les réglages et l’écran de formule. Créer ou modifier des exercices manuellement ne consomme pas ce solde. Certains textes longs, questions ouvertes ou schémas ne sont pas pris en charge. Vérifiez les résultats avec vos cours.
+Réponses IA, génération de lots d’exercices et résumés utilisent le solde IA visible dans les réglages et l’écran de formule. Créer ou modifier des lots d’exercices manuellement ne consomme pas ce solde. Certains textes longs, questions ouvertes ou schémas ne sont pas pris en charge. Vérifiez les résultats avec vos cours.
+
+[Réviser avec repères et exercices]({{< relref "/htu/uni-note/" >}}#review) →
+
+### Qu’est-ce qui change pour les lots d’exercices dans 4.0.0 ? {#problem-sets-v4}
+
+{{% uni-pre-v4 %}}Touchez la carte pour afficher la réponse, puis passez d’une question à l’autre avec les boutons précédent et suivant.{{% /uni-pre-v4 %}}
+
+{{% uni-v4 %}}
+Dans Lots d’exercices, le menu + propose Créer une question à la fois (écriture manuscrite ou clavier), Créer par collage et Créer à partir d’un fichier (TSV/CSV, jusqu’à 300 questions). La création en masse nécessite Premium ou Premium Plus ; la création question par question et l’étude sont gratuites. Un balayage vers la droite enregistre Mémorisé, vers la gauche Non mémorisé. Après un tour, refaites seulement les questions Non mémorisé, reprenez plus tard et ouvrez la note source à côté de la question. Les lots sont regroupés par matière.
+{{% /uni-v4 %}}
 
 [Réviser avec repères et exercices]({{< relref "/htu/uni-note/" >}}#review) →
 
@@ -83,9 +97,9 @@ Réponses IA, génération d’exercices et résumés utilisent le solde IA visi
 
 ### Comment sont traités les sauvegardes, les données et les diagnostics ? {#help-6}
 
-Les notes sont stockées dans l’app. La sauvegarde rapide avec Premium ou Premium Plus lit et écrit un fichier iCloud sans synchronisation automatique. Export zip et restauration de fichier fonctionnent aussi avec Free. Rouvrez l’app après restauration selon son message.
+Les notes sont stockées dans l’app. La sauvegarde rapide avec Premium ou Premium Plus lit et écrit un fichier iCloud sans synchronisation automatique. Export zip et restauration de fichier fonctionnent aussi avec Free. La restauration démarre immédiatement, sans confirmation, et remplace les données actuelles : exportez d’abord vos données. Rouvrez l’app après restauration selon son message. Les lots d’exercices sont inclus dans les sauvegardes ; pour les charger dans Uni:Note Pocket, mettez Pocket à jour vers la dernière version.
 
-Des diagnostics techniques de plantage peuvent être envoyés avec Firebase Crashlytics. Texte, écriture, images, PDF et contenu audio sont exclus des journaux de diagnostic. Consultez la politique de confidentialité dans les liens de support ci-dessous.
+Des diagnostics techniques de plantage peuvent être envoyés avec Firebase Crashlytics, et des informations d’utilisation avec Google Analytics for Firebase. L’analyse des plantages peut inclure des statistiques d’écriture, comme le nombre de traits, mais jamais le contenu manuscrit ni les noms de notes. Texte, écriture, images, PDF et contenu audio sont exclus des journaux de diagnostic. Consultez la politique de confidentialité dans les liens de support ci-dessous.
 
 [Étapes de sauvegarde]({{< relref "/htu/uni-note/" >}}#backup) →
 
@@ -97,16 +111,20 @@ Des diagnostics techniques de plantage peuvent être envoyés avec Firebase Cras
 
 Free permet 10 matières et 6 notes par matière. Premium (achat unique) et Premium Plus (mensuel) retirent ces limites et ouvrent l’enregistrement et la sauvegarde rapide. Premium attribue 500 unités de solde IA en début de mois, Premium Plus 10 000 par période d’abonnement ; le reliquat de période n’est pas reporté. **Le déplacement de zone et la recherche de titres sont aussi disponibles dans Free.** Vérifiez les tarifs et achats dans l’app.
 
+{{% uni-v4 %}}
+Créer des lots d’exercices en masse par collage ou à partir d’un fichier nécessite Premium ou Premium Plus. La création question par question et l’étude sont gratuites.
+{{% /uni-v4 %}}
+
 ### Comment acheter du solde IA ?
 
-Vérifiez la quantité et les conditions avant d’acheter du solde IA supplémentaire. Réponses IA, exercices et résumés le consomment ; le solde acheté séparément n’expire pas. Si un achat n’apparaît pas, utilisez « Mettre à jour le statut des achats » avant de réessayer.
+Vérifiez la quantité et les conditions avant d’acheter du solde IA supplémentaire. Réponses IA, génération de lots d’exercices et résumés le consomment ; le solde acheté séparément n’expire pas. Si un achat n’apparaît pas, utilisez « Mettre à jour le statut des achats » avant de réessayer.
 
 ## En cas de difficulté {#help}
 {{< guide-anchor "réglages" "quels-réglages-sont-disponibles-" "puis-je-modifier-le-libellé-des-matières-" "que-puis-je-modifier-dans-le-mode-gaucher-" "puis-je-changer-la-langue-" "où-puis-je-ouvrir-la-page-du-mode-demploi-" "quelles-sont-les-principales-nouveautés-récentes-" "puis-je-utiliser-lapp-avec-split-view-ou-slide-over-" "puis-je-ouvrir-deux-fenêtres-uninote-en-même-temps-" >}}
 
 ### Pourquoi mon écran est-il différent ? {#help-7}
 
-La langue, les options gaucher, le nom des matières ainsi que les boutons et la palette personnalisés changent l’affichage. Le guide décrit les opérations de Uni:Note 3.7.0.
+La langue, les options gaucher, le nom des matières ainsi que les boutons et la palette personnalisés changent l’affichage. Le mode d’emploi décrit les opérations actuelles.
 
 Consultez les informations de mise à jour dans les annonces de la section support des réglages. Les fenêtres dépendent d’iPadOS.
 

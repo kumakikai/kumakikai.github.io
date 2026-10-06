@@ -1,0 +1,6 @@
+{{- /* Note about the currently released version. Shown until 4.0.0 is switched to "released" in data/uni_note_release.json. */ -}}
+{{- $r := site.Data.uni_note_release -}}
+{{- $l := index $r.labels site.Language.Lang | default (index $r.labels "ja") -}}
+{{- if ne $r.mode "released" }}
+> **{{ replace $l.current "{c}" $r.current }}** {{ .Inner | strings.TrimSpace }}
+{{ end -}}

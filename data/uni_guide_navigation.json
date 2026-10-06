@@ -3,6 +3,7 @@
     "start": "はじめに",
     "library": "教科・フォルダ",
     "notebooks": "ノート・ページ",
+    "timetable": "時間割",
     "writing": "手書き",
     "materials": "写真・PDF",
     "recording": "録音・文字起こし",
@@ -42,6 +43,12 @@
       "url": "/htu/uni-note/library/#folders"
     },
     {
+      "key": "library/two-pane",
+      "category": "library",
+      "title": "2ペイン表示で整理する",
+      "url": "/htu/uni-note/library/#two-pane"
+    },
+    {
       "key": "library/search",
       "category": "library",
       "title": "ノートをタイトルで探す",
@@ -64,6 +71,18 @@
       "category": "notebooks",
       "title": "縦ノートを作る",
       "url": "/htu/uni-note/notebooks/#vertical"
+    },
+    {
+      "key": "timetable/setup",
+      "category": "timetable",
+      "title": "時間割を作る",
+      "url": "/htu/uni-note/timetable/#setup"
+    },
+    {
+      "key": "timetable/open",
+      "category": "timetable",
+      "title": "時間割からノートを開く",
+      "url": "/htu/uni-note/timetable/#open"
     },
     {
       "key": "writing/finger-drawing",
@@ -174,6 +193,12 @@
       "url": "/htu/uni-note/study/#sticky"
     },
     {
+      "key": "study/sticky-note",
+      "category": "study",
+      "title": "手書きできる付箋を貼る",
+      "url": "/htu/uni-note/study/#sticky-note"
+    },
+    {
       "key": "study/pomodoro",
       "category": "study",
       "title": "ポモドーロで集中と休憩を区切る",
@@ -198,21 +223,41 @@
       "url": "/htu/uni-note/ai/#settings"
     },
     {
+      "key": "problem-sets/list",
+      "category": "problem-sets",
+      "title": "問題集ホームを開く",
+      "url": "/htu/uni-note/problem-sets/#list"
+    },
+    {
       "key": "problem-sets/generate",
       "category": "problem-sets",
       "title": "ノートからAI問題集を作る",
       "url": "/htu/uni-note/problem-sets/#generate"
     },
     {
+      "key": "problem-sets/create",
+      "category": "problem-sets",
+      "title": "1問ずつ作る",
+      "url": "/htu/uni-note/problem-sets/#create",
+      "release": "4.0.0"
+    },
+    {
+      "key": "problem-sets/bulk",
+      "category": "problem-sets",
+      "title": "表計算アプリのデータからまとめて作る",
+      "url": "/htu/uni-note/problem-sets/#bulk",
+      "release": "4.0.0"
+    },
+    {
       "key": "problem-sets/review",
       "category": "problem-sets",
-      "title": "保存した問題集で復習する",
+      "title": "覚えた・覚えていないで学習する",
       "url": "/htu/uni-note/problem-sets/#review"
     },
     {
       "key": "problem-sets/edit",
       "category": "problem-sets",
-      "title": "問題集を手動作成・編集する",
+      "title": "問題集を編集・管理する",
       "url": "/htu/uni-note/problem-sets/#edit"
     },
     {
@@ -358,23 +403,49 @@
       "category": "workflows",
       "title": "動画を小さく表示しながら書く",
       "url": "/htu/uni-note/workflows/pip/"
+    },
+    {
+      "key": "workflows/timetable-launch",
+      "category": "workflows",
+      "title": "時間割から授業のノートで始める",
+      "url": "/htu/uni-note/workflows/timetable-launch/"
+    },
+    {
+      "key": "workflows/sticky-note-memo",
+      "category": "workflows",
+      "title": "手書きできる付箋で質問や補足を残す",
+      "url": "/htu/uni-note/workflows/sticky-note-memo/"
+    },
+    {
+      "key": "workflows/problem-set-sheet",
+      "category": "workflows",
+      "title": "表計算アプリで単語帳を作って問題集にする",
+      "url": "/htu/uni-note/workflows/problem-set-sheet/",
+      "release": "4.0.0"
+    },
+    {
+      "key": "workflows/web-screenshot",
+      "category": "workflows",
+      "title": "Webページの図をノートに貼って書き込む",
+      "url": "/htu/uni-note/workflows/web-screenshot/"
     }
   ],
   "descriptions": {
     "start": "初めて使うときは、画面の仕組みを確認してから最初のノートを作ります。",
-    "library": "教科を名前やフォルダで整理し、必要なノートを探します。",
+    "library": "教科を名前やフォルダで整理し、2ペイン表示や検索で必要なノートを探します。",
     "notebooks": "ノートを増やす・切り替える操作と、ページの移動・整理を扱います。",
     "writing": "Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。",
     "materials": "写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。",
     "recording": "授業の録音から再生、文字起こし、AI要約までを順に使えます。",
-    "study": "答えを隠して復習し、勉強時間を区切り、資料を指し示します。",
-    "ai": "問題を囲って解答を確認します。録音からの要約や問題集生成へも進めます。",
-    "problem-sets": "AIでの生成と手動作成を選び、内容を編集して復習します。",
+    "study": "答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。",
+    "ai": "問題を囲って解答を確認し、AIの回答言語などを設定します。",
+    "problem-sets": "ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。",
     "customize": "紙・左右の配置・表示・道具を、自分の使い方に合わせます。",
     "data": "書き込みの保護と、削除した教科・ノートの復元を扱います。",
     "backup": "バックアップを保管し、必要なときにデータを復元します。",
     "plans": "プランの対象機能とAI残量を分けて確認します。",
     "workflows": "資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。",
-    "ipados": "ウインドウ、ファイルアプリ、共有シートなどiPadOS標準機能と組み合わせます。"
+    "ipados": "ウインドウ、ファイルアプリ、共有シートなどiPadOS標準機能と組み合わせます。",
+    "timetable": "曜日と時限に教科を登録し、授業のノートをすばやく開きます。"
   }
 }

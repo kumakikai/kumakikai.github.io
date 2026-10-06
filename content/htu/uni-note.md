@@ -1,10 +1,10 @@
 ---
 title: "使い方 (Uni:Note)"
-description: "Uni:Noteの公式ユーザーガイド。ノート作成、Apple Pencil、指での描画、写真・PDF、録音、AI、問題集、バックアップ、便利な使い方を目的から探せます。"
+description: "Uni:Noteの公式ユーザーガイド。ノート作成、Apple Pencil、指での描画、時間割、写真・PDF、付箋、録音、AI、問題集、バックアップ、便利な使い方を目的から探せます。"
 seo_title: "使い方 (Uni:Note) | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/"
-lastmod: "2026-09-26"
+lastmod: "2026-10-06"
 guide_category: ""
 guide_kind: "top"
 ---
@@ -28,6 +28,8 @@ guide_kind: "top"
 {{< guide-anchor "6-ノート一覧-と-ページ一覧-を使う" "find" >}}
 
 {{< uni-guide-category category="notebooks" >}}
+
+{{< uni-guide-category category="timetable" >}}
 
 {{< guide-anchor "3-apple-pencilで書く" "4-2本指でズームする" "5-ツールを切り替える" "9-定規-を使う" "write" >}}
 

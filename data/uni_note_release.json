@@ -1,0 +1,51 @@
+{
+  "_comment": "Uni:Note 4.0.0 の掲載切替。表示文言は labels（言語別）。mode: upcoming=「公開予定」表示つきで掲載 / released=表示を外して通常掲載 / hidden=4.0.0部分を非表示（延期時）。uni-pre-v4 の現行版注記は released 以外のとき表示される。",
+  "version": "4.0.0",
+  "date": "2026-10-30",
+  "current": "3.8.3",
+  "mode": "upcoming",
+  "labels": {
+    "ja": {
+      "upcoming": "Uni:Note {v}（{d}公開予定）の内容です。",
+      "notYet": "公開中の{c}ではまだ利用できません。",
+      "current": "公開中の{c}では：",
+      "badge": "{v}・{d}公開予定",
+      "date": "2026年10月30日"
+    },
+    "en": {
+      "upcoming": "This describes Uni:Note {v}, scheduled for release on {d}.",
+      "notYet": "It is not available in the current version {c}.",
+      "current": "In the current version {c}:",
+      "badge": "{v} · coming {d}",
+      "date": "October 30, 2026"
+    },
+    "ko": {
+      "upcoming": "Uni:Note {v}({d} 공개 예정)의 내용입니다.",
+      "notYet": "현재 공개 중인 {c}에서는 아직 사용할 수 없습니다.",
+      "current": "현재 공개 중인 {c}에서는:",
+      "badge": "{v} · {d} 공개 예정",
+      "date": "2026년 10월 30일"
+    },
+    "de": {
+      "upcoming": "Dieser Abschnitt beschreibt Uni:Note {v}, geplant für den {d}.",
+      "notYet": "In der aktuellen Version {c} ist dies noch nicht verfügbar.",
+      "current": "In der aktuellen Version {c}:",
+      "badge": "{v} · ab {d}",
+      "date": "30. Oktober 2026"
+    },
+    "zh-hant": {
+      "upcoming": "以下為 Uni:Note {v}（預計 {d} 推出）的內容。",
+      "notYet": "目前公開的 {c} 尚無法使用。",
+      "current": "目前公開的 {c}：",
+      "badge": "{v}・預計 {d} 推出",
+      "date": "2026年10月30日"
+    },
+    "fr": {
+      "upcoming": "Cette section décrit Uni:Note {v}, dont la sortie est prévue le {d}.",
+      "notYet": "Elle n’est pas disponible dans la version actuelle {c}.",
+      "current": "Dans la version actuelle {c} :",
+      "badge": "{v} · prévu le {d}",
+      "date": "30 octobre 2026"
+    }
+  }
+}

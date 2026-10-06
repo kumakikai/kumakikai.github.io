@@ -4,7 +4,7 @@ description: "資料・手書き・録音・AIを組み合わせて、学習の�
 seo_title: "便利な使い方 | Uni:Note 使い方"
 type: "uni-guide"
 url: "/htu/uni-note/workflows/"
-lastmod: "2026-09-19"
+lastmod: "2026-10-06"
 guide_category: "workflows"
 guide_kind: "category"
 ---
@@ -36,5 +36,15 @@ guide_kind: "category"
 - [SafariやPDF閲覧アプリと並べて書く](/htu/uni-note/workflows/external-material/) — SafariやPDF閲覧アプリを資料側に置き、Uni:Noteを横に並べてメモします。
 
 - [動画を小さく表示しながら書く](/htu/uni-note/workflows/pip/) — 対応する動画を小さなウインドウにし、Uni:Noteの上に表示して授業の要点を書きます。
+
+- [時間割から授業のノートで始める](/htu/uni-note/workflows/timetable-launch/) — 時間割に授業を登録しておき、アプリを開いたらすぐにその授業のノートへ書き始めます。
+
+- [手書きできる付箋で質問や補足を残す](/htu/uni-note/workflows/sticky-note-memo/) — 授業中の疑問や補足を、ノートの上に貼った付箋へ書き留めます。
+
+{{% uni-v4 %}}
+- [表計算アプリで単語帳を作って問題集にする](/htu/uni-note/workflows/problem-set-sheet/) — スプレッドシートの用語一覧をまとめて問題集に取り込み、覚えていない問題を繰り返します。
+{{% /uni-v4 %}}
+
+- [Webページの図をノートに貼って書き込む](/htu/uni-note/workflows/web-screenshot/) — Webの図や表をスクリーンショットで保存し、ノートに貼って解説を書き込みます。
 
 ウインドウ表示やPiPはiPadOSの機能を利用します。外部アプリとOSの対応条件を、各説明で確認してください。
