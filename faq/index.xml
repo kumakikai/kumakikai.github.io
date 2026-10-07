@@ -5,6 +5,14 @@
 &lt;h3 id="help-1"&gt;対応端末・対応OSは？&lt;/h3&gt;
 &lt;p&gt;iPadOS 17.0以降のiPadに対応しています。&lt;/p&gt;
 &lt;p&gt;Apple Pencilで手書きできます。「指で描画」をONにすると1本指でも書けます。ONではノートのスクロールに2本指を使います。OFFでは1本指でスクロールします（「設定 → ノート設定」の「2本指でスクロール」がONなら2本指）。アプリ独自のアカウント登録は不要です。日本語・英語・韓国語・ドイツ語・繁体字中国語・フランス語に対応しています。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id="help-overlay"&gt;ボタンの役割が分からない場合は？&lt;/h3&gt;
+&lt;p&gt;ホーム、問題集表示、時間割では右上の「?」、ノート画面では「その他」（「…」）の「ボタンの説明」をタップすると、画面の上にボタンと操作の説明が表示されます。画面のどこかをタップすると閉じます。新しくインストールした場合は、各画面を初めて開いたときに一度だけ自動で表示されます。ウインドウの幅が狭いと表示できないため、ウインドウを広げてから開いてください。&lt;/p&gt;
+&lt;p&gt;新しくインストールすると、ホームに「はじめに」の教科とノート「Uni:Note の使い方」が用意されます。試し書きに使え、不要になったらカードを長押しして削除できます。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kumakikai.top/htu/uni-note/start/#help-overlay"&gt;ボタンの説明を見る&lt;/a&gt; →&lt;/p&gt;
 
 &lt;h2 id="ノート資料について"&gt;ノート・資料について&lt;/h2&gt;
 &lt;div id="ノートとページ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ノート名は必須ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="新しい教科を最初に開いたときのタイトル入力は何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="教科を作るときに選べる項目は何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="縦ノートとは何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="同じ教科の中でノートを分けられますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ページはどう増えますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ノートの最大ページ数は" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ページは削除できますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ノートを保護できますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="教科は編集できますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ホームで教科をフォルダに入れられますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ゴミ箱から戻せるのは何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
@@ -34,13 +42,7 @@
 &lt;div id="録音文字起こし" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="録音機能は使えますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="文字起こしとai要約は使えますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="録音はバックアップに含まれますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
 &lt;h3 id="help-4"&gt;録音・文字起こしを使えない場合は？&lt;/h3&gt;
-&lt;p&gt;録音、再生、文字起こし閲覧はPremiumまたはPremium Plusで使えます。録音時にはマイクへのアクセスを許可してください。文字起こしはiPadOS 26以降に加え、対応するAppleの音声モデルと言語が必要です。利用できない環境では「リアルタイム文字起こしとAI要約は iPadOS 26 以降で利用できます。」と表示されますが、録音・再生は引き続き利用できます。Uni:Noteがバックグラウンドに移ると、録音は自動で保存・停止します。&lt;/p&gt;
-&lt;p&gt;録音は30分ごとに自動分割され、1ノート5件までです。「設定 → 学習支援 → 録音サポート」の「文字起こしの精度を優先」は、ONで精度、OFFで表示速度を優先し、変更は次の録音から反映されます。AI要約は作成済みの文字起こしテキストを使い、音声ファイルを要約用に送信しません。録音音声を復元・Pocket再生したい場合は、バックアップ時に音声を含める設定をオンにしてください。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kumakikai.top/htu/uni-note/#recording"&gt;録音の操作&lt;/a&gt; →&lt;/p&gt;
-&lt;div id="学習支援" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="暗記マーカー-は何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="付箋マーカーはページ全体で一括表示--非表示できますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="学習支援機能は今どうなっていますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="囲って解答アシスタント-はどう使いますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="問題集を作る-はどう使いますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ai残量とは何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
-
-&lt;h3 id="help-5"&gt;付箋・AI学習支援が見つからない場合は？&lt;/h3&gt;
-&lt;p&gt;付箋マーカーはパレット、囲って解答アシスタントはナビゲーションバーにあります。見つからない場合は「設定 → 表示設定 → ノート画面」の「パレット」「ナビゲーションバー」で非表示になっていないか確認してください。付箋マーカーは1本ずつタップして表示を切り替えます。メモを書き込める「付箋」は、付箋マーカーの詳細で「付箋」に切り替えて貼ります。&lt;/p&gt;</description></item><item><title>よくある質問 (Nocca)</title><link>https://kumakikai.top/faq/nocca/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/faq/nocca/</guid><description>&lt;div id="基本" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;p&gt;録音、再生、文字起こし閲覧はPremiumまたはPremium Plusで使えます。録音時にはマイクへのアクセスを許可してください。文字起こしはiPadOS 26以降に加え、対応するAppleの音声モデルと言語が必要です。利用できない環境では「リアルタイム文字起こしとAI要約は iPadOS 26 以降で利用できます。」と表示されますが、録音・再生は引き続き利用できます。Uni:Noteがバックグラウンドに移ると、録音は自動で保存・停止します。&lt;/p&gt;</description></item><item><title>よくある質問 (Nocca)</title><link>https://kumakikai.top/faq/nocca/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/faq/nocca/</guid><description>&lt;div id="基本" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
 &lt;h2 id="はじめに"&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;Noccaの利用条件、家族との通信、データ、料金、問題が起きた場合の対処を案内します。初めての操作は使い方の各節で確認できます。&lt;/p&gt;

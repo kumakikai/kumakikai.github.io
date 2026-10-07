@@ -16,7 +16,10 @@
 &lt;li&gt;「予想消費量」を確認して「解答する」をタップします。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;広い範囲、複雑な数式、100文字を超える中長文はAI残量の消費が増えやすくなります。&lt;/p&gt;
-&lt;p&gt;ボタンが見つからない場合は「その他」、または「設定 → 表示設定 → ノート画面 → ナビゲーションバー」で配置を確認します。&lt;/p&gt;
+&lt;p&gt;ボタンが見つからない場合は「その他」、または「設定 → ノート設定 → ノート画面 → ナビゲーションバー」で配置を確認します。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;公開中の3.8.3では：&lt;/strong&gt; ナビゲーションバーとパレットの設定は「設定 → 表示設定 → ノート画面」にあります。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;範囲を選び直したい場合はキャンセルし、問題全体が読めるように囲み直します。キャンセルするとペンへ戻れます。PDF上の問題も同じ手順です。&lt;/p&gt;
 
 &lt;h3 id="結果を読む渡す"&gt;結果を読む・渡す&lt;/h3&gt;
@@ -58,10 +61,7 @@
 &lt;li&gt;日本語・English・한국어・Deutsch・繁體中文・Françaisから選びます。&lt;/li&gt;
 &lt;li&gt;次に囲って解答、問題集生成、AI要約を実行するときの回答を確認します。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;この設定は新しく生成するAIの説明に使われます。アプリの表示言語や、録音の文字起こし言語とは独立しています。保存済みの要約や問題集を翻訳し直す操作ではありません。&lt;/p&gt;
-
-&lt;h3 id="aiの出力を確認する"&gt;AIの出力を確認する&lt;/h3&gt;
-&lt;p&gt;要約や解答が作成されたら、文章の言語と内容を確認します。困った場合は実行した機能、選んだ文字起こし言語、実際の出力状況を添えて問い合わせてください。&lt;/p&gt;</description></item><item><title>AI問題集を手修正して復習する</title><link>https://kumakikai.top/htu/uni-note/workflows/quiz-review/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/workflows/quiz-review/</guid><description>&lt;p&gt;ノートからAIで問題の候補を作り、自分で内容を直してから復習します。授業で重視された言い回しや解説を反映できます。&lt;/p&gt;
+&lt;p&gt;この設定は新しく生成するAIの説明に使われます。アプリの表示言語や、録音の文字起こし言語とは独立しています。保存済みの要約や問題集を翻訳し直す操作ではありません。&lt;/p&gt;</description></item><item><title>AI問題集を手修正して復習する</title><link>https://kumakikai.top/htu/uni-note/workflows/quiz-review/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/workflows/quiz-review/</guid><description>&lt;p&gt;ノートからAIで問題の候補を作り、自分で内容を直してから復習します。授業で重視された言い回しや解説を反映できます。&lt;/p&gt;
 
 
 &lt;h2 id="必要な条件"&gt;必要な条件&lt;/h2&gt;
@@ -204,7 +204,10 @@
 &lt;li&gt;もう一度タップして隠します。&lt;/li&gt;
 &lt;li&gt;不要な付箋マーカーは長押しし、表示されるゴミ箱のボタンで消します。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;付箋マーカーがパレットにない場合は「設定 → 表示設定 → ノート画面 → パレット」を確認します。&lt;/p&gt;
+&lt;p&gt;付箋マーカーがパレットにない場合は「設定 → ノート設定 → ノート画面 → パレット」を確認します。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;公開中の3.8.3では：&lt;/strong&gt; ナビゲーションバーとパレットの設定は「設定 → 表示設定 → ノート画面」にあります。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
  &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/un35/un35-054-sticky-reveal-common_hu_a1862f348ea4fe72.webp" srcset="https://kumakikai.top/images/guides/uni-note/un35/un35-054-sticky-reveal-common_hu_a1862f348ea4fe72.webp 760w, https://kumakikai.top/images/guides/uni-note/un35/un35-054-sticky-reveal-common_hu_aca3c55fab94e52f.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="上側の付箋だけを透過し、用語の答えを確認した状態" loading="lazy" decoding="async"&gt;&lt;/div&gt;
@@ -346,11 +349,11 @@
  &lt;td&gt;設定トップの「指で描画」&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;新しいノートの紙・左利き・ページの四隅の表示・スクロール・パレットの自動収納&lt;/td&gt;
+ &lt;td&gt;新しいノートの紙・左利き・ページの四隅の表示・スクロール・パレットの自動収納・ボタンとパレットの配置&lt;/td&gt;
  &lt;td&gt;ノート設定&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;起動時の画面・ホームの表示・ボタンとパレットの配置・PDF出力・言語&lt;/td&gt;
+ &lt;td&gt;起動時の画面・ホームの表示・PDF出力・言語&lt;/td&gt;
  &lt;td&gt;表示設定&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
@@ -371,9 +374,16 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;公開中の3.8.3では：&lt;/strong&gt; ナビゲーションバーとパレットの設定は「設定 → 表示設定 → ノート画面」にあります。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Freeプランのときは、設定トップのプランの欄に、作成できる教科の数（10件）と1教科あたりのノートの冊数（6冊）が表示されます。&lt;/p&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/customize-settings-top_hu_7bed3065ad54f648.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/customize-settings-top_hu_7bed3065ad54f648.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/customize-settings-top_hu_e45528aafb637642.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="654" alt="指で描画、ノート設定、表示設定、学習支援、バックアップ、お知らせが並ぶ設定トップ" loading="lazy" decoding="async"&gt;&lt;/div&gt;
- &lt;figcaption&gt;設定トップ。目的に合う項目を開きます。&lt;/figcaption&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/customize-settings-top_hu_8940ccaecf1ec2be.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/customize-settings-top_hu_8940ccaecf1ec2be.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/customize-settings-top_hu_608d841f0b527985.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="762" alt="プランの欄にFreeの作成上限が表示され、その下に指で描画とノート設定・表示設定・学習支援が並ぶ設定トップ" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;figcaption&gt;設定トップ。Freeでは、作成できる教科とノートの上限がプランの欄に表示されます。&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id="settings-完了の確認"&gt;完了の確認&lt;/h3&gt;
@@ -407,7 +417,7 @@
 &lt;li&gt;ノートに戻って表示を確認します。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/customize-notebook-settings_hu_5b9bedbaf93a85eb.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/customize-notebook-settings_hu_5b9bedbaf93a85eb.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/customize-notebook-settings_hu_96fe442db4862f24.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="テンプレート・ベース色・左利きモード・項目ごとの設定・ヘッダーフッターが並ぶノート設定" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/customize-notebook-settings_hu_f400427f2e5d5671.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/customize-notebook-settings_hu_f400427f2e5d5671.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/customize-notebook-settings_hu_d4af03f9588cb75b.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="テンプレート・ベース色・左利きモード・項目ごとの設定・ヘッダーフッターが並ぶノート設定" loading="lazy" decoding="async"&gt;&lt;/div&gt;
  &lt;figcaption&gt;「ノート設定」。新規ノートの紙、左利き、ページの四隅の表示などを設定します。&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -467,10 +477,28 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;問題集と時間割のボタンは、設定でホームに表示しない選択もできます。ボタンが見つからない場合は「設定 → 学習支援」の「ホームに問題集を表示」「ホームに時間割を表示」を確認してください。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id="help-overlay"&gt;ボタンの説明を見る&lt;/h3&gt;
+&lt;p&gt;アイコンだけのボタンの役割は、画面に重ねて表示される「ボタンの説明」で確認できます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ホーム右上の「?」（ボタンの説明）をタップします。&lt;/li&gt;
+&lt;li&gt;画面が暗くなり、説明するボタンや操作の場所が丸や枠で示されます。それぞれに名前と一言の説明が「ボタン」「操作」に分けて表示されます。画面によっては、番号と一覧で表示されます。&lt;/li&gt;
+&lt;li&gt;画面のどこかをタップすると閉じます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;「?」は、ホーム（従来表示・2ペイン表示）、問題集表示、時間割の右上にあります。ノート画面では「その他」（「…」）の「ボタンの説明」から開きます。「カードを長押し」「≡ をドラッグ」など、見ただけでは分からない操作も説明されます。&lt;/p&gt;
+&lt;p&gt;新しくインストールした場合は、各画面を初めて開いたときに一度だけ自動で表示されます。以前から使っている場合は自動では表示されないため、必要なときに「?」から開いてください。&lt;/p&gt;
+&lt;p&gt;Slide Overや、Split Viewで幅を狭くしたウインドウでは表示できず、「画面を広げると、ボタンの説明を表示できます」と表示されます。ウインドウを広げてから開き直してください。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/start-help-overlay-home_hu_60062b669ff662b9.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/start-help-overlay-home_hu_60062b669ff662b9.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/start-help-overlay-home_hu_cb8108ee85d77151.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="ホームのボタンに番号が付き、中央の一覧にゴミ箱・2ペイン表示・問題集・時間割・設定・作成・カードを長押し・≡をドラッグの説明が並ぶ画面" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;figcaption&gt;ホーム右上の「?」で開いたボタンの説明。画面のどこかをタップすると閉じます。&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;ホームには「従来表示」と「2ペイン表示」の2種類があります。従来表示では「最近使ったノート」と教科カードが並び、2ペイン表示では左に教科・フォルダ、右にノートが並びます。2ペイン表示の使い方は&lt;a href="https://kumakikai.top/htu/uni-note/library/#two-pane"&gt;2ペイン表示で整理する&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/start-home-legacy_hu_72199625f206f280.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/start-home-legacy_hu_72199625f206f280.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/start-home-legacy_hu_63eeb476ed56548e.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="最近使ったノート、教科カード、学期フォルダが並ぶ従来表示のホーム" loading="lazy" decoding="async"&gt;&lt;/div&gt;
- &lt;figcaption&gt;従来表示のホーム。左上にゴミ箱・2ペイン切り替え・問題集・時間割、右上に検索と設定が並びます。&lt;/figcaption&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/start-home-legacy_hu_6373f402548660b1.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/start-home-legacy_hu_6373f402548660b1.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/start-home-legacy_hu_7a5ec91117aea413.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="最近使ったノート、教科カード、学期フォルダが並ぶ従来表示のホーム" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;figcaption&gt;従来表示のホーム。左上にゴミ箱・2ペイン切り替え・問題集・時間割、右上に検索・設定・「?」（ボタンの説明）が並びます。&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id="ホームからノートへ"&gt;ホームからノートへ&lt;/h3&gt;
@@ -479,21 +507,7 @@
 &lt;li&gt;カード本体をタップすると、その教科で最後に開いたノートがすぐに開きます。&lt;/li&gt;
 &lt;li&gt;別のノートを選ぶときは、カード右下の「ノート一覧」をタップし、一覧からノートを選びます。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;教科カードには「最近：（ノート名）」と、ノートの冊数（例「3冊」）が表示されます。「最近使ったノート」のカードから、続きのノートを直接開くこともできます。&lt;/p&gt;
-&lt;p&gt;ホーム右下の「＋」は教科やフォルダを作る入口です。ノートを増やすときは、教科の「ノート一覧」を使います。ノートに含まれる紙1枚ずつがページです。&lt;/p&gt;
-
-&lt;h3 id="ノート画面で使うもの"&gt;ノート画面で使うもの&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;パレット：ペン・蛍光ペン・消しゴム・付箋マーカーなど、書く道具を選びます。「戻る」「やり直し」もここにあります。&lt;/li&gt;
-&lt;li&gt;ナビゲーションバー：画面上部に浮かんで表示されます。初期状態では左に「ノート一覧」「ページ一覧」「録音」「囲って解答アシスタント」、右に「範囲移動」「定規」「ポモドーロ」「レーザーポインター」が並びます。&lt;/li&gt;
-&lt;li&gt;「その他」（「…」）：写真貼付、PDF貼付、テキスト、図形、PDF出力、問題集を作るなどの操作をまとめたメニューです。&lt;/li&gt;
-&lt;li&gt;左上の戻るボタン：ホームへ戻ります。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/start-note-screen_hu_5e0c07342d94e7ac.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/start-note-screen_hu_5e0c07342d94e7ac.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/start-note-screen_hu_19f26cfe4a0b460d.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="上部にナビゲーションバー、右上にパレットがあるノート画面" loading="lazy" decoding="async"&gt;&lt;/div&gt;
- &lt;figcaption&gt;ノート画面。上部の左右にナビゲーションバー、右上にパレットが表示されます。&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;ボタンと道具の配置はカスタマイズできます。説明にあるボタンが見つからなければ、&lt;a href="https://kumakikai.top/htu/uni-note/customize/#toolbar"&gt;配置設定&lt;/a&gt;を確認してください。&lt;/p&gt;</description></item><item><title>バックアップ</title><link>https://kumakikai.top/htu/uni-note/backup/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/backup/</guid><description>&lt;p&gt;バックアップを保管し、必要なときにデータを復元します。&lt;/p&gt;
+&lt;p&gt;教科カードには「最近：（ノート名）」と、ノートの冊数（例「3冊」）が表示されます。「最近使ったノート」のカードから、続きのノートを直接開くこともできます。&lt;/p&gt;</description></item><item><title>バックアップ</title><link>https://kumakikai.top/htu/uni-note/backup/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/backup/</guid><description>&lt;p&gt;バックアップを保管し、必要なときにデータを復元します。&lt;/p&gt;
 &lt;div id="目的から選ぶ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
 &lt;h2 id="save"&gt;バックアップを保存する&lt;/h2&gt;
@@ -606,6 +620,7 @@
 &lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;問題集の一括作成（「貼り付けて作成」「ファイルから作成」）はPremiumまたはPremium Plusで利用できます。1問ずつの作成と、問題集での学習はFreeでも使えます。&lt;/p&gt;
+&lt;p&gt;Freeのときは、設定トップのプランの欄にも「基本機能は無料で使えます。教科は10件、1教科につきノートは6冊まで作成できます。」と表示されます。呼び方を変えている場合は、その呼び方で表示されます。&lt;/p&gt;
 
 &lt;h3 id="ai残量を確認追加する"&gt;AI残量を確認・追加する&lt;/h3&gt;
 &lt;ol&gt;
@@ -679,6 +694,14 @@
 &lt;h3 id="help-1"&gt;対応端末・対応OSは？&lt;/h3&gt;
 &lt;p&gt;iPadOS 17.0以降のiPadに対応しています。&lt;/p&gt;
 &lt;p&gt;Apple Pencilで手書きできます。「指で描画」をONにすると1本指でも書けます。ONではノートのスクロールに2本指を使います。OFFでは1本指でスクロールします（「設定 → ノート設定」の「2本指でスクロール」がONなら2本指）。アプリ独自のアカウント登録は不要です。日本語・英語・韓国語・ドイツ語・繁体字中国語・フランス語に対応しています。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id="help-overlay"&gt;ボタンの役割が分からない場合は？&lt;/h3&gt;
+&lt;p&gt;ホーム、問題集表示、時間割では右上の「?」、ノート画面では「その他」（「…」）の「ボタンの説明」をタップすると、画面の上にボタンと操作の説明が表示されます。画面のどこかをタップすると閉じます。新しくインストールした場合は、各画面を初めて開いたときに一度だけ自動で表示されます。ウインドウの幅が狭いと表示できないため、ウインドウを広げてから開いてください。&lt;/p&gt;
+&lt;p&gt;新しくインストールすると、ホームに「はじめに」の教科とノート「Uni:Note の使い方」が用意されます。試し書きに使え、不要になったらカードを長押しして削除できます。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kumakikai.top/htu/uni-note/start/#help-overlay"&gt;ボタンの説明を見る&lt;/a&gt; →&lt;/p&gt;
 
 &lt;h2 id="ノート資料について"&gt;ノート・資料について&lt;/h2&gt;
 &lt;div id="ノートとページ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ノート名は必須ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="新しい教科を最初に開いたときのタイトル入力は何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="教科を作るときに選べる項目は何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="縦ノートとは何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="同じ教科の中でノートを分けられますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ページはどう増えますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ノートの最大ページ数は" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ページは削除できますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ノートを保護できますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="教科は編集できますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ホームで教科をフォルダに入れられますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ゴミ箱から戻せるのは何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
@@ -708,13 +731,7 @@
 &lt;div id="録音文字起こし" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="録音機能は使えますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="文字起こしとai要約は使えますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="録音はバックアップに含まれますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
 &lt;h3 id="help-4"&gt;録音・文字起こしを使えない場合は？&lt;/h3&gt;
-&lt;p&gt;録音、再生、文字起こし閲覧はPremiumまたはPremium Plusで使えます。録音時にはマイクへのアクセスを許可してください。文字起こしはiPadOS 26以降に加え、対応するAppleの音声モデルと言語が必要です。利用できない環境では「リアルタイム文字起こしとAI要約は iPadOS 26 以降で利用できます。」と表示されますが、録音・再生は引き続き利用できます。Uni:Noteがバックグラウンドに移ると、録音は自動で保存・停止します。&lt;/p&gt;
-&lt;p&gt;録音は30分ごとに自動分割され、1ノート5件までです。「設定 → 学習支援 → 録音サポート」の「文字起こしの精度を優先」は、ONで精度、OFFで表示速度を優先し、変更は次の録音から反映されます。AI要約は作成済みの文字起こしテキストを使い、音声ファイルを要約用に送信しません。録音音声を復元・Pocket再生したい場合は、バックアップ時に音声を含める設定をオンにしてください。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kumakikai.top/htu/uni-note/#recording"&gt;録音の操作&lt;/a&gt; →&lt;/p&gt;
-&lt;div id="学習支援" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="暗記マーカー-は何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="付箋マーカーはページ全体で一括表示--非表示できますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="学習支援機能は今どうなっていますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="囲って解答アシスタント-はどう使いますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="問題集を作る-はどう使いますか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="ai残量とは何ですか" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
-
-&lt;h3 id="help-5"&gt;付箋・AI学習支援が見つからない場合は？&lt;/h3&gt;
-&lt;p&gt;付箋マーカーはパレット、囲って解答アシスタントはナビゲーションバーにあります。見つからない場合は「設定 → 表示設定 → ノート画面」の「パレット」「ナビゲーションバー」で非表示になっていないか確認してください。付箋マーカーは1本ずつタップして表示を切り替えます。メモを書き込める「付箋」は、付箋マーカーの詳細で「付箋」に切り替えて貼ります。&lt;/p&gt;</description></item><item><title>暗記・集中</title><link>https://kumakikai.top/htu/uni-note/study/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/study/</guid><description>&lt;p&gt;答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。&lt;/p&gt;
+&lt;p&gt;録音、再生、文字起こし閲覧はPremiumまたはPremium Plusで使えます。録音時にはマイクへのアクセスを許可してください。文字起こしはiPadOS 26以降に加え、対応するAppleの音声モデルと言語が必要です。利用できない環境では「リアルタイム文字起こしとAI要約は iPadOS 26 以降で利用できます。」と表示されますが、録音・再生は引き続き利用できます。Uni:Noteがバックグラウンドに移ると、録音は自動で保存・停止します。&lt;/p&gt;</description></item><item><title>暗記・集中</title><link>https://kumakikai.top/htu/uni-note/study/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/study/</guid><description>&lt;p&gt;答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。&lt;/p&gt;
 &lt;div id="目的から選ぶ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
 &lt;h2 id="sticky"&gt;付箋マーカーで答えを隠す&lt;/h2&gt;
@@ -731,7 +748,10 @@
 &lt;li&gt;Apple Pencilで隠したい部分をなぞります。&lt;/li&gt;
 &lt;li&gt;書き込みに戻るときは、パレットでペンなどの道具を選び直します。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;パレットに表示されていない場合は「設定 → 表示設定 → ノート画面 → パレット」で、表示する道具を確認します。&lt;/p&gt;
+&lt;p&gt;パレットに表示されていない場合は「設定 → ノート設定 → ノート画面 → パレット」で、表示する道具を確認します。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;公開中の3.8.3では：&lt;/strong&gt; ナビゲーションバーとパレットの設定は「設定 → 表示設定 → ノート画面」にあります。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
  &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/study-marker-detail_hu_973dd4315e70f65e.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/study-marker-detail_hu_973dd4315e70f65e.webp 560w, https://kumakikai.top/images/guides/uni-note/v40/study-marker-detail_hu_d46ffcea548f9365.webp 752w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="752" height="460" alt="付箋マーカーと付箋の切り替え、3段階の太さと4色" loading="lazy" decoding="async"&gt;&lt;/div&gt;
  &lt;figcaption&gt;付箋マーカーの詳細。上部の切り替えで「付箋マーカー」と「付箋」を選びます。&lt;/figcaption&gt;
@@ -857,7 +877,7 @@
  &lt;input id="uni-guide-search-input" type="search" autocomplete="off" placeholder="例：PDF、録音、バックアップ" data-guide-search-input&gt;
  &lt;p class="uni-guide-search-status" aria-live="polite" data-guide-search-status&gt;&lt;/p&gt;
  &lt;ul class="uni-guide-search-results" data-guide-search-results hidden&gt;&lt;/ul&gt;
- &lt;script type="application/json" id="uni-guide-search-index"&gt;[{"category":"はじめに","description":"初めて使うときは、画面の仕組みを確認してから最初のノートを作ります。","title":"画面とノートの仕組み","url":"/htu/uni-note/start/#screens"},{"category":"はじめに","description":"初めて使うときは、画面の仕組みを確認してから最初のノートを作ります。","title":"最初の教科とノートを作る","url":"/htu/uni-note/start/#first-note"},{"category":"教科・フォルダ","description":"教科を名前やフォルダで整理し、2ペイン表示や検索で必要なノートを探します。","title":"教科を編集・並べ替え・削除する","url":"/htu/uni-note/library/#subjects"},{"category":"教科・フォルダ","description":"教科を名前やフォルダで整理し、2ペイン表示や検索で必要なノートを探します。","title":"教科をフォルダで整理する","url":"/htu/uni-note/library/#folders"},{"category":"教科・フォルダ","description":"教科を名前やフォルダで整理し、2ペイン表示や検索で必要なノートを探します。","title":"2ペイン表示で整理する","url":"/htu/uni-note/library/#two-pane"},{"category":"教科・フォルダ","description":"教科を名前やフォルダで整理し、2ペイン表示や検索で必要なノートを探します。","title":"ノートをタイトルで探す","url":"/htu/uni-note/library/#search"},{"category":"ノート・ページ","description":"ノートを増やす・切り替える操作と、ページの移動・整理を扱います。","title":"ノートを開く・増やす・整理する","url":"/htu/uni-note/notebooks/#manage"},{"category":"ノート・ページ","description":"ノートを増やす・切り替える操作と、ページの移動・整理を扱います。","title":"ページを送る・並べ替える・削除する","url":"/htu/uni-note/notebooks/#pages"},{"category":"ノート・ページ","description":"ノートを増やす・切り替える操作と、ページの移動・整理を扱います。","title":"縦ノートを作る","url":"/htu/uni-note/notebooks/#vertical"},{"category":"時間割","description":"曜日と時限に教科を登録し、授業のノートをすばやく開きます。","title":"時間割を作る","url":"/htu/uni-note/timetable/#setup"},{"category":"時間割","description":"曜日と時限に教科を登録し、授業のノートをすばやく開きます。","title":"時間割からノートを開く","url":"/htu/uni-note/timetable/#open"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"指で描画のON／OFFを使い分ける","url":"/htu/uni-note/writing/#finger-drawing"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"ペンと蛍光ペンを使う","url":"/htu/uni-note/writing/#pen"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"消しゴム・取り消し・やり直し","url":"/htu/uni-note/writing/#eraser"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"パレットを動かす・収納する","url":"/htu/uni-note/writing/#palette"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"定規で直線を引く","url":"/htu/uni-note/writing/#ruler"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"キーボードで文字を置き、図形・表を作る","url":"/htu/uni-note/writing/#text-shapes"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"手書きを囲んで移動する","url":"/htu/uni-note/writing/#selection"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"写真・紙の資料を貼り付ける","url":"/htu/uni-note/materials/#photos"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"PDFのページを選んで貼り付ける","url":"/htu/uni-note/materials/#pdf"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"写真・PDFを動かして固定する","url":"/htu/uni-note/materials/#arrange"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"縦ノートで資料の大きさを整える","url":"/htu/uni-note/materials/#vertical"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"ノートをPDFにして保存・共有する","url":"/htu/uni-note/materials/#export"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"授業を録音して保存する","url":"/htu/uni-note/recording/#capture"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"録音を再生・整理・共有する","url":"/htu/uni-note/recording/#play"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"録音を文字起こしする","url":"/htu/uni-note/recording/#transcribe"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"文字起こしからAI要約を作る","url":"/htu/uni-note/recording/#summary"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"AI要約を現在のノートへ貼る","url":"/htu/uni-note/recording/#paste"},{"category":"暗記・集中","description":"答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。","title":"付箋マーカーで答えを隠す","url":"/htu/uni-note/study/#sticky"},{"category":"暗記・集中","description":"答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。","title":"手書きできる付箋を貼る","url":"/htu/uni-note/study/#sticky-note"},{"category":"暗記・集中","description":"答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。","title":"ポモドーロで集中と休憩を区切る","url":"/htu/uni-note/study/#pomodoro"},{"category":"暗記・集中","description":"答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。","title":"レーザーポインターを使う","url":"/htu/uni-note/study/#laser"},{"category":"AI","description":"問題を囲って解答を確認し、AIの回答言語などを設定します。","title":"問題を囲って解答を確認する","url":"/htu/uni-note/ai/#answer"},{"category":"AI","description":"問題を囲って解答を確認し、AIの回答言語などを設定します。","title":"文字起こし言語とAIの設定を確認する","url":"/htu/uni-note/ai/#settings"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"問題集ホームを開く","url":"/htu/uni-note/problem-sets/#list"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"ノートからAI問題集を作る","url":"/htu/uni-note/problem-sets/#generate"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"1問ずつ作る","url":"/htu/uni-note/problem-sets/#create"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"表計算アプリのデータからまとめて作る","url":"/htu/uni-note/problem-sets/#bulk"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"覚えた・覚えていないで学習する","url":"/htu/uni-note/problem-sets/#review"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"問題集を編集・管理する","url":"/htu/uni-note/problem-sets/#edit"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"ホームの問題集表示を変える","url":"/htu/uni-note/problem-sets/#home"},{"category":"カスタマイズ","description":"紙・左右の配置・表示・道具を、自分の使い方に合わせます。","title":"設定を開いて目的の項目を探す","url":"/htu/uni-note/customize/#settings"},{"category":"カスタマイズ","description":"紙・左右の配置・表示・道具を、自分の使い方に合わせます。","title":"紙・左右の配置・ページ情報を設定する","url":"/htu/uni-note/customize/#paper"},{"category":"カスタマイズ","description":"紙・左右の配置・表示・道具を、自分の使い方に合わせます。","title":"起動・表示・言語を設定する","url":"/htu/uni-note/customize/#display"},{"category":"カスタマイズ","description":"紙・左右の配置・表示・道具を、自分の使い方に合わせます。","title":"ボタンとパレットの配置を変える","url":"/htu/uni-note/customize/#toolbar"},{"category":"保護・データ管理","description":"書き込みの保護と、削除した教科・ノートの復元を扱います。","title":"ノートを書き込みから保護する","url":"/htu/uni-note/data/#protect"},{"category":"保護・データ管理","description":"書き込みの保護と、削除した教科・ノートの復元を扱います。","title":"ゴミ箱から教科・ノートを復元する","url":"/htu/uni-note/data/#trash"},{"category":"バックアップ","description":"バックアップを保管し、必要なときにデータを復元します。","title":"バックアップを保存する","url":"/htu/uni-note/backup/#save"},{"category":"バックアップ","description":"バックアップを保管し、必要なときにデータを復元します。","title":"バックアップから復元する","url":"/htu/uni-note/backup/#restore"},{"category":"プラン・AI残量","description":"プランの対象機能とAI残量を分けて確認します。","title":"Free・Premium・Premium PlusとAI残量を確認する","url":"/htu/uni-note/plans/#usage"},{"category":"iPadOSとの組み合わせ","description":"ウインドウ、ファイルアプリ、共有シートなどiPadOS標準機能と組み合わせます。","title":"iPadのウインドウ操作を使う","url":"/htu/uni-note/ipados/#windows"},{"category":"iPadOSとの組み合わせ","description":"ウインドウ、ファイルアプリ、共有シートなどiPadOS標準機能と組み合わせます。","title":"ファイルアプリと共有シートを使う","url":"/htu/uni-note/ipados/#files"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"縦ノートで資料を大きく表示して書き込む","url":"/htu/uni-note/workflows/vertical-annotate/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"見開きPDFを左右に分割して学習する","url":"/htu/uni-note/workflows/split-spread/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"資料の横に手書きスペースを残す","url":"/htu/uni-note/workflows/material-margin/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"PDF・写真に付箋を付けて暗記する","url":"/htu/uni-note/workflows/sticky-material/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"録音・文字起こし・AI要約で授業を復習する","url":"/htu/uni-note/workflows/record-review/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"AI要約をノートへ貼って追記する","url":"/htu/uni-note/workflows/summary-annotate/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"AI問題集を手修正して復習する","url":"/htu/uni-note/workflows/quiz-review/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"ポモドーロを使いながら勉強する","url":"/htu/uni-note/workflows/focus/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"レーザーポインターで資料を説明する","url":"/htu/uni-note/workflows/explain/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"資料用と筆記用の2つのノートを並べる","url":"/htu/uni-note/workflows/two-notes/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"SafariやPDF閲覧アプリと並べて書く","url":"/htu/uni-note/workflows/external-material/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"動画を小さく表示しながら書く","url":"/htu/uni-note/workflows/pip/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"時間割から授業のノートで始める","url":"/htu/uni-note/workflows/timetable-launch/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"手書きできる付箋で質問や補足を残す","url":"/htu/uni-note/workflows/sticky-note-memo/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"表計算アプリで単語帳を作って問題集にする","url":"/htu/uni-note/workflows/problem-set-sheet/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"Webページの図をノートに貼って書き込む","url":"/htu/uni-note/workflows/web-screenshot/"}]&lt;/script&gt;
+ &lt;script type="application/json" id="uni-guide-search-index"&gt;[{"category":"はじめに","description":"初めて使うときは、画面の仕組みを確認してから最初のノートを作ります。","title":"画面とノートの仕組み","url":"/htu/uni-note/start/#screens"},{"category":"はじめに","description":"初めて使うときは、画面の仕組みを確認してから最初のノートを作ります。","title":"ボタンの説明を見る","url":"/htu/uni-note/start/#help-overlay"},{"category":"はじめに","description":"初めて使うときは、画面の仕組みを確認してから最初のノートを作ります。","title":"最初の教科とノートを作る","url":"/htu/uni-note/start/#first-note"},{"category":"教科・フォルダ","description":"教科を名前やフォルダで整理し、2ペイン表示や検索で必要なノートを探します。","title":"教科を編集・並べ替え・削除する","url":"/htu/uni-note/library/#subjects"},{"category":"教科・フォルダ","description":"教科を名前やフォルダで整理し、2ペイン表示や検索で必要なノートを探します。","title":"教科をフォルダで整理する","url":"/htu/uni-note/library/#folders"},{"category":"教科・フォルダ","description":"教科を名前やフォルダで整理し、2ペイン表示や検索で必要なノートを探します。","title":"2ペイン表示で整理する","url":"/htu/uni-note/library/#two-pane"},{"category":"教科・フォルダ","description":"教科を名前やフォルダで整理し、2ペイン表示や検索で必要なノートを探します。","title":"ノートをタイトルで探す","url":"/htu/uni-note/library/#search"},{"category":"ノート・ページ","description":"ノートを増やす・切り替える操作と、ページの移動・整理を扱います。","title":"ノートを開く・増やす・整理する","url":"/htu/uni-note/notebooks/#manage"},{"category":"ノート・ページ","description":"ノートを増やす・切り替える操作と、ページの移動・整理を扱います。","title":"ページを送る・並べ替える・削除する","url":"/htu/uni-note/notebooks/#pages"},{"category":"ノート・ページ","description":"ノートを増やす・切り替える操作と、ページの移動・整理を扱います。","title":"縦ノートを作る","url":"/htu/uni-note/notebooks/#vertical"},{"category":"時間割","description":"曜日と時限に教科を登録し、授業のノートをすばやく開きます。","title":"時間割を作る","url":"/htu/uni-note/timetable/#setup"},{"category":"時間割","description":"曜日と時限に教科を登録し、授業のノートをすばやく開きます。","title":"時間割からノートを開く","url":"/htu/uni-note/timetable/#open"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"指で描画のON／OFFを使い分ける","url":"/htu/uni-note/writing/#finger-drawing"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"ペンと蛍光ペンを使う","url":"/htu/uni-note/writing/#pen"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"消しゴム・取り消し・やり直し","url":"/htu/uni-note/writing/#eraser"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"パレットを動かす・収納する","url":"/htu/uni-note/writing/#palette"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"定規で直線を引く","url":"/htu/uni-note/writing/#ruler"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"キーボードで文字を置き、図形・表を作る","url":"/htu/uni-note/writing/#text-shapes"},{"category":"手書き","description":"Apple Pencilや指で書く基本から、道具・線の整理・定規の使い方へ進めます。","title":"手書きを囲んで移動する","url":"/htu/uni-note/writing/#selection"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"写真・紙の資料を貼り付ける","url":"/htu/uni-note/materials/#photos"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"PDFのページを選んで貼り付ける","url":"/htu/uni-note/materials/#pdf"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"写真・PDFを動かして固定する","url":"/htu/uni-note/materials/#arrange"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"縦ノートで資料の大きさを整える","url":"/htu/uni-note/materials/#vertical"},{"category":"写真・PDF","description":"写真やPDFを貼り付け、配置・固定・書き込み・共有まで行います。","title":"ノートをPDFにして保存・共有する","url":"/htu/uni-note/materials/#export"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"授業を録音して保存する","url":"/htu/uni-note/recording/#capture"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"録音を再生・整理・共有する","url":"/htu/uni-note/recording/#play"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"録音を文字起こしする","url":"/htu/uni-note/recording/#transcribe"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"文字起こしからAI要約を作る","url":"/htu/uni-note/recording/#summary"},{"category":"録音・文字起こし","description":"授業の録音から再生、文字起こし、AI要約までを順に使えます。","title":"AI要約を現在のノートへ貼る","url":"/htu/uni-note/recording/#paste"},{"category":"暗記・集中","description":"答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。","title":"付箋マーカーで答えを隠す","url":"/htu/uni-note/study/#sticky"},{"category":"暗記・集中","description":"答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。","title":"手書きできる付箋を貼る","url":"/htu/uni-note/study/#sticky-note"},{"category":"暗記・集中","description":"答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。","title":"ポモドーロで集中と休憩を区切る","url":"/htu/uni-note/study/#pomodoro"},{"category":"暗記・集中","description":"答えを隠して復習し、付箋にメモを書き、勉強時間を区切り、資料を指し示します。","title":"レーザーポインターを使う","url":"/htu/uni-note/study/#laser"},{"category":"AI","description":"問題を囲って解答を確認し、AIの回答言語などを設定します。","title":"問題を囲って解答を確認する","url":"/htu/uni-note/ai/#answer"},{"category":"AI","description":"問題を囲って解答を確認し、AIの回答言語などを設定します。","title":"文字起こし言語とAIの設定を確認する","url":"/htu/uni-note/ai/#settings"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"問題集ホームを開く","url":"/htu/uni-note/problem-sets/#list"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"ノートからAI問題集を作る","url":"/htu/uni-note/problem-sets/#generate"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"1問ずつ作る","url":"/htu/uni-note/problem-sets/#create"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"表計算アプリのデータからまとめて作る","url":"/htu/uni-note/problem-sets/#bulk"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"覚えた・覚えていないで学習する","url":"/htu/uni-note/problem-sets/#review"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"問題集を編集・管理する","url":"/htu/uni-note/problem-sets/#edit"},{"category":"問題集","description":"ノートからのAI生成、1問ずつ・まとめての作成、覚えた・覚えていないでの学習まで扱います。","title":"ホームの問題集表示を変える","url":"/htu/uni-note/problem-sets/#home"},{"category":"カスタマイズ","description":"紙・左右の配置・表示・道具を、自分の使い方に合わせます。","title":"設定を開いて目的の項目を探す","url":"/htu/uni-note/customize/#settings"},{"category":"カスタマイズ","description":"紙・左右の配置・表示・道具を、自分の使い方に合わせます。","title":"紙・左右の配置・ページ情報を設定する","url":"/htu/uni-note/customize/#paper"},{"category":"カスタマイズ","description":"紙・左右の配置・表示・道具を、自分の使い方に合わせます。","title":"起動・表示・言語を設定する","url":"/htu/uni-note/customize/#display"},{"category":"カスタマイズ","description":"紙・左右の配置・表示・道具を、自分の使い方に合わせます。","title":"ボタンとパレットの配置を変える","url":"/htu/uni-note/customize/#toolbar"},{"category":"保護・データ管理","description":"書き込みの保護と、削除した教科・ノートの復元を扱います。","title":"ノートを書き込みから保護する","url":"/htu/uni-note/data/#protect"},{"category":"保護・データ管理","description":"書き込みの保護と、削除した教科・ノートの復元を扱います。","title":"ゴミ箱から教科・ノートを復元する","url":"/htu/uni-note/data/#trash"},{"category":"バックアップ","description":"バックアップを保管し、必要なときにデータを復元します。","title":"バックアップを保存する","url":"/htu/uni-note/backup/#save"},{"category":"バックアップ","description":"バックアップを保管し、必要なときにデータを復元します。","title":"バックアップから復元する","url":"/htu/uni-note/backup/#restore"},{"category":"プラン・AI残量","description":"プランの対象機能とAI残量を分けて確認します。","title":"Free・Premium・Premium PlusとAI残量を確認する","url":"/htu/uni-note/plans/#usage"},{"category":"iPadOSとの組み合わせ","description":"ウインドウ、ファイルアプリ、共有シートなどiPadOS標準機能と組み合わせます。","title":"iPadのウインドウ操作を使う","url":"/htu/uni-note/ipados/#windows"},{"category":"iPadOSとの組み合わせ","description":"ウインドウ、ファイルアプリ、共有シートなどiPadOS標準機能と組み合わせます。","title":"ファイルアプリと共有シートを使う","url":"/htu/uni-note/ipados/#files"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"縦ノートで資料を大きく表示して書き込む","url":"/htu/uni-note/workflows/vertical-annotate/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"見開きPDFを左右に分割して学習する","url":"/htu/uni-note/workflows/split-spread/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"資料の横に手書きスペースを残す","url":"/htu/uni-note/workflows/material-margin/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"PDF・写真に付箋を付けて暗記する","url":"/htu/uni-note/workflows/sticky-material/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"録音・文字起こし・AI要約で授業を復習する","url":"/htu/uni-note/workflows/record-review/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"AI要約をノートへ貼って追記する","url":"/htu/uni-note/workflows/summary-annotate/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"AI問題集を手修正して復習する","url":"/htu/uni-note/workflows/quiz-review/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"ポモドーロを使いながら勉強する","url":"/htu/uni-note/workflows/focus/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"レーザーポインターで資料を説明する","url":"/htu/uni-note/workflows/explain/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"資料用と筆記用の2つのノートを並べる","url":"/htu/uni-note/workflows/two-notes/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"SafariやPDF閲覧アプリと並べて書く","url":"/htu/uni-note/workflows/external-material/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"動画を小さく表示しながら書く","url":"/htu/uni-note/workflows/pip/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"時間割から授業のノートで始める","url":"/htu/uni-note/workflows/timetable-launch/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"手書きできる付箋で質問や補足を残す","url":"/htu/uni-note/workflows/sticky-note-memo/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"表計算アプリで単語帳を作って問題集にする","url":"/htu/uni-note/workflows/problem-set-sheet/"},{"category":"便利な使い方","description":"資料・手書き・録音・AIを組み合わせて、学習の準備から復習まで進めます。","title":"Webページの図をノートに貼って書き込む","url":"/htu/uni-note/workflows/web-screenshot/"}]&lt;/script&gt;
 &lt;/section&gt;&lt;script src="https://kumakikai.top/js/uni-guide-navigation.min.924bd215c1b510875834d57434ae1c4323e0cd8c63ceb8cff67afb6da36fd534.js" integrity="sha256-kkvSFcG1EIdYNNV0NK4cQyPgzYxjzrjP9nr7baNv1TQ=" defer&gt;&lt;/script&gt;
 
 
@@ -874,6 +894,7 @@
  &lt;p class="uni-guide-category-description"&gt;初めて使うときは、画面の仕組みを確認してから最初のノートを作ります。&lt;/p&gt;
  &lt;ul class="uni-guide-children" id="guide-sections-start"&gt;
  &lt;li&gt;&lt;a href="https://kumakikai.top/htu/uni-note/start/#screens"&gt;画面とノートの仕組み&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://kumakikai.top/htu/uni-note/start/#help-overlay"&gt;ボタンの説明を見る&lt;span class="uni-upcoming-badge"&gt;4.0.0・2026年10月30日公開予定&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
  &lt;li&gt;&lt;a href="https://kumakikai.top/htu/uni-note/start/#first-note"&gt;最初の教科とノートを作る&lt;/a&gt;&lt;/li&gt;
  &lt;/ul&gt;
 &lt;/section&gt;
@@ -971,8 +992,8 @@
 &lt;/ol&gt;
 &lt;p&gt;ボタンが表示されない場合は「設定 → 学習支援 → 時間割」で「ホームに時間割を表示」をONにします。OFFにしても登録済みの時間割は削除されません。&lt;/p&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/timetable-grid_hu_37b822a3338dd5a5.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/timetable-grid_hu_37b822a3338dd5a5.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/timetable-grid_hu_287416a7a3c40534.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="月曜から金曜、1限から6限の時間割に教科が配置された画面" loading="lazy" decoding="async"&gt;&lt;/div&gt;
- &lt;figcaption&gt;「あなたの時間割」。今の授業のマスは青い枠で表示されます。&lt;/figcaption&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/timetable-grid_hu_6a1110787d940006.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/timetable-grid_hu_6a1110787d940006.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/timetable-grid_hu_837bccf3e8d17a7f.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="月曜から金曜、1限から6限の時間割に教科が配置された画面" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;figcaption&gt;「あなたの時間割」。右上に表示ボタン・「編集」・「?」が並びます。&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id="マスに教科を置く"&gt;マスに教科を置く&lt;/h3&gt;
@@ -983,8 +1004,16 @@
 &lt;p&gt;まとめて配置する場合は、右上の「編集」をタップします。画面下に教科カードが並ぶので、置きたいマスへドラッグします。同じ教科を複数のマスに置けます。終わったら「完了」をタップします。&lt;/p&gt;
 &lt;p&gt;すでに教科があるマスを長押しすると、教科を差し替えられます。「編集」中は各マスの右上に表示される「−」（「時間割から外す」）で、マスの割り当てを外せます。&lt;/p&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/timetable-edit_hu_8710eb285c802603.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/timetable-edit_hu_8710eb285c802603.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/timetable-edit_hu_408dc724dab6a61a.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="編集中の時間割。各マスに外すボタン、画面下に教科カードが並ぶ" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/timetable-edit_hu_4792a0bdb0a54ef7.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/timetable-edit_hu_4792a0bdb0a54ef7.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/timetable-edit_hu_f6dfc978d169aae9.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="編集中の時間割。各マスに外すボタン、画面下に教科カードが並ぶ" loading="lazy" decoding="async"&gt;&lt;/div&gt;
  &lt;figcaption&gt;「編集」中は、下の教科カードをマスへドラッグして配置できます。&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;右上の「?」から&lt;a href="https://kumakikai.top/htu/uni-note/start/#help-overlay"&gt;ボタンの説明&lt;/a&gt;を開くと、表示ボタンの役割と、「編集」中に下の教科をマスへドラッグする操作を確認できます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/timetable-help-overlay_hu_4f38b9e5b1426b71.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/timetable-help-overlay_hu_4f38b9e5b1426b71.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/timetable-help-overlay_hu_657a027381fd2bc6.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="時間割の編集中に、表示する曜日・時限のボタンと、下の教科をドラッグする操作の説明が表示された画面" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;figcaption&gt;時間割の「?」。編集中は、教科をコマへドラッグする操作も説明されます。&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id="曜日と時限を変える"&gt;曜日と時限を変える&lt;/h3&gt;
@@ -1001,18 +1030,9 @@
 &lt;/ol&gt;
 &lt;p&gt;時刻は全曜日で共通です。終了が開始より早い場合は翌日の終了時刻として扱われます。開始と終了が同じ場合や、別の時限と同じ開始時刻の場合は保存できません。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;時間割をまだ一度も保存していない場合、1〜6限には一般的な大学の時刻（1限 9:00〜10:30、2限 10:40〜12:10、3限 13:00〜14:30、4限 14:40〜16:10、5限 16:20〜17:50、6限 18:00〜19:30）があらかじめ入ります。授業に合わせて変更してください。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;</description></item><item><title>時間割から授業のノートで始める</title><link>https://kumakikai.top/htu/uni-note/workflows/timetable-launch/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/workflows/timetable-launch/</guid><description>&lt;p&gt;時間割に授業を登録しておき、教室でアプリを開いたらすぐにその授業のノートへ書き始めます。ホームで教科を探す手間を省けます。&lt;/p&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/timetable-time_hu_3af4d1e48c3f230a.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/timetable-time_hu_3af4d1e48c3f230a.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/timetable-time_hu_af6ae0ab23668b63.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="1限の開始と終了の時刻を選ぶ時間設定" loading="lazy" decoding="async"&gt;&lt;/div&gt;
- &lt;figcaption&gt;時限をタップすると、開始・終了の時刻を設定できます。&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id="setup-完了の確認"&gt;完了の確認&lt;/h3&gt;
-&lt;p&gt;時刻を設定すると、今の曜日・時刻に当たるマスが青い枠で表示されます。授業時間外や「編集」中は表示されません。&lt;/p&gt;</description></item><item><title>時間割から授業のノートで始める</title><link>https://kumakikai.top/htu/uni-note/workflows/timetable-launch/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/workflows/timetable-launch/</guid><description>&lt;p&gt;時間割に授業を登録しておき、教室でアプリを開いたらすぐにその授業のノートへ書き始めます。ホームで教科を探す手間を省けます。&lt;/p&gt;
-&lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/workflows-timetable-launch_hu_37b822a3338dd5a5.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/workflows-timetable-launch_hu_37b822a3338dd5a5.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/workflows-timetable-launch_hu_287416a7a3c40534.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="教科を登録した時間割" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/workflows-timetable-launch_hu_6a1110787d940006.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/workflows-timetable-launch_hu_6a1110787d940006.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/workflows-timetable-launch_hu_837bccf3e8d17a7f.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="教科を登録した時間割" loading="lazy" decoding="async"&gt;&lt;/div&gt;
  &lt;figcaption&gt;授業を登録した時間割。&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1121,7 +1141,7 @@
 &lt;/ul&gt;
 &lt;p&gt;OFFに戻すと、1本指は従来どおりノートのスクロールに使われます。「範囲移動」「付箋マーカー」「レーザーポインター」などは専用モードです。各モードの説明にある操作方法に従ってください（レーザーポインターはApple Pencil専用です）。&lt;/p&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/writing-finger-setting_hu_d3ffb2358363a2a4.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/writing-finger-setting_hu_d3ffb2358363a2a4.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/writing-finger-setting_hu_dd9114c9a4eb3f63.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="122" alt="設定トップにある指で描画のスイッチ" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/writing-finger-setting_hu_28d87195d334d56c.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/writing-finger-setting_hu_28d87195d334d56c.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/writing-finger-setting_hu_b73c2c47126bdf26.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="116" alt="設定トップにある指で描画のスイッチ" loading="lazy" decoding="async"&gt;&lt;/div&gt;
  &lt;figcaption&gt;設定トップの「指で描画」。&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -1252,8 +1272,8 @@
 &lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/workflows-problem-set-sheet_hu_6b88b4cc3a303e8e.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/workflows-problem-set-sheet_hu_6b88b4cc3a303e8e.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/workflows-problem-set-sheet_hu_6a7f31f90d8c15b.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="スプレッドシートでの書き方とTSVの例を示す使い方ガイド" loading="lazy" decoding="async"&gt;&lt;/div&gt;
- &lt;figcaption&gt;「?」の2ページ目。表の書き方とファイルの中身の例です。&lt;/figcaption&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/workflows-problem-set-sheet_hu_3d8ace587843b9f6.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/workflows-problem-set-sheet_hu_3d8ace587843b9f6.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/workflows-problem-set-sheet_hu_1cfacae91488cfd5.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="スプレッドシートでの書き方とTSVの例を示す使い方ガイド" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;figcaption&gt;使い方ガイドの2ページ目。表の書き方とファイルの中身の例です。&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id="必要な条件"&gt;必要な条件&lt;/h2&gt;
@@ -1453,14 +1473,18 @@
 &lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;問題集は教科ごとに分かれて表示されます。教科に属さない問題集は最後の「未分類」にまとまります。カードには問題数と学習状況（例「12問 · 覚えていない 3」「12問 · すべて覚えた」）、ノートから作った問題集では出典（例「経済学 › 第8回 › p.2–6」）が表示されます。&lt;/p&gt;
-&lt;p&gt;右上には「シャッフル」と「?」（問題集の使い方）のボタンがあります。「?」では、作り方・まとめて作るときの形式・学習の方法を4ページで確認できます。&lt;/p&gt;
+&lt;p&gt;右上には「シャッフル」と「?」（使い方）のボタンがあります。「?」をタップすると、まずこの画面の&lt;a href="https://kumakikai.top/htu/uni-note/start/#help-overlay"&gt;ボタンの説明&lt;/a&gt;が表示されます。中央の「詳しい使い方ガイドを見る」をタップすると、作り方・まとめて作るときの形式・学習の方法を4ページで確認できるガイドが開きます。&lt;/p&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
  &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-home_hu_f616f9d009fac892.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-home_hu_f616f9d009fac892.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/problem-sets-home_hu_f59e9e2eb36b768a.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="619" alt="教科ごとに問題集のカードが並び、右上にシャッフルと使い方のボタンがある問題集表示" loading="lazy" decoding="async"&gt;&lt;/div&gt;
  &lt;figcaption&gt;「あなたの問題集」。教科ごとに分かれ、出典と問題数が表示されます。&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-guide_hu_7979d682ef5cfbfe.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-guide_hu_7979d682ef5cfbfe.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/problem-sets-guide_hu_921d2ab39927be16.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="問題集の使い方の1ページ目。AI生成・1問ずつ・まとめて作る" loading="lazy" decoding="async"&gt;&lt;/div&gt;
- &lt;figcaption&gt;「?」で開く「問題集の使い方」。&lt;/figcaption&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-help-overlay_hu_5e503d871e9de086.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-help-overlay_hu_5e503d871e9de086.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/problem-sets-help-overlay_hu_855b5c015c2269a7.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="問題集表示に、ノートに切り替え・シャッフル・使い方・問題集を作る・カードを長押しの説明と、詳しい使い方ガイドを見るボタンが表示された画面" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;figcaption&gt;問題集表示の「?」。中央の「詳しい使い方ガイドを見る」で4ページのガイドが開きます。&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-guide_hu_72284550817e8791.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-guide_hu_72284550817e8791.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/problem-sets-guide_hu_d77ca12583761e03.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="1140" alt="問題集の使い方の1ページ目。AI生成・1問ずつ・まとめて作る" loading="lazy" decoding="async"&gt;&lt;/div&gt;
+ &lt;figcaption&gt;「?」→「詳しい使い方ガイドを見る」で開く「問題集の使い方」。&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id="list-完了の確認"&gt;完了の確認&lt;/h3&gt;
@@ -1470,38 +1494,7 @@
 &lt;p&gt;ノートの必要なページからAIで問題を作り、採用する候補だけを問題集として保存します。&lt;/p&gt;
 
 &lt;h3 id="generate-必要な条件"&gt;必要な条件&lt;/h3&gt;
-&lt;p&gt;通信環境とAI残量。問題の元になるノート。&lt;/p&gt;
-
-&lt;h3 id="対象を決めて生成する"&gt;対象を決めて生成する&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;元にするノートを開きます。&lt;/li&gt;
-&lt;li&gt;「その他」から「問題集を作る」を選びます。&lt;/li&gt;
-&lt;li&gt;「対象ページ」の行（例「1ページ選択中（p1）」）をタップし、対象ページを最大20ページまで選びます。ページが多いと精度が下がることがあります。&lt;/li&gt;
-&lt;li&gt;「目安: 約○問」と「予想消費量」を確認します。&lt;/li&gt;
-&lt;li&gt;「問題集を作成」をタップします。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;生成中は「ノートを読み取っています」「問題候補を作成しています」などの段階が表示されます。完了するまでアプリを開いたまま待ちます。&lt;/p&gt;
-&lt;figure class="guide-figure guide-figure--tablet" style="--guide-image-width: 760px" data-guide-image&gt;
- &lt;div class="screenshot-frame"&gt;&lt;img src="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-generate-entry_hu_5c9b5607c5465c87.webp" srcset="https://kumakikai.top/images/guides/uni-note/v40/problem-sets-generate-entry_hu_5c9b5607c5465c87.webp 760w, https://kumakikai.top/images/guides/uni-note/v40/problem-sets-generate-entry_hu_4e57adcea67b72bb.webp 1520w" sizes="(max-width: 600px) calc(100vw - 64px), 760px" width="1520" height="282" alt="対象ページを選んで問題集を作成する画面" loading="lazy" decoding="async"&gt;&lt;/div&gt;
- &lt;figcaption&gt;「問題集を作る」の画面。「対象ページ」で範囲を選びます。&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id="候補を採用破棄する"&gt;候補を採用・破棄する&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;「問題レビュー」で候補の問題と解答を読みます。&lt;/li&gt;
-&lt;li&gt;残す候補は「追加」、不要な候補は「破棄」を選びます。右スワイプで追加、左スワイプで破棄することもできます。&lt;/li&gt;
-&lt;li&gt;次の候補も同じように確認します。採用した数は「採用数」に表示されます。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id="問題集として保存する"&gt;問題集として保存する&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;採用する候補を確認します。&lt;/li&gt;
-&lt;li&gt;「問題集名」を入力します。&lt;/li&gt;
-&lt;li&gt;「問題集として保存」をタップします。&lt;/li&gt;
-&lt;li&gt;「保存しました」と表示されたら、「閉じる」または「今すぐ復習」を選びます。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Uni:Note 4.0.0（2026年10月30日公開予定）の内容です。&lt;/strong&gt; 公開中の3.8.3ではまだ利用できません。&lt;/p&gt;</description></item><item><title>録音・文字起こし</title><link>https://kumakikai.top/htu/uni-note/recording/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/recording/</guid><description>&lt;p&gt;授業の録音から再生、文字起こし、AI要約までを順に使えます。&lt;/p&gt;
+&lt;p&gt;通信環境とAI残量。問題の元になるノート。&lt;/p&gt;</description></item><item><title>録音・文字起こし</title><link>https://kumakikai.top/htu/uni-note/recording/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/recording/</guid><description>&lt;p&gt;授業の録音から再生、文字起こし、AI要約までを順に使えます。&lt;/p&gt;
 &lt;div id="目的から選ぶ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
 &lt;h2 id="capture"&gt;授業を録音して保存する&lt;/h2&gt;
