@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-10-06"
+version_context_date: "2026-10-07"
 title: "Anleitung (Uni:Note)"
 description: "Anleitung für Uni:Note."
-lastmod: 2026-10-06
+lastmod: 2026-10-07
 ---
 
 ## Einführung
@@ -27,6 +27,12 @@ Erfordert ein iPad mit iPadOS 17.0 oder neuer. Die Transkription benötigt eine 
 3. Öffne das Fach und benenne die erste Notiz. Ohne Namen wird das heutige Datum verwendet.
 
 Über dasselbe + erstellst du Ordner. Ziehe Fächer hinein. Beim Löschen eines Ordners bleiben die Fächer erhalten. Halte ein Fach gedrückt, um Namen und Papier zu ändern.
+
+{{% uni-v4 %}}
+### Erklärung der Schaltflächen {#help-overlay}
+
+Tippe oben rechts auf der Startseite, in **Aufgabensets** oder im **Stundenplan** auf **?** oder wähle in einer Notiz im Menü **Mehr** (…) **Erklärung der Schaltflächen**: Schaltflächen und Gesten werden über dem Bildschirm erklärt; zum Schließen irgendwo tippen. Nach einer Neuinstallation erscheint die Erklärung beim ersten Öffnen jedes Bildschirms einmal automatisch; in einem schmalen Fenster vergrößere zuerst das Fenster. Neuinstallationen enthalten außerdem das Beispielfach **Erste Schritte** mit der Notiz **So benutzt du Uni:Note**, das du löschen kannst, indem du seine Karte gedrückt hältst. In **Aufgabensets** zeigt **?** zuerst die Erklärung der Schaltflächen; **Ausführliche Anleitung ansehen** öffnet die vierseitige Anleitung.
+{{% /uni-v4 %}}
 
 {{< guide-anchor "3-mit-dem-apple-pencil-schreiben" "4-mit-zwei-fingern-zoomen" "5-werkzeuge-wechseln" "9-lineal-verwenden" >}}
 
@@ -110,7 +116,9 @@ Wähle **Haftnotiz-Marker** in der Palette, tippe erneut darauf, um die Details 
 
 Für eine beschreibbare **Haftnotiz** wechselst du in den Details zu **Haftnotiz**, wählst eine von neun Form- und Größenvorgaben sowie eine von vier Farben, tippst auf die Seite, um sie aufzukleben, und schreibst darauf. Ziehe am Klebestreifen oben, um sie zu verschieben; halte den Streifen gedrückt und tippe auf die Papierkorbtaste, um sie zu löschen. Tippen macht die Haftnotiz halbtransparent, sodass du die Seite darunter siehst. Hinzufügen, Verschieben und Löschen lassen sich widerrufen; Größe und Winkel sind nach dem Aufkleben fest.
 
-Tippe in der Navigationsleiste auf **Assistent für Einkreisen & Lösen**, umkreise eine Aufgabe mit dem Apple Pencil und prüfe den Bereich, bevor du eine Antwort anforderst. Die Schaltfläche blendest du unter **Einstellungen → Anzeige → Notizansicht** ein oder aus.
+Tippe in der Navigationsleiste auf **Assistent für Einkreisen & Lösen**, umkreise eine Aufgabe mit dem Apple Pencil und prüfe den Bereich, bevor du eine Antwort anforderst. Die Schaltfläche blendest du unter **Einstellungen → Notiz-Einstellungen → Notizansicht** ein oder aus.
+
+{{% uni-pre-v4 %}}Die Einstellungen für **Navigationsleiste** und **Werkzeugpalette** befinden sich unter **Einstellungen → Anzeige → Notizansicht**.{{% /uni-pre-v4 %}}
 
 Um das Ergebnis an eine andere App zu übergeben, tippe oben rechts im Ergebnisfenster auf Kopieren (links) oder Teilen (rechts).
 
@@ -118,13 +126,19 @@ Um das Ergebnis an eine andere App zu übergeben, tippe oben rechts im Ergebnisf
 
 Über **Mehr → Aufgabenset erstellen** wählst du Seiten, behältst oder verwirfst Vorschläge und speicherst das Set. Öffne **Aufgabensets** auf der Startseite zur Wiederholung. KI-Antworten und Generierung nutzen KI-Guthaben; gleiche Ergebnisse mit deinen Unterlagen ab.
 
+{{% uni-v4 %}}
+**Fragen prüfen** sieht jetzt wie die Lernkarte aus: oben ein Fortschrittsbalken mit „3 / 10“, die Antwort ist von Anfang an sichtbar und die Quellseite steht ganz unten. Unter den Tasten **Verwerfen** und **Hinzufügen** steht immer der Hinweis **Nach links wischen: Verwerfen / Nach rechts wischen: Hinzufügen**.
+{{% /uni-v4 %}}
+
 {{% uni-pre-v4 %}}Tippe auf die Karte, um die Antwort anzuzeigen, und wechsle mit den Tasten für zurück und weiter.{{% /uni-pre-v4 %}}
 
 {{% uni-v4 %}}
-In **Aufgabensets** bietet das Menü **+** die Optionen **Einzeln erstellen** (Handschrift oder Tastatur), **Aus Zwischenablage erstellen** und **Aus Datei erstellen** (TSV/CSV, bis zu 300 Fragen; Premium oder Premium Plus). Beim Lernen markierst du eine Karte mit einem Wisch nach rechts als **Gelernt** und mit einem Wisch nach links als **Noch nicht gelernt**. Nach einer Runde wiederholst du nur die Fragen mit **Noch nicht gelernt** oder setzt später fort. Die Quellnotiz lässt sich neben der Frage öffnen. Aufgabensets werden nach Fächern gruppiert, und die Taste **?** erklärt die Nutzung.
+In **Aufgabensets** bietet das Menü **+** die Optionen **Einzeln erstellen** (Handschrift oder Tastatur), **Aus Zwischenablage erstellen** und **Aus Datei erstellen** (TSV/CSV, bis zu 300 Fragen; Premium oder Premium Plus). Beim Lernen markierst du eine Karte mit einem Wisch nach rechts als **Gelernt** und mit einem Wisch nach links als **Noch nicht gelernt**. Nach einer Runde wiederholst du nur die Fragen mit **Noch nicht gelernt** oder setzt später fort. Die Quellnotiz lässt sich neben der Frage öffnen. Aufgabensets werden nach Fächern gruppiert. Die Taste **?** zeigt zuerst die Erklärung der Schaltflächen; **Ausführliche Anleitung ansehen** öffnet die vierseitige Anleitung.
 {{% /uni-v4 %}}
 
-Aufgabensets kannst du auch manuell erstellen und bearbeiten, ohne KI-Guthaben zu verwenden. Starte Pomodoro über die Notizleiste; Fokus- und Pausendauer wählst du beim Start. **Durchgänge bis zum automatischen Ende** und **Figur** findest du in den Lernhilfe-Einstellungen. Der **Laserpointer** zeigt mit dem Apple Pencil eine vorübergehende Spur, die nicht als Handschrift gespeichert wird. Notizschaltflächen und Palette ordnest du unter **Einstellungen → Anzeige → Notizansicht** an.
+Aufgabensets kannst du auch manuell erstellen und bearbeiten, ohne KI-Guthaben zu verwenden. Starte Pomodoro über die Notizleiste; Fokus- und Pausendauer wählst du beim Start. **Durchgänge bis zum automatischen Ende** und **Figur** findest du in den Lernhilfe-Einstellungen. Der **Laserpointer** zeigt mit dem Apple Pencil eine vorübergehende Spur, die nicht als Handschrift gespeichert wird. Notizschaltflächen und Palette ordnest du unter **Einstellungen → Notiz-Einstellungen → Notizansicht** an.
+
+{{% uni-pre-v4 %}}Die Einstellungen für **Navigationsleiste** und **Werkzeugpalette** befinden sich unter **Einstellungen → Anzeige → Notizansicht**.{{% /uni-pre-v4 %}}
 
 {{< guide-anchor "14-notizen-schützen-und-papierkorb-verwenden" >}}
 
@@ -155,7 +169,7 @@ Aufgabensets gesammelt über **Aus Zwischenablage erstellen** oder **Aus Datei e
 
 {{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Backup exportieren und Aus Datei wiederherstellen in den Uni:Note-Einstellungen" mode="crop" caption="Japanische Oberfläche: Die obere Zeile exportiert ein Backup, die untere stellt eine gespeicherte Datei wieder her." >}}
 
-Für einfaches Backup und dessen Wiederherstellung benötigst du Premium oder Premium Plus. Es speichert und liest eine iCloud-Datei, ohne Notizen automatisch zu synchronisieren. Zip-Export und Wiederherstellung aus Datei funktionieren auch in Free. Die Wiederherstellung startet ohne Rückfrage sofort und ersetzt die aktuellen Daten; exportiere deshalb zuerst deine aktuellen Daten. Öffne die App danach gemäß Hinweis erneut. Aufgabensets sind im Backup enthalten; um sie in Uni:Note Pocket zu laden, aktualisiere Pocket auf die neueste Version. Sprache, Linkshänderoptionen und Fachbezeichnung lassen sich in den Einstellungen ändern.
+Für einfaches Backup und dessen Wiederherstellung benötigst du Premium oder Premium Plus. Es speichert und liest eine iCloud-Datei, ohne Notizen automatisch zu synchronisieren. Zip-Export und Wiederherstellung aus Datei funktionieren auch in Free. Die Wiederherstellung startet ohne Rückfrage sofort und ersetzt die aktuellen Daten; exportiere deshalb zuerst deine aktuellen Daten. Öffne die App danach gemäß Hinweis erneut. Aufgabensets sind im Backup enthalten; um sie in Uni:Note Pocket zu laden, aktualisiere Pocket auf die neueste Version. Sprache, Linkshänderoptionen und **Bezeichnung der Regaleinträge** lassen sich in den Einstellungen ändern.
 
 {{< guide-anchor "split-view-slide-over-und-zwei-bereiche-verwenden" >}}
 

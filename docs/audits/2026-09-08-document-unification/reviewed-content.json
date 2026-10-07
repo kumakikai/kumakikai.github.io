@@ -28,13 +28,14 @@
     },
     "/de/faq/uni-note/": {
       "source": "content/faq/uni-note.de.md",
-      "sourceSHA256": "2dbd1df5c2b143defc2007efcbbba39a81b4d534fde837c263d445bb128530aa",
+      "sourceSHA256": "6ce9c231f287a4d2a1b3d62f305ea4b6ba5dc8493ac561a014c496e574cd57cf",
       "beforeSourceSHA256": "4d926cfd32a4df17784f4ef741a969864ea4ebe8b845d4fef2b64dfca511f04c",
       "baselineTextSHA256": "28bbaff2b8874691c449f5ce2dabdb05b6ec1582ba9f0b07d78dc29443fcc1e9",
-      "reviewedTextSHA256": "6050ff22e6353dd1701b5479530d9e5a24b1837f93fd9fb00a9c6250cc40993d",
+      "reviewedTextSHA256": "51cef9e29d5c2a67b558c424a21c34e8d1476ad65b22c8ee64377ccee8874152",
       "reviewedLinks": [
         "https://kumakikai.github.io/de/htu/uni-note/#backup",
         "https://kumakikai.github.io/de/htu/uni-note/#find",
+        "https://kumakikai.github.io/de/htu/uni-note/#help-overlay",
         "https://kumakikai.github.io/de/htu/uni-note/#pdf",
         "https://kumakikai.github.io/de/htu/uni-note/#recording",
         "https://kumakikai.github.io/de/htu/uni-note/#review",
@@ -72,10 +73,10 @@
     },
     "/de/htu/uni-note/": {
       "source": "content/htu/uni-note.de.md",
-      "sourceSHA256": "8a7e7f22ce69c8ffe63c86ea93081f89b3eb27eba6f9ccb316f72e2b7fe0b351",
+      "sourceSHA256": "1774d8194fe303f622465b57b95001fb082cb24d485a5dfbe256aed7237e401d",
       "beforeSourceSHA256": "058a054f08bc3ac0e5d0d1a63b404a8f86693f6ae3212879dc7d389ee076463a",
       "baselineTextSHA256": "65f68ff2e7b70bff28dcd58b530e206b83d814b0f7f95d14975f7c32f0180d07",
-      "reviewedTextSHA256": "2062542c77f585ee48cb33d8d4a28d4c25b83e0d311a1001d904936d84fbbc83",
+      "reviewedTextSHA256": "57cbba12a5cc41f7fbc0393f49de0dc5c8112a42c44c5f91dcad4d80c0910f06",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/de/faq/uni-note/",
@@ -173,13 +174,14 @@
     },
     "/en/faq/uni-note/": {
       "source": "content/faq/uni-note.en.md",
-      "sourceSHA256": "53f1c8623e0ee814f45023ab7c8b77687a26cf0fc534a997a3de9ea2cc9e26ce",
+      "sourceSHA256": "05f0782f823994fed4683d41fa0a52fa2fa4e4fa5023a1395ab1f797ec9360d9",
       "beforeSourceSHA256": "34b327a28fff14a7c82ae1bff3a02e595712c39e5adf9b824972efdbcd4857e7",
       "baselineTextSHA256": "c5b0c347ae3b742052d411cde897a0419b6d59b89b1ac515dc3bb6e5be3bcf51",
-      "reviewedTextSHA256": "514c7116349f28e2babde43b60ca956297f3fefd5f6d2188d6f0732b4ebe910f",
+      "reviewedTextSHA256": "194f481b757acfceac05f9c6be09f152c7c36545b3f898108c2cefe9e5ba068b",
       "reviewedLinks": [
         "https://kumakikai.github.io/en/htu/uni-note/#backup",
         "https://kumakikai.github.io/en/htu/uni-note/#find",
+        "https://kumakikai.github.io/en/htu/uni-note/#help-overlay",
         "https://kumakikai.github.io/en/htu/uni-note/#pdf",
         "https://kumakikai.github.io/en/htu/uni-note/#recording",
         "https://kumakikai.github.io/en/htu/uni-note/#review",
@@ -237,10 +239,10 @@
     },
     "/en/htu/uni-note/": {
       "source": "content/htu/uni-note.en.md",
-      "sourceSHA256": "c5b1ea2cf08898ae4cddbb8ce559d4c341eb7572435a6da605763358cca7155d",
+      "sourceSHA256": "ba76623c49fb6e08636d073b8999686a6524599a7cb14f66ce93f8eab6904f0f",
       "beforeSourceSHA256": "e79c85645c0379d9b269c9955c1bae1e544ff1beeb97a65ba64994146d8096cc",
       "baselineTextSHA256": "a26b5bab23dc299994a244f3487439f466613882df23bea152e792997f643601",
-      "reviewedTextSHA256": "a52a75d0d5972f2c91f9710575455604609f5a7fea3f2ddf01b468f07de509e6",
+      "reviewedTextSHA256": "bed34a9930ed5fe39a6ebca5cd8db635f461659919c4f1904968a6c6b0be547b",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/en/faq/uni-note/",
@@ -477,10 +479,10 @@
     },
     "/faq/uni-note/": {
       "source": "content/faq/uni-note.md",
-      "sourceSHA256": "cea8679761ab5d92587d399ead960c2d078e930ce9e6a59ac9795e3dcc76fea5",
+      "sourceSHA256": "1a8f070553aeffc2c94a7a804461e1f36d0c8db4564769282bc389a0545b46b0",
       "beforeSourceSHA256": "a1fb551aa7303b9cc02b457497bcbb634c50834980626eb97e45f9b126769195",
       "baselineTextSHA256": "3a379875305564aae60b184ea5fb30cbb594e14edf0117c63062cce5d191a761",
-      "reviewedTextSHA256": "403b084f20d052323771837e46e502f46403fbf3427db18b16d2b67473878b78",
+      "reviewedTextSHA256": "75b38c73b3bfd169f027a3fa0450a9ef5783845bff761d938acd8b7822e88f15",
       "reviewedLinks": [
         "https://kumakikai.github.io/htu/uni-note/#backup",
         "https://kumakikai.github.io/htu/uni-note/#find",
@@ -490,6 +492,7 @@
         "https://kumakikai.github.io/htu/uni-note/#windows",
         "https://kumakikai.github.io/htu/uni-note/#write",
         "https://kumakikai.github.io/htu/uni-note/problem-sets/",
+        "https://kumakikai.github.io/htu/uni-note/start/#help-overlay",
         "https://kumakikai.github.io/htu/uni-note/study/#sticky-note",
         "https://kumakikai.github.io/htu/uni-note/timetable/",
         "https://kumakikai.github.io/htu/uni-note/writing/#text-shapes",
@@ -548,13 +551,14 @@
     },
     "/fr/faq/uni-note/": {
       "source": "content/faq/uni-note.fr.md",
-      "sourceSHA256": "124f15c9ac0a84ec3efd4553bcd654952a96b09bdfe1c194e95d08741cf1be60",
+      "sourceSHA256": "20a1a2b16b538f2420b617ef562d0d45aecfc5f377c71f276d7e7b60cf1d0ac0",
       "beforeSourceSHA256": "df2d63296b88e7a8a42045efd71202fc2d1e8b9aef9afc4983008a9b4b6491cf",
       "baselineTextSHA256": "51fa09d03f0ed11482ca3990e1c0adf3acfef35821425454a5adfcae65e542f0",
-      "reviewedTextSHA256": "dfe8f16f1589d6386584b52d0bd254d05433fc6006899c2160b0ba8f5b46abd5",
+      "reviewedTextSHA256": "9460ac097322e16ce531e94a8492cb3483b0d41a98417405dc77dcf305befc0b",
       "reviewedLinks": [
         "https://kumakikai.github.io/fr/htu/uni-note/#backup",
         "https://kumakikai.github.io/fr/htu/uni-note/#find",
+        "https://kumakikai.github.io/fr/htu/uni-note/#help-overlay",
         "https://kumakikai.github.io/fr/htu/uni-note/#pdf",
         "https://kumakikai.github.io/fr/htu/uni-note/#recording",
         "https://kumakikai.github.io/fr/htu/uni-note/#review",
@@ -612,10 +616,10 @@
     },
     "/fr/htu/uni-note/": {
       "source": "content/htu/uni-note.fr.md",
-      "sourceSHA256": "2dcedacf4aed6e4bea7fa2a25b0480669044be3c0f2443f4d6abbbf40365ac87",
+      "sourceSHA256": "e73bb22f87eb791f51075795d22c0750a2b7fa069398317a7ceb0d0ced15f684",
       "beforeSourceSHA256": "5f031450582be5fe983d7d71f9f179857047f147dcb8fdeec921c6ce12d8ffd0",
       "baselineTextSHA256": "d9d8754e59fa8e812c9e7fcb2e3826dab146ef19f6aa38a7e2b4bd0bca83dc58",
-      "reviewedTextSHA256": "6239eea6f53c64fdfdb87e569b15b5ea0fda4739591d1a62a7d625809669afcc",
+      "reviewedTextSHA256": "852a9028cf9e2f5ba6751c281bd191004b84c4a9c1b4a8ea84c0483a4b2c2b58",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/fr/faq/uni-note/",
@@ -837,7 +841,7 @@
       "sourceSHA256": "3b0e573072a94c33f35e817d2de8df2fed925a68060f9ed069458f584c03798a",
       "beforeSourceSHA256": "d2fc93f6645e97e085bc3e420b1e73568bbfbf9776d0877408d5703a5fdbcdd3",
       "baselineTextSHA256": "9047a537b892dae04996352f8ee10a832b3218654f44e403b0be5e83e3b94b80",
-      "reviewedTextSHA256": "fe94c39c4314864c42f71c6fcba9752a1959ee327df7a29de0f9fb9c11c32592",
+      "reviewedTextSHA256": "44bf7f68874a55b60f08844a0d85f76694094f9b5b0487eaa368e144a0b665e1",
       "reviewedLinks": [
         "https://kumakikai.github.io/htu/uni-note/ai/",
         "https://kumakikai.github.io/htu/uni-note/ai/#answer",
@@ -889,6 +893,7 @@
         "https://kumakikai.github.io/htu/uni-note/recording/#transcribe",
         "https://kumakikai.github.io/htu/uni-note/start/",
         "https://kumakikai.github.io/htu/uni-note/start/#first-note",
+        "https://kumakikai.github.io/htu/uni-note/start/#help-overlay",
         "https://kumakikai.github.io/htu/uni-note/start/#screens",
         "https://kumakikai.github.io/htu/uni-note/study/",
         "https://kumakikai.github.io/htu/uni-note/study/#laser",
@@ -980,13 +985,14 @@
     },
     "/ko/faq/uni-note/": {
       "source": "content/faq/uni-note.ko.md",
-      "sourceSHA256": "9f819ec4cccf078c2caac55ee46c472b46b006157806f91fd76274e5f0896a8d",
+      "sourceSHA256": "2e6da27414590a3656dbaa5a599544c8a81b43b71a6712d9838df0033264e44d",
       "beforeSourceSHA256": "01b1d79013a0628acae4bf7f1eebc6fefd801e0096e0a08adf7ab8bfd5c49a2f",
       "baselineTextSHA256": "d6bfc78516d3e47ab028cc83d22e6ec5c532cfc043ce88c8a6f4663d7331b065",
-      "reviewedTextSHA256": "03590d11e6944f083b1aeefec9603a3b415c730bc28b0f1e84819a8e39771978",
+      "reviewedTextSHA256": "5ba4199073b62b853414388433c8802f78c22a9173a36823ed33fa55e7f5c121",
       "reviewedLinks": [
         "https://kumakikai.github.io/ko/htu/uni-note/#backup",
         "https://kumakikai.github.io/ko/htu/uni-note/#find",
+        "https://kumakikai.github.io/ko/htu/uni-note/#help-overlay",
         "https://kumakikai.github.io/ko/htu/uni-note/#pdf",
         "https://kumakikai.github.io/ko/htu/uni-note/#recording",
         "https://kumakikai.github.io/ko/htu/uni-note/#review",
@@ -1044,10 +1050,10 @@
     },
     "/ko/htu/uni-note/": {
       "source": "content/htu/uni-note.ko.md",
-      "sourceSHA256": "548b22422cac3d6895e8cc3eca4ff9caf5fb03f0284d20f8b015a0d7c6eb8cb5",
+      "sourceSHA256": "c970ab4b0d5e6eb342ca2c42a29681fe389a3974170421d749e2500adceeafac",
       "beforeSourceSHA256": "c02e5a556d594b33a22567cefb065a2d6e1939eb14b4e9fda06099ab2bcd386b",
       "baselineTextSHA256": "6767264d91f95d305e2611b5ac966b9f9afbb6fc3ef6fccf6c799be4100c6ade",
-      "reviewedTextSHA256": "811bb178c8492871560749e578913665d7eddae1b7f970ff304203dd7301b6cd",
+      "reviewedTextSHA256": "a4ddca4bab9aace5c8c949a8dad31e4f7782fcebc1580f833ec9f9f96a5111b1",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/ko/faq/uni-note/",
@@ -1489,13 +1495,14 @@
     },
     "/zh-hant/faq/uni-note/": {
       "source": "content/faq/uni-note.zh-hant.md",
-      "sourceSHA256": "9e6a64adf73e1f4772ccd50abe52bb55415781c36f78363d279a77d6015d022b",
+      "sourceSHA256": "ba0ff6763c4c6eb885d89bfa996b4baa707772404c4fb36fafbd33529fc343ff",
       "beforeSourceSHA256": "760510d14056f16380f2b75585381379265a8bf9f4deef814e73301814e5e498",
       "baselineTextSHA256": "e5027cf3968e430bbe79884cf082764d3272930fc9dc60a6f0ead3410c5f0e65",
-      "reviewedTextSHA256": "b6070b293939f29b22b8e76c9fedcc5b5d4e3a57d378c0a9206dbef593278d61",
+      "reviewedTextSHA256": "bbb39d56a116cd79dbea3a2a5cf07a8579a548cca64785e50b2f26f9ba13d292",
       "reviewedLinks": [
         "https://kumakikai.github.io/zh-hant/htu/uni-note/#backup",
         "https://kumakikai.github.io/zh-hant/htu/uni-note/#find",
+        "https://kumakikai.github.io/zh-hant/htu/uni-note/#help-overlay",
         "https://kumakikai.github.io/zh-hant/htu/uni-note/#pdf",
         "https://kumakikai.github.io/zh-hant/htu/uni-note/#recording",
         "https://kumakikai.github.io/zh-hant/htu/uni-note/#review",
@@ -1553,10 +1560,10 @@
     },
     "/zh-hant/htu/uni-note/": {
       "source": "content/htu/uni-note.zh-hant.md",
-      "sourceSHA256": "87ed61847fea0e8dea17921b281820c4b224982b81d4f30e06645718266ed439",
+      "sourceSHA256": "ecd4f0360de4916296a5dd5430ecd3bfc28ea1e085da3cd7f98e1dccd6093f1d",
       "beforeSourceSHA256": "4e963f8e757eaa220cf8d5a54add967f2856c83b9ad68dc5a711e876f2d03b07",
       "baselineTextSHA256": "0ad93001924502ebcc8317108accca5d624457ff10510110e77257615d1e888a",
-      "reviewedTextSHA256": "5af72dc92b432d338f7061012a33edf88cb6262959d6afe6fa7d4b440429ce15",
+      "reviewedTextSHA256": "bbcefd1cbff7b38c24a7e7f338eca4c620862d043706d0bd2a4fa4eb951e4491",
       "reviewedLinks": [],
       "removedLinks": [
         "https://kumakikai.github.io/zh-hant/faq/uni-note/",

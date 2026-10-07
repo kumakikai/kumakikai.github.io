@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-10-06"
+version_context_date: "2026-10-07"
 title: "FAQ (Uni:Note)"
 description: "Frequently asked questions about Uni:Note."
-lastmod: 2026-10-06
+lastmod: 2026-10-07
 ---
 
 ## Introduction
@@ -16,6 +16,16 @@ Uni:Note helps you organize handwritten notes and PDFs on iPad and review them u
 Requires an iPad running iPadOS 17.0 or later.
 
 Write with Apple Pencil, or enable Draw with Finger to write with one finger. When it is on, scroll with two fingers. When it is off, one finger scrolls unless Scroll with Two Fingers is on in Settings → Note Settings. No separate app account is required. Japanese, English, Korean, German, Traditional Chinese and French are supported.
+
+{{% uni-v4 %}}
+### What does a button do? {#help-overlay}
+
+On Home, Problem Sets and Timetable, tap ? at the top right; on the note screen, choose Button Guide in the More (…) menu. Explanations of the buttons and gestures appear over the screen; tap anywhere to close them. On a new installation, they appear automatically once the first time you open each screen. They cannot be shown in a narrow window, so widen the window first.
+
+New installations also start with the sample subject Getting Started, containing the note How to use Uni:Note. You can write in it, and delete it by long-pressing its card when you no longer need it.
+{{% /uni-v4 %}}
+
+[Button Guide]({{< relref "/htu/uni-note/" >}}#help-overlay) →
 
 ## Notes and attachments
 
@@ -75,7 +85,9 @@ New installations of 4.0.0 start with Prioritize Transcription Accuracy off.
 
 ### Where are sticky markers and AI tools? {#help-5}
 
-Select Sticky Marker in the palette; no Study Support setting needs to be turned on. Tap each sticky marker separately to reveal or hide it; the old whole-page mask switch is no longer used. Switch the tool details to Sticky Note to place sticky notes you can write on. Circle to Solve is a button on the note navigation bar; show or hide it in Settings → Display Settings → Note Screen.
+Select Sticky Marker in the palette; no Study Support setting needs to be turned on. Tap each sticky marker separately to reveal or hide it; the old whole-page mask switch is no longer used. Switch the tool details to Sticky Note to place sticky notes you can write on. Circle to Solve is a button on the note navigation bar; show or hide it in Settings → Note Settings → Note Screen.
+
+{{% uni-pre-v4 %}}Navigation Bar and Palette settings are under Settings → Display Settings → Note Screen.{{% /uni-pre-v4 %}}
 
 AI answers, problem-set generation and summaries use AI Balance, shown in Settings and the plan screen. Creating or editing problem sets manually does not use AI Balance. Long passages, open-ended questions or diagram-heavy problems may not be supported. Check results against your materials.
 
@@ -124,7 +136,7 @@ Check the amount and purchase conditions in the plan screen before buying additi
 
 ### Why does my screen look different? {#help-7}
 
-Language, left-handed settings, the subject label and customized toolbar or palette can change the screen. The How to Use page describes the current operations.
+Language, left-handed settings, Name for Bookshelf Items and customized toolbar or palette can change the screen. The How to Use page describes the current operations.
 
 Check Notices in the Settings support section for in-app update information. Multiwindow controls depend on iPadOS.
 

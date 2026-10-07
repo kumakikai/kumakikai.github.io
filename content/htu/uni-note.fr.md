@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-10-06"
+version_context_date: "2026-10-07"
 title: "Mode d’emploi (Uni:Note)"
 description: "Mode d’emploi pour Uni:Note."
-lastmod: 2026-10-06
+lastmod: 2026-10-07
 ---
 
 ## Introduction
@@ -27,6 +27,12 @@ Nécessite un iPad sous iPadOS 17.0 ou version ultérieure. La transcription exi
 3. Ouvrez la matière et nommez sa première note. Un nom vide utilise la date du jour.
 
 Le même + permet de créer des dossiers. Glissez-y les matières ; supprimer un dossier les remet sur l’accueil. Maintenez une matière pour modifier son nom et son papier.
+
+{{% uni-v4 %}}
+### Explication des boutons {#help-overlay}
+
+Touchez **?** en haut à droite de l’accueil, des **Lots d’exercices** ou de l’**Emploi du temps**, ou choisissez **Explication des boutons** dans le menu **Plus** (…) d’une note : les boutons et les gestes sont expliqués par-dessus l’écran ; touchez n’importe où pour fermer. Après une nouvelle installation, l’explication s’affiche automatiquement une fois à la première ouverture de chaque écran ; dans une fenêtre étroite, élargissez d’abord la fenêtre. Une nouvelle installation contient aussi la matière d’exemple **Pour commencer** avec la note **Comment utiliser Uni:Note**, que vous pouvez supprimer en maintenant sa carte. Dans **Lots d’exercices**, **?** affiche d’abord l’explication des boutons ; **Voir le guide détaillé** ouvre le guide de quatre pages.
+{{% /uni-v4 %}}
 
 {{< guide-anchor "3-écrire-avec-lapple-pencil" "4-zoomer-avec-deux-doigts" "5-changer-doutil" "9-utiliser-la-règle" >}}
 
@@ -110,7 +116,9 @@ Sélectionnez **Marqueur pense-bête** dans la palette, touchez-le de nouveau po
 
 Pour écrire sur une **Note adhésive**, passez sur **Note adhésive** dans les détails, choisissez l’un des neuf formats (forme et taille) et l’une des quatre couleurs, puis touchez la page pour la coller et écrivez dessus. Faites glisser la bande adhésive en haut pour la déplacer ; maintenez cette bande puis touchez le bouton corbeille pour la supprimer. Toucher la note la rend semi-transparente pour voir la page dessous. L’ajout, le déplacement et la suppression peuvent être annulés ; la taille et l’angle ne changent plus après la pose.
 
-Touchez **Assistant de résolution par encerclement** dans la barre de navigation, entourez une question avec l’Apple Pencil et vérifiez la zone avant de demander la réponse. Affichez ou masquez ce bouton sous **Réglages → Affichage → Écran de note**.
+Touchez **Assistant de résolution par encerclement** dans la barre de navigation, entourez une question avec l’Apple Pencil et vérifiez la zone avant de demander la réponse. Affichez ou masquez ce bouton sous **Réglages → Réglages du note → Écran de note**.
+
+{{% uni-pre-v4 %}}Les réglages **Barre de navigation** et **Palette** se trouvent sous **Réglages → Affichage → Écran de note**.{{% /uni-pre-v4 %}}
 
 Pour envoyer le résultat dans une autre app, touchez Copier à gauche ou Partager à droite, en haut à droite du panneau de réponse.
 
@@ -118,13 +126,19 @@ Pour envoyer le résultat dans une autre app, touchez Copier à gauche ou Partag
 
 Dans **Plus → Créer un lot d’exercices**, sélectionnez les pages, gardez ou écartez les propositions et enregistrez le lot. Retrouvez-le dans **Lots d’exercices** sur l’accueil. Réponses et génération IA utilisent le solde IA ; vérifiez les résultats avec vos cours.
 
+{{% uni-v4 %}}
+**Vérifier les questions** ressemble désormais à la carte d’étude : une barre de progression avec « 3 / 10 » en haut, la réponse visible dès le départ et la page source tout en bas. Sous les boutons **Rejeter** et **Ajouter**, l’indication **Glissez à gauche : Rejeter / À droite : Ajouter** reste toujours affichée.
+{{% /uni-v4 %}}
+
 {{% uni-pre-v4 %}}Touchez la carte pour afficher la réponse, puis passez d’une question à l’autre avec les boutons précédent et suivant.{{% /uni-pre-v4 %}}
 
 {{% uni-v4 %}}
-Dans **Lots d’exercices**, le menu **+** propose **Créer une question à la fois** (écriture manuscrite ou clavier), **Créer par collage** et **Créer à partir d’un fichier** (TSV/CSV, jusqu’à 300 questions ; Premium ou Premium Plus). Pendant l’étude, un balayage vers la droite enregistre **Mémorisé** et un balayage vers la gauche **Non mémorisé**. Après un tour, refaites uniquement les questions **Non mémorisé** ou reprenez plus tard. Vous pouvez ouvrir la note source à côté de la question. Les lots sont regroupés par matière, et le bouton **?** explique leur utilisation.
+Dans **Lots d’exercices**, le menu **+** propose **Créer une question à la fois** (écriture manuscrite ou clavier), **Créer par collage** et **Créer à partir d’un fichier** (TSV/CSV, jusqu’à 300 questions ; Premium ou Premium Plus). Pendant l’étude, un balayage vers la droite enregistre **Mémorisé** et un balayage vers la gauche **Non mémorisé**. Après un tour, refaites uniquement les questions **Non mémorisé** ou reprenez plus tard. Vous pouvez ouvrir la note source à côté de la question. Les lots sont regroupés par matière. Le bouton **?** affiche d’abord l’explication des boutons ; **Voir le guide détaillé** ouvre le guide de quatre pages.
 {{% /uni-v4 %}}
 
-Vous pouvez aussi créer et modifier des lots d’exercices manuellement sans consommer de solde IA. Lancez Pomodoro depuis la barre de la note et choisissez les durées de concentration et de pause au démarrage ; **Séries avant l’arrêt automatique** et **Personnage** se trouvent dans l’aide à l’étude. Le **Pointeur laser** trace une ligne temporaire avec l’Apple Pencil, sans l’enregistrer comme écriture. Personnalisez les boutons et la palette sous **Réglages → Affichage → Écran de note**.
+Vous pouvez aussi créer et modifier des lots d’exercices manuellement sans consommer de solde IA. Lancez Pomodoro depuis la barre de la note et choisissez les durées de concentration et de pause au démarrage ; **Séries avant l’arrêt automatique** et **Personnage** se trouvent dans l’aide à l’étude. Le **Pointeur laser** trace une ligne temporaire avec l’Apple Pencil, sans l’enregistrer comme écriture. Personnalisez les boutons et la palette sous **Réglages → Réglages du note → Écran de note**.
+
+{{% uni-pre-v4 %}}Les réglages **Barre de navigation** et **Palette** se trouvent sous **Réglages → Affichage → Écran de note**.{{% /uni-pre-v4 %}}
 
 {{< guide-anchor "14-protéger-les-notes-et-utiliser-la-corbeille" >}}
 
@@ -155,7 +169,7 @@ Créer des lots d’exercices en masse avec **Créer par collage** ou **Créer �
 
 {{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Exporter une sauvegarde et Restaurer depuis un fichier dans Uni:Note" mode="crop" caption="Interface japonaise : la ligne du haut exporte une sauvegarde ; celle du bas restaure un fichier enregistré." >}}
 
-La mise à jour et la restauration de la sauvegarde rapide nécessitent Premium ou Premium Plus. Elle utilise un fichier iCloud sans synchronisation automatique. Export zip et restauration depuis un fichier fonctionnent aussi avec Free. La restauration démarre immédiatement, sans confirmation, et remplace les données actuelles : exportez d’abord vos données. Rouvrez l’app après restauration selon son message. Les lots d’exercices sont inclus dans les sauvegardes ; pour les charger dans Uni:Note Pocket, mettez Pocket à jour vers la dernière version. Langue, commandes gaucher et nom des matières se règlent également dans les réglages.
+La mise à jour et la restauration de la sauvegarde rapide nécessitent Premium ou Premium Plus. Elle utilise un fichier iCloud sans synchronisation automatique. Export zip et restauration depuis un fichier fonctionnent aussi avec Free. La restauration démarre immédiatement, sans confirmation, et remplace les données actuelles : exportez d’abord vos données. Rouvrez l’app après restauration selon son message. Les lots d’exercices sont inclus dans les sauvegardes ; pour les charger dans Uni:Note Pocket, mettez Pocket à jour vers la dernière version. Langue, commandes gaucher et **Appellation des éléments de la bibliothèque** se règlent également dans les réglages.
 
 {{< guide-anchor "utiliser-split-view-slide-over-et-deux-volets" >}}
 

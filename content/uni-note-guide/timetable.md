@@ -41,6 +41,12 @@ guide_kind: "category"
 
 {{< uni-guide-image slot="v4-timetable-edit" >}}
 
+{{% uni-v4 %}}
+右上の「?」から[ボタンの説明](/htu/uni-note/start/#help-overlay)を開くと、表示ボタンの役割と、「編集」中に下の教科をマスへドラッグする操作を確認できます。
+{{% /uni-v4 %}}
+
+{{< uni-guide-image slot="v4-timetable-help-overlay" release="4.0.0" >}}
+
 ### 曜日と時限を変える {#曜日と時限を変える}
 
 1. 右上の表示ボタン（「表示する曜日・時限」）をタップします。

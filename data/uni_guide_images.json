@@ -4656,13 +4656,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/start/",
     "src": "images/guides/uni-note/v40/start-home-legacy.png",
-    "source_sha256": "f3ff9050a81b70d45b9e48bb40091eecda621649db0ccfa29c4a62368fa428d1",
+    "source_sha256": "f347d603a6218f00ab3001c602e365f9778190d8e8eef045945a59a622e89255",
     "alt": "最近使ったノート、教科カード、学期フォルダが並ぶ従来表示のホーム",
-    "caption": "従来表示のホーム。左上にゴミ箱・2ペイン切り替え・問題集・時間割、右上に検索と設定が並びます。",
-    "capture_id": "a01-home",
-    "original_sha256": "ef677c1884cdb73e96d4ffab2cd8e15ec8106122b9ebc9f16afcf14418423f61",
+    "caption": "従来表示のホーム。左上にゴミ箱・2ペイン切り替え・問題集・時間割、右上に検索・設定・「?」（ボタンの説明）が並びます。",
+    "capture_id": "h10-home",
+    "original_sha256": "998a3d27cb8e818a476a3d4fafab29c300ad88b84a9608063660de14cd646a43",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-start-note-screen": {
     "page": "start/screens",
@@ -4686,13 +4686,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/library/",
     "src": "images/guides/uni-note/v40/library-two-pane.png",
-    "source_sha256": "c1cf06b59b971f5758847feecae1ba48bd719bd6608d7a58f3163f325ffae46a",
+    "source_sha256": "bd5da6a6aa6de9ba785e80e319758c3ad53c542d9df2f9c2c65b9b9ea5962a48",
     "alt": "左に最近使ったノート・フォルダ・教科、右に選んだ教科のノートが並ぶ2ペイン表示",
     "caption": "2ペイン表示。左で教科を選ぶと、右にその教科のノートが表示されます。",
-    "capture_id": "a11-two-pane-subject",
-    "original_sha256": "37eff1a6c6ed29d05b76b59c75b0324c674150b024e2cbda88dfd690b3564fa4",
+    "capture_id": "h20-two-pane",
+    "original_sha256": "902b1705a1e2b1643fe0b598fdf98542547dbb82873dc526ef266a0c60e0ffa2",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-library-two-pane-list": {
     "page": "library/two-pane",
@@ -4701,13 +4701,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/library/",
     "src": "images/guides/uni-note/v40/library-two-pane-list.png",
-    "source_sha256": "d8858d0f098fa9d8bcf404363d17ae51c81eecc6c68e71ba5f1a415351627608",
+    "source_sha256": "02bfdf5cb36420d1fad9cf4e4e5c973221699919bdf00a225b53b6dc9d8dd709",
     "alt": "右側のノートを一覧表示に切り替えた2ペイン表示",
     "caption": "右上のボタンで、ノートをカード表示と一覧表示に切り替えられます。",
-    "capture_id": "a12-two-pane-list",
-    "original_sha256": "f61eb0c2d3f4d6034e377d48ad4fe1987edff9c79cce3f7e746a62b6b52ea79e",
+    "capture_id": "h22-two-pane-list",
+    "original_sha256": "5964eb42fe859b93645457662034bdf835e4c9a6969374eeb9470d270412d5e5",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-notebooks-list": {
     "page": "notebooks/manage",
@@ -4756,13 +4756,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/timetable/",
     "src": "images/guides/uni-note/v40/timetable-grid.png",
-    "source_sha256": "8dbfddc60e6747b39fcb3342151a66c117f69bd3d8a911de49f4f28e11e74a83",
+    "source_sha256": "1fe7171fe8bffe3fd423da8d67322695e116db0da8f542a3bedb600372f63bf2",
     "alt": "月曜から金曜、1限から6限の時間割に教科が配置された画面",
-    "caption": "「あなたの時間割」。今の授業のマスは青い枠で表示されます。",
-    "capture_id": "a20-timetable",
-    "original_sha256": "726c5e9b83857bb81bd8507a12765c9b244d620bd0e58ead30dc97d67bd7f769",
+    "caption": "「あなたの時間割」。右上に表示ボタン・「編集」・「?」が並びます。",
+    "capture_id": "h12-timetable",
+    "original_sha256": "e7b81d984cbbfe1597f773b4306136b59a1d475c66fc002f34103a4ffc85cfb7",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-timetable-edit": {
     "page": "timetable/setup",
@@ -4771,13 +4771,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/timetable/",
     "src": "images/guides/uni-note/v40/timetable-edit.png",
-    "source_sha256": "bd8e9bfd4c3a331ac41ccf0b08b58d29c1fe8d081e4f33375abd9115ba44c6f7",
+    "source_sha256": "8c11a27d848c351fcb4750b3afcef75032fbe904604c1d6b2f1a9ee4df46ff0e",
     "alt": "編集中の時間割。各マスに外すボタン、画面下に教科カードが並ぶ",
     "caption": "「編集」中は、下の教科カードをマスへドラッグして配置できます。",
-    "capture_id": "a22-timetable-edit",
-    "original_sha256": "41dfb5c1bffdf46ddd66268396fd37fea7a037b159d439013232831fc776095d",
+    "capture_id": "h14-timetable-edit",
+    "original_sha256": "c63ca2fb0f5b9e1a1368ae247ff028895634368368ad70bae5b113ee9ee980a0",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-timetable-time": {
     "page": "timetable/setup",
@@ -4836,18 +4836,18 @@
     "mode": "tablet",
     "url": "/htu/uni-note/writing/",
     "src": "images/guides/uni-note/v40/writing-finger-setting.png",
-    "source_sha256": "ea141a9f1613a14e62d02ee745ace7d03011c4eefa0c043f39572be60728e949",
+    "source_sha256": "5fa1d85965f39d77de1aa2531ae0b474bf9ea7e7e9543886e855e9fdfbcf94f4",
     "alt": "設定トップにある指で描画のスイッチ",
     "caption": "設定トップの「指で描画」。",
-    "capture_id": "a30-settings-top",
-    "original_sha256": "7a181ecd58cc353992cdf48d3a2fc4906eac3949db3e34681b77f42cced2dd3c",
+    "capture_id": "h50-settings-top",
+    "original_sha256": "172be5d88e4aab5db128a5310fdcaa5436a3bcc719a341bfa0fee8a55622a332",
     "crop": [
       0,
-      450,
+      470,
       1376,
-      560
+      575
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-writing-pen-detail": {
     "page": "writing/pens",
@@ -5056,18 +5056,18 @@
     "mode": "tablet",
     "url": "/htu/uni-note/materials/",
     "src": "images/guides/uni-note/v40/materials-pdf-settings.png",
-    "source_sha256": "e41dcb21b1f8a4fd668b2216017fedcc54f4bba06fd4f87818b3f498d026a2e0",
+    "source_sha256": "ca215a5b90abc3a5874ec581d444fa102748a7f47cc8064742a1df861fda9a9a",
     "alt": "PDF出力設定の紙色・付箋マーカー・付箋のスイッチ",
     "caption": "「表示設定」の「PDF出力設定」（4.0.0の画面）。",
-    "capture_id": "a35-display-settings-2",
-    "original_sha256": "e3475f6489232a1af90eac443b762a61eaaceeb79c255267a4ae5d650e61e205",
+    "capture_id": "h55-display-settings",
+    "original_sha256": "dc68b2cac8173c4eac543695526e2ca016ccdd607cb76b6830b003559aeadeeb",
     "crop": [
       0,
-      630,
+      555,
       1376,
-      860
+      800
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-materials-export-scope": {
     "page": "materials/export",
@@ -5096,18 +5096,18 @@
     "mode": "tablet",
     "url": "/htu/uni-note/customize/",
     "src": "images/guides/uni-note/v40/customize-settings-top.png",
-    "source_sha256": "98f8db250977061ab576a7d0360fa339a24fdd3032779c7141eb5c30b3bb060e",
-    "alt": "指で描画、ノート設定、表示設定、学習支援、バックアップ、お知らせが並ぶ設定トップ",
-    "caption": "設定トップ。目的に合う項目を開きます。",
-    "capture_id": "a30-settings-top",
-    "original_sha256": "7a181ecd58cc353992cdf48d3a2fc4906eac3949db3e34681b77f42cced2dd3c",
+    "source_sha256": "45886c43004719c87dc1c0c580050b748a12722fcf6f8f8158335e4f6cd8ea44",
+    "alt": "プランの欄にFreeの作成上限が表示され、その下に指で描画とノート設定・表示設定・学習支援が並ぶ設定トップ",
+    "caption": "設定トップ。Freeでは、作成できる教科とノートの上限がプランの欄に表示されます。",
+    "capture_id": "h50-settings-top",
+    "original_sha256": "172be5d88e4aab5db128a5310fdcaa5436a3bcc719a341bfa0fee8a55622a332",
     "crop": [
       0,
-      440,
+      120,
       1376,
-      1032
+      810
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-customize-launch": {
     "page": "customize/display",
@@ -5136,13 +5136,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/customize/",
     "src": "images/guides/uni-note/v40/customize-display.png",
-    "source_sha256": "f1ffbceb8a10a8808035d2e4b983291d66fa304569ec082c059802c48d0f9822",
-    "alt": "起動・表示設定、ノート画面、PDF出力設定が並ぶ表示設定",
+    "source_sha256": "e32d7b16176b1718849f32dedf73840390a4da8deb00c2b01bfa3c01a3b51847",
+    "alt": "起動・表示設定、PDF出力設定、言語が並ぶ表示設定",
     "caption": "「表示設定」。2ペイン表示の既定もここで選びます。",
-    "capture_id": "a34-display-settings",
-    "original_sha256": "1477f0af1bcc94df574ef5d94891233269bf657836bfaeaa8441ebcb74c66976",
+    "capture_id": "h55-display-settings",
+    "original_sha256": "dc68b2cac8173c4eac543695526e2ca016ccdd607cb76b6830b003559aeadeeb",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-customize-notebook-settings": {
     "page": "customize/paper",
@@ -5151,13 +5151,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/customize/",
     "src": "images/guides/uni-note/v40/customize-notebook-settings.png",
-    "source_sha256": "d339b53447e27fbe79f643ebaf4f6638408660d43c89e63c5b17d42d3dbc4344",
+    "source_sha256": "72b92df2bd2795576aa158f4d7166afe537cd9915311a75396195a2aa79486be",
     "alt": "テンプレート・ベース色・左利きモード・項目ごとの設定・ヘッダーフッターが並ぶノート設定",
     "caption": "「ノート設定」。新規ノートの紙、左利き、ページの四隅の表示などを設定します。",
-    "capture_id": "a32-notebook-settings",
-    "original_sha256": "b274ef47cf7da4276b2d5e6c461a15a92f8f451f98204006aad5138449fc5e81",
+    "capture_id": "h51-notebook-settings",
+    "original_sha256": "211ddc02e7564b290cf0d75df435a5412d8b3e2308cf7f1c49b4daea4b6fa881",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-study-marker-detail": {
     "page": "study/sticky",
@@ -5281,13 +5281,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-guide.png",
-    "source_sha256": "3b9c4d415e1305f2acf3b425ac2ca36aeed0fe0641f2df9709dd1c797aed68fd",
+    "source_sha256": "948ee045076b7074a86b1cd3486d8dd96853c744b35cc1b4c4c870a4a4bcc701",
     "alt": "問題集の使い方の1ページ目。AI生成・1問ずつ・まとめて作る",
-    "caption": "「?」で開く「問題集の使い方」。",
-    "capture_id": "d02-guide-1",
-    "original_sha256": "96b971ea1fa6b0d8b6373667964bc12c11bf7ccfc4cf843a6c4884812bfd35ec",
+    "caption": "「?」→「詳しい使い方ガイドを見る」で開く「問題集の使い方」。",
+    "capture_id": "h32-ps-guide-1",
+    "original_sha256": "8c1caa9194bc093227ea3d48bf1d50e967484bdb0b5a49d81f799b6c428e40fe",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-start": {
     "page": "problem-sets/review",
@@ -5296,18 +5296,18 @@
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-start.png",
-    "source_sha256": "e202f97711888d6bdcdeff5426bdd2b944bc8f068f048654c6eed7ee765cb8a2",
+    "source_sha256": "e7e5e135cc2272554bf8ec3654c4aea0a86baa21261cac95e69cd7e863a50c2a",
     "alt": "前回の記録と、続きから・最初から・終了するのボタン",
     "caption": "学習記録がある問題集の開始画面。",
     "capture_id": "d26-start-screen",
-    "original_sha256": "1ddd979a231952b2e48dd391e82c641b6fc6e47e9f7b72c041b3bf78edcad368",
+    "original_sha256": "2c1b3bb1fa1a62a56446259a12373b709a73edf2351cb4ba401074b9fe1f027b",
     "crop": [
       300,
       300,
       1076,
       820
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-study-answer": {
     "page": "problem-sets/review",
@@ -5316,18 +5316,18 @@
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-study-answer.png",
-    "source_sha256": "09ef833f5df16ec9401eb67011f30166388343bae01c43156049b76d28dd1791",
+    "source_sha256": "1d862fcd55333801b329d6a38b09a19a7fb5abda1da62706e54b05e649232e52",
     "alt": "問題と解答、出典のチップ、覚えていないと覚えたのボタン",
     "caption": "解答を表示した状態。下に出典が表示されます。",
     "capture_id": "d22-answer",
-    "original_sha256": "e38b99491951535ebc13877c991e624261ae574d66f740b90cc5c92ea0968db3",
+    "original_sha256": "657e1fa8876d5cf26385308b968db81fc2b30af1ac61e5b6543db115c65874df",
     "crop": [
       330,
       250,
       1050,
       820
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-study-reference": {
     "page": "problem-sets/review",
@@ -5336,13 +5336,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-study-reference.png",
-    "source_sha256": "8dd112d7e6e260f63b231dde2171e6dbfe7c2bc76609dcf8bb3142394f88d70e",
+    "source_sha256": "38d9b1b023a377940d8207ca15d1c11ef04622c08bb7296a560b18620baf4fe3",
     "alt": "左に元のノートのページ、右に問題と解答が並ぶ学習画面",
     "caption": "出典をタップすると、左に元のノートが表示されます。",
     "capture_id": "d23-reference",
-    "original_sha256": "ec695514277d3154b2e4473f66acae4beb6ec6f030648d6a1548de0d5c36cb6f",
+    "original_sha256": "9e54b3ac7093022d46b70f3706d2504bf7ae763a9859124cd4ee7cd17aeb712e",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-menu": {
     "page": "problem-sets/edit",
@@ -5355,14 +5355,14 @@
     "alt": "問題を追加・問題集を編集・削除の長押しメニュー",
     "caption": "問題集の長押しメニュー（ノートから作った問題集の例）。",
     "capture_id": "d09-ps-menu",
-    "original_sha256": "edaad6d9de9363cbbf5cfe1eb5e6671864fe5a5d19954fda165af8c491fd31ba",
+    "original_sha256": "312b820e32427d7cce2d8046b02eac84eeda732bbb4d3f505343a1b4eaa55d83",
     "crop": [
       0,
       100,
       700,
       600
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-editor": {
     "page": "problem-sets/edit",
@@ -5371,13 +5371,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-editor.png",
-    "source_sha256": "e60c23220ad798252cd966921f823f5906450ea0b2b6bfdd5a060da7021907da",
+    "source_sha256": "423fe9c6274c79fc03eb8c7d0710ea9c3f6f9b3cfc78d3c9e72f5eebb8e61bc6",
     "alt": "問題がカードで並び、右端にゴミ箱、下に問題を追加ボタンがある編集画面",
     "caption": "「問題集を編集」。カードをタップすると1問ずつ直せます。",
     "capture_id": "d10-editor",
-    "original_sha256": "509b087c40f707b8c6793825dbe70620edee5497cec28d1a6da57c29268e510c",
+    "original_sha256": "34e8dcf906518f034f8061d4934bd2822ba169a1bc58b11931ca2bbb842ddf32",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-workflows-timetable-launch": {
     "page": "workflows/timetable-launch",
@@ -5386,13 +5386,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/workflows/",
     "src": "images/guides/uni-note/v40/workflows-timetable-launch.png",
-    "source_sha256": "8dbfddc60e6747b39fcb3342151a66c117f69bd3d8a911de49f4f28e11e74a83",
+    "source_sha256": "1fe7171fe8bffe3fd423da8d67322695e116db0da8f542a3bedb600372f63bf2",
     "alt": "教科を登録した時間割",
     "caption": "授業を登録した時間割。",
-    "capture_id": "a20-timetable",
-    "original_sha256": "726c5e9b83857bb81bd8507a12765c9b244d620bd0e58ead30dc97d67bd7f769",
+    "capture_id": "h12-timetable",
+    "original_sha256": "e7b81d984cbbfe1597f773b4306136b59a1d475c66fc002f34103a4ffc85cfb7",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-workflows-sticky-note-memo": {
     "page": "workflows/sticky-note-memo",
@@ -5416,13 +5416,13 @@
     "mode": "tablet",
     "url": "/htu/uni-note/workflows/",
     "src": "images/guides/uni-note/v40/workflows-problem-set-sheet.png",
-    "source_sha256": "1b61831a5720edd84f7dee7dc11cbbf326617104a7c94bd9aee258d3b5896c29",
+    "source_sha256": "37377d92b0174e5c636de83b0c5a397f53dc7c704e1b5f3685ec87a781ad1852",
     "alt": "スプレッドシートでの書き方とTSVの例を示す使い方ガイド",
-    "caption": "「?」の2ページ目。表の書き方とファイルの中身の例です。",
-    "capture_id": "d02-guide-2",
-    "original_sha256": "1758fe7ca3a8f2406170983dde295a647a6ad9331618d00716e7a660c5ecded3",
+    "caption": "使い方ガイドの2ページ目。表の書き方とファイルの中身の例です。",
+    "capture_id": "h32-ps-guide-2",
+    "original_sha256": "99564c974d5cd68401504b0b29f8b7285c0c558f011eaef55ed0da00b9f86c47",
     "crop": null,
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-generate-entry": {
     "page": "problem-sets/generate",
@@ -5431,18 +5431,18 @@
     "mode": "tablet",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-generate-entry.png",
-    "source_sha256": "d11cfb1cf4faf0bb0b3ae1d2c1e717e04129713d5213083faf4cee5edca1d355",
+    "source_sha256": "bbd22855b92b3d7102daa7959db3ddfae024f8c1cc568358d94b2f0a6817fdbc",
     "alt": "対象ページを選んで問題集を作成する画面",
     "caption": "「問題集を作る」の画面。「対象ページ」で範囲を選びます。",
-    "capture_id": "e10-generate-entry",
-    "original_sha256": "453e9b834fa63ad7ba75a7f5a2c9227e70ff0a25f7bbdc9eab019ab6e18a80c0",
+    "capture_id": "i60-generate-entry",
+    "original_sha256": "f11cbabd89666be3fe40ae15305ca113770c75ec7c09ce00c0306e36ac0d4bc0",
     "crop": [
       0,
-      365,
+      230,
       1376,
-      620
+      640
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-ai-answer-mode": {
     "page": "ai/answer",
@@ -5491,18 +5491,18 @@
     "mode": "tablet",
     "url": "/htu/uni-note/customize/",
     "src": "images/guides/uni-note/v40/customize-navbar.png",
-    "source_sha256": "a30223a619b63cd6c5f79f58ce33c5537d91c02d4d0b44699684d856cafeabd9",
+    "source_sha256": "20f92d30b8bb475a77f62bed151c4837754773507de730b96958a39423b4c437",
     "alt": "ナビゲーションバーのプレビュー、「…」メニュー内、利用できるボタンが並ぶ設定画面",
-    "caption": "「ナビゲーションバー」の設定。ボタンをドラッグして配置を変えます。",
-    "capture_id": "g50-navbar",
-    "original_sha256": "88f79233396a20217600a630dee53ed13b72f7a6d5da136ed4967c34282171b7",
+    "caption": "「ナビゲーションバー」の設定。ボタンをドラッグして配置を変えます。「ボタンの説明」は「…」メニュー内の先頭にあります。",
+    "capture_id": "h53-navbar",
+    "original_sha256": "07ac3ad2d3f114f1aef68b42a84f70dd7c490e3a0305d8ac9868df3fa15d1bc1",
     "crop": [
       0,
       0,
       1376,
-      540
+      600
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-data-protect": {
     "page": "data/protect",
@@ -5666,18 +5666,18 @@
     "mode": "tablet",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-bulk.png",
-    "source_sha256": "6ff2a2115aadd411ea49b66019194ffcd281ff19bc1d24a41587b91814195d34",
+    "source_sha256": "454148b719d06bda3f57e0b3183b0c67af6bbbfbbc1e5615a90fcc1307d3f031",
     "alt": "貼り付けた3問が行ごとに表示され、教科・行を追加・問題集を作成のボタンがある一括作成画面",
     "caption": "「一括作成」。内容を確認・修正して「問題集を作成」をタップします。",
     "capture_id": "f08-bulk",
-    "original_sha256": "7435a6412d1e750ad3fb64e4cd8a92f62be838661a9c0a511b600410074044cd",
+    "original_sha256": "dfeb30b0dc0239489eed92a14c5d64dc3192e0dcce627a5f62a45d533908223e",
     "crop": [
       0,
       40,
       1376,
       560
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-create-handwriting": {
     "page": "problem-sets/create",
@@ -5686,18 +5686,18 @@
     "mode": "tablet",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-create-handwriting.png",
-    "source_sha256": "5c80d2a74280206a803b12aa6fe0060aea1031876cf0249b9d9db2e36b195257",
+    "source_sha256": "c6b535755d63bcf66e6087c992f13b4c6d9a366798a0be19b312cb555b67d6e2",
     "alt": "手書きを選び、ペン・消しゴム・取り消す・やり直すと問題文・解答の手書き欄が表示された画面",
     "caption": "「手書き」を選ぶと、問題文と解答をApple Pencilで書けます。",
     "capture_id": "f05-create-handwriting",
-    "original_sha256": "42a2a36aaa99feecf56da0bfb747593596ec41afd54fdf7ba594c67c6323481b",
+    "original_sha256": "deba80ad0472024689df7e450417584e12b510298393920fe8cda22aa25b1f0c",
     "crop": [
       0,
       40,
       1376,
       700
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-create-keyboard": {
     "page": "problem-sets/create",
@@ -5706,18 +5706,18 @@
     "mode": "tablet",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-create-keyboard.png",
-    "source_sha256": "02382692f9f17096dbd7fa191e02914e2243e10da57dd6c3c8d6dd5ad8c68a66",
+    "source_sha256": "6f790747cd1054e8f2902e2bcc5a8bf9d4d3be3a529e6b663a276267ea816b43",
     "alt": "問題集のタイトル、教科、入力方法の切り替え、問題文と解答の欄、保存して次へのボタン",
     "caption": "「1問ずつ作成」のキーボード入力。「保存して次へ」で1問ずつ保存します。",
     "capture_id": "f04-create-keyboard-filled",
-    "original_sha256": "248ab9b0e6a9996ae3f58e28fb1d06900ba4f38d038469d964e761ee0a47d21f",
+    "original_sha256": "2c579369d8b3ea145438a7f54f44a73ceaa56cd5bc54b10584c010ae926760e9",
     "crop": [
       0,
       40,
       1376,
       560
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-result": {
     "page": "problem-sets/review",
@@ -5726,18 +5726,18 @@
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-result.png",
-    "source_sha256": "6858d18b3593aff87db2f2c40b33f3c4636bb89235b33c25449dc896afec30c3",
+    "source_sha256": "1a8f656c1c1b19e55a0459b1783369f963319c68cd545e527d2ebd2fe7787dd1",
     "alt": "1周目おつかれさまの結果画面と、覚えていない問題をもう一周するボタン",
     "caption": "1周の結果。覚えていない問題だけをもう一周できます。",
     "capture_id": "f12-result",
-    "original_sha256": "65ff93d4a10c0dca4257216e9121290247ba2774e188e54e86c450c307c1ddbf",
+    "original_sha256": "772d9aa6d8c574635471353a79db593e6fdf3219ad1a352f0ffcf0dfad14a30e",
     "crop": [
       300,
       330,
       1076,
       830
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-problem-sets-study-swipe": {
     "page": "problem-sets/review",
@@ -5746,18 +5746,18 @@
     "mode": "crop",
     "url": "/htu/uni-note/problem-sets/",
     "src": "images/guides/uni-note/v40/problem-sets-study-swipe.png",
-    "source_sha256": "a6592a2ec014619bdb4ef4f65fa84531e609ee6433ca628adaf932206d8cc9bd",
+    "source_sha256": "e51ed4db3011e058c0a4e6c1bc679da9d73a9eb1b292a8c4f99bead820629ce0",
     "alt": "問題、Apple Pencilの解答欄、覚えていないと覚えたのボタン",
     "caption": "「覚えた」「覚えていない」はボタンでも、左右のスワイプでも記録できます。",
     "capture_id": "f11-swipe",
-    "original_sha256": "0cac0a0a1cde52be823c3a578eaa69e029bfbc3119abb44ee71c2e2ce87e6513",
+    "original_sha256": "1c46a646ac3cab4cc5174aeedd7da89a7747b0155883230ff2df9cff1954a619",
     "crop": [
       330,
       240,
       1050,
       900
     ],
-    "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   },
   "v4-recording-panel": {
     "page": "recording/capture",
@@ -5838,5 +5838,150 @@
       700
     ],
     "capture_version": "9f3522a8 Release / 4.0.0 local build / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-customize-note-screen": {
+    "page": "customize/toolbar",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/customize/",
+    "src": "images/guides/uni-note/v40/customize-note-screen.png",
+    "source_sha256": "4b8ac11db3dc011517872e2a7bbf1915bf83ee0c89b008869c2de088e618c94d",
+    "alt": "ノート設定の下部に、2本指でスクロール・端スワイプで戻ると、ノート画面のナビゲーションバー・パレットが並ぶ画面",
+    "caption": "「ノート設定」の下にある「ノート画面」から、ナビゲーションバーとパレットを変更します。",
+    "capture_id": "h52-notebook-settings-2",
+    "original_sha256": "383b5cc702e9d41bf1665e3269dd679b916340329775461eae944425c5f0bb1d",
+    "crop": [
+      0,
+      640,
+      1376,
+      1000
+    ],
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-start-help-overlay-home": {
+    "page": "start/screens",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/start/",
+    "src": "images/guides/uni-note/v40/start-help-overlay-home.png",
+    "source_sha256": "0ac68f774b70728eb486438c169af3281eb602950e1e2180eaaa63ad989eb9a8",
+    "alt": "ホームのボタンに番号が付き、中央の一覧にゴミ箱・2ペイン表示・問題集・時間割・設定・作成・カードを長押し・≡をドラッグの説明が並ぶ画面",
+    "caption": "ホーム右上の「?」で開いたボタンの説明。画面のどこかをタップすると閉じます。",
+    "capture_id": "h11-home-overlay",
+    "original_sha256": "c9867e0d9f90184bee4d3aaa4c9a5f385db7e886c3bb829ea67c80193a411391",
+    "crop": null,
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-start-help-overlay-note": {
+    "page": "start/screens",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/start/",
+    "src": "images/guides/uni-note/v40/start-help-overlay-note.png",
+    "source_sha256": "59acb2db4c144922edd26fd955a0673506cd5b4380cc3a7acdd906d1c34b96e2",
+    "alt": "ノート画面のナビゲーションバーとパレットのボタンに番号が付き、上のバー（左）・上のバー（右）・ペンパレットに分けて説明が並ぶ画面",
+    "caption": "ノート画面の「ボタンの説明」。いま表示されているボタンだけが説明されます。",
+    "capture_id": "h41-note-overlay",
+    "original_sha256": "39d29b2bbcfbd4e966b34ee4dc28c5e7c8a5c710c91a906feaf734e6cc549865",
+    "crop": null,
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-start-welcome": {
+    "page": "start/screens",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/start/",
+    "src": "images/guides/uni-note/v40/start-welcome.png",
+    "source_sha256": "c28e8543911a7b342777214881d842d927c1f4884a356599bf9e1fa4f3d255cf",
+    "alt": "「Uni:Noteへようこそ」の案内。ボタンの説明が初回に表示されることと、指で描画のスイッチ、使い方を見る・今すぐ始めるのボタンがある",
+    "caption": "新しくインストールしたときの「ようこそ」。後ろのホームに「はじめに」の教科が見えます。",
+    "capture_id": "h00-welcome",
+    "original_sha256": "f8311ed3713f5f0ddd46029ff46eca9ad8ee412243807a43b074b46b0bdab2df",
+    "crop": null,
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-start-intro-notebook": {
+    "page": "start/screens",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/start/",
+    "src": "images/guides/uni-note/v40/start-intro-notebook.png",
+    "source_sha256": "b598274e909e14ef76a12d5ce781dd81c4735b65d0a23f5bcbeb685c48cbc38f",
+    "alt": "ノート「Uni:Note の使い方」の1ページ目。書く・消す、ボタンの説明を見る、カードを長押しで編集・削除、問題集で復習するの説明と、ここに書いてみようの欄がある",
+    "caption": "「はじめに」の教科に用意されるノート。下の欄で試し書きできます。",
+    "capture_id": "h04-intro-note-page",
+    "original_sha256": "99a8cf748387bbd79202efbd17885b76fdf1978511ee84afc7ba1fda15e70e96",
+    "crop": null,
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-timetable-help-overlay": {
+    "page": "timetable/setup",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/timetable/",
+    "src": "images/guides/uni-note/v40/timetable-help-overlay.png",
+    "source_sha256": "d6380e5a32cc0060a8d1eb89198258de53e0d94add1d220d69f9be4f136f650a",
+    "alt": "時間割の編集中に、表示する曜日・時限のボタンと、下の教科をドラッグする操作の説明が表示された画面",
+    "caption": "時間割の「?」。編集中は、教科をコマへドラッグする操作も説明されます。",
+    "capture_id": "h15-timetable-edit-overlay",
+    "original_sha256": "3f26cd4c0ab22fa2d3831fac1b9496a4f781f780003c6733787f347b4a501a56",
+    "crop": null,
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-library-two-pane-help": {
+    "page": "library/two-pane",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/library/",
+    "src": "images/guides/uni-note/v40/library-two-pane-help.png",
+    "source_sha256": "2c78a70278446e748e08a3ec5d5fe92370a0d18c6720a2a6852701b0c66004eb",
+    "alt": "2ペイン表示で、上のバーと右のペインのボタンに番号が付き、一覧で説明された画面",
+    "caption": "2ペイン表示のボタンの説明。上のバー・左右のペインに分けて表示されます。",
+    "capture_id": "h21-two-pane-overlay",
+    "original_sha256": "e9f5bd88cfa094f5829e12c75f6f86f5c28f9e12a94bba147c375da5e44babaf",
+    "crop": null,
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-review": {
+    "page": "problem-sets/generate",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-review.png",
+    "source_sha256": "5bce693039c9c56ef86a682554134315c46eb34bfd52f7a161cea46c0f928912",
+    "alt": "問題レビュー。上に進捗バーと1 / 3、カードに問題文・解答・解説・元ページ、下に破棄と追加のボタンとスワイプのヒントがある",
+    "caption": "「問題レビュー」。候補ごとに「破棄」か「追加」を選びます（表示している問題は撮影用のサンプルです）。",
+    "capture_id": "i61-review",
+    "original_sha256": "502f03fe60aa55c91069e697a82b7264a53c0e1188975210e36eddbb16e58b51",
+    "crop": [
+      0,
+      180,
+      1376,
+      880
+    ],
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
+  },
+  "v4-problem-sets-help-overlay": {
+    "page": "problem-sets/list",
+    "status": "approved",
+    "release_status": "capture-4.0.0",
+    "mode": "tablet",
+    "url": "/htu/uni-note/problem-sets/",
+    "src": "images/guides/uni-note/v40/problem-sets-help-overlay.png",
+    "source_sha256": "4c823849804224e72ae804ad2358485d256cc1536f225042249181bffc0fbb90",
+    "alt": "問題集表示に、ノートに切り替え・シャッフル・使い方・問題集を作る・カードを長押しの説明と、詳しい使い方ガイドを見るボタンが表示された画面",
+    "caption": "問題集表示の「?」。中央の「詳しい使い方ガイドを見る」で4ページのガイドが開きます。",
+    "capture_id": "h31-ps-overlay",
+    "original_sha256": "66ab7f83ce79fbe4ae134df36909726ad1a8483ae813fc5e30f58a5f68c54c7d",
+    "crop": null,
+    "capture_version": "df04fb6d Debug (temporary copy for capture) / 4.0.0 branch / Simulator iPad Pro 13-inch (M5) iOS 26.5; demo data, not App Store binary"
   }
 }

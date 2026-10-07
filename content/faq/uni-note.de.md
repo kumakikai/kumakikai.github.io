@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-10-06"
+version_context_date: "2026-10-07"
 title: "FAQ (Uni:Note)"
 description: "Häufig gestellte Fragen zu Uni:Note."
-lastmod: 2026-10-06
+lastmod: 2026-10-07
 ---
 
 ## Einführung
@@ -16,6 +16,16 @@ Uni:Note organisiert handschriftliche Notizen und PDFs auf dem iPad und unterst�
 Erfordert ein iPad mit iPadOS 17.0 oder neuer.
 
 Schreibe mit dem Apple Pencil oder aktiviere „Mit Finger zeichnen“, um mit einem Finger zu schreiben. Scrolle dann mit zwei Fingern. Bei deaktivierter Funktion scrollst du mit einem Finger, sofern „Mit zwei Fingern scrollen“ unter Einstellungen → Notiz-Einstellungen nicht aktiviert ist. Ein eigenes App-Konto ist nicht nötig. Unterstützt werden Japanisch, Englisch, Koreanisch, Deutsch, traditionelles Chinesisch und Französisch.
+
+{{% uni-v4 %}}
+### Was macht eine Schaltfläche? {#help-overlay}
+
+Tippe auf der Startseite, in Aufgabensets und im Stundenplan oben rechts auf „?“; in einer Notiz wählst du „Erklärung der Schaltflächen“ im Menü „Mehr“ (…). Schaltflächen und Gesten werden dann über dem Bildschirm erklärt; tippe irgendwo, um zu schließen. Nach einer Neuinstallation erscheint die Erklärung beim ersten Öffnen jedes Bildschirms einmal automatisch. In einem schmalen Fenster kann sie nicht angezeigt werden; vergrößere das Fenster zuerst.
+
+Neuinstallationen beginnen außerdem mit dem Beispielfach „Erste Schritte“ und der Notiz „So benutzt du Uni:Note“. Du kannst darin schreiben und das Fach löschen, wenn du es nicht mehr brauchst, indem du seine Karte gedrückt hältst.
+{{% /uni-v4 %}}
+
+[Erklärung der Schaltflächen]({{< relref "/htu/uni-note/" >}}#help-overlay) →
 
 ## Notizen und Anhänge
 
@@ -75,7 +85,9 @@ Bei einer Neuinstallation von 4.0.0 ist „Transkriptionsgenauigkeit bevorzugen�
 
 ### Wo finde ich Haftmarker und KI-Werkzeuge? {#help-5}
 
-Wähle den Haftnotiz-Marker in der Palette; in der Lernhilfe muss dafür nichts aktiviert werden. Jeder Marker wird einzeln umgeschaltet; die alte Gesamtseiten-Maske wird nicht mehr verwendet. Wechselst du in den Werkzeugdetails zu Haftnotiz, kannst du beschreibbare Haftnotizen aufkleben. Der Assistent für Einkreisen & Lösen ist eine Taste in der Navigationsleiste der Notiz; du blendest sie unter Einstellungen → Anzeige → Notizansicht ein oder aus.
+Wähle den Haftnotiz-Marker in der Palette; in der Lernhilfe muss dafür nichts aktiviert werden. Jeder Marker wird einzeln umgeschaltet; die alte Gesamtseiten-Maske wird nicht mehr verwendet. Wechselst du in den Werkzeugdetails zu Haftnotiz, kannst du beschreibbare Haftnotizen aufkleben. Der Assistent für Einkreisen & Lösen ist eine Taste in der Navigationsleiste der Notiz; du blendest sie unter Einstellungen → Notiz-Einstellungen → Notizansicht ein oder aus.
+
+{{% uni-pre-v4 %}}Die Einstellungen für „Navigationsleiste“ und „Werkzeugpalette“ befinden sich unter Einstellungen → Anzeige → Notizansicht.{{% /uni-pre-v4 %}}
 
 KI-Antworten, Aufgabensets und Zusammenfassungen nutzen KI-Guthaben aus den Einstellungen und der Tarifansicht. Manuelles Erstellen und Bearbeiten von Aufgabensets verbraucht kein Guthaben. Lange Texte, offene oder diagrammlastige Aufgaben werden möglicherweise nicht unterstützt. Prüfe Ergebnisse anhand deiner Unterlagen.
 
@@ -124,7 +136,7 @@ Prüfe Menge und Kaufbedingungen vor dem Kauf zusätzlichen KI-Guthabens. KI-Ant
 
 ### Warum sieht mein Bildschirm anders aus? {#help-7}
 
-Sprache, Linkshänderoptionen, Fachbezeichnung sowie angepasste Notizleiste und Palette verändern die Anzeige. Die Anleitung beschreibt die aktuellen Abläufe.
+Sprache, Linkshänderoptionen, „Bezeichnung der Regaleinträge“ sowie angepasste Notizleiste und Palette verändern die Anzeige. Die Anleitung beschreibt die aktuellen Abläufe.
 
 Aktualisierungen findest du unter Mitteilungen im Supportbereich der Einstellungen. Mehrfenstersteuerung hängt von iPadOS ab.
 

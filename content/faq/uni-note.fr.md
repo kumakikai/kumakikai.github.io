@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-10-06"
+version_context_date: "2026-10-07"
 title: "FAQ (Uni:Note)"
 description: "Questions fréquentes sur Uni:Note."
-lastmod: 2026-10-06
+lastmod: 2026-10-07
 ---
 
 ## Introduction
@@ -16,6 +16,16 @@ Uni:Note permet de rassembler notes manuscrites et PDF sur iPad, puis de les rev
 Nécessite un iPad sous iPadOS 17.0 ou version ultérieure.
 
 Écrivez avec l’Apple Pencil ou activez Dessiner au doigt pour écrire d’un doigt. Faites alors défiler avec deux doigts. Lorsque l’option est désactivée, un doigt suffit, sauf si Faire défiler avec deux doigts est activé dans Réglages → Réglages du note. Aucun compte propre à l’app n’est nécessaire. Japonais, anglais, coréen, allemand, chinois traditionnel et français sont disponibles.
+
+{{% uni-v4 %}}
+### À quoi sert un bouton ? {#help-overlay}
+
+Sur l’accueil, les lots d’exercices et l’emploi du temps, touchez « ? » en haut à droite ; dans une note, choisissez « Explication des boutons » dans le menu « Plus » (…). Les boutons et les gestes sont expliqués par-dessus l’écran ; touchez n’importe où pour fermer. Après une nouvelle installation, l’explication s’affiche automatiquement une fois à la première ouverture de chaque écran. Elle ne peut pas s’afficher dans une fenêtre étroite : élargissez d’abord la fenêtre.
+
+Une nouvelle installation commence aussi avec la matière d’exemple « Pour commencer », qui contient la note « Comment utiliser Uni:Note ». Vous pouvez y écrire, puis la supprimer en maintenant sa carte lorsque vous n’en avez plus besoin.
+{{% /uni-v4 %}}
+
+[Explication des boutons]({{< relref "/htu/uni-note/" >}}#help-overlay) →
 
 ## Notes et pièces jointes
 
@@ -75,7 +85,9 @@ Lors d’une nouvelle installation de 4.0.0, « Privilégier la précision de la
 
 ### Où trouver les repères et les outils IA ? {#help-5}
 
-Sélectionnez le Marqueur pense-bête dans la palette ; aucun réglage de l’aide à l’étude n’est nécessaire. Chaque marqueur se bascule séparément ; l’ancien masque de page entière n’est plus utilisé. Passez sur Note adhésive dans les détails de l’outil pour coller des notes adhésives sur lesquelles écrire. L’Assistant de résolution par encerclement est un bouton de la barre de navigation de la note ; affichez-le ou masquez-le sous Réglages → Affichage → Écran de note.
+Sélectionnez le Marqueur pense-bête dans la palette ; aucun réglage de l’aide à l’étude n’est nécessaire. Chaque marqueur se bascule séparément ; l’ancien masque de page entière n’est plus utilisé. Passez sur Note adhésive dans les détails de l’outil pour coller des notes adhésives sur lesquelles écrire. L’Assistant de résolution par encerclement est un bouton de la barre de navigation de la note ; affichez-le ou masquez-le sous Réglages → Réglages du note → Écran de note.
+
+{{% uni-pre-v4 %}}Les réglages « Barre de navigation » et « Palette » se trouvent sous Réglages → Affichage → Écran de note.{{% /uni-pre-v4 %}}
 
 Réponses IA, génération de lots d’exercices et résumés utilisent le solde IA visible dans les réglages et l’écran de formule. Créer ou modifier des lots d’exercices manuellement ne consomme pas ce solde. Certains textes longs, questions ouvertes ou schémas ne sont pas pris en charge. Vérifiez les résultats avec vos cours.
 
@@ -124,7 +136,7 @@ Vérifiez la quantité et les conditions avant d’acheter du solde IA suppléme
 
 ### Pourquoi mon écran est-il différent ? {#help-7}
 
-La langue, les options gaucher, le nom des matières ainsi que les boutons et la palette personnalisés changent l’affichage. Le mode d’emploi décrit les opérations actuelles.
+La langue, les options gaucher, le réglage « Appellation des éléments de la bibliothèque » ainsi que les boutons et la palette personnalisés changent l’affichage. Le mode d’emploi décrit les opérations actuelles.
 
 Consultez les informations de mise à jour dans les annonces de la section support des réglages. Les fenêtres dépendent d’iPadOS.
 

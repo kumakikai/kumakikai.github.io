@@ -1,8 +1,8 @@
 ---
-version_context_date: "2026-10-06"
+version_context_date: "2026-10-07"
 title: "How to Use (Uni:Note)"
 description: "How to Use for Uni:Note."
-lastmod: 2026-10-06
+lastmod: 2026-10-07
 ---
 
 ## Introduction
@@ -27,6 +27,12 @@ Requires an iPad with iPadOS 17.0 or later. Recording transcription requires a s
 3. Open the subject and name its first note. Leave the name blank to use today’s date.
 
 The same + menu creates folders. Drag subjects into them; deleting a folder returns its subjects to Home. Long-press a subject to edit its name and paper settings.
+
+{{% uni-v4 %}}
+### Button Guide {#help-overlay}
+
+Tap **?** at the top right of Home, **Problem Sets** or **Timetable**, or choose **Button Guide** in a note’s **More** (…) menu, to show what the buttons and gestures do over the screen; tap anywhere to close it. On a new installation, it appears automatically once the first time you open each screen; in a narrow window, widen the window first. New installations also include the sample subject **Getting Started** with the note **How to use Uni:Note**, which you can delete by long-pressing its card. In **Problem Sets**, **?** first shows the button guide, and **View the Detailed Guide** opens the four-page guide.
+{{% /uni-v4 %}}
 
 {{< guide-anchor "3-write-with-apple-pencil" "4-zoom-with-two-fingers" "5-switch-tools" "9-use-ruler" >}}
 
@@ -110,7 +116,9 @@ Select **Sticky Marker** in the palette, then tap it again to open its details a
 
 To write on a **Sticky Note**, switch the details to **Sticky Note**, choose one of nine shape and size presets and one of four colors, then tap the page to place it and write on it. Drag the glue strip at its top to move it; long-press the strip and tap the trash button to delete it. Tapping the note makes it semi-transparent so you can see the page below. Adding, moving and deleting can be undone; size and angle cannot be changed after placement.
 
-Tap **Circle to Solve** on the navigation bar, enclose a problem with Apple Pencil, check the area and request an answer. Show or hide the button in **Settings → Display Settings → Note Screen**.
+Tap **Circle to Solve** on the navigation bar, enclose a problem with Apple Pencil, check the area and request an answer. Show or hide the button in **Settings → Note Settings → Note Screen**.
+
+{{% uni-pre-v4 %}}**Navigation Bar** and **Palette** settings are under **Settings → Display Settings → Note Screen**.{{% /uni-pre-v4 %}}
 
 To send the result to another app, tap Copy on the left or Share on the right at the upper-right corner of the answer sheet.
 
@@ -118,13 +126,19 @@ To send the result to another app, tap Copy on the left or Share on the right at
 
 For problem sets, choose **More → Create Problem Set**, select pages, keep or discard candidates and save the set. Open **Problem Sets** on Home to review it. AI answers and generation use AI Balance; check results against your learning materials.
 
+{{% uni-v4 %}}
+**Review Questions** now looks like a study card: a progress bar with “3 / 10” at the top, the answer shown from the start and the source page at the bottom. Below the **Reject** and **Add** buttons, the hint **Swipe left: Reject / Swipe right: Add** is always shown.
+{{% /uni-v4 %}}
+
 {{% uni-pre-v4 %}}Tap the card to show the answer, and move with the previous and next buttons.{{% /uni-pre-v4 %}}
 
 {{% uni-v4 %}}
-In **Problem Sets**, the **+** menu offers **Create One at a Time** (handwriting or keyboard), **Create from Paste** and **Create from File** (TSV/CSV, up to 300 questions; Premium or Premium Plus). While studying, swipe right for **Learned** and left for **Not Yet**. After a round, redo only the **Not Yet** questions, or resume later. You can open the source note beside the question. Problem sets are grouped by subject, and the **?** button explains how to use them.
+In **Problem Sets**, the **+** menu offers **Create One at a Time** (handwriting or keyboard), **Create from Paste** and **Create from File** (TSV/CSV, up to 300 questions; Premium or Premium Plus). While studying, swipe right for **Learned** and left for **Not Yet**. After a round, redo only the **Not Yet** questions, or resume later. You can open the source note beside the question. Problem sets are grouped by subject. **?** first shows the button guide; tap **View the Detailed Guide** to open the four-page guide.
 {{% /uni-v4 %}}
 
-You can also create and edit problem sets manually without using AI Balance. For focus sessions, open Pomodoro from the note toolbar and choose the focus and break durations when you start it; **Sets Before Auto Stop** and **Character** are in Study Support settings. Select **Laser Pointer** to trace a temporary path with Apple Pencil; the path is not saved as handwriting. Customize note toolbar buttons and palette tools under **Settings → Display Settings → Note Screen**.
+You can also create and edit problem sets manually without using AI Balance. For focus sessions, open Pomodoro from the note toolbar and choose the focus and break durations when you start it; **Sets Before Auto Stop** and **Character** are in Study Support settings. Select **Laser Pointer** to trace a temporary path with Apple Pencil; the path is not saved as handwriting. Customize note toolbar buttons and palette tools under **Settings → Note Settings → Note Screen**.
+
+{{% uni-pre-v4 %}}**Navigation Bar** and **Palette** settings are under **Settings → Display Settings → Note Screen**.{{% /uni-pre-v4 %}}
 
 {{< guide-anchor "14-protect-notes-and-use-trash" >}}
 
@@ -155,7 +169,7 @@ Creating problem sets in bulk with **Create from Paste** or **Create from File**
 
 {{< guide-image src="images/guides/uni-note/common/backup-file-actions.png" alt="Export Backup and Restore from File in Uni:Note Backup settings" mode="crop" caption="Japanese UI: the upper row exports a backup; the lower row restores a saved file." >}}
 
-Easy Backup update and restore require Premium or Premium Plus. They save and load an iCloud file, not automatically synchronized notes. Zip export and Restore from File also work in Free. Restoring starts immediately without confirmation and replaces the current data, so export your current data first. Reopen the app after restoration as instructed. Problem sets are included in backups; to load one in Uni:Note Pocket, update Pocket to the latest version. Language, left-handed controls and the subject label can also be changed in Settings.
+Easy Backup update and restore require Premium or Premium Plus. They save and load an iCloud file, not automatically synchronized notes. Zip export and Restore from File also work in Free. Restoring starts immediately without confirmation and replaces the current data, so export your current data first. Reopen the app after restoration as instructed. Problem sets are included in backups; to load one in Uni:Note Pocket, update Pocket to the latest version. Language, left-handed controls and **Name for Bookshelf Items** can also be changed in Settings.
 
 {{< guide-anchor "use-split-view-slide-over-and-two-panes" >}}
 
