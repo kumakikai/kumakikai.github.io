@@ -7,3 +7,13 @@
 /assets/css/generated-theme.css
 /artifacts/
 __pycache__/
+
+# macOS
+.DS_Store
+
+# Local capture inputs and raw/superseded capture runs for the Uni:Note guide (not site content).
+/docs/uni-note-guide-phase2/capture-execution/raw/
+/docs/uni-note-guide-phase2/capture-execution/superseded-*/
+/docs/uni-note-guide-phase2/capture-execution/dataset/canonical/
+/docs/uni-note-guide-phase2/capture-execution/dataset/*.pdf
+/docs/uni-note-guide-phase2/capture-execution/ui-test-actions-*.jsonl
