@@ -144,7 +144,7 @@ Heroはアイコン・正式名称・端末・キャッチコピー・短文・�
 | `detailURL` | 旧Guide／紹介記事等の互換情報。**新ProductページのURLフィールドではない**。既存値を一括置換しない |
 | `icon` | 実在するWeb配信用アイコンURL |
 | `screenshots[]` | small / large / width / height / largeWidth / raw。実寸と一致。rawは実画面、falseはStore訴求素材。未入手なら不足を報告し、下記のstories参照・表示契約も確認 |
-| `screenshotsStatus` | 任意review。提出中素材を公開版と区別。アプリ本体statusとは独立 |
+| `screenshotsStatus` | 任意。`review`＝審査提出中素材（`data/ux/<lang>.json.reviewScreenshots`）、`upcoming`＝Uni:Noteの公開予定版素材（`data/uni_note_release.json` のversion／date／labels.upcomingを使い、modeが `upcoming` の間だけ表示、`released` で自動的に非表示）。表示は共通partial `screenshot-status-caption.html`。アプリ本体statusとは独立 |
 | `operatingSystems` | schema用OS名配列（例iPadOS）。最低バージョンは別minimumOS |
 | `availability` | 配信地域。表示言語でアプリを消さない |
 | `support` | guideURL / faqURL / privacyURL / 任意termsURL。既存本文URL。問い合わせは共通メールを使い、アプリ内フォームのcontactURLを追加しない |
@@ -382,7 +382,7 @@ Search Consoleは2026-09-07時点の回答では未登録。今後は接続状�
 - [ ] 対象バージョン・地域の一般公開を確認。公開連絡とStore情報を照合し、手動公開待ち／TestFlightと区別。
 - [ ] アプリ本体はdata/apps.json.status、Watchはproduct_detailsのwatch.statusを更新。未知statusは表示・CTA・schema・検証を同時対応。
 - [ ] Store URL・availability・国別HTTP証拠・checkedAtを整合。更新なら既存Store IDを保つ。
-- [ ] 公開機能の近日／審査中表示を全言語から外す。screenshotsStatusも公開素材一致後だけ解除。
+- [ ] 公開機能の近日／審査中表示を全言語から外す。screenshotsStatusも公開素材一致後だけ解除（Uni:Note 4.0.0は `data/uni_note_release.json.mode` を `released` にすると `upcoming` の注記が消える。公開後に `screenshotsStatus` 自体も削除する）。
 - [ ] platform・minimumOS・Home／Product・画像・Guide／FAQ・必要な法務を確認。
 - [ ] Watchは端末表示・OS行・feature・Guide notice・schema watchOSを一括確認。ペアリング条件は残す。
 - [ ] SEO、バッジ、国旗、sitemap、更新日、検証のreview前提を意図した範囲で更新。

@@ -2,15 +2,15 @@
   "minimumOS": "iPadOS 17.0",
   "media": {
     "pdf": {
-      "small": "/images/apps/uni-note/detail-pdf-560.webp",
-      "large": "/images/apps/uni-note/detail-pdf-1120.webp",
+      "small": "/images/apps/uni-note/v400-pdf-560.webp",
+      "large": "/images/apps/uni-note/v400-pdf-1120.webp",
       "width": 560,
       "height": 747,
       "largeWidth": 1120
     },
-    "review": {
-      "small": "/images/apps/uni-note/detail-review-560.webp",
-      "large": "/images/apps/uni-note/detail-review-1120.webp",
+    "study": {
+      "small": "/images/apps/uni-note/v400-study-560.webp",
+      "large": "/images/apps/uni-note/v400-study-1120.webp",
       "width": 560,
       "height": 747,
       "largeWidth": 1120
@@ -52,20 +52,20 @@
       "stories": [
         {
           "media": "pdf",
-          "alt": "Uni:Noteの講義PDFにApple Pencilでメモを書き込んだApp Storeスクリーンショット",
+          "alt": "Uni:Noteで横向きのPDF講義資料にApple Pencilで書き込んだApp Storeスクリーンショット",
           "title": "講義資料の余白も、ノートになる。",
           "description": "PDFを読んでから別の場所にメモを移す手間を減らします。配布資料を取り込み、図や文章のすぐそばに、授業で聞いたことや自分の気づきを書き残せます。"
         },
         {
           "image": 1,
-          "title": "書いた内容を、解く練習へ。",
-          "description": "ノートから復習用の問題集を作成できます。問題を解き、答えや解説を確認する流れで、書き留めた内容を自分で確かめる学習につなげます。"
+          "title": "問題集を、自分で作る。",
+          "description": "ノートアプリの中で復習用の問題集を作成できます。手書きでもキーボードでも問題を登録でき、ファイルからまとめて作成することもできます。書き留めた内容を、解いて確かめる学習につなげます。"
         },
         {
-          "media": "review",
-          "alt": "Uni:Noteで付箋マーカーにより答えを隠し、問題集でも復習するApp Storeスクリーンショット",
-          "title": "隠して、思い出して、確かめる。",
-          "description": "付箋マーカーを有効にすると、ノートの覚えたい部分を隠せます。タップで見せたり隠したりしながら、用語や答えを覚えているかをその場で確認できます。"
+          "media": "study",
+          "alt": "Uni:Noteの問題集で「覚えた」「覚えていない」をスワイプで振り分けながら学習するApp Storeスクリーンショット",
+          "title": "「覚えた・覚えていない」で、繰り返す。",
+          "description": "問題を1枚ずつ表示し、右にスワイプで「覚えた」、左にスワイプで「覚えていない」。1周終えたら、覚えていない問題だけをもう一度。覚えるまで繰り返せます。"
         }
       ],
       "audienceTitle": "こんな方に",
@@ -125,20 +125,20 @@
       "stories": [
         {
           "media": "pdf",
-          "alt": "App Store screenshot of Apple Pencil annotations on a lecture PDF in Uni:Note",
+          "alt": "App Store screenshot of Apple Pencil notes on a landscape lecture PDF in Uni:Note",
           "title": "Make the handout part of your notes.",
           "description": "Import a PDF and write next to the text or diagram you are studying. Keep what you heard in class and your own observations beside the original material."
         },
         {
           "image": 1,
-          "title": "From writing it down to working it out.",
-          "description": "Create a practice set from your notes. Work through the questions and check the answers and explanations to revisit the material actively."
+          "title": "Make your own problem sets.",
+          "description": "Build practice sets for review right inside the notebook app. Add questions by hand or by keyboard, or create many at once from a file, then work through what you wrote down."
         },
         {
-          "media": "review",
-          "alt": "App Store screenshot showing hidden answers with sticky markers and practice sets in Uni:Note",
-          "title": "Cover it. Recall it. Check it.",
-          "description": "Enable sticky markers to hide important parts of a note. Tap to reveal or cover them again as you check whether you remember a term or answer."
+          "media": "study",
+          "alt": "App Store screenshot of a Uni:Note problem set sorted by swiping into Learned and Not Yet",
+          "title": "Learned, or not yet? Repeat until it sticks.",
+          "description": "Questions appear one card at a time. Swipe right for Learned, left for Not Yet. After each round, retry only what remains, as many times as you need."
         }
       ],
       "audienceTitle": "Who it is for",
@@ -198,20 +198,20 @@
       "stories": [
         {
           "media": "pdf",
-          "alt": "Uni:Note의 강의 PDF에 Apple Pencil로 필기한 App Store 스크린샷",
+          "alt": "Uni:Note에서 가로 방향 강의 PDF에 Apple Pencil로 필기한 App Store 스크린샷",
           "title": "강의 자료의 여백도 노트가 됩니다.",
           "description": "PDF를 가져와 글과 그림 바로 옆에 메모하세요. 수업에서 들은 내용과 자신의 생각을 원본 자료와 함께 남길 수 있습니다."
         },
         {
           "image": 1,
-          "title": "기록한 내용을 문제 풀이로.",
-          "description": "노트에서 복습용 문제집을 만듭니다. 문제를 풀고 답과 해설을 확인하면서, 적어 둔 내용을 스스로 점검하는 학습으로 이어가세요."
+          "title": "문제집을 직접 만듭니다.",
+          "description": "노트 앱 안에서 복습용 문제집을 만들 수 있습니다. 손글씨나 키보드로 문제를 등록하고, 파일에서 한꺼번에 만들 수도 있습니다. 적어 둔 내용을 풀어 보며 확인하는 학습으로 이어가세요."
         },
         {
-          "media": "review",
-          "alt": "Uni:Note에서 스티키 마커로 답을 가리고 문제집으로 복습하는 App Store 스크린샷",
-          "title": "가리고, 떠올리고, 확인하세요.",
-          "description": "스티키 마커를 켜면 노트에서 외우고 싶은 부분을 가릴 수 있습니다. 탭해서 보이거나 숨기며 용어와 답을 기억하는지 확인하세요."
+          "media": "study",
+          "alt": "Uni:Note 문제집에서 스와이프로 '외웠어요'와 '못 외웠어요'를 나누며 학습하는 App Store 스크린샷",
+          "title": "외웠는지 아닌지로, 익힐 때까지 반복.",
+          "description": "문제가 한 장씩 표시됩니다. 오른쪽으로 밀면 외웠어요, 왼쪽으로 밀면 못 외웠어요. 한 바퀴를 마치면 남은 문제만 다시 풀 수 있습니다."
         }
       ],
       "audienceTitle": "이런 분께",
@@ -271,20 +271,20 @@
       "stories": [
         {
           "media": "pdf",
-          "alt": "App-Store-Screenshot mit Apple-Pencil-Anmerkungen auf einer Vorlesungs-PDF in Uni:Note",
+          "alt": "App-Store-Screenshot mit Apple-Pencil-Notizen auf einer Vorlesungs-PDF im Querformat in Uni:Note",
           "title": "Die Unterlagen werden Teil Ihrer Notizen.",
           "description": "Importieren Sie eine PDF und schreiben Sie direkt neben den Text oder die Abbildung. So stehen Hinweise aus der Vorlesung und eigene Gedanken bei der passenden Stelle."
         },
         {
           "image": 1,
-          "title": "Vom Mitschreiben zum Üben.",
-          "description": "Erstellen Sie aus Ihren Notizen einen Übungssatz. Bearbeiten Sie die Fragen und prüfen Sie Antworten und Erklärungen, um das Gelernte aktiv zu wiederholen."
+          "title": "Aufgabensets selbst erstellen.",
+          "description": "Erstellen Sie Aufgabensets zum Wiederholen direkt in der Notiz-App. Fügen Sie Fragen per Hand oder Tastatur hinzu oder legen Sie viele auf einmal aus einer Datei an, und prüfen Sie dann, was Sie mitgeschrieben haben."
         },
         {
-          "media": "review",
-          "alt": "App-Store-Screenshot mit verdeckten Antworten und Übungssätzen in Uni:Note",
-          "title": "Verdecken, erinnern, nachsehen.",
-          "description": "Aktivieren Sie Haftmarkierungen, um wichtige Stellen zu verdecken. Per Tippen blenden Sie sie ein oder aus und prüfen, ob Sie einen Begriff oder eine Antwort noch wissen."
+          "media": "study",
+          "alt": "App-Store-Screenshot eines Aufgabensets in Uni:Note, das per Wischen in Gelernt und Noch nicht sortiert wird",
+          "title": "Gelernt oder noch nicht? Wiederholen, bis es sitzt.",
+          "description": "Die Fragen erscheinen einzeln als Karten. Nach rechts wischen heißt Gelernt, nach links Noch nicht gelernt. Nach jeder Runde wiederholen Sie nur den Rest, so oft Sie möchten."
         }
       ],
       "audienceTitle": "Für wen ist Uni:Note?",
@@ -344,20 +344,20 @@
       "stories": [
         {
           "media": "pdf",
-          "alt": "Capture App Store montrant des annotations Apple Pencil sur un PDF de cours dans Uni:Note",
+          "alt": "Capture App Store montrant des notes Apple Pencil sur un PDF de cours en mode paysage dans Uni:Note",
           "title": "Le support de cours devient votre cahier.",
           "description": "Importez un PDF et annotez-le à côté du texte ou du schéma étudié. Gardez les explications du cours et vos remarques près du document original."
         },
         {
           "image": 1,
-          "title": "Passer de la prise de notes à la pratique.",
-          "description": "Créez une série d’exercices à partir de vos notes. Répondez aux questions, puis vérifiez les réponses et explications pour revoir activement le contenu."
+          "title": "Créez vos propres lots d’exercices.",
+          "description": "Préparez des lots d’exercices de révision directement dans l’application de notes. Ajoutez des questions à la main ou au clavier, ou créez-en plusieurs à la fois depuis un fichier, puis vérifiez ce que vous avez noté."
         },
         {
-          "media": "review",
-          "alt": "Capture App Store montrant des réponses masquées et des exercices dans Uni:Note",
-          "title": "Masquer, se rappeler, vérifier.",
-          "description": "Activez les marqueurs adhésifs pour cacher les passages à mémoriser. Touchez-les pour les révéler ou les masquer et vérifier si vous connaissez un terme ou une réponse."
+          "media": "study",
+          "alt": "Capture App Store d’un lot d’exercices Uni:Note trié par balayage entre Mémorisé et Pas encore",
+          "title": "Mémorisé ou pas encore ? Révisez jusqu’à maîtriser.",
+          "description": "Les questions s’affichent une carte à la fois. Balayez vers la droite pour Mémorisé, vers la gauche pour Pas encore. Après chaque tour, reprenez seulement ce qui reste, autant de fois que nécessaire."
         }
       ],
       "audienceTitle": "Pour qui ?",
@@ -417,20 +417,20 @@
       "stories": [
         {
           "media": "pdf",
-          "alt": "在 Uni:Note 講義 PDF 上以 Apple Pencil 手寫註記的 App Store 截圖",
+          "alt": "在 Uni:Note 橫向講義 PDF 上以 Apple Pencil 手寫註記的 App Store 截圖",
           "title": "講義的空白處，也能成為筆記。",
           "description": "匯入 PDF，就能在文字與圖形旁直接書寫。把課堂上聽到的重點和自己的想法，留在原始資料對應的位置。"
         },
         {
           "image": 1,
-          "title": "把寫下的內容，變成練習。",
-          "description": "從筆記建立複習題庫。作答後確認答案與解說，將記錄下來的內容轉為主動檢驗理解的學習。"
+          "title": "題庫，自己建立。",
+          "description": "在筆記 App 中就能建立複習用的題庫。可用手寫或鍵盤輸入題目，也能從檔案一次批次建立，再透過作答檢驗記錄下來的內容。"
         },
         {
-          "media": "review",
-          "alt": "Uni:Note 使用便條標記遮住答案，並以題庫複習的 App Store 截圖",
-          "title": "遮住、回想，再確認。",
-          "description": "啟用便條標記後，就能遮住筆記中想記住的部分。點一下顯示或隱藏內容，確認自己是否記得術語與答案。"
+          "media": "study",
+          "alt": "在 Uni:Note 題庫中以滑動分成「記住了」與「尚未記住」來學習的 App Store 截圖",
+          "title": "「記住了／尚未記住」，反覆練到會。",
+          "description": "題目一次顯示一張。右滑表示記住了，左滑表示尚未記住。練完一輪後，只重練剩下的題目，直到全部記住為止。"
         }
       ],
       "audienceTitle": "適合這樣的你",

@@ -1,0 +1,13 @@
+{{- /* Caption for a Product's screenshot status. "review": submitted for App Store review (data/ux reviewScreenshots).
+     "upcoming": pre-release images of the Uni:Note version in data/uni_note_release.json; shown only while mode is "upcoming"
+     and hidden automatically once mode becomes "released". */ -}}
+{{- $app := .app -}}
+{{- if eq $app.screenshotsStatus "review" -}}
+{{ (index site.Data.ux site.Language.Lang).reviewScreenshots }}
+{{- else if eq $app.screenshotsStatus "upcoming" -}}
+{{- $r := site.Data.uni_note_release -}}
+{{- if eq $r.mode "upcoming" -}}
+{{- $l := index $r.labels site.Language.Lang | default (index $r.labels "ja") -}}
+{{ replace (replace $l.upcoming "{v}" $r.version) "{d}" $l.date }}
+{{- end -}}
+{{- end -}}

@@ -2,82 +2,66 @@
   {
     "app": "uni-note",
     "key": "pdf",
-    "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/final_v7/SS06_pdf_write.png",
-    "sourceSHA256": "424a98df330865e2f107c510291863fa608b835287fdd41902388c880f4588fb",
+    "source": "/Volumes/IODATA_External/Dev/Projects/uni_note/artifacts/app_store_refresh_2026-10-17/final_400/SS02_pdf_write.png",
+    "sourceSHA256": "511af7b20d6ed5ab0400ede557c0bcef887fb7fe4b135900460ebed31de7a29d",
     "sourceDimensions": {
       "format": "png",
       "mediaType": "image/png",
       "width": 2064,
       "height": 2752,
       "space": "srgb",
-      "channels": 4,
+      "channels": 3,
       "depth": "uchar",
-      "density": 72,
-      "isProgressive": false,
-      "isPalette": false,
-      "bitsPerSample": 8,
-      "hasProfile": false,
-      "hasAlpha": true,
-      "autoOrient": {
-        "width": 2064,
-        "height": 2752
-      }
+      "hasAlpha": false
     },
+    "note": "Uni:Note 4.0.0 (scheduled 2026-10-30) App Store image, Japanese 10-page frozen set; resized with Pillow LANCZOS, WebP q84. Previous 3.x pdf/review media files are kept on disk but no longer referenced.",
     "outputs": [
       {
-        "path": "/images/apps/uni-note/detail-pdf-560.webp",
+        "path": "/images/apps/uni-note/v400-pdf-560.webp",
         "width": 560,
         "height": 747,
-        "bytes": 27444,
-        "sha256": "0da68a1102e7fb511fbb7e693e0c7961d1e913d157e91626311e4ff21536bbf6"
+        "bytes": 36774,
+        "sha256": "ce33d7fead41a3713b7418bb774dae186b16e64876c37c15203e250290b61fbd"
       },
       {
-        "path": "/images/apps/uni-note/detail-pdf-1120.webp",
+        "path": "/images/apps/uni-note/v400-pdf-1120.webp",
         "width": 1120,
         "height": 1493,
-        "bytes": 72006,
-        "sha256": "56b749a379ab2bda38111eebe65df33bc1046fa41d93aaa3ff152287b4a28717"
+        "bytes": 84070,
+        "sha256": "99e583b5ee57a06fb909dd8606939455dc19ecd60e11791d00da128a811240dc"
       }
     ]
   },
   {
     "app": "uni-note",
-    "key": "review",
-    "source": "/Users/yuya/Projects/uni_note/artifacts/app_store_jp_refresh_2026-09-02/final_v7/SS04_review.png",
-    "sourceSHA256": "3205e311666ea13f9bde5750ca4ebfaae00a705777f6ff3ed486ea4a242698fa",
+    "key": "study",
+    "source": "/Volumes/IODATA_External/Dev/Projects/uni_note/artifacts/app_store_refresh_2026-10-17/final_400/SS06_study_swipe.png",
+    "sourceSHA256": "035621ff29fd6b41d32a26a41c7597fe72d70e83121181259d5534228db2ffdc",
     "sourceDimensions": {
       "format": "png",
       "mediaType": "image/png",
       "width": 2064,
       "height": 2752,
       "space": "srgb",
-      "channels": 4,
+      "channels": 3,
       "depth": "uchar",
-      "density": 72,
-      "isProgressive": false,
-      "isPalette": false,
-      "bitsPerSample": 8,
-      "hasProfile": false,
-      "hasAlpha": true,
-      "autoOrient": {
-        "width": 2064,
-        "height": 2752
-      }
+      "hasAlpha": false
     },
+    "note": "Uni:Note 4.0.0 (scheduled 2026-10-30) App Store image, Japanese 10-page frozen set; resized with Pillow LANCZOS, WebP q84. Previous 3.x pdf/review media files are kept on disk but no longer referenced.",
     "outputs": [
       {
-        "path": "/images/apps/uni-note/detail-review-560.webp",
+        "path": "/images/apps/uni-note/v400-study-560.webp",
         "width": 560,
         "height": 747,
-        "bytes": 31252,
-        "sha256": "1747b24165409755eacda62cc4b2e77191958a3dfe92d3d085a75f2700d614d8"
+        "bytes": 27044,
+        "sha256": "c7a83cc82c44d6fd99830c64c04acc7733003eecbf02c865219873e002c0da79"
       },
       {
-        "path": "/images/apps/uni-note/detail-review-1120.webp",
+        "path": "/images/apps/uni-note/v400-study-1120.webp",
         "width": 1120,
         "height": 1493,
-        "bytes": 85142,
-        "sha256": "d3d5253d1742d3efa70ae4a05a171f791d5ffb8a33c3c3757d8721eeb008f8c2"
+        "bytes": 62136,
+        "sha256": "a6e0c7a85005c336bcbddd9497cb1169c36e914950899a2a24aa87517e63e65d"
       }
     ]
   },
