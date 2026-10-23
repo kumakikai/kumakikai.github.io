@@ -1,0 +1,18 @@
+/* About: Origin（名前の由来）。site.css は Uni:Note ガイドのレビュー台帳が固定しているため別ファイルで管理する。 */
+.company-origin .origin-heading { max-width: 720px; }
+.company-origin .origin-note { font-size: .85rem; margin-top: 8px; }
+.origin-comic { list-style: none; margin: 36px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.origin-panel { position: relative; border: 3px solid var(--ink); background: #fff; overflow: hidden; }
+.origin-panel img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; }
+.company-origin .origin-bubble { position: absolute; left: 12px; top: 12px; margin: 0; background: var(--ink); color: #fff; font-weight: 800; font-size: .92rem; line-height: 1.45; padding: 7px 12px; box-shadow: 0 0 0 3px #fff; transform: rotate(-2deg); }
+.company-origin .origin-bubble-r { left: auto; right: 12px; top: 12px; transform: rotate(2deg); }
+.company-origin .origin-bubble-r2 { left: auto; right: 12px; top: 68px; transform: rotate(2deg); }
+.origin-tag { position: absolute; left: 12px; top: 48px; background: #fff; color: var(--ink); font-weight: 800; font-size: .85rem; padding: 3px 9px; box-shadow: 0 0 0 3px var(--ink); }
+.company-origin .origin-cap { margin: 0; padding: 8px 12px 9px; border-top: 3px solid var(--ink); font-size: .78rem; line-height: 1.6; color: var(--ink); font-weight: 700; background: #fff; }
+.origin-story { max-width: 720px; margin-top: 32px; }
+.origin-story p + p { margin-top: 18px; }
+.origin-ai { font-weight: 900; color: var(--ink); letter-spacing: .04em; }
+@media (max-width: 900px) {
+  .origin-comic { grid-template-columns: 1fr; max-width: 420px; }
+  .company-origin .origin-bubble { font-size: 1rem; }
+}

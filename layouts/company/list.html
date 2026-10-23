@@ -8,6 +8,17 @@
     <div class="founder-identity"><p class="eyebrow">Founder</p><h2 id="founder-title">{{ $copy.founderHeading }}</h2><img class="founder-portrait" src="{{ $portraitSmall.RelPermalink }}" srcset="{{ $portraitSmall.RelPermalink }} 192w, {{ $portraitRetina.RelPermalink }} 384w" sizes="160px" width="192" height="192" alt="{{ $copy.founderPortraitAlt }}" loading="lazy" decoding="async"><h3 lang="en">{{ $copy.founderName }}</h3><p class="founder-role" lang="en">{{ $copy.founderRole }}</p></div>
     <div class="founder-bio">{{ range $copy.founderBio }}<p>{{ . }}</p>{{ end }}<a class="text-link founder-blog" href="{{ "/news/#blog" | relLangURL }}">{{ $copy.blogCTA }} <span aria-hidden="true">→</span></a><dl class="founder-experience"><div><dt>{{ $copy.experienceLabel }}</dt><dd>{{ delimit $copy.experience " / " }}</dd></div><div><dt>{{ $copy.technologyLabel }}</dt><dd lang="en">C / C++ / C# / Java / Python / Dart / Swift</dd></div></dl></div>
   </section>
+  {{ with $copy.origin }}
+  <section id="origin" class="company-origin company-section" aria-labelledby="origin-title">
+    <div class="origin-heading"><p class="eyebrow">Origin</p><h2 id="origin-title">{{ .title }}</h2>{{ with .note }}<p class="origin-note">{{ . }}</p>{{ end }}</div>
+    <ol class="origin-comic" aria-label="{{ .comicLabel }}">
+      {{ range $i, $p := .panels }}{{ $img := resources.Get (printf "images/company/origin/origin-%d.png" (add $i 1)) }}{{ $w1 := $img.Resize "640x webp q85" }}{{ $w2 := $img.Resize "1280x webp q85" }}
+      <li class="origin-panel"><img src="{{ $w1.RelPermalink }}" srcset="{{ $w1.RelPermalink }} 640w, {{ $w2.RelPermalink }} 1280w" sizes="(max-width: 900px) 92vw, 380px" width="640" height="640" alt="{{ $p.alt }}" loading="lazy" decoding="async">{{ range $p.bubbles }}<p class="origin-bubble {{ .class }}" aria-hidden="true">{{ .text | safeHTML }}</p>{{ end }}{{ with $p.tag }}<span class="origin-tag" aria-hidden="true">{{ . }}</span>{{ end }}<p class="origin-cap">{{ $p.caption | safeHTML }}</p></li>
+      {{ end }}
+    </ol>
+    <div class="origin-story">{{ range .story }}<p>{{ . | safeHTML }}</p>{{ end }}</div>
+  </section>
+  {{ end }}
   <section class="company-build company-section" aria-labelledby="build-title"><p class="eyebrow">What we build</p><h2 id="build-title">{{ $copy.buildTitle }}</h2>
     <ul class="company-areas">{{ range $copy.areas }}
       {{ $area := . }}{{ $candidates := where site.Data.apps "area" .area }}

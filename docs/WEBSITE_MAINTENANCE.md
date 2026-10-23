@@ -280,6 +280,16 @@ What we buildは **学習（learning）／コミュニケーション（communic
 - 同areaの新Product追加だけならAbout本文変更不要。自然に入らない場合だけ新分類を検討する。
 - 本文の固定アプリ数は禁止。代表ProductとProducts一覧の静的リンクを維持する。
 
+### Origin（名前の由来）
+
+Aboutの Founder と What we build の間に、ブランド名の由来を語る **フィクションの3コマ漫画＋短い物語** を置く（2026-10-23の明示依頼）。ラベルは英語UI体系に合わせ `Origin`。
+
+- 編集元は `data/company/<lang>.json.origin`。キーがある言語だけ表示する（`with`）。初期は日本語のみ。他言語へ機械的に適用せず、翻訳する場合は吹き出し・キャプション・alt・本文を揃えて追加する。
+- スタイルは `assets/css/company-origin.css`（`main.css` から import）。`site.css` はUni:Noteガイドのレビュー台帳が固定しているため、このセクションのために変更しない。
+- 画像は `assets/images/company/origin/origin-1..3.png`（1264px正方形、黒線のみ）。吹き出し・キャプションは画像に焼き込まず HTMLテキストで持つ。吹き出しは `aria-hidden`、内容は各コマの `alt` と本文で伝える。
+- 内容はフィクションであることを注記で明示する。実在の由来・事業説明・特定Productの紹介をこのセクションに足さない。通常Product更新で再生成しない。
+- 新URL・SEO metadata・schemaは変更しない。
+
 ### コピー・Typography
 
 **KUMAKIKAI全体の事業説明はHome Heroを主な説明箇所とする。** 「iPhone・iPad向けのアプリを企画・開発・運営しています。」はHome Hero（`data/corporate/<lang>.json.heroLead`）で維持し、各セクションで同じ説明を繰り返さない。単語だけを変えた「App Storeで公開・運営」「iPhone・iPadアプリを開発」等も同じ意味なら追加しない。各ページはそのページ固有の情報を伝える。
