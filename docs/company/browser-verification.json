@@ -1,14 +1,47 @@
 {
   "ok": true,
   "pending": false,
-  "cases": 44,
+  "cases": 50,
   "base": "http://127.0.0.1:1314",
-  "publishedCount": 7,
-  "categoryCounts": {
-    "press-release": 8,
-    "blog": 7,
-    "information": 0
+  "categoryCountsByLocale": {
+    "ja": {
+      "press-release": 8,
+      "blog": 9,
+      "information": 0,
+      "all-news": 17
+    },
+    "en": {
+      "press-release": 8,
+      "blog": 9,
+      "information": 0,
+      "all-news": 17
+    },
+    "ko": {
+      "press-release": 8,
+      "blog": 9,
+      "information": 0,
+      "all-news": 17
+    },
+    "de": {
+      "press-release": 8,
+      "blog": 9,
+      "information": 0,
+      "all-news": 17
+    },
+    "fr": {
+      "press-release": 8,
+      "blog": 9,
+      "information": 0,
+      "all-news": 17
+    },
+    "zh-hant": {
+      "press-release": 8,
+      "blog": 9,
+      "information": 0,
+      "all-news": 17
+    }
   },
+  "newsCountSource": "Initial unfiltered DOM in each locale; existing metadata entries remain required.",
   "failures": [],
   "results": [
     {
@@ -17,7 +50,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 1440,
-      "height": 4045,
+      "height": 4568,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 1440,
@@ -25,8 +58,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "balance-calendar"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -40,7 +86,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 1440,
-      "height": 4045,
+      "height": 4568,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 1440,
@@ -48,8 +94,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note-pocket"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "balance-calendar"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -63,7 +122,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 1280,
-      "height": 4031,
+      "height": 4554,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 1280,
@@ -71,8 +130,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note-pocket"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "smokeless"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -86,7 +158,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 1280,
-      "height": 4031,
+      "height": 4554,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 1280,
@@ -94,8 +166,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "signal"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -109,7 +194,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 834,
-      "height": 4057,
+      "height": 5537,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 834,
@@ -117,8 +202,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -132,7 +230,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 834,
-      "height": 4057,
+      "height": 5537,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 834,
@@ -140,8 +238,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "balance-calendar"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -155,7 +266,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 393,
-      "height": 5222,
+      "height": 6394,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 393,
@@ -163,8 +274,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note-pocket"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -178,7 +302,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 393,
-      "height": 5222,
+      "height": 6394,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 393,
@@ -186,8 +310,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "signal"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -201,7 +338,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 320,
-      "height": 5848,
+      "height": 6749,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 320,
@@ -209,8 +346,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -224,7 +374,7 @@
       "kind": "company",
       "route": "/company/",
       "width": 320,
-      "height": 5848,
+      "height": 6749,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 320,
@@ -232,8 +382,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "signal"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -247,7 +410,7 @@
       "kind": "company",
       "route": "/en/company/",
       "width": 1280,
-      "height": 4179,
+      "height": 3446,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 1280,
@@ -255,8 +418,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note-pocket"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "smokeless"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -270,7 +446,7 @@
       "kind": "company",
       "route": "/en/company/",
       "width": 393,
-      "height": 5602,
+      "height": 4529,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 393,
@@ -278,8 +454,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note-pocket"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "smokeless"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -293,7 +482,7 @@
       "kind": "company",
       "route": "/ko/company/",
       "width": 1280,
-      "height": 3912,
+      "height": 3403,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 1280,
@@ -301,8 +490,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "signal"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -316,7 +518,7 @@
       "kind": "company",
       "route": "/ko/company/",
       "width": 393,
-      "height": 4897,
+      "height": 4106,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 393,
@@ -324,8 +526,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "balance-calendar"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -339,7 +554,7 @@
       "kind": "company",
       "route": "/de/company/",
       "width": 1280,
-      "height": 4300,
+      "height": 3542,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 1280,
@@ -347,8 +562,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "balance-calendar"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -362,7 +590,7 @@
       "kind": "company",
       "route": "/de/company/",
       "width": 393,
-      "height": 5941,
+      "height": 4723,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 393,
@@ -370,8 +598,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "smokeless"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -385,7 +626,7 @@
       "kind": "company",
       "route": "/fr/company/",
       "width": 1280,
-      "height": 4331,
+      "height": 3542,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 1280,
@@ -393,8 +634,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -408,7 +662,7 @@
       "kind": "company",
       "route": "/fr/company/",
       "width": 393,
-      "height": 5967,
+      "height": 4651,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 393,
@@ -416,8 +670,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "signal"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -431,7 +698,7 @@
       "kind": "company",
       "route": "/zh-hant/company/",
       "width": 1280,
-      "height": 3820,
+      "height": 3452,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 1280,
@@ -439,8 +706,21 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note-pocket"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -454,7 +734,7 @@
       "kind": "company",
       "route": "/zh-hant/company/",
       "width": 393,
-      "height": 4963,
+      "height": 4160,
       "theme": "dark",
       "javaScript": true,
       "scrollWidth": 393,
@@ -462,8 +742,57 @@
       "duplicateIDs": [],
       "headingSkips": [],
       "brokenImages": [],
-      "sections": 7,
-      "publishedCount": 7,
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "nocca"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "company-ja-no-js",
+      "locale": "ja",
+      "kind": "company",
+      "route": "/company/",
+      "width": 393,
+      "height": 6432,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
       "violations": [],
       "mediaContact": "passed",
       "keyboardFocus": "passed",
@@ -480,13 +809,19 @@
       "height": 900,
       "theme": "light",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1928,
+          "height": 2085,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -507,10 +842,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1299,
+          "height": 1456,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -543,13 +878,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2311,
+          "height": 2543,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -570,10 +911,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1489,
+          "height": 1721,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -606,13 +947,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": false,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2349,
+          "height": 2580,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -631,10 +978,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1527,
+          "height": 1758,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -663,7 +1010,7 @@
       "kind": "home",
       "route": "/",
       "width": 393,
-      "height": 9050,
+      "height": 8573,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 393,
@@ -677,6 +1024,42 @@
       "ok": true
     },
     {
+      "name": "company-en-no-js",
+      "locale": "en",
+      "kind": "company",
+      "route": "/en/company/",
+      "width": 393,
+      "height": 4567,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
       "name": "news-en-desktop-light",
       "locale": "en",
       "kind": "news",
@@ -685,13 +1068,19 @@
       "height": 900,
       "theme": "light",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1970,
+          "height": 2127,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -712,10 +1101,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1341,
+          "height": 1498,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -748,13 +1137,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2353,
+          "height": 2585,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -775,10 +1170,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1531,
+          "height": 1763,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -811,13 +1206,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": false,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2391,
+          "height": 2623,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -836,10 +1237,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1569,
+          "height": 1801,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -868,7 +1269,7 @@
       "kind": "home",
       "route": "/en/",
       "width": 393,
-      "height": 9323,
+      "height": 8907,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 393,
@@ -882,6 +1283,42 @@
       "ok": true
     },
     {
+      "name": "company-ko-no-js",
+      "locale": "ko",
+      "kind": "company",
+      "route": "/ko/company/",
+      "width": 393,
+      "height": 4144,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
       "name": "news-ko-desktop-light",
       "locale": "ko",
       "kind": "news",
@@ -890,13 +1327,19 @@
       "height": 900,
       "theme": "light",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1970,
+          "height": 2127,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -917,10 +1360,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1341,
+          "height": 1498,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -953,13 +1396,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2325,
+          "height": 2556,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -980,10 +1429,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1503,
+          "height": 1734,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1016,13 +1465,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": false,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2362,
+          "height": 2594,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1041,10 +1496,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1540,
+          "height": 1772,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1073,7 +1528,7 @@
       "kind": "home",
       "route": "/ko/",
       "width": 393,
-      "height": 9149,
+      "height": 8764,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 393,
@@ -1087,6 +1542,42 @@
       "ok": true
     },
     {
+      "name": "company-de-no-js",
+      "locale": "de",
+      "kind": "company",
+      "route": "/de/company/",
+      "width": 393,
+      "height": 4760,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
       "name": "news-de-desktop-light",
       "locale": "de",
       "kind": "news",
@@ -1095,13 +1586,19 @@
       "height": 900,
       "theme": "light",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1970,
+          "height": 2127,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1122,10 +1619,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1341,
+          "height": 1498,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1158,13 +1655,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2353,
+          "height": 2585,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1185,10 +1688,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1531,
+          "height": 1763,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1221,13 +1724,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": false,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2391,
+          "height": 2623,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1246,10 +1755,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1569,
+          "height": 1801,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1278,7 +1787,7 @@
       "kind": "home",
       "route": "/de/",
       "width": 393,
-      "height": 9404,
+      "height": 8999,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 393,
@@ -1292,6 +1801,42 @@
       "ok": true
     },
     {
+      "name": "company-fr-no-js",
+      "locale": "fr",
+      "kind": "company",
+      "route": "/fr/company/",
+      "width": 393,
+      "height": 4688,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
       "name": "news-fr-desktop-light",
       "locale": "fr",
       "kind": "news",
@@ -1300,13 +1845,19 @@
       "height": 900,
       "theme": "light",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1970,
+          "height": 2127,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1327,10 +1878,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1341,
+          "height": 1498,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1363,13 +1914,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2353,
+          "height": 2585,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1390,10 +1947,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1531,
+          "height": 1763,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1426,13 +1983,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": false,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2391,
+          "height": 2623,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1451,10 +2014,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1569,
+          "height": 1801,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1483,7 +2046,7 @@
       "kind": "home",
       "route": "/fr/",
       "width": 393,
-      "height": 9504,
+      "height": 8957,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 393,
@@ -1497,6 +2060,42 @@
       "ok": true
     },
     {
+      "name": "company-zh-hant-no-js",
+      "locale": "zh-hant",
+      "kind": "company",
+      "route": "/zh-hant/company/",
+      "width": 393,
+      "height": 4197,
+      "theme": "dark",
+      "javaScript": false,
+      "scrollWidth": 393,
+      "h1Count": 1,
+      "duplicateIDs": [],
+      "headingSkips": [],
+      "brokenImages": [],
+      "sections": 6,
+      "selectedAreas": [
+        {
+          "area": "learning",
+          "product": "uni-note"
+        },
+        {
+          "area": "communication",
+          "product": "oto-miru"
+        },
+        {
+          "area": "utilities",
+          "product": "giga-poke"
+        }
+      ],
+      "violations": [],
+      "mediaContact": "passed",
+      "keyboardFocus": "passed",
+      "phoneNotPublished": true,
+      "errors": [],
+      "ok": true
+    },
+    {
       "name": "news-zh-hant-desktop-light",
       "locale": "zh-hant",
       "kind": "news",
@@ -1505,13 +2104,19 @@
       "height": 900,
       "theme": "light",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1970,
+          "height": 2127,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1532,10 +2137,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 1280,
           "scrollWidth": 1280,
-          "height": 1341,
+          "height": 1498,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1568,13 +2173,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": true,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2353,
+          "height": 2585,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1595,10 +2206,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1531,
+          "height": 1763,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1631,13 +2242,19 @@
       "height": 852,
       "theme": "dark",
       "javaScript": false,
+      "categoryCounts": {
+        "press-release": 8,
+        "blog": 9,
+        "information": 0,
+        "all-news": 17
+      },
       "states": [
         {
           "category": "all-news",
-          "count": 15,
+          "count": 17,
           "width": 393,
           "scrollWidth": 393,
-          "height": 2391,
+          "height": 2623,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1656,10 +2273,10 @@
         },
         {
           "category": "blog",
-          "count": 7,
+          "count": 9,
           "width": 393,
           "scrollWidth": 393,
-          "height": 1569,
+          "height": 1801,
           "h1Count": 1,
           "duplicateIDs": [],
           "headingSkips": [],
@@ -1688,7 +2305,7 @@
       "kind": "home",
       "route": "/zh-hant/",
       "width": 393,
-      "height": 9170,
+      "height": 8777,
       "theme": "light",
       "javaScript": true,
       "scrollWidth": 393,

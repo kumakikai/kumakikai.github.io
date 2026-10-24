@@ -203,6 +203,11 @@ async function company(page, locale, name, noJS = false) {
 
 async function newsState(page, locale, category, useAxe, counts) {
   const expectedCount = counts[category];
+  // site.js filters on `hashchange`, which fires asynchronously after a click or
+  // history navigation. Let the list settle before counting; on timeout the
+  // assertion below still reports the actual count.
+  await page.waitForFunction(count => [...document.querySelectorAll('.news-row')]
+    .filter(row => row.getClientRects().length > 0).length === count, expectedCount, { timeout: 5000 }).catch(() => {});
   const rows = page.locator('.news-row:visible');
   assert.equal(await rows.count(), expectedCount, `Visible ${category} article count`);
   if (category !== 'all-news') assert.equal(await rows.evaluateAll((nodes, value) => nodes.every(node => node.dataset.category === value), category), true);
