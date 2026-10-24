@@ -292,7 +292,7 @@ async function inspectHomeSelection(page, javaScript = true) {
     for (const theme of ['light','dark']) await inspect(`home-${device}-${theme}`, '/', width, height, theme, true);
     for (const theme of ['light','dark']) await inspect(`products-${device}-${theme}`, '/products/', width, height, theme, true);
   }
-  const routes = ['/products/','/support/','/news/','/company/','/products/uni-note/','/products/oto-miru/','/products/giga-poke/','/products/nocca/','/products/uni-note-pocket/','/products/balance-calendar/','/products/smokeless/','/products/signal/','/notes/2026-09-02-giga-poke/','/htu/uni-note/','/faq/uni-note/','/privacy/uni-note/','/404.html'];
+  const routes = ['/products/','/support/','/news/','/company/','/products/uni-note/','/products/oto-miru/','/products/giga-poke/','/products/nocca/','/products/uni-note-pocket/','/products/balance-calendar/','/products/smokeless/','/products/signal/','/products/pairno/','/notes/2026-09-02-giga-poke/','/htu/uni-note/','/faq/uni-note/','/privacy/uni-note/','/404.html'];
   for (const route of routes) for (const theme of ['light','dark']) await inspect(route.replace(/\W+/g,'-') + theme, route, theme === 'light' ? 1280 : 393, 900, theme, route === '/products/uni-note/');
   for (const [device, width, height] of [['ipad',834,1194], ['iphone-small',320,568]]) {
     for (const theme of ['light','dark']) await inspect(`product-detail-${device}-${theme}`, '/products/uni-note/', width, height, theme, true);

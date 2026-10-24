@@ -49,12 +49,13 @@ def production_url(historical_url):
 LOCAL_HOSTS = {"kumakikai.top", "kumakikai.github.io", "localhost", "127.0.0.1", "::1"}
 LANGUAGES = ("ja", "en", "ko", "de", "zh-hant", "fr")
 FEATURED = ("uni-note", "oto-miru", "giga-poke", "nocca")
-OTHER = ("uni-note-pocket", "balance-calendar", "smokeless", "signal")
+OTHER = ("uni-note-pocket", "balance-calendar", "smokeless", "signal", "pairno")
 PRODUCT_AREAS = {
     "uni-note": "learning", "uni-note-pocket": "learning",
     "oto-miru": "communication", "nocca": "communication",
     "giga-poke": "utilities", "balance-calendar": "utilities",
     "smokeless": "utilities", "signal": "utilities",
+    "pairno": "utilities",
 }
 # Keep the pre-migration snapshot immutable. The user explicitly authorized
 # removing "専用" in these two Japanese sentences only; all remaining article

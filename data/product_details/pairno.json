@@ -1,0 +1,347 @@
+{
+  "minimumOS": "iOS 26.0",
+  "locales": {
+    "ja": {
+      "overviewTitle": "共同口座をつくらずに、ふたりの精算をひとつに。",
+      "overview": [
+        "Pairnoは、ふたりの支払いと精算を記録するiPhoneアプリです。家賃やネット通販のように、どちらかがまとめて払った支出を記録すると、どちらがどちらへいくら返せばよいか、今の精算額をひと目で確認できます。",
+        "招待コードでつながったふたりが、同じ記録を共有します。支出ごとの負担率、レシートや注文画面の読み取り、毎月の精算のお知らせで、メモやメッセージで管理するより確実に精算できます。"
+      ],
+      "features": [
+        {
+          "title": "立て替えを記録するだけ",
+          "description": "支払った人と金額を記録すると、今の精算額を自動で計算。口座への入金や引き出しは必要ありません。"
+        },
+        {
+          "title": "支出ごとに負担率を変える",
+          "description": "50:50だけでなく、10%きざみで支出ごとに負担の割合を設定。それぞれの負担額も確認できます。"
+        },
+        {
+          "title": "レシートや注文画面から入力",
+          "description": "撮影、写真、貼り付けた画像から店名と金額を読み取り、原画像と照らして確認してから入力します。"
+        },
+        {
+          "title": "毎月の精算のお知らせ",
+          "description": "決めた日に、残高があるときだけ通知でお知らせ。精算のきっかけを、アプリが代わりにつくります。"
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "口座がなくても、精算額がひと目で",
+          "description": "ホームには今の精算額と、どちらからどちらへ返すかを表示。受け渡したら精算を記録し、長押しで全額の精算も記録できます。"
+        },
+        {
+          "image": 1,
+          "title": "誰がいくら払ったか、あとからたどれる",
+          "description": "履歴では、前月からの繰越、今月の立替分、精算、現在の残高を日・月・年で確認。精算済み・一部精算・未精算の状況もわかります。"
+        }
+      ],
+      "audienceTitle": "こんなときに",
+      "audience": [
+        {
+          "title": "家賃や通販を片方がまとめて払う",
+          "description": "どちらかが先に全額払い、あとで負担分を精算したいときに。"
+        },
+        {
+          "title": "共同口座をつくるほどではない",
+          "description": "口座の開設や入金の手間をかけずに、ふたりのお金を整理したいときに。"
+        },
+        {
+          "title": "精算を切り出しにくい",
+          "description": "毎月決まった日のお知らせをきっかけに、気まずくならずに精算したいときに。"
+        }
+      ],
+      "notes": [
+        "ふたりがそれぞれのiPhoneにPairnoを入れ、招待コードで接続して使います。記録の同期にはインターネット接続が必要です。",
+        "精算は記録のための機能で、アプリから送金・決済は行いません。現在のアプリ表示言語は日本語、金額は日本円です。",
+        "レシートなどの写真は、記録したご自身の端末にだけ保存され、相手には共有されません。"
+      ]
+    },
+    "en": {
+      "overviewTitle": "Settle up as a pair, without a joint account.",
+      "overview": [
+        "Pairno is an iPhone app for two people to record what they pay and how they settle up. When one of you covers rent or an online order, record it and Pairno shows the current balance: who owes whom, and how much.",
+        "Two people connected by an invitation code share the same records. A split for each expense, receipt and order-screen reading, and a monthly reminder make settling up more reliable than keeping notes or messages."
+      ],
+      "features": [
+        {
+          "title": "Just record who paid",
+          "description": "Enter who paid and how much, and Pairno calculates the current balance. No deposits or withdrawals needed."
+        },
+        {
+          "title": "A split for each expense",
+          "description": "Go beyond 50:50 and set each person’s share in 10% steps, with the resulting amount for each of you."
+        },
+        {
+          "title": "Fill in from receipts and orders",
+          "description": "Read the store name and amount from a photo, a pasted image or the camera, then check them against the original before applying."
+        },
+        {
+          "title": "A monthly settle-up reminder",
+          "description": "On the day you choose, Pairno sends a notification only when there is a balance, so you don’t have to bring it up."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "The balance at a glance, no account needed",
+          "description": "The home screen shows the current balance and who pays whom. Record a settlement after you exchange money, or hold the button to settle the full amount."
+        },
+        {
+          "image": 1,
+          "title": "Trace who paid what, later",
+          "description": "History shows the carried-over balance, this month’s shared costs, settlements and the current balance by day, month or year, with a settled, partly settled or unsettled status."
+        }
+      ],
+      "audienceTitle": "When Pairno fits",
+      "audience": [
+        {
+          "title": "One of you pays rent or orders",
+          "description": "When one person pays the full amount first and you settle each share later."
+        },
+        {
+          "title": "A joint account feels like too much",
+          "description": "When you want to organise shared money without opening or funding an account."
+        },
+        {
+          "title": "Bringing up money feels awkward",
+          "description": "When a monthly reminder on a set day makes it easier to settle up."
+        }
+      ],
+      "notes": [
+        "Both people install Pairno on their own iPhone and connect with an invitation code. Syncing records requires an internet connection.",
+        "Settlements are records only; the app does not send money or make payments. The app interface is currently in Japanese and amounts are in Japanese yen.",
+        "Receipt and other photos are stored only on the device of the person who added them and are not shared with the other person."
+      ]
+    },
+    "ko": {
+      "overviewTitle": "공동 계좌 없이, 두 사람의 정산을 한곳에.",
+      "overview": [
+        "Pairno는 두 사람의 지출과 정산을 기록하는 iPhone 앱입니다. 월세나 온라인 쇼핑처럼 한 사람이 한꺼번에 낸 지출을 기록하면, 누가 누구에게 얼마를 돌려주면 되는지 현재 정산액을 한눈에 확인할 수 있습니다.",
+        "초대 코드로 연결된 두 사람이 같은 기록을 공유합니다. 지출별 부담 비율, 영수증과 주문 화면 읽기, 매월 정산 알림으로 메모나 메시지보다 확실하게 정산할 수 있습니다."
+      ],
+      "features": [
+        {
+          "title": "대신 낸 돈을 기록하기만",
+          "description": "낸 사람과 금액을 기록하면 현재 정산액을 자동으로 계산합니다. 계좌 입금이나 출금은 필요 없습니다."
+        },
+        {
+          "title": "지출마다 부담 비율 설정",
+          "description": "50:50뿐 아니라 10% 단위로 지출마다 부담 비율을 정하고, 각자의 부담액도 확인할 수 있습니다."
+        },
+        {
+          "title": "영수증과 주문 화면으로 입력",
+          "description": "촬영, 사진, 붙여 넣은 이미지에서 가게 이름과 금액을 읽고, 원본과 대조한 뒤 입력합니다."
+        },
+        {
+          "title": "매월 정산 알림",
+          "description": "정한 날에 잔액이 있을 때만 알림으로 알려 드립니다. 정산을 꺼내기 어려운 말을 앱이 대신합니다."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "계좌 없이도 정산액을 한눈에",
+          "description": "홈에는 현재 정산액과 누가 누구에게 돌려줄지가 표시됩니다. 돈을 주고받은 뒤 정산을 기록하고, 길게 눌러 전액 정산도 기록할 수 있습니다."
+        },
+        {
+          "image": 1,
+          "title": "누가 얼마를 냈는지 나중에도",
+          "description": "기록에서는 이월, 이번 달 대신 낸 금액, 정산, 현재 잔액을 일·월·년 단위로 확인하고, 정산 완료·일부 정산·미정산 상태도 볼 수 있습니다."
+        }
+      ],
+      "audienceTitle": "이럴 때",
+      "audience": [
+        {
+          "title": "월세나 쇼핑을 한 사람이 낼 때",
+          "description": "한 사람이 먼저 전액을 내고 나중에 각자 부담분을 정산하고 싶을 때."
+        },
+        {
+          "title": "공동 계좌까지는 필요 없을 때",
+          "description": "계좌 개설이나 입금 없이 두 사람의 돈을 정리하고 싶을 때."
+        },
+        {
+          "title": "정산 이야기를 꺼내기 어려울 때",
+          "description": "매월 정해진 날의 알림을 계기로 어색하지 않게 정산하고 싶을 때."
+        }
+      ],
+      "notes": [
+        "두 사람이 각자의 iPhone에 Pairno를 설치하고 초대 코드로 연결해 사용합니다. 기록 동기화에는 인터넷 연결이 필요합니다.",
+        "정산은 기록을 위한 기능이며 앱에서 송금이나 결제를 하지 않습니다. 현재 앱 표시 언어는 일본어이며 금액은 일본 엔입니다.",
+        "영수증 등의 사진은 기록한 본인의 기기에만 저장되며 상대방에게 공유되지 않습니다."
+      ]
+    },
+    "de": {
+      "overviewTitle": "Zu zweit ausgleichen – ohne Gemeinschaftskonto.",
+      "overview": [
+        "Pairno ist eine iPhone-App, mit der zwei Personen ihre Ausgaben und Ausgleiche festhalten. Hat eine Person etwa die Miete oder eine Online-Bestellung bezahlt, wird sie erfasst und Pairno zeigt den aktuellen Betrag: wer wem wie viel zurückgibt.",
+        "Zwei per Einladungscode verbundene Personen teilen dieselben Einträge. Anteile pro Ausgabe, das Auslesen von Belegen und Bestellbildschirmen sowie eine monatliche Erinnerung machen den Ausgleich zuverlässiger als Notizen oder Nachrichten."
+      ],
+      "features": [
+        {
+          "title": "Einfach Auslagen erfassen",
+          "description": "Wer was bezahlt hat, eintragen – Pairno berechnet den aktuellen Betrag. Einzahlungen oder Abhebungen sind nicht nötig."
+        },
+        {
+          "title": "Anteile pro Ausgabe",
+          "description": "Nicht nur 50:50: Den Anteil jeder Person in 10-%-Schritten festlegen und die Beträge beider sehen."
+        },
+        {
+          "title": "Aus Belegen und Bestellungen übernehmen",
+          "description": "Geschäft und Betrag aus Foto, eingefügtem Bild oder Kamera auslesen und vor dem Übernehmen mit dem Original vergleichen."
+        },
+        {
+          "title": "Monatliche Erinnerung",
+          "description": "Am gewählten Tag erinnert eine Mitteilung nur dann, wenn ein Betrag offen ist – so muss es niemand ansprechen."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "Der Betrag auf einen Blick, ohne Konto",
+          "description": "Der Startbildschirm zeigt den aktuellen Betrag und wer wem zahlt. Nach der Übergabe den Ausgleich erfassen oder durch langes Drücken den vollen Betrag ausgleichen."
+        },
+        {
+          "image": 1,
+          "title": "Später nachvollziehen, wer was bezahlt hat",
+          "description": "Der Verlauf zeigt Übertrag, Auslagen des Monats, Ausgleiche und den aktuellen Stand nach Tag, Monat oder Jahr – mit Status ausgeglichen, teilweise oder offen."
+        }
+      ],
+      "audienceTitle": "Wann Pairno passt",
+      "audience": [
+        {
+          "title": "Eine Person zahlt Miete oder Bestellungen",
+          "description": "Wenn zuerst eine Person den vollen Betrag zahlt und die Anteile später ausgeglichen werden."
+        },
+        {
+          "title": "Ein Gemeinschaftskonto wäre zu viel",
+          "description": "Wenn gemeinsames Geld ohne Kontoeröffnung und Einzahlungen geordnet werden soll."
+        },
+        {
+          "title": "Geld anzusprechen fällt schwer",
+          "description": "Wenn eine monatliche Erinnerung an einem festen Tag den Ausgleich erleichtert."
+        }
+      ],
+      "notes": [
+        "Beide installieren Pairno auf dem eigenen iPhone und verbinden sich per Einladungscode. Für die Synchronisierung ist eine Internetverbindung nötig.",
+        "Ausgleiche sind nur Einträge; die App überweist oder bezahlt nichts. Die App-Oberfläche ist derzeit Japanisch, Beträge sind in japanischen Yen.",
+        "Belegfotos und andere Bilder werden nur auf dem Gerät der Person gespeichert, die sie hinzugefügt hat, und nicht mit der anderen Person geteilt."
+      ]
+    },
+    "fr": {
+      "overviewTitle": "Faire les comptes à deux, sans compte joint.",
+      "overview": [
+        "Pairno est une app iPhone pour noter à deux ce que chacun paie et comment vous vous remboursez. Quand l’un de vous règle le loyer ou une commande en ligne, notez-le : Pairno affiche le solde actuel, qui doit combien à qui.",
+        "Deux personnes reliées par un code d’invitation partagent les mêmes enregistrements. Une répartition par dépense, la lecture des tickets et des écrans de commande et un rappel mensuel rendent les comptes plus fiables que des notes ou des messages."
+      ],
+      "features": [
+        {
+          "title": "Il suffit de noter les avances",
+          "description": "Indiquez qui a payé et combien : Pairno calcule le solde actuel. Aucun versement ni retrait n’est nécessaire."
+        },
+        {
+          "title": "Une répartition par dépense",
+          "description": "Au-delà du 50:50, réglez la part de chacun par paliers de 10 % et voyez le montant correspondant."
+        },
+        {
+          "title": "Saisie depuis tickets et commandes",
+          "description": "Lisez l’enseigne et le montant depuis une photo, une image collée ou l’appareil photo, puis vérifiez-les avec l’original."
+        },
+        {
+          "title": "Un rappel mensuel",
+          "description": "Le jour choisi, une notification n’est envoyée que s’il reste un solde, pour ne pas avoir à en parler."
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "Le solde d’un coup d’œil, sans compte",
+          "description": "L’accueil affiche le solde actuel et qui rembourse qui. Notez un remboursement après l’échange d’argent, ou maintenez le bouton pour solder le montant total."
+        },
+        {
+          "image": 1,
+          "title": "Retrouver plus tard qui a payé quoi",
+          "description": "L’historique affiche le report, les avances du mois, les remboursements et le solde actuel par jour, mois ou année, avec un statut soldé, partiel ou non soldé."
+        }
+      ],
+      "audienceTitle": "Quand Pairno est utile",
+      "audience": [
+        {
+          "title": "L’un de vous paie loyer ou commandes",
+          "description": "Quand une personne règle d’abord la totalité et que chacun rembourse sa part ensuite."
+        },
+        {
+          "title": "Un compte joint, c’est trop",
+          "description": "Pour organiser l’argent commun sans ouvrir ni alimenter de compte."
+        },
+        {
+          "title": "Parler d’argent est délicat",
+          "description": "Quand un rappel mensuel à date fixe facilite les remboursements."
+        }
+      ],
+      "notes": [
+        "Chacun installe Pairno sur son iPhone et vous vous connectez avec un code d’invitation. La synchronisation nécessite une connexion Internet.",
+        "Les remboursements sont de simples enregistrements : l’app n’envoie pas d’argent et n’effectue aucun paiement. L’interface est actuellement en japonais et les montants en yens.",
+        "Les photos de tickets et autres images restent uniquement sur l’appareil de la personne qui les a ajoutées et ne sont pas partagées avec l’autre personne."
+      ]
+    },
+    "zh-hant": {
+      "overviewTitle": "不用開共同帳戶，兩人的結算集中一處。",
+      "overview": [
+        "Pairno 是記錄兩人支出與結算的 iPhone App。像房租或網購這類由其中一人先全額支付的支出，記錄下來後，就能一眼看出目前的結算金額：誰該還誰多少。",
+        "透過邀請碼連線的兩人共用同一份紀錄。每筆支出的分攤比例、收據與訂單畫面讀取、每月結算提醒，讓結算比用筆記或訊息管理更確實。"
+      ],
+      "features": [
+        {
+          "title": "只要記錄代墊",
+          "description": "記錄付款人與金額，就會自動計算目前的結算金額。不需要存款或提款。"
+        },
+        {
+          "title": "每筆支出設定分攤比例",
+          "description": "不只 50:50，可用 10% 為單位設定每筆支出的分攤比例，並確認各自的負擔金額。"
+        },
+        {
+          "title": "從收據與訂單畫面輸入",
+          "description": "從拍攝、照片或貼上的圖片讀取店名與金額，與原始圖片對照確認後再輸入。"
+        },
+        {
+          "title": "每月結算提醒",
+          "description": "在選定的日子，只在有餘額時以通知提醒。由 App 代為開口提醒結算。"
+        }
+      ],
+      "stories": [
+        {
+          "image": 0,
+          "title": "沒有帳戶，結算金額也一目了然",
+          "description": "首頁顯示目前的結算金額，以及由誰還給誰。交付金錢後記錄結算，長按即可記錄全額結算。"
+        },
+        {
+          "image": 1,
+          "title": "誰付了多少，事後也能追溯",
+          "description": "紀錄可依日、月、年查看結轉、本月代墊、結算與目前餘額，並顯示已結算、部分結算、未結算的狀態。"
+        }
+      ],
+      "audienceTitle": "適合這些時候",
+      "audience": [
+        {
+          "title": "房租或網購由一人先付",
+          "description": "由其中一人先付全額，之後再結算各自負擔的部分時。"
+        },
+        {
+          "title": "還不需要共同帳戶",
+          "description": "想在不開戶、不存款的情況下整理兩人的金錢時。"
+        },
+        {
+          "title": "難以開口談結算",
+          "description": "希望以每月固定日期的提醒為契機，自然地結算時。"
+        }
+      ],
+      "notes": [
+        "兩人需各自在 iPhone 安裝 Pairno，並以邀請碼連線使用。同步紀錄需要網路連線。",
+        "結算僅為記錄功能，App 不會進行轉帳或付款。目前 App 介面語言為日文，金額單位為日圓。",
+        "收據等照片只會儲存在新增照片者本人的裝置上，不會分享給對方。"
+      ]
+    }
+  }
+}

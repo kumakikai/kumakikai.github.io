@@ -404,5 +404,45 @@
       "privacyURL": "/privacy/signal/",
       "termsURL": "/terms/signal/"
     }
+  },
+  {
+    "id": "pairno",
+    "featured": false,
+    "status": "development",
+    "detailURL": "/htu/pairno/",
+    "icon": "/images/apps/pairno/icon.webp",
+    "screenshots": [
+      {
+        "small": "/images/apps/pairno/store-account-420.webp",
+        "large": "/images/apps/pairno/store-account-840.webp",
+        "width": 420,
+        "height": 910,
+        "largeWidth": 840,
+        "raw": false
+      },
+      {
+        "small": "/images/apps/pairno/store-records-420.webp",
+        "large": "/images/apps/pairno/store-records-840.webp",
+        "width": 420,
+        "height": 910,
+        "largeWidth": 840,
+        "raw": false
+      }
+    ],
+    "availability": {
+      "coverage": "unreleased",
+      "verifiedStorefronts": [],
+      "storefrontURLs": {}
+    },
+    "operatingSystems": [
+      "iOS"
+    ],
+    "area": "utilities",
+    "support": {
+      "guideURL": "/htu/pairno/",
+      "faqURL": "/faq/pairno/",
+      "privacyURL": "/privacy/pairno/",
+      "termsURL": "/terms/pairno/"
+    }
   }
 ]
