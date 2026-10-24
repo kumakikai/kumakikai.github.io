@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使い方 on KUMAKIKAI</title><link>https://kumakikai.top/htu/</link><description>Recent content in 使い方 on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><atom:link href="https://kumakikai.top/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使い方 (Uni:Note)</title><link>https://kumakikai.top/htu/uni-note/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/</guid><description>&lt;p&gt;現行版の基本操作を案内します。初めてのノート作成から、資料・録音・AIを組み合わせた復習まで、目的に合わせて説明を選べます。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使い方 on KUMAKIKAI</title><link>https://kumakikai.top/htu/</link><description>Recent content in 使い方 on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><atom:link href="https://kumakikai.top/htu/index.xml" rel="self" type="application/rss+xml"/><item><title>使い方 (Pairno)</title><link>https://kumakikai.top/htu/pairno/</link><pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/pairno/</guid><description>&lt;h2 id="introduction"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;ふたりでつながる、支払いを記録する、精算する、履歴を見る操作を紹介します。メールアドレスやパスワードによる会員登録は不要です。&lt;/p&gt;
+&lt;p&gt;iOS 26以降のiPhoneに対応しています。ふたりとも、それぞれのiPhoneにPairnoを入れて使います。&lt;/p&gt;
+
+&lt;h2 id="connect"&gt;ふたりでつながる&lt;/h2&gt;
+
+&lt;h3 id="name"&gt;呼び名を決める&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;最初の画面で &lt;strong&gt;はじめる&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;相手に表示する呼び名（1〜30文字）を入力します。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id="invite"&gt;相手を招待する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;相手を招待する&lt;/strong&gt; をタップすると、招待コードが表示されます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;コードを送る&lt;/strong&gt; で相手に送るか、&lt;strong&gt;コピー&lt;/strong&gt; してメッセージなどに貼り付けます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;
+ &lt;img src="https://kumakikai.top/images/guides/pairno/invite-code_hu_f403689c68b08799.webp" srcset="https://kumakikai.top/images/guides/pairno/invite-code_hu_f403689c68b08799.webp 560w, https://kumakikai.top/images/guides/pairno/invite-code_hu_8ce7ba3fb8678962.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="1035" alt="Pairnoの「相手を招待」画面。招待コードと有効期限、コードを送る・コピーのボタン" loading="lazy" decoding="async"&gt;
+ &lt;/div&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;招待コードは発行から24時間有効です。相手が参加するまで、この画面のまま待って大丈夫です。期限が切れたときは &lt;strong&gt;新しいコードを発行&lt;/strong&gt; を選びます。&lt;/p&gt;
+
+&lt;h3 id="join"&gt;招待コードで参加する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;招待された側は &lt;strong&gt;招待コードを入力する&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;届いたコードを入力するか、&lt;strong&gt;ペースト&lt;/strong&gt; で貼り付けて &lt;strong&gt;次へ&lt;/strong&gt; をタップします。ハイフンは入れなくてもかまいません。&lt;/li&gt;
+&lt;li&gt;表示された相手の名前を確認し、&lt;strong&gt;接続する&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;招待した側が承認すると、ふたりの記録が使えるようになります。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="expense"&gt;支払いを記録する&lt;/h2&gt;
+
+&lt;h3 id="add"&gt;支払いを追加する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;ホームの &lt;strong&gt;支払いを追加&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;お店・品名、金額、支払った人、支払い日時を入力し、&lt;strong&gt;登録&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;
+ &lt;img src="https://kumakikai.top/images/guides/pairno/home-balance_hu_15f8d1f5a2b714ed.webp" srcset="https://kumakikai.top/images/guides/pairno/home-balance_hu_15f8d1f5a2b714ed.webp 560w, https://kumakikai.top/images/guides/pairno/home-balance_hu_210f8276eaf37c73.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="1221" alt="Pairnoのホーム。今の精算額と、支払いを追加・精算を記録のボタン" loading="lazy" decoding="async"&gt;
+ &lt;/div&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;ホームの &lt;strong&gt;今の精算額&lt;/strong&gt; に、どちらからどちらへいくら返せばよいかが表示されます。記録は相手のiPhoneにも同期されます。&lt;/p&gt;
+
+&lt;h3 id="share"&gt;負担率を変える&lt;/h3&gt;
+&lt;p&gt;支払いを追加する画面の &lt;strong&gt;負担率&lt;/strong&gt; で、ふたりの割合を10%きざみで変えられます。負担額の確認で、それぞれの負担額と精算額への影響を確認できます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;
+ &lt;img src="https://kumakikai.top/images/guides/pairno/expense-share_hu_c6faff5fb22744bc.webp" srcset="https://kumakikai.top/images/guides/pairno/expense-share_hu_c6faff5fb22744bc.webp 560w, https://kumakikai.top/images/guides/pairno/expense-share_hu_20ace992b3fa625e.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="900" alt="負担率をそうた60%・みお40%にしたスライダーと、共有支出・それぞれの負担額" loading="lazy" decoding="async"&gt;
+ &lt;/div&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;新しく入力するときの最初の割合は、&lt;strong&gt;設定 → 自分の初期負担率&lt;/strong&gt; で変えられます。1円の端数は、割合が大きい人が負担します。同じ割合のときは支払った人が負担します。&lt;/p&gt;</description></item><item><title>使い方 (Uni:Note)</title><link>https://kumakikai.top/htu/uni-note/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/</guid><description>&lt;p&gt;現行版の基本操作を案内します。初めてのノート作成から、資料・録音・AIを組み合わせた復習まで、目的に合わせて説明を選べます。&lt;/p&gt;
 &lt;p&gt;対応端末はiPad、対応OSはiPadOS 17.0以降です。Apple Pencilで従来どおり手書きでき、「指で描画」をONにすると1本指でも書けます。文字起こしには対応するiPadOS 26以降の環境が必要です。&lt;/p&gt;
 &lt;section class="uni-guide-search" aria-labelledby="guide-search-title" data-guide-search-mode="navigation" data-result-message="{count}件の使い方が見つかりました。" data-no-results-message="該当する使い方が見つかりませんでした。別の言葉で検索してください。"&gt;
  &lt;h2 id="guide-search-title"&gt;使い方を検索&lt;/h2&gt;

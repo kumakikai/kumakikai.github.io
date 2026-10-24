@@ -1,4 +1,324 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KUMAKIKAI</title><link>https://kumakikai.top/</link><description>Recent content on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://kumakikai.top/index.xml" rel="self" type="application/rss+xml"/><item><title>AI</title><link>https://kumakikai.top/htu/uni-note/ai/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/ai/</guid><description>&lt;p&gt;問題を囲って解答を確認します。録音からのAI要約は&lt;a href="https://kumakikai.top/htu/uni-note/recording/#summary"&gt;録音・文字起こし&lt;/a&gt;、ノートからの問題集生成は&lt;a href="https://kumakikai.top/htu/uni-note/problem-sets/#generate"&gt;問題集&lt;/a&gt;で説明しています。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KUMAKIKAI</title><link>https://kumakikai.top/</link><description>Recent content on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Sun, 25 Oct 2026 01:30:49 +0900</lastBuildDate><atom:link href="https://kumakikai.top/index.xml" rel="self" type="application/rss+xml"/><item><title>プライバシーポリシー (Pairno)</title><link>https://kumakikai.top/privacy/pairno/</link><pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/pairno/</guid><description>&lt;h2 id="introduction"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、Pairno（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;p&gt;本アプリは、ふたりの立て替えと精算を記録するアプリです。本ポリシーは、配信を予定しているiPhone版について定めます。&lt;/p&gt;
+
+&lt;h2 id="collect"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;呼び名とペアの情報&lt;/strong&gt;：入力した呼び名（1〜30文字）、招待・接続・ペアの解除の状態。本名、年齢、住所、口座情報の登録は求めません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;記録の内容&lt;/strong&gt;：支出のお店・品名、メモ、金額、支払った人、負担率と負担額、支払い日時とタイムゾーン、精算とその取り消し、残高、変更の履歴。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;端末・認証情報&lt;/strong&gt;：インストールや認証の識別情報、端末の登録・失効状態、正規アプリの確認に使う鍵の識別子と検証結果。移行コードと復旧コードは、元に戻せない形に変換した値だけを保存し、コードそのものは保存しません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通知情報&lt;/strong&gt;：精算のお知らせを使う場合の通知用トークン、お知らせする日、タイムゾーン、通知の許可状態。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;購入に関する情報&lt;/strong&gt;：Pairno Plusの購入状態の確認結果。Apple Accountのメールアドレスやクレジットカード番号は取得しません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技術的な記録&lt;/strong&gt;：通信の成否、エラーの種類など。運用ログに記録の内容や認証用の秘密情報を記録しない設計です。アクセスの集中を抑えるため、接続元の情報をハッシュ化した短期間の記録も使います。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;お問い合わせ情報&lt;/strong&gt;：お問い合わせの内容と、返信用メールアドレスなど利用者が提供した情報。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="device-only"&gt;端末内だけに保存する情報&lt;/h3&gt;
+&lt;p&gt;レシートや注文画面などの写真は、追加したご自身の端末にだけ保存し、サーバーへ送信しません。保存時に位置情報などの撮影情報を取り除きます。相手には共有されず、機種変更でも引き継がれません。&lt;/p&gt;
+&lt;p&gt;レシートなどの読み取りは、端末内の文字認識と、端末内で動作するAppleの言語モデルで行います。読み取りのために画像や文字をクラウドへ送信しません。&lt;/p&gt;
+&lt;p&gt;このほか、デザイン、自分の初期負担率、読み取りの利用回数、入力中の下書きなどは端末内に保存します。&lt;/p&gt;
+
+&lt;h3 id="not-collected"&gt;取得しない情報&lt;/h3&gt;
+&lt;p&gt;メールアドレスやパスワードによる会員登録はありません。端末の連絡先、位置情報、マイクへアクセスしません。カメラは、レシートなどを撮影するときだけ使います。写真は、利用者が選んだ画像だけを読み込みます。&lt;/p&gt;
+&lt;p&gt;本アプリは、銀行口座やクレジットカードと連携せず、送金・決済を行いません。&lt;/p&gt;
+
+&lt;h2 id="purpose"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;呼び名とペアの情報は相手の確認と記録の共有範囲の管理に、記録の内容は精算額の計算・表示、ふたりの端末間の同期、機種変更時の引き継ぎに使います。通知情報は、残高があるときの精算のお知らせに使います。&lt;/p&gt;
+&lt;p&gt;端末・認証情報は、正規アプリの確認、なりすましや不正な引き継ぎの防止に使います。購入に関する情報はPairno Plusの機能の提供に、技術的な記録は障害調査、安全な運用、アクセス集中の抑制に、お問い合わせ情報は回答と問題の解決に使います。&lt;/p&gt;
+
+&lt;h2 id="storage"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;ふたりで共有する記録、ペアの情報、認証と通知の情報はAWSへ送信し、東京リージョンに暗号化して保存します。認証用の資格情報は、端末の保護された保存領域に保存し、ほかの端末へ同期しません。&lt;/p&gt;
+&lt;p&gt;端末内だけに保存される記録帳ではありません。また、運営者も復号できない方式のサービスではありません。運営者は、障害対応など運用に必要な範囲に限ってアクセスを管理します。&lt;/p&gt;
+&lt;p&gt;端末内の写真などは、iPhoneのバックアップの設定によってはバックアップに含まれることがあります。&lt;/p&gt;
+
+&lt;h3 id="retention"&gt;保存期間&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;情報&lt;/th&gt;
+ &lt;th&gt;保存期間・扱い&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ペアの記録、呼び名、ペアの情報&lt;/td&gt;
+ &lt;td&gt;ペアのデータを削除するまで保存します。支出を削除すると画面には表示されなくなりますが、記録の整合性を保つため、内容はペアのデータの削除まで保存されます。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;通知情報、購入状態の確認結果、端末の認証情報&lt;/td&gt;
+ &lt;td&gt;利用中は保持し、引き継ぎ、ペアの解除、アカウントの削除に応じて失効・削除します。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;招待コード&lt;/td&gt;
+ &lt;td&gt;有効期限は発行から24時間です。期限切れの記録は順次削除します。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;移行コード&lt;/td&gt;
+ &lt;td&gt;有効期限は発行から10分です。新しく発行すると、以前のコードは使えなくなります。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;復旧コード&lt;/td&gt;
+ &lt;td&gt;期限はありません。使用するか発行し直すと、以前のコードは使えなくなります。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;使い捨ての端末確認情報&lt;/td&gt;
+ &lt;td&gt;有効期間は5分以内です。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;アクセス集中を抑えるための記録&lt;/td&gt;
+ &lt;td&gt;約1時間です。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;運用ログ&lt;/td&gt;
+ &lt;td&gt;30日です。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;障害復旧用の自動バックアップは最大35日間保持され、削除前のデータが残ることがあります。通常の利用には戻さず、復旧時にも削除済みの情報を再び利用可能にしないよう取り扱います。&lt;/p&gt;
+&lt;p&gt;アカウントの削除後も、旧端末の不正な利用や同じ操作の再実行を防ぐため、元の記録の内容を含まない、ハッシュ化した識別情報と処理日時などの最小限の記録を保持します。削除処理の完了を確認するための記録も、処理が完了するまで保持します。&lt;/p&gt;
+&lt;p&gt;お問い合わせの記録は、対応が完了してから1年以内に削除する運用とします。&lt;/p&gt;
+
+&lt;h2 id="third-parties"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
+&lt;p&gt;AWSを認証、データ保存、通知の配信、運用ログに、Appleをアプリの安全性の確認、プッシュ通知、アプリ内購入に利用します。購入状態の確認にはRevenueCatを利用し、本アプリが作成したランダムな利用者IDと購入の情報を扱います。&lt;/p&gt;
+&lt;p&gt;お問い合わせの受付と返信には、Googleのサービスを利用します。外部サービス自身が扱う情報には、各社のポリシーも適用されます。&lt;/p&gt;
+&lt;p&gt;利用者がペアになった相手との共有、サービス提供に必要な委託、下記の広告、法令に基づく場合を除き、情報を第三者に提供しません。記録の内容を販売したり、広告のために送信したりしません。&lt;/p&gt;
+
+&lt;h2 id="ads"&gt;6. 広告について&lt;/h2&gt;
+&lt;p&gt;本アプリはGoogle AdMobを利用し、読み取りの回数を追加するために利用者が選んだ場合だけ、動画などの広告を表示します。広告の表示前に、広告に関する同意をGoogleの仕組みで確認します。同意の内容は &lt;strong&gt;設定 → 広告に関する同意を変更&lt;/strong&gt; で変更できます。&lt;/p&gt;
+&lt;p&gt;広告の配信、効果測定、不正対策のため、端末や広告に関する情報、広告の表示・操作、診断に関する情報などをGoogleが扱う場合があります。本アプリは、他社のアプリやWebサイトをまたいだ追跡（App Tracking Transparency）の許可を求めません。詳しくは&lt;a href="https://policies.google.com/privacy?hl=ja"&gt;Googleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;</description></item><item><title>よくある質問 (Pairno)</title><link>https://kumakikai.top/faq/pairno/</link><pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/faq/pairno/</guid><description>&lt;h2 id="introduction"&gt;はじめに&lt;/h2&gt;
+
+&lt;h3 id="about"&gt;Pairnoはどんなアプリですか？&lt;/h3&gt;
+&lt;p&gt;ふたりの立て替えと精算を記録するアプリです。どちらかがまとめて払った支出を記録すると、どちらからどちらへいくら返せばよいかを表示します。&lt;a href="https://kumakikai.top/htu/pairno/"&gt;使い方&lt;/a&gt;で操作を確認できます。&lt;/p&gt;
+
+&lt;h3 id="joint-account"&gt;共同口座は必要ですか？&lt;/h3&gt;
+&lt;p&gt;不要です。口座への入金や引き出しをせず、支払いを記録するだけで精算額がわかります。&lt;/p&gt;
+
+&lt;h3 id="signup"&gt;会員登録は必要ですか？&lt;/h3&gt;
+&lt;p&gt;メールアドレスやパスワードによる会員登録は不要です。最初に、相手に表示する呼び名を決めます。&lt;/p&gt;
+
+&lt;h3 id="both"&gt;ふたりともアプリが必要ですか？&lt;/h3&gt;
+&lt;p&gt;必要です。それぞれのiPhoneにPairnoを入れ、&lt;a href="https://kumakikai.top/htu/pairno/#connect"&gt;招待コードでつながります&lt;/a&gt;。記録の同期にはインターネット接続が必要です。&lt;/p&gt;
+
+&lt;h3 id="group"&gt;3人以上で使えますか？&lt;/h3&gt;
+&lt;p&gt;使えません。Pairnoはふたりで使うためのアプリです。&lt;/p&gt;
+
+&lt;h3 id="environment"&gt;対応端末・対応OSは？&lt;/h3&gt;
+&lt;p&gt;iOS 26以降のiPhoneに対応しています。アプリの表示は日本語、金額は日本円です。&lt;/p&gt;
+
+&lt;h2 id="records"&gt;記録と精算&lt;/h2&gt;
+
+&lt;h3 id="transfer-money"&gt;アプリから送金できますか？&lt;/h3&gt;
+&lt;p&gt;できません。Pairnoは記録のためのアプリです。実際にお金を受け渡したあとに、&lt;a href="https://kumakikai.top/htu/pairno/#settle"&gt;精算を記録&lt;/a&gt;してください。&lt;/p&gt;
+
+&lt;h3 id="share"&gt;半分ずつ以外の割合にできますか？&lt;/h3&gt;
+&lt;p&gt;できます。支出ごとに、10%きざみで負担率を変えられます。&lt;a href="https://kumakikai.top/htu/pairno/#share"&gt;負担率を変える&lt;/a&gt;を確認してください。&lt;/p&gt;
+
+&lt;h3 id="rounding"&gt;1円の端数はどうなりますか？&lt;/h3&gt;
+&lt;p&gt;負担率が大きい人が負担します。負担率が同じときは、支払った人が負担します。&lt;/p&gt;
+
+&lt;h3 id="edit-partner"&gt;相手の記録を編集できますか？&lt;/h3&gt;
+&lt;p&gt;できません。記録の編集・削除は、記録した人だけが行えます。&lt;/p&gt;
+
+&lt;h3 id="undo-settle"&gt;間違えて精算を記録しました&lt;/h3&gt;
+&lt;p&gt;記録した直後に表示される &lt;strong&gt;取り消す&lt;/strong&gt; で元に戻せます。&lt;/p&gt;
+
+&lt;h2 id="receipt"&gt;レシートの読み取り&lt;/h2&gt;
+
+&lt;h3 id="ocr-limit"&gt;レシートの読み取りは何回使えますか？&lt;/h3&gt;
+&lt;p&gt;無料で1日1回使えます。回数を使い切ったときは、希望して広告を最後まで見ると、その日の読み取りが3回追加されます。Pairno Plusでは回数の制限がありません。&lt;/p&gt;
+
+&lt;h3 id="ocr-wrong"&gt;読み取った内容が違います&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;読み取った内容を確認&lt;/strong&gt; の画面で原画像と照らし、店名と金額を直してから入力してください。読み取り結果は正確であることを保証するものではありません。&lt;/p&gt;
+
+&lt;h3 id="photos"&gt;写真は相手にも見えますか？&lt;/h3&gt;
+&lt;p&gt;見えません。写真は追加したご自身の端末にだけ保存され、サーバーへは送信しません。機種変更でも引き継がれません。&lt;/p&gt;
+
+&lt;h2 id="reminder"&gt;お知らせ&lt;/h2&gt;
+
+&lt;h3 id="reminder-time"&gt;精算のお知らせはいつ届きますか？&lt;/h3&gt;
+&lt;p&gt;選んだ日の19時ごろ、残高があるときだけ届きます。31日など日付がない月は月末にお知らせします。&lt;a href="https://kumakikai.top/htu/pairno/#reminder"&gt;精算のお知らせ&lt;/a&gt;で設定してください。&lt;/p&gt;
+
+&lt;h3 id="reminder-missing"&gt;お知らせが届きません&lt;/h3&gt;
+&lt;p&gt;アプリの &lt;strong&gt;設定 → 精算のお知らせ&lt;/strong&gt; がオンになっているか、iPhoneの設定でPairnoの通知が許可されているかを確認してください。残高がない月は届きません。&lt;/p&gt;
+
+&lt;h2 id="plus"&gt;Pairno Plus・広告&lt;/h2&gt;
+
+&lt;h3 id="ads"&gt;広告はありますか？&lt;/h3&gt;
+&lt;p&gt;読み取りの回数を追加したいときに、希望した場合だけ広告を表示します。Pairno Plusでは広告を表示しません。&lt;/p&gt;
+
+&lt;h3 id="about-plus"&gt;Pairno Plusとは何ですか？&lt;/h3&gt;
+&lt;p&gt;広告の非表示と、読み取り回数の制限解除を利用できる買い切りの購入です。価格はアプリの購入画面で確認してください。&lt;/p&gt;
+
+&lt;h3 id="plus-partner"&gt;相手もPlusを使えますか？&lt;/h3&gt;
+&lt;p&gt;使えません。Pairno Plusは購入した本人だけに適用されます。ファミリー共有にも対応していません。&lt;/p&gt;
+
+&lt;h2 id="account"&gt;機種変更・削除&lt;/h2&gt;
+
+&lt;h3 id="change-device"&gt;機種変更したときは？&lt;/h3&gt;
+&lt;p&gt;旧端末で &lt;strong&gt;設定 → 機種変更・引き継ぎ&lt;/strong&gt; から移行コードを発行し、新しい端末で入力します。移行コードの有効期限は10分です。&lt;a href="https://kumakikai.top/htu/pairno/#transfer"&gt;機種変更・引き継ぎ&lt;/a&gt;を確認してください。&lt;/p&gt;
+
+&lt;h3 id="lost-device"&gt;端末をなくしました&lt;/h3&gt;
+&lt;p&gt;あらかじめ発行して保存した復旧コードで引き継げます。旧端末と復旧コードの両方を失うと、引き継ぐことはできません。&lt;/p&gt;
+
+&lt;h3 id="leave"&gt;ペアを解除すると記録はどうなりますか？&lt;/h3&gt;
+&lt;p&gt;ご自身はそのペアの記録を見られなくなります。相手は、引き続きそのペアの記録を閲覧できます。詳しくは&lt;a href="https://kumakikai.top/privacy/pairno/#delete"&gt;プライバシーポリシー&lt;/a&gt;を確認してください。&lt;/p&gt;
+
+&lt;h3 id="delete-refund"&gt;アカウントを削除するとPlusは返金されますか？&lt;/h3&gt;
+&lt;p&gt;返金されません。&lt;/p&gt;
+
+&lt;h2 id="help"&gt;困ったとき&lt;/h2&gt;
+
+&lt;h3 id="troubleshooting"&gt;不具合が発生した場合は？&lt;/h3&gt;
+&lt;p&gt;アプリとOSのバージョン、発生した操作、表示されたメッセージを確認してください。このページの対処方法で解決しない場合は、下記の窓口へお問い合わせください。端末内のデータが必要な場合は、再インストールやデータ削除の前にご相談ください。&lt;/p&gt;</description></item><item><title>使い方 (Pairno)</title><link>https://kumakikai.top/htu/pairno/</link><pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/pairno/</guid><description>&lt;h2 id="introduction"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;ふたりでつながる、支払いを記録する、精算する、履歴を見る操作を紹介します。メールアドレスやパスワードによる会員登録は不要です。&lt;/p&gt;
+&lt;p&gt;iOS 26以降のiPhoneに対応しています。ふたりとも、それぞれのiPhoneにPairnoを入れて使います。&lt;/p&gt;
+
+&lt;h2 id="connect"&gt;ふたりでつながる&lt;/h2&gt;
+
+&lt;h3 id="name"&gt;呼び名を決める&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;最初の画面で &lt;strong&gt;はじめる&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;相手に表示する呼び名（1〜30文字）を入力します。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id="invite"&gt;相手を招待する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;相手を招待する&lt;/strong&gt; をタップすると、招待コードが表示されます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;コードを送る&lt;/strong&gt; で相手に送るか、&lt;strong&gt;コピー&lt;/strong&gt; してメッセージなどに貼り付けます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;
+ &lt;img src="https://kumakikai.top/images/guides/pairno/invite-code_hu_f403689c68b08799.webp" srcset="https://kumakikai.top/images/guides/pairno/invite-code_hu_f403689c68b08799.webp 560w, https://kumakikai.top/images/guides/pairno/invite-code_hu_8ce7ba3fb8678962.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="1035" alt="Pairnoの「相手を招待」画面。招待コードと有効期限、コードを送る・コピーのボタン" loading="lazy" decoding="async"&gt;
+ &lt;/div&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;招待コードは発行から24時間有効です。相手が参加するまで、この画面のまま待って大丈夫です。期限が切れたときは &lt;strong&gt;新しいコードを発行&lt;/strong&gt; を選びます。&lt;/p&gt;
+
+&lt;h3 id="join"&gt;招待コードで参加する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;招待された側は &lt;strong&gt;招待コードを入力する&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;届いたコードを入力するか、&lt;strong&gt;ペースト&lt;/strong&gt; で貼り付けて &lt;strong&gt;次へ&lt;/strong&gt; をタップします。ハイフンは入れなくてもかまいません。&lt;/li&gt;
+&lt;li&gt;表示された相手の名前を確認し、&lt;strong&gt;接続する&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;招待した側が承認すると、ふたりの記録が使えるようになります。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="expense"&gt;支払いを記録する&lt;/h2&gt;
+
+&lt;h3 id="add"&gt;支払いを追加する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;ホームの &lt;strong&gt;支払いを追加&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;li&gt;お店・品名、金額、支払った人、支払い日時を入力し、&lt;strong&gt;登録&lt;/strong&gt; をタップします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;
+ &lt;img src="https://kumakikai.top/images/guides/pairno/home-balance_hu_15f8d1f5a2b714ed.webp" srcset="https://kumakikai.top/images/guides/pairno/home-balance_hu_15f8d1f5a2b714ed.webp 560w, https://kumakikai.top/images/guides/pairno/home-balance_hu_210f8276eaf37c73.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="1221" alt="Pairnoのホーム。今の精算額と、支払いを追加・精算を記録のボタン" loading="lazy" decoding="async"&gt;
+ &lt;/div&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;ホームの &lt;strong&gt;今の精算額&lt;/strong&gt; に、どちらからどちらへいくら返せばよいかが表示されます。記録は相手のiPhoneにも同期されます。&lt;/p&gt;
+
+&lt;h3 id="share"&gt;負担率を変える&lt;/h3&gt;
+&lt;p&gt;支払いを追加する画面の &lt;strong&gt;負担率&lt;/strong&gt; で、ふたりの割合を10%きざみで変えられます。負担額の確認で、それぞれの負担額と精算額への影響を確認できます。&lt;/p&gt;
+&lt;figure class="guide-figure guide-figure--crop" style="--guide-image-width: 560px" data-guide-image&gt;
+ &lt;div class="screenshot-frame"&gt;
+ &lt;img src="https://kumakikai.top/images/guides/pairno/expense-share_hu_c6faff5fb22744bc.webp" srcset="https://kumakikai.top/images/guides/pairno/expense-share_hu_c6faff5fb22744bc.webp 560w, https://kumakikai.top/images/guides/pairno/expense-share_hu_20ace992b3fa625e.webp 1120w" sizes="(max-width: 600px) calc(100vw - 64px), 560px" width="1120" height="900" alt="負担率をそうた60%・みお40%にしたスライダーと、共有支出・それぞれの負担額" loading="lazy" decoding="async"&gt;
+ &lt;/div&gt;
+ 
+&lt;/figure&gt;
+&lt;p&gt;新しく入力するときの最初の割合は、&lt;strong&gt;設定 → 自分の初期負担率&lt;/strong&gt; で変えられます。1円の端数は、割合が大きい人が負担します。同じ割合のときは支払った人が負担します。&lt;/p&gt;</description></item><item><title>利用規約 (Pairno)</title><link>https://kumakikai.top/terms/pairno/</link><pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/terms/pairno/</guid><description>&lt;h2 id="scope"&gt;1. 適用&lt;/h2&gt;
+&lt;p&gt;この利用規約（以下「本規約」）は、Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）が提供するPairno（以下「本アプリ」）の利用条件を定めます。利用者は、本規約を確認して本アプリを利用してください。&lt;/p&gt;
+
+&lt;p&gt;本規約は、配信を予定しているiPhone版について定めます。&lt;/p&gt;
+&lt;p&gt;App Storeでの本アプリの利用許諾には、&lt;a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"&gt;Appleの標準使用許諾契約&lt;/a&gt;など、配布時に適用される条件も適用されます。本規約は、Appleとの購入・支払いに関する契約条件や、法令に基づく利用者の権利を変更するものではありません。&lt;/p&gt;
+
+
+&lt;h2 id="conditions"&gt;2. 利用条件&lt;/h2&gt;
+&lt;p&gt;本アプリは、iOS 26以降のiPhoneとインターネット接続を必要とします。通信料金は利用者の負担です。正規アプリ・端末の確認ができない環境では、利用を始められない場合があります。&lt;/p&gt;
+&lt;p&gt;ふたりがそれぞれのiPhoneに本アプリを入れ、招待コードで接続して使います。メールアドレスとパスワードによる会員登録は不要です。招待コード、移行コード、復旧コードを意図しない相手へ渡さないでください。&lt;/p&gt;
+&lt;p&gt;ひとつのアカウントで利用できる端末は1台です。旧端末と復旧コードの両方を失った場合、アカウントを引き継ぐことはできません。&lt;/p&gt;
+&lt;p&gt;本アプリは年齢の確認や法定代理人の同意の取得を代行しません。未成年の利用者は、利用・購入に法令上必要な同意を法定代理人から得てください。&lt;/p&gt;
+
+&lt;h2 id="service"&gt;3. 本アプリの内容&lt;/h2&gt;
+&lt;p&gt;本アプリは、ふたりの支出、負担率、精算を記録し、精算額を計算して表示する記録ツールです。銀行口座やクレジットカードとの連携、送金、決済、債権の回収を行うものではありません。&lt;/p&gt;
+&lt;p&gt;精算額は、利用者が入力した記録に基づいて計算します。実際の受け渡しの金額や時期は、ふたりで確認してください。本アプリは税務・法律・金融に関する助言を提供しません。&lt;/p&gt;
+&lt;p&gt;レシートなどの読み取り結果は、正確であることを保証しません。入力前に、原画像と照らして内容を確認してください。&lt;/p&gt;
+
+&lt;h2 id="sharing"&gt;4. 相手との記録の共有&lt;/h2&gt;
+&lt;p&gt;ペアになった相手は、支出、精算、残高、履歴などの記録を確認できます。記録の編集・削除は、記録した人だけが行えます。相手の同意なく接続することや、相手の意思に反して利用を強要することはやめてください。&lt;/p&gt;
+&lt;p&gt;ペアを解除すると、ご自身はそのペアの記録を見られなくなります。相手は、引き続きそのペアの記録を閲覧できます。&lt;/p&gt;
+
+&lt;h2 id="prohibited"&gt;5. 禁止事項&lt;/h2&gt;
+&lt;p&gt;利用者は、次の行為を行わないでください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;法令に違反する行為や、他者の著作権・プライバシー等の権利を侵害する行為&lt;/li&gt;
+&lt;li&gt;他者のデータや認証情報を、権限なく取得・利用・公開する行為&lt;/li&gt;
+&lt;li&gt;不正アクセス、利用制限の回避、過度な負荷など、本アプリや接続先の運営を妨げる行為&lt;/li&gt;
+&lt;li&gt;法令や適用されるライセンスで認められる範囲を超えて、本アプリを複製・改変・再配布する行為&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;嫌がらせや脅迫を目的とした記録、事実と異なる記録による請求、他人へのなりすまし、通信内容の改ざんも禁止します。&lt;/p&gt;
+&lt;p&gt;法令違反や不正利用に対応するため、必要な範囲で利用を制限する場合があります。&lt;/p&gt;
+
+&lt;h2 id="purchase"&gt;6. 広告・有料機能&lt;/h2&gt;
+&lt;p&gt;本アプリの基本機能は無料で利用できます。レシートなどの読み取りは無料で1日1回利用でき、利用者が希望して広告を最後まで見ると、その日の読み取り回数が追加されます。&lt;/p&gt;
+&lt;p&gt;Pairno Plusは、広告の非表示と読み取り回数の制限解除を提供する買い切りの購入です。購入した本人だけに適用され、ペアの相手には適用されません。ファミリー共有には対応していません。価格は購入画面で確認してください。&lt;/p&gt;
+&lt;p&gt;購入・支払い・返金にはAppleの条件が適用されます。返金された購入は、Pairno Plusの機能が使えなくなります。アカウントを削除しても、購入代金は返金されません。&lt;/p&gt;
+
+&lt;h2 id="data"&gt;7. データの管理・削除&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;設定 → ペアを解除する&lt;/strong&gt; と &lt;strong&gt;設定 → アカウントを削除&lt;/strong&gt; から、記録とアカウントを管理できます。元に戻せないため、確認画面の内容を確認してください。&lt;/p&gt;
+&lt;p&gt;レシートなどの写真は端末内だけに保存されるため、機種変更や端末の紛失、アプリの削除で失われることがあります。不正利用の防止に必要な最小限の記録、期限付きのログ、復旧用のバックアップなどは、削除後も一定期間残ります。情報の取扱いと保存期間は&lt;a href="https://kumakikai.top/privacy/pairno/"&gt;プライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h2 id="ip"&gt;8. 知的財産権&lt;/h2&gt;
+&lt;p&gt;本アプリのプログラム、デザイン、説明文などの権利は、当方または正当な権利者に帰属します。利用者が入力・取り込んだ内容の権利は、利用者またはその正当な権利者に帰属し、本アプリの利用によって当方へ移転しません。第三者のコンテンツは、その権利と利用条件を守って扱ってください。&lt;/p&gt;
+
+&lt;p&gt;入力した内容は、保存・同期・相手との共有など、サービスの提供に必要な範囲で処理します。&lt;/p&gt;
+
+&lt;h2 id="changes-service"&gt;9. サービス内容の変更・停止&lt;/h2&gt;
+&lt;p&gt;当方は、改善、保守、OSや外部サービスの変更などに応じて、本アプリの内容を変更する場合があります。障害、安全性の確保、外部サービスの終了などにより、機能の一部または全部を停止・終了する場合があります。利用者への影響が大きい変更や終了は、緊急時など事前の案内が困難な場合を除き、本アプリまたは公式サイトで事前に案内します。&lt;/p&gt;
+
+&lt;p&gt;重大な変更や終了を案内する際は、データの取扱いも説明します。&lt;/p&gt;
+
+&lt;h2 id="liability"&gt;10. 免責事項&lt;/h2&gt;
+&lt;p&gt;通知や同期が必ず即時に届くこと、精算額の計算が利用者の意図どおりであること、あらゆる状況でデータが失われないことを保証するものではありません。利用者間の金銭の受け渡しや精算をめぐる紛争には関与しません。&lt;/p&gt;
+&lt;p&gt;本アプリの動作や表示は、端末、OS、通信、外部サービスの状態などに影響されます。常に中断や誤りなく動作することを保証するものではありません。&lt;/p&gt;
+&lt;p&gt;当方に責任がある場合は、適用される法令に従って対応します。本規約の記載は、当方の故意・重大な過失による責任や、消費者契約法その他の法令により免除・制限できない責任を免除・制限するものではありません。&lt;/p&gt;
+
+
+&lt;h2 id="changes"&gt;11. 本規約の変更&lt;/h2&gt;
+&lt;p&gt;当方は、法令に従い、必要に応じて本規約を変更します。変更内容と適用日を本アプリまたは公式サイトで事前に案内し、法令上同意が必要な変更は、利用者の同意を得たうえで適用します。&lt;/p&gt;
+
+
+&lt;h2 id="law"&gt;12. 準拠法・管轄&lt;/h2&gt;
+&lt;p&gt;本規約は日本法に準拠します。紛争が生じた場合は解決に向けて協議し、裁判が必要な場合は、法令に従って管轄が定まる日本の裁判所で取り扱います。利用者に適用される強行法規上の権利を制限するものではありません。&lt;/p&gt;
+
+
+&lt;h2 id="contact"&gt;13. お問い合わせ&lt;/h2&gt;
+&lt;div class="document-contact" data-document-contact&gt;
+&lt;p&gt;Pairnoに関するお問い合わせは、次の窓口からご連絡ください。&lt;/p&gt;</description></item><item><title>ブログはnoteにまとめることにしました</title><link>https://kumakikai.top/news/2026-10-24-blog-moves-to-note/</link><pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/news/2026-10-24-blog-moves-to-note/</guid><description>&lt;p&gt;このホームページのBlogは、今回の記事で最後にします。&lt;/p&gt;
+&lt;p&gt;これまで、アプリ開発の話はこのホームページのBlogと、外部サービスのnoteの両方に書いてきました。&lt;/p&gt;
+&lt;p&gt;ただ、振り返ってみると書いている内容がほとんど同じでした。&lt;/p&gt;
+&lt;p&gt;ダウンロード数や収益の話、広告費の話、不具合の話。どれもホームページに書いても、noteに書いてもおかしくない内容です。&lt;/p&gt;
+&lt;p&gt;実際、Uni:Noteが1万ダウンロードを超えたときも、ホームページとnoteの両方で同じ出来事について書いています。&lt;/p&gt;
+
+&lt;h2 id="毎回どっちに書くか迷っていました"&gt;毎回どっちに書くか迷っていました&lt;/h2&gt;
+&lt;p&gt;置き場所が二つあると、書く前に「これはどっちに書くべきなんだろう」と考えることになります。&lt;/p&gt;
+&lt;p&gt;これが地味に面倒でした。&lt;/p&gt;
+&lt;p&gt;書きたいことはあるのに、どこに書くかで迷って、そのうち書くこと自体が億劫になる。最近の更新が少なかったのも、正直これが一因です。&lt;/p&gt;
+&lt;p&gt;そこで、開発や運営の読み物は&lt;strong&gt;noteに統一する&lt;/strong&gt;ことにしました。&lt;/p&gt;
+
+&lt;h2 id="これからの使い分け"&gt;これからの使い分け&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;note&lt;/strong&gt;：開発の記録、数字の振り返り、失敗談などの読み物&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ホームページのNews&lt;/strong&gt;：新しいアプリの公開やアップデート、大事なお知らせ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ホームページはアプリの公式情報を置く場所として、noteは個人開発のリアルを書く場所として分けていきます。&lt;/p&gt;
+&lt;p&gt;これまでのBlog記事は消さずにそのまま残しておきます。&lt;/p&gt;
+
+&lt;h2 id="noteはこちら"&gt;noteはこちら&lt;/h2&gt;
+&lt;p&gt;続きの話はnoteで書いていきます。よければ覗いてみてください。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://note.com/kumakikai_apps"&gt;KUMAKIKAI｜note&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これまでホームページのBlogを読んでくださった方、ありがとうございました。&lt;/p&gt;</description></item><item><title>AI</title><link>https://kumakikai.top/htu/uni-note/ai/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/htu/uni-note/ai/</guid><description>&lt;p&gt;問題を囲って解答を確認します。録音からのAI要約は&lt;a href="https://kumakikai.top/htu/uni-note/recording/#summary"&gt;録音・文字起こし&lt;/a&gt;、ノートからの問題集生成は&lt;a href="https://kumakikai.top/htu/uni-note/problem-sets/#generate"&gt;問題集&lt;/a&gt;で説明しています。&lt;/p&gt;
 &lt;div id="目的から選ぶ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
 
 &lt;h2 id="answer"&gt;問題を囲って解答を確認する&lt;/h2&gt;
@@ -4517,4 +4837,4 @@ iOS版と同じ思想・操作感で使えることを目標にしています�
 &lt;h2 id="第3弾見返しやすさの拡張"&gt;第3弾：見返しやすさの拡張&lt;/h2&gt;
 &lt;p&gt;次に予定しているのは、&lt;br&gt;
 「分析しない」「評価しない」まま、&lt;br&gt;
-見返しやすさだけを高める拡張です。&lt;/p&gt;</description></item><item><title>Nocca</title><link>https://kumakikai.top/products/nocca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/nocca/</guid><description/></item><item><title>SIGNAL</title><link>https://kumakikai.top/products/signal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/signal/</guid><description/></item><item><title>Uni:Note</title><link>https://kumakikai.top/products/uni-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/uni-note/</guid><description/></item><item><title>Uni:Note Pocket</title><link>https://kumakikai.top/products/uni-note-pocket/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/uni-note-pocket/</guid><description/></item><item><title>オトミル</title><link>https://kumakikai.top/products/oto-miru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/oto-miru/</guid><description/></item><item><title>ギガポケ</title><link>https://kumakikai.top/products/giga-poke/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/giga-poke/</guid><description/></item><item><title>ギャンカレ</title><link>https://kumakikai.top/products/balance-calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/balance-calendar/</guid><description/></item><item><title>すわなび</title><link>https://kumakikai.top/products/smokeless/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/smokeless/</guid><description/></item></channel></rss>
+見返しやすさだけを高める拡張です。&lt;/p&gt;</description></item><item><title>Nocca</title><link>https://kumakikai.top/products/nocca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/nocca/</guid><description/></item><item><title>Pairno</title><link>https://kumakikai.top/products/pairno/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/pairno/</guid><description/></item><item><title>SIGNAL</title><link>https://kumakikai.top/products/signal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/signal/</guid><description/></item><item><title>Uni:Note</title><link>https://kumakikai.top/products/uni-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/uni-note/</guid><description/></item><item><title>Uni:Note Pocket</title><link>https://kumakikai.top/products/uni-note-pocket/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/uni-note-pocket/</guid><description/></item><item><title>オトミル</title><link>https://kumakikai.top/products/oto-miru/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/oto-miru/</guid><description/></item><item><title>ギガポケ</title><link>https://kumakikai.top/products/giga-poke/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/giga-poke/</guid><description/></item><item><title>ギャンカレ</title><link>https://kumakikai.top/products/balance-calendar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/balance-calendar/</guid><description/></item><item><title>すわなび</title><link>https://kumakikai.top/products/smokeless/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kumakikai.top/products/smokeless/</guid><description/></item></channel></rss>
