@@ -1,0 +1,6 @@
+/* About Founder: quiet social links (YouTube / TikTok / note). Kept out of site.css, which is pinned by the guide review ledger. */
+.founder-social { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 10px 0 0; padding: 0; list-style: none; }
+.founder-social a { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; color: var(--muted); font-size: .84rem; font-weight: 500; text-decoration: none; }
+.founder-social a:hover { color: var(--ink); }
+.founder-social a:hover span { text-decoration: underline; text-underline-offset: 3px; }
+.founder-social svg { flex: none; width: 16px; height: 16px; }

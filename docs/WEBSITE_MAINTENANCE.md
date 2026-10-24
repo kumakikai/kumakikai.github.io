@@ -280,6 +280,14 @@ What we buildは **学習（learning）／コミュニケーション（communic
 - 同areaの新Product追加だけならAbout本文変更不要。自然に入らない場合だけ新分類を検討する。
 - 本文の固定アプリ数は禁止。代表ProductとProducts一覧の静的リンクを維持する。
 
+### Founder SNSリンク
+
+AboutのFounder（役職表記の直下）に、運営者の **YouTube／TikTok／note** へのリンクを控えめに置く（2026-10-24の明示依頼）。
+
+- 編集元は `data/social.json.accounts`（id／name／URL。全言語共通）。表示は `layouts/_partials/social-links.html`、スタイルは `assets/css/company-social.css`（`main.css` から import。`site.css` は変更しない）。リストの読み上げラベルは `data/company/<lang>.json.socialLabel`。
+- 見た目は16pxの単色マーク＋サービス名のテキストリンク（`--muted`）。各社のブランド色・大きなバッジ・フォロー数・埋め込みは置かない。App Storeの公式バッジと違い、各社に公式のリンク用バッジは無いため、マークはSimple Iconsのパスデータを無改変・単色で使う。
+- 同じURLを `layouts/_partials/seo/schema.html` のPerson `sameAs` に出す。アカウントの追加・変更・削除は `data/social.json` だけを編集する。Home・Footer・Productへ同じリンクを広げない。
+
 ### Origin（名前の由来）
 
 Aboutの Founder と What we build の間に、ブランド名の由来を語る **フィクションの3コマ漫画＋短い物語** を置く（2026-10-23の明示依頼）。ラベルは英語UI体系に合わせ `Origin`。

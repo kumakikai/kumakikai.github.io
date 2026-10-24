@@ -13,6 +13,7 @@
 {{- $brand := dict "@type" "Brand" "@id" $brandID "name" "KUMAKIKAI" "url" $root "logo" ("/apple-touch-icon.png" | absURL) -}}
 {{- /* Person.brand explicitly supports a brand maintained by a business person. */ -}}
 {{- $person := dict "@type" "Person" "@id" $personID "name" $profile.founderName "jobTitle" $profile.founderRole "url" ("/company/" | absURL) "brand" $brandRef -}}
+{{- with site.Data.social.accounts -}}{{- $sameAs := slice -}}{{- range . -}}{{- $sameAs = $sameAs | append .url -}}{{- end -}}{{- $person = merge $person (dict "sameAs" $sameAs) -}}{{- end -}}
 {{- $languages := slice -}}
 {{- range hugo.Sites -}}{{- $languages = $languages | append .Language.LanguageCode -}}{{- end -}}
 {{- $website := dict "@type" "WebSite" "@id" $websiteID "name" "KUMAKIKAI" "url" $root "inLanguage" $languages "publisher" $personRef "about" $brandRef -}}
