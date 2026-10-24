@@ -282,7 +282,7 @@ What we buildは **学習（learning）／コミュニケーション（communic
 
 ### Founder SNSリンク
 
-AboutのFounder（役職表記の直下）に、運営者の **note／YouTube／TikTok**（この順）へのリンクを控えめに置く（2026-10-24の明示依頼）。
+AboutのFounder（役職表記の直下）に、運営者の **Bluesky／note／YouTube／TikTok**（この順）へのリンクを控えめに置く（2026-10-24の明示依頼）。
 
 - 編集元は `data/social.json.accounts`（id／name／URL。全言語共通）。表示は `layouts/_partials/social-links.html`、スタイルは `assets/css/company-social.css`（`main.css` から import。`site.css` は変更しない）。リストの読み上げラベルは `data/company/<lang>.json.socialLabel`。
 - 見た目は16pxの単色マーク＋サービス名のテキストリンク（`--muted`）。各社のブランド色・大きなバッジ・フォロー数・埋め込みは置かない。App Storeの公式バッジと違い、各社に公式のリンク用バッジは無いため、マークはSimple Iconsのパスデータを無改変・単色で使う。
