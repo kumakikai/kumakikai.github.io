@@ -13,6 +13,7 @@
 &lt;li&gt;&lt;strong&gt;技術的な記録&lt;/strong&gt;：通信の成否、エラーの種類など。運用ログに記録の内容や認証用の秘密情報を記録しない設計です。アクセスの集中を抑えるため、接続元の情報をハッシュ化した短期間の記録も使います。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;お問い合わせ情報&lt;/strong&gt;：お問い合わせの内容と、返信用メールアドレスなど利用者が提供した情報。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;「サポート情報をコピー」は、アプリ名、バージョン・ビルド番号、iOSのバージョン、端末の種類、表示言語、アプリ環境を端末内へコピーする操作です。自動送信はせず、利用者がフォームやメールに貼り付けて送った場合に受け取ります。&lt;/p&gt;
 
 &lt;h3 id="device-only"&gt;端末内だけに保存する情報&lt;/h3&gt;
 &lt;p&gt;レシートや注文画面などの写真は、追加したご自身の端末にだけ保存し、サーバーへ送信しません。保存時に位置情報などの撮影情報を取り除きます。相手には共有されず、機種変更でも引き継がれません。&lt;/p&gt;
@@ -81,12 +82,11 @@
 
 &lt;h2 id="third-parties"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
 &lt;p&gt;AWSを認証、データ保存、通知の配信、運用ログに、Appleをアプリの安全性の確認、プッシュ通知、アプリ内購入に利用します。購入状態の確認にはRevenueCatを利用し、本アプリが作成したランダムな利用者IDと購入の情報を扱います。&lt;/p&gt;
-&lt;p&gt;お問い合わせの受付と返信には、Googleのサービスを利用します。外部サービス自身が扱う情報には、各社のポリシーも適用されます。&lt;/p&gt;
+&lt;p&gt;お問い合わせフォームと回答の保存にはGoogle Formsを、メールの受付・返信にはGoogleのGmailを利用します。外部サービス自身が扱う情報には、各社のポリシーも適用されます。&lt;/p&gt;
 &lt;p&gt;利用者がペアになった相手との共有、サービス提供に必要な委託、下記の広告、法令に基づく場合を除き、情報を第三者に提供しません。記録の内容を販売したり、広告のために送信したりしません。&lt;/p&gt;
 
 &lt;h2 id="ads"&gt;6. 広告について&lt;/h2&gt;
-&lt;p&gt;本アプリはGoogle AdMobを利用して、アプリ内にバナー広告を表示します。また、読み取りの回数を追加するために利用者が選んだ場合に、動画などの広告を表示します。広告の表示前に、広告に関する同意をGoogleの仕組みで確認します。同意の内容は &lt;strong&gt;設定 → 広告に関する同意を変更&lt;/strong&gt; で変更できます。&lt;/p&gt;
-&lt;p&gt;広告の配信、効果測定、不正対策のため、端末や広告に関する情報、広告の表示・操作、診断に関する情報などをGoogleが扱う場合があります。本アプリは、他社のアプリやWebサイトをまたいだ追跡（App Tracking Transparency）の許可を求めません。詳しくは&lt;a href="https://policies.google.com/privacy?hl=ja"&gt;Googleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;</description></item><item><title>よくある質問 (Pairno)</title><link>https://kumakikai.top/faq/pairno/</link><pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/faq/pairno/</guid><description>&lt;h2 id="introduction"&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;本アプリはGoogle AdMobを利用して、アプリ内にバナー広告を表示します。また、読み取りの回数を追加するために利用者が選んだ場合に、動画などの広告を表示します。広告の表示前に、広告に関する同意をGoogleの仕組みで確認します。同意の内容は &lt;strong&gt;設定 → 広告に関する同意を変更&lt;/strong&gt; で変更できます。&lt;/p&gt;</description></item><item><title>よくある質問 (Pairno)</title><link>https://kumakikai.top/faq/pairno/</link><pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/faq/pairno/</guid><description>&lt;h2 id="introduction"&gt;はじめに&lt;/h2&gt;
 
 &lt;h3 id="about"&gt;Pairnoはどんなアプリですか？&lt;/h3&gt;
 &lt;p&gt;ふたりの立て替えと精算を記録するアプリです。どちらかがまとめて払った支出を記録すると、どちらからどちらへいくら返せばよいかを表示します。&lt;a href="https://kumakikai.top/htu/pairno/"&gt;使い方&lt;/a&gt;で操作を確認できます。&lt;/p&gt;
