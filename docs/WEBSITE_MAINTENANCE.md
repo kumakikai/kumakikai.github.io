@@ -38,7 +38,7 @@
 | Product | アプリを理解する。`/products/<id>/`。概要・特徴・画像・利用シーン・基本情報・Store・Support |
 | Guide | 実画面で操作を説明。既存 `/htu/<id>/`。短いStepと操作画像 |
 | FAQ | 困りごと・例外・よくある質問。既存 `/faq/<id>/`。操作はGuideの見出しへ |
-| News | 発表・読み物・実務告知。`/news/`。旧 `/notes/<slug>/` と新 `/news/<slug>/` 記事を集約 |
+| News | 発表・実務告知。`/news/`。開発・運営の読み物はnoteで発信する（§7）。旧 `/notes/<slug>/` と新 `/news/<slug>/` 記事を集約 |
 | About | ブランド、Yuya Nakamura、開発領域、For Media、基本情報。表示名About、URLは **`/company/`** |
 | Contact | 取材・掲載・その他問い合わせ。現在は **`/company/#contact`**。独立した `/contact/` を仮定しない |
 | Privacy / Terms | 各アプリの既存本文URL。総合一覧を主要入口にしない |
@@ -238,7 +238,9 @@ Guideは「見出し → 短い説明／Step → 実UI画像 → 必要な補足
 
 ### News（明示的な記事作成依頼がある場合のみ）
 
-「プレスリリースを作って」「正式発表の記事を書いて」「お知らせを書いて」「この内容でブログを書きたい」等の依頼がある場合にだけ記事を追加する。「新しいアプリをHPに追加して」「リリースしたのでサイトも更新して」「アプリを更新したのでHPも合わせて」は記事作成の指示ではない。Informationも通常更新に付随して作らず、BlogもProductリリースとは独立して扱う。
+「プレスリリースを作って」「正式発表の記事を書いて」「お知らせを書いて」等の依頼がある場合にだけ記事を追加する。「新しいアプリをHPに追加して」「リリースしたのでサイトも更新して」「アプリを更新したのでHPも合わせて」は記事作成の指示ではない。Informationも通常更新に付随して作らず、BlogもProductリリースとは独立して扱う。
+
+**発信先の使い分け（2026-10-24のユーザー決定）**：開発・運営の読み物（数字、失敗、広告費、判断の裏側など）は外部のnote（`https://note.com/kumakikai_apps`）で発信し、HPのNewsは発表（Press Release）と利用者への実務告知（Information）に絞る。「ブログを書きたい」等の依頼は、HPのNewsへの掲載を明示された場合を除きHPに記事を追加しない。既存Blog記事の本文・URL、Blogカテゴリーと `#blog` フィルタは維持し、移動・削除しない。
 
 実際に発信したい内容がある場合だけ作成し、更新しているように見せるための記事、分類を埋める記事、SEO用の薄い記事を生成しない。既存Press Releaseの本文・URLはこの運用変更では編集・削除・移動しない。Newsからの既存導線も維持する。
 
@@ -256,7 +258,7 @@ draft: true
 ---
 ```
 
-news_categoryは **press-release / blog / information**、UIは **Press Release / Blog / Information**。明示依頼された正式Product紹介Press Releaseは「正式アプリ名＋について」。開発・運営の読み物はBlog、利用者への実務告知はInformation。未分類は実装上informationへfallbackするため必ず明示する。
+news_categoryは **press-release / blog / information**、UIは **Press Release / Blog / Information**。明示依頼された正式Product紹介Press Releaseは「正式アプリ名＋について」。既存の開発・運営の読み物はBlog（新規の読み物は上記のとおりnoteで発信）、利用者への実務告知はInformation。未分類は実装上informationへfallbackするため必ず明示する。
 
 旧記事は `data/news.json` のcategory / relatedProductsで補助、新記事のfront matterが優先。related_productsは実際に扱うアプリのみ指定し、Press Release → Productの静的リンクを保つ。全Blogに全Productを自動列挙しない。公開時は本文・日付・draftを確認（未来日は通常build対象外）。翻訳は同basenameのsuffix。現行Newsは日本語記事を他言語一覧にも日本語と明示して案内する。
 
