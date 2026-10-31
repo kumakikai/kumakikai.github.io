@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>プライバシーポリシー on KUMAKIKAI</title><link>https://kumakikai.top/privacy/</link><description>Recent content in プライバシーポリシー on KUMAKIKAI</description><generator>Hugo</generator><language>ja-JP</language><atom:link href="https://kumakikai.top/privacy/index.xml" rel="self" type="application/rss+xml"/><item><title>プライバシーポリシー (Pairno)</title><link>https://kumakikai.top/privacy/pairno/</link><pubDate>Mon, 26 Oct 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/pairno/</guid><description>&lt;h2 id="introduction"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、Pairno（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;p&gt;本アプリは、ふたりの立て替えと精算を記録するアプリです。本ポリシーは、配信を予定しているiPhone版について定めます。&lt;/p&gt;
+
+&lt;h2 id="collect"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;呼び名とペアの情報&lt;/strong&gt;：入力した呼び名（1〜30文字）、招待・接続・ペアの解除の状態。呼び名は &lt;strong&gt;設定 → 名前を変更&lt;/strong&gt; で変更でき、変更すると現在のペアの相手にも新しい呼び名が表示されます。本名、年齢、住所、口座情報の登録は求めません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;記録の内容&lt;/strong&gt;：支出のお店・品名、メモ、金額、支払った人、負担率と負担額、支払い日時とタイムゾーン、精算とその取り消し、残高、変更の履歴。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;端末・認証情報&lt;/strong&gt;：インストールや認証の識別情報、端末の登録・失効状態、正規アプリの確認に使う鍵の識別子と検証結果。移行コードと復旧コードは、元に戻せない形に変換した値だけを保存し、コードそのものは保存しません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通知情報&lt;/strong&gt;：毎月の通知を使う場合の通知用トークン、お知らせする日、タイムゾーン、通知の許可状態。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;購入に関する情報&lt;/strong&gt;：Pairno Plus（月額のサブスクリプション）の登録状態と有効期限の確認結果。Apple Accountのメールアドレスやクレジットカード番号は取得しません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;読み取りに使う画像&lt;/strong&gt;：「AIでの読み取り」に同意した場合に限り、読み取りを行うたびに、選んだ画像のうち先頭の1枚をサーバーへ送信します。詳しくは「&lt;a href="https://kumakikai.top/privacy/pairno/#receipt-reading"&gt;レシートなどの読み取り&lt;/a&gt;」をご確認ください。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;読み取りの回数&lt;/strong&gt;：日本時間の日付ごとの読み取りの利用回数と、広告による回数の追加の記録。画像や読み取った内容は含みません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技術的な記録&lt;/strong&gt;：通信の成否、エラーの種類など。運用ログに記録の内容や認証用の秘密情報を記録しない設計です。アクセスの集中を抑えるため、接続元の情報をハッシュ化した短期間の記録も使います。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;お問い合わせ情報&lt;/strong&gt;：お問い合わせの内容と、返信用メールアドレスなど利用者が提供した情報。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「サポート情報をコピー」は、アプリ名、バージョン・ビルド番号、iOSのバージョン、端末の種類、表示言語、アプリ環境を端末内へコピーする操作です。自動送信はせず、利用者がフォームやメールに貼り付けて送った場合に受け取ります。&lt;/p&gt;
+
+&lt;h3 id="device-only"&gt;端末内だけに保存する情報&lt;/h3&gt;
+&lt;p&gt;レシートや注文画面などの写真は、追加したご自身の端末にだけ保存します。保存時に位置情報などの撮影情報を取り除きます。相手には共有されず、機種変更でも引き継がれません。読み取りのときに送信する画像も、サーバーには保存しません。&lt;/p&gt;
+&lt;p&gt;このほか、デザイン、自分の初期負担率、「AIでの読み取り」の選択、入力中の下書きなどは端末内に保存します。&lt;/p&gt;
+&lt;p&gt;「サンプルの相手で試す」で表示するサンプルの相手と記録、サンプル中に追加した写真は、端末内だけに保存し、サーバーへ送信しません。&lt;strong&gt;サンプルを終える&lt;/strong&gt; で端末から消去します。サンプル中も、読み取り、Pairno Plus、広告は、ご自身のアカウントで通常どおり動作します。&lt;/p&gt;
+
+&lt;h3 id="receipt-reading"&gt;レシートなどの読み取り&lt;/h3&gt;
+&lt;p&gt;支払いの入力で画像を追加すると、その画像から店名・品名、金額、メモを読み取り、入力欄に反映します。読み取りは、最初に使うときに確認を表示し、同意した場合だけ行います。同意しない場合や「AIでの読み取り」をオフにした場合は、画像を送信せず、写真の保存だけを行います。&lt;strong&gt;設定 → AIでの読み取り&lt;/strong&gt; でいつでも変更できます。&lt;/p&gt;
+&lt;p&gt;読み取りでは、選んだ画像のうち先頭の1枚を、通信を暗号化して当方のサーバー（AWS）へ送り、サーバーからGoogleのGemini APIへ送信して読み取ります。サーバーは、画像と読み取った内容を処理の間だけメモリ上で扱い、保存やログへの記録をしません。Googleへは、利用者の呼び名や記録の内容など、個人を特定する情報を送りません。&lt;/p&gt;
+&lt;p&gt;当方はGemini APIを有料のサービスとして利用しており、Googleの規約上、送信した画像や読み取った内容がGoogleのモデルの学習や製品の改善に使われることはありません。ただし、Googleは不正利用の検出と防止のため、送信内容を一定期間記録する場合があります。詳しくは&lt;a href="https://ai.google.dev/gemini-api/terms"&gt;Gemini APIの追加利用規約&lt;/a&gt;をご確認ください。&lt;/p&gt;
+
+&lt;h3 id="not-collected"&gt;取得しない情報&lt;/h3&gt;
+&lt;p&gt;メールアドレスやパスワードによる会員登録はありません。端末の連絡先、位置情報、マイクへアクセスしません。カメラは、レシートなどを撮影するときと、招待のQRコードを読み取るときだけ使います。写真は、利用者が選んだ画像だけを読み込みます。&lt;/p&gt;
+&lt;p&gt;本アプリは、銀行口座やクレジットカードと連携せず、送金・決済を行いません。&lt;/p&gt;
+
+&lt;h2 id="purpose"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;呼び名とペアの情報は相手の確認と記録の共有範囲の管理に、記録の内容は精算額の計算・表示、ふたりの端末間の同期、機種変更時の引き継ぎに使います。通知情報は、残高があるときの毎月の通知に使います。読み取りに使う画像は読み取った内容を返すために、読み取りの回数は回数の上限と広告による追加の管理に使います。&lt;/p&gt;
+&lt;p&gt;端末・認証情報は、正規アプリの確認、なりすましや不正な引き継ぎの防止に使います。購入に関する情報はPairno Plusの機能の提供と有効期限の確認に、技術的な記録は障害調査、安全な運用、アクセス集中の抑制に、お問い合わせ情報は回答と問題の解決に使います。&lt;/p&gt;
+
+&lt;h2 id="storage"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;ふたりで共有する記録、ペアの情報、認証と通知の情報はAWSへ送信し、東京リージョンに暗号化して保存します。認証用の資格情報は、端末の保護された保存領域に保存し、ほかの端末へ同期しません。&lt;/p&gt;
+&lt;p&gt;端末内だけに保存される記録帳ではありません。また、運営者も復号できない方式のサービスではありません。運営者は、障害対応など運用に必要な範囲に限ってアクセスを管理します。&lt;/p&gt;
+&lt;p&gt;端末内の写真などは、iPhoneのバックアップの設定によってはバックアップに含まれることがあります。&lt;/p&gt;
+
+&lt;h3 id="retention"&gt;保存期間&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;情報&lt;/th&gt;
+ &lt;th&gt;保存期間・扱い&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ペアの記録、呼び名、ペアの情報&lt;/td&gt;
+ &lt;td&gt;ペアのデータを削除するまで保存します。支出を削除すると画面には表示されなくなりますが、記録の整合性を保つため、内容はペアのデータの削除まで保存されます。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;通知情報、購入状態の確認結果、端末の認証情報&lt;/td&gt;
+ &lt;td&gt;利用中は保持し、引き継ぎ、ペアの解除、アカウントの削除に応じて失効・削除します。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;招待コード&lt;/td&gt;
+ &lt;td&gt;有効期限は発行から24時間です。期限切れの記録は順次削除します。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;移行コード&lt;/td&gt;
+ &lt;td&gt;有効期限は発行から10分です。新しく発行すると、以前のコードは使えなくなります。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;復旧コード&lt;/td&gt;
+ &lt;td&gt;期限はありません。使用するか発行し直すと、以前のコードは使えなくなります。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;使い捨ての端末確認情報&lt;/td&gt;
+ &lt;td&gt;有効期間は5分以内です。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;読み取りの回数、広告による追加の記録&lt;/td&gt;
+ &lt;td&gt;約7日です。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;読み取りに使う画像と読み取った内容&lt;/td&gt;
+ &lt;td&gt;サーバーには保存しません。Googleでの扱いは「&lt;a href="https://kumakikai.top/privacy/pairno/#receipt-reading"&gt;レシートなどの読み取り&lt;/a&gt;」のとおりです。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;アクセス集中を抑えるための記録&lt;/td&gt;
+ &lt;td&gt;約1時間です。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;運用ログ&lt;/td&gt;
+ &lt;td&gt;30日です。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;障害復旧用の自動バックアップは最大35日間保持され、削除前のデータが残ることがあります。通常の利用には戻さず、復旧時にも削除済みの情報を再び利用可能にしないよう取り扱います。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (Nocca)</title><link>https://kumakikai.top/privacy/nocca/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/nocca/</guid><description>&lt;div id="1-基本方針" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="1-はじめに"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、Nocca（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;p&gt;本アプリは、自分のペースで家族に意思を伝えるためのアプリです。本ポリシーは、App Storeで公開中のiPhone版について定めます。&lt;/p&gt;
+&lt;div id="1-取得する情報と目的" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="2-本アプリが扱う情報" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="2-取得する情報"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;表示名と接続情報&lt;/strong&gt;：入力した表示名、本人・家族の役割、招待、接続の承認・解除、通信の休止など。本名や年齢の登録は求めません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通信内容と設定&lt;/strong&gt;：意思表示、定型返信、依頼、会話のメッセージ、送信日時、会話の開始・終了、カスタマイズしたアイコンや定型文。「少ししんどい」など、利用者が選んで伝えた体調・気分の内容を含みます。健康状態を自動で測定・分析しません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;端末・認証情報&lt;/strong&gt;：インストールや認証の識別情報、端末の登録・失効状態、正規アプリの確認に使う鍵の識別子・公開鍵・検証結果。App Attestの秘密鍵はサーバーに保存しません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通知情報&lt;/strong&gt;：通知を許可した端末の通知用トークンと配信先。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;料金に関する情報&lt;/strong&gt;：現在の公開版では購入・サブスクリプションを提供せず、購入取引の情報を取得しません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技術的な記録&lt;/strong&gt;：通信の成否、エラーの種類、応答時間など。運用ログに通信本文や認証用の秘密情報を記録しない設計です。接続元の情報をハッシュ化した短期間の記録も使います。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;お問い合わせ情報&lt;/strong&gt;：種類、内容、任意のサポート情報、返信用メールアドレス。サポート情報と返信用メールアドレスは空欄でも送信できます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「サポート情報をコピー」は、アプリ名、バージョン・ビルド番号、OS、端末の種類、選んだ使い方、言語、アプリ環境を端末内へコピーする操作です。自動送信はせず、利用者がフォームやメールに貼り付けて送った場合に受け取ります。&lt;/p&gt;
+&lt;div id="4-取得しない情報" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="7-広告について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="登録取得を求めない情報"&gt;登録・取得を求めない情報&lt;/h3&gt;
+&lt;p&gt;メールアドレスやパスワードによる会員登録はありません。ただし、安全に通信するための内部の認証情報は作成します。Apple Accountのメールアドレス、パスワード、クレジットカード番号は取得しません。&lt;/p&gt;
+&lt;p&gt;広告、広告目的の追跡、行動分析のためのSDKは使いません。位置情報、端末の連絡先、カメラ、マイクへアクセスしません。家族との接続情報はアドレス帳から取得するものではありません。&lt;/p&gt;
+
+&lt;h2 id="3-情報の利用目的"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;表示名や接続情報は相手の確認と通信範囲の管理に、通信内容と設定は家族への配信・同期・引き継ぎに使います。通知情報はAppleのプッシュ通知に使います。&lt;/p&gt;
+&lt;p&gt;端末・認証情報は正規アプリの確認、なりすましや同じ要求の再利用防止に使います。現在の公開版では購入・復元や、おためし期間による利用可否の判定は行いません。技術的な記録は障害調査と安全な運用、アクセス集中の抑制に使います。お問い合わせ情報は回答と問題の解決に使います。&lt;/p&gt;
+&lt;div id="2-保存先と家族への共有" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="3-保存と同期について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="4-情報の保存管理"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;設定や通信の控えは端末内に、認証用の資格情報は端末の保護された保存領域に保存します。通信、同期、引き継ぎ、認証に必要な情報はAWSへ送信し、主に東京リージョンに保存します。通信を保護し、接続関係と操作権限を確認して管理します。&lt;/p&gt;
+&lt;p&gt;端末だけに保存されるサービスや、運営者も復号できない方式の通信ではありません。&lt;/p&gt;
+&lt;div id="4-保存期間" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="保存期間"&gt;保存期間&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;情報&lt;/th&gt;
+ &lt;th&gt;保存期間・扱い&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;家族との接続、通信内容、カスタマイズ、引き継ぎ用の控え&lt;/td&gt;
+ &lt;td&gt;対象となるデータを削除するまで保存します。会話を閉じることだけでは削除されません。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;通知の配信先、通常の端末認証情報、検証用の公開鍵&lt;/td&gt;
+ &lt;td&gt;利用中は保持し、引き継ぎ・接続解除・削除の対象に応じて失効・削除します。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;招待・引き継ぎの一時情報&lt;/td&gt;
+ &lt;td&gt;招待は通常30日、引き継ぎコードは通常7日が有効期限です。使用後の引き継ぎ応答の回復用記録は24時間です。期限切れの記録は順次削除します。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;使い捨ての端末確認情報&lt;/td&gt;
+ &lt;td&gt;利用できる期間は2〜5分です。その期限から1時間後を削除対象時刻とします。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;旧認証の再利用防止の記録&lt;/td&gt;
+ &lt;td&gt;元の表示名や通信本文ではなく、ハッシュ化した識別情報と必要最小限の状態を保持します。旧端末の不正な復活を防ぐため固定日数での自動削除は行わず、この認証制度を提供する期間中に限って使います。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;運用ログ&lt;/td&gt;
+ &lt;td&gt;30日です。通信の集中を抑えるための短期記録は約2分です。&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;期限付きのデータは自動削除の対象となった後、クラウド側の処理により削除されます。削除対象時刻と物理的な消去時刻は一致しないことがあります。期限が過ぎた確認情報を、その遅延を理由に有効として扱うことはありません。&lt;/p&gt;
+&lt;p&gt;障害復旧用の自動バックアップは最大35日間です。更新作業などで作成する一時的なバックアップは、自動削除とは別に管理し、復旧に必要な確認を終えた後35日以内に運営者が削除します。これらには削除前のデータが残ることがあります。通常利用には戻さず、復旧時にも削除済みの情報を再び利用可能にしないよう取り扱います。&lt;/p&gt;
+&lt;p&gt;お問い合わせの記録は、対応が完了してから1年以内に削除する運用とします。継続中の問題や法令上の対応に必要な記録は、必要な範囲で期間を見直します。固定日数で自動削除しない照合情報も、その目的を廃止した後まで保持し続ける方針ではありません。現在の公開版では、購入確認に備える照合用IDは作成しません。&lt;/p&gt;
+&lt;div id="6-外部サービスと安全管理" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="6-第三者サービスについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="5-外部サービス第三者提供"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
+&lt;p&gt;AWSを認証、データ保存、通知中継、運用ログに、Appleをアプリの安全性確認とプッシュ通知に利用します。目的に必要な情報を送り、委託先の選定、アクセス権の制限、通信・保存時の保護により管理します。&lt;/p&gt;
+&lt;p&gt;お問い合わせフォームと回答の保存にはGoogle Formsを、メールの受付・返信にはGoogleのGmailを利用します。外部サービス自身が扱う情報には各社のポリシーも適用されます。これらはアプリ内の広告・行動分析SDKではありません。&lt;/p&gt;
+&lt;p&gt;利用者が選んだ家族への通信、サービス提供に必要な委託、法令に基づく場合を除き、情報を第三者に提供しません。広告のためのデータ販売や他社データとの照合は行いません。&lt;/p&gt;
+&lt;div id="5-通信内容について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="6-家族への共有と通知"&gt;6. 家族への共有と通知&lt;/h2&gt;
+&lt;p&gt;表示名、承認した接続関係、意思表示・返信・会話、共有に必要な設定は、接続した家族が確認できます。Apple Accountや認証情報を家族に表示しません。&lt;/p&gt;
+&lt;p&gt;プッシュ通知には一般的なお知らせ文と、必要な画面を開くための識別情報を含めます。意思表示・会話の本文や家族の表示名を含めません。通知はiPhoneの設定で変更できます。&lt;/p&gt;
+&lt;div id="3-おためしとサブスクリプション" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="8-課金について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="7-料金に関する情報"&gt;7. 料金に関する情報&lt;/h2&gt;
+&lt;p&gt;現在の公開版では、購入・サブスクリプション登録を求めず、7日間のおためしやAppleの無料トライアルも提供していません。購入取引・契約状態の情報を取得して利用可否を判定することはありません。有料プランを提供する場合は、開始前に取扱いを案内し、本ポリシーを更新します。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (Uni:Note)</title><link>https://kumakikai.top/privacy/uni-note/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/uni-note/</guid><description>&lt;h2 id="introduction"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、Uni:Note（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;div id="1-取得する情報について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="information"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;p&gt;本アプリ独自の会員登録やログインは不要です。利用者がノートやお問い合わせに入力・添付する情報には、個人情報が含まれる場合があります。&lt;/p&gt;
+&lt;p&gt;本アプリ内で作成したノート、手書きデータ、画像、PDF、録音音声、文字起こし、設定情報は、利用者の端末内に保存されます。&lt;/p&gt;
+&lt;div id="2-写真ファイルの取扱いについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="写真ファイル"&gt;写真・ファイル&lt;/h3&gt;
+&lt;p&gt;本アプリでは、利用者が明示的に選択した画像やPDFなどのファイルをノートへ貼り付けることができます。&lt;/p&gt;
+&lt;p&gt;また、バックアップ作成や復元のために、利用者が選択した保存先またはバックアップファイルへアクセスする場合があります。&lt;/p&gt;
+&lt;p&gt;通常の写真・PDFの貼付は端末内で処理します。利用者がAI機能を実行する場合の外部送信は、後述のAIに関する項目をご確認ください。&lt;/p&gt;
+&lt;div id="5-プレミアム機能購入情報ai残量について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="購入情報ai残量"&gt;購入情報・AI残量&lt;/h3&gt;
+&lt;p&gt;購入確認にはAppleの取引識別子や署名済取引情報を、AI残量の管理にはそれらに関連する識別子を利用します。氏名やメールアドレスを登録する会員アカウントとは異なりますが、同じ利用者の購入や利用を対応付けるための情報です。&lt;/p&gt;
+
+&lt;h3 id="お問い合わせ情報"&gt;お問い合わせ情報&lt;/h3&gt;
+&lt;p&gt;お問い合わせでは、利用者が送信した内容、返信用メールアドレス、任意に提供した端末・アプリの情報を、回答と問題の調査に利用します。対応に必要な期間保管し、不要になった情報は削除します。法令上の対応に必要な場合は、その目的に必要な範囲で保管します。&lt;/p&gt;
+
+
+&lt;h2 id="purposes"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;ノート・資料の保存と閲覧、バックアップと復元、選択された内容のAI処理、購入状態とAI残量の管理、二重付与の防止、不具合調査のために、各機能に必要な情報を利用します。&lt;/p&gt;
+&lt;div id="3-バックアップと保存について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="storage"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;ノートや添付資料などの通常のデータは、端末内に保存されます。AI処理と購入・AI残量の管理に伴うサーバー上の情報は、以下のとおり取り扱います。&lt;/p&gt;
+&lt;p&gt;バックアップ機能を利用した場合、バックアップファイルは利用者が選択した保存先に保存されます。&lt;/p&gt;
+&lt;p&gt;iCloud Drive 等の外部保存先を利用する場合は、当該サービス側の取扱いについて各提供元のポリシーをご確認ください。&lt;/p&gt;
+&lt;p&gt;録音音声は、利用者がバックアップ作成時に &lt;strong&gt;録音音声もバックアップに含める&lt;/strong&gt; をオンにした場合にバックアップへ含まれます。&lt;/p&gt;
+&lt;p&gt;AI機能を利用すると、当方が利用するAWSのサーバーがリクエストを処理します。再送時の重複処理を防ぐため、生成結果を短期間キャッシュする場合があります。購入・AI残量の識別子、取引情報、付与・消費履歴、処理状態や使用量などの技術情報は、購入確認・残量管理・不具合調査のためサーバーで管理します。生成結果には、入力から導かれた情報が含まれる場合があります。&lt;/p&gt;
+&lt;div id="8-個人情報の第三者提供について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="external-services"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
+&lt;p&gt;AI処理と残量・取引管理にはAmazon Web Services（AWS）、AIの生成・解析にはGoogle Gemini、診断にはGoogle Firebase Crashlytics、購入処理にはAppleのApp Storeを利用します。外部保存先を選択したバックアップやiCloudのかんたんバックアップは、その保存先の提供者が取り扱います。各機能に必要な範囲で情報が処理されるほか、法令に基づき情報を提供する場合があります。 お問い合わせフォームとメールの受付・返信にはGoogle FormsとGmailを利用します。&lt;/p&gt;
+&lt;p&gt;各サービスの情報の取扱いについては、&lt;a href="https://aws.amazon.com/compliance/data-privacy/"&gt;AWSのデータプライバシー&lt;/a&gt;、&lt;a href="https://ai.google.dev/gemini-api/terms"&gt;Gemini APIの処理条件&lt;/a&gt;、&lt;a href="https://firebase.google.com/support/privacy"&gt;Firebaseのプライバシーとセキュリティ&lt;/a&gt;、&lt;a href="https://www.apple.com/legal/privacy/"&gt;Appleのプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;div id="7-広告解析ツールについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="広告解析"&gt;広告・解析&lt;/h3&gt;
+&lt;p&gt;本アプリは、広告配信SDKを利用していません。&lt;/p&gt;
+&lt;p&gt;Google Analytics for Firebase では、機能が利用されたことを示す定型イベントを集計します。たとえば、ノートの作成・閲覧、添付の追加（写真・書類写真・PDFの区分）、録音開始、AI・購入・バックアップの各操作です。記録するのは操作の種類や段階・固定の区分値であり、ノートや添付ファイル、録音そのものをAnalyticsに送るものではありません。AI機能を使う際、選択した内容がAI処理のため外部送信される場合があります。送信先と内容は「AI・音声の処理」に記載しており、その内容をAnalyticsには送りません。Analytics は自動生成されるアプリインスタンスIDと、アプリ起動などの自動イベントも収集します。独自イベントには手書き、OCR、問題文、AIへの入力・回答、文字起こし、録音・PDF・画像の内容、ファイル名、氏名、メールアドレス、ノートやページの内部IDを含めません。Firebase Crashlytics は診断・クラッシュ解析に使用します。広告識別子IDFA、広告パーソナライズ、他のアプリやサービスをまたぐ追跡には使用しません。&lt;/p&gt;
+&lt;div id="6-診断データクラッシュデータについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="診断データ"&gt;診断データ&lt;/h3&gt;
+&lt;p&gt;この項目の「送信しない情報」は、Firebase Crashlytics向けの診断情報についての説明です。AI機能や利用者が送るお問い合わせとは区別します。&lt;/p&gt;
+&lt;p&gt;本アプリは、アプリの安定性改善と不具合調査のため、Firebase Crashlytics を使用して診断データやクラッシュ情報を送信する場合があります。&lt;/p&gt;
+&lt;p&gt;送信される可能性がある情報は、アプリのバージョン、ビルド番号、OS、端末種別の大まかな分類、画面サイズ分類、操作種別、ページ数・添付数・PDFページ数・バックアップサイズなどの大まかな件数区分、エラー分類、エラードメイン、エラーコードなどの技術情報です。&lt;/p&gt;
+&lt;p&gt;これらの診断項目に加え、FirebaseのSDKが標準で扱うアプリのインストール識別子やクラッシュ時のスタックトレースなども含まれます。&lt;/p&gt;
+&lt;p&gt;当方がCrashlyticsの診断項目として設定する情報には、ノート本文、手書き内容、画像内容、PDF内容、OCR結果、録音内容、ノート名、教科名、ファイル名、実ファイルパス、利用者名、メールアドレスを含めません。&lt;/p&gt;
+&lt;div id="4-学習アシスタントai機能について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="ai"&gt;6. AI・音声の処理&lt;/h2&gt;
+&lt;p&gt;本アプリの &lt;code&gt;囲って解答アシスタント&lt;/code&gt; や &lt;code&gt;問題集を作る&lt;/code&gt; などの学習アシスタント機能では、解答生成や問題候補生成のため、利用者が選択したノートの一部、手書き内容、画像、PDF の一部などが外部AIサービスに送信される場合があります。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (SIGNAL)</title><link>https://kumakikai.top/privacy/signal/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/signal/</guid><description>&lt;h2 id="section-1"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、SIGNAL（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;div id="1-取得する情報について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-2"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;p&gt;本アプリは、記事の閲覧履歴、グッド／バッドの選択、閲覧傾向から調整する表示の重み、配信源・テーマ・文字サイズ等の設定、一部の記事一覧・画像に関するキャッシュを端末内で扱います。会員登録やプロフィールの入力は必要ありません。&lt;/p&gt;
+&lt;p&gt;お問い合わせを送信した場合は、本文、送信元・返信用メールアドレス、利用者が提供したアプリ・端末情報を当方が受け取ります。&lt;/p&gt;
+
+&lt;h2 id="section-3"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;閲覧した記事、グッド／バッド、記事を読んだ時間などをもとに、利用者の端末内で表示傾向を調整します。設定は表示と配信源の選択に、キャッシュは記事一覧や画像の表示に使います。お問い合わせ情報は回答と問題の調査に使います。&lt;/p&gt;
+&lt;p&gt;本アプリの学習処理のために、閲覧傾向を外部のAIサービスへ送信することはありません。&lt;/p&gt;
+&lt;div id="5-データの保存について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-4"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;学習履歴、設定、一部のキャッシュは利用者の端末内に保存します。当方がこれらを自動取得・閲覧する機能や、アカウントを使ったクラウド同期機能はありません。記事本文をオフライン用に保存する機能はありません。&lt;/p&gt;
+&lt;p&gt;お問い合わせでは、利用者が送信した内容、返信用メールアドレス、任意に提供した端末・アプリの情報を、回答と問題の調査に利用します。対応に必要な期間保管し、不要になった情報は削除します。法令上の対応に必要な場合は、その目的に必要な範囲で保管します。&lt;/p&gt;
+
+&lt;div id="2-外部コンテンツの取得について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="3-広告解析ツールについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="4-個人情報の第三者提供について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-5"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
+&lt;p&gt;記事一覧の表示・更新時には、note、Zenn、Qiita、Hatena、DevelopersIO、Yahooニュース、Google Newsなどの配信元へ通信し、記事情報を取得します。画像やサイトアイコンの表示にも、配信元や画像提供サービスへのアクセスが生じる場合があります。取得先はIPアドレス等の通常のWebアクセス情報を扱う場合があります。&lt;/p&gt;
+&lt;p&gt;記事を開くと、アプリ内ブラウザから記事サイトへアクセスします。記事サイトでは、その提供者がCookie、広告、ログイン等を利用する場合があります。リンク先の規約とプライバシーポリシーをご確認ください。SIGNALの記事一覧には広告を表示せず、広告配信・利用状況解析・クラッシュ解析のサービスも利用していません。&lt;/p&gt;
+&lt;p&gt;記事を共有したり外部ブラウザで開いたりした場合は、利用者が選んだアプリ・サービスへ記事のURL等を渡します。&lt;/p&gt;
+&lt;p&gt;お問い合わせ機能は、内容・再現手順・補足と、アプリ名・バージョン・OS・端末情報を含むメールの下書きを作ります。利用者が送信するまで、自動で送信しません。App Storeの入手・更新等にはAppleのサービスを使います。&lt;a href="https://www.apple.com/jp/legal/privacy/jp/"&gt;Appleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;p&gt;これらの外部サービスを利用する操作と法令に基づく場合を除き、当方が受け取った個人情報を本人の同意なく第三者へ提供しません。&lt;/p&gt;
+
+&lt;h2 id="section-6"&gt;6. 利用者によるデータ管理・削除&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;設定 → 学習データをリセット&lt;/code&gt;から学習履歴を削除できます。この操作は、すべての設定・キャッシュや記事サイトのCookieを一括で削除するものではありません。配信源や表示設定は設定画面で変更できます。&lt;/p&gt;
+&lt;p&gt;アプリを削除すると端末内のアプリデータも削除されます。OSのバックアップや外部へ共有した情報は各保存先の手続きで管理してください。記事サイト側のアカウント情報や閲覧情報の削除は、各提供者へお問い合わせください。&lt;/p&gt;
+&lt;div id="6-プライバシーポリシーの変更" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-7"&gt;7. 本ポリシーの変更&lt;/h2&gt;
+&lt;p&gt;法令、本アプリの機能、情報の取扱いの変更に応じて本ポリシーを改定します。変更内容と適用日を本アプリまたは公式サイトで案内し、利用者への影響が大きい変更は適用前にお知らせします。法令上同意が必要な場合は、同意を得たうえで変更後の取扱いを行います。&lt;/p&gt;
+
+&lt;div id="7-お問い合わせ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-8"&gt;8. お問い合わせ&lt;/h2&gt;
+&lt;p&gt;当方が保有する個人情報の開示・訂正・利用停止・削除や、運営者情報についても、次の窓口で受け付けます。対象の特定に必要な範囲で本人確認を行い、法令に従って対応します。対応できない場合は理由を説明します。&lt;/p&gt;
+
+&lt;div class="document-contact" data-document-contact&gt;
+&lt;p&gt;SIGNALに関するお問い合わせは、次の窓口からご連絡ください。&lt;/p&gt;&lt;p&gt;&lt;a href="mailto:kumakikai.apps@gmail.com?subject=SIGNAL&amp;#43;%E2%80%94&amp;#43;%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"&gt;メールで問い合わせる&lt;/a&gt;&lt;/p&gt;&lt;p&gt;お問い合わせの内容に必要な情報だけを送信してください。パスワードや認証コードは送らないでください。&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>プライバシーポリシー (Uni:Note Pocket)</title><link>https://kumakikai.top/privacy/uni-note-pocket/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/uni-note-pocket/</guid><description>&lt;h2 id="introduction"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、Uni:Note Pocket（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;div id="1-取得する情報について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="information"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;p&gt;本アプリ独自の会員登録やログインは不要です。取り込むバックアップや、利用者がお問い合わせに入力・添付する情報には、個人情報が含まれる場合があります。&lt;/p&gt;
+&lt;p&gt;取り込んだノート・ページ・画像・PDF・問題集・録音等のデータ、付箋マーカーの表示状態、閲覧位置、言語や表示設定を端末内で処理します。&lt;/p&gt;
+&lt;div id="2-バックアップファイルの取扱いについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="バックアップファイル"&gt;バックアップファイル&lt;/h3&gt;
+&lt;p&gt;本アプリは、利用者が明示的に選択した Uni:Note のバックアップ zip にアクセスすることがあります。&lt;/p&gt;
+&lt;p&gt;選択されたバックアップファイルは、内容の検証とアプリ内閲覧のために処理されます。取り込み機能は、バックアップの内容を当方へ送信しません。&lt;/p&gt;
+&lt;p&gt;また、元のバックアップファイル自体を本アプリが書き換えることはありません。&lt;/p&gt;
+
+&lt;h3 id="お問い合わせ情報"&gt;お問い合わせ情報&lt;/h3&gt;
+&lt;p&gt;お問い合わせでは、利用者が送信した内容、返信用メールアドレス、任意に提供した端末・アプリの情報を、回答と問題の調査に利用します。対応に必要な期間保管し、不要になった情報は削除します。法令上の対応に必要な場合は、その目的に必要な範囲で保管します。&lt;/p&gt;
+
+
+&lt;h2 id="purposes"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;バックアップの検証と取り込み、ノート・問題集・録音の閲覧や再生、付箋の表示切替、閲覧位置や設定の保持、バックアップの更新確認に必要な情報を利用します。&lt;/p&gt;
+&lt;div id="3-端末内保存について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="storage"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;本アプリは、取り込んだバックアップ由来データを端末内に保存して閲覧に利用します。&lt;/p&gt;
+&lt;p&gt;利用者が iCloud Drive 等の外部ストレージに保存されたバックアップファイルを選択した場合、その保存先サービスにおけるデータの取扱いについては各提供元のポリシーをご確認ください。&lt;/p&gt;
+&lt;p&gt;かんたんバックアップでは、Uni:Noteと共有するiCloudのバックアップを確認・読み込みます。「起動時に自動読込」を有効にした場合は、利用可能なバックアップを起動時に読み込みます。リアルタイム同期やiPadへの書き戻しは行いません。&lt;/p&gt;
+&lt;div id="5-個人情報の第三者提供について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="external-services"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
+&lt;p&gt;かんたんバックアップにはAppleのiCloudを利用します。ファイル選択画面で他の外部保存先を選んだ場合は、そのサービスの提供者が情報を取り扱います。お問い合わせには利用者が選ぶメールサービス等を利用します。これらの利用に伴う処理のほか、法令に基づき情報を提供する場合があります。&lt;/p&gt;
+&lt;div id="4-広告解析ツールについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="広告解析"&gt;広告・解析&lt;/h3&gt;
+&lt;p&gt;本アプリは広告配信SDK、利用状況解析SDK、AIの生成・送信機能を利用していません。録音・文字起こし・AI要約の新規作成やアプリ内購入も行いません。&lt;/p&gt;
+
+&lt;h2 id="data-management"&gt;6. 利用者によるデータ管理・削除&lt;/h2&gt;
+&lt;p&gt;新しいバックアップの取り込みに成功すると、Pocket内の閲覧データは新しい内容に置き換わります。失敗時は以前の閲覧データを保持します。Pocketは元のzipやiPadのノートを書き換えません。元のzipやiCloudのバックアップは、それぞれの保存先で管理・削除してください。端末内のアプリデータと、外部に保存したバックアップは別に管理されます。&lt;/p&gt;
+&lt;p&gt;当方が保有する個人情報の開示・訂正・利用停止・削除や、運営者情報についても、次の窓口で受け付けます。対象の特定に必要な範囲で本人確認を行い、法令に従って対応します。対応できない場合は理由を説明します。&lt;/p&gt;
+
+&lt;div id="6-プライバシーポリシーの変更" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="changes"&gt;7. 本ポリシーの変更&lt;/h2&gt;
+&lt;p&gt;法令、本アプリの機能、情報の取扱いの変更に応じて本ポリシーを改定します。変更内容と適用日を本アプリまたは公式サイトで案内し、利用者への影響が大きい変更は適用前にお知らせします。法令上同意が必要な場合は、同意を得たうえで変更後の取扱いを行います。&lt;/p&gt;
+
+&lt;div id="7-お問い合わせ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="inquiries"&gt;8. お問い合わせ&lt;/h2&gt;
+&lt;div class="document-contact" data-document-contact&gt;
+&lt;p&gt;Uni:Note Pocketに関するお問い合わせは、次の窓口からご連絡ください。&lt;/p&gt;&lt;p&gt;&lt;a href="mailto:kumakikai.apps@gmail.com?subject=Uni%3ANote&amp;#43;Pocket&amp;#43;%E2%80%94&amp;#43;%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"&gt;メールで問い合わせる&lt;/a&gt;&lt;/p&gt;&lt;p&gt;お問い合わせの内容に必要な情報だけを送信してください。パスワードや認証コードは送らないでください。&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>プライバシーポリシー (オトミル)</title><link>https://kumakikai.top/privacy/oto-miru/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/oto-miru/</guid><description>&lt;div id="1-基本方針" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="1-はじめに"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、オトミル（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;p&gt;本アプリは、マイクで拾った音声を日本語の字幕として表示します。会員登録やログインは不要です。&lt;/p&gt;
+&lt;div id="2-本アプリが扱う情報" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="2-取得する情報"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;音声と字幕&lt;/strong&gt;：マイク入力と、その音声認識結果。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表示設定&lt;/strong&gt;：表示モード、文字サイズ、テーマ、聞き取り環境など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;利用・広告の状態&lt;/strong&gt;：当日の無料利用時間、広告視聴による追加時間・回数、広告の表示頻度。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;購入状態&lt;/strong&gt;：App Storeで確認できるPlusの利用権、有効期限など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;お問い合わせ情報&lt;/strong&gt;：利用者が送信した内容、返信用メールアドレス、任意の端末・アプリ情報。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;氏名、住所、メールアドレスなどをアプリ内の登録情報として入力する必要はありません。広告サービスが扱う情報は「広告について」に記載します。&lt;/p&gt;
+
+&lt;h2 id="3-情報の利用目的"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;音声と認識結果は字幕の表示に、設定情報は選んだ表示や聞き取り環境の維持に使います。利用時間と広告の状態は無料枠と広告頻度の管理に、購入状態はPlusの利用可否と購入の復元に使います。お問い合わせ情報は回答と問題の調査に使います。&lt;/p&gt;
+
+&lt;h2 id="4-情報の保存管理"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;設定、無料利用時間、広告の表示頻度、購入状態の表示に必要な情報は端末内に保存します。&lt;/p&gt;
+&lt;p&gt;音声を録音ファイルとして保存せず、字幕を永続的な履歴として保存しません。利用時間の上限に達する前に手動で字幕を止めた場合は、その回の字幕を画面上で一時的に見返せます。無料利用時間の終了、「ホームに戻る」操作、アプリの非アクティブ化などにより、この一時的な字幕を消去します。&lt;/p&gt;
+&lt;div id="9-本公式サイトについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h3 id="お問い合わせ情報の保存"&gt;お問い合わせ情報の保存&lt;/h3&gt;
+&lt;p&gt;お問い合わせでは、利用者が送信した内容、返信用メールアドレス、任意に提供した端末・アプリの情報を、回答と問題の調査に利用します。対応に必要な期間保管し、不要になった情報は削除します。法令上の対応に必要な場合は、その目的に必要な範囲で保管します。&lt;/p&gt;
+
+&lt;div id="4-apple-のサービスについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;&lt;div id="8-第三者提供について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="5-外部サービス第三者提供"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
+&lt;p&gt;Appleの音声認識、必要なモデルの取得・準備、App Storeの購入・復元などに、Appleが提供する機能を使います。Apple Account、購入、返金、サブスクリプション管理に関する情報はAppleが処理します。&lt;a href="https://www.apple.com/jp/legal/privacy/jp/"&gt;Appleプライバシーポリシー&lt;/a&gt;もご確認ください。&lt;/p&gt;
+&lt;p&gt;無料版の広告にはGoogle AdMobを、お問い合わせメールの受付・返信にはGoogleのGmailを利用します。サービス提供に必要な外部処理と法令に基づく場合を除き、当方が取得した個人情報を第三者へ提供しません。&lt;/p&gt;
+&lt;div id="3-マイクと音声認識について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="6-マイク音声認識字幕"&gt;6. マイク・音声認識・字幕&lt;/h2&gt;
+&lt;p&gt;テレビ、映画、対面の会話、グループ会話の音声を、端末内のApple Speechで認識します。利用にはマイクと音声認識の許可、対応端末、日本語の音声認識モデルの準備が必要です。Apple Intelligenceの有効化は必須ではありません。&lt;/p&gt;
+&lt;p&gt;本アプリの字幕機能は、音声ファイルや字幕本文を当方のサーバーや、当方が運用する外部文字起こしAPIへ送信しません。会話、テレビ、映画の内容も同じ取扱いです。&lt;/p&gt;
+&lt;div id="5-広告について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="7-広告について"&gt;7. 広告について&lt;/h2&gt;
+&lt;p&gt;無料版ではGoogle Mobile Ads SDK / Google AdMobによる広告を表示します。広告配信事業者が、端末情報、広告識別子、IPアドレス、広告表示・クリックなどの情報を取得・利用する場合があります。&lt;a href="https://policies.google.com/privacy"&gt;Googleプライバシーポリシー&lt;/a&gt;と&lt;a href="https://policies.google.com/technologies/ads"&gt;Googleの広告に関する説明&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;p&gt;音声、字幕、会話、テレビ、映画の内容を広告リクエストへ渡しません。Plusを利用できる状態では、アプリ内広告を表示しません。&lt;/p&gt;
+&lt;div id="6-課金について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="8-購入情報について"&gt;8. 購入情報について&lt;/h2&gt;
+&lt;p&gt;PlusはApp Storeの自動更新サブスクリプションです。本アプリはStoreKitを使って購入状態を確認します。購入、請求、更新、解約、返金はAppleが処理し、当方はクレジットカード番号などの決済情報を取得しません。&lt;/p&gt;
+&lt;div id="7-端末内保存と削除について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="9-利用者によるデータ管理削除"&gt;9. 利用者によるデータ管理・削除&lt;/h2&gt;
+&lt;p&gt;表示設定はアプリの設定画面から変更できます。マイク等の許可は端末の設定で変更できます。&lt;/p&gt;
+&lt;p&gt;本アプリを削除すると、端末内に保存された本アプリの設定や無料利用時間の状態も削除されます。App Storeの購入履歴・契約状態はApple Accountに紐づくため、アプリ削除では消えません。サブスクリプションの解約はApple側で行ってください。&lt;/p&gt;
+&lt;div id="10-子どもの利用について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="10-未成年者の利用"&gt;10. 未成年者の利用&lt;/h2&gt;
+&lt;p&gt;本アプリは子ども向けに設計されたアプリではありません。未成年の利用者は、保護者などの法定代理人と確認し、法令上必要な同意を得たうえで利用してください。&lt;/p&gt;
+&lt;div id="11-プライバシーポリシーの変更" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="11-本ポリシーの変更"&gt;11. 本ポリシーの変更&lt;/h2&gt;
+&lt;p&gt;法令、本アプリの機能、情報の取扱いの変更に応じて本ポリシーを改定します。変更内容と適用日を本アプリまたは公式サイトで案内し、利用者への影響が大きい変更は適用前にお知らせします。法令上同意が必要な場合は、同意を得たうえで変更後の取扱いを行います。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (ギガポケ)</title><link>https://kumakikai.top/privacy/giga-poke/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/giga-poke/</guid><description>&lt;div id="1-基本方針" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="10-本公式サイト" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="15-非公式アプリであること" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-1"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、ギガポケ（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;p&gt;本アプリは、povo 2.0から届いたギガコードと外部特典をiPhone内で管理する非公式アプリです。KDDI株式会社、povo、auとは提携・協賛・公認その他の関係はありません。&lt;/p&gt;
+&lt;div id="2-本アプリが取り扱う情報" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="3-共有したメール本文" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-2"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;p&gt;本アプリは、利用者が登録した次の情報を扱います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特典名、プロモコード・クーポンコードまたは外部クーポンURL、期限、特典の種類&lt;/li&gt;
+&lt;li&gt;未使用・ゴミ箱の状態、登録・更新・ゴミ箱へ移動した日時&lt;/li&gt;
+&lt;li&gt;通知タイミング、povo 2.0を開く動作、ゴミ箱に関する設定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;共有またはペーストしたメール本文は、特典候補を解析する間だけ使用します。メールアカウントへの接続や受信箱の自動読み取りは行いません。本文を保存したり、外部サーバーやAIへ解析のために送信したり、HTML内の画像・追跡用リソースを取得したりはしません。保存するのは、利用者が確認した特典名、コードまたはURL、期限などの管理項目です。&lt;/p&gt;
+&lt;p&gt;お問い合わせを送信した場合は、その内容、返信用メールアドレス、任意に提供したアプリ・端末情報も扱います。&lt;/p&gt;
+
+&lt;h2 id="section-3"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;特典の登録・期限順表示・利用操作・ゴミ箱管理のために登録情報を使います。通知とウィジェットには、期限や特典名など表示に必要な情報を使います。お問い合わせ情報は回答と問題の調査に使います。&lt;/p&gt;
+&lt;div id="4-保存場所同期バックアップ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-4"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;特典情報と設定は、アプリ・共有機能・ウィジェットが利用する同じiPhone内の保存領域に保存します。特典管理用の外部サーバーやiCloud同期は使わず、当方が端末内の特典情報を閲覧する機能はありません。&lt;/p&gt;
+&lt;p&gt;特典データの保存領域はバックアップ対象から除外しており、本アプリは機種変更・再インストール・バックアップからの復元を提供しません。アプリを削除すると登録データを復元できない場合があります。端末内の保存にはiOSのデータ保護機能を使用します。&lt;/p&gt;
+&lt;p&gt;お問い合わせでは、利用者が送信した内容、返信用メールアドレス、任意に提供した端末・アプリの情報を、回答と問題の調査に利用します。対応に必要な期間保管し、不要になった情報は削除します。法令上の対応に必要な場合は、その目的に必要な範囲で保管します。&lt;/p&gt;
+
+&lt;div id="6-外部通信と第三者サービス" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="povo-20を開く" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="外部クーポンurlを開く" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="お問い合わせ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="app-store" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="8-データの共有と第三者提供" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-5"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
+&lt;p&gt;通常の登録・保存・並び替え・通知・ウィジェット表示のために、特典情報を外部へ送信しません。利用者が次の操作を選んだ場合は、選択先へ情報が渡ります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;povo 2.0を開く&lt;/strong&gt;：コードを含まない起動用リンクを開きます。povoのアカウント情報へはアクセスしません。リンク先ではKDDI・povoの定める取扱いが適用されます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;外部クーポンURLを開く&lt;/strong&gt;：登録したURLにアクセスします。リンク先はIPアドレス等の通常のWebアクセス情報を扱う場合があります。リンク先の規約・プライバシーポリシーをご確認ください。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;標準共有シートを使う&lt;/strong&gt;：利用者が選んだ送信先へ、特典名とコードまたはURLを渡します。送信先と内容を確認してください。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;お問い合わせフォームを使う&lt;/strong&gt;：Google Formsを開きます。特典情報やサポート情報を自動入力・自動送信しません。利用者が送信した内容はGoogleと当方が扱います。アプリ名、バージョン、ビルド、iOS、端末モデル、言語、地域は、利用者が任意にコピーして提供できます。&lt;a href="https://policies.google.com/privacy?hl=ja"&gt;Googleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;App Storeを使う&lt;/strong&gt;：アプリの入手・更新・レビュー等にAppleのサービスを使います。&lt;a href="https://www.apple.com/jp/legal/privacy/jp/"&gt;Appleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの利用者が選ぶ操作と法令に基づく場合を除き、当方が受け取った個人情報を本人の同意なく第三者へ提供しません。&lt;/p&gt;
+&lt;div id="5-クリップボード通知widget" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="クリップボード" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="ローカル通知" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="widget" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="7-収集しない情報と利用しない機能" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="11-セキュリティ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-6"&gt;6. クリップボード・通知・ウィジェット&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;povo 2.0&lt;/code&gt;や&lt;code&gt;コピー&lt;/code&gt;を押すと、対象コードをこの端末内のクリップボードへコピーします。別の内容で上書きされるまで残る場合があります。&lt;/p&gt;
+&lt;p&gt;期限通知はiPhone内で予約するローカル通知です。通知とウィジェットにコードやクーポンURLを表示しません。ウィジェットからアプリを開くリンクにもコード・URLを含めません。&lt;/p&gt;
+&lt;p&gt;本アプリは広告、アカウント登録、利用状況解析サービス、外部へのクラッシュログ送信、AI解析を利用していません。コードやURLは秘密情報として扱い、端末のロックとコピー・共有先を適切に管理してください。&lt;/p&gt;
+&lt;div id="9-ユーザーによる管理と削除" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-7"&gt;7. 利用者によるデータ管理・削除&lt;/h2&gt;
+&lt;p&gt;未使用の特典はゴミ箱へ移動できます。ゴミ箱の特典は未使用へ戻すか、確認後に完全削除でき、ゴミ箱を一括で空にすることもできます。&lt;/p&gt;
+&lt;p&gt;ゴミ箱の自動削除は初期状態では無効です。有効にした場合は、ゴミ箱へ移動してから2週間・30日・60日のうち設定した期間を過ぎた特典を完全削除します。アプリを削除すると端末内のアプリデータも削除されます。コピー・共有・外部フォームなどで渡した情報の管理や削除は、送信先の手続きに従ってください。&lt;/p&gt;
+&lt;div id="12-子どもの利用" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-8"&gt;8. 未成年者の利用&lt;/h2&gt;
+&lt;p&gt;未成年の方が本アプリやお問い合わせフォームを利用する場合は、必要に応じて保護者等と確認してください。&lt;/p&gt;
+&lt;div id="13-本ポリシーの変更" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-9"&gt;9. 本ポリシーの変更&lt;/h2&gt;
+&lt;p&gt;法令、本アプリの機能、情報の取扱いの変更に応じて本ポリシーを改定します。変更内容と適用日を本アプリまたは公式サイトで案内し、利用者への影響が大きい変更は適用前にお知らせします。法令上同意が必要な場合は、同意を得たうえで変更後の取扱いを行います。&lt;/p&gt;</description></item><item><title>プライバシーポリシー (ギャンカレ)</title><link>https://kumakikai.top/privacy/balance-calendar/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/balance-calendar/</guid><description>&lt;h2 id="section-1"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、ギャンカレ（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;div id="1-収集する情報について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-2"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;p&gt;本アプリは、利用者が入力した収入・支出の金額、日時、タグとその設定を扱います。言語・通貨・表示設定、購入済み機能の状態、アプリロックを使う場合のパスコード・認証設定も端末内で扱います。会員登録やプロフィールの入力は必要ありません。&lt;/p&gt;
+&lt;p&gt;広告サービスと購入処理では、下記の情報をGoogleやAppleが扱う場合があります。お問い合わせを送信した場合は、本文、送信元・返信用メールアドレス、利用者が提供したアプリ・端末情報を当方が受け取ります。&lt;/p&gt;
+
+&lt;h2 id="section-3"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;記録した金額・日時・タグは収支の表示、集計、編集・削除に使います。設定は表示や入力方法の調整、購入状態は購入済み機能の提供、認証設定はアプリロックのために使います。お問い合わせ情報は回答と問題の調査に使います。&lt;/p&gt;
+&lt;div id="4-データの保存について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-4"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;収支記録と設定は利用者の端末内に保存します。当方が収支記録を自動取得したり閲覧したりする機能はありません。本アプリ独自のクラウド同期や、記録をファイルへ書き出すバックアップは提供していません。OSによる端末のバックアップは、本アプリ独自の同期機能とは異なります。&lt;/p&gt;
+&lt;p&gt;アプリロックのパスコードは端末内で管理します。Face ID等はOSの認証結果を利用し、顔画像や指紋そのものを本アプリが取得することはありません。&lt;/p&gt;
+&lt;p&gt;お問い合わせでは、利用者が送信した内容、返信用メールアドレス、任意に提供した端末・アプリの情報を、回答と問題の調査に利用します。対応に必要な期間保管し、不要になった情報は削除します。法令上の対応に必要な場合は、その目的に必要な範囲で保管します。&lt;/p&gt;
+
+&lt;div id="3-個人情報の第三者提供について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-5"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
+&lt;p&gt;追加機能の購入・復元はAppleのサービスで処理し、本アプリは購入済みの機能を利用可能にするために購入状態を使います。決済用のカード情報を当方が取得することはありません。&lt;a href="https://www.apple.com/jp/legal/privacy/jp/"&gt;Appleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;p&gt;お問い合わせ機能は、種類・内容・再現手順・補足と、アプリ名・バージョン・OS・端末情報を含むメールの下書きを作ります。利用者が内容を確認して送信するまで、自動で送信しません。&lt;/p&gt;
+&lt;p&gt;下記の広告処理、利用者が選んだ外部サービスへの操作、法令に基づく場合を除き、当方が受け取った個人情報を本人の同意なく第三者へ提供しません。&lt;/p&gt;
+&lt;div id="2-広告について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-6"&gt;6. 広告・解析について&lt;/h2&gt;
+&lt;p&gt;本アプリはGoogle AdMobを利用して広告を表示します。広告の配信・効果測定・不正対策・品質維持のため、端末や広告の識別子、概略の位置に関する情報、広告の表示・操作、診断・性能・クラッシュに関する情報等をGoogleが扱う場合があります。取扱いは端末の設定・許可やサービスの条件等によって異なります。&lt;/p&gt;
+&lt;p&gt;収支記録を広告配信のために送信する機能はありません。当方独自の利用状況解析やクラッシュ解析サービスは利用していませんが、広告サービスによる解析・診断情報の処理は上記に含まれます。&lt;a href="https://policies.google.com/privacy?hl=ja"&gt;Googleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;p&gt;広告削除はアプリ内の買い切り購入で利用できます。&lt;/p&gt;
+
+&lt;h2 id="section-7"&gt;7. 利用者によるデータ管理・削除&lt;/h2&gt;
+&lt;p&gt;記録はアプリ内で編集・削除できます。削除直後に&lt;code&gt;取消し&lt;/code&gt;が表示されている間は元に戻せます。アプリロックの設定もアプリ内で変更できます。&lt;/p&gt;
+&lt;p&gt;アプリを削除すると端末内のアプリデータも削除されます。必要な記録を失わないよう、再インストール前に確認してください。OSのバックアップや外部へ自分で送った情報は、各保存先の手続きで管理してください。購入情報はAppleの管理対象であり、記録の削除によって購入が取り消されるものではありません。&lt;/p&gt;
+&lt;div id="5-プライバシーポリシーの変更" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-8"&gt;8. 本ポリシーの変更&lt;/h2&gt;
+&lt;p&gt;法令、本アプリの機能、情報の取扱いの変更に応じて本ポリシーを改定します。変更内容と適用日を本アプリまたは公式サイトで案内し、利用者への影響が大きい変更は適用前にお知らせします。法令上同意が必要な場合は、同意を得たうえで変更後の取扱いを行います。&lt;/p&gt;
+
+&lt;div id="6-お問い合わせ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-9"&gt;9. お問い合わせ&lt;/h2&gt;
+&lt;p&gt;当方が保有する個人情報の開示・訂正・利用停止・削除や、運営者情報についても、次の窓口で受け付けます。対象の特定に必要な範囲で本人確認を行い、法令に従って対応します。対応できない場合は理由を説明します。&lt;/p&gt;
+
+&lt;div class="document-contact" data-document-contact&gt;
+&lt;p&gt;ギャンカレに関するお問い合わせは、次の窓口からご連絡ください。&lt;/p&gt;&lt;p&gt;&lt;a href="mailto:kumakikai.apps@gmail.com?subject=%E3%82%AE%E3%83%A3%E3%83%B3%E3%82%AB%E3%83%AC&amp;#43;%E2%80%94&amp;#43;%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"&gt;メールで問い合わせる&lt;/a&gt;&lt;/p&gt;&lt;p&gt;お問い合わせの内容に必要な情報だけを送信してください。パスワードや認証コードは送らないでください。&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>プライバシーポリシー (すわなび)</title><link>https://kumakikai.top/privacy/smokeless/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0900</pubDate><guid>https://kumakikai.top/privacy/smokeless/</guid><description>&lt;h2 id="section-1"&gt;1. はじめに&lt;/h2&gt;
+&lt;p&gt;Yuya Nakamuraが運営するアプリ開発ブランドKUMAKIKAI（以下「当方」）は、すわなび（以下「本アプリ」）の利用および本アプリに関するお問い合わせで取り扱う情報を、本プライバシーポリシーに定めます。&lt;/p&gt;
+
+&lt;div id="1-取得する情報について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-2"&gt;2. 取得する情報&lt;/h2&gt;
+&lt;p&gt;本アプリは、喫煙・我慢を記録した日時と回数、銘柄、1箱の本数・価格、表示・言語・通貨・アラート等の設定、購入済み機能の状態を扱います。会員登録やプロフィールの入力は必要ありません。&lt;/p&gt;
+&lt;p&gt;お問い合わせを送信した場合は、本文、送信元・返信用メールアドレス、利用者が提供したアプリ・端末情報も扱います。広告と購入の処理では、下記の情報をGoogleやAppleが扱う場合があります。&lt;/p&gt;
+
+&lt;h2 id="section-3"&gt;3. 情報の利用目的&lt;/h2&gt;
+&lt;p&gt;記録は喫煙・我慢の回数表示、期間別の集計、グラフに使います。銘柄ごとの本数・価格は金額換算に、設定は表示やアラートに、購入状態は購入済み機能の提供に使います。お問い合わせ情報は回答と問題の調査に使います。&lt;/p&gt;
+&lt;div id="2-端末内保存とウィジェット連携について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-4"&gt;4. 情報の保存・管理&lt;/h2&gt;
+&lt;p&gt;記録と設定は利用者の端末内に保存し、当方が自動取得・閲覧する機能はありません。ホームウィジェットは同じiPhone内で当日件数や記録に必要な情報を共有します。本アプリ独自のクラウド同期や、記録をファイルへ書き出すバックアップ機能はありません。&lt;/p&gt;
+&lt;p&gt;ペアリングしたiPhoneとWatchの間で、記録日時・喫煙または我慢の種別・重複取り込みを防ぐ識別子、当日の件数、Watch機能の利用権に関する状態をやり取りします。未接続時の記録はWatch内に保存し、再接続後にiPhoneへ取り込みます。これはクラウドバックアップとは異なります。&lt;/p&gt;
+&lt;p&gt;OSによる端末のバックアップは、本アプリ独自の同期機能とは別の仕組みです。&lt;/p&gt;
+&lt;p&gt;お問い合わせでは、利用者が送信した内容、返信用メールアドレス、任意に提供した端末・アプリの情報を、回答と問題の調査に利用します。対応に必要な期間保管し、不要になった情報は削除します。法令上の対応に必要な場合は、その目的に必要な範囲で保管します。&lt;/p&gt;
+
+&lt;div id="4-お問い合わせについて" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+&lt;div id="5-個人情報の第三者提供について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-5"&gt;5. 外部サービス・第三者提供&lt;/h2&gt;
+&lt;p&gt;広告削除と銘柄追加パックは買い切りのアプリ内購入です。購入・復元はAppleが処理し、本アプリは購入済み機能を提供するために購入状態を使います。決済用のカード情報を当方が取得することはありません。&lt;a href="https://www.apple.com/jp/legal/privacy/jp/"&gt;Appleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;p&gt;お問い合わせ機能は、種類・内容・手順・補足と、アプリ名・バージョン・OS・端末モデルを含むメールの下書きを作ります。利用者が確認して送信するまで、自動で送信しません。&lt;/p&gt;
+&lt;p&gt;下記の広告処理、利用者が選んだ外部サービスへの操作、法令に基づく場合を除き、当方が受け取った個人情報を本人の同意なく第三者へ提供しません。&lt;/p&gt;
+&lt;div id="3-広告およびアプリ内購入について" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-6"&gt;6. 広告・解析について&lt;/h2&gt;
+&lt;p&gt;本アプリはGoogle AdMobを利用して広告を表示します。広告の配信・効果測定・不正対策・品質維持のため、端末や広告の識別子、概略の位置に関する情報、広告の表示・操作、診断・性能・クラッシュに関する情報等をGoogleが扱う場合があります。取扱いは端末の設定・許可やサービスの条件等によって異なります。&lt;/p&gt;
+&lt;p&gt;喫煙・我慢の記録を広告配信のために送信する機能はありません。当方独自の利用状況解析やクラッシュ解析サービスは利用していませんが、広告サービスによる解析・診断情報の処理は上記に含まれます。&lt;a href="https://policies.google.com/privacy?hl=ja"&gt;Googleプライバシーポリシー&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;p&gt;広告削除の買い切り購入で、アプリ内の広告を非表示にできます。&lt;/p&gt;
+
+&lt;h2 id="section-7"&gt;7. 利用者によるデータ管理・削除&lt;/h2&gt;
+&lt;p&gt;記録はアプリ内で削除でき、削除直後に&lt;code&gt;取消し&lt;/code&gt;が表示されている間は元に戻せます。銘柄や表示等の設定もアプリ内で変更できます。&lt;/p&gt;
+&lt;p&gt;アプリを削除すると端末内のアプリデータも削除されます。必要な記録を失わないよう、再インストール前に確認してください。WatchやOSのバックアップ、外部へ自分で送った情報は、それぞれの保存先で管理してください。記録を削除してもAppleが管理する購入情報は取り消されません。&lt;/p&gt;
+&lt;div id="6-プライバシーポリシーの変更" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-8"&gt;8. 本ポリシーの変更&lt;/h2&gt;
+&lt;p&gt;法令、本アプリの機能、情報の取扱いの変更に応じて本ポリシーを改定します。変更内容と適用日を本アプリまたは公式サイトで案内し、利用者への影響が大きい変更は適用前にお知らせします。法令上同意が必要な場合は、同意を得たうえで変更後の取扱いを行います。&lt;/p&gt;
+
+&lt;div id="7-お問い合わせ" class="guide-legacy-anchor" aria-hidden="true"&gt;&lt;/div&gt;
+
+&lt;h2 id="section-9"&gt;9. お問い合わせ&lt;/h2&gt;
+&lt;p&gt;当方が保有する個人情報の開示・訂正・利用停止・削除や、運営者情報についても、次の窓口で受け付けます。対象の特定に必要な範囲で本人確認を行い、法令に従って対応します。対応できない場合は理由を説明します。&lt;/p&gt;
+
+&lt;div class="document-contact" data-document-contact&gt;
+&lt;p&gt;すわなびに関するお問い合わせは、次の窓口からご連絡ください。&lt;/p&gt;&lt;p&gt;&lt;a href="mailto:kumakikai.apps@gmail.com?subject=%E3%81%99%E3%82%8F%E3%81%AA%E3%81%B3&amp;#43;%E2%80%94&amp;#43;%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"&gt;メールで問い合わせる&lt;/a&gt;&lt;/p&gt;&lt;p&gt;お問い合わせの内容に必要な情報だけを送信してください。パスワードや認証コードは送らないでください。&lt;/p&gt;
+&lt;/div&gt;</description></item></channel></rss>
